@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Paris, Tuesday, 9 November 1875.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let057"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">057</idno>
+<idno type="collectedletters">44</idno>
+<idno type="brieven1990">056</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Paris</vg:placeLet>
+                        <vg:dateLet>Tuesday, 9 November 1875</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. Paris, Tuesday, 9 November 1875.</p>
+<note type="ongoingTopic" n="1">
+<p>Friendship with Harry Gladwell <ref target="let055.xml">(55)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b57 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Letter headed: ‘<hi rend="ital">[</hi>Paris, le<hi rend="ital">]</hi> 9 Nov. <hi rend="ital">[</hi>187<hi rend="ital">]</hi>5.’</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0057" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000060_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000060_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000060_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000060_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0057" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000060_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000060_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000060_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000060_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>
+                    <vg:suppliedMilestone type="open"/>Goupil &amp; C<hi rend="ss">ie</hi>
+                </ab>
+                <lb n="2" xml:id="l-2"/>
+<ab>Editeurs Imprimeurs</ab>
+                <lb n="3" xml:id="l-3"/>
+<ab>Estampes Françaises &amp; Étrangères</ab>
+                <lb n="4" xml:id="l-4"/>
+<ab>Tableaux Modernes</ab>
+                <lb n="5" xml:id="l-5"/>
+<ab>Rue Chaptal, 9, PARIS.</ab>
+                <lb n="6" xml:id="l-6"/>
+<ab>Succursales à la Haye, Londres, Berlin, New-York.</ab>
+<vg:whiteline/>
+                <lb n="7" xml:id="l-7"/>
+<ab>Paris, le<vg:suppliedMilestone type="close"/> 9 Nov. <supplied>187</supplied>5.</ab>
+<vg:whiteline/>
+                <lb n="8" xml:id="l-8"/>
+<ab>Waarde Theo,</ab>
+                <lb n="9" xml:id="l-9"/>
+<ab>Het is tijd gij weer wat van mij hoort, maar ’t zal deze <lb n="10" xml:id="l-10"/>keer maar een kort woordje zijn want ik heb niet <lb n="11" xml:id="l-11"/>veel tijd.</ab>
+                <lb n="12" xml:id="l-12"/>
+<ab rend="indent">Dank voor wat gij mij zondt, ik ben er blij mede. <lb n="13" xml:id="l-13"/>Zoowel voor Pa en Moe als voor U ben ik blij gij op den <lb n="14" xml:id="l-14"/>dag van de bevestiging te Etten zijt geweest.<anchor n="1" xml:id="note-o-1"/> Gij moet <lb n="15" xml:id="l-15"/>mij eens schrijven hoe gij het daar vondt.─</ab>
+                <lb n="16" xml:id="l-16"/>
+<ab rend="indent">Oom Vincent en Tante<anchor n="2" xml:id="note-o-2"/> zijn gisteren weer vertrokken. ik <lb n="17" xml:id="l-17"/>ben nog al eens bij hen geweest.─ Tot mijn spijt <lb n="18" xml:id="l-18"/>zag ik hen gisteren niet aan den trein toen <lb n="19" xml:id="l-19"/>zij weggingen, hierbij een briefje<c type="kk">/</c> geef dat aan <lb n="20" xml:id="l-20"/>Oom als gij Hem ziet, het is om hem te zeggen <lb n="21" xml:id="l-21"/>hoe het kwam wij elkaar aan ’t station niet <lb n="22" xml:id="l-22"/>zagen.─</ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="23" xml:id="l-23"/>
+<ab rend="indent">Wat is het herfst, gij zult nog al eens wandelen<c type="kk">/</c> <lb n="24" xml:id="l-24"/>staat gij vroeg op? Ik doe dat geregeld, het is een <lb n="25" xml:id="l-25"/>goed ding zich daaraan te wennen<c type="kk">/</c> ’t is kostbaar <lb n="26" xml:id="l-26"/>en mij reeds zeer lief dat vroege schemeruur<c type="kp">_</c> <lb n="27" xml:id="l-27"/>Meestal ga ik vroeg naar bed s’avonds.─ <lb n="28" xml:id="l-28"/>S’morgens kookt mijn waarden Engelschman <lb n="29" xml:id="l-29"/>haver de gort<c type="kk">/</c> wat zou ik U graag eens s’morgens <lb n="30" xml:id="l-30"/>hier hebben.─</ab>
+                <lb n="31" xml:id="l-31"/>
+<ab rend="indent">Anna schijnt ook vroeg op te staan. Zij heeft <lb n="32" xml:id="l-32"/>het niet makkelijk en ’t is zeker zij zich zeer ver<c type="shy">-</c>
+                    <lb n="33" xml:id="l-33"/>dienstelijk maakt. </ab>
+                <lb n="34" xml:id="l-34"/>
+<ab rend="indent">Nu<c type="kk">/</c> spoedig waarschijnlijk meer. Schrijf maar <lb n="35" xml:id="l-35"/>weer eens spoedig en maar flinkweg<c type="kp">_</c>
+                </ab>
+                <lb n="36" xml:id="l-36"/>
+<ab rend="indent">In gedachten druk ik U de hand en ben steeds</ab>
+<vg:whiteline/>
+                <lb n="37" xml:id="l-37"/>
+<ab>Uw liefh. broeder</ab>
+                <lb n="38" xml:id="l-38"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-1" targetEnd="l-7" n="1-7">
+                        <hi rend="ital">Printed letterhead.</hi>
+                    </note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>[Letterhead: Goupil Paris]</ab>
+<vg:whiteline/>
+<ab>Paris, 9 Nov. 1875.</ab>
+<vg:whiteline/>
+<ab>My dear Theo,</ab>
+<ab>It’s time you heard from me again, though this will only be a short note, for I haven’t much time.</ab>
+<ab rend="indent">Thanks for what you sent me, I’m glad to have it. I’m glad that you were in Etten on the day of the induction, for <rs type="pers" key="524 526">Pa and Ma</rs>’s sake as well as yours.<anchor n="1" xml:id="note-t-1"/> You must write and tell me what it was like.</ab>
+<ab rend="indent">
+                    <rs type="pers" key="423">Uncle Vincent</rs> and <rs type="pers" key="853">Aunt</rs>
+                    <anchor n="2" xml:id="note-t-2"/> left yesterday. I went to see them quite often. I’m sorry I didn’t see them at the train yesterday when they left. Herewith a letter, give it to Uncle when you see him, it explains why we didn’t see each other at the station. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">Autumn is really here, you’ll be going for walks fairly often. Do you get up early? I do regularly, it’s good to make a habit of it. It’s precious and already very dear to me, that early morning twilight. I usually go to bed early in the evening. Every morning my <rs type="pers" key="394">worthy Englishman</rs> cooks barley porridge; how I’d like you to be here in the morning sometime.</ab>
+<ab rend="indent">
+                    <rs type="pers" key="412">Anna</rs> seems to get up early as well. She doesn’t have it easy, and she certainly makes herself very useful.</ab>
+<ab rend="indent">Well, more soon, probably. Do write again soon, and freely.</ab>
+<ab rend="indent">I shake your hand in thought, and am ever</ab>
+<vg:whiteline/>
+<ab>Your loving brother</ab>
+<ab>Vincent</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>
+                        <rs type="pers" key="526">Mr van Gogh</rs>’s induction to the living at Etten took place on Sunday, 24 October 1875. He expressed his pleasure at Theo’s presence (FR b2370, 3 November 1875).</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>
+                        <rs type="pers" key="853">Aunt Cornelie van Gogh-Carbentus</rs>, wife of <rs type="pers" key="423">Uncle Vincent</rs> and a sister of <rs type="pers" key="524">Mrs van Gogh</rs>.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

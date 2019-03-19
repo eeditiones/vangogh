@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Brussels, Tuesday, 12 April 1881.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let165"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">165</idno>
+<idno type="collectedletters">143</idno>
+<idno type="brieven1990">164</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Brussels</vg:placeLet>
+                        <vg:dateLet>Tuesday, 12 April 1881</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. Brussels, Tuesday, 12 April 1881.</p>
+<note type="ongoingTopic" n="1">
+<p>Van Gogh wants to become an illustrator <ref target="let162.xml">(162)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b163 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Letter headed: ‘12/4-81’.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0163" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000174_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000174_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000174_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000174_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000174_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000174_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+        <surface n="b 0163 V/1962" xml:id="surf-extra-1v">
+            <graphic mimeType="image/tiff" url="VGM001000174_02.TIF" rend="norend"/>
+            <zone xml:id="zone-extra-1">
+<graphic mimeType="image/tiff" url="VGM001000174_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000174_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000174_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>12/4-81</ab>
+<vg:whiteline/>
+                <lb n="2" xml:id="l-2"/>
+<ab>Waarde Theo,</ab>
+                <lb n="3" xml:id="l-3"/>
+<ab>Van Pa gehoord hebbende dat er kans <lb n="4" xml:id="l-4"/>is dat gij Zondag a.s.<anchor n="1" xml:id="note-o-1"/> te Etten zult <lb n="5" xml:id="l-5"/>komen &amp; Pa mij schrijvende dat het <lb n="6" xml:id="l-6"/>goed zijn zou ik alsdan ook aldaar ware<c type="kk">/</c> <lb n="7" xml:id="l-7"/>zoo vertrek ik derwaarts heden.</ab>
+                <lb n="8" xml:id="l-8"/>
+<ab rend="indent">Zoodat ik hoop U weldra te ontmoeten<c type="kk">/</c> <lb n="9" xml:id="l-9"/>’t geen ik met groot verlangen te gemoet zie<c type="kk">/</c> <lb n="10" xml:id="l-10"/>ook vanwege dat ik twee teekeningen <lb n="12" xml:id="l-12"/>geschetst heb bij Rappard<c type="kk">/</c> “The lampbearers” <lb n="13" xml:id="l-13"/>en “The bearers of the burden”<c type="kk">/</c>
+                    <anchor n="2" xml:id="note-o-2"/> waarover ik <lb n="14" xml:id="l-14"/>wel met U wilde beraadslagen over de verdere <lb n="15" xml:id="l-15"/>uitvoering. Om ze klaar te krijgen zal ik <lb n="16" xml:id="l-16"/>op de een of andere manier de noodige modellen <lb n="17" xml:id="l-17"/>moeten hebben &amp; alsdan heb ik het vertrouwen <lb n="18" xml:id="l-18"/>dat er iets goeds van komt<c type="kk">/</c> n.l. een paar <lb n="19" xml:id="l-19"/>composities die ik aan Smeeton Tilly<anchor n="3" xml:id="note-o-3"/> of <lb n="20" xml:id="l-20"/>de lui van de Illustration of dergelijken kan toonen.</ab>
+                <lb n="21" xml:id="l-21"/>
+<ab rend="indent">Ik vertrek dus heden en meld U dit opdat <lb n="21"/>gij niet welligt te Brussel naar mij zoeken mogt. <lb n="22" xml:id="l-22"/>Ik zou te Etten graag nog een paar schetsen <lb n="23" xml:id="l-23"/>op de hei maken<c type="kk">/</c> daarom ga ik een paar dagen <lb n="24" xml:id="l-24"/>vroeger.<anchor n="4" xml:id="note-o-4"/>
+                </ab>
+                <lb n="25" xml:id="l-25"/>
+<ab rend="indent">Alzoo ik hoop wij elkaar spoedig zien <lb n="26" xml:id="l-26"/>&amp; druk U in gedachten de hand.</ab>
+<vg:whiteline/>
+                <lb n="27" xml:id="l-27"/>
+<ab>Yours truly</ab>
+                <lb n="28" xml:id="l-28"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-12" n="12">lampbearers” &lt; lampbearers</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>12/4-81</ab>
+<vg:whiteline/>
+<ab>My dear Theo,</ab>
+<ab>Having heard from <rs type="pers" key="526">Pa</rs> that there’s a chance you’ll be coming to Etten this Sunday,<anchor n="1" xml:id="note-t-1"/> and Pa having written to me that it would be good if I were there as well, I set out for there today.</ab>
+<ab rend="indent">So I hope to meet you soon, which I look forward to with great eagerness, also because I sketched two drawings at <rs type="pers" key="1306">Rappard</rs>’s, ‘The lamp-bearers’ and ‘The bearers of the burden’,<anchor n="2" xml:id="note-t-2"/> the further execution of which I wanted to discuss with you. To finish them I must, one way or another, have the necessary models, and then I’m confident that something good will come of them, namely a couple of compositions that I can show to <rs type="pers" key="1371">Smeeton</rs> <rs type="pers" key="1372">Tilly</rs>
+                    <anchor n="3" xml:id="note-t-3"/> or the people from L’Illustration or suchlike.</ab>
+<ab rend="indent">So I’m leaving today and am telling you this lest you should perhaps look for me in Brussels. In Etten I’d like to make a few sketches on the heath, which is why I’m going a couple of days earlier.<anchor n="4" xml:id="note-t-4"/>
+                </ab>
+<ab rend="indent">So I hope we see each other soon, and shake your hand in thought.</ab>
+<vg:whiteline/>
+<ab>Yours truly,</ab>
+<ab>Vincent</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>Sunday, 17 April 1881 was Easter.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>The drawing <hi rend="ital">The lampbearers </hi>is not known; the other drawing is <hi rend="ital">The bearers of the burden</hi> (<rs type="ill" key="2330">F 832 / JH -</rs>).</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>The English engraver <rs type="pers" key="1371">Burn Smeeton</rs> and the French wood engraver <rs type="pers" key="1372">Auguste Tilly</rs> formed a partnership in Paris. Their work appeared in <hi rend="ital">Le Magasin Pittoresque</hi>, <hi rend="ital">L’Art</hi>, <hi rend="ital">L’Illustration</hi> and <hi rend="ital">The Illustrated London News</hi>. The last-mentioned magazine had published their portrait of <rs type="pers" key="971">Corot</rs> after <rs type="pers" key="1047">Gilbert</rs>, which Van Gogh knew (<ref target="let030.xml#n-6">see letter 30, n. 6</ref>). They signed ‘Smeeton Tilly sc.’ It is not clear whether Smeeton Tilly was still operating as an engraving business in the 1880s, but their work appeared in <hi rend="ital">L’Illustration</hi> until 1884.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+    <ab>Cf. <hi rend="ital">Landscape with a hut</hi> (<rs type="otherart" key="279">F 842 / JH 5</rs>); <ref target="let167.xml#n-3">see letter 167, n. 3</ref>. <hi rend="ital">Landscape</hi> (<rs type="otherart" key="681">F 874v / JH 3</rs>) and <hi rend="ital">Hut</hi> (<rs type="otherart" key="155">F 875 / JH 4</rs>) probably date from the Brussels period.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

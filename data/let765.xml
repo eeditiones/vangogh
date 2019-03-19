@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Arles, Tuesday, 30 April 1889.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let765"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">765</idno>
+<idno type="collectedletters">588 and 589</idno>
+<idno type="brieven1990">767</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Arles</vg:placeLet>
+                        <vg:dateLet>Tuesday, 30 April 1889</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. Arles, Tuesday, 30 April 1889.</p>
+<note type="ongoingTopic" n="1">
+<p>Decision regarding Vincent’s admission to the asylum at Saint-Rémy <ref target="let760.xml">(760)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="2">
+<p>Vincent’s plan to join the Foreign Legion <ref target="let763.xml">(763)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="3">
+<p>Bernard’s military service <ref target="let575.xml">(575)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b635 a-b V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Vincent congratulates Theo on the occasion of his birthday (1 May). Because of this, and the fact that Jo van Gogh-Bonger (who possibly had a postmark to rely on) dated the letter to ‘30 April 1889’ (<hi rend="ital">Brieven </hi>1914), we have dated the letter to Tuesday, 30 April 1889.</p>
+                    </note>
+<note type="arrangement" xml:id="arrangement">
+<p>The sheet with the titles of paintings at the end (<ref target="#l-158">ll. 158</ref> ff.) had been assigned in <hi rend="ital">Verzamelde brieven</hi> 1973 to <ref target="let767.xml">letter 767</ref>. In accordance with <hi rend="ital">De brieven </hi>1990, we have included it with the present letter.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0635 a" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000868_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000868_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000868_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000868_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000868_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000868_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="VGM001000868_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000868_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000868_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0635 a" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000868_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000868_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000868_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000868_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000868_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000868_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000868_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000868_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000868_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0635 b" xml:id="surf-pb-2r">
+            <graphic mimeType="image/tiff" url="VGM001000869_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-2r-5">
+<graphic mimeType="image/tiff" url="VGM001000869_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000869_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000869_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+        <surface n="b 0635b V/1962" xml:id="surf-extra-1v">
+            <graphic mimeType="image/tiff" url="VGM001000869_02.TIF" rend="norend"/>
+            <zone xml:id="zone-extra-1">
+<graphic mimeType="image/tiff" url="VGM001000869_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000869_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000869_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Mon cher Theo,</ab>
+                <lb n="1*" xml:id="l-1s"/>
+<ab>à l’occasion du premier <lb n="2" xml:id="l-2"/>mai je te souhaite une année pas trop <lb n="3" xml:id="l-3"/>mauvaise et surtout de la santé.<anchor n="1" xml:id="note-o-1"/>
+                </ab>
+                <lb n="4" xml:id="l-4"/>
+<ab rend="indent">Comme je voudrais pouvoir t’en passer des <lb n="5" xml:id="l-5"/>forces physiques<c type="kk">/</c> j’ai un sentiment d’en <lb n="6" xml:id="l-6"/>avoir de trop dans ce moment. Ce qui <lb n="7" xml:id="l-7"/>n’empêche pas que la tête n’est pas encore <lb n="8" xml:id="l-8"/>du tout ce qu’elle devait être.</ab>
+                <lb n="9" xml:id="l-9"/>
+<ab rend="indent">Comme Delacroix avait raison<c type="kk">/</c> qui se nourrissait <lb n="10" xml:id="l-10"/>de pain et de vin seulement et qui a réussi <lb n="11" xml:id="l-11"/>à trouver une façon de vivre en <lb n="12" xml:id="l-12"/>harmonie avec son metier.<anchor n="2" xml:id="note-o-2"/> Mais toujours <lb n="13" xml:id="l-13"/>demeure la fatale question d’argent – Delacroix <lb n="14" xml:id="l-14"/>avait des rentes. Corot aussi<c type="kp">_</c>
+                </ab>
+                <lb n="15" xml:id="l-15"/>
+<ab rend="indent">Et Millet – Millet etait paysan et fils de <lb n="16" xml:id="l-16"/>paysan.<anchor n="3" xml:id="note-o-3"/> Tu liras peutetre avec quelqu’interêt <lb n="17" xml:id="l-17"/>l’article que je découpe dans un journal <lb n="18" xml:id="l-18"/>marseillais parce qu’on y entrevoit Monticelli <lb n="19" xml:id="l-19"/>et je trouve la description du tableau <lb n="20" xml:id="l-20"/>representant un coin de cimetiere fort <lb n="21" xml:id="l-21"/>interessante.<anchor n="4" xml:id="note-o-4"/> Mais helas c’est une autre <lb n="22" xml:id="l-22"/>histoire toujours lamentable.</ab>
+                <lb n="23" xml:id="l-23"/>
+<ab rend="indent">Que c’est triste à penser qu’un peintre <lb n="24" xml:id="l-24"/>qui réussit<c type="kk">/</c> ne fut ce à demi<c type="kk">/</c> à son tour <lb n="25" xml:id="l-25"/>entraine une demie douzaine d’artistes <lb n="26" xml:id="l-26"/>encore plus ratés que lui-même<c type="kp">_</c>
+                </ab>
+                <lb n="27" xml:id="l-27"/>
+<ab rend="indent">Cependant songe à Pangloss<c type="kk">/</c>
+                    <anchor n="5" xml:id="note-o-5"/> songe à Bouvard <lb n="28" xml:id="l-28"/>et Pecuchet,<anchor n="6" xml:id="note-o-6"/> je le sais, alors même cela <lb n="29" xml:id="l-29"/>s’explique mais ces gens-là ne connaissent <lb n="30" xml:id="l-30"/>peut etre pas Pangloss ou bien on oublie tout <lb n="31" xml:id="l-31"/>ce qu’on en sait sous la fatale morsure des <lb n="32" xml:id="l-32"/>desespoirs reels et des grandes douleurs.</ab>
+                <lb n="33" xml:id="l-33"/>
+<ab rend="indent">Et d’ailleurs nous retombons sous le nom <lb n="34" xml:id="l-34"/>d’optimisme de rechef<anchor n="a" xml:id="note-o-a"/> dans une religion <lb n="35" xml:id="l-35"/>qui m’a l’air d’être l’arrière train <lb n="36" xml:id="l-36"/>d’une espece de Boudhisme. Pas de mal <lb n="37" xml:id="l-37"/>à cela, au contraire, si l’on veut.–</ab>
+                <lb n="38" xml:id="l-38"/>
+<ab rend="indent">Je n’aime pas beaucoup l’article sur Monet dans <lb n="39" xml:id="l-39"/>le Figaro<c type="kk">/</c> combien cet autre article dans le <lb n="40" xml:id="l-40"/>19<hi rend="ss">me</hi> siècle était-il supérieur! Là on voyait <lb n="41" xml:id="l-41"/>les tableau et celui ci ne contient que <lb n="42" xml:id="l-42"/>des banalités qui me rendent melancolique<c type="kp">_</c>
+                    <anchor n="7" xml:id="note-o-7"/>
+                </ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="43" xml:id="l-43"/>
+<ab rend="indent">Aujourd’hui je suis en train d’emballer une caisse <lb n="44" xml:id="l-44"/>de tableaux et d’etudes.</ab>
+                <lb n="45" xml:id="l-45"/>
+<ab rend="indent">il y en a une sur laquelle j’ai collé des journeaux <lb n="46" xml:id="l-46"/>qui s’ecaille – c’est une des meilleures et je crois <lb n="47" xml:id="l-47"/>qu’en la regardant tu verras plus clairement <lb n="48" xml:id="l-48"/>ce qu’aurait pu être mon atelier qui a sombré<c type="kp">_</c>
+                    <anchor n="8" xml:id="note-o-8"/> <lb n="49" xml:id="l-49"/>Cette étude ainsi que quelques autres a été gâtée <lb n="50" xml:id="l-50"/>par l’humidité durant ma maladie<c type="kp">_</c>
+                    <anchor n="9" xml:id="note-o-9"/>
+                </ab>
+                <lb n="51" xml:id="l-51"/>
+<ab rend="indent">L’eau d’une inondation a montée jusqu’à <lb n="52" xml:id="l-52"/>quelques pas de la maison<anchor n="10" xml:id="note-o-10"/> et à plus forte <lb n="53" xml:id="l-53"/>raison la maison étant dans mon absence <lb n="54" xml:id="l-54"/>restée sans feu<c type="kk">/</c> en y revenant l’eau <lb n="55" xml:id="l-55"/>et le salpètre suintait des murs<c type="kp">_</c>
+                </ab>
+                <lb n="56" xml:id="l-56"/>
+<ab rend="indent">Cela me faisait de l’effet<c type="kk">/</c> non seulement <lb n="57" xml:id="l-57"/>l’atelier sombré<c type="kk">/</c> mais même les etudes <lb n="58" xml:id="l-58"/>qui en auraient été le souvenir abimées<c type="kk">/</c> <lb n="59" xml:id="l-59"/>c’est si définitif et mon élan pour <lb n="60" xml:id="l-60"/>fonder quelque chôse de très simple mais <lb n="61" xml:id="l-61"/>de durable était si voulu.– Cela a été <lb n="62" xml:id="l-62"/>lutter contre force majeure ou plutôt cela a ete <lb n="63" xml:id="l-63"/>faiblesse de caractère de ma part car <lb n="64" xml:id="l-64"/>il m’en demeure des remords graves <lb n="65" xml:id="l-65"/>difficiles à définir. Je crois que cela a <lb n="66" xml:id="l-66"/>été cause que j’ai tant crié dans les <lb n="67" xml:id="l-67"/>crises que je voulais me défendre et <lb n="68" xml:id="l-68"/>n’y parvenais plus. Car c’était pas à moi<c type="kk">/</c> <lb n="69" xml:id="l-69"/>c’etait justement pour des peintres tels que <lb n="70" xml:id="l-70"/>le malheureux dont parle l’article ci inclus <lb n="71" xml:id="l-71"/>que cet atelier aurait pu servir.</ab>
+                <lb n="72" xml:id="l-72"/>
+<ab rend="indent">Enfin il y a eu plus que nous auparavant<c type="kk">/</c> <lb n="73" xml:id="l-73"/>Brias à Montpellier y a donné toute une <lb n="74" xml:id="l-74"/>fortune et toute une existence et sans le <lb n="75" xml:id="l-75"/>moindre resultat apparent<c type="kp">_</c>
+                </ab>
+                <lb n="76" xml:id="l-76"/>
+<ab rend="indent">Oui – une salle froide de musée municipal où <lb n="77" xml:id="l-77"/>l’on voit un visage navré et bien des beaux tableaux<c type="kk">/</c> <lb n="78" xml:id="l-78"/>où certes on est emu mais helas emu comme dans <lb n="79" xml:id="l-79"/>un cimetière.<anchor n="11" xml:id="note-o-11"/>
+                </ab>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                <lb n="80" xml:id="l-80"/>
+<ab rend="indent">Cependant difficilement se promènerait-on <lb n="81" xml:id="l-81"/>dans un cimetière démontrant plus clairement <lb n="82" xml:id="l-82"/>l’existence de cette Esperance qu’a peinte <lb n="83" xml:id="l-83"/>Puvis de Chavannes.<anchor n="12" xml:id="note-o-12"/>
+                </ab>
+                <lb n="84" xml:id="l-84"/>
+<ab rend="indent">Les tableaux se fanent comme les fleurs – <lb n="85" xml:id="l-85"/>ainsi même des Delacroix avaient soufferts<c type="kk">/</c> <lb n="86" xml:id="l-86"/>le magnifique Daniel<c type="kk">/</c>
+                    <anchor n="13" xml:id="note-o-13"/> les Odalisques<anchor n="14" xml:id="note-o-14"/> <lb n="87" xml:id="l-87"/>(tout autres que celles du Louvre<c type="kk">/</c>
+                    <anchor n="15" xml:id="note-o-15"/> c’etait dans une <lb n="88" xml:id="l-88"/>seule gamme violacée) mais comme <lb n="89" xml:id="l-89"/>cela m’a impressionné ces tableaux <lb n="90" xml:id="l-90"/>qui se fanaient là<c type="kk">/</c> peu compris certes <lb n="91" xml:id="l-91"/>de la plupart des visiteurs qui regardent <lb n="92" xml:id="l-92"/>Courbet et Cabanel et Victor Giraud &amp;c.<anchor n="16" xml:id="note-o-16"/>
+                </ab>
+                <lb n="93" xml:id="l-93"/>
+<ab rend="indent">Que sommes nous<c type="kk">/</c> nous autres peintres<c type="kp">_</c> <lb n="94" xml:id="l-94"/>Eh bien je crois que Richepin a souvent <lb n="95" xml:id="l-95"/>raison par exemple lorsque<c type="kk">/</c> brutalement y allant<c type="kk">/</c> il les <lb n="96" xml:id="l-96"/>renvoie simplement au cabanon dans <lb n="97" xml:id="l-97"/>ses blasphèmes.<anchor n="17" xml:id="note-o-17"/>
+                </ab>
+                <lb n="98" xml:id="l-98"/>
+<ab rend="indent">Maintenant pourtant je t’assure que <lb n="99" xml:id="l-99"/>je ne connais point d’hospice où l’on <lb n="100" xml:id="l-100"/>voudrait me prendre pour rien<c type="kk">/</c> même <lb n="101" xml:id="l-101"/>en supposant que je prendrais sur moi <lb n="102" xml:id="l-102"/>les frais de ma peinture et laisserais le <lb n="103" xml:id="l-103"/>tout de mon travail à l’hospice<c type="kp">_</c>
+                </ab>
+                <lb n="104" xml:id="l-104"/>
+<ab rend="indent">Et cela c’est peut etre je ne dis pas une <lb n="105" xml:id="l-105"/>grande mais enfin une petite <lb n="106" xml:id="l-106"/>injustice. Je serais résigné si <lb n="107" xml:id="l-107"/>je trouvais cela.– Si j’etais sans <lb n="108" xml:id="l-108"/>ton amitie on me renverrait sans remords <lb n="109" xml:id="l-109"/>au suicide et quelque lâche que je sois<c type="kk">/</c> je <lb n="110" xml:id="l-110"/>finirais par y aller<c type="kp">_</c>– Là<c type="kk">/</c> ainsi que <lb n="111" xml:id="l-111"/>tu le verras j’espère<c type="kk">/</c> est le joint où il <lb n="112" xml:id="l-112"/>nous est permis de protester contre <lb n="113" xml:id="l-113"/>la société et de nous défendre<c type="kp">_</c>
+                </ab>
+                <lb n="114" xml:id="l-114"/>
+<ab rend="indent">Tu peux être passablement sûr que l’artiste <lb n="115" xml:id="l-115"/>marseillais suicidé ne s’est aucunement <lb n="116" xml:id="l-116"/>suicidé par suite de l’absinthe<c type="kk">/</c> pour la <lb n="117" xml:id="l-117"/>simple raison que personne ne lui <lb n="118" xml:id="l-118"/>en aura offert et que lui ne doit pas avoir 
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                    <lb n="119" xml:id="l-119"/>eu de quoi en acheter. D’ailleurs ce ne sera <lb n="120" xml:id="l-120"/>pas pour son plaisir uniquement qu’il aura <lb n="121" xml:id="l-121"/>bu mais parcequ’etant dejà malade il se <lb n="122" xml:id="l-122"/>soutenait ainsi<c type="kp">_</c>–</ab>
+                <lb n="123" xml:id="l-123"/>
+<ab rend="indent">M. Salles a été à S<hi rend="ss">t</hi> Remy – ils ne veulent pas <lb n="124" xml:id="l-124"/>me permettre la peinture hors de l’etablissement <lb n="125" xml:id="l-125"/>ni me prendre à moins de 100 francs.</ab>
+                <lb n="126" xml:id="l-126"/>
+<ab rend="indent">Ces renseignements sont donc bien mauvais<c type="kp">_</c> <lb n="127" xml:id="l-127"/>Si en m’engageant pour 5 ans dans la <lb n="128" xml:id="l-128"/>légion étrangère je pourrais m’en tirer<c type="kk">/</c> <lb n="129" xml:id="l-129"/>je crois que je préférerais cela<c type="kp">_</c>
+                </ab>
+                <lb n="130" xml:id="l-130"/>
+<ab rend="indent">Car d’une part étant enfermé<c type="kk">/</c> ne travaillant pas <lb n="131" xml:id="l-131"/>je guérirai difficilement<c type="kk">/</c> d’autre part <lb n="132" xml:id="l-132"/>on nous ferait payer 100 francs par mois <lb n="133" xml:id="l-133"/>toute une longue vie de fou durant<c type="kp">_</c>
+                </ab>
+                <lb n="134" xml:id="l-134"/>
+<ab rend="indent">C’est grave et que veux tu<c type="kk">/</c> qu’on y réfléchisse<c type="kp">_</c> <lb n="135" xml:id="l-135"/>mais voudra-t-on me prendre comme soldat? <lb n="136" xml:id="l-136"/>Je me sens très fatigué par la conversation <lb n="137" xml:id="l-137"/>avec m. Salles et je ne sais trop que faire<c type="kp">_</c> <lb n="138" xml:id="l-138"/>J’ai moi recommandé à Bernard de faire son service<c type="kk">/</c> <lb n="139" xml:id="l-139"/>ainsi est ce si etonnant que j’y songe d’aller en <lb n="140" xml:id="l-140"/>Arabie moi-même comme soldat.</ab>
+                <lb n="141" xml:id="l-141"/>
+<ab rend="indent">Je dis cela pour le cas;<anchor n="b" xml:id="note-o-b"/> il ne te faudrait pas trop <lb n="142" xml:id="l-142"/>me blamer si j’y vais<c type="kp">_</c> Le reste est si vague <lb n="143" xml:id="l-143"/>et si étrange.– Et tu sais combien il est dubieux<anchor n="c" xml:id="note-o-c"/> <lb n="144" xml:id="l-144"/>que jamais on recouvre ce que ça coute de faire <lb n="145" xml:id="l-145"/>de la peinture. D’ailleurs il me semble au physique <lb n="146" xml:id="l-146"/>me porter bien.</ab>
+                <lb n="147" xml:id="l-147"/>
+<ab rend="indent">Si je n’y peux pas travailler que <hi rend="ital">sous surveillance! </hi>et <lb n="148" xml:id="l-148"/>dans l’etablissement – est ce mon dieu la peine de <lb n="149" xml:id="l-149"/>payer de l’argent pour cela!</ab>
+                <lb n="150" xml:id="l-150"/>
+<ab rend="indent">Certes à la caserne je pourrais alors tout autant <lb n="151" xml:id="l-151"/>et meme mieux travailler<c type="kp">_</c>
+                </ab>
+                <lb n="152" xml:id="l-152"/>
+<ab rend="indent">Enfin je réflechis<c type="kk">/</c> fais en autant<c type="kk">/</c> sachons <lb n="153" xml:id="l-153"/>que tout marche toujours pour le mieux <lb n="154" xml:id="l-154"/>dans le meilleur des mondes<c type="kk">/</c>
+                    <anchor n="18" xml:id="note-o-18"/> cela n’est <lb n="155" xml:id="l-155"/>pas impossible<c type="kp">_</c> Je te serre bien fortement <lb n="156" xml:id="l-156"/>la main<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="156*" xml:id="l-156s"/>
+<ab>t<c type="kp">_</c> à t<c type="kp">_</c>
+                </ab>
+                <lb n="157" xml:id="l-157"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+                <lb n="158" xml:id="l-158"/>
+<ab>Voici ce que je trouve digne d’être mis sur chassis <lb n="159" xml:id="l-159"/>dans l’envoi<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="160" xml:id="l-160"/>
+<ab rend="html" html="765_01_ol.html">le café de nuit<anchor n="19" xml:id="note-o-19"/>
+                </ab>
+                <lb n="161" xml:id="l-161"/>
+<ab rend="html" html="765_01_ol.html">la vigne verte<anchor n="20" xml:id="note-o-20"/>
+                </ab>
+                <lb n="162" xml:id="l-162"/>
+<ab rend="html" html="765_01_ol.html">la vigne rouge<anchor n="21" xml:id="note-o-21"/>
+                </ab>
+                <lb n="163" xml:id="l-163"/>
+<ab rend="html" html="765_01_ol.html">la chambre à coucher<anchor n="22" xml:id="note-o-22"/>
+                </ab>
+                <lb n="164" xml:id="l-164"/>
+<ab rend="html" html="765_01_ol.html">les sillons<anchor n="23" xml:id="note-o-23"/>
+                </ab>
+                <lb n="165" xml:id="l-165"/>
+<ab rend="html" html="765_01_ol.html">idem<anchor n="24" xml:id="note-o-24"/>
+                </ab>
+                <lb n="167" xml:id="l-167"/>
+<ab rend="html" html="765_01_ol.html">portrait de Bock.<anchor n="25" xml:id="note-o-25"/>
+                </ab>
+                <lb n="168" xml:id="l-168"/>
+<ab rend="html" html="765_01_ol.html">    ,,      ,,  Laval<anchor n="26" xml:id="note-o-26"/>
+                </ab>
+                <lb n="169" xml:id="l-169"/>
+<ab rend="html" html="765_01_ol.html">    ,,      ,,  Gauguin<anchor n="27" xml:id="note-o-27"/>
+                </ab>
+                <lb n="170" xml:id="l-170"/>
+<ab rend="html" html="765_01_ol.html">    ,,      ,,  Bernard<anchor n="28" xml:id="note-o-28"/>
+                </ab>
+                <lb n="171" xml:id="l-171"/>
+<ab rend="html" html="765_01_ol.html">les Aliscamps (voie des tombeaux)</ab>
+                <lb n="172" xml:id="l-172"/>
+<ab rend="html" html="765_01_ol.html">idem<anchor n="29" xml:id="note-o-29"/>
+                </ab>
+                <lb n="173" xml:id="l-173"/>
+<ab rend="html" html="765_01_ol.html">Jardin avec grand buisson <lb n="174" xml:id="l-174"/>de conifère et lauriers roses<anchor n="30" xml:id="note-o-30"/>
+                </ab>
+                <lb n="175" xml:id="l-175"/>
+<ab rend="html" html="765_01_ol.html">idem cèdre &amp; geraniums<anchor n="31" xml:id="note-o-31"/>
+                </ab>
+                <lb n="176" xml:id="l-176"/>
+<ab rend="html" html="765_01_ol.html">Tournesols.<anchor n="32" xml:id="note-o-32"/>
+                </ab>
+                <lb n="177" xml:id="l-177"/>
+<ab rend="html" html="765_01_ol.html">fleurs: Scabieuses &amp;c<c type="kp">_</c>
+                    <anchor n="33" xml:id="note-o-33"/>
+                </ab>
+                <lb n="178" xml:id="l-178"/>
+<ab rend="html" html="765_01_ol.html">id<c type="kp">_</c>: astres &amp; soucis &amp;c<c type="kp">_</c>
+                    <anchor n="34" xml:id="note-o-34"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="179" xml:id="l-179"/>
+<ab>la caisse contient des études de Gauguin qui sont <lb n="180" xml:id="l-180"/>à lui<c type="kk">/</c>
+                    <anchor n="35" xml:id="note-o-35"/> puis ses deux masques d’escrime et des <lb n="181" xml:id="l-181"/>gants d’escrime<c type="kp">_</c>
+                    <anchor n="36" xml:id="note-o-36"/>
+                </ab>
+                <lb n="182" xml:id="l-182"/>
+<ab rend="indent">S’il y a place dans la caisse j’ajoute des chassis<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-141" n="141">cas; &lt; cas</note>
+<note target="l-177" n="177">fleurs: &lt; fleurs</note>
+<note target="l-178" n="178">id<c type="kp">_</c>: &lt; id</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo,</ab>
+<ab>On the occasion of the first of May I wish you not too bad a year, and above all good health.<anchor n="1" xml:id="note-t-1"/>
+                </ab>
+<ab rend="indent">How I’d like to be able to pass on some physical strength to you, I have a feeling of having too much of it at the moment. Which doesn’t prevent my mind from not yet being at all what it ought to be.</ab>
+<ab rend="indent">How right <rs type="pers" key="982">Delacroix</rs> was, who lived on bread and wine alone, and who succeeded in finding a way of life in harmony with his profession.<anchor n="2" xml:id="note-t-2"/> But the inevitable question of money always remains – <rs type="pers" key="982">Delacroix</rs> had a private income. <rs type="pers" key="971">Corot</rs> too.</ab>
+<ab rend="indent">And <rs type="pers" key="1226">Millet</rs> – Millet was a peasant and the son of a peasant.<anchor n="3" xml:id="note-t-3"/> You’ll perhaps read with some interest the article I’m cutting out of a Marseille newspaper, because in it one glimpses <rs type="pers" key="1240">Monticelli</rs>, and I find the description of the painting of a corner of the cemetery extremely interesting.<anchor n="4" xml:id="note-t-4"/> But alas, it’s another still-lamentable story.</ab>
+<ab rend="indent">How sad it is to think that a painter who succeeds, even half succeeds, in his turn pulls along half a dozen artists who are even greater failures than himself.</ab>
+<ab rend="indent">However, think of Pangloss,<anchor n="5" xml:id="note-t-5"/> think of Bouvard and Pécuchet,<anchor n="6" xml:id="note-t-6"/> I know, then even that can be explained, but those people perhaps don’t know Pangloss, or else one forgets everything one knows about him under the inevitable bite of real despairs and great pains.</ab>
+<ab rend="indent">And what’s more, under the name of optimism we fall back into a religion which to me has the look of being the rear end of a kind of Buddhism. Nothing bad about that, quite the opposite, if you like.</ab>
+<ab rend="indent">I don’t much like the article on <rs type="pers" key="1222">Monet</rs> in Le Figaro, how much better that other article in Le 19ième Siècle was! There one saw the paintings, and this one contains only banalities that make me melancholy.<anchor n="7" xml:id="note-t-7"/> 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">Today I’m packing up a crate of paintings and studies.</ab>
+<ab rend="indent">There’s one which is flaking, onto which I’ve stuck newspapers – it’s one of the best and I think that when you look at it you’ll see more clearly what my studio, now foundered, could have been.<anchor n="8" xml:id="note-t-8"/> This study, as well as a few others, was spoiled by damp during my illness.<anchor n="9" xml:id="note-t-9"/>
+                </ab>
+<ab rend="indent">The water from a flood rose up to a few feet from the house<anchor n="10" xml:id="note-t-10"/> and, more importantly, when I came back water and saltpetre were oozing from the walls because the house had been without a fire during my absence.</ab>
+<ab rend="indent">That had an effect on me, not only the studio having foundered, but even the studies which would have been the memories of it damaged, it’s so final, and my urge to found something very simple but durable was so strong. It was fighting against insurmountable odds, or rather it was weakness of character on my part, for I still have feelings of grave remorse difficult to define. I think that was the cause of my crying out so much during the crises, that I wanted to defend myself and could no longer manage to. For it wasn’t for me, it was for the very painters like the unfortunate one spoken of in the enclosed article that this studio could have been of use.</ab>
+<ab rend="indent">Anyway, there have been more than us before, <rs type="pers" key="312">Bruyas</rs> in Montpellier gave an entire fortune to it and an entire existence and without the least apparent result.</ab>
+<ab rend="indent">Yes – a cold room in a municipal museum where one sees a deeply saddened face and lots of fine paintings, where certainly one is moved, but alas moved as in a cemetery.<anchor n="11" xml:id="note-t-11"/> 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/>
+                </ab>
+<ab rend="indent">However, it would be difficult for one to walk in a cemetery demonstrating more clearly the existence of that Hope that <rs type="pers" key="1286">Puvis de Chavannes</rs> painted.<anchor n="12" xml:id="note-t-12"/>
+                </ab>
+<ab rend="indent">The paintings fade like flowers – thus even some <rs type="pers" key="982">Delacroix</rs>s had suffered, the magnificent Daniel,<anchor n="13" xml:id="note-t-13"/> the Odalisques<anchor n="14" xml:id="note-t-14"/> (quite different from those in the Louvre,<anchor n="15" xml:id="note-t-15"/> it was in a single purplish range), but how that impressed me, those paintings that were fading there, little understood, it’s true, by the majority of visitors who look at <rs type="pers" key="962">Courbet</rs> and <rs type="pers" key="917">Cabanel</rs> and <rs type="pers" key="1038">Victor Giraud</rs> &amp;c.<anchor n="16" xml:id="note-t-16"/>
+                </ab>
+<ab rend="indent">What are we, we painters? Well, I think that <rs type="pers" key="727">Richepin</rs> is often right, for example, when going at it point-blank he simply sends them back to the madhouse in his blasphemies.<anchor n="17" xml:id="note-t-17"/>
+                </ab>
+<ab rend="indent">Now, though, I assure you that I know no hospital where one would want to take me for nothing, even supposing that I would take upon myself the expenses of my painting and would leave all my work to the hospital.</ab>
+<ab rend="indent">And that is perhaps, I don’t say a great but anyway a small injustice. I would be resigned if I thought that. If I was without your friendship I would be sent back without remorse to suicide, and however cowardly I am, I would end up going there. There, as you will see I hope, is the point where we’re permitted to protest against society and to defend ourselves.</ab>
+<ab rend="indent">You can be reasonably sure that the Marseille artist who committed suicide did not at all commit suicide from drinking absinthe, for the simple reason that nobody will have offered him any and that he wouldn’t have had 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> the means to buy any. Besides, it won’t have been solely for his pleasure that he drank, but because being ill already he kept himself going that way.</ab>
+<ab rend="indent">
+                    <rs type="pers" key="663">Mr Salles</rs> has been to St-Rémy – they don’t want to allow me painting outside the establishment, nor to take me for less than 100 francs.</ab>
+<ab rend="indent">So this information is bad indeed. If I could get out of it by enlisting for 5 years in the Foreign Legion, I think I’d prefer that.</ab>
+<ab rend="indent">For on the one hand being locked up, not working I would recover with difficulty, on the other hand we’d be made to pay 100 francs a month all through a madman’s long life.</ab>
+<ab rend="indent">It’s serious, and what can one do, let’s think about it. But will they want to take me on as a soldier? I feel very tired by the conversation with <rs type="pers" key="663">Mr Salles</rs>, and I don’t quite know what to do. I myself advised <rs type="pers" key="831">Bernard</rs> to do his military service, so is it so astonishing that I should think of going to Arabia myself as a soldier.</ab>
+<ab rend="indent">I say this just in case; you shouldn’t blame me too much if I go. The rest is so vague and so strange. And you know how doubtful it is that one ever recovers what it costs to do painting. Besides, it seems to me that physically I am well.</ab>
+<ab rend="indent">If I can’t work there except <hi rend="ital">under supervision!</hi> and in the establishment – is it by God worth paying money for that!</ab>
+<ab rend="indent">Certainly in the barracks I could then work as well and even better.</ab>
+<ab rend="indent">Anyway, I’m thinking, do the same, let’s be aware that everything always happens for the best in the best of worlds,<anchor n="18" xml:id="note-t-18"/> that isn’t impossible. I shake your hand very firmly.</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<ab>
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/>
+                </ab>
+<ab>This is what I consider worthy of being put on stretching frames in the consignment.</ab>
+<vg:whiteline/>
+<ab rend="html" html="765_01_tr.html">the night café<anchor n="19" xml:id="note-t-19"/>
+                </ab>
+<ab rend="html" html="765_01_tr.html">the green vineyard<anchor n="20" xml:id="note-t-20"/>
+                </ab>
+<ab rend="html" html="765_01_tr.html">the red vineyard<anchor n="21" xml:id="note-t-21"/>
+                </ab>
+<ab rend="html" html="765_01_tr.html">the bedroom<anchor n="22" xml:id="note-t-22"/>
+                </ab>
+<ab rend="html" html="765_01_tr.html">the furrows<anchor n="23" xml:id="note-t-23"/>
+                </ab>
+<ab rend="html" html="765_01_tr.html">ditto<anchor n="24" xml:id="note-t-24"/>
+                </ab>
+<ab rend="html" html="765_01_tr.html">portrait of Boch<anchor n="25" xml:id="note-t-25"/>
+                </ab>
+<ab rend="html" html="765_01_tr.html">,, Laval<anchor n="26" xml:id="note-t-26"/>
+                </ab>
+<ab rend="html" html="765_01_tr.html">,, Gauguin<anchor n="27" xml:id="note-t-27"/>
+                </ab>
+<ab rend="html" html="765_01_tr.html">,, Bernard<anchor n="28" xml:id="note-t-28"/>
+                </ab>
+<ab rend="html" html="765_01_tr.html">The Alyscamps (lane of tombs)</ab>
+<ab rend="html" html="765_01_tr.html">ditto<anchor n="29" xml:id="note-t-29"/>
+                </ab>
+<ab rend="html" html="765_01_tr.html">Garden with large conifer bush and oleanders<anchor n="30" xml:id="note-t-30"/>
+                </ab>
+<ab rend="html" html="765_01_tr.html">ditto cedar and geraniums<anchor n="31" xml:id="note-t-31"/>
+                </ab>
+<ab rend="html" html="765_01_tr.html">Sunflowers<anchor n="32" xml:id="note-t-32"/>
+                </ab>
+<ab rend="html" html="765_01_tr.html">flowers: Scabious &amp;c.<anchor n="33" xml:id="note-t-33"/>
+                </ab>
+<ab rend="html" html="765_01_tr.html">ditto: asters and marigolds &amp;c.<anchor n="34" xml:id="note-t-34"/>
+                </ab>
+<vg:whiteline/>
+<ab>The crate contains some studies by <rs type="pers" key="1039">Gauguin</rs> which belong to him,<anchor n="35" xml:id="note-t-35"/> then his two fencing masks and fencing gloves.<anchor n="36" xml:id="note-t-36"/>
+                </ab>
+<ab rend="indent">If there’s room in the crate I’ll add some stretching frames.</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>On 1 May Theo celebrated his 32nd birthday.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>Van Gogh could have based this statement on <rs type="pers" key="742">Silvestre</rs>’s <hi rend="ital">
+                            <rs type="lit" key="415">Documents nouveaux</rs>
+                        </hi>: ‘Yes, <rs type="pers" key="982">Delacroix</rs> was a great worker. He would get up at seven in the morning and quickly get down to work until three in the afternoon without taking anything at all to eat, in order to keep his mind lighter and more supple. He would sometimes return, if hunger drove him, to his original habit, which was to swallow a crust of bread and two fingers of wine’ (Oui, Delacroix fut un grand travailleur. Il se levait sur les sept heures du matin et se mettait vite à l’oeuvre jusqu’à trois heures du soir sans prendre la moindre nourriture, afin de garder son esprit plus souple et plus léger. Il revenait parfois, la faim le poussant, à sa première habitude qui fut d’avaler une croûte de pain et deux doigts de vin) (Ed Paris 1864, p. 44).</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>
+                        <rs type="pers" key="737">Sensier</rs> had already emphasized the image of <rs type="pers" key="1226">Millet</rs> as a peasant among peasants in his Salon reviews. In <hi rend="ital">
+                            <rs type="lit" key="238">La vie et l’oeuvre de J.-F. Millet</rs>
+                        </hi> Sensier calls him a ‘peasant’ and ‘true peasant’ a number of times. He also remarks that in Barbizon Millet ‘became a peasant again’, and quotes a letter in which Millet says of himself: ‘I am a peasant through and through’ (‘Je suis paysan paysan’). See Sensier 1881, pp. 37, 60, 66, 116, 181, 188, 194, 219, 302. See also Parsons and McWilliam 1983, pp. 40, 43.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+      <ab>Van Gogh is referring to the following description: ‘It was difficult to portray this cemetery with a more truthful feeling of desolation. A bleak, arid patch of ground, enclosed by grey walls, on which the torrid July sun casts its consuming light. Not a single flower on the bare graves, not a shrub to shelter them nor a cypress to protect them. Powdery stones giving life, through their fissures, to a few wild plants, through the midst of which run small lizards. Over there, in the corner, a gravedigger, his foot resting on his spade, for he has just dug a grave, wiping his brow. Here and there, a few clédas [wooden hurdles] that the mistral and the March rain have knocked down, forgotten in this lonely place. (Ce cimetière, il était difficile de le rendre avec un sentiment plus vrai de désolation. Un pan de terre morne, aride, que clôturent des murailles grises et sur lequel le soleil torride de juillet jette sa dévorante lumière. Nulle fleur sur les tombes nues, pas un arbuste qui les abrite, pas un cyprès qui les protège. Des pierres poudreuses donnant naissance, à travers leurs fissures, à quelques herbes sauvages au milieu desquelles courent de petits lézards. Là-bas, dans le coin, un fossoyeur, le pied sur sa bêche, car il vient de creuser une fosse, et s’épongeant le front. Çà et là des clédas que le mistral et la pluie de mars ont bouleversés dans l’oubli de cette solitude.) Nandyfer, ‘Chronique’, <hi rend="ital">Le Petit Provençal. Journal Politique Quotidien</hi>, 29 April 1889. See Martin Bailey, ‘Van Gogh et Marseille. L’impossible voyage’. Exhib. cat. Van Gogh Monticelli. Marseille (Centre de la Vieille Charité), 2008-2009. Marseille 2008, pp. 129-135. The artist from Marseille who had committed suicide (Van Gogh mentions him later in the letter) is identified in the article with his initial: ‘D...’.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>For the philosopher Pangloss from <rs type="pers" key="844">Voltaire</rs>’s <hi rend="ital">
+                            <rs type="lit" key="445">Candide</rs>
+                        </hi>, <ref target="let568.xml#n-3">see letter 568, n. 3.</ref>
+                    </ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>For <rs type="pers" key="596">Flaubert</rs>’s <hi rend="ital">
+                            <rs type="lit" key="498">Bouvard et Pécuchet</rs>
+                        </hi>, <ref target="let669.xml#n-9">see letter 669, n. 9.</ref>
+                    </ab>
+                </note>
+<note n="a" xml:id="n-a" target="#note-o-a">
+<ab>Read: ‘derechef’.</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+      <ab>For <rs type="pers" key="706">Mirbeau</rs>’s article ‘<rs type="lit" key="586">Claude Monet</rs>’, <ref target="let754.xml#n-7">see letter 754, n. 7.</ref> The second article mentioned is M.F. [<rs type="pers" key="1810">Marcel Fouquier</rs>], ‘<rs type="lit" key="566">Petites expositions. Exposition Cl. Monet, un maître paysagiste</rs>’, <hi rend="ital">Le XIXe Siècle</hi> (6 March 1889). See Wildenstein 1996, vol. 4, p. 1002.</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>
+  <ref target="let779.xml">Letter 779</ref> reveals that this was <hi rend="ital">The bedroom</hi> (<rs type="ill" key="2735">F 482 / JH 1608</rs>). Vincent wrote that it was damaged and asked Theo to send it back so that he could make a repetition of it.</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>It is not known which other paintings were damaged by dampness.</ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>The flooding of the Rhône in Arles was a recurring problem. Local newspapers report that it was discussed frequently at council meetings. </ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>Regarding <rs type="pers" key="312">Bruyas</rs> and his bequest to the Musée Fabre in Montpellier, <ref target="let726.xml#n-1">see letter 726, n. 1.</ref> The ‘deeply saddened face’ is seen in 17 portraits of Bruyas in the collection.</ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+<ab>For <rs type="pers" key="1286">Puvis de Chavannes</rs>’s <hi rend="ital">
+                            <rs type="ill" key="315">Hope</rs>
+                        </hi>, <ref target="let611.xml#n-11">see letter 611, n. 11.</ref>
+                    </ab>
+                </note>
+<note n="13" xml:id="n-13" target="#note-t-13">
+<ab>On <rs type="pers" key="982">Delacroix</rs>’s<hi rend="ital"> <rs type="ill" key="67">Daniel in the lions’ den</rs>
+                        </hi>, <ref target="let726.xml#n-21">see letter 726, n. 21.</ref>
+                    </ab>
+                </note>
+<note n="14" xml:id="n-14" target="#note-t-14">
+<ab>For <rs type="pers" key="982">Delacroix</rs>’s <hi rend="ital">
+                            <rs type="ill" key="74">Algerian women in their apartments</rs>
+                        </hi>, <ref target="let726.xml#n-20">see letter 726, n. 20.</ref>
+                    </ab>
+                </note>
+<note n="15" xml:id="n-15" target="#note-t-15">
+<ab>
+                        <rs type="pers" key="982">Eugène Delacroix</rs>’s <hi rend="ital">Algerian women in their apartments</hi>, 1847-1849 (Paris, Musée du Louvre). <rs type="ill" key="2282">Ill. 2282</rs>.</ab>
+                </note>
+<note n="16" xml:id="n-16" target="#note-t-16">
+<ab>In 1888 the Musée Fabre owned 9 paintings by <rs type="pers" key="917">Cabanel</rs>, 13 by <rs type="pers" key="962">Courbet</rs> and 1 by <rs type="pers" key="1038">Giraud</rs>. See cat. Montpellier 1926, pp. 122-126, 130-136, 173.</ab>
+                </note>
+<note n="17" xml:id="n-17" target="#note-t-17">
+<ab>Perhaps an allusion to <rs type="pers" key="727">Richepin</rs>’s volume of poetry <hi rend="ital">
+                            <rs type="lit" key="296">Les blasphèmes</rs>
+                        </hi> (1884), though nowhere in that book does Richepin send painters to the madhouse.</ab>
+                </note>
+<note n="b" xml:id="n-b" target="#note-o-b">
+<ab>Read: ‘cas où j’y vais’.</ab>
+                </note>
+<note n="c" xml:id="n-c" target="#note-o-c">
+<ab>Read: ‘douteux’.</ab>
+                </note>
+<note n="18" xml:id="n-18" target="#note-t-18">
+<ab>For this quotation from <rs type="pers" key="844">Voltaire</rs>’s <hi rend="ital">
+                            <rs type="lit" key="445">Candide</rs>
+                        </hi>, <ref target="let568.xml">see letter 568</ref>, <ref target="let003.xml">3</ref>.</ab>
+                </note>
+<note n="19" xml:id="n-19" target="#note-t-19">
+<ab>
+      <hi rend="ital">The night café </hi>(<rs type="ill" key="2711">F 463 / JH 1575</rs>).</ab>
+                </note>
+<note n="20" xml:id="n-20" target="#note-t-20">
+<ab>
+      <hi rend="ital">The green vineyard </hi>(<rs type="ill" key="2726">F 475 / JH 1595</rs>).</ab>
+                </note>
+<note n="21" xml:id="n-21" target="#note-t-21">
+<ab>
+      <hi rend="ital">The red vineyard </hi>(<rs type="ill" key="2745">F 495 / JH 1626</rs>).</ab>
+                </note>
+<note n="22" xml:id="n-22" target="#note-t-22">
+<ab>
+      <hi rend="ital">The bedroom</hi> (<rs type="ill" key="2735">F 482 / JH 1608</rs>).</ab>
+                </note>
+<note n="23" xml:id="n-23" target="#note-t-23">
+<ab>
+      <hi rend="ital">Ploughed fields (‘The furrows’) </hi>(<rs type="ill" key="2719">F 574 / JH 1586</rs>).</ab>
+                </note>
+<note n="24" xml:id="n-24" target="#note-t-24">
+<ab>Van Gogh is referring to <hi rend="ital">Ploughed field with a tree-trunk (‘The furrows’)</hi> (<rs type="ill" key="2740">F 573 / JH 1618</rs>), which he earlier described as a ‘study of ploughed field with the stump of an old yew’ (<ref target="let714.xml">letter 714</ref>). Another possibility is <hi rend="ital">Sower </hi>(<rs type="ill" key="2739">F 494 / JH 1617</rs>), the composition of which is more related to <hi rend="ital">Ploughed fields</hi>, though in the same letter Van Gogh called that work a ‘study of a sower’. After ‘ditto’ Van Gogh crossed out ‘portrait de <rs type="pers" key="647">Roulin</rs>’ (portrait of Roulin).</ab>
+                </note>
+<note n="25" xml:id="n-25" target="#note-t-25">
+<ab>
+      <hi rend="ital">Eugène Boch (‘The poet’) </hi>(<rs type="ill" key="2710">F 462 / JH 1574</rs>).</ab>
+                </note>
+<note n="26" xml:id="n-26" target="#note-t-26">
+<ab>For <rs type="pers" key="1148">Laval</rs>’s <hi rend="ital">
+                            <rs type="ill" key="2247">Self-portrait</rs>
+                        </hi>, <ref target="let719.xml#n-2">see letter 719, n. 2.</ref>
+                    </ab>
+                </note>
+<note n="27" xml:id="n-27" target="#note-t-27">
+<ab>For <rs type="pers" key="1039">Gauguin</rs>’s <hi rend="ital">
+                            <rs type="ill" key="2262">Self-portrait with portrait of Bernard, ‘Les misérables’</rs>
+                        </hi>, <ref target="let692.xml#n-1">see letter 692, n. 1.</ref>
+                    </ab>
+                </note>
+<note n="28" xml:id="n-28" target="#note-t-28">
+<ab>For <rs type="pers" key="831">Bernard</rs>’s <hi rend="ital">
+                            <rs type="ill" key="2261">Self-portrait with portrait of Gauguin</rs>
+                        </hi>, <ref target="let692.xml#n-1">see letter 692, n. 1.</ref>
+                    </ab>
+                </note>
+<note n="29" xml:id="n-29" target="#note-t-29">
+<ab>Van Gogh had made four paintings of the Alyscamps: <rs type="ill" key="2743">F 568 / JH 1622</rs>, <rs type="otherart" key="783">F 569 / JH 1623</rs>, <rs type="ill" key="2742">F 487 / JH 1621</rs> and <rs type="ill" key="2741">F 486 / JH 1620</rs>. Only one of them can be traced with certainty to the family estate: <hi rend="ital">The Alyscamps (‘Leaf-fall’)</hi> (<rs type="ill" key="2742">F 487 / JH 1621</rs>). His list contains two canvases of the Alyscamps, and it is plausible that he also sent <rs type="ill" key="2741">F 486 / JH 1620</rs>, which had been hanging in <rs type="pers" key="1039">Gauguin</rs>’s room together with F 487 (<ref target="let716.xml">see letter 716</ref>). These two paintings were part of the decoration, as were a number of other works which he here describes as ‘worthy of being put on stretching frames’.</ab>
+<ab rend="indent">Feilchenfeldt and cat. Otterlo 2003 assumed, however, that F 486 remained with the <rs type="pers" key="382 383">Ginoux family</rs> in Arles and that they sold it to Vollard. See Feilchenfeldt 2005, pp. 292, 297 and cat. Otterlo 2003, p. 253. According to Feilchenfeldt, <rs type="ill" key="2743">F 568 / JH 1622</rs> and <rs type="otherart" key="783">F 569 / JH 1623</rs> were also sold by the Ginouxs to Vollard. The present letter reveals, however, that Van Gogh definitely sent two paintings of the Alyscamps to Theo, so the Ginouxs could have had two at the most. The Vollard archives contain only two references to a painting of the Alyscamps, which possibly allude to one and the same work: the payment of 70.70 francs to Ginoux for a ‘canvas by Van Gogh “Alyscamps”’ (toile de Van Gogh “alyscamps”) and the sum of 310 francs, received from Denys Cochin for ‘Van Gogh alyscamps’ (Paris, Musée d’Orsay, Documentation, Archives Vollard, MS 421).</ab>
+<ab rend="indent">By contrast, Dorn thought that Van Gogh sent all four paintings of the Alyscamps to Theo, but that the two canvases in this list of works ‘worthy of being put on stretching frames’ were <rs type="ill" key="2743">F 568 / JH 1622</rs> and <rs type="otherart" key="783">F 569 / JH 1623</rs>. He assumed, in fact, that Van Gogh sent <rs type="ill" key="2741">F 486</rs> and <rs type="ill" key="2742">F 487</rs> on their stretching frames, as he did the canvases of sunflowers that had also hung in Gauguin’s room and already had frames made of strips of wood (<ref target="let776.xml">see letter 776</ref>). See Dorn 1990, p. 442. That is not necessarily the case, however, because Van Gogh’s list contains other works that were hanging, framed, in the Yellow House (including <rs type="ill" key="2710">F 462</rs>, <rs type="ill" key="2726">F 475</rs>, <rs type="ill" key="2719">F 574</rs> and the painting of the park; <ref target="#n-30">see n. 30</ref>).</ab>
+                </note>
+<note n="30" xml:id="n-30" target="#note-t-30">
+<ab>This painting of the park (‘the poet’s garden’) is no longer known. For the composition, see the drawing <hi rend="ital">The public garden (‘The poet’s garden’)</hi> (<rs type="sketch" key="187">F 1465 / JH 1583</rs>) and the letter sketch in <ref target="let693.xml">letter 693</ref>.</ab>
+                </note>
+<note n="31" xml:id="n-31" target="#note-t-31">
+<ab>
+      <hi rend="ital">The public garden with a couple strolling (‘The poet’s garden’)</hi> (<rs type="ill" key="2730">F 479 / JH 1601</rs>).</ab>
+                </note>
+<note n="32" xml:id="n-32" target="#note-t-32">
+<ab>Van Gogh no doubt found <hi rend="ital">Sunflowers in a vase </hi>(<rs type="ill" key="2772">F 455 / JH 1668</rs>) and <hi rend="ital">Sunflowers in a vase </hi>(<rs type="ill" key="2771">F 458 / JH 1667</rs>) ‘worthy of being put on stretching frames’ <ref target="#l-158">(l. 158)</ref>. The first two versions, <rs type="ill" key="2703">F 456 / JH 1561</rs> and <rs type="ill" key="2704">F 454 / JH 1562</rs>, were indeed in the consignment but cannot be the paintings in question because they were already framed with strips of wood and thus already on stretching frames (<ref target="let776.xml">see letter 776</ref>). The consignment probably also included <rs type="ill" key="2701">F 453 / JH 1559</rs>, <rs type="ill" key="2702">F 459 / JH 1560</rs> and <rs type="ill" key="2770">F 457 / JH 1666</rs>; <ref target="let774.xml#n-7">see letter 774, n. 7.</ref>
+                    </ab>
+                </note>
+<note n="33" xml:id="n-33" target="#note-t-33">
+<ab>The only painting in which ‘scabious’ are possibly depicted is <hi rend="ital">Wild flowers in a majolica jug </hi>(<rs type="ill" key="2607">F 600 / JH 1424</rs>). Taking into account that the blue must originally have been more purple, the flowers in the middle could be scabious (presumably <hi rend="ital">Centaurium scabiosa</hi>). However, Van Gogh had already painted F 600 in May 1888, in which case he kept it for a year before sending it. Another possibility is that the painting mentioned here is no longer known.</ab>
+                </note>
+<note n="34" xml:id="n-34" target="#note-t-34">
+<ab>The only known painting with asters and marigolds from this period is <hi rend="ital">Zinnias in a majolica jug</hi> (<rs type="ill" key="2706">F 592 / JH 1568</rs>), although there most of the flowers are zinnias. Another possibility is that the painting mentioned here is no longer known.</ab>
+                </note>
+<note n="35" xml:id="n-35" target="#note-t-35">
+<ab>For the studies that <rs type="pers" key="1039">Gauguin</rs> left behind, <ref target="let736.xml#n-12">see letter 736, n. 12.</ref>
+                    </ab>
+                </note>
+<note n="36" xml:id="n-36" target="#note-t-36">
+<ab>
+                        <rs type="pers" key="1039">Gauguin</rs> had asked Van Gogh to send his fencing masks and gloves (<ref target="let734.xml">see letter 734</ref>).</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

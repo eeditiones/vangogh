@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Anthon van Rappard. Etten, Wednesday, 12 October 1881.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let174"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">174</idno>
+<idno type="collectedletters">R1</idno>
+<idno type="brieven1990">172</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Anthon van Rappard</vg:addressee>
+                        <vg:placeLet>Etten</vg:placeLet>
+                        <vg:dateLet>Wednesday, 12 October 1881</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:physDesc>
+                        <vg:decoration>
+                            <vg:decoList xml:id="sketches">
+                                <vg:decoItem n="A" xml:id="sketch-1">
+                                    <vg:decoDesc>
+<p>
+      <hi rend="ital">Road with pollard willows</hi> (<rs type="sketch" key="31">F - / JH 50</rs>), letter sketch</p>
+                                    </vg:decoDesc>
+                                </vg:decoItem>
+                            </vg:decoList>
+                        </vg:decoration>
+                    </vg:physDesc>
+                    <vg:letContents>
+<p>To Anthon van Rappard. Etten, Wednesday, 12 October 1881.</p>
+<note type="ongoingTopic" n="1">
+<p>Mauve gives Vincent advice <ref target="let171.xml">(171)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b8335 V/2006</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Letter headed: ‘Etten 12 Oct_ 1881’.</p>
+                    </note>
+<note type="additionalDetail" xml:id="additionalDetail">
+<p>Hulsker alleges that Van Gogh enclosed the drawing <hi rend="ital">Sower with a sack</hi> (<rs type="ill" key="2344">F 857 / JH 32</rs>) with this letter, which is possible but not certain (Van Gogh himself says nothing about it here). If this was indeed the case, then the drawing <hi rend="ital">Worn out</hi> (<rs type="otherart" key="683">F 864 / JH 51</rs>) was included in the same parcel. Cf. <ref target="let176.xml">letter 176</ref>.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 8335" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001001578_01" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001001578_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001001578_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001001578_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001578_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001578_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 8335" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001001578_02" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001001578_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001001578_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001001578_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001578_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001578_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001001578_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001578_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001578_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Etten 12 Oct<c type="kp">_</c> 1881.</ab>
+<vg:whiteline/>
+                <lb n="2" xml:id="l-2"/>
+<ab>Waarde Rappard,</ab>
+                <lb n="3" xml:id="l-3"/>
+<ab>Zooeven ontvang ik “Gavarni<c type="kk">/</c> l’homme &amp; l’oeuvre”,<anchor n="1" xml:id="note-o-1"/> ontvang mijn <lb n="4" xml:id="l-4"/>dank voor de terugzending. Mijns inziens is Gavarni een zeer <lb n="5" xml:id="l-5"/>groot artist en zeer zeker als mensch ook interessant<c type="kp">_</c> Zonder <lb n="6" xml:id="l-6"/>twijfel heeft hij wel eens dingen gedaan die niet goed waren<c type="kk">/</c> om <lb n="7" xml:id="l-7"/>maar iets te noemen zijn gedrag tegenover Thackeray &amp; Dickens<c type="kk">/</c>
+                    <anchor n="2" xml:id="note-o-2"/> <lb n="8" xml:id="l-8"/>maar dergelijke dingen zijn in alle karakters.</ab>
+                <lb n="9" xml:id="l-9"/>
+<ab rend="indent">En ook hij zelf schijnt daar spijt van gehad te hebben want later <lb n="10" xml:id="l-10"/>zond hij teekeningen aan die personen die hij eerst met niet <lb n="11" xml:id="l-11"/>genoeg hartelijkheid had behandeld.<anchor n="3" xml:id="note-o-3"/> En ook Thackeray zelf heeft <lb n="12" xml:id="l-12"/>eene dergelijke houding aangenomen tegenover de Balzac en ging zelfs <lb n="13" xml:id="l-13"/>verder geloof ik<c type="kk">/</c>
+                    <anchor n="4" xml:id="note-o-4"/> en dat neemt niet weg dat in den grond der zaak <lb n="14" xml:id="l-14"/>die mannen geestverwanten waren ook al was hun dit zelf niet altijd <lb n="15" xml:id="l-15"/>duidelijk.</ab>
+                <lb n="16" xml:id="l-16"/>
+<ab rend="indent">Toen ik het boek van morgen ontving dacht ik “nu zal hij <lb n="17" xml:id="l-17"/>zeker zelf niet komen<c type="kk">/</c> anders had hij het wel <lb n="18" xml:id="l-18"/>gehouden tot zijne komst”. Ik behoef U wel niet op nieuw de <lb n="19" xml:id="l-19"/>verzekering te geven dat wij allen hier regt gaarne U weer <lb n="20" xml:id="l-20"/>eens zouden zien en zoozeer hopen dat<c type="kk">/</c> ook al kwaamt ge <lb n="21" xml:id="l-21"/>niet voor lang<c type="kk">/</c> ge niet geheel &amp; al zult wegblijven.<anchor n="5" xml:id="note-o-5"/>
+                </ab>
+                <lb n="22" xml:id="l-22"/>
+<ab rend="indent">Zeer verlangend ben ik iets te vernemen omtrent Uwe plannen <lb n="23" xml:id="l-23"/>voor den winter. Stelt<c type="kk">/</c> ge gaat naar Antwerpen<c type="kk">/</c> Brussel <lb n="24" xml:id="l-24"/>of Parijs<c type="kk">/</c> kom dan toch vooral en passant ons eens bezoeken <lb n="25" xml:id="l-25"/>en blijft ge in Holland dan geef ik ook de hoop niet op<c type="kk">/</c> <lb n="26" xml:id="l-26"/>s’winters is het hier ook mooi en zouden we nog wel wat <lb n="27" xml:id="l-27"/>kunnen uitvoeren<c type="kk">/</c> zoo niet buiten dan naar model werken <lb n="28" xml:id="l-28"/>binnenshuis bij den een of anderen boer.</ab>
+                <lb n="29" xml:id="l-29"/>
+<ab rend="indent">Dezen laatsten tijd heb ik veel naar model geteekend want ik <lb n="30" xml:id="l-30"/>heb een paar modellen gevonden die gewillig genoeg <lb n="31" xml:id="l-31"/>zijn. En heb allerlei studies van spitters<c type="kk">/</c> zaaiers &amp;c.<c type="kk">/</c> <lb n="32" xml:id="l-32"/>mannen &amp; vrouwen.<anchor n="6" xml:id="note-o-6"/> Ik werk veel met houtskool &amp; conté tegenwoordig <lb n="33" xml:id="l-33"/>&amp; heb ook beproefd met sepia &amp; waterverf. Enfin of ge verbetering <lb n="34" xml:id="l-34"/>in mijn teekeningen zien zoudt daar mag ik mij niet over uitspreken <lb n="35" xml:id="l-35"/>maar verandering zeer zeker.</ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="36" xml:id="l-36"/>
+<ab rend="indent">Binnen kort hoop ik weder een bezoek te gaan <lb n="37" xml:id="l-37"/>brengen bij Mauve om met dezen te spreken <lb n="38" xml:id="l-38"/>over de kwestie of ik al dan niet zal gaan schilderen. <lb n="39" xml:id="l-39"/>Begin ik daaraan dan zet ik ’t ook door<c type="kp">_</c> Vóór ik echter <lb n="40" xml:id="l-40"/>begin spreek ik er nog eens over met dezen &amp; genen.─ <lb n="41" xml:id="l-41"/>Hoe langer hoe meer ben ik er blij om dat <lb n="42" xml:id="l-42"/>ik mijn zin meer bepaaldelijk op ’t figuurteekenen gezet <lb n="43" xml:id="l-43"/>heb. Indirekt werkt dit ook wel degelijk op ’t landschap<c type="shy">-</c>
+                    <lb n="44" xml:id="l-44"/>teekenen want men leert zich concentreeren.</ab>
+                <lb n="45" xml:id="l-45"/>
+<ab rend="indent">Ik zou U wel een paar schetsjes sturen als ik tijd had <lb n="46" xml:id="l-46"/>maar ik ben zeer bezet met allerlei<c type="kk">/</c> later ontvangt ge <lb n="47" xml:id="l-47"/>er echter weer een paar.<anchor n="7" xml:id="note-o-7"/> In geval ge niet in ’t land <lb n="48" xml:id="l-48"/>blijft houd ik mij aanbevolen om Uw adres te vernemen. <lb n="48a" xml:id="l-48a"/>Ik zal U in elk geval nog wel wat te schrijven hebben dezen winter<c type="kp">_</c> <lb n="49" xml:id="l-49"/>Vindt ge het erg dat ik Karl Robert<c type="kk">/</c> le fusain<anchor n="8" xml:id="note-o-8"/> nog eenigen tijd houden <lb n="50" xml:id="l-50"/>wilde<c type="kk">/</c> juist omdat ik nu met houtskool werkende het nog zoo <lb n="51" xml:id="l-51"/>noodig heb<c type="kk">/</c> maar als ik naar s’Hage ga zal ik er zelf een zien <lb n="52" xml:id="l-52"/>te krijgen. ’t Zou me zeer verwonderen als ik dezen <lb n="53" xml:id="l-53"/>winter niet stil te Etten bleef,<anchor n="a" xml:id="note-o-a"/> dit althans is mijn plan<c type="kk">/</c> <lb n="54" xml:id="l-54"/>in elk geval niet naar ’t buitenland. Want ik heb nog al voorspoed <lb n="55" xml:id="l-55"/>gehad sedert ik wederom hier in Holland terug ben gekomen<c type="kk">/</c> met het <lb n="56" xml:id="l-56"/>teekenen niet alleen maar ook nog met andere dingen<c type="kp">_</c>
+                    <anchor n="9" xml:id="note-o-9"/> Enfin ik zal hier nog <lb n="57" xml:id="l-57"/>wat doorzetten<c type="kk">/</c> ik ben zooveel jaren buitens’lands geweest<c type="kk">/</c> zoowel in <lb n="58" xml:id="l-58"/>Engeland als in Frankrijk &amp; Belgie<c type="kk">/</c> dat het hoog tijd werd ik weer eens <lb n="59" xml:id="l-59"/>wat hier bleef. Weet ge wat dezer dagen prachtig mooi is<c type="kk">/</c> <lb n="60" xml:id="l-60"/>de weg naar ’t station &amp; naar de Leur met die oude knotwilgen<c type="kk">/</c>
+                    <anchor n="10" xml:id="note-o-10"/> <lb n="61" xml:id="l-61"/>ge hebt er zelf een sepia van.<anchor n="11" xml:id="note-o-11"/> Hoe mooi die boomen nu <lb n="62" xml:id="l-62"/>zijn kan ik U niet zeggen<c type="kp">_</c> Heb een stuk of 7 groote studies <lb n="63" xml:id="l-63"/>van enkele stammen gemaakt<c type="kp">_</c>
+                    <anchor n="12" xml:id="note-o-12"/>
+                </ab>
+<vg:whiteline/>
+                <figure facs="zone-sketch-1" n="A"/>
+<vg:whiteline/>
+                <lb n="64" xml:id="l-64"/>
+<ab>Ik weet vast en zeker dat als <lb n="65" xml:id="l-65"/>ge nu dezer dagen terwijl de <lb n="66" xml:id="l-66"/>bladeren vallen<c type="kk">/</c> al was ’t slechts 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                    <lb n="67" xml:id="l-67"/>voor een week<c type="kk">/</c> hier waart<c type="kk">/</c> ge daarvan iets <lb n="68" xml:id="l-68"/>moois zoudt maken. Hebt ge trek om te komen <lb n="69" xml:id="l-69"/>’t zal ons allen hier genoegen doen.</ab>
+                <lb n="70" xml:id="l-70"/>
+<ab rend="indent">Ontvang de hartelijke groete van mijne ouders <lb n="71" xml:id="l-71"/>en een handdruk in gedachten van mij &amp; geloof me</ab>
+<vg:whiteline/>
+                <lb n="72" xml:id="l-72"/>
+<ab>t. à t.</ab>
+                <lb n="73" xml:id="l-73"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-18" n="18">komst”. &lt; komst.</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>Etten, 12 Oct. 1881.</ab>
+<vg:whiteline/>
+<ab>My dear <rs type="pers" key="1306">Rappard</rs>,</ab>
+<ab>I just received ‘Gavarni, l’homme et l’oeuvre’,<anchor n="1" xml:id="note-t-1"/> accept my thanks for returning it. In my opinion, <rs type="pers" key="1043">Gavarni</rs> is a very great artist, and certainly very interesting as a human being as well. Without doubt, at times he did things that weren’t good, his behaviour towards <rs type="pers" key="830">Thackeray</rs> and <rs type="pers" key="580">Dickens</rs>,<anchor n="2" xml:id="note-t-2"/> to name but a few, but there are such things in all characters.</ab>
+<ab rend="indent">And he, too, seems to have regretted it, because later he sent drawings to those people whom he had once treated with insufficient cordiality.<anchor n="3" xml:id="note-t-3"/> And <rs type="pers" key="830">Thackeray</rs> himself adopted a similar attitude towards <rs type="pers" key="519">Balzac</rs>, and went even further, I believe,<anchor n="4" xml:id="note-t-4"/> but that doesn’t alter the fact that at bottom those men were kindred spirits, even though this wasn’t always clear to them.</ab>
+<ab rend="indent">When I received the book this morning, I thought ‘now he certainly won’t come himself, otherwise he’d have kept it until he came’. I don’t need to assure you once more that all of us here would very much like to see you again, and hope so much that, even if you don’t come for long, you won’t stay away entirely.<anchor n="5" xml:id="note-t-5"/>
+                </ab>
+<ab rend="indent">I’m very eager to hear about your plans for the winter. Supposing you go to Antwerp, Brussels or Paris, be sure to come and visit us on your way, and if you stay in Holland then I won’t give up hope either; it’s also beautiful here in the winter, and we surely could do something, if not outdoors then working from a model in the house of some peasant or other.</ab>
+<ab rend="indent">I’ve been drawing a lot from the model lately, since I’ve found a couple of models who are willing enough. And I have all kinds of studies of diggers, sowers &amp;c., men and women.<anchor n="6" xml:id="note-t-6"/> I’m working a lot with charcoal and Conté at the moment, and have also tried sepia and watercolour. Anyway, I can’t say whether you’d see improvement in my drawings, but most certainly a change. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">I hope to visit <rs type="pers" key="323">Mauve</rs> again soon to discuss the question of whether or not I should start painting. If I start, I’ll also persevere. I’ll talk it over again with various people before I begin, though. I realize more and more as time goes on that it was good that I set my mind more specifically on figure drawing. Indirectly, this really does influence landscape drawing as well, because one learns to concentrate.</ab>
+<ab rend="indent">I’d send you a couple of sketches if I had the time, but I’m very occupied with all kinds of things, though later you’ll receive some more.<anchor n="7" xml:id="note-t-7"/> Should you not stay in the country, I’d be pleased to have your address. In any case, I’ll have more to write to you this winter. Do you mind if I keep <rs type="pers" key="1309">Karl Robert</rs>, Le fusain,<anchor n="8" xml:id="note-t-8"/> for a while longer? It’s because, working with charcoal now, I still need it so much, but if I go to The Hague I’ll see to it that I get one myself. It would surprise me very much if I weren’t to stay in Etten this winter — this is my plan at least, anyway not to go abroad. Because I’ve been rather fortunate since coming back here to Holland, not only in drawing but in other things as well.<anchor n="9" xml:id="note-t-9"/> Anyway, I’ll carry on here for a while, I spent so many years abroad, in England as well as in France and Belgium, that it’s high time I stayed here for a while. You know what’s absolutely beautiful these days, the road to the station and to Leur with the old pollard willows,<anchor n="10" xml:id="note-t-10"/> you have a sepia of it yourself.<anchor n="11" xml:id="note-t-11"/> I can’t tell you how beautiful those trees are now. Made around 7 large studies of several of the trunks.<anchor n="12" xml:id="note-t-12"/>
+                </ab>
+<vg:whiteline/>
+<ab>
+                    <figure facs="zone-sketch-1" n="A"/>
+                </ab>
+<vg:whiteline/>
+<ab>I’m absolutely certain that if you were here now when the leaves are falling, even if only 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> for a week, you would make something beautiful of it. If you feel like coming, it would give all of us here pleasure.</ab>
+<ab rend="indent">Accept my <rs type="pers" key="524 526">parents</rs>’ warm regards and a handshake in thought from me, and believe me</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>
+                        <rs type="pers" key="617 618">Edmond and Jules de Goncourt</rs>, <rs type="lit" key="224">
+                            <hi rend="ital">Gavarni, l’homme et l’oeuvre</hi>
+                        </rs>. Paris 1868 (reprinted several times). This thick biography of <rs type="pers" key="1043">Gavarni</rs> contains numerous quotations from his letters and diaries. It includes Gavarni’s remarks on such things as the rendering of black tones and his experiments with mixed techniques, which combined drawing, watercolour and gouache. Cf. Van Uitert 1993, p. 135.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>The remark about the English writers <rs type="pers" key="830">William Makepeace Thackeray</rs> and <rs type="pers" key="580">Charles Dickens</rs> is based on a passage from <rs type="lit" key="224">
+                            <hi rend="ital">Gavarni, l’homme et l’oeuvre</hi>
+                        </rs>, which states that Thackeray ‘found Gavarni slumped beside the corner of an enormous coal fire, his eyes red and bleary from the fatigue of working at night, scarcely responding to his overtures and like a man far away from what is said to him. Thackeray invited him to dine, <rs type="pers" key="1043">Gavarni</rs> in turn invited him for the following day, in so doing wounding the <hi rend="ital">gentleman</hi> who, in his future relations with the artist, maintained his reserve. More or less the same thing happened with Dickens, whom the misanthrope kept at a distance with his coldness’ (trouvait Gavarni affaissé au coin d’un énorme feu de charbon de terre, les yeux rouges et larmoyants de la fatigue du travail nocturne, répondant à peine à ses avances et comme un homme loin de ce qu’on lui dit. Thackeray l’invitait à dîner, Gavarni le contre-invitait pour le lendemain, blessant par ce procédé le <hi rend="ital">gentleman</hi> qui, dans ses rapports futurs avec l’artiste, se tint sur la réserve. Cela se passait à peu près de même avec Dickens, que le misanthrope tenait à l’écart par sa froideur) (Goncourt 1873, pp. 310-311).</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>The book quotes a letter written by <rs type="pers" key="1043">Gavarni</rs> to an Englishman, Ward, in which Gavarni says that he wanted to send one of his works to a few people, one of whom was <rs type="pers" key="580">Dickens</rs>. Van Gogh apparently interpreted this as a conciliatory gesture; see Goncourt 1873, p. 329.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>
+                        <rs type="pers" key="830">Thackeray</rs> spoke slightingly of <rs type="pers" key="519">Honoré de Balzac</rs> several times in his writings. See W.C.D. Pacey, ‘Balzac and Thackeray’, <hi rend="ital">Modern Language Review</hi> 36 (1941), pp. 213-224, espec. p. 214.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>In June <rs type="pers" key="1306">Van Rappard</rs> had spent about twelve days in Etten (<ref target="let168.xml">see letter 168</ref>).</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>Van Gogh recites a similar list of studies in <ref target="let172.xml">letter 172</ref>.</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+      <ab>Van Gogh did in fact send sketches to <rs type="pers" key="1306">Van Rappard</rs> (<ref target="let176.xml#n-4">see letter 176, nn. 4</ref> and <ref target="let176.xml#n-7">7</ref>).</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>
+                        <rs type="pers" key="1309">Georges Karl Robert</rs>, pseudonym of Mathieu Meusnier, wrote <rs type="lit" key="211">
+                            <hi rend="ital">Le fusain sans maitre. Traité pratique et complet sur l’étude du paysage au fusain</hi>
+                        </rs>. Suivi de leçons réproduites par l’héliogravure de la maison Goupil &amp; Cie d’après <rs type="pers" key="417">Allongé</rs>. 4th ed. Paris 1879 (editions also appeared in 1874 and 1881). It is a concise manual intended for private study. Cf. cat. Amsterdam 1996, p. 29 (n. 35). For Allongé, see also <ref target="let159.xml#n-9">letter 159, n. 9.</ref>
+                    </ab>
+                </note>
+<note n="a" xml:id="n-a" target="#note-o-a">
+<ab>Meaning: ‘niet in Etten zou blijven’ ([if I were] not to stay in Etten).</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>This could be an allusion to the fact that Van Gogh had fallen in love with <rs type="pers" key="776">Kee Vos</rs>. <ref target="let179.xml">See letter 179</ref>.</ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>This is Leursestraatje, or Leurseweg; the road and the pollard willows appear on the map that Vincent and his brother <rs type="pers" key="420">Cor</rs> made, which is appended to <ref target="let145.xml">letter 145</ref>.</ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>This sepia drawing by <rs type="pers" key="1306">Van Rappard</rs> is not known.</ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+<ab>Three drawings of pollard willows have survived from Van Gogh’s Etten period: <hi rend="ital">Small house on a road with pollard willows</hi> (<rs type="otherart" key="319">F 900 / JH 47</rs>), <hi rend="ital">Road with pollard willows and man with a broom</hi> (<rs type="otherart" key="320">F 1678 / JH 46</rs>) and <hi rend="ital">Pollard willow</hi> (<rs type="otherart" key="321">F 995 / JH 56</rs>). The drawing on which the sketch in this letter is based is no longer extant.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. The Hague, Sunday, 20 August 1882.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let258"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">258</idno>
+<idno type="collectedletters">227</idno>
+<idno type="brieven1990">260</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>The Hague</vg:placeLet>
+                        <vg:dateLet>Sunday, 20 August 1882</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. The Hague, Sunday, 20 August 1882.</p>
+<note type="ongoingTopic" n="1">
+<p>Theo’s visit early in August <ref target="let253.xml">(253)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="2">
+<p>The parents’ move to Nuenen <ref target="let247.xml">(247)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="3">
+<p>Van Gogh is recovering from his illness <ref target="let241.xml">(241)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. nos. b249 a-c V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Letter headed: ‘Zondag middag’. As appears from <ref target="#l-295">l. 295</ref> (‘Today is the twentieth, if I’m not mistaken’ ), it is Sunday, 20 August 1882.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0249 a" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000303_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000303_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000303_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000303_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000303_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000303_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="VGM001000303_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000303_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000303_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0249 a" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000303_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000303_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000303_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000303_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000303_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000303_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000303_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000303_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000303_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0249 b" xml:id="surf-pb-2r">
+            <graphic mimeType="image/tiff" url="VGM001000304_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000304_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000304_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-2r-5">
+<graphic mimeType="image/tiff" url="VGM001000304_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000304_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000304_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-2r-8">
+<graphic mimeType="image/tiff" url="VGM001000304_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000304_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000304_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0249 b" xml:id="surf-pb-2v">
+            <graphic mimeType="image/tiff" url="VGM001000304_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000304_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000304_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-2v-6">
+<graphic mimeType="image/tiff" url="VGM001000304_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000304_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000304_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-2v-7">
+<graphic mimeType="image/tiff" url="VGM001000304_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000304_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000304_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0249 c" xml:id="surf-pb-3r">
+            <graphic mimeType="image/tiff" url="VGM001000305_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-3r-9">
+<graphic mimeType="image/tiff" url="VGM001000305_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000305_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000305_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0249 c" xml:id="surf-pb-3v">
+            <graphic mimeType="image/tiff" url="VGM001000305_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-3v-10">
+<graphic mimeType="image/tiff" url="VGM001000305_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000305_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000305_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Zondag middag.</ab>
+<vg:whiteline/>
+                <lb n="2" xml:id="l-2"/>
+<ab>Waarde Theo,</ab>
+                <lb n="3" xml:id="l-3"/>
+<ab>Zooeven ontvang ik een goeden brief van t’huis <lb n="4" xml:id="l-4"/>die mij regt veel genoegen doet, en waaruit het mij <lb n="5" xml:id="l-5"/>duidelijk blijkt dat Uw bezoek &amp; de dingen die <lb n="6" xml:id="l-6"/>gij omtrent mij &amp; mijn werk gezegd hebt een indruk <lb n="7" xml:id="l-7"/>heeft achtergelaten om hun gerust te stellen.</ab>
+                <lb n="8" xml:id="l-8"/>
+<ab rend="indent">Dit kan, geloof ik, geen andere dan wenschelijke <lb n="9" xml:id="l-9"/>gevolgen hebben en ik dank U nog in ’t bijzonder <lb n="10" xml:id="l-10"/>voor de manier waarop gij over me hebt gesproken. <lb n="10a" xml:id="l-10a"/>ofschoon ’t mij voorkomt ge meer goeds van een en ander gezegd hebt dan ik nu reeds <lb n="10b" xml:id="l-10b"/>verdien. <lb n="11" xml:id="l-11"/>Zij schijnen t’huis zeer ingenomen met hun <lb n="12" xml:id="l-12"/>nieuwe omgeving &amp; zijn nog vol van Uw <lb n="13" xml:id="l-13"/>bezoek.–</ab>
+                <lb n="14" xml:id="l-14"/>
+<ab rend="indent">Zooals trouwens ik zelf ook, want verscheiden <lb n="15" xml:id="l-15"/>dingen die ge mij gezegd hebt zijn oorzaak dat <lb n="16" xml:id="l-16"/>ik nog meer aan U denk dan vroeger<c type="kk">/</c> zeker <lb n="17" xml:id="l-17"/>niet met minder genegenheid. Vooral ook <lb n="18" xml:id="l-18"/>’t geen ge me over Uw gezondheid hebt medegedeeld<anchor n="1" xml:id="note-o-1"/> <lb n="19" xml:id="l-19"/>is oorzaak dat ik dikwijls aan U denk.</ab>
+                <lb n="20" xml:id="l-20"/>
+<ab rend="indent">Mij gaat het wel – ik bevind mij er goed bij niets <lb n="21" xml:id="l-21"/>er meer om te laten en er maar door te marcheeren<c type="kp">_</c> <lb n="22" xml:id="l-22"/>Toch is ’t zooals ge begrijpt niet geheel over<c type="kk">/</c> bij <lb n="23" xml:id="l-23"/>tijden<c type="kk">/</c> vooral s’avonds na vermoeijenis heb ik hinder <lb n="24" xml:id="l-24"/>maar gelukkigerwijs is ’t niet meer zoo geworden dat <lb n="25" xml:id="l-25"/>ik er niet door werken kon.</ab>
+                <lb n="26" xml:id="l-26"/>
+<ab rend="indent">Deze week heb ik een paar vrij groote studies <lb n="27" xml:id="l-27"/>geschilderd in het bosch die ik getracht heb hooger <lb n="28" xml:id="l-28"/>op te voeren en meer te doorwerken dan de eersten<c type="kp">_</c> 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                    <lb n="29" xml:id="l-29"/>Die welke geloof ik me ’t best gelukt is<c type="kk">/</c> is niets anders <lb n="30" xml:id="l-30"/>dan een stuk omgespitten grond – wit<c type="kk">/</c> zwart en <lb n="31" xml:id="l-31"/>bruin zand na een plasregen<c type="kp">_</c>
+                    <anchor n="2" xml:id="note-o-2"/> Zoodat de klonten <lb n="32" xml:id="l-32"/>aarde hier &amp; daar licht vatten en meer spreken. <lb n="33" xml:id="l-33"/>Toen ik voor dat brok grond een tijd had zitten teekenen <lb n="34" xml:id="l-34"/>kwam er een onweer met geduchten plasregen<c type="kk">/</c> dat wel <lb n="35" xml:id="l-35"/>een uur duurde. Ik was er echter zoo fel op geworden <lb n="36" xml:id="l-36"/>dat ik maar op post bleef en zoo goed mogelijk een <lb n="37" xml:id="l-37"/>schuilplaats zocht achter een dikken boom<c type="kp">_</c> Toen het <lb n="38" xml:id="l-38"/>eindelijk over was en de kraaijen weer begonnen <lb n="39" xml:id="l-39"/>uit te vliegen had ik er geen spijt van het afgewacht <lb n="40" xml:id="l-40"/>te hebben om reden van den prachtigen diepen toon <lb n="41" xml:id="l-41"/>die de boschgrond na den regen gekregen had.</ab>
+                <lb n="42" xml:id="l-42"/>
+<ab rend="indent">Daar ik begonnen was vòòr den storm met een lagen <lb n="43" xml:id="l-43"/>horizon op mijn knieen moest ik nu op mijn <lb n="44" xml:id="l-44"/>knieen in den modder gaan zitten,<anchor n="3" xml:id="note-o-3"/> en ’t is <lb n="45" xml:id="l-45"/>om reden van dergelijke avonturen die in verschillenden <lb n="46" xml:id="l-46"/>vorm zeer dikwijls zich voordoen dat het mijns inziens <lb n="47" xml:id="l-47"/>niet overbodig is een gewoon arbeiderspak aan te <lb n="48" xml:id="l-48"/>hebben waar men minder aan bederven kan.</ab>
+                <lb n="49" xml:id="l-49"/>
+<ab rend="indent">Het resultaat van deze keer was dat ik ’t brok grond mee <lb n="50" xml:id="l-50"/>naar ’t atelier kon nemen – ofschoon Mauve mij <lb n="51" xml:id="l-51"/>bij gelegenheid we spraken over een studie van <lb n="52" xml:id="l-52"/>hem zelf<c type="kk">/</c> wel teregt zegt dat het een karwei is om <lb n="53" xml:id="l-53"/>die kluiten aard te teekenen en er wijking<anchor n="a" xml:id="note-o-a"/> in te <lb n="54" xml:id="l-54"/>krijgen.</ab>
+                <lb n="55" xml:id="l-55"/>
+<ab rend="indent">De andere studie uit het bosch is van groote groene <lb n="56" xml:id="l-56"/>beukestammen op een grond met dorre blaren <lb n="57" xml:id="l-57"/>en een figuurtje van een meisje in ’t wit<c type="kp">_</c>
+                    <anchor n="4" xml:id="note-o-4"/>
+                </ab>
+                <lb n="58" xml:id="l-58"/>
+<ab rend="indent">Daar was de groote moeielijkheid het helder te houden <lb n="59" xml:id="l-59"/>en lucht te brengen tusschen de stammen die <lb n="60" xml:id="l-60"/>op verschillende distantie staan – en de plaats <lb n="61" xml:id="l-61"/>en relatieve dikte van die stammen veranderd <lb n="62" xml:id="l-62"/>door de perspectief. Te maken enfin dat men er <lb n="63" xml:id="l-63"/>in ademen en rondwandelen kan – en <lb n="64" xml:id="l-64"/>het bosch ruikt.</ab>
+                <lb n="65" xml:id="l-65"/>
+<ab rend="indent">Met bijzonder pleizier heb ik deze twee gemaakt<c type="kp">_</c> 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                    <lb n="66" xml:id="l-66"/>Evenzeer als iets wat ik op Schevening zag.</ab>
+                <lb n="67" xml:id="l-67"/>
+<ab rend="indent">Een groote vlakte in de duinen s’morgens na den <lb n="68" xml:id="l-68"/>regen – het gras is betrekkelijk zeer groen en daarop de <lb n="69" xml:id="l-69"/>zwarte netten uitgespreid in enorme cirkels, <lb n="70" xml:id="l-70"/>waardoor toonen ontstaan op den grond van een diep <lb n="71" xml:id="l-71"/>roodachtig zwart<c type="kk">/</c> groen<c type="kk">/</c> grijs<c type="kp">_</c> Op dien somberen <lb n="72" xml:id="l-72"/>grond zaten of stonden of liepen als zonderlinge <lb n="73" xml:id="l-73"/>donkere schimmen vrouwen met witte mutsen en mannen die de netten <lb n="73a" xml:id="l-73a"/>uitspreidden of repareerden<c type="kp">_</c>
+                    <anchor n="5" xml:id="note-o-5"/>
+                </ab>
+                <lb n="74" xml:id="l-74"/>
+<ab rend="indent">Het was in de natuur zoo aangrijpend<c type="kk">/</c> <lb n="75" xml:id="l-75"/>eigenaardig<c type="kk">/</c> somber en streng als het mooiste <lb n="76" xml:id="l-76"/>wat men van Millet<c type="kk">/</c> Israels of de Groux zich <lb n="77" xml:id="l-77"/>denken kan. Boven het landschap een eenvoudige <lb n="78" xml:id="l-78"/>grijze lucht met lichte streep boven den horizon. <lb n="79" xml:id="l-79"/>Ik heb er ook ondanks buijen regen op een vel <lb n="80" xml:id="l-80"/>geölied torchon een studie van gemaakt<c type="kp">_</c>
+                </ab>
+                <lb n="81" xml:id="l-81"/>
+<ab rend="indent">Vóór ik bij magte ben om dat hoog op te voeren moet <lb n="82" xml:id="l-82"/>er nog veel gebeuren – maar het zijn zulke dingen <lb n="83" xml:id="l-83"/>die mij in de natuur ’t meest aangrijpen.</ab>
+                <lb n="84" xml:id="l-84"/>
+<ab rend="indent">Wat is het buiten toch mooi als ’t alles nat is <lb n="85" xml:id="l-85"/>van den regen – vóór – onder – na den regen<c type="kp">_</c> <lb n="86" xml:id="l-86"/>Ik moest eigentlijk geen regenbui laten voorbij gaan.<anchor n="6" xml:id="note-o-6"/> <lb n="87" xml:id="l-87"/>Dezen morgen heb ik al de geschilderde studies eens <lb n="88" xml:id="l-88"/>opgehangen in ’t atelier, ik wou ik er met U eens over kon <lb n="89" xml:id="l-89"/>spreken.</ab>
+                <lb n="90" xml:id="l-90"/>
+<ab rend="indent">Zoo als ik trouwens gedacht had en er op gerekend <lb n="91" xml:id="l-91"/>terwijl ik aan den gang was<c type="kk">/</c> heb ik nog heel wat <lb n="92" xml:id="l-92"/>moeten bij koopen en is het geld er bijna aan doorgegaan. <lb n="93" xml:id="l-93"/>Ik heb nu 14 dagen lang om zoo te zeggen van <lb n="94" xml:id="l-94"/>s’morgens vroeg tot s’avonds laat geschilderd en <lb n="95" xml:id="l-95"/>als ik zoo voortging zou het te duur uitkomen zoolang <lb n="96" xml:id="l-96"/>ik niet verkoop.</ab>
+                <lb n="97" xml:id="l-97"/>
+<ab rend="indent">Ik acht het mogelijk dat als gij de dingen zaagt<c type="kk">/</c> <lb n="98" xml:id="l-98"/>ge zeggen zoudt ik niet maar bij tijden<c type="kk">/</c> als <lb n="99" xml:id="l-99"/>ik er bijzonder lust in heb<c type="kk">/</c> maar geregeld, als <lb n="100" xml:id="l-100"/>absolute hoofdzaak, er mee door moest gaan <lb n="101" xml:id="l-101"/>al bragt het eenige hoogere kosten mede.</ab>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                <lb n="102" xml:id="l-102"/>
+<ab rend="indent">Maar ofschoon ik zelf het verbazend graag doe <lb n="103" xml:id="l-103"/>en waarschijnlijk voorloopig niet zooveel zal schilderen <lb n="104" xml:id="l-104"/>als mijn ambitie en lust meebrengt, wegens de zware kosten, <lb n="105" xml:id="l-105"/>ik reken dat ik niets verlies door veel van <lb n="106" xml:id="l-106"/>mijn tijd aan ’t teekenen te geven en doe dat <lb n="107" xml:id="l-107"/>niet minder graag. Echter ik ben in twijfel – <lb n="108" xml:id="l-108"/>het schilderen is mij meegevallen – misschien <lb n="109" xml:id="l-109"/>zou het den weg zijn er alle kracht bij te zetten <lb n="110" xml:id="l-110"/>en te sjouwen met ’t penseel vooral – maar <lb n="111" xml:id="l-111"/>ik verklaar het niet te weten.</ab>
+                <lb n="112" xml:id="l-112"/>
+<ab rend="indent">In elk geval – het teekenen met houtskool <lb n="113" xml:id="l-113"/>is eene zaak die ik zeker weet dat ik nu meer <lb n="114" xml:id="l-114"/>dan vroeger moet bestudeeren – in elk geval <lb n="115" xml:id="l-115"/>heb ik genoeg te doen en kan voort<c type="kk">/</c> ook <lb n="116" xml:id="l-116"/>dan wanneer ik mij met schilderen wat matig kan <lb n="116a" xml:id="l-116a"/>ik even hard werken. <lb n="117" xml:id="l-117"/>Als het is dat ik nog al talrijke studies nu geschilderd heb <lb n="118" xml:id="l-118"/>in korten tijd<c type="kk">/</c> het komt dan ook omdat ik er op doorwerk <lb n="119" xml:id="l-119"/>en dat ik letterlijk den heelen dag doorwerk<c type="kk">/</c> haast geen <lb n="120" xml:id="l-120"/>tijd nemende zelfs om te eten of te drinken.</ab>
+                <lb n="121" xml:id="l-121"/>
+<ab rend="indent">In verscheidene studies zijn kleine figuurtjes – ik heb ook aan <lb n="122" xml:id="l-122"/>een grooter gewerkt en reeds tweemaal het geheel afgekrabt<c type="kk">/</c> <lb n="123" xml:id="l-123"/>’t geen ge misschien overijld zoudt gevonden hebben als ge <lb n="124" xml:id="l-124"/>’t effekt gezien hadt – maar ’t is niet uit overijling – <lb n="125" xml:id="l-125"/>het is om reden ik gevoel dat ik het nog beter kan <lb n="126" xml:id="l-126"/>met wat sjouwen en zoeken – en dat betere wil <lb n="127" xml:id="l-127"/>ik absoluut bereiken<c type="kk">/</c> het moge meer of minder tijd, <lb n="128" xml:id="l-128"/>meer of minder moeite kosten. Het landschap <lb n="129" xml:id="l-129"/>zoo als ik het nu heb aangegrepen vereischt ook <lb n="130" xml:id="l-130"/>bepaald figuur – het zijn studies voor fonds <lb n="131" xml:id="l-131"/>die men zoo door en door bestudeeren moet <lb n="132" xml:id="l-132"/>om reden de toon van ’t figuur daarvan afhankelijk <lb n="133" xml:id="l-133"/>is en het effekt van ’t geheel.</ab>
+                <lb n="134" xml:id="l-134"/>
+<ab rend="indent">Dat wat mij meevalt in ’t schilderen is dat met dezelfde <lb n="135" xml:id="l-135"/>moeite van een teekening men iets mee naar huis <lb n="136" xml:id="l-136"/>brengt dat veel meer de impressie weergeeft en <lb n="137" xml:id="l-137"/>veel aangenamer is om te zien. En tegelijk ook juister.</ab>
+                <lb n="138" xml:id="l-138"/>
+<ab rend="indent">In een woord het is dankbaarder dan het teekenen<c type="kp">_</c> <lb n="139" xml:id="l-139"/>Alleen er wordt absoluut voor vereischt dat men <lb n="140" xml:id="l-140"/>betrekkelijk met zekerheid de juiste proportie en plaats <lb n="141" xml:id="l-141"/>der voorwerpen weet te teekenen voor men begint.</ab>
+                <lb n="142" xml:id="l-142"/>
+<ab rend="indent">Vergist men zich daarin<c type="kk">/</c> komt er niets van teregt.</ab>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+                <lb n="143" xml:id="l-143"/>
+<ab rend="indent">Ik verheug mij op den herfst – tegen dien <lb n="144" xml:id="l-144"/>tijd moet ik bepaald zorgen weer <lb n="145" xml:id="l-145"/>verf en verschillende dingen in voorraad te <lb n="146" xml:id="l-146"/>hebben. Ik houd zoo bijzonder veel van <lb n="147" xml:id="l-147"/>die effekten met geele blaren waar de groene <lb n="148" xml:id="l-148"/>beukenstammen zoo mooi tegen doen en <lb n="149" xml:id="l-149"/>de figuren niet minder.</ab>
+                <lb n="150" xml:id="l-150"/>
+<ab rend="indent">Dezer dagen las ik gedeeltelijk een tamelijk melankoliek boek<c type="kk">/</c> <lb n="151" xml:id="l-151"/>“brieven en dagboek” v. Gerard Bilders<c type="kp">_</c>–<anchor n="7" xml:id="note-o-7"/> <lb n="152" xml:id="l-152"/>Die stierf op den leeftijd waarop ik zoowat begon<c type="kk">/</c> <lb n="153" xml:id="l-153"/>als ik dat lees ben ik niet rouwig laat begonnen <lb n="154" xml:id="l-154"/>te zijn. Zeker was hij ongelukkig en werd <lb n="155" xml:id="l-155"/>dikwijls miskend maar tevens vind ik een <lb n="156" xml:id="l-156"/>groote zwakheid in hem, iets ziekelijks in zijn <lb n="157" xml:id="l-157"/>karakter<c type="kp">_</c>– Het is zoo’n soort historie als <lb n="158" xml:id="l-158"/>van een plant die te vroeg opschiet en niet <lb n="159" xml:id="l-159"/>tegen den vorst kan en op een goeden nacht <lb n="160" xml:id="l-160"/>daardoor tot in den wortel geraakt wordt <lb n="161" xml:id="l-161"/>en dan verflenst. Eerst heeft hij het goed – is <lb n="162" xml:id="l-162"/>hij een meester als in de broeikas – vordert <lb n="163" xml:id="l-163"/>daar snel – maar te Amsterdam staat hij bijna <lb n="164" xml:id="l-164"/>alleen en ondanks zijn knapheid kan hij het er <lb n="165" xml:id="l-165"/>niet houden en hij komt eindelijk bij zijn <lb n="166" xml:id="l-166"/>vader t’huis terug<c type="kk">/</c> geheel ontmoedigd<c type="kk">/</c> ontevreden<c type="kk">/</c> <lb n="167" xml:id="l-167"/>lusteloos – en schildert daar nog wat en gaat eindelijk <lb n="168" xml:id="l-168"/>aan tering of een andere kwaal dood op zijn 28<hi rend="ss">ste</hi> jaar.–<anchor n="8" xml:id="note-o-8"/>
+                </ab>
+                <lb n="169" xml:id="l-169"/>
+<ab rend="indent">Wat mij niet bevalt in hem is dat <hi rend="ital">terwijl hij schildert</hi> <lb n="170" xml:id="l-170"/>hij over vreesselijke verveling en luiheid klaagt als <lb n="171" xml:id="l-171"/>iets waaraan hij niets doen kan – en steeds blijft <lb n="172" xml:id="l-172"/>hij ronddraaijen in ’t zelfde hem te benaauwde kringetje <lb n="173" xml:id="l-173"/>van zijn vrienden en in de amusementen en levensmanier die hem <lb n="174" xml:id="l-174"/>de keel uit hangen. Enfin – hij is een sympathiek <lb n="175" xml:id="l-175"/>figuur voor mij maar ik lees liever het leven <lb n="176" xml:id="l-176"/>van vader Millet<anchor n="9" xml:id="note-o-9"/> of van Th<c type="kp">_</c> Rousseau<anchor n="10" xml:id="note-o-10"/> of van Daubigny<c type="kp">_</c>
+                    <anchor n="11" xml:id="note-o-11"/> <lb n="177" xml:id="l-177"/>Als men ’t boek van Sensier over Millet leest <lb n="178" xml:id="l-178"/>krijgt men moed en van dat van Bilders wordt <lb n="179" xml:id="l-179"/>men beroerd.</ab>
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>
+                <lb n="180" xml:id="l-180"/>
+<ab rend="indent">In een brief van Millet vind ik altijd <lb n="181" xml:id="l-181"/>wel een opsomming van moeielijkheden <lb n="182" xml:id="l-182"/>maar toch<c type="kk">/</c> “j’ai tout de même fait ceci <lb n="183" xml:id="l-183"/>of cela”<anchor n="12" xml:id="note-o-12"/> en verder steeds een in ’t gezigt hebben <lb n="184" xml:id="l-184"/>van andere dingen die hij absoluut doen wil en <lb n="184a" xml:id="l-184a"/>ook ten uitvoer brengt. <lb n="185" xml:id="l-185"/>En bij G. Bilders is ’t mij te dikwijls “ik heb deze <lb n="186" xml:id="l-186"/>week het land gehad en zitten knoeijen – en <lb n="187" xml:id="l-187"/>naar dit of dat concert of comedie geweest waar ik <lb n="188" xml:id="l-188"/>nog beroerder van daan kwam.”<anchor n="13" xml:id="note-o-13"/>
+                </ab>
+                <lb n="189" xml:id="l-189"/>
+<ab rend="indent">Het geen mij in Millet treft is dat eenvoudige, <lb n="190" xml:id="l-190"/>“il faut <hi rend="ital">tout de même</hi> que je fasse çeci ou ça”<c type="kp">_</c> <lb n="191" xml:id="l-191"/>Bilders is heel geestig en kan op potsierlijke manier <lb n="192" xml:id="l-192"/>verzuchtingen slaken over manillas pointus waar <lb n="193" xml:id="l-193"/>hij trek in heeft en die hij niet koopen kan<c type="kk">/</c> over <lb n="194" xml:id="l-194"/>kleermakersrekeningen die hij geen kans ziet <lb n="195" xml:id="l-195"/>te betalen, <lb n="195a" xml:id="l-195a"/>hij beschrijft zijn angst over geldzaken zòò geestig dat <lb n="195b" xml:id="l-195b"/>hij zelf en die het leest er om moet lagchen.<anchor n="14" xml:id="note-o-14"/>
+                </ab>
+                <lb n="196" xml:id="l-196"/>
+<ab rend="indent">Maar hoe geestig die dingen ook gezegd zijn<c type="kk">/</c> <lb n="197" xml:id="l-197"/>ik heb er toch het land aan en heb meer respect <lb n="198" xml:id="l-198"/>voor de privémoeielijkheden van Millet <lb n="199" xml:id="l-199"/>die zegt “il faut tout de même de la soupe <lb n="200" xml:id="l-200"/>pour les enfants”,<anchor n="15" xml:id="note-o-15"/> en niet spreekt over manilla’s <lb n="201" xml:id="l-201"/>pointus of amusementen.</ab>
+                <lb n="202" xml:id="l-202"/>
+<ab rend="indent">’tGeen ik zeggen wil is dit. In zijn levensopvatting <lb n="203" xml:id="l-203"/>is G. Bilders romantiek geweest en de illusions <lb n="204" xml:id="l-204"/>perdues niet te boven gekomen<anchor n="16" xml:id="note-o-16"/> en ik voor mij <lb n="205" xml:id="l-205"/>reken het in zekeren zin een voorregt dat ik <lb n="206" xml:id="l-206"/>eerst begonnen ben toen romantieke illusies <lb n="207" xml:id="l-207"/>achter den rug waren. Ik moet nu schade inhalen<c type="kk">/</c> <lb n="208" xml:id="l-208"/>hard werken – maar het werk is juist als men <lb n="209" xml:id="l-209"/>illusions perdues achter den rug heeft eene behoefte en <lb n="210" xml:id="l-210"/>een van de weinige genoegens die overblijven<c type="kp">_</c> En <lb n="211" xml:id="l-211"/>daar ontstaat een groote rust en kalmte door.</ab>
+                <lb n="212" xml:id="l-212"/>
+<ab rend="indent">Het spijt me nu wel dat het nu misschien wel een <lb n="213" xml:id="l-213"/>jaar duren zal voor ge hetgeen ik schilder eens alles <lb n="214" xml:id="l-214"/>bij elkaar ziet – ook al zou ik U nu en dan wat <lb n="215" xml:id="l-215"/>sturen – en wij er eens over spreken kunnen <lb n="216" xml:id="l-216"/>wat en hoe te doen. Dat het zijn nut zal hebben <lb n="217" xml:id="l-217"/>ik nu deze dingen geschilderd heb meen ik U te kunnen <lb n="218" xml:id="l-218"/>verzekeren. Misschien kan datgene lukken wat in Januarij mislukte<c type="kp">_</c>
+                    <anchor n="17" xml:id="note-o-17"/>
+                </ab>
+<pb f="2v" n="7" xml:id="pb-orig-2v-7" facs="#zone-pb-2v-7"/>
+                <lb n="219" xml:id="l-219"/>
+<ab rend="indent">Verdenk mij vooral niet van onverschilligheid <lb n="220" xml:id="l-220"/>omtrent het verdienen<c type="kk">/</c> den naasten weg daartoe <lb n="221" xml:id="l-221"/>in te slaan is ’t geen ik bedoel<c type="kp">_</c>–</ab>
+                <lb n="222" xml:id="l-222"/>
+<ab rend="indent">Mits het tot werkelijke en blijvende verdienste <lb n="223" xml:id="l-223"/>zij die ik voor mij slechts in ’t verschiet zien kan <lb n="224" xml:id="l-224"/>op conditie er iets waarachtig goeds in mijn werk <lb n="225" xml:id="l-225"/>komt<c type="kk">/</c> niet door uitsluitend werken op verkoopbaarheid – dat <lb n="226" xml:id="l-226"/>men later bezuren moet – maar door opregte <lb n="227" xml:id="l-227"/>studie van de natuur.</ab>
+                <lb n="228" xml:id="l-228"/>
+<ab rend="indent">Was het dat gij aan het geschilderde zaagt dat <lb n="229" xml:id="l-229"/>het daarmee het meest vlotten zou kunnen<c type="kk">/</c> <lb n="230" xml:id="l-230"/>zoo zou ik natuurlijk niet weigeren meer te <lb n="231" xml:id="l-231"/>schilderen<c type="kp">_</c> Alleen als het is dat het nog <lb n="232" xml:id="l-232"/>lang duren moest eer ’t verkoopbaar werd <lb n="233" xml:id="l-233"/>zou ik zelf de eerste zijn om te zeggen<c type="kk">/</c> <lb n="234" xml:id="l-234"/>dan moeten we ’t intusschen met de <lb n="235" xml:id="l-235"/>meest mogelijke zuinigheid aanleggen<c type="kk">/</c> en door <lb n="236" xml:id="l-236"/>
+                    <hi rend="ital">teekenen</hi> vermijdt men veel kosten en gaat <lb n="237" xml:id="l-237"/>zeer zeker solide ofschoon langzaam <lb n="238" xml:id="l-238"/>vooruit. Ik zie in deze geschilderde <lb n="239" xml:id="l-239"/>dingen eene verandering en ik schrijf <lb n="240" xml:id="l-240"/>het U omdat gij beter dan ik zoudt <lb n="241" xml:id="l-241"/>kunnen zeggen in welk verband dit <lb n="242" xml:id="l-242"/>tot den mogelijken verkoop zou kunnen <lb n="243" xml:id="l-243"/>staan. Het komt mij voor de geschilderde <lb n="244" xml:id="l-244"/>studies <hi rend="ital">aangenamer zijn om te zien</hi> <lb n="245" xml:id="l-245"/>dan ’t geen ik teekende <hi rend="ital">in elk geval</hi>. <lb n="246" xml:id="l-246"/>Voor mij zelf hecht ik minder aan <lb n="247" xml:id="l-247"/>het meer aangename<c type="kk">/</c> minder magere <lb n="248" xml:id="l-248"/>effekt en stel het doel dat ik bereiken wil <lb n="249" xml:id="l-249"/>in de uitdrukking van strenger en mannelijker <lb n="250" xml:id="l-250"/>dingen<c type="kk">/</c> waar ik eerst nog veel voor sjouwen moet. <lb n="251" xml:id="l-251"/>Maar was het dat gij zeidet: werk op die <lb n="252" xml:id="l-252"/>boschgezigtjes of landschappen of marines<c type="kk">/</c> dan hoeft <lb n="253" xml:id="l-253"/>dat grooter en ernstiger dingen niet te verhinderen <lb n="254" xml:id="l-254"/>en zou ik daar niet op tegen hebben.</ab>
+<pb f="2r" n="8" xml:id="pb-orig-2r-8" facs="#zone-pb-2r-8"/>
+                <lb n="259" xml:id="l-259"/>
+<ab rend="indent">Alleen ik zou moeten weten dat <lb n="260" xml:id="l-260"/>zij de penseelen<c type="kk">/</c> de verf<c type="kk">/</c> het doek waard <lb n="261" xml:id="l-261"/>zijn en ’t geen geldverspillen is er veel te <lb n="262" xml:id="l-262"/>maken maar de kosten er weer uit zijn te halen<c type="kp">_</c> <lb n="263" xml:id="l-263"/>Was dat zóó of kon het zoo worden dan kon <lb n="264" xml:id="l-264"/>het een middel worden om mij in staat te stellen <lb n="265" xml:id="l-265"/>moeielijker dingen te ondernemen<c type="kp">_</c>
+                </ab>
+                <lb n="266" xml:id="l-266"/>
+<ab rend="indent">In dat geval zou ik er zelfs met groote ambitie <lb n="267" xml:id="l-267"/>op werken. Ik wil beginnen ze nog wat te <lb n="268" xml:id="l-268"/>laten rijpen<c type="kk">/</c> nog wat hooger op te voeren. <lb n="269" xml:id="l-269"/>Dan<c type="kk">/</c> over een paar maanden b.v. stuur ik U <lb n="270" xml:id="l-270"/>er eens iets van en kunnen we zien. <lb n="271" xml:id="l-271"/>Ik geloof dat de meeste schilders <lb n="272" xml:id="l-272"/>op deze wijs zich naar hooger dingen hebben opgewerkt<c type="kp">_</c> <lb n="273" xml:id="l-273"/>Dingen die slecht waren van beginsel, onwaar en valsch <lb n="274" xml:id="l-274"/>van rigting, zou ik niet willen maken omdat ik de natuur <lb n="275" xml:id="l-275"/>te lief heb. <lb n="276" xml:id="l-276"/>Maar wij staan <lb n="277" xml:id="l-277"/>voor deze kwestie: om tot iets hoogers en beters te komen <lb n="278" xml:id="l-278"/>moet ik nog veel studies maken. Wat zal ’t voordeeligst <lb n="279" xml:id="l-279"/>uitkomen<c type="kk">/</c> die studies te teekenen of te schilderen? <lb n="280" xml:id="l-280"/>Dan wanneer de geschilderde <hi rend="ital">on</hi>verkoopbaar zijn<c type="kk">/</c> <lb n="281" xml:id="l-281"/>zeer zeker is het dan voordeeliger te teekenen <lb n="282" xml:id="l-282"/>met houtskool of iets anders.</ab>
+                <lb n="255" xml:id="l-255"/>
+<ab rend="indent">De reden waarom ik zelf zeer blij ben met het schilderen is niet het aangenamer aspect maar het <lb n="256" xml:id="l-256"/>geeft mij licht in andere kwesties van toon en vorm en stof waar ik tot nu toe voor stond en magteloos was <lb n="257" xml:id="l-257"/>en nu met dit middel eens kan aanvallen. Ik zie nu b.v. ook meer kans om weer eens met houtskool te beproeven en <lb n="258" xml:id="l-258"/>resultaat te krijgen.</ab>
+                <lb n="283" xml:id="l-283"/>
+<ab rend="indent">Maar gesteld het was mogelijk de kosten goed <lb n="284" xml:id="l-284"/>te maken van geschilderde studies<c type="kk">/</c> <lb n="285" xml:id="l-285"/>dan wilde ik U zeggen dat ik uit principe <lb n="286" xml:id="l-286"/>daarop niets zou tegen hebben nu ik zie dat het <lb n="286a" xml:id="l-286a"/>mij eenigzins vlot en misschien een buitenkansje zou kunnen worden<c type="kp">_</c>
+                </ab>
+                <lb n="287" xml:id="l-287"/>
+<ab rend="indent">Uit principe heb ik alleen tegen op het <lb n="288" xml:id="l-288"/>spendeeren van verf voor dingen die men <lb n="289" xml:id="l-289"/>met iets anders ook leeren kan<c type="kk">/</c> dan<c type="kk">/</c> wanneer <lb n="290" xml:id="l-290"/>er van verkoop toch nog geen kwestie is. <lb n="291" xml:id="l-291"/>Noch U noch mijzelf zou ik op kosten willen jagen die noodeloos <lb n="292" xml:id="l-292"/>zijn maar ik zie duidelijk dat de geschilderde dingen een <lb n="293" xml:id="l-293"/>aangenamer aspect hebben<c type="kp">_</c>– Dit brengt mij in twijfel wat te doen<c type="kp">_</c>
+                </ab>
+                <lb n="294" xml:id="l-294"/>
+<ab rend="indent">Mijn geld is nog niet geheel op – maar veel heb ik niet <lb n="295" xml:id="l-295"/>meer – wij hebben heden den twintigsten als ik ’t wel heb<c type="kk">/</c> <lb n="296" xml:id="l-296"/>voor huiselijke behoeften heb ik deze <lb n="297" xml:id="l-297"/>maand eer minder dan meer uitgegeven dan gewoonlijk. Ik heb <lb n="298" xml:id="l-298"/>dus nu wel in eens veel moeten geven voor schildergerij maar er <lb n="299" xml:id="l-299"/>is veel bij wat op den duur blijft. Maar alles is wel duur. Ik hoop gij <lb n="300" xml:id="l-300"/>spoedig wat zenden kunt. Ontvang een hartelijken handdruk in gedachten <lb n="301" xml:id="l-301"/>en geloof me</ab>
+<vg:whiteline/>
+                <lb n="301*" xml:id="l-301s"/>
+<ab>t. à t.</ab>
+                <lb n="302" xml:id="l-302"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<pb f="3r" n="9" xml:id="pb-orig-3r-9" facs="#zone-pb-3r-9"/>
+                <lb n="303" xml:id="l-303"/>
+<ab>Ik hoop van harte dat gij dit schrijven <lb n="304" xml:id="l-304"/>niet beschouwen zult als of ik nu reeds <lb n="305" xml:id="l-305"/>de pretentie had dat met deze eerste studies <lb n="306" xml:id="l-306"/>iets te doen is. C.M<c type="kp">_</c> nam in der tijd <lb n="307" xml:id="l-307"/>zekere uitdrukkingen van mij zoo op, <lb n="308" xml:id="l-308"/>ofschoon ik geenszins in dien zin ze <lb n="309" xml:id="l-309"/>bedoeld had. Vroeger kon ik althans <lb n="310" xml:id="l-310"/>beter dan nu zeggen wat iets waard was <lb n="311" xml:id="l-311"/>en of het aan den man te brengen was <lb n="312" xml:id="l-312"/>of niet. Nu blijkt het mij dagelijks <lb n="313" xml:id="l-313"/>ik zulks niet meer weet en het <lb n="314" xml:id="l-314"/>komt er voor mij nu meer op aan <lb n="315" xml:id="l-315"/>de natuur te bestudeeren dan de prijzen <lb n="316" xml:id="l-316"/>der schilderijen.</ab>
+                <lb n="317" xml:id="l-317"/>
+<ab rend="indent">Maar ik zie dunkt mij dat de geschilderde studies <lb n="318" xml:id="l-318"/>een veel aangenamer aspect hebben <lb n="319" xml:id="l-319"/>dan hetzij de met zwart &amp; wit geteekende <lb n="320" xml:id="l-320"/>hetzij de aquarellen die gij onlangs zaagt. <lb n="321" xml:id="l-321"/>En daarom ben ik in twijfel of het <lb n="322" xml:id="l-322"/>mogelijk zou zijn het schilderen <lb n="323" xml:id="l-323"/>als absolute hoofdzaak misschien <lb n="324" xml:id="l-324"/>ondanks de meerdere kosten voordeeliger <lb n="325" xml:id="l-325"/>zou kunnen uitkomen.</ab>
+<pb f="3v" n="10" xml:id="pb-orig-3v-10" facs="#zone-pb-3v-10"/>
+                <lb n="326" xml:id="l-326"/>
+<ab rend="indent">Ik heb liever dat gij zulks beslist dan <lb n="327" xml:id="l-327"/>ik van wege ik U in de beoordeeling <lb n="328" xml:id="l-328"/>van het finantieele succes competenter <lb n="329" xml:id="l-329"/>acht dan mij zelf en ik U volkomen <lb n="330" xml:id="l-330"/>vertrouw dat gij daarin juist ziet.</ab>
+                <lb n="331" xml:id="l-331"/>
+<ab rend="indent">En als ik U vroeger of later iets zend dan <lb n="332" xml:id="l-332"/>is het om te vernemen of gij mij daaromtrent <lb n="333" xml:id="l-333"/>wenken te geven hebt, niet om te zeggen<c type="kk">/</c> dit <lb n="334" xml:id="l-334"/> of dat reken ik verkoopbaar – want ik weet <lb n="335" xml:id="l-335"/>zulks niet meer te zeggen. <lb n="335a" xml:id="l-335a"/>En ik zend het ook om in <lb n="335b" xml:id="l-335b"/>elk geval U op de hoogte te <lb n="335c" xml:id="l-335c"/>houden van wat ik uitvoer.</ab>
+                <lb n="336" xml:id="l-336"/>
+<ab rend="indent">Gij hebt mij gezegd mijn best eens te doen <lb n="337" xml:id="l-337"/>om te trachten een teekeningetje wat op te <lb n="338" xml:id="l-338"/>voeren in aquarel – ik geloof dat juist door <lb n="339" xml:id="l-339"/>het schilderen ik<c type="kk">/</c> als ik weer aan ’t aquarelleeren <lb n="340" xml:id="l-340"/>ga<c type="kk">/</c> meer in staat zal zijn dan vroeger.</ab>
+                <lb n="341" xml:id="l-341"/>
+<ab rend="indent">Maar als dat eens minder goed uitvalt moet <lb n="342" xml:id="l-342"/>ge U echter niet decourageeren en ik zelf ook niet, <lb n="343" xml:id="l-343"/>en U niet geneeren mij opmerkingen te maken. <lb n="344" xml:id="l-344"/>Opmerkingen die mij gemaakt worden sla <lb n="345" xml:id="l-345"/>ik niet systematisch in den wind maar er <lb n="346" xml:id="l-346"/>is meer tijd noodig iets te veranderen dan de <lb n="347" xml:id="l-347"/>verandering aan te wijzen in veel gevallen. <lb n="348" xml:id="l-348"/>Zoo heb ik nu nog dingen in praktijk gebragt <lb n="349" xml:id="l-349"/>die Mauve me in Januarij gezegd heeft. <lb n="350" xml:id="l-350"/>En b.v. dat brok grond geschilderd naar <lb n="351" xml:id="l-351"/>aanleiding van een gesprek over een studie <lb n="352" xml:id="l-352"/>van hem<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-134" n="134">in &lt; is</note>
+<note target="l-151" n="151">dagboek” &lt; dagboek</note>
+<note target="l-188" n="188">kwam.” &lt; kwam.</note>
+<note target="l-190" n="190">ça”<c type="kp">_</c> &lt; ça</note>
+<note target="l-200" n="200">enfants”, &lt; enfants,</note>
+<note target="l-234" n="234">intusschen &lt; in tusschen</note>
+<note target="l-255" targetEnd="l-258" n="255-258">De reden <supplied>
+                            <hi rend="ital">...</hi>
+                        </supplied> krijgen. &lt; <hi rend="ital">In the left margin on p. 7, l. 219-254 (</hi>Verdenk <supplied>
+                            <hi rend="ital">...</hi>
+                        </supplied> tegen hebben.<hi rend="ital">)</hi>
+                    </note>
+<note target="l-320" n="320">hetzij de aquarellen &lt; en dan de aquarellen  <hi rend="ital">Alternative emendation: delete </hi>‘hetzij’ <hi rend="ital">in l. 320.</hi>
+                    </note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>Sunday afternoon.</ab>
+<vg:whiteline/>
+<ab>My dear Theo,</ab>
+<ab>I’ve just received a good letter from home which truly gives me great pleasure, and from which it’s clear that your visit and the things you said about me and my work have left an impression that reassures them. </ab>
+<ab rend="indent">I believe this can only have desirable consequences, and I thank you in particular for the way in which you talked about me, though it seems to me you’ve praised me more about one thing and another than I yet deserve. At home they seem to be very pleased with their new surroundings, and are still full of your visit. </ab>
+<ab rend="indent">As I am myself, by the way, for various things you said to me cause me to think of you even more than I used to, certainly not with less affection. What you told me about your health, in particular, makes me think of you often.<anchor n="1" xml:id="note-t-1"/> </ab>
+<ab rend="indent">I am well — I feel fine not avoiding anything because of it, and just carrying on. But, as you’ll understand, it isn’t entirely over. At times, mainly in the evening when I’m tired, it troubles me, but fortunately it’s no longer such that it stops me working.</ab>
+<ab rend="indent">This week I painted a few fairly large studies in the woods which I’ve tried to work up more highly and elaborate more than the first ones. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> The one I believe I’ve been most successful with is no more than a piece of ground dug over — white, black and brown sand after a downpour.<anchor n="2" xml:id="note-t-2"/> So that the clods of earth catch the light here and there and are more expressive. After I’d been sitting in front of that piece of ground for a while drawing, there came a thunderstorm with torrential rain that lasted a good hour. I had become so gripped, however, that I stayed at my post and sheltered as best I could behind a thick tree. When it had finally passed and the crows took to the air again, I wasn’t sorry I had waited, because of the wonderfully deep tone the ground of the wood had taken on after the rain.</ab>
+<ab rend="indent">Because I had started before the storm on my knees with a low horizon, I now had to kneel down in the mud,<anchor n="3" xml:id="note-t-3"/> and it’s because of similar adventures, which happen very often in different ways, that it seems sensible to me to wear ordinary working clothes that aren’t easily ruined. </ab>
+<ab rend="indent">The outcome this time was that I was able to take that piece of ground with me to the studio — although <rs type="pers" key="323">Mauve</rs> rightly said to me when we were discussing one of his studies that it’s a job to draw clods of earth and to get depth into them. </ab>
+<ab rend="indent">The other study from the woods is of big green beech trunks on a ground with dead leaves, and the small figure of a girl in white.<anchor n="4" xml:id="note-t-4"/>
+                </ab>
+<ab rend="indent">The great difficulty there was to keep it clear and bring in space between the tree-trunks, which stand at different distances — and the place and relative thickness of the trunks altered by the perspective. To ensure, in short, that one can breathe and wander about in it — and smell the woods. </ab>
+<ab rend="indent">I particularly enjoyed doing these two. 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> Just as much as something I saw at Scheveningen. </ab>
+<ab rend="indent">A large expanse in the dunes in the morning after rain — the grass is very green, relatively speaking, and the black nets are spread out on it in huge circles, creating tones on the ground of a deep, reddish black, green, grey. Sitting, standing or walking on this sombre ground like strange dark ghosts were women in white caps, and men who spread out or repaired the nets.<anchor n="5" xml:id="note-t-5"/>
+                </ab>
+<ab rend="indent">In nature it was as compelling, distinctive, sombre and severe as the finest one could imagine by <rs type="pers" key="1226">Millet</rs>, <rs type="pers" key="1107">Israëls</rs> or <rs type="pers" key="1063">Degroux</rs>. Above the landscape a plain grey sky with a light band above the horizon. Despite showers of rain, I made a study of it on a sheet of oiled torchon.</ab>
+<ab rend="indent">A lot needs to be done before I’ll be capable of working that up highly — but it’s things like this that I find most compelling in nature.</ab>
+<ab rend="indent">How beautiful it is outdoors when everything is wet with rain — before — during — after the rain. I really ought not to miss a single shower.<anchor n="6" xml:id="note-t-6"/> This morning I hung all the painted studies in the studio. I wish I could talk to you about them. </ab>
+<ab rend="indent">As I indeed expected and counted on while I was at work, I had to buy rather a lot extra, and the money is almost used up. I’ve now painted for a fortnight from early morning to late in the evening, so to speak, and if I continued like this it would work out too expensive as long as I’m not selling. </ab>
+<ab rend="indent">I think it possible that if you saw the work you would say that I shouldn’t paint only on occasion, when I took particular pleasure in it, but carry on with it regularly, as absolutely the main thing, even if it entailed higher costs. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> </ab>
+<ab rend="indent">But although I enjoy it tremendously, and probably won’t paint as much as my ambition and pleasure demand for the time being, because of the heavy costs, I reckon I’ll lose nothing by devoting much of my time to drawing, and do that just as eagerly. I am, however, in doubt — painting has proved less difficult than I expected — perhaps the course to adopt would be to concentrate every effort on toiling with the brush above all — but I declare I don’t know. </ab>
+<ab rend="indent">At any rate, I know for sure that drawing with charcoal is something I must now study more closely than in the past — at any rate I have enough to do and can carry on; even if I restrain myself somewhat as regards painting, I can work just as hard. If I’ve now painted quite a number of studies in a short time it’s also because I keep on working on them, and literally work all day, barely taking the time even to eat or drink. </ab>
+<ab rend="indent">In several studies there are small figures. I’ve also worked on a larger one and already scraped everything off twice, which you might perhaps have thought rash if you had seen the effect, but it wasn’t rash — the reason is that I feel I can do even better with more effort and study, and I’m absolutely determined to achieve that better result, whether it takes more time or less, more effort or less. Landscape the way I’ve now tackled it also definitely requires figures. These are studies for backgrounds that must be very thoroughly examined, because the tone of the figure depends on it, and the effect of the whole. </ab>
+<ab rend="indent">One of the things I like about painting is that for the same effort as for a drawing one takes home something that conveys the impression much better and is much more pleasing to look at. And at the same time more accurate. </ab>
+<ab rend="indent">In a word, it’s more rewarding than drawing. But it’s absolutely essential that one draw the objects in the correct proportion and position with some certainty before one begins. </ab>
+<ab rend="indent">If an error is made there, it will all come to nothing. 
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/>
+                </ab>
+<ab rend="indent">I’m looking forward to the autumn. By then I must make sure I stock up on paint and various things again. I’m particularly fond of the effects of yellow leaves against which the green beech trunks stand out so beautifully, and the figures no less. </ab>
+<ab rend="indent">The past few days I’ve been reading part of a rather melancholy book, ‘Brieven en dagboek’ of <rs type="pers" key="150">Gerard Bilders</rs>.<anchor n="7" xml:id="note-t-7"/> He died at the age when I was more or less beginning. When I read it, I don’t regret making a late start. He was certainly unhappy and was often misunderstood, but at the same time I find a great weakness in him, something unhealthy in his character. It’s like the story of a plant that shoots up too early and can’t withstand the frost, and as a result one fine night it’s struck to the root and withers away. At first he does well — he’s a master as in the hothouse — making rapid growth there — but in Amsterdam he stands almost alone, and despite his brilliance he can’t cope there, and in the end he comes back to his father’s house, completely discouraged, dissatisfied, apathetic — and there he does some more painting and finally dies of consumption or another disease in his 28th year.<anchor n="8" xml:id="note-t-8"/>
+                </ab>
+<ab rend="indent">What I dislike in him is that <hi rend="ital">while painting</hi> he complains about terrible boredom and idleness as things he can do nothing about, and he carries on going round in the same stifling circle made up of his friends and the entertainments and way of life he’s so heartily sick of. In short, I find him a sympathetic figure, but I would rather read the life of <hi rend="ital">père</hi> <rs type="pers" key="1226">Millet</rs>
+                    <anchor n="9" xml:id="note-t-9"/> or <rs type="pers" key="1332">T. Rousseau</rs>
+                    <anchor n="10" xml:id="note-t-10"/> or <rs type="pers" key="976">Daubigny</rs>.<anchor n="11" xml:id="note-t-11"/> When you read <rs type="pers" key="737">Sensier</rs>’s book about Millet you take courage from it, but <rs type="pers" key="150">Bilders</rs>’s book makes you feel wretched. 
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/> </ab>
+<ab rend="indent">In a letter by <rs type="pers" key="1226">Millet</rs> I always find a list of difficulties, but then: ‘nonetheless I’ve made this or that’,<anchor n="12" xml:id="note-t-12"/> and in addition to that constantly thinking about other things that he’s determined to do and does indeed carry out. And too often with <rs type="pers" key="150">G. Bilders</rs> it’s ‘I was in a bad mood this week and made a mess of things — and went to this or that concert or play which left me feeling even worse.’<anchor n="13" xml:id="note-t-13"/>
+                </ab>
+<ab rend="indent">What strikes me in <rs type="pers" key="1226">Millet</rs> is that simple ‘<hi rend="ital">Nonetheless</hi> I must make this or that.’ <rs type="pers" key="150">Bilders</rs> is very witty and can heave grotesque sighs about manilas <hi rend="ital">pointus</hi> that he fancies but cannot buy, and about tailors’ bills he sees no way of paying. He describes his anxiety about money matters so wittily that he himself and the reader can’t help laughing.<anchor n="14" xml:id="note-t-14"/>
+                </ab>
+<ab rend="indent">Yet however wittily these things are put, I still don’t like them, and have more respect for the private difficulties of <rs type="pers" key="1226">Millet</rs>, who says ‘Nonetheless there must be soup for the children,’<anchor n="15" xml:id="note-t-15"/> and doesn’t talk about manilas <hi rend="ital">pointus</hi> or entertainments. </ab>
+<ab rend="indent">What I want to say is this. <rs type="pers" key="150">G. Bilders</rs> was a romantic in his outlook on life, and he never got over his lost illusions.<anchor n="16" xml:id="note-t-16"/> For my part I regard it as in a sense a privilege that I began when romantic illusions were a thing of the past. Now I have some way to catch up, work hard, but particularly when you have lost illusions behind you, work is something you need and one of the few pleasures left. And from this comes a great peace and calm. </ab>
+<ab rend="indent">I’m sorry that now it may be a year before you see what I’m painting all together — even if I send something now and again — and before we can discuss what to do and how. I believe I can assure you that my painting these things now will prove to be worthwhile. Perhaps what failed in January will now succeed.<anchor n="17" xml:id="note-t-17"/> 
+<pb f="2v" n="7" xml:id="pb-trans-2v-7" facs="#zone-pb-2v-7"/> </ab>
+<ab rend="indent">Do not, above all, suspect me of indifference as regards earning; I fully intend to take the shortest route to that end.</ab>
+<ab rend="indent">Provided they are genuine and lasting earnings, of which I only see a prospect in my case if something truly good comes into my work, and not through working solely on saleability — which one pays for later — but through honest study of nature.</ab>
+<ab rend="indent">If you could see from the paintings that they’d have the best chance of success, I wouldn’t, of course, refuse to paint more. But should it take a long time before it becomes saleable, I would be the first to say, in that case we must live as thriftily as possible in the meantime, and with <hi rend="ital">drawing</hi> one avoids a lot of costs and very certainly makes sure and steady, if slow, progress. I see a change in these painted things, and I write to you about it because you’re better placed than I am to say how this might affect possible sales. It seems to me that<hi rend="ital"> at any rate</hi> the painted studies <hi rend="ital">are more agreeable to look at</hi> than what I’ve drawn. For my part, I attach less importance to the more agreeable, less gaunt effect, and make the expression of more austere and manly things the aim I want to achieve, for which I must first labour hard. But if you were to say: work on those views of woods or landscapes or seascapes, then that needn’t get in the way of larger and more serious things, and I would have nothing against that. 
+<pb f="2r" n="8" xml:id="pb-trans-2r-8" facs="#zone-pb-2r-8"/>
+                </ab>
+<ab rend="indent">It’s just that I would have to know that they were worth the brushes, the paint, the canvas, and that making a lot of them wasn’t a waste of money, but that the costs could be recouped. If that was or could become the case, it might be a way of enabling me to undertake more difficult things.</ab>
+<ab rend="indent">In that case I would even work on them with great ambition. I want to begin by letting them ripen somewhat, by working them up a bit more highly. Then in a few months, say, I’ll send you something and we can see. I believe that most painters have worked their way up to higher things in this way. I wouldn’t want to make things that were bad in principle, tending towards the untrue and the false, because nature is too dear to me. But we’re faced with this question: I must make many more studies in order to achieve something higher and better. What will work out cheapest: drawing or painting those studies? If the paintings are <hi rend="ital">un</hi>saleable, it will certainly be cheaper to draw in charcoal or something else. </ab>
+<ab rend="indent">The reason why I myself am delighted with painting is not the agreeable appearance, but the fact that it throws light on other questions of tone and form and material before which I used to be helpless, but now I can attack them with this means. I do now see, for example, more opportunity to have another try with charcoal and get a result. </ab>
+<ab rend="indent">But supposing it was possible to recover the costs of painted studies, I want to say to you that in principle I would have nothing against that, now I see that I’m making some headway and that it could perhaps be an exceptional opportunity. </ab>
+<ab rend="indent">My only objection in principle is to expending paint on things that can also be learnt with something else, while there’s still no question of selling. I don’t want to put either you or me to great expense for no good purpose, but I see clearly that the painted things have a more agreeable appearance. This makes me unsure as to what to do.</ab>
+<ab rend="indent">My money isn’t yet exhausted, but there isn’t much left. Today is the twentieth, if I’m not mistaken. This month I’ve spent less, not more, than usual on household needs. I’ve had to spend a lot all at once on painting materials, but much of that will last for some time. But everything is expensive. I hope you can send something soon. Accept a warm handshake in thought, and believe me</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+      <ab>Vincent </ab>
+<vg:whiteline/> 
+<pb f="3r" n="9" xml:id="pb-trans-3r-9" facs="#zone-pb-3r-9"/>
+<ab>I sincerely hope that you won’t take this letter to mean that I already presume that something can be done with these first studies. <rs type="pers" key="422">C.M.</rs> once interpreted certain remarks by me in that way, though I had definitely not meant them like that. I used to be able to say, better than now at any rate, what something was worth and whether it was likely to sell or not. Now it’s clear to me each day that I no longer know, and what matters more to me now is to study nature rather than the prices of paintings. </ab>
+<ab rend="indent">But I believe I see that the painted studies have a much more agreeable look than either the black-and-white drawings or the watercolours that you saw recently. And this is why I’m in doubt as to whether it’s possible that, despite the higher costs, painting as absolutely the main pursuit might not work out cheaper.
+<pb f="3v" n="10" xml:id="pb-trans-3v-10" facs="#zone-pb-3v-10"/> </ab>
+<ab rend="indent">I would rather that you make this decision, because I believe you’re more competent than I am as regards judging the financial success, and I have complete confidence that your judgement will be correct. </ab>
+<ab rend="indent">And if I send you something sooner or later, it will be to find out whether you have any tips to give me, not to say: I reckon this or that is saleable — for I no longer feel able to say that. And I’ll also send it in any case to keep you abreast of what I’m working on. </ab>
+<ab rend="indent">You told me to do my best sometime to try to work up a drawing in watercolour — I believe that, precisely as a result of painting, I’ll be more capable than in the past if I go back to watercolour. </ab>
+<ab rend="indent">But if that doesn’t work out so well occasionally, you mustn’t lose heart, nor must I, and you mustn’t be afraid to make comments to me. I don’t systematically ignore comments made to me, but in many cases it takes longer to change something than to point out the change. I’ve just been putting things into practice that <rs type="pers" key="323">Mauve</rs> said to me in January and, for instance, painted that piece of ground as the result of a conversation about a study by him. </ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>Theo suffered from headaches; <ref target="let269.xml">see letter 269</ref>.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>This painting of a piece of ground dug over is not known.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>Van Gogh worked with a board (<ref target="let260.xml#n-9">see letter 260, n. 9</ref>). He also talks about a ‘frame’ (<ref target="let255.xml#n-3">letter 255, n. 3</ref>).</ab>
+                </note>
+<note n="a" xml:id="n-a" target="#note-o-a">
+<ab>Means: ‘perspectief’ (perspective).</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>
+      <hi rend="ital">A girl in a wood</hi> (<rs type="ill" key="2387">F 8 / JH 182</rs>). This painting is ‘fairly large’: it measures 39 x 59 cm.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>
+      <hi rend="ital">Women mending nets in the dunes</hi> (<rs type="ill" key="2386">F 7 / JH 178</rs>).</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>Cf. in this connection the watercolour <hi rend="ital">People under umbrellas </hi>(<rs type="otherart" key="337">F 990 / JH 172</rs>).</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>
+      <rs type="lit" key="250">
+                            <hi rend="ital">Brieven en dagboek van A.G. Bilders</hi>
+                        </rs>. Ed. J. Kneppelhout. 2 vols. Leiden 1876. It consists of selected letters and the journal of the painter <rs type="pers" key="150">Gerard Bilders</rs> (son of the landscape painter <rs type="pers" key="864">Johannes Warnardus Bilders</rs>), who died while still young. He gives a detailed account of his artistic life, which was in part made possible by the patronage of the man of letters <rs type="pers" key="1693">Johannes Kneppelhout</rs>. Bilders was inclined towards melancholy and hypochondria, but was not without a sense of self-mockery. </ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>
+                        <rs type="pers" key="150">Bilders</rs> was 26 when he died of TB.</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>
+                        <rs type="pers" key="737">Sensier</rs>, <rs type="lit" key="238">
+                            <hi rend="ital">La vie et l’oeuvre de J.-F. Millet</hi>
+                        </rs>. <ref target="let210.xml#n-3">See letter 210, n. 3.</ref>
+                    </ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>In 1872 Sensier had published <rs type="lit" key="251">
+                            <hi rend="ital">Souvenirs sur Théodore Rousseau</hi>
+                        </rs>. Philippe Burty’s <rs type="lit" key="252">
+                            <hi rend="ital">Maîtres et petits maîtres</hi>
+                        </rs> contained an article on the life of <rs type="pers" key="1332">Théodore Rousseau</rs> (Burty 1877, pp. 120-160). It is not known, however, whether Van Gogh knew these publications at this time. </ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>Van Gogh could have acquired his knowledge of the life of <rs type="pers" key="976">Daubigny</rs> from the many articles about him in, for example, the <hi rend="ital">Gazette des Beaux-Arts</hi> and other art journals, or from monographs, such as Henriet 1875.</ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+<ab>These exact words are not found in <rs type="pers" key="737">Sensier</rs>’s biography, but they should be regarded as Van Gogh’s version of <rs type="pers" key="1226">Millet</rs>’s view.</ab>
+                </note>
+<note n="13" xml:id="n-13" target="#note-t-13">
+<ab>Van Gogh’s rendition is based on remarks like: ‘I’m bored, I’m in a bad mood, I just can’t shake it off. It’s misty, it’s dark, it’s early; and the spleen makes me mad and gloomy, furious and silent’. See Bilders 1876, vol. 2, p. 77.</ab>
+                </note>
+<note n="14" xml:id="n-14" target="#note-t-14">
+<ab>The subject of expensive cigars (manilas <hi rend="ital">pointus</hi>) comes up when <rs type="pers" key="150">Bilders</rs> describes how he dreamed of selling a painting for a good price and then because of the imagined proceeds saw ‘several manila pointus’ before him (Bilders 1876, vol. 2, p. 40). In a letter to Bilders <rs type="pers" key="1693">Kneppelhout</rs> had written: ‘If I understand your letter rightly, the tailor has been paid and you are broke, but without debts’. Bilders, who suffered from a chronic shortage of money, had to correct his patron on this point: ‘You do me too much honour by assuming that now the tailor is paid I have no more debts’ (Bilders 1876, vol. 1, p. 104).</ab>
+                </note>
+<note n="15" xml:id="n-15" target="#note-t-15">
+<ab>The remark about the soup for the children is not in <rs type="pers" key="737">Sensier</rs> in literally this form, but <rs type="pers" key="1226">Millet</rs>’s concern about feeding his children recurs several times. For example: ‘“Oh! How I am going to make ends meet? Because the children must eat, above all!’” (“Ah! ma fin de mois, où la trouver? car il faut bien que les enfants mangent avant tout!”). Moreover, he had been heard to say: ‘The main thing is that the children haven’t suffered in any way; so far, they’ve had enough to eat’. (L’important, c’est que les enfants n’aient point souffert; ils ont eu, jusqu’à présent, leur nourriture). See Sensier 1881, pp. 165, 107.</ab>
+                </note>
+<note n="16" xml:id="n-16" target="#note-t-16">
+<ab>Art did not give <rs type="pers" key="150">Bilders</rs> the expected fulfilment: ‘She is not sufficiently my life, she does not sufficiently fulfil my most passionate wishes to care for her greatly.’ He believes he will not find ‘the philosopher’s stone’ until love crosses his path: ‘Then contentment, interest, enthusiasm, ambition, I believe, would return, and with them calm’ (Bilders 1876, vol. 2, pp. 82-83, 85).</ab>
+                </note>
+<note n="17" xml:id="n-17" target="#note-t-17">
+<ab>The fact that Van Gogh’s attempts at painting six months earlier were not successful was due, he believed, to the estrangement between him and <rs type="pers" key="323">Anton Mauve</rs>, who had given him his first painting lessons; these lessons stopped because of this estrangement.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

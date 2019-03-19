@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Cuesmes, Friday, 20 August 1880.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let156"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">156</idno>
+<idno type="collectedletters">134</idno>
+<idno type="brieven1990">155</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Cuesmes</vg:placeLet>
+                        <vg:dateLet>Friday, 20 August 1880</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:physDesc>
+                        <vg:decoration>
+                            <vg:decoList xml:id="sketches">
+                                <vg:decoItem n="A" xml:id="sketch-1">
+                                    <vg:decoDesc>
+<p>
+      <hi rend="ital">Miners in the snow at dawn</hi> (<rs type="sketch" key="13">F - / JH Juv. 10</rs>), letter sketch</p>
+                                    </vg:decoDesc>
+                                </vg:decoItem>
+                            </vg:decoList>
+                        </vg:decoration>
+                    </vg:physDesc>
+                    <vg:letContents>
+<p>To Theo van Gogh. Cuesmes, Friday, 20 August 1880.</p>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. nos. b154 a-b V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Letter headed: ‘Cuesmes le 20 Août 1880’.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0154 a" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000163_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000163_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000163_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000163_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0154 a" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000163_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000163_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000163_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000163_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+        <surface n="b 0154b V/1962" xml:id="surf-extra-2r">
+            <graphic mimeType="image/tiff" url="VGM001000164_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-2r-3">
+<graphic mimeType="image/tiff" url="VGM001000164_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000164_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000164_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+        <surface n="b 0154b V/1962" xml:id="surf-extra-2v">
+            <graphic mimeType="image/tiff" url="VGM001000164_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-2v-4">
+<graphic mimeType="image/tiff" url="VGM001000164_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000164_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000164_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Cuesmes le 20 Août 1880</ab>
+<vg:whiteline/>
+                <lb n="2" xml:id="l-2"/>
+<ab>Cher Theo,</ab>
+                <lb n="3" xml:id="l-3"/>
+<ab>Si je ne me trompe pas tu dois encore avoir  “les travaux des champs” de Millet<c type="kp">_</c>
+                    <anchor n="1" xml:id="note-o-1"/> <lb n="4" xml:id="l-4"/>Voudrais tu avoir la bonté de me les prêter pour un peu de temps et de me <lb n="5" xml:id="l-5"/>les envoyer par la poste.</ab>
+                <lb n="6" xml:id="l-6"/>
+<ab rend="indent">Tu dois savoir que je suis en traîn de griffonner de grands dessins d’après <lb n="7" xml:id="l-7"/>Millet et que j’ai fait les heures de la journée<anchor n="2" xml:id="note-o-2"/> ainsi que le Semeur<c type="kp">_</c>
+                    <anchor n="3" xml:id="note-o-3"/>
+                </ab>
+                <lb n="8" xml:id="l-8"/>
+<ab rend="indent">Hé bien<c type="kk">/</c> peutêtre si tu les voyais n’en serais tu pas trop mécontent. <lb n="9" xml:id="l-9"/>Maintenant si tu voudrais m’envoyer les travaux des champs<c type="kk">/</c> <lb n="10" xml:id="l-10"/>peut-être pourrais tu y ajouter encore d’autres feuilles par ou d’après <lb n="11" xml:id="l-11"/>Millet<c type="kk">/</c> J. Breton<c type="kk">/</c> Feyen Perrin<c type="kk">/</c> &amp;c.<c type="kk">/</c> n’en achète pas exprès mais prête moi ce <lb n="11a" xml:id="l-11a"/>que tu peux avoir.</ab>
+                <lb n="12" xml:id="l-12"/>
+<ab rend="indent">Envoie moi ce que tu pourras et ne crains rien pour moi<c type="kp">_</c> Si <lb n="13" xml:id="l-13"/>seulement je puis continuer à tra<supplied>va</supplied>iller<c type="kk">/</c> je remonterai encore de <lb n="14" xml:id="l-14"/>manière ou autre. Mais en fai<supplied>s</supplied>ant ceci tu m’aiderais beaucoup. <lb n="15" xml:id="l-15"/>Si tôt ou tard tu feras un voyage <supplied>e</supplied>n Hollande j’espère que tu ne passeras <lb n="16" xml:id="l-16"/>pas sans venir voir les griffonna<supplied>g</supplied>es.</ab>
+                <lb n="17" xml:id="l-17"/>
+<ab rend="indent">Je t’écris étant en train de dessiner et je suis pressé de m’y remettre<c type="kk">/</c> donc <lb n="18" xml:id="l-18"/>bonsoir et envoye les feuilles le plus <supplied>tô</supplied>t possible et crois moi </ab>
+<vg:whiteline/>
+                <lb n="19" xml:id="l-19"/>
+<ab>t. à t.</ab>
+                <lb n="20" xml:id="l-20"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+                <lb n="21" xml:id="l-21"/>
+<ab>chez Charles Decrucq</ab>
+                <lb n="22" xml:id="l-22"/>
+<ab>Rue du pavillon 3</ab>
+                <lb n="23" xml:id="l-23"/>
+<ab>
+                    <hi rend="ital">Cuesmes.</hi>
+                </ab>
+<vg:whiteline/>
+                <lb n="24" xml:id="l-24"/>
+<ab>Les Millet que j’ai fait sont les heures du jour<c type="kk">/</c> le format à peu près celui <lb n="25" xml:id="l-25"/>d’une feuille du Cours de dessin Bargue.<anchor n="4" xml:id="note-o-4"/>
+                </ab>
+<vg:whiteline/>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="27" xml:id="l-27"/>
+<ab>Tu comprendras assez toi-même ce qu’il me faut pour <lb n="28" xml:id="l-28"/>que cela soit nécessaire que je te le dise<c type="kk">/</c>
+                    <anchor n="a" xml:id="note-o-a"/> mais pourtant je <lb n="29" xml:id="l-29"/>le dirai pour que tu connaisses ma pensée.</ab>
+                <lb n="30" xml:id="l-30"/>
+<ab rend="indent">Ce sont des études de figure surtout, tel que les bêcheurs de Millet<anchor n="5" xml:id="note-o-5"/> ou <lb n="31" xml:id="l-31"/>la lithographie d’après lui<c type="kk">/</c> le Vanneur.<anchor n="6" xml:id="note-o-6"/> puis des figures de Brion ou <lb n="32" xml:id="l-32"/>de Frère ou de Feyen Perrin ou de Jules Breton.</ab>
+                <lb n="33" xml:id="l-33"/>
+<ab rend="indent">Je crois que tu pourrais peutêtre trouver tout juste ce qu’il me faut <lb n="34" xml:id="l-34"/>à l’Alliance des Arts<c type="kk">/</c> où l’on a les lithographies des Artistes <lb n="35" xml:id="l-35"/>Contemporains &amp;c. qui s’y vendent extrêmement bon marché<c type="kp">_</c>
+                    <anchor n="7" xml:id="note-o-7"/> <lb n="36" xml:id="l-36"/>Une feuille que j’aimerais immensement à avoir c’est la grande <lb n="37" xml:id="l-37"/>eau forte de Daubigny d’après Ruysdael<c type="kk">/</c> le buisson<c type="kk">/</c> qui se vend à la <lb n="38" xml:id="l-38"/>calcographie du Louvre<c type="kp">_</c>–<anchor n="8" xml:id="note-o-8"/>
+                </ab>
+                <lb n="39" xml:id="l-39"/>
+<ab rend="indent">J’ai griffonné un dessin qui représente des charbonniers<c type="kk">/</c> scloneurs &amp; scloneuses allant à fosse le matin dans la neige sur un sentier <lb n="40" xml:id="l-40"/>le long d’une haye d’épines<c type="kk">/</c> des ombres qui passent vaguement discernables dans le <lb n="41" xml:id="l-41"/>crépuscule.<anchor n="9" xml:id="note-o-9"/> Au fond s’estompent contre le ciel les g<supplied>ra</supplied>ndes constructions du charbonnage &amp; le terris<c type="kp">_</c> <lb n="42" xml:id="l-42"/>Je t’en envoie le croquis pour que tu puisses te le représenter. Mais je sens le besoin d’étudier <lb n="43" xml:id="l-43"/>le dessin de la figure sur des maîtres tels que Millet<c type="kk">/</c> Breton &amp;<anchor n="10" xml:id="note-o-10"/> Brion ou Boughton ou <lb n="44" xml:id="l-44"/>autre<c type="kp">_</c> Qu’est ce que tu dis du croquis<c type="kk">/</c> l’idée te parait elle bonne?</ab>
+                <lb n="45" xml:id="l-45"/>
+<ab rend="indent">Il y a dans les photographies d’après J. Breton de Bingham<c type="kk">/</c> si j’ai bonne memoire<c type="kk">/</c> <lb n="46" xml:id="l-46"/>une qui représente des glaneuses<c type="kp">_</c> Silhouettes sombres sur un ciel <lb n="47" xml:id="l-47"/>où le soleil se couche rouge.<anchor n="11" xml:id="note-o-11"/> Voilà<c type="kk">/</c> c’est des affaires pareilles qu’il me <lb n="48" xml:id="l-48"/>faudrait avoir sous les yeux. C’est puisque je pense que tu aimerais mieux <lb n="49" xml:id="l-49"/>me voir faire quelque chose de bon que de faire Neant<c type="kk">/</c> que je t’ecris <lb n="50" xml:id="l-50"/>sur ce sujet et peutêtre ce serait une raison pour que l’entente <lb n="51" xml:id="l-51"/>cordiale &amp; la sympathie se retablisse entre nous deux et que <lb n="52" xml:id="l-52"/>nous soyons utiles peutetre l’un à l’autre.</ab>
+                <lb n="53" xml:id="l-53"/>
+<ab rend="indent">J’aimerais beaucoup à executer le dessin en question mieux <lb n="54" xml:id="l-54"/>que je ne l’ai fait<c type="kp">_</c> Dans celui que j’ai fait<c type="kk">/</c> tel qu’il est les figures <lb n="55" xml:id="l-55"/>peuvent avoir 10 centim. de hauteur. Le pendant represente <lb n="56" xml:id="l-56"/>le retour des charbonniers mais il est moins reussi tel qu’il est<c type="kp">_</c> <lb n="57" xml:id="l-57"/>C’est tres difficile car il s’agit d’un effet de silhouettes brunes <lb n="58" xml:id="l-58"/>frisés de lumière contre un ciel de couchant tigré<c type="kp">_</c>
+                </ab>
+                <lb n="59" xml:id="l-59"/>
+<ab rend="indent">Envoye <hi rend="ital">les travaux des champs</hi> par retour de la poste <lb n="60" xml:id="l-60"/>si tu peux &amp; si tu veux.</ab>
+<pb f="2r" n="3" xml:id="pb-orig-2r-3" facs="#zone-pb-2r-3"/> <figure facs="zone-sketch-1" n="A"/> 
+<pb f="2v" n="4" xml:id="pb-orig-2v-4" facs="#zone-pb-2v-4"/>
+                <lb n="61" xml:id="l-61"/>
+<ab>J’ai ecrit un mot à M. Tersteeg pour lui demander si peutêtre <lb n="62" xml:id="l-62"/>il y aurait moyen pour que j’eusse pour un temps les <hi rend="ital">exercices</hi> <lb n="63" xml:id="l-63"/>
+                    <hi rend="ital">au fusain</hi> de Bargue<c type="kk">/</c>
+                    <anchor n="12" xml:id="note-o-12"/> c.à.d. les etudes du modèle nu que tu connais. <lb n="64" xml:id="l-64"/>Je ne sais s’il le fera ou non<c type="kk">/</c> c.à.d. de me les envoyer<c type="kk">/</c> <lb n="65" xml:id="l-65"/>mais en cas qu’il ne le ferait pas<c type="kk">/</c> ne pourrais tu pas <lb n="66" xml:id="l-66"/>l’influencer plus ou moins à mon avantage. <lb n="67" xml:id="l-67"/>Car ces Exercices au fusain me seraient éminemment <lb n="68" xml:id="l-68"/>utiles. Mais peut-être qu’il me fera la grâce de <lb n="69" xml:id="l-69"/>m’en envoyer au moins quelques feuilles<c type="kk">/</c> sinon <lb n="70" xml:id="l-70"/>le cours entier.–</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-13" n="13">tra<supplied>va</supplied>iller &lt; <hi rend="ital">Text lost due to wear.</hi>
+                    </note>
+<note target="l-14" n="14">fai<supplied>s</supplied>ant &lt; <hi rend="ital">Text lost due to wear.</hi>
+                    </note>
+<note target="l-15" n="15">
+                        <supplied>e</supplied>n &lt; <hi rend="ital">Text lost due to wear.</hi>
+                    </note>
+<note target="l-16" n="16">griffona<supplied>g</supplied>es &lt; <hi rend="ital">Text lost due to wear.</hi>
+                    </note>
+<note target="l-18" n="18">
+                        <supplied>tô</supplied>t &lt; <hi rend="ital">Text lost due to wear.</hi>
+                    </note>
+<note target="l-26" n="26">
+                        <hi rend="ital">At the bottom of the page: </hi>‘t.s.v.p.’ <hi rend="ital">(tournez s’il vous plaît)</hi>.</note>
+<note target="l-41" n="41">gr<supplied>an</supplied>ndes &lt; <hi rend="ital">Text lost due to wear.</hi>
+                    </note>
+<note target="l-43" n="43">Breton &amp; &lt; <hi rend="ital">It is possible that Van Gogh wrote</hi> ‘Breton,’.</note>
+<note target="l-46" n="46">qui &lt; que</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>Cuesmes, 20 August 1880</ab>
+<vg:whiteline/>
+<ab>Dear Theo,</ab>
+<ab>If I’m not mistaken, you should still have <rs type="pers" key="1226">Millet</rs>’s ‘The labours of the fields’.<anchor n="1" xml:id="note-t-1"/> Would you be so kind as to lend them to me for a short while, and to send them to me by post?</ab>
+<ab rend="indent">You should know that I’m sketching large drawings after <rs type="pers" key="1226">Millet</rs>, and that I’ve done The four times of the day,<anchor n="2" xml:id="note-t-2"/> as well as The sower.<anchor n="3" xml:id="note-t-3"/>
+                </ab>
+<ab rend="indent">Well, if you saw them perhaps you wouldn’t be too unhappy with them. Now, if you’d like to send me The labours of the fields, perhaps you could also add some other sheets by or after <rs type="pers" key="1226">Millet</rs>, <rs type="pers" key="899">J. Breton</rs>, <rs type="pers" key="1022">Feyen-Perrin</rs>, &amp;c. Don’t buy any specially, but lend me what you may have.</ab>
+<ab rend="indent">Send me what you can, and don’t have any fears on my account. If only I can go on working, I’ll recover somehow. But you’d be a great help to me by doing this. If you pay a visit to Holland sooner or later, I hope you won’t pass by without coming to see the scratches.</ab>
+<ab rend="indent">I’m writing to you while drawing and I’m in a hurry to get back to it, so good-night, and send the sheets as soon as possible, and believe me</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<ab>c/o <rs type="pers" key="340">Charles Decrucq</rs>
+                </ab>
+      <ab>rue du Pavillon 3</ab>
+<ab>
+                    <hi rend="ital">Cuesmes</hi>.</ab>
+<vg:whiteline/>
+<ab>The <rs type="pers" key="1226">Millet</rs>s that I’ve done are The four times of the day, the format more or less that of a sheet from the <rs type="pers" key="851">Bargue</rs> drawing course.<anchor n="4" xml:id="note-t-4"/> 
+<vg:whiteline/> 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab>You’ll understand well enough yourself what I need to make it unnecessary for me to tell you,<hi rend="ss"> </hi>but I’ll tell you nevertheless, so that you can know my thinking.</ab>
+<ab rend="indent">They’re mainly figure studies, such as <rs type="pers" key="1226">Millet</rs>’s The diggers,<anchor n="5" xml:id="note-t-5"/> or the lithograph after his Winnower.<anchor n="6" xml:id="note-t-6"/> And figures by <rs type="pers" key="891">Brion</rs> or <rs type="pers" key="1023">Frère</rs> or <rs type="pers" key="1022">Feyen-Perrin</rs> or <rs type="pers" key="899">Jules Breton</rs>.</ab>
+      <ab rend="indent">I believe you could find just what I need at the Alliance des Arts, where they have the lithographs by Contemporary Artists &amp;c., which are sold there extremely cheaply.<anchor n="7" xml:id="note-t-7"/> A sheet that I’d be immensely glad to have is <rs type="pers" key="976">Daubigny</rs>’s large etching after <rs type="pers" key="1333">Ruisdael</rs>, The bush, which is on sale at the print-shop in the Louvre.<anchor n="8" xml:id="note-t-8"/>
+                </ab>
+      <ab rend="indent">I’ve done a scratch of miners, male and female thrutchers<anchor n="b" xml:id="note-t-b"/>, going to the pit in the morning, in the snow, on a path beside a thorn-hedge: passing shadows, dimly visible in the dusk.<anchor n="9" xml:id="note-t-9"/> In the background, the large mine buildings and the slag heap are becoming indistinct against the sky. I’m sending you the croquis so that you can picture it for yourself. But I feel the need to study figure drawing from masters like <rs type="pers" key="1226">Millet</rs>, <rs type="pers" key="899">Breton</rs> and<anchor n="10" xml:id="note-t-10"/> <rs type="pers" key="891">Brion</rs> or <rs type="pers" key="878">Boughton</rs>, or someone else. What do you think of the croquis? Does the idea seem good to you?</ab>
+<ab rend="indent">In the photographs after <rs type="pers" key="899">J. Breton</rs> by <rs type="pers" key="877">Bingham</rs> there is, if I remember rightly, one of women gleaners. Dark silhouettes against a sky in which the sun is setting, red.<anchor n="11" xml:id="note-t-11"/> There you are, it’s things like that I need to have before my eyes. It’s because I think you’d prefer to see me doing something good than doing nothing at all that I’m writing to you on this subject, and perhaps it would be a reason why good understanding and friendship might be re-established between the two of us, and we might perhaps be useful to one another.</ab>
+<ab rend="indent">I’d very much like to execute the drawing in question better than I have done. In the one that I’ve done, as it stands, the figures might be about 10 centimetres high. The pendant is of the miners’ return, but it’s less successful as it stands. It’s very difficult, as it involves an effect of brown silhouettes encircled by light against a streaky sunset sky.</ab>
+                <ab rend="indent"> Send <hi rend="ital">The labours of the fields</hi> by return of post if you can and if you will.</ab>
+<vg:whiteline/>
+<ab>
+<pb f="2r" n="3" xml:id="pb-trans-2r-3" facs="#zone-pb-2r-3"/>
+                </ab>
+<ab>
+                    <figure facs="zone-sketch-1" n="A"/>
+                </ab>
+<vg:whiteline/>
+<ab>
+<pb f="2v" n="4" xml:id="pb-trans-2v-4" facs="#zone-pb-2v-4"/>
+                </ab>
+<ab>I’ve dropped a line to <rs type="pers" key="787">Mr Tersteeg</rs> to ask him if perhaps there would be some way for me to have <rs type="pers" key="851">Bargue</rs>’s <hi rend="ital">Exercices au fusain</hi> for a while,<anchor n="12" xml:id="note-t-12"/> i.e. the studies of the nude model you’re familiar with. I don’t know if he’ll do it or not, that’s to say send me them, but supposing he didn’t, couldn’t you influence him a little in my favour? Because these Exercices au fusain would be eminently useful to me. But perhaps he’ll do me the favour of sending me at least some sheets, if not the whole course.</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>The series <hi rend="ital">Les travaux des champs</hi> (The labours of the fields) consists of ten prints, engraved by <rs type="pers" key="1155">Adrien Lavieille</rs>: <hi rend="ital">Moissonneur à la faucille</hi>; <hi rend="ital">Moissonneur à la faux</hi>; <hi rend="ital">Paysanne liant des gerbes</hi>; <hi rend="ital">La faneuse</hi>; <hi rend="ital">Le botteleur</hi>; <hi rend="ital">La broyeuse de lin</hi>; <hi rend="ital">Le batteur de blé</hi>; <hi rend="ital">Les tondeurs de mouton</hi>; <hi rend="ital">Le bûcheron</hi>; <hi rend="ital">La fileuse</hi> (Reaper wielding a sickle; Reaper wielding a scythe; Peasant woman binding sheaves; Woman making hay; Hay baler; Woman grinding flax-seed; The wheat thresher; The sheep shearers; The woodcutter; Woman spinning). The estate contains two copies: one with all ten prints on one sheet, <rs type="ill" key="1887">Ill. 1887</rs>, and the other with the depictions cut out (Amsterdam, Van Gogh Museum, t*913 and t*1002-1003). The woodcuts appeared in <hi rend="ital">L’Illustration </hi>21 (5 February 1853), no. 519, pp. 92-93 – Van Gogh’s estate also contains several of these (t*247-250) – and they were published in <hi rend="ital">Dessins de J.-F. Millet, gravés par Adrien Lavieille</hi>. Paris 1855. See Sensier 1881, pp. 386-387, and exhib. cat. Paris 1998, pp. 128-141, cat. nos. 55-70.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>For <rs type="pers" key="1226">Millet</rs>’s <rs type="ill" key="1679 1680 1681 1682">
+                            <hi rend="ital">The times of the day</hi>
+                        </rs> (the series <hi rend="ital">The four times of the day</hi>), <ref target="let037.xml#n-16">see letter 37, n. 16.</ref>
+                    </ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+      <ab>It is not clear which reproduction Van Gogh used in making his copy after <hi rend="ital">The sower</hi>; the only early copy by his hand dates from April 1881, around eight months after this letter was written (<rs type="ill" key="2334">F 830 / JH 1</rs>). See cat. Amsterdam 1996, pp. 79-82, cat. no. 16. Of <rs type="pers" key="1226">Millet</rs>’s <hi rend="ital">The sower</hi> there exist paintings (including one in Boston, Museum of Fine Arts, and another in Kugawa, Yamanashi Prefectural Museum) and a pastel which Van Gogh could have seen at the <rs type="pers" key="1790">Emile Gavet</rs> sale in 1875 (cf. <ref target="let036.xml#n-5">letter 36, n. 5</ref>). In 1873, <rs type="pers" key="1165">Paul Edmé Lerat</rs> made an etching after the work – which corresponds to a lithograph dating from 1851. Van Gogh owned this etching, to which he applied a grid, but it is not known whether he already had it in August 1880 (Amsterdam, Van Gogh Museum, t*229). <rs type="ill" key="1888">Ill. 1888</rs>. (Cf. also <ref target="let073.xml#n-5">letter 73, n. 5</ref> and <ref target="let686.xml#n-6">letter 686, n. 6</ref>). See exhib. cat. Boston 1984, pp. 30-35, cat. nos. 18-19; exhib. cat. Amsterdam 1988, pp. 156-192, cat. nos. 64-80; exhib. cat. Paris 1998, pp. 90-105, cat. nos. 40-48.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>The sheets in <rs type="pers" key="851">Bargue</rs>’s <rs type="lit" key="170">
+                            <hi rend="ital">Cours de dessin</hi>
+                        </rs> measure c. 44 x 58 cm; the sample drawings vary in size.</ab>
+                </note>
+<note n="a" xml:id="n-a" target="#note-o-a">
+<ab>Read: ‘qu’il soit’.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>For <rs type="pers" key="1226">Millet</rs>’s <rs type="ill" key="1876">
+                            <hi rend="ital">The two diggers</hi>
+                        </rs>, <ref target="let142.xml#n-18">see letter 142, n. 18.</ref>
+                    </ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>
+                        <rs type="pers" key="1716">Charles Vernier</rs> made a lithograph after <rs type="pers" key="1226">Millet</rs>’s <hi rend="ital">Le vanneur</hi> (The winnower). It appeared in Lièvre, <hi rend="ital">Musée Universel</hi> 1868-1869 <rs type="ill" key="296">Ill. 296</rs>. There are several copies of the painting: London, National Gallery; United States, private collection; Paris, Musée du Louvre. See exhib. cat. Paris 1975, pp. 73-75, cat. no. 42; p. 208, cat. no. 166; exhib. cat. Amsterdam 1988, pp. 28-29, cat. no. 1; exhib. cat. Paris 1998, pp. 32, 160, cat. no. 2.</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+      <ab>Theo had been living in Paris since c. 1 November 1879. The publisher Marchant at rue de Rivoli 140 put numerous reproductions on the market, as appears from <hi rend="ital">Galerie de L’Alliance des Arts. Gravures, eaux-fortes et lithographies. Reproduction des tableaux et dessins des maîtres de l’école moderne. Ornements de tous les styles et de toutes les époques</hi>. Paris 1861 (Paris, Bibliothèque d’art et d’archéologie. Fondation Jacques Doucet).</ab>
+                </note>
+                <note n="b" xml:id="n-b" target="#note-t-b">
+                    <ab>Sclôneurs and sclôneuses were usually children who worked deep underground in the passages immediately behind a miner and dragged the coal away in baskets. Those baskets were known as sclônes in the local patois. With thanks to Freddy Godart. The term ‘sclôneuse’ (a woman who worked in the pits) is also found in <rs type="pers" key="836">Zola</rs>’s <hi rend="ital">
+                            <rs type="lit" key="413">Germinal</rs>
+                        </hi>.</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>The print room of the Louvre sold reproductions. <ref target="let035.xml#n-5">See letter 35, n. 5,</ref> for the etching <rs type="ill" key="1717">
+                            <hi rend="ital">The bush</hi>
+                        </rs> by <rs type="pers" key="976">Charles-François Daubigny</rs> after <rs type="pers" key="1333">Jacob van Ruisdael</rs>; cf. <hi rend="ital">Chalcographie</hi> 1954, p. 29, no. 848 (which gives the measurements as 36 x 40 cm) and Renié 1999.</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>This drawing and its pendant, which Van Gogh mentions later in the letter, are both unknown.</ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>It is possible Van Gogh wrote ‘<rs type="pers" key="899">Breton</rs>,’ instead of ‘Breton &amp;’.</ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>The photographer <rs type="pers" key="877">Robert Jefferson Bingham</rs>, who lived and worked in Paris and later in Brussels, was known for his reproductions of art works. The work in question could be <rs type="pers" key="899">Jules Breton</rs>’s <hi rend="ital">Women hoeing</hi>, 1860 (Omaha, (Nebraska), Joslyn Art Museum), or a replica of this work dating from 1868 (New York, The Metropolitan Museum of Art), with a red sun going down. Exhib. cat. Arras 2002, p. 78 <rs type="ill" key="1889">Ill. 1889</rs>.</ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+<ab>
+                        <rs type="pers" key="851">Charles Bargue</rs>, <rs type="lit" key="202">
+                            <hi rend="ital">Exercices au fusain pour préparer à l’étude de l’académie d’après nature</hi>
+                        </rs>. Paris (Goupil &amp; Cie), 1871. The loose-leaf edition contained a series of sixty sample drawings on large sheets (c. 47 x 61 cm); the price printed on the cover of the portfolio was 75 francs. See Chetham 1976, pp. 60-61 and ‘Modèles et ouvrages spéciaux pour l’enseignement des arts du dessin’ in <hi rend="ital">Cat. Goupil</hi> 1877.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

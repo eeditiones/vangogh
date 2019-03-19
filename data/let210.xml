@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. The Hague, Saturday, 11 March 1882.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let210"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">210</idno>
+<idno type="collectedletters">180</idno>
+<idno type="brieven1990">209</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>The Hague</vg:placeLet>
+                        <vg:dateLet>Saturday, 11 March 1882</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. The Hague, Saturday, 11 March 1882.</p>
+<note type="ongoingTopic" n="1">
+<p>Mauve’s <hi rend="ital">Fishing boat on the beach</hi> for the Salon <ref target="let194.xml">(194)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="2">
+<p>Request for Ingres paper <ref target="let209.xml">(209)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="3">
+<p>Strained relations with Tersteeg <ref target="let208.xml">(208)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. nos. b201 a-b V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Van Gogh was writing this letter when he received a letter from Theo <ref target="#l-143">(l. 143)</ref>. It emerges from <ref target="let211.xml#l-3">letter 211 (ll. 3-4)</ref> – written on the evening of Saturday, 11 March – that this happened on the afternoon of the day that letter was written.</p>
+                    </note>
+<note type="arrangement" xml:id="arrangement">
+<p>Pages [2r:5] and [2v:6] have changed places with respect to <hi rend="ital">De brieven</hi> 1990. The strokes of the pen, sharply reduced in size from <ref target="#l-154">l. 154</ref> onwards, imply that the other side of this sheet was already full.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0201 a" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000228_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000228_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000228_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000228_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000228_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000228_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="VGM001000228_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000228_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000228_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0201 a" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000228_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000228_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000228_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000228_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000228_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000228_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000228_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000228_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000228_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0201 b" xml:id="surf-pb-2r">
+            <graphic mimeType="image/tiff" url="VGM001000229_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-2r-5">
+<graphic mimeType="image/tiff" url="VGM001000229_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000229_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000229_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0201 b" xml:id="surf-pb-2v">
+            <graphic mimeType="image/tiff" url="VGM001000229_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-2v-6">
+<graphic mimeType="image/tiff" url="VGM001000229_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000229_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000229_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Waarde Theo.</ab>
+                <lb n="1*" xml:id="l-1s"/>
+<ab>Gij zult het misschien nog al bar <lb n="2" xml:id="l-2"/>vinden wat ik U schreef omtrent Tersteeg. Evenwel <lb n="3" xml:id="l-3"/>ik neem dat geenszins terug. Tersteeg is iemand die <lb n="4" xml:id="l-4"/>fameus hardhoorig is doch die ik niet voor doof houd. <lb n="5" xml:id="l-5"/>Het moet hem zeer vierkant gezegd worden anders <lb n="6" xml:id="l-6"/>dringt het niet door zijn harnas heen.</ab>
+                <lb n="7" xml:id="l-7"/>
+<ab rend="indent">Hij heeft mij nu jaren lang beschouwd als een <lb n="8" xml:id="l-8"/>soort suffer &amp; droomer<c type="kk">/</c> hij beschouwt me nog zoo <lb n="9" xml:id="l-9"/>en zegt zelfs van mijn teekeningen: dat is <lb n="10" xml:id="l-10"/>een soort opiumbedwelming die ge U zelf <lb n="11" xml:id="l-11"/>toedient om de pijn niet te voelen die het U kost <lb n="11a" xml:id="l-11a"/>dat gij geen aquarellen maken kunt. <lb n="12" xml:id="l-12"/>Welnu dat is wel fijn gevonden doch dat <lb n="13" xml:id="l-13"/>gezegde is toch ondoordacht<c type="kk">/</c> oppervlakkig en <lb n="14" xml:id="l-14"/>houdt geen steek <lb n="14a" xml:id="l-14a"/>(de voornaamste reden waarom ik niet op eens aquarellen maken kan zijnde <lb n="14b" xml:id="l-14b"/>dat ik nog serieuser moet teekenen en letten op proportie &amp; perspectief). <lb n="14"/>
+                    <hi rend="ital">Gelijkerwijs ook</hi> <lb n="15" xml:id="l-15"/>de “praktische praatjes” (zegge) van den Hr T<c type="kp">_</c> <lb n="16" xml:id="l-16"/>over kunst somwijlen on ne peut plus impratiquables <lb n="17" xml:id="l-17"/>zijn. Het helpt hem niet al gebruikt hij <lb n="18" xml:id="l-18"/>als argumenten er sommige dingen bij die <lb n="19" xml:id="l-19"/>men doodslaanders zou kunnen noemen omdat <lb n="20" xml:id="l-20"/>het moeielijk is er een antwoord op te vinden. <lb n="21" xml:id="l-21"/>Genoeg – zijn reproches verdien ik niet en <lb n="22" xml:id="l-22"/>als mijn teekeningen ZEd<c type="kp">_</c> niet amuseeren<c type="kk">/</c> <lb n="23" xml:id="l-23"/>het amuseert mij ook niet ze ZEd<c type="kp">_</c> te laten zien <lb n="24" xml:id="l-24"/>op die manier.–</ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="25" xml:id="l-25"/>
+<ab rend="indent">Hij veroordeelt teekeningen van me waar terdeeg goeds <lb n="26" xml:id="l-26"/>in zit en dat had ik van ZEd<c type="kp">_</c> niet verwacht<c type="kp">_</c>
+                </ab>
+                <lb n="27" xml:id="l-27"/>
+<ab rend="indent">Indien ik serieuse studies maak naar ’t model <lb n="28" xml:id="l-28"/>is dat vrij wat praktischer dan zijn praktische <lb n="29" xml:id="l-29"/>praatjes over verkoopbaarheid of onverkoopbaarheid<c type="kk">/</c> <lb n="30" xml:id="l-30"/>waaromtrent ik overigens zelf als hebbende zelf <lb n="31" xml:id="l-31"/>ook wel met schilderijen &amp; teekeningen gehandeld<c type="kk">/</c> <lb n="32" xml:id="l-32"/>niet in die mate inlichtingen van ZEd<c type="kp">_</c> noodig <lb n="33" xml:id="l-33"/>heb als hij wel meent.</ab>
+                <lb n="34" xml:id="l-34"/>
+<ab rend="indent">Liever dus wil ik zijn vriendschap verliezen <lb n="35" xml:id="l-35"/>dan hem in dezen gelijk geven.</ab>
+                <lb n="36" xml:id="l-36"/>
+<ab rend="indent">Ofschoon ik momenten heb van overdondering door <lb n="37" xml:id="l-37"/>zorg zoo ben ik toch kalm en mijn kalmte <lb n="38" xml:id="l-38"/>grondt zich op het serieus aanpakken van mijn <lb n="39" xml:id="l-39"/>werk en op doordenken. Ofschoon ik momenten <lb n="40" xml:id="l-40"/>heb van passie en mijn gestel die soms verergert <lb n="41" xml:id="l-41"/>zoo ben ik toch bedaard zooals ZEd<c type="kp">_</c> die <lb n="42" xml:id="l-42"/>me lang genoeg kent zeer wel weet. Nu zelfs <lb n="43" xml:id="l-43"/>zei hij mij: gij hebt te veel geduld.</ab>
+                <lb n="44" xml:id="l-44"/>
+<ab rend="indent">Dat woord deugt niet<c type="kk">/</c> men kan bij kunst niet <lb n="45" xml:id="l-45"/>
+                    <hi rend="ital">te veel</hi> geduld hebben, dat woord is buiten <lb n="46" xml:id="l-46"/>de proportie. Misschien heeft de Hr. H.G.T. <lb n="47" xml:id="l-47"/>in mijn geval <hi rend="ital">te weinig geduld</hi>.</ab>
+                <lb n="48" xml:id="l-48"/>
+<ab rend="indent">Hij moet nu maar eens<c type="kk">/</c> eens en voor <lb n="49" xml:id="l-49"/>altijd<c type="kk">/</c> zien dat ik de zaak serieus aanpak <lb n="50" xml:id="l-50"/>en mij niet laat forceeren om werk <lb n="51" xml:id="l-51"/>in de wereld te sturen dat niet mijn eigen <lb n="52" xml:id="l-52"/>karakter draagt. Mijn eigen karakter begint vooral in <lb n="52a" xml:id="l-52a"/>mijn laatste teekeningen??? studies??? die Tersteeg afkeurde<c type="kk">/</c> te komen.</ab>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                <lb n="53" xml:id="l-53"/>
+<ab rend="indent">Misschien – misschien zou ’t mij lukken nu reeds iets <lb n="54" xml:id="l-54"/>te maken dat misschien met veel moeite verkocht <lb n="55" xml:id="l-55"/>kon worden in ’t genre van aquarel.</ab>
+                <lb n="56" xml:id="l-56"/>
+<ab rend="indent">Doch dat zou zijn<c type="kk">/</c> aquarellen forceeren in de <lb n="57" xml:id="l-57"/>broeikas. Tersteeg &amp; gij moeten <lb n="58" xml:id="l-58"/>het natuurlijk saizoen afwachten en <lb n="59" xml:id="l-59"/>dat is nu nog niet.</ab>
+                <lb n="60" xml:id="l-60"/>
+<ab rend="indent">Hij sprak Engelsch toen hij hier was van wege <lb n="61" xml:id="l-61"/>het model er zat. ik zei hem: in due <lb n="62" xml:id="l-62"/>time you shall have your watercolours<c type="kk">/</c> <lb n="63" xml:id="l-63"/>now you can’t – they are not due yet.– <lb n="64" xml:id="l-64"/>take your time. En daar blijf ik bij. <lb n="65" xml:id="l-65"/>
+                    <hi rend="ital">Suffit</hi>.</ab>
+                <lb n="66" xml:id="l-66"/>
+<ab rend="indent">Sedert het bezoek van T. heb ik een teekening gemaakt <lb n="67" xml:id="l-67"/>van een weesjongen die schoenen zit te poetsen. <lb n="68" xml:id="l-68"/>Dat mag met een hand gedaan zijn die nog niet precies <lb n="69" xml:id="l-69"/>aan mijn wil gehoorzaamd doch evenwel de type <lb n="70" xml:id="l-70"/>van dien weesjongen zit er wel in. En wat er <lb n="71" xml:id="l-71"/>ook zij van de gaucherie van mijn hand<c type="kk">/</c> die hand <lb n="72" xml:id="l-72"/>zal toch wel eindigen moeten met te doen wat <lb n="73" xml:id="l-73"/>mijn hoofd wil. <lb n="73a" xml:id="l-73a"/>Zoo heb ik nog een studie gemaakt van het atelier <lb n="73b" xml:id="l-73b"/>met de kagchel<c type="kk">/</c> den schoorsteen<c type="kk">/</c> ezel<c type="kk">/</c> tabouret<c type="kk">/</c> tafel &amp;c.<c type="kk">/</c> <lb n="73c" xml:id="l-73c"/>natuurlijkerwijs niet precies verkoopbaar op ’t moment doch zeer goed om perspectief in praktijk te <lb n="73d" xml:id="l-73d"/>brengen<c type="kp">_</c>
+                    <anchor n="1" xml:id="note-o-1"/>
+                </ab>
+                <lb n="74" xml:id="l-74"/>
+<ab rend="indent">Ik verlang naar Uwe komst<c type="kk">/</c> gij hebt <lb n="75" xml:id="l-75"/>noch heel wat te zien wat ik sedert Uw <lb n="76" xml:id="l-76"/>bezoek van dezen zomer gemaakt heb. Theo ik <lb n="77" xml:id="l-77"/>reken er op dat gij mijn werk zult bekijken <lb n="78" xml:id="l-78"/>met sympathie en met vertrouwen en <lb n="79" xml:id="l-79"/>niet met twijfelmoedigheid of ontevreden, <lb n="80" xml:id="l-80"/>omdat ik veel werk denkt Tersteeg dat het <lb n="81" xml:id="l-81"/>zoo makkelijk is<c type="kk">/</c> daarin is hij ook al de plank mis<c type="kp">_</c> <lb n="82" xml:id="l-82"/>Doch ik ben eigentlijk een werkezel of trekos.</ab>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                <lb n="84" xml:id="l-84"/>
+<ab rend="indent">Wilt gij als gij komen mogt vooral denken om het <lb n="85" xml:id="l-85"/>papier Ingres. Het is vooral het <hi rend="ital">dikke</hi> waar ik graag <lb n="86" xml:id="l-86"/>op werk en dat dunkt me zich zelfs voor studies met <lb n="87" xml:id="l-87"/>waterverf prêteeren moet.</ab>
+                <lb n="88" xml:id="l-88"/>
+<ab rend="indent">Geloof me dat in zake van kunst het woord geldt<c type="kk">/</c> <lb n="89" xml:id="l-89"/>Eerlijk duurt het langst. beter wat meer moeite op <lb n="90" xml:id="l-90"/>serieuse studie dan een chique om ’t publiek <lb n="91" xml:id="l-91"/>te vleijen. Soms heb ik in momenten van zorg wel <lb n="92" xml:id="l-92"/>eens verlangd dat ik wat chique had doch bij nadenken <lb n="93" xml:id="l-93"/>zeg ik neen – laat mij maar liever mijzelf zijn – <lb n="94" xml:id="l-94"/>en met een ruwe factuur strenge<c type="kk">/</c> ruwe doch ware dingen <lb n="95" xml:id="l-95"/>zeggen. Ik zal de liefhebbers of handelaars niet naloopen<c type="kk">/</c> laat <lb n="96" xml:id="l-96"/>wie lust heeft maar bij mij komen<c type="kp">_</c>
+                </ab>
+                <lb n="97" xml:id="l-97"/>
+<ab rend="indent">In due time we shall reap if we faint not.<anchor n="2" xml:id="note-o-2"/>
+                </ab>
+                <lb n="98" xml:id="l-98"/>
+<ab rend="indent">Enfin. Zeg Theo wat was die Millet een kerel! <lb n="99" xml:id="l-99"/>Ik heb van de Bock te leen het groote werk van Sensier<c type="kp">_</c> <lb n="100" xml:id="l-100"/>Het interesseert mij zoo dat ik s’nachts er van wakker <lb n="101" xml:id="l-101"/>wordt en de lamp aansteek en blijf lezen.<anchor n="3" xml:id="note-o-3"/> Want <lb n="102" xml:id="l-102"/>overdag moet ik werken.</ab>
+                <lb n="103" xml:id="l-103"/>
+<ab rend="indent">Stuur mij toch spoedig wat als ’t U eenigzins <lb n="104" xml:id="l-104"/>mogelijk is. Ik wou wel dat Tersteeg eens voor <lb n="105" xml:id="l-105"/>een week er voor stond om met het geen ik verteer <lb n="106" xml:id="l-106"/>te doen wat ik er mee doe<c type="kk">/</c> hij zou merken dat dat geen <lb n="107" xml:id="l-107"/>suffen of droomen of opium bedwelming is doch dat <lb n="108" xml:id="l-108"/>men fameus wakker moet zijn om te vechten met <lb n="109" xml:id="l-109"/>zooveel moeielijkheden die komen opdokken. Ook is <lb n="110" xml:id="l-110"/>het niet makkelijk om modellen te vinden en ze <lb n="111" xml:id="l-111"/>tot het poseeren te brengen. De meeste schilders worden daarin <lb n="112" xml:id="l-112"/>moedeloos. Vooral wanneer men om ze te betalen <lb n="113" xml:id="l-113"/>zich op eten<c type="kk">/</c> drinken<c type="kk">/</c> kleeren moet bekrimpen – te <lb n="114" xml:id="l-114"/>kort doen.– Enfin Tersteeg is Tersteeg en ik ben ik<c type="kp">_</c> <lb n="115" xml:id="l-115"/>Nogthans weet het wel<c type="kk">/</c> ik ben niet opposiet d.i<c type="kp">_</c> vijandig <lb n="116" xml:id="l-116"/>tegenover hem doch ik moet hem te verstaan geven <lb n="117" xml:id="l-117"/>dat hij mij te oppervlakkig beoordeelt en – en – <lb n="118" xml:id="l-118"/>ik geloof dat hij er op terug komen zal – ik hoop het <lb n="119" xml:id="l-119"/>van harte want oneenigheid met ZEd<c type="kp">_</c> doet mij veel leed <lb n="120" xml:id="l-120"/>en maakt mij ’t leven moeielijk. Ik hoop dat Uw brief spoedig <lb n="121" xml:id="l-121"/>komt – mijn laatste centen zijn om dezen brief te <lb n="122" xml:id="l-122"/>frankeeren. Het is wel pas eenige dagen geleden dat ik de f<c type="kp">_</c> 10 van <lb n="123" xml:id="l-123"/>Tersteeg ontving doch daar moest ik denzelfden dag f<c type="kp">_</c> 6.- van betalen <lb n="124" xml:id="l-124"/>aan model<c type="kk">/</c> aan den bakker<c type="kk">/</c> aan het meisje dat het atelier veegt.</ab>
+                <lb n="125" xml:id="l-125"/>
+<ab rend="indent">à dieu<c type="kk">/</c> gezondheid &amp; goeden moed U toegewenscht<c type="kk">/</c> ik ben ondanks alles ook niet zonder <lb n="126" xml:id="l-126"/>goeden moed. Je te serre la main<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="126*" xml:id="l-126s"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+                <lb n="83" xml:id="l-83"/>
+<ab>Ik heb een zeer aangenaam bezoek gehad van Jules Bakhuyzen en ik mag wanneer ik wil bij hem komen.</ab>
+<vg:whiteline/>
+                <lb n="127»" xml:id="l-127"/>
+<ab>Ziehier een paar woorden die mij in de <lb n="128" xml:id="l-128"/>
+                    <hi rend="ital">Millet</hi> van Sensier zeer troffen en <lb n="129" xml:id="l-129"/>ontroerden<c type="kk">/</c> gezegden van Millet.</ab>
+                <lb n="130" xml:id="l-130"/>
+<ab rend="indent">L’art c’est un combat<anchor n="4" xml:id="note-o-4"/> – dans l’art il faut <lb n="131" xml:id="l-131"/>y mettre sa peau<c type="kp">_</c>
+                    <anchor n="5" xml:id="note-o-5"/>
+                </ab>
+                <lb n="132" xml:id="l-132"/>
+<ab rend="indent">Il s’agit de travailler comme plusieurs nègres<c type="kp">_</c>
+                    <anchor n="6" xml:id="note-o-6"/> </ab>
+                <lb n="133" xml:id="l-133"/>
+<ab rend="indent">
+                    <hi rend="ital">J’aimerais mieux ne rien dire que de</hi> <lb n="134" xml:id="l-134"/>
+                    <hi rend="ital">m’exprimer faiblement</hi>.–<anchor n="7" xml:id="note-o-7"/>
+                </ab>
+                <lb n="135" xml:id="l-135"/>
+<ab rend="indent">Het is eerst gisteren dat ik dat laatste woord van Millet las <lb n="136" xml:id="l-136"/>doch voor dien tijd had ik dat zelfde wel gevoeld<c type="kk">/</c> <lb n="137" xml:id="l-137"/>dat is het weshalve ik soms behoefte gevoel <lb n="138" xml:id="l-138"/>om niet met een zacht penseel doch een hard <lb n="139" xml:id="l-139"/>timmermanspotlood en een pen het er in te <lb n="140" xml:id="l-140"/>krassen wat ik voel. Gare! Tersteeg! Gare! tu as bien <lb n="141" xml:id="l-141"/>carrément tort.–</ab>
+<vg:whiteline/>
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>
+                <lb n="142" xml:id="l-142"/>
+<ab>
+                    <hi rend="ital">Theo het is bijna miraculeus!!!</hi>
+                </ab>
+                <lb n="143" xml:id="l-143"/>
+<ab rend="indent">Daar komt primo berigt dat ik Uw brief moet gaan halen<c type="kp">_</c> <lb n="144" xml:id="l-144"/>Daar komt secundo <hi rend="ital">C.M.</hi>
+                    <c type="kk">/</c> bestelt me 12 <lb n="145" xml:id="l-145"/>kleine penteekeningen<c type="kk">/</c> gezigten van s’Hage naar aanleiding <lb n="146" xml:id="l-146"/>van eenige die gereed waren (’t Paddemoes.– de Geest – <lb n="147" xml:id="l-147"/>de Vleersteeg waren gereed)<anchor n="8" xml:id="note-o-8"/> tegen een rijksdaalder<anchor n="9" xml:id="note-o-9"/> per stuk<c type="kk">/</c> <lb n="148" xml:id="l-148"/>prijs door mij bepaald. met belofte dat als ik ze <lb n="149" xml:id="l-149"/>naar zijn zin maak hij me 12 anderen bestellen zal<anchor n="10" xml:id="note-o-10"/> <lb n="150" xml:id="l-150"/>doch waarvan hij de prijs fixeeren zal hooger dan ikzelf<c type="kp">_</c> <lb n="151" xml:id="l-151"/>Daar kom ik tertio Mauve tegen<c type="kk">/</c> <hi rend="ital">voorspoedig</hi> verlost van <lb n="152" xml:id="l-152"/>zijn groote Sch<hi rend="ss">ij</hi>
+                    <c type="kk">/</c> belooft mij spoedig aan te komen<c type="kp">_</c> <lb n="153" xml:id="l-153"/>Dus<c type="kk">/</c> Ça va – ça marche – ça ira encore!<anchor n="11" xml:id="note-o-11"/>
+                </ab>
+                <lb n="154" xml:id="l-154"/>
+<ab rend="indent">En nog iets heeft mij getroffen en zeer getroffen – ik had gezegd dat <lb n="155" xml:id="l-155"/>’t model niet moest komen vandaag – ik had niet gezegd waarom – <lb n="156" xml:id="l-156"/>maar de arme vrouw kwam toch en ik protesteerde. Ja maar <lb n="157" xml:id="l-157"/>ik kom niet om geteekend te worden<c type="kk">/</c> ik kom maar eens kijken of <lb n="158" xml:id="l-158"/>gij wel eten hebt – zij had een portie snijboonen en aardappelen bij zich<c type="kp">_</c>– <lb n="159" xml:id="l-159"/>Er zijn toch dingen in ’t leven die de moeite waard zijn.– </ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-53" n="53">Misschien – misschien &lt; Misschien misschien</note>
+<note target="l-88" n="88">geldt<c type="kk">/</c> &lt; geld</note>
+<note target="l-83" n="83">
+                        <hi rend="ital">In the left margin on p. 3, (</hi>Misschien – misschien <supplied>...</supplied> trekos<hi rend="ital">)</hi>, l. 53-82.</note>
+<note target="l-119" n="119">want &lt; wat</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo.</ab>
+<ab>You’ll perhaps find it rather harsh, what I wrote to you about <rs type="pers" key="787">Tersteeg</rs>. By no means do I take it back, though. Tersteeg is someone who is extremely hard of hearing, though I don’t consider him deaf. He must be told things very decidedly, otherwise it doesn’t penetrate his armour.</ab>
+<ab rend="indent">For years he’s thought me a kind of blockhead and dreamer, he still views me as such, and even says about my drawings: that’s a kind of opium daze you administer to yourself so as not to feel the pain you suffer at not being able to make watercolours. Now then, that’s very cleverly put, but that expression is actually ill-considered, superficial and doesn’t hold water (the main reason I can’t make watercolours straightaway is that I must draw more seriously and pay attention to proportion and perspective). <hi rend="ital">Similarly</hi>,<hi rend="ital"> </hi>
+                    <rs type="pers" key="787">Mr T.</rs>’s ‘practical talks’ (say) on art couldn’t be more impracticable. It doesn’t help him even if he uses as arguments some things that could be called conversation killers, because it’s difficult to find an answer to them. Enough – I don’t deserve his reproaches, and if my drawings don’t amuse His Hon. neither does it amuse me to show them to His Hon. like that. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">He condemns drawings of mine which contain much that is good, and I hadn’t expected that of His Hon.</ab>
+<ab rend="indent">If I make serious studies from a model it’s a lot more practical than his practical talks about saleability or unsaleability, about which I – having dealt in paintings and drawings myself, for that matter – don’t need to be enlightened by His Hon. to the extent that he thinks.</ab>
+<ab rend="indent">I’d prefer, then, to lose his friendship than agree with him about this.</ab>
+<ab rend="indent">Although at times I’m overwhelmed by worries, all the same, I’m calm, and my calmness is based on my serious approach to my work and on reflection. Although I have moments of passion, and my disposition tends to make them worse, nonetheless I’m composed, as His Hon., who’s known me long enough, very well knows. Now he even said to me: you have too much patience.</ab>
+<ab rend="indent">Those words aren’t right, one can’t have <hi rend="ital">too much</hi> patience in art, that word is beyond the pale. Perhaps in my case <rs type="pers" key="787">Mr H.G.T.</rs> has <hi rend="ital">too little patience</hi>.</ab>
+<ab rend="indent">Now he must see, once and for all, that I’m setting to work seriously and won’t let myself be forced into sending work into the world that doesn’t bear the stamp of my own character. My own character is beginning to emerge particularly in my last drawings??? studies???, which <rs type="pers" key="787">Tersteeg</rs> rejected. 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/>
+                </ab>
+<ab rend="indent">Perhaps – perhaps I’d succeed even now in making something in the genre of watercolour that could perhaps be sold with a great deal of effort.</ab>
+<ab rend="indent">But that would be forcing watercolours to grow in the hothouse. <rs type="pers" key="787">Tersteeg</rs> and you must wait for the natural season, and it hasn’t arrived yet.</ab>
+<ab rend="indent">He spoke English when he was here because of the model. I said to him: in due time you shall have your watercolours, now you can’t – they are not due yet. Take your time. And I’m sticking to that. <hi rend="ital">Enough</hi>.</ab>
+<ab rend="indent">Since<rs type="pers" key="787"> T.</rs>’s visit I’ve made a drawing of an orphan boy polishing shoes. It might have been done with a hand that doesn’t exactly obey my will yet, but even so it contains the type of that orphan boy. And no matter how clumsy my hand, that hand will still have to end up doing what my head wants. So I’ve made a study of the studio with the stove, the fireplace, easel, tabouret, table &amp;c., of course not exactly saleable just now, but very good for putting perspective into practice.<anchor n="1" xml:id="note-t-1"/>
+                </ab>
+<ab rend="indent">I’m longing for you to come, you have quite a lot to see, which I’ve made since your visit last summer. Theo, I’m counting on your looking at my work with sympathy and with confidence, and not with two minds or dissatisfaction. <rs type="pers" key="787">Tersteeg</rs> thinks, because I work so much, that it’s easy, that’s where he’s also mistaken. But I’m actually a drudge or a draught ox. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/>
+                </ab>
+<ab rend="indent">If you come, would you be sure and think of the Ingres paper? It’s the <hi rend="ital">thick</hi> one in particular that I like to work on, and it seems to me it must lend itself even to studies in watercolour.</ab>
+<ab rend="indent">Believe me that in artistic matters the words hold true: Honesty is the best policy. Better to put a bit more effort into serious study than being stylish to win over the public. Occasionally, in times of worry, I’ve longed to be stylish, but on second thoughts I say no – just let me be myself – and express severe, rough, yet true things with rough workmanship. I won’t run after the art lovers or dealers, let those who are interested come to me.</ab>
+<ab rend="indent">In due time we shall reap if we faint not.<anchor n="2" xml:id="note-t-2"/>
+                </ab>
+<ab rend="indent">Oh well. Listen, Theo, what a man that <rs type="pers" key="1226">Millet</rs> was! I have the big work by <rs type="pers" key="737">Sensier</rs> on loan from <rs type="pers" key="868">De Bock</rs>. It interests me so much that I wake up at night and light the lamp and go on reading.<anchor n="3" xml:id="note-t-3"/> Because during the day I have to work.</ab>
+<ab rend="indent">Do send me something soon if it’s at all possible. I wish that for once <rs type="pers" key="787">Tersteeg</rs> had to face a week of doing what I do on what I have to spend, he’d notice that it’s not dozing or dreaming or an opium daze, but that one has to be wide awake to combat the many difficulties that crop up. Nor is it easy to find models and to get them to pose. Most painters are driven to desperation by it. Especially when one has to scrimp – go short of – food, drink, clothing in order to pay them. Well, Tersteeg is Tersteeg and I am I. Nonetheless, rest assured, I’m not opposed to, i.e. hostile towards him, but I must make him understand that he judges me too superficially and – and – I believe that he’ll change his mind – I sincerely hope so, because being at odds with His Hon. pains me very much and makes life difficult for me. I hope your letter comes soon – my last pennies are for posting this letter. It’s only been a few days since I received the 10 guilders from <rs type="pers" key="787">Tersteeg</rs>, but that same day I had to pay 6 guilders of it to the model, to the baker, to the girl who sweeps the studio.</ab>
+<ab rend="indent">Adieu, I wish you health and good cheer, in spite of everything I’m not without good cheer either. I shake your hand.</ab>
+<vg:whiteline/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<ab>
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/>
+                </ab>
+<ab>I had a very pleasant visit from <rs type="pers" key="1342">Jules Bakhuyzen</rs>, and I may go and visit him whenever I wish.</ab>
+<vg:whiteline/>
+<ab>Here you have a few words that struck me and moved me in <rs type="pers" key="737">Sensier</rs>’s <hi rend="ital">Millet</hi>, sayings of <rs type="pers" key="1226">Millet</rs>.</ab>
+    <ab rend="indent">Art is a battle<anchor n="4" xml:id="note-t-4"/> – you have to put your whole life into art.<anchor n="5" xml:id="note-t-5"/>
+                </ab>
+<ab rend="indent">One must work like a bunch of negroes.<anchor n="6" xml:id="note-t-6"/>
+                </ab>
+<ab rend="indent">
+                    <hi rend="ital">I’d rather say nothing than express myself weakly.</hi>
+                    <anchor n="7" xml:id="note-t-7"/>
+                </ab>
+<ab rend="indent">It was only yesterday that I read that last saying of <rs type="pers" key="1226">Millet</rs>, but I’d felt the same before then, which is why I sometimes feel the need to scratch in what I feel not with a soft brush but a hard carpenter’s pencil and a pen. Watch out! <rs type="pers" key="787">Tersteeg</rs>! Watch out! You’re clearly wrong.</ab>
+<vg:whiteline/>
+<ab>
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/>
+                </ab>
+<ab>
+                    <hi rend="ital">Theo, it’s almost miraculous!!!</hi>
+                </ab>
+    <ab rend="indent">First of all, a message arrives that I must go and fetch your letter. Secondly, <hi rend="ital">
+                        <rs type="pers" key="422">C.M.</rs>
+                    </hi> comes, orders 12 small pen drawings from me, views of The Hague, having seen a few that were finished (Paddemoes. The Geest district – Vleersteeg were finished)<anchor n="8" xml:id="note-t-8"/> for a <hi rend="ital">rijksdaalder</hi>
+                    <anchor n="9" xml:id="note-t-9"/> apiece, the price set by me. With the promise that if I make them to his liking he’ll order 12 more,<anchor n="10" xml:id="note-t-10"/> but for which he’ll fix the price higher than I do. Thirdly, I run into <rs type="pers" key="323">Mauve</rs>, <hi rend="ital">successfully</hi> delivered of his large painting, promises to come by soon. So, it’s fine – it’s going well – it’ll get even better!<anchor n="11" xml:id="note-t-11"/>
+                </ab>
+<ab rend="indent">And something else moved me, and moved me deeply – I’d said that the model didn’t have to come today – I hadn’t said why – but the poor woman came anyway and I protested. Yes, but I’m not coming to be drawn, I’m just coming to make sure you’ve got something to eat – she had a portion of string beans and potatoes with her. There are indeed things in life that are worth the effort.</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>These drawings – of a boy polishing shoes and of Vincent’s studio – are not known.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>See <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Gal" chap="6" v="9">Gal. 6:9</bibleref>: ‘And let us not be weary in well doing: for in due season we shall reap, if we faint not.’ Van Gogh wrote ‘time’ instead of ‘season’.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>
+                        <rs type="pers" key="737">Alfred Sensier</rs>, <rs type="lit" key="238">
+                            <hi rend="ital">La vie et l’oeuvre de J.F. Millet</hi>
+                        </rs>. Paris 1881. Reading this lengthy work, Van Gogh experienced a shock of recognition which provided him with an example to follow for the rest of his artistic career. Sensier gives a succinct description of <rs type="pers" key="1226">Millet</rs>’s nature in the introduction: ‘Millet was a melancholy and suffering soul, but he was above all a man with the courage of his convictions; faithful and proud in his religion and his art, he devoted to them all the sweetness of his heart, his repose and even his life, which the harshness of the times made all too short ... His life was that of a wise man, a courageous toiler, a loving father and a devoted friend.’ (Millet était un coeur mélancolique et souffrant, mais il était avant tout un homme fort de ses convictions: fidèle et fier dans sa religion et dans son art, il leur vouait les douceurs de son âme, son repos et jusqu’à sa vie que la dureté des temps n’a que trop abrégée ... Sa vie fut celle d’un sage, d’un travailleur courageux, d’un père aimant et d’un camerade dévoué.) Sensier 1881, p. <hi rend="sc">viii</hi>.</ab>
+<ab rend="indent">The relationship between Sensier and Millet, on the one hand, and that between Vincent and Theo, on the other hand, have several things in common. Sensier provided Millet with financial support, for example (‘Always requests for money’, p. 196), sent him paint (p. 122), helped him to sell his work, and viewed him as an ‘elder brother’ (p. 147). Regarding this book, see Parsons and McWilliam 1983 and exhib. cat. Paris 1998.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>This remark is based on <rs type="pers" key="1226">Millet</rs>’s words: ‘Art isn’t a merry jaunt. It’s a battle, a set of grinding gears’ (L’art n’est pas une partie de plaisir. C’est un combat, un engrenage qui broie), quoted in Sensier 1881, p. 101.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+    <ab>Quoted in Sensier, <hi rend="ital">
+                            <rs type="lit" key="238">La vie et l’oeuvre de J.F. Millet</rs>
+                        </hi>, p. 147. These words of <rs type="pers" key="1226">Millet</rs> are quoted again in <ref target="let257.xml">letters 257</ref>, <ref target="let267.xml">267</ref>, <ref target="let336.xml">336</ref>, <ref target="let400.xml">400</ref>, <ref target="let430.xml">430</ref> and <ref target="let493.xml">493</ref>.</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>
+                        <rs type="pers" key="1226">Millet</rs> had written this in a letter to <rs type="pers" key="1332">Théodore Rousseau</rs> (Sensier 1881, p. 148). This utterance is quoted again in <ref target="let400.xml">letters 400</ref> and <ref target="let515.xml">515</ref>; <rs type="pers" key="903">Breitner</rs> also quoted it in a letter written that same month, on 28 March 1882. See <hi rend="ital">Breitner brieven </hi>1970, p. 31 and Hefting 1970, p. 41. Cf. in this context Van Gogh’s remark, made earlier in the letter: ‘I’m actually a drudge or a draught ox’ <ref target="#l-82">(l. 82)</ref>.</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>Quoted in Sensier 1881, p. 175 and also – in slightly different words – on pp. 210, 244.</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>Six works are known for certain to have belonged to the first series of 12 drawings that Van Gogh made for <rs type="pers" key="422">Uncle Cor</rs>: 1. <hi rend="ital">Street scene, ‘Paddemoes’ </hi>(<rs type="ill" key="2359">F 918 / JH 111</rs>); 2. <hi rend="ital">Bakery in Noordstraat, ‘Geest’</hi> (<rs type="ill" key="2360">F 914 / JH 112</rs>), 3. ‘Vleersteeg’ (not known); 4. ‘Vischmarkt’ (not known), mentioned in <ref target="let211.xml">letter 211</ref>; 5. <hi rend="ital">Scheveningseweg</hi> (<rs type="ill" key="2361">F 920 / JH 113</rs>); 6. <hi rend="ital">Sand diggers in the dunes</hi> (<rs type="ill" key="2362">F 922 / JH 114</rs>), the last two both mentioned in <ref target="let212.xml">letter 212</ref>.</ab>
+    <ab rend="indent">The rest of the series consisted of six of the following eight drawings, as evidenced by their provenance or internal evidence, including the handwriting on the verso: 1. <hi rend="ital">Bridge near Schenkweg</hi> (<rs type="ill" key="3016">F 917 / JH 115</rs>), the so-called Schoutweg; 2. <hi rend="ital">Ditch beside Schenkweg</hi> (<rs type="ill" key="3017">F 921 / JH 116</rs>); 3. <hi rend="ital">Van Stolk Park</hi> (<rs type="ill" key="3018">F 922a / JH 119</rs>); 4. Gasworks (<rs type="ill" key="3018">F 924 / JH 118</rs>); 5. Factory (<rs type="ill" key="3020">F 925 / JH 117</rs>); 6. <hi rend="ital">Bridge and houses on the corner of Herengracht-Prinsessegracht, The Hague</hi> (<rs type="ill" key="3021">F SD 1679/ JH 121</rs>); 7. <hi rend="ital">The entrance to the Pawn Bank, The Hague</hi> (<rs type="ill" key="3022">F - / JH 126</rs>). Finally, the <hi rend="ital">Station in The Hague (Rijnspoor Station)</hi> (<rs type="ill" key="3023">F 919 / JH 123</rs>) could also have belonged to this group. See exhib. cat. The Hague 1990, pp. 170-177 and cat. Amsterdam 1996, pp. 106-108 (nn. 5-6).</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>A rijksdaalder is 2.50 guilders.</ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>
+                        <rs type="pers" key="422">Uncle Cor</rs> ordered another set of six detailed townscapes at the beginning of April (<ref target="let214.xml">see letter 214</ref>).</ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>For ‘ça ira’, <ref target="let176.xml#n-1">see letter 176, n. 1.</ref>
+                    </ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

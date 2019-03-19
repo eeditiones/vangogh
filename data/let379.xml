@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. The Hague, between about Thursday, 23 and about Wednesday, 29 August 1883.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let379"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">379</idno>
+<idno type="collectedletters">317</idno>
+<idno type="brieven1990">382</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>The Hague</vg:placeLet>
+                        <vg:dateLet>between about Thursday, 23 and about Wednesday, 29 August 1883</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. The Hague, between about Thursday, 23 and about Wednesday, 29 August 1883.</p>
+<note type="ongoingTopic" n="1">
+<p>Theo’s visit to The Hague <ref target="let374.xml">(374)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="2">
+<p>Conflict with Sien’s family <ref target="let338.xml">(338)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="3">
+<p>Drawings on consignment with Uncle Cor <ref target="let378.xml">(378)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. nos. b340 a-b V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>The letter was written after <ref target="let378.xml">letter 378</ref>, because Van Gogh’s ideas about possibly moving to Drenthe are now taking shape. It must also precede <ref target="let380.xml">letter 380</ref> of on or about Sunday, 2 September, which contained the remittance Van Gogh was still (implicitly) looking forward to in the present letter <ref target="#l-223">(l. 223)</ref>. An additional detail is that the second part of the letter was written several days after the first part; it is impossible to say how long the interval was. For this reason we date the letter between about Thursday, 23 and about Wednesday, 29 August 1883.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0340 a" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000435_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000435_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000435_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000435_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000435_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000435_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="VGM001000435_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000435_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000435_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0340 a" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000435_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000435_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000435_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000435_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000435_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000435_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000435_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000435_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000435_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0340 b" xml:id="surf-pb-2r">
+            <graphic mimeType="image/tiff" url="VGM001000436_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-2r-5">
+<graphic mimeType="image/tiff" url="VGM001000436_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000436_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000436_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0340 b" xml:id="surf-pb-2v">
+            <graphic mimeType="image/tiff" url="VGM001000436_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-2v-6">
+<graphic mimeType="image/tiff" url="VGM001000436_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000436_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000436_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Waarde Theo,</ab>
+                <lb n="2" xml:id="l-2"/>
+<ab>Heden morgen was ik bij v.d. Weele en zag <lb n="3" xml:id="l-3"/>de studies die hij uit Gelderland medebragt<c type="kp">_</c>
+                    <anchor n="1" xml:id="note-o-1"/> <lb n="4" xml:id="l-4"/>En mijn trek om naar Drenthe te gaan verminderde <lb n="5" xml:id="l-5"/>niet door wat ik van hem nog hoorde<c type="kp">_</c> <lb n="6" xml:id="l-6"/>Toevallig wist hij van een der dorpen die ik <lb n="7" xml:id="l-7"/>op ’t oog had dat de natuur daar prachtig <lb n="8" xml:id="l-8"/>is en vol karakter.</ab>
+                <lb n="9" xml:id="l-9"/>
+<ab rend="indent">Ik zei tegen hem nog eens dat ik wel gewenscht <lb n="10" xml:id="l-10"/>had wat meer omtrent schilderen te weten gekomen <lb n="11" xml:id="l-11"/>te zijn dit jaar<c type="kp">_</c> Nu<c type="kk">/</c> zijn antwoord was: Och <lb n="12" xml:id="l-12"/>zanik daar toch niet over<c type="kk">/</c> iedereen heeft <lb n="13" xml:id="l-13"/>primo zijn persoonlijke twijfelingen<c type="kk">/</c> <lb n="14" xml:id="l-14"/>leert hij van een ander<c type="kk">/</c> is dikwijls ’t gevolg hij <lb n="15" xml:id="l-15"/>behalve zijn eigen ook nog de zwakheden van zijn meester <lb n="16" xml:id="l-16"/>er bij krijgt<c type="kk">/</c> ga gerust en zonder daarover <lb n="17" xml:id="l-17"/>te denken voort.– Enfin in den grond <lb n="18" xml:id="l-18"/>denk ik precies ’t zelfde behalve dat <lb n="19" xml:id="l-19"/>ik het te eigenwijs zou vinden als ik niet bleef <lb n="20" xml:id="l-20"/>trachten toch op mijn qui vive te zijn van anderen <lb n="21" xml:id="l-21"/>wat te leeren. Maar wat men zoodoende <lb n="22" xml:id="l-22"/>eens ziet of hoort van een ander moet <lb n="23" xml:id="l-23"/>welligt als een buitenkansje beschouwd worden<c type="kp">_</c>
+                </ab>
+                <lb n="24" xml:id="l-24"/>
+<ab rend="indent">Een klein bewijs hoe weinig vast de vrouw in <lb n="25" xml:id="l-25"/>haar karakter is kunt ge zien uit wat ik u zeg<c type="kk">/</c> <lb n="26" xml:id="l-26"/>dat sedert haar bepaalde belofte van nu pas<c type="kk">/</c> om <lb n="27" xml:id="l-27"/>niet meer bij haar moeder te gaan<c type="kk">/</c> zij toch <lb n="28" xml:id="l-28"/>weer er heenging. Ik heb haar deswegens gezegd <lb n="29" xml:id="l-29"/>dat als zij zoo’n belofte zelfs geen <lb n="30" xml:id="l-30"/>
+                    <hi rend="ital">3</hi> dagen kon houden<c type="kk">/</c> of zij dan verwachten kon <lb n="31" xml:id="l-31"/>ik haar berekend zoude vinden voor eene <lb n="32" xml:id="l-32"/>belofte van trouw voor altijd.</ab>
+                <lb n="33" xml:id="l-33"/>
+<ab rend="indent">Want ik vind dit heel leelijk van haar en moet <lb n="34" xml:id="l-34"/>er haast uit opmaken dat ze meer bij dien boel <lb n="35" xml:id="l-35"/>hoort dan bij mij. Zegt dan echter weer dat ze <lb n="36" xml:id="l-36"/>er spijt van heeft maar – morgen zal ze ’t weer doen<c type="kk">/</c> <lb n="37" xml:id="l-37"/>dat begin <hi rend="ital">ik</hi> er van te denken, maar zij zegt – o neen. 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                    <lb n="38" xml:id="l-38"/>op zoo’n manier krijg ik er spijt <lb n="39" xml:id="l-39"/>van haast dat ik de dingen serieus <lb n="40" xml:id="l-40"/>opvat.</ab>
+                <lb n="41" xml:id="l-41"/>
+<ab rend="indent">Toen ik het haar liet beloven zeide ik <lb n="42" xml:id="l-42"/>haar: op drie manieren staat het met <lb n="43" xml:id="l-43"/>hoererij in verband als je er heen gaat<c type="kk">/</c> vooreerst <lb n="44" xml:id="l-44"/>omdat ge zelf in der tijd bij je moeder woondet <lb n="45" xml:id="l-45"/>en zij je zelf er toe aanzette om de straat op te gaan<c type="kp">_</c> Dan omdat <lb n="46" xml:id="l-46"/>zij woont midden in een zeer gemeene buurt <lb n="47" xml:id="l-47"/>die gij meer reden hebt dat te vermijden dan iemand <lb n="48" xml:id="l-48"/>anders<c type="kk">/</c> en eindelijk woont de hoer van je <lb n="49" xml:id="l-49"/>broer<anchor n="2" xml:id="note-o-2"/> daar in huis.</ab>
+                <lb n="50" xml:id="l-50"/>
+<ab rend="indent">Echter is het ook nu niet absoluut <lb n="51" xml:id="l-51"/>onmogelijk<c type="kk">/</c> b.v. een tijd buiten en van <lb n="52" xml:id="l-52"/>al haar familierommel af zijnde<c type="kk">/</c> <lb n="53" xml:id="l-53"/>ze teregt komt<c type="kk">/</c> maar – wie <lb n="54" xml:id="l-54"/>waarborgt me het ginder niet zal zijn – <lb n="55" xml:id="l-55"/>“wat is het hier beroerd<c type="kk">/</c> <hi rend="ital">waarom heb je me hier gebragt</hi>”<c type="kp">_</c> <lb n="56" xml:id="l-56"/>Zij maakt mij bang voor die dingen<c type="kk">/</c> ook <lb n="57" xml:id="l-57"/>als ik mijn uiterste best doe om in ’t extrême <lb n="58" xml:id="l-58"/>van haar te verlaten niet te vervallen.</ab>
+                <lb n="59" xml:id="l-59"/>
+<ab rend="indent">Dat wat Zola zegt komt me voor waar te zijn<c type="kk">/</c> <hi rend="ital">Pourtant ces femmes-là ne sont</hi> <lb n="60" xml:id="l-60"/>
+                    <hi rend="ital">point mauvaises</hi>
+                    <c type="kk">/</c> leurs erreurs &amp; leur chûte ayant <lb n="61" xml:id="l-61"/>pour cause “l’impossibilité” d’une vie droite dans <lb n="62" xml:id="l-62"/>les commérages &amp; les medisances des faubourgs corrompus – ge <lb n="63" xml:id="l-63"/>weet wel wat ik bedoel<c type="kk">/</c> uit <hi rend="ital">l’assommoir</hi>
+                    <c type="kp">_</c>
+                    <anchor n="3" xml:id="note-o-3"/>
+                </ab>
+                <lb n="64" xml:id="l-64"/>
+<ab rend="indent">Ik weet wel dat er onderscheid is ook<c type="kk">/</c> maar toch <lb n="65" xml:id="l-65"/>er zijn punten van overeenkomst tusschen <lb n="66" xml:id="l-66"/>hoe ik tegenover haar sta tegenwoordig en de passage <lb n="67" xml:id="l-67"/>uit l’assommoir waar dien smid ziet dat <lb n="68" xml:id="l-68"/>Gervaise den verkeerden weg opgaat en hij op haar <lb n="69" xml:id="l-69"/>niets vermag wegens zij<c type="kk">/</c> dubbelhartig en omdat alles troebel is voor haar oogen<c type="kk">/</c> niet kan besluiten <lb n="70" xml:id="l-70"/>partij te kiezen.<anchor n="4" xml:id="note-o-4"/>
+                </ab>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                <lb n="71" xml:id="l-71"/>
+<ab rend="indent">Ik heb meer medelijden met de vrouw dan ooit te <lb n="72" xml:id="l-72"/>voren omdat ik zie dat zij rust noch duur heeft. <lb n="73" xml:id="l-73"/>Ik geloof dat op dit oogenblik zij geen beter <lb n="74" xml:id="l-74"/>vriend heeft dan ik<c type="kk">/</c> die meer van harte haar <lb n="75" xml:id="l-75"/>zou helpen als zij het me mogelijk maakte<c type="kp">_</c> <lb n="76" xml:id="l-76"/>Doch zij zoekt mijn vertrouwen <lb n="77" xml:id="l-77"/>niet en maakt mij absoluut magteloos door <hi rend="ital">wel</hi> aan eigentlijk haar vijanden haar vertrouwen te geven<c type="kp">_</c> ik <lb n="78" xml:id="l-78"/>sta er voor zij niet inziet dat er kwaad is in <lb n="79" xml:id="l-79"/>wat zij doet – of niet ’t wil begrijpen denk ik soms.</ab>
+                <lb n="80" xml:id="l-80"/>
+<ab rend="indent">De periode dat ik boos werd om verkeerdheden <lb n="81" xml:id="l-81"/>van haar heb ik reeds lang doorgemaakt verl. jaar. <lb n="82" xml:id="l-82"/>Als ik <hi rend="ital">nu</hi> haar in de zelfde fouten zie vervallen<c type="kk">/</c> <lb n="83" xml:id="l-83"/>het verwondert mij niet meer en als ik wist <lb n="84" xml:id="l-84"/>’t haar redding was zou ik er me in kunnen schikken geloof ik<c type="kp">_</c>
+                    <lb n="85" xml:id="l-85"/> Omdat ik zóó over haar denk dat “<hi rend="ital">quand bien</hi> <lb n="86" xml:id="l-86"/>
+                    <hi rend="ital">même</hi> ik haar niet voor <hi rend="ital">slecht</hi> houd”<c type="kk">/</c> zij heeft <lb n="87" xml:id="l-87"/>om zoo te zeggen nooit gezien wat goed was<c type="kk">/</c> <hi rend="ital">hoe</hi> <lb n="88" xml:id="l-88"/>
+                    <hi rend="ital">kan</hi> ze goed zijn<c type="kp">_</c> Ze is bedoel ik niet verantwoordelijk <lb n="89" xml:id="l-89"/>als iemand die ’t begrip heeft er onderscheid is tusschen <lb n="90" xml:id="l-90"/>kwaad en goed<c type="kk">/</c> tot dat begrip is zij au fond niet <lb n="91" xml:id="l-91"/>gekomen dan bij instinkt<c type="kk">/</c> zeer vaag en verward<c type="kp">_</c> <lb n="92" xml:id="l-92"/>Ik geloof van haar dat als zij wist wat <lb n="93" xml:id="l-93"/>ze doen moest zij het doen zou<c type="kp">_</c>
+                </ab>
+                <lb n="94" xml:id="l-94"/>
+<ab rend="indent">Wat gij zeidet – dat ge geloofdet het haar <hi rend="ital">goed</hi> zoude <lb n="95" xml:id="l-95"/>doen als zij van mij vandaan was – is iets dat ik zelf waarschijnlijk <lb n="96" xml:id="l-96"/>zoude vinden als zij dan niet in haar <hi rend="ital">familie</hi> verviel <lb n="97" xml:id="l-97"/>primo<c type="kk">/</c> en 2<hi rend="ss">do</hi> van ’t eenige wat nu haar nog regthoudt betrekkelijk – haar <lb n="98" xml:id="l-98"/>kinderen – af moest.</ab>
+                <lb n="99" xml:id="l-99"/>
+<ab rend="indent">’t Is een geval waar men geen uitweg in ziet<c type="kp">_</c> <lb n="100" xml:id="l-100"/>Zij tobt in zich zelf over veel dingen<c type="kk">/</c> dat weet <lb n="101" xml:id="l-101"/>ik<c type="kk">/</c> zóó tobt zij soms dat men er medelijden mee <lb n="102" xml:id="l-102"/>heeft – maar dat zij – en al lang geleden – en <lb n="103" xml:id="l-103"/>al van heel ’t begin af ten volle mij had kunnen<c type="kk">/</c> had <hi rend="ital">moeten</hi> <lb n="104" xml:id="l-104"/>vertrouwen<c type="kk">/</c> daar is nooit van gekomen ofschoon <lb n="105" xml:id="l-105"/>ik wel degelijk heel in ’t begin ook reeds het haar zeide <lb n="106" xml:id="l-106"/>en toonde ook<c type="kp">_</c>– Meer heeft zij geluisterd en geloofd <lb n="107" xml:id="l-107"/>dat ik toch haar in den steek zou laten<c type="kk">/</c> ’t welk <lb n="108" xml:id="l-108"/>indien het eindelijk en ten laatste zou gebeuren<c type="kk">/</c> <lb n="109" xml:id="l-109"/>juist omdat zij het zóó opvat<c type="kk">/</c> de schuld van <lb n="110" xml:id="l-110"/>de familie zou zijn meer dan de hare want de familie <lb n="111" xml:id="l-111"/>maakte gedurig haar daar van streek mee.</ab>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                <lb n="112" xml:id="l-112"/>
+<ab rend="indent">Ik weet niet of het te begrijpen is zoo als ik <lb n="113" xml:id="l-113"/>het zeg maar ziehier hoe het zit – au fond <lb n="114" xml:id="l-114"/>wil zij bij me zijn en is aan me gehecht maar <lb n="115" xml:id="l-115"/>zij is er blind voor dat zij zelf zich van mij <lb n="116" xml:id="l-116"/>verwijdert. en ik kan er niets van zeggen of ’t is – <lb n="117" xml:id="l-117"/>ja ik weet het wel<c type="kk">/</c> je neemt me toch niet.–</ab>
+                <lb n="118" xml:id="l-118"/>
+<ab rend="indent">Nu zijn dat de <hi rend="ital">goede</hi> buijen en wat de <hi rend="ital">slechte</hi> <lb n="119" xml:id="l-119"/>zijn is nog desperater<c type="kp">_</c> Dan zegt ze ronduit<c type="kk">/</c> <lb n="120" xml:id="l-120"/>Nu ja ik ben onverschillig en lui en dat ben ik ook <lb n="121" xml:id="l-121"/>altijd geweest en daar is ook niets aan te doen – of<c type="kk">/</c> nu ja ik ben een hoer<c type="kk">/</c> <lb n="121a" xml:id="l-121a"/>of “het kan toch op niets anders uitkomen dan dat ik in ’t water spring”<c type="kp">_</c>
+                    <anchor n="5" xml:id="note-o-5"/>
+                </ab>
+                <lb n="122" xml:id="l-122"/>
+<ab rend="indent">Denkt men nu eens na over dat <lb n="123" xml:id="l-123"/>verwaarloosde<c type="kk">/</c> half of liever heel bedorven<c type="kk">/</c> ik zou willen <lb n="124" xml:id="l-124"/>zeggen <hi rend="ital">door ’t riool gesleepte</hi> karakter van <lb n="125" xml:id="l-125"/>haar<c type="kk">/</c> dan zeg ik voor mij – après tout <hi rend="ital">kan</hi> <lb n="126" xml:id="l-126"/>zij niet anders zijn dan ze is<c type="kk">/</c> en van mij zelf zou <lb n="127" xml:id="l-127"/>ik het bête en verwaand vinden als ik met <lb n="128" xml:id="l-128"/>een groot<c type="kk">/</c> plegtig klinkend woord haar <lb n="129" xml:id="l-129"/>veroordeelde. Ge zult nu misschien beter begrijpen <lb n="130" xml:id="l-130"/>dan verleden hoe ik er toe kwam om op haar <lb n="131" xml:id="l-131"/>toe te passen wat de pastoor Bienvenu uit Victor <lb n="132" xml:id="l-132"/>Hugos Misérables gewoon was tegen leelijke<c type="kk">/</c> <lb n="133" xml:id="l-133"/>zelfs vergiftige beesten te zeggen: pauvre <lb n="134" xml:id="l-134"/>bête<c type="kk">/</c> ce n’est pas sa faute qu’elle est ainsi<c type="kp">_</c>
+                    <anchor n="6" xml:id="note-o-6"/> <lb n="135" xml:id="l-135"/>En gij zult wel kunnen inzien dat ik zóó graag <lb n="136" xml:id="l-136"/>haar boven water zou houden dat bij voorbeeld <lb n="137" xml:id="l-137"/>als het te vinden was door haar te trouwen<c type="kk">/</c> <lb n="138" xml:id="l-138"/>ik ook nu haar trouwen zou<c type="kp">_</c>– Maar is het daarmee gevonden<c type="kp">_</c> <lb n="139" xml:id="l-139"/>als zij b.v. in Drenthe zou gaan malen: waarom hebt ge <lb n="140" xml:id="l-140"/>me hier gebragt<c type="kk">/</c> dan was men nog even ver. <lb n="141" xml:id="l-141"/>Eene zaak als deze kan men niet in eens ten <lb n="142" xml:id="l-142"/>volle uitleggen en evenmin in eens er alles van <lb n="143" xml:id="l-143"/>begrijpen. Maar ge ziet wel ze een schepsel is <lb n="144" xml:id="l-144"/>dat zeer ongelukkig is en weinig geschikt is<c type="kk">/</c> een zóó ongedurig <lb n="145" xml:id="l-145"/>temperament<c type="kk">/</c> voor eene dienst<c type="kk">/</c> welke dan ook – niet waar<c type="kp">_</c>– <lb n="146" xml:id="l-146"/>Trouwens te Leiden<anchor n="7" xml:id="note-o-7"/> zeide men zwaar werk <hi rend="ital">mogt</hi> zij niet <lb n="147" xml:id="l-147"/>doen. Er komt nu nog bij dat het zogen van het kind <lb n="148" xml:id="l-148"/>voor haar die zwak is<c type="kk">/</c> wel uitputtend is geweest<c type="kk">/</c> ’t geen <lb n="149" xml:id="l-149"/>m.i. reden is haar veel gebrek aan activiteit toe te geven<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+                <lb n="150" xml:id="l-150"/>
+<ab>Ik hield dezen brief nog een paar dagen op. Pa <lb n="151" xml:id="l-151"/>schreef mij in dien tusschentijd een brief. Mijn bedoeling <lb n="152" xml:id="l-152"/>met aan Pa te schrijven den brief welken gij t’huis gelezen hebt<c type="kk">/</c>
+                    <anchor n="8" xml:id="note-o-8"/> was <lb n="153" xml:id="l-153"/>ook vooral omdat <hi rend="ital">en</hi> Pa <hi rend="ital">en</hi> gij weten zoudt dat als ik naar <lb n="154" xml:id="l-154"/>t’huis weinig schrijf<c type="kk">/</c> het is omdat zulks ’t eenvoudigst is <lb n="155" xml:id="l-155"/>zoolang er redenen bestaan van liever niet <lb n="156" xml:id="l-156"/>spreken over dit en dat. Echter wegens er kwestie was geweest <lb n="157" xml:id="l-157"/>dat ik niet vertrouwelijk genoeg was<c type="kk">/</c> wou ik toonen ik niet <lb n="158" xml:id="l-158"/>mijn motieven te verbergen zocht of zoo – maar zelf begreep <lb n="159" xml:id="l-159"/>het beter was over veel te zwijgen. Of nu Pa <hi rend="ital">dat</hi> in <lb n="160" xml:id="l-160"/>mijn schrijven heeft gezien geloof ik niet<c type="kp">_</c> Enfin dat doet <lb n="161" xml:id="l-161"/>er ook niet toe<c type="kp">_</c>– Hij heeft het meer op genomen als een <lb n="162" xml:id="l-162"/>klagen van mij of raadvragen – en dat was den toon van mijn <lb n="163" xml:id="l-163"/>brief <hi rend="ital">niet</hi>
+                    <c type="kk">/</c> die eenvoudig eene verklaring was van mijn <lb n="164" xml:id="l-164"/>motieven om te doen zoo als ik doe<c type="kk">/</c> kunnende <lb n="165" xml:id="l-165"/>daarna geen twijfel overblijven omtrent mijn openhartigheid<c type="kp">_</c>
+                </ab>
+                <lb n="166" xml:id="l-166"/>
+<ab rend="indent">Hetgeen ik hoop gij niet op tegen zult <lb n="167" xml:id="l-167"/>hebben<c type="kk">/</c> gegeven de dingen zoo als zij zijn<c type="kk">/</c> <lb n="168" xml:id="l-168"/>gegeven de noodzakelijkheid om te avanceeren<c type="kk">/</c> <lb n="169" xml:id="l-169"/>gegeven wij er over hebben gedacht – gegeven <lb n="170" xml:id="l-170"/>mijn voornemen om <hi rend="ital">als</hi> het kan<c type="kk">/</c> n.l. als <hi rend="ital">zij zelf</hi> <lb n="171" xml:id="l-171"/>het niet absoluut onmogelijk maakt<c type="kk">/</c> met haar <lb n="172" xml:id="l-172"/>te blijven – ’t geen<c type="kk">/</c> zeg ik<c type="kk">/</c> ik hoop gij niet <lb n="173" xml:id="l-173"/>op tegen zult hebben ik voor nu onmiddelijk <lb n="174" xml:id="l-174"/>besluit is – <hi rend="ital">doorvoeren</hi> mijn <lb n="175" xml:id="l-175"/>naar Drenthe gaan. Gaat de vrouw <lb n="176" xml:id="l-176"/>mee of niet<c type="kk">/</c> hangt af van haar zelf<c type="kp">_</c> <lb n="177" xml:id="l-177"/>
+                    <hi rend="sc">ik weet</hi> zij overlegt met haar moeder. <hi rend="ital">Wat</hi> <lb n="178" xml:id="l-178"/>weet ik niet<c type="kp">_</c>– Vraag ik niet naar ook.</ab>
+                <lb n="179" xml:id="l-179"/>
+<ab rend="indent">Tot op ’t laatste<c type="kk">/</c> allerlaatste moment van <lb n="180" xml:id="l-180"/>weggaan toe <hi rend="ital">kan</hi> zij dus met dit of dat voor <lb n="181" xml:id="l-181"/>den dag komen<c type="kk">/</c> wat zij nu niet zegt.</ab>
+                <lb n="182" xml:id="l-182"/>
+<ab rend="indent">Maar wil ze meegaan<c type="kk">/</c> och laat haar meegaan<c type="kp">_</c> <lb n="183" xml:id="l-183"/>Haar te verlaten is haar terugstorten in <lb n="184" xml:id="l-184"/>de prostitutie<c type="kk">/</c> dat <hi rend="ital">kan</hi> de zelfde hand niet doen <lb n="185" xml:id="l-185"/>die haar trachtte er uit te helpen<c type="kk">/</c> niet waar.</ab>
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>
+                <lb n="186" xml:id="l-186"/>
+<ab rend="indent">Drenthe is voor ’t <hi rend="ital">werk</hi> en voor de <hi rend="ital">bezuiniging</hi> <lb n="187" xml:id="l-187"/>’t best wat we m.i. doen kunnen en ik <lb n="188" xml:id="l-188"/>denk ge dat ook zoo inziet. Dus wat <lb n="189" xml:id="l-189"/>er nu momenteel zij van haar<c type="kk">/</c> we gaan door <lb n="190" xml:id="l-190"/>met de uitvoering van dat plan als ge ’t goed vind<c type="kp">_</c> <lb n="191" xml:id="l-191"/>Bij het weggaan zeg ik<c type="kk">/</c> gaat gij mede of <lb n="192" xml:id="l-192"/>blijft ge<c type="kk">/</c> tot de vrouw.</ab>
+                <lb n="193" xml:id="l-193"/>
+<ab rend="indent">
+                    <hi rend="ital">Als</hi> ze mee gaat – dan zal ik ginder <lb n="194" xml:id="l-194"/>geloof ik meer invloed hebben en haar wel <lb n="195" xml:id="l-195"/>wat flinker krijgen.</ab>
+                <lb n="196" xml:id="l-196"/>
+<ab rend="indent">Heden stuur ik een aantal studies aan C.M. <lb n="197" xml:id="l-197"/>Ik blijf erg blijde met Uw <hi rend="ital">herziene</hi> opinie <lb n="198" xml:id="l-198"/>over ’t werk – Uw <hi rend="ital">herziene</hi> opinie klopt met die <lb n="199" xml:id="l-199"/>van Rappard<anchor n="9" xml:id="note-o-9"/> – ook v.d. Weele gelooft dat er iets in mijn <lb n="200" xml:id="l-200"/>werk is. Ik voor mij geloof van me zelf <lb n="201" xml:id="l-201"/>dat er in ieder schildersleven een periode is van ondingen <lb n="202" xml:id="l-202"/>maken en ik geloof dat die bij mij zelfs reeds een tijd <lb n="203" xml:id="l-203"/>lang achter den rug is<c type="kp">_</c> Verder dat het bij mij <lb n="204" xml:id="l-204"/>geleidelijk maar vast vooruit gaat en dat over hetgeen <lb n="205" xml:id="l-205"/>ik nu doe later door beter werk een <hi rend="ital">reflexie</hi> <lb n="206" xml:id="l-206"/>zal komen<c type="kk">/</c> die beter zal doen uitkomen dat nu zelfs <lb n="207" xml:id="l-207"/>er al iets in is van eenvoud en waarheid en<c type="kk">/</c> wegens gij het <lb n="208" xml:id="l-208"/>zelf zegt<c type="kk">/</c> van mannelijk opvatten en aankijken.<anchor n="10" xml:id="note-o-10"/> <lb n="209" xml:id="l-209"/>Zoo<c type="kk">/</c> als gij in een studie iets vindt zult ge <lb n="210" xml:id="l-210"/>niet hoeven terug te nemen wat ge er in vindt<c type="kk">/</c> <lb n="211" xml:id="l-211"/>en later<c type="kk">/</c> beter werk zal er U niet geheel voor bekoelen. <lb n="212" xml:id="l-212"/>Weissenbruch zeide mij verl. jaar reeds zoo iets – <lb n="213" xml:id="l-213"/>ga gij stil door en als ge oud zijt zult ge nog met <lb n="214" xml:id="l-214"/>rust op Uw eerste studies zien.<anchor n="11" xml:id="note-o-11"/>
+                </ab>
+                <lb n="215" xml:id="l-215"/>
+<ab rend="indent">Veel schilderen is nu echter iets wat niet <lb n="216" xml:id="l-216"/>uitgesteld mag worden. <hi rend="ital">Dat</hi> en nog weer <lb n="217" xml:id="l-217"/>eens<c type="kk">/</c> een doortrokken worden van de sereniteit der <lb n="218" xml:id="l-218"/>natuur in een heistreek – twijfel er niet aan – <lb n="219" xml:id="l-219"/>brengt ons tot overwinning in ’t eind en tot vooruitgang <lb n="220" xml:id="l-220"/>van de eene maand op de andere.</ab>
+                <lb n="221" xml:id="l-221"/>
+<ab rend="indent">Dezer dagen schilder ik ook nog al druk<c type="kk">/</c> ik heb <lb n="222" xml:id="l-222"/>weer studies uit het bosch vooral.<anchor n="12" xml:id="note-o-12"/> Gegroet <lb n="223" xml:id="l-223"/>en schrijf eens spoedig.</ab>
+<vg:whiteline/>
+                <lb n="223*" xml:id="l-223s"/>
+<ab>t. à t<c type="kp">_</c>
+                </ab>
+                <lb n="224" xml:id="l-224"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+                <lb n="225" xml:id="l-225"/>
+<ab>Met de geschilderde studies zal het zóó gaan <lb n="226" xml:id="l-226"/>als met de geteekenden<c type="kp">_</c> Later als ik meer gevonden heb zal <lb n="227" xml:id="l-227"/>men zien dat in dit figuur of dat brok landschap reeds een zeker <lb n="228" xml:id="l-228"/>persoonlijk karakter is<c type="kp">_</c> Enfin als alles naar wensch gaat hoop ik U nog dezen herfst <lb n="229" xml:id="l-229"/>uit Drenthe studies te sturen.</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-55" n="55">
+                        <hi rend="ital">gebragt</hi>”<c type="kp">_</c> &lt; <hi rend="ital">gebragt</hi>
+                    </note>
+<note target="l-61" n="61">“l’impossibilité” &lt; “l’impossibilité</note>
+<note target="l-121" n="121">spring”<c type="kp">_</c> &lt; spring</note>
+<note target="l-139" n="139">malen: &lt; malen</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo,</ab>
+<ab>This morning I was at <rs type="pers" key="1440">Van der Weele</rs>’s and saw the studies he brought back from Gelderland.<anchor n="1" xml:id="note-t-1"/> And my desire to go to Drenthe wasn’t diminished by what I heard from him. He happened to know that one of the villages I had in mind had a beautiful natural setting full of character. </ab>
+<ab rend="indent">I told him again that I wished I’d learned more about painting this year. Well, his answer was: Oh, don’t go moaning about that. In the first place everyone has his personal doubts, if he learns from someone else, often the result is that in addition to his own weaknesses he acquires those of his master as well. Carry on calmly without worrying about that. Well, basically I think just the same, except that I would find it too conceited if I didn’t continue to try to be on the <hi rend="ital">qui vive</hi> to learn from others. But what one sees or hears from someone else in this way should perhaps be seen as a stroke of luck. </ab>
+<ab rend="indent">You can see a small indication of how unstable the <rs type="pers" key="463">woman</rs> is in her character when I tell you this, that since her specific promise recently not to go to her <rs type="pers" key="464">mother</rs>’s she went there anyway. So I said to her that if she couldn’t keep such a promise for even <hi rend="ital">3</hi> days, how could she expect me to think her suited to promising faithfulness for ever? </ab>
+<ab rend="indent">For I find this very wicked of <rs type="pers" key="463">her</rs>, and am almost forced to conclude that she belongs more with that lot than with me. Says again, though, that she’s sorry but — she’ll do it again tomorrow, that’s what <hi rend="ital">I</hi> begin to think, but she says, Oh no. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> This almost makes me regret taking things seriously. </ab>
+<ab rend="indent">When I made <rs type="pers" key="463">her</rs> promise, I said to her: if you go there it’s associated with whoring in three ways, first because you were living at your <rs type="pers" key="464">mother</rs>’s at the time, and she herself urged you to go on the streets. Next because she lives in the middle of a vile neighbourhood which you have more reason to avoid than anyone else, and lastly your <rs type="pers" key="469">brother</rs>’s whore<anchor n="2" xml:id="note-t-2"/> lives in that house.</ab>
+<ab rend="indent">But even now it isn’t absolutely impossible that <rs type="pers" key="463">she</rs> might turn out all right, for instance after being in the country for a time and away from that whole family mess, but who can assure me that over there it won’t be, ‘How miserable it is here, <hi rend="ital">why did you bring me here?</hi>’ She makes me afraid of those things, even when I do my utmost not to resort to the extreme of abandoning her. </ab>
+<ab rend="indent">What <rs type="pers" key="836">Zola</rs> says seems to me to be true, ‘<hi rend="ital">Yet these women are not bad</hi>, for their faults and their fall are due to “the impossibility” of living a straight life in the midst of the gossip and calumny of the corrupt suburbs’ — you know what I mean from <hi rend="ital">L’assommoir</hi>.<anchor n="3" xml:id="note-t-3"/>
+                </ab>
+<ab rend="indent">I know well enough that there’s a difference too, but still there are points of resemblance between how I stand in relation to <rs type="pers" key="463">her</rs> now and the passage in L’assommoir in which the smith sees that Gervaise is going down the wrong path and that he has no influence on her because she can’t decide to take sides, being two-faced and because everything before her eyes is cloudy.<anchor n="4" xml:id="note-t-4"/>
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/>
+                </ab>
+<ab rend="indent">I feel more compassion for the <rs type="pers" key="463">woman</rs> than ever before because I see that she’s very unsettled. I believe that at the moment she has no better friend than me, who would sincerely help her more if she allowed me to. But she doesn’t seek my trust, and makes me absolutely powerless by <hi rend="ital">giving</hi> her trust to those who are in fact her enemies. I truly believe that she doesn’t understand that there is evil in what she does — or doesn’t want to understand it, I sometimes think. </ab>
+<ab rend="indent">Long ago last year I went through the period when I got angry about things <rs type="pers" key="463">she</rs> did wrong. When I <hi rend="ital">now </hi>see her lapsing into the same faults, it no longer surprises me, and if I knew it would be her salvation I believe I could accept it. Because the way I think of her is that ‘<hi rend="ital">nonetheless </hi>I don’t believe she’s <hi rend="ital">bad</hi>’. She has never seen, so to speak, what good was; <hi rend="ital">how can</hi> she be good? I mean that she isn’t responsible in the same way as someone who understands that there’s a distinction between evil and good; fundamentally she has never reached that understanding other than by instinct, in a very vague and confused way. I believe that if she knew what she must do, she would do it. </ab>
+<ab rend="indent">What you said — that you thought it would do <rs type="pers" key="463">her</rs> <hi rend="ital">good</hi> if she was away from me — is something I would probably agree with myself, were it not that she’d then fall back on her <hi rend="ital">family</hi> in the first place and in the second would have to give up the only thing that’s now keeping her more or less on the right path — her children. </ab>
+<ab rend="indent">It’s a situation in which one sees no way out. <rs type="pers" key="463">She</rs> frets inwardly about many things, I know that, sometimes she frets so much that one takes pity on her, but that she — and long ago — from the very beginning could have, <hi rend="ital">should</hi> have, fully trusted me — that was never the case, although I certainly told her that and showed it too, right in the beginning. What she listened to and believed more was that I would leave her in the lurch after all, which, if it were finally to happen in the end, precisely because she sees it like that, would be more the family’s fault than hers, because the family continually upset her with that.
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/>
+                </ab>
+<ab rend="indent">I don’t know whether it’s understandable the way I put it, but this is the position — fundamentally <rs type="pers" key="463">she</rs> wants to be with me and is attached to me, but she’s blind to the fact that it’s she who’s taking herself away from me. And if I say anything about that it’s — yes, I know very well, you won’t take me anyway. </ab>
+<ab rend="indent">Now those are the <hi rend="ital">good</hi> moods and what the <hi rend="ital">bad</hi> moods are is still more desperate. Then <rs type="pers" key="463">she</rs> says frankly, well, yes, I am indifferent and lazy, and I always have been and there’s nothing to be done about it — or, well, yes, I’m a whore, or ‘it’s bound to end up with me jumping into the water.’<anchor n="5" xml:id="note-t-5"/>
+                </ab>
+<ab rend="indent">When one thinks for a moment about that neglected, half or rather wholly corrupted character of hers — which I would say has been <hi rend="ital">dragged through the sewer</hi> — then I for one say, in the end <rs type="pers" key="463">she</rs> <hi rend="ital">cannot</hi> be other than she is, and I would find it stupid and arrogant of myself if I condemned her in grand, solemn-sounding words. Perhaps you’ll understand better now than in the past how I came to apply to her what the priest Bienvenu in <rs type="pers" key="666">Victor Hugo</rs>’s Misérables used to say to ugly, even poisonous beasts: Poor beast, it isn’t her fault that she’s like that.<anchor n="6" xml:id="note-t-6"/> And you’ll understand that I would so dearly like to stop her going under that, if that could be achieved by marrying her, for instance, I would marry her even now. But would it be achieved? If, say, in Drenthe she were to start nagging: why did you bring me here?, one wouldn’t have made the slightest progress. One can’t fully explain everything in a case like this all at once, nor understand everything all at once. But you can see, can’t you, that she’s a creature who is most unhappy and not very suited — such a restless temperament — to any position in service, of whatever kind? By the way, in Leiden<anchor n="7" xml:id="note-t-7"/> they said she wasn’t <hi rend="ital">allowed</hi> to do heavy work. On top of that she’s weak, and nursing the <rs type="pers" key="466">child</rs> has exhausted her, which in my view is a reason for forgiving her great lack of activity.</ab>
+<vg:whiteline/>
+<ab>
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/>
+                </ab>
+<ab>I held this letter back for a few days. <rs type="pers" key="526">Pa</rs> wrote me a letter in the meantime. My main intention in writing the letter to Pa that you read at home<anchor n="8" xml:id="note-t-8"/> was that <hi rend="ital">both</hi> Pa <hi rend="ital">and</hi> you would know that if I rarely write home it’s because that’s the simplest thing as long as there are reasons for preferably not referring to this and that. However, because there was the issue of my not being sufficiently confiding, I wanted to show that I wasn’t trying to conceal my motives or anything like that, but understood myself that it was better to be silent about a great deal. I don’t believe that Pa saw <hi rend="ital">that</hi> in my letter. Anyway, that makes no difference. He’s taken it more as a complaint by me or a request for advice — and that was <hi rend="ital">not</hi> the tone of my letter, which was simply a statement of my motives for doing as I do, so that no doubt would be left as to my openness. </ab>
+<ab rend="indent">To which I hope you won’t object, given how things are, given the necessity of advancing, given that we’ve thought about it — given my intention to stay with <rs type="pers" key="463">her</rs> <hi rend="ital">if</hi> possible, namely if <hi rend="ital">she herself</hi> doesn’t make it absolutely impossible — to which, I say, I hope you won’t object if my immediate decision for now is — to <hi rend="ital">push ahead</hi> with the move to Drenthe. Whether the woman comes along or not depends on her. <hi rend="sc">i know</hi> she’s consulting her <rs type="pers" key="464">mother</rs>. I don’t know <hi rend="ital">what</hi> about. Nor do I ask. </ab>
+<ab rend="indent">So right up to the last, very last moment of leaving <rs type="pers" key="463">she</rs> <hi rend="ital">can</hi> come up with this or that, which she doesn’t say now. </ab>
+<ab rend="indent">But if <rs type="pers" key="463">she</rs> wants to come, well, let her come. To abandon her would be to drive her back into prostitution; the same hand that tried to help her out of it <hi rend="ital">could</hi> not do that, could it?
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/>
+                </ab>
+<ab rend="indent">In my view, Drenthe is the best thing we can do both for the <hi rend="ital">work</hi> and for <hi rend="ital">economizing</hi>, and I think that you see it that way too. So however <rs type="pers" key="463">she</rs> may be for the moment, we’ll press on with carrying out that plan, if you approve. On leaving I’ll say to the woman: are you coming or are you staying?</ab>
+<ab rend="indent">
+                    <hi rend="ital">If</hi> <rs type="pers" key="463">she</rs> comes, then I believe I’ll have more influence over there, and be able to make her stronger. </ab>
+<ab rend="indent">Today I’m sending a number of studies to <rs type="pers" key="422">C.M.</rs> I’m still very pleased with your <hi rend="ital">revised</hi> opinion of the work. Your <hi rend="ital">revised </hi>opinion agrees with <rs type="pers" key="1306">Rappard</rs>’s.<anchor n="9" xml:id="note-t-9"/> <rs type="pers" key="1440">Van der Weele</rs> also thinks that my work has something. For my part I believe that there’s a period of doing rubbish in the life of every painter, and I believe that in my case that was some considerable time ago. Also that I’m making gradual but steady progress, and that later, through better work, there will come a <hi rend="ital">reflection</hi> about what I’m doing now which will make it clearer that even now it already has an element of simplicity and truth and, because you say it yourself, of a manly approach and perception.<anchor n="10" xml:id="note-t-10"/> So, if you find something in a study, you won’t have to take back what you find in it, and later, better work won’t make you entirely cool towards it. <rs type="pers" key="1443">Weissenbruch</rs> said something similar to me last year — you carry on quietly, and when you’re old you’ll look back calmly on your earliest studies.<anchor n="11" xml:id="note-t-11"/>
+                </ab>
+<ab rend="indent">Now, however, painting a lot isn’t something that may not be postponed. <hi rend="ital">That</hi>, and being steeped once more in the serenity of nature in a heath area — have no doubt — will bring us to victory in the end, and to progress from one month to another. </ab>
+<ab rend="indent">I’ve been rather busy painting in the last few days, again I have studies from the woods mainly.<anchor n="12" xml:id="note-t-12"/> Regards, and write soon. </ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+                <ab> Vincent</ab>
+<vg:whiteline/>
+<ab>It will be the same with the painted studies as with the drawn ones. Later, when I’ve found more, it will be seen that there’s already a certain personal character in this figure or that fragment of landscape. Anyway, if everything goes according to plan I hope to be sending you studies from Drenthe this autumn. </ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>No further details are known about <rs type="pers" key="1440">Van der Weele</rs>’s stay in the eastern province of Gelderland. </ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>This woman who lived with <rs type="pers" key="469">Carolus Hoornik</rs>, Sien’s brother, has not been identified. As early as June Van Gogh had written that this brother had left his wife (<ref target="let348.xml">letter 348</ref>).</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>For this quotation from the preface to <rs type="pers" key="836">Zola</rs>’s <hi rend="ital">
+                            <rs type="lit" key="255">L’assommoir</rs>
+                        </hi>, <ref target="let337.xml#n-4">see letter 337, n. 4.</ref>
+                    </ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>In <hi rend="ital">L’assommoir</hi> the smith Goujet is secretly in love with the main character Gervaise. Van Gogh is referring to the scene in chapter 12 in which the smith declares his love but is rejected out of shame by Gervaise, who has fallen on hard times. Nonetheless, she is not indifferent to him. He realizes, however, that she cannot love him alone and concludes with: ‘That is enough between us, Madame Gervaise ... That is our whole friendship, is it not?’ (Ça suffit entre nous, madame Gervaise ... C’est toute notre amitié, n’est-ce pas?) See Zola 1960-1967, vol. 2, p. 777.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>
+                        <rs type="pers" key="463">Sien</rs> had foreseen her fate correctly: on 12 November 1904 she was to commit suicide by jumping into the water; see Hulsker 1993-2, p. 52.</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>The passage goes back to <rs type="pers" key="666">Victor Hugo</rs>, <hi rend="ital">
+                            <rs type="lit" key="310">Les misérables</rs>
+                        </hi>, book 1, chapter 13, which describes how Bienvenu sees a spider: ‘black, hairy, hideous. His sister heard him say: Poor creature! It’s not its fault’ (noire, velue, horrible. Sa soeur l’entendit qui disait: – Pauvre bête! ce n’est pas sa faute). See Hugo 1951, p. 57.</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>At the University Hospital in Leiden, where <rs type="pers" key="463">Sien</rs> was nursed in June-July 1882 before she gave birth.</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>The letter to <rs type="pers" key="526">Pa</rs> that was sent together with <ref target="let376.xml">letter 376</ref>.</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>
+                        <rs type="pers" key="1306">Van Rappard</rs> had seen Van Gogh’s recent work shortly before; <ref target="let378.xml">see letter 378</ref>.</ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>Theo had written this in the letter which Vincent said in <ref target="let378.xml">letter 378</ref> he had received. </ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>In the spring of 1882 Van Gogh had been given advice by <rs type="pers" key="1443">Weissenbruch</rs> several times; <ref target="let204.xml">see letters 204</ref> ff. Cf. also Weissenbruch’s compliments on Van Gogh’s studies quoted in <ref target="let204.xml">letter 204</ref>. </ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+<ab>These studies of woods are not known.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

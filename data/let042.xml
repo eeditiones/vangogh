@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Paris, Thursday, 2 September 1875.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let042"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">042</idno>
+<idno type="collectedletters">35</idno>
+<idno type="brieven1990">042</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Paris</vg:placeLet>
+                        <vg:dateLet>Thursday, 2 September 1875</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. Paris, Thursday, 2 September 1875.</p>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b44 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Letter headed: ‘<hi rend="ital">[</hi>Paris, le<hi rend="ital">]</hi> 2 Sept. <hi rend="ital">[</hi>187<hi rend="ital">]</hi>5.’</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0044" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000046_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000046_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000046_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000046_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000046_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000046_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-2">
+<graphic mimeType="image/tiff" url="VGM001000046_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000046_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000046_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+        <surface n="b 0044 V/1962" xml:id="surf-extra-1v">
+            <graphic mimeType="image/tiff" url="VGM001000046_02.TIF" rend="norend"/>
+        </surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>
+                    <vg:suppliedMilestone type="open"/>Goupil &amp; C<hi rend="ss">ie</hi>
+                </ab>
+                <lb n="2" xml:id="l-2"/>
+<ab>Editeurs Imprimeurs</ab>
+                <lb n="3" xml:id="l-3"/>
+<ab>Estampes Françaises &amp; Étrangères</ab>
+                <lb n="4" xml:id="l-4"/>
+<ab>Tableaux Modernes</ab>
+                <lb n="5" xml:id="l-5"/>
+<ab>Rue Chaptal, 9, PARIS.</ab>
+                <lb n="6" xml:id="l-6"/>
+<ab>Succursales à la Haye, Londres, Berlin, New-York.</ab>
+<vg:whiteline/>
+                <lb n="7" xml:id="l-7"/>
+<ab>Paris, le<vg:suppliedMilestone type="close"/> 2 Sept. <supplied>187</supplied>5.</ab>
+<vg:whiteline/>
+                <lb n="8" xml:id="l-8"/>
+<ab>Waarde Theo,</ab>
+                <lb n="9" xml:id="l-9"/>
+<ab>Dezen morgen hoorde ik van Pa en van U het <lb n="10" xml:id="l-10"/>bericht van Oom Jan’s dood.─<anchor n="1" xml:id="note-o-1"/> Zoo iets doet ons <lb n="11" xml:id="l-11"/>wel zeggen “Verbind Gij o Heer ons innig aan <lb n="12" xml:id="l-12"/>elkaar &amp; laat de liefde tot U dien band meer <lb n="13" xml:id="l-13"/>&amp; meer versterken »<anchor n="2" xml:id="note-o-2"/> &amp; Crains Dieu &amp; garde ses <lb n="14" xml:id="l-14"/>commandements; car c’est là le tout de l’homme.<anchor n="3" xml:id="note-o-3"/>
+                </ab>
+                <lb n="15" xml:id="l-15"/>
+<ab rend="indent">In de eerste kist schilderijen die naar <lb n="16" xml:id="l-16"/>Holland gaat zult gij enkele lithographies &amp; <lb n="17" xml:id="l-17"/>de bewuste gravure naar Rembrandt vinden<c type="kp">_</c>
+                    <anchor n="4" xml:id="note-o-4"/> <lb n="18" xml:id="l-18"/>De twee lith. naar Bonington zullen wel naar <lb n="19" xml:id="l-19"/>Uw zin zijn. Bij de zelfde gelegenheid stuur <lb n="20" xml:id="l-20"/>ik U een paar phot. naar Jules Breton &amp; Corot voor Pa, ik <lb n="21" xml:id="l-21"/>zal achterop “voor Helvoirt” zetten.</ab>
+                <lb n="22" xml:id="l-22"/>
+<ab rend="indent">Van dien schilder Pynas, waarover gij schrijft, heb ik <lb n="23" xml:id="l-23"/>nooit gehoord, ik ben verlangend het bewuste sch<hi rend="ss">ij</hi> te <lb n="24" xml:id="l-24"/>zien.<anchor n="5" xml:id="note-o-5"/> Die lithographie naar Diaz “Un moine” ken <lb n="25" xml:id="l-25"/>ik ook niet.─<anchor n="6" xml:id="note-o-6"/>
+                </ab>
+<pb f="1r" n="2" xml:id="pb-orig-1r-2" facs="#zone-pb-1r-2"/>
+                <lb n="26" xml:id="l-26"/>
+<ab rend="indent">ll. Zondag was ik op de Louvre, (zondag’s ga ik nog al <lb n="27" xml:id="l-27"/>eens daarheen, of naar de Luxembourg), ik wilde gij <lb n="28" xml:id="l-28"/>de v<c type="kp">_</c> Ostade eens zaagt, zijne eigene familie, hijzelf<c type="kk">/</c> <lb n="29" xml:id="l-29"/>zijne vrouw &amp; ik geloof 8 kinderen, allen in ’t zwart, <lb n="30" xml:id="l-30"/>de vrouw &amp; meisjes met witte mutsen &amp; halsdoeken <lb n="31" xml:id="l-31"/>in eene deftige oudHollandsche kamer met <lb n="32" xml:id="l-32"/>grooten haard, eikenhouten beschotten &amp; zolder &amp; <lb n="33" xml:id="l-33"/>gewitte muren met schilderijen in zwarte lijsten. <lb n="34" xml:id="l-34"/>In den hoek van de kamer een groot bed met <lb n="35" xml:id="l-35"/>blauwe gordijnen &amp; deken.<anchor n="7" xml:id="note-o-7"/> De Rembrandt <lb n="36" xml:id="l-36"/>“Emmausgangers” waarover ik U schreef<anchor n="8" xml:id="note-o-8"/> is gegra<c type="shy">-</c>
+                    <lb n="37" xml:id="l-37"/>veerd,<anchor n="9" xml:id="note-o-9"/> Mess<hi rend="ss">rs</hi> G&amp;C<hi rend="ss">o</hi> zullen de gravure in ’t najaar <lb n="38" xml:id="l-38"/>uitgeven. Komt gij wel eens bij Borchers aan huis, <lb n="39" xml:id="l-39"/>zijne moeder is dunkt mij eene deftige vrouw.<anchor n="10" xml:id="note-o-10"/> <lb n="40" xml:id="l-40"/>Ga maar wat dikwijls uit, als gij kunt, ik be<c type="shy">-</c>
+                    <lb n="41" xml:id="l-41"/>doel natuurlijk bij Carolien v<c type="kp">_</c> Stockum, Carbentus, Haanebeek, <lb n="42" xml:id="l-42"/>Borchers &amp;c<c type="kp">_</c>; niet bij Kraft<anchor n="11" xml:id="note-o-11"/> of Marda hoor!<anchor n="12" xml:id="note-o-12"/> of <lb n="43" xml:id="l-43"/>’t moet zijn omdat ge niet anders kunt, dan <lb n="44" xml:id="l-44"/>kan ’t voor een enkele keer ook al geen kwaad.</ab>
+                <lb n="45" xml:id="l-45"/>
+<ab rend="indent">Hoe is het in de zaak, ik weet er alles van hoe <lb n="46" xml:id="l-46"/>dat soms zijn kan, maar doe toch maar wat <lb n="47" xml:id="l-47"/>uwe hand vindt om te doen.─<anchor n="13" xml:id="note-o-13"/>
+                </ab>
+                <lb n="48" xml:id="l-48"/>
+<ab rend="indent">En heb het zoo goed mogelijk &amp; schrijf weer eens <lb n="49" xml:id="l-49"/>spoedig. Steeds</ab>
+<vg:whiteline/>
+                <lb n="50" xml:id="l-50"/>
+<ab>Uw liefh. broeder</ab>
+                <lb n="51" xml:id="l-51"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+                <lb n="52" xml:id="l-52"/>
+<ab>Hierbij een briefje voor Borchers. Groeten aan <lb n="53" xml:id="l-53"/>allen bij Roos &amp; aan elk die naar mij vraagt<c type="kp">_</c> <lb n="54" xml:id="l-54"/>B.<anchor n="14" xml:id="note-o-14"/> zegt mij dat Weehuizen gestorven is,<anchor n="15" xml:id="note-o-15"/> dat wist <lb n="55" xml:id="l-55"/>ik niet, zijt gij daar bij geweest.</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-1" targetEnd="l-7" n="1-7">
+                        <hi rend="ital">Printed letterhead.</hi>
+                    </note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>[Letterhead: Goupil Paris]</ab>
+<vg:whiteline/>
+<ab>Paris, 2 Sept. 1875</ab>
+<vg:whiteline/>
+<ab>My dear Theo,</ab>
+<ab>This morning I heard from <rs type="pers" key="526">Pa</rs> and from you the news of <rs type="pers" key="324">Uncle Jan</rs>’s death.<anchor n="1" xml:id="note-t-1"/> Such things make us say, ‘O Lord, join us intimately to one another and let our love for Thee make that bond ever stronger’<anchor n="2" xml:id="note-t-2"/> and ‘Fear God, and keep his commandments: for this is the whole duty of man’.<anchor n="3" xml:id="note-t-3"/>
+                </ab>
+<ab rend="indent">In the first crate of paintings going to Holland you’ll find a few lithographs and that engraving after <rs type="pers" key="1295">Rembrandt</rs>.<anchor n="4" xml:id="note-t-4"/> The two lithographs after <rs type="pers" key="881">Bonington</rs> will no doubt be to your liking. At the same time I’m sending a couple of photos for <rs type="pers" key="526">Pa</rs> of pictures by <rs type="pers" key="899">Jules Breton</rs> and <rs type="pers" key="971">Corot</rs>; I’ll write ‘for Helvoirt’ on the back.</ab>
+<ab rend="indent">I’ve never heard of the painter <rs type="pers" key="1284">Pynas</rs> you write about; I’m eager to see the painting in question.<anchor n="5" xml:id="note-t-5"/> Nor do I know that lithograph after <rs type="pers" key="992">Diaz</rs>, ‘A monk’.<anchor n="6" xml:id="note-t-6"/> 
+<pb f="1r" n="2" xml:id="pb-trans-1r-2" facs="#zone-pb-1r-2"/>
+                </ab>
+<ab rend="indent">Last Sunday I was in the Louvre (on Sunday I often go either there or to the Luxembourg); I wish you could see the <rs type="pers" key="1261">Van Ostade</rs>, his own family, himself, his wife and, I believe, 8 children, all in black, the wife and girls with white caps and neckerchiefs in a stately old Dutch room with a large fireplace, oak wainscoting and ceiling and whitewashed walls with paintings in black frames. In the corner of the room a large bed with blue curtains and blanket.<anchor n="7" xml:id="note-t-7"/> <rs type="pers" key="1295">Rembrandt</rs>’s ‘Supper at Emmaus’, of which I wrote,<anchor n="8" xml:id="note-t-8"/> has been engraved,<anchor n="9" xml:id="note-t-9"/> Messrs G&amp;Co. will publish the engraving in the autumn. Do you ever visit <rs type="pers" key="298">Borchers</rs>? It seems to me that his <rs type="pers" key="299">mother</rs> is a distinguished lady.<anchor n="10" xml:id="note-t-10"/> Go out often, if you can, I mean of course to visit <rs type="pers" key="761">Caroline van Stockum</rs>, <rs type="pers" key="41 13">the Carbentuses</rs>, <rs type="pers" key="442 443">Haanebeeks</rs>, Borchers &amp;c.; not to <rs type="pers" key="126">Kraft</rs>’s<anchor n="11" xml:id="note-t-11"/> or <rs type="pers" key="145">Marda</rs>’s,<anchor n="12" xml:id="note-t-12"/> you understand! Or it would have to be because you couldn’t do otherwise, just once or twice can do no harm.</ab>
+<ab rend="indent">How are things at the gallery? I know all about how it can be sometimes, but anyway, do whatever your hand finds to do.<anchor n="13" xml:id="note-t-13"/>
+                </ab>
+<ab rend="indent">And I wish you the very best, and write again soon. Ever,</ab>
+<vg:whiteline/>
+<ab>Your loving brother</ab>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<ab>Herewith a note for <rs type="pers" key="298">Borchers</rs>. Regards to everyone at the <rs type="pers" key="642 643">Rooses</rs>’ and to all who ask after me. B.<anchor n="14" xml:id="note-t-14"/> tells me that <rs type="pers" key="819">Weehuizen</rs> died,<anchor n="15" xml:id="note-t-15"/> I didn’t know, were you there?</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>
+                        <rs type="pers" key="324">Jan Carbentus</rs>, a brother of Mrs van Gogh, had died on 30 August in Haarlem (FR b2357).</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>A prayer written and often recited in the family circle by <rs type="pers" key="526">Mr van Gogh</rs>; <ref target="let113.xml">see letter 113</ref>. Van Gogh quoted this text a number of times: <ref target="let089.xml">see letters 89</ref>, <ref target="let092.xml">92</ref>, <ref target="let098.xml">98</ref>, <ref target="let102.xml">102</ref>, <ref target="let103.xml">103</ref>, <ref target="let104.xml">104</ref>, <ref target="let114.xml">114</ref> and <ref target="let411.xml">411</ref>.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Eccl" chap="12" v="13">Eccl. 12:13</bibleref>.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>
+      <rs type="ill" key="1724">
+                            <hi rend="ital">Reading the Bible</hi>
+                        </rs>, which he promised to send in <ref target="let040.xml">letter 40</ref>.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>Theo had probably seen the panel, acquired in 1874 by the Mauritshuis in The Hague, of <hi rend="ital">Christ on the Cross</hi> (<hi rend="ital">Mary and John at the Cross</hi>) by <rs type="pers" key="1284">Jan Symonsz. Pynas</rs>; it was exhibited in 1875 (now Amsterdam, Rembrandthuis). <rs type="ill" key="1732">Ill. 1732</rs>. See <hi rend="ital">Musée Royal de la Haye (Mauritshuis). Catalogue raisonné des tableaux et des sculptures</hi>. The Hague 1895, pp. 297-298, cat. no. 131 (265) and cat. The Hague 1993, p. 117, inv. no. 131.</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>The lithograph <hi rend="ital">Le moine </hi>(The monk) by <rs type="pers" key="1150">Jules Joseph Augustin Laurens</rs> was made after <rs type="pers" key="992">Narcisse Virgile Diaz</rs>’s sketch <rs type="otherart" key="67">
+                            <hi rend="ital">The monk</hi>
+                        </rs>, also called <hi rend="ital">Claude Frollo and Esmeralda</hi> (Montpellier, Musée Fabre). The depiction is based on <rs type="pers" key="666">Victor Hugo</rs>, <hi rend="ital">
+                            <rs type="lit" key="331">Notre-Dame de Paris</rs>
+                        </hi>, book 8, chapter 4 ‘Lasciate ogni speranza’. Laurens’s lithograph is part of the collection ‘Galerie Bruyas’ (no. 11). (Paris, BNF, Cabinet des Estampes). <rs type="ill" key="1733">Ill. 1733</rs>. Cf. Marilyn Ruth Brown, <hi rend="ital">The image of the ‘bohémien’ from Diaz to Manet and Van Gogh</hi>. Diss. Yale University 1978, pp. 280-281.</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab> <rs type="pers" key="1261">Adriaen van Ostade</rs>, <hi rend="ital">Family portrait</hi>, formerly known as <hi rend="ital">The painter’s family</hi>, 1654 (Paris, Musée du Louvre). <rs type="ill" key="1734">Ill. 1734</rs>.</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+  <ab>Regarding <rs type="ill" key="1710">
+                            <hi rend="ital">The pilgrims at Emmaus</hi>
+                        </rs> by Rembrandt, <ref target="let034.xml">see letter 34</ref>.</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>
+                        <rs type="pers" key="1295">Rembrandt</rs>, <hi rend="ital">Les pélerins d’Emmaüs</hi> (The pilgrims at Emmaus), engraving from 1875 by <rs type="pers" key="1507">Amadée</rs> and <rs type="pers" key="1508">Eugène Varin</rs> (Bordeaux, Musée Goupil). <rs type="ill" key="1735">Ill. 1735</rs>. Below the engraving appears the text in French of <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Luke" chap="24" vr="30-31">Luke 24:30-31</bibleref>.</ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>
+                        <rs type="pers" key="298">Egbert Rubertus Borchers</rs> had registered as a resident of The Hague on 8 June 1872, declaring himself to be a civil servant and giving his former city of residence as Amsterdam. In The Hague he first lived at Beestenmarkt 32, later, among other places, at Van Limburg Stirumstraat 81, Trompstraat 120 and Jacob van der Doesstraat 57 (later no. 62); the dates of these moves are not recorded. Borcher’s mother, <rs type="pers" key="299">Haika Borchers-Middel</rs>, and his sister, <rs type="pers" key="300">Boukje</rs>, were registered as living with him at Jacob van der Doesstraat 57 (<hi rend="ital">GAH</hi>).</ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>Van Gogh was probably referring to the establishment of the publican <rs type="pers" key="126">Johannes Willem Frederik Kraft</rs> at (Kleine) Bagijnestraat 3 (<hi rend="ital">GAH</hi>, <hi rend="ital">Adresboeken 1881-1882</hi>). In the nineteenth century, Bagijnestraat had a somewhat suspect reputation, being referred to in popular parlance as ‘Bagijnejacht’ or the ‘Jacht’ (the hunt), which might explain Vincent’s word of caution. In the nineteenth century, a visit to a prostitute was considered therapeutic in cases of melancholy; see Mathijsen 2002, p. 62 and cf. Nop Maas, <hi rend="ital">Seks!... in de negentiende eeuw</hi>. Nijmegen 2006, p. 89.</ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+<ab>
+                        <rs type="pers" key="145">Jeanette Geertruida Marda</rs> ran a tobacconist’s shop at Kneuterdijk 3 (<hi rend="ital">GAH</hi>, <hi rend="ital">Adresboeken 1871-1874</hi>).</ab>
+                </note>
+<note n="13" xml:id="n-13" target="#note-t-13">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Eccl" chap="9" v="10">Eccl. 9:10</bibleref>.</ab>
+                </note>
+<note n="14" xml:id="n-14" target="#note-t-14">
+<ab>
+                        <rs type="pers" key="298">Borchers</rs>.</ab>
+                </note>
+<note n="15" xml:id="n-15" target="#note-t-15">
+<ab>The public servant <rs type="pers" key="819">Johannes Wilhelmus Weehuizen</rs>, with whom Theo had previously been in contact, had died on 4 March 1875 in The Hague.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

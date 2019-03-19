@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Arles, Saturday, 10 March 1888.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let584"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">584</idno>
+<idno type="collectedletters">468</idno>
+<idno type="brieven1990">586</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Arles</vg:placeLet>
+                        <vg:dateLet>Saturday, 10 March 1888</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. Arles, Saturday, 10 March 1888.</p>
+<note type="ongoingTopic" n="1">
+<p>Efforts to interest Tersteeg in modern art <ref target="let580.xml">(580)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="2">
+<p>Entry for the 1888 Indépendants exhibition <ref target="let582.xml">(582)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b508 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Van Gogh confirms the receipt of 100 francs; this must have been the second instalment for March, since he refers to the death of Kaiser Wilhelm <ref target="#l-12">(ll. 12-13)</ref> on 9 March and the ensuing unrest. Since Jo van Gogh-Bonger gave the date as 10 March in <hi rend="ital">Brieven</hi> 1914 and she may have had a postmark to go on, we have dated the letter Saturday, 10 March 1888.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0508" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000684_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000684_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000684_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000684_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000684_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000684_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="VGM001000684_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000684_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000684_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0508" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000684_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000684_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000684_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000684_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000684_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000684_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000684_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000684_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000684_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Mon cher Theo,</ab>
+                <lb n="1*" xml:id="l-1s"/>
+<ab>merci de ta lettre et du billet <lb n="2" xml:id="l-2"/>de 100 fr. y-inclus. J’espère bien qu’ainsi que tu es <lb n="3" xml:id="l-3"/>porté à le croire<c type="kk">/</c> Tersteeg viendra à Paris sous peu. <lb n="4" xml:id="l-4"/>Ce serait à désirer dans ces circonstances dont tu parles<c type="kk">/</c> <lb n="5" xml:id="l-5"/>où ils sont tous aux abois et se trouvent gênés. Je <lb n="6" xml:id="l-6"/>trouve très-intéressant ce que tu écris de la vente Lançon <lb n="7" xml:id="l-7"/>et de la maîtresse du peintre.<anchor n="1" xml:id="note-o-1"/> Il a fait des chôses d’un <lb n="8" xml:id="l-8"/>bien grand caractère, son dessin m’a fait bien souvent <lb n="9" xml:id="l-9"/>penser à celui de Mauve. Je regrette de ne pas avoir vu <lb n="10" xml:id="l-10"/>l’exposition de ses études<c type="kk">/</c> ainsi que je regrette bien <lb n="11" xml:id="l-11"/>aussi de ne pas avoir vu l’exposition Willette.<anchor n="2" xml:id="note-o-2"/>
+                </ab>
+                <lb n="12" xml:id="l-12"/>
+<ab rend="indent">Que dis-tu de la nouvelle que l’empereur Guillaume est <lb n="13" xml:id="l-13"/>mort.<anchor n="3" xml:id="note-o-3"/> Est ce que cela hâtera des événements en France <lb n="14" xml:id="l-14"/>et est-ce que Paris va rester tranquille?<anchor n="4" xml:id="note-o-4"/> on peut en douter. et quels <lb n="15" xml:id="l-15"/>seront les effets de tout cela sur le commerce des <lb n="16" xml:id="l-16"/>tableaux? J’ai lu qu’il parait qu’il soit question <lb n="17" xml:id="l-17"/>d’abolir les droits d’entrée des tableaux en Amérique<c type="kk">/</c> est-ce vrai?<anchor n="5" xml:id="note-o-5"/>
+                </ab>
+                <lb n="18" xml:id="l-18"/>
+<ab rend="indent">Peut-être serait-il plus facile de mettre d’accord <lb n="19" xml:id="l-19"/>quelques marchands et amateurs pour acheter <lb n="20" xml:id="l-20"/>les tableaux impressionistes que de mettre d’accord <lb n="21" xml:id="l-21"/>les artistes pour partager également le prix <lb n="22" xml:id="l-22"/>des tableaux vendus.</ab>
+                <lb n="23" xml:id="l-23"/>
+<ab rend="indent">Néamoins les artistes ne trouveront pas <lb n="24" xml:id="l-24"/>mieux que – de se mettre ensemble<c type="kk">/</c> <lb n="25" xml:id="l-25"/>de donner leurs tableaux à l’association, <lb n="26" xml:id="l-26"/>de partager le prix de vente de telle <lb n="27" xml:id="l-27"/>façon du moins que la société garantisse <lb n="28" xml:id="l-28"/>la possibilité d’existence et de travail de ses membres.</ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="29" xml:id="l-29"/>
+<ab>Si de Gas<c type="kk">/</c> Claude Monet<c type="kk">/</c> Renoir<c type="kk">/</c> Sislay<c type="kk">/</c> <lb n="30" xml:id="l-30"/>C. Pissarro prenaient l’initiative <lb n="31" xml:id="l-31"/>disant: voici à nous 5 nous donnons <lb n="32" xml:id="l-32"/>chacun 10 tableaux (ou plustôt nous <lb n="33" xml:id="l-33"/>donnons chacun pour une valeur de 10.000 fr.<c type="kk">/</c> <lb n="34" xml:id="l-34"/>valeur estimée par les membres experts<c type="kk">/</c> <lb n="35" xml:id="l-35"/>par exemple Tersteeg et toi<c type="kk">/</c> que la societé <lb n="36" xml:id="l-36"/>s’adjoint, lesquels experts également versent <lb n="37" xml:id="l-37"/>un capital en tableaux)<c type="kk">/</c> puis nous <lb n="38" xml:id="l-38"/>nous engageons en outre de donner <lb n="39" xml:id="l-39"/>par an pour une valeur de.. </ab>
+                <lb n="40" xml:id="l-40"/>
+<ab rend="indent">Et nous vous invitons vous autres<c type="kk">/</c> <lb n="41" xml:id="l-41"/>Guillaumin<c type="kk">/</c> Seurat<c type="kk">/</c> Gauguin &amp;c<c type="kp">_</c> &amp;c<c type="kp">_</c> <lb n="42" xml:id="l-42"/>à vous joindre à nous <lb n="42a" xml:id="l-42a"/>(vos tableaux passant au <lb n="42b" xml:id="l-42b"/>point de vue valeur par la <lb n="42c" xml:id="l-42c"/>même expertise)<c type="kp">_</c> </ab>
+                <lb n="43" xml:id="l-43"/>
+<ab rend="indent">Alors les grands impressionistes du g<hi rend="ss">d</hi> B<hi rend="ss">d</hi>
+                    <c type="kk">/</c>
+                    <anchor n="6" xml:id="note-o-6"/>
+                    <lb n="44" xml:id="l-44"/> donnant des tableaux devenant propriété <lb n="45" xml:id="l-45"/>générale<c type="kk">/</c> garderaient leur prestige et les <lb n="46" xml:id="l-46"/>autres ne pourraient plus leur reprocher de <lb n="47" xml:id="l-47"/>garder pour eux les avantages d’une reputation <lb n="48" xml:id="l-48"/>acquise sans aucun doute par leurs efforts <lb n="49" xml:id="l-49"/>personnels et par leur génie individuel <lb n="50" xml:id="l-50"/>en premier lieu – mais – cependant<c type="kk">/</c> en deuxieme <lb n="51" xml:id="l-51"/>lieu<c type="kk">/</c> réputation grandissante<c type="kk">/</c> solidifiée et maintenue actuellement aussi par <lb n="52" xml:id="l-52"/>les tableaux de tout un bataillon d’artistes qui <lb n="53" xml:id="l-53"/>jusqu’à présent travaillent dans une dèche continuelle.–</ab>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                <lb n="54" xml:id="l-54"/>
+<ab>Quoi qu’il en soit – il est bien à espérer que la <lb n="55" xml:id="l-55"/>chôse se fasse, et que Tersteeg et toi deviennent <lb n="56" xml:id="l-56"/>les membres experts de la société (avec Portier <lb n="57" xml:id="l-57"/>peut-être?)<c type="kp">_</c>
+                </ab>
+                <lb n="58" xml:id="l-58"/>
+<ab rend="indent">J’ai encore deux études de paysages<c type="kk">/</c>
+                    <anchor n="7" xml:id="note-o-7"/> j’espère que <lb n="59" xml:id="l-59"/>le travail va marcher ferme et que dans un <lb n="60" xml:id="l-60"/>mois je te ferai parvenir un premier envoi – je dis <lb n="61" xml:id="l-61"/>dans un mois parceque je ne veux t’envoyer que le <lb n="62" xml:id="l-62"/>meilleur et parceque je veux que cela soit sec et <lb n="63" xml:id="l-63"/>parceque je veux en envoyer une douzaine au <lb n="64" xml:id="l-64"/>moins à la fois à cause des frais de transport<c type="kp">_</c>
+                </ab>
+                <lb n="65" xml:id="l-65"/>
+<ab rend="indent">Je te félicite de l’achat du Seurat<anchor n="8" xml:id="note-o-8"/> – avec ce <lb n="66" xml:id="l-66"/>que je t’enverrai il faudra chercher à faire encore <lb n="67" xml:id="l-67"/>un échange avec Seurat aussi<c type="kp">_</c>
+                    <anchor n="9" xml:id="note-o-9"/>
+                </ab>
+                <lb n="68" xml:id="l-68"/>
+<ab rend="indent">Tu sens bien que si Tersteeg se met avec toi <lb n="69" xml:id="l-69"/>pour cette affaire, à vous deux vous pourrez <lb n="70" xml:id="l-70"/>bien persuader Boussod Valladon d’accorder <lb n="71" xml:id="l-71"/>sérieusement un crédit pour les achats <lb n="72" xml:id="l-72"/>nécessaires. Mais c’est pressé puisque <lb n="73" xml:id="l-73"/>sans cela d’autres marchands vous <lb n="74" xml:id="l-74"/>couperaient l’herbe sous les pieds<c type="kp">_</c>
+                </ab>
+                <lb n="75" xml:id="l-75"/>
+<ab rend="indent">J’ai fait la connaissance d’un artiste danois<anchor n="10" xml:id="note-o-10"/> <lb n="76" xml:id="l-76"/>qui parle d’Heyerdahl et d’autres gens du nord<c type="kk">/</c> <lb n="77" xml:id="l-77"/>de Kroyer &amp;c. Ce qu’il fait est sec mais très-<c type="shy">-</c>
+                    <lb n="78" xml:id="l-78"/>consciencieux et il est encore jeune. A vu <lb n="79" xml:id="l-79"/>dans le temps l’exposition des impressionistes Rue <lb n="80" xml:id="l-80"/>Lafitte.<anchor n="11" xml:id="note-o-11"/> Il va probablement venir à Paris pour <lb n="81" xml:id="l-81"/>le Salon et désire faire un tour en Hollande pour <lb n="82" xml:id="l-82"/>voir les musées<c type="kp">_</c>
+                    <anchor n="12" xml:id="note-o-12"/>
+                </ab>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                <lb n="83" xml:id="l-83"/>
+<ab rend="indent">Je trouve très-bien que tu mettes les livres <lb n="84" xml:id="l-84"/>aussi aux Indépendants. faudra donner comme <lb n="85" xml:id="l-85"/>titre de cette étude: “<hi rend="ital">Romans parisiens</hi>”.<anchor n="13" xml:id="note-o-13"/>
+                </ab>
+                <lb n="86" xml:id="l-86"/>
+<ab rend="indent">Je serais si heureux de savoir que tu aies réussi <lb n="87" xml:id="l-87"/>de persuader Tersteeg – enfin patience<c type="kp">_</c>–</ab>
+                <lb n="88" xml:id="l-88"/>
+<ab rend="indent">J’ai été obligé de prendre pour 50 fr. de marchandises <lb n="89" xml:id="l-89"/>lorsque ta lettre est arrivée. Cette semaine <lb n="90" xml:id="l-90"/>je mettrai 4 ou 5 chôses en train.</ab>
+                <lb n="91" xml:id="l-91"/>
+<ab rend="indent">Je pense journellement à cette association <lb n="92" xml:id="l-92"/>d’artistes et le plan s’est encore développé dans <lb n="93" xml:id="l-93"/>mon esprit, mais il faudrait que Tersteeg <lb n="94" xml:id="l-94"/>en soit et beaucoup dépend de cela<c type="kp">_</c>
+                </ab>
+                <lb n="95" xml:id="l-95"/>
+<ab rend="indent">Actuellement les artistes se laisseraient <lb n="96" xml:id="l-96"/>probablement persuader par nous mais <lb n="97" xml:id="l-97"/>nous ne pouvons pas aller plus avant avant d’avoir <lb n="98" xml:id="l-98"/>le secours de Tersteeg. Sans cela on serait <lb n="99" xml:id="l-99"/>seul à entendre du matin jusqu’au soir <lb n="100" xml:id="l-100"/>les lamentations de tous<c type="kk">/</c> et chacun en <lb n="101" xml:id="l-101"/>particulier viendrait incessamment demander <lb n="102" xml:id="l-102"/>des explications – d’axiomes – &amp;c. Serais peu étonné <lb n="103" xml:id="l-103"/>que Tersteeg serait d’opinion que l’on ne <lb n="104" xml:id="l-104"/>puisse se passer des artistes du grand B<hi rend="ss">d</hi> – <lb n="105" xml:id="l-105"/>et qu’il t’avise de les persuader à prendre <lb n="106" xml:id="l-106"/>l’initiative d’une association en donnant <lb n="107" xml:id="l-107"/>des tableaux devenant propriété générale<c type="kk">/</c> <lb n="108" xml:id="l-108"/>cessant de leur appartenir en propre<c type="kp">_</c>– A une <lb n="109" xml:id="l-109"/>proposition de leur part<c type="kk">/</c> le petit boulevard selon <lb n="110" xml:id="l-110"/>moi serait moralement obligé d’adhérer<c type="kp">_</c>– <lb n="111" xml:id="l-111"/>Et ces messieurs du g<hi rend="ss">d</hi> Boul<hi rend="ss">d</hi> ne garderont leur <lb n="112" xml:id="l-112"/>prestige actuel qu’en allant au devant <lb n="113" xml:id="l-113"/>des critiques un peu fondées des petits impressionistes qui diront: <lb n="114" xml:id="l-114"/>“vous mettez tout dans votre poche”<c type="kp">_</c> <lb n="115" xml:id="l-115"/>Ils peuvent très bien y réprondre: mais non <lb n="116" xml:id="l-116"/>nous sommes au contraire les premiers à dire: <lb n="117" xml:id="l-117"/>
+                    <hi rend="sc">nos</hi> tableaux appartiennent <hi rend="sc">aux artistes</hi>
+                    <c type="kp">_</c>
+                </ab>
+                <lb n="118" xml:id="l-118"/>
+<ab rend="indent">Si de Gas<c type="kk">/</c> Monet<c type="kk">/</c> Renoir<c type="kk">/</c> Pissaro disent cela <lb n="119" xml:id="l-119"/>– laissant même beaucoup de marge pour leurs <lb n="120" xml:id="l-120"/>individuelles conceptions quant à mettre cela <lb n="121" xml:id="l-121"/>en pratique – ils pourraient – dire pis<c type="kk">/</c> à moins <lb n="122" xml:id="l-122"/>de – ne rien dire et de laisser aller les choses.</ab>
+<vg:whiteline/>
+                <lb n="123" xml:id="l-123"/>
+<ab>t. à t<c type="kp">_</c> </ab>
+                <lb n="124" xml:id="l-124"/>
+                <ab>Vincent</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-95" n="95">se &lt; – se</note>
+<note target="l-107" n="107">propriété &lt; popriété</note>
+<note target="l-114" n="114">“vous &lt; vous</note>
+<note target="l-116" n="116">dire: &lt; dire</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo,</ab>
+<ab>Thanks for your letter and the 100-franc note enclosed with it. I very much hope that <rs type="pers" key="787">Tersteeg</rs> will come to Paris soon, as you’re inclined to believe. That would be very desirable in the circumstances you describe, in which they are all at bay and hard up. I find what you write about the <rs type="pers" key="1146">Lançon</rs> sale and the painter’s mistress very interesting.<anchor n="1" xml:id="note-t-1"/> He’s done things of really great character, his drawing has often made me think of <rs type="pers" key="323">Mauve</rs>’s. I’m sorry not to have seen the exhibition of his studies, just as I’m really sorry not to have seen the <rs type="pers" key="1438">Willette</rs> exhibition either.<anchor n="2" xml:id="note-t-2"/>
+                </ab>
+<ab rend="indent">What do you say to the news that <rs type="pers" key="823">Kaiser Wilhelm</rs> is dead?<anchor n="3" xml:id="note-t-3"/> Will that speed up events in France, and will Paris stay calm?<anchor n="4" xml:id="note-t-4"/> It seems doubtful. And what effect will all this have on the trade in paintings? I’ve read that it seems there’s a possibility of abolishing import duty on paintings in America, is that true?<anchor n="5" xml:id="note-t-5"/> </ab>
+<ab rend="indent">Perhaps it would be easier to get a few dealers and art lovers to agree to buy Impressionist paintings than to get the artists to agree to share equally the price of paintings sold.</ab>
+<ab rend="indent">Nevertheless, artists won’t find a better way than — to join together, give their pictures to the association, and share the sale price in such a way that at least the society will be able to guarantee the possibility of existence and work for its members. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> If <rs type="pers" key="981">Degas</rs>, <rs type="pers" key="1222">Claude Monet</rs>, <rs type="pers" key="1293">Renoir</rs>, <rs type="pers" key="1349">Sisley</rs> and <rs type="pers" key="1268">C. Pissarro</rs> were to take the initiative and say: here we are, each of the 5 of us gives 10 paintings (or rather, we each give to the value of 10,000 francs, the value estimated by expert members, for example, <rs type="pers" key="787">Tersteeg</rs> and yourself, appointed by the society, and these experts also invest capital in the form of paintings), and, furthermore, we commit ourselves to give to the value of... each year.</ab>
+<ab rend="indent">And we also invite you, <rs type="pers" key="1065">Guillaumin</rs>, <rs type="pers" key="1353">Seurat</rs>, <rs type="pers" key="1039">Gauguin</rs> &amp;c. &amp;c. to join us (your pictures being put to the same assessment from the point of view of value).</ab>
+<ab rend="indent">Then the great Impressionists of the Grand Boulevard,<anchor n="6" xml:id="note-t-6"/> giving paintings that become common property, would retain their prestige, and the others wouldn’t be able to criticize them for keeping to themselves the benefits of a reputation gained without any doubt by their own efforts and by their individual genius in the first place — but — nevertheless, in the second place, a reputation that is growing and is now also being consolidated and supported by the paintings of a whole battalion of artists who have so far been working while constantly broke. 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> Whatever happens — it’s really to be hoped that the thing comes off, and that you and <rs type="pers" key="787">Tersteeg</rs> become the society’s expert members (with <rs type="pers" key="601">Portier</rs> perhaps?).</ab>
+<ab rend="indent">I have two more studies of landscapes,<anchor n="7" xml:id="note-t-7"/> I hope the work will continue steadily and that in a month I’ll get a first consignment to you — I say in a month because I want to send you nothing but the best, and because I want it to be dry, and because I want to send at least a dozen or so all at once because of the cost of transport.</ab>
+<ab rend="indent">Congratulations on buying the <rs type="pers" key="1353">Seurat</rs>
+                    <anchor n="8" xml:id="note-t-8"/> — with what I send you you’ll have to try to make an exchange with Seurat as well.<anchor n="9" xml:id="note-t-9"/>
+                </ab>
+<ab rend="indent">You’re well aware that if <rs type="pers" key="787">Tersteeg</rs> joins you in this venture, the two of you will easily be able to persuade <rs type="pers" key="797">Boussod Valadon</rs> to extend substantial credit for the purchases needed. But it’s urgent, because without that other dealers will cut the ground from under your feet.</ab>
+<ab rend="indent">I’ve made the <rs type="pers" key="1233">acquaintance</rs> of a Danish artist<anchor n="10" xml:id="note-t-10"/> who talks about <rs type="pers" key="1084">Heyerdahl</rs> and other people from the north, <rs type="pers" key="1143">Krøyer</rs>, &amp;c. What he does is dry but very conscientious, and he’s still young. Saw the exhibition of the Impressionists in rue Laffitte<anchor n="11" xml:id="note-t-11"/> at the time. He’ll probably come to Paris for the Salon, and wants to tour Holland to see the museums.<anchor n="12" xml:id="note-t-12"/> 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/>
+                </ab>
+<ab rend="indent">I think it’s a very good idea that you put the books in the Independents’ too. This study should be given the title: ‘<hi rend="ital">Parisian novels</hi>’.<anchor n="13" xml:id="note-t-13"/>
+                </ab>
+<ab rend="indent">I’d be so happy to know you’d succeeded in persuading <rs type="pers" key="787">Tersteeg</rs> — well, patience.</ab>
+<ab rend="indent">I was obliged to buy supplies for 50 francs when your letter arrived. This week I’ll start work on 4 or 5 things.</ab>
+<ab rend="indent">I think about this association of artists every day, and the plan has developed further in my mind, but <rs type="pers" key="787">Tersteeg</rs> would have to be involved, and a lot depends on that.</ab>
+<ab rend="indent">Nowadays, the artists would probably allow themselves to be persuaded by us, but we can’t go ahead before we have <rs type="pers" key="787">Tersteeg</rs>’s help. Without that we’d be on our own, listening to everybody moaning from morning till night, and each of them individually would be constantly coming to ask for explanations — axioms — &amp;c. Shouldn’t be surprised if Tersteeg took the view that we can’t do without the Grand Boulevard artists — and if he advised you to persuade them to take the initiative in an association by giving paintings that would become common property and cease to belong to them individually. It seems to me that the Petit Boulevard would be morally obliged to join in response to a proposal from that side. And those Grand Boulevard gentlemen will only retain their current prestige by forestalling the partly justified criticism of the minor Impressionists, who’ll say: ‘you’re putting everything in your pocket’. They can easily reply to that: not at all, on the contrary, we’re the first to say: <hi rend="sc">our</hi> paintings belong <hi rend="sc">to the artists</hi>.</ab>
+<ab rend="indent">If <rs type="pers" key="981">Degas</rs>, <rs type="pers" key="1222">Monet</rs>, <rs type="pers" key="1293">Renoir</rs> and <rs type="pers" key="1268">Pissarro</rs> say that — even leaving plenty of room for their individual ideas about putting it into practice — they could — say worse, unless — they say nothing and let things ride.</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>The <rs type="pers" key="1146">Lançon</rs> sale is the auction of the estate of the artist, who had died in 1885: <hi rend="ital">Tableaux, dessins, aquarelles, sculptures et eaux-fortes. Oeuvres de Auguste Lançon</hi>, Paris (Hôtel Drouot), 5-6 March 1888 (Lugt<hi rend="ital"> </hi>1938-1987, no. 47131). No information about Lançon’s mistress has been found.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>
+                        <rs type="pers" key="1438">Adolphe Willette</rs>, known for his illustrations for the Montmartre magazines, <hi rend="ital">Le Chat Noir</hi> and <hi rend="ital">Le Courrier Français</hi>, had a retrospective of drawings and paintings in Paris in 1888. The exhibition, which was held at Tripp et Cie’s gallery, opened on 20 February. See <hi rend="ital">Adolphe Willette. Catalogue tableaux et dessins</hi>. Paris (34 rue de Provence) 1888, and <hi rend="ital">La Revue Indépendante</hi> (March 1888), no. 17 (vol. 7), p. 481.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>
+                        <rs type="pers" key="823">Wilhelm <hi rend="sc">i</hi>
+                        </rs>, Emperor of Germany and King of Prussia, died on 9 March.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>It was feared that <rs type="pers" key="823">Wilhelm <hi rend="sc">i</hi>
+                        </rs>’s death could be the spark that detonated a political time bomb which had been ticking for years: since France’s defeat at German hands in the war of 1870-1871, there had been a cold war between the two countries that threatened to escalate at any time. When the Kaiser died his son was already so seriously ill that he was only given a few months to live. In his turn he would be succeeded by his son Wilhelm <hi rend="sc">ii</hi>. There was considerable fear that he would initiate a war. The Kaiser’s death also increased the risk of a Russian attack on Germany because of a conflict over the Balkans. People were convinced that France would support the Russians were it to come to a confrontation.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>It has not been possible to trace Van Gogh’s source of this news. In 1883 the USA had raised import duties on works of art from 10 to 30 percent, which had an adverse impact on French artists. Evidently there was a discussion about reduction or abolition, but it was not until 1892 that the rate was lowered to 15 percent. See Fidell-Beaufort 2000, p. 103.</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>Van Gogh described <rs type="pers" key="981">Degas</rs>, <rs type="pers" key="1222">Monet</rs>, <rs type="pers" key="1293">Renoir</rs>, <rs type="pers" key="1349">Sisley</rs> and <rs type="pers" key="1268">Camille Pissarro</rs> as ‘Impressionists of the Grand Boulevard’ because their reputations were already established and their work was exhibited by renowned galleries like Boussod, Valadon &amp; Cie, Durand-Ruel and Georges Petit, which were in or near the chic boulevards around place de l’Opéra. Van Gogh saw opportunities for an association of these artists with the younger generation of artists of the ‘Petit Boulevard’, among whom he counted <rs type="pers" key="1065">Guillaumin</rs>, <rs type="pers" key="1353">Seurat</rs> and <rs type="pers" key="1039">Gauguin</rs>, as well as <rs type="pers" key="831">Bernard</rs>, <rs type="pers" key="328">Anquetin</rs>, <rs type="pers" key="297">Angrand</rs>, <rs type="pers" key="1392">Toulouse-Lautrec</rs>, <rs type="pers" key="1350">Signac</rs>, <rs type="pers" key="1267">Lucien Pissarro</rs> and himself. By ‘Petit Boulevard’ he was referring to the neighbourhood around boulevard de Clichy and boulevard de Rochechouart in Montmartre, where the younger men had their studios and exhibited in cafés. See Richard Thomson, ‘The cultural geography of the Petit Boulevard’, in exhib. cat. Saint Louis 2001, pp. 65-108, esp. 66.</ab>
+<ab rend="indent">It emerges from <ref target="let625.xml">letter 625</ref> that the Van Gogh brothers had already made plans for a society of this kind in the winter before Vincent’s departure – each artist would hand over fifty paintings. Van Gogh set himself the goal of having his share of fifty paintings ready by the following year. He refers to this number again in <ref target="let625.xml">letters 625</ref>, <ref target="let626.xml">626</ref> and <ref target="let631.xml">631</ref>. </ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>These were most probably <hi rend="ital">The Gleize bridge with washerwomen</hi> (<rs type="ill" key="2570">F 396 / JH 1367</rs>) and <hi rend="ital">Avenue of plane trees</hi> (<rs type="ill" key="2569">F 398 / JH 1366</rs>), which are painted on coarse canvas (<ref target="let583.xml">see letter 583</ref>) and are mentioned in <ref target="let585.xml">letter 585</ref>. <hi rend="ital">Pollard willows with setting sun </hi>(<rs type="ill" key="2727">F 572 / JH 1597</rs>) is also a possibility. Cf. for the new dating of March 1888 for this last work: cat. Otterlo 2003, pp. 202-205.</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>At the Pillet sale in Paris (Hôtel Drouot, 2 and 3 March 1888; Lugt 1938-1987, no. 47127) Theo had bought a drawing by <rs type="pers" key="1353">Georges Seurat</rs>
+                        <hi rend="ital"> </hi>for 16 francs; it was <hi rend="ital">Woman singing in a café-chantant</hi>, 1887 (Amsterdam, Van Gogh Museum). <rs type="ill" key="424">Ill. 424</rs>. See exhib. cat. Amsterdam 1999, p. 179.</ab>
+<ab rend="indent">It emerges from a letter from <rs type="pers" key="1267">Lucien Pissarro</rs> to his father <rs type="pers" key="1268">Camille</rs> of 12 March 1888 that Theo was not at the sale in person, but got <rs type="pers" key="831">Emile Bernard</rs> to buy the drawing for him: ‘he had young Bernard buy the drawing that Seurat had put in the sale, it fetched very little, because you know how stingy he is, he wasn’t there, otherwise I would have gone back to chat to him and find out the price’ (il a fait acheter par le petit Bernard le dessin que Seurat y avait mis, il a été payé tres bon marché, car tu sais comme il est chien, il n’y était pas sans quoi je serai rentré pour bavarder avec lui et en apprende le prix). See <hi rend="ital">Letters of Pissarro</hi> 1993, pp. 105-106.</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>No exchange between Van Gogh and <rs type="pers" key="1353">Seurat</rs> ever took place.</ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>The Danish painter <rs type="pers" key="1233">Christian Vilhelm Mourier-Petersen</rs> was in Arles from about 10 October 1887 to around 22 May 1888, apart from a brief stay in Martigues at the end of March 1888. On 16 March 1888 he wrote about meeting Van Gogh: ‘Initially I considered him to be mad, but by and by I note that there is method in it. He knows the friends of Jastrau: McKnight, Russell etc. – but at the moment I can’t remember his name: Van Prut or something of the kind.’ See Larsson 1993, pp. 14, 26. </ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>Van Gogh must be referring here to the last Impressionist exhibition, which had run from 15 May to 15 June 1886 in a gallery in rue Laffitte. It included work by Degas, Guillaumin, Gauguin, Seurat and Camille Pissarro. See exhib. cat. Paris 1886-2. </ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+<ab>
+                        <rs type="pers" key="1233">Mourier-Petersen</rs> went to Paris around 22 May. The Salon in 1888 ran from 1 May to mid-July. He stayed in Paris for almost three months, and then spent November and December 1888 in the Netherlands. See Larsson 1993, p. 29. </ab>
+                </note>
+<note n="13" xml:id="n-13" target="#note-t-13">
+<ab>
+      <hi rend="ital">Piles of French novels and roses in a glass (‘Romans parisiens’) </hi>(<rs type="ill" key="2556">F 359 / JH 1332</rs>). See for the other two works by Van Gogh at this exhibition: <ref target="let582.xml#n-9">letter 582, n. 9.</ref>
+                    </ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Nuenen, on or about Tuesday, 20 October 1885. </title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let536"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">536</idno>
+<idno type="collectedletters">428</idno>
+<idno type="brieven1990">539</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Nuenen</vg:placeLet>
+                        <vg:dateLet>on or about Tuesday, 20 October 1885</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. Nuenen, on or about Tuesday, 20 October 1885. </p>
+<note type="ongoingTopic" n="1">
+<p>Visit to Amsterdam <ref target="let533.xml">(533)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. nos. b468 a-b V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>The previous letter must have been written on or about Tuesday, 13 October (<ref target="let535.xml">letter 535</ref>). Theo responded as soon as he received the crate of paintings sent that day, and the present letter is Vincent’s immediate reply to that letter (<ref target="#l-1*">l. 1*</ref>). We estimate that the time involved here would have been about a week; this also tallies with Vincent’s thanks for the money Theo had sent, which must have been the extra allowance for October. We have therefore dated the letter on or about Tuesday, 20 October 1885.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0468 a" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000630_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000630_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000630_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000630_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000630_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000630_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="VGM001000630_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000630_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000630_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0468 a" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000630_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000630_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000630_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000630_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000630_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000630_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000630_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000630_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000630_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0468 b" xml:id="surf-pb-2r">
+            <graphic mimeType="image/tiff" url="VGM001000631_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000631_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000631_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-2r-5">
+<graphic mimeType="image/tiff" url="VGM001000631_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000631_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000631_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-2r-8">
+<graphic mimeType="image/tiff" url="VGM001000631_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000631_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000631_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0468 b" xml:id="surf-pb-2v">
+            <graphic mimeType="image/tiff" url="VGM001000631_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000631_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000631_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-2v-6">
+<graphic mimeType="image/tiff" url="VGM001000631_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000631_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000631_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-2v-7">
+<graphic mimeType="image/tiff" url="VGM001000631_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000631_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000631_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Waarde Theo,</ab>
+                <lb n="1*" xml:id="l-1s"/>
+<ab>Uw brief heb ik heden met het <lb n="2" xml:id="l-2"/>ingesl. ontvangen. Uw schrijven deed mij veel pleizier <lb n="3" xml:id="l-3"/>omdat ik er een paar dingen in meen op te <lb n="4" xml:id="l-4"/>merken waar ik ’t nog eens nader over hebben <lb n="5" xml:id="l-5"/>wil.– Om met de deur in ’t huis te vallen: <lb n="6" xml:id="l-6"/>’t geen ge schrijft over zekere studie van een <lb n="7" xml:id="l-7"/>mandje met appels<anchor n="1" xml:id="note-o-1"/> – is goed gezien – maar – <lb n="8" xml:id="l-8"/>hebt ge dat nu uit uw zelf??? Omdat ik me <lb n="9" xml:id="l-9"/>voorstelde<c type="kk">/</c> ja ik zou zeggen <hi rend="ital">zeker weet</hi>
+                    <c type="kk">/</c> dat gij dat soort van dingen vroeger <hi rend="ital">niet</hi> <lb n="10" xml:id="l-10"/>zaagt. Wat hier ook van zij – hier zijn we op <lb n="11" xml:id="l-11"/>den weg om ’t meer eens te worden over de <lb n="12" xml:id="l-12"/>kleuren. Ga nu voort op <hi rend="ital">die</hi> kwesties – want <lb n="12a" xml:id="l-12a"/>daar komt ge verder mee en die wisten Burger &amp; Manz en Silvestre<c type="kp">_</c>
+                </ab>
+                <lb n="13" xml:id="l-13"/>
+<ab rend="indent">Om even te zeggen <hi rend="ital">hoe</hi> die studie is geschilderd – <lb n="14" xml:id="l-14"/>doodeenvoudig dit. groen &amp; rood zijn complemen<c type="shy">-</c>
+                    <lb n="15" xml:id="l-15"/>tair<c type="kp">_</c>– Nu is er een zeker – op zich zelf <lb n="16" xml:id="l-16"/>heel canaille rood in de appels – verder daar<c type="shy">-</c>
+                    <lb n="17" xml:id="l-17"/>naast groenachtige dingen<c type="kp">_</c>– Er zijn nu een <lb n="18" xml:id="l-18"/>of twee appels van een andere kleur bij – <lb n="19" xml:id="l-19"/>die ’t heele ding goed maken – van een <lb n="20" xml:id="l-20"/>zeker rose<c type="kp">_</c>– Dat rose – is de gebroken kleur<c type="kk">/</c> <lb n="21" xml:id="l-21"/>ontstaan door menging van ’t eerstgenoemde rood &amp; ’t eerstgenoemde <lb n="22" xml:id="l-22"/>groenachtig<c type="kp">_</c>– Ziedaar de reden waarom <lb n="23" xml:id="l-23"/>er verband is tusschen de kleuren<c type="kp">_</c>– Hier is een <lb n="24" xml:id="l-24"/>tweede tegenstelling aan toegevoegd – <lb n="25" xml:id="l-25"/>het fond vormt tegenstelling met <lb n="26" xml:id="l-26"/>den voorgrond<c type="kp">_</c>
+                </ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="27" xml:id="l-27"/>
+<ab rend="indent">’t eene is een neutrale kleur<c type="kk">/</c> verkregen door <lb n="28" xml:id="l-28"/>blaauw te breken met oranje<c type="kk">/</c> ’t ander dezelfde <lb n="29" xml:id="l-29"/>neutrale kleur<c type="kk">/</c> alleen gewijzigd door bijvoeging <lb n="30" xml:id="l-30"/>van wat geel<c type="kp">_</c>–</ab>
+                <lb n="31" xml:id="l-31"/>
+<ab rend="indent">Maar – dit doet mij ontzaglijk veel pleizier<c type="kk">/</c> <lb n="32" xml:id="l-32"/>dat ’t zij door direkt ’t zij door indirekt persoonlijk <lb n="33" xml:id="l-33"/>gevoel<c type="kk">/</c> gij een kleurcombinatie opmerkt. <lb n="34" xml:id="l-34"/>Verder – dat een van de studies u voorkwam <lb n="35" xml:id="l-35"/>te zijn een variatie op ’t thema bruin grijs – <lb n="36" xml:id="l-36"/>dat is zeer zeker dan ook ’t geval – alleen <lb n="37" xml:id="l-37"/>– ze zijn ’t alle <hi rend="ital">3</hi>
+                    <c type="kk">/</c> die van de aardappels<c type="kk">/</c> <lb n="38" xml:id="l-38"/>met dit onderscheid dat ’t een is een <lb n="39" xml:id="l-39"/>studie in Terre de Sienne<c type="kk">/</c>
+                    <anchor n="2" xml:id="note-o-2"/> ’t ander <lb n="40" xml:id="l-40"/>in Terre de Sienne brûlée<c type="kk">/</c>
+                    <anchor n="3" xml:id="note-o-3"/> ’t ander <lb n="41" xml:id="l-41"/>in – <hi rend="ital">ocre jaune &amp; ocre</hi> <lb n="42" xml:id="l-42"/>
+                    <hi rend="ital">rouge</hi>
+                    <c type="kp">_</c>–<anchor n="4" xml:id="note-o-4"/>
+                </ab>
+                <lb n="43" xml:id="l-43"/>
+<ab rend="indent">’t laatste – <hi rend="ital">mijns inziens</hi> – dat is <lb n="44" xml:id="l-44"/>de groote – ’t beste – ondanks <lb n="45" xml:id="l-45"/>’t mat zwarte fond<c type="kk">/</c> dat ik opzettelijk <lb n="46" xml:id="l-46"/>daarom mat liet omdat de okers <lb n="47" xml:id="l-47"/>ook <hi rend="ital">on</hi>transparante kleuren van natuur <lb n="48" xml:id="l-48"/>zijn<c type="kp">_</c>– Wat die studie betreft – die grootste <lb n="49" xml:id="l-49"/>van de aardappels – ze is gemaakt door <lb n="50" xml:id="l-50"/>die ontransparante okers te wijzigen<c type="kk">/</c> te breken door een transparant <lb n="51" xml:id="l-51"/>blaauw<c type="kp">_</c>–</ab>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                <lb n="52" xml:id="l-52"/>
+<ab rend="indent">Rood oker met geel oker een oranje vormende<c type="kk">/</c> <lb n="53" xml:id="l-53"/>is hun combinatie met blaauw neutraler <lb n="54" xml:id="l-54"/>en worden ze tegen die geneutralizeerde kleur in <lb n="55" xml:id="l-55"/>’t zij rooder ’t zij geeler<c type="kp">_</c>– Het hoogste licht <lb n="56" xml:id="l-56"/>in dat heele doek is doodeenvoudig wat geel <lb n="57" xml:id="l-57"/>oker zuiver<c type="kp">_</c>– En dat dit matte geel toch <lb n="58" xml:id="l-58"/>nog spreekt komt omdat het <lb n="59" xml:id="l-59"/>zich in een uitgestrekt veld van <lb n="60" xml:id="l-60"/>een soort<c type="kk">/</c> al zij ’t neutraal<c type="kk">/</c> violet bevindt<c type="kk">/</c> immers – rood oker <lb n="61" xml:id="l-61"/>met een blaauw geeft violette toonen<c type="kp">_</c>–</ab>
+                <lb n="62" xml:id="l-62"/>
+<ab rend="indent">Nu – de nesten zijn ook op een <lb n="63" xml:id="l-63"/>zwart fond geschilderd opzettelijk<anchor n="5" xml:id="note-o-5"/> – <lb n="64" xml:id="l-64"/>om de reden dat ik er ronduit voor uit <lb n="65" xml:id="l-65"/>wil komen in die studies dat de voorwerpen zich niet in <lb n="66" xml:id="l-66"/>hun natuurlijke entourage doch op een <lb n="67" xml:id="l-67"/>conventioneel fond bevinden. Een – <lb n="68" xml:id="l-68"/>
+                    <hi rend="ital">levend</hi> nest in de natuur is – heel iets <lb n="69" xml:id="l-69"/>anders<c type="kk">/</c> men ziet ’t nest zelf haast niet<c type="kk">/</c> men <lb n="70" xml:id="l-70"/>ziet de vogels<c type="kp">_</c>–</ab>
+                <lb n="71" xml:id="l-71"/>
+<ab rend="indent">Gegeven dat men nesten <hi rend="ital">uit zijn</hi> <lb n="72" xml:id="l-72"/>
+                    <hi rend="ital">nesten verzameling</hi> wil schilderen<c type="kk">/</c> <lb n="73" xml:id="l-73"/>zoo kan men er niet sterk genoeg bij <lb n="74" xml:id="l-74"/>zeggen dat ’t fond en entourage in de natuur heel <lb n="75" xml:id="l-75"/>anders is – ik maakte ’t fond – bot<c type="shy">-</c>
+                    <lb n="76" xml:id="l-76"/>weg zwart.</ab>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                <lb n="77" xml:id="l-77"/>
+<ab rend="indent">Dat in een stilleven anders een fond <lb n="78" xml:id="l-78"/>van kleur mooi is – zeker<c type="kp">_</c>– In Amsterdam <lb n="79" xml:id="l-79"/>zag ik stillevens van jufvr. Vos die ik <lb n="80" xml:id="l-80"/>
+                    <hi rend="ital">uitmuntend</hi> vond – <hi rend="ital">heel wat</hi> mooier dan <lb n="81" xml:id="l-81"/>Blaise Desgoffe – werkelijk van <lb n="82" xml:id="l-82"/>Beijerenachtig<c type="kp">_</c>–<anchor n="6" xml:id="note-o-6"/> Ik dacht er nog bij dat <lb n="83" xml:id="l-83"/>die eenvoudige stillevens van haar heel wat <lb n="84" xml:id="l-84"/>meer kunstwaarde hadden dan menig pretentieus <lb n="85" xml:id="l-85"/>doek van andere amsterdammers<c type="kp">_</c>–</ab>
+                <lb n="86" xml:id="l-86"/>
+<ab rend="indent">Ze troffen me als zeer goed<c type="kp">_</c>– Vooral <lb n="87" xml:id="l-87"/>een met een gouden vaas<c type="kk">/</c> eenige leege oesterschelpen<c type="kk">/</c> <lb n="88" xml:id="l-88"/>een gebroken bast van een kokosnoot en een korst brood<c type="kp">_</c>
+                </ab>
+                <lb n="89" xml:id="l-89"/>
+<ab rend="indent">’t boek van Blanc<anchor n="7" xml:id="note-o-7"/> zal ik U sturen – recommandeer <lb n="90" xml:id="l-90"/>me zoodra mogelijk l’art au XVIII<hi rend="ss">me</hi> siecle te <lb n="91" xml:id="l-91"/>lezen – ik verlang vooral van Chardin iets te <lb n="92" xml:id="l-92"/>hooren door de Goncourt.<anchor n="8" xml:id="note-o-8"/> De Rembrandt <lb n="93" xml:id="l-93"/>van Lacaze is werkelijk ook in dat sentiment <lb n="94" xml:id="l-94"/>van Rembrandts laatsten tijd<c type="kp">_</c>–<anchor n="9" xml:id="note-o-9"/> Zeker is ’t 12 jaar geleden <lb n="95" xml:id="l-95"/>ik ’t zag maar ik herinner ’t me nog omdat het <lb n="96" xml:id="l-96"/>mij trof<c type="kk">/</c> net als die kop van Fabritius in Rotterdam<c type="kp">_</c>
+                    <anchor n="10" xml:id="note-o-10"/> <lb n="97" xml:id="l-97"/>Als ik me wel herinner is die naakte vrouw in <lb n="98" xml:id="l-98"/>Coll. Lacaze ook zeer mooi<c type="kk">/</c> ook uit de latere <lb n="99" xml:id="l-99"/>periode.<anchor n="11" xml:id="note-o-11"/> Het brok Rembr. ontleedk. les<c type="kk">/</c> ja ik <lb n="100" xml:id="l-100"/>stond er ook van versteld<c type="kp">_</c>– Herinnert ge U die vleesch <lb n="101" xml:id="l-101"/>kleuren<c type="kp">_</c>– ’t is – DE LA TERRE<c type="kk">/</c> die voeten <lb n="102" xml:id="l-102"/>vooral.<anchor n="12" xml:id="note-o-12"/>
+                </ab>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+                <lb n="105" xml:id="l-105"/>
+<ab rend="indent">Hoor eens – de vleesch kleuren van Frans Hals <lb n="106" xml:id="l-106"/>zijn ook aarde achtig<c type="kk">/</c> hier in de beteekenis die <lb n="107" xml:id="l-107"/>ge weet<c type="kp">_</c>– Dikwijls ten minste<c type="kp">_</c>– Er is ook soms <lb n="108" xml:id="l-108"/>– k’zou durven zeggen steeds – een verband van tegenstelling tusschen <lb n="109" xml:id="l-109"/>den toon van ’t costuum en den toon van ’t gelaat<c type="kp">_</c>–</ab>
+                <lb n="110" xml:id="l-110"/>
+<ab rend="indent">Rood &amp; groen zijn tegengesteld – de zanger (Dupper)<anchor n="13" xml:id="note-o-13"/> die <lb n="111" xml:id="l-111"/>toonen van carmijn in de vleesch kleur heeft<c type="kk">/</c> heeft <lb n="112" xml:id="l-112"/>toonen van groen in zijn zwarte mouwen<c type="kk">/</c> <hi rend="ital">en</hi> van <hi rend="ital">een</hi> <lb n="113" xml:id="l-113"/>
+                    <hi rend="sc">ander</hi> <hi rend="ital">rood</hi> dan dat carmijn<c type="kk">/</c> strikken op <lb n="114" xml:id="l-114"/>die mouwen<c type="kp">_</c>– De oranje blanje bleu vent <lb n="115" xml:id="l-115"/>waar ik over schreef<c type="kk">/</c> heeft een <hi rend="ital">betrekkelijk</hi> neutrale <lb n="116" xml:id="l-116"/>gelaatskleur<c type="kk">/</c> aarde achtig<c type="kk">/</c> rose<c type="kk">/</c> violet achtig door tegenstelling <lb n="117" xml:id="l-117"/>met zijn Frans Hals geel leeren pak<c type="kp">_</c>
+                    <anchor n="14" xml:id="note-o-14"/>
+                </ab>
+                <lb n="118" xml:id="l-118"/>
+<ab rend="indent">De <hi rend="ital">geele</hi> vent – Citron amorti – heeft beslist <lb n="119" xml:id="l-119"/>dof violet in zijn bakkes<c type="kp">_</c>–<anchor n="15" xml:id="note-o-15"/>
+                </ab>
+                <lb n="120" xml:id="l-120"/>
+<ab rend="indent">Nu – hoe donkerder ’t kleed hoe lichter ’t gezicht<c type="kk">/</c> <lb n="121" xml:id="l-121"/>
+                    <hi rend="ital">soms</hi> althans (<hi rend="ital">niet</hi> toevallig) – zijn portret &amp; dat van zijn <lb n="122" xml:id="l-122"/>vrouw in den tuin<c type="kk">/</c>
+                    <anchor n="16" xml:id="note-o-16"/> daar zijn <hi rend="ital">twee</hi> zwart violetten (blaauw violet en ros violet) <lb n="123" xml:id="l-123"/>in en een effen <hi rend="ital">zwart</hi> (geelzwart?) – herzegge – ros violet – en <lb n="124" xml:id="l-124"/>blaauw violet-zwart en – zwart – dus de 3 <lb n="125" xml:id="l-125"/>somberste dingen – welnu – de gezigten zijn – <lb n="126" xml:id="l-126"/>
+                    <hi rend="sc">zeer</hi> blank – <hi rend="ital">buitengewoon</hi> blank zelfs voor Hals.–</ab>
+                <lb n="127" xml:id="l-127"/>
+<ab rend="indent">Enfin – Frans Hals is colorist <hi rend="ital">onder de coloristen</hi>
+                    <c type="kk">/</c> <lb n="128" xml:id="l-128"/>colorist als Veronese<c type="kk">/</c> als Rubens<c type="kk">/</c> als Delacroix<c type="kk">/</c> <lb n="129" xml:id="l-129"/>als Velasquez<c type="kp">_</c>–<anchor n="17" xml:id="note-o-17"/>
+                </ab>
+                <lb n="130" xml:id="l-130"/>
+<ab rend="indent">Millet<c type="kk">/</c> Rembrandt en b.v. Israels – zeer teregt <lb n="131" xml:id="l-131"/>is er wel eens van hen gezegd dat zij eer – harmonisten <lb n="132" xml:id="l-132"/>dan coloristen zijn<c type="kp">_</c>–<anchor n="18" xml:id="note-o-18"/>
+                </ab>
+                <lb n="133" xml:id="l-133"/>
+<ab rend="indent">Maar – zeg nu eens – <hi rend="ital">zwart</hi> en <hi rend="ital">wit</hi>
+                    <c type="kk">/</c> mag <lb n="134" xml:id="l-134"/>men die gebruiken of niet gebruiken? <lb n="135" xml:id="l-135"/>zijn dat verboden vruchten?<anchor n="19" xml:id="note-o-19"/>
+                </ab>
+                <lb n="136" xml:id="l-136"/>
+<ab rend="indent">Ik meen neen<c type="kp">_</c>– Frans Hals heeft wel <lb n="137" xml:id="l-137"/>zeven en twintig zwarten<c type="kp">_</c>
+                </ab>
+                <lb n="138" xml:id="l-138"/>
+<ab rend="indent">Wit – maar ge weet zelf hoe eigenaardige <lb n="139" xml:id="l-139"/>schilderijen juist enkele moderne coloristen <lb n="140" xml:id="l-140"/>opzettelijk van blanc sur blanc <lb n="141" xml:id="l-141"/>maakten<c type="kp">_</c>– Wat beteekent dat woord <lb n="142" xml:id="l-142"/>
+                    <hi rend="ital">men mag niet</hi>?</ab>
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>
+                <lb n="143" xml:id="l-143"/>
+<ab rend="indent">Delacroix – noemde <lb n="144" xml:id="l-144"/>ze <hi rend="ital">rusten</hi>
+                    <c type="kk">/</c> gebruikte ze als zoodanig<c type="kp">_</c>–<anchor n="20" xml:id="note-o-20"/> <lb n="145" xml:id="l-145"/>Ge moet geen parti pris er tegen hebben <lb n="146" xml:id="l-146"/>want als ze maar op hun plaats staan en <lb n="147" xml:id="l-147"/>in verhouding tot de rest<c type="kk">/</c> mag men <hi rend="ital">alle</hi> <lb n="148" xml:id="l-148"/>toonen gebruiken – dat spreekt van zelf<c type="kp">_</c>– <lb n="149" xml:id="l-149"/>Weet ge wel dat ik de dingen van Apol b.v.<c type="kk">/</c> <lb n="150" xml:id="l-150"/>van wit op wit<c type="kk">/</c> dikwijls heel goed vind<c type="kp">_</c>
+                </ab>
+                <lb n="151" xml:id="l-151"/>
+<ab rend="indent">Zijn zonsondergang in ’t Haagsche bosch b.v.<c type="kk">/</c> <lb n="152" xml:id="l-152"/>die in Amsterdam is<c type="kp">_</c>– Waarachtig dat ding <lb n="153" xml:id="l-153"/>is weergaasch mooi<c type="kp">_</c>
+                    <anchor n="21" xml:id="note-o-21"/>
+                </ab>
+                <lb n="154" xml:id="l-154"/>
+<ab rend="indent">Neen – zwart &amp; wit<c type="kk">/</c> ze hebben hun reden <lb n="155" xml:id="l-155"/>en beteekenis<c type="kk">/</c> en wie ze verdonkeremanen<c type="kk">/</c> <lb n="156" xml:id="l-156"/>komen er niet mee <lb n="157" xml:id="l-157"/>uit. beiden te beschouwen als – <hi rend="ital">het</hi> <lb n="158" xml:id="l-158"/>
+                    <hi rend="ital">neutrale</hi> – is ’t meest logisch<c type="kk">/</c> zeker –</ab>
+                <lb n="159" xml:id="l-159"/>
+<ab rend="indent">’t wit de allerhoogste combinatie <lb n="160" xml:id="l-160"/>van ’t lichtst mogelijk rood<c type="kk">/</c> blaauw<c type="kk">/</c> geel – <lb n="161" xml:id="l-161"/>zwart de allerlaagste combinatie van ’t donkerst <lb n="162" xml:id="l-162"/>rood<c type="kk">/</c> blaauw &amp; geel – tegen die stelling heb <lb n="163" xml:id="l-163"/>ik niets te zeggen<c type="kk">/</c> die vind ik volkomen waar<c type="kp">_</c>– <lb n="164" xml:id="l-164"/>Nu – ’t <hi rend="ital">licht</hi> en <hi rend="ital">bruin</hi> – den <hi rend="ital">toon</hi> <lb n="165" xml:id="l-165"/>wat betreft <hi rend="ital">waarde</hi> – staat in een direkt <lb n="166" xml:id="l-166"/>verband tot die 4<hi rend="ss">e</hi> gamma <hi rend="sc">van wit tot</hi> <hi rend="ital">zwart</hi>
+                    <c type="kp">_</c> <lb n="167" xml:id="l-167"/>Immers waar men heeft:</ab>
+<vg:whiteline/>
+                <lb n="168" xml:id="l-168"/>
+<ab rend="html" html="536_01_ol.html">Gamma 1</ab>
+                <lb n="169" xml:id="l-169"/>
+<ab rend="html" html="536_01_ol.html"> ,,  2</ab>
+                <lb n="170" xml:id="l-170"/>
+<ab rend="html" html="536_01_ol.html"> ,,  3</ab>
+                <ab rend="html" html="536_01_ol.html">–––––––––</ab>
+                <lb n="171" xml:id="l-171"/>
+<ab rend="html" html="536_01_ol.html">
+                    <hi rend="ital">Som</hi> een vierde gamma</ab>
+<vg:whiteline/>
+                <lb n="172" xml:id="l-172"/>
+<ab rend="html" html="536_01_ol.html">die der neutrale toonen<c type="kk">/</c>
+                </ab>
+                <lb n="173" xml:id="l-173"/>
+<ab rend="html" html="536_01_ol.html">die van rood + blaauw + geel</ab>
+<vg:whiteline/>
+                <lb n="168"/>
+<ab rend="html" html="536_01_ol.html">van geel            tot   violet</ab>
+                <lb n="169"/>
+<ab rend="html" html="536_01_ol.html">,, rood            ,,    groen</ab>
+                <lb n="170"/>
+<ab rend="html" html="536_01_ol.html">,, blaauw          ,,    oranje</ab> <ab rend="html" html="536_01_ol.html">–––––––––</ab>
+                <lb n="171"/>
+<ab rend="html" html="536_01_ol.html">,,  <hi rend="ital">wit</hi>            ,,   <hi rend="ital">zwart</hi>
+                </ab>
+<vg:whiteline/>
+                <lb n="172"/>
+<ab rend="html" html="536_01_ol.html">rood + blauw + geel.      rood + blaauw + geel.</ab>
+                <lb n="173"/>
+<ab rend="html" html="536_01_ol.html">’t uiterste licht         ’t uiterste zwart</ab>
+<vg:whiteline/>
+<pb f="2v" n="7" xml:id="pb-orig-2v-7" facs="#zone-pb-2v-7"/>
+                <lb n="178" xml:id="l-178"/>
+<ab>Zóó begrijp ik voor mij de zwarten en witten.</ab>
+                <lb n="179" xml:id="l-179"/>
+<ab rend="indent">Als ik rood en groen vermeng tot een roodgroen <lb n="180" xml:id="l-180"/>of groen rood<c type="kk">/</c> </ab>
+      <ab rend="html" html="536_02_ol.html">
+                    <lb n="181" xml:id="l-181"/>door bijvoeging van wit verkrijg ik dan</ab>
+                <lb n="182" xml:id="l-182"/>
+<ab rend="html" html="536_02_ol.html">Rosegroen of groen rose.</ab>
+                <lb n="183" xml:id="l-183"/>
+<ab rend="html" html="536_02_ol.html">En als ge wilt door bijvoeging van zwart</ab>
+                <lb n="184" xml:id="l-184"/>
+<ab rend="html" html="536_02_ol.html">bruin groen of groen bruin<c type="kp">_</c>
+                </ab>
+                <lb n="185" xml:id="l-185"/>
+<ab>Is dit niet duidelijk?</ab>
+                <lb n="186" xml:id="l-186"/>
+<ab rend="indent">Als ik geel vermeng met violet tot een <lb n="187" xml:id="l-187"/>lilas geel of geel lilas<c type="kk">/</c> in andere woorden tot een <lb n="188" xml:id="l-188"/>geneutraliseerd geel of een geneutraliseerd lilas<c type="kk">/</c> <lb n="189" xml:id="l-189"/>door bijvoeging van ’t wit &amp; zwart verkrijg <lb n="190" xml:id="l-190"/>ik grijzen.</ab>
+                <lb n="191" xml:id="l-191"/>
+<ab rend="indent">Enfin<c type="kp">_</c> <hi rend="ital">Grijzen</hi> en <hi rend="ital">bruinen</hi>
+                    <c type="kk">/</c> er is vooral <lb n="192" xml:id="l-192"/>dan sprake van wanneer men kleuren <hi rend="ital">lichter</hi> <lb n="193" xml:id="l-193"/>of <hi rend="ital">donkerder</hi> maakt<c type="kk">/</c> wat hun aard ook zij en <lb n="194" xml:id="l-194"/>hun gehalte aan rood<c type="kk">/</c> geel of blaauw.</ab>
+                <lb n="195" xml:id="l-195"/>
+<ab rend="indent">Van licht en van donker grijzen &amp; bruinen <lb n="196" xml:id="l-196"/>te spreken is juist uitgedrukt m.i.</ab>
+                <lb n="197" xml:id="l-197"/>
+<ab rend="indent">Maar wat is dat mooi wat Silvestre zegt van <lb n="198" xml:id="l-198"/>Delacroix – dat hij op zijn palet een <lb n="199" xml:id="l-199"/>toevalligen toon nam: <hi rend="ital">de nuance innommable</hi>
+                    <c type="kk">/</c> <lb n="200" xml:id="l-200"/>
+                    <hi rend="ital">violacée</hi>
+                    <c type="kk">/</c> dat hij dien toon ergens neerzette <lb n="201" xml:id="l-201"/>
+                    <hi rend="ital">hetzij</hi> voor hoogste licht <hi rend="ital">hetzij voor hoogste</hi> <lb n="202" xml:id="l-202"/>
+                    <hi rend="ital">schaduw</hi>
+                    <c type="kk">/</c> maar van dat <hi rend="ital">slijk</hi> iets maakte <lb n="203" xml:id="l-203"/>dat ’t zij schitterde als licht ’t zij somber <lb n="204" xml:id="l-204"/>zweeg als diepe schaduw<c type="kp">_</c>–<anchor n="22" xml:id="note-o-22"/>
+                </ab>
+                <lb n="205" xml:id="l-205"/>
+<ab rend="indent">Zoo heb ik gehoord van eene proef met een <lb n="206" xml:id="l-206"/>vel neutraal gekleurd papier – dat <lb n="207" xml:id="l-207"/>groenachtig werd op een rood fond<c type="kk">/</c> roodachtig <lb n="208" xml:id="l-208"/>op een groen<c type="kk">/</c> blaauwachtig op oranje<c type="kk">/</c> oranje achtig <lb n="209" xml:id="l-209"/>op blaauw<c type="kk">/</c> geelachtig op violet en violetachtig <lb n="210" xml:id="l-210"/>op geel<c type="kp">_</c>–</ab>
+<pb f="2r" n="8" xml:id="pb-orig-2r-8" facs="#zone-pb-2r-8"/>
+                <lb n="211" xml:id="l-211"/>
+<ab rend="indent">Hoor eens – gesteld men wil zoo’n <hi rend="ital">slijktoon</hi> of <lb n="212" xml:id="l-212"/>
+                    <hi rend="ital">snotkleur</hi> <hi rend="ital">licht</hi> laten doen in ’t schilderij<c type="kk">/</c> <lb n="213" xml:id="l-213"/>wat Delacroix zeide – dat Veronese met een kleur als <lb n="214" xml:id="l-214"/>slijk eene blonde naakte vrouw kon schilderen <lb n="215" xml:id="l-215"/>zoo dat zij blank &amp; blond <hi rend="ital">deed</hi> in ’t schilderij<c type="kp">_</c>–<anchor n="23" xml:id="note-o-23"/> <lb n="216" xml:id="l-216"/>Vrage – hoe is zulks mogelijk tenzij door <lb n="217" xml:id="l-217"/>tegenstelling van groote krachten in blaauw<c type="shy">-</c>
+                    <lb n="218" xml:id="l-218"/>zwarten of violetten of rosbruinen<c type="kp">_</c>–</ab>
+                <lb n="219" xml:id="l-219"/>
+<ab rend="indent">Gij – die kijkt of ge ergens donkere schaduwen <lb n="220" xml:id="l-220"/>ziet en meent dat als de schaduwen donker<c type="kk">/</c> <lb n="221" xml:id="l-221"/>ja zwart zijn<c type="kk">/</c> dan ’t niet deugt<c type="kk">/</c> doet gij wel? <lb n="222" xml:id="l-222"/>Ik meen neen<c type="kp">_</c>– Want – dan deugt <lb n="223" xml:id="l-223"/>b.v. de Dante van Delacroix<c type="kk">/</c>
+                    <anchor n="24" xml:id="note-o-24"/> b.v. de Visscher <lb n="224" xml:id="l-224"/>van Zandvoort<anchor n="25" xml:id="note-o-25"/> niet<c type="kk">/</c> want daar zitten <lb n="225" xml:id="l-225"/>de grootste krachten van blaauw- of <lb n="226" xml:id="l-226"/>violet zwarten wel degelijk in<c type="kp">_</c>
+                </ab>
+                <lb n="227" xml:id="l-227"/>
+<ab rend="indent">Rembrandt en Hals<c type="kk">/</c> gebruikten ze geen <lb n="228" xml:id="l-228"/>zwart? en Velasquez??? Niet <lb n="229" xml:id="l-229"/>alleen één maar zeven en twintig zwarten<c type="kk">/</c> <lb n="230" xml:id="l-230"/>verzeker ik U.–<anchor n="26" xml:id="note-o-26"/> Dus dat – <lb n="231" xml:id="l-231"/>“geen zwart mogen gebruiken”<c type="kk">/</c> kom, <lb n="232" xml:id="l-232"/>weet ge zelf goed wat ge er mee bedoelt? <lb n="233" xml:id="l-233"/>en weet ge wat ge er mee wilt?– Werkelijk <lb n="234" xml:id="l-234"/>denk er eens over want gij kondt wel eens tot <lb n="235" xml:id="l-235"/>de conclusie komen – dat acht ik ten allerzeerste <lb n="236" xml:id="l-236"/>waarschijnlijk<c type="kk">/</c> dat ge de kwestie – <hi rend="ital">toonen</hi> – verkeerd hebt <lb n="237" xml:id="l-237"/>geleerd &amp; begrepen<c type="kk">/</c> of liever <hi rend="ital">vaag</hi> hebt geleerd en <hi rend="ital">vaag</hi> <lb n="238" xml:id="l-238"/>begrepen. Zoo zijn er zoo veel<c type="kk">/</c> zoo zijn de meesten<c type="kp">_</c>– <lb n="239" xml:id="l-239"/>Maar door Delacroix en anderen van dien tijd zult ge <lb n="240" xml:id="l-240"/>er op den duur wel achter komen.– Zeg eens – hebt <lb n="241" xml:id="l-241"/>ge er op gedacht dat die studies van mij welke <lb n="242" xml:id="l-242"/>zwarte fonds hebben IN HUN LICHTEN <hi rend="ital">zeer laag</hi> <lb n="243" xml:id="l-243"/>gezet zijn??? En waar ik dus mijn studie <lb n="244" xml:id="l-244"/>
+                    <hi rend="ital">lager stel</hi> dan de natuur<c type="kk">/</c> aangezien ik niet <lb n="245" xml:id="l-245"/>alleen in mijn schaduwen maar naar rato <lb n="246" xml:id="l-246"/>OOK IN MIJN LICHTEN donkerder word<c type="kk">/</c> ik <lb n="247" xml:id="l-247"/>toch het verband der toonen houd? Mijn studies <lb n="248" xml:id="l-248"/>zijn juist door me gemaakt als gymnastiek om <lb n="249" xml:id="l-249"/>te dalen en te rijzen van toon – dus – vergeet dat <lb n="250" xml:id="l-250"/>niet<c type="kk">/</c> dat ik mijn wit en grijs mos letterlijk <lb n="251" xml:id="l-251"/>met een modderkleur schilderde en dat ’t toch licht doet <lb n="252" xml:id="l-252"/>in de studie.<anchor n="27" xml:id="note-o-27"/> adieu<c type="kk">/</c> gegroet<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="252*" xml:id="l-252s"/>
+<ab>b<c type="kp">_</c> à t<c type="kp">_</c>
+                </ab>
+                <lb n="252**" xml:id="l-252ss"/>
+<ab>Vincent.</ab>
+<vg:whiteline/>
+                <lb n="174" xml:id="l-174"/>
+<ab>Deze dingen die op complementaire kleuren<c type="kk">/</c> op contraste simultané<anchor n="28" xml:id="note-o-28"/> en op het elkaar <lb n="175" xml:id="l-175"/>vernietigen van complementairen betrekking hebben<c type="kk">/</c> die kwestie is de eerste en voornaamste<c type="kp">_</c> <lb n="176" xml:id="l-176"/>de <hi rend="ital">andere</hi> is – het werken op elkaar van twee <hi rend="ital">gelijksoortigen</hi>
+                    <c type="kk">/</c> b.v. een carmijn op een vermilloen<c type="kk">/</c> <lb n="177" xml:id="l-177"/>een rose lilas ,,  ,, blaauw lilas.</ab>
+                <lb n="253" xml:id="l-253"/>
+<ab rend="indent">De derde kwestie is een licht blaauw tegen ’t zelfde donker blaauw<c type="kk">/</c> een rose tegen een bruinrood<c type="kk">/</c> <lb n="254" xml:id="l-254"/>een jaune citron tegen jaune chamois &amp;c. Maar de eerste kwestie is de <lb n="255" xml:id="l-255"/>belangrijkste.</ab>
+<vg:whiteline/>
+                <lb n="103" xml:id="l-103"/>
+<ab>En als ge een of ander boek vind over kleurkwesties dat goed is<c type="kk">/</c> stuur <lb n="104" xml:id="l-104"/>het mij dan vooral want ik weet ook nog lang niet alles er over en zoek dagelijks er op door<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-48" n="48">– die &lt; die</note>
+<note target="l-118" n="118">– Citron &lt; Citron</note>
+<note target="l-121" n="121">(<hi rend="ital">niet</hi> toevallig) &lt; <hi rend="ital">Added later; parentheses added by us.</hi>
+                    </note>
+<note target="l-153" n="153">weergaasch &lt; weergasch</note>
+<note target="l-181" n="181">door &lt; Door</note>
+<note target="l-225" n="225">de &lt; te</note>
+<note target="l-225" n="225">blaauw- &lt; blaauw</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo,</ab>
+<ab>I received your letter with the enclosed today. Your letter gave me a great deal of pleasure because I think I discern in it a few things that I’d like to go into in more detail. Coming straight to the point: what you write about a certain study of a basket of apples<anchor n="1" xml:id="note-t-1"/> — is well observed — but — did you come up with that on your own??? Because I fancy, indeed I’d say <hi rend="ital">know for sure</hi>, that you used <hi rend="ital">not</hi> to see that sort of thing. Be this as it may — here we are on the way to agreeing more about colours. Now pursue <hi rend="ital">those</hi> questions — because that will get you further, and <rs type="pers" key="554">Bürger</rs> and <rs type="pers" key="700">Mantz</rs> and <rs type="pers" key="742">Silvestre</rs> knew that.</ab>
+      <ab rend="indent">Just to say <hi rend="ital">how</hi> that study was painted — quite simply this. Green and red are complementary. Well there’s a particular — red in the apples, very coarse in itself — and greenish things as well. Now there are one or two apples in a different colour too — which make the whole thing right — in a particular pink. That pink — is the broken colour, created by mixing the aforementioned red and the aforementioned greenish. There you have the reason why there’s an association between the colours. Added to this is a second contrast — the background forms a contrast to the foreground. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">The one is a neutral colour, obtained by breaking blue with orange, the other the same neutral colour, only altered by the addition of some yellow.</ab>
+<ab rend="indent">But — this gives me immense pleasure, that either by direct or by indirect personal feeling you notice a colour combination. Further — that one of the studies appeared to you to be a variation on the brown-grey theme — that’s very definitely the case — only — all <hi rend="ital">3</hi> of them are, the ones of the potatoes, with the difference that one is a study in sienna,<anchor n="2" xml:id="note-t-2"/> the other in burnt sienna,<anchor n="3" xml:id="note-t-3"/> the other in — <hi rend="ital">yellow ochre and red ochre</hi>.<anchor n="4" xml:id="note-t-4"/>
+                </ab>
+      <ab rend="indent">The latter — that’s the large one — <hi rend="ital">to my mind</hi> — is the best — despite the matt black background, which I left matt on purpose because the ochres are also naturally <hi rend="ital">non</hi>-transparent colours. As regards this study — the largest one of the potatoes — it was made by altering those non-transparent ochres, by breaking them with a transparent blue.
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/>
+                </ab>
+<ab rend="indent">Red ochre and yellow ochre forming an orange, their combination with blue is more neutral, and they become either redder or yellower against that neutralized colour. The highest light on that whole canvas is quite simply some pure yellow ochre. And the fact that this matt yellow still stands out is because it’s in a wide field of a sort, albeit neutral, of violet; after all — red ochre with a blue gives violet tones.</ab>
+<ab rend="indent">Well — the nests were also painted on a black background on purpose<anchor n="5" xml:id="note-t-5"/> — for the reason that I simply want it to be obvious in these studies that the objects appear against a conventional background, and are not in their natural setting. A — <hi rend="ital">living</hi> nest in nature is — something very different; one hardly sees the nest itself, one sees the birds.</ab>
+<ab rend="indent">Given that one wants to paint nests <hi rend="ital">from one’s collection of nests</hi>, one can’t say emphatically enough that the background and setting in nature are very different — so I made the background — simply black. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/>
+                </ab>
+      <ab rend="indent">That, though, a coloured background is attractive in a still life is — certain. In Amsterdam I saw still lifes by <rs type="pers" key="1435">Miss Vos</rs> that I thought <hi rend="ital">outstanding</hi> — <hi rend="ital">a good deal</hi> better than <rs type="pers" key="972">Blaise Desgoffe</rs> — really <rs type="pers" key="857">Van Beijeren</rs>esque.<anchor n="6" xml:id="note-t-6"/> It also occurred to me that those simple still lifes of hers had a good deal more artistic value than many a pretentious canvas by other Amsterdam artists.</ab>
+<ab rend="indent">They struck me as very good. Particularly one with a gold vase, a few empty oyster shells, a broken coconut shell and a crust of bread.</ab>
+      <ab rend="indent">I’ll send you the book by <rs type="pers" key="546">Blanc</rs>
+                    <anchor n="7" xml:id="note-t-7"/> — want to read L’art du XVIIIme siècle as soon as possible — I particularly want to hear something about <rs type="pers" key="939">Chardin</rs> by <rs type="pers" key="617 618">De Goncourt</rs>.<anchor n="8" xml:id="note-t-8"/> <rs type="pers" key="480">La Caze</rs>’s <rs type="pers" key="1295">Rembrandt</rs> is really also in that sentiment of Rembrandt’s late years.<anchor n="9" xml:id="note-t-9"/> It must be 12 years ago that I saw it, but I still remember it because it struck me, just like that head by <rs type="pers" key="1012">Fabritius</rs> in Rotterdam.<anchor n="10" xml:id="note-t-10"/> If I remember rightly, that nude woman in the La Caze Collection is also very fine, also from the later period.<anchor n="11" xml:id="note-t-11"/> The fragment of Rembrandt’s anatomy lesson, yes, I was astounded by it too. Do you remember those flesh colours? It’s — OF THE EARTH, particularly the feet.<anchor n="12" xml:id="note-t-12"/> 
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/>
+                </ab>
+<ab rend="indent">Listen — <rs type="pers" key="1073">Frans Hals</rs>’s flesh colours are also earthy, that’s to say in the sense you know. At least often. There’s also sometimes — I almost dare say always — a relationship of contrast between the tone of the clothes and the tone of the face.</ab>
+<ab rend="indent">Red and green are opposed — the singer (<rs type="pers" key="356">Dupper</rs>),<anchor n="13" xml:id="note-t-13"/> who has carmine tones in the flesh colour, has green tones in his black sleeves, <hi rend="ital">and</hi> ribbons on those sleeves in <hi rend="ital">a</hi> <hi rend="sc">different</hi> <hi rend="ital">red</hi> from that carmine. The orange, white, blue chap I wrote about has a <hi rend="ital">relatively</hi> neutral complexion, earthy, pink, violetish, by contrast with his <rs type="pers" key="1073">Frans Hals</rs> yellow leather suit.<anchor n="14" xml:id="note-t-14"/>
+                </ab>
+<ab rend="indent">The <hi rend="ital">yellow</hi> chap — dull lemon — definitely has dull violet in his mug.<anchor n="15" xml:id="note-t-15"/>
+                </ab>
+<ab rend="indent">Well — the darker the garb the lighter the face, <hi rend="ital">sometimes</hi> at least (<hi rend="ital">not</hi> by chance) — in his portrait and that of his wife in the garden,<anchor n="16" xml:id="note-t-16"/> there are <hi rend="ital">two</hi> black violets (blue violet and reddish violet), and a solid <hi rend="ital">black</hi> (yellow-black?) — repeat — reddish violet — and blue violet-black and — black — in other words the 3 most sombre things — well then — the faces are — <hi rend="sc">very</hi> fair — <hi rend="ital">extraordinarily</hi> fair, even for <rs type="pers" key="1073">Hals</rs>.</ab>
+<ab rend="indent">Anyway — <rs type="pers" key="1073">Frans Hals</rs> is a colourist <hi rend="ital">among the colourists</hi>, a colourist like <rs type="pers" key="1418">Veronese</rs>, like <rs type="pers" key="1336">Rubens</rs>, like <rs type="pers" key="982">Delacroix</rs>, like <rs type="pers" key="1402">Velázquez</rs>.<anchor n="17" xml:id="note-t-17"/>
+                </ab>
+<ab rend="indent">
+                    <rs type="pers" key="1226">Millet</rs>, <rs type="pers" key="1295">Rembrandt</rs> and, for instance, <rs type="pers" key="1107">Israëls</rs> — it has sometimes rightly been said of them that they are — harmonists rather than colourists.<anchor n="18" xml:id="note-t-18"/>
+                </ab>
+<ab rend="indent">But — tell me — <hi rend="ital">black</hi> and <hi rend="ital">white</hi>, may one use them or not? Are they forbidden fruit?<anchor n="19" xml:id="note-t-19"/>
+                </ab>
+<ab rend="indent">I think not. <rs type="pers" key="1073">Frans Hals</rs> must have had twenty-seven blacks.</ab>
+<ab rend="indent">White — but you know yourself what singular paintings some modern colourists purposely made with white on white. What does that phrase mean, <hi rend="ital">one may not</hi>? 
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/>
+                </ab>
+<ab rend="indent">
+                    <rs type="pers" key="982">Delacroix</rs> — called them <hi rend="ital">rests</hi>, used them as such.<anchor n="20" xml:id="note-t-20"/> You mustn’t be prejudiced against them, because provided they’re in their place and in balance with the rest, one may use <hi rend="ital">all</hi> tones — that goes without saying. Do you know that I often think the things by <rs type="pers" key="76">Apol</rs>, say, in white on white, are very good.</ab>
+<ab rend="indent">His Sunset in the Haagse Bos, for instance, which is in Amsterdam. That thing is actually deuced fine.<anchor n="21" xml:id="note-t-21"/>
+                </ab>
+      <ab rend="indent">No — black and white, they have their reason and significance, and anyone who suppresses them won’t get it right. The most logical, certainly, is to regard them both as — <hi rend="ital">neutral</hi>.</ab>
+      <ab rend="indent">The white the very highest combination of the lightest possible red, blue, yellow — black the very lowest combination of the darkest red, blue and yellow — I have nothing to say against that statement, I think it absolutely true. Well — the <hi rend="ital">light</hi> and <hi rend="ital">shade</hi> — the <hi rend="ital">tone</hi> in terms of <hi rend="ital">value</hi> — is directly related to that 4th spectrum <hi rend="sc">from white to</hi> <hi rend="ital">black</hi>. After all, where one has:</ab>
+<vg:whiteline/>
+<ab rend="html" html="536_01_tr.html">Spectrum 1</ab>
+<ab rend="html" html="536_01_tr.html">,, 2 ,, 3</ab>
+<ab rend="html" html="536_01_tr.html">
+                    <c type="kp">_</c>
+                    <c type="kp">_</c>
+                    <c type="kp">_</c>
+                    <c type="kp">_</c>
+                    <c type="kp">_</c>
+                    <c type="kp">_</c>
+                    <c type="kp">_</c>
+                    <c type="kp">_</c>
+                    <c type="kp">_</c>
+                    <c type="kp">_</c>
+                    <c type="kp">_</c>
+                    <c type="kp">_</c>
+                    <c type="kp">_</c>
+                </ab>
+<ab rend="html" html="536_01_tr.html">
+                    <hi rend="ital">Sum</hi> a fourth spectrum</ab>
+<vg:whiteline/>
+<ab rend="html" html="536_01_tr.html">that of the neutral tones,</ab>
+<ab rend="html" html="536_01_tr.html">that of red + blue + yellow</ab>
+<ab rend="html" html="536_01_tr.html">from yellow to violet</ab>
+<ab rend="html" html="536_01_tr.html">,, red  ,, green</ab>
+<ab rend="html" html="536_01_tr.html">,, blue  ,, orange</ab>
+<ab rend="html" html="536_01_tr.html">
+                    <c type="kp">_</c>
+                    <c type="kp">_</c>
+                    <c type="kp">_</c>
+                    <c type="kp">_</c>
+                    <c type="kp">_</c>
+                    <c type="kp">_</c>
+                    <c type="kp">_</c>
+                    <c type="kp">_</c>
+                    <c type="kp">_</c>
+                    <c type="kp">_</c>
+                    <c type="kp">_</c>
+                    <c type="kp">_</c>
+                    <c type="kp">_</c>
+                </ab>
+<ab rend="html" html="536_01_tr.html">,, <hi rend="ital">white</hi>  ,, <hi rend="ital">black</hi>
+                </ab>
+<vg:whiteline/>
+<ab rend="html" html="536_01_tr.html">red + blue + yellow. red + blue + yellow.</ab>
+<ab rend="html" html="536_01_tr.html">the most extreme light the most extreme black </ab>
+<vg:whiteline/>
+<ab>
+<pb f="2v" n="7" xml:id="pb-trans-2v-7" facs="#zone-pb-2v-7"/>
+                </ab>
+<ab>
+                    <hi rend="ital">That’s</hi> how I, for my part, understand the blacks and whites.</ab>
+<ab rend="indent">If I mix red and green to a reddish green or greenish red,</ab>
+<ab rend="html" html="536_02_tr.html">by adding white I then get</ab>
+<ab rend="html" html="536_02_tr.html">Pinkish green or greenish pink.</ab>
+<ab rend="html" html="536_02_tr.html">And, if you will, by adding black,</ab>
+<ab rend="html" html="536_02_tr.html">brownish green or greenish brown.</ab>
+<ab>Isn’t this clear?</ab>
+<ab rend="indent">If I mix yellow with violet to a lilac yellow or yellow lilac, in other words to a neutralized yellow or a neutralized lilac, by adding white and black I get greys.</ab>
+<ab rend="indent">So. There is primarily a question of <hi rend="ital">greys</hi> and <hi rend="ital">browns</hi> when one makes colours <hi rend="ital">lighter</hi> or <hi rend="ital">darker</hi>, whatever their nature and their red, yellow or blue content may be.</ab>
+<ab rend="indent">To my mind, speaking of light and of dark greys and browns is expressing it correctly.</ab>
+<ab rend="indent">But how fine what <rs type="pers" key="742">Silvestre</rs> says about <rs type="pers" key="982">Delacroix</rs> is — that he took an accidental tone on his palette, <hi rend="ital">the unspeakable shade</hi>, <hi rend="ital">purplish</hi>, that he put that tone down somewhere, <hi rend="ital">either</hi> for the highest light <hi rend="ital">or for the deepest shadow</hi>, but made something of that <hi rend="ital">mud</hi> that either glittered like light or was as sombrely silent as deep shadow.<anchor n="22" xml:id="note-t-22"/>
+                </ab>
+<ab rend="indent">For instance I’ve heard of an experiment with a sheet of neutral coloured paper — which became greenish on a red background, reddish on a green one, bluish on orange, orangish on blue, yellowish on violet, and violetish on yellow. 
+<pb f="2r" n="8" xml:id="pb-trans-2r-8" facs="#zone-pb-2r-8"/>
+                </ab>
+<ab rend="indent">Listen — suppose one wants to make a <hi rend="ital">muddy tone</hi> or <hi rend="ital">snot colour</hi> like this look <hi rend="ital">light</hi> in the painting, what <rs type="pers" key="982">Delacroix</rs> said — that <rs type="pers" key="1418">Veronese</rs> could paint a blonde, nude woman with a colour like mud so that she <hi rend="ital">looked</hi> white and blonde in the painting.<anchor n="23" xml:id="note-t-23"/> Question — how is such a thing possible except by opposing great forces in blue-blacks or violets or reddish browns?</ab>
+<ab rend="indent">You — who look to see whether you can find dark shadows somewhere and think that if the shadows are dark, indeed black, then it’s no good, are you right? I think not. For — then <rs type="pers" key="982">Delacroix</rs>’s Dante,<anchor n="24" xml:id="note-t-24"/> say, the Zandvoort fisherman,<anchor n="25" xml:id="note-t-25"/> say, are no good, for they really do have the strongest forces of blue or violet blacks in them.</ab>
+<ab rend="indent">
+                    <rs type="pers" key="1295">Rembrandt</rs> and <rs type="pers" key="1073">Hals</rs>, didn’t they use black? And <rs type="pers" key="1402">Velázquez</rs>??? Not just one, but twenty-seven blacks, I assure you.<anchor n="26" xml:id="note-t-26"/> So that — ‘not allowed to use black’, come on, do you actually know yourself what you mean by it? And what you want to achieve by it? Really think about it, because you could well come to the conclusion — I regard this as highly likely, that you have learnt and understood the question of — <hi rend="ital">tones</hi> — wrongly, or rather have learnt them <hi rend="ital">vaguely</hi> and understood them <hi rend="ital">vaguely</hi>. There are so many people like this; most people are like this. But you’ll discover it eventually through <rs type="pers" key="982">Delacroix</rs> and others of that period. Tell me — have you thought that those studies of mine that have black backgrounds have been pitched <hi rend="ital">very low</hi> IN THEIR LIGHTS??? And so where I pitch my study <hi rend="ital">lower</hi> than in nature I still maintain the relationship between the tones, since I become darker not only in my shadows but also proportionally IN MY LIGHTS TOO? I made my studies specifically as gymnastics, to fall and to rise in tone — so — don’t forget this, that I painted my white and grey moss literally with a mud colour, and that it nonetheless looks light in the study.<anchor n="27" xml:id="note-t-27"/> Adieu, regards.</ab>
+<vg:whiteline/>
+<ab>Yours truly,</ab>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<ab>These things that relate to complementary colours, to simultaneous contrast<anchor n="28" xml:id="note-t-28"/> and to the way complementaries neutralize each other, this question is the first and foremost. The <hi rend="ital">other</hi> is — the effect on each other of two <hi rend="ital">similar colours</hi>, for example a carmine on a vermilion, a pink lilac on a blue lilac.</ab>
+<ab rend="indent">The third question is a light blue against the same dark blue, a pink against a brown red, a lemon yellow against fawn yellow, &amp;c. But the first question is the most important.</ab>
+<vg:whiteline/>
+<ab>And if you find some book or other on colour questions that is good, do be sure to send it to me, for I too know far from everything about it, and go on searching every day.</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>A number of still lifes can be identified in the light of the colour references later in the letter. See cat. Amsterdam 1999, pp. 167-176. The work referred to here is <hi rend="ital">Basket of apples</hi> (<rs type="ill" key="2529">F 99 / JH 930</rs>). It is clear from what Theo wrote to his sister <rs type="pers" key="401">Elisabeth</rs> on 13 October 1885 that he had faith in Vincent’s work during this period: ‘You ask me about Vincent. He is one of those people who has seen the world at close quarters and has withdrawn from it. Now we shall have to wait and see whether he proves to have genius. I believe it and several with me, <rs type="pers" key="282">Bonger</rs> among them. When his work comes right he will be a great man. As far as success goes, it may be the same for him as <rs type="pers" key="1084">Heyerdahl</rs>, appreciated by some, but not understood by the general public. <hi rend="ital">Those</hi>, however, who care whether there <hi rend="sc">really</hi> is something in an artist, or if it’s just pinchbeck, will esteem him and in consequence he will have had sufficient revenge for the displeasure expressed by so many’ (FR b903).</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>
+      <hi rend="ital">Basket of potatoes</hi> (<rs type="ill" key="2530">F 100 / JH 931</rs>).</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>
+      <hi rend="ital">Basket of potatoes</hi> (<rs type="ill" key="2532">F 116 / JH 934</rs>).</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>
+      <hi rend="ital">Baskets of potatoes</hi> (<rs type="ill" key="2531">F 107 / JH 933</rs>), Van Gogh says that it is the largest of the three: it measures 65.0 x 78.5 cm.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>It is not certain how many still lifes of birds’ nests were sent, nor which they were; the possibilities are <hi rend="ital">Still life with birds’ nests</hi> (<rs type="ill" key="2533">F 111 / JH 939</rs> (overpainted); <rs type="otherart" key="589">F 112 / JH 938</rs> (black background); and <rs type="otherart" key="588">F 109r / JH 942</rs> (brown background). See also <ref target="let535.xml#n-1">letter 535, n. 1.</ref>
+                    </ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>In 1885 there were two still lifes by the Dutch artist <rs type="pers" key="1435">Maria Vos</rs> in the Rijksmuseum. The painting described later in the letter is <hi rend="ital">Still life with goblet</hi> (destroyed in 1944). <rs type="ill" key="1410">Ill. 1410</rs>. The other painting, <hi rend="ital">Fruit</hi> of 1875 (present whereabouts unknown), was auctioned by Paul Brandt in Amsterdam in 1964. See minutes of the Vereeniging tot het vormen van eene openbare verzameling van Hedendaagsche Kunst (VVHK) of 14 April 1964. Stedelijk Museum Inventory, B 4340, with a photograph of the still life.</ab>
+<ab rend="indent">The French painter <rs type="pers" key="972">Blaise Alexandre Desgoffe</rs> was known for his still lifes of valuable objects; critics often compared them with seventeenth-century still lifes.</ab>
+<ab rend="indent">In subject and composition, Vos’s <hi rend="ital">
+                            <rs type="ill" key="1410">Still life with goblet</rs>
+                        </hi> is very reminiscent of, for example, <rs type="pers" key="857">Abraham van Beijeren</rs>’s <hi rend="ital">
+                            <rs type="otherart" key="609">Still life</rs>
+                        </hi> in the Rijksmuseum (inv. no. A 3944). Van Gogh is referring primarily to the warm, tonal qualities and the atmospheric effects in Van Beijeren’s painting, which he also saw in Vos’s still lifes.</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>Van Gogh had bought <rs type="pers" key="546">Blanc</rs>’s <hi rend="ital">
+                            <rs type="lit" key="48">Grammaire des arts du dessin</rs>
+                        </hi> (<ref target="let454.xml">see letter 454</ref>); Theo had evidently asked him to send him this book. Vincent did so at the beginning of November: <ref target="let538.xml">see letter 538</ref>. (He no longer had Blanc’s <hi rend="ital">
+                            <rs type="lit" key="403">Les artistes de mon temps</rs>
+                        </hi>, which he had borrowed from <rs type="pers" key="1306">Van Rappard</rs> for a while: <ref target="let459.xml">see letter 459</ref>). What Van Gogh says here about colour theory is derived from what Blanc had written on the subject in chapter 13 (Blanc 1870, pp. 601-617).</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>Theo sent the <rs type="pers" key="617 618">De Goncourt</rs>s’ <hi rend="ital">
+                            <rs type="lit" key="426">L’art du dix-huitième siècle</rs>
+                        </hi> not long after this: <ref target="let539.xml">see letter 539</ref>.</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>Van Gogh is referring to <hi rend="ital">Portrait of a man</hi> or <hi rend="ital">Young man with a walking stick</hi>, 1651 (Paris, Musée du Louvre). <rs type="ill" key="2159">Ill. 2159</rs>. The painting, which is no longer regarded as an authentic <rs type="pers" key="1295">Rembrandt</rs>, came from <rs type="pers" key="480">Louis La Caze</rs>’s collection and hung in the gallery that bore his name in the Musée du Louvre.</ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>See for <rs type="pers" key="1012">Carel Fabritius</rs>, <hi rend="ital">
+                            <rs type="ill" key="1885">Self-portrait</rs>
+                        </hi>: <ref target="let155.xml#n-18">letter 155, n. 18</ref>, first paragraph.</ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>Van Gogh may mean <rs type="pers" key="1295">Rembrandt</rs>’s <hi rend="ital">Bathsheba bathing</hi>, 1654, or <hi rend="ital">Susanna bathing</hi>, 1647 (now regarded as a copy after Rembrandt), both of which came from <rs type="pers" key="480">La Caze</rs>’s collection. <rs type="ill" key="2160">Ill. 2160</rs> and <rs type="ill" key="2161">Ill. 2161</rs>. See F. Reiset, <hi rend="ital">Notice des tableaux légués au Musée impérial du Louvre par M. Louis La Caze</hi>. Paris 1870, cat. nos. 96-97.</ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+      <ab>
+                        <rs type="pers" key="1295">Rembrandt</rs>, <hi rend="ital">The anatomy lesson of Dr Joan Deyman</hi>, 1656 (Amsterdam, Amsterdam Museum). <rs type="ill" key="337">Ill. 337</rs>. The canvas has not survived in its entirety. The description of the flesh tones as being ‘of the earth’ derives from <rs type="pers" key="737">Sensier</rs>, <hi rend="ital">
+                            <rs type="lit" key="238">La vie et l’oeuvre de J.F. Millet</rs>
+                        </hi>: <ref target="let495.xml#n-9">see letter 495, n. 9.</ref>
+                    </ab>
+                </note>
+<note n="13" xml:id="n-13" target="#note-t-13">
+<ab>See for <rs type="pers" key="1073">Frans Hals</rs>, <hi rend="ital">
+                            <rs type="ill" key="2154">The fool</rs> </hi>from the <rs type="pers" key="356">L. Dupper Wzn.</rs> Collection: <ref target="let534.xml#n-7">letter 534, n. 7.</ref>
+                    </ab>
+                </note>
+<note n="14" xml:id="n-14" target="#note-t-14">
+      <ab>Van Gogh’s memory is playing him false. The ‘orange, white, blue chap’ in this painting is not wearing a yellow leather suit – he is dressed in the pearl-grey satin doublet and darker grey breeches that Van Gogh raved about in <ref target="let534.xml">letter 534</ref>. There is a man in the centre of the same painting who is wearing a buff-coloured coat that might well be leather. See for this figure in <rs type="ill" key="152">
+                            <hi rend="ital">The company of Captain Reynier Reael and Lieutenant Cornelis Michielsz. Blaeuw</hi> (<hi rend="ital">‘The meagre company’</hi>
+                        </rs>) by <rs type="pers" key="1073">Hals</rs> and <rs type="pers" key="953">Codde</rs>: <ref target="let534.xml#n-4">letter 534, nn. 4</ref> and <ref target="let534.xml#n-6">6.</ref>
+                    </ab>
+                </note>
+<note n="15" xml:id="n-15" target="#note-t-15">
+<ab>See for <rs type="pers" key="1073">Frans Hals</rs>, <hi rend="ital">
+                            <rs type="ill" key="150">The merry drinker</rs>
+                        </hi>: <ref target="let534.xml#n-8">letter 534, n. 8.</ref>
+                    </ab>
+                </note>
+<note n="16" xml:id="n-16" target="#note-t-16">
+<ab>
+                        <rs type="pers" key="1073">Frans Hals</rs>, <hi rend="ital">Isaac Abrahamsz Massa and Beatrix van der Laen, married in Haarlem on 25 April 1622</hi> (Amsterdam, Rijksmuseum). <rs type="ill" key="153">Ill. 153</rs>. In the nineteenth century this portrait was still thought to be a self-portrait of Frans Hals and his wife Lysbeth Reyniersdr. Cf. for example Fromentin<hi rend="ital"> </hi>1902, chapter 11, pp. 299-300, and exhib. cat. Washington 1989, pp. 162-165, cat. no. 12.</ab>
+                </note>
+<note n="17" xml:id="n-17" target="#note-t-17">
+<ab>
+                        <rs type="pers" key="1019">Fromentin</rs> in <hi rend="ital">
+                            <rs type="lit" key="404">Les maîtres d’autrefois</rs>
+                        </hi> had also called <rs type="pers" key="1073">Hals</rs>, <rs type="pers" key="1418">Veronese</rs>, <rs type="pers" key="1336">Rubens</rs> and <rs type="pers" key="1402">Velázquez</rs> true colourists (see Fromentin 1902, chapter 13, p. 340).</ab>
+                </note>
+<note n="18" xml:id="n-18" target="#note-t-18">
+<ab>The term ‘harmonist’ in connection with <rs type="pers" key="1295">Rembrandt</rs> may be derived from what <rs type="pers" key="527">Baudelaire</rs> had written in his Salon 1846: ‘However, Rembrandt is not a colourist, but a harmonist’ (Cependant Rembrandt n’est pas un coloriste, mais un harmoniste). See Charles Baudelaire, <hi rend="ital">
+                            <rs type="lit" key="427">Curiosités esthétiques. L’art romantique et autres oeuvres critiques</rs>
+                        </hi>. Paris 1962, p. 104. A year earlier he had used the term in connection with <rs type="pers" key="971">Corot</rs> and <rs type="pers" key="982">Delacroix</rs>. See Van Uitert 1966-1967, p. 113. Cf. in this context also Blanc 1876, p. 67. </ab>
+                </note>
+<note n="19" xml:id="n-19" target="#note-t-19">
+<ab>
+                        <rs type="pers" key="546">Blanc</rs> had written about this in the section ‘Le blanc et le noir’ (chapter 13) of <hi rend="ital">
+                            <rs type="lit" key="48">Grammaire des arts du dessin, architecture, sculpture, peinture</rs>
+                        </hi> (see Blanc 1870, pp. 608-610).</ab>
+                </note>
+      <note n="20" xml:id="n-20" target="#note-t-20">
+<ab>On the same page that <rs type="pers" key="546">Blanc</rs> discusses <rs type="pers" key="982">Delacroix</rs>’s <hi rend="ital">
+                            <rs type="ill" key="2158">Barque of Dante</rs>
+                        </hi>, he says: ‘Whilst the colouring of the picture is absolutely magnificent and very varied, white and black – whether more or less pure or as grey – acting as non-colours, are used to rest and refresh the eye, softening the dazzling impact of the whole thing.’ (Si le coloris du tableau est d’une extrême magnificence et d’une grande variété, le blanc et le noir – soit à l’état plus ou moins franc, soit à l’état de gris, – agissant comme non-couleurs, serviront à reposer l’oeil, à le rafraîchir, en modérant l’éblouissant éclat du spectacle entier) (Blanc 1870, p. 609).</ab>
+<ab rend="indent">He also wrote in <hi rend="ital">
+                            <rs type="lit" key="403">Les artistes de mon temps</rs>
+                        </hi>: ‘he uses the interaction of whites and blacks in turn as foils and mordants and to provide rest ... One of Eugène Delacroix’s most precious resources was the introduction of black and white. White and black are, so to speak, non-colours which, by separating other colours, serve to rest and refresh the eye, especially when the eye is fatigued by the extreme variety as much as by the extreme magnificence. According to the proportions one gives them, according to the environment in which one uses them, black and white soften or enhance nearby colours; sometimes the role of white in a dark painting is like the sudden beating of a tom-tom in an orchestra’ (il emploie l’action des blancs et des noirs, qui est tour à tour un repoussoir, un mordant et un repos ... Une des ressources les plus précieuses d’Eugène Delacroix, c’est l’introduction du noir et du blanc. Le blanc et le noir sont, pour ainsi parler, des non-couleurs qui servent, en séparant les autres, à reposer l’oeil, à le rafraîchir, alors surtout qu’il pourrait être fatigué par l’extrême variété autant que par l’extrême magnificence. Suivant les proportions qu’on leur donne, suivant le milieu où on les emploie, le blanc et le noir atténuent ou rehaussent les tons voisins; quelquefois le rôle du blanc dans un tableau sinistre est celui qui joue en plein orchestre un coup de tam-tam) (see Blanc 1876, pp. 69, 71).</ab>
+                </note>
+<note n="21" xml:id="n-21" target="#note-t-21">
+<ab>
+                        <rs type="pers" key="76">Louis Apol</rs>, <hi rend="ital">Sunset in the Haagse Bos</hi>, known as <hi rend="ital">A January evening in the Haagse Bos,</hi> 1875 (Amsterdam, Rijksmuseum – now The Hague, Instituut Collectie Nederland). <rs type="ill" key="510">Ill. 510</rs>.</ab>
+                </note>
+<note n="22" xml:id="n-22" target="#note-t-22">
+<ab>Van Gogh is mistaken here: it was not <rs type="pers" key="742">Silvestre</rs>, but <rs type="pers" key="894">Bracquemond</rs> who wrote in his <hi rend="ital">
+                            <rs type="lit" key="418">Du dessin et de la couleur</rs>
+                        </hi>: ‘This playing with light became a theme for <rs type="pers" key="982">Delacroix</rs>, the gymnastics of coloured composition. Taking any tone, he used it indiscriminately in both the light and shaded areas of something which in appearance is alien to that coloration. Hence, using a swarthy, purplish tint of an unspeakable shade, he would bring out the clear, rosy tint of a child; he would make a green coloration contribute to the expression of the likelihood of the appearance of blond hair’ (Delacroix faisait de ces jeux de lumière un thème, une gymnastique de composition colorée. Prenant un ton quelconque, il l’appliquait indifféremment à la lumière ou à l’ombre d’une chose en apparence étrangère à cette coloration. Ainsi, d’une teinte bistrée, violacée, de nuance innommable, il tirait le teint rose et clair d’un enfant; il faisait concourir une coloration verte à l’expression de la probabilité d’aspect d’une chevelure blonde) (see Bracquemond 1885, p. 86). It is clear from the terminology Van Gogh uses later in this letter that this was the source (<ref target="#n-27">see n. 27</ref> below). On the street dirt, the ‘boue des rues’: see Blanc 1870, p. 610.</ab>
+                </note>
+<note n="23" xml:id="n-23" target="#note-t-23">
+<ab>Van Gogh copied this anecdote of <rs type="pers" key="982">Delacroix</rs>’s about <rs type="pers" key="1418">Veronese</rs> (taken from <rs type="pers" key="546">Blanc</rs>’s <hi rend="ital">
+                            <rs type="lit" key="403">Les artistes de mon temps</rs>
+                        </hi>) in <ref target="let449.xml">letter 449</ref>. In the same letter it appears that the term ‘snot colour’ was coined by <rs type="pers" key="868">Théophile de Bock</rs>. </ab>
+                </note>
+      <note n="24" xml:id="n-24" target="#note-t-24">
+<ab>See for <hi rend="ital">
+                            <rs type="ill" key="2158">The barque of Dante</rs>
+                        </hi> by <rs type="pers" key="982">Delacroix</rs>: <ref target="let535.xml#n-19">letter 535, n. 19.</ref>
+                    </ab>
+                </note>
+<note n="25" xml:id="n-25" target="#note-t-25">
+<ab>See for <rs type="pers" key="1107">Jozef Israëls</rs>’s <hi rend="ital">
+                            <rs type="ill" key="3063"> The Zandvoort fisherman</rs>
+                        </hi>: <ref target="let534.xml#n-19">letter 534, n. 19.</ref>
+                    </ab>
+                </note>
+<note n="26" xml:id="n-26" target="#note-t-26">
+<ab>In this context <rs type="pers" key="1019">Fromentin</rs> had written in <hi rend="ital">
+                            <rs type="lit" key="404">Les maîtres d’autrefois</rs>
+                        </hi>: ‘There are men, witness <rs type="pers" key="1402">Velázquez</rs>, who colour beautifully, with the dreariest of colours. What wonderful masterpieces were created with such dull hues of black, grey, brown and bitumen-shaded white! (Il y a des hommes, témoin Velasquez, qui colorent à merveille avec les couleurs les plus tristes. Du noir, du gris, du brun, du blanc teinté de bitume, que de chefs-d’oeuvre n’a-t-on pas exécutés avec ces quelques notes un peu sourdes!). On the blacks in Rubens he says: ‘If you look at his blacks, they are taken from the pot of ivory black and serve, with white, for every combination imaginable of his muted and tender greys’ (Si vous examinez ses noirs, ils sont pris dans le pot du noir d’ivoire et servent avec du blanc à toutes les combinaisons imaginables de ses gris sourds et de ses gris tendres). See Fromentin 1902, chapter 13, p. 341 and chapter 4, p. 63.</ab>
+                </note>
+<note n="27" xml:id="n-27" target="#note-t-27">
+<ab>See for the use of the words ‘mud colour’ and ‘gymnastics’, the quotation from <rs type="pers" key="894">Bracquemond</rs> in <ref target="#n-22">n. 22</ref> above. In his description Van Gogh may have been thinking of <hi rend="ital">Still life with bird’s nests</hi> (<rs type="ill" key="2533">F 111 / JH 939</rs>), in which the nest furthest to the left is the mossiest. See cat. Amsterdam 1999, p. 201.</ab>
+                </note>
+<note n="28" xml:id="n-28" target="#note-t-28">
+<ab>The physicist <rs type="pers" key="45">Michel Eugène Chevreul</rs> called the phenomenon that complementary colours reinforce each other when they are placed next to each other ‘the law of the simultaneous contrast of colours’ (la loi du contraste simultané des couleurs). He treated the subject at length in his book <hi rend="ital">
+                            <rs type="lit" key="428">De la loi du contraste simultané des couleurs</rs>
+                        </hi> (1839). Van Gogh was familiar with the concept from <rs type="pers" key="546">Charles Blanc</rs>’s essay on <rs type="pers" key="982">Delacroix</rs> in <hi rend="ital">
+                            <rs type="lit" key="403">Les artistes de mon temps</rs>
+                        </hi> – he quoted the relevant passage on colour theory in <ref target="let494.xml">letter 494</ref> – and from Blanc’s <hi rend="ital">
+                            <rs type="lit" key="48">Grammaire des arts du dessin</rs>
+                        </hi> (<ref target="#n-7">see n. 7</ref> above).</ab>
+<ab rend="indent">
+                        <rs type="pers" key="894">Félix Bracquemond</rs> also calls it ‘simultaneous contrast’ in <hi rend="ital">
+                            <rs type="lit" key="418">Du dessin et de la couleur</rs>
+                        </hi> (see Bracquemond 1885, pp. 241-245). In September 1885 Van Gogh said he had read this book ‘more than once’; he reread it in February 1886. <ref target="let532.xml">See letters 532</ref> and <ref target="let564.xml">564</ref>.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

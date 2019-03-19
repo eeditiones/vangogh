@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Paris, on or about Sunday, 28 February 1886.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let567"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">567</idno>
+<idno type="collectedletters">459</idno>
+<idno type="brieven1990">570</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Paris</vg:placeLet>
+                        <vg:dateLet>on or about Sunday, 28 February 1886</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. Paris, on or about Sunday, 28 February 1886.</p>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b499 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Vincent did not go to Nuenen from Antwerp, as he had considered doing; instead – apparently without Theo’s knowledge – he went straight to Paris. This must have been influenced by the need to give notice on his room before the start of the new month (March). The note was written after Van Gogh arrived in Paris; he took it for granted that Theo would be able to meet him that same morning. We assume that Vincent wanted to avoid having to spend money on boarding-houses in Antwerp or Paris, and that he had to communicate by note because he was unwilling or unable to speak to Theo straightaway. We have therefore dated the letter on or about Sunday, 28 February 1886.</p>
+                    </note>
+<note type="additionalDetail" xml:id="additionalDetail">
+<p>Van Gogh tore this sheet from the sketchbook in which he had already started making drawings and notes while he was in Antwerp. See for the reconstruction of the original place of the sheet in this book: Van der Wolk 1987, pp. 184-187 (SB 6, 60-63). Also in pencil in Theo’s writing a laundry list and the date 6 March. There is a similar list on <ref target="let416.xml">letter 416</ref>.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<surface n="b 0499" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000675_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000675_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000675_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000675_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+        <surface n="b 0499 V/1962" xml:id="surf-extra-1v">
+            <graphic mimeType="image/tiff" url="VGM001000675_02.TIF" rend="norend"/>
+            <zone xml:id="zone-extra-1">
+<graphic mimeType="image/tiff" url="VGM001000675_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000675_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000675_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+</facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Mon cher Theo,</ab>
+                <lb n="1*" xml:id="l-1s"/>
+<ab>ne m’en veux pas d’être venu tout d’un trait<c type="kp">_</c>
+                    <anchor n="1" xml:id="note-o-1"/> <lb n="2" xml:id="l-2"/>J’y ai tant réfléchi &amp; je crois que de cette manière nous <lb n="3" xml:id="l-3"/>gagnons du temps<c type="kp">_</c>– Serai au Louvre à partir de midi ou <lb n="3a" xml:id="l-3a"/>plus tôt si tu veux<c type="kp">_</c> <lb n="4" xml:id="l-4"/>Réponse s.v.p. pour savoir à quelle heure tu pourrais <lb n="5" xml:id="l-5"/>venir dans la Salle carrée.<anchor n="2" xml:id="note-o-2"/> Quant aux frais<c type="kk">/</c> je te le <lb n="6" xml:id="l-6"/>répète cela revient au même. J’ai de l’argent de reste<c type="kk">/</c> cela <lb n="7" xml:id="l-7"/>va sans dire et avant de faire aucune dépense je désire <lb n="8" xml:id="l-8"/>te parler<c type="kp">_</c>–<anchor n="3" xml:id="note-o-3"/> Nous arrangerons la chôse<c type="kk">/</c> tu verras<c type="kp">_</c>– <lb n="9" xml:id="l-9"/>Ainsi viens y le plus tôt possible<c type="kp">_</c> je te serre la main<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="10" xml:id="l-10"/>
+<ab>b. à t<c type="kp">_</c>
+                </ab>
+                <lb n="11" xml:id="l-11"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-9" n="9">plus tôt &lt; plustôt</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo,</ab>
+<ab>Don’t be cross with me that I’ve come all of a sudden.<anchor n="1" xml:id="note-t-1"/> I’ve thought about it so much and I think we’ll save time this way. Will be at the Louvre from midday, or earlier if you like. A reply, please, to let me know when you could come to the Salle Carrée.<anchor n="2" xml:id="note-t-2"/>
+                    <hi rend="ss"> </hi>As for expenses, I repeat, it comes to the same thing. I have some money left, that goes without saying, and I want to talk to you before spending anything.<anchor n="3" xml:id="note-t-3"/> We’ll sort things out, you’ll see. So get there as soon as possible. I shake your hand.</ab>
+<vg:whiteline/>
+<ab>Yours truly,</ab>
+<ab>Vincent</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>Although the plan to come to Paris had been in the air for a long time, Van Gogh went hotfoot from Antwerp to Paris with no prior warning.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>The Salon Carré is the large gallery in the southern wing of the Louvre, where numerous masterpieces of European painting hung.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>Later Van Gogh confessed that he had left Antwerp without paying his bills. In June 1888 he wrote: ‘Wasn’t I forced to do the same thing in order to come to Paris? And although I suffered the loss of many things then, it can’t be done otherwise in cases like that, and it’s better to go forward anyway than to go on being depressed’ (<ref target="let623.xml">letter 623</ref>).</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

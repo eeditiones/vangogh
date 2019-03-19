@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Arles, Saturday, 10 November 1888.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let718"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">718</idno>
+<idno type="collectedletters">561</idno>
+<idno type="brieven1990">723</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Arles</vg:placeLet>
+                        <vg:dateLet>Saturday, 10 November 1888</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:physDesc>
+                        <vg:decoration>
+                            <vg:decoList xml:id="sketches">
+                                <vg:decoItem n="A" xml:id="sketch-1">
+                                    <vg:decoDesc>
+<p>Example of a simple frame, with <hi rend="ital">The red vineyard</hi> (<rs type="sketch" key="202">F - / JH -</rs>), letter sketch</p>
+                                    </vg:decoDesc>
+                                </vg:decoItem>
+                            </vg:decoList>
+                        </vg:decoration>
+                    </vg:physDesc>
+                    <vg:letContents>
+<p>To Theo van Gogh. Arles, Saturday, 10 November 1888.</p>
+<note type="ongoingTopic" n="1">
+<p>Second consignment of paintings from Arles <ref target="let660.xml">(660)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="2">
+<p>Consignment of studies to exchange with the group of painters in Pont-Aven <ref target="let698.xml">(698)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b608 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Van Gogh writes: ‘The weather’s windy and rainy here’ <ref target="#l-87">(l. 87)</ref>. The weather reports record rain from 9 to 14 November, with the most falling on the 10th, but there was little wind during these days, apart from a moderate mistral on 10 November (<hi rend="ital">Météo-France</hi>), which makes that date the most likely. This agrees with what Van Gogh says about his work: in the previous letter of about 3 November, he and Gauguin were working on their paintings of the vineyard <ref target="let717.xml">(717)</ref>, which have meanwhile been finished. Moreover, he has made a ‘rough sketch’ of the brothel. The letter must also date from about the same time as a letter Gauguin wrote to Bernard, which is dated to some time between 8 and 12 November (<ref target="#n-15">see n. 15</ref>). On the basis of this information we have dated the letter to Saturday, 10 November 1888.</p>
+                    </note>
+<note type="additionalDetail" xml:id="additionalDetail">
+<p>Van Gogh enclosed a letter for Edouard Dujardin that has not survived.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0608" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000828_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000828_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000828_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000828_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000828_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000828_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="VGM001000828_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000828_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000828_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0608" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000828_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000828_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000828_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000828_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000828_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000828_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000828_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000828_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000828_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Mon cher Theo,</ab>
+                <lb n="1*" xml:id="l-1s"/>
+<ab>j’ai reçu de M. E<c type="kp">_</c> Dujardin <lb n="2" xml:id="l-2"/>une lettre relative à l’exposition de toiles de moi <lb n="3" xml:id="l-3"/>dans son trou noir.<anchor n="1" xml:id="note-o-1"/> Je trouve à tel point dégoûtant <lb n="4" xml:id="l-4"/>de payer par une toile pour l’exposition projetée qu’en réalité à <lb n="5" xml:id="l-5"/>la lettre de ce monsieur il n’y a pas <lb n="6" xml:id="l-6"/>deux réponses à faire. Il y en a une et tu <lb n="7" xml:id="l-7"/>la trouveras ci-inclus. Seulement je te l’envoie <lb n="8" xml:id="l-8"/>à toi et non à lui pour que tu saches ma pensée <lb n="9" xml:id="l-9"/>et que à lui tu lui dise simplement que <lb n="10" xml:id="l-10"/>j’ai changé d’avis et dans ce moment ai aucune <lb n="11" xml:id="l-11"/>aucune envie d’exposer<c type="kp">_</c> C’est pas le moins du <lb n="12" xml:id="l-12"/>monde la peine de se facher avec le coco<c type="kk">/</c> <lb n="13" xml:id="l-13"/>il vaut mieux être banalement poli.</ab>
+                <lb n="14" xml:id="l-14"/>
+<ab rend="indent">Ainsi pas d’exposition à la Revue independante<c type="kk">/</c> <lb n="15" xml:id="l-15"/>j’ose hardiment croire que Gauguin aussi soit <lb n="16" xml:id="l-16"/>de cet avis. Dans tous les cas il ne m’engage pas du tout <lb n="17" xml:id="l-17"/>à le faire.<anchor n="2" xml:id="note-o-2"/>
+                </ab>
+                <lb n="18" xml:id="l-18"/>
+<ab rend="indent">Nous n’avons guère exposé n’est ce pas<c type="kp">_</c>
+                </ab>
+                <lb n="19" xml:id="l-19"/>
+<ab rend="indent">il y a eu quelques toiles chez Tanguy d’abord<c type="kk">/</c> chez <lb n="20" xml:id="l-20"/>Thomas<c type="kk">/</c> chez Martin ensuite<c type="kp">_</c>
+                    <anchor n="3" xml:id="note-o-3"/>
+                </ab>
+                <lb n="21" xml:id="l-21"/>
+<ab rend="indent">Or moi ici je déclare absolument ignorer <lb n="22" xml:id="l-22"/>l’utilité même de cela et il me semblerait plus <lb n="23" xml:id="l-23"/>juste certes que toi simplement gardes dans <lb n="24" xml:id="l-24"/>ton apartement les etudes que tu <lb n="25" xml:id="l-25"/>aimerais<c type="kk">/</c> que les autres tu me les renvoies <lb n="26" xml:id="l-26"/>roulés ici puisque l’apartement est petit et que <lb n="27" xml:id="l-27"/>si tu gardais tout il y aurait encombrement.</ab>
+                <lb n="28" xml:id="l-28"/>
+<ab rend="indent">Alors sans nous presser je prepare ici de quoi <lb n="29" xml:id="l-29"/>faire une exposition plus serieuse.</ab>
+                <lb n="30" xml:id="l-30"/>
+<ab rend="indent">Mais pour la Revue independante je te prie de <lb n="31" xml:id="l-31"/>couper bien net<c type="kk">/</c> l’occasion est trop belle<c type="kk">/</c> <lb n="32" xml:id="l-32"/>tu sens que l’on se trompe joliment si l’on <lb n="33" xml:id="l-33"/>s’imaginerait que je vais payer pour qu’on <lb n="34" xml:id="l-34"/>me mette bien en montre dans un tel trou <lb n="35" xml:id="l-35"/>petit<c type="kk">/</c> noir et intrigant surtout<c type="kp">_</c>–</ab>
+                <lb n="36" xml:id="l-36"/>
+<ab rend="indent">Maintenant pour ce qui est des quelques toiles <lb n="37" xml:id="l-37"/>chez Tanguy ou Thomas... cela m’est si absolument <lb n="38" xml:id="l-38"/>indifférent qu’en réalité c’est pas la peine <lb n="39" xml:id="l-39"/>d’en parler – mais saches surtout que je n’y tiens pas du tout<c type="kp">_</c> 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                    <lb n="40" xml:id="l-40"/>Je sais d’avance ce que je ferai le moment où <lb n="41" xml:id="l-41"/>j’aurai assez de toiles. Pour le <lb n="42" xml:id="l-42"/>moment je ne m’occupe que d’en faire<c type="kp">_</c>
+                </ab>
+                <lb n="43" xml:id="l-43"/>
+<ab rend="indent">Ce qui te fera plaisir c’est que Gauguin a terminé <lb n="44" xml:id="l-44"/>sa toile des vendangeuses<c type="kk">/</c>
+                    <anchor n="4" xml:id="note-o-4"/> c’est aussi beau que <lb n="45" xml:id="l-45"/>les négresses et si tu la payais le même prix <lb n="46" xml:id="l-46"/>que les negresses supposons (400 je crois)<anchor n="5" xml:id="note-o-5"/> ce <lb n="47" xml:id="l-47"/>serait certes encore bien. Enfin naturellement <lb n="48" xml:id="l-48"/>il faut choisir dans le tout et moi je n’ai <lb n="49" xml:id="l-49"/>pas vu les choses Bretonnes<c type="kp">_</c>
+                    <anchor n="6" xml:id="note-o-6"/> Il m’en a expliqué <lb n="50" xml:id="l-50"/>plusieurs. et cela doit etre beau.</ab>
+                <lb n="51" xml:id="l-51"/>
+<ab rend="indent">j’ai fait une pochade de bordel<anchor n="7" xml:id="note-o-7"/> et je compte <lb n="52" xml:id="l-52"/>bien faire un tableau de bordel.</ab>
+                <lb n="53" xml:id="l-53"/>
+<ab rend="indent">Gauguin est venu ici le 20 Oct.<anchor n="8" xml:id="note-o-8"/> <lb n="54" xml:id="l-54"/>ainsi il faut compter qu’il a reçu de <lb n="55" xml:id="l-55"/>toi 50 francs le mois dernier.</ab>
+                <lb n="56" xml:id="l-56"/>
+<ab rend="indent">Oui je crois que pour l’exposition de mon <lb n="57" xml:id="l-57"/>travail il faut s’expliquer bien nettement. <lb n="58" xml:id="l-58"/>Toi tu es chez les Goupil<c type="kk">/</c> tu n’as pas le droit <lb n="59" xml:id="l-59"/>de faire des affaires en dehors de la maison<c type="kp">_</c> <lb n="60" xml:id="l-60"/>Donc moi absent je n’expose <hi rend="ital">pas</hi>
+                    <c type="kp">_</c>
+                </ab>
+                <lb n="61" xml:id="l-61"/>
+<ab rend="indent">je repète<c type="kk">/</c> chez Tanguy c’est indifférent pourvu <lb n="62" xml:id="l-62"/>que Tanguy sache bien qu’il n’a aucun droit lui <lb n="63" xml:id="l-63"/>sur mes toiles<c type="kk">/</c> <hi rend="ital">aucun</hi>
+                    <c type="kp">_</c>
+                </ab>
+                <lb n="64" xml:id="l-64"/>
+<ab rend="indent">Alors ma position est au moins nette<c type="kk">/</c> ce <lb n="65" xml:id="l-65"/>qui ne m’est pas absolument indifférent. <lb n="66" xml:id="l-66"/>Avec encore un peu de travail j’aurai <lb n="67" xml:id="l-67"/>de quoi ne plus avoir besoin d’exposer du tout<c type="kk">/</c> <lb n="68" xml:id="l-68"/>c’est cela que je vise<c type="kp">_</c>
+                </ab>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                <lb n="69" xml:id="l-69"/>
+<ab rend="indent">J’ai fini moi aussi une toile d’une vigne <lb n="70" xml:id="l-70"/>toute pourpre et jaune avec des figurines bleues <lb n="71" xml:id="l-71"/>et violettes et un soleil jaune.<anchor n="9" xml:id="note-o-9"/>
+                </ab>
+                <lb n="72" xml:id="l-72"/>
+<ab rend="indent">Je crois que tu pourras mettre cette toile à côté <lb n="73" xml:id="l-73"/>des paysages de Monticelli<c type="kp">_</c>
+                </ab>
+                <lb n="74" xml:id="l-74"/>
+<ab rend="indent">Je vais me mettre à travailler souvent de tête <lb n="75" xml:id="l-75"/>et les toiles de tête sont toujours moins gauches <lb n="76" xml:id="l-76"/>et ont un air plus artistique que les etudes sur <lb n="77" xml:id="l-77"/>nature<c type="kk">/</c> surtout lorsqu’on travaille par un temps <lb n="78" xml:id="l-78"/>de mistral.</ab>
+                <lb n="79" xml:id="l-79"/>
+<ab rend="indent">Je crois ne pas encore t’avoir dit que Milliet est parti <lb n="80" xml:id="l-80"/>en Afrique<c type="kp">_</c> Il a une etude de moi pour le mal <lb n="81" xml:id="l-81"/>qu’il s’est donné pour porter les toiles à Paris<anchor n="10" xml:id="note-o-10"/> et <lb n="82" xml:id="l-82"/>Gauguin lui a donné un petit dessin en échange <lb n="83" xml:id="l-83"/>d’une édition illustrée de M<hi rend="ss">me</hi> Chrysanthème<c type="kp">_</c>
+                    <anchor n="11" xml:id="note-o-11"/> <lb n="84" xml:id="l-84"/>Je n’ai toujours pas reçu les échanges de Pont <lb n="85" xml:id="l-85"/>aven. mais Gauguin m’assure que les toiles <lb n="86" xml:id="l-86"/>étaient faites.</ab>
+                <lb n="87" xml:id="l-87"/>
+<ab rend="indent">Il fait un temps de vent et de pluie ici et <lb n="88" xml:id="l-88"/>je suis bien content de ne pas être seul<c type="kk">/</c> <lb n="89" xml:id="l-89"/>je travaille de tête les jours mauvais et <lb n="90" xml:id="l-90"/>cela si j’étais seul n’irait pas.</ab>
+                <lb n="91" xml:id="l-91"/>
+<ab rend="indent">Gauguin a aussi presque fini son café <lb n="92" xml:id="l-92"/>de nuit.<anchor n="12" xml:id="note-o-12"/> Il est bien intéressant <lb n="93" xml:id="l-93"/>comme ami – il faut que je te dise <lb n="94" xml:id="l-94"/>qu’il sait faire la cuisine <hi rend="ital">parfaitement</hi>
+                    <c type="kk">/</c> <lb n="95" xml:id="l-95"/>je crois que j’apprendrai cela de lui<c type="kk">/</c> c’est <lb n="96" xml:id="l-96"/>bien commode.</ab>
+                <lb n="97" xml:id="l-97"/>
+<ab rend="indent">Nous nous trouvons fort bien de faire <lb n="98" xml:id="l-98"/>des cadres avec de simples baguettes clouées <lb n="99" xml:id="l-99"/>sur le chassis et <hi rend="ital">peints</hi>
+                    <c type="kk">/</c> ce que moi j’ai commencé<c type="kp">_</c>
+                    <anchor n="13" xml:id="note-o-13"/>
+                </ab>
+<vg:whiteline/> <figure facs="zone-sketch-1" n="A"/>
+<vg:whiteline/>
+                <lb n="100" xml:id="l-100"/>
+<ab>Sais tu que c’est un peu Gauguin <lb n="101" xml:id="l-101"/>l’inventeur du cadre blanc. <lb n="102" xml:id="l-102"/>mais le cadre de 4 baguettes <lb n="103" xml:id="l-103"/>clouées sur le chassis coûte <hi rend="ital">5 sous</hi> 
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                    <lb n="104" xml:id="l-104"/>et nous allons certainement le perfectionner. <lb n="105" xml:id="l-105"/>Cela fait très bien puisque ce cadre n’a aucune <lb n="106" xml:id="l-106"/>saillie et fait un avec la toile<c type="kp">_</c>
+                </ab>
+                <lb n="107" xml:id="l-107"/>
+<ab rend="indent">à bientôt<c type="kk">/</c> je te serre bien la main <lb n="108" xml:id="l-108"/>et mes compliments aux Hollandais.<anchor n="14" xml:id="note-o-14"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="109" xml:id="l-109"/>
+<ab>t<c type="kp">_</c> à t<c type="kp">_</c>
+                </ab>
+                <lb n="110" xml:id="l-110"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+                <lb n="111" xml:id="l-111"/>
+<ab>Gauguin te dit bien le bonjour. et te <lb n="112" xml:id="l-112"/>prie de reserver sur le prix du premier <lb n="113" xml:id="l-113"/>tableau que tu vendras la somme <lb n="114" xml:id="l-114"/>necessaire aux chassis qu’il désire à clefs <lb n="115" xml:id="l-115"/>et en plus ce que te demandera Bernard <lb n="116" xml:id="l-116"/>pour une commission qu’il lui a donnée.<anchor n="15" xml:id="note-o-15"/>
+                </ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-12" n="12">se &lt; ce</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo,</ab>
+<ab>I’ve received a letter from Mr <rs type="pers" key="587">E. Dujardin</rs> regarding the exhibition of some canvases of mine in his dark hole.<anchor n="1" xml:id="note-t-1"/> I find it so disgusting to pay for the planned exhibition with a canvas that in reality there aren’t two answers to this gentleman’s letter. There’s one, and you’ll find it enclosed. Only I’m sending it to you and not to him so that you know my thoughts and so that you can simply tell him that I’ve changed my mind and haven’t the slightest desire to exhibit at this moment. It’s no use at all getting angry with the chap, it’s better to be tritely polite.</ab>
+<ab rend="indent">So no exhibition at the Revue Indépendante, I make so bold as to believe that <rs type="pers" key="1039">Gauguin</rs> is of the same opinion. In any case he doesn’t at all urge me to do it.<anchor n="2" xml:id="note-t-2"/>
+                </ab>
+<ab rend="indent">We’ve hardly ever exhibited, have we?</ab>
+<ab rend="indent">There were a few canvases at <rs type="pers" key="772">Tanguy</rs>’s place first of all, at <rs type="pers" key="780">Thomas</rs>’s and then at <rs type="pers" key="503">Martin</rs>’s.<anchor n="3" xml:id="note-t-3"/>
+                </ab>
+<ab rend="indent">Now I declare here that I absolutely do not know what useful purpose that even serves, and it would seem to me more just, certainly, that you should simply keep the studies that you liked in your apartment, that you send the others back to me here rolled up, since the apartment is small and if you kept everything they’d clutter it up.</ab>
+<ab rend="indent">So, without our hurrying I’m preparing the wherewithal here to stage a more serious exhibition.</ab>
+<ab rend="indent">But as for the Revue Indépendante I’d ask you to put a complete end to it, the opportunity is too good, and you’ll feel that they’re completely mistaken if they imagine I’m going to pay to have myself put on show in such a small, dark and above all scheming hole.</ab>
+<ab rend="indent">Now with regard to the few canvases at <rs type="pers" key="772">Tanguy</rs>’s or <rs type="pers" key="780">Thomas</rs>’s place... that’s a matter of such absolute indifference to me that in reality it isn’t worth talking about — but you should know above all that I’m really not at all attached to the idea.
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> I know in advance what I’ll do the moment I have enough canvases. For the moment I’m simply busying myself with making them.</ab>
+<ab rend="indent">What will please you is that <rs type="pers" key="1039">Gauguin</rs> has finished his canvas of the women picking grapes,<anchor n="4" xml:id="note-t-4"/> it’s as fine as the negresses and if, say, you paid the same price for it as for the negresses (400 I think)<anchor n="5" xml:id="note-t-5"/> that would certainly be good too. But naturally you have to choose from all of them, and I haven’t seen the Breton things.<anchor n="6" xml:id="note-t-6"/> He’s explained several of them to me, and they must be fine.</ab>
+<ab rend="indent">I’ve done a rough sketch of a brothel,<anchor n="7" xml:id="note-t-7"/> and I’m in fact planning to do a brothel painting.</ab>
+<ab rend="indent">
+                    <rs type="pers" key="1039">Gauguin</rs> came here on 20 Oct.,<anchor n="8" xml:id="note-t-8"/> so we must reckon that he received 50 francs from you last month.</ab>
+<ab rend="indent">Yes, I think that for the exhibition of my work we must express ourselves clearly. As for you, you’re with the Goupils, you aren’t authorized to do business outside the firm. So since I’m absent I do <hi rend="ital">not</hi> exhibit.</ab>
+<ab rend="indent">I repeat, I’m indifferent as regards <rs type="pers" key="772">Tanguy</rs>’s place, provided Tanguy is fully aware that he has no right over my canvases, <hi rend="ital">none</hi>.</ab>
+<ab rend="indent">So, my position is clear at least, which isn’t a matter of absolute indifference to me. With a little more work I’ll have sufficient not to need to exhibit at all any more, that’s what I’m aiming at.
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/>
+                </ab>
+<ab rend="indent">I myself have also finished a canvas of a vineyard, all purple and yellow with little blue and violet figures and a yellow sun.<anchor n="9" xml:id="note-t-9"/>
+                </ab>
+<ab rend="indent">I think you’ll be able to place this canvas next to <rs type="pers" key="1240">Monticelli</rs>’s landscapes.</ab>
+<ab rend="indent">I’m going to set myself to work often from memory, and the canvases done from memory are always less awkward and have a more artistic look than the studies from nature, especially when I’m working in mistral conditions.</ab>
+<ab rend="indent">I don’t think I’ve yet told you that <rs type="pers" key="515">Milliet</rs> has left for Africa. He has a study of mine for troubling to take the canvases to Paris<anchor n="10" xml:id="note-t-10"/> and <rs type="pers" key="1039">Gauguin</rs> gave him a little drawing in exchange for an illustrated edition of Madame Chrysanthème.<anchor n="11" xml:id="note-t-11"/> I’ve still not received the exchanges from Pont-Aven, but Gauguin assures me that the canvases were done.</ab>
+<ab rend="indent">The weather’s windy and rainy here, and I’m very happy not to be alone, I work from memory on bad days, and that wouldn’t work if I were alone.</ab>
+<ab rend="indent">
+                    <rs type="pers" key="1039">Gauguin</rs> has also almost finished his night café.<anchor n="12" xml:id="note-t-12"/> He makes a really interesting friend — I must tell you that he knows how to cook <hi rend="ital">perfectly</hi>, I think that I’ll learn that from him, it’s really convenient.</ab>
+<ab rend="indent">We’re very satisfied with making frames with simple strips of wood nailed on the stretching frame and <hi rend="ital">painted</hi>, which I’ve started doing.<anchor n="13" xml:id="note-t-13"/>
+                </ab>
+<vg:whiteline/>
+<ab>
+                    <figure facs="zone-sketch-1" n="A"/>
+                </ab>
+<vg:whiteline/>
+<ab>Do you know that <rs type="pers" key="1039">Gauguin</rs> is partly the inventor of the white frame? But the frame made from four strips of wood nailed on the stretching frame costs <hi rend="ital">5 sous</hi>, 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> and we’re certainly going to perfect it. It serves very well, since this frame doesn’t stick out at all and is one with the canvas.</ab>
+<ab rend="indent">More soon, I shake your hand firmly and send my regards to the <rs type="pers" key="1075 1103">Dutchmen</rs>.<anchor n="14" xml:id="note-t-14"/>
+                </ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<ab>
+                    <rs type="pers" key="1039">Gauguin</rs> sends his warm regards, and asks you to keep back from the price of the first painting you sell the amount necessary for the stretching frames, which he wants with keys, and also what <rs type="pers" key="831">Bernard</rs> will ask from you for a commission he gave him.<anchor n="15" xml:id="note-t-15"/>
+                </ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>
+                        <rs type="pers" key="587">Edouard Dujardin</rs> was the director of the <hi rend="ital">Revue Indépendante</hi> and the <hi rend="ital">Revue Wagnérienne</hi>. The ‘dark hole’ refers to the offices of the <hi rend="ital">Revue Indépendante</hi>, where exhibitions were held. Theo had suggested that Vincent exhibit there, and at first Vincent agreed to do so (<ref target="let677.xml#n-16">see letter 677, n. 16</ref>). In addition to the news that he would be required to surrender a painting, <rs type="pers" key="1039">Gauguin</rs>’s negative attitude to the exhibition no doubt played a role in his refusal (<ref target="#n-2">see n. 2</ref>).</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>
+                        <rs type="pers" key="1039">Gauguin</rs> also refused the invitation to exhibit at the <hi rend="ital">Revue Indépendante</hi>. He explained his decision to Theo at the beginning of December: ‘I consider this hole of a place to exhibit could do us harm from every point of view. First: after <rs type="pers" key="1350">Signac</rs>, <rs type="pers" key="994">Dubois-Pillet</rs>, it would mean arriving on the scene like a very young newcomer. What’s more, those gentlemen tend to be ill-disposed towards me, and yet their clientele is insignificant, and of a different kind from mine.’ (Je juge ce trou d’exposition comme pouvant nous nuire sous tous les points de vue. 1o Après Signac Dubois-Pillet ce serait arriver comme un nouveau venu tout jeune. En outre ces messieurs me veulent plutôt du mal, quand même leur clientèle est insignifiante et dans un sens contraire au mien.)</ab>
+<ab rend="indent">Moreover, Gauguin sent Theo a copy of his letter to <rs type="pers" key="587">Dujardin</rs>: ‘I am embarrassed by the honour you do me in inviting me this time to exhibit at the premises of the Revue Indépendante. I regret that I am unable to accept an invitation that my friend <rs type="pers" key="1357">Schuffenecker</rs> sought in vain for himself. Having felt for 3 years that my powers as an artist were utterly inadequate for the modern forms of progress introduced among the Impressionist artists, so quickly replaced by the Neo-Impressionists, I decided to work in isolation, without being promoted by any group. My studies made in the tropics are inadequate as precise renderings of nature, and I believe that the Revue Indépendante would be powerless to give them the brightness and luminosity they lack.’ (Je suis confus de l’honneur que vous me faites en m’invitant cette fois à exposer au local de la Revue Indépendante. Je regrette de ne pouvoir accepter une invitation que mon ami Schuffeneker a sollicitée vainement pour lui. Sentant depuis 3 ans mes forces comme artiste tout à fait insuffisantes aux progrès modernes introduits chez les artistes impressionistes si vite remplacés par les néo-impressionistes, j’ai résolu de travailler à l’écart en dehors de toute publicité de groupes. Mes études de tropique sont insuffisantes comme donnée exacte de la nature et je crois que la Revue Indépendante serait impuissante à leur donner la clarté et la luminosité qui leur manquent.) See <hi rend="ital">Correspondance Gauguin</hi> 1984, pp. 294-295.</ab>
+<ab rend="indent">He also sent a copy of the letter to Schuffenecker, adding: ‘You see that I do not beat about the bush, and that I take the opportunity to obtain revenge for you – and to say what I think about all these coteries. I should like to see the look on these gentlemen’s faces when they read my letter’. (Vous voyez que je n’y vais pas par 4 chemins et que j’en profite pour vous venger – et pour dire ce que je pense de toutes ces coteries. Je voudrais voir la tête de ces messieurs quand ils liront ma lettre). See Merlhès 1989, p. 182. </ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>During his stay in Paris, canvases by Van Gogh were on display at <rs type="pers" key="772">Tanguy</rs>’s (<ref target="let572.xml">see letter 572</ref>). In 1888 Tanguy still had paintings of his in the shop, as evidenced by a letter from <rs type="pers" key="616">Geffroy</rs> to Theo (<ref target="let629.xml#n-1">see letter 629, n. 1</ref>). In July 1888, however, Vincent had asked Theo to remove his new paintings (from Arles) from Tanguy’s; <ref target="let637.xml">see letter 637</ref>. Later on in this letter it appears that there were still a few of his canvases at Tanguy’s and <rs type="pers" key="780">Thomas</rs>’s; it is not known when his work was to be seen at <rs type="pers" key="503">Martin</rs>’s, but his choice of words (‘first of all ... then’) seems to indicate that it was recently too. In any case, on 1 April 1889 a ‘little bridge’ by Van Gogh was still hanging at Tanguy’s, as may be deduced from the letters written to Theo on that day by <rs type="pers" key="1075">De Haan</rs> and <rs type="pers" key="1103">Isaäcson</rs>. De Haan asked Theo if he might have the painting (FR b1039).</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>For <rs type="pers" key="1039">Gauguin</rs>’s <hi rend="ital">
+                            <rs type="ill" key="2242">Human miseries</rs>
+                        </hi>, <ref target="let717.xml#n-2">see letter 717, n. 2.</ref>
+                    </ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>For <rs type="pers" key="1039">Gauguin</rs>’s <hi rend="ital">
+                            <rs type="ill" key="107">Among the mangoes</rs>
+                        </hi>, which Theo had indeed purchased for 400 francs, <ref target="let612.xml#n-1">see letter 612, n. 1.</ref>
+                    </ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>
+                        <rs type="pers" key="1039">Gauguin</rs> had sent Theo a number of his Pont-Aven paintings; <ref target="let704.xml#n-1">see letter 704, n. 1.</ref>
+                    </ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>
+      <hi rend="ital">Brothel scene</hi> (<rs type="ill" key="3006">F 478 / JH 1599</rs>). Hulsker took this to be the study for <rs type="pers" key="831">Bernard</rs> that is mentioned in <ref target="let698.xml">letters 698</ref> and <ref target="let700.xml">700</ref> (see Hulsker 1993-1, p. 53), but that was already finished in <ref target="let698.xml">letter 698</ref>, whereas the work mentioned here is new (‘I’ve done a rough sketch’), apparently done after undertaking ‘some excursions in the brothels’ with <rs type="pers" key="1039">Gauguin</rs> (<ref target="let716.xml">letter 716</ref>). See also <ref target="let698.xml#n-6">letter 698, n. 6.</ref> Cf. also Dorn 1990, p. 249 (n. 52) and exhib. cat. Chicago 2001, pp. 195, 387 (n. 114).</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>Van Gogh is mistaken: <rs type="pers" key="1039">Gauguin</rs> did say that he would come around the 20th (<ref target="let706.xml">see letter 706</ref>), but he finally arrived on 23 October. <ref target="let712.xml#n-2">See letter 712, n. 2.</ref>
+                    </ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>
+      <hi rend="ital">The red vineyard </hi>(<rs type="ill" key="2745">F 495 / JH 1626</rs>).</ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>
+                        <rs type="pers" key="515">Milliet</rs> had left for Africa on 1 November; <ref target="let714.xml">see letter 714</ref>. It is not known which of Van Gogh’s studies he received as a token of gratitude for delivering the paintings to Theo in August (<ref target="let652.xml">see letter 652</ref>).</ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>The illustrated edition of <rs type="pers" key="704">Loti</rs>’s <hi rend="ital">
+                            <rs type="lit" key="481">Madame Chrysanthème</rs>
+                        </hi> that <rs type="pers" key="1039">Gauguin</rs> received from <rs type="pers" key="515">Milliet</rs> had been published in 1888 by Calmann-Lévy in Paris. Cf. <ref target="let628.xml#n-20">letter 628, n. 20.</ref> It is not known which drawing Gauguin gave Milliet in exchange for it.</ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+<ab>For <rs type="pers" key="1039">Gauguin</rs>’s <hi rend="ital">
+                            <rs type="ill" key="2240">Night café, Arles</rs>
+                        </hi>, <ref target="let716.xml#n-4">see letter 716, n. 4.</ref>
+                    </ab>
+                </note>
+<note n="13" xml:id="n-13" target="#note-t-13">
+<ab>To illustrate what he intended with the homemade frame, Van Gogh also made a schematic depiction of <hi rend="ital">The red vineyard </hi>(<rs type="ill" key="2745">F 495 / JH 1626</rs>).</ab>
+                </note>
+<note n="14" xml:id="n-14" target="#note-t-14">
+<ab>
+                        <rs type="pers" key="1075">De Haan</rs> and <rs type="pers" key="1103">Isaäcson</rs>.</ab>
+                </note>
+<note n="15" xml:id="n-15" target="#note-t-15">
+<ab>A letter from <rs type="pers" key="1039">Gauguin</rs> to <rs type="pers" key="831">Bernard</rs> reveals that this must have been an order for paints: ‘I’m going to send you on an errand. Tell Van Gogh that for the first painting of mine that he sells he is to hand over to you enough to send me the following colours that I need – I don’t like Vincent’s colours, and I want <rs type="pers" key="772">Tanguy</rs>’s’. (Je vais vous donner une commission. Dites à Van Gogh que le premier tableau qu’il me vendra, il vous remette de quoi m’envoyer les couleurs suivantes dont j’ai besoin – je n’aime pas les couleurs de Vincent et je veux celles de Tanguy). Merlhès places this letter between about 9 and about 12 November 1888; Dorn dates it to about 8 November (see <hi rend="ital">Correspondance Gauguin </hi>1984, p. 275, and Dorn 1990, p. 520).</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

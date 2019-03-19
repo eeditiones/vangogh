@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Antwerp, on or about Tuesday, 9 February 1886.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let560"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">560</idno>
+<idno type="collectedletters">451</idno>
+<idno type="brieven1990">562</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Antwerp</vg:placeLet>
+                        <vg:dateLet>on or about Tuesday, 9 February 1886</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. Antwerp, on or about Tuesday, 9 February 1886.</p>
+<note type="ongoingTopic" n="1">
+<p>Plan to move to Paris <ref target="let555.xml">(555)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="2">
+<p>Vincent sends <hi rend="ital">Chérie</hi> by Edmond de Goncourt <ref target="let559.xml">(559)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="3">
+<p>Plan to study with Cormon <ref target="let556.xml">(556)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b491 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>See for our dating of on or about Tuesday, 9 February 1886: <ref target="let559.xml">letter 559</ref>, <hi rend="ital">Date</hi>.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0491" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000666_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000666_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000666_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000666_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000666_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000666_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="VGM001000666_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000666_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000666_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0491" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000666_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000666_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000666_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000666_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000666_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000666_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000666_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000666_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000666_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Waarde Theo,</ab>
+                <lb n="1*" xml:id="l-1s"/>
+<ab>ik moet wel een keer meer schrijven want hoe eer wij vierkant <lb n="2" xml:id="l-2"/>een besluit kunnen nemen hoe beter. Wat atelier betreft – <lb n="3" xml:id="l-3"/>indien we konden vinden in één zelfde huis een kamer met een alkoof <lb n="4" xml:id="l-4"/>en bovendien een mansarde of een hoek zolder – <lb n="5" xml:id="l-5"/>dan kondt gij dat appartement van kamer &amp; alkoof hebben en wij <lb n="6" xml:id="l-6"/>konden het zoo gezellig maken als maar mogelijk is<c type="kp">_</c>– En <lb n="7" xml:id="l-7"/>gedurende den dag kon de kamer dienen voor atelier<c type="kk">/</c> en <lb n="8" xml:id="l-8"/>voor diverse minder oogelijk gereedschap of voor <lb n="9" xml:id="l-9"/>vuil werk kon de mansarde dienen<c type="kk">/</c> en tevens kon ik daar <lb n="10" xml:id="l-10"/>slapen – en gij in de alkoof van ’t atelier.</ab>
+                <lb n="11" xml:id="l-11"/>
+<ab rend="indent">Zulk eene schikking of soortgelijke ware voor ’t eerste jaar volkomen <lb n="12" xml:id="l-12"/>voldoende dunkt mij. Wat ik niet zeker <lb n="13" xml:id="l-13"/>weet is of wij persoonlijk accordeeren zullen<c type="kk">/</c> ofschoon ik er niet <lb n="14" xml:id="l-14"/>aan wanhoop – maar het zal voor U veel gezelliger <lb n="15" xml:id="l-15"/>t’huis komen zijn in een werkplaats dan in een gewone <lb n="16" xml:id="l-16"/>kamer<c type="kk">/</c> die altijd iets lugubers heeft. En dat lugubere <lb n="17" xml:id="l-17"/>is het dat onze ergste vijand is. Als de dokter tot mij <lb n="18" xml:id="l-18"/>zegt dat ik sterker moet leven<c type="kk">/</c> physiek – wel<c type="kk">/</c> <lb n="19" xml:id="l-19"/>wie weet of gij bij een soortgelijken maatregel U ook niet <lb n="20" xml:id="l-20"/>wel zoudt bevinden.– Want gij zijt ook noch gelukkig <lb n="21" xml:id="l-21"/>noch genoeg en train – laat ons de dingen maar <lb n="22" xml:id="l-22"/>gerust bij zijn naam noemen<c type="kk">/</c> ge hebt te veel zorg <lb n="23" xml:id="l-23"/>en te weinig voorspoed<c type="kp">_</c>–</ab>
+                <lb n="24" xml:id="l-24"/>
+<ab rend="indent">Maar het kan misschien aan onze politiek liggen dat <lb n="25" xml:id="l-25"/>wij te veel ieder op zich zelf staan en de krachten <lb n="26" xml:id="l-26"/>en ressources te veel verdeeld zijn<c type="kk">/</c> en in dien vorm <lb n="27" xml:id="l-27"/>onvoldoende<c type="kp">_</c>– Dus – l’union fait la force<anchor n="1" xml:id="note-o-1"/> – <lb n="28" xml:id="l-28"/>ware zeker veel beter<c type="kp">_</c>–</ab>
+                <lb n="29" xml:id="l-29"/>
+<ab rend="indent">Er moet dus meer leven komen dunkt mij en <lb n="30" xml:id="l-30"/>wij moeten over boord gooien allerlei twijfel en <lb n="31" xml:id="l-31"/>een zeker gebrek aan vertrouwen<c type="kp">_</c>
+                </ab>
+                <lb n="32" xml:id="l-32"/>
+<ab rend="indent">Wilt ge een <hi rend="ital">reden</hi> hebben waarop men zich gronden kan <lb n="33" xml:id="l-33"/>om zijn sereniteit te bewaren<c type="kk">/</c> ook dan wanneer men <lb n="34" xml:id="l-34"/>alleen staat en niet begrepen wordt en een streep door de <lb n="35" xml:id="l-35"/>rekening van zijn materieel geluk heeft gekregen<c type="kp">_</c>– <lb n="36" xml:id="l-36"/>Dit is er dan nog – geloof ik – men voelt instinktmatig <lb n="37" xml:id="l-37"/>dat er enorm veel verandert en alles veranderen zal<c type="kp">_</c>– <lb n="38" xml:id="l-38"/>Wij zijn in ’t laatste 4<hi rend="ss">de</hi> part van een eeuw die eindigen zal <lb n="39" xml:id="l-39"/>weer met een kolossale revolutie<c type="kp">_</c>–<anchor n="2" xml:id="note-o-2"/>
+                </ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="40" xml:id="l-40"/>
+<ab rend="indent">Maar stel wij zien beiden nog ’t begin daarvan <lb n="41" xml:id="l-41"/>in ’t eind van ons leven<c type="kp">_</c>–</ab>
+                <lb n="42" xml:id="l-42"/>
+<ab rend="indent">Zeker zullen we <hi rend="ital">niet</hi> beleven de betere tijden van <lb n="43" xml:id="l-43"/>heldere lucht en verfrissching van de heele maatschappij <hi rend="ital">na</hi> die groote stormen<c type="kp">_</c> <lb n="44" xml:id="l-44"/>Toch is het <hi rend="ital">iets</hi>
+                    <c type="kk">/</c> niet de dupe te zijn van het <lb n="45" xml:id="l-45"/>valsche van zijn tijd<c type="kk">/</c> in zoover niet dat men het <lb n="46" xml:id="l-46"/>ongezond dompige en gedrukte van de uren <lb n="47" xml:id="l-47"/>die het onweer voorafgaan er in speurt<c type="kp">_</c>
+                </ab>
+                <lb n="48" xml:id="l-48"/>
+<ab rend="indent">En zegt – wij zijn in de benaauwdheid – maar <lb n="49" xml:id="l-49"/>de volgende geslachten zullen vrijer ademen kunnen. <lb n="50" xml:id="l-50"/>Een Zola en de de Goncourts<c type="kk">/</c> zij gelooven er <lb n="51" xml:id="l-51"/>in met het leuke van groote kinderen. Zij<c type="kk">/</c> <lb n="52" xml:id="l-52"/>de meest rigoureuse analisten – wier diagnose <lb n="53" xml:id="l-53"/>en zoo brutaal en zoo juist is<c type="kp">_</c>–</ab>
+                <lb n="54" xml:id="l-54"/>
+<ab rend="indent">En juist hij wien gij genoemd hebt<c type="kk">/</c> Tourguenew<c type="kk">/</c> <lb n="55" xml:id="l-55"/>en Daudet – zij werken niet zonder doel of zonder een <lb n="56" xml:id="l-56"/>blik op den overkant.</ab>
+                <lb n="57" xml:id="l-57"/>
+<ab rend="indent">Alleen allen<c type="kk">/</c> en teregt<c type="kk">/</c> vermijden utopies te profeteeren <lb n="58" xml:id="l-58"/>en zijn pessimisten in zoover dat als men analyseert<c type="kk">/</c> <lb n="59" xml:id="l-59"/>men in de geschiedenis van deze eeuw verschrikkelijk <lb n="60" xml:id="l-60"/>ziet hoe de revoluties avorteeren<c type="kk">/</c>
+                    <anchor n="a" xml:id="note-o-a"/> al beginnen ze nog zoo <lb n="61" xml:id="l-61"/>nobel.</ab>
+                <lb n="62" xml:id="l-62"/>
+<ab rend="indent">Ziet ge<c type="kk">/</c> maar waar men steun aan heeft<c type="kk">/</c> het is als men met <lb n="63" xml:id="l-63"/>zijn gevoelens en gedachten niet altijd alleen hoeft te loopen<c type="kk">/</c> <lb n="64" xml:id="l-64"/>als men met een troep lui zamen werkt en denkt. <lb n="65" xml:id="l-65"/>Dan <hi rend="ital">kan</hi> men meer tevens – en men is oneindig <lb n="66" xml:id="l-66"/>veel gelukkiger.</ab>
+                <lb n="67" xml:id="l-67"/>
+<ab rend="indent">Nu had ik dat al lang vroeger tusschen ons willen <lb n="68" xml:id="l-68"/>hebben<c type="kk">/</c> en ziet ge<c type="kk">/</c> ik verbeeld me zoo dat als gij alleen <lb n="69" xml:id="l-69"/>bleeft gij het land zoudt krijgen omdat de tijden <lb n="70" xml:id="l-70"/>niet opwekkend zijn<c type="kk">/</c> <hi rend="ital">tenzij men het in zijn werk</hi> <lb n="71" xml:id="l-71"/>
+                    <hi rend="ital">vinde</hi>.</ab>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                <lb n="72" xml:id="l-72"/>
+<ab rend="indent">Ik stuur U die bewuste roman van de Goncourt <hi rend="ital">juist om de</hi> <lb n="73" xml:id="l-73"/>
+                    <hi rend="ital">voorrede</hi> vooral – waarin een resumé staat van hun <lb n="74" xml:id="l-74"/>werken en zoeken<c type="kp">_</c>
+                </ab>
+                <lb n="75" xml:id="l-75"/>
+<ab rend="indent">Ge zult zien dat die lui niet precies <hi rend="ital">gelukkig</hi> zijn geweest<c type="kk">/</c> <lb n="76" xml:id="l-76"/>op de zelfde manier als Delacroix van zich zelf zeide<c type="kk">/</c> <lb n="77" xml:id="l-77"/>je n’ai pas du tout été heureux dans le sens où <lb n="78" xml:id="l-78"/>je l’entendais / le désirais autrefois<c type="kp">_</c>
+                    <anchor n="3" xml:id="note-o-3"/>
+                </ab>
+                <lb n="79" xml:id="l-79"/>
+<ab rend="indent">Welnu en ’t moge spoedig komen of niet – er komt <lb n="80" xml:id="l-80"/>voor U ook nog een moment van <hi rend="ital">zeker weten</hi> <lb n="81" xml:id="l-81"/>dat er een streep door de rekening van het materieele <lb n="82" xml:id="l-82"/>geluk is gehaald<c type="kk">/</c> fataal en onherroepelijk<c type="kp">_</c>– <lb n="83" xml:id="l-83"/>Dat zou ik secuur<anchor n="b" xml:id="note-o-b"/> durven beweeren maar <lb n="84" xml:id="l-84"/>met dit er bij<c type="kk">/</c> dat ik meen op dat zelfde moment <lb n="85" xml:id="l-85"/>er een zekere compensatie zal zijn van zich een <lb n="86" xml:id="l-86"/>werkkracht te voelen<c type="kp">_</c>
+                </ab>
+                <lb n="87" xml:id="l-87"/>
+<ab rend="indent">Hetgeen mij navreert is de prachtige sereniteit van <lb n="88" xml:id="l-88"/>de groote denkers van tegenwoordig<c type="kk">/</c> zoo als b.v. <lb n="89" xml:id="l-89"/>die laatste wandeling van de twee de Goncourts die <lb n="90" xml:id="l-90"/>ge beschreven zult vinden<c type="kp">_</c>–<anchor n="4" xml:id="note-o-4"/> Zoo waren de laatste <lb n="91" xml:id="l-91"/>dagen van den ouden Tourgenew ook – hij was toen <lb n="92" xml:id="l-92"/>veel met Daudet<c type="kp">_</c>–<anchor n="5" xml:id="note-o-5"/> Gevoelig<c type="kk">/</c> subtiel<c type="kk">/</c> intelligent <lb n="93" xml:id="l-93"/>als vrouwen<c type="kk">/</c> gevoelig voor hun eigen lijden ook <lb n="94" xml:id="l-94"/>en steeds nog vol leven en zelfbewustheid<c type="kk">/</c> <lb n="95" xml:id="l-95"/>geen onverschillig stoicisme<c type="kk">/</c> geen verachting van ’t leven – <lb n="96" xml:id="l-96"/>ik zeg nog eens<c type="kk">/</c> die kerels<c type="kk">/</c> ze sterven <lb n="97" xml:id="l-97"/>als<anchor n="c" xml:id="note-o-c"/> de vrouwen sterven<c type="kp">_</c> Geen idee fixe <lb n="98" xml:id="l-98"/>van God of abstracties – altijd op den beganen <lb n="99" xml:id="l-99"/>grond van ’t leven zelf en alleen daar aan gehecht<c type="kk">/</c> nog eens<c type="kk">/</c> <hi rend="ital">als de vrouwen</hi> <lb n="100" xml:id="l-100"/>die veel liefgehad hebben<anchor n="6" xml:id="note-o-6"/> – genavreerd en <lb n="101" xml:id="l-101"/>– zooals Silvestre zegt van Delacroix – ainsi mourut<c type="kk">/</c> <lb n="102" xml:id="l-102"/>
+                    <hi rend="ital">presqu’en souriant</hi>
+                    <c type="kp">_</c>–<anchor n="7" xml:id="note-o-7"/>
+                </ab>
+                <lb n="103" xml:id="l-103"/>
+<ab rend="indent">Intusschen<c type="kk">/</c> we zijn daar niet aan toe<c type="kk">/</c> we zijn <lb n="104" xml:id="l-104"/>integendeel er aan toe om eerst te werken<c type="kk">/</c> eerst <lb n="105" xml:id="l-105"/>te leven – dat denkelijk met een streep door <lb n="106" xml:id="l-106"/>de rekening van geluk op de gewone manier<c type="kp">_</c>– 
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                    <lb n="107" xml:id="l-107"/>Maar wat er zij van de toekomst<c type="kk">/</c> ge kunt verzekerd zijn <lb n="108" xml:id="l-108"/>dat ik er zeer blij om zal zijn indien ik een <lb n="109" xml:id="l-109"/>jaartje bij Cormon kon werken<c type="kk">/</c> tenzij er <lb n="110" xml:id="l-110"/>voor teekenen beter gelegenheid is in de Ecole des <lb n="111" xml:id="l-111"/>Beaux arts of nog andere ateliers waar ik hier van <lb n="112" xml:id="l-112"/>hoorde<c type="kp">_</c>–</ab>
+                <lb n="113" xml:id="l-113"/>
+<ab rend="indent">De antieken zullen ons niet hinderen realist te zijn<c type="kk">/</c> <lb n="114" xml:id="l-114"/>allez – integendeel<c type="kp">_</c>– Ik verlang ook geducht <lb n="115" xml:id="l-115"/>naar de fransche schilderijen natuurlijk.</ab>
+                <lb n="116" xml:id="l-116"/>
+<ab rend="indent">A propos<c type="kk">/</c> vind gij dit niet aardig:</ab>
+<vg:whiteline/>
+                <lb n="117" xml:id="l-117"/>
+<ab rend="html" html="560_01_ol.html">Tout le mal est venu de la femme – Raison</ab>
+                <lb n="118" xml:id="l-118"/>
+<ab rend="html" html="560_01_ol.html">Obscurcie, appétit de lucre, trahison</ab>
+                <lb n="119" xml:id="l-119"/>
+<ab rend="html" html="560_01_ol.html">Coupes d’or où les vins sont melangés de lie</ab>
+                <lb n="120" xml:id="l-120"/>
+<ab rend="html" html="560_01_ol.html">Tout crime<c type="kk">/</c> tout mensonge heureux, toute folie</ab>
+                <lb n="121" xml:id="l-121"/>
+<ab rend="html" html="560_01_ol.html">Vient d’elle..... Adorez-la pourtant<c type="kk">/</c> puisque les dieux</ab>
+                <lb n="122" xml:id="l-122"/>
+<ab rend="html" html="560_01_ol.html">L’ont faite... et – c’est encore ce qu’ils ont fait de mieux<c type="kp">_</c>
+                    <anchor n="8" xml:id="note-o-8"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="123" xml:id="l-123"/>
+<ab>Het werken heeft toch het geheim van een tweede jeugd <lb n="124" xml:id="l-124"/>aan iemand te kunnen geven<c type="kp">_</c>
+                </ab>
+                <lb n="125" xml:id="l-125"/>
+<ab rend="indent">Zeg eens<c type="kk">/</c> Carlyle<c type="kk">/</c> hebt ge daar ooit iets van gelezen<c type="kp">_</c> <lb n="126" xml:id="l-126"/>dat is desnoods niet noodig als men het <lb n="127" xml:id="l-127"/>gezigt ziet van dien kerel en weet zijn werk zoowat is als <lb n="128" xml:id="l-128"/>Michelet<c type="kp">_</c> Whistler en Legros hebben beiden zijn portret <lb n="129" xml:id="l-129"/>gemaakt.<anchor n="9" xml:id="note-o-9"/> Dat is er ook een die veel durfde en veel <lb n="130" xml:id="l-130"/>anders inzag dan de rest. Maar hoe meer ik er naga<c type="kk">/</c> <lb n="131" xml:id="l-131"/>altijd dezelfde historie – geldgebrek<c type="kk">/</c> slechte gezondheid<c type="kk">/</c> <lb n="132" xml:id="l-132"/>tegenwerking<c type="kk">/</c> alleen staan<c type="kk">/</c> enfin<c type="kk">/</c> van ’t begin tot ’t eind <lb n="133" xml:id="l-133"/>moeite<c type="kp">_</c>–<anchor n="10" xml:id="note-o-10"/>
+                </ab>
+                <lb n="134" xml:id="l-134"/>
+<ab rend="indent">Het stuk van Manz over Paul Baudry was zeer mooi<c type="kk">/</c> en <lb n="135" xml:id="l-135"/>eigenaardig vooral vond ik dat: “<hi rend="ital">il a travaillé au</hi> <lb n="136" xml:id="l-136"/>
+                    <hi rend="ital">renouvellement du sourire</hi>”<c type="kp">_</c>
+                    <anchor n="11" xml:id="note-o-11"/>
+                </ab>
+                <lb n="137" xml:id="l-137"/>
+<ab rend="indent">Zou men van Delacroix kunnen zeggen “il a travaillé <lb n="138" xml:id="l-138"/>au renouvellement <hi rend="ital">de la passion</hi>”<c type="kk">/</c> misschien wel<c type="kp">_</c> <lb n="139" xml:id="l-139"/>Enfin – schrijf eens spoedig in alle geval. &amp; gegroet<c type="kp">_</c>–</ab>
+<vg:whiteline/>
+                <lb n="140" xml:id="l-140"/>
+<ab>b<c type="kp">_</c> à t<c type="kp">_</c>
+                </ab>
+                <lb n="141" xml:id="l-141"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-5" n="5">dan &lt; Dan</note>
+<note target="l-70" n="70">opwekkend &lt; op wekkend</note>
+<note target="l-118" n="118">lucre, &lt; <hi rend="ital">The comma can also be intended as an </hi>accent aigu<hi rend="ital"> on the first ‘e’ in </hi>‘melangés’<hi rend="ital"> (l. 119).</hi>
+                    </note>
+<note target="l-130" n="130">naga &lt; nagaan</note>
+<note target="l-138" n="138">au &lt; aux</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo,</ab>
+<ab>I have to write to you one more time because the sooner we can take an outright decision the better. As regards a studio — if we could find, in one and the same house, a room with an alcove and also a garret or a corner attic — then you could have that apartment of room and alcove, and we could make it just as comfortable as possible. And during the day the room could serve as studio, and the garret could serve for various more unsightly tools or for dirty work, and I could also sleep there — and you in the studio alcove.</ab>
+<ab rend="indent">It seems to me that such an arrangement or something similar would be perfectly satisfactory for the first year. What I’m not sure about is whether we’ll get on personally, although I don’t despair of it — but it’ll be much more agreeable for you to come home to a workplace than to an ordinary room, which always has something gloomy about it. And it’s that gloom that’s our worst enemy. When the <rs type="pers" key="330">doctor</rs> tells me that I have to take better care of myself, physically — well, who knows whether such a measure mightn’t do you good too. For you’re also neither happy nor in good spirits — let’s not mince words, you have too much worry and too little prosperity.</ab>
+<ab rend="indent">But perhaps it’s because of our policy that we’re each too much alone and our forces and resources are too divided, and in that form insufficient. So — unity is strength<anchor n="1" xml:id="note-t-1"/> — would certainly be much better.</ab>
+<ab rend="indent">So there has to be more life, it seems to me, and we have to throw out all sorts of doubts and a certain lack of confidence.</ab>
+<ab rend="indent">Do you want a <hi rend="ital">reason</hi> on which one can rely to preserve one’s serenity, even when one stands alone and isn’t understood and one’s material well-being has gone by the board? Well there’s still this — I believe — one feels instinctively that a tremendous amount is changing, and everything will change. We’re in the last quarter of a century that will end with another colossal revolution.<anchor n="2" xml:id="note-t-2"/>
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">But suppose we both yet see the beginning of it at the end of our lives.</ab>
+<ab rend="indent">We’ll certainly <hi rend="ital">not</hi> experience the better times of clear air and refreshment of the whole of society <hi rend="ital">after</hi> those great storms. All the same, it’s <hi rend="ital">something</hi> not to be taken in by the falseness of one’s time, in so far as one detects in it the unhealthy closeness and mugginess of the hours that precede the thunderstorm.</ab>
+<ab rend="indent">And says — it’s oppressive for us — but the next generations will be able to breathe more freely. Men like <rs type="pers" key="836">Zola</rs> and the <rs type="pers" key="617 618">De Goncourt</rs>s believe in it with the simplicity of overgrown children. They, the most rigorous analysts — whose diagnosis is both so merciless and so accurate.</ab>
+<ab rend="indent">And particularly the one you mentioned, <rs type="pers" key="837">Turgenev</rs>, and <rs type="pers" key="583">Daudet</rs> — they don’t work without a goal or without looking towards the other side.</ab>
+<ab rend="indent">Only they all, and rightly, avoid prophesying utopias and are pessimists in so far as if one analyzes, one sees so terribly in the history of this century the way the revolutions fail, no matter how nobly they begin.</ab>
+<ab rend="indent">You see, where one gets support is when one doesn’t always have to walk alone with one’s feelings and thoughts, when one works and thinks in a group of people together. Then at the same time one can <hi rend="ital">do</hi> more — and one is infinitely happier.</ab>
+<ab rend="indent">Well I’d already wanted to have that between us for a long time, and you see, I imagine that if you stayed on your own you’d become depressed because the times aren’t encouraging <hi rend="ital">unless one finds satisfaction in one’s work</hi>. 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/>
+                </ab>
+<ab rend="indent">I’m sending you that novel by <rs type="pers" key="617">De Goncourt</rs> <hi rend="ital">specifically for the introduction</hi> above all — which contains a résumé of their works and aims.</ab>
+<ab rend="indent">You’ll see that these fellows haven’t been precisely <hi rend="ital">happy</hi>, in the same way as <rs type="pers" key="982">Delacroix</rs> said about himself, I haven’t been happy at all in the sense in which I understood it / wanted it in the past.<anchor n="3" xml:id="note-t-3"/>
+                </ab>
+<ab rend="indent">Well, whether or not it comes soon — a moment will come for you, too, when you’ll be <hi rend="ital">sure</hi> that material well-being has gone by the board, fatally and irrevocably. I’d safely dare say that, but adding this, that I think that at that same moment there will be a certain compensation of feeling a capacity for work.</ab>
+<ab rend="indent">What touches me is the magnificent serenity of the great thinkers of the present day, like, say, the last walk of the two <rs type="pers" key="617 618">De Goncourt</rs>s, which you’ll find described.<anchor n="4" xml:id="note-t-4"/> The last days of the ageing <rs type="pers" key="837">Turgenev</rs> were like that, too — he was with <rs type="pers" key="583">Daudet</rs> a great deal then.<anchor n="5" xml:id="note-t-5"/> Sensitive, subtle, intelligent as women, sensitive to their own suffering, too, and always still full of life and self-assurance, no indifferent stoicism, no contempt for life — I say again, those fellows, they die like women die. No <hi rend="ital">idée fixe</hi> about God or abstractions — always on the ground floor of life itself and attached only to that, again, <hi rend="ital">like women</hi> who have loved much<anchor n="6" xml:id="note-t-6"/> — touched and — as <rs type="pers" key="742">Silvestre</rs> says of <rs type="pers" key="982">Delacroix</rs> — thus died, <hi rend="ital">almost smiling</hi>.<anchor n="7" xml:id="note-t-7"/>
+                </ab>
+<ab rend="indent">Meanwhile, we haven’t yet reached that point, on the contrary we’re at the point of working first, living first — most likely with the normal kind of well-being going by the board. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> But whatever the future may be, you can be sure that I’d be very pleased indeed if I could work with <rs type="pers" key="944">Cormon</rs> for a year or so, unless there’s somewhere better for drawing in L’Ecole des Beaux-Arts or other studios I’ve heard about here.</ab>
+<ab rend="indent">The ancients won’t prevent us from being realistic, come on — on the contrary. Of course I’m also desperately longing for French paintings.</ab>
+<ab rend="indent">Apropos, don’t you like this?</ab>
+<vg:whiteline/>
+<ab rend="html" html="560_01_tr.html">Everything that is bad came from woman — Clouded</ab>
+    <ab rend="html" html="560_01_tr.html"> Reason, an appetite for lucre, betrayal</ab>
+    <ab rend="html" html="560_01_tr.html"> Golden cups in which wines are mixed with lees.</ab>
+    <ab rend="html" html="560_01_tr.html"> Every crime, every happy lie, every kind of madness</ab>
+<ab rend="html" html="560_01_tr.html">Comes from her..... Adore her none the less, since the gods</ab>
+    <ab rend="html" html="560_01_tr.html"> Made her... and — she is the best thing that they have made.<anchor n="8" xml:id="note-t-8"/> </ab>
+<vg:whiteline/>
+<ab>After all, working has the secret of being able to give someone a second youth.</ab>
+<ab rend="indent">Tell me, have you ever read anything by <rs type="pers" key="563">Carlyle</rs>? Actually that’s not necessary when one sees the fellow’s face and knows his work is something like <rs type="pers" key="707">Michelet</rs>. <rs type="pers" key="1444">Whistler</rs> and <rs type="pers" key="1157">Legros</rs> have both made his portrait.<anchor n="9" xml:id="note-t-9"/> That’s another one who dared a great deal and had a different insight on many things from the rest. But the more I look into it, always the same story — lack of money, poor health, opposition, isolation, in short, trouble from beginning to end.<anchor n="10" xml:id="note-t-10"/>
+                </ab>
+<ab rend="indent">
+                    <rs type="pers" key="700">Mantz</rs>’s piece about <rs type="pers" key="693">Paul Baudry</rs> was very good, and I found that ‘<hi rend="ital">he worked on the renewal of the smile</hi>’ particularly singular.<anchor n="11" xml:id="note-t-11"/>
+                </ab>
+<ab rend="indent">Could one say of <rs type="pers" key="982">Delacroix</rs> ‘he worked on the renewal <hi rend="ital">of passion</hi>’? Perhaps so. Anyway — do write soon in any event, and regards.</ab>
+<vg:whiteline/>
+<ab>Yours truly,</ab>
+<ab>Vincent</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>Saying.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>A reference to the French Revolution (1789).</ab>
+                </note>
+<note n="a" xml:id="n-a" target="#note-o-a">
+<ab>Means: ‘mislukken’ (fail).</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>Taken from the essay ‘Eugène Delacroix’, in <rs type="pers" key="742">Silvestre</rs>, <hi rend="ital">
+                            <rs type="lit" key="416">Histoire des artistes vivants français et étrangers</rs>
+                        </hi>: ‘I feel happy no longer to be happy as I understood it in the past’ (Je me sens heureux de ne plus être heureux comme je l’entendais autrefois) (see Silvestre, <hi rend="ital">Histoire</hi>, pp. 41-84 (quotation on p. 43)).</ab>
+                </note>
+<note n="b" xml:id="n-b" target="#note-o-b">
+<ab>Means: ‘zeker’ (certainly, safely).</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>See for the preface to <hi rend="ital">
+                            <rs type="lit" key="422">Chérie</rs>
+                        </hi>: <ref target="let559.xml#n-3">letter 559, n. 3.</ref>
+                    </ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+    <ab>Van Gogh may have learned that <rs type="pers" key="583">Daudet</rs> was often with <rs type="pers" key="837">Turgenev</rs> in his last days from the article that he mentions in <ref target="let565.xml">letter 565</ref>: Alphonse Daudet, ‘<rs type="lit" key="440">Mémoires d’un homme de lettres. Tourguéneff</rs>’, <hi rend="ital">Le Temps</hi> (10 November 1883); published in an English translation as ‘Tourguéneff in Paris. Reminiscences by Daudet’, <hi rend="ital">Century Magazine</hi> 27 (November 1883), pp. 48-53. Theo must have written to Vincent about this article or sent it to him. In it, Daudet stresses Turgenev’s gentle character and his love of nature, and he describes their conversations: ‘When we were done with the books and issues of the day, the conversation widened and we came back to ever-present arguments, ideas and talked of love and death’ (Quand on en avait fini avec les livres et les préoccupations du jour, la conversation s’élargissait, on revenait au thèses, aux idées toujours présentes, on parlait de l’amour et de la mort).</ab>
+                </note>
+<note n="c" xml:id="n-c" target="#note-o-c">
+<ab>Means: ‘zoals’ (as, like).</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Luke" chap="7" v="47">Luke 7:47</bibleref>.</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>See for this quotation from <rs type="pers" key="742">Silvestre</rs>’s <hi rend="ital">
+                            <rs type="lit" key="415">Eugène Delacroix</rs>
+                        </hi>: <ref target="let526.xml#n-2">letter 526, n. 2.</ref> The end of the sentence is ungrammatical because Van Gogh incorporated these words of Silvestre’s literally.</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+    <ab>The closing lines of the comedy <hi rend="ital">
+                            <rs type="lit" key="441">Socrate et sa femme</rs>
+                        </hi> (Paris 1885) by <rs type="pers" key="9">Théodore Faullain de Banville</rs>. See ed. Paris 1886, p. 39. These lines, spoken by Xanthippe (‘Tout ... d’elle’) and Socrates (‘Adorez-là ... mieux’), also appear in Van Gogh’s Antwerp sketchbook. See Van der Wolk 1987, p. 95. There is a good chance that Van Gogh read this passage in a periodical or newspaper. The final two lines, for example, were quoted in a review in<hi rend="ital"> L’Art moderne. Revue critique des arts et de la littérature</hi> 6 (7 February 1886), p. 43. Theo knew what Vincent was talking about. He and <rs type="pers" key="282">Andries Bonger</rs> had seen a performance of <hi rend="ital">Socrate et sa femme</hi> at the Théâtre Français on 25 December 1885 (FR b1832).</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>
+                        <rs type="pers" key="1444">James Abbot McNeil Whistler</rs>, <hi rend="ital">Arrangement in grey and black, no. 2: Portrait of Thomas Carlyle</hi>, 1872-1873 (Glasgow, Glasgow Museums: Art Gallery &amp; Museum Kelvingrove). <rs type="ill" key="1424">Ill. 1424</rs>. Van Gogh may have seen this painting when he was in England since it was on show in an exhibition in Pall Mall, London, in 1874. See A. McLaren Young <hi rend="ital">et al.</hi>,<hi rend="ital"> The paintings of James McNeill Whistler</hi>. 2 vols. New Haven and London 1980, vol. 1, pp. 82-84, cat. no. 137. By the second reference Van Gogh may mean <rs type="pers" key="1157">Legros</rs>’s <hi rend="ital">Carlyle in his study</hi> or one of the other portraits of <rs type="pers" key="563">Carlyle</rs> by Legros that have survived, cf. <ref target="let358.xml#n-2">letter 358, n. 2.</ref>
+                    </ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>After the death of his wife in 1866 (their marriage was childless) <rs type="pers" key="563">Carlyle</rs> led a lonely and reclusive existence. He seldom left his house and published very little after this time. See Heffer 1995.</ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+    <ab>In ‘<rs type="lit" key="442">Paul Baudry</rs>’ in <hi rend="ital">Le Temps</hi> (26 January 1886), an appreciation written on the occasion of Baudry’s death on 17 January, <rs type="pers" key="700">Paul Mantz</rs> wrote: ‘<rs type="pers" key="693">Baudry</rs> had been created to work on the renewal of the smile, and he did his duty delightfully’ (Baudry avait été créé pour travailler au renouvellement du sourire, et il a délicieusement fait son devoir). Theo must have drawn Vincent’s attention to this article or sent it to him.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

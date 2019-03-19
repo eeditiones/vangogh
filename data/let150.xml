@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Wasmes, between Tuesday, 4 and Monday, 31 March 1879.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let150"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">150</idno>
+<idno type="collectedletters">128</idno>
+<idno type="brieven1990">149</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Wasmes</vg:placeLet>
+                        <vg:dateLet>between Tuesday, 4 and Monday, 31 March 1879</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. Wasmes, between Tuesday, 4 and Monday, 31 March 1879.</p>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b148 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Vincent speaks of Theo’s visit to Etten, which took place on the weekend of 1-2 March (FR b2464, 10 March 1879). Evidently Mr and Mrs van Gogh wrote about this visit to Vincent (<ref target="#l-3">see l. 3</ref>), who would have been able to refer to it here at the earliest on 4 March. This letter precedes <ref target="let151.xml">letter 151</ref>, which dates from April 1879.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0148" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000156_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000156_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000156_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000156_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0148" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000156_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000156_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000156_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000156_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Waarde Theo,</ab>
+                <lb n="2" xml:id="l-2"/>
+<ab>Van Pa en Moe hoorde ik dat zij verrast zijn onlangs door een <lb n="3" xml:id="l-3"/>bezoek van U<c type="kk">/</c>
+                    <anchor n="1" xml:id="note-o-1"/> juist toen Pa van hier terug was gekomen. Zeer blijde <lb n="4" xml:id="l-4"/>ben ik dat Pa hier is geweest.<anchor n="2" xml:id="note-o-2"/> Bezochten zamen de 3 predikanten <lb n="5" xml:id="l-5"/>van de Borinage<anchor n="3" xml:id="note-o-3"/> en wandelden door de sneeuw <lb n="6" xml:id="l-6"/>en bezochten een mijnwerkersgezin en zagen de kolen naar boven halen uit eene mijn genaamd Les trois Diefs <lb n="8" xml:id="l-8"/>(de drie aardhoopen)<anchor n="4" xml:id="note-o-4"/> en Pa woonde twee bijbellezingen <lb n="9" xml:id="l-9"/>bij zoodat wij in die paar dagen heel wat hebben gedaan<c type="kp">_</c> <lb n="10" xml:id="l-10"/>Ik geloof dat Pa een indruk van de Borinage heeft <lb n="11" xml:id="l-11"/>gekregen die Hij niet ligt vergeten zal zooals het zou zijn <lb n="12" xml:id="l-12"/>met een iegelijk die deze eigenaardige merkwaardige <lb n="13" xml:id="l-13"/>en schilderachtige landstreek zou bezoeken<c type="kp">_</c>
+                </ab>
+                <lb n="14" xml:id="l-14"/>
+<ab rend="indent">Het is lang geleden sedert ik U schreef<c type="kk">/</c> mogt het mij met Gods zegen <lb n="15" xml:id="l-15"/>gelukken hier op reede te komen dan moest Gij ook eens naar <lb n="16" xml:id="l-16"/>hier komen<c type="kk">/</c> mogelijk als Gij weer eens naar Parijs moet of het aan <lb n="17" xml:id="l-17"/>de reis voor de zaak vastknoopen.</ab>
+                <lb n="18" xml:id="l-18"/>
+<ab rend="indent">Dezer dagen vond ik bij een reeds bejaard man die vele jaren <lb n="19" xml:id="l-19"/>in de mijnen heeft gewerkt eene lijst van al de steenkolenaders ten zuiden <lb n="20" xml:id="l-20"/>van Mons<c type="kk">/</c> die zijn tot 155 in getal.<anchor n="5" xml:id="note-o-5"/> Iederen dag meer trekt <lb n="21" xml:id="l-21"/>het land en volk mij hier aan<c type="kk">/</c> men heeft hier een oud gevoel <lb n="22" xml:id="l-22"/>als op de hei of in de duinen<c type="kk">/</c> er is iets eenvoudigs en <lb n="23" xml:id="l-23"/>goedhartigs in de menschen. Die hier van daan gaan hebben het <lb n="24" xml:id="l-24"/>heimwee naar hun land gelijkerwijs omgekeerd vreemdelingen die <lb n="25" xml:id="l-25"/>het heimwee hebben hier t’huis mogten geraken<c type="kp">_</c>
+                </ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="26" xml:id="l-26"/>
+<ab rend="indent">Hoe maakt Mauve en Maris het<c type="kk">/</c> hebt gij veel gezien in den <lb n="27" xml:id="l-27"/>laatsten tijd. De lente die begint zal de stof voor onderwerpen <lb n="28" xml:id="l-28"/>vernieuwen en veranderen<c type="kk">/</c> en wat heeft Israels dezen winter <lb n="29" xml:id="l-29"/>gemaakt. Wat zouden zij hier veel opmerken dat <lb n="30" xml:id="l-30"/>hen zou treffen. Als de kar met een wit paard (l’blanc ch’val) <lb n="31" xml:id="l-31"/>een gewonde t’huis brengt uit de mijn dan ziet men dingen <lb n="32" xml:id="l-32"/>die aan de schipbreukeling van Israels<anchor n="6" xml:id="note-o-6"/> denken doen <lb n="33" xml:id="l-33"/>en zoo is er telkens iets dat aangrijpt.</ab>
+                <lb n="34" xml:id="l-34"/>
+<ab rend="indent">Schrijf eens spoedig een woordje en weet dat als gij iets vertelt <lb n="35" xml:id="l-35"/>van de schilders ik er nog wel iets van begrijp al is het lang geleden sedert <lb n="36" xml:id="l-36"/>ik veel schilderijen zag<c type="kp">_</c>
+                </ab>
+                <lb n="37" xml:id="l-37"/>
+<ab rend="indent">Heb een klein huisje gehuurd waar ik wel geheel en al zou willen wonen <lb n="38" xml:id="l-38"/>maar dat nu<c type="kk">/</c> daar Pa en ook ik zelf beter vindt dat ik bij Denis woon<c type="kk">/</c> <lb n="39" xml:id="l-39"/>alleen voor werkplaats of studeerkamer dient<c type="kp">_</c>
+                    <anchor n="7" xml:id="note-o-7"/> Daar heb ik nog <lb n="40" xml:id="l-40"/>prenten aan den muur en van allerlei<c type="kp">_</c>
+                </ab>
+                <lb n="41" xml:id="l-41"/>
+<ab rend="indent">Ik moet er op uit om zieken zoowel als gezonden te gaan bezoeken<c type="kp">_</c> <lb n="42" xml:id="l-42"/>Schrijf eens spoedig en heb het zoo goed mogelijk.</ab>
+                <lb n="43" xml:id="l-43"/>
+<ab rend="indent">Groet Mauve als Gij hem ziet en uwe huisgenooten.</ab>
+                <lb n="44" xml:id="l-44"/>
+<ab rend="indent">De lente begint want men hoort hier nu de leeuwerikken en in het <lb n="45" xml:id="l-45"/>bosch beginnen de takken en knoppen <lb n="46" xml:id="l-46"/>uit te spruiten<c type="kk">/</c> vooral de elzen<c type="kk">/</c> maar toen Pa hier was was <lb n="47" xml:id="l-47"/>alles wit besneeuwd zoodat Pa nog het eigenaardig effekt <lb n="48" xml:id="l-48"/>van de zwarte Charbonnages en de vele zwarte schoorsteenen <lb n="49" xml:id="l-49"/>heeft gezien in de sneeuw<c type="kp">_</c> Er zijn hier veel plekken die denken <lb n="50" xml:id="l-50"/>doen aan die teekening van Bosboom<c type="kk">/</c> Chaudfontaine<c type="kp">_</c>
+                    <anchor n="8" xml:id="note-o-8"/>
+                </ab>
+                <lb n="51" xml:id="l-51"/>
+<ab rend="indent">A Dieu<c type="kk">/</c> een handdruk in gedachten en geloof mij steeds</ab>
+<vg:whiteline/>
+                <lb n="52" xml:id="l-52"/>
+<ab>Uw liefh. broer</ab>
+                <lb n="53" xml:id="l-53"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo,</ab>
+<ab>I heard from <rs type="pers" key="526">Pa</rs> and <rs type="pers" key="524">Ma</rs> that they were recently surprised by a visit from you,<anchor n="1" xml:id="note-t-1"/> just when Pa had returned from here. I’m very glad that Pa was here.<anchor n="2" xml:id="note-t-2"/> Together we visited the 3 ministers of the Borinage<anchor n="3" xml:id="note-t-3"/> and walked through the snow and visited a miner’s family and saw coal being hauled up from a mine called Les trois Diefs (the three heaps of earth)<anchor n="4" xml:id="note-t-4"/> and Pa attended two Bible readings, so we did a great deal in those couple of days. I believe that Pa received an impression of the Borinage that he won’t easily forget, as it would be with anyone who visited this singular, remarkable and picturesque region of the country.</ab>
+<ab rend="indent">It’s been a long time since I wrote to you. If, with God’s blessing, I succeed in getting settled here, then you must come here sometime, perhaps when you have to go to Paris again, or tying it in with a business trip.</ab>
+<ab rend="indent">I recently found in the house of an elderly man who had worked in the mines for many years a list of all the seams of coal south of Mons, which are 155 in number.<anchor n="5" xml:id="note-t-5"/> The country and the people here appeal to me more each day, one has here a familiar feeling as though on the heath or in the dunes, there’s something simple and kind-hearted about the people. Those who have left here are homesick for their country, just as, conversely, foreigners who are homesick may come to feel at home here.
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">How are <rs type="pers" key="323">Mauve</rs> and <rs type="pers" key="1202">Maris</rs>? Have you seen a lot lately? The spring that is beginning will renew and change their subject matter. What did <rs type="pers" key="1107">Israëls</rs> make this winter? How much they would notice here that would make an impression on them! When the cart with a white horse (l’blanc ch’val) brings an injured man home from the mine, one sees things that remind one of Israëls’s shipwreck,<anchor n="6" xml:id="note-t-6"/> and over and over again there is something that moves one.</ab>
+<ab rend="indent">Write a few words soon, and remember that if you tell me about the painters, I still understand something of it, even though it’s been a long time since I’ve seen many paintings.</ab>
+<ab rend="indent">Have rented a small house where I’d really like to live entirely on my own, but which now serves only as a workplace or study, because <rs type="pers" key="526">Pa</rs> thinks it better that I board with <rs type="pers" key="346">Denis</rs>, and I do too.<anchor n="7" xml:id="note-t-7"/> I have prints on the wall there and all sorts of things.</ab>
+<ab rend="indent">I have to go out and visit the sick as well as the healthy. Write soon, and I wish you the very best.</ab>
+<ab rend="indent">Give my regards to <rs type="pers" key="323">Mauve</rs>, if you see him, and to your housemates.</ab>
+<ab rend="indent">Spring is beginning, for one hears larks here, and in the woods the branches and buds are beginning to sprout, especially the alders, but when <rs type="pers" key="526">Pa</rs> was here everything was covered with snow, so that Pa saw the singular effect of the black coal-pits and the many black chimneys in the snow. There are many places here that remind one of that drawing by <rs type="pers" key="884">Bosboom</rs>, Chaudfontaine.<anchor n="8" xml:id="note-t-8"/>
+                </ab>
+<ab rend="indent">Adieu, a handshake in thought, and believe me ever</ab>
+<vg:whiteline/>
+<ab>Your loving brother</ab>
+<ab>Vincent</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>For Theo’s visit, see <hi rend="ital">Date</hi>. <rs type="pers" key="526">Mr van Gogh</rs> wrote to Theo: ‘How commendable of you and comforting to us your recent visit was. It was a veritable tonic after that journey in Vincent’s behalf and the worries about <rs type="pers" key="401">Lies</rs>’ (FR b2464, 10 March 1879).</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>
+                        <rs type="pers" key="884">Mr van Gogh</rs> had gone to see for himself the conditions in which Vincent was now living. The Evangelization Committee had meanwhile appointed him to a post for a trial period of six months.</ab>
+<ab rend="indent">
+                        <rs type="pers" key="524">Mrs van Gogh</rs> wrote to Theo on 19 January 1879, telling him that Vincent had informed them of his appointment as an evangelist in the mining region. The extract issued on 22 January from the Zundert register of births, deaths and marriages was no doubt connected with this (FR b1508): ‘His work is holding Bible classes, instructing children, visiting the sick, all fortunately work after his own heart and 50 francs a month. It’s for six months at first, but it’s a beginning for which we and he are very grateful and glad. He is indeed so pleased and describes his work – extremely varied and among many people – with great satisfaction, and would like to walk with you, too, in that beautiful countryside. It’s a wonderfully heartening idea that he now has a steady position, which could lead to better things’ (FR b2456). Mr van Gogh repeated the news a day later, working out for Theo that Vincent, after paying 30 francs for board and lodging, would have 20 francs left for himself, and went on to add: ‘He also went down a mine shaft 635 metres deep’ (FR b2457, 20 January).</ab>
+<ab rend="indent">The venture was not entirely successful, however. Mr van Gogh, thinking he had good reason to worry, left for Mons on Wednesday, 19 February. Mrs van Gogh wrote a detailed letter to Theo on Thursday, 27 February: ‘And now I must tell you that Pa has gone to see Vincent, this week with all that bad weather, we weren’t at ease, especially because while I was away we received a very grim letter from him, which confirmed all our worries that he had no bed, no bed-clothes, no one to wash his things. But he wasn’t complaining at all, saying instead that it didn’t concern anyone and so on. We were getting a package ready for him, but we both thought it would be so much better if Pa were to take it himself. <rs type="pers" key="605">Rev. Pieterszen</rs>’s answer was so long in coming. So there was no waiting for it. On that awful Wednesday, Pa left at half past two, to be at Mons at half past eight in the evening. He left, with wishes and prayers that the faithful father wouldn’t be taken ill. I had ordered the trap to take him to the railway station, and does it surprise you we were sad following his [Vincent’s] footsteps? And just imagine, that same evening we had a letter from Vincent and one from <rs type="pers" key="801">Verhaegen</rs>, a colporteur to whom Pa also wrote in the beginning, who had received Vincent warmly his first week there, and who found him those good lodgings with <rs type="pers" key="346">Denis</rs>. Vincent said in his letter that one of these days we would probably hear an unfavourable report of him, resulting from a visit, an inspection visit, I think, made by <rs type="pers" key="187">Rev. Rochedieu</rs> of Brussels, which led to a meeting of gentlemen from the district and the church council of Wasmes at which they talked about him, and he wrote, what shall we do now, Jesus was also calm in the face of the storm and evil can turn to good, and perhaps things would have to get worse before they got better, he wrote no more than that. And Verhaegen wrote a very sweet, personable letter – saying that Vincent, despite all the advice he and many other concerned people had given him, had left Denis, where he had been so well taken care of, and was now living in that hut, and had no bed and no clean clothes. It had been decided that if he refused to listen to their advice, he would lose his post. And that’s why he wrote, hoping that fatherly advice would keep him from going astray. So you can imagine, no matter how worried I am, how grateful I am that Pa has gone there, it’s as though he was sent, may God bless. Pa’s visit will certainly be useful, I think Pa will take him back to Denis. I was so deeply grateful that Pa hadn’t read those two depressing letters before his journey. But you can understand how much we’re longing for his return, keep this to yourself, who knows how it will turn out – but it can’t go on like this anyway, even if things are now put to rights. He is too obstinate and pigheaded and doesn’t listen to advice. You don’t know, dear Theo, what sorrow it gives us, and how much we worry about so many things ... It does seem, dear child, that apart from Vincent, who is very strong, you do not come of strong stock ... Pa hoped to come home this evening, but now, since there is surely so much for Pa to discuss, I don’t expect him before tomorrow’ (FR b2463).</ab>
+<ab rend="indent">In the ‘3rd report of the Belgian Christian missionary church of Wasmes, 14 March’, Van Gogh appears one last time as a ‘young man’. This report was drawn up by <rs type="pers" key="138">Augustin Lefèvre</rs>: ‘The young man of whom I already spoke recently at the departmental meeting, that he was looking for a post as a gospel teacher, this young man has been placed by the Pastors of the national church to evangelize among the divided choristers, who are still split into two groups.’ (Le jeune homme dont j’ai déjà parlé dernièrement à la reunion sectionnaire, qu’il cherchait une place comme instituteur évangélique, ce jeune homme est placé par les Pasteurs de l’église nationale, pour évangéliser aux chanteurs separés, qui sont encore divisés en deux bandes.)</ab>
+<ab rend="indent">Van Gogh fulfilled this function between January and July 1879: ‘In 1877, a singing group was set up within the church at Grand-Wasmes. As it met in the same premises as the Sunday school, and wished to occupy them at the same time, Lefèvre advised them to look for another place in which to practise, or to change the time. That caused discontent, and two factions formed in the church, one supporting the evangelist, the other supporting the choirmaster. An inquiry was even undertaken in the name of the administrative Committee of the Belgian Christian Missionary Church, and the authorities retained Lefèvre at the head of the community. There was a split. The dissidents joined other Protestants in the church at Pâturages, and they rented a disused room there, the Salon du Bébé, and held their meetings there. From July 1877, they asked minister <rs type="pers" key="176">Péron</rs> to preach the gospel to them and during the months from January to July 1879, the synodal committee of the Belgian evangelical Protestant Church sent them Mr Vincent van Gogh’. Information from Yvon Brohez, Bureau du Synode, Eglise protestante Unie de Belgique, Brussels, 5 February 2003.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>These ministers were <rs type="pers" key="176">Pierre Péron</rs> (cf. <ref target="let149.xml#n-1">letter 149, n. 1</ref>), <rs type="pers" key="155">Herman Nicolas Neven</rs> and <rs type="pers" key="253">Jean Andry</rs> (cf. <ref target="let154.xml#n-3">letter 154, n. 3</ref>). See a report on L’Eglise de la rue du Bois at Wasmes (Archives of the Protestant communities), quoted in <hi rend="ital">Verzamelde brieven</hi> 1973, vol. 1, p. 227.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+    <ab>The mine shaft in question – ‘Trou à Dièves’ in the vicinity of Dour, c. 1.5 km south-west of Wasmes – was closed in 1930. The term ‘Dièves’ refers to the marl which was mixed with fine coal for use in producing briquettes (<hi rend="ital">SAICOM</hi>).</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>The number Van Gogh mentions is close to the number recorded in Gonzalès Decamps, <hi rend="ital">Mémoire historique sur l’origine et les développements de l’industrie houillère dans le bassin du couchant de Mons</hi>. Mons 1880, vol. 1, p. 84: ‘In the Couchant de Mons there are between 160 and 180 known seams of coal, of which it is thought that between about 125 and 135 might profitably be exploited.’ (Il existe dans le Couchant de Mons de 160 à 180 couches de houille reconnues, dont environ 125 à 135 sont considérées comme exploitables avec quelque fruit.’)</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>
+                        <rs type="pers" key="1107">Jozef Israëls</rs>, <hi rend="ital">The shipwrecked man</hi> (<hi rend="ital">The drowned fisherman</hi>), 1861 (London, National Gallery). <rs type="ill" key="203">Ill. 203</rs>.</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>Van Gogh had boarded briefly with the farmer <rs type="pers" key="346">Jean Baptiste Denis</rs>, who lived at rue du Petit-Wasmes 81. Denis was married to Estere Fiévez (<hi rend="ital">AEM</hi>; Wilkie 1978, pp. 56-68 and Eeckaut 1990, ‘Annexes’, p. 23).</ab>
+<ab rend="indent">At first Van Gogh wanted to live on his own, but his <rs type="pers" key="524 526">parents</rs> were against the idea and managed to dissuade him: ‘I’m afraid that he is completely wrapped up in nursing the injured and sitting up with them at night. That is very good of him, but he already has so much to think about, for which he needs a clear head. He also mentioned a plan to rent a labourer’s cottage and live there alone. We advised against it. We’re afraid that he wouldn’t keep it very tidy and that it would again lead to eccentricities. At any rate, perhaps he’ll listen to advice, but again there are worries on the horizon’ (FR b2460, Mr van Gogh to Theo, 12 February 1879). A month later Mrs van Gogh enlightened Theo: ‘You will also approve of Vincent’s letter, but he sent back the money intended for Denis, for taking care of him, so how can those people launder his clothes?’ (FR b2464, 10 March). </ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>For <rs type="pers" key="884">Bosboom</rs>’s <rs type="ill" key="607">
+                            <hi rend="ital">Lime-kiln at the quarry of Chaudfontaine</hi>
+                        </rs>, <ref target="let149.xml#n-10">see letter 149, n. 10.</ref>
+                    </ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

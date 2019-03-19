@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>Frédéric Salles to Vincent van Gogh. Arles, Sunday, 5 May 1889.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let769"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">769</idno>
+<idno type="collectedletters">-</idno>
+<idno type="brieven1990">772</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Frédéric Salles</author>
+                        <vg:addressee>Vincent van Gogh</vg:addressee>
+                        <vg:placeLet>Arles</vg:placeLet>
+                        <vg:dateLet>Sunday, 5 May 1889</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>Frédéric Salles to Vincent van Gogh. Arles, Sunday, 5 May 1889.</p>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b1054 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Letter headed: ‘Dimanche soir 5 Mai 89’.</p>
+                    </note>
+<note type="additionalDetail" xml:id="additionalDetail">
+<p>Written on the back of a calling card; the text printed on the front reads:</p>
+                        <p rend="indent">‘Frédéric Salles,</p> <p rend="indent">Pasteur de l’Eglise réformée.</p>
+                        <p rend="indent">9, rue de la Rotonde, Arles’.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 1054" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001001225_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001001225_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001225_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001225_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+        <surface n="b 1054 V/1962" xml:id="surf-extra-1v">
+            <graphic mimeType="image/tiff" url="VGM001001225_01.TIF" rend="norend"/>
+            <zone xml:id="zone-extra-1">
+<graphic mimeType="image/tiff" url="VGM001001225_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001225_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001225_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Dimanche soir 5 Mai 89</ab>
+<vg:whiteline/>
+                <lb n="2" xml:id="l-2"/>
+<ab>Devant m’absenter demains et <lb n="3" xml:id="l-3"/>étant occupé les Mardi, je me mets à <lb n="4" xml:id="l-4"/>votre disposition pour vous accompagner <lb n="5" xml:id="l-5"/>Mercredi à S<hi rend="ss">t</hi> Remy.<anchor n="1" xml:id="note-o-1"/> Nous partirions<hi rend="ital"/> <lb n="6" xml:id="l-6"/>par le train de 8 heures 51, si cela vous <lb n="7" xml:id="l-7"/>convient. Ayant déjà vu M. Peyron, il <lb n="8" xml:id="l-8"/>est convenable que je vous accompagne <lb n="9" xml:id="l-9"/>moi-même.<anchor n="2" xml:id="note-o-2"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="9*" xml:id="l-9s"/>
+<ab>Bien à vous</ab>
+                <lb n="10" xml:id="l-10"/>
+<ab>Salles</ab>
+<vg:whiteline/>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>Sunday evening, 5 May 1889</ab>
+<vg:whiteline/>
+<ab>Having to go away tomorrow and being busy on Tuesdays, I place myself at your disposal to accompany you to St-Rémy on Wednesday.<anchor n="1" xml:id="note-t-1"/> We would leave by the 8.51 train, if that suits you. Having already seen <rs type="pers" key="568">Mr Peyron</rs>, it is appropriate that I should accompany you myself.<anchor n="2" xml:id="note-t-2"/>
+                </ab>
+<vg:whiteline/>
+<ab>Yours truly,</ab>
+<ab>
+                    <rs type="pers" key="663">Salles</rs>
+                </ab>
+<vg:whiteline/>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+    <ab>Van Gogh and <rs type="pers" key="663">Salles</rs> left according to schedule on Wednesday, 8 May 1889 for the asylum of Saint-Paul-de-Mausole in Saint-Rémy. Van Gogh’s name was recorded on that date in <hi rend="ital">Le grand registre de l’asile de Saint-Rémy</hi>. <ref target="documentation.xml#id8May1889">See <hi rend="ital">Documentation</hi>, 8 May 1889</ref>. </ab>
+                </note>
+    <note n="2" xml:id="n-2" target="#note-t-2">
+<ab>On Monday, 29 April <rs type="pers" key="663">Salles</rs> had had a talk with <rs type="pers" key="568">Dr Peyron</rs> about Vincent’s admission to the asylum. <ref target="let763.xml">See letter 763</ref>, <hi rend="ital">Date</hi>.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

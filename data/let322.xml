@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. The Hague, on or about Friday, 2 March 1883.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let322"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">322</idno>
+<idno type="collectedletters">270</idno>
+<idno type="brieven1990">324</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>The Hague</vg:placeLet>
+                        <vg:dateLet>on or about Friday, 2 March 1883</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:physDesc>
+                        <vg:decoration>
+                            <vg:decoList xml:id="sketches">
+                                <vg:decoItem n="A" xml:id="sketch-1">
+                                    <vg:decoDesc>
+<p>
+      <hi rend="ital">People in the studio</hi> (<rs type="sketch" key="78">F - / JH 327</rs>), letter sketch</p>
+                                    </vg:decoDesc>
+                                </vg:decoItem>
+                                <vg:decoItem n="B" xml:id="sketch-2">
+                                    <vg:decoDesc>
+<p>
+      <hi rend="ital">Five men and a child in the snow</hi> (<rs type="sketch" key="79">F - / JH 323</rs>), enclosed sketch</p>
+                                    </vg:decoDesc>
+                                </vg:decoItem>
+                            </vg:decoList>
+                        </vg:decoration>
+                    </vg:physDesc>
+                    <vg:letContents>
+<p>To Theo van Gogh. The Hague, on or about Friday, 2 March 1883.</p>
+<note type="ongoingTopic" n="1">
+<p>Theo’s love for the ailing Marie <ref target="let300.xml">(300)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="2">
+<p>Alterations to the studio windows <ref target="let317.xml">(317)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. nos. b293 V/1962 (sheet 1) and d318 V/1970 (sheet 2: sketch and postscript)</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Vincent thanks Theo for the remittance; in <ref target="let319.xml">letter 319</ref> he had asked for this to be sent before ‘1 March’ if possible <ref target="#l-87">(ll. 87-91)</ref>. But at least one day extra must have passed between its receipt and Vincent’s reaction, because ‘yesterday afternoon’ <ref target="#l-14">(l. 14)</ref> he sent Theo a watercolour in answer to a question in his last letter. So the present letter dates from on or about Friday, 2 March 1883. </p>
+                    </note>
+<note type="additionalDetail" xml:id="additionalDetail">
+<p>Van Gogh wrote the PS on the back of the envelope.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+      <facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <surface n="b 0293" xml:id="surf-pb-1r">
+                  <graphic mimeType="image/tiff" url="VGM001000366_01.TIF" rend="norend"/>
+                  <graphic mimeType="image/tiff" url="VGM001000366_01_n.tif" rend="norend"/>
+                  <graphic mimeType="image/jpeg" url="VGM001000366_01_nt.jpg" height="50px" rend="thumbnail"/>
+                  <zone xml:id="zone-pb-1r-1">
+                        <graphic mimeType="image/tiff" url="VGM001000366_01_nR.tif" rend="norend"/>
+                        <graphic mimeType="image/jpeg" url="VGM001000366_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                        <graphic mimeType="image/png" url="VGM001000366_01_nRf.png" width="380px" rend="facstab"/>
+                  </zone>
+                  <zone xml:id="zone-pb-1r-4">
+                        <graphic mimeType="image/tiff" url="VGM001000366_01_nL.tif" rend="norend"/>
+                        <graphic mimeType="image/jpeg" url="VGM001000366_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                        <graphic mimeType="image/png" url="VGM001000366_01_nLf.png" width="380px" rend="facstab"/>
+                  </zone>
+            </surface>
+            <surface n="b 0293" xml:id="surf-pb-1v">
+                  <graphic mimeType="image/tiff" url="VGM001000366_02.TIF" rend="norend"/>
+                  <graphic mimeType="image/tiff" url="VGM001000366_02_n.tif" rend="norend"/>
+                  <graphic mimeType="image/jpeg" url="VGM001000366_02_nt.jpg" height="50px" rend="thumbnail"/>
+                  <zone xml:id="zone-pb-1v-2">
+                        <graphic mimeType="image/tiff" url="VGM001000366_02_nL.tif" rend="norend"/>
+                        <graphic mimeType="image/jpeg" url="VGM001000366_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                        <graphic mimeType="image/png" url="VGM001000366_02_nLf.png" width="380px" rend="facstab"/>
+                  </zone>
+                  <zone xml:id="zone-pb-1v-3">
+                        <graphic mimeType="image/tiff" url="VGM001000366_02_nR.tif" rend="norend"/>
+                        <graphic mimeType="image/jpeg" url="VGM001000366_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                        <graphic mimeType="image/png" url="VGM001000366_02_nRf.png" width="380px" rend="facstab"/>
+                  </zone>
+            </surface>
+            <surface n="d 0318" xml:id="surf-pb-2r">
+                  <graphic mimeType="image/tiff" url="VGM001001672_02.TIF" rend="norend"/>
+                  <zone xml:id="zone-pb-2r-5">
+                        <graphic mimeType="image/tiff" url="VGM001001672_02_n.tif" rend="norend"/>
+                        <graphic mimeType="image/jpeg" url="VGM001001672_02_nt.jpg" height="50px" rend="thumbnail"/>
+                        <graphic mimeType="image/png" url="VGM001001672_02_nf.png" width="380px" rend="facstab"/>
+                  </zone>
+            </surface>
+            <surface n="d 0318" xml:id="surf-pb-2v">
+                  <zone xml:id="zone-pb-2v-6">
+                  <graphic mimeType="image/tiff" url="VGM001001672_01_n.tif" rend="norend"/>
+                  <graphic mimeType="image/jpeg" url="VGM001001672_01_nt.jpg" height="50px" rend="thumbnail"/>
+                  <graphic mimeType="image/png" url="VGM001001672_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+            </surface>
+      </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Waarde Theo,</ab>
+                <lb n="1*" xml:id="l-1s"/>
+<ab>Dank voor Uw brief en het ingeslotene.</ab>
+                <lb n="2" xml:id="l-2"/>
+<ab rend="indent">De berigten omtrent Uw zieke vind ik zeer gunstig, geluk <lb n="3" xml:id="l-3"/>er mede, het opleven van uit die anemie reken ik <lb n="4" xml:id="l-4"/>bepaald een gevolg te zijn van dat er werkelijk weer <lb n="5" xml:id="l-5"/>hoop en levenslust in het hart gekomen is doordat zij <lb n="6" xml:id="l-6"/>sympathie en goedheid ondervonden heeft.</ab>
+<vg:whiteline/>
+                <lb n="7" xml:id="l-7"/>
+<ab>The heart that is fainting</ab>
+                <lb n="8" xml:id="l-8"/>
+<ab>May grow full to o’erflowing</ab>
+                <lb n="9" xml:id="l-9"/>
+<ab>And they who behold it,</ab>
+                <lb n="10" xml:id="l-10"/>
+<ab>Shall wonder and know not</ab>
+                <lb n="11" xml:id="l-11"/>
+<ab>That God at its fountains,</ab>
+                <lb n="12" xml:id="l-12"/>
+<ab>Far off – has been raining<c type="kp">_</c>
+                    <anchor n="1" xml:id="note-o-1"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="13" xml:id="l-13"/>
+<ab>Nu zult ge reeds ontvangen hebben, althans ik verzond ze <lb n="14" xml:id="l-14"/>gisteren middag, eene zeer ruwe schets van een aquarel.<anchor n="2" xml:id="note-o-2"/> <lb n="15" xml:id="l-15"/>Dit tot antwoord op Uw vraag daaromtrent.</ab>
+                <lb n="16" xml:id="l-16"/>
+<ab rend="indent">Toch is deze niet direkt van nu<c type="kp">_</c> Een paar maanden <lb n="17" xml:id="l-17"/>geleden begon ik ze en sedert heeft ze nu en dan <lb n="18" xml:id="l-18"/>eenige vegen gehad. Is echter in onbehouwen <lb n="19" xml:id="l-19"/>toestand gebleven. Sedert maakte ik een groot <lb n="20" xml:id="l-20"/>aantal studies, geteekende n.l., van figuren en <lb n="21" xml:id="l-21"/>vooral ook van koppen. Juist ook met het <lb n="22" xml:id="l-22"/>oog op dergelijke scènes als deze schets <lb n="23" xml:id="l-23"/>voorstelt<c type="kk">/</c> waar het afmaken daarin moet <lb n="24" xml:id="l-24"/>bestaan dat men teekening &amp; karakter <lb n="25" xml:id="l-25"/>brenge in koppen<c type="kk">/</c> handen<c type="kk">/</c> voeten <lb n="26" xml:id="l-26"/>vooral.</ab>
+                <lb n="27" xml:id="l-27"/>
+<ab rend="indent">Waarom ik ze stuur – omdat ik meen gij <lb n="28" xml:id="l-28"/>er duidelijker dan in een aantal andere <lb n="29" xml:id="l-29"/>schetsen die ik in aquarel nog gemaakt heb <lb n="30" xml:id="l-30"/>in zien kunt dat ik de dingen goed <lb n="31" xml:id="l-31"/>krachtig van kleur zie – frisch in een grijs <lb n="32" xml:id="l-32"/>waas<c type="kp">_</c>– Hoe onaf en gebrekkig<c type="kk">/</c> <lb n="33" xml:id="l-33"/>ziehier een brok straat zooals <lb n="34" xml:id="l-34"/>ik de Geest enz<c type="kp">_</c> of de Jodenbuurt<anchor n="3" xml:id="note-o-3"/> zoek <lb n="35" xml:id="l-35"/>weer te geven. Deze schets is niet iets toevalligs<c type="kk">/</c> <lb n="36" xml:id="l-36"/>allerlei scenes die ik zie kan ik tot op die <lb n="37" xml:id="l-37"/>hoogte en die betrekkelijk reeds sprekende <lb n="38" xml:id="l-38"/>kleur en toon krijgen. Als ge nu dit <lb n="39" xml:id="l-39"/>blad vergelijkt bij de dezen winter gezonden <hi rend="ital">lithographies</hi> <lb n="40" xml:id="l-40"/>en <hi rend="ital">teekeningen van koppen</hi> dan zult gij uit <lb n="41" xml:id="l-41"/>die diverse <hi rend="ital">mislukkingen</hi> mijn streven duidelijk zien.</ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="42" xml:id="l-42"/>
+<ab>Die groote studies van koppen b.v.<c type="kk">/</c> waarvan ik <lb n="43" xml:id="l-43"/>er nog veel anderen heb met zuidwesters b.v.<c type="kk">/</c> <lb n="44" xml:id="l-44"/>met omslagdoeken en witte mutsen en hooge <lb n="45" xml:id="l-45"/>hoeden en petten<c type="kk">/</c> ze moeten dienen voor <lb n="46" xml:id="l-46"/>dergelijke composities als die ik U nu zend. <lb n="47" xml:id="l-47"/>Ik zal echter nog door meer mislukkingen <lb n="48" xml:id="l-48"/>heen moeten. Want ik geloof dat bij aquarel <lb n="49" xml:id="l-49"/>het veel op groote handigheid en snelheid van <lb n="50" xml:id="l-50"/>werken aankomt. Men moet werken in het <lb n="51" xml:id="l-51"/>halfnatte om harmonie te krijgen en <lb n="52" xml:id="l-52"/>heeft dan niet veel tijd tot bezinnen<c type="kp">_</c>
+                </ab>
+                <lb n="53" xml:id="l-53"/>
+<ab rend="indent">Het komt dus niet op een stuksgewijs afmaken aan – <lb n="54" xml:id="l-54"/>neen – men moet zoo die 20 of 30 koppen <lb n="55" xml:id="l-55"/>haast in eens er achter elkaar opzetten<c type="kp">_</c>
+                </ab>
+                <lb n="56" xml:id="l-56"/>
+<ab rend="indent">Zie hier een paar <lb n="57" xml:id="l-57"/>aardige gezegden omtrent aquarelleeren<c type="kk">/</c> <lb n="58" xml:id="l-58"/>“l’aquarelle est quelque chose de diabolique”<c type="kk">/</c>
+                    <anchor n="4" xml:id="note-o-4"/> <lb n="59" xml:id="l-59"/>en het andere woord is van Whistler die zeide<c type="kk">/</c> <lb n="60" xml:id="l-60"/>ja ik heb dat in twee uur gedaan doch <lb n="61" xml:id="l-61"/>ik heb jaren gewerkt om zoo iets in twee uur <lb n="62" xml:id="l-62"/>te kunnen doen.–<anchor n="5" xml:id="note-o-5"/>
+                </ab>
+                <lb n="63" xml:id="l-63"/>
+<ab rend="indent">Genoeg dus hierover – ik houd genoeg van <lb n="64" xml:id="l-64"/>het aquarelleeren om het nooit geheel te laten<c type="kk">/</c> <lb n="65" xml:id="l-65"/>telkens zit ik er weer in te scharrelen<c type="kp">_</c>
+                </ab>
+                <lb n="66" xml:id="l-66"/>
+<ab rend="indent">Doch de grond van alles is figuurkennis<c type="kp">_</c> <lb n="67" xml:id="l-67"/>Zoo dat men de kerels en wijven en kinderen <lb n="68" xml:id="l-68"/>in alle mogelijke acties grif teekenen kan. <lb n="69" xml:id="l-69"/>Ik werk dus ’t meest daarop want ik meen <lb n="70" xml:id="l-70"/>niet dat men langs een anderen weg <lb n="71" xml:id="l-71"/>komen kan tot wat ik wil<c type="kp">_</c>
+                </ab>
+                <lb n="72" xml:id="l-72"/>
+<ab rend="indent">En ik zoek mij op te werken tot een <lb n="73" xml:id="l-73"/>hooger standpunt van kennis en handigheid, <lb n="74" xml:id="l-74"/>meer in ’t algemeen<c type="kk">/</c> dan wel dat ik mij <lb n="75" xml:id="l-75"/>bekommer om ’t afmaken van b.v. deze of gene <lb n="76" xml:id="l-76"/>schets. Als ik een maand geteekend heb maak ik eens een <lb n="77" xml:id="l-77"/>paar aquarellen b.v.<c type="kk">/</c> als bij wijze van het dieplood uitwerpen<c type="kk">/</c> <lb n="78" xml:id="l-78"/>ik zie dan telkens dat ik wel ’t een of ander gevonden heb doch er <lb n="79" xml:id="l-79"/>weer nieuwe bezwaren komen kijken. Ik begin dan op nieuw te <lb n="80" xml:id="l-80"/>ploeteren om die te boven te komen.</ab>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                <lb n="81" xml:id="l-81"/>
+<ab rend="indent">Betreffende de verf<c type="kk">/</c> die is werkelijk op <lb n="82" xml:id="l-82"/>en niet alleen dat maar door een en <lb n="83" xml:id="l-83"/>andere betrekkelijk groote uitgaven <lb n="84" xml:id="l-84"/>ben ik eer <lb n="85" xml:id="l-85"/>uitgemergeld dan à court.</ab>
+                <lb n="86" xml:id="l-86"/>
+<ab rend="indent">Het voorjaar komt aan en ik zou wel <lb n="87" xml:id="l-87"/>weer eens wat willen schilderen ook<c type="kp">_</c> <lb n="88" xml:id="l-88"/>Dus ligt het voor een zeker deel daaraan <lb n="89" xml:id="l-89"/>dat ik nu op ’t moment niet aquarelleer. <lb n="90" xml:id="l-90"/>Doch ik ben er niet te min indirect steeds aan <lb n="91" xml:id="l-91"/>bezig en door de verandering van het atelier<c type="kk">/</c> <lb n="92" xml:id="l-92"/>nu ik meer effekten van clair obscur zal <lb n="93" xml:id="l-93"/>kunnen bestudeeren<c type="kk">/</c> zal ik ook in Black &amp; white <lb n="94" xml:id="l-94"/>teekeningen hoe langer hoe meer met ’t penseel <lb n="95" xml:id="l-95"/>gaan werken en schaduwen en vlakke tinten<anchor n="6" xml:id="note-o-6"/> <lb n="96" xml:id="l-96"/>er in wasschen met neutral tint<c type="kk">/</c> sepia<c type="kk">/</c> OI inkt<c type="kk">/</c> <lb n="97" xml:id="l-97"/>Cassels aarde<c type="kk">/</c>
+                    <anchor n="7" xml:id="note-o-7"/> en lichten uithalen met chineesch wit<c type="kp">_</c> </ab>
+                <lb n="98" xml:id="l-98"/>
+<ab rend="indent">Herinnert ge U mij verl. zomer te hebben meegebragt <lb n="99" xml:id="l-99"/>stukjes bergkrijt? ik probeerde er toen mee te werken <lb n="100" xml:id="l-100"/>doch ’t ging niet. Zoo bleven een paar stukjes liggen <lb n="101" xml:id="l-101"/>die ik dezer dagen weer eens opnam; ingesloten een <lb n="102" xml:id="l-102"/>krabbel er mee gedaan<c type="kp">_</c>
+                    <anchor n="8" xml:id="note-o-8"/> ge ziet<c type="kk">/</c> het is een warm <lb n="103" xml:id="l-103"/>eigenaardig zwart. Ik zou erg graag hebben <lb n="104" xml:id="l-104"/>gij b.v. dezen zomer er nog wat van meebragt<c type="kk">/</c> <lb n="105" xml:id="l-105"/>’t heeft een groot avantage – de stevige <lb n="106" xml:id="l-106"/>stukken zijn veel prettiger om in de hand <lb n="107" xml:id="l-107"/>te hebben bij ’t schetsen dan een pijpje conté <lb n="108" xml:id="l-108"/>waar men geen houvast aan heeft en telkens <lb n="109" xml:id="l-109"/>breekt. Dus voor ’t buiten schetsen is het heerlijk.</ab>
+                <lb n="110" xml:id="l-110"/>
+<ab rend="indent">Enfin Kerel – het is moeielijk <lb n="111" xml:id="l-111"/>om alles te schrijven en Uw vraag <lb n="112" xml:id="l-112"/>over aquarel wilde ik niet in woorden <lb n="113" xml:id="l-113"/>alleen beantwoorden. Niet gaarne <lb n="114" xml:id="l-114"/>zou ik hebben iemand alleen deze schets van mij <lb n="115" xml:id="l-115"/>zag omdat ik in deze schets zelf niets <lb n="116" xml:id="l-116"/>goed vind dan het generaal aspect <lb n="117" xml:id="l-117"/>en met de figuren zelf zal worstelen tot ik er <lb n="118" xml:id="l-118"/>dat in krijg in aquarel ook wat ze in de lith<c type="kp">_</c> <lb n="119" xml:id="l-119"/>begonnen te krijgen<c type="kk">/</c> nl. meer teekening &amp; karakter. 
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                    <lb n="120" xml:id="l-120"/>Het is niet pleizierig schetsen te maken als de <lb n="121" xml:id="l-121"/>gezondene en dan niet ze af te kunnen krijgen<c type="kk">/</c> <lb n="122" xml:id="l-122"/>ik heb hier zelf zoo vreesselijk het land aan dat <lb n="123" xml:id="l-123"/>ik ze zeer spaarzaam maak<c type="kk">/</c> enkel bij wijze van <lb n="124" xml:id="l-124"/>eens te kijken of ik dit of dat gevonden heb en hoe <lb n="125" xml:id="l-125"/>ver ik er mee sta. Toch heb ik nu weer <lb n="126" xml:id="l-126"/>hoop en lust juist omdat ik weer een groot <lb n="127" xml:id="l-127"/>aantal studies achter den rug heb.</ab>
+                <lb n="128" xml:id="l-128"/>
+<ab rend="indent">Ik denk dat de verandering van ’t atelier <lb n="129" xml:id="l-129"/>mij een stoot zal geven vooruit<c type="kk">/</c> niet den <lb n="130" xml:id="l-130"/>eersten dag maar als ik er eens een paar <lb n="131" xml:id="l-131"/>maanden mee gescharreld heb.</ab>
+                <lb n="132" xml:id="l-132"/>
+<ab rend="indent">Want dergelijke effekten als de gezonden aquarel <lb n="133" xml:id="l-133"/>kan ik nu voor een deel weerga’s goed thuis <lb n="134" xml:id="l-134"/>bestudeeren met modellen.</ab>
+<vg:whiteline/>
+                <figure facs="zone-sketch-1" n="A"/>
+<vg:whiteline/>
+                <lb n="135" xml:id="l-135"/>
+<ab>Ziehier de ramen van <lb n="136" xml:id="l-136"/>onderen digt gemaakt <lb n="137" xml:id="l-137"/>zoo dat het licht van <lb n="138" xml:id="l-138"/>boven op de groep <lb n="139" xml:id="l-139"/>figuren valt. <lb n="140" xml:id="l-140"/>Zóó kan ik ze <lb n="141" xml:id="l-141"/>op ’t atelier plaatsen <lb n="142" xml:id="l-142"/>en krijg dan b.v. <lb n="143" xml:id="l-143"/>de kantlichtjes boven <lb n="144" xml:id="l-144"/>op de figuren. <lb n="145" xml:id="l-145"/>Zooals op de aquarel. <lb n="146" xml:id="l-146"/>Ik heb hier reeds <lb n="147" xml:id="l-147"/>naar gezocht met <lb n="148" xml:id="l-148"/>den weesman<c type="kk">/</c> de vrouw en de kinderen – ik krijg <lb n="149" xml:id="l-149"/>
+                    <hi rend="ital">prachtige</hi> dingen. Lust om ze te maken <lb n="150" xml:id="l-150"/>mankeert me niet maar ik prepareer me <lb n="151" xml:id="l-151"/>op nieuwe mislukkingen die echter hoop <lb n="152" xml:id="l-152"/>ik <hi rend="ital">iets</hi> in zich zullen hebben dat maakt <lb n="153" xml:id="l-153"/>dat ze eer moed geven dan dat men er <lb n="154" xml:id="l-154"/>den moed door verliest<c type="kk">/</c> al zijn het mislukkingen.</ab>
+                <lb n="155" xml:id="l-155"/>
+<ab rend="indent">Van hetgeen gij zondt moest dadelijk een boel af en <lb n="156" xml:id="l-156"/>ik wou ge nog wat hadt, doch schik het zoo als ’t het <lb n="157" xml:id="l-157"/>beste uitkomt. ik heb zooveel werk nu dat ik varieeren <lb n="158" xml:id="l-158"/>kan zoo als ik wil. Ik verlang zeer naar Uw <lb n="159" xml:id="l-159"/>komst juist om U de studies te laten zien en <lb n="160" xml:id="l-160"/>over ’t werk te praten. adieu<c type="kk">/</c> nogmaals dank – <lb n="161" xml:id="l-161"/>met een handdruk<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="161*" xml:id="l-161s"/>
+<ab>t. à t.</ab>
+                <lb n="162" xml:id="l-162"/>
+<ab>Vincent</ab>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+<vg:whiteline/>
+                <lb n="163" xml:id="l-163"/>
+<ab>Het zijn zeer groote <lb n="164" xml:id="l-164"/>stukken bergkrijt <lb n="165" xml:id="l-165"/>die gij medebragt verl. <lb n="166" xml:id="l-166"/>jaar – <hi rend="ital">die</hi> zijn het die <lb n="167" xml:id="l-167"/>ik bedoel<c type="kk">/</c> juist door <lb n="168" xml:id="l-168"/>dat zij grooter zijn <lb n="169" xml:id="l-169"/>hoeft men geen <lb n="170" xml:id="l-170"/>teekenpen<anchor n="9" xml:id="note-o-9"/> te gebruiken<c type="kp">_</c>
+                </ab>
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>
+                <figure facs="zone-sketch-2" n="B"/>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-77" n="77">uitwerpen<c type="kk">/</c> &lt; uitwerken</note>
+<note target="l-163" targetEnd="l-170" n="163-170">Het <supplied>
+                            <hi rend="ital">...</hi>
+                        </supplied> gebruiken<c type="kp">_</c> &lt; <hi rend="ital">Van Gogh wrote the PS on the back of the envelope with the enclosed sketch.</hi>
+                    </note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo,</ab>
+<ab>Thanks for your letter and the enclosure.</ab>
+<ab rend="indent">The news about your <rs type="pers" key="508">patient</rs> seems to me most favourable, congratulations, I consider that the recovery from that anaemia is undoubtedly due to there truly being hope and zest for life in the heart once more as a result of her experiencing sympathy and goodness. </ab>
+<vg:whiteline/>
+<ab>The heart that is fainting</ab>
+<ab>May grow full to o’erflowing</ab>
+<ab>And they who behold it,</ab>
+                <ab> Shall wonder and know not</ab>
+                <ab> That God at its fountains,</ab>
+                <ab>Far off — has been raining.<anchor n="1" xml:id="note-t-1"/>
+                </ab>
+<vg:whiteline/>
+<ab>You will now have received, at least I sent it yesterday afternoon, a very rough sketch of a watercolour.<anchor n="2" xml:id="note-t-2"/> This in answer to your question about it. </ab>
+<ab rend="indent">Yet it wasn’t done just now. I began it a few months ago, and since then it has had a lick or two now and again. Has remained in a rough-hewn state, though. I’ve since done many studies, that is drawings, of figures and especially of heads too. Precisely with an eye to such scenes as this sketch depicts, in which the finishing consists of putting texture and character into the heads, hands and feet especially.</ab>
+<ab rend="indent">Why am I sending it? — because I believe that in it you can see more clearly than in a number of other sketches that I’ve done in watercolour that I see things in strong colours — fresh in a grey haze. However unfinished and deficient, here’s a part of the street of the kind I try to depict in the Geest district or the Jewish quarter.<anchor n="3" xml:id="note-t-3"/> This sketch isn’t a chance thing; I can get all kinds of scenes I see up to this level with this fairly expressive colour and tone. Now if you compare this sheet with the <hi rend="ital">lithographs</hi> and <hi rend="ital">drawings of heads</hi> sent this winter, you’ll clearly see from those various <hi rend="ital">failures</hi> what I’m aiming for. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>Those large studies of heads, for instance, of which I have many more with sou’westers, with shawls and white hats and top hats and caps, for example — they’re intended for compositions like the one I’m sending now. But I’ll have to get through still more failures. For I believe that with watercolour much depends on great dexterity and working quickly. One has to work in the half wet to obtain harmony, and there isn’t much time for second thoughts. </ab>
+<ab rend="indent">So it’s not a matter of finishing them one by one — no, one has to do those 20 or 30 heads practically at once, one after the other. </ab>
+<ab rend="indent">Here are a couple of nice sayings about watercolour. ‘There’s something diabolical about watercolour,’<anchor n="4" xml:id="note-t-4"/> and the other is by <rs type="pers" key="1444">Whistler</rs>, who said, yes, I did that in two hours, but I worked for years to be able to do it in two hours.<anchor n="5" xml:id="note-t-5"/>
+                </ab>
+<ab rend="indent">So enough about this — I like watercolour enough never to abandon it completely, I mess about with it constantly. </ab>
+<ab rend="indent">But the basis for everything is knowledge of the figure. So that one can readily draw fellows and females and children in every possible action. I’m working mostly on that, for I don’t think one can get to what I want by another route. </ab>
+<ab rend="indent">And I try to raise myself to a higher standard of expertise and skill, more in general rather than worrying about finishing a particular sketch, say. When I’ve been drawing for a month I do a few watercolours, for instance, by way of throwing out the sounding lead. Then each time I see that I’ve found a thing or two but that new difficulties have arisen. I then start slogging away once more to overcome them. 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/>
+                </ab>
+<ab rend="indent">As to the paint, it really is finished, and what’s more, because of one or two fairly heavy expenditures, I’m starving rather than just hard up. </ab>
+<ab rend="indent">Spring is coming and I’d like to do some painting again. So that is in part why I’m not watercolouring at the moment. But nonetheless I’m working on it indirectly, and because of the changes to the studio, now that I’ll be able to study more chiaroscuro effects, I’ll also increasingly work with the brush in Black and White drawings too, and put in shadows and even tints<anchor n="6" xml:id="note-t-6"/> in washes with a neutral tint, sepia, indian ink and Cassel earth,<anchor n="7" xml:id="note-t-7"/> and heighten lights with Chinese white. </ab>
+<ab rend="indent">Do you remember bringing me pieces of natural chalk last summer? I tried to work with it then but couldn’t. So I was left with a few pieces that I took up again these past few days; enclosed a scratch done with it.<anchor n="8" xml:id="note-t-8"/> As you see, it’s a warm, unusual black. I’d very much like you to bring some more, this summer say. It has one great advantage — the firm pieces are much easier to hold while sketching than a thin stick of conté, which has nothing to grip and breaks all the time. So it’s marvellous for sketching out of doors. </ab>
+<ab rend="indent">Well, old chap — hard to put everything in words, and I didn’t want to answer your question about watercolour in words alone. I shouldn’t like anyone to see just this sketch, because I myself find nothing good in it apart from the general appearance, and will go on wrestling with the figures until I get into them in watercolour what they were beginning to get in the lithograph, namely more texture and character. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> It’s not pleasant to do sketches like the enclosed and then be unable to finish them. I hate this so much myself that I do them very rarely, purely to see whether I’ve found this or that and how far I’ve got. But I have hope and interest again now precisely because I have a large number of studies behind me. </ab>
+<ab rend="indent">I think the changes to the studio will give me a push forwards, not the first day but when I’ve fiddled about with things for a few months. </ab>
+<ab rend="indent">Because now, using models at home, I can study some of the effects like those in the watercolour I sent deuced well. </ab>
+<vg:whiteline/>
+<ab>
+                    <figure facs="zone-sketch-1" n="A"/>
+                </ab>
+<vg:whiteline/>
+<ab>Here are the windows with the bottom part closed off so that the light falls on the group of figures from above. I can position them like this in the studio, and then get the glancing lights, say, on the figures from above. As in the watercolour. I’ve already sought this with the orphan man, the <rs type="pers" key="463">woman</rs> and the <rs type="pers" key="466 467">children</rs> — I’m getting <hi rend="ital">splendid</hi> things. There’s no lack of desire on my part to make them, but I’m preparing myself for new failures which I hope, however, will have <hi rend="ital">something</hi> in them that gives encouragement rather than making one lose hope, even if they are failures. </ab>
+<ab rend="indent">A lot of what you sent was immediately gone and I wish you had some more, but decide what suits you best. I have so much work now that I can vary it as I please. I long for you to come, specifically so that I can show you the studies and talk about the work. Adieu, thanks again — with a handshake.</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<ab>
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/>
+                </ab>
+<ab>They were very big pieces of natural chalk you brought last year — <hi rend="ital">those</hi> are what I mean: precisely because they’re bigger, one needn’t use a holder.<anchor n="9" xml:id="note-t-9"/>
+                </ab>
+<vg:whiteline/>
+<ab>
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/>
+                </ab>
+<ab>
+                    <figure facs="zone-sketch-2" n="B"/>
+                </ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>For this quotation from <rs type="pers" key="696">Longfellow</rs>’s ‘<rs type="lit" key="87">The saga of king Olaf</rs>’, <ref target="let092.xml#n-1">see letter 92, n. 1.</ref>
+                    </ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>This was probably <hi rend="ital">Diggers in Schenkweg</hi> (<rs type="ill" key="2381">F 927 / JH 161</rs>). <ref target="let306.xml#n-4">See letter 306, n. 4.</ref>
+                    </ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>The Jewish quarter was in the centre of The Hague, around the Nieuwe Kerk on Spui. See exhib. cat. The Hague 1990, pp. 45, 54.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>For this quotation, cited in a broader context, <ref target="let200.xml#n-1">see letter 200, n. 1.</ref>
+                    </ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>During the libel action that <rs type="pers" key="1444">James Whistler</rs> brought against John Ruskin in 1878 the following exchange took place between the artist and Sir John Holker, representing Ruskin: ‘How long did you take to knock off one of your pictures?’ Whistler: ‘Oh, I ‘<hi rend="ital">knock one off’</hi> possibly in a couple of days. One day to do the work and another to finish it.’ Holker: ‘The labour of two days is that for which you ask two hundred guineas?’ ‘No, I ask it for a knowledge I have gained in the work of a lifetime.’ The case attracted considerable attention and a great deal was written about it. At the end of December 1878 Whistler published a pamphlet on it; a caricature appeared in <hi rend="ital">Punch</hi> (7 December 1878). See Ronald Anderson and Anne Koval, <hi rend="ital">James McNeill Whistler. Beyond the myth.</hi> London 1994, pp. 215-225, 490-491 (quotation on p. 219). In Van Gogh’s version Whistler’s reply is even more brazen: he speaks of two <hi rend="ital">hours</hi> instead of two <hi rend="ital">days</hi>. </ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>Initially Van Gogh wrote ‘tones’, not ‘tints’.</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>‘Cassel earth’ is a brown pigment.</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>
+      <hi rend="ital">Five men and a child in the snow</hi> (<rs type="sketch" key="79">F - / JH 323</rs>). Natural chalk is a hard, black kind of chalk. To be quite specific, Van Gogh again noted on the back of the sketch what he meant. We have placed this note at the end of the letter as a postscript. On the sketch: cat. Amsterdam 1996, pp. 208-210, cat. no. 59.</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>The holder (‘teekenpen’) gripped the sticks of natural chalk, making them easier to work with. </ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

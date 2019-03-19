@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. The Hague, Friday, 26 or Saturday, 27 January 1883.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let305"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">305</idno>
+<idno type="collectedletters">262</idno>
+<idno type="brieven1990">307</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>The Hague</vg:placeLet>
+                        <vg:dateLet>Friday, 26 or Saturday, 27 January 1883</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. The Hague, Friday, 26 or Saturday, 27 January 1883.</p>
+<note type="ongoingTopic" n="1">
+<p>Theo’s love for the ailing Marie <ref target="let300.xml">(300)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="2">
+<p>Van Rappard’s illness <ref target="let290.xml">(290)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b284 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Van Gogh writes: ‘We’ve had <hi rend="ital">snow</hi> here again that’s now melting ... Today, while the snow melts’ <ref target="#l-140">(ll. 140-144)</ref>. On Thursday, 25 January it was freezing and snow fell, after which from Friday the temperature rose above zero. So the letter must have been written on that Friday, 26 or on Saturday, 27 January 1883. </p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0284" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000353_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000353_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000353_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000353_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000353_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000353_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="VGM001000353_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000353_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000353_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0284" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000353_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000353_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000353_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000353_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000353_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000353_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000353_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000353_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000353_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Waarde Theo.</ab>
+                <lb n="1*" xml:id="l-1s"/>
+<ab>Hoe meer ik er mijn gedachten over laat gaan hoe <lb n="2" xml:id="l-2"/>dieper den indruk wordt die Uw laatste schrijven op me maakte<c type="kp">_</c> <lb n="3" xml:id="l-3"/>In ’t groot beschouwd (daargelaten verschil tusschen de beide <lb n="4" xml:id="l-4"/>personen in kwestie) is U en mij op een koud<c type="kk">/</c> onbarmhartig <lb n="5" xml:id="l-5"/>trottoir een somber<c type="kk">/</c> droevig vrouwenfiguur verschenen <lb n="6" xml:id="l-6"/>en noch gij noch ik zijn voorbijgeloopen maar beiden stonden <lb n="7" xml:id="l-7"/>we stil en volgden de inspraak van ons menschenhart. <lb n="8" xml:id="l-8"/>Zoo’n ontmoeting heeft iets van eene verschijning<c type="kk">/</c> <lb n="9" xml:id="l-9"/>althans als men terugdenkt ziet men een bleek gelaat<c type="kk">/</c>
+                    <lb n="10" xml:id="l-10"/> een droevigen blik als een <hi rend="ital">Ecce Homo</hi>
+                    <anchor n="1" xml:id="note-o-1"/> <lb n="11" xml:id="l-11"/>op een donkeren achtergrond<c type="kk">/</c> al het andere verdwijnt. Dat is het sentiment <lb n="12" xml:id="l-12"/>van een Ecce Homo en in werkelijkheid<c type="kk">/</c> het zelfde is er in <lb n="13" xml:id="l-13"/>de expressie maar hier is ’t een vrouwengelaat<c type="kp">_</c>–</ab>
+                <lb n="14" xml:id="l-14"/>
+<ab rend="indent">Later – ’t wordt bepaald anders – toch<c type="kk">/</c> dat <lb n="15" xml:id="l-15"/>eerste vergeet men ook niet.</ab>
+                <lb n="16" xml:id="l-16"/>
+<ab rend="indent">Onder een Engelsch vrouwenfiguurtje (van Paterson) <lb n="17" xml:id="l-17"/>staat den naam <hi rend="ital">Dolorosa</hi>
+                    <c type="kk">/</c> dat drukt het zoowat uit<c type="kp">_</c>
+                    <anchor n="2" xml:id="note-o-2"/> <lb n="18" xml:id="l-18"/>Ik denk aan de twee vrouwen nu <lb n="19" xml:id="l-19"/>en tegelijk dacht ik aan eene teekening van <hi rend="ital">Pinwell,</hi> <lb n="20" xml:id="l-20"/>
+                    <hi rend="ital">The sisters</hi>,<anchor n="3" xml:id="note-o-3"/> waarin ik dat “Dolorosa” vind<c type="kp">_</c>
+                </ab>
+                <lb n="21" xml:id="l-21"/>
+<ab rend="indent">Die teekening stelt voor twee vrouwen in ’t zwart in <lb n="22" xml:id="l-22"/>een donker vertrek. De eene is juist t’huisgekomen <lb n="23" xml:id="l-23"/>en hangt haar mantel aan den kapstok. De andere<c type="kk">/</c> <lb n="24" xml:id="l-24"/>terwijl zij een wit naaiwerk opneemt<c type="kk">/</c> ruikt even <lb n="25" xml:id="l-25"/>aan een primulaveris die op tafel staat.</ab>
+                <lb n="26" xml:id="l-26"/>
+<ab rend="indent">Die <hi rend="ital">Pinwell</hi> is iemand die iets heeft van Feyen <lb n="27" xml:id="l-27"/>Perrin – in zijn vroegeren tijd – zijn werk doet ook <lb n="28" xml:id="l-28"/>denken aan Thijs Maris doch met een reiner gevoel nog<c type="kp">_</c> <lb n="29" xml:id="l-29"/>Hij was dichter<c type="kk">/</c> zoo sterk als maar mogelijk is<c type="kk">/</c> hij <lb n="30" xml:id="l-30"/>zag het sublieme in de meest gewone<c type="kk">/</c> alledaagsche dingen. <lb n="31" xml:id="l-31"/>Zijn werk is zeldzaam<c type="kk">/</c> ik zag maar weinig van hem <lb n="32" xml:id="l-32"/>doch dat weinige was zóó mooi dat nu na 10 jaar <lb n="33" xml:id="l-33"/>minstens het mij nog even duidelijk is bijgebleven als toen <lb n="34" xml:id="l-34"/>ik voor ’t eerst er kennis mee maakte.</ab>
+                <lb n="35" xml:id="l-35"/>
+<ab rend="indent">Toen in der tijd zeide men van die club teekenaars <lb n="36" xml:id="l-36"/>“<hi rend="ital">it is too good to last</hi>”<c type="kk">/</c> aan Herkomers woorden <lb n="37" xml:id="l-37"/>ziet ge dat dit helaas wel is uitgekomen<anchor n="4" xml:id="note-o-4"/> <lb n="38" xml:id="l-38"/>maar ’t is nog niet dood en zoowel op gebied <lb n="39" xml:id="l-39"/>van litteratuur als van kunst zal men moeielijk eene <lb n="40" xml:id="l-40"/>betere opvatting vinden dan die van toen.</ab>
+                <lb n="41" xml:id="l-41"/>
+<ab rend="indent">Ik heb dikwijls om verschillende redenen het land gehad <lb n="42" xml:id="l-42"/>in Engeland maar <hi rend="ital">dat</hi>
+                    <c type="kk">/</c> de Black &amp; White en Dickens<c type="kk">/</c> <lb n="43" xml:id="l-43"/>zijn zaken die alles goed maken.</ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/> <lb n="44" xml:id="l-44"/>
+<ab rend="indent">Ik denk dat Uwe ontmoeting met deze vrouw alligt <lb n="45" xml:id="l-45"/>Uwe gedachten dikwijls terug zal voeren tot het <lb n="46" xml:id="l-46"/>tijdvak van een jaar of 10 of 20 zelfs geleden of <lb n="47" xml:id="l-47"/>nog verder terug. Enfin ik bedoel<c type="kk">/</c> gij zult U zelf <lb n="48" xml:id="l-48"/>terugvinden in haar – een stuk van Uw leven dat ge <lb n="49" xml:id="l-49"/>haast vergeten hadt – n.l. het vroegere<c type="kk">/</c> en <lb n="50" xml:id="l-50"/>’k weet niet of<c type="kk">/</c> als ge een jaar met haar geweest zult zijn<c type="kk">/</c> gij het tegenwoordige met dezelfde <lb n="51" xml:id="l-51"/>oogen zult zien als b.v. vòòr gij haar kendet.</ab>
+                <lb n="52" xml:id="l-52"/>
+<ab rend="indent">Ik spreek overeenkomstig eigen ervaring – niet dat <lb n="53" xml:id="l-53"/>ik alles afkeur van tegenwoordig, dat zij verre, maar toch<c type="kk">/</c> <lb n="54" xml:id="l-54"/>’t komt me voor er iets van vroeger dat goed was <lb n="55" xml:id="l-55"/>en had behooren te blijven<c type="kk">/</c> weggaat – in kunst <lb n="56" xml:id="l-56"/>meer bepaaldelijk. ook in het leven zelf evenwel.</ab>
+                <lb n="57" xml:id="l-57"/>
+<ab rend="indent">Misschien is dit een en ander te vaag uitgedrukt <lb n="58" xml:id="l-58"/>maar ik kan ’t niet anders zeggen – ’k weet <lb n="59" xml:id="l-59"/>zelf niet precies wat het is maar ’t is niet de <lb n="60" xml:id="l-60"/>Black &amp; White alleen die van rigting veranderde <lb n="61" xml:id="l-61"/>en afweek van het gezonde<c type="kk">/</c> nobele begin<c type="kp">_</c>
+                </ab>
+                <lb n="62" xml:id="l-62"/>
+<ab rend="indent">Veeleer is er over ’t algemeen een soort van <lb n="63" xml:id="l-63"/>scepticisme en onverschilligheid en koude<c type="kk">/</c> heerschende <lb n="64" xml:id="l-64"/>ondanks alle bedrijvigheid.</ab>
+                <lb n="65" xml:id="l-65"/>
+<ab rend="indent">Doch dit alles is te vaag en te onbestemd<c type="kp">_</c>– <lb n="66" xml:id="l-66"/>Ik denk er ook niet heel veel over aangezien <lb n="67" xml:id="l-67"/>ik aan mijn teekeningen denk en geen tijd <lb n="68" xml:id="l-68"/>heb er me in te verdiepen.</ab>
+                <lb n="69" xml:id="l-69"/>
+<ab rend="indent">Ben nog steeds aan koppen bezig deze week<c type="kk">/</c> <lb n="70" xml:id="l-70"/>vrouwenkoppen vooral – met zakken o.a.<anchor n="5" xml:id="note-o-5"/>
+                </ab>
+                <lb n="71" xml:id="l-71"/>
+<ab rend="indent">Hebt gij wel eens iets gezien van <hi rend="ital">Boyd Houghton</hi>
+                    <c type="kk">/</c> <lb n="72" xml:id="l-72"/>dat is er een uit ’t begin van de Graphic die <lb n="73" xml:id="l-73"/>ofschoon weinig bekend (hij is nu reeds dood) zijn <lb n="74" xml:id="l-74"/>eigenaardige plaats in neemt.</ab>
+                <lb n="75" xml:id="l-75"/>
+<ab rend="indent">Ik dacht aan hem toen gij eens schreeft over de <lb n="76" xml:id="l-76"/>
+                    <hi rend="ital">Barricade van Daumier</hi>.<anchor n="6" xml:id="note-o-6"/> Hij heeft ook in der <lb n="77" xml:id="l-77"/>tijd de Parijsche petroleuses en barricades gemaakt<c type="kp">_</c>
+                    <anchor n="7" xml:id="note-o-7"/> <lb n="78" xml:id="l-78"/>Maar later ging hij naar America en ik ken <lb n="79" xml:id="l-79"/>o.a<c type="kp">_</c> teekeningen van kwakers van hem<anchor n="8" xml:id="note-o-8"/> en <lb n="80" xml:id="l-80"/>eene kerk van de Mormonen,<anchor n="9" xml:id="note-o-9"/> en indiaansche <lb n="81" xml:id="l-81"/>vrouwen<anchor n="10" xml:id="note-o-10"/> &amp;c. en landverhuizers<c type="kp">_</c>
+                    <anchor n="11" xml:id="note-o-11"/>
+                </ab>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                <lb n="82" xml:id="l-82"/>
+<ab rend="indent">In zoo’n barricade scene b.v. kan hij <lb n="83" xml:id="l-83"/>iets spookachtigs hebben of liever iets mysterieus <lb n="84" xml:id="l-84"/>als <hi rend="ital">Goya</hi>. Op die wijs<c type="kk">/</c> n.l. dat Goya achtige<c type="kk">/</c> <lb n="85" xml:id="l-85"/>behandelde hij ook de Amerikaansche sujetten<c type="kk">/</c> <lb n="86" xml:id="l-86"/>maar dan loopt er soms in eens iets onder <lb n="87" xml:id="l-87"/>door dat door een verbazende soberheid <lb n="88" xml:id="l-88"/>aan Meryon doet denken.</ab>
+                <lb n="89" xml:id="l-89"/>
+<ab rend="indent">De houtsneden van hem zouden haast voor <lb n="90" xml:id="l-90"/>etsen kunnen doorgaan.</ab>
+                <lb n="91" xml:id="l-91"/>
+<ab rend="indent">
+                    <hi rend="ital">Too good to last</hi> zegt de wereld<c type="kk">/</c>
+                    <anchor n="a" xml:id="note-o-a"/> <lb n="92" xml:id="l-92"/>maar juist daarom omdat het zeldzaam is<c type="kk">/</c> <lb n="93" xml:id="l-93"/>
+                    <hi rend="ital">blijft</hi> het goede<c type="kp">_</c> Niet iederen dag wordt het <lb n="94" xml:id="l-94"/>voortgebragt – nooit zal het op fabrieks<c type="shy">-</c>
+                    <lb n="95" xml:id="l-95"/>wijs verkregen worden maar wat er van is <lb n="96" xml:id="l-96"/>dat is er van en dat gaat niet weg maar dat <lb n="97" xml:id="l-97"/>blijft. En komt er later een ander soort van goeds <lb n="98" xml:id="l-98"/>zoo blijft toch het eerste zijne waarde houden<c type="kp">_</c> <lb n="99" xml:id="l-99"/>Zoodat ik meen dat men niet moet treuren omdat <lb n="100" xml:id="l-100"/>dit of dat niet algemeen wordt<c type="kk">/</c> ook al wordt het niet algemeen<c type="kk">/</c> <lb n="100a" xml:id="l-100a"/>wat er eenmaal is van het goede of schoone dat is er toch.</ab>
+                <lb n="101" xml:id="l-101"/>
+<ab rend="indent">Hoe gaat het toch tegenwoordig met de etsen <lb n="102" xml:id="l-102"/>die <hi rend="ital">Cadart</hi> in der tijd begon.<anchor n="12" xml:id="note-o-12"/> Is dat ook zoo als van <lb n="103" xml:id="l-103"/>Too good to last gebleken te zijn.</ab>
+                <lb n="104" xml:id="l-104"/>
+<ab rend="indent">’k Weet wel dat er ook heden veel en mooie etsen <lb n="105" xml:id="l-105"/>uitkomen. Maar ik bedoel de oude series <lb n="106" xml:id="l-106"/>Societé des aquafortistes waar les deux freres <lb n="107" xml:id="l-107"/>van Feyen Perrin<anchor n="13" xml:id="note-o-13"/> in staat en de Parc à moutons van Daubigny<anchor n="14" xml:id="note-o-14"/> en de Bracquemonds<anchor n="15" xml:id="note-o-15"/> <lb n="108" xml:id="l-108"/>en zooveel anderen<c type="kk">/</c> zijn die in hun kracht <lb n="109" xml:id="l-109"/>gebleven of zijn ze verslapt.</ab>
+                <lb n="110" xml:id="l-110"/>
+<ab rend="indent">Al waren ze verslapt<c type="kk">/</c> dat wat er van <lb n="111" xml:id="l-111"/>is<c type="kk">/</c> heeft dat niet reeds corps genoeg om <lb n="112" xml:id="l-112"/>altijd te blijven<c type="kk">/</c> en vervult dus niet <lb n="113" xml:id="l-113"/>betrekkelijk het woord too good to last.</ab>
+                <lb n="114" xml:id="l-114"/>
+<ab rend="indent">Wat de etsnaald vermag toonden Daubigny<c type="kk">/</c> Millet<c type="kk">/</c> <lb n="115" xml:id="l-115"/>Feyen Perrin<c type="kk">/</c> zooveel anderen<c type="kk">/</c> even als de Graphic &amp;c. <lb n="116" xml:id="l-116"/>toonde wat de Black &amp; White vermogt.</ab>
+                <lb n="117" xml:id="l-117"/>
+<ab rend="indent">En dit bestaat als waarheid eens en voor altijd en <lb n="118" xml:id="l-118"/>steeds kan wie wil er energie uit putten<c type="kp">_</c>
+                </ab>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                <lb n="119" xml:id="l-119"/>
+<ab rend="indent">’t Jammere zit hem gedeeltelijk daarin dat als verschillende <lb n="120" xml:id="l-120"/>personen zamen een zelfde zaak liefhebben en er aan <lb n="121" xml:id="l-121"/>werken<c type="kk">/</c> door eendragt magt ontstaat en zij vereenigd <lb n="122" xml:id="l-122"/>meer kunnen dan hun verschillende energies<c type="kk">/</c> elk <lb n="123" xml:id="l-123"/>in afzonderlijke rigting strevende<c type="kk">/</c> vermogen.</ab>
+                <lb n="124" xml:id="l-124"/>
+<ab rend="indent">Men versterkt elkaar als men zamen werkt en <lb n="125" xml:id="l-125"/>er vormt zich een geheel zonder dat de zamenwerking <lb n="126" xml:id="l-126"/>de persoonlijkheid hoeft uit te wisschen<c type="kp">_</c>
+                </ab>
+                <lb n="127" xml:id="l-127"/>
+<ab rend="indent">Ik wou daarom dat Rappard maar weer geheel <lb n="128" xml:id="l-128"/>beter was<c type="kp">_</c>– We werken wel niet eigentlijk zamen <lb n="129" xml:id="l-129"/>maar over veel kwesties hebben we toch dezelfde <lb n="130" xml:id="l-130"/>gedachten. Hij is wel aan ’t beter worden en <lb n="131" xml:id="l-131"/>wij zijn al weer aan ’t scharrelen met houtsneden zamen<c type="kp">_</c> <lb n="132" xml:id="l-132"/>Doch ik heb altijd hoop dat we zamen nog meer <lb n="133" xml:id="l-133"/>zullen vrienden worden dan tot heden en misschien <lb n="134" xml:id="l-134"/>later zamen eens de mijnwerkers zullen bezoeken <lb n="135" xml:id="l-135"/>of zoo iets. Maar voor ’t moment geloof ik zoowel hij als <lb n="136" xml:id="l-136"/>ik zelf vooral moeten ons best doen op grondige studie van ’t figuur<c type="kk">/</c> <lb n="137" xml:id="l-137"/>hoe meer men dat in zijn magt heeft hoe bereikbaarder worden <lb n="138" xml:id="l-138"/>zulke plannen. Hij zegt dat hij koorts gehad heeft<c type="kk">/</c> meer niet<c type="kk">/</c> <lb n="139" xml:id="l-139"/>en nog zwak is<c type="kk">/</c> maar over zijn ziekte laat hij zich weinig uit<c type="kp">_</c>
+                </ab>
+                <lb n="140" xml:id="l-140"/>
+<ab rend="indent">We hebben hier weer <hi rend="ital">sneeuw</hi> gehad die op ’t moment aan ’t dooijen <lb n="141" xml:id="l-141"/>is. Erg mooi<c type="kk">/</c> dat dooiweer. Ik stel mij zoo voor dat deze lente voor <lb n="142" xml:id="l-142"/>U wel eens buitengewoon heerlijk kan zijn. Schrijf spoedig eens hoe <lb n="143" xml:id="l-143"/>het gaat met Uw patient. Nu<c type="kk">/</c> ik zal ook wel van de lente <lb n="144" xml:id="l-144"/>genieten. Vandaag terwijl de sneeuw smelt voelt men <lb n="145" xml:id="l-145"/>de lente als ’t ware uit de verte.</ab>
+                <lb n="146" xml:id="l-146"/>
+<ab rend="indent">’k denk we als gij komt vroeger of later wel een echt <lb n="147" xml:id="l-147"/>dagje zullen hebben. Misschien zult gij het wel met mij eens <lb n="148" xml:id="l-148"/>zijn dat in dagen van zorg zooals ge nu door haar ziekte zeer <lb n="149" xml:id="l-149"/>zeker hebben zult<c type="kk">/</c> men toch het best de poezij van de dingen voelen kan<c type="kp">_</c> <lb n="150" xml:id="l-150"/>Ik verlang wel naar de lente om eens door te waaijen van het werken <lb n="151" xml:id="l-151"/>t’huis<c type="kk">/</c> waar ik wel wat mat van geworden ben.</ab>
+                <lb n="152" xml:id="l-152"/>
+<ab rend="indent">Erg blij blijf ik met mijn zuidwester. ’k ben nieuwsgierig <lb n="153" xml:id="l-153"/>of ge iets goeds in de visscherskoppen vinden zult.<anchor n="16" xml:id="note-o-16"/> <lb n="154" xml:id="l-154"/>De laatste die ik maakte deze week was van een kerel <lb n="155" xml:id="l-155"/>met witten ringbaard<c type="kp">_</c>
+                    <anchor n="17" xml:id="note-o-17"/>
+                </ab>
+                <lb n="156" xml:id="l-156"/>
+<ab rend="indent">Van dien <hi rend="ital">Boyd Houghton</hi> ken ik eene teekening die <lb n="157" xml:id="l-157"/>hij noemt “my models”<c type="kk">/</c> voorstellende een gang <lb n="158" xml:id="l-158"/>waar eenige invaliden – een op krukken<c type="kk">/</c> een blinde<c type="kk">/</c> een <lb n="159" xml:id="l-159"/>straatjongen &amp;c. – op kerstdag een schilder komen bezoeken<c type="kp">_</c>
+                    <anchor n="18" xml:id="note-o-18"/> <lb n="160" xml:id="l-160"/>Er is in den omgang met die modellen iets aardigs – men leert <lb n="161" xml:id="l-161"/>veel van hen – ik heb dezen winter lui gehad die mij wel steeds <lb n="162" xml:id="l-162"/>in herinnering zullen blijven. ’k vind het een aardig woord van Eduard Frere <lb n="163" xml:id="l-163"/>dat hij zijn modellen zóó aangehouden had dat “<hi rend="ital">celles qui posaient dans le temps</hi> <lb n="164" xml:id="l-164"/>
+                    <hi rend="ital">pour les bébés posent maintenant pour les mères</hi>”<c type="kp">_</c>
+                    <anchor n="19" xml:id="note-o-19"/> Nu adieu Theo<c type="kk">/</c> schrijf spoedig<c type="kp">_</c> <lb n="165" xml:id="l-165"/>’t beste U van harte toegewenscht<c type="kp">_</c> geloof me<c type="kk">/</c> met een handdruk</ab>
+<vg:whiteline/>
+                <lb n="165*" xml:id="l-165s"/>
+<ab>t. à t<c type="kp">_</c>
+                </ab>
+                <lb n="166" xml:id="l-166"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-11" n="11">(al <supplied>
+                            <hi rend="ital">...</hi>
+                        </supplied> verdwijnt) &lt; <hi rend="ital">Added later; parentheses added by us.</hi>
+                    </note>
+<note target="l-159" n="159">&amp;c. – &lt; &amp;c.</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo.</ab>
+<ab>The more I reflect upon it, the deeper the impression made on me by your last letter. In broad outline (leaving aside the difference between the two people in question), on a cold, merciless pavement a sombre, sorrowful figure of a woman appeared before you and before me, and neither you nor I passed her by, but both of us stopped and followed the promptings of our human heart. Such an encounter has something of an apparition about it, at least if one thinks back one sees a pale face, a sorrowful look like an <hi rend="ital">Ecce Homo</hi>
+                    <anchor n="1" xml:id="note-t-1"/> against a dark background; everything else disappears. That is the sentiment of an Ecce Homo and in reality; the same thing is in the expression, but here it’s a woman’s face. </ab>
+<ab rend="indent">Later — things are definitely different — but one doesn’t forget that first moment. </ab>
+<ab rend="indent">Below an English figure of a woman (by <rs type="pers" key="1255">Paterson</rs>) is the name <hi rend="ital">Dolorosa</hi>, which pretty well expresses it.<anchor n="2" xml:id="note-t-2"/> I’m thinking of the two women now, and at the same time I thought of a drawing by <hi rend="ital">
+                        <rs type="pers" key="1269">Pinwell</rs>
+                    </hi>, <hi rend="ital">The sisters</hi>,<anchor n="3" xml:id="note-t-3"/> in which I find that ‘Dolorosa’.</ab>
+                <ab rend="indent"> That drawing shows two women in black in a dark room. One has just come home and is hanging her coat on the hatstand. The other briefly smells a primrose on the table while picking up a white piece of needlework. </ab>
+<ab rend="indent">That <hi rend="ital">
+                        <rs type="pers" key="1269">Pinwell</rs>
+                    </hi> is reminiscent of <rs type="pers" key="1022">Feyen-Perrin</rs> — in his earlier period — his work also recalls <rs type="pers" key="1202">Thijs Maris</rs>, but with a yet purer feeling. He was a poet, as strong as could be, he saw the sublime in the most ordinary, everyday things. His work is rare, I saw little by him, but that little was so beautiful that now, 10 years later, it has remained just as clear in my mind as when I first became acquainted with it. </ab>
+<ab rend="indent">At that time it was said of that group of draughtsmen ‘<hi rend="ital">It’s too good to last</hi>’. You can see from <rs type="pers" key="1080">Herkomer</rs>’s words that sadly this has proved to be right,<anchor n="4" xml:id="note-t-4"/> but it isn’t dead yet, and in both literature and art it will be difficult to find a better attitude than the one from those days. </ab>
+<ab rend="indent">I often felt low in England for various reasons but <hi rend="ital">those</hi>, the Black and White and <rs type="pers" key="580">Dickens</rs>, are things that make up for it all.
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">I think your meeting with this <rs type="pers" key="508">woman</rs> is likely to take your thoughts back many times to the period 10 or even 20 years ago, or still further back. In short, I mean you will rediscover yourself in her, a part of your life that you had almost forgotten, namely the past, and I don’t know whether, when you’ve been with her for a year, you’ll see the present through the same eyes as, for instance, before you knew her. </ab>
+<ab rend="indent">I speak from my own experience, not that I reject everything to do with the present day, far from it, but still it seems to me that something from the past that was good and should have been kept is going, in art particularly, but also in life itself. </ab>
+<ab rend="indent">Perhaps I’m expressing things too vaguely, but I can’t put it another way — I don’t know myself what it is exactly, but it wasn’t only the Black and White that changed direction and strayed from the healthy, noble beginnings. </ab>
+<ab rend="indent">Rather, in general a kind of scepticism and indifference and coldness prevails, despite all the activity. </ab>
+<ab rend="indent">But all this is too vague and ill-defined. I don’t think about it all that much in fact, because I’m thinking about my drawings and have no time to go into it. </ab>
+<ab rend="indent">Still busy with heads this week, women’s heads mainly — with bags, among other things.<anchor n="5" xml:id="note-t-5"/> </ab>
+<ab rend="indent">Have you ever seen anything by <hi rend="ital">
+                        <rs type="pers" key="1109">Boyd Houghton</rs>
+                    </hi>? He is one from the beginning of The Graphic who, though little known (he’s now dead), occupies a place of his own. </ab>
+<ab rend="indent">I thought of him when you wrote about the <hi rend="ital">Barricade by <rs type="pers" key="977">Daumier</rs>
+                    </hi>.<anchor n="6" xml:id="note-t-6"/> At the time he also did the pétroleuses and barricades in Paris.<anchor n="7" xml:id="note-t-7"/> But later on he went to America and I know, among other things, drawings of Shakers by him,<anchor n="8" xml:id="note-t-8"/> and a Mormon church,<anchor n="9" xml:id="note-t-9"/> and Indian women<anchor n="10" xml:id="note-t-10"/> &amp;c., and emigrants.<anchor n="11" xml:id="note-t-11"/>
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/>
+                </ab>
+<ab rend="indent">In a barricade scene, for example, he can have something ghostly, or rather something mysterious like <hi rend="ital">
+                        <rs type="pers" key="1055">Goya</rs>
+                    </hi>. He also treated the American subjects in that way, namely Goya-like, but then sometimes all at once something runs underneath that recalls <rs type="pers" key="1219">Meryon</rs> because of its extraordinary austerity.</ab>
+<ab rend="indent">His woodcuts could almost pass for etchings.</ab>
+<ab rend="indent">
+                    <hi rend="ital">Too good to last</hi>, they say, but it’s precisely because of that, because it’s rare, that the good <hi rend="ital">lasts</hi>. It isn’t produced every day — it will never be obtained mechanically, but what there is of it is there, and that won’t go away but remain. And even if later another kind of good comes, the first will still keep its value. So in my opinion one shouldn’t lament the fact that this or that hasn’t become general; even if it doesn’t become general, whatever there is of the good or beautiful still exists.</ab>
+<ab rend="indent">What’s the position these days with the etchings <hi rend="ital">
+                        <rs type="pers" key="920">Cadart</rs>
+                    </hi> began years ago?<anchor n="12" xml:id="note-t-12"/> Has that also proved to be Too good to last?</ab>
+<ab rend="indent">I know well enough that many etchings, and beautiful ones at that, are published these days too. But I mean the old series Société des Aquafortistes that included The two brothers by <rs type="pers" key="1022">Feyen-Perrin</rs>
+                    <anchor n="13" xml:id="note-t-13"/> and the Sheep pasture by <rs type="pers" key="976">Daubigny</rs>
+                    <anchor n="14" xml:id="note-t-14"/> and the <rs type="pers" key="894">Bracquemond</rs>s<anchor n="15" xml:id="note-t-15"/> and so many others — have they retained their power or have they gone weak?</ab>
+<ab rend="indent">Even if they are weaker, what there is — doesn’t that already have enough substance to remain for ever, thus rather disproving the words too good to last?</ab>
+                <ab rend="indent"> What the etching needle could do was shown by <rs type="pers" key="976">Daubigny</rs>, <rs type="pers" key="1226">Millet</rs>, <rs type="pers" key="1022">Feyen-Perrin</rs>, and many others, just as The Graphic &amp;c. showed what the Black and White could do. </ab>
+<ab rend="indent">And this stands as a truth once and for all, and those who wish can always draw energy from it.
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/>
+                </ab>
+<ab rend="indent">The pity of it is partly that when several people care for the same cause and work on it together, unity is strength, and united they can do more than their separate energies can, each striving in a different direction. </ab>
+<ab rend="indent">People strengthen each other when they work together, and an entity is formed without personality having to be blotted out by the collaboration.</ab>
+<ab rend="indent">This is why I wish <rs type="pers" key="1306">Rappard</rs> was fully recovered. We don’t actually work together, but we have similar ideas about many questions. He’s getting better and we’re again dealing in woodcuts together. Yet I always have hopes that we’ll become even better friends than up to now, and perhaps later visit the miners together or something like that. But for the time being I believe that both he and I must do our best at thorough study of the figure; the more one has mastered that the more attainable such plans become. He says he’s had a fever, nothing more, and is still weak, but he’s tight-lipped about his illness. </ab>
+<ab rend="indent">We’ve had <hi rend="ital">snow</hi> here again that’s now melting. The thaw is very beautiful. I imagine that this spring could be unusually delightful for you. Write soon about how your patient is getting on. Well, I’ll enjoy the spring too. Today, while the snow melts, one feels the spring in the distance, so to speak. </ab>
+<ab rend="indent">I think that we’ll have a real day when you come, sooner or later. Perhaps you’ll agree with me that in times of worry, such as you will certainly have now because of her illness, one can best feel the poetry of things. I long for the spring so that I can get a breath of fresh air instead of working at home, which has made me a little dull.</ab>
+<ab rend="indent">I’m still very happy with my sou’wester. I’m curious to know whether you’ll find anything good in the heads of fishermen.<anchor n="16" xml:id="note-t-16"/> The last one I did this week was of a chap with a white fringe of beard.<anchor n="17" xml:id="note-t-17"/> </ab>
+<ab rend="indent">I know of one drawing by <hi rend="ital">
+                        <rs type="pers" key="1109">Boyd Houghton</rs>
+                    </hi> which he calls ‘my models’ and which shows a corridor where several invalids — one on crutches, one blind, one a street urchin &amp;c. — come to visit a painter on Christmas Day.<anchor n="18" xml:id="note-t-18"/> There’s something nice about dealing with models — one learns a lot from them — this winter I’ve had people who will always stay in my memory. I like <rs type="pers" key="1023">Edouard Frère</rs>’s remark that he had hung on to his models so that ‘<hi rend="ital">those who used to pose as babies now pose as mothers</hi>’.<anchor n="19" xml:id="note-t-19"/> Well, adieu, Theo, write soon. Sincere best wishes. Believe me, with a handshake</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>With the words ‘Behold the man’, Pilate showed the scourged Jesus wearing a crown of thorns to the people (<bibleref xmlns="http://www.vangoghletters.org/ns/" book="John" chap="19" v="5">John 19:5</bibleref>). An ‘Ecce homo’ is a depiction of this scene.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>
+                        <rs type="pers" key="1255">Helen Paterson</rs>, also known as <rs type="pers" key="1255">Helen Allingham</rs>, <hi rend="ital">‘Ninety-three’ – Dolorosa</hi>, in <hi rend="ital">The Graphic</hi> 9 (13 June 1874), p. 565. <rs type="ill" key="1214">Ill. 1214</rs> (t*119). It is an illustration to <rs type="lit" key="278">
+                            <hi rend="ital">Quatre-vingt-treize</hi>
+                        </rs> by <rs type="pers" key="666">Victor Hugo</rs>.</ab>
+                </note>
+      <note n="3" xml:id="n-3" target="#note-t-3">
+<ab>For <rs type="pers" key="1269">George John Pinwell</rs>, <rs type="ill" key="1218">
+                            <hi rend="ital">The sisters</hi>
+                        </rs>, <ref target="let303.xml#n-11">see letter 303, n. 11.</ref>
+                    </ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>A reference to <rs type="pers" key="1080">Hubert von Herkomer</rs>’s article ‘<rs type="lit" key="270">Drawing and engraving on wood</rs>’: <ref target="let278.xml">see letter 278</ref>. Herkomer praised the illustrators of 20 years before and criticized the younger artists. </ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>Van Gogh did various women’s heads; it is impossible to say which particular ones he was referring to here. Women carrying bags are not known. </ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>Theo may have written about <rs type="pers" key="977">Daumier</rs>’s <rs type="otherart" key="476">
+                            <hi rend="ital">The Revolution of 1848. A family on the barricades</hi>
+                        </rs> (Prague, Národní Galerie) or about <rs type="otherart" key="477">
+                            <hi rend="ital">The revolt</hi>
+                        </rs> (Washington D.C., Phillips Collection). ‘Numerous imitations exist which are mostly based on one or two figures taken from this composition’. See Maison 1968, vol. 1, pp. 192-193, cat. nos. <hi rend="sc">ii</hi>-18 and <hi rend="sc">ii</hi>-19.</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>For <rs type="pers" key="1109">Houghton</rs>’s <rs type="ill" key="969">
+                            <hi rend="ital">The courts martial at Versailles</hi>
+                        </rs> and <rs type="ill" key="958">
+                            <hi rend="ital">The Paris mob</hi>
+                        </rs>, <ref target="let303.xml#n-4">see letter 303, n. 4</ref>
+                    </ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>Van Gogh may be referring to one or more of the six illustrations by <rs type="pers" key="1109">Houghton</rs> depicting the Shakers which appeared in <hi rend="ital">The Graphic</hi> 1 (7 May 1870), p. 536 and 1 (14 May 1870), pp. 556-557. See also Hogarth 1981, pp. 75-80.</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>For <rs type="pers" key="1109">Arthur Boyd Houghton</rs>, <rs type="ill" key="962">
+                            <hi rend="ital">Service in the Mormon tabernacle</hi>
+                        </rs>, <ref target="let303.xml#n-21">see letter 303, n. 21.</ref>
+                    </ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>The series about America which <rs type="pers" key="1109">Houghton</rs> did for <hi rend="ital">The Graphic</hi> includes several illustrations of ‘Indians in North America’ (in the volumes for 1870-1873); Indian women are seen in among others <rs type="otherart" key="478">
+                            <hi rend="ital">Hiawatha and Minne-ha-ha</hi>
+                        </rs>, in <hi rend="ital">The Graphic</hi> 2 (16 July 1870), p. 60; and <hi rend="ital">Pawnee squaws</hi>, in <hi rend="ital">The Graphic</hi> 7 (22 February 1873), p. 185, which is in the estate. <rs type="ill" key="961">Ill. 961</rs> (t*848). Cf. Hogarth 1981, pp. 86-99.</ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+      <ab>This must refer to one of the prints of emigrants that <rs type="pers" key="1109">Houghton</rs> made, which included <rs type="ill" key="959">
+                            <hi rend="ital">Steerage passengers</hi>
+                        </rs> and <rs type="ill" key="2068">
+                            <hi rend="ital">Steerage emigrants</hi>
+                        </rs>: <ref target="let304.xml#n-55">see letters 304, n. 55</ref> and  <ref target="let317.xml#n-9">317, n. 9.</ref> Cf. also Hogarth<hi rend="ital"> </hi>1981, pp. 60-65.</ab>
+                </note>
+<note n="a" xml:id="n-a" target="#note-o-a">
+<ab>Saying (also <rs type="pers" key="1080">Herkomer</rs>’s words, <ref target="#n-4">see n. 4</ref> above). The expression ‘zegt de wereld’ means: ‘zegt men’.</ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+<ab>The <hi rend="ital">Société des Aquafortistes</hi> was founded in Paris in May 1862 by the engraver and publisher <rs type="pers" key="920">Alfred Cadart</rs>. Each month five etchings by artists who were either French or living in France were published. As a result of financial mismanagement and disagreements with the printer, the etchings group ceased to exist in September 1867. In 1868 Cadart and <rs type="pers" key="1173">Maximilien Luce</rs> began publishing <hi rend="ital">L’Illustration Nouvelle</hi>, a monthly about the art of etching. See Bailly-Herzberg 1972.</ab>
+                </note>
+<note n="13" xml:id="n-13" target="#note-t-13">
+<ab>
+                        <rs type="pers" key="1022">François Feyen-Perrin</rs>, <hi rend="ital">Les deux frères </hi>(The two brothers) (London, Victoria and Albert Museum) – also known as a proof before letters (Paris, BNF, Cabinet des Estampes). There is also an etching, in a slightly larger format, with no caption (Amsterdam, Rijksprentenkabinet). <rs type="ill" key="837">Ill. 837</rs>. Cf. Bailly-Herzberg 1972, vol. 2, pp. 78-79.</ab>
+                </note>
+<note n="14" xml:id="n-14" target="#note-t-14">
+<ab>
+                        <rs type="pers" key="976">Charles-François Daubigny</rs>, <hi rend="ital">Le grand parc à moutons </hi>(The large sheep pasture), after the painting at the Salon of 1861, appeared in the first volume of <hi rend="ital">Eaux-fortes modernes, publiées par la Société des Aquafortistes</hi> (September 1862), no. 2; the etching was exhibited at the Salon of 1865 (Amsterdam, Rijksprentenkabinet). <rs type="ill" key="47">Ill. 47</rs>. See Bailly-Herzberg 1972, vol. 1, pp. 54, 72; vol. 2, pp. 60-63.</ab>
+                </note>
+<note n="15" xml:id="n-15" target="#note-t-15">
+<ab>
+                        <rs type="pers" key="894">Félix Bracquemond</rs> played an important role in the Société. The issue for September 1862 contained his <rs type="otherart" key="479">
+                            <hi rend="ital">L’inconnu</hi>
+                        </rs> (part 1); and the February 1863 issue had his <rs type="otherart" key="480">
+                            <hi rend="ital">Vanneaux</hi> <hi rend="ital">et sarcelles</hi>
+                        </rs> (part 6). He also did the title page for the album of the Société in 1865. See Bailly-Herzberg 1972, vol. 1, pp. 49, 53-54, 62, 131; vol. 2, pp. 20-27.</ab>
+                </note>
+<note n="16" xml:id="n-16" target="#note-t-16">
+<ab>Van Gogh drew various heads of fishermen; it is impossible to say which particular ones he was referring to here.</ab>
+                </note>
+<note n="17" xml:id="n-17" target="#note-t-17">
+<ab>
+      <hi rend="ital">Head of a fisherman with a fringe of beard and a sou’wester</hi> (<rs type="ill" key="2425">F 1017 / JH 302</rs>).</ab>
+                </note>
+<note n="18" xml:id="n-18" target="#note-t-18">
+<ab>
+                        <rs type="pers" key="1109">Arthur Boyd Houghton</rs>, <hi rend="ital">Our artists’ Christmas entertainment – Arrival of the visitors</hi>, in <hi rend="ital">The Graphic </hi>6 (28 December 1872), p. 605. <rs type="ill" key="966">Ill. 966</rs>. The commentary makes it clear that the visitors are models (p. 599).</ab>
+                </note>
+<note n="19" xml:id="n-19" target="#note-t-19">
+<ab>Derived from Flor O’Squarr’s contribution in <hi rend="ital">Galerie Contemporaine</hi>, which says of <rs type="pers" key="1023">Frère</rs>: ‘Look,’ he says to us, ‘those who today pose as mamas themselves once posed as babies’ (Voyez, nous dit-il, ceux qui posent aujourd’hui pour les mamans ont elles-mêmes posé autrefois comme les bébés). <ref target="let137.xml#n-1">See letter 137, n. 1.</ref>
+                    </ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

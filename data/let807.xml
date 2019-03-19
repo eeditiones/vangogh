@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>Theo van Gogh to Vincent van Gogh. Paris, Friday, 4 October 1889.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let807"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">807</idno>
+<idno type="collectedletters">T18</idno>
+<idno type="brieven1990">808</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Theo van Gogh</author>
+                        <vg:addressee>Vincent van Gogh</vg:addressee>
+                        <vg:placeLet>Paris</vg:placeLet>
+                        <vg:dateLet>Friday, 4 October 1889</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>Theo van Gogh to Vincent van Gogh. Paris, Friday, 4 October 1889.</p>
+<note type="ongoingTopic" n="1">
+<p>Second consignment of paintings from Saint-Rémy <ref target="let805.xml">(805)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="2">
+<p>First attack in Saint-Rémy <ref target="let793.xml">(793)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="3">
+<p>Vincent’s suggestion that he live with Pissarro <ref target="let801.xml">(801)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b745 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Letter headed: ‘le 4 Oct_ 1889’.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0745" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001001009_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001001009_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001001009_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001001009_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001009_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001009_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="VGM001001009_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001009_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001009_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0745" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001001009_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001001009_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001001009_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001001009_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001009_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001009_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001001009_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001009_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001009_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>le 4 Oct<c type="kp">_</c> 1889</ab>
+<vg:whiteline/>
+                <lb n="2" xml:id="l-2"/>
+<ab>Mon cher Vincent,</ab>
+                <lb n="3" xml:id="l-3"/>
+<ab>J’ai trop tardé <lb n="4" xml:id="l-4"/>à t’écrire pour te dire que <lb n="5" xml:id="l-5"/>ton dernier envoi est arrivé <lb n="6" xml:id="l-6"/>en bon ordre. J’aime beaucoup <lb n="7" xml:id="l-7"/>le champ de blé &amp; les montagnes <lb n="8" xml:id="l-8"/>qui sont d’une dessin bien expressif. <lb n="9" xml:id="l-9"/>Il y a dans le champ de blé ce <lb n="10" xml:id="l-10"/>côté inébranlable qu’a la nature <lb n="11" xml:id="l-11"/>même dans ses aspects les plus 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                    <lb n="12" xml:id="l-12"/>farouches. Le verger est bien beau <lb n="13" xml:id="l-13"/>aussi.<anchor n="1" xml:id="note-o-1"/> Isaacson qui écrit dans le <lb n="14" xml:id="l-14"/>dernier temps dans un journal <lb n="15" xml:id="l-15"/>Hollandais voudrait écrire sur tes <lb n="16" xml:id="l-16"/>travaux.<anchor n="2" xml:id="note-o-2"/> Il m’a demandé d’avoir <lb n="17" xml:id="l-17"/>de certaines choses chez lui, entre autres <lb n="18" xml:id="l-18"/>les montagnes &amp; le champ de blé. Quand <lb n="19" xml:id="l-19"/>je t’enverrai les reproductions de <lb n="20" xml:id="l-20"/>Millet<anchor n="3" xml:id="note-o-3"/> je joindrai les articles d’Isaacson<c type="kk">/</c>
+                    <hi rend="ital"/> <lb n="21" xml:id="l-21"/>je n’aime pas ses recherches de nouveaux <lb n="22" xml:id="l-22"/>mots mais au fond il parle de bonnes <lb n="23" xml:id="l-23"/>choses ce que la pluspart des critiques <lb n="24" xml:id="l-24"/>d’art ne font pas. Ta lettre m’a fait <lb n="25" xml:id="l-25"/>bien plaisir &amp; je t’en remercie bien. Je <lb n="26" xml:id="l-26"/>sens bien que dans des moments de 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                    <lb n="27" xml:id="l-27"/>grande excitation l’entourage des <lb n="28" xml:id="l-28"/>bonnes soeurs ne doit pas te tranquiliser<c type="kp">_</c>
+                    <anchor n="4" xml:id="note-o-4"/>
+                </ab>
+                <lb n="29" xml:id="l-29"/>
+<ab rend="indent">Le D<hi rend="ss">r</hi> Peyron est venu me voir &amp; <lb n="30" xml:id="l-30"/>celui là me semble bien disposé pour <lb n="31" xml:id="l-31"/>toi. J’aime bien sa phisionomie. Voiçi <lb n="32" xml:id="l-32"/>ce qu’il m’a dit. Il ne te considère <lb n="33" xml:id="l-33"/>pas du tout comme fou &amp; dit que <lb n="34" xml:id="l-34"/>les crises que tu as eu sont de <lb n="35" xml:id="l-35"/>nature épileptique. Pour le moment il <lb n="36" xml:id="l-36"/>dit que tu es absolument sain &amp; <lb n="37" xml:id="l-37"/>s’il n’y avait pas si peu de temps <lb n="38" xml:id="l-38"/>que tu ais eu une crise il t’aurait <lb n="39" xml:id="l-39"/>déjà encouragé à sortir plus souvent <lb n="40" xml:id="l-40"/>de l’établissement. Il me dit que <lb n="41" xml:id="l-41"/>ton voyage à Arles<anchor n="5" xml:id="note-o-5"/> ayant provoqué <lb n="42" xml:id="l-42"/>une crise il faudrait voir avant <lb n="43" xml:id="l-43"/>de changer de demeure si tu peux <lb n="44" xml:id="l-44"/>maintenant supporter un changement<c type="kp">_</c> 
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                    <lb n="45" xml:id="l-45"/>Si tu supportes bien ces épreuves il n’y <lb n="46" xml:id="l-46"/>voit pas d’inconvenient que tu le quittes<c type="kp">_</c>
+                </ab>
+                <lb n="47" xml:id="l-47"/>
+<ab rend="indent">Maintenant j’ai vu Pissarro &amp; je lui <lb n="48" xml:id="l-48"/>ai parlé de l’affaire. Je crois que lui <lb n="49" xml:id="l-49"/>n’a pas grande chose à dire à la maison <lb n="50" xml:id="l-50"/>où sa femme porte la culotte. Après <lb n="51" xml:id="l-51"/>quelques jours il m’a dit que chez <lb n="52" xml:id="l-52"/>lui ce n’était pas possible mais qu’il <lb n="53" xml:id="l-53"/>connait quelcun à Auvers, qui <lb n="54" xml:id="l-54"/>est médecin &amp; fait de la peinture <lb n="55" xml:id="l-55"/>dans ses moments perdus. Il me dit que <lb n="56" xml:id="l-56"/>c’est un homme qui a été en rapport <lb n="57" xml:id="l-57"/>avec tous les impressionistes.<anchor n="6" xml:id="note-o-6"/> Il croit <lb n="58" xml:id="l-58"/>que chez celui là tu pourrais probablement <lb n="59" xml:id="l-59"/>rester.<anchor n="a" xml:id="note-o-a"/> Il doit aller le voir &amp; lui parlera <lb n="60" xml:id="l-60"/>de l’affaire.<anchor n="7" xml:id="note-o-7"/> Si tu pouvais trouver <lb n="61" xml:id="l-61"/>dans ces environs-là, ce serait une <lb n="62" xml:id="l-62"/>bonne chose car je crois que la <lb n="63" xml:id="l-63"/>Bretagne a aussi ce caractère de cloitre <lb n="64" xml:id="l-64"/>et même dans les derniers Gauguin cela <lb n="65" xml:id="l-65"/>se ressent beaucoup, je trouve.<anchor n="8" xml:id="note-o-8"/> Demain <lb n="66" xml:id="l-66"/>Bernard doit venir voir tes tableaux et <lb n="67" xml:id="l-67"/>j’irai chez lui voir ce qu’il a rapporté.<anchor n="9" xml:id="note-o-9"/>
+                </ab>
+                <lb n="68" xml:id="l-68"/>
+<ab rend="indent">Je suis content en somme que tu vas mieux<c type="kk">/</c> si ton changement <lb n="69" xml:id="l-69"/>de domicile t’ammenait d’abord à Paris cela me ferait bien plaisir.</ab>
+                <lb n="70" xml:id="l-70"/>
+<ab rend="indent">Nous avons de bonnes nouvelles de la mère &amp; de Wil. Jo va bien aussi &amp; <lb n="71" xml:id="l-71"/>te dit bien bonjour. Bonne poignée de mains<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="72" xml:id="l-72"/>
+<ab>Theo</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-65" n="65">ressent &lt; rescent</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>4 October 1889</ab>
+<vg:whiteline/>
+<ab>My dear Vincent,</ab>
+<ab>I’ve delayed too long in writing to you to tell you that your last consignment arrived in good order. I very much like the wheatfield and the mountains, which are drawn with great expression. There is in the wheatfield that unshakeable side that nature has, even in its wildest 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> aspects. The orchard is very beautiful too.<anchor n="1" xml:id="note-t-1"/> Isaäcson, who has lately been writing in a Dutch newspaper, would like to write about your works.<anchor n="2" xml:id="note-t-2"/> He’s asked me if he may have certain things at his home, among others the mountains and the wheatfield. When I send you the reproductions of <rs type="pers" key="1226">Millet</rs>
+                    <anchor n="3" xml:id="note-t-3"/> I’ll enclose <rs type="pers" key="1103">Isaäcson</rs>’s articles, I don’t like his researches into new words, but basically he talks of good things, which the majority of art critics do not. Your letter gives me much pleasure, and I thank you very much for it. I can certainly feel that being surrounded by the nuns in moments of 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> great agitation must not have a calming effect on you.<anchor n="4" xml:id="note-t-4"/>
+                </ab>
+<ab rend="indent">
+                    <rs type="pers" key="568">Dr Peyron</rs> came to see me, and he seems well disposed towards you. I like his physiognomy very much. Here’s what he told me. He doesn’t consider you mad at all, and says that the crises you have are of an epileptic nature. For the moment he says that you’re absolutely healthy, and if it weren’t such a short time since you’d had a crisis he would already have encouraged you to go outside the establishment more often. He tells me that as your trip to Arles<anchor n="5" xml:id="note-t-5"/> brought on a crisis one would have to see if you can now bear a change before changing residence. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> If you bear these ordeals well, he sees nothing against your leaving him.</ab>
+<ab rend="indent">Now I’ve seen <rs type="pers" key="1268">Pissarro</rs> and I’ve talked to him about the matter. I think that he doesn’t have much to say at home, where his <rs type="pers" key="181">wife</rs> wears the trousers. After a few days he told me that it wasn’t possible at his home, but that he knows someone in Auvers, who’s a <rs type="pers" key="389">doctor</rs> and does painting in his free moments. He tells me that he’s a man who has been in touch with all the Impressionists.<anchor n="6" xml:id="note-t-6"/> He thinks that you could probably stay at his home. He’ll go and see him and speak to him about the matter.<anchor n="7" xml:id="note-t-7"/> If you could find something around there, that would be a good thing, for I think that Brittany also has this cloister-like quality, and one feels that a lot even in the latest <rs type="pers" key="1039">Gauguin</rs>s, I find.<anchor n="8" xml:id="note-t-8"/> Tomorrow <rs type="pers" key="831">Bernard</rs> is to come and see your paintings, and I’ll go to his home to see what he’s brought back.<anchor n="9" xml:id="note-t-9"/>
+                </ab>
+<ab rend="indent">All in all I’m happy that you’re better, if your change of residence brought you first to Paris, that would give me great pleasure.</ab>
+<ab rend="indent">We have good news of <rs type="pers" key="524">Mother</rs> and of <rs type="pers" key="407">Wil</rs>. <rs type="pers" key="416">Jo</rs> is well too, and sends warm regards. Good handshake.</ab>
+<vg:whiteline/>
+<ab>Theo</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>The ‘wheatfield’, ‘mountains’ and ‘orchard’ are <hi rend="ital">Wheatfield after a storm </hi>(<rs type="ill" key="2796">F 611 / JH 1723</rs>), <hi rend="ital">The Alpilles with a hut </hi>(<rs type="ill" key="2823">F 622 / JH 1766</rs>) and <hi rend="ital">Orchard </hi>(<rs type="ill" key="2584">F 511 / JH 1386</rs>), respectively. <ref target="let805.xml">See letter 805</ref>.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>In August-September 1889 <rs type="pers" key="1103">Isaäcson</rs> wrote a series of articles – in a sensitivist, impressionistic style – titled ‘Paris letters’, for <hi rend="ital">De Portefeuille. Kunst- en Letterbode</hi>: ‘Parijsche brieven <hi rend="sc">i</hi>. Praatjes en impressies over den 14den Juli’ (Paris letters <hi rend="sc">i</hi>. Conversations and impressions of the 14th July) on 3 August 1889, pp. 224-226; ‘<rs type="lit" key="574">Parijsche brieven <hi rend="sc">ii</hi>. Gevoelens over de Nederlandsche kunst op de Parijsche Wereld-tentoonstelling</rs>’ (Paris letters <hi rend="sc">ii</hi>. Feelings about the Dutch art at the Paris World Exhibition) on 10 August 1889, pp. 233-234; ‘Parijsche brieven <hi rend="sc">iii</hi>. ‘Gevoelens over de Nederlandsche kunst op de Parijsche Wereld-tentoonstelling. <hi rend="sc">ii</hi>’ (Paris letters <hi rend="sc">iii</hi>. Feelings about the Dutch art at the Paris World Exhibition. <hi rend="sc">ii</hi>), on 17 August 1889, pp. 248-249; ‘Parijsche brieven <hi rend="sc">iv</hi>. Op de tentoonstelling’ (Paris letters <hi rend="sc">iv</hi>. At the exhibition) on 24 August 1889, pp. 260-261; ‘Parijsche brieven <hi rend="sc">v</hi>. Gevoelens over Hollandsche kunst en Fransche poseurkunst. <hi rend="sc">iii</hi>’ (Paris letters <hi rend="sc">v</hi>. Feelings about Dutch art and French poseur’s art <hi rend="sc">iii</hi>) on 31 August 1889, pp. 268-270; ‘Parijsche brieven <hi rend="sc">vi</hi>. Gevoelens over Hollandsche kunst op de Parijsche tentoonstelling. <hi rend="sc">iv</hi>’ (Paris letters <hi rend="sc">vi</hi>. Feelings about Dutch art at the Paris exhibition. <hi rend="sc">iv</hi>) on 21 September 1889, pp. 307-309; ‘Parijsche brieven <hi rend="sc">vii</hi>. Gevoelens over Hollandsche kunst op de Parijsche tentoonstelling. <hi rend="sc">v</hi>’ (Paris letters <hi rend="sc">vii</hi>. Feelings about Dutch art at the Paris exhibition. <hi rend="sc">v</hi>) on 28 September 1889, pp. 316-317.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+    <ab>Van Gogh had asked for reproductions of <rs type="pers" key="1226">Millet</rs>’s <hi rend="ital">
+                            <rs type="ill" key="1876">The Diggers</rs>
+                        </hi>,<hi rend="ital"> <rs type="ill" key="1888">The sower</rs>
+                        </hi>, <rs type="ill" key="1892">
+                            <hi rend="ital">Winter: The plain of Chailly</hi>
+                        </rs> and <hi rend="ital">
+                            <rs type="ill" key="1679 1680 1681 1682">The four times of the day</rs>
+                        </hi>; <ref target="let805.xml">see letter 805</ref>.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>In <ref target="let805.xml">letter 805</ref> Vincent had written that the religious nature of the asylum at Saint-Rémy was the most important reason for him to move.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>Shortly before 14 July, Van Gogh had travelled under supervision to Arles to collect paintings he had left behind; <ref target="let789.xml">see letter 789</ref>.</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>
+                        <rs type="pers" key="1268">Camille Pissarro</rs> must have met Theo before 28 September 1889, since he wrote on that date from Paris to his wife <rs type="pers" key="181">Julie</rs>: ‘Van Gogh asked me if it would be convenient for us to take his brother with us next spring; the doctors where he is have pronounced that he is cured, that his trouble may come back, however, but in brief attacks. I told Van Gogh that that wasn’t possible for us, that you had a lot of problems with the children, but that I’ll see if we couldn’t find a place where he could live quietly and work; that isn’t easy.’ (Van Gogh m’a demandé si il ne nous conviendrait pas de prendre son frère avec nous au printemps prochain, les médecins où il se trouve ont déclaré qu’il était guéri, que son mal cependant peut revenir, mais par petits accès. J’ai dit à Van Gogh que cela ne nous était pas possible, que tu avais beaucoup de mal avec les enfants, mais que je verrai si nous ne pourrions pas trouver un endroit où il pourrait vivre tranquille et travailler, ce n’est pas facile.) See <hi rend="ital">Correspondance Pissarro</hi> 1980-1991, vol. 2, pp. 297-299.</ab>
+<ab rend="indent">The doctor Theo writes about was <rs type="pers" key="389">Paul-Ferdinand Gachet</rs>. He lived in Auvers, about 30 km north-west of Paris. He was acquainted with Pissarro, <rs type="pers" key="932">Cézanne</rs> and <rs type="pers" key="1065">Guillaumin</rs>, among others, and was, moreover, an amateur painter and etcher. A specialist in ‘nervous disorders’, he entertained modern ideas on the subject, advocating homeopathic medicine and using electric shock therapy to treat patients. He had an office in Paris where he treated patients several days a week. See Hulsker 1990-1, p. 418, and exhib. cat. Paris 1999.</ab>
+                </note>
+<note n="a" xml:id="n-a" target="#note-o-a">
+<ab>Read: ‘séjourner’.</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+    <ab>
+                        <rs type="pers" key="1268">Pissarro</rs> lived in Eragny-par-Gisors (Val-d’Oise)near Pontoise, about 10 km west of Auvers.</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>At the beginning of September, <rs type="pers" key="1039">Gauguin</rs> had sent Theo several recent canvases from Pont-Aven; <ref target="let799.xml#n-10">see letter 799, n. 10.</ref> </ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>
+                        <rs type="pers" key="831">Bernard</rs> had spent the month of August in Saint-Briac in Brittany, but was back in Paris in September. See exhib. cat. Mannheim 1990, p. 98.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

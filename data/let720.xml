@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Willemien van Gogh. Arles, on or about Monday, 12 November 1888.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let720"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">720</idno>
+<idno type="collectedletters">W9</idno>
+<idno type="brieven1990">725</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Willemien van Gogh</vg:addressee>
+                        <vg:placeLet>Arles</vg:placeLet>
+                        <vg:dateLet>on or about Monday, 12 November 1888</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:physDesc>
+                        <vg:decoration>
+                            <vg:decoList xml:id="sketches">
+                                <vg:decoItem n="A" xml:id="sketch-1">
+                                    <vg:decoDesc>
+<p>
+      <hi rend="ital">Reminiscence of the garden at Etten</hi> (<rs type="sketch" key="204">F - JH 1631</rs>), letter sketch</p>
+                                    </vg:decoDesc>
+                                </vg:decoItem>
+                                <vg:decoItem n="B" xml:id="sketch-2">
+                                    <vg:decoDesc>
+<p>
+      <hi rend="ital">Woman reading a novel</hi> (<rs type="sketch" key="205">F - / JH 1633</rs>), letter sketch</p>
+                                    </vg:decoDesc>
+                                </vg:decoItem>
+                            </vg:decoList>
+                        </vg:decoration>
+                    </vg:physDesc>
+                    <vg:letContents>
+<p>To Willemien van Gogh. Arles, on or about Monday, 12 November 1888.</p>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b709 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Because Vincent describes the same paintings he mentioned to Theo in <ref target="let719.xml">letter 719</ref>, written on Sunday, 11 or Monday, 12 November 1888, this letter must have been written at about the same time. We have therefore dated it to about Monday, 12 November 1888.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0709" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000963_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000963_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000963_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000963_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000963_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000963_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="VGM001000963_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000963_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000963_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0709" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000963_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000963_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000963_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000963_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000963_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000963_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000963_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000963_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000963_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Ma chère soeur,</ab>
+                <lb n="1*" xml:id="l-1s"/>
+<ab>une chôse qui m’a fait bien <lb n="2" xml:id="l-2"/>plaisir c’est que j’ai reçu enfin une réponse <lb n="3" xml:id="l-3"/>de M<hi rend="ss">me</hi> Mauve<c type="kp">_</c>
+                    <anchor n="1" xml:id="note-o-1"/>
+                </ab>
+                <lb n="4" xml:id="l-4"/>
+<ab rend="indent">Désirant lui écrire de ces jours ci je te prierai <lb n="5" xml:id="l-5"/>de m’envoyer de suite et sans faute son <lb n="6" xml:id="l-6"/>adresse actuelle. Sa lettre était datée <lb n="7" xml:id="l-7"/>de la Haye mais elle ne dit pas si elle <lb n="8" xml:id="l-8"/>y restera<c type="kk">/</c> moi je croyais qu’elle avait continué <lb n="9" xml:id="l-9"/>à rester<anchor n="a" xml:id="note-o-a"/> à Laren.<anchor n="2" xml:id="note-o-2"/>
+                </ab>
+                <lb n="10" xml:id="l-10"/>
+<ab rend="indent">Elle dit avoir eu aussi une bonne lettre <lb n="11" xml:id="l-11"/>de toi<c type="kp">_</c>
+                </ab>
+                <lb n="12" xml:id="l-12"/>
+<ab rend="indent">J’ai reçu ta lettre datée de Middelharnis <lb n="13" xml:id="l-13"/>et t’en remercie bien. tu fais bien <lb n="14" xml:id="l-14"/>d’avoir enfin commencé à lire <lb n="15" xml:id="l-15"/>au bonheur des dames &amp;c.<anchor n="3" xml:id="note-o-3"/>
+                </ab>
+                <lb n="16" xml:id="l-16"/>
+<ab rend="indent">Il y a tant de chôses là-dedans comme <lb n="17" xml:id="l-17"/>dans Guy de Maupassant aussi<c type="kp">_</c>
+                </ab>
+                <lb n="18" xml:id="l-18"/>
+<ab rend="indent">Je t’ai déjà répondu que je n’aimais <lb n="19" xml:id="l-19"/>pas énormément le portrait de la mère<c type="kp">_</c>
+                    <anchor n="4" xml:id="note-o-4"/> <lb n="20" xml:id="l-20"/>Je viens maintenant de peindre pour le <lb n="21" xml:id="l-21"/>mettre dans ma chambre à coucher <lb n="22" xml:id="l-22"/>un souvenir du jardin à Etten et en voici <lb n="23" xml:id="l-23"/>un croquis<c type="kp">_</c>– C’est une toile assez grande.<anchor n="5" xml:id="note-o-5"/>
+                </ab>
+<vg:whiteline/>
+                <figure facs="zone-sketch-1" n="A"/>
+<vg:whiteline/>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="24" xml:id="l-24"/>
+<ab>Voici maintenant pour la couleur. Des deux <lb n="25" xml:id="l-25"/>promeneuses la plus jeune porte un châle écossais <lb n="26" xml:id="l-26"/>carrelé vert et orangé et un parasol rouge<c type="kp">_</c> <lb n="27" xml:id="l-27"/>La vieille a un châle violet bleu presque noir<c type="kp">_</c> <lb n="28" xml:id="l-28"/>Mais un bouquet de dahlias<c type="kk">/</c> jaune citron <lb n="29" xml:id="l-29"/>les unes<c type="kk">/</c> panachées roses et blanches les autres<c type="kk">/</c> vient <lb n="30" xml:id="l-30"/>éclater sur cette figure sombre<c type="kp">_</c>
+                </ab>
+                <lb n="31" xml:id="l-31"/>
+<ab rend="indent">Derriere elles quelques buissons de cèdre ou de cyprès <lb n="32" xml:id="l-32"/>d’un vert émeraude<c type="kp">_</c> Derrière ces cyprès on <lb n="33" xml:id="l-33"/>entrevoit un parterre de choux vert pâles et <lb n="34" xml:id="l-34"/>rouges bordé d’une rangée de fleurettes blanches<c type="kp">_</c> <lb n="35" xml:id="l-35"/>Le sentier sablé est orangé cru<c type="kk">/</c> la verdure <lb n="36" xml:id="l-36"/>de deux parterres de geraniums écarlates <lb n="37" xml:id="l-37"/>est très verte<c type="kp">_</c> Enfin au deuxieme plan <lb n="38" xml:id="l-38"/>se trouve une servante vêtue de bleu qui <lb n="39" xml:id="l-39"/>arrange des plantes à profusion de fleurs <lb n="40" xml:id="l-40"/>blanches<c type="kk">/</c> roses<c type="kk">/</c> jaunes et rouges vermillon.</ab>
+                <lb n="41" xml:id="l-41"/>
+<ab rend="indent">Voilà je sais que cela n’est peutêtre <lb n="42" xml:id="l-42"/>guère ressemblant mais pour moi cela <lb n="43" xml:id="l-43"/>me rend le caractère poétique et le <lb n="44" xml:id="l-44"/>style du jardin tel que je les sens<c type="kp">_</c>
+                </ab>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                <lb n="45" xml:id="l-45"/>
+<ab rend="indent">De même supposons que ces promeneuses <lb n="46" xml:id="l-46"/>soient toi et notre mère<c type="kp">_</c> Supposons <lb n="47" xml:id="l-47"/>alors même qu’il n’y aurait aucune<c type="kk">/</c> absolument <lb n="48" xml:id="l-48"/>aucune ressemblance vulgaire et niaise<c type="kk">/</c> <lb n="49" xml:id="l-49"/>le choix voulu de la couleur<c type="kk">/</c> <lb n="50" xml:id="l-50"/>le violet sombre violemment tachée par le citron <lb n="51" xml:id="l-51"/>des dahlias<c type="kk">/</c> me suggère la personalité de <lb n="52" xml:id="l-52"/>la mère<c type="kp">_</c>
+                </ab>
+                <lb n="53" xml:id="l-53"/>
+<ab rend="indent">La figure en plaid ecossais carrelé <lb n="54" xml:id="l-54"/>orange et vert se détachant sur <lb n="55" xml:id="l-55"/>le vert sombre du cyprès<c type="kk">/</c> ce contraste <lb n="56" xml:id="l-56"/>encore exagéré par le parasol rouge<c type="kk">/</c> <lb n="57" xml:id="l-57"/>me donne une idée de toi<c type="kk">/</c> vaguement une figure <lb n="57a" xml:id="l-57a"/>comme celles des romans de Dickens<c type="kp">_</c>
+                </ab>
+                <lb n="58" xml:id="l-58"/>
+<ab rend="indent">Je ne sais si tu comprendras que l’on <lb n="59" xml:id="l-59"/>puisse dire de la poésie rien qu’en <lb n="60" xml:id="l-60"/>bien arrangant des couleurs<c type="kk">/</c> comme <lb n="61" xml:id="l-61"/>on peut dire des choses consolantes <lb n="62" xml:id="l-62"/>en musique. de même les lignes <lb n="63" xml:id="l-63"/>bizarres cherchées et multipliées serpentant dans <lb n="64" xml:id="l-64"/>tout le tableau doivent non pas donner <lb n="65" xml:id="l-65"/>le jardin dans sa ressemblance vulgaire <lb n="66" xml:id="l-66"/>mais nous le dessiner comme vu dans <lb n="67" xml:id="l-67"/>un rêve à la fois dans le caractère et <lb n="68" xml:id="l-68"/>pourtant plus étrange que dans la realité<c type="kp">_</c>
+                </ab>
+                <lb n="69" xml:id="l-69"/>
+<ab rend="indent">J’ai maintenant peint aussi une <lb n="70" xml:id="l-70"/>
+                    <hi rend="ital">liseuse de romans.</hi>
+                </ab>
+<vg:whiteline/> <figure facs="zone-sketch-2" n="B"/>
+<vg:whiteline/>
+                <lb n="71" xml:id="l-71"/>
+<ab>de grands cheveux très noirs<c type="kk">/</c> <lb n="72" xml:id="l-72"/>un corsage vert<c type="kk">/</c> des manches <lb n="73" xml:id="l-73"/>lie de vin<c type="kk">/</c> la jupe noire<c type="kk">/</c> <lb n="74" xml:id="l-74"/>le fond <hi rend="ital">tout jaune</hi>
+                    <c type="kk">/</c> des <lb n="75" xml:id="l-75"/>rayons de bibliothèque <lb n="76" xml:id="l-76"/>avec des livres<c type="kp">_</c>
+                </ab>
+                <lb n="77" xml:id="l-77"/>
+<ab rend="indent">elle tient à la main un livre <lb n="78" xml:id="l-78"/>jaune<c type="kp">_</c>
+                    <anchor n="6" xml:id="note-o-6"/>
+                </ab>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                <lb n="79" xml:id="l-79"/>
+<ab rend="indent">Voila pour aujourd’hui. Mais je me souviens ne <lb n="80" xml:id="l-80"/>pas encore t’avoir dit que mon ami Paul Gauguin<c type="kk">/</c> <lb n="81" xml:id="l-81"/>peintre impressioniste<c type="kk">/</c> vit maintenant avec moi <lb n="82" xml:id="l-82"/>et que nous sommes très heureux ensemble<c type="kk">/</c> <lb n="83" xml:id="l-83"/>il m’encourage beaucoup à travailler souvent <lb n="84" xml:id="l-84"/>en pleine imagination<c type="kp">_</c>
+                </ab>
+                <lb n="85" xml:id="l-85"/>
+<ab rend="indent">Tu diras bien des chôses à la mère de <lb n="86" xml:id="l-86"/>ma part et ecris sans faute <lb n="87" xml:id="l-87"/>et par retour l’adresse de M<hi rend="ss">me</hi> Mauve<c type="kp">_</c> <lb n="88" xml:id="l-88"/>Je vous embrasse en pensée<c type="kk">/</c> la <lb n="89" xml:id="l-89"/>mere et toi<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="90" xml:id="l-90"/>
+<ab>t<c type="kp">_</c> à t<c type="kp">_</c>
+                </ab>
+                <lb n="91" xml:id="l-91"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-8" n="8">continué &lt; continuait</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear <rs type="pers" key="407">sister</rs>,</ab>
+<ab>One thing that has given me great pleasure is that I’ve finally received a reply from <rs type="pers" key="321">Mrs Mauve</rs>.<anchor n="1" xml:id="note-t-1"/>
+                </ab>
+<ab rend="indent">As I want to write to her one of these days I’d ask you to send me her current address immediately and without error. Her letter was dated from The Hague, but she doesn’t say if she’ll stay there; personally I thought she was still living in Laren.<anchor n="2" xml:id="note-t-2"/>
+                </ab>
+<ab rend="indent">She says she’s also had a nice letter from you.</ab>
+<ab rend="indent">I received your letter dated from Middelharnis, and I thank you very much for it. It’s good that you’ve at last begun to read Au bonheur des dames &amp;c.<anchor n="3" xml:id="note-t-3"/>
+                </ab>
+<ab rend="indent">There are so many things in it, as there are in <rs type="pers" key="708">Guy de Maupassant</rs> as well.</ab>
+      <ab rend="indent">I’ve already replied to you that I didn’t like <rs type="pers" key="524">Mother</rs>’s portrait enormously.<anchor n="4" xml:id="note-t-4"/> I’ve now just painted a reminiscence of the garden at Etten, to put in my bedroom, and here’s a croquis of it. It’s quite a big canvas.<anchor n="5" xml:id="note-t-5"/>
+                </ab>
+<vg:whiteline/>
+<ab>
+                    <figure facs="zone-sketch-1" n="A"/>
+                </ab>
+<vg:whiteline/>
+<ab>
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab>Now here are the colours. The younger of the two women walking is wearing a Scottish shawl with green and orange checks and carrying a red parasol. The old one has a blue-violet shawl, almost black. But a bunch of dahlias, some lemon yellow, others variegated pink and white, explode against this sombre figure.</ab>
+<ab rend="indent">Behind them a few emerald-green cedar or cypress bushes. Behind these cypresses one catches a glimpse of a bed of pale green and red cabbages, surrounded by a border of little white flowers. The sandy path is a raw orange, the foliage of two beds of scarlet geraniums is very green. Finally, in the middle ground is a maidservant dressed in blue who’s arranging plants with a profusion of white, pink, yellow and vermilion-red flowers.</ab>
+<ab rend="indent">There you are, I know it isn’t perhaps much of a resemblance, but for me it conveys the poetic character and the style of the garden as I feel them. 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/>
+                </ab>
+<ab rend="indent">In the same way, let’s suppose that these two women walking are you and our <rs type="pers" key="524">mother</rs>. Let’s even suppose then that there may be not the slightest, absolutely not the slightest vulgar and fatuous resemblance, the deliberate choice of colour, the dark violet violently blotched with the lemon yellow of the dahlias, suggests Mother’s personality to me.</ab>
+<ab rend="indent">The figure in the Scottish plaid with the orange and green checks standing out against the dark green of the cypress, this contrast even more exaggerated by the red parasol, gives me an idea of you, vaguely a figure like those in <rs type="pers" key="580">Dickens</rs>’s novels.</ab>
+<ab rend="indent">I don’t know if you’ll understand that one can speak poetry just by arranging colours well, just as one can say comforting things in music. In the same way the bizarre lines, sought out and multiplied, and snaking all over the painting, aren’t intended to render the garden in its vulgar resemblance but draw it for us as if seen in a dream, in character and yet at the same time stranger than the reality.</ab>
+<ab rend="indent">I’ve now also painted a <hi rend="ital">woman reading a novel</hi>.</ab>
+<vg:whiteline/>
+<ab>
+                    <figure facs="zone-sketch-2" n="B"/>
+                </ab>
+<vg:whiteline/>
+<ab>Abundant very black hair, a green bodice, sleeves the colour of wine lees, the skirt black, the background <hi rend="ital">completely yellow</hi>, library shelves with books.</ab>
+<ab rend="indent">She’s holding a yellow book in her hand.<anchor n="6" xml:id="note-t-6"/>
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/>
+                </ab>
+<ab rend="indent">That’s all for today. But I remember that I haven’t yet told you that my friend <rs type="pers" key="1039">Paul Gauguin</rs>, an Impressionist painter, now lives with me and that we’re very happy together, he encourages me a lot often to work purely from the imagination.</ab>
+<ab rend="indent">Give <rs type="pers" key="524">Mother</rs> my warm regards, and write without fail and by return with <rs type="pers" key="321">Mrs Mauve</rs>’s address. I kiss you and Mother in thought.</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>In this letter <rs type="pers" key="321">Jet Mauve</rs> thanked him for the painting <hi rend="ital">Pink peach trees</hi> <hi rend="ital">(‘Souvenir de Mauve’) </hi>(<rs type="ill" key="2577">F 394 / JH 1379</rs>); <ref target="let719.xml#n-1">see letter 719, n. 1.</ref>
+                    </ab>
+                </note>
+<note n="a" xml:id="n-a" target="#note-o-a">
+<ab>Read: ‘qu’elle habitait toujours’.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>From 1885 <rs type="pers" key="321 323">Jet and Anton Mauve</rs> lived with their three children at Villa Johanna in Laren. After Mauve’s death on 5 February 1888, Jet and her children moved to The Hague. On 30 June 1888 they were registered as living at Riouwstraat 70, where Jet would die on 28 March 1894 (<hi rend="ital">GAH</hi>).</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>In October 1888 <rs type="pers" key="407">Willemien</rs> had stayed for a while with the Korteweg family in Middelharnis. On 19 October she wrote to Theo: ‘Here I’ve finished reading “Au bonheur des dames”. Oh, how superb it is! ... I’ll certainly read more by <rs type="pers" key="836">Zola</rs>, but not for the time being. I still have a cupboard full of your books and would like to give them to you if you come home. Do you remember Denise and Mouret meeting in the Jardin des Tuileries? That’s a beautiful ending’ (FR b2275). For Zola’s <hi rend="ital">
+                            <rs type="lit" key="275">Au bonheur des dames</rs>
+                        </hi>, <ref target="let464.xml#n-2">see letter 464, n. 2.</ref>
+                    </ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>Regarding this photograph of <rs type="pers" key="524">Mrs van Gogh</rs>, <ref target="let678.xml#n-16">see letter 678, n. 16.</ref> There is no surviving letter to <rs type="pers" key="407">Willemien</rs> in which Van Gogh writes that he does not like the photograph. He might also have been mistaken, since this was something he had written repeatedly to Theo, not to Willemien (<ref target="let685.xml">see letters 685</ref>, <ref target="let699.xml">699</ref> and <ref target="let700.xml">700</ref>).</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>The letter sketch <hi rend="ital">Reminiscence of the garden at Etten</hi> (<rs type="sketch" key="204">F - JH 1631</rs>) was made after the painting of the same name (<rs type="ill" key="2747">F 496 / JH 1630</rs>), which measures 73.5 x 92.5 cm. The ideas of <rs type="pers" key="1039">Gauguin</rs>, who urged Van Gogh to work from imagination and from memory, resound in this description (cf. <ref target="let719.xml">letter 719</ref>).</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>The letter sketch <hi rend="ital">Woman reading</hi> <hi rend="ital">a novel </hi>(<rs type="sketch" key="205">F - / JH 1633</rs>) was made after the painting of the same name (<rs type="ill" key="2748">F 497 / JH 1632</rs>). The yellow book stands for modern French literature; inexpensive editions had yellow covers.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

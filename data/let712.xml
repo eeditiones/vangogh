@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Arles, on or about Thursday, 25 October 1888.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let712"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">712</idno>
+<idno type="collectedletters">557</idno>
+<idno type="brieven1990">717</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Arles</vg:placeLet>
+                        <vg:dateLet>on or about Thursday, 25 October 1888</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. Arles, on or about Thursday, 25 October 1888.</p>
+<note type="ongoingTopic" n="1">
+<p>Theo’s sale of Gauguin’s <hi rend="ital">Breton women chatting </hi>
+                                <ref target="let711.xml">(711)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="2">
+<p>De Haan’s stay with Theo <ref target="let711.xml">(711)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b602 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Vincent writes that Gauguin has arrived – that was the morning of Tuesday, 23 October (<ref target="#n-2">see n. 2</ref>) – and that he has already sent Theo a telegram to tell him <ref target="#l-3">(l. 3)</ref>. Since he also reacts to news – among other things the sale of Gauguin’s painting – in Theo’s letter of 23 October <ref target="let711.xml">(711)</ref> and Theo in his turn replies to the present letter on 27 October <ref target="let713.xml">(713)</ref>, this one must date from about Thursday, 25 October 1888.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0602" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000821_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000821_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000821_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000821_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000821_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000821_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="VGM001000821_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000821_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000821_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0602" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000821_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000821_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000821_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000821_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000821_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000821_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000821_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000821_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000821_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>mon cher Theo</ab>
+                <lb n="1*" xml:id="l-1s"/>
+<ab>Merci de ta lettre<anchor n="1" xml:id="note-o-1"/> et <lb n="2" xml:id="l-2"/>du billet de 50 fr. Comme tu l’as appris par <lb n="3" xml:id="l-3"/>ma dépêche Gauguin est arrivé en bonne <lb n="4" xml:id="l-4"/>santé.<anchor n="2" xml:id="note-o-2"/> Il me fait même l’effet de se <lb n="5" xml:id="l-5"/>porter mieux que moi.</ab>
+                <lb n="6" xml:id="l-6"/>
+<ab rend="indent">Il est naturellement très content de la vente <lb n="7" xml:id="l-7"/>que tu as faite et moi pas moins puisqu’<c type="shy">-</c>
+                    <lb n="8" xml:id="l-8"/>ainsi de certains frais encore absolument <lb n="9" xml:id="l-9"/>nécessaires pour l’installation n’ont ni <lb n="10" xml:id="l-10"/>besoin d’attendre ni porteront sur ton <lb n="11" xml:id="l-11"/>dos seulement. G. t’écrira certes aujourd’hui<c type="kp">_</c> <lb n="12" xml:id="l-12"/>Il est très très interessant comme homme <lb n="13" xml:id="l-13"/>et j’ai toute confiance qu’avec lui <lb n="14" xml:id="l-14"/>nous ferons des tas de chôses. Il produira <lb n="15" xml:id="l-15"/>probablement beaucoup ici et peutetre<c type="kk">/</c> <lb n="16" xml:id="l-16"/>j’espère<c type="kk">/</c> moi aussi.</ab>
+                <lb n="17" xml:id="l-17"/>
+<ab rend="indent">Et alors pour toi j’ose croire le fardeau <lb n="18" xml:id="l-18"/>sera <hi rend="ital">un peu</hi> moins lourd et j’ose croire <lb n="19" xml:id="l-19"/>
+                    <hi rend="ital">beaucoup</hi> moins lourd.</ab>
+                <lb n="20" xml:id="l-20"/>
+<ab rend="indent">Je sens moi<c type="kk">/</c> jusqu’à en etre écrasé <lb n="21" xml:id="l-21"/>moralement et vidé physiquement<c type="kk">/</c> <lb n="22" xml:id="l-22"/>le besoin de produire<c type="kk">/</c> justement parce <lb n="23" xml:id="l-23"/>que je n’ai en somme aucun aucun <lb n="24" xml:id="l-24"/>autre moyen de jamais rentrer dans nos <lb n="25" xml:id="l-25"/>depenses.</ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="26" xml:id="l-26"/>
+<ab rend="indent">Je n’y puis rien que mes tableaux ne <lb n="27" xml:id="l-27"/>se vendent pas.</ab>
+                <lb n="28" xml:id="l-28"/>
+<ab rend="indent">Le jour viendra cependant où l’on verra <lb n="29" xml:id="l-29"/>que cela vaut plus que le prix de la <lb n="30" xml:id="l-30"/>couleur et de ma vie en somme très <lb n="31" xml:id="l-31"/>maigre que nous y mettons.</ab>
+                <lb n="32" xml:id="l-32"/>
+<ab rend="indent">Je n’ai d’autre désir ni autre préoccupation <lb n="33" xml:id="l-33"/>en fait d’argent ou de finances que d’abord <lb n="34" xml:id="l-34"/>à ne pas avoir des dettes<c type="kp">_</c>
+                </ab>
+                <lb n="35" xml:id="l-35"/>
+<ab rend="indent">Mais mon cher frère<c type="kk">/</c> ma dette est si grande <lb n="36" xml:id="l-36"/>que lorsque je l’aurai payée<c type="kk">/</c> ce que je <lb n="37" xml:id="l-37"/>pense réussir à faire<c type="kk">/</c> cependant le mal <lb n="38" xml:id="l-38"/>de produire des tableaux m’aura pris ma <lb n="39" xml:id="l-39"/>vie entiere et il me semblera ne pas avoir <lb n="40" xml:id="l-40"/>vécu. Il y a seulement que peut être <lb n="41" xml:id="l-41"/>la production de tableaux me deviendra un peu <lb n="42" xml:id="l-42"/>plus difficile et quant au nombre il y en aura <lb n="43" xml:id="l-43"/>pas toujours autant<c type="kp">_</c>
+                </ab>
+                <lb n="44" xml:id="l-44"/>
+<ab rend="indent">Que cela ne se vende pas maintenant<c type="kk">/</c> cela <lb n="45" xml:id="l-45"/>me donne une angoisse que toi-meme en <lb n="46" xml:id="l-46"/>souffres mais à moi cela me serait<c type="kk">/</c> si tu <lb n="47" xml:id="l-47"/>n’en étais pas par trop gêné de ce que je rapporte rien<c type="kk">/</c> <lb n="48" xml:id="l-48"/>passablement egal.</ab>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                <lb n="49" xml:id="l-49"/>
+<ab rend="indent"> Mais en finance il me suffit de sentir <lb n="50" xml:id="l-50"/>cette verité qu’un homme qui vit 50 ans et <lb n="51" xml:id="l-51"/>depense deux mille par an depense cent <lb n="52" xml:id="l-52"/>mille francs et qu’il faut qu’il en rapporte aussi <lb n="53" xml:id="l-53"/>cent mille. Faire mille tableaux <lb n="54" xml:id="l-54"/>à cent francs dans sa vie d’artiste est bien <lb n="55" xml:id="l-55"/>bien bien dur mais lorsque le tableau <lb n="56" xml:id="l-56"/>est à cent francs...... et encore.... <lb n="57" xml:id="l-57"/>notre tâche est par moments bien lourde<c type="kp">_</c> <lb n="58" xml:id="l-58"/>Mais il n’y a rien à changer à cela<c type="kp">_</c>
+                </ab>
+                <lb n="59" xml:id="l-59"/>
+<ab rend="indent">Nous poserons un complet lapin à Tasset <lb n="60" xml:id="l-60"/>probablement parceque nous allons au moins <lb n="61" xml:id="l-61"/>en grande partie nous servir de couleurs à <lb n="62" xml:id="l-62"/>meilleur marché tant Gauguin que moi<c type="kp">_</c> <lb n="63" xml:id="l-63"/>Pour la toile nous allons également la préparer <lb n="64" xml:id="l-64"/>nous mêmes.<anchor n="3" xml:id="note-o-3"/>
+                </ab>
+                <lb n="65" xml:id="l-65"/>
+<ab rend="indent">J’ai eu un moment un peu le sentiment que <lb n="66" xml:id="l-66"/>j’allais etre malade mais la venue de Gauguin <lb n="67" xml:id="l-67"/>m’a tellement distrait que je suis sûr que <lb n="68" xml:id="l-68"/>cela se passera. Il faut que je ne néglige <lb n="69" xml:id="l-69"/>pas ma nourriture pendant un temps et <lb n="70" xml:id="l-70"/>voilà tout. et absolument tout.</ab>
+                <lb n="71" xml:id="l-71"/>
+<ab rend="indent">Et au bout de quelque temps tu auras du <lb n="72" xml:id="l-72"/>travail.</ab>
+                <lb n="73" xml:id="l-73"/>
+<ab rend="indent">Gauguin a apporté une magnifique toile qu’il <lb n="74" xml:id="l-74"/>a echangé avec Bernard<c type="kk">/</c> des Bretonnes dans un <lb n="75" xml:id="l-75"/>pré vert. blanc<c type="kk">/</c> noir<c type="kk">/</c> vert et une note <lb n="76" xml:id="l-76"/>rouge 
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                    <lb n="77" xml:id="l-77"/>et les tons mats de la chair.<anchor n="4" xml:id="note-o-4"/> Enfin ayons <lb n="78" xml:id="l-78"/>tous bon courage.</ab>
+                <lb n="79" xml:id="l-79"/>
+<ab rend="indent">Je crois que le jour viendra que moi je vendrai aussi <lb n="80" xml:id="l-80"/>mais vis à vis de toi je suis tellement en retard <lb n="81" xml:id="l-81"/>et tout en depensant je ne rapporte rien<c type="kp">_</c>
+                </ab>
+                <lb n="82" xml:id="l-82"/>
+<ab rend="indent">Ce sentiment-là m’attriste quelquefois.</ab>
+                <lb n="83" xml:id="l-83"/>
+<ab rend="indent">Je suis tres très content de ce que tu ecris qu’un <lb n="84" xml:id="l-84"/>des Hollandais<anchor n="5" xml:id="note-o-5"/> vient rester<anchor n="a" xml:id="note-o-a"/> avec toi et qu’ainsi tu <lb n="85" xml:id="l-85"/>ne seras plus seul aussi<c type="kp">_</c> C’est tout à fait tout à fait <lb n="86" xml:id="l-86"/>bien<c type="kk">/</c> surtout puisque nous allons vite avoir l’hiver<c type="kp">_</c>
+                </ab>
+                <lb n="87" xml:id="l-87"/>
+<ab rend="indent">Enfin je suis pressé et dois sortir pour <lb n="88" xml:id="l-88"/>me remettre au travail à une autre toile de <lb n="89" xml:id="l-89"/>trente.<anchor n="6" xml:id="note-o-6"/>
+                </ab>
+                <lb n="90" xml:id="l-90"/>
+<ab rend="indent">Bientôt lorsque Gauguin t’ecrit j’ajouterai <lb n="91" xml:id="l-91"/>encore une lettre à la sienne.</ab>
+                <lb n="92" xml:id="l-92"/>
+<ab rend="indent">Je ne sais naturellement pas d’avance ce que <lb n="93" xml:id="l-93"/>Gauguin dira de ce pays ci et de notre vie mais <lb n="94" xml:id="l-94"/>dans tous les cas il est très content de la bonne <lb n="95" xml:id="l-95"/>vente que tu lui <lb n="96" xml:id="l-96"/>as faite.</ab>
+                <lb n="97" xml:id="l-97"/>
+<ab rend="indent">à bientôt et je te serre bien la main<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="98" xml:id="l-98"/>
+<ab>t<c type="kp">_</c> à t<c type="kp">_</c>
+                </ab>
+                <lb n="99" xml:id="l-99"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-53" n="53">Faire &lt; Fa re</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo</ab>
+<ab>Thank you for your letter<anchor n="1" xml:id="note-t-1"/> and for the 50-franc note. As you learned from my telegram, <rs type="pers" key="1039">Gauguin</rs> arrived in good health.<anchor n="2" xml:id="note-t-2"/> He even gave me the impression of being in better shape than me.</ab>
+<ab rend="indent">He’s naturally very pleased with the sale that you made, and I no less, since that way certain other expenses absolutely necessary for moving in needn’t wait nor will fall on your shoulders alone. <rs type="pers" key="1039">G. </rs>will certainly write to you today. He’s very, very interesting as a man, and I have every confidence that with him we’ll do a great many things. He’ll probably produce a great deal here, and perhaps I shall too, I hope.</ab>
+<ab rend="indent">And then I dare believe that for you the burden will be <hi rend="ital">a little </hi>less heavy, and I dare believe <hi rend="ital">much </hi>less heavy.</ab>
+<ab rend="indent">I myself feel, to the point of being mentally crushed and physically drained, the need to produce, precisely because in short I have no other means, none, none, of ever recouping our outlay. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">I can do nothing about it if my paintings don’t sell.</ab>
+<ab rend="indent">The day will come, though, when people will see that they’re worth more than the cost of the paint and my subsistence, very meagre in fact, that we put into them.</ab>
+<ab rend="indent">I have no other wish nor other concern regarding money or finances than in the first place not to have debts.</ab>
+<ab rend="indent">But my dear brother, my debt is so great that when I’ve paid it, which I think I’ll succeed in doing, the hardship of producing paintings will, however, have taken my entire life, and it will seem to me that I haven’t lived. The only thing is that perhaps the production of paintings will become a little more difficult for me, and as far as the number goes, there won’t always be as many.</ab>
+<ab rend="indent">The fact that they don’t sell now makes me anxious that you’re suffering too, but it would be of little concern to me if you didn’t become too hard up by my bringing nothing in. 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/>
+                </ab>
+<ab rend="indent">But in money matters it’s enough for me to feel this truth, that a man who lives for 50 years and spends two thousand a year spends a hundred thousand francs, and that he must bring a hundred thousand in, too. To make a thousand paintings at a hundred francs during one’s life as an artist is very, very, very hard, but when the painting is at a hundred francs...... and again.... our task is very heavy at times. But nothing about that can be altered.</ab>
+<ab rend="indent">We’ll let Tasset down completely, probably, because to a large extent at least, we’ll use less expensive colours, both <rs type="pers" key="1039">Gauguin</rs> and I. As for canvas, we’ll also prepare it ourselves.<anchor n="3" xml:id="note-t-3"/>
+                </ab>
+<ab rend="indent">For a time I had the slight feeling that I was going to be ill, but <rs type="pers" key="1039">Gauguin</rs>’s arrival has so taken my mind off it that I’m sure it will pass. I mustn’t neglect my diet for a while, and that’s all. And absolutely all.</ab>
+<ab rend="indent">And after a time you’ll have some work.</ab>
+<ab rend="indent">
+                    <rs type="pers" key="1039">Gauguin</rs> has brought a magnificent canvas that he exchanged with <rs type="pers" key="831">Bernard</rs>, Breton women in a green meadow. White, black, green and a red note, 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> and the matt tones of the flesh.<anchor n="4" xml:id="note-t-4"/> Anyway, let’s all be of good heart.</ab>
+<ab rend="indent">I believe that the day will come when I’ll sell too, but I’m so far behind with you, and while I spend I bring nothing in.</ab>
+<ab rend="indent">That feeling sometimes makes me sad.</ab>
+<ab rend="indent">I’m very, very happy at what you write, that one of the Dutchmen<anchor n="5" xml:id="note-t-5"/> will come and live with you, and that that way you won’t be alone any more, either. It’s perfectly, perfectly good, especially as we’ll soon have winter.</ab>
+<ab rend="indent">Anyway, I’m in a hurry, and have to go out to get back to work on another no. thirty canvas.<anchor n="6" xml:id="note-t-6"/>
+                </ab>
+<ab rend="indent">Soon, when <rs type="pers" key="1039">Gauguin</rs> writes to you, I’ll add another letter to his.</ab>
+<ab rend="indent">Of course, I don’t know in advance what <rs type="pers" key="1039">Gauguin</rs> will say about this part of the world and about our life, but in any case he’s very happy with the good sale that you made for him.</ab>
+<ab rend="indent">More soon, and I shake your hand firmly.</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>This was <ref target="let711.xml">letter 711</ref>.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>
+                        <rs type="pers" key="1039">Gauguin</rs> arrived at four in the morning on Tuesday, 23 October. It had taken him from Sunday afternoon until Tuesday morning to get from Pont-Aven to Arles, as he told <rs type="pers" key="1357">Schuffenecker</rs> on 25 October 1888. See Merlhès 1989, pp. 124-127. For the route he took see <hi rend="ital">Correspondance Gauguin </hi>1984, p. 510 (n. 294), exhib. cat. Chicago 2001, p. 54 (fig. 5), and Murphy 2016, p. 281 (n. 1).</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>Van Gogh and <rs type="pers" key="1039">Gauguin</rs> prepared the jute Gauguin had bought themselves (<ref target="let716.xml#n-8">see letter 716, n. 8</ref>). See exhib. cat. Chicago 2001, pp. 354-369, for the paintings they did on the jute and the way they prepared it.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>
+                        <rs type="pers" key="831">Emile Bernard</rs>, <hi rend="ital">Breton women in the meadow</hi> (private collection). <rs type="ill" key="2236">Ill. 2236</rs>.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>This was <rs type="pers" key="1075">Meijer de Haan</rs>.</ab>
+                </note>
+<note n="a" xml:id="n-a" target="#note-o-a">
+<ab>Read: ‘habiter’.</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>This was one of the two no. 30 canvases that Van Gogh was to say in <ref target="let714.xml">letter 714</ref> he had done ‘this week’, namely <hi rend="ital">Sower </hi>(<rs type="ill" key="2739">F 494 / JH 1617</rs>) and <hi rend="ital">Ploughed field with a tree-trunk (‘The furrows’) </hi>(<rs type="ill" key="2740">F 573 / JH 1618</rs>).</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

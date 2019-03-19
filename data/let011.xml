@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. London, Sunday, 20 July 1873.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let011"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">011</idno>
+<idno type="collectedletters">10</idno>
+<idno type="brieven1990">011</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>London</vg:placeLet>
+                        <vg:dateLet>Sunday, 20 July 1873</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. London, Sunday, 20 July 1873.</p>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. nos. b10 V/1962 (sheet 1) and b1457 V/1962 (sheet 2)</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Letter headed: ‘Londen 20 Juli 1873’.</p>
+                    </note>
+<note type="arrangement" xml:id="arrangement">
+<p>A copy of Jan van Beers’s poem ‘<rs type="lit" key="2">The evening hour</rs>’ is preserved separately (FR b1457), but it emerges from <ref target="#l-101">l. 101</ref> that it must belong to this letter.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0010" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000010_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000010_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000010_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000010_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000010_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000010_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="VGM001000010_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000010_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000010_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0010" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000010_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000010_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000010_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000010_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000010_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000010_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000010_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000010_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000010_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 1457" xml:id="surf-pb-2r">
+            <graphic mimeType="image/tiff" url="VGM001001342_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-2r-5">
+<graphic mimeType="image/tiff" url="VGM001001342_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001342_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001342_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 1457" xml:id="surf-pb-2v">
+            <graphic mimeType="image/tiff" url="VGM001001342_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-2v-6">
+<graphic mimeType="image/tiff" url="VGM001001342_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001342_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001342_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Londen 20 Juli 1873</ab>
+<vg:whiteline/>
+                <lb n="2" xml:id="l-2"/>
+<ab>Waarde Theo,</ab>
+                <lb n="3" xml:id="l-3"/>
+<ab>Dank voor je brief, <lb n="4" xml:id="l-4"/>die mij veel genoegen deed. <lb n="5" xml:id="l-5"/>Ik ben blij dat het je goed gaat, <lb n="6" xml:id="l-6"/>&amp; ’t je bij Mr<c type="kp">_</c> Schmidt aan huis <lb n="7" xml:id="l-7"/>bevallen blijft. Mr. Obach <lb n="8" xml:id="l-8"/>had met pleizier kennis met <lb n="9" xml:id="l-9"/>je gemaakt.<anchor n="1" xml:id="note-o-1"/> Ik hoop dat <lb n="10" xml:id="l-10"/>wij in ’t vervolg veel zaken <lb n="11" xml:id="l-11"/>met jelui zullen doen. <lb n="12" xml:id="l-12"/>Dat sch<hi rend="ss">ij</hi> van Linder<anchor n="2" xml:id="note-o-2"/> is zeer <lb n="13" xml:id="l-13"/>mooi.</ab>
+                <lb n="14" xml:id="l-14"/>
+<ab rend="indent">Wat de photogravure betreft<c type="kk">/</c> <lb n="15" xml:id="l-15"/>ik weet wel zoowat hoe <lb n="16" xml:id="l-16"/>zij gemaakt worden, maar <lb n="17" xml:id="l-17"/>heb het niet gezien, en ’t is <lb n="18" xml:id="l-18"/>mij niet helder genoeg <lb n="19" xml:id="l-19"/>om het uit te leggen.–<anchor n="3" xml:id="note-o-3"/>
+                </ab>
+                <lb n="20" xml:id="l-20"/>
+<ab rend="indent">De Engelsche kunst trok <lb n="21" xml:id="l-21"/>mij in ’t begin niet erg <lb n="22" xml:id="l-22"/>aan, men moet er aan wen<c type="shy">-</c>
+                    <lb n="23" xml:id="l-23"/>nen. Er zijn echter knappe <lb n="24" xml:id="l-24"/>schilders hier, o.a. Millais <lb n="25" xml:id="l-25"/>die “The Huguenot”, Ophelia &amp;c<c type="kp">_</c> <lb n="26" xml:id="l-26"/>heeft gemaakt, waarvan je <lb n="27" xml:id="l-27"/>de gravures wel zult kennen,<anchor n="4" xml:id="note-o-4"/> <lb n="28" xml:id="l-28"/>dat is zeer mooi. Dan <lb n="29" xml:id="l-29"/>Boughton, van wien je de <lb n="30" xml:id="l-30"/>“Puritains allant à l’église”<c type="kk">/</c> 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                    <lb n="37" xml:id="l-37"/>in onze Galerie photographique,<anchor n="5" xml:id="note-o-5"/> <lb n="38" xml:id="l-38"/>kent, van hem heb ik zeer mooie <lb n="39" xml:id="l-39"/>zaken gezien. Verder onder <lb n="40" xml:id="l-40"/>de oude schilders Constable<c type="kk">/</c> <lb n="41" xml:id="l-41"/>dat is een landschapschilder <lb n="42" xml:id="l-42"/>die een jaar of 30 geleden leefde<c type="kk">/</c> <lb n="43" xml:id="l-43"/>dat is prachtig, het heeft iets <lb n="44" xml:id="l-44"/>van Diaz en Daubigny, en <lb n="45" xml:id="l-45"/>Reynolds en Gainsborough <lb n="46" xml:id="l-46"/>die vooral zeer zeer mooie <lb n="47" xml:id="l-47"/>vrouwenportretten hebben <lb n="48" xml:id="l-48"/>geschilderd en dan Turner <lb n="49" xml:id="l-49"/>naar wien je wel gravures <lb n="50" xml:id="l-50"/>zult gezien hebben.–<anchor n="6" xml:id="note-o-6"/>
+                </ab>
+                <lb n="51" xml:id="l-51"/>
+<ab rend="indent">Er wonen enkele goede <lb n="52" xml:id="l-52"/>Fransche schilders hier<c type="kk">/</c> o.a. <lb n="53" xml:id="l-53"/>Tissot, naar wien verscheidene <lb n="54" xml:id="l-54"/>phot. in onze Gal. photogr. <lb n="55" xml:id="l-55"/>zijn,<anchor n="7" xml:id="note-o-7"/> Otto Weber en Heilbuth. <lb n="56" xml:id="l-56"/>De laatste maakt tegenwoor<c type="shy">-</c>
+                    <lb n="57" xml:id="l-57"/>dig juweelig mooie schilde<c type="shy">-</c>
+                    <lb n="58" xml:id="l-58"/>rijen in den trant van dat <lb n="59" xml:id="l-59"/>van Linder.–</ab>
+                <lb n="60" xml:id="l-60"/>
+<ab rend="indent">Gij moet mij bij gelegenheid <lb n="61" xml:id="l-61"/>eens schrijven of er <lb n="62" xml:id="l-62"/>photographien naar Wauters <lb n="63" xml:id="l-63"/>zijn behalve Hugo v.d. Goes en <lb n="64" xml:id="l-64"/>Maria van Bourgondie<anchor n="8" xml:id="note-o-8"/> en <lb n="65" xml:id="l-65"/>of je ook photographies kent <lb n="66" xml:id="l-66"/>naar schilderijen van <lb n="67" xml:id="l-67"/>Lagye en de Braekeleer. 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                    <lb n="68" xml:id="l-68"/>Dat is niet den ouden de <lb n="69" xml:id="l-69"/>Braekeleer dien ik bedoel <lb n="70" xml:id="l-70"/>maar ik geloof een zoon van hem <lb n="71" xml:id="l-71"/>die op de laatste tentoonstelling <lb n="72" xml:id="l-72"/>te Brussel 3 prachtige schil<c type="shy">-</c>
+                    <lb n="73" xml:id="l-73"/>derijen had<c type="kk">/</c> getiteld Anvers, <lb n="74" xml:id="l-74"/>L’école en L’atlas.–<anchor n="9" xml:id="note-o-9"/>
+                </ab>
+                <lb n="75" xml:id="l-75"/>
+<ab rend="indent">Het gaat mij hier goed, ik <lb n="76" xml:id="l-76"/>wandel veel, het is, hier waar <lb n="77" xml:id="l-77"/>ik woon, eene stille<c type="kk">/</c> gezellige <lb n="78" xml:id="l-78"/>en frissche buurt, ik heb dat <lb n="79" xml:id="l-79"/>wezentlijk goed getroffen. <lb n="80" xml:id="l-80"/>Toch denk ik wel eens met <lb n="81" xml:id="l-81"/>weemoed aan de heerlijke <lb n="82" xml:id="l-82"/>Zondagen te Scheveningen<anchor n="10" xml:id="note-o-10"/> <lb n="83" xml:id="l-83"/>en zoo voorts, maar daarom <lb n="84" xml:id="l-84"/>niet getreurd.–</ab>
+                <lb n="85" xml:id="l-85"/>
+<ab rend="indent">Je zult zeker gehoord hebben <lb n="86" xml:id="l-86"/>dat Anna te huis, en niet <lb n="87" xml:id="l-87"/>wel is,<anchor n="11" xml:id="note-o-11"/> dat is een slecht <lb n="88" xml:id="l-88"/>begin van hare vacantie <lb n="89" xml:id="l-89"/>maar wij willen hopen <lb n="90" xml:id="l-90"/>zij nu reeds beter is.–</ab>
+                <lb n="91" xml:id="l-91"/>
+<ab rend="indent">Dank voor wat je mij van <lb n="92" xml:id="l-92"/>schilderijen geschreven hebt. <lb n="93" xml:id="l-93"/>Als je ooit iets ziet van Lagye, <lb n="94" xml:id="l-94"/>de Braekeleer, Wauters, Maris<c type="kk">/</c>
+                    <anchor n="12" xml:id="note-o-12"/> <lb n="95" xml:id="l-95"/>Tissot, George Saal, Jundt<c type="kk">/</c> <lb n="96" xml:id="l-96"/>Ziem<c type="kk">/</c> Mauve<c type="kk">/</c> moet je mij dat <lb n="97" xml:id="l-97"/>vooral schrijven, dat zijn <lb n="98" xml:id="l-98"/>schilders waarvan ik veel <lb n="99" xml:id="l-99"/>houd en van wien je waarschijn<c type="shy">-</c>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                    <lb n="100" xml:id="l-100"/>lijk wel eens iets zien zult.</ab>
+                <lb n="101" xml:id="l-101"/>
+<ab rend="indent">Hierbij eene copie van dat <lb n="102" xml:id="l-102"/>vers van dien bewusten schilder <lb n="103" xml:id="l-103"/>“die trad in de Zwaen, de <lb n="104" xml:id="l-104"/>herberg waer hij besteed was”<anchor n="13" xml:id="note-o-13"/> <lb n="105" xml:id="l-105"/>dat je je wel herrinneren zult. <lb n="106" xml:id="l-106"/>Dat is echt Brabant en ik <lb n="107" xml:id="l-107"/>houd er zoo veel van, Lies <lb n="108" xml:id="l-108"/>schreef het voor mij over <lb n="109" xml:id="l-109"/>den laatsten avond dat ik te <lb n="110" xml:id="l-110"/>huis was.–<anchor n="14" xml:id="note-o-14"/> Wat zou ik je <lb n="111" xml:id="l-111"/>graag eens hier hebben, wat <lb n="112" xml:id="l-112"/>hebben wij te s’Hage prettige <lb n="113" xml:id="l-113"/>dagen samen gehad, ik denk <lb n="114" xml:id="l-114"/>nog zoo dikwijls aan dien wan<c type="shy">-</c>
+                    <lb n="115" xml:id="l-115"/>deling op den Rijswijkschen weg <lb n="116" xml:id="l-116"/>waar wij aan den molen na <lb n="117" xml:id="l-117"/>den regen melk gedronken <lb n="118" xml:id="l-118"/>hebben.–<anchor n="15" xml:id="note-o-15"/> Als de schilderijen <lb n="119" xml:id="l-119"/>die wij van jelui hebben<c type="kk">/</c> teruggaan, stuur <lb n="120" xml:id="l-120"/>ik je een portret van dien molen <lb n="121" xml:id="l-121"/>door Weissenbruch,<anchor n="16" xml:id="note-o-16"/> je herrinnert <lb n="122" xml:id="l-122"/>je misschien wel<c type="kk">/</c> den vrolijken Wijs <lb n="123" xml:id="l-123"/>is zijn bijnaam<c type="kk">/</c> “prrrachtig zal <lb n="124" xml:id="l-124"/>’k maar eens zeggen”.–<anchor n="17" xml:id="note-o-17"/> Die Rijs<c type="shy">-</c>
+                    <lb n="125" xml:id="l-125"/>wijkschen weg heeft voor mij herrin<c type="shy">-</c>
+                    <lb n="126" xml:id="l-126"/>neringen die misschien de heerlijksten <lb n="127" xml:id="l-127"/>zijn die ik heb. Als wij elkaar <lb n="128" xml:id="l-128"/>eens spreken hebben wij het daar <lb n="129" xml:id="l-129"/>misschien nog wel eens over.</ab>
+                <lb n="130" xml:id="l-130"/>
+<ab rend="indent">En nu kerel<c type="kk">/</c> heb het goed, denk <lb n="131" xml:id="l-131"/>van tijd tot tijd eens aan mij en <lb n="132" xml:id="l-132"/>schrijf mij eens spoedig, het is zoo’n ver<c type="shy">-</c>
+                    <lb n="133" xml:id="l-133"/>kwikking voor mij als ik een brief krijg<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="134" xml:id="l-134"/>
+<ab>Vincent.</ab>
+<vg:whiteline/>
+                <lb n="31" xml:id="l-31"/>
+<ab>Mijne groeten aan <lb n="32" xml:id="l-32"/>Mr<c type="kp">_</c> Schmidt en Eduard.<anchor n="18" xml:id="note-o-18"/> <lb n="33" xml:id="l-33"/>Hoe gaat het met Oom Hein <lb n="34" xml:id="l-34"/>en Tante, schrijf mij daar eens <lb n="35" xml:id="l-35"/>wat van, komt gij er dikwijls<c type="kp">_</c> <lb n="36" xml:id="l-36"/>Groet hen hartelijk voor mij<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+                <lb n="135" xml:id="l-135"/>
+<ab>De avondstond.<anchor n="19" xml:id="note-o-19"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="136" xml:id="l-136"/>
+<ab>Langzaem galmde ’t getamp der beeklok over de velden</ab>
+                <lb n="137" xml:id="l-137"/>
+<ab>Die volzalig in ’t goud der avondzonne zich baedden.</ab>
+                <lb n="138" xml:id="l-138"/>
+<ab>Plechtig roerende stond! als in ’t dorp elk moederken eensklaps</ab>
+                <lb n="139" xml:id="l-139"/>
+<ab>Staekende ’t snorren van ’t wiel met het teeken des kruises zich zegent.</ab>
+<vg:whiteline/>
+                <lb n="140" xml:id="l-140"/>
+<ab>Wijl op den akker de boer, zijn dampende rossen weerhoudend,</ab>
+                <lb n="141" xml:id="l-141"/>
+<ab>Achter de ploeg zich ’t hoofd ontbloot om een ave te preevlen</ab>
+                <lb n="142" xml:id="l-142"/>
+<ab>Plegtig roerende stond! als de klok die ’t einde der dag taek,</ab>
+                <lb n="143" xml:id="l-143"/>
+<ab>Wijd en zijd verkondt, die krachtige druipende hoofden;</ab>
+                <lb n="144" xml:id="l-144"/>
+<ab>Neer doet buigen voor hem, die ’t zweet in de voor doet gedijen.</ab>
+<vg:whiteline/>
+                <lb n="145" xml:id="l-145"/>
+<ab>Ook den kunstnaer, die ginds op de helling des lommrigen heuvels</ab>
+                <lb n="146" xml:id="l-146"/>
+<ab>Reeds van vroeg in den dag zoo druk heeft zitten te schildren,</ab>
+                <lb n="147" xml:id="l-147"/>
+<ab>Klonk nu de Angelusklok als een aftogtsteeken; hij wischte</ab>
+                <lb n="148" xml:id="l-148"/>
+<ab>Traeg penseel &amp; palet, die hij borg, bij zijn doek, in de draegkas,</ab>
+                <lb n="149" xml:id="l-149"/>
+<ab>Vouwde zijn veldstoel dicht, en daelde, al droomende ’t pad af,</ab>
+                <lb n="150" xml:id="l-150"/>
+<ab>Dat door ’t bloemrijke dal zacht kronkelend leidt naer het dorp.</ab>
+<vg:whiteline/>
+                <lb n="151" xml:id="l-151"/>
+<ab>Doch hoe dikwijls eer hij beneden de delling bereikt had,</ab>
+                <lb n="152" xml:id="l-152"/>
+<ab>Stond hij bewonderend stil, om ’t frissche tafreel dat daeronder,</ab>
+                <lb n="153" xml:id="l-153"/>
+<ab>Zich voor zijne oogen ontrolde, nog eens in zijn ziele te printen.</ab>
+<vg:whiteline/>
+                <lb n="154" xml:id="l-154"/>
+<ab>Vlak voor hem lag ’t dorp, met een heuvel ten noorde &amp; ten zuide,</ab>
+                <lb n="155" xml:id="l-155"/>
+<ab>Tusschen wier ruggen de zon, hoogrood weg zinkende in ’t Westen,</ab>
+                <lb n="156" xml:id="l-156"/>
+<ab>Gansch den schat van haer kleuren &amp; straelengetoover deed stroomen.</ab>
+                <lb n="157" xml:id="l-157"/>
+<ab>’t Klokje, in den grijzen, met zwartgroen veil omsluierden toren,</ab>
+                <lb n="158" xml:id="l-158"/>
+<ab>Zweeg nu; Roerloos hingen, daer ginds op de hoogte de bruine</ab>
+                <lb n="159" xml:id="l-159"/>
+<ab>Molenwieken; het loof stond roerloos, &amp; boven de hutten,</ab>
+                <lb n="160" xml:id="l-160"/>
+<ab>Stegen de blauwe wolkjes der schadden zoo recht uit de schouwen,</ab>
+                <lb n="161" xml:id="l-161"/>
+<ab>Dat ze in de tint’lende lucht ook roerloos schenen te hangen.</ab>
+<vg:whiteline/>
+                <lb n="162" xml:id="l-162"/>
+<ab>T’was of dit dorpken, dit veld, die heuvels, of alles in ’t ronde,</ab>
+                <lb n="163" xml:id="l-163"/>
+<ab>Eer het zich wikkelde in ’t kleed van d’avonddauw om te slapen</ab>
+                <lb n="164" xml:id="l-164"/>
+<ab>Onder den afscheidskus der zon, stilzwijgend en dankbaer,</ab>
+                <lb n="165" xml:id="l-165"/>
+<ab>Eens nog de weelde &amp; den vrêe herdacht die het weder gesmaekt had<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="166" xml:id="l-166"/>
+<ab>Ras werd dit zwijgen nogtans door de zoete geluiden des avonds</ab>
+                <lb n="167" xml:id="l-167"/>
+<ab>Lieflijk verstoord. In de verte, uit een zonk van den heuvel weerklonken</ab>
+                <lb n="168" xml:id="l-168"/>
+<ab>Langzaem slepend &amp; ’t vee oproepend de toonen des toethoorns</ab>
+                <lb n="169" xml:id="l-169"/>
+<ab>En op dit sein van hun hoeder, verscheen weldra in de holle</ab>
+                <lb n="170" xml:id="l-170"/>
+<ab>Zandige bergstraet, heel de bontkleurige kudde der koeijen,</ab>
+                <lb n="171" xml:id="l-171"/>
+<ab>Knallend &amp; schallende dreef nu de klets des knapen hen voorwaerts</ab>
+                <lb n="172" xml:id="l-172"/>
+<ab>Wijl ze als bij beurte den hals uitstrekkend met vriendlijk loeijen</ab>
+                <lb n="173" xml:id="l-173"/>
+<ab>Reeds van verre den stal begroeteden waer hen de melkster</ab>
+                <lb n="174" xml:id="l-174"/>
+<ab>Iedren avond wacht, die hun spannenden uijer weer licht maekt.</ab>
+                <lb n="175" xml:id="l-175"/>
+<ab>En zoo kwam er allengs op de paden die even als speeken</ab>
+                <lb n="176" xml:id="l-176"/>
+<ab>Rond hunne as, van ’t dorp uitstraelden, beweging &amp; leven<c type="kp">_</c>
+                </ab>
+                <lb n="177" xml:id="l-177"/>
+<ab>Hier was ’t een boer, die egge of ploeg op de veldslet huiswaert</ab>
+                <lb n="178" xml:id="l-178"/>
+<ab>Sleepte, &amp; een deuntje floot, ter zijde op zijn bruintje gezeten.</ab>
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>
+                <lb n="179" xml:id="l-179"/>
+<ab>Daer, een blozende deern, met een bussel geurige klaver,</ab>
+                <lb n="180" xml:id="l-180"/>
+<ab>Vol madelieven &amp; kol op ’t hoofd, die den andren van verre</ab>
+                <lb n="181" xml:id="l-181"/>
+<ab>Hertlijk &amp; lustig te gaer, heur helder “goen avond” toeriep</ab>
+                <lb n="182" xml:id="l-182"/>
+<ab>Verder... Maer juist op de baen, waer ’t padje gevolgd door den schilder</ab>
+                <lb n="183" xml:id="l-183"/>
+<ab>Heenliep, klonk er op eens een schaterend juichen hem tegen.</ab>
+                <lb n="184" xml:id="l-184"/>
+<ab>Zwenkend van hot naer haer, kwam daer een wagen tot klinkens</ab>
+                <lb n="185" xml:id="l-185"/>
+<ab>Opgestapeld van d’oogst der boekweit, nader gebolderd.</ab>
+                <lb n="186" xml:id="l-186"/>
+<ab>Peerd &amp; vracht was gesierd met fladdrende linten &amp; meijen</ab>
+                <lb n="187" xml:id="l-187"/>
+<ab>Kindren, elk met een krans van bloemen op ’t vlas blond kopje</ab>
+                <lb n="188" xml:id="l-188"/>
+<ab>Zaten boven er op, blij zwaeiend met elzene takken,</ab>
+                <lb n="189" xml:id="l-189"/>
+<ab>Of een regen van loof &amp; bloemen naer onderen strooijend</ab>
+                <lb n="190" xml:id="l-190"/>
+<ab>Wijl om den wagen, beneen, een troep van knechten &amp; meiden</ab>
+                <lb n="191" xml:id="l-191"/>
+<ab>Sprongen &amp; zongen, dat gansch de insluimrende vlakte er van opschrok.–</ab>
+<vg:whiteline/>
+                <lb n="192" xml:id="l-192"/>
+<ab>Stil glimlachende zag de schilder, van achter de heesters,</ab>
+                <lb n="193" xml:id="l-193"/>
+<ab>Over de hobb’lige baen, het getier traeg verder zich slingren.</ab>
+                <lb n="194" xml:id="l-194"/>
+<ab>Ja, zoo mompelde hij, ja, ’t moet daerboven den Heere,</ab>
+                <lb n="195" xml:id="l-195"/>
+<ab>Lieflijk klinken, het blijde gejuich, waermede die herten</ab>
+                <lb n="196" xml:id="l-196"/>
+<ab>Zoo eenvoudig hun dank uitstorten bij ’t zaemlen der laetste</ab>
+                <lb n="197" xml:id="l-197"/>
+<ab>Vruchten, die hij elk jaer volop uit hun zwoegen laet rijpen.</ab>
+                <lb n="198" xml:id="l-198"/>
+<ab>Ja, want ’t schoonste gebed van eenvoud &amp; onschuld is vreugde!</ab>
+<vg:whiteline/>
+                <lb n="199" xml:id="l-199"/>
+<ab>En dus mijmrend aen ’t kalme &amp; diepe genot dat de ziele</ab>
+                <lb n="200" xml:id="l-200"/>
+<ab>Smaekt op ’t veld, of nog eens gansch ’t heerlijk toneel van daereven</ab>
+                <lb n="201" xml:id="l-201"/>
+<ab>Met zijn kunstnaersgeest, opbouwende in stille verrukking,</ab>
+                <lb n="202" xml:id="l-202"/>
+<ab>Kwam hij, zonder het zelf te bemerken in ’t dorpken geslenterd.–</ab>
+<vg:whiteline/>
+                <lb n="203" xml:id="l-203"/>
+<ab>Reeds was ’t purper &amp; geel tot grijs in ’t Westen verzwonden,</ab>
+                <lb n="204" xml:id="l-204"/>
+<ab>En in ’t Oosten verrees vlak neven het kerksken, de volle,</ab>
+                <lb n="205" xml:id="l-205"/>
+<ab>Koperkleurige schijf der maen, van dampen omschemerd,</ab>
+                <lb n="206" xml:id="l-206"/>
+<ab>Toen hij trad in de Zwaen, de herberg waer hij besteed was.–</ab>
+<vg:whiteline/>
+                <lb n="207" xml:id="l-207"/>
+<ab>Jan van Beers</ab>
+                <lb n="208" xml:id="l-208"/>
+<ab>
+                    <hi rend="ital">De Bestedeling</hi>
+                </ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-69" n="69">Braekeleer &lt; Baekeleer</note>
+<note target="l-96" n="96">moet &lt; moet ziet</note>
+<note target="l-143" n="143">hoofden &lt; hooden</note>
+<note target="l-151" n="151">delling &lt; helling  <hi rend="ital">Corresponding to the original text.</hi>
+                    </note>
+<note target="l-167" n="167">zonk &lt; zwonk <hi rend="ital">Corresponding to the original text.</hi>
+                    </note>
+<note target="l-199" n="199">ziele &lt; ziele,</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>London, 20 July 1873</ab>
+<vg:whiteline/>
+<ab>My dear Theo,</ab>
+<ab>Thanks for your letter, which gave me a great deal of pleasure. I’m glad you’re well and that living at <rs type="pers" key="624">Mr Schmidt</rs>’s is still to your liking. <rs type="pers" key="547">Mr Obach</rs> was pleased to make your acquaintance.<anchor n="1" xml:id="note-t-1"/> I hope that in future we’ll do a lot of business with you. That painting by <rs type="pers" key="1180">Linder</rs>
+                    <anchor n="2" xml:id="note-t-2"/> is very beautiful.</ab>
+<ab rend="indent">As to the photogravure, I know more or less how they’re made, though I haven’t seen it, and it isn’t clear enough to me to explain it.<anchor n="3" xml:id="note-t-3"/>
+                </ab>
+<ab rend="indent">English art didn’t appeal to me much at first, one has to get used to it. There are some good painters here, though, including <rs type="pers" key="1227">Millais</rs>, who made ‘The Huguenot’, Ophelia, &amp;c., engravings of which you probably know,<anchor n="4" xml:id="note-t-4"/> they’re very beautiful. Then <rs type="pers" key="878">Boughton</rs>, of whom you know the ‘Puritans going to church’ 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> in our Galerie photographique.<anchor n="5" xml:id="note-t-5"/> I’ve seen very beautiful things by him. Moreover, among the old painters, <rs type="pers" key="945">Constable</rs>, a landscape painter who lived around 30 years ago, whose work is splendid, something like <rs type="pers" key="992">Diaz</rs> and <rs type="pers" key="976">Daubigny</rs>. And <rs type="pers" key="1296">Reynolds</rs> and <rs type="pers" key="1036">Gainsborough</rs>, who mostly painted very, very beautiful portraits of women, and then <rs type="pers" key="1396">Turner</rs>, after whom you’ll probably have seen engravings.<anchor n="6" xml:id="note-t-6"/>
+                </ab>
+<ab rend="indent">Several good French painters live here, including <rs type="pers" key="1394">Tissot</rs>, after whom there are various photos in our Galerie photographique,<anchor n="7" xml:id="note-t-7"/> <rs type="pers" key="1423">Otto Weber</rs> and <rs type="pers" key="1087">Heilbuth</rs>. The latter is currently making dazzlingly beautiful paintings in the style of the one by <rs type="pers" key="1180">Linder</rs>.</ab>
+<ab rend="indent">Be sure, when you get the chance, to write and tell me whether there are photographs after <rs type="pers" key="1424">Wauters</rs>, besides Hugo van der Goes and Mary of Burgundy,<anchor n="8" xml:id="note-t-8"/> and whether you also know photographs of paintings by <rs type="pers" key="1140">Lagye</rs> and <rs type="pers" key="902">De Braekeleer</rs>. 
+    <pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> It’s not the elder <rs type="pers" key="898">De Braekeleer</rs> I mean but, I believe, a son of his, who had 3 splendid paintings at the last exhibition in Brussels, titled ‘Antwerp’, ‘The school’ and ‘The atlas’.<anchor n="9" xml:id="note-t-9"/>
+                </ab>
+<ab rend="indent">Things are going well for me here. I go walking a lot. Here where I live it’s a quiet, convivial, nice-looking neighbourhood, in this I’ve really been fortunate. And yet I sometimes think back with nostalgia to the wonderful Sundays in Scheveningen<anchor n="10" xml:id="note-t-10"/> and so on, but never mind that.</ab>
+<ab rend="indent">You’ll surely have heard that <rs type="pers" key="412">Anna</rs> is at home and not well.<anchor n="11" xml:id="note-t-11"/> It’s a bad start to her holiday, but let’s hope she’s better by now.</ab>
+<ab rend="indent">Thanks for what you wrote to me about paintings. Be sure to write and tell me if you ever see anything by <rs type="pers" key="1140">Lagye</rs>, <rs type="pers" key="902">De Braekeleer</rs>, <rs type="pers" key="1424">Wauters</rs>, <rs type="pers" key="1201 1202 1203">Maris</rs>,<anchor n="12" xml:id="note-t-12"/> <rs type="pers" key="1394">Tissot</rs>, <rs type="pers" key="1347">George Saal</rs>, <rs type="pers" key="1120">Jundt</rs>, <rs type="pers" key="1449">Ziem</rs>, <rs type="pers" key="323">Mauve</rs>, who are painters I like very much, and by whom you’ll probably 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> see something now and then.</ab>
+<ab rend="indent">Herewith a copy of that poem about that painter ‘who entered The Swan, the inn where he boarded’,<anchor n="13" xml:id="note-t-13"/> which you no doubt remember. It’s Brabant to a T, and I’m so fond of it. <rs type="pers" key="401">Lies</rs> copied it out for me on my last evening at home.<anchor n="14" xml:id="note-t-14"/> How much I’d like to have you here, what pleasant days we spent together in The Hague. I still think so often of our walk on Rijswijkseweg, where we drank milk at the mill after the rain.<anchor n="15" xml:id="note-t-15"/> If those paintings we have from you are to be sent back, I’ll send you a portrait of that mill by <rs type="pers" key="1443">Weissenbruch</rs>.<anchor n="16" xml:id="note-t-16"/> Perhaps you remember, ‘the merry tune’ is his nickname, ‘I say, superrrb’.<anchor n="17" xml:id="note-t-17"/> That Rijswijkseweg holds memories for me which are perhaps the most delightful I have. Perhaps we’ll speak of it again sometime when we meet.</ab>
+<ab rend="indent">And now, old chap, I wish you well, think of me from time to time and write to me soon. It’s so refreshing when I receive a letter.</ab>
+<vg:whiteline/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<ab>My regards to <rs type="pers" key="624">Mr Schmidt</rs> and <rs type="pers" key="1069">Eduard</rs>.<anchor n="18" xml:id="note-t-18"/> How are <rs type="pers" key="399">Uncle Hein</rs> and <rs type="pers" key="1613">Aunt</rs>? Write to me about them, do you go there often? Give them my warm regards.</ab>
+<vg:whiteline/>
+<ab>
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/>
+                </ab>
+<ab>The evening hour.<anchor n="19" xml:id="note-t-19"/>
+                </ab>
+<vg:whiteline/>
+<ab>Slowly the toll of the angelus-bell resounded o’er the fields,</ab>
+<ab>As they blissfully bathed in the gold of the evening sun.</ab>
+<ab>O solemn, moving moment! When every mother in the village suddenly</ab>
+<ab>Stops the whirring of the wheel to bless herself with the sign of the cross;</ab>
+<vg:whiteline/>
+<ab>While in the field the farmer reins in his steaming horses,</ab>
+<ab>And, behind the plough, bares his head to murmur an Ave.</ab>
+<ab>O solemn, moving moment! When the bell that proclaims far and wide</ab>
+<ab>The end of the day’s work makes those powerful, dripping heads</ab>
+<ab>Bow down for Him who causes the sweat in the furrow to thrive.</ab>
+<vg:whiteline/>
+<ab>For the artist, too, on the slope of yon shady hill,</ab>
+<ab>Absorbed in his painting from the earliest morning,</ab>
+<ab>The angelus now gave the sign to retreat. Slowly he wiped</ab>
+<ab>His brush and palette, which he stowed with his canvas in the valise,</ab>
+<ab>Folded his camp-stool and dreamily descended the path</ab>
+<ab>That leads, gently winding, through the flowery dale to the village.</ab>
+<vg:whiteline/>
+<ab>Yet how oft, before reaching the foot of the hill, did he</ab>
+<ab>Stand admiringly still, to imprint on his mind once again</ab>
+<ab>The refreshing scene down below, unfolding before his eyes.</ab>
+<vg:whiteline/>
+<ab>Just before him lay the village, with a hill to north and to south,</ab>
+<ab>Between whose crests the sun, inflamed and sinking in the west,</ab>
+<ab>Let flow the whole wealth of its colours and up-conjured glory.</ab>
+<ab>The bell, in the grey tower entwined with black-green ivy,</ab>
+<ab>Was now silent. Hanging motionless on high were the brown</ab>
+<ab>Sails of the windmill; the leaves stood still and above the huts</ab>
+<ab>Blue clouds of peat-smoke ascended so straight from the chimneys</ab>
+<ab>That they, too, seemed to hang motionless in the shimmering air.</ab>
+<vg:whiteline/>
+<ab>’Twas as though this village, this field, those hills, as though everything,</ab>
+<ab>Before wrapping itself in a cloak of evening dew to sleep</ab>
+<ab>Beneath the sun’s parting kiss, silently and gratefully</ab>
+<ab>Recalled once more the peace and plenty it had again savoured. </ab>
+<vg:whiteline/>
+<ab>Soon, though, this silence was gently disturbed by the sweet sounds</ab>
+<ab>Of the evening. In the distance, from a hollow in the hill echoed</ab>
+<ab>Lingeringly the sound of the cow-horn, calling the cattle.</ab>
+<ab>And at this sign from their herdsman there soon appeared in the furrowed</ab>
+<ab>Sandy mountain road the whole of a colourful herd of cows.</ab>
+<ab>Cracking and smacking, the lad’s lash drove them forward,</ab>
+<ab>While they, as if by turns, their necks outstretched, with friendly lowing</ab>
+<ab>Greeted from afar the cow-shed where the milkmaid</ab>
+<ab>Waited for them each evening to ease their taut udders.</ab>
+<ab>Thus on the paths running out from the village like spokes</ab>
+<ab>From an axle, there slowly came movement and life.</ab>
+<ab>Here, ’twas a farmer, dragging homeward a harrow or plough</ab>
+<ab>On a sledge, whistling a tune and riding beside on his bay; 
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/>
+                </ab>
+<ab>There, a blushing lass, on her head a lock of sweet clover</ab>
+<ab>Laced with daisies and poppies, called from afar to the others,</ab>
+<ab>Kindly and gaily at once, her clear-toned ‘good evening’.</ab>
+<ab>Further... But on the same track where the painter’s path</ab>
+<ab>Led, he suddenly heard peals of joyous laughter.</ab>
+<ab>Rocking from side to side, a wagon, nearly toppling</ab>
+<ab>Under its load of fresh-harvested buckwheat, came rumbling closer,</ab>
+<ab>Both horse and burden adorned with fluttering ribbons and greenery.</ab>
+<ab>Children, all with wreaths of flowers on their little flaxen heads,</ab>
+<ab>Were seated on top, happily waving branches of alder,</ab>
+<ab>Or scattering flowers and leaves, which rained down on all sides,</ab>
+<ab>While round the wagon a troop of country lads and lasses</ab>
+<ab>Skipped and sang enough to startle the whole drowsy plain.</ab>
+<vg:whiteline/>
+<ab>Quietly smiling, the Painter, from behind the thicket,</ab>
+<ab>Watched as the revellers slowly wound their way down the rutted road.</ab>
+<ab>‘Aye’, he thus mumbled, ‘Aye, the Lord must think it</ab>
+<ab>A happy sound, the jubilance with which these hearts</ab>
+<ab>So simply pour forth their thanks as they gather the last</ab>
+<ab>Fruits, which He yearly lets grow fully ripe from their toil.</ab>
+<ab>Yea, for the purest prayer of simplicity and innocence is joy!’</ab>
+<vg:whiteline/>
+<ab>And thus contemplating the calm, deep delight upon which the soul</ab>
+<ab>Feasts in the fields; or with his artist’s mind reconstructing</ab>
+<ab>In silent rapture the glorious scene of a moment ago,</ab>
+<ab>He found he had sauntered, unnoticing, into the village.</ab>
+<vg:whiteline/>
+<ab>Already the purple and yellow had faded to grey in the west,</ab>
+<ab>And in the east there had risen close by the little church the full</ab>
+<ab>Copper-coloured disc of the moon, in mist enshrouded,</ab>
+<ab>When he entered The Swan, the inn where he boarded.</ab>
+<vg:whiteline/>
+<ab>Jan van Beers</ab>
+<ab>(<hi rend="ital">The boarder</hi>)</ab>
+            </div>
+    <div type="notes">
+        <note n="1" xml:id="n-1" target="#note-t-1">
+<ab>
+                        <rs type="pers" key="547">Obach</rs> had made a journey to the Netherlands and had evidently visited Brussels as well. Cf. FR b2644, 19 July 1873.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>It is possible that Van Gogh is referring to the French painter <rs type="pers" key="1180">Philippe Jacques Linder</rs>; it is not known which work Theo wrote about.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>The essence of the process of photo-engraving is the application of a light-sensitive layer to the matrix (the copper plate), upon which a transparency is projected. The exposed material hardens and the unexposed material can then be removed, after which the plate is etched. Characteristic of the result is the soft, velvety quality of the depiction.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>Two reproductions are known of <hi rend="ital">The Huguenot</hi> by Sir <rs type="pers" key="1227">John Everett Millais</rs>. The successful mezzotint by <rs type="pers" key="1579">Thomas Oldham Barlow</rs>, published by Henry Graves in 1857 (London, Victoria &amp; Albert Museum), <rs type="ill" key="261">ill. 261</rs>; and the stipple and etching (small edition) made by <rs type="pers" key="1618">George Zobel</rs>, which was issued in 1869 by B. Brooks. See Engen 1995, pp. 54-57, 122. Cf. exhib. cat. Nottingham<hi rend="ital"> </hi>1974, p. 15.</ab>
+<ab rend="indent">The painting <hi rend="ital">A Huguenot</hi>, 1852 (New York, Huntingdon Hartford College) was exhibited in 1852 at the Royal Academy in London under the title <hi rend="ital">A Huguenot</hi>, on St Bartholomew’s Day, refusing to shield himself from danger by wearing the roman catholic badge. See exhib. cat. London 1992, p. 43 (n. 2).</ab>
+<ab rend="indent">
+                        <rs type="pers" key="1599">James Stephenson</rs>’s mezzotint of Ophelia, 1852 (London, Tate Gallery), was published in 1866 by Henry Graves (London, British Museum). <rs type="ill" key="264">Ill. 264</rs>. See Engen 1995, pp. 60-62, 122.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>Van Gogh is referring to the photograph of a painting by <rs type="pers" key="878">George Henry Boughton</rs>: <hi rend="ital">Early Puritans of New England going to worship armed, to protect themselves from indians and wild beasts</hi>, 1867 (New York, The New York Historical Society; Robert L. Stuart Collection). <rs type="ill" key="618">Ill. 618</rs>. This work was also for sale as a ‘Carte de visite’ as <hi rend="ital">Puritains allant à l’église</hi> (Bordeaux, Musée Goupil. Inv. no. 90.II.1.606).</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>
+                        <rs type="pers" key="1396">Turner</rs> has a large graphic oeuvre. The <hi rend="ital">Liber studiorum</hi> (1808-1819), a collection of graphic works classified by theme, was the result of collaboration between the artist and various professional engravers; Turner himself made ten mezzotints. See Luke Herrmann, <hi rend="ital">Turner prints. The engraved work of J.M.W. Turner</hi>. Oxford 1990.</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>Goupil’s 1874 catalogue records the following works by <rs type="pers" key="1394">Tissot</rs>: <hi rend="ital">Chinoiseries</hi>, <hi rend="ital">Le goûter</hi> (Afternoon tea) and <hi rend="ital">Les patineuses (Lac de Longchamps) </hi>(Women skating (Lake Longchamps)), cat. nos. 852-854. For a complete list of the prints by Tissot that Goupil had in stock, see Pierre-Lin Renié, ‘Tissot, Bingham, Goupil: le peintre et ses éditeurs’, <hi rend="ital">James Tissot et ses maîtres</hi>. Cyrille Sciama. Exhib. cat. Nantes (Musée des Beaux-arts), 2005-2006. Nantes 2005, pp. 111-119.</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>Van Gogh is referring to reproductions after <rs type="pers" key="1424">Wauters</rs>’s paintings <hi rend="ital">The painter Hugo van der Goes in the red cloister</hi>, 1872 (Brussels, Musées Royaux des Beaux-Arts) and <hi rend="ital">Mary of Burgundy begging mercy of the magistrates of Ghent for her advisers Hugonet and Humbercourt</hi>, 1870 (Liège, Musée d’art moderne et d’art contemporain (Mamac) <rs type="ill" key="447">Ill. 447</rs> and <rs type="ill" key="448">Ill. 448</rs>. In 1872 Wauters made another version of <hi rend="ital">Mary of Burgundy </hi>(Brussels, Musées Royaux des Beaux-Arts, inv. no. 5070). Both works were shown at the Brussels Salon of 1872, which Van Gogh visited (<ref target="let004.xml">see letters 4</ref>, <ref target="let006.xml">6</ref> and <ref target="let013.xml">13</ref>).</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>Van Gogh is referring to <rs type="pers" key="902">Henri de Braekeleer</rs>, a son of the artist <rs type="pers" key="898">Ferdinand de Braekeleer</rs>. At the ‘Exposition générale des Beaux-Arts’ (General Exhibition of Fine Arts), held from 15 August to 15 October 1872, the following works by Henri de Braekeleer were exhibited: <hi rend="ital">Antwerp: The cathedral</hi>, 1872 (Antwerp, Koninklijk Museum voor Schone Kunsten, depot Royal Collection), <hi rend="ital">The catechism lesson</hi> (<hi rend="ital">The school</hi> or <hi rend="ital">The lesson</hi>), 1872 and <hi rend="ital">The atlas</hi> (<hi rend="ital">The geographer</hi>), 1871 (both in Brussels, Musée Royaux des Beaux-Arts). <rs type="ill" key="627">Ill. 627</rs>, <rs type="ill" key="630">ill. 630</rs> and <rs type="ill" key="628">ill. 628</rs>. See Todts 1988, pp. 40, 80-81, 113-114, 122, 124-125.</ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>A fishing village and seaside resort near The Hague.</ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>On Friday, 11 July, <rs type="pers" key="412">Anna</rs> had arrived, ill, in Helvoirt; she had a fever and a severe headache (FR b2641).</ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+
+<ab>It is not certain which Maris Van Gogh is referring to here: the Dutch painters and brothers <rs type="pers" key="1203">Jacob (Jaap) Hendrik Maris</rs>, <rs type="pers" key="1202">Matthijs Maris</rs> and <rs type="pers" key="1201">Willem Maris</rs> are possibilities, although the last of the three is less likely, considering his secondary importance in Van Gogh’s correspondence.</ab>
+                </note>
+
+<note n="13" xml:id="n-13" target="#note-t-13">
+<ab>See the appendix at the end of the letter. The quotation is the last line of the poem.</ab>
+                </note>
+<note n="14" xml:id="n-14" target="#note-t-14">
+<ab>Van Gogh’s last evening at home was 11 May 1873.</ab>
+                </note>
+<note n="15" xml:id="n-15" target="#note-t-15">
+    <ab>At that time the Rijswijkseweg ran south of The Hague. The brothers took a walk there which Vincent mentions more than once. The mill referred to is possibly the Laakmolen, well known in those days, where one could buy, in addition to a glass of milk for 1 cent, fried eels. The doubt as to the mill’s identity is connected with Van Gogh’s assertion in July 1882 that the mill had been demolished (<ref target="let248.xml">see letter 248</ref>). However, there is no archival evidence to verify the demolition in the intervening years of one of the mills on the Rijswijkse Trekvliet; on the contrary, improvements were carried out at this very time. See exhib. cat. The Hague 1990, p. 37.</ab>
+<ab rend="indent">One of the things they evidently spoke about here was the possibility of becoming painters together, for he later writes: ‘Since I know that our thoughts crossed each other in our first years with G&amp;Cie, that is that both you and I thought then about becoming painters, but so deeply that we didn’t dare to say it straight out then, even to each other, it could well be that in these later years we draw closer together’, and: ‘I see those same two brothers in earlier years – when you were just coming into the world of painting, just beginning to read &amp;c. &amp;c. – by the mill in Rijswijk’ (<ref target="let413.xml">letters 413</ref> and <ref target="let414.xml">414</ref>).</ab>
+                </note>
+<note n="16" xml:id="n-16" target="#note-t-16">
+<ab>This most likely refers to the lithograph <hi rend="ital">Molen langs de Trekvaart (Landschap bij ondergaande zon) </hi>(Mill by the Trekvaart (Landscape at sunset)); Theo’s scrapbook with prints opens in fact with this litho by <rs type="pers" key="1443">Jan Hendrik Weissenbruch</rs>, which was included in the <hi rend="ital">Kunstkronijk</hi> 8, NS (1867), facing p. 6. <rs type="ill" key="461">Ill. 461</rs>. (Amsterdam, Van Gogh Museum, t*1488, 2). See also <ref target="let013.xml">letters 13</ref>, <ref target="let123.xml">123</ref> and <ref target="let139.xml">139</ref>.</ab>
+                </note>
+<note n="17" xml:id="n-17" target="#note-t-17">
+<ab>In The Hague’s artistic circles, <rs type="pers" key="1443">Weissenbruch</rs> had been nicknamed ‘the merry tune’ because of his spontaneous, cheerful character and captivating narrative style (Van Gogh spells out the play on words by writing ‘Wijs’, meaning both ‘tune’ and ‘wise’, instead of ‘Weiss’). Apparently Weissenbruch often rolled his r’s, as also emerges from his saying, recounted in his obituary: ‘Because naturrrre... naturrre... naturrre is my preceptorrr!’ See G.H. R[össing], ‘Jan Hendrik Weissenbruch. Geb.: te ’s Gravenhage 19 juni 1824. Gest.: aldaar 24 maart 1903’, <hi rend="ital">Eigen Haard</hi> 29 (4 April 1903), no. 14, pp. 216-222; regarding the ‘vroolijke Weiss’, see p. 216; the quotation is on p. 217. Cf. Laanstra and Ooms 1992, pp. 21-22.</ab>
+                </note>
+<note n="18" xml:id="n-18" target="#note-t-18">
+<ab>
+                        <rs type="pers" key="1069">Edouard Hamman</rs>.</ab>
+                </note>
+<note n="19" xml:id="n-19" target="#note-t-19">
+<ab>
+                        <rs type="pers" key="537">Jan van Beers</rs>, ‘<rs type="lit" key="2">The evening hour</rs>’. Van Gogh had also sent a copy of this poem with <ref target="let010.xml#n-10">letter 10; see also that letter, n. 10.</ref>
+                    </ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

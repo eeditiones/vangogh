@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Auvers-sur-Oise, Tuesday, 17 June 1890.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let889"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">889</idno>
+<idno type="collectedletters">642</idno>
+<idno type="brieven1990">894</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Auvers-sur-Oise</vg:placeLet>
+                        <vg:dateLet>Tuesday, 17 June 1890</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. Auvers-sur-Oise, Tuesday, 17 June 1890.</p>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b690 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Vincent responds to Theo’s letter of ‘the day before yesterday’ (<ref target="#l-1*">l. 1*</ref>), which must have been <ref target="let888.xml">letter 888</ref> of 15 June, in which Theo says that Hirschig will be coming, while in the present letter Vincent writes that he made his acquaintance yesterday. Moreover, because Jo van Gogh-Bonger dated this letter in <hi rend="ital">Brieven </hi>1914 to 17 June 1890, and it is possible she had a postmark to rely on, we have also dated it to Tuesday, 17 June 1890.</p>
+                    </note>
+<note type="additionalDetail" xml:id="additionalDetail">
+<p>In Theo’s reply <ref target="let890.xml">(890)</ref> to the present letter, he talks about the etching <hi rend="ital">Doctor Gachet with a pipe</hi> (<rs type="ill" key="2921">F 1664 / JH 2028</rs>), so Vincent must have sent him an impression of it at about this time.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+      <facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <surface n="b 0690" xml:id="surf-pb-1r1">
+                  <graphic mimeType="image/tiff" url="VGM001000938_01.TIF" rend="norend"/>
+                  <graphic mimeType="image/jpeg" url="VGM001000938_01_nt.jpg" height="50px" rend="thumbnail"/>
+                  <zone xml:id="zone-pb-1r-1">
+                        <graphic mimeType="image/tiff" url="VGM001000938_01_nR.tif" rend="norend"/>
+                        <graphic mimeType="image/jpeg" url="VGM001000938_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                        <graphic mimeType="image/png" url="VGM001000938_01_nRf.png" width="380px" rend="facstab"/>
+                  </zone>
+                  <zone xml:id="zone-pb-1r-4">
+                        <graphic mimeType="image/tiff" url="VGM001000938_01_nL.tif" rend="norend"/>
+                        <graphic mimeType="image/jpeg" url="VGM001000938_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                        <graphic mimeType="image/png" url="VGM001000938_01_nLf.png" width="380px" rend="facstab"/>
+                  </zone>
+            </surface>
+            <surface n="b 0690" xml:id="surf-pb-1v">
+                  <graphic mimeType="image/tiff" url="VGM001000938_02.TIF" rend="norend"/>
+                  <graphic mimeType="image/jpeg" url="VGM001000938_02_nt.jpg" height="50px" rend="thumbnail"/>
+                  <zone xml:id="zone-pb-1v-2">
+                        <graphic mimeType="image/tiff" url="VGM001000938_02_nL.tif" rend="norend"/>
+                        <graphic mimeType="image/jpeg" url="VGM001000938_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                        <graphic mimeType="image/png" url="VGM001000938_02_nLf.png" width="380px" rend="facstab"/>
+                  </zone>
+                  <zone xml:id="zone-pb-1v-3">
+                        <graphic mimeType="image/tiff" url="VGM001000938_02_nR.tif" rend="norend"/>
+                        <graphic mimeType="image/jpeg" url="VGM001000938_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                        <graphic mimeType="image/png" url="VGM001000938_02_nRf.png" width="380px" rend="facstab"/>
+                  </zone>
+            </surface>
+      </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Mon cher Theo,</ab>
+                <lb n="1*" xml:id="l-1s"/>
+<ab>Merci beaucoup de ta lettre d’avant-hier <lb n="2" xml:id="l-2"/>et du billet de 50 fr. qu’elle contenait. J’ai attendu <lb n="3" xml:id="l-3"/>l’envoi de couleurs et de toile de Tasset<c type="kk">/</c> qui vient d’arriver<anchor n="1" xml:id="note-o-1"/> <lb n="4" xml:id="l-4"/>et duquel également je te remercie beaucoup<c type="kk">/</c> pour <lb n="5" xml:id="l-5"/>répondre à la question relativement à la différence de la <lb n="6" xml:id="l-6"/>couleur Tanguy &amp; Tasset. Voici c’est absolument <lb n="7" xml:id="l-7"/>la meme chôse<c type="kk">/</c> dans les tubes de Tasset il y en <lb n="8" xml:id="l-8"/>a parfois<c type="kk">/</c> surtout pour le <hi rend="ital">blanc</hi>
+                    <c type="kk">/</c> qui sont <lb n="9" xml:id="l-9"/>mal remplies. Lorsque cependant Tanguy de <lb n="10" xml:id="l-10"/>son côté remplit mal, lui aussi, – certes sans le faire exprès – <lb n="11" xml:id="l-11"/>les tubes de cobalt par ex. comme j’en ai un entre <lb n="12" xml:id="l-12"/>les mains – je ne parle donc qu’en me basant sur <lb n="13" xml:id="l-13"/>le même fait qui existe de part &amp; d’autre – je ne <lb n="14" xml:id="l-14"/>vois seulement pas la raison pourquoi l’un aurait <lb n="15" xml:id="l-15"/>à l’autre des reproches bien serieuses à faire.</ab>
+                <lb n="16" xml:id="l-16"/>
+<ab rend="indent">Y a-t-il une différence dans les factures<c type="kk">/</c> là c’est <lb n="17" xml:id="l-17"/>ce qui m’intéresserait davantage. Et puis dans <lb n="18" xml:id="l-18"/>les couleurs il y a un tripotage comme dans les <lb n="19" xml:id="l-19"/>vins. comment pouvoir juger juste lorsque comme <lb n="20" xml:id="l-20"/>moi on ignore la chimie. Je trouverais néamoins <lb n="21" xml:id="l-21"/>fort bien que dans le cas où le père Tangui se donnerait <lb n="22" xml:id="l-22"/>pour nous un mal extraordinaire en y mettant son <lb n="23" xml:id="l-23"/>temps &amp; sa peine pour emballer &amp; expédier les toiles <lb n="24" xml:id="l-24"/>qui sont dans sa mansarde<c type="kk">/</c>
+                    <anchor n="2" xml:id="note-o-2"/> qu’alors tu lui prendrais <lb n="25" xml:id="l-25"/>de la couleur chez lui<c type="kk">/</c> fût elle un peu plus mauvaise <lb n="26" xml:id="l-26"/>que l’autre. Ce ne serait que comme de juste.</ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="27" xml:id="l-27"/>
+<ab rend="indent">Mais ce qu’il dit d’une différence dans les <lb n="28" xml:id="l-28"/>tubes<c type="kk">/</c> je le repète<c type="kk">/</c> c’est pure imagination de <lb n="29" xml:id="l-29"/>sa part. et la raison pourquoi qu’on allait chez <lb n="30" xml:id="l-30"/>Tasset c’est que les couleurs de ce dernier sont en général moins fades.<anchor n="3" xml:id="note-o-3"/> <lb n="31" xml:id="l-31"/>Maintenant c’est pas important cette différence <lb n="32" xml:id="l-32"/>et si Tanguy y met de la bonne volonté <lb n="33" xml:id="l-33"/>pour emballer les toiles en dépôt chez lui – juste <lb n="34" xml:id="l-34"/>qu’il aie la commande pour les couleurs.</ab>
+                <lb n="35" xml:id="l-35"/>
+<ab rend="indent">C’est avec plaisir que j’ai fait connaissance avec le <lb n="36" xml:id="l-36"/>Hollandais qui est venu hier.<anchor n="4" xml:id="note-o-4"/> il a l’air bien trop <lb n="37" xml:id="l-37"/>gentil pour faire de la peinture dans les conditions <lb n="38" xml:id="l-38"/>actuelles. Si néamoins il persiste à vouloir en <lb n="39" xml:id="l-39"/>faire je lui ai dit qu’il ferait bien d’aller en <lb n="40" xml:id="l-40"/>Bretagne avec Gauguin et de Haan parcequ’il <lb n="41" xml:id="l-41"/>vivra là-bas de 3 francs par jour au lieu de 5 francs <lb n="42" xml:id="l-42"/>et aura de la bonne compagnie<c type="kp">_</c>– Que moi aussi <lb n="43" xml:id="l-43"/>j’espère bien les y rejoindre puisque Gauguin <lb n="44" xml:id="l-44"/>y va. J’en ai été bien content d’apprendre <lb n="45" xml:id="l-45"/>qu’ils vont renouveler leur tentative là-bas. <lb n="46" xml:id="l-46"/>Certes tu as raison que cela vaut mieux pour Gauguin <lb n="47" xml:id="l-47"/>que de rester à Paris. Très content aussi de <lb n="48" xml:id="l-48"/>ce qu’il trouve bien la tête d’Arlésienne <lb n="49" xml:id="l-49"/>en question.<anchor n="5" xml:id="note-o-5"/> J’espère bien faire quelques eauxfortes <lb n="50" xml:id="l-50"/>de motifs du midi<c type="kk">/</c> mettons 6 puisque 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                    <lb n="51" xml:id="l-51"/>je peux sans frais les imprimer chez M. Gachet <lb n="52" xml:id="l-52"/>qui veut bien les tirer pour rien si je les fais. <lb n="53" xml:id="l-53"/>C’est certes une chôse qu’il faut faire et on <lb n="54" xml:id="l-54"/>fera de sorte que ca forme en quelque sorte <lb n="55" xml:id="l-55"/>suite à la publication Lauzet-Monticelli <lb n="56" xml:id="l-56"/>si tu trouves bien.<anchor n="6" xml:id="note-o-6"/> Et Gauguin probablement <lb n="57" xml:id="l-57"/>gravera quelques toiles de lui en combinaison <lb n="58" xml:id="l-58"/>avec moi. Son tableau qui t’appartient<anchor n="7" xml:id="note-o-7"/> <lb n="59" xml:id="l-59"/>et surtout pour le reste des chôses de la Martinique<c type="kp">_</c>
+                </ab>
+                <lb n="60" xml:id="l-60"/>
+<ab rend="indent">Lesquelles planches M. Gachet nous tirera egalement. <lb n="61" xml:id="l-61"/>Bien entendu on lui laissera liberté d’en tirer des <lb n="62" xml:id="l-62"/>exemplaires pour lui. M. Gachet viendra un jour <lb n="63" xml:id="l-63"/>voir mes toiles à Paris et alors nous en choisirions <lb n="64" xml:id="l-64"/>pour la gravure. Dans ce moment j’ai <lb n="65" xml:id="l-65"/>deux etudes en train – l’une un bouquet <lb n="66" xml:id="l-66"/>de plantes sauvages<c type="kk">/</c> des chardons<c type="kk">/</c> des epis<c type="kk">/</c> <lb n="67" xml:id="l-67"/>des feuilles différentes de verdure. l’une presque rouge<c type="kk">/</c> <lb n="68" xml:id="l-68"/>l’autre très verte<c type="kk">/</c> l’autre jaunissante.<anchor n="8" xml:id="note-o-8"/>
+                </ab>
+                <lb n="69" xml:id="l-69"/>
+<ab rend="indent">la deuxieme étude une maison blanche dans <lb n="70" xml:id="l-70"/>de la verdure avec une étoile dans le ciel de nuit <lb n="71" xml:id="l-71"/>et une lumière orangée à la fenêtre et de la verdure noire et une note rose sombre<c type="kp">_</c>
+                    <anchor n="9" xml:id="note-o-9"/>
+                </ab>
+                <lb n="72" xml:id="l-72"/>
+<ab rend="indent">Voilà tout pour le moment. J’ai une idée pour <lb n="73" xml:id="l-73"/>faire une toile plus importante de la maison &amp; du jardin <lb n="74" xml:id="l-74"/>de <hi rend="ital">Daubigny</hi> dont j’ai déjà une petite étude<c type="kp">_</c>
+                    <anchor n="10" xml:id="note-o-10"/>
+                </ab>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                <lb n="75" xml:id="l-75"/>
+<ab rend="indent">J’etais bien content que Gauguin s’en <lb n="76" xml:id="l-76"/>aille avec de Haan encore. Naturellement <lb n="77" xml:id="l-77"/>ce projet de Madagascar me parait peu <lb n="78" xml:id="l-78"/>possible à exécuter<c type="kk">/</c> j’aimerais encore mieux <lb n="79" xml:id="l-79"/>le voir partir pour le Tonkin<c type="kp">_</c>
+                    <anchor n="11" xml:id="note-o-11"/> Si cependant <lb n="80" xml:id="l-80"/>il allait à Madagascar je serais capable <lb n="81" xml:id="l-81"/>de l’y suivre. Car il <hi rend="ital">faudrait</hi> y aller à deux ou trois<c type="kp">_</c> Mais nous ne sommes pas <lb n="82" xml:id="l-82"/>encore là. Certes l’avenir est bien <lb n="83" xml:id="l-83"/>dans les tropiques pour la peinture<c type="kk">/</c> <lb n="84" xml:id="l-84"/>soit à Java soit à la Martinique<c type="kk">/</c> le <lb n="85" xml:id="l-85"/>Bresil ou l’Australie et non pas ici <lb n="86" xml:id="l-86"/>mais tu sens qu’à moi il ne m’est pas <lb n="87" xml:id="l-87"/>prouvé que toi<c type="kk">/</c> Gauguin ou moi soyons <lb n="88" xml:id="l-88"/>ces gens d’avenir là. Mais certes <lb n="89" xml:id="l-89"/>encore une fois<c type="kk">/</c> là et non pas ici<c type="kk">/</c> un jour <lb n="90" xml:id="l-90"/>probablement proche on verra travailler <lb n="91" xml:id="l-91"/>des impressionistes qui se tiendront avec <lb n="92" xml:id="l-92"/>Millet<c type="kk">/</c> Pissaro<c type="kp">_</c> Croire à cela c’est naturel mais <lb n="93" xml:id="l-93"/>y aller sans les moyens d’existence et de <lb n="94" xml:id="l-94"/>rapport avec Paris<c type="kk">/</c> un coup de tête alors <lb n="95" xml:id="l-95"/>que des années durant on s’est rouillé en <lb n="96" xml:id="l-96"/>vegetant ici. Bon. Merci encore une fois <lb n="97" xml:id="l-97"/>et bonne poignée de main à toi &amp; ta femme <lb n="98" xml:id="l-98"/>et bonne santé au petit que je languis bien <lb n="99" xml:id="l-99"/>de revoir.</ab>
+<vg:whiteline/>
+                <lb n="100" xml:id="l-100"/>
+<ab>b. à t.</ab>
+                <lb n="100*" xml:id="l-100s"/>
+<ab>Vincent.</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-55" n="55">Lauzet-Monticelli &lt; Lauzet.Monticelli</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo,</ab>
+<ab>Thanks much for your letter of the day before yesterday, and for the 50-franc note it contained. I waited for the consignment of colours and canvas from <rs type="pers" key="785">Tasset</rs>, which has just arrived,<anchor n="1" xml:id="note-t-1"/> and for which I also thank you very much, to answer the question regarding the difference between <rs type="pers" key="772">Tanguy</rs> and Tasset colours. Well, it’s absolutely the same thing, in the Tasset tubes there are some from time to time, especially for the <hi rend="ital">white</hi>, that aren’t filled properly. However, when Tanguy for his part also fills them badly too, — certainly without doing so deliberately – the tubes of cobalt, for example like the one I have in my hands – so I’m talking only based on the same fact that exists on both sides – I just don’t see why one would have any very serious things to reproach the other with.</ab>
+<ab rend="indent">Is there a difference in the invoices? That’s what would interest me more. And then in the colours there is adulteration as in wines. How can one judge correctly when, like myself, one knows nothing of chemistry. I’d nevertheless consider it very good that, should <rs type="pers" key="772">
+                        <hi rend="ital">père</hi> Tanguy</rs> be going to extraordinary lengths for us by putting his time and his effort into packing up and dispatching the canvases that are in his attic,<anchor n="2" xml:id="note-t-2"/> then you should get paint from him, even if it’s a little worse than the other. It would only be fair.
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">But what he says about a difference in the tubes, I repeat, it’s pure imagination on his part. And the reason why we went to <rs type="pers" key="785">Tasset</rs>’s is that the latter’s colours are in general less insipid.<anchor n="3" xml:id="note-t-3"/> Now this difference isn’t important, and if <rs type="pers" key="772">Tanguy</rs> has the good will to pack up the canvases stored at his place – fair that he has the order for the colours.</ab>
+<ab rend="indent">It was with pleasure that I made the acquaintance of the <rs type="pers" key="1095">Dutchman</rs>, who came yesterday.<anchor n="4" xml:id="note-t-4"/> He looks much too nice to be doing painting in the current conditions. If he nevertheless persists in wanting to do it I told him that he would do well to go to Brittany with <rs type="pers" key="1039">Gauguin</rs> and <rs type="pers" key="1075">De Haan</rs>, because he’ll live there on 3 francs a day instead of 5 francs, and will have good company. That I myself also hope very much to join them, since Gauguin is going there. I was really pleased to learn that they’re going to renew their attempt there. Certainly you’re right that it’s better for Gauguin than staying in Paris. Very pleased, too, that he likes the head of that <rs type="pers" key="383">Arlésienne</rs>.<anchor n="5" xml:id="note-t-5"/> I really hope to do a few etchings of subjects from the south, let’s say 6, since 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> I can print them free of charge at <rs type="pers" key="389">Mr Gachet</rs>’s; he’s very willing to run them off for nothing if I do them. It’s certainly a thing that must be done, and we’ll act in such a way that in some way it forms a sequel to the <rs type="pers" key="1149">Lauzet</rs>-<rs type="pers" key="1240">Monticelli</rs> publication, if you approve.<anchor n="6" xml:id="note-t-6"/> And Gauguin will probably engrave a few of his canvases in combination with me. His painting which belongs to you,<anchor n="7" xml:id="note-t-7"/> and especially for the rest of the Martinique things.</ab>
+<ab rend="indent">Which plates <rs type="pers" key="389">Mr Gachet</rs> will also print off for us. Of course we’ll leave him free to run off copies for himself. Mr Gachet will come one day to see my canvases in Paris, and then we’d choose the ones to be engraved. At the moment I have two studies on the go – one a bouquet of wild plants, thistles, ears of wheat, leaves of different types of greenery. One almost red, the other very green, the other yellowing.<anchor n="8" xml:id="note-t-8"/>
+                </ab>
+<ab rend="indent">The second study a white house amid greenery with a star in the night sky and an orange light at the window and dark greenery and a sombre pink note.<anchor n="9" xml:id="note-t-9"/>
+                </ab>
+<ab rend="indent">That’s all for the moment. I have an idea for doing a more important canvas of <hi rend="ital">
+                        <rs type="pers" key="976">Daubigny</rs>’s</hi> house and garden, of which I already have a small study.<anchor n="10" xml:id="note-t-10"/>
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/>
+                </ab>
+<ab rend="indent">I was really pleased that <rs type="pers" key="1039">Gauguin</rs> is going off with <rs type="pers" key="1075">De Haan</rs> again. Naturally this Madagascar plan seems to me hardly possible to carry out, I would much prefer to see him leave for Tonkin.<anchor n="11" xml:id="note-t-11"/> If, however, he went to Madagascar I’d be able to follow him there. For one <hi rend="ital">should </hi>go there in twos or threes. But we aren’t there yet. Certainly the future is very much in the tropics for painting, either in Java or in Martinique, Brazil or Australia, and not here, but you feel that it hasn’t been proved to me that you, Gauguin or I are those people of that future. But certainly once again, there and not here, one day, probably soon, one will see Impressionists working who will hold their own with <rs type="pers" key="1226">Millet</rs>, <rs type="pers" key="1268">Pissarro</rs>. Believing in that is natural, but going there without the means of existence or a relationship with Paris, a mad impulse when for years on end one has rusted away while vegetating here. Well. Thanks again, and good handshake to you and your <rs type="pers" key="416">wife</rs>, and good health to the <rs type="pers" key="418">little one</rs>, whom I’m really longing to see again.</ab>
+<vg:whiteline/>
+<ab>Yours truly,</ab>
+<ab>Vincent.</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>Van Gogh had placed this order in <ref target="let887.xml">letter 887</ref>. </ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>Theo rented a room at <rs type="pers" key="772">Tanguy</rs>’s, where he stored Vincent’s paintings (<ref target="let792.xml">see letter 792</ref>).</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>Perhaps Van Gogh is suggesting that <rs type="pers" key="785">Tasset</rs> used extenders. See cat. Amsterdam 2011.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>This Dutchman is the painter <rs type="pers" key="1095">Anton Hirschig</rs>; Theo had announced his visit (<ref target="let888.xml">see letter 888</ref>).</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>
+      <hi rend="ital">Marie Ginoux (‘The Arlésienne’)</hi> (<rs type="ill" key="2893">F 542 / JH 1894</rs>). <ref target="let884.xml#n-2">See letter 884, n. 2.</ref>
+                    </ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>For <rs type="pers" key="1149">Lauzet</rs>’s publication <hi rend="ital">
+                            <rs type="lit" key="517">Adolphe Monticelli</rs>
+                        </hi>, <ref target="let825.xml#n-7">see letter 825, n. 7.</ref>
+                    </ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>Theo had two works that <rs type="pers" key="1039">Gauguin</rs> had painted during his stay in Martinique. Vincent’s choice of words indicates that he is referring to <hi rend="ital">
+                            <rs type="ill" key="107">Among the mangoes</rs>
+                        </hi>, which Theo had bought (<ref target="let612.xml#n-3">see letter 612, n. 3</ref>), and not to <hi rend="ital">
+                            <rs type="ill" key="100">On the shore of the lake, Martinique</rs>
+                        </hi>, which Vincent acquired through an exchange (<ref target="let576.xml#n-2">see letter 576, n. 2</ref>).</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>
+      <hi rend="ital">Wild flowers in a vase</hi> (<rs type="ill" key="2923">F 763 / JH 2030</rs>). Van Gogh was waiting for a shipment of canvas <ref target="#l-2">(ll. 2-3)</ref>, so he used a tea towel as a support for this painting and the study <hi rend="ital">Daubigny’s garden</hi> (<rs type="ill" key="2922">F 765 / JH 2029</rs>), mentioned below.</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>
+      <hi rend="ital">House under a night sky </hi>(<rs type="ill" key="2924">F 766 / JH 2031</rs>).</ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>For <rs type="pers" key="976">Daubigny</rs>’s house, where his widow still lived, <ref target="let874.xml#n-5">see letter 874, n. 5.</ref> Vincent’s plans for a larger painting eventually resulted in <hi rend="ital">Daubigny’s garden</hi> (<rs type="ill" key="2939">F 776 / JH 2104</rs>) and <hi rend="ital">Daubigny’s garden</hi> (<rs type="ill" key="2940">F 777 / JH 2105</rs>), which measure 53 x 104 cm and 50 x 101.5 cm, respectively. The small study was <hi rend="ital">Daubigny’s garden</hi> (<rs type="ill" key="2922">F 765 / JH 2029</rs>), which measures 51 x 51 cm and was painted on a tea towel for lack of canvas (<ref target="#n-8">see n. 8</ref> above).</ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>For <rs type="pers" key="1039">Gauguin</rs>’s plan to go to Tonkin, <ref target="let840.xml#n-3">see letter 840, n. 3.</ref> With regard to his Madagascar plans, <ref target="let884.xml#n-3">see letter 884, n. 3.</ref>
+                    </ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

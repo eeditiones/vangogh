@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Anthon van Rappard. The Hague, on or about Thursday, 25 January 1883.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let304"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">304</idno>
+<idno type="collectedletters">R24</idno>
+<idno type="brieven1990">306</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Anthon van Rappard</vg:addressee>
+                        <vg:placeLet>The Hague</vg:placeLet>
+                        <vg:dateLet>on or about Thursday, 25 January 1883</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Anthon van Rappard. The Hague, on or about Thursday, 25 January 1883.</p>
+<note type="ongoingTopic" n="1">
+<p>Van Gogh’s purchase of 21 volumes of <hi rend="ital">The Graphic</hi> <ref target="let302.xml">(302)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="2">
+<p>Van Rappard’s illness <ref target="let290.xml">(290)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. nos. b8358 a-b V/2006</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Van Gogh writes: ‘Several days have now passed since I began looking through the Graphics’ <ref target="#l-2">(ll. 2-3)</ref>. The 21 volumes of <hi rend="ital">The Graphic</hi> were delivered to him on or about Saturday, 20 January 1883 (<ref target="let303.xml">see letter 303</ref>), so we have dated the letter to c. Thursday, 25 January 1883.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 8358 a" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001001606_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001001606_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001001606_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001001606_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001606_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001606_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="VGM001001606_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001606_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001606_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 8358 a" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001001606_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001001606_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001001606_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001001606_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001606_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001606_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001001606_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001606_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001606_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 8358 b" xml:id="surf-pb-2r">
+            <graphic mimeType="image/tiff" url="VGM001001607_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-2r-5">
+<graphic mimeType="image/tiff" url="VGM001001607_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001607_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001607_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 8358 b" xml:id="surf-pb-2v">
+            <graphic mimeType="image/tiff" url="VGM001001607_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-2v-6">
+<graphic mimeType="image/tiff" url="VGM001001607_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001607_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001607_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Amice Rappard,</ab>
+                <lb n="2" xml:id="l-2"/>
+<ab>Er zijn nu eenige dagen overheen gegaan sedert ik begon <lb n="3" xml:id="l-3"/>de Graphics door te kijken.</ab>
+                <lb n="4" xml:id="l-4"/>
+<ab rend="indent">Als ik U schrijven zou wat er al zoo voor moois in is <lb n="5" xml:id="l-5"/>&amp; mijn beschrijving zou niet al te oppervlakkig wezen<c type="kk">/</c> <lb n="6" xml:id="l-6"/>werkelijk ’t zou een dik boekdeel vormen.</ab>
+                <lb n="7" xml:id="l-7"/>
+<ab rend="indent">Ik kan evenwel niet laten U zoo eens enkele bladen te <lb n="8" xml:id="l-8"/>noemen die absoluut “hors ligne” zijn<c type="kp">_</c>
+                </ab>
+                <lb n="9" xml:id="l-9"/>
+<ab rend="indent">Zoo b.v. <hi rend="ital">the Foundling</hi> van <hi rend="ital">Frank Hol</hi>. Dit stelt voor een <lb n="10" xml:id="l-10"/>paar policemen in hun waterproof mantels die een kind <lb n="11" xml:id="l-11"/>hebben opgenomen<c type="kk">/</c> te vondeling gelegd tusschen de balken <lb n="12" xml:id="l-12"/>en planken van een kaai aan den kant van den Theems. <lb n="13" xml:id="l-13"/>Eenige nieuwsgierigen kijken er naar en op den achtergrond <lb n="14" xml:id="l-14"/>ziet men door den mist heen een graauw silhouet van <lb n="15" xml:id="l-15"/>de stad.<anchor n="1" xml:id="note-o-1"/>
+                </ab>
+                <lb n="16" xml:id="l-16"/>
+<ab rend="indent">Dan is er eene begrafenis<c type="kk">/</c> ook van hem<c type="kk">/</c> eenige lieden <lb n="17" xml:id="l-17"/>die een kerkhof op gaan<c type="kk">/</c> mooi van sentiment – hij <lb n="18" xml:id="l-18"/>noemt dat blad: I am the Resurrection and the life.<anchor n="2" xml:id="note-o-2"/>
+                </ab>
+                <lb n="19" xml:id="l-19"/>
+<ab rend="indent">Dan is er van <hi rend="ital">Nash</hi> ook eene begrafenis doch <lb n="20" xml:id="l-20"/>aan boord van een schip. Men ziet het lijk <lb n="21" xml:id="l-21"/>bij de verschansing<c type="kk">/</c> de matrozen staan er bij en <lb n="22" xml:id="l-22"/>de kaptein leest de lithurgie<c type="kp">_</c>
+                    <anchor n="3" xml:id="note-o-3"/>
+                </ab>
+                <lb n="23" xml:id="l-23"/>
+<ab rend="indent">Eene Wachtkamer 3<hi rend="ss">e</hi> klasse van Hol is U bekend uit <lb n="24" xml:id="l-24"/>een klein prentje er van dat ik U dezen zomer zond <lb n="25" xml:id="l-25"/>doch in de Graphic staat de groote er van<c type="kk">/</c> oneindig <lb n="26" xml:id="l-26"/>veel mooier.<anchor n="4" xml:id="note-o-4"/>
+                </ab>
+                <lb n="27" xml:id="l-27"/>
+<ab rend="indent">Ik had ook reeds vroeger gelet op het werk van C<c type="kp">_</c> Green <lb n="28" xml:id="l-28"/>doch wist niet hij ’t zoo mooi kon als b.v. <lb n="29" xml:id="l-29"/>zijne “bank in het gasthuis”<c type="kk">/</c> patiënten die zitten <lb n="30" xml:id="l-30"/>te wachten op den dokter.<anchor n="5" xml:id="note-o-5"/> Van hem eene kaai <lb n="31" xml:id="l-31"/>te Liverpool<c type="kk">/</c>
+                    <anchor n="6" xml:id="note-o-6"/> en land once more<c type="kk">/</c> passagiers <lb n="32" xml:id="l-32"/>die uit een schip aan wal komen<c type="kp">_</c>
+                    <anchor n="7" xml:id="note-o-7"/> Here they come<c type="kk">/</c> <lb n="33" xml:id="l-33"/>toeschouwers van de Derby<anchor n="8" xml:id="note-o-8"/> (Buckman heeft dat <lb n="34" xml:id="l-34"/>zelfde onder den zelfden titel ook zeer goed gemaakt)<c type="kp">_</c>
+                    <anchor n="9" xml:id="note-o-9"/> <lb n="35" xml:id="l-35"/>Gordon Thompson kende ik nog niet<c type="kk">/</c> van hem <lb n="36" xml:id="l-36"/>ook toeschouwers van the derby<c type="kk">/</c> “<hi rend="ital">Clapham road</hi>”<c type="kk">/</c>
+                    <anchor n="10" xml:id="note-o-10"/> <lb n="37" xml:id="l-37"/>(toevallig vlak bij de plek waar ik in der tijd zelf gewoond heb)<c type="kp">_</c>
+                    <anchor n="11" xml:id="note-o-11"/> <lb n="38" xml:id="l-38"/>Dit blad is ongeloofelijk knap<c type="kk">/</c> ’t lijkt op Durer of <lb n="39" xml:id="l-39"/>Quinten Matsijs b.v.</ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="40" xml:id="l-40"/>
+<ab rend="indent">Ge kent het werk van Percy Macquoid – van Heilbuth – <lb n="41" xml:id="l-41"/>van Tissot – als men dat ziet schijnt het wel als ware <lb n="42" xml:id="l-42"/>dit ’t non plus ultra<anchor n="12" xml:id="note-o-12"/> van elegance en zacht fijn gevoel<c type="kp">_</c> <lb n="43" xml:id="l-43"/>In zekeren zin is dit ook wel ’t non plus ultra<c type="kp">_</c> <lb n="44" xml:id="l-44"/>Toch<c type="kk">/</c> Pinwell en Fred Walker zijn bij hen <lb n="45" xml:id="l-45"/>vergeleken wat de nachtegaal is bij den leeuwrik<c type="kp">_</c> <lb n="46" xml:id="l-46"/>Pinwell b.v. in een blad in the Graphic dat <hi rend="ital">The Sisters</hi> <lb n="47" xml:id="l-47"/>heet<c type="kk">/</c>
+                    <anchor n="13" xml:id="note-o-13"/> teekent twee vrouwen <lb n="48" xml:id="l-48"/>in ’t zwart in een donker vertrek<c type="kk">/</c> eene compositie <lb n="49" xml:id="l-49"/>zoo eenvoudig mogelijk<c type="kk">/</c> waarin hij een ernstig <lb n="50" xml:id="l-50"/>sentiment gelegd heeft dat ik bij niets weet te vergelijken <lb n="51" xml:id="l-51"/>dan bij een vollen nachtegaalslag in een lentenacht. <lb n="52" xml:id="l-52"/>Er staan nog twee andere schetsen van hem in<c type="kk">/</c> Baby’s home<c type="kk">/</c>
+                    <anchor n="14" xml:id="note-o-14"/> <lb n="53" xml:id="l-53"/>en van Fred Walker o.a. een prachtig blad<c type="kk">/</c> <lb n="54" xml:id="l-54"/>
+                    <hi rend="ital">The old gate</hi>
+                    <c type="kk">/</c>
+                    <anchor n="15" xml:id="note-o-15"/> en <hi rend="ital">The harbour of refuge</hi>
+                    <c type="kp">_</c>
+                    <anchor n="16" xml:id="note-o-16"/>
+                </ab>
+                <lb n="55" xml:id="l-55"/>
+<ab rend="indent">Herkomer heeft o.a. er in staan (ik spreek niet <lb n="56" xml:id="l-56"/>van de bladen die ik reeds vroeger had) <hi rend="ital">Divine</hi> <lb n="57" xml:id="l-57"/>
+                    <hi rend="ital">service</hi> (Banken in eene kerk)<c type="kk">/</c>
+                    <anchor n="17" xml:id="note-o-17"/> Treat to the Whitechapel poor.<anchor n="18" xml:id="note-o-18"/> <lb n="58" xml:id="l-58"/>Lodging house S<hi rend="ss">t</hi> Giles<c type="kk">/</c>
+                    <anchor n="19" xml:id="note-o-19"/> The workhouse (<hi rend="ital">women</hi>)<c type="kk">/</c>
+                    <anchor n="20" xml:id="note-o-20"/> <lb n="59" xml:id="l-59"/>charcoal burners<anchor n="21" xml:id="note-o-21"/> – Wirthshaus<anchor n="22" xml:id="note-o-22"/> – <hi rend="ital">The cardinals walk</hi>
+                    <c type="kk">/</c> <lb n="59a" xml:id="l-59a"/>
+                    <hi rend="ital">Rome</hi>
+                    <c type="kk">/</c>
+                    <anchor n="23" xml:id="note-o-23"/> <lb n="60" xml:id="l-60"/>Kegelbahn.<anchor n="24" xml:id="note-o-24"/> Carnival time<c type="kk">/</c>
+                    <anchor n="25" xml:id="note-o-25"/> Anxious times<c type="kk">/</c>
+                    <anchor n="26" xml:id="note-o-26"/> <lb n="61" xml:id="l-61"/>Arrest of a poacher.<anchor n="27" xml:id="note-o-27"/> Dan (behalve de groote figuren eruit)<anchor n="28" xml:id="note-o-28"/> <lb n="62" xml:id="l-62"/>de allereerste schets van The last muster onder den titel <lb n="63" xml:id="l-63"/>van Sunday at Chelsea.<anchor n="29" xml:id="note-o-29"/> In een lateren jaargang <lb n="64" xml:id="l-64"/>staat omtrent dat blad dat toen Herkomer er voor <lb n="65" xml:id="l-65"/>’t eerst mee voor den dag kwam <hi rend="ital">niemand</hi> van <lb n="66" xml:id="l-66"/>’t bestuur van de Graphic het blad mooi vond behalve <lb n="67" xml:id="l-67"/>alleen de manager<c type="kk">/</c> die Herkomer er eene <lb n="68" xml:id="l-68"/>meer uitvoerige teekening van bestelde en direkt de <lb n="68a" xml:id="l-68a"/>schets reeds plaatste.<anchor n="30" xml:id="note-o-30"/>
+                </ab>
+                <lb n="69" xml:id="l-69"/>
+<ab rend="indent">Zoo kan ’t verkeeren in de wereld want <lb n="70" xml:id="l-70"/>er is later o.a. een blad van de Graphic voorstellende <lb n="71" xml:id="l-71"/>de toeschouwers van het definitieve sch<hi rend="ss">ij</hi> the <lb n="72" xml:id="l-72"/>last muster.–<anchor n="31" xml:id="note-o-31"/>
+                </ab>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                <lb n="73" xml:id="l-73"/>
+<ab rend="indent">Gij kent den mijnwerkerskop van Ridley<c type="kp">_</c>
+                    <anchor n="32" xml:id="note-o-32"/> <lb n="74" xml:id="l-74"/>Van hem heb ik nu nog een boatrace spectators<anchor n="33" xml:id="note-o-33"/> <lb n="75" xml:id="l-75"/>en van vroeger reeds een hospitaal<c type="kk">/</c>
+                    <anchor n="34" xml:id="note-o-34"/> beiden <lb n="76" xml:id="l-76"/>degelijke doorwrochte bladen<c type="kp">_</c>
+                </ab>
+                <lb n="77" xml:id="l-77"/>
+<ab rend="indent">Maar iets nieuws van hem is eene serie van <lb n="78" xml:id="l-78"/>6 of 7 bladen<c type="kk">/</c> mijnwerkers<c type="kk">/</c> pits &amp; pitmen<c type="kk">/</c>
+                    <anchor n="35" xml:id="note-o-35"/> <lb n="79" xml:id="l-79"/>die iets hebben van etsen van Whistler of Seymour Haden<c type="kk">/</c> <lb n="80" xml:id="l-80"/>Staniland<c type="kk">/</c> The rush to the pits mouth<c type="kk">/</c> ook in <lb n="81" xml:id="l-81"/>de mijnstreek.<anchor n="36" xml:id="note-o-36"/>
+                </ab>
+                <lb n="82" xml:id="l-82"/>
+<ab rend="indent">Nu is een blad dat me bijzonder frappeerde <lb n="83" xml:id="l-83"/>
+                    <hi rend="ital">Abbey</hi>
+                    <c type="kk">/</c>
+                    <hi rend="ital"> X</hi>
+                    <hi rend="ss">  <hi rend="ital">mas</hi>
+                    </hi>
+                    <hi rend="ital"> in old Virginia</hi>
+                    <c type="kk">/</c> gegraveerd <lb n="84" xml:id="l-84"/>door <hi rend="ital">Swain</hi>
+                    <c type="kp">_</c>
+                    <anchor n="37" xml:id="note-o-37"/> Deze teekening is blijkbaar <lb n="85" xml:id="l-85"/>geheel met de pen gedaan – als b.v. die van <lb n="86" xml:id="l-86"/>Caldecott<anchor n="38" xml:id="note-o-38"/> &amp; Barnard<c type="kk">/</c> maar groote figuren<c type="kp">_</c>
+                </ab>
+                <lb n="87" xml:id="l-87"/>
+<ab rend="indent">Small heeft een superbe teekening van <lb n="88" xml:id="l-88"/>Claxton showing specimens of his printing <lb n="89" xml:id="l-89"/>to the king. ’t doet aan <hi rend="ital">Leys</hi> denken<c type="kp">_</c>
+                    <anchor n="39" xml:id="note-o-39"/> <lb n="90" xml:id="l-90"/>Natuurlijk staat er veel moois van Small in <lb n="91" xml:id="l-91"/>doch dit en <hi rend="ital">the ploughing match</hi>
+                    <anchor n="40" xml:id="note-o-40"/> zijn de <lb n="92" xml:id="l-92"/>mooisten die ik van hem ken. A queue in Paris <lb n="93" xml:id="l-93"/>during the siege<anchor n="41" xml:id="note-o-41"/> is prachtig van hem en verscheiden <lb n="94" xml:id="l-94"/>London sketches en Irish sketches eveneens.<anchor n="42" xml:id="note-o-42"/>
+                </ab>
+                <lb n="95" xml:id="l-95"/>
+<ab rend="indent">Green heeft nog The girl I left behind me<c type="kk">/</c> <lb n="96" xml:id="l-96"/>ook bijzonder goed<c type="kk">/</c> ’t is een troep soldaten die <lb n="97" xml:id="l-97"/>terugkomt en de ontmoeting van een hunner met <lb n="98" xml:id="l-98"/>zijn meisje dat hem trouw gebleven is.<anchor n="43" xml:id="note-o-43"/>
+                </ab>
+                <lb n="99" xml:id="l-99"/>
+<ab rend="indent">Irish Churchyard<anchor n="44" xml:id="note-o-44"/> is niet minder mooi<c type="kp">_</c> <lb n="100" xml:id="l-100"/>Boughton<c type="kk">/</c> Waning of the Honeymoon<c type="kp">_</c>
+                    <anchor n="45" xml:id="note-o-45"/>
+                </ab>
+                <lb n="101" xml:id="l-101"/>
+<ab rend="indent">Nash. Labourers meeting<anchor n="46" xml:id="note-o-46"/> en Life boat<anchor n="47" xml:id="note-o-47"/> en <lb n="102" xml:id="l-102"/>Sunday evening at sea.<anchor n="48" xml:id="note-o-48"/>
+                </ab>
+                <lb n="103" xml:id="l-103"/>
+<ab rend="indent">Gregory<c type="kk">/</c> Hospital en Paris during the siege.<anchor n="49" xml:id="note-o-49"/>
+                </ab>
+                <lb n="104" xml:id="l-104"/>
+<ab rend="indent">Buckmann<c type="kk">/</c> Hampstead Heath.<anchor n="50" xml:id="note-o-50"/>
+                </ab>
+                <lb n="105" xml:id="l-105"/>
+<ab rend="indent">Fildes heeft eene scene in de binnenplaats eener gevangenis <lb n="106" xml:id="l-106"/>waar politieagenten een dief of moordenaar vasthouden <lb n="107" xml:id="l-107"/>wiens portret men maken wil<c type="kp">_</c> De kerel wil zich <lb n="108" xml:id="l-108"/>hieraan niet onderwerpen en worstelt. In den anderen <lb n="109" xml:id="l-109"/>hoek der compositie de photograaf en toeschouwers.<anchor n="51" xml:id="note-o-51"/>
+                </ab>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                <lb n="110" xml:id="l-110"/>
+<ab rend="indent">Van Boyd Houghton zijn er veel mooien<c type="kk">/</c> meest kleinere <lb n="111" xml:id="l-111"/>composities uit Amerika<anchor n="52" xml:id="note-o-52"/> die men voor etsen zou houden<c type="kk">/</c> <lb n="112" xml:id="l-112"/>maar ook groote bladen<c type="kk">/</c> <hi rend="ital">Paris under the red flag</hi>
+                    <c type="kk">/</c>
+                    <anchor n="53" xml:id="note-o-53"/> <lb n="113" xml:id="l-113"/>
+                    <hi rend="ital">Mormon Tabernacle</hi>
+                    <c type="kk">/</c>
+                    <anchor n="54" xml:id="note-o-54"/> Cabin of Emigrant ship<c type="kk">/</c>
+                    <anchor n="55" xml:id="note-o-55"/> die op niets anders gelijken<c type="kp">_</c> <lb n="115" xml:id="l-115"/>De details zijn verbazend hoog opgevoerd en het aspect is <lb n="116" xml:id="l-116"/>iets als eene ets van – ja van wie – van Fortuny <lb n="117" xml:id="l-117"/>misschien of Whistler. Erg curieus<c type="kp">_</c>
+                </ab>
+                <lb n="118" xml:id="l-118"/>
+<ab rend="indent">Edwin Edwards<c type="kk">/</c> The foundling<c type="kk">/</c>
+                    <anchor n="56" xml:id="note-o-56"/> Sea bathing<c type="kk">/</c>
+                    <anchor n="57" xml:id="note-o-57"/> The meet<anchor n="58" xml:id="note-o-58"/> &amp;c.</ab>
+                <lb n="119" xml:id="l-119"/>
+<ab rend="indent">Twee bladen – ’k weet niet van wien – uit den Russisch <lb n="120" xml:id="l-120"/>turkschen oorlog<c type="kk">/</c> Osman Pacha<anchor n="59" xml:id="note-o-59"/> &amp; an old battleground<c type="kk">/</c>
+                    <anchor n="60" xml:id="note-o-60"/> <lb n="121" xml:id="l-121"/>die merkwaardig zijn door realiteit.</ab>
+<vg:whiteline/>
+                <lb n="122" xml:id="l-122"/>
+    <ab rend="html" html="304_01_ol.html">Stocks  Sermon time<anchor n="61" xml:id="note-o-61"/> en Last sacrament<anchor n="62" xml:id="note-o-62"/>
+                </ab>
+                <lb n="123" xml:id="l-123"/>
+    <ab rend="html" html="304_01_ol.html">Hodgson Navvies<anchor n="63" xml:id="note-o-63"/> en Fishing.<anchor n="64" xml:id="note-o-64"/>
+                </ab>
+                <lb n="124" xml:id="l-124"/>
+    <ab rend="html" html="304_01_ol.html">Gow  No surrender<anchor n="65" xml:id="note-o-65"/>
+                </ab>
+                <lb n="125" xml:id="l-125"/>
+    <ab rend="html" html="304_01_ol.html">Lawson Imprisioned spring<anchor n="66" xml:id="note-o-66"/>
+                </ab>
+                <lb n="126" xml:id="l-126"/>
+    <ab rend="html" html="304_01_ol.html">
+                    <hi rend="sc">Small</hi> <hi rend="ital">Swan upping</hi>
+                    <c type="kk">/</c>
+                    <anchor n="67" xml:id="note-o-67"/> Game of Polo<c type="kk">/</c>
+                    <anchor n="68" xml:id="note-o-68"/> <lb n="127" xml:id="l-127"/>Boatrace.<anchor n="69" xml:id="note-o-69"/> Queens ladies<c type="kk">/</c>
+                    <anchor n="70" xml:id="note-o-70"/> R. Academy<c type="kk">/</c>
+                    <anchor n="71" xml:id="note-o-71"/> <lb n="128" xml:id="l-128"/>Walking match<anchor n="72" xml:id="note-o-72"/>
+                </ab>
+                <lb n="129" xml:id="l-129"/>
+    <ab rend="html" html="304_01_ol.html">Green  an artist on stone<c type="kk">/</c>
+                    <anchor n="73" xml:id="note-o-73"/> Outsiders Betting<anchor n="74" xml:id="note-o-74"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="130" xml:id="l-130"/>
+<ab>Nu<c type="kk">/</c> ’t is gemakkelijk in dezen met eene opsomming <lb n="131" xml:id="l-131"/>te beginnen – doch het uitscheiden er mee is iets anders<c type="kk">/</c> <lb n="132" xml:id="l-132"/>dat kan men moeielijk. er is nog zoo veel meer<c type="kk">/</c> <lb n="133" xml:id="l-133"/>het houdt eigentlijk niet op. Want ik spreek haast uitsluitend <lb n="134" xml:id="l-134"/>over de groote bladen nu<c type="kp">_</c>– Om maar iets te noemen<c type="kk">/</c> <lb n="135" xml:id="l-135"/>bij de kleinen is <hi rend="ital">93</hi> van <hi rend="ital">Victor Hugo</hi> geillustreerd <lb n="136" xml:id="l-136"/>door Herkomer<c type="kk">/</c> Green<c type="kk">/</c> Small – zóó is zelden een <lb n="137" xml:id="l-137"/>boek geillustreerd – gelukkig dat het <hi rend="ital">dat</hi> boek is<c type="kk">/</c> zoo ten <lb n="138" xml:id="l-138"/>volle het waard.<anchor n="75" xml:id="note-o-75"/>
+                </ab>
+                <lb n="139" xml:id="l-139"/>
+<ab rend="indent">Doch aan de collectie ontbreekt 1 jaar<c type="kk">/</c> n.l. ’t eerste. <lb n="140" xml:id="l-140"/>daaruit heb ik echter van vroeger toch mooie <lb n="141" xml:id="l-141"/>bladen<c type="kk">/</c> onder andere Fildes<c type="kk">/</c> applicants <lb n="142" xml:id="l-142"/>at a casual ward (Home &amp; the homeless)<anchor n="76" xml:id="note-o-76"/> en <lb n="143" xml:id="l-143"/>Fildes<c type="kk">/</c> <hi rend="ital">The empty chair</hi> (Dickens’ studio)<c type="kp">_</c>
+                    <anchor n="77" xml:id="note-o-77"/>
+                </ab>
+                <lb n="144" xml:id="l-144"/>
+<ab rend="indent">Schrijf me eens spoedig – ge zijt <lb n="145" xml:id="l-145"/>immers beter.</ab>
+<vg:whiteline/>
+                <lb n="145*" xml:id="l-145s"/>
+<ab>t. à t.</ab>
+                <lb n="146" xml:id="l-146"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+                <lb n="147" xml:id="l-147"/>
+<ab>Tot overmaat kreeg ik er nog twee <lb n="148" xml:id="l-148"/>deelen bij deze week (1876) – ik nam ze maar <lb n="149" xml:id="l-149"/>omdat er buitengewone bladen in stonden <lb n="150" xml:id="l-150"/>die ik<c type="kk">/</c> al heb ik ze<c type="kk">/</c> toch nog wel eens wil <lb n="151" xml:id="l-151"/>hebben zooveel als ik vind – o.a. de oude wijven <lb n="152" xml:id="l-152"/>van Herkomer, dat is een meesterstuk. <lb n="153" xml:id="l-153"/>Hebt gij die???<anchor n="78" xml:id="note-o-78"/>
+                </ab>
+<vg:whiteline/>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+                <lb n="154" xml:id="l-154"/>
+<ab>Van Percy Macquoid een mooi vrouwenfiguur<c type="kk">/</c> <lb n="155" xml:id="l-155"/>During the reign of terror.<anchor n="79" xml:id="note-o-79"/>
+                </ab>
+                <lb n="156" xml:id="l-156"/>
+<ab rend="indent">Ook kleine schetsjes<c type="kk">/</c> katten – Chinese –<anchor n="80" xml:id="note-o-80"/> <lb n="157" xml:id="l-157"/>maquerel fishing.<anchor n="81" xml:id="note-o-81"/>
+                </ab>
+                <lb n="158" xml:id="l-158"/>
+<ab rend="indent">Eindelijk een groot blad<c type="kk">/</c> een hoek van een <lb n="159" xml:id="l-159"/>atelier – een mannequin dat omgevallen is<c type="kk">/</c> <lb n="160" xml:id="l-160"/>draperies waar twee honden mee spelen.<anchor n="82" xml:id="note-o-82"/> <lb n="161" xml:id="l-161"/>Precieus maar het voldoet me minder<c type="kk">/</c> <lb n="162" xml:id="l-162"/>ik vind het ietwat pedant en te geraffineerd. <lb n="163" xml:id="l-163"/>Er is nog eene prachtige illustratie van Fildes <lb n="164" xml:id="l-164"/>(voor een roman)<c type="kk">/</c> twee mannen op een kerkhof in <lb n="165" xml:id="l-165"/>de schemering.–<anchor n="83" xml:id="note-o-83"/>
+                </ab>
+                <lb n="166" xml:id="l-166"/>
+<ab rend="indent">Gij begrijpt dat ik in tweestrijd ben over <lb n="167" xml:id="l-167"/>de volgende kwestie. Als ik de bladen <lb n="168" xml:id="l-168"/>uitknip en opzet zoo doen ze beter voor <lb n="169" xml:id="l-169"/>en kunnen ze gerangschikt worden naar <lb n="170" xml:id="l-170"/>de teekenaars die ze gemaakt hebben<c type="kp">_</c> <lb n="171" xml:id="l-171"/>Doch dan schend ik den tekst die in veel <lb n="172" xml:id="l-172"/>opzigten nuttig is als men iets wil nakijken <lb n="173" xml:id="l-173"/>b.v. over exposities<c type="kk">/</c> ofschoon de compte rendus <lb n="174" xml:id="l-174"/>daarvan zeer oppervlakkig zijn.</ab>
+                <lb n="175" xml:id="l-175"/>
+<ab rend="indent">Men schend ook b.v. de romans als <lb n="176" xml:id="l-176"/>
+                    <hi rend="ital">93</hi> van Hugo<c type="kp">_</c>
+                </ab>
+                <lb n="177" xml:id="l-177"/>
+<ab rend="indent">En ’t kost veel aan opzetpapier.<anchor n="84" xml:id="note-o-84"/> <lb n="178" xml:id="l-178"/>Dat echter vooral de groote bladen <lb n="179" xml:id="l-179"/>oneindig beter doen op opzet dan dubbel <lb n="180" xml:id="l-180"/>gevouwen is zeer zeker. En dat het geheel <lb n="181" xml:id="l-181"/>beter te overzien is wanneer men ze volgens <lb n="182" xml:id="l-182"/>de teekenaars rangschikt ook.</ab>
+                <lb n="183" xml:id="l-183"/>
+<ab rend="indent">Is ’t echter eigentlijk niet mal dat <lb n="184" xml:id="l-184"/>iemand als ik hier in eene artistieke <lb n="185" xml:id="l-185"/>stad als s’Hage op een publieke boekverkooping <lb n="186" xml:id="l-186"/>de <hi rend="ital">meest</hi> biedende is<c type="kp">_</c> men zou <lb n="187" xml:id="l-187"/>meenen er zouden andere liefhebbers opdokken <lb n="188" xml:id="l-188"/>doch neen. Ik had het zelf niet gedacht <lb n="189" xml:id="l-189"/>dat ik ze krijgen zou<c type="kp">_</c>
+                </ab>
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>
+                <lb n="190" xml:id="l-190"/>
+<ab rend="indent">De jood<anchor n="85" xml:id="note-o-85"/> had mij voor de verkooping er <lb n="191" xml:id="l-191"/>over gesproken<c type="kk">/</c> ik zei dat ik wel <lb n="192" xml:id="l-192"/>wilde doch niet kon er aan denken <lb n="193" xml:id="l-193"/>zoo iets te nemen. Toen later <lb n="194" xml:id="l-194"/>vertelde hij me hij had ze dan maar <lb n="195" xml:id="l-195"/>op risico gekocht daar haast niemand <lb n="196" xml:id="l-196"/>bood<c type="kk">/</c> en wilde ik ze hebben ze waren <lb n="197" xml:id="l-197"/>in zijn bezit. Toen werd ’t een andere <lb n="198" xml:id="l-198"/>zaak en mijn broer hielp me <lb n="199" xml:id="l-199"/>om ze te nemen schandekoop<anchor n="a" xml:id="note-o-a"/> – <lb n="200" xml:id="l-200"/>één gulden ’t deel<c type="kp">_</c>–<anchor n="86" xml:id="note-o-86"/>
+                </ab>
+                <lb n="201" xml:id="l-201"/>
+<ab rend="indent">Hoe blij ik ben<anchor n="b" xml:id="note-o-b"/> ze te hebben<c type="kk">/</c> ik ben <lb n="202" xml:id="l-202"/>er tegelijk melankoliek over dat <lb n="203" xml:id="l-203"/>er zoo weinig animo voor is<c type="kp">_</c> <lb n="204" xml:id="l-204"/>Ik vind het een heerlijk ding zoo’n schat <lb n="205" xml:id="l-205"/>te vinden maar ik wou nog liever <lb n="206" xml:id="l-206"/>dat er zooveel animo voor was dat vooralsnog <lb n="207" xml:id="l-207"/>ik er niet aan kon komen<c type="kp">_</c>
+                </ab>
+                <lb n="208" xml:id="l-208"/>
+<ab rend="indent">Och Rappard – ’t is met meer <lb n="209" xml:id="l-209"/>dingen zoo – veel wat groote waarde <lb n="210" xml:id="l-210"/>heeft daar wordt heden ten dage geen acht <lb n="211" xml:id="l-211"/>op geslagen en uit de hoogte op neergezien <lb n="211a" xml:id="l-211a"/>als ballast<c type="kk">/</c> vuilnis of scheurpapier.<anchor n="c" xml:id="note-o-c"/>
+                </ab>
+                <lb n="212" xml:id="l-212"/>
+<ab rend="indent">Vind gij niet iets erg saais in <lb n="213" xml:id="l-213"/>dezen tijd<c type="kp">_</c>– Of is ’t verbeelding van <lb n="214" xml:id="l-214"/>mij – Een zeker gemis aan hartstogt <lb n="215" xml:id="l-215"/>en warmte en hartelijkheid. de “handelaars” <lb n="216" xml:id="l-216"/>en consorte zeggen wel dat “het in den aard der zaak ligt <lb n="217" xml:id="l-217"/>dat de gewenschte verandering komen zal”<anchor n="87" xml:id="note-o-87"/> (is deze verklaring <lb n="218" xml:id="l-218"/>niet erg satisfactory) maar ik voor mij zie dat “in den <lb n="219" xml:id="l-219"/>aard der zaak liggen” nog zoo heel klaar niet in<c type="kp">_</c> <lb n="220" xml:id="l-220"/>Après tout<c type="kk">/</c> het is niet onaangenaam zoo’n <lb n="221" xml:id="l-221"/>Graphic door te kijken en terwijl men dat doet dan <lb n="222" xml:id="l-222"/>denkt men onwillekeurig heel egoist<c type="kk">/</c> qu’est ce que ça me fait<c type="kk">/</c> <lb n="223" xml:id="l-223"/>ik ben niet voornemens mij te vervelen al is de tijd saai. Maar niet altijd is <lb n="224" xml:id="l-224"/>men egoist en als men ’t niet is heeft men er soms bitter verdriet over.</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-43" n="43">non plus &lt; nonplus</note>
+</div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear friend <rs type="pers" key="1306">Rappard</rs>,</ab>
+<ab>Several days have now passed since I began looking through The Graphics. </ab>
+<ab rend="indent">If I were to write to you about all the beautiful things in them, and if my descriptions weren’t merely superficial, the result really would be a heavy volume.</ab>
+<ab rend="indent">Nonetheless, I can’t resist mentioning a few prints that are absolutely matchless.</ab>
+<ab rend="indent">For example, <hi rend="ital">The foundling</hi> by <hi rend="ital">
+                        <rs type="pers" key="1089">Frank Holl</rs>
+                    </hi>. This shows several policemen in waterproof capes who have taken up a child left as a foundling between the beams and planks of a quay beside the Thames. Some curious onlookers watch, and through the fog one sees the grey silhouette of the city in the background.<anchor n="1" xml:id="note-t-1"/>
+                </ab>
+<ab rend="indent">Then there’s a funeral, also by him, several people going into a churchyard, beautiful in sentiment. He calls that print: I am the Resurrection and the Life.<anchor n="2" xml:id="note-t-2"/> </ab>
+<ab rend="indent">Then there’s another funeral by <hi rend="ital">
+                        <rs type="pers" key="1249">Nash</rs>
+                    </hi>, only on board a ship. One sees the corpse by the railing. The sailors stand beside it and the captain reads the liturgy.<anchor n="3" xml:id="note-t-3"/>
+                </ab>
+<ab rend="indent">One 3rd-class waiting room by <rs type="pers" key="1089">Holl</rs> is known to you from a little print of it that I sent you this summer, but in The Graphic there’s the large one, infinitely finer.<anchor n="4" xml:id="note-t-4"/> </ab>
+<ab rend="indent">I noticed the work of <rs type="pers" key="1058">C. Green</rs> some time ago but didn’t know he could make things as beautiful as, for instance, his ‘bench in the hospital’, patients who are waiting to see the doctor.<anchor n="5" xml:id="note-t-5"/> Also by him a quay in Liverpool,<anchor n="6" xml:id="note-t-6"/> and Land once more, passengers coming ashore from a ship.<anchor n="7" xml:id="note-t-7"/> Here they come, spectators at the Derby<anchor n="8" xml:id="note-t-8"/> (<rs type="pers" key="907">Buckman</rs> also did the same thing with the same title excellently).<anchor n="9" xml:id="note-t-9"/> I didn’t know <rs type="pers" key="1386">Gordon Thompson</rs> before, spectators at the Derby by him too, ‘<hi rend="ital">Clapham road</hi>’<anchor n="10" xml:id="note-t-10"/> (as it happens, close to where I used to live).<anchor n="11" xml:id="note-t-11"/> This print is unbelievably good; it resembles <rs type="pers" key="990">Dürer</rs> or <rs type="pers" key="1195">Quinten Massys</rs>, for example. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> </ab>
+<ab rend="indent">You know the work of <rs type="pers" key="1188">Percy Macquoid</rs>, of <rs type="pers" key="1087">Heilbuth</rs>, of <rs type="pers" key="1394">Tissot</rs>, when one sees that it seems as if it’s the non plus ultra<anchor n="12" xml:id="note-t-12"/> of elegance and soft, delicate feeling. In a sense, indeed, this is the non plus ultra. Still, compared with them, <rs type="pers" key="1269">Pinwell</rs> and <rs type="pers" key="1428">Fred Walker</rs> are what the nightingale is to the lark. In a sheet in The Graphic called <hi rend="ital">The sisters</hi>,<anchor n="13" xml:id="note-t-13"/> for example, Pinwell draws two women in black in a dark room, the simplest possible composition, in which he has put a serious sentiment that I can only compare to the full song of the nightingale on a spring night. There are two other sketches by him, Baby’s home,<anchor n="14" xml:id="note-t-14"/> and a splendid sheet, among others, by Fred Walker, <hi rend="ital">The old gate</hi>
+                    <anchor n="15" xml:id="note-t-15"/> and <hi rend="ital">The harbour of refuge</hi>.<anchor n="16" xml:id="note-t-16"/> </ab>
+<ab rend="indent">The work by <rs type="pers" key="1080">Herkomer</rs> in it (I’m not counting the prints I already had) includes <hi rend="ital">Divine service</hi> (pews in a church),<anchor n="17" xml:id="note-t-17"/> Treat to the Whitechapel poor.<anchor n="18" xml:id="note-t-18"/> Lodging house St Giles,<anchor n="19" xml:id="note-t-19"/> The workhouse (<hi rend="ital">women</hi>),<anchor n="20" xml:id="note-t-20"/> charcoal burners<anchor n="21" xml:id="note-t-21"/> — Wirthshaus<anchor n="22" xml:id="note-t-22"/> — <hi rend="ital">The cardinals walk</hi>,<hi rend="ital"> Rome</hi>,<anchor n="23" xml:id="note-t-23"/> Skittle alley.<anchor n="24" xml:id="note-t-24"/> Carnival time,<anchor n="25" xml:id="note-t-25"/> Anxious times,<anchor n="26" xml:id="note-t-26"/> Arrest of a poacher.<anchor n="27" xml:id="note-t-27"/> Then (apart from the large figures from it)<anchor n="28" xml:id="note-t-28"/> the very first sketch of The last muster entitled Sunday at Chelsea.<anchor n="29" xml:id="note-t-29"/> In a later volume it says of this print that when Herkomer first presented it <hi rend="ital">no one</hi> on the board of The Graphic liked it except the manager, who ordered a more detailed drawing from Herkomer and immediately placed the sketch.<anchor n="30" xml:id="note-t-30"/> </ab>
+<ab rend="indent">That’s how things can change in the world, for later there’s a sheet in The Graphic of the spectators around the final painting of The last muster.<anchor n="31" xml:id="note-t-31"/>
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/>
+                </ab>
+<ab rend="indent">You know the head of a miner by <rs type="pers" key="1314">Ridley</rs>.<anchor n="32" xml:id="note-t-32"/> I now have a boat race spectators<anchor n="33" xml:id="note-t-33"/> by him, and already had a hospital,<anchor n="34" xml:id="note-t-34"/> both thorough, solid prints. </ab>
+<ab rend="indent">But something new by him is a series of 6 or 7 prints, miners, pits and pitmen,<anchor n="35" xml:id="note-t-35"/> that recall etchings by <rs type="pers" key="1444">Whistler</rs> or <rs type="pers" key="1077">Seymour Haden</rs>, <rs type="pers" key="1364">Staniland</rs>, The rush to the pit’s mouth, also in the mining region.<anchor n="36" xml:id="note-t-36"/> </ab>
+<ab rend="indent">One print that particularly struck me is <hi rend="ital">
+                        <rs type="pers" key="838">Abbey</rs>
+                    </hi>,<hi rend="ital"> Xmas in old Virginia</hi> engraved by <hi rend="ital">
+                        <rs type="pers" key="1382">Swain</rs>
+                    </hi>.<anchor n="37" xml:id="note-t-37"/> This drawing was evidently done entirely with the pen — like, for instance, those by <rs type="pers" key="924">Caldecott</rs>
+                    <anchor n="38" xml:id="note-t-38"/> and <rs type="pers" key="210">Barnard</rs>, but large figures. </ab>
+<ab rend="indent">
+                    <rs type="pers" key="1359">Small</rs> has a superb drawing of <rs type="pers" key="1748">Caxton</rs> showing specimens of his printing to the king. It recalls <hi rend="ital">
+                        <rs type="pers" key="1176">Leys</rs>
+                    </hi>.<anchor n="39" xml:id="note-t-39"/> Of course there are many beautiful things by Small, but this and <hi rend="ital">the ploughing match</hi>
+                    <anchor n="40" xml:id="note-t-40"/>
+                    <hi rend="ital"> </hi>are the finest by him that I know. A queue in Paris during the siege<anchor n="41" xml:id="note-t-41"/> by him is splendid, as are several London sketches and Irish sketches.<anchor n="42" xml:id="note-t-42"/> </ab>
+<ab rend="indent">
+                    <rs type="pers" key="1058">Green</rs> also has The girl I left behind me, especially good too, it’s a troop of returning soldiers, and the meeting of one of them with his girl, who has remained faithful to him.<anchor n="43" xml:id="note-t-43"/> </ab>
+<ab rend="indent">Irish churchyard<anchor n="44" xml:id="note-t-44"/> is no less beautiful. <rs type="pers" key="878">Boughton</rs>, Waning of the honeymoon.<anchor n="45" xml:id="note-t-45"/>
+                </ab>
+<ab rend="indent">
+                    <rs type="pers" key="1249">Nash</rs>. Labourers meeting<anchor n="46" xml:id="note-t-46"/> and Life boat<anchor n="47" xml:id="note-t-47"/> and Sunday evening at sea.<anchor n="48" xml:id="note-t-48"/> </ab>
+<ab rend="indent">
+                    <rs type="pers" key="1060">Gregory</rs>, Hospital and Paris during the siege.<anchor n="49" xml:id="note-t-49"/>
+                </ab>
+<ab rend="indent">
+                    <rs type="pers" key="907">Buckman</rs>, Hampstead Heath.<anchor n="50" xml:id="note-t-50"/>
+                </ab>
+<ab rend="indent">
+                    <rs type="pers" key="1026">Fildes</rs> has a scene in the courtyard of a prison where policemen are holding onto a thief or murderer so that his photograph can be taken. The chap refuses to submit to this and puts up a struggle. In the other corner of the composition the photographer and onlookers.<anchor n="51" xml:id="note-t-51"/> 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/>
+                </ab>
+<ab rend="indent">There are many fine ones by <rs type="pers" key="1109">Boyd Houghton</rs>, most of them smaller compositions from America<anchor n="52" xml:id="note-t-52"/> that one would think were etchings, but also large prints, <hi rend="ital">Paris under the red flag</hi>,<anchor n="53" xml:id="note-t-53"/> <hi rend="ital">Mormon tabernacle</hi>,<anchor n="54" xml:id="note-t-54"/> Cabin of emigrant ship,<anchor n="55" xml:id="note-t-55"/> that don’t resemble anything else. The details are amazingly worked up, and the appearance is something like an etching by — well, by whom — by <rs type="pers" key="1029">Fortuny</rs> perhaps, or <rs type="pers" key="1444">Whistler</rs>. Most curious.</ab>
+<ab rend="indent">
+                    <rs type="pers" key="1001">Edwin Edwards</rs>, The foundling,<anchor n="56" xml:id="note-t-56"/> Sea bathing,<anchor n="57" xml:id="note-t-57"/> The meet<anchor n="58" xml:id="note-t-58"/> &amp;c.</ab>
+<ab rend="indent">Two sheets — I don’t know by whom — from the Russo-Turkish War, <rs type="pers" key="159">Osman Pasha</rs>
+                    <anchor n="59" xml:id="note-t-59"/> and an old battleground,<anchor n="60" xml:id="note-t-60"/> which are remarkable for their reality.</ab>
+<vg:whiteline/>
+    <ab rend="html" html="304_01_tr.html">
+                    <rs type="pers" key="1385">Stocks</rs>   Sermon time<anchor n="61" xml:id="note-t-61"/> and Last sacrament<anchor n="62" xml:id="note-t-62"/>
+                </ab>
+    <ab rend="html" html="304_01_tr.html">
+                    <rs type="pers" key="1097">Hodgson</rs>  Navvies<anchor n="63" xml:id="note-t-63"/> and Fishing<anchor n="64" xml:id="note-t-64"/>
+                </ab>
+    <ab rend="html" html="304_01_tr.html">
+                    <rs type="pers" key="1054">Gow</rs>    No surrender<anchor n="65" xml:id="note-t-65"/>
+                </ab>
+    <ab rend="html" html="304_01_tr.html">
+                    <rs type="pers" key="1154">Lawson</rs>  Imprisoned spring<anchor n="66" xml:id="note-t-66"/>
+                </ab>
+    <ab rend="html" html="304_01_tr.html">
+                    <hi rend="sc">
+                        <rs type="pers" key="1359">Small</rs>
+                    </hi> <hi rend="ital">Swan upping</hi>,<anchor n="67" xml:id="note-t-67"/> Game of polo,<anchor n="68" xml:id="note-t-68"/> Boatrace.<anchor n="69" xml:id="note-t-69"/> Queens ladies,<anchor n="70" xml:id="note-t-70"/> R. Academy,<anchor n="71" xml:id="note-t-71"/> Walking match<anchor n="72" xml:id="note-t-72"/>
+                </ab>
+    <ab rend="html" html="304_01_tr.html">
+                    <rs type="pers" key="1058">Green</rs>   An artist on stone,<anchor n="73" xml:id="note-t-73"/> Outsiders betting<anchor n="74" xml:id="note-t-74"/>
+                </ab>
+<vg:whiteline/>
+<ab>Well, it’s easy to start on a list, but leaving off is a different matter; that’s difficult. There’s so much more, there’s really no end to it. For I’m speaking now almost exclusively of the large prints. Just to mention one, among the smaller is <hi rend="ital">93</hi> by <hi rend="ital">
+                        <rs type="pers" key="666">Victor Hugo</rs>
+                    </hi> illustrated by <rs type="pers" key="1080">Herkomer</rs>, <rs type="pers" key="1058">Green</rs>, <rs type="pers" key="1359">Small</rs> — rarely has a book been illustrated <hi rend="ital">in such a way</hi> — how fortunate that it’s <hi rend="ital">that</hi> book, so fully worthy of it.<anchor n="75" xml:id="note-t-75"/>
+                </ab>
+<ab rend="indent">But 1 year is missing from the collection, namely the first. However, I already had some fine sheets from it, among them <rs type="pers" key="1026">Fildes</rs>, Applicants at a casual ward (Home and the homeless)<anchor n="76" xml:id="note-t-76"/> and Fildes, <hi rend="ital">The empty chair</hi> (<rs type="pers" key="580">Dickens</rs>’s studio).<anchor n="77" xml:id="note-t-77"/> </ab>
+<ab rend="indent">Write to me soon — now that you’re better.</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent</ab>
+<vg:whiteline/>
+    <ab>To top it all, this week I got another two volumes (1876) — I took them because there are outstanding prints in them which, though I already have them, I want to have as many times as I can find — including the old wives by <rs type="pers" key="1080">Herkomer</rs>, that’s a masterpiece. Have you got that???<anchor n="78" xml:id="note-t-78"/>
+                </ab>
+                <vg:whiteline/>
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/>
+<ab>A fine female figure by <rs type="pers" key="1188">Percy Macquoid</rs>, During the reign of terror.<anchor n="79" xml:id="note-t-79"/> </ab>
+<ab rend="indent">Small sketches too, cats — Chinese<anchor n="80" xml:id="note-t-80"/> — mackerel fishing.<anchor n="81" xml:id="note-t-81"/>
+                </ab>
+<ab rend="indent">At last a large print, a corner of a studio — a manikin that has fallen over, draperies which two dogs are playing with.<anchor n="82" xml:id="note-t-82"/> Precious but it satisfies me less, I find it a little pedantic and too refined. There’s one more splendid illustration by <rs type="pers" key="1026">Fildes</rs> (for a novel), two men in a churchyard at twilight.<anchor n="83" xml:id="note-t-83"/>
+                </ab>
+<ab rend="indent">You’ll understand that I’m in two minds about the following question. If I cut the prints out and mount them, they look better like that and can be arranged by the draughtsmen who made them. But then I damage the text, which is useful in many ways if one wants to look up something, about exhibitions say, although the reviews of them are very superficial.</ab>
+<ab rend="indent">One also damages, for example, the novels, like <rs type="pers" key="666">Hugo</rs>’s <hi rend="ital">93</hi>.</ab>
+<ab rend="indent">And it costs a good deal in mounting paper.<anchor n="84" xml:id="note-t-84"/> It’s quite certain, though, the large prints in particular look infinitely better mounted than with a fold through the middle. And that one has a better overall view when they’re arranged by draughtsman.</ab>
+<ab rend="indent">But actually isn’t it ridiculous that here in an artistic city like The Hague someone like me should be the <hi rend="ital">highest</hi> bidder at a public book auction? One would expect other bidders to come forward, but no. I myself didn’t think I would get them. 
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/>
+                </ab>
+<ab rend="indent">The <rs type="pers" key="293">Jew</rs>
+                    <anchor n="85" xml:id="note-t-85"/> had talked to me about them before the auction. I said that I would like to but couldn’t think of buying something like that. Then later he told me he’d bought them at his own risk because almost no one was bidding, and if I wanted them he had them. Then it became a different matter and my brother helped me to buy them dirt cheap — one guilder a volume.<anchor n="86" xml:id="note-t-86"/>
+                </ab>
+<ab rend="indent">Pleased as I am to have them, at the same time I feel sad that there’s so little demand for them. It’s wonderful for me to find such a treasure, but I would rather that demand was such that I couldn’t obtain them for the time being.</ab>
+<ab rend="indent">Oh <rs type="pers" key="1306">Rappard</rs> — it’s the same as with other things — much that is of great value is paid no attention nowadays, and looked down upon as ballast, rubbish or scrap paper.</ab>
+<ab rend="indent">Don’t you find something very dull about these times? Or is it my imagination? A certain lack of passion and warmth and open-heartedness. The ‘dealers’ and their cronies may claim that ‘it’s in the nature of things that the desired change will come’<anchor n="87" xml:id="note-t-87"/> (isn’t this explanation very satisfactory?), but for my part I don’t see that ‘in the nature of things’ so clearly. Be that as it may, it isn’t unpleasant to look through a Graphic, and while doing so one can’t help thinking very egotistically, What do I care? I don’t plan to be bored even if it is a dull age. But one isn’t always egotistic, and one sometimes bitterly regrets it when one isn’t. </ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>For <rs type="pers" key="1089">Francis Montague Holl</rs>, <rs type="ill" key="943">
+                            <hi rend="ital">The foundling</hi>
+                        </rs>, <ref target="let303.xml#n-16">see letter 303, n. 16.</ref>
+                    </ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>For <rs type="pers" key="1089">Francis Montague Holl</rs>, <rs type="ill" key="946">
+                            <hi rend="ital">I am the Resurrection and the Life</hi>
+                        </rs>, <ref target="let303.xml#n-17">see letter 303, n. 17.</ref>
+                    </ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>
+                        <rs type="pers" key="1249">Joseph Nash Jr</rs>, <hi rend="ital">At sea – ‘Therefore we commit his body to the deep’</hi>, in <hi rend="ital">The Graphic</hi> 15 (10 March 1877), pp. 228-229. <rs type="ill" key="1199">Ill. 1199</rs>.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>For <rs type="pers" key="1089">Francis Montague Holl</rs>, <rs type="ill" key="950">
+                            <hi rend="ital">At a railway station</hi>
+                        </rs>, <ref target="let303.xml#n-18">see letter 303, n. 18.</ref> For this kind of ‘smaller version’, cf. the print <hi rend="ital">Leaving home</hi> (27.6 x 18.5 cm), engraved by <rs type="pers" key="1590">Edmond Joseph Ramus</rs>. On the occasion of the ‘Exposition universelle de 1878’, it had appeared in the magazine <hi rend="ital">L’Art</hi> 5-2 (1879), between pp. 20 and 21. <rs type="ill" key="2038">Ill. 2038</rs>.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>
+                        <rs type="pers" key="1058">Charles Green</rs>, <hi rend="ital">The out-patients’ room in University College Hospital</hi>, in <hi rend="ital">The Graphic</hi> 5 (6 January 1872), p. 11. <rs type="ill" key="894">Ill. 894</rs>.</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>
+                        <rs type="pers" key="1058">Charles Green</rs>,<hi rend="ital">“Princess landing stage, Liverpool”</hi>, in <hi rend="ital">The Graphic</hi> 6 (24 August 1872), ‘Extra supplement’, pp. 172-173. <rs type="ill" key="900">Ill. 900</rs>. After a fire on 28 July 1874, which destroyed the landing stage, the print appeared again in <hi rend="ital">The Graphic</hi> 10 (8 August 1874), pp. 128-129.</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>
+                        <rs type="pers" key="1058">Charles Green</rs>, <hi rend="ital">Land once more! – A study at the sea-side</hi>, in <hi rend="ital">The Graphic</hi> 6 (12 October 1872), pp. 340-341. <rs type="ill" key="901">Ill. 901</rs>.</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>
+                        <rs type="pers" key="1058">Charles Green</rs>, <hi rend="ital">Here they come. The Derby 1871 – On the course</hi>, in <hi rend="ital">The Graphic</hi> 3 (27 May 1871), pp. 489-490. <rs type="ill" key="898">Ill. 898</rs>.</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>
+                        <rs type="pers" key="907">Edwin Buckman</rs>, <hi rend="ital">The Derby day – A sketch in the betting ring</hi>, in <hi rend="ital">The Graphic</hi> 9 (6 June 1874), p. 553. <rs type="ill" key="657">Ill. 657</rs>.</ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>
+                        <rs type="pers" key="1386">Gordon Thompson</rs>, <hi rend="ital">The return from the Derby – A roadside sketch at Clapham</hi>, in <hi rend="ital">The Graphic</hi> 5 (1 June 1872), pp. 508-509. <rs type="ill" key="1375">Ill. 1375</rs>.</ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>From August 1874 to May 1875 – except for November and December 1874, when he was working for Goupil in Paris – Van Gogh lodged with <rs type="pers" key="561">John Parker</rs>, Ivy Cottage, 395 Kennington Road; like Clapham Road, this street leads to Kennington Park (<ref target="let028.xml">see letter 28</ref>).</ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+<ab>Literally ‘nothing further’, here ‘absolute apex’.</ab>
+                </note>
+<note n="13" xml:id="n-13" target="#note-t-13">
+<ab>For <rs type="pers" key="1269">George John Pinwell</rs>, <rs type="ill" key="1218">
+                            <hi rend="ital">The sisters</hi>
+                        </rs>, <ref target="let303.xml#n-11">see letter 303, n. 11.</ref>
+                    </ab>
+                </note>
+<note n="14" xml:id="n-14" target="#note-t-14">
+<ab>
+                        <rs type="pers" key="1285">Howard Pyle</rs>, <hi rend="ital">The creche, or baby’s home, in Stepney</hi> (double engraving): <hi rend="ital">The play room</hi> and <hi rend="ital">The nursery</hi>, in <hi rend="ital">The Graphic</hi> 3 (11 March 1871), p. 233. <rs type="ill" key="1216">Ill. 1216</rs> (t*810). The monogram ‘H.P.’ could also be read as ‘J.P.’, which would explain Van Gogh’s mistake with <rs type="pers" key="1269">John Pinwell</rs>.</ab>
+                </note>
+<note n="15" xml:id="n-15" target="#note-t-15">
+<ab>For <rs type="pers" key="1428">Frederick Walker</rs>’s <rs type="ill" key="1908">
+                            <hi rend="ital">The old gate</hi>
+                        </rs>, <ref target="let199.xml#n-10">see letter 199, n. 10.</ref>
+                    </ab>
+                </note>
+<note n="16" xml:id="n-16" target="#note-t-16">
+<ab>
+                        <rs type="pers" key="1428">Frederick Walker</rs>, <hi rend="ital">The harbour of refuge</hi>, in <hi rend="ital">The Graphic</hi> 15 (7 April 1877), p. 328. <rs type="ill" key="1414">Ill. 1414</rs> (t*180).</ab>
+                </note>
+<note n="17" xml:id="n-17" target="#note-t-17">
+<ab>
+                        <rs type="pers" key="1080">Hubert von Herkomer</rs>, <hi rend="ital">Divine service for shepherds and herdsmen – A study at the Berner’s Hall, Islington</hi>, in <hi rend="ital">The Graphic</hi> 5 (20 January 1872), pp. 56-57. <rs type="ill" key="167">Ill. 167</rs>.</ab>
+                </note>
+<note n="18" xml:id="n-18" target="#note-t-18">
+<ab>In all probability Van Gogh here means <hi rend="ital">A sketch at a concert given to the poor Italians in London</hi>, in <hi rend="ital">The Graphic</hi> 3 (18 March 1871), p. 253. <rs type="ill" key="181">Ill. 181</rs> (t*162). The commentary accompanying the print says that the poor Italians come from Whitechapel (p. 251).</ab>
+                </note>
+<note n="19" xml:id="n-19" target="#note-t-19">
+<ab>For <rs type="pers" key="1080">Herkomer</rs>’s <rs type="ill" key="2035">
+                            <hi rend="ital">Low lodging house St. Giles’s</hi>
+                        </rs>, <ref target="let303.xml#n-10">see letter 303, n. 10.</ref>
+                    </ab>
+                </note>
+<note n="20" xml:id="n-20" target="#note-t-20">
+<ab>For <rs type="pers" key="1080">Herkomer</rs>’s <rs type="ill" key="166">
+                            <hi rend="ital">Christmas in a workhouse</hi>
+                        </rs>, <ref target="let278.xml#n-13">see letter 278, n. 13.</ref>
+                    </ab>
+                </note>
+<note n="21" xml:id="n-21" target="#note-t-21">
+<ab>
+                        <rs type="pers" key="1080">Hubert von Herkomer</rs>, <hi rend="ital">Charcoal burners in the Alps</hi>, engraved by <rs type="pers" key="1591">Charles Roberts</rs>, in <hi rend="ital">The Graphic</hi> 6 (28 December 1872), p. 608. <rs type="ill" key="165">Ill. 165</rs>. (t*459).</ab>
+                </note>
+<note n="22" xml:id="n-22" target="#note-t-22">
+<ab>For <rs type="pers" key="1080">Herkomer</rs>’s <rs type="ill" key="183">
+                            <hi rend="ital">A Wirtshaus</hi>
+                        </rs>, <ref target="let279.xml#n-6">see letter 279, n. 6.</ref>
+                    </ab>
+                </note>
+<note n="23" xml:id="n-23" target="#note-t-23">
+<ab>
+                        <rs type="pers" key="1080">Hubert von Herkomer</rs>, <hi rend="ital">A Roman cardinal and his footman – A sketch on the Pincian</hi>, in <hi rend="ital">The Graphic</hi> 5 (13 April 1872), p. 341. <rs type="ill" key="163">Ill. 163</rs>. (t*4).</ab>
+                </note>
+<note n="24" xml:id="n-24" target="#note-t-24">
+<ab>For <rs type="pers" key="1080">Herkomer</rs>’s <rs type="ill" key="172">
+                            <hi rend="ital">A “Kegelbahn” in the Bavarian Alps</hi>
+                        </rs>, <ref target="let303.xml#n-8">see letter 303, n. 8.</ref>
+                    </ab>
+                </note>
+<note n="25" xml:id="n-25" target="#note-t-25">
+<ab>
+                        <rs type="pers" key="1080">Hubert von Herkomer</rs>, <hi rend="ital">Carnival time in the Bavarian Alps</hi>, in <hi rend="ital">The Graphic</hi> 9 (18 April 1874), pp. 368-369. <rs type="ill" key="164">Ill. 164</rs>.</ab>
+                </note>
+<note n="26" xml:id="n-26" target="#note-t-26">
+<ab>
+                        <rs type="pers" key="1080">Hubert von Herkomer</rs>, <hi rend="ital">Anxious times – A sketch at Tréport, France</hi>, in <hi rend="ital">The Graphic</hi> 2 (26 November 1870), p. 512. <rs type="ill" key="158">Ill. 158</rs> (t*453).</ab>
+                </note>
+<note n="27" xml:id="n-27" target="#note-t-27">
+<ab>For <rs type="pers" key="1080">Herkomer</rs>’s <rs type="ill" key="159">
+                            <hi rend="ital">Sketches in the Bavarian Alps –</hi> <hi rend="ital">Arrest of a poacher</hi>
+                        </rs>, <ref target="let279.xml#n-6">see letter 279, n. 6.</ref>
+                    </ab>
+                </note>
+    <note n="28" xml:id="n-28" target="#note-t-28">
+<ab>The engraving of a detail with two men after <rs type="pers" key="1080">Herkomer</rs>’s <rs type="ill" key="171">
+                            <hi rend="ital">The last muster</hi>
+                        </rs>: <ref target="let303.xml#n-6">see letter 303, n. 6</ref> and <ref target="let199.xml#n-12">letter 199, n. 12.</ref>
+                    </ab>
+                </note>
+<note n="29" xml:id="n-29" target="#note-t-29">
+<ab>For <rs type="pers" key="1080">Herkomer</rs>’s <rs type="ill" key="171">
+                            <hi rend="ital">The last muster (Sunday at Chelsea hospital</hi> / <hi rend="ital">Chelsea pensioners</hi>)</rs>, <ref target="let199.xml#n-12">see letter 199, n. 12.</ref>
+                    </ab>
+                </note>
+    <note n="30" xml:id="n-30" target="#note-t-30">
+<ab>[Anonymous], ‘Hubert Herkomer’, <hi rend="ital">The Graphic</hi> 18 (26 October 1878), p. 438: ‘It was as early, too, as 1870 that there appeared in <hi rend="ital">The Graphic </hi>the first rough draft of the composition of the “Chelsea Pensioners,” a subject that at first pleased no one but the manager of the paper, who commissioned the artist to paint him a water-colour drawing of it.’ See also <ref target="let306.xml#n-9">letter 306, n. 9.</ref>
+                    </ab>
+                </note>
+<note n="31" xml:id="n-31" target="#note-t-31">
+<ab>Van Gogh’s remark relates to the print engraved by <rs type="pers" key="1591">Charles Roberts</rs>, <hi rend="ital">The Paris exhibition – A sketch in the English fine art court</hi>, in <hi rend="ital">The Graphic</hi> 17 (29 June 1878), p. 648. <rs type="ill" key="2039">Ill. 2039</rs> (t*451). The commentary reads: ‘a motley crowd frequently encircles certain pictures of which the subjects attract the popular taste. Such a one is Mr. <rs type="pers" key="1080">Hubert Herkomer</rs>’s “Last Muster”’ (p. 634).</ab>
+                </note>
+<note n="32" xml:id="n-32" target="#note-t-32">
+<ab>For <rs type="pers" key="1314">Matthew White Ridley</rs>’s <rs type="ill" key="1278">
+                            <hi rend="ital">The miner</hi>
+                        </rs>, <ref target="let279.xml#n-1">see letter 279, n. 1.</ref>
+                    </ab>
+                </note>
+<note n="33" xml:id="n-33" target="#note-t-33">
+<ab>For <rs type="pers" key="1314">Ridley</rs>’s <rs type="ill" key="2026">
+                            <hi rend="ital">The Oxford and Cambridge Universities boat-race</hi>
+                        </rs>, <ref target="let302.xml#n-7">see letter 302, n. 7.</ref>
+                    </ab>
+                </note>
+<note n="34" xml:id="n-34" target="#note-t-34">
+<ab>For <rs type="pers" key="1314">Ridley</rs>’s <rs type="ill" key="1276">
+                            <hi rend="ital">The East London hospital for children</hi>
+                        </rs>, <ref target="let279.xml#n-3">see letter 279, n. 3.</ref>
+                    </ab>
+                </note>
+<note n="35" xml:id="n-35" target="#note-t-35">
+<ab>For <rs type="pers" key="1314">Ridley</rs>’s series <rs type="ill" key="1279 2028 2029 2030 2031 2032">
+                            <hi rend="ital">Pits and pitmen</hi>
+                        </rs>, see the six sheets listed in <ref target="let303.xml#n-1">letter 303, n. 1.</ref>
+                    </ab>
+                </note>
+<note n="36" xml:id="n-36" target="#note-t-36">
+<ab>
+                        <rs type="pers" key="1364">Charles Joseph Staniland</rs>, <hi rend="ital">A colliery explosion – The rush to the pit’s mouth</hi>, in <hi rend="ital">The Graphic</hi> 21 (31 January 1880), pp. 112-113. <rs type="ill" key="1352">Ill. 1352</rs>.</ab>
+                </note>
+<note n="37" xml:id="n-37" target="#note-t-37">
+<ab>
+                        <rs type="pers" key="838">Edwin Austin Abbey</rs>, <hi rend="ital">Christmas in old Virginia</hi>, engraved by <rs type="pers" key="1382">Joseph Swain</rs>, in <hi rend="ital">The Graphic</hi> 22 (25 December 1880), pp. 660-661. <rs type="ill" key="473">Ill. 473</rs>.</ab>
+                </note>
+<note n="38" xml:id="n-38" target="#note-t-38">
+    <ab>Van Gogh may have meant the print <rs type="ill" key="669">
+                            <hi rend="ital">Afternoon in King’s road</hi>
+                        </rs> by <rs type="pers" key="924">Caldecott</rs>, which he had previously mentioned to <rs type="pers" key="1306">Van Rappard</rs>; <ref target="let276.xml#n-9">see letters 276, n. 9</ref> and <ref target="let309#n-16">309, n. 16.</ref>
+                    </ab>
+                </note>
+<note n="39" xml:id="n-39" target="#note-t-39">
+<ab>
+                        <rs type="pers" key="1359">William Small</rs>, <hi rend="ital">The Caxton celebrations</hi>, in <hi rend="ital">The Graphic</hi> 15 (30 June 1877), pp. 616-617. <rs type="ill" key="1334">Ill. 1334</rs>. Van Gogh misspelled the name of the fifteenth-century printer <rs type="pers" key="1748">William Caxton</rs> as ‘Claxton’ (again in <ref target="let307.xml">letter 307</ref>). The comparison with Henri Leys must have been suggested by the fact that he too had a taste for historical subjects (cf. <ref target="let354.xml">letter 354</ref>).</ab>
+                </note>
+<note n="40" xml:id="n-40" target="#note-t-40">
+<ab>
+                        <rs type="pers" key="1359">William Small</rs>, <hi rend="ital">An English ploughing match</hi>, in <hi rend="ital">The Graphic</hi> 11 (13 March 1875), Supplement, between pp. 264-265. <rs type="ill" key="1340">Ill. 1340</rs>.</ab>
+                </note>
+<note n="41" xml:id="n-41" target="#note-t-41">
+<ab>William Small, <hi rend="ital">A queue in Paris during the siege</hi>, in <hi rend="ital">The Graphic</hi> 3 (11 March 1871), p. 217. <rs type="ill" key="1342">Ill. 1342</rs> (t*128).</ab>
+                </note>
+<note n="42" xml:id="n-42" target="#note-t-42">
+<ab>These are the series <hi rend="ital">Irish sketches</hi> and <hi rend="ital">London sketches</hi> by <rs type="pers" key="1359">William Small</rs> which had appeared in the magazine between 1871 and 1873. Several prints from them are in the estate. From the Irish series these are: <hi rend="ital">The Western Highlands, Connemara</hi>:<hi rend="ital"> Poteen</hi>, in <hi rend="ital">The Graphic</hi> 4 (7 October 1871), p. 349 (<rs type="ill" key="1338">Ill. 1338</rs>) (t*815); <hi rend="ital">Striking a bargain, Galway market</hi>, in <hi rend="ital">The Graphic</hi> 4 (19 August 1871), p. 184 (<rs type="ill" key="2040">Ill. 2040</rs>) (t*688); <hi rend="ital">Pilgrims to the Holy Well, Galway</hi>, in <hi rend="ital">The Graphic</hi> 4 (16 September 1871), p. 280 (<rs type="ill" key="2042">Ill. 2042</rs>) (t*443); and <hi rend="ital">A Connemara washing</hi>; in <hi rend="ital">The Graphic</hi> 4 (12 August 1871), p. 148 (<rs type="ill" key="2043">Ill. 2043</rs>) (t*672). From the London series there are: <hi rend="ital">A November fog</hi>, in <hi rend="ital">The Graphic Portfolio</hi> of 1877 (<rs type="ill" key="1339">Ill. 1339</rs>) (t*134) and <hi rend="ital">London sketches – A tasting order at the docks</hi>, in <hi rend="ital">The Graphic</hi> 7 (1 March 1873), p. 204 (<rs type="ill" key="2044">Ill. 2044</rs>) (t*814).</ab>
+                </note>
+<note n="43" xml:id="n-43" target="#note-t-43">
+<ab>
+                        <rs type="pers" key="1058">Charles Green</rs>, <hi rend="ital">“The girl I left behind me”</hi>,<hi rend="ital"> </hi>in <hi rend="ital">The Graphic</hi> 22 (7 August 1880), Supplement, between pp. 132 and 133. <rs type="ill" key="897">Ill. 897</rs>.</ab>
+                </note>
+<note n="44" xml:id="n-44" target="#note-t-44">
+<ab>
+                        <rs type="pers" key="1058">Charles Green</rs>, <hi rend="ital">An Irish ‘Patern’ at Balla County Mayo – The ‘Long station’</hi>, engraved by <rs type="pers" key="1537">Eugène Froment</rs>, in <hi rend="ital">The Graphic</hi> 11 (23 January 1875), between pp. 96 and 97. <rs type="ill" key="899">Ill. 899</rs>. Green himself described the churchyard scene on p. 78.</ab>
+                </note>
+<note n="45" xml:id="n-45" target="#note-t-45">
+<ab>
+                        <rs type="pers" key="878">George Henry Boughton</rs>, <hi rend="ital">The waning of the honeymoon</hi>, engraved by <rs type="pers" key="1537">Eugène Froment</rs>, in <hi rend="ital">The Graphic</hi> 18 (13 July 1878), pp. 56-57. <rs type="ill" key="620">Ill. 620</rs>.</ab>
+                </note>
+<note n="46" xml:id="n-46" target="#note-t-46">
+<ab>
+                        <rs type="pers" key="1249">Joseph Nash Jr</rs>,<hi rend="ital">“Take care of the pence”. Mr Bartley of the National Penny Bank addressing hop-pickers at Mereworth, Kent</hi>, in <hi rend="ital">The Graphic</hi> 18 (19 October 1878), pp. 396-397. <rs type="ill" key="1196">Ill. 1196</rs>.</ab>
+                </note>
+<note n="47" xml:id="n-47" target="#note-t-47">
+<ab>
+                        <rs type="pers" key="1249">Joseph Nash Jr</rs>, <hi rend="ital">On the sands – The lifeboat waiting for a chance</hi>, in <hi rend="ital">The Graphic</hi> 9 (14 March 1874), pp. 248-249. <rs type="ill" key="1197">Ill. 1197</rs>. Cf. also Nash’s <hi rend="ital">The morning after the wreck</hi>, in <hi rend="ital">The Graphic</hi> 25 (18 March 1882), pp. 278-279. <rs type="ill" key="2045">Ill. 2045</rs>.</ab>
+                </note>
+<note n="48" xml:id="n-48" target="#note-t-48">
+<ab>
+                        <rs type="pers" key="1250">Joseph Nash</rs>, <hi rend="ital">Sunday evening at sea – A sketch on board a British fishing boat</hi>, in <hi rend="ital">The Graphic</hi> 10 (19 September 1874), Supplement, between pp. 292 and 293. <rs type="ill" key="1198">Ill. 1198</rs>.</ab>
+                </note>
+<note n="49" xml:id="n-49" target="#note-t-49">
+<ab>It is not certain whether Van Gogh wrote ‘en’ (and) or ‘in’ (in), but there is a good chance that <hi rend="ital">two</hi> prints are involved. For one thing no engraving by <rs type="pers" key="1060">Edward John Gregory</rs> entitled <hi rend="ital">Hospital in Paris during the siege</hi> has been found in <hi rend="ital">The Graphic</hi>. Probably, therefore, by ‘Hospital’ Van Gogh meant the same print by Gregory that he refers to as ‘Ambulance in a theatre’ in <ref target="let307.xml">letter 307</ref>: <hi rend="ital">The theatre of war – The epilogue</hi> (‘From a sketch at Beaugency, by <rs type="pers" key="1076">Sydney Hall</rs>’), in <hi rend="ital">The Graphic</hi> 3 (11 February 1871), pp. 128-129. <rs type="ill" key="2046">Ill. 2046</rs>. In addition, the fact that Beaugency lies much further south than Paris suggests that two prints are meant. The only other engraving by Gregory that has to do explicitly with Paris is <hi rend="ital">Before Paris – Waiting for the sortie, December 3</hi>, in <hi rend="ital">The Graphic</hi> 2 (17 December 1870), p. 577. <rs type="ill" key="2047">Ill. 2047</rs>.</ab>
+                </note>
+<note n="50" xml:id="n-50" target="#note-t-50">
+<ab>For <rs type="pers" key="907">Edwin Buckman</rs>’s <rs type="ill" key="656">
+                            <hi rend="ital">The Londoner’s holiday – Hampstead Heath</hi>
+                        </rs>, <ref target="let302.xml#n-17">see letter 302, n. 17.</ref>
+                    </ab>
+                </note>
+<note n="51" xml:id="n-51" target="#note-t-51">
+<ab>
+                        <rs type="pers" key="1026">Samuel Luke Fildes</rs>, <hi rend="ital">The bashful model (photographing a prisoner in gaol)</hi>, in <hi rend="ital">The Graphic</hi> 8 (8 November 1873), pp. 440-441. <rs type="ill" key="2048">Ill. 2048</rs>.</ab>
+                </note>
+<note n="52" xml:id="n-52" target="#note-t-52">
+<ab>For <rs type="pers" key="1109">Boyd Houghton</rs>’s journey to America, and for some examples of his work, which Van Gogh compares with etchings, <ref target="let303.xml#n-3">see letter 303, n. 3.</ref>
+                    </ab>
+                </note>
+<note n="53" xml:id="n-53" target="#note-t-53">
+<ab>Van Gogh is mistaken in attributing this to <rs type="pers" key="1109">Arthur Boyd Houghton</rs>; the sheet is by <rs type="pers" key="1060">Edward Gregory</rs>. <hi rend="ital">Paris under the red flag – April, 1871</hi>, in <hi rend="ital">The Graphic</hi> 3 (22 April 1871), pp. 368-369. <rs type="ill" key="909">Ill. 909</rs>. A short time later he admits that at first he did not know ‘this sheet was by him’ (<ref target="let307.xml">see letter 307</ref>).</ab>
+                </note>
+<note n="54" xml:id="n-54" target="#note-t-54">
+<ab>For <rs type="pers" key="1109">Houghton</rs>’s <rs type="ill" key="962">
+                            <hi rend="ital">Mormon tabernacle</hi>
+                        </rs>, <ref target="let303.xml#n-21">see letter 303, n. 21.</ref>
+                    </ab>
+                </note>
+<note n="55" xml:id="n-55" target="#note-t-55">
+<ab>
+                        <rs type="pers" key="1109">Arthur Boyd Houghton</rs>, <hi rend="ital">Graphic America – Steerage passengers</hi>, in <hi rend="ital">The Graphic </hi>1 (12 March 1870), p. 348. <rs type="ill" key="959">Ill. 959</rs>.</ab>
+                </note>
+<note n="56" xml:id="n-56" target="#note-t-56">
+<ab>
+                        <rs type="pers" key="1000">Mary Ellen Edwards</rs>, <hi rend="ital">The foundling</hi> (‘From the picture by Mrs. Staples’), in <hi rend="ital">The Graphic</hi> 17 (4 May 1878), p. 449. <rs type="ill" key="801">Ill. 801</rs>. Van Gogh mistakenly attributes the prints to <rs type="pers" key="1001">Edwin Edwards</rs> (cf. <ref target="let232.xml#n-9">letter 232, n. 9</ref>).</ab>
+                </note>
+<note n="57" xml:id="n-57" target="#note-t-57">
+<ab>
+                        <rs type="pers" key="1000">Mary Ellen Edwards</rs>, <hi rend="ital">A swimming-class at Brighton</hi>, in <hi rend="ital">The Graphic</hi> 4 (23 September 1871), p. 309. <rs type="ill" key="803">Ill. 803</rs> (t*148).</ab>
+                </note>
+<note n="58" xml:id="n-58" target="#note-t-58">
+<ab>
+                        <rs type="pers" key="1000">Mary Ellen Edwards</rs>, <hi rend="ital">The special train for the meet</hi>, in <hi rend="ital">The</hi> <hi rend="ital">Graphic</hi> 5 (23 March 1872), p. 272. Referred to elsewhere in the issue as ‘A hunting party at Paddington station’ (p. 263). <rs type="ill" key="802">Ill. 802</rs> (t*149).</ab>
+                </note>
+<note n="59" xml:id="n-59" target="#note-t-59">
+<ab>The Turk <rs type="pers" key="159">Nuri Osman Pasha</rs> was a field marshal in the Russian-Turkish War (1877-1878) at the defence of Plevna (Plewen), where he was forced to surrender on 10 December 1877. Various prints of him appeared in <hi rend="ital">The Graphic</hi>, including <hi rend="ital">His Excellency Osman Pasha sketched from life in his tent Sept</hi>r<hi rend="ital"> 21</hi>st<hi rend="ital"> 1877 by <rs type="pers" key="1739">Victor Lorie</rs>
+                        </hi>, in <hi rend="ital">The Graphic</hi> 16 (24 November 1877), p. 481. <rs type="ill" key="504">Ill. 504</rs>. Judging by the next engraving Van Gogh mentions, he probably had in mind<hi rend="ital"> Osman Pasha brought before the czar at Plevna</hi>, in <hi rend="ital">The Graphic</hi> 17 (5 January 1878), pp. 8-9. <rs type="ill" key="2049">Ill. 2049</rs>.</ab>
+                </note>
+<note n="60" xml:id="n-60" target="#note-t-60">
+<ab>Not only the composition but also the origin of the similarly anonymous print <hi rend="ital">The reality of war – Comrades of the same corps</hi>, in <hi rend="ital">The Graphic</hi> 17 (12 January 1878), pp. 32-33 (<rs type="ill" key="2050">Ill. 2050</rs>) – it appeared a week after <rs type="pers" key="159">Osman Pasha</rs> – make it likely that this is the one Van Gogh meant. Moreover, he comments on their ‘reality’, the word that is also found in the title. </ab>
+                </note>
+<note n="61" xml:id="n-61" target="#note-t-61">
+<ab>
+                        <rs type="pers" key="1385">Arthur Stocks</rs>, <hi rend="ital">‘Sermon-time’</hi>, in <hi rend="ital">The Graphic</hi> 20 (26 July 1879), pp. 88-89. <rs type="ill" key="1358">Ill. 1358</rs>.</ab>
+                </note>
+<note n="62" xml:id="n-62" target="#note-t-62">
+<ab>
+                        <rs type="pers" key="1385">Arthur Stocks</rs>, <hi rend="ital">Her last sacrament: – ‘This do in remembrance of me’</hi>, engraved by <rs type="pers" key="1537">Eugène Froment</rs>, in <hi rend="ital">The Graphic</hi> 18 (31 August 1878), pp. 220-221. <rs type="ill" key="1357">Ill. 1357</rs>.</ab>
+                </note>
+<note n="63" xml:id="n-63" target="#note-t-63">
+<ab>In the 21 volumes of <hi rend="ital">The Graphic</hi> that Van Gogh had bought there is no work by <rs type="pers" key="1097">John Evan Hodgson</rs> depicting navvies, or labourers. Most likely he is mistaken about the artist, and means <rs type="pers" key="1250">Joseph Nash</rs>, <hi rend="ital">Amateur navvies at Oxford – Undergraduates making a road as suggested by Mr Ruskin</hi>, in <hi rend="ital">The Graphic</hi> 9 (27 June 1874), pp. 612-613. <rs type="ill" key="933">Ill. 933</rs>.</ab>
+                </note>
+<note n="64" xml:id="n-64" target="#note-t-64">
+<ab>The neutral title ‘Fishing’ fits two prints. These are <rs type="pers" key="1097">John Evan Hodgson</rs>, <hi rend="ital">The artist ‘Over the hills and far away’</hi> (“Hands on now, sir! It will be going down the water, he is, whateffer!”); and <hi rend="ital">Trout fishing – The first cast of the season</hi>. Both wood engravings are signed ‘JEH’. <hi rend="ital">The Graphic</hi> 13 (10 June 1876), pp. 572-573 (<rs type="ill" key="932">Ill. 932</rs>) and <hi rend="ital">The Graphic</hi> 18 (24 August 1878), pp. 192-193 (<rs type="ill" key="2051">Ill. 2051</rs>) respectively.</ab>
+                </note>
+<note n="65" xml:id="n-65" target="#note-t-65">
+<ab>
+                        <rs type="pers" key="1054">Andrew Carrick Gow</rs>, <hi rend="ital">No surrender</hi>, in <hi rend="ital">The Graphic</hi> 21 (17 April 1880), Supplement, between pp. 404 and 405. <rs type="ill" key="888">Ill. 888</rs>.</ab>
+                </note>
+<note n="66" xml:id="n-66" target="#note-t-66">
+<ab>
+                        <rs type="pers" key="1154">Francis Wilfred Lawson</rs>, <hi rend="ital">Imprisoned spring</hi>, in <hi rend="ital">The Graphic</hi> 17 (27 April 1878), pp. 420-421. <rs type="ill" key="1038">Ill. 1038</rs>.</ab>
+                </note>
+<note n="67" xml:id="n-67" target="#note-t-67">
+<ab>
+                        <rs type="pers" key="1359">William Small</rs>, <hi rend="ital">Swan-upping on the Thames above Windsor</hi>, in <hi rend="ital">The Graphic</hi> 16 (11 August 1877), pp. 136-137. <rs type="ill" key="1345">Ill. 1345</rs>.</ab>
+                </note>
+<note n="68" xml:id="n-68" target="#note-t-68">
+<ab>
+                        <rs type="pers" key="1359">William Small</rs>, <hi rend="ital">The game of polo – A warm corner</hi>, in <hi rend="ital">The Graphic</hi> 10 (15 August 1874), ‘Extra supplement’, between pp. 168 and 169. <rs type="ill" key="1335">Ill. 1335</rs>.</ab>
+                </note>
+<note n="69" xml:id="n-69" target="#note-t-69">
+<ab>
+                        <rs type="pers" key="1359">William Small</rs>, <hi rend="ital">The Oxford and Cambridge boat race</hi>, in <hi rend="ital">The Graphic</hi> 3 (1 April 1871), pp. 296-297. <rs type="ill" key="1333">Ill. 1333</rs>.</ab>
+                </note>
+<note n="70" xml:id="n-70" target="#note-t-70">
+<ab>By ‘Queens ladies’ Van Gogh may mean <rs type="pers" key="1359">Small</rs>’s print <rs type="ill" key="2017">
+                            <hi rend="ital">At court</hi>
+                        </rs> (‘Heads of the people’, no. 3), which is in the estate; <ref target="let293.xml#n-16">see letter 293, n. 16.</ref> The commentary accompanying it reads as follows: ‘Certainly, for most young ladies, the first presentation at Court is a trying ordeal and though doubtless you have diligently rehearsed so many times at home, making believe that Mamma was the Queen, and kissing her hand in the most graceful fashion, yet somehow, when you have the real Queen to deal with, you find the salutation a serious matter, in spite of the graciousness with which Her Majesty receives you’ (p. 398).</ab>
+<ab rend="indent">There is also a print after Small (no title, no source) in which a woman kisses the hand of Queen Victoria during a ceremony attended by a number of women (London, Witt Library). <rs type="ill" key="1341">Ill. 1341</rs>.</ab>
+                </note>
+<note n="71" xml:id="n-71" target="#note-t-71">
+<ab>
+                        <rs type="pers" key="1359">William Small</rs>, <hi rend="ital">At the Royal Academy</hi>, in <hi rend="ital">The Graphic</hi> 21 (26 June 1880), pp. 648-649. <rs type="ill" key="1343">Ill. 1343</rs>.</ab>
+                </note>
+<note n="72" xml:id="n-72" target="#note-t-72">
+<ab>
+                        <rs type="pers" key="1359">William Small</rs>, <hi rend="ital">The finish of the mile race – A dead heat</hi>, in <hi rend="ital">The Graphic</hi> 19 (12 April 1879), pp. 364-365. <rs type="ill" key="1346">Ill. 1346</rs>.</ab>
+                </note>
+<note n="73" xml:id="n-73" target="#note-t-73">
+<ab>
+                        <rs type="pers" key="1058">Charles Green</rs>, <hi rend="ital">London sketches – An artist on stone</hi>, in<hi rend="ital"> The Graphic</hi> 10 (5 September 1874), Supplement, between pp. 244 and 245. <rs type="ill" key="892">Ill. 892</rs>.</ab>
+                </note>
+<note n="74" xml:id="n-74" target="#note-t-74">
+<ab>
+                        <rs type="pers" key="1058">Charles Green</rs>, <hi rend="ital">The Derby day. Betting at Epsom – Outsiders</hi>, in <hi rend="ital">The Graphic</hi> 19 (31 March 1879), Supplement, between pp. 544 and 545. <rs type="ill" key="895">Ill. 895</rs>. </ab>
+                </note>
+<note n="75" xml:id="n-75" target="#note-t-75">
+<ab>For the novel <rs type="lit" key="278">
+                            <hi rend="ital">Quatre-vingt-treize</hi>
+                        </rs> by <rs type="pers" key="666">Victor Hugo</rs>, which Van Gogh says in November he has read and calls ‘noble’, <ref target="let286.xml">see letter 286</ref>. The 23 illustrations by <rs type="pers" key="1080">Hubert von Herkomer</rs>, <rs type="pers" key="1058">Charles Green</rs>, <rs type="pers" key="1359">William Small</rs>, <rs type="pers" key="1026">Luke Fildes</rs>, <rs type="pers" key="1255">Helen Paterson</rs>, <rs type="pers" key="1003">Godefroy Durand</rs>, <rs type="pers" key="1455">Henry Woods</rs> and <rs type="pers" key="1154">Francis Wilfred Lawson</rs> were in volumes 9 and 10 (1874) of <hi rend="ital">The Graphic</hi>. In the estate there are 21 sheets: by Hubert von Herkomer,<hi rend="ital"> Ninety-three – When the sun rose</hi>, in <hi rend="ital">The Graphic</hi> 10 (8 August 1874), p. 133. <rs type="ill" key="175">Ill. 175</rs>. (t*709); by Charles Green among others <hi rend="ital">Ninety-three – Death speaks</hi>, in <hi rend="ital">The Graphic</hi> 9 (27 June 1874), p. 617. <rs type="ill" key="2052">Ill. 2052</rs> (t*723); and by William Small: <hi rend="ital">Ninety-three – The royalist leader and the boatman</hi>, in <hi rend="ital">The Graphic</hi> 9 (28 March 1874), p. 293. <rs type="ill" key="2053">Ill. 2053</rs> (t*725).</ab>
+                </note>
+<note n="76" xml:id="n-76" target="#note-t-76">
+<ab>Van Gogh, who added ‘Home and the homeless’ between parentheses himself, means <rs type="pers" key="1026">Fildes</rs>’s print <rs type="ill" key="1905">
+                            <hi rend="ital">Houseless and hungry</hi>
+                        </rs>: <ref target="let199.xml#n-8">see letter 199, n. 8.</ref> Fildes based his later painting <rs type="otherart" key="475">
+                            <hi rend="ital">Applicants for admission to a casual ward</hi> (<hi rend="ital">The casuals</hi>)</rs>, 1874 (London, Royal Holloway and Bedford New College) on this engraving. <hi rend="ital">The Graphic </hi>discusses the work on 9 May 1874, p. 455 (this also happened on the same day in <hi rend="ital">The Illustrated London News</hi>). Cf. exhib. cat. Manchester 1987, p. 147, cat. no. 74 and exhib. cat. Nottingham 1974, pp. 32-33.</ab>
+                </note>
+<note n="77" xml:id="n-77" target="#note-t-77">
+<ab>For <rs type="pers" key="1026">Fildes</rs>, <rs type="ill" key="1934">
+                            <hi rend="ital">The empty chair</hi>
+                        </rs>, in <hi rend="ital">The Graphic</hi>, Christmas number, 1870, <ref target="let251.xml#n-11">see letter 251, n. 11.</ref>
+                    </ab>
+                </note>
+<note n="78" xml:id="n-78" target="#note-t-78">
+<ab>Given this description, Van Gogh must mean <rs type="ill" key="166">
+                            <hi rend="ital">Christmas in a workhouse</hi>
+                        </rs>, in <hi rend="ital">The Graphic </hi>14 (25 December 1876) (see also <ref target="let278.xml#n-13">letter 278, n. 13</ref>) – he added the year 1876 later. <rs type="pers" key="1080">Herkomer</rs>’s <rs type="ill" key="2034">
+                            <hi rend="ital">Old age – A study at the Westminster Union</hi>
+                        </rs> was in the magazine a year later (<ref target="let303.xml#n-5">see letter 303, n. 5</ref>).</ab>
+                </note>
+<note n="79" xml:id="n-79" target="#note-t-79">
+<ab>
+                        <rs type="pers" key="1188">Percy Thomas Macquoid</rs>, <hi rend="ital">The reign of terror</hi>, engraved by <rs type="pers" key="1537">Eugène Froment</rs>, in <hi rend="ital">The Graphic</hi> 15 (30 June 1877), p. 620. <rs type="ill" key="1093">Ill. 1093</rs>. The title lacks the word ‘during’, which is included under <rs type="pers" key="1003">Godefroy Durand</rs>’s print <hi rend="ital">A Parisian street during the reign of terror</hi>. This illustration to <rs type="pers" key="666">Victor Hugo</rs>’s <hi rend="ital">Ninety-three</hi>, in <hi rend="ital">The Graphic</hi> 9 (25 April 1874), p. 395, is in the estate. <rs type="ill" key="798">Ill. 798</rs> (t*166).</ab>
+                </note>
+<note n="80" xml:id="n-80" target="#note-t-80">
+<ab>
+                        <rs type="pers" key="1188">Percy Thomas Macquoid</rs>, <hi rend="ital">Prize cats</hi>, in <hi rend="ital">The Graphic</hi> 4 (22 July 1871), p. 92 (<rs type="ill" key="1087">Ill. 1087</rs>), and <hi rend="ital">Prize cats at the Crystal Palace</hi>, in <hi rend="ital">The Graphic</hi> 4 (16 December 1871), p. 584. <rs type="ill" key="2054">Ill. 2054</rs>. Persian, Siamese and Abyssinian cats are depicted among others; Van Gogh refers to ‘Chinese’. Because these are ‘small sketches’, <hi rend="ital">Kittens at the Crystal Palace cat show</hi>, in <hi rend="ital">The Graphic</hi> 5 (25 May 1872), p. 496 is ruled out.</ab>
+                </note>
+<note n="81" xml:id="n-81" target="#note-t-81">
+<ab>
+                        <rs type="pers" key="1188">Percy Thomas Macquoid</rs>, <hi rend="ital">The mackerel fishery – Sketches in a Devonshire village</hi>, in <hi rend="ital">The Graphic</hi> 9 (9 May 1874), p. 452. <rs type="ill" key="1090">Ill. 1090</rs> (t*108).</ab>
+                </note>
+<note n="82" xml:id="n-82" target="#note-t-82">
+<ab>
+                        <rs type="pers" key="1188">Percy Thomas Macquoid</rs>, <hi rend="ital">A disarrangement in blue</hi>, in <hi rend="ital">The Graphic</hi> 22 (13 November 1880), pp. 472-473. <rs type="ill" key="1089">Ill. 1089</rs>.</ab>
+                </note>
+<note n="83" xml:id="n-83" target="#note-t-83">
+<ab>
+                        <rs type="pers" key="1026">Samuel Luke Fildes</rs>, <hi rend="ital">Miss or Mrs?</hi>, in <hi rend="ital">The Graphic</hi> 4 (25 December 1871), Christmas number, p. 19. <rs type="ill" key="841">Ill. 841</rs> (t*167). This is an illustration to the story <hi rend="ital">Miss or Mrs? </hi>by Wilkie Collins.</ab>
+                </note>
+<note n="84" xml:id="n-84" target="#note-t-84">
+<ab>After cutting out the wood engravings, Van Gogh glued most of them onto large dark green, grey or brown sheets of rough paper. This is how they are still kept in the Van Gogh Museum.</ab>
+                </note>
+<note n="85" xml:id="n-85" target="#note-t-85">
+<ab>For the Jewish bookseller <rs type="pers" key="293">Jozef Blok</rs>, <ref target="let199.xml#n-7">see letter 199, n. 7.</ref>
+                    </ab>
+                </note>
+<note n="a" xml:id="n-a" target="#note-o-a">
+<ab>Means: ‘een aanschaf waarvan het eigenlijk schandelijk is, dat hij zo goedkoop is’ (a purchase that is so cheap it’s really a scandal).</ab>
+                </note>
+<note n="86" xml:id="n-86" target="#note-t-86">
+<ab>Theo’s support is never mentioned in the surviving correspondence; it is unclear whether he knew beforehand that a no doubt substantial part of the extra money Vincent had asked for this month was going towards the purchase of the 21 volumes of <hi rend="ital">The Graphic</hi>. Another point is that letters appear to be missing in this period (cf. <ref target="let301.xml">letter 301</ref>, <hi rend="ital">Arrangement</hi>).</ab>
+                </note>
+<note n="b" xml:id="n-b" target="#note-o-b">
+<ab>Read: ‘hoe blij ik ook ben’ (Pleased as I am). </ab>
+                </note>
+<note n="c" xml:id="n-c" target="#note-o-c">
+<ab>Means: ‘bedrukt of beschreven papier dat aan zijn bestemming niet meer beantwoordt en dus verscheurd kan worden’ (printed or written-on paper that no longer fulfils its purpose and so can be torn up).</ab>
+                </note>
+<note n="87" xml:id="n-87" target="#note-t-87">
+    <ab>With this phrase about ‘change’, Vincent is quoting what Theo had written to him earlier: <ref target="let280.xml #l-10">see letter 280, ll. 10-11</ref>.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Etten, on or about Saturday, 30 April or Sunday, 1 May 1881.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let166"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">166</idno>
+<idno type="collectedletters">144</idno>
+<idno type="brieven1990">165</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Etten</vg:placeLet>
+                        <vg:dateLet>on or about Saturday, 30 April or Sunday, 1 May 1881</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. Etten, on or about Saturday, 30 April or Sunday, 1 May 1881.</p>
+<note type="ongoingTopic" n="1">
+<p>Van Gogh wants to become an illustrator <ref target="let162.xml">(162)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b164 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Vincent wishes Theo a happy birthday; in previous years he did this on or shortly before 1 May, the day itself (cf. <ref target="let026.xml">letters 26</ref> and <ref target="let080.xml">80</ref>).</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0164" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000175_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000175_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000175_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000175_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0164" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000175_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000175_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000175_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000175_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Waarde Theo,</ab>
+                <lb n="2" xml:id="l-2"/>
+<ab>Van harte wensch ik U geluk met Uw verjaardag.<anchor n="1" xml:id="note-o-1"/> Nog telkens denk ik aan <lb n="3" xml:id="l-3"/>Uw bezoek<c type="kk">/</c> ik ben blij wij alzoo elkaar weer eens hebben gesproken, <lb n="4" xml:id="l-4"/>en hoop het er van komen zal gij ook in den zomer nogmaals zult <lb n="5" xml:id="l-5"/>komen.</ab>
+                <lb n="6" xml:id="l-6"/>
+<ab rend="indent">Sedert eenige dagen ben ik hier<anchor n="2" xml:id="note-o-2"/> &amp; het is buiten mooi maar het <lb n="7" xml:id="l-7"/>weer laat nog niet alle dagen toe om buiten te teekenen.</ab>
+                <lb n="8" xml:id="l-8"/>
+<ab rend="indent">Ik ben intusschen begonnen aan de Millets<c type="kk">/</c> Le semeur is af &amp; de 4 <lb n="9" xml:id="l-9"/>heures de la journée geschetst<c type="kp">_</c> En nu moeten daarbij nog komen Les <lb n="10" xml:id="l-10"/>travaux des champs<c type="kp">_</c>
+                    <anchor n="3" xml:id="note-o-3"/>
+                </ab>
+                <lb n="11" xml:id="l-11"/>
+<ab rend="indent">Er was zoo als ge weet eene tentoonstelling van aquarellen te Brussel <lb n="12" xml:id="l-12"/>en die was vrij interessant<c type="kp">_</c>
+                    <anchor n="4" xml:id="note-o-4"/> Er waren 4 Mauves of 5<c type="kk">/</c> Bucherons<c type="kk">/</c>
+                    <anchor n="5" xml:id="note-o-5"/> <lb n="13" xml:id="l-13"/>1 J<c type="kp">_</c> Maris<c type="kk">/</c> duinen<c type="kk">/</c>
+                    <anchor n="6" xml:id="note-o-6"/> net een schij van Ruysdael of v<c type="kp">_</c>d<c type="kp">_</c> Velde.<anchor n="7" xml:id="note-o-7"/> dan J.H<c type="kp">_</c> Weissenbruch<c type="kk">/</c> <lb n="14" xml:id="l-14"/>superbe<c type="kk">/</c> 5 groote teekeningen<c type="kk">/</c>
+                    <anchor n="8" xml:id="note-o-8"/> Roelofs d<hi rend="ss">o</hi>
+                    <c type="kk">/</c> ook 5 stuks groote.<anchor n="9" xml:id="note-o-9"/> dan Gabriel<anchor n="10" xml:id="note-o-10"/> <lb n="15" xml:id="l-15"/>&amp; v.d. Sande Bakhuyzen<anchor n="11" xml:id="note-o-11"/> &amp; Valkenburg<anchor n="12" xml:id="note-o-12"/> &amp; v<c type="kp">_</c> Trigt<anchor n="13" xml:id="note-o-13"/> &amp; P. Stortenbeker,<anchor n="14" xml:id="note-o-14"/> <lb n="16" xml:id="l-16"/>en Vogel<anchor n="15" xml:id="note-o-15"/> &amp;c<c type="kp">_</c> van de Hollanders.<anchor n="16" xml:id="note-o-16"/>
+                </ab>
+                <lb n="17" xml:id="l-17"/>
+<ab rend="indent">Dan was er een Mesdag die men moest wegdenken om eenige andere <lb n="18" xml:id="l-18"/>teekening te kunnen zien<c type="kk">/</c> althans zoo ging het mij<c type="kp">_</c>
+                </ab>
+                <lb n="19" xml:id="l-19"/>
+<ab rend="indent">’t Strand bij schemering<c type="kk">/</c> stormachtig weer<c type="kk">/</c> lucht met grauwe <lb n="20" xml:id="l-20"/>wolken met rossen gloed van de ondergegane zon.</ab>
+                <lb n="21" xml:id="l-21"/>
+<ab rend="indent">Op den voorgrond een visscher te paard<c type="kk">/</c> een rijzig<c type="kk">/</c> zonderling<c type="kk">/</c> <lb n="22" xml:id="l-22"/>donker silhouet dat zich tegen de witte schuimende golven <lb n="23" xml:id="l-23"/>afteekent<c type="kp">_</c> Die figuur spreekt met lui aan boord van een <lb n="24" xml:id="l-24"/>pink die op ’t tweede plan ligt te dobberen<c type="kp">_</c> Op dek zijn <lb n="25" xml:id="l-25"/>lui bezig met een lantaarn &amp; zij hebben het met den man <lb n="26" xml:id="l-26"/>te paard blijkbaar over het anker dat hij moet komen halen. <lb n="27" xml:id="l-27"/>’t Was een groote importante teekening<c type="kk">/</c> breed gedaan en zoo <lb n="28" xml:id="l-28"/>krachtig dat zoo als ik zei eigentlijk niets ’t er bij uithield.<anchor n="17" xml:id="note-o-17"/>
+                </ab>
+                <lb n="29" xml:id="l-29"/>
+<ab rend="indent">Wat mij nog trof waren 2 teekeningen van Ter Meulen<c type="kk">/</c> Schapen <lb n="30" xml:id="l-30"/>in de duinen &amp; d<hi rend="ss">o</hi> in de sneeuw<c type="kk">/</c>
+                    <anchor n="18" xml:id="note-o-18"/> dat wordt terdeeg goed<c type="kp">_</c>
+                </ab>
+                <lb n="31" xml:id="l-31"/>
+<ab rend="indent">Die man heb ik als ik mij wel herinner bij Bakhuizen op <lb n="32" xml:id="l-32"/>’t atelier zien tobben &amp; blokken en hij is er toch gekomen <lb n="33" xml:id="l-33"/>nu<c type="kk">/</c>
+                    <anchor n="19" xml:id="note-o-19"/> althans die twee teekeningen waren uitmuntend.</ab>
+                <lb n="34" xml:id="l-34"/>
+<ab rend="indent">Dan waren er teekeningen van <hi rend="ital">Meunier</hi>
+                    <c type="kk">/</c>
+                    <hi rend="ital"> Varlet</hi>
+                    <anchor n="a" xml:id="note-o-a"/> <lb n="35" xml:id="l-35"/>
+                    <hi rend="ital">dans une grange</hi>,<anchor n="20" xml:id="note-o-20"/> gedistingueerd van kleur &amp; behandeling<c type="kk">/</c> <lb n="36" xml:id="l-36"/>van opvatting ook doende denken aan Millet b.v. <lb n="37" xml:id="l-37"/>qua eenvoud &amp; trouw aan de natuur<c type="kp">_</c> van hem ook nog <lb n="38" xml:id="l-38"/>een chauffeur &amp; een fabrieksarbeider.<anchor n="21" xml:id="note-o-21"/>
+                </ab>
+                <lb n="39" xml:id="l-39"/>
+<ab rend="indent">Er waren ook verscheiden teekeningen van Rochussen.<anchor n="22" xml:id="note-o-22"/> <lb n="40" xml:id="l-40"/>En nog meer maar eigentlijk <hi rend="ital">trof</hi> alleen Meunier mij van de <lb n="41" xml:id="l-41"/>Belgen.</ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="42" xml:id="l-42"/>
+<ab rend="indent">Rappard gaat over 3 weken naar Holland<anchor n="23" xml:id="note-o-23"/> &amp; zal denkelijk dezen zomer <lb n="43" xml:id="l-43"/>buiten blijven werken en daarna den volgenden winter misschien <lb n="44" xml:id="l-44"/>naar Parijs maar vooreerst zal hij daar niet om er te blijven heengaan<c type="kp">_</c> <lb n="45" xml:id="l-45"/>Ik geloof dat hij toch terdeeg een emmer koud water over den <lb n="46" xml:id="l-46"/>rug heeft gekregen daar in der tijd<anchor n="24" xml:id="note-o-24"/> maar dat is geen reden <lb n="47" xml:id="l-47"/>waarom hij er niet bij een nieuw verblijf meer voorspoedig zou <lb n="48" xml:id="l-48"/>kunnen zijn. Zeker is het dat hij sedert heel wat is gevorderd.</ab>
+                <lb n="49" xml:id="l-49"/>
+<ab rend="indent">Ik ben toch zoo blij dat het alzoo is geschikt dat ik eenigen tijd <lb n="50" xml:id="l-50"/>rustig hier kan werken<c type="kk">/</c> ik hoop zooveel studies te maken als ik <lb n="51" xml:id="l-51"/>maar kan want dat is het zaad waar later teekeningen van <lb n="52" xml:id="l-52"/>komen.</ab>
+                <lb n="53" xml:id="l-53"/>
+<ab rend="indent">Schrijf mij van tijd tot tijd toch &amp; houdt mij zoo mogelijk van een &amp; <lb n="54" xml:id="l-54"/>ander dat U treft op de hoogte &amp; komt het U ter ooren er <lb n="55" xml:id="l-55"/>hier of daar een teekenaar kan worden geplaatst<c type="kk">/</c> denk <lb n="56" xml:id="l-56"/>dan aan mij.</ab>
+                <lb n="57" xml:id="l-57"/>
+<ab rend="indent">En nu het is posttijd<c type="kk">/</c> ik zal U op de hoogte houden <lb n="58" xml:id="l-58"/>van wat ik doe &amp; gij moet ook maar eens zeggen <lb n="59" xml:id="l-59"/>van tijd tot tijd wat gij mij zoudt raden bij voorkeur <lb n="60" xml:id="l-60"/>te teekenen &amp; te zoeken. Soms zal ik er nut van <lb n="61" xml:id="l-61"/>hebben<c type="kk">/</c> soms misschien niet maar zeg maar <lb n="62" xml:id="l-62"/>gerust eens ’t een &amp; ander<c type="kk">/</c> dat zal ik aan U ook <lb n="63" xml:id="l-63"/>doen &amp; dan moeten we maar weerkeerig trachten <lb n="64" xml:id="l-64"/>kaf van koren te scheiden.</ab>
+                <lb n="65" xml:id="l-65"/>
+<ab rend="indent">Adieu<c type="kk">/</c> met een handdruk in gedachten<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="66" xml:id="l-66"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo,</ab>
+<ab>My sincere congratulations on your birthday.<anchor n="1" xml:id="note-t-1"/> I think of your visit time and again, I’m glad we spoke to each other again in this way, and hope it turns out that you’ll come again in the summer.</ab>
+<ab rend="indent">I’ve been here for a few days<anchor n="2" xml:id="note-t-2"/> and it’s beautiful outdoors, but the weather doesn’t yet permit of drawing outdoors every day.</ab>
+<ab rend="indent">Meanwhile I’ve started on the <rs type="pers" key="1226">Millet</rs>s, The sower is finished and the 4 times of the day sketched. And now still to come are The labours of the field.<anchor n="3" xml:id="note-t-3"/>
+                </ab>
+    <ab rend="indent">As you know, there was an exhibition of watercolours in Brussels and it was quite interesting.<anchor n="4" xml:id="note-t-4"/> There were 4 or 5 <rs type="pers" key="323">Mauve</rs>s, woodcutters,<anchor n="5" xml:id="note-t-5"/> 1 <rs type="pers" key="1203">J. Maris</rs>, dunes,<anchor n="6" xml:id="note-t-6"/> just like a painting by <rs type="pers" key="1333">Ruisdael</rs> or <rs type="pers" key="1859">Van de Velde</rs>.<anchor n="7" xml:id="note-t-7"/> Then<rs type="pers" key="1443"> J.H. Weissenbruch</rs>, superb, 5 large drawings,<anchor n="8" xml:id="note-t-8"/> <rs type="pers" key="1318">Roelofs</rs> ditto, also 5 large pieces.<anchor n="9" xml:id="note-t-9"/> Then <rs type="pers" key="1034">Gabriël</rs>
+                    <anchor n="10" xml:id="note-t-10"/> and <rs type="pers" key="1342">Van de Sande Bakhuyzen</rs>
+                    <anchor n="11" xml:id="note-t-11"/> and <rs type="pers" key="1404">Valkenburg</rs>
+                    <anchor n="12" xml:id="note-t-12"/> and <rs type="pers" key="1390">Van Trigt</rs>
+                    <anchor n="13" xml:id="note-t-13"/> and <rs type="pers" key="1384">P. Stortenbeker</rs>,<anchor n="14" xml:id="note-t-14"/> and <rs type="pers" key="1410">Vogel</rs>
+                    <anchor n="15" xml:id="note-t-15"/> &amp;c. of the Dutchmen.<anchor n="16" xml:id="note-t-16"/>
+                </ab>
+<ab rend="indent">Then there was a <rs type="pers" key="1218">Mesdag</rs> that one had to imagine wasn’t there in order to see any of the other drawings, at least that’s how it was with me.</ab>
+<ab rend="indent">The beach at twilight, stormy weather, sky with grey clouds with a ruddy glow from the sun, which had set.</ab>
+<ab rend="indent">In the foreground a fisherman on a horse, a tall, singular, dark silhouette standing out against the white, foaming waves. This figure is speaking with people on board a pink floating in the middle ground. On deck people are busy with a lantern, and they’re evidently speaking to the man on horseback about the anchor, which he must come and fetch. It was a large, important drawing, broadly done and so powerful that, as I said, nothing else could hold a candle to it.<anchor n="17" xml:id="note-t-17"/>
+                </ab>
+<ab rend="indent">What also struck me were 2 drawings by <rs type="pers" key="1212">Ter Meulen</rs>, sheep in the dunes and ditto in the snow,<anchor n="18" xml:id="note-t-18"/> he’s becoming really good.</ab>
+<ab rend="indent">If I remember rightly, I saw that man struggling and swotting in <rs type="pers" key="1342">Bakhuyzen</rs>’s studio, and now he’s succeeded all the same,<anchor n="19" xml:id="note-t-19"/> those two drawings, at any rate, were excellent.</ab>
+<ab rend="indent">Then there were drawings by <hi rend="ital">
+                        <rs type="pers" key="1209">Meunier</rs>, Farm-hand in a barn</hi>,<anchor n="20" xml:id="note-t-20"/> distinguished in colour and treatment, and in conception reminiscent of <rs type="pers" key="1226">Millet</rs>, for instance, as regards simplicity and faithfulness to nature. Also by him a stoker and a factory worker.<anchor n="21" xml:id="note-t-21"/>
+                </ab>
+<ab rend="indent">There were also various drawings by <rs type="pers" key="1320">Rochussen</rs>.<anchor n="22" xml:id="note-t-22"/> And many others, but <rs type="pers" key="1209">Meunier</rs> was the only one of the Belgians who actually <hi rend="ital">moved</hi> me. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">
+                    <rs type="pers" key="1306">Rappard</rs> is going to Holland in 3 weeks,<anchor n="23" xml:id="note-t-23"/> and will probably carry on working in the countryside this summer and then possibly go to Paris next winter, but as yet he won’t go there with the intention of staying. I believe that he really received a cold shower when he was there earlier,<anchor n="24" xml:id="note-t-24"/> but that’s no reason to think that he won’t have more luck during his next stay. He’s certainly progressed a good deal since then.</ab>
+<ab rend="indent">I’m very glad indeed that it’s been arranged for me to work here quietly for a while, I hope to make as many studies as I possibly can, for that’s the seed from which later drawings will grow.</ab>
+<ab rend="indent">Do write to me from time to time and keep me informed, if possible, of one thing and another that strikes you, and think of me if you happen to hear of a position for a draughtsman somewhere or other.</ab>
+<ab rend="indent">And now it’s time for the post, I’ll keep you informed of what I’m doing, and you must also tell me from time to time what you would advise me, by preference, to draw and to look out for. Sometimes I’ll find it useful, sometimes perhaps not, but don’t hesitate to tell me one thing and another, I’ll do the same to you, and then we must both try to separate the wheat from the chaff.</ab>
+<ab rend="indent">Adieu, with a handshake in thought.</ab>
+<vg:whiteline/>
+<ab>Vincent</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>Theo turned 24 on 1 May 1881.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>During the Easter holidays, when both Vincent and Theo were in Etten (cf. <ref target="let165.xml">letter 165</ref>), the family must have decided that Vincent should settle in Etten. In the intervening two weeks he had been in Brussels.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+    <ab>For the prints after <rs type="pers" key="1226">Millet</rs> which Van Gogh copied, <ref target="let156.xml#n-1">see letter 156, nn. 1,</ref>
+                        <ref target="let156.xml#n-3">3</ref> and <ref target="let156.xml#n-5">5.</ref> The finished version after <hi rend="ital">The sower</hi> is presumably <hi rend="ital">Sower (after Millet) </hi>(<rs type="ill" key="2334">F 830 / JH 1</rs>). See Heenk 1995, pp. 29-30, and cat. Amsterdam 1996, pp. 79-82, cat. no. 16.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>This exhibition was the 21st annual exhibition of the Société Royale Belge des Aquarellistes (Belgian Royal Society of Watercolourists), which was held in the Palais des Beaux-Arts in Brussels. See exhib. cat. Brussels 1881.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>The catalogue lists the following watercolours by <rs type="pers" key="323">Anton Mauve</rs>: <rs type="otherart" key="156">
+                            <hi rend="ital">Le chariot à bois</hi>
+                        </rs> (The wood-cart), <rs type="otherart" key="157">
+                            <hi rend="ital">Petit chariot à bois</hi>
+                        </rs> (Small wood-cart), <rs type="otherart" key="158">
+                            <hi rend="ital">Le chargement du bois</hi>
+                        </rs> (Loading wood ) and <rs type="otherart" key="159">
+                            <hi rend="ital">Le jardinier</hi>
+                        </rs> (The gardener) (cat. nos. 126-129). The titles explain why Van Gogh called them ‘Woodcutters’.</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>The catalogue mentions the watercolour <rs type="otherart" key="160">
+                            <hi rend="ital">Dans les dunes</hi>
+                        </rs> (In the dunes) by <rs type="pers" key="1203">Jacob Maris</rs> (cat. no. 121). This perhaps refers to <rs type="otherart" key="161">
+                            <hi rend="ital">Young couple in the dunes</hi>
+                        </rs> (Edinburgh, National Galleries of Scotland) or to <rs type="otherart" key="162">
+                            <hi rend="ital">Dune landscape</hi>
+                        </rs> (Amsterdam, Rijksprentenkabinet). Cf. exhib. cat. Haarlem 2003, pp. 126, 135, cat. nos. 31, 40.</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>Van Gogh must be referring to the landscape painter <rs type="pers" key="1859">Adriaen van de Velde</rs>, by whom paintings were to be seen in both Amsterdam and London. The comparison of <rs type="pers" key="1203">Maris</rs>’s dunes with those of Van de Velde might have been prompted by Van Gogh’s acquaintance with (reproductions of) <rs type="otherart" key="163">
+                            <hi rend="ital">The beach at Scheveningen</hi>
+                        </rs>, 1658 (Kassel, Staatliche Kunstsammlungen) and the version of this from 1660 in the Royal Collection. Maris’s work was often linked to that of <rs type="pers" key="1333">Ruisdael</rs>. Cf. exhib. cat. Haarlem 2003.</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>The catalogue lists the following watercolours by <rs type="pers" key="1443">J.H. Weissenbruch</rs>: <rs type="otherart" key="164">
+                            <hi rend="ital">Environs de Rotterdam</hi>
+                        </rs> (Environs of Rotterdam), <rs type="otherart" key="165">
+                            <hi rend="ital">Plage</hi>
+                        </rs> (Beach), <rs type="otherart" key="166">
+                            <hi rend="ital">Dans le jardin fruitier</hi>
+                        </rs> (In the orchard), <rs type="otherart" key="167">
+                            <hi rend="ital">Dans le polder</hi>
+                        </rs> (In the polder) and <rs type="otherart" key="168">
+                            <hi rend="ital">Environs de Schiedam</hi>
+                        </rs>, (Environs of Schiedam) (cat. nos. 257-261).</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>The catalogue lists only <hi rend="ital">four</hi> watercolours by <rs type="pers" key="1318">W. Roelofs</rs>: <rs type="otherart" key="169">
+                            <hi rend="ital">Le chemin du village</hi>
+                        </rs> (The village lane), <rs type="otherart" key="170">
+                            <hi rend="ital">Ferme au bord de l’eau</hi>
+                        </rs> (Farm at the waterside), <rs type="otherart" key="171">
+                            <hi rend="ital">Ferme sous des arbres</hi>
+                        </rs> (Farm beneath the trees) and <rs type="otherart" key="172">
+                            <hi rend="ital">Les pies</hi>
+                        </rs> (Magpies) (cat. nos. 170-173).</ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>The catalogue lists the following watercolours by <rs type="pers" key="1034">Constant Gabriël</rs>: <rs type="otherart" key="173">
+                            <hi rend="ital">Matin</hi>
+                        </rs> (Morning), <rs type="otherart" key="174">
+                            <hi rend="ital">Dans les tourbières</hi>
+                        </rs> (In the peat) and <rs type="otherart" key="175">
+                            <hi rend="ital">Environs de Schiedam</hi>
+                        </rs> (Environs of Schiedam) (cat. nos. 76-78).</ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>The catalogue lists two watercolours by <rs type="pers" key="1342">Julius Jacobus van de Sande Bakhuyzen</rs>: <rs type="otherart" key="176">
+                            <hi rend="ital">Paysage d’automne</hi>
+                        </rs> (Autumnal landscape)<hi rend="ital"> </hi>and <rs type="otherart" key="177">
+                            <hi rend="ital">Scheveningue</hi>
+                        </rs> (Scheveningen) (cat. nos. 235-236). It is less likely that Van Gogh is referring to <hi rend="ital">L’automne </hi>(Autumn) and <hi rend="ital">Roses</hi> (Roses) (cat. nos. 233-234) by <rs type="pers" key="1343">Gerardina Jacoba van de Sande Bakhuyzen</rs>, a sister of Julius and less known.</ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+<ab>The catalogue lists two watercolours by <rs type="pers" key="1404">Hendrik Valkenburg</rs>: <rs type="otherart" key="178">
+                            <hi rend="ital">Paysage de Twent</hi>
+                        </rs> (Twente landscape) and <rs type="otherart" key="179">
+                            <hi rend="ital">Femme lisant</hi>
+                        </rs> (Woman reading) (cat. nos. 220-221).</ab>
+                </note>
+<note n="13" xml:id="n-13" target="#note-t-13">
+<ab>The catalogue mentions the watercolour <rs type="otherart" key="180">
+                            <hi rend="ital">La grand’ mère; intérieur dans le Gooiland (au nord d’Utrecht)</hi>
+                        </rs> (The grandmother; interior in the Gooi (to the north of Utrecht)) by <rs type="pers" key="1390">Hendrik Albert van Trigt</rs> (cat. no. 245).</ab>
+                </note>
+<note n="14" xml:id="n-14" target="#note-t-14">
+<ab>The catalogue lists the following watercolours by <rs type="pers" key="1384">Pieter Stortenbeker</rs>: <rs type="otherart" key="181">
+                            <hi rend="ital">Un verger</hi>
+                        </rs> (An orchard), <rs type="otherart" key="182">
+                            <hi rend="ital">Saules</hi>
+                        </rs> (Willows), <rs type="otherart" key="183">
+                            <hi rend="ital">Paysage</hi>
+                        </rs> (Landscape), <rs type="otherart" key="181">
+                            <hi rend="ital">Un verger</hi>
+                        </rs> (An orchard) and <rs type="otherart" key="184">
+                            <hi rend="ital">Pâturage en Hollande</hi>
+                        </rs> (Pasture in Holland) (cat. nos. 198-202).</ab>
+                </note>
+<note n="15" xml:id="n-15" target="#note-t-15">
+<ab>The catalogue lists the following watercolours by <rs type="pers" key="1410">Johannes Gijsbert Vogel</rs>: <rs type="otherart" key="185">
+                            <hi rend="ital">Paysage hollandais</hi>
+                        </rs> (Dutch landscape), <rs type="otherart" key="186">
+                            <hi rend="ital">Paysage boisé; après-midi</hi>
+                        </rs> (Wooded landscape; afternoon), <rs type="otherart" key="187">
+                            <hi rend="ital">Paysage aux environs de Sliedrecht (Hollande)</hi>
+                        </rs> (Landscape near Sliedrecht (Holland)), <rs type="otherart" key="188">
+                            <hi rend="ital">Scheveningue; vue prise du côté de Zorgvliet</hi>
+                        </rs> (Scheveningen; view near Zorgvliet) and <rs type="otherart" key="189">
+                            <hi rend="ital">Paysage</hi>
+                        </rs> (Landscape) (cat. nos. 252-256).</ab>
+                </note>
+<note n="16" xml:id="n-16" target="#note-t-16">
+<ab>Artists from Belgium, Italy, Germany, England, France, Austria and Switzerland participated in the exhibition.</ab>
+                </note>
+<note n="17" xml:id="n-17" target="#note-t-17">
+<ab>The catalogue mentions the watercolour <hi rend="ital">Arrivée tardive; crépuscule </hi>(Late arrival; dusk) by <rs type="pers" key="1218">Hendrik Willem Mesdag</rs> (cat. no. 134). This is the watercolour <hi rend="ital">Fishing boat and horseman</hi>, which measures 58 x 47 cm (private collection). <rs type="ill" key="1140">Ill. 1140</rs>. See Poort 1989-1995, <hi rend="ital">Supplement</hi>, p. 122.</ab>
+                </note>
+<note n="18" xml:id="n-18" target="#note-t-18">
+<ab>The catalogue lists the following watercolours by <rs type="pers" key="1212">François Pieter ter Meulen</rs>: <rs type="otherart" key="190">
+                            <hi rend="ital">Moutons quittant la bergerie</hi>
+                        </rs> (Sheep leaving the fold) and <rs type="otherart" key="191">
+                            <hi rend="ital">Vers le soir</hi>
+                        </rs> (Towards evening) (cat. nos. 205-206).</ab>
+                </note>
+<note n="19" xml:id="n-19" target="#note-t-19">
+<ab>Until 1860 <rs type="pers" key="1212">Ter Meulen</rs> received painting lessons from <rs type="pers" key="1344">Hendrikus van de Sande Bakhuyzen</rs> and after 1871 from his son <rs type="pers" key="1342">Julius</rs>. While working in The Hague, Van Gogh must have seen Ter Meulen in Van de Sande Bakhuyzen’s studio, which was in an outbuilding behind his house at Nieuwe Haven 240. See exhib. cat. The Hague 1997 and Van der Lubbe 1999.</ab>
+                </note>
+<note n="20" xml:id="n-20" target="#note-t-20">
+<ab>This probably refers to the watercolour <rs type="otherart" key="192">
+                            <hi rend="ital">Paysan brabançon</hi>
+                        </rs> (Brabant peasant)<hi rend="ital"> </hi>(cat. no. 136) by <rs type="pers" key="1209">Constantin Meunier</rs>.</ab>
+                </note>
+    <note n="a" xml:id="n-a" target="#note-o-a">
+<ab>Van Gogh probably meant to write ‘Valet’ (servant, farmhand, stable boy) and not ‘varlet’.</ab>
+                </note>
+<note n="21" xml:id="n-21" target="#note-t-21">
+<ab>The last-mentioned is <rs type="pers" key="1209">Meunier</rs>’s watercolour <rs type="otherart" key="193">
+                            <hi rend="ital">Gamin d’usine</hi>
+                        </rs> (Factory boy), cat. no. 138. Since the other titles in the catalogue are <rs type="otherart" key="194">
+                            <hi rend="ital">A la foire</hi>
+                        </rs> (At the fair), <rs type="otherart" key="195">
+                            <hi rend="ital">Rêverie</hi>
+                        </rs> (Reverie) and <rs type="otherart" key="196">
+                            <hi rend="ital">Dans les dunes</hi>
+                        </rs> (In the dunes) (cat. nos. 135, 137 and 139), there is a good chance that <hi rend="ital">Reverie</hi> depicts a stoker (‘chauffeur’). </ab>
+                </note>
+<note n="22" xml:id="n-22" target="#note-t-22">
+<ab>The catalogue mentions the series of watercolours <rs type="otherart" key="197">
+                            <hi rend="ital">Quatre cadres avec huit dessins. La vie du fameux pirate Claus Stortenbeker</hi>
+                        </rs> (Four pictures with eight drawings. The life of the famous pirate Claus Stortenbeker) by <rs type="pers" key="1320">Charles Rochussen</rs> (cat. nos. 166-169). Cf. Franken and Obreen 1894, pp. 132-133, cat. nos. 890-897.</ab>
+                </note>
+<note n="23" xml:id="n-23" target="#note-t-23">
+<ab>
+                        <rs type="pers" key="1306">Anthon van Rappard</rs> finally left on 10 May. See exhib. cat. Amsterdam 1974, p. 11.</ab>
+                </note>
+<note n="24" xml:id="n-24" target="#note-t-24">
+<ab>Starting in October 1879, <rs type="pers" key="1306">Van Rappard</rs> spent six months in Paris, where he attended the academic lessons given in the studio of <rs type="pers" key="1044">Jean Léon Gérôme</rs>. This period in Paris ended in disappointment. See exhib. cat. Amsterdam 1974, pp. 15-16.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

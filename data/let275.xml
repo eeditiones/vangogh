@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Anthon van Rappard. The Hague, between about Tuesday, 24 and about Friday, 27 October 1882.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let275"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">275</idno>
+<idno type="collectedletters">R28</idno>
+<idno type="brieven1990">275</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Anthon van Rappard</vg:addressee>
+                        <vg:placeLet>The Hague</vg:placeLet>
+                        <vg:dateLet>between about Tuesday, 24 and about Friday, 27 October 1882</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Anthon van Rappard. The Hague, between about Tuesday, 24 and about Friday, 27 October 1882.</p>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. nos. b8361 a-b V/2006</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>In <ref target="let277.xml">letter 277</ref>, of Sunday, 29 October, Van Gogh writes: ‘This week I received a letter from Rappard’ <ref target="#l-29">(l. 29)</ref>. The present letter must have been an immediate response to that one from Van Rappard: Van Gogh had received the letter ‘just now’ <ref target="#l-2">(l. 2)</ref>. If he had received it on Saturday Van Gogh would have said ‘yesterday’ in his letter to Theo, so it probably came a little earlier. But since we cannot know this for sure, we take on or about Friday, 27 October 1882 to be the <hi rend="ital">terminus post quem</hi>. Based on the words ‘this week’, the earliest date would seem to be Monday, 23 October, but we assume that Van Rappard’s question about ‘the monogram FD’ (see <ref target="#l-88">l. 88</ref>) refers to <ref target="let273.xml">letter 273</ref> with the list of monograms, which dates from on or about 22 October, so that the letter from Van Rappard probably dates from a little later in the week. The exact date cannot be established, so we give on or about 24 October 1882 as the earliest possible date. </p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 8361 a" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001001610_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001001610_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001001610_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001001610_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001610_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001610_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="VGM001001610_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001610_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001610_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 8361 a" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001001610_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001001610_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001001610_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001001610_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001610_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001610_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001001610_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001610_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001610_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 8361 b" xml:id="surf-pb-2r">
+            <graphic mimeType="image/tiff" url="VGM001001611_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-2r-5">
+<graphic mimeType="image/tiff" url="VGM001001611_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001611_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001611_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+        <surface n="b 8361b V/2006" xml:id="surf-extra-2v">
+            <graphic mimeType="image/tiff" url="VGM001001611_02.TIF" rend="norend"/>
+            <zone xml:id="zone-extra-1">
+<graphic mimeType="image/tiff" url="VGM001001611_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001611_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001611_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Amice Rappard.</ab>
+                <lb n="2" xml:id="l-2"/>
+<ab>Uw schrijven ontvang ik daareven, &amp; is juist zoo als ik het <lb n="3" xml:id="l-3"/>bedoelde. Nu weet ik zoo ten naasten bij een &amp; ander en <lb n="4" xml:id="l-4"/>bij gelegenheid kan ik er op werken er iets bij te vinden.<anchor n="1" xml:id="note-o-1"/>
+                </ab>
+                <lb n="5" xml:id="l-5"/>
+<ab rend="indent">Vooreerst – That beautiful wretch<anchor n="2" xml:id="note-o-2"/> – heb ik NIET <lb n="6" xml:id="l-6"/>&amp; is zeker zeer mooi en wil ik zoo mogelijk bijzonder <lb n="7" xml:id="l-7"/>graag hebben. Het Holiday N<hi rend="ss">o</hi> <hi rend="ital">82</hi> waarin ook <lb n="8" xml:id="l-8"/>van Caton Woodville<c type="kk">/</c> Knowles<anchor n="3" xml:id="note-o-3"/> &amp;c. zeer mooie illustraties <lb n="9" xml:id="l-9"/>zijn<c type="kk">/</c>
+                    <anchor n="4" xml:id="note-o-4"/> zend ik U heden of morgen.</ab>
+                <lb n="10" xml:id="l-10"/>
+<ab rend="indent">Benevens de volgende bladen.</ab>
+<vg:whiteline/>
+                <lb n="11" xml:id="l-11"/>
+<ab rend="html" html="275_01_ol.html">Lerolle.   Au bord de la rivière<anchor n="5" xml:id="note-o-5"/>
+                </ab>
+                <lb n="12" xml:id="l-12"/>
+<ab rend="html" html="275_01_ol.html">Small.   In the park.<anchor n="6" xml:id="note-o-6"/> Spectators of cricket match.<anchor n="7" xml:id="note-o-7"/>
+                </ab>
+                <lb n="13" xml:id="l-13"/>
+<ab rend="html" html="275_01_ol.html">Robinson  The Rescue<anchor n="8" xml:id="note-o-8"/>
+                </ab>
+                <lb n="14" xml:id="l-14"/>
+<ab rend="html" html="275_01_ol.html">Robertson  X<hi rend="ss">mas</hi> on the wave.<anchor n="9" xml:id="note-o-9"/>
+                </ab>
+                <lb n="15" xml:id="l-15"/>
+<ab rend="html" html="275_01_ol.html">Renouf   Un coup de main<anchor n="10" xml:id="note-o-10"/>
+                </ab>
+                <lb n="16" xml:id="l-16"/>
+<ab rend="html" html="275_01_ol.html">  Portrait of Washington.<anchor n="11" xml:id="note-o-11"/> Zeer mooi<c type="kp">_</c>
+                </ab>
+                <lb n="17" xml:id="l-17"/>
+<ab rend="html" html="275_01_ol.html">Overend  Hopes &amp; fears.<anchor n="12" xml:id="note-o-12"/>
+                </ab>
+                <lb n="18" xml:id="l-18"/>
+<ab rend="html" html="275_01_ol.html">Morris   The mowers.<anchor n="13" xml:id="note-o-13"/>
+                </ab>
+                <lb n="19" xml:id="l-19"/>
+<ab rend="html" html="275_01_ol.html">Koch   Verbrecherspelunke.<anchor n="14" xml:id="note-o-14"/>
+                </ab>
+                <lb n="32" xml:id="l-32"/>
+<ab rend="html" html="275_01_ol.html">Koch   Rudder regatta.<anchor n="15" xml:id="note-o-15"/>
+                </ab>
+                <lb n="20" xml:id="l-20"/>
+<ab rend="html" html="275_01_ol.html">Meyerheim  Affenakademie<anchor n="16" xml:id="note-o-16"/>
+                </ab>
+                <lb n="21" xml:id="l-21"/>
+<ab rend="html" html="275_01_ol.html">Knaus   Schweinchen.<anchor n="17" xml:id="note-o-17"/>
+                </ab>
+                <lb n="22" xml:id="l-22"/>
+<ab rend="html" html="275_01_ol.html">Frank Hol.  Home again<anchor n="18" xml:id="note-o-18"/>
+                </ab>
+                <lb n="23" xml:id="l-23"/>
+<ab rend="html" html="275_01_ol.html">Rochussen.  In het duin<anchor n="19" xml:id="note-o-19"/>
+                </ab>
+                <lb n="24" xml:id="l-24"/>
+<ab rend="html" html="275_01_ol.html">Edelfelt  Chez l’artiste<anchor n="20" xml:id="note-o-20"/>
+                </ab>
+                <lb n="25" xml:id="l-25"/>
+<ab rend="html" html="275_01_ol.html">–   a merry X<hi rend="ss">mas</hi>
+                    <anchor n="21" xml:id="note-o-21"/>
+                </ab>
+                <lb n="26" xml:id="l-26"/>
+<ab rend="html" html="275_01_ol.html">Emslie   nearing home.<anchor n="22" xml:id="note-o-22"/>
+                </ab>
+                <lb n="27" xml:id="l-27"/>
+<ab rend="html" html="275_01_ol.html">Vierge   Exposition de l’Electricité<anchor n="23" xml:id="note-o-23"/>
+                </ab>
+                <lb n="28" xml:id="l-28"/>
+<ab rend="html" html="275_01_ol.html">Kaufmann  Maison d’ecole de Wissembourg<anchor n="24" xml:id="note-o-24"/>
+                </ab>
+                <lb n="29" xml:id="l-29"/>
+<ab rend="html" html="275_01_ol.html">Heywood Hardy the village doctor.<anchor n="25" xml:id="note-o-25"/>
+                </ab>
+                <lb n="30" xml:id="l-30"/>
+<ab rend="html" html="275_01_ol.html">?   Xmas hymn.<anchor n="26" xml:id="note-o-26"/>
+                </ab>
+                <lb n="31" xml:id="l-31"/>
+<ab rend="html" html="275_01_ol.html">Overend  Dans la serre.<anchor n="27" xml:id="note-o-27"/>
+                </ab>
+<vg:whiteline/>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="33" xml:id="l-33"/>
+<ab>Ge hebt net twee<c type="kk">/</c> drie Frank Hol’s die ik mis maar <lb n="34" xml:id="l-34"/>wat is die van de twee lui in den wagon<anchor n="28" xml:id="note-o-28"/> mooi <lb n="35" xml:id="l-35"/>en de andere ook en Bereaved<anchor n="29" xml:id="note-o-29"/> ook. ik ken ze zeer goed.</ab>
+                <lb n="36" xml:id="l-36"/>
+<ab rend="indent">Die welke ik U stuur vult geloof ik de Summoned for <lb n="37" xml:id="l-37"/>active service<anchor n="30" xml:id="note-o-30"/> aan<c type="kk">/</c> daar het is Home again.<anchor n="31" xml:id="note-o-31"/> <lb n="38" xml:id="l-38"/>Ik heb niet die van Hopkins die gij hebt<c type="kk">/</c> wel <lb n="39" xml:id="l-39"/>anderen (fancy ball<anchor n="32" xml:id="note-o-32"/> &amp; charité)<c type="kp">_</c>
+                    <anchor n="33" xml:id="note-o-33"/>
+                </ab>
+                <lb n="40" xml:id="l-40"/>
+<ab rend="indent">Wat mij zeer interesseert is <hi rend="ital">Bückmann</hi>
+                    <c type="kk">/</c>
+                    <hi rend="ital"> Vor</hi> <lb n="41" xml:id="l-41"/>
+                    <hi rend="ital">dem Asylhause </hi>– is die uit een <lb n="42" xml:id="l-42"/>tijdschrift van ’t loopende jaar<c type="kk">/</c> wil me <lb n="43" xml:id="l-43"/>opgeven in welk dan zal ik het bestellen, ik weet niet wat het is doch <lb n="44" xml:id="l-44"/>ik ken zijn werk en vindt het prachtig – dit sujet <lb n="45" xml:id="l-45"/>zal hij dunkt me buitengewoon mooi hebben opgevat.<anchor n="34" xml:id="note-o-34"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="46" xml:id="l-46"/>
+    <ab rend="html" html="275_02_ol.html">Herkomer Schwierigkeiten<anchor n="35" xml:id="note-o-35"/> ken ik ook niet<c type="kp">_</c>
+                </ab>
+                <lb n="47" xml:id="l-47"/>
+    <ab rend="html" html="275_02_ol.html">Overend Gottesdienst Nordpool<anchor n="36" xml:id="note-o-36"/> ,, ,,<c type="kp">_</c>
+                </ab>
+                <lb n="48" xml:id="l-48"/>
+    <ab rend="html" html="275_02_ol.html">Morin<c type="kk">/</c> Regamey<c type="kk">/</c>
+                    <anchor n="37" xml:id="note-o-37"/> Boulanger<c type="kk">/</c>
+                    <anchor n="38" xml:id="note-o-38"/> op ’t laatste lijstje van U<c type="kk">/</c> ook niet<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="49" xml:id="l-49"/>
+<ab>Indien de roeiwedstrijd waarvan ge den teekenaar <lb n="50" xml:id="l-50"/>niet kent er een is met op den voorgrond een <lb n="51" xml:id="l-51"/>stuk boot waarin eene dame in ’t zwart<c type="kk">/</c> eene dame in ’t wit <lb n="52" xml:id="l-52"/>en een hond<c type="kk">/</c> zoo is die van niemand anders dan <lb n="53" xml:id="l-53"/>van <hi rend="ital">Paul Renouard</hi>.<anchor n="39" xml:id="note-o-39"/>
+                </ab>
+                <lb n="54" xml:id="l-54"/>
+<ab rend="indent">Ik heb nu ook nog voor U een prachtig ding <lb n="55" xml:id="l-55"/>van <hi rend="ital">Dagnan</hi>, Un charmeur au Jardin des Tuilleries<c type="kk">/</c>
+                    <anchor n="40" xml:id="note-o-40"/> <lb n="56" xml:id="l-56"/>en een van <hi rend="ital">Montbard</hi>
+                    <c type="kk">/</c> <hi rend="ital">Mendiants Arabes</hi>
+                    <c type="kp">_</c>
+                    <anchor n="41" xml:id="note-o-41"/> <lb n="57" xml:id="l-57"/>Welke twee ietwat gescheurd zijn geweest doch die ik <lb n="58" xml:id="l-58"/>heb gerestaureerd en opgezet<c type="kk">/</c> ze zijn beiden zeer <lb n="59" xml:id="l-59"/>groot en ik zend ze nu niet daar ’t pak zoo <lb n="60" xml:id="l-60"/>groot zou worden als ik ze plat zond want gevouwen kunnen <lb n="61" xml:id="l-61"/>ze nu niet meer worden.</ab>
+                <lb n="62" xml:id="l-62"/>
+<ab rend="indent">Bij gelegenheid als ge vroeger of later eens komt<c type="kk">/</c> zoudt <lb n="63" xml:id="l-63"/>ge ze kunnen meenemen als dezen zomer.</ab>
+                <lb n="64" xml:id="l-64"/>
+<ab rend="indent">Daar het echter franschen zijn zoo hebt ge ze misschien <lb n="65" xml:id="l-65"/>reeds<c type="kk">/</c> is dit ’t geval dan houd ik ze. Ze zijn beiden <lb n="66" xml:id="l-66"/>bijzonder mooi<c type="kk">/</c> doe me ’t weten als ge ze niet hebt dan houd ik ze <lb n="66a" xml:id="l-66a"/>voor U apart.</ab>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                <lb n="67" xml:id="l-67"/>
+<ab rend="indent">Ik heb toch nog eens gedacht over Uw scrupule <lb n="68" xml:id="l-68"/>om die ik zond aan te nemen<c type="kk">/</c> en ofschoon ik <lb n="69" xml:id="l-69"/>Uw gevoelen respecteer zoo geloof ik toch dat ge <lb n="70" xml:id="l-70"/>het niet als een goedheid van me moet beschouwen <lb n="71" xml:id="l-71"/>maar als iets natuurlijks. om deze reden<c type="kp">_</c>
+                </ab>
+                <lb n="72" xml:id="l-72"/>
+<ab rend="indent">Ik hoop ge er niet op tegen hebt ik U als een <lb n="73" xml:id="l-73"/>vriend beschouw en gij zult van Uw kant mij ook <lb n="74" xml:id="l-74"/>wel als zoodanig beschouwen. En ik voor mij <lb n="75" xml:id="l-75"/>geloof dat ge ’t met mij eens zult zijn als <lb n="76" xml:id="l-76"/>ik eene vriendschap beschouw als moetende zijn een <hi rend="ital">actie</hi> vooral<c type="kk">/</c> <lb n="77" xml:id="l-77"/>niet een <hi rend="ital">gevoelen</hi> alleen.</ab>
+                <lb n="78" xml:id="l-78"/>
+<ab rend="indent">Gevolgelijk is ’t zeer natuurlijk ik er vanzelf <lb n="79" xml:id="l-79"/>toe kwam ik een &amp; ander wat ik dubbel had &amp; <lb n="80" xml:id="l-80"/>gij nog niet hadt voor U destineerde.</ab>
+                <lb n="81" xml:id="l-81"/>
+<ab rend="indent">Gij van Uw kant<c type="kk">/</c> b.v. te Brussel<c type="kk">/</c> hebt mij ook <lb n="82" xml:id="l-82"/>toen pleizier gedaan met dat ik van Uw atelier <lb n="83" xml:id="l-83"/>geprofiteerd heb toen ik er nog geen had enz.<anchor n="42" xml:id="note-o-42"/>
+                </ab>
+                <lb n="84" xml:id="l-84"/>
+<ab rend="indent">Ge schrijft van Montbard hebt ge <hi rend="ital">7</hi> maanden, <lb n="85" xml:id="l-85"/>als ik weet welke, kan ik misschien completeeren.<anchor n="43" xml:id="note-o-43"/> <lb n="86" xml:id="l-86"/>Ik zie ik heb ook nog twee mooie Stanilands<anchor n="44" xml:id="note-o-44"/> <lb n="87" xml:id="l-87"/>die ik bijvoeg, en een van Dollmann.<anchor n="45" xml:id="note-o-45"/>
+                </ab>
+                <lb n="88" xml:id="l-88"/>
+<ab rend="indent">Het monogram FD<anchor n="46" xml:id="note-o-46"/> of wat dan ook zou ik moeten <lb n="89" xml:id="l-89"/>zien om te bepalen of ik ’t al dan niet kan ontcijferen <lb n="90" xml:id="l-90"/>aan de manier van doen<c type="kp">_</c> ’t Zou me niet <lb n="91" xml:id="l-91"/>verwonderen als ’t was <hi rend="ital">F<c type="kp">_</c> Dadd</hi>
+                    <c type="kp">_</c> <lb n="93" xml:id="l-93"/>Dan<c type="kk">/</c> ’t monogram dat onder de Arrival <lb n="94" xml:id="l-94"/>of the coach stond kan ik niet ontcijferen<c type="kk">/</c>
+                    <anchor n="47" xml:id="note-o-47"/> ik heb <lb n="95" xml:id="l-95"/>evenwel nog een schets gevonden uit Schotland waar <lb n="96" xml:id="l-96"/>’t ook onder stond, zalmvisschers.<anchor n="48" xml:id="note-o-48"/>
+                </ab>
+                <lb n="97" xml:id="l-97"/>
+<ab rend="indent">
+                    <hi rend="ital">Caton Woodville</hi> is fameus knap – <lb n="98" xml:id="l-98"/>dat zie ik meer &amp; meer – ik heb behalve <lb n="99" xml:id="l-99"/>die welke gij hebt<c type="kk">/</c> nightly visit<c type="kk">/</c>
+                    <anchor n="49" xml:id="note-o-49"/> nog meer groote dingen <lb n="100" xml:id="l-100"/>uit Ierland van hem,<anchor n="50" xml:id="note-o-50"/> die met anderen <lb n="101" xml:id="l-101"/>door <hi rend="ital">O’Kelly</hi>
+                    <anchor n="51" xml:id="note-o-51"/>en <hi rend="ital">Gregory</hi>
+                    <anchor n="52" xml:id="note-o-52"/>
+                    <hi rend="ital"> </hi>&amp; <hi rend="ital">Dadd</hi>
+                    <anchor n="53" xml:id="note-o-53"/> eene <lb n="102" xml:id="l-102"/>serie vormen.</ab>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                <lb n="103" xml:id="l-103"/>
+<ab rend="indent">Nu – ik ben vandaag een bezoek gaan brengen aan <lb n="104" xml:id="l-104"/>de plaats waar de aschmannen het vuilnis &amp;c<c type="kp">_</c> <lb n="105" xml:id="l-105"/>heenbrengen<c type="kp">_</c>–<anchor n="54" xml:id="note-o-54"/> Sapperloot wat was dat prachtig <lb n="106" xml:id="l-106"/>– voor <hi rend="ital">Buckmann</hi> – b.v. Ik krijg <lb n="107" xml:id="l-107"/>morgen eenige interessante voorwerpen uit <lb n="108" xml:id="l-108"/>die mestvaalt – o<c type="kp">_</c>a<c type="kp">_</c> kapotte straatlantaarns <lb n="109" xml:id="l-109"/>ter bezigtiging – of te poseeren zoo als ge wilt, <lb n="110" xml:id="l-110"/>verroest en verwrongen – de aschman zal ze me meebrengen. <lb n="111" xml:id="l-111"/>Het was iets voor een sprookje van Andersen<c type="kk">/</c> <lb n="112" xml:id="l-112"/>die collectie afgedankte emmers, manden, ketels<c type="kk">/</c> <lb n="113" xml:id="l-113"/>soldatenmenageketeltjes<c type="kk">/</c> oliekannen<c type="kk">/</c> ijzerdraad<c type="kk">/</c> <lb n="114" xml:id="l-114"/>straatlantaarns<c type="kk">/</c> kagchelpijpen...<anchor n="55" xml:id="note-o-55"/>
+                </ab>
+                <lb n="115" xml:id="l-115"/>
+<ab rend="indent">Ik zal er van nacht wel van droomen maar <lb n="116" xml:id="l-116"/>vooral dezen winter er wel werken.</ab>
+                <lb n="117" xml:id="l-117"/>
+<ab rend="indent">Als ge ooit te s’Hage komt recommandeer ik <lb n="118" xml:id="l-118"/>mij zeer U eens op dit en een paar andere <lb n="119" xml:id="l-119"/>plekjes te mogen brengen die<c type="kk">/</c> ofschoon zoo <lb n="120" xml:id="l-120"/>onaanzienlijk mogelijk<c type="kk">/</c> voor een artist een paradijs <lb n="121" xml:id="l-121"/>zijn.</ab>
+                <lb n="122" xml:id="l-122"/>
+<ab rend="indent">En nu wacht een teekening al een tijd op me<c type="kk">/</c> <lb n="123" xml:id="l-123"/>waar ik noodzakelijk aan moet tijgen.</ab>
+                <lb n="124" xml:id="l-124"/>
+<ab rend="indent">Ge ontvangt dus dezer dagen weer <lb n="125" xml:id="l-125"/>eenige bladen. En is het gij dubbelen <lb n="126" xml:id="l-126"/>hebt dan weet ge ik ze erg graag heb.</ab>
+                <lb n="127" xml:id="l-127"/>
+<ab rend="indent">adieu – voorspoed met het werk – <lb n="128" xml:id="l-128"/>vindt ge ’t weer niet prachtig dezer dagen. <lb n="129" xml:id="l-129"/>echt “<hi rend="ital">chill october</hi>”.<anchor n="56" xml:id="note-o-56"/> <lb n="129a" xml:id="l-129a"/>wat is het slijk mooi <lb n="129b" xml:id="l-129b"/>en het verleppende gras.</ab>
+                <lb n="130" xml:id="l-130"/>
+<ab rend="indent">Met een handdruk in gedachten<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="131" xml:id="l-131"/>
+<ab>t. à t.</ab>
+                <lb n="132" xml:id="l-132"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+                <lb n="133" xml:id="l-133"/>
+<ab>Ge zoudt op mijn atelier heel <lb n="134" xml:id="l-134"/>wat veranderd vinden sedert <lb n="135" xml:id="l-135"/>dezen zomer – ik heb ’t veel <lb n="136" xml:id="l-136"/>ruimer en doelmatiger. en ik <lb n="137" xml:id="l-137"/>hoop het werk er niet minder op wordt. </ab>
+<vg:whiteline/>
+                <lb n="138" xml:id="l-138"/>
+<ab>f<c type="kp">_</c> 3.50 voor jaargang <lb n="139" xml:id="l-139"/>London News is als ’t een <lb n="140" xml:id="l-140"/>interessante oude is waar veel <lb n="141" xml:id="l-141"/>in staat misschien niet exorbitant <lb n="142" xml:id="l-142"/>maar alles hangt af van den inhoud <lb n="143" xml:id="l-143"/>natuurlijk.<anchor n="57" xml:id="note-o-57"/>
+                </ab>
+<vg:whiteline/>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+                <lb n="144" xml:id="l-144"/>
+<ab>Herinnert ge U de établissements <lb n="145" xml:id="l-145"/>de bouillon te Brussel?– Er werd <lb n="146" xml:id="l-146"/>er o.a<c type="kp">_</c> een geopend van Royer<c type="kk">/</c>
+                    <anchor n="58" xml:id="note-o-58"/> <lb n="147" xml:id="l-147"/>digt bij ’t Hôtel de ville<c type="kk">/</c> toen dien winter en ik heb toen <lb n="148" xml:id="l-148"/>die opening gezien als wanneer <lb n="149" xml:id="l-149"/>er s’morgens vroeg kosteloos <lb n="150" xml:id="l-150"/>bouillon werd gegeven aan arme <lb n="151" xml:id="l-151"/>lui. Dit kwam mij dezer dagen <lb n="152" xml:id="l-152"/>in de gedachten en dat is de <lb n="153" xml:id="l-153"/>teekening waaraan ik op ’t moment <lb n="154" xml:id="l-154"/>werk.<anchor n="59" xml:id="note-o-59"/> Ik heb modellen gehad van <lb n="155" xml:id="l-155"/>de Geest hier – een straat die mijns inziens <lb n="156" xml:id="l-156"/>veel overeenkomst heeft b.v. met de <lb n="157" xml:id="l-157"/>Rue Haute of Rue Blaes in ’t Brusselsche <lb n="158" xml:id="l-158"/>Walenkwartier.<anchor n="60" xml:id="note-o-60"/> En dan<c type="kk">/</c> natuurlijkerwijs <lb n="159" xml:id="l-159"/>wat ik zoek is wel zeer zeker de juiste typen <lb n="160" xml:id="l-160"/>doch nog veel meer het sentiment van ’t geheel. <lb n="161" xml:id="l-161"/>Of nu een Bouillon gratuit gelegenheid <lb n="162" xml:id="l-162"/>zij te Brussel<c type="kk">/</c> te London<c type="kk">/</c> te s’Hage<c type="kk">/</c> steeds <lb n="163" xml:id="l-163"/>is ’t karakter er van iets van dat wat <lb n="164" xml:id="l-164"/>zeker <hi rend="ital">Buckmann</hi> wel heeft in <lb n="165" xml:id="l-165"/>
+                    <hi rend="ital">Vor dem Asyl Hause</hi>. ’t figuur dat ik in vorig schrijven <lb n="166" xml:id="l-166"/>krabbelde is er o.a. een model voor.<anchor n="61" xml:id="note-o-61"/>
+                </ab>
+                <lb n="167" xml:id="l-167"/>
+<ab rend="indent">
+                    <hi rend="ital">Wat is Wyllie</hi>
+                    <c type="kk">/</c>
+                    <hi rend="ital"> funeral of the late Napoleon?</hi>
+                    <anchor n="62" xml:id="note-o-62"/>
+                </ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-79" n="79">kwam ik &lt; kwam U</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear friend <rs type="pers" key="1306">Rappard</rs>,</ab>
+<ab>I just received your letter and it’s precisely as I intended. Now I have a rough idea about this and that, and when an opportunity arises I can try to find something to add.<anchor n="1" xml:id="note-t-1"/>
+                </ab>
+<ab rend="indent">First of all — That beautiful wretch,<anchor n="2" xml:id="note-t-2"/> I do NOT have it and is surely very beautiful, and I’d be delighted to have it if possible. Today or tomorrow I’ll send you the Holiday No. <hi rend="ital">82</hi>,<hi rend="ital"> </hi>which has very beautiful illustrations by <rs type="pers" key="1454">Caton Woodville</rs>, <rs type="pers" key="1130">Knowles</rs>
+                    <anchor n="3" xml:id="note-t-3"/> &amp;c.<anchor n="4" xml:id="note-t-4"/> </ab>
+<ab rend="indent">Together with the following prints.</ab>
+                <vg:whiteline/>
+<ab rend="html" html="275_01_tr.html">
+                    <rs type="pers" key="1164">Lerolle</rs>   At the riverside<anchor n="5" xml:id="note-t-5"/>
+                </ab>
+<ab rend="html" html="275_01_tr.html">
+                    <rs type="pers" key="1359">Small</rs>    In the park.<anchor n="6" xml:id="note-t-6"/> Spectators of cricket match.<anchor n="7" xml:id="note-t-7"/>
+                </ab>
+<ab rend="html" html="275_01_tr.html">
+                    <rs type="pers" key="1311">Robinson</rs>   The rescue<anchor n="8" xml:id="note-t-8"/>
+                </ab>
+<ab rend="html" html="275_01_tr.html">
+                    <rs type="pers" key="1591">Robertson</rs>   Xmas on the Wave<anchor n="9" xml:id="note-t-9"/>
+                </ab>
+<ab rend="html" html="275_01_tr.html">
+                    <rs type="pers" key="1291">Renouf</rs>   A helping hand<anchor n="10" xml:id="note-t-10"/>
+                </ab>
+<ab rend="html" html="275_01_tr.html">   Portrait of Washington.<anchor n="11" xml:id="note-t-11"/> Very beautiful.</ab>
+<ab rend="html" html="275_01_tr.html">
+                    <rs type="pers" key="1259">Overend</rs>   Hopes and fears.<anchor n="12" xml:id="note-t-12"/>
+                </ab>
+<ab rend="html" html="275_01_tr.html">
+                    <rs type="pers" key="1235">Morris</rs>   The mowers.<anchor n="13" xml:id="note-t-13"/>
+                </ab>
+<ab rend="html" html="275_01_tr.html">
+                    <rs type="pers" key="1129">Koch</rs>    Den of thieves.<anchor n="14" xml:id="note-t-14"/>
+                </ab>
+<ab rend="html" html="275_01_tr.html">Koch    Rowing regatta.<anchor n="15" xml:id="note-t-15"/>
+                </ab>
+<ab rend="html" html="275_01_tr.html">
+                    <rs type="pers" key="1210">Meyerheim</rs>   Monkey academy<anchor n="16" xml:id="note-t-16"/>
+                </ab>
+<ab rend="html" html="275_01_tr.html">
+                    <rs type="pers" key="1131">Knaus</rs>    Piglets.<anchor n="17" xml:id="note-t-17"/>
+                </ab>
+<ab rend="html" html="275_01_tr.html">
+                    <rs type="pers" key="1089">Frank Holl</rs>    Home again<anchor n="18" xml:id="note-t-18"/>
+                </ab>
+<ab rend="html" html="275_01_tr.html">
+                    <rs type="pers" key="1320">Rochussen</rs>   In the dunes<anchor n="19" xml:id="note-t-19"/>
+                </ab>
+<ab rend="html" html="275_01_tr.html">
+                    <rs type="pers" key="1009">Edelfelt</rs>   At the artist’s<anchor n="20" xml:id="note-t-20"/>
+                </ab>
+<ab rend="html" html="275_01_tr.html">–    A merry Xmas<anchor n="21" xml:id="note-t-21"/>
+                </ab>
+<ab rend="html" html="275_01_tr.html">
+                    <rs type="pers" key="999">Emslie</rs>   Nearing home.<anchor n="22" xml:id="note-t-22"/>
+                </ab>
+<ab rend="html" html="275_01_tr.html">
+                    <rs type="pers" key="1499">Vierge</rs>    Exhibition of electricity<anchor n="23" xml:id="note-t-23"/>
+                </ab>
+<ab rend="html" html="275_01_tr.html">
+                    <rs type="pers" key="1136">Kauffmann</rs>   A school at Wissembourg<anchor n="24" xml:id="note-t-24"/>
+                </ab>
+<ab rend="html" html="275_01_tr.html">
+                    <rs type="pers" key="1067">Heywood Hardy</rs>  The village doctor.<anchor n="25" xml:id="note-t-25"/>
+                </ab>
+<ab rend="html" html="275_01_tr.html">?    Xmas hymn.<anchor n="26" xml:id="note-t-26"/>
+                </ab>
+<ab rend="html" html="275_01_tr.html">
+                    <rs type="pers" key="1259">Overend</rs>   In the conservatory.<anchor n="27" xml:id="note-t-27"/>
+                </ab>
+<vg:whiteline/>
+<ab>
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab>You have just two or three <rs type="pers" key="1089">Frank Holl</rs>s that I lack, but how beautiful the one with the two people in the wagon<anchor n="28" xml:id="note-t-28"/> is, and the other one too, and Bereaved<anchor n="29" xml:id="note-t-29"/> as well. I know them very well. </ab>
+<ab rend="indent">The one I’m sending you complements Summoned for active service,<anchor n="30" xml:id="note-t-30"/> I believe, since it’s Home again.<anchor n="31" xml:id="note-t-31"/> I don’t have the one by <rs type="pers" key="1092">Hopkins</rs> that you have, but I have others (Fancy ball<anchor n="32" xml:id="note-t-32"/> and Charity).<anchor n="33" xml:id="note-t-33"/>
+                </ab>
+<ab rend="indent">What greatly interests me is <hi rend="ital">
+                        <rs type="pers" key="907">Buckman</rs>, In front of the shelter</hi> — if it’s from a magazine from this year, let me know which and I’ll order it. I don’t know what it is, but I know his work and find it splendid — I imagine that his treatment of this subject is extraordinarily beautiful.<anchor n="34" xml:id="note-t-34"/>
+                </ab>
+<vg:whiteline/>
+    <ab rend="html" html="275_02_tr.html">
+                    <rs type="pers" key="1080">Herkomer</rs>, Hardships<anchor n="35" xml:id="note-t-35"/> is also unknown to me.</ab>
+    <ab rend="html" html="275_02_tr.html">
+                    <rs type="pers" key="1259">Overend</rs>, Divine Service North Pole<anchor n="36" xml:id="note-t-36"/>
+                </ab>
+    <ab rend="html" html="275_02_tr.html">
+                    <rs type="pers" key="1236">Morin</rs>, <rs type="pers" key="1301 1302">Régamey</rs>,<anchor n="37" xml:id="note-t-37"/> <rs type="pers" key="892">Boulanger</rs>
+                    <anchor n="38" xml:id="note-t-38"/> on your last list also.</ab>
+<vg:whiteline/>
+<ab>If the boat race by a draughtsman you don’t know is one with, in the foreground, a part of a boat in which there are a lady in black, a lady in white and a dog, then it’s by none other than <hi rend="ital">
+                        <rs type="pers" key="1292">Paul Renouard</rs>
+                    </hi>.<anchor n="39" xml:id="note-t-39"/>
+                </ab>
+<ab rend="indent">I also have for you a splendid thing by <hi rend="ital">
+                        <rs type="pers" key="959">Dagnan</rs>
+                    </hi>, A bird charmer in the Tuileries Gardens,<anchor n="40" xml:id="note-t-40"/> and one by <hi rend="ital">
+                        <rs type="pers" key="1170">Montbard</rs>, Arab beggars</hi>.<anchor n="41" xml:id="note-t-41"/> These two were slightly torn, but I’ve restored and mounted them. They’re both very large, and I’m not sending them now because the parcel would be so big if I sent them flat, for they can no longer be folded. </ab>
+<ab rend="indent">When there’s an opportunity next time you come here, at some point, you could take them with you like last summer. </ab>
+<ab rend="indent">But since they’re French, you may already have them. In that case, I’ll keep them. They’re both particularly beautiful. Let me know if you don’t have them and I’ll keep them apart for you. 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> </ab>
+<ab rend="indent">I’ve again given some thought to your scruples about accepting those I sent and, while I respect your feelings, I still believe you shouldn’t see it as a kindness by me but as something natural. For this reason.</ab>
+<ab rend="indent">I hope you have no objection to my regarding you as a friend, and you in turn will regard me in the same way. And for my part I believe that you’ll agree with me in regarding a friendship as having to be an <hi rend="ital">act</hi> above all, not just a <hi rend="ital">feeling</hi>. </ab>
+<ab rend="indent">Consequently, it’s entirely natural that, of my own accord, I reserved a few things for you that I had in duplicate and you didn’t yet have. </ab>
+<ab rend="indent">You, for your part, in Brussels for example, did me a favour when I was able to make use of your studio when I didn’t yet have one, and so on.<anchor n="42" xml:id="note-t-42"/>
+                </ab>
+<ab rend="indent">You write that you have <hi rend="ital">7</hi> months of <rs type="pers" key="1170">Montbard</rs>; if you let me know which I may be able to complete them.<anchor n="43" xml:id="note-t-43"/> I see that I also have two beautiful <rs type="pers" key="1364">Staniland</rs>s,<anchor n="44" xml:id="note-t-44"/> which I’m adding, and one by <rs type="pers" key="996">Dollmann</rs>.<anchor n="45" xml:id="note-t-45"/> </ab>
+<ab rend="indent">I would have to see the monogram FD<anchor n="46" xml:id="note-t-46"/> or whatever it is to see whether I could decipher it from the way it was done. It wouldn’t surprise me if it was <hi rend="ital">
+                        <rs type="pers" key="963">F. Dadd</rs>
+                    </hi>. Next, I can’t decipher the monogram under the Arrival of the coach.<anchor n="47" xml:id="note-t-47"/> But I’ve found another sketch from Scotland which also has it, Salmon fishers.<anchor n="48" xml:id="note-t-48"/>
+                </ab>
+<ab rend="indent">
+                    <hi rend="ital">
+                        <rs type="pers" key="1454">Caton Woodville</rs> </hi>is extraordinarily clever — I see that more and more — in addition to what you have, Nightly visit,<anchor n="49" xml:id="note-t-49"/> I have more large things from Ireland by him,<anchor n="50" xml:id="note-t-50"/> which form a series together with others by <hi rend="ital">
+                        <rs type="pers" key="1262">O’Kelly</rs>
+                    </hi>
+                    <anchor n="51" xml:id="note-t-51"/>
+                    <hi rend="ital"> </hi>and <hi rend="ital">
+                        <rs type="pers" key="1060">Gregory</rs>
+                    </hi>
+                    <anchor n="52" xml:id="note-t-52"/>
+                    <hi rend="ital"> </hi>and <hi rend="ital">
+                        <rs type="pers" key="963">Dadd</rs>
+                    </hi>.<anchor n="53" xml:id="note-t-53"/> 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> </ab>
+<ab rend="indent">Well, today I paid a visit to the place where the dustmen bring the rubbish &amp;c.<anchor n="54" xml:id="note-t-54"/> By Jove, how splendid that was — for <hi rend="ital">
+                        <rs type="pers" key="907">Buckman</rs>
+                    </hi>, for example. Tomorrow I’ll get some interesting objects from the rubbish dump, including broken lamp-posts, to view — or to pose if you like, rusting and twisted — the dustman is going to bring them. It was something out of a fairy tale by <rs type="pers" key="512">Andersen</rs>, that collection of discarded buckets, baskets, kettles, soldiers’ mess-tins, oil-cans, wire, lamp-posts, stovepipes...<anchor n="55" xml:id="note-t-55"/>
+                </ab>
+<ab rend="indent">I’ll no doubt dream of it tonight, but above all I’ll work there this winter.</ab>
+<ab rend="indent">If you ever come to The Hague, I would very much welcome taking you there and to a couple of other spots which, although as humble as could be, are a paradise for an artist. </ab>
+<ab rend="indent">And now a drawing has been waiting for me for some time and I really must set to work on it. </ab>
+<ab rend="indent">So you’ll shortly receive some more prints. And if you have any duplicates, you know I would be very pleased to have them.</ab>
+<ab rend="indent">Adieu — may your work prosper — don’t you think the weather is splendid these days? Really ‘<hi rend="ital">Chill October</hi>’.<anchor n="56" xml:id="note-t-56"/> How beautiful the mire is, and the withering grass.</ab>
+<ab rend="indent">With a handshake in thought.</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<ab>You would find a great deal changed in my studio since last summer — it’s much more roomy and efficient. And I hope the work is none the worse.</ab>
+<vg:whiteline/>
+<ab>3.50 guilders for a volume of the London News is perhaps not exorbitant if it’s an interesting old one with a lot in it, but everything depends on the contents of course.<anchor n="57" xml:id="note-t-57"/>
+                </ab>
+<vg:whiteline/>
+<ab>
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/>
+                </ab>
+<ab>Do you remember the soup kitchens in Brussels? Among others, <rs type="pers" key="193">Royer</rs> opened one<anchor n="58" xml:id="note-t-58"/> close to the town hall that winter and I saw the opening, when early in the morning soup was given free to poor folk. I remembered that lately, and this is the drawing I’m working on at the moment.<anchor n="59" xml:id="note-t-59"/> I’ve had models from Geest here — a street which in my view strongly resembles rue Haute or rue Blaes in the Walloon quarter of Brussels, for example.<anchor n="60" xml:id="note-t-60"/> And then what I’m looking for, of course, is certainly the right types, but much more than that the sentiment of the whole. Whether a free soup place is in Brussels, in London or in The Hague, its character is always rather like what <hi rend="ital">
+                        <rs type="pers" key="907">Buckman</rs>
+                    </hi> certainly has in <hi rend="ital">In front of the shelter</hi>. The figure I sketched in my last letter is, among other things, a model for that.<anchor n="61" xml:id="note-t-61"/>
+                </ab>
+<ab rend="indent">
+                    <hi rend="ital">What is <rs type="pers" key="1451">Wyllie</rs>, Funeral of the late Napoleon? </hi>
+                    <anchor n="62" xml:id="note-t-62"/>
+                </ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>As requested, <rs type="pers" key="1306">Van Rappard</rs> sent Van Gogh a list of (duplicate) prints; he would also have told him which illustrated magazines he subscribed to (cf. <ref target="#l-48">l. 48</ref> and <ref target="let267.xml">letters 267</ref> and <ref target="let268.xml">268</ref>).</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+      <ab>
+                        <rs type="pers" key="1306">Van Rappard</rs> must have written about the illustrated book <rs type="lit" key="267">
+                            <hi rend="ital">That beautiful wretch. A Brighton story</hi>
+                        </rs> by <rs type="pers" key="538">William Black</rs> (New York 1881). This light-hearted novel is set in middle-class circles in and around the resort of Brighton. Vivacious and intelligent Anne (Nan) Beresford falls in love with Lieutenant Frank King. At first she feels a strong urge to be independent, but in the end they marry. Van Gogh later mentions several prints from this book; <ref target="let311.xml#n-8">see letter 311, nn. 8</ref> and <ref target="let311.xml#n-9">9.</ref>
+                    </ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>Very probably the American artist <rs type="pers" key="1130">Davidson Knowles</rs>.</ab>
+                </note>
+      <note n="4" xml:id="n-4" target="#note-t-4">
+<ab>Van Gogh means the 48-page ‘Holiday Number’ of <hi rend="ital">The Illustrated London News</hi> which – according to an advertisement in the 24 June number (p. 606) – had appeared on 27 June 1882. It contains illustrations to the novel <rs type="lit" key="268">
+                            <hi rend="ital">They were married!</hi>
+                        </rs> by <rs type="pers" key="1698">Walter Besant</rs> and <rs type="pers" key="1744">James Rice</rs>, among them designs by <rs type="pers" key="1454">Richard Caton Woodville (<hi rend="sc">ii</hi>)</rs> – the picture on the cover, engraved by <rs type="pers" key="1582">William James Palmer</rs> (<rs type="ill" key="1961">Ill. 1961</rs>), also on p. 16 – and by <rs type="pers" key="1130">Davidson Knowles</rs>, such as <hi rend="ital">Maude and Virginie examining old prints at the towers</hi>, engraved by <rs type="pers" key="1505">Richard</rs> and <rs type="pers" key="1506">Edward Taylor</rs> (p. 28). <rs type="ill" key="1962">Ill. 1962</rs>. (Copy Amsterdam, Van Gogh Museum Library).</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>
+                        <rs type="pers" key="1164">Henry Lerolle</rs>, <hi rend="ital">Au bord de la rivière</hi> (At the riverside), engraved by <rs type="pers" key="1556">Jules Louis Laurent Langeval</rs>, in <hi rend="ital">Le Monde Illustré</hi> 25 (24 September 1881), p. 201. <rs type="ill" key="1049">Ill. 1049</rs>. The print was also included in <hi rend="ital">L’Univers Illustré</hi> 25 (20 May 1882), p. 313; Van Gogh may have had the engraving from this magazine, since he also had <rs type="otherart" key="410">
+                            <hi rend="ital">Une route à Hong Kong</hi>
+                        </rs> (A road in Hong Kong) by <rs type="pers" key="1720">Edward Hildebrandt</rs> from the issue of <hi rend="ital">L’Univers Illustré</hi> that preceded it (t*647).</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>
+                        <rs type="pers" key="1359">William Small</rs>, <hi rend="ital">In the park</hi> (source unknown– most probably <hi rend="ital">The Graphic</hi>). <rs type="ill" key="1963">Ill. 1963</rs>. (London, Witt Library).</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>
+                        <rs type="pers" key="1359">William Small</rs>, <hi rend="ital">‘An odd couple’ – The Eton and Harrow cricket match</hi>, in <hi rend="ital">The Graphic</hi> 12 (1875), Christmas number, p. 23. <rs type="ill" key="1964">Ill. 1964</rs>. It is an illustration for the story ‘An odd couple’ by Mrs. Oliphant.</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>
+                        <rs type="pers" key="1311">C. Robinson</rs>, <hi rend="ital">The romance of a rescue</hi>, engraved by <rs type="pers" key="1382">Joseph Swain</rs>, in <hi rend="ital">The Illustrated London News</hi> 65 (16 December 1874), Christmas number, p. 12. It is an illustration for the story ‘The romance of a rescue’ by W.W. Fenn. <rs type="ill" key="1283">Ill. 1283</rs> (t*409). The title could also refer to C. Robinson, <hi rend="ital">The Troedyrhiw colliery accident: Rescued!</hi>, in <hi rend="ital">The Illustrated London News</hi> 70 (28 April 1877), p. 385. <rs type="ill" key="1965">Ill. 1965</rs>. (t*686). The estate has one copy of each print. </ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>
+                        <rs type="pers" key="1307">Henry Robert Robertson</rs>, <hi rend="ital">Christmas on the “Wave”</hi>, in <hi rend="ital">The Illustrated London News</hi> 65 (16 December 1874), Christmas number, p. 17. <rs type="ill" key="1281">Ill. 1281</rs>.</ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>
+                        <rs type="pers" key="1291">Emile Renouf</rs>, <hi rend="ital">Un coup de main</hi> (A helping hand), engraved by <rs type="pers" key="1512">Charles Baude</rs>, in <hi rend="ital">Le Monde Illustré</hi> 25 (22 October 1881), p. 265. <rs type="ill" key="1265">Ill. 1265</rs>.</ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>Given that Van Gogh cites several prints from volume 24 of <hi rend="ital">L’Univers Illustré</hi>, among them <rs type="pers" key="1259">Overend</rs>’s <rs type="ill" key="1210">
+                            <hi rend="ital">Le thé dans la serre</hi>
+                        </rs> (<ref target="#n-27">see n. 27</ref> below), here he probably means the anonymous portrait engraving <hi rend="ital">George Washington, premier président des Étas-Unis d’Amérique</hi> (George Washington, first president of the United States of America) in <hi rend="ital">L’Univers Illustré</hi> 24 (8 October 1881), pp. 688-689. <rs type="ill" key="502">Ill. 502</rs>.</ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+<ab>
+                        <rs type="pers" key="1259">William Heysham Overend</rs>, <hi rend="ital">Hopes and fears</hi>, in <hi rend="ital">Harper’s Weekly</hi> 25 (‘for the week ending December 17’, 1881), ‘Extra supplement’, p. 860. <rs type="ill" key="1212">Ill. 1212</rs>.</ab>
+                </note>
+<note n="13" xml:id="n-13" target="#note-t-13">
+<ab>
+                        <rs type="pers" key="1235">Philip Richard Morris</rs>, <hi rend="ital">The mowers</hi>, in <hi rend="ital">The Graphic</hi> 12 (28 August 1875), p. 197. <rs type="ill" key="1182">Ill. 1182</rs>.</ab>
+                </note>
+<note n="14" xml:id="n-14" target="#note-t-14">
+<ab>In the estate there is the wood engraving <hi rend="ital">Berliner Bilder; Ueberrumpelung einer Verbrecherspelunke durch die Polizei </hi>(Scenes from Berlin; The police surprise a den of thieves), after a design by <rs type="pers" key="1129">Carl Koch</rs>, from <hi rend="ital">Illustrirte Zeitung</hi> 77 (24 September 1881), p. 259. <rs type="ill" key="1967">Ill. 1967</rs> (t*778). In volume 77 of this ‘Wöchentliche Nachrichten’, which covered science, business and theatre as well as art, there are four prints that Van Gogh mentions, three in this letter and one in <ref target="let311.xml">letter 311</ref>.</ab>
+                </note>
+<note n="15" xml:id="n-15" target="#note-t-15">
+<ab>
+                        <rs type="pers" key="1129">Carl Koch</rs>, <hi rend="ital">Berliner Bilder: Die Ruderregatta auf dem Langensee bei Grünau am 11. September</hi> (Scenes from Berlin; A rowing regatta on Langensee near Grünau on 11 September). In <hi rend="ital">Illustrirte Zeitung</hi> 77 (1 October 1881), p. 288. <rs type="ill" key="1966">Ill. 1966</rs>.</ab>
+                </note>
+<note n="16" xml:id="n-16" target="#note-t-16">
+<ab>
+                        <rs type="pers" key="1210">Paul Friedrich Meyerheim</rs>, <hi rend="ital">Affenakademie. Nach dem Gemälde von Paul Meyerheim auf Holz gezeichnet von R. Friese</hi> (Monkey Academy. After the painting by Paul Meyerheim, drawn on wood by <rs type="pers" key="1536">Richard Friese</rs>), in <hi rend="ital">Illustrirte Zeitung</hi> 77 (5 November 1881), p. 405. <rs type="ill" key="1153">Ill. 1153</rs>.</ab>
+                </note>
+<note n="17" xml:id="n-17" target="#note-t-17">
+<ab>
+                        <rs type="pers" key="1131">Ludwig Knaus</rs>, <hi rend="ital">Schweinchen. Gemälde von Ludwig Kraus. Nach einer Photographie aus dem Verlag von Fr. Hanfstängl in München</hi> (Piglets. Painting by Ludwig Kraus. After a photograph published by Franz Hanfstängl in Munich), in <hi rend="ital">Illustrirte Zeitung</hi> 77 (29 October 1881), p. 374. <rs type="ill" key="1014">Ill. 1014</rs>. The work was also known under the title <hi rend="ital">Les petits cochons</hi>; see the engraving by Th. Knesing in <hi rend="ital">Gazette des Beaux-Arts</hi> 25 (1882), 2nd series, p. 273.</ab>
+                </note>
+<note n="18" xml:id="n-18" target="#note-t-18">
+<ab>
+                        <rs type="pers" key="1089">Francis Montague Holl</rs>, <hi rend="ital">Home again</hi>, in <hi rend="ital">The Illustrated London News</hi> 79 (3 September 1881), ‘Extra supplement’, between pp. 236 and 237. <rs type="ill" key="945">Ill. 945</rs>. A print by <rs type="pers" key="1019">Eugène Fromentin</rs> appeared in <hi rend="ital">Harper’s Weekly</hi> 25 (‘for the week ending Sept. 3’, 1881), pp. 600-601.</ab>
+                </note>
+<note n="19" xml:id="n-19" target="#note-t-19">
+<ab>Possibly a print after the drawing <hi rend="ital">Dans les dunes de Scheveningen</hi> (In the dunes at Scheveningen) 1848 (present whereabouts unknown). See Franken and Obreen 1894, p. 19, cat. no. 107. Cf. also cat. nos. 104a-107a. It is also possible that this refers to <rs type="pers" key="1320">Rochussen</rs>’s lithograph ‘Een landschap met figuren’ (A landscape with figures) which had been in <hi rend="ital">Kunstkronijk</hi> 12 (1851), between pp. 8 and 9. <rs type="ill" key="1287">Ill. 1287</rs>.</ab>
+                </note>
+<note n="20" xml:id="n-20" target="#note-t-20">
+<ab>
+                        <rs type="pers" key="1009">Albert Gustaf Aristides Edelfelt</rs>, <hi rend="ital">Chez l’artiste</hi> (At the artist’s), engraved by <rs type="pers" key="1512">Charles Baude</rs> after the painting with the same title at the Salon of 1881, in <hi rend="ital">Le Monde Illustré</hi> 25 (17 September 1881), p. 181. <rs type="ill" key="90">Ill. 90</rs>.</ab>
+                </note>
+<note n="21" xml:id="n-21" target="#note-t-21">
+<ab>
+      <hi rend="ital">Merry Christmas</hi> is listed on the same line as the name <rs type="pers" key="1009">Edelfelt</rs>, but no work with this title has been found in his oeuvre. Van Gogh probably meant <rs type="pers" key="1297">Charles Stanley Reinhart</rs>, <hi rend="ital">“Merry Christmas to you, old barebones!”</hi>, engraved by <rs type="pers" key="1535">Frank French</rs>, in <hi rend="ital">Harper’s Weekly</hi> 26 (16 December 1882), pp. 800-801. <rs type="ill" key="1257">Ill. 1257</rs>. Moreover, the words ‘A Merry Christmas’ are found on <rs type="pers" key="1154">Francis Wilfred Lawson</rs>, <hi rend="ital">Children of the great city</hi>, in <hi rend="ital">The Graphic</hi> 15 (14 April 1877), p. 337; there is one copy of this in the estate. <rs type="ill" key="1968">Ill. 1968</rs>. (t*270).</ab>
+                </note>
+<note n="22" xml:id="n-22" target="#note-t-22">
+<ab>Alfred <rs type="pers" key="999">Edward Emslie</rs>, <hi rend="ital">In sight of home: Christmas morning</hi>, engraved by <rs type="pers" key="1537">Eugène Froment</rs>, in <hi rend="ital">The Illustrated London News </hi>77 (1880), Christmas Number, p. 12. <rs type="ill" key="813">Ill. 813</rs>.</ab>
+                </note>
+<note n="23" xml:id="n-23" target="#note-t-23">
+<ab>
+                        <rs type="pers" key="1499">Samuel Urrabieta Vierge</rs>, <hi rend="ital">Autour de l’exposition de l’électricité</hi> (Around the electricity exhibition) in <hi rend="ital">Le Monde Illustré</hi> 25 (22 October 1881), p. 269. <rs type="ill" key="1396">Ill. 1396</rs>. Samuel was a brother of <rs type="pers" key="1408">Daniel Urrabieta Vierge</rs>; he did a portrait of Daniel for <hi rend="ital">La Vie Moderne </hi>(<hi rend="ital">TB</hi>).</ab>
+                </note>
+<note n="24" xml:id="n-24" target="#note-t-24">
+<ab>
+                        <rs type="pers" key="1136">Paul Adolphe Kauffmann</rs>, <hi rend="ital">Les élections en Alsace-Lorraine – Maison d’école à Wissembourg pendant le scrutin</hi> (The elections in Alsace-Lorraine – School in Wissembourg during the count), in <hi rend="ital">Le Monde Illustré </hi>25 (5 November 1881), p. 301. <rs type="ill" key="1008">Ill. 1008</rs>.</ab>
+                </note>
+<note n="25" xml:id="n-25" target="#note-t-25">
+<ab>
+                        <rs type="pers" key="1067">Heywood Hardy</rs>, <hi rend="ital">Le medecin de campagne</hi> (The village doctor), in <hi rend="ital">L’Univers Illustré</hi> 24 (10 December 1881), p. 829. <rs type="ill" key="919">Ill. 919</rs>. The print may originally have been in <hi rend="ital">The Illustrated London News</hi>, because various prints went from there to <hi rend="ital">L’Univers Illustré</hi>. It is noteworthy that in the present letter Van Gogh refers to several other engravings from volume 24 of <hi rend="ital">L’Univers Illustré </hi>– in other words, he may have translated the title into English himself. </ab>
+                </note>
+<note n="26" xml:id="n-26" target="#note-t-26">
+<ab>The title <hi rend="ital">Christmas hymn</hi> is too general for the print to be identified. Cf. in this connection [Anonymous], <hi rend="ital">Christmas in Canada – Amateur carol singing at Longueuil on the St. Lawrence</hi>, in <hi rend="ital">The Graphic</hi> 14 (30 December 1876), p. 645.</ab>
+                </note>
+<note n="27" xml:id="n-27" target="#note-t-27">
+      <ab>
+                        <rs type="pers" key="1259">W.H. Overend</rs>, <hi rend="ital">Le thé dans la serre</hi> (Teatime in the conservatory), engraved by <rs type="pers" key="1582">William James  Palmer</rs>, in <hi rend="ital">L’Univers Illustré</hi> 24 (8 October 1881), p. 693. <rs type="ill" key="1210">Ill. 1210</rs>. The same print had also been in <hi rend="ital">The Illustrated London News</hi> 79 (20 August 1881), p. 165 under the title <hi rend="ital">Afternoon tea. </hi>
+                    </ab>
+                </note>
+<note n="28" xml:id="n-28" target="#note-t-28">
+<ab>
+                        <rs type="pers" key="1089">Francis Montague Holl</rs>, <hi rend="ital">Discipline and dissipation</hi>, in <hi rend="ital">The Graphic</hi> 19 (26 April 1879), pp. 416-417. <rs type="ill" key="1969">Ill. 1969</rs>.</ab>
+                </note>
+<note n="29" xml:id="n-29" target="#note-t-29">
+<ab>
+                        <rs type="pers" key="1089">Francis Montague Holl</rs>,<hi rend="ital">“Bereaved”</hi>, in <hi rend="ital">The Graphic </hi>25 (29 April 1882), Supplement, between pp. 436 and 437. Below it the following verse: ‘By hope unsoothed, by comfort unbeguiled, / The widowed mother mourneth o’er her child, / Talk not of joys the world may yet confer, / That tiny baby was all the world to her’. <rs type="ill" key="939">Ill. 939</rs>.</ab>
+                </note>
+<note n="30" xml:id="n-30" target="#note-t-30">
+<ab>
+                        <rs type="pers" key="1089">Francis Montague Holl</rs>,<hi rend="ital">“Summoned for active service”</hi>, in <hi rend="ital">The Graphic</hi> 19 (11 January 1879), pp. 32-33. <rs type="ill" key="952">Ill. 952</rs>.</ab>
+                </note>
+<note n="31" xml:id="n-31" target="#note-t-31">
+<ab>See for <rs type="ill" key="945">
+                            <hi rend="ital">Home again</hi>
+                        </rs>: <ref target="#n-18">n. 18</ref> above.</ab>
+                </note>
+<note n="32" xml:id="n-32" target="#note-t-32">
+<ab>
+                        <rs type="pers" key="1092">Arthur Hopkins</rs>, <hi rend="ital">A fancy ball on the ice</hi>, in <hi rend="ital">The Graphic</hi> 19 (8 March 1879), pp. 232-233. <rs type="ill" key="956">Ill. 956</rs>.</ab>
+                </note>
+<note n="33" xml:id="n-33" target="#note-t-33">
+<ab>
+                        <rs type="pers" key="1092">Arthur Hopkins</rs>, <hi rend="ital">“Charity en fête” A sketch at the fancy bazaar in the aid of the Royal National Hospital for diseases of the chest, Ventnor</hi>, in <hi rend="ital">The Graphic</hi> 19 (28 June 1879), pp. 624-625. <rs type="ill" key="955">Ill. 955</rs>.</ab>
+                </note>
+<note n="34" xml:id="n-34" target="#note-t-34">
+<ab>
+                        <rs type="pers" key="907">Edwin Buckman</rs>, <hi rend="ital">People waiting for ration tickets in Paris</hi>, in <hi rend="ital">The Graphic</hi> 2 (19 November 1870), p. 489. Van Gogh evidently managed to get hold of it, because there is a copy in the estate. <rs type="ill" key="660">Ill. 660</rs> (t*143). Since <rs type="pers" key="1306">Van Rappard</rs> gave the title in German, he probably saw it in a German magazine.</ab>
+                </note>
+<note n="35" xml:id="n-35" target="#note-t-35">
+<ab>It is not clear which print <rs type="pers" key="1306">Van Rappard</rs> meant by <rs type="pers" key="1080">Hubert von Herkomer</rs>’s <hi rend="ital">Schwierigkeiten </hi>(Hardships). The graphic work after Herkomer includes various examples of poor people who have a hard time of it. Cf. Lee MacCormick Edwards, <hi rend="ital">Herkomer. A Victorian artist</hi>. Aldershot 1999. It may be the German version of <hi rend="ital">In trouble</hi>. This is the title of an original etching published by Maison Goupil (Bordeaux, Musée Goupil). <rs type="ill" key="180">Ill. 180</rs>. Cf. the advertisement in their ‘Publications nouvelles’ in April 1879, p. 2.</ab>
+                </note>
+<note n="36" xml:id="n-36" target="#note-t-36">
+<ab>
+                        <rs type="pers" key="1259">W.H. Overend</rs>, <hi rend="ital">The British arctic expedition – Sunday morning on board the “Alert”, in midwinter</hi>. This print of ‘the Sunday performance of divine service on board of the discovery ship <hi rend="ital">Alert</hi>’, on her way to the North Pole, was in <hi rend="ital">Harper’s Weekly</hi> 20 (9 December 1876), pp. 992-993 (quotation on p. 991) <rs type="ill" key="1211">Ill. 1211</rs>.</ab>
+                </note>
+<note n="37" xml:id="n-37" target="#note-t-37">
+<ab>
+                        <rs type="pers" key="1302">Félix Régamey</rs> or <rs type="pers" key="1301">Guillaume Régamey</rs>.</ab>
+                </note>
+      <note n="38" xml:id="n-38" target="#note-t-38">
+<ab>Probably a reference to the illustrator <rs type="pers" key="892">Louis Boulanger</rs>, who worked for <hi rend="ital">L’Artiste</hi> and <hi rend="ital">Le Magasin Pittoresque</hi> among others.</ab>
+                </note>
+<note n="39" xml:id="n-39" target="#note-t-39">
+      <ab>
+                        <rs type="pers" key="1292">Charles Paul Renouard</rs>,<hi rend="ital"> Les régates d’automne à Argenteuil – Les dernières courses à la voile</hi> (Autumn regatta at Argenteuil – The last sailing races), engraved by <rs type="pers" key="1225">Frederick William Moller</rs>, in <hi rend="ital">Le Monde Illustré</hi> 23 (22 November 1879), pp. 332-333. <rs type="ill" key="398">Ill. 398</rs>.</ab>
+                </note>
+<note n="40" xml:id="n-40" target="#note-t-40">
+<ab>
+                        <rs type="pers" key="959">Pascal Adolphe Jean Dagnan-Bouveret</rs>, <hi rend="ital">En automne – Un charmeur au jardin des Tuileries </hi>(In autumn – A bird charmer in the Jardin des Tuileries), engraved by <rs type="pers" key="1512">Charles Baude</rs>, in <hi rend="ital">Le Monde Illustré</hi> 25 (5 November 1881), pp. 296-297. <rs type="ill" key="736">Ill. 736</rs>.</ab>
+                </note>
+<note n="41" xml:id="n-41" target="#note-t-41">
+<ab>
+                        <rs type="pers" key="1170">G. Montbard</rs>,<hi rend="ital"> Mendiants algériens à la porte d’une mosquee </hi>(Algerian beggars at the door of a mosque), engraved by <rs type="pers" key="1537">Eugène Froment</rs>, in <hi rend="ital">L’Univers Illustré</hi> 24 (24 September 1881), p. 656-657. <rs type="ill" key="1176">Ill. 1176</rs>.</ab>
+                </note>
+<note n="42" xml:id="n-42" target="#note-t-42">
+<ab>This was in March 1881: <ref target="let164.xml">see letter 164</ref>.</ab>
+                </note>
+<note n="43" xml:id="n-43" target="#note-t-43">
+<ab>In volume 24 of <hi rend="ital">L’Univers Illustré</hi> (1881) each month there was a print by <rs type="pers" key="1170">Montbard</rs> with the current month as its subject. The engravings are on pp. 5, 84, 148, 244, 293, 372, 437, 540, 621, 669, 756 and 885. The month illustrated is March. <rs type="ill" key="1177">Ill. 1177</rs>.</ab>
+                </note>
+<note n="44" xml:id="n-44" target="#note-t-44">
+<ab>There are five prints by <rs type="pers" key="1364">Charles Joseph Staniland</rs> in the estate: <rs type="otherart" key="411">
+                            <hi rend="ital">Landing fish at Billingsgate market</hi>
+                        </rs>, in <hi rend="ital">The Illustrated London News</hi> 79 (12 November 1881), p. 484 (two copies: t*438 and t*595); <rs type="otherart" key="412">
+                            <hi rend="ital">The war, waiting at Le Mans for a train to Tours</hi>
+                        </rs>, in <hi rend="ital">The Illustrated London News</hi> 57 (22 October 1870), p. 421 (t*596); <rs type="otherart" key="413">
+                            <hi rend="ital">The Risca colliery explosion – The two widows, 1860 and 1880</hi>
+                        </rs>, in <hi rend="ital">The Graphic</hi> 22 (31 July 1880), p. 116 (t*135); and <rs type="otherart" key="414">
+                            <hi rend="ital">The land agitation in Ireland – The widow and the assassin</hi>
+                        </rs>, in <hi rend="ital">The Graphic</hi> 23 (1 January 1881), p. 4 (t*561).</ab>
+                </note>
+<note n="45" xml:id="n-45" target="#note-t-45">
+<ab>In the estate there are two prints by <rs type="pers" key="996">John Charles Dollmann</rs>, <hi rend="ital">The distress in Ireland – The Duke of Edinburgh and the officers of the relief squadron visiting the sick off the West Coast</hi>, in <hi rend="ital">The Graphic</hi> 21 (15 May 1880), p. 496 (t*220), <rs type="ill" key="1983">Ill. 1983</rs>, and <rs type="ill" key="1926">
+                            <hi rend="ital">London sketches, an opium den at East End</hi>
+                        </rs> (<ref target="let235.xml#n-38">see letter 235, n. 38</ref>).</ab>
+                </note>
+<note n="46" xml:id="n-46" target="#note-t-46">
+<ab>
+                        <rs type="pers" key="963">Frank Dadd</rs> indeed frequently signed with the monogram ‘FD’, but there were several other artists who also signed with these two letters. See Peter Nahum, <hi rend="ital">Monograms of Victorian &amp; Edwardian artists</hi>. Salisbury 1976, p. 97.</ab>
+                </note>
+<note n="47" xml:id="n-47" target="#note-t-47">
+<ab>Below the print is <rs type="pers" key="1281">John McL. Ralston</rs>’s monogram J.Mc.L.R. <hi rend="ital">Sketches in Scotland: Arrival of the coach at the Fife Arms, Braemar</hi>; engraved by <rs type="pers" key="1382">Joseph Swain</rs>, in <hi rend="ital">The Illustrated London News</hi> 77 (2 October 1880), p. 341. <rs type="ill" key="1971">Ill. 1971</rs>. See also <ref target="let359.xml">letter 359</ref>. The wood engraving also appeared as <hi rend="ital">La saison de voyages – Un relais de diligences en Ecosse </hi>in <hi rend="ital">L’Univers Illustré</hi> 24 (16 July 1881), p. 501. This version is in the estate (t*650).</ab>
+                </note>
+<note n="48" xml:id="n-48" target="#note-t-48">
+<ab>
+                        <rs type="pers" key="1281">John McL. Ralston</rs>,<hi rend="ital"> Sketches in Braemar: Salmon-spearing on the Dee</hi>, in <hi rend="ital">The Illustrated London News</hi> 77 (6 November 1880), p. 452. <rs type="ill" key="1972">Ill. 1972</rs>.</ab>
+                </note>
+<note n="49" xml:id="n-49" target="#note-t-49">
+<ab>Van Gogh’s description ‘large things from Ireland’ refers to <rs type="pers" key="1454">Richard Caton Woodville</rs>’s double-page engraving <hi rend="ital">Disturbed Ireland: A visit from ‘Rory of the hills’</hi>; engraved by <rs type="pers" key="1582">William James Palmer</rs>, in <hi rend="ital">The Illustrated London News</hi> 78 (22 January 1881), pp. 80-81. <rs type="ill" key="1428">Ill. 1428</rs>. The commentary talks about ‘nocturnal visits’ (p. 82).</ab>
+                </note>
+<note n="50" xml:id="n-50" target="#note-t-50">
+      <ab>The estate has seven prints by <rs type="pers" key="1454">Richard Caton Woodville (<hi rend="sc">ii</hi>)</rs>, all from <hi rend="ital">The Illustrated London News</hi> 76-78 (1880-1881). Six sheets have Ireland as their subject, namely, in the series ‘The State of Ireland’:<hi rend="ital"> Scene outside the courthouse, Galway</hi>, in <hi rend="ital">The Illustrated London News</hi> 76 (14 February 1880), p. 153 (<rs type="ill" key="1973">Ill. 1973</rs>) (t*181), <hi rend="ital">
+                            <rs type="otherart" key="945">Serving a process near Headford Galway</rs>
+                        </hi> (t*820) and <hi rend="ital">Women carrying home meal-sacks from the relief</hi>, in <hi rend="ital">The Illustrated London News</hi> 77 (20 November 1880), p. 497 (<rs type="ill" key="1974">Ill. 1974</rs>) (t*183); and also <rs type="otherart" key="415">
+                            <hi rend="ital">Irish sketches: a fisherman’s cabin in Connemara</hi>
+                        </rs> (t*182), <hi rend="ital">An Irish obstructionist. A sketch on the road, Connemara</hi>, in <hi rend="ital">The Illustrated London News</hi> 76 (21 February 1880), p. 169 (<rs type="ill" key="1975">Ill. 1975</rs>) (t*819) and <hi rend="ital">
+                            <rs type="otherart" key="948">A private shave in County Galway</rs>
+                        </hi> (t*570). In addition, in <ref target="let278.xml">letter 278</ref> Van Gogh mentions <hi rend="ital">
+                            <rs type="ill" key="1992">The State of Ireland: Distributing relief tickets in the turf-market, Westport, County Mayo</rs>
+                        </hi>.</ab>
+                </note>
+      <note n="51" xml:id="n-51" target="#note-t-51">
+            <ab>The estate has five prints after the work of <rs type="pers" key="1262">Aloysius O’Kelly</rs>, all on political Irish subjects. O’Kelly worked for <hi rend="ital">The Illustrated London News</hi> as a ‘special artist’ during the Irish Land War in the 1880’s; some of his designs were engraved by <rs type="pers" key="963">Frank Dadd</rs>. Three come from the series ‘La ligue agraire en Irlande’ (The Irish Land League), engraved by <rs type="pers" key="1588">William Michael Roberts Quick</rs>: <rs type="otherart" key="416">
+                            <hi rend="ital">Désarmement des habitants d’un district en état de siège</hi>
+                        </rs>; <rs type="otherart" key="417">
+                            <hi rend="ital">Prison de Kilmainham, à Dublin</hi>
+                        </rs> (Disarming the inhabitants of a district under siege; Kilmainham Prison, Dublin) (t*216) and <hi rend="ital">Labourage de la terre d’un fermier emprisonné</hi> (Working the land of an imprisoned farmer) (<rs type="ill" key="1981">Ill. 1981</rs>) (t*449). They appeared in <hi rend="ital">L’Univers Illustré</hi> 24 (18 June 1881). Two are from the series ‘L’Ouverture de la session du tribunal agraire en Irlande’ (The opening of the session of the Irish Land Tribunal): <rs type="otherart" key="418">
+                            <hi rend="ital">Une propriétaire venant au tribunal sous la protection de la police</hi>
+                        </rs> (A landowner comes to court under police protection) (t*33) and <hi rend="ital">Une séance du tribunal à Claremorris</hi> (A session of the Claremorris court) (t*35); engraved by <rs type="pers" key="1372">Tilly</rs>, from <hi rend="ital">L’Illustration</hi> 78 (3 December 1881), pp. 368-369. <rs type="ill" key="1982">Ill. 1982</rs>. The last two prints were also in <hi rend="ital">The Illustrated London News</hi> 79 (26 November 1881), pp. 525 (t*214), 528. Cf. Niamh O’Sullivan, ‘Painters and illustrators: Aloysius O’Kelly and Vincent van Gogh’, <hi rend="ital">Irish Arts Review</hi> 14 (1998), pp. 134-139; see also <ref target="#n-53">n. 53</ref> below.</ab>
+                </note>
+<note n="52" xml:id="n-52" target="#note-t-52">
+<ab>The estate has 15 prints by <rs type="pers" key="1060">Edward John Gregory</rs>, all from <hi rend="ital">The Graphic</hi> (1870-1875); but none has an Irish subject. </ab>
+                </note>
+<note n="53" xml:id="n-53" target="#note-t-53">
+<ab>The estate has 12 prints by <rs type="pers" key="963">Frank Dadd</rs> on Irish themes. Some of them were engraved after designs by <rs type="pers" key="1262">Aloysius O’Kelly</rs>; sometimes there were prints by both artists on the same page. The wood engravings date from 1880-1881 and most are from <hi rend="ital">The Illustrated London News</hi>, among them <hi rend="ital">Posting the government proclamation in Connemara</hi>; engraved by <rs type="pers" key="1505">Richard</rs> and <rs type="pers" key="1506">Edward Taylor</rs>, in <hi rend="ital">The Illustrated London News</hi> 79 (19 November 1881), p. 493. <rs type="ill" key="1976">Ill. 1976</rs>. (t*568). Van Gogh also had <rs type="otherart" key="419">
+                            <hi rend="ital">Tenanciers consultant leur curé</hi>
+                        </rs> from <hi rend="ital">L’Illustration</hi> 78 (3 December 1881), p. 368 (t*33) as <hi rend="ital">Consulting the priest: A sketch at Claremorris, County Mayo</hi>, in <hi rend="ital">The Illustrated London News</hi> 79 (26 November 1881), p. 525. <rs type="ill" key="1977">Ill. 1977</rs>. (t*214). See also <ref target="#n-51">n. 51</ref> above.</ab>
+                </note>
+<note n="54" xml:id="n-54" target="#note-t-54">
+      <ab>This rubbish dump was near to the gasworks, so just behind N.W. Binnensingel. The thought of <rs type="pers" key="907">Buckman</rs> must refer to <hi rend="ital">A London dustyard</hi> (<ref target="let273.xml#n-5">see letter 273, n. 5</ref>). <rs type="ill" key="658">Ill. 658</rs> (<ref target="let273.xml#n-5">see letter 273, n. 5</ref>). </ab>
+                </note>
+<note n="55" xml:id="n-55" target="#note-t-55">
+<ab>Probably an allusion to <rs type="pers" key="512">H.C. Andersen</rs>’s fairy tale ‘<rs type="lit" key="269">The old street lamp</rs>’, in which a discarded lamp is put to use in the living room of two old folks. In numerous stories and tales by Andersen objects come to life.</ab>
+                </note>
+<note n="56" xml:id="n-56" target="#note-t-56">
+<ab>An allusion to the painting <rs type="ill" key="1839">
+                            <hi rend="ital">Chill October</hi>
+                        </rs> by <rs type="pers" key="1227">John Millais</rs>: <ref target="let122.xml#n-19">see letter 122, n. 19.</ref>
+                    </ab>
+                </note>
+<note n="57" xml:id="n-57" target="#note-t-57">
+<ab>In 1881 odd issues of <hi rend="ital">The Illustrated London News </hi>cost sixpence (then 0.30 guilders); a current volume in odd issues would thus cost 15.60 guilders.</ab>
+                </note>
+<note n="58" xml:id="n-58" target="#note-t-58">
+<ab>The butcher <rs type="pers" key="193">Louis Vincent Royer</rs> and his wife <rs type="pers" key="194">Françoise Virginie Seynave</rs> had a ‘Boucherie modèle et bouillon’ at 15-17 rue Chapeliers (<hi rend="ital">SAB</hi>).</ab>
+                </note>
+<note n="59" xml:id="n-59" target="#note-t-59">
+<ab>No drawing of a soup distribution to the poor is known from this period. </ab>
+                </note>
+<note n="60" xml:id="n-60" target="#note-t-60">
+<ab>The Walloon quarter of Brussels was named after place des Wallons, which had been there since the Middle Ages, close to rue Haute and rue Blaes; although the square no longer existed after 1853, the district kept its name.</ab>
+                </note>
+<note n="61" xml:id="n-61" target="#note-t-61">
+<ab>
+      <hi rend="ital">Old man with an umbrella seen from the back </hi>(<rs type="sketch" key="68">F - / JH 214</rs>), letter sketch in <ref target="let268.xml">letter 268</ref>.</ab>
+                </note>
+<note n="62" xml:id="n-62" target="#note-t-62">
+<ab>
+                        <rs type="pers" key="1451">William Lionel Wyllie</rs>, <hi rend="ital">The funeral of the Late Prince Louis Napoleon</hi>, in <hi rend="ital">The Graphic</hi> 20 (19 July 1879), p. 49 (cover). <rs type="ill" key="1430">Ill. 1430</rs>.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

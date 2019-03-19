@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Nuenen, on or about Friday, 20 November 1885.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let543"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">543</idno>
+<idno type="collectedletters">435</idno>
+<idno type="brieven1990">546</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Nuenen</vg:placeLet>
+                        <vg:dateLet>on or about Friday, 20 November 1885</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. Nuenen, on or about Friday, 20 November 1885.</p>
+<note type="ongoingTopic" n="1">
+<p>Opposition from the Catholic clergy <ref target="let531.xml">(531)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. nos. b475 V/1962 (sheet 1) and b1469/V1962 (sheet 2)</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Vincent thanks Theo for sending him 50 francs and writes that he has decided to set out for Antwerp ‘next Tuesday’. That was Tuesday, 24 November (<ref target="let544.xml">see letter 544</ref>). Assuming that the 50 francs arrived around the twentieth – the usual date for an extra allowance – and that Vincent wrote his letter of thanks immediately, we have dated the letter on or about Friday, 20 November 1885.</p>
+                    </note>
+<note type="arrangement" xml:id="arrangement">
+<p>A separate sheet with a sonnet by Jules Breton has been added to the letter (<ref target="#n-6">see n. 6</ref>).</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0475" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000642_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000642_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000642_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000642_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000642_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000642_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="VGM001000642_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000642_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000642_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0475" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000642_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000642_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000642_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000642_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000642_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000642_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000642_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000642_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000642_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0475" xml:id="surf-pb-2r">
+            <graphic mimeType="image/tiff" url="VGM001001357_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-2r-5">
+<graphic mimeType="image/tiff" url="VGM001001357_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001357_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001357_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+        <surface n="b 1469 V/1962" xml:id="surf-extra-2v">
+            <graphic mimeType="image/tiff" url="VGM001001357_02.TIF" rend="norend"/>
+            <zone xml:id="zone-extra-1">
+<graphic mimeType="image/tiff" url="VGM001001357_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001357_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001357_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Waarde Theo,</ab>
+                <lb n="1*" xml:id="l-1s"/>
+<ab>Hartelijk dank voor het biljet van f<hi rend="ss">rs</hi> 50 <lb n="2" xml:id="l-2"/>en uw schrijven. Dat ik Dinsdag a.s.<anchor n="1" xml:id="note-o-1"/> vertrek zult <lb n="3" xml:id="l-3"/>ge U kunnen begrijpen als ge nagaat vooreerst dat ik <lb n="4" xml:id="l-4"/>er zeer naar verlang – tweedens dat ik hier met mijn <lb n="5" xml:id="l-5"/>werk gevaar heb vast te raken door gebrek aan model<c type="kk">/</c> <lb n="6" xml:id="l-6"/>terwijl door de kou ’t buiten werken is opgehouden.</ab>
+                <lb n="7" xml:id="l-7"/>
+<ab rend="indent">Wat betreft dat zeker ik het gemis aan een werkplaats <lb n="8" xml:id="l-8"/>te Antwerpen voelen zal<c type="kk">/</c> ja dat is zoo<c type="kp">_</c> Maar <lb n="9" xml:id="l-9"/>ik moet kiezen tusschen een werkplaats zonder <lb n="10" xml:id="l-10"/>werk hier en werk zonder werkplaats ginder<c type="kp">_</c> <lb n="11" xml:id="l-11"/>’t Laatste heb ik genomen. En met opgewektheid <lb n="12" xml:id="l-12"/>die zelfs zóó groot is dat het in mijn gevoel <lb n="13" xml:id="l-13"/>een retour d’exil is<c type="kp">_</c>– Immers het <lb n="14" xml:id="l-14"/>heeft lang geduurd ik geheel uit de schilderwereld <lb n="15" xml:id="l-15"/>uit was. En in dien tusschentijd zijn mijn <lb n="16" xml:id="l-16"/>krachten wat gerijpt zoo dat ik meer onafhankelijk <lb n="17" xml:id="l-17"/>me voel van de gewone intrigues om iemand <lb n="18" xml:id="l-18"/>er uit te knikkeren. Ik bedoel dat te s’Hage <lb n="19" xml:id="l-19"/>ik met het penseel<c type="kk">/</c> ik zeg niet met mijn teekenen<c type="kk">/</c> <lb n="20" xml:id="l-20"/>zwakker was dan de rest en door ’t op ’t schilderen <lb n="21" xml:id="l-21"/>en kleur te gooien ik ligter te overdonderen <lb n="22" xml:id="l-22"/>was dan nu mogelijk blijken zal.</ab>
+                <lb n="23" xml:id="l-23"/>
+<ab rend="indent">Wat Rubens betreft<c type="kk">/</c> ik verlang er erg naar. <lb n="24" xml:id="l-24"/>maar – hebt gij er op tegen Rubens 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                    <lb n="25" xml:id="l-25"/>wat opvatting<c type="kk">/</c> wat sentiment van zijn religieuse <lb n="26" xml:id="l-26"/>onderwerpen betreft theatraal<c type="kk">/</c> slecht theatraal zelfs <lb n="27" xml:id="l-27"/>dikwijls te vinden<c type="kp">_</c>– Ziehier – neem <lb n="28" xml:id="l-28"/>Rembrandt – Michelange – neem de <lb n="29" xml:id="l-29"/>Penseroso van Michel Ange.<anchor n="2" xml:id="note-o-2"/> Stelt voor een <lb n="30" xml:id="l-30"/>denker nietwaar<c type="kp">_</c> Maar – zijn voeten zijn <lb n="31" xml:id="l-31"/>klein en vlug maar zijn hand heeft iets <lb n="32" xml:id="l-32"/>van ’t bliksemsnelle van een leeuwenklaauw <lb n="33" xml:id="l-33"/>en – die denker is tevens de man van <lb n="34" xml:id="l-34"/>actie<c type="kk">/</c> men ziet dat zijn denken is een <lb n="35" xml:id="l-35"/>zich concentreeren<c type="kk">/</c> maar – om op te <lb n="36" xml:id="l-36"/>springen en op de een of andere wijze <lb n="37" xml:id="l-37"/>te ageeren<c type="kp">_</c> Rembrandt doet het <hi rend="ital">anders</hi>
+                    <c type="kk">/</c> <lb n="38" xml:id="l-38"/>zijn Christus in de Emmausgangers is vooral een – <lb n="39" xml:id="l-39"/>ziel in een ligchaam dat niet zóó is als een tors van Michel Ange altans<c type="kk">/</c> maar toch – het gebaar <lb n="40" xml:id="l-40"/>van overreding<c type="kk">/</c> er is iets <hi rend="ital">puissants</hi> in<anchor n="3" xml:id="note-o-3"/> <lb n="41" xml:id="l-41"/>dat – zet er nu een Rubens <lb n="42" xml:id="l-42"/>naast<c type="kk">/</c> een van de vele figuren van <lb n="43" xml:id="l-43"/>meditatieve personen – en zij worden <lb n="44" xml:id="l-44"/>lui die om redenen van digestiebevordering <lb n="45" xml:id="l-45"/>zich in een hoek geretireerd hebben.</ab>
+                <lb n="46" xml:id="l-46"/>
+<ab rend="indent">Zoo met alles<c type="kk">/</c> in ’t religieuse of philosophische<c type="kk">/</c> hij is er <hi rend="ital">plat</hi> en <hi rend="ital">hol</hi> in<c type="kk">/</c> maar wat hij kan is – <lb n="47" xml:id="l-47"/>vrouwen – als Boucher en <lb n="48" xml:id="l-48"/>beter – daar geeft hij nog ’t meest 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                    <lb n="49" xml:id="l-49"/>juist mede te denken en is er ’t diepst in. <lb n="50" xml:id="l-50"/>Wat hij kan – kleurcombinaties – <lb n="51" xml:id="l-51"/>wat hij kan is – een koningin<c type="kk">/</c> een staatsman maken<c type="kk">/</c> <lb n="52" xml:id="l-52"/>goed geanaliseerd<c type="kk">/</c> zóó als ze zijn<c type="kp">_</c>
+                </ab>
+                <lb n="53" xml:id="l-53"/>
+<ab rend="indent">Maar het bovennatuurlijke – dat waar magie <lb n="54" xml:id="l-54"/>begint<c type="kk">/</c> neen – tenzij <lb n="55" xml:id="l-55"/>een zeker iets oneindigs leggen in <lb n="56" xml:id="l-56"/>een vrouwenexpressie die echter niet dramatisch is<c type="kp">_</c>
+                    <anchor n="4" xml:id="note-o-4"/>
+                </ab>
+                <lb n="57" xml:id="l-57"/>
+<ab rend="indent">Ik vond een passage over Gainsborough die alweer <lb n="58" xml:id="l-58"/>mij animeert tot <hi rend="ital">in eens</hi> werken – ziehier<anchor n="5" xml:id="note-o-5"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="59" xml:id="l-59"/>
+<ab>C’est cette brusquerie de touche qui donne tant d’effet. La <lb n="60" xml:id="l-60"/>spontanéité de son impression y est tout entière et se <lb n="61" xml:id="l-61"/>communique au spectateur<c type="kp">_</c> Gainsborough avait d’ailleurs <lb n="62" xml:id="l-62"/>une methode parfaite pour assurer l’ensemble de ses <lb n="63" xml:id="l-63"/>compositions. Il ébauchait tout d’un trait son tableau <lb n="64" xml:id="l-64"/>et le poussait harmonieusement du haut en bas, sans <lb n="65" xml:id="l-65"/>isoler son attention sur de petits fragments, sans <lb n="66" xml:id="l-66"/>s’obstiner aux détails, car il cherchait l’effet général <lb n="67" xml:id="l-67"/>et il le trouvait presque toujours, grâce à <lb n="68" xml:id="l-68"/>cette large vue sur la toile, qu’il regardait <lb n="69" xml:id="l-69"/>comme on regarde la nature, d’un <lb n="70" xml:id="l-70"/>seul coup d’oeil.</ab>
+<vg:whiteline/>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                <lb n="71" xml:id="l-71"/>
+<ab>Daar ik niet weet waar ik zal logeeren <lb n="72" xml:id="l-72"/>zou ik U willen verzoeken als gij 1 December <lb n="73" xml:id="l-73"/>schrijft den brief te adresseeren <hi rend="ital">Poste</hi> <lb n="74" xml:id="l-74"/>
+                    <hi rend="ital">restante</hi>
+                    <c type="kk">/</c> tenzij ik U nog berigte<c type="kp">_</c> <lb n="75" xml:id="l-75"/>Want ik zal dezer dagen nog wel eens schrijven<c type="kp">_</c>
+                </ab>
+                <lb n="76" xml:id="l-76"/>
+<ab rend="indent">Ik vond in een revue het inliggend sonnet <lb n="77" xml:id="l-77"/>van Jules Breton<c type="kp">_</c>
+                    <anchor n="6" xml:id="note-o-6"/>
+                </ab>
+                <lb n="78" xml:id="l-78"/>
+<ab rend="indent">Nog eens, wat mijn betrekkelijk plotseling vertrek <lb n="79" xml:id="l-79"/>van hier aangaat<c type="kk">/</c> ik zou indien ik geen <lb n="80" xml:id="l-80"/>stoornis met de modellen gehad had<c type="kk">/</c> nog <lb n="81" xml:id="l-81"/>den winter hier hebben doorgebragt<c type="kp">_</c> <lb n="82" xml:id="l-82"/>Maar het doorzetten van hier met <lb n="83" xml:id="l-83"/>model te werken stuit in de bevinding <lb n="84" xml:id="l-84"/>niet zoozeer op de tegenwerking van <lb n="85" xml:id="l-85"/>den pastoor<c type="kk">/</c>
+                    <anchor n="7" xml:id="note-o-7"/> die door direkt absoluut negeeren van mijn <lb n="86" xml:id="l-86"/>kant geneutraliseerd was als die op zich <lb n="87" xml:id="l-87"/>zelf stond<c type="kk">/</c> maar het miserabele is dat<c type="kk">/</c> <lb n="88" xml:id="l-88"/>al durf ik er tegen in<c type="kk">/</c> de menschen aarzelen <lb n="89" xml:id="l-89"/>en meer schrik hebben dan ik verwacht had<c type="kp">_</c> <lb n="90" xml:id="l-90"/>En ik onderneem het niet of ik moet er <lb n="91" xml:id="l-91"/>op kunnen rekenen dat zij durven. <lb n="92" xml:id="l-92"/>Ga ik nu een paar maanden weg<c type="kk">/</c> dat kan <lb n="93" xml:id="l-93"/>helpen en helpt het niet dan verdient er <lb n="94" xml:id="l-94"/>ook geen een van degeenen die ik verl. winter <lb n="95" xml:id="l-95"/>alle weken wat er voor gaf dezen winter iets <lb n="96" xml:id="l-96"/>aan. Gegroet<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="97" xml:id="l-97"/>
+<ab>b<c type="kp">_</c> à t<c type="kp">_</c>
+                </ab>
+                <lb n="98" xml:id="l-98"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+                <lb n="99" xml:id="l-99"/>
+<ab>Ik zal U uit Antwerpen het boek van Ch<c type="kp">_</c> Blanc<anchor n="8" xml:id="note-o-8"/> enz<c type="kp">_</c> <lb n="100" xml:id="l-100"/>sturen zoodra ik er een paar studies bij voegen kan<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+                <lb n="101" xml:id="l-101"/>
+<ab>
+                    <hi rend="ital">Les Ruines</hi> –</ab>
+<vg:whiteline/>
+                <lb n="102" xml:id="l-102"/>
+<ab>Les vieillards, quand près d’eux, semaine par semaine,</ab>
+                <lb n="103" xml:id="l-103"/>
+<ab>Le temps a dévasté, tour à tour, fleurs &amp; fruits.</ab>
+                <lb n="104" xml:id="l-104"/>
+<ab>Les vieillards ont, ainsi que la cité romaine</ab>
+                <lb n="105" xml:id="l-105"/>
+<ab>Au coeur un forum mort plein de temples détruits</ab>
+<vg:whiteline/>
+                <lb n="106" xml:id="l-106"/>
+<ab>Silencieux désert où leur âme promène</ab>
+                <lb n="107" xml:id="l-107"/>
+<ab>Son long ennui stérile, où l’ortie &amp; le buis</ab>
+                <lb n="108" xml:id="l-108"/>
+<ab>Et l’herbe solitaire, en l’antique domaine,</ab>
+                <lb n="109" xml:id="l-109"/>
+<ab>Ont étouffé l’orgueil des fastes &amp; des bruits;</ab>
+<vg:whiteline/>
+                <lb n="110" xml:id="l-110"/>
+<ab>Où des frontons muets la légende effacée</ab>
+                <lb n="111" xml:id="l-111"/>
+<ab>Sous la rouille des ans dérobe sa pensée</ab>
+                <lb n="112" xml:id="l-112"/>
+<ab>Plus de chants, les oiseaux aiment les floraisons</ab>
+<vg:whiteline/>
+                <lb n="113" xml:id="l-113"/>
+<ab>Plus de prisme charmeur irisant les bruines;</ab>
+                <lb n="114" xml:id="l-114"/>
+<ab>Mais de graves soleils, de vastes horizons</ab>
+                <lb n="115" xml:id="l-115"/>
+<ab>Eclairant la beauté dernière des ruines.</ab>
+<vg:whiteline/>
+                <lb n="116" xml:id="l-116"/>
+<ab>
+                    <hi rend="ital">Jules Breton</hi>
+                </ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-26" n="26">onderwerpen betreft &lt; onderwerpen</note>
+<note target="l-36" n="36">of andere &lt; op andere</note>
+<note target="l-39" n="39">altans &lt; <hi rend="ital">Reading uncertain</hi>.</note>
+<note target="l-44" n="44">redenen &lt; redenenen</note>
+<note target="l-96" n="96">aan. &lt; er aan.</note>
+<note target="l-99" n="99">uit Antwerpen &lt; uit Antwerpen uit</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo,</ab>
+<ab>Many thanks for the 50-franc note and your letter. You’ll understand why I’m leaving next Tuesday<anchor n="1" xml:id="note-t-1"/> when you realize firstly that I’m really longing to go — secondly that I’m in danger of becoming stuck with my work here for want of models, while working outdoors has stopped because of the cold.</ab>
+<ab rend="indent">As regards my certainly feeling the lack of a studio in Antwerp, yes, that’s so. But I have to choose between a studio without work here, and work without a studio there. I took the latter. And with pleasure that’s actually so great that it feels to me like a return from exile. After all, I’ve been out of the world of painting altogether for a long time. And in the meantime my powers have matured somewhat, so that I feel more independent of the usual intrigues to chuck someone out. I mean that in The Hague I was weaker than the rest with a brush, I don’t say in my drawing, and by attacking me on the painting and colour, I was more easily confounded than will prove possible now.</ab>
+<ab rend="indent">As for <rs type="pers" key="1336">Rubens</rs>, I’m very much looking forward to him, but — don’t you often find that in terms of conception, 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> in terms of the sentiment in his religious subjects, Rubens is theatrical, even badly theatrical? Look here — take <rs type="pers" key="1295">Rembrandt</rs> — <rs type="pers" key="1229">Michelangelo</rs> — take Michelangelo’s Pensieroso.<anchor n="2" xml:id="note-t-2"/> Meant to be a thinker, isn’t he? But — his feet are small and swift, but — his hand has something of the lightning speed of a lion’s paw, and — that thinker is at the same time a man of action, one sees that his thinking is concentration, but — in order to leap up and to act in one way or another. Rembrandt does it <hi rend="ital">differently</hi>, his Christ in the Pilgrims at Emmaus is above all a — soul in a body that is anyway not <hi rend="ital">the same</hi> as a torso by Michelangelo, but yet — the gesture of persuasion, there’s something <hi rend="ital">powerful</hi> in it<anchor n="3" xml:id="note-t-3"/> that — well, just put a Rubens next to it, one of the many figures of meditative people — and they become folk who’ve retired into a corner for the purposes of aiding their digestion.</ab>
+<ab rend="indent">Thus with everything religious or philosophical he is <hi rend="ital">flat</hi> and <hi rend="ital">hollow</hi>, but what he can do is — women — like <rs type="pers" key="879">Boucher</rs> and better — it’s precisely there that he 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> gives one most to think about and is deepest. What he can do — colour combinations — what he can do is — paint a queen, a statesman, well analyzed, just as they are.</ab>
+<ab rend="indent">But the supernatural, where magic begins, no — unless it’s putting a certain something infinite into a woman’s expression, which isn’t dramatic, though.<anchor n="4" xml:id="note-t-4"/>
+                </ab>
+<ab rend="indent"> I found a passage about <rs type="pers" key="1036">Gainsborough</rs> that has once more encouraged me to work <hi rend="ital">in one go</hi> — look.<anchor n="5" xml:id="note-t-5"/>
+                </ab>
+<vg:whiteline/>
+<ab>It’s this brusqueness of touch that gives so much effect. The spontaneity of his impression is there in full, and communicates itself to the viewer. What’s more, <rs type="pers" key="1036">Gainsborough</rs> had a perfect method of ensuring that his compositions formed a whole. He laid down his painting in one go as a rough sketch, and worked it up harmoniously from the top to the bottom, without focusing his attention on small fragments, without getting involved in the details, because he was looking for the general effect and almost always found it, thanks to this broad view of the canvas, which he looked at as one looks at nature, in a single glance.</ab>
+<vg:whiteline/>
+<ab>
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/>
+                </ab>
+<ab>Since I don’t know where I’ll be staying, I’d ask you to address the letter <hi rend="ital">Poste restante</hi> when you write on 1 December, unless I notify you before that. Because I’ll certainly write in the next few days.</ab>
+<ab rend="indent">I found the enclosed sonnet by <rs type="pers" key="899">Jules Breton</rs> in a Revue.<anchor n="6" xml:id="note-t-6"/> </ab>
+<ab rend="indent">Again, as regards my relatively sudden departure from here, if I hadn’t had any trouble with the models, I would have spent the winter here. But in practice, continuing to work with models here didn’t so much run up against opposition from the <rs type="pers" key="565">priest</rs>,<anchor n="7" xml:id="note-t-7"/> which would have been neutralized by being absolutely ignored on my part right away, had that been all there was to it, but the wretched thing is that, although I have the courage to oppose him, the people hesitate and are more frightened than I’d expected. And I won’t undertake it unless I can be sure that they have the courage. If I go away for a few months now, that might help, and if it doesn’t help, then none of those I paid something for it every week last winter will earn anything from it this winter. Regards.</ab>
+<vg:whiteline/>
+<ab>Yours truly,</ab>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<ab>I’ll send you the book by <rs type="pers" key="546">Charles Blanc</rs>
+                    <anchor n="8" xml:id="note-t-8"/> etc. from Antwerp as soon as I can put a few studies in with it.</ab>
+<vg:whiteline/>
+<ab>
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/>
+                </ab>
+    <ab>
+                    <hi rend="ital">Ruins</hi>
+                </ab>
+                <vg:whiteline/>
+<ab>Old men, when near them, week by week,</ab>
+                <ab> Time has ravaged fruits and flowers in turn,</ab>
+<ab>Old men, like Roman cities, have in their hearts</ab>
+<ab>A forum – dead, with ruined temples strewn.</ab>
+<vg:whiteline/>
+<ab>A silent waste through which their souls</ab>
+<ab>Parade at length their barren tedium; where box and nettle</ab>
+<ab>And the solitary grass, across the ancient site</ab>
+<ab>Have choked the glory of its clamorous pomp.</ab>
+<vg:whiteline/>
+<ab>Where words effaced from speechless pediments</ab>
+<ab>Conceal their sense beneath the rusty stain of years.</ab>
+<ab>No more songs now – the birds love blossom-time.</ab>
+<vg:whiteline/>
+<ab>No rainbow prisms colouring the mists,</ab>
+<ab>But sober suns, immense horizons,</ab>
+<ab>Lighting the beauty at the ruins’ back.</ab>
+<vg:whiteline/>
+<ab>
+                    <hi rend="ital">
+                        <rs type="pers" key="899">Jules Breton</rs>
+                    </hi>
+                </ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>Van Gogh left for Antwerp on Tuesday, 24 November: <ref target="let544.xml">see letter 544</ref>.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+    <ab>
+                        <rs type="pers" key="1229">Michelangelo</rs>’s <hi rend="ital">Pensieroso</hi> (1525) is the central sculpture on the tomb of Lorenzo de’ Medici in the basilica of San Lorenzo in Florence. Van Gogh may have known the work from the <hi rend="ital">Gazette des Beaux-Arts</hi>, no. 13, second series, (1876), which contains the engraving <hi rend="ital">Le penseur</hi> (The thinker) by <rs type="pers" key="1371">Burn Smeeton</rs> and <rs type="pers" key="1372">Auguste Tilly</rs>, after a drawing by <rs type="pers" key="1046">Achille Gilbert</rs> (p. 101). <rs type="ill" key="1156">Ill. 1156</rs>.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>
+                        <rs type="pers" key="1019">Fromentin</rs> had also praised this painting in <hi rend="ital">
+                            <rs type="lit" key="404">Les maîtres d’autrefois</rs>
+                        </hi>: he asserted that one had enough in strong figure of Christ alone, in which ‘things inspired one knows not where and produced one knows not how’ (choses inspirées on ne sait d’où et produites on ne sait comment) are expressed (see Fromentin 1902, chapter 14, pp. 380-382). Van Gogh had read this book: <ref target="let450.xml">see letter 450</ref>. See for <rs type="pers" key="1295">Rembrandt</rs>’s <hi rend="ital">
+                            <rs type="ill" key="1710">The pilgrims at Emmaus</rs>
+                        </hi>: <ref target="let034.xml#n-5">letter 34, n. 5.</ref>
+                    </ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>The views of the courtly <rs type="pers" key="1336">Rubens</rs> as against the human <rs type="pers" key="1295">Rembrandt</rs> echo what <rs type="pers" key="1019">Fromentin</rs> and <rs type="pers" key="554">Thoré</rs> had written about them. See Fromentin 1902 and Thoré 1858-1860.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>The quotation about <rs type="pers" key="1036">Thomas Gainsborough</rs> comes from <rs type="pers" key="554">E.J.T. Thoré</rs> (under the pseudonym W. Bürger), <hi rend="ital">
+                            <rs type="lit" key="432">Trésors d’art en Angleterre</rs>
+                        </hi>. Paris 1865, p. 394. After ‘so much effect’ (tant d’effet), Van Gogh omitted the words ‘to Gainsborough’s landscapes’ (aux paysages de Gainsborough).</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>The enclosed sonnet is ‘<rs type="lit" key="557">Les ruines</rs>’ by <rs type="pers" key="899">Jules Breton</rs>, which was published in <hi rend="ital">La Nouvelle Revue</hi> 7 (volume 35), 15 July 1885, p. 408. Van Gogh read this periodical in his <rs type="pers" key="524 526">parents</rs>’ house (FR b2268). The poem was collected in <hi rend="ital">Oeuvres poétiques. Les champs et la mer / Jeanne</hi>. Paris 1887, p. 76. Cf. Pabst 1988, p. 88.</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>
+                        <rs type="pers" key="565">Andreas Pauwels</rs>.</ab>
+                </note>
+    <note n="8" xml:id="n-8" target="#note-t-8">
+<ab>
+                        <rs type="pers" key="546">Charles Blanc</rs>, <hi rend="ital">
+                            <rs type="lit" key="48">Grammaire des arts du dessin</rs>
+                        </hi>; <ref target="let536.xml">see letters 536</ref> and <ref target="let538.xml">538</ref>. The book was never sent.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Etten, beginning of October 1881.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let173"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">173</idno>
+<idno type="collectedletters">151</idno>
+<idno type="brieven1990">173</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Etten</vg:placeLet>
+                        <vg:dateLet>beginning of October 1881</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:physDesc>
+                        <vg:decoration>
+                            <vg:decoList xml:id="sketches">
+                                <vg:decoItem n="A" xml:id="sketch-1">
+                                    <vg:decoDesc>
+<p>
+      <hi rend="ital">Road with pollard willows</hi> (<rs type="sketch" key="28">F - / JH 48</rs>), letter sketch (no. ‘14’ in pencil)</p>
+                                    </vg:decoDesc>
+                                </vg:decoItem>
+                                <vg:decoItem n="B" xml:id="sketch-2">
+                                    <vg:decoDesc>
+<p>
+      <hi rend="ital">Farmhouses on a road with trees</hi> (<rs type="sketch" key="29">F - / JH 49</rs>), letter sketch (no. ‘15’ in pencil)</p>
+                                    </vg:decoDesc>
+                                </vg:decoItem>
+                                <vg:decoItem n="C" xml:id="sketch-3">
+                                    <vg:decoDesc>
+<p>
+      <hi rend="ital">Digger</hi> (<rs type="sketch" key="30">F - / JH 55</rs>), letter sketch (no. ‘16’ in pencil)</p>
+                                    </vg:decoDesc>
+                                </vg:decoItem>
+                            </vg:decoList>
+                        </vg:decoration>
+                    </vg:physDesc>
+                    <vg:letContents>
+<p>To Theo van Gogh. Etten, c. the beginning of October 1881.</p>
+<note type="ongoingTopic" n="1">
+<p>Request for Theo to send ‘Ingres paper’ <ref target="let171.xml">(171)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b171 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>This letter was written <hi rend="ital">before</hi> <ref target="let174.xml">letter 174</ref> of 12 October 1881, since Van Gogh states in that letter that he has finished seven drawings of tree-trunks along Leurseweg, whereas in this letter he reports having made only three. These corresponding motifs mean that the letter was likely written not long before 12 October – roughly speaking, from the first week of October. Nothing mentioned in the letter permits a more specific dating.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0171" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000183_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000183_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000183_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000183_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000183_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000183_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0171" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000183_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000183_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000183_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000183_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000183_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000183_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000183_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000183_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000183_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Waarde Theo,</ab>
+                <lb n="2" xml:id="l-2"/>
+<ab>Daar er weder een brief naar U toegaat zoo sluit ik een woordje in<c type="kp">_</c>
+                    <anchor n="1" xml:id="note-o-1"/> <lb n="3" xml:id="l-3"/>Van harte hoop ik dat gij het goed maakt &amp; eens een half uurtje <lb n="4" xml:id="l-4"/>zult kunnen vinden om mij weer eens te schrijven.</ab>
+                <lb n="5" xml:id="l-5"/>
+<ab rend="indent">Ik wil U nu nog zeggen wat ik heb uitgevoerd sedert ik U het laatst <lb n="6" xml:id="l-6"/>geschreven heb.</ab>
+                <lb n="7" xml:id="l-7"/>
+<ab rend="indent">Vooreerst twee groote teekeningen (krijt &amp; iets of wat sepia) van <lb n="8" xml:id="l-8"/>
+                    <hi rend="ital">Knotwilgen</hi>
+                    <c type="kk">/</c> zoo ongeveer als onderstaand schetsje.<anchor n="2" xml:id="note-o-2"/>
+                </ab>
+<vg:whiteline/>
+                <figure facs="zone-sketch-1" n="A"/>
+<vg:whiteline/>
+                <lb n="9" xml:id="l-9"/>
+<ab>Verder een dito maar in de hoogte van de Leursche weg<c type="kp">_</c>
+                    <anchor n="3" xml:id="note-o-3"/> <lb n="10" xml:id="l-10"/>Dan heb ik weer een paar keer model gehad<c type="kk">/</c> spitter<anchor n="4" xml:id="note-o-4"/> en <lb n="11" xml:id="l-11"/>mandemaker.<anchor n="5" xml:id="note-o-5"/>
+                </ab>
+                <lb n="12" xml:id="l-12"/>
+<ab rend="indent">En dan heb ik van Oom Cent verl. week een verfdoos gekregen <lb n="13" xml:id="l-13"/>die vrij goed is<c type="kk">/</c> zeker goed genoeg om mee te beginnen <lb n="14" xml:id="l-14"/>(de verf is van Paillard).<anchor n="6" xml:id="note-o-6"/> En daar ben ik zeer blij mede.</ab>
+<vg:whiteline/>
+                <figure facs="zone-sketch-2" n="B"/>
+<vg:whiteline/>
+                <lb n="15" xml:id="l-15"/>
+<ab>Nu heb ik dadelijk eens beproefd een soort aquarel te <lb n="16" xml:id="l-16"/>maken als bovenstaand motief.<anchor n="7" xml:id="note-o-7"/>
+                </ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="17" xml:id="l-17"/>
+<ab rend="indent">Ik reken mij zeer gelukkig model te kunnen <lb n="18" xml:id="l-18"/>krijgen<c type="kk">/</c> ik ben ook met een paard &amp; ezel aan <lb n="19" xml:id="l-19"/>’t scharrelen.<anchor n="8" xml:id="note-o-8"/>
+                </ab>
+                <lb n="20" xml:id="l-20"/>
+<ab rend="indent">Vooral voor het teekenen met waterverf is dat <lb n="21" xml:id="l-21"/>bewuste dikke papier Ingres<anchor n="9" xml:id="note-o-9"/> zeer goed &amp; <lb n="22" xml:id="l-22"/>heel wat goedkooper dan ander.</ab>
+                <lb n="23" xml:id="l-23"/>
+<ab rend="indent">Toch heb ik er niet bepaald haast mede <lb n="24" xml:id="l-24"/>want ik heb eenigen voorraad maar helaas effen <lb n="25" xml:id="l-25"/>wit uit den Haag medegebragt.</ab>
+                <lb n="26" xml:id="l-26"/>
+<ab rend="indent">Enfin ge ziet ik ben druk aan den gang. <lb n="27" xml:id="l-27"/>Oom Cent gaat morgen naar s’Hage en <lb n="28" xml:id="l-28"/>zal alligt nog met Mauve eens spreken <lb n="29" xml:id="l-29"/>over de kwestie wanneer ik weer eens bij hem <lb n="30" xml:id="l-30"/>zou komen.</ab>
+                <lb n="31" xml:id="l-31"/>
+<ab rend="indent">En nu à dieu<c type="kk">/</c> ik heb ver geloopen van daag <lb n="32" xml:id="l-32"/>&amp; ben verbazend moe maar wilde den <lb n="33" xml:id="l-33"/>brief niet laten weggaan zonder iets in <lb n="34" xml:id="l-34"/>te sluiten.<anchor n="10" xml:id="note-o-10"/>
+                </ab>
+                <lb n="35" xml:id="l-35"/>
+<ab rend="indent">Heb het goed &amp; ontvang een handdruk in gedachten.</ab>
+<vg:whiteline/>
+                <lb n="36" xml:id="l-36"/>
+<ab>t. à t.</ab>
+                <lb n="37" xml:id="l-37"/>
+<ab>Vincent.</ab>
+<vg:whiteline/>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                <figure facs="zone-sketch-3" n="C"/>
+<vg:whiteline/>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo,</ab>
+<ab>As a letter is going to you again, I’m enclosing a word in it.<anchor n="1" xml:id="note-t-1"/> I sincerely hope that you’re doing well and will be able to find half an hour to write to me again.</ab>
+<ab rend="indent">I want to tell you what I’ve done since I last wrote to you.</ab>
+<ab rend="indent">First of all, two large drawings (chalk and some sepia) of <hi rend="ital">Pollard willows</hi>, something like the sketch below.<anchor n="2" xml:id="note-t-2"/>
+                </ab>
+<vg:whiteline/>
+<ab>
+                    <figure facs="zone-sketch-1" n="A"/>
+                </ab>
+<vg:whiteline/>
+<ab>Also the same, but vertical, of Leurseweg.<anchor n="3" xml:id="note-t-3"/> Then I had a model a couple of times, digger<anchor n="4" xml:id="note-t-4"/> and basket-maker.<anchor n="5" xml:id="note-t-5"/>
+                </ab>
+<ab rend="indent">And then last week I got a box of paints from <rs type="pers" key="423">Uncle Cent</rs> that is rather good, certainly good enough to start with (the paint is from <rs type="pers" key="553">Paillard</rs>).<anchor n="6" xml:id="note-t-6"/> And I’m very glad to have it.</ab>
+<vg:whiteline/>
+<ab>
+                    <figure facs="zone-sketch-2" n="B"/>
+                </ab>
+<vg:whiteline/>
+<ab>I’ve just tried making a kind of watercolour, like the above motif.<anchor n="7" xml:id="note-t-7"/>
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">I count myself very lucky to be able to get models, I’m also searching around for a horse and donkey.<anchor n="8" xml:id="note-t-8"/>
+                </ab>
+<ab rend="indent">That thick Ingres paper<anchor n="9" xml:id="note-t-9"/> is especially good for drawing with watercolour, and a great deal cheaper than other paper.</ab>
+<ab rend="indent">Still, there’s no particular hurry, because I have some on hand, but unfortunately plain white brought from The Hague.</ab>
+<ab rend="indent">Anyway, you see that I’m hard at work. <rs type="pers" key="423">Uncle Cent</rs> will be going to The Hague tomorrow and will most likely speak with <rs type="pers" key="323">Mauve</rs> again about when I should next visit him.</ab>
+<ab rend="indent">And now adieu, have walked far today and am surprisingly tired, but didn’t want the letter to leave without enclosing something.<anchor n="10" xml:id="note-t-10"/>
+                </ab>
+<ab rend="indent">I wish you well, and accept a handshake in thought.</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent.</ab>
+<vg:whiteline/>
+<ab>
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/>
+                </ab>
+<ab>
+                    <figure facs="zone-sketch-3" n="C"/> </ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>The enclosed letter from <rs type="pers" key="524 526">Mr and Mrs van Gogh</rs> is no longer extant.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>Drawings similar to letter sketch A are not known.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>This drawing of a pollard willow is not known.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>Because the letter closes with a sketch of a digger (letter sketch C), Van Gogh must be referring to the corresponding drawing: <hi rend="ital">Digger</hi> (<rs type="ill" key="2347">F 866 / JH 54</rs>). See cat. Amsterdam 1996, pp. 96-98, cat. no. 21.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>There are no known drawings of basket-makers.</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>
+                        <rs type="pers" key="553">Jacques Michel Paillard</rs> was a paint dealer and manufacturer in Paris; his shop was located at Faubourg St Denis 132 (<hi rend="ital">Almanach du commerce</hi> <hi rend="ital">de Paris </hi>1886 and <hi rend="ital">AP</hi>, Listes électorales, 9e arrondissement; Calepins du cadastre).</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>There is no known watercolour displaying a composition comparable to that of letter sketch B (<hi rend="ital">Farmhouses on the road with trees</hi>).</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>The only drawing made in Etten in which one of these animals occurs is <hi rend="ital">Donkey and cart</hi> (<rs type="otherart" key="938">F SD1677 / JH 52</rs>), though it is uncertain whether that drawing dates from this time. Van Heugten dates the drawing to October 1881 but leaves open the possibility of a dating to c. May 1881 (cat. Amsterdam 1996, pp. 93-95, cat. no. 20).</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>The thicker kind of ‘Ingres paper’, which he had bought at <rs type="pers" key="759">Stam</rs>’s (<ref target="let171.xml">see letter 171</ref>).</ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>This could refer either to the letter (which Van Gogh enclosed with one from their parents <ref target="#l-2">(l. 2)</ref> or to the sketches he sent, which Theo subsequently commented upon (cf. <ref target="let175.xml">letter 175</ref>).</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

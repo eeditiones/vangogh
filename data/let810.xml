@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Saint-Rémy-de-Provence, on or about Tuesday, 8 October 1889.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let810"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">810</idno>
+<idno type="collectedletters">610</idno>
+<idno type="brieven1990">810</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Saint-Rémy-de-Provence</vg:placeLet>
+                        <vg:dateLet>on or about Tuesday, 8 October 1889</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. Saint-Rémy-de-Provence, on or about Tuesday, 8 October 1889.</p>
+<note type="ongoingTopic" n="1">
+<p>Entry for the Les Vingt exhibition in Brussels <ref target="let792.xml">(792)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="2">
+<p>Jo’s pregnancy <ref target="let786.xml">(786)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="3">
+<p>Mrs van Gogh and Willemien’s move to Leiden <ref target="let798.xml">(798)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="4">
+<p>Third consignment of paintings from Saint-Rémy <ref target="let806.xml">(806)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b658 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Van Gogh is referring to the consignment of paintings which he sent ‘about ten days ago’ <ref target="#l-125">(l. 125)</ref>. Considering that he sent the consignment on Saturday, 28 September (<ref target="let806.xml">see letter 806</ref>), we have dated the present letter to about Tuesday, 8 October 1889.</p>
+                    </note>
+<note type="additionalDetail" xml:id="additionalDetail">
+<p>Van Gogh enclosed letters for Isaäcson and Gauguin (both no longer extant), as well as one for Bernard (<ref target="let809.xml">letter 809</ref>), and asked Theo to deliver them.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0658" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000901_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000901_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000901_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000901_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000901_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000901_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0658" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000901_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000901_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000901_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000901_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000901_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000901_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000901_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000901_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000901_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Mon cher Theo,</ab>
+                <lb n="1*" xml:id="l-1s"/>
+<ab>je viens de rentrer une toile à laquelle je <lb n="2" xml:id="l-2"/>travaille depuis quelque temps representant encore <lb n="3" xml:id="l-3"/>le même champ du faucheur. À present c’est des <lb n="4" xml:id="l-4"/>mottes de terre et le fonds les terrains arides <lb n="5" xml:id="l-5"/>puis les rochers des Alpines<c type="kp">_</c> Un bout de ciel bleu vert <lb n="6" xml:id="l-6"/>avec petit nuage blanc &amp; violet<c type="kp">_</c> Sur l’avant plan: <lb n="7" xml:id="l-7"/>Un chardon et des herbes sèches<c type="kp">_</c> Un paysan <lb n="8" xml:id="l-8"/>trainant une botte de paille au milieu<c type="kp">_</c> C’est encore <lb n="9" xml:id="l-9"/>une etude rude et au lieu d’être jaune presqu’en<c type="shy">-</c>
+                    <lb n="10" xml:id="l-10"/>tierement cela fait une toile violette presque <lb n="11" xml:id="l-11"/>tout à fait. Des violets rompus et neutres.<anchor n="1" xml:id="note-o-1"/>
+                </ab>
+                <lb n="12" xml:id="l-12"/>
+<ab rend="indent">Mais je t’ecris cela parceque je crois que <lb n="13" xml:id="l-13"/>cela complètera le faucheur et fera mieux voir <lb n="14" xml:id="l-14"/>ce que c’est. Car le faucheur parait fait au hasard <lb n="15" xml:id="l-15"/>et ceci avec le mettra d’aplomb. Aussitôt <lb n="16" xml:id="l-16"/>seche je te l’envoie avec la repetition de la <lb n="17" xml:id="l-17"/>chambre à coucher.<anchor n="2" xml:id="note-o-2"/> Je te prie beaucoup de <lb n="18" xml:id="l-18"/>les montrer<c type="kk">/</c> si l’un ou l’autre verra les etudes<c type="kk">/</c> <lb n="19" xml:id="l-19"/>
+                    <hi rend="ital">ensemble</hi> à cause de l’opposition des <lb n="20" xml:id="l-20"/>complémentaires<c type="kp">_</c>
+                </ab>
+                <lb n="21" xml:id="l-21"/>
+<ab rend="indent">Puis j’ai fait cette semaine l’entrée d’une carrière qui est <lb n="22" xml:id="l-22"/>comme une chôse japonaise<c type="kk">/</c>
+                    <anchor n="3" xml:id="note-o-3"/> tu te rappelles bien qu’il <lb n="23" xml:id="l-23"/>y a des dessins japonais de rochers où croissent cà <lb n="24" xml:id="l-24"/>et là des herbes et de petits arbres. Il y a des <lb n="25" xml:id="l-25"/>moments entre temps où la nature est superbe<c type="kk">/</c> <lb n="26" xml:id="l-26"/>des effets d’automne d’un glorieux comme couleur<c type="kk">/</c> <lb n="27" xml:id="l-27"/>des ciels verts contrastant avec des végétations jaunes<c type="kk">/</c> <lb n="28" xml:id="l-28"/>orangées<c type="kk">/</c> vertes<c type="kk">/</c> des terrains de tous les violets<c type="kk">/</c> l’herbe <lb n="29" xml:id="l-29"/>brûlée où les pluies ont néamoins rendu une <lb n="30" xml:id="l-30"/>derniere vigueur à certaines plantes qui se <lb n="31" xml:id="l-31"/>reprennent à produire des petites fleurs violettes<c type="kk">/</c> <lb n="32" xml:id="l-32"/>roses<c type="kk">/</c> bleues<c type="kk">/</c> jaunes. Des chôses qu’on est tout <lb n="33" xml:id="l-33"/>mélancolique de ne pouvoir rendre.</ab>
+                <lb n="34" xml:id="l-34"/>
+<ab rend="indent">Et des ciels – comme nos ciels du nord mais <lb n="35" xml:id="l-35"/>les couleurs des couchers et des levers de soleil sont <lb n="36" xml:id="l-36"/>plus variées et plus franches. Comme dans les Jules <lb n="37" xml:id="l-37"/>Dupré et les Ziem.</ab>
+                <lb n="38" xml:id="l-38"/>
+<ab rend="indent">J’ai aussi deux vues du parc et de la maison de santé où ce <lb n="39" xml:id="l-39"/>lieu parait fort agréable<c type="kp">_</c> J’ai cherché à reconstruire <lb n="40" xml:id="l-40"/>la chôse comme cela a pu être en simplifiant et en accentuant <lb n="41" xml:id="l-41"/>le caractère fier et inalterable des pins et des buissons de cèdre <lb n="42" xml:id="l-42"/>contre le bleu<c type="kp">_</c>
+                    <anchor n="4" xml:id="note-o-4"/>
+                </ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="43" xml:id="l-43"/>
+<ab rend="indent">Enfin – si serait qu’ils se souviendraient de moi – ce à quoi je <lb n="44" xml:id="l-44"/>ne tiens pas – il y aura de quoi envoyer quelque chôse <lb n="45" xml:id="l-45"/>de coloré aux vingtistes. Mais cela m’est indifferent<c type="kp">_</c> <lb n="46" xml:id="l-46"/>Ce qui ne m’est pas indifférent c’est qu’un homme qui <lb n="47" xml:id="l-47"/>m’est très supérieur<c type="kk">/</c> Meunier<c type="kk">/</c> ait peint les <lb n="48" xml:id="l-48"/>scloneuses du Borinage et le trait allant à fosse <lb n="49" xml:id="l-49"/>et les usines<c type="kk">/</c> leurs toits rouges et leurs cheminées noires <lb n="50" xml:id="l-50"/>contre un ciel gris fin<anchor n="5" xml:id="note-o-5"/> – toutes chôses que j’ai rêvées <lb n="51" xml:id="l-51"/>de faire<c type="kk">/</c> sentant que ce n’était pas fait et que cela <lb n="52" xml:id="l-52"/>devait être peint. Et encore il y a pour les artistes <lb n="53" xml:id="l-53"/>des sujets à l’infini par là et il faudrait descendre <lb n="54" xml:id="l-54"/>dans le fond et peindre les effets de lumière<c type="kp">_</c>
+                </ab>
+                <lb n="55" xml:id="l-55"/>
+<ab rend="indent">Si tu n’as pas encore expedié la toile et les couleurs<anchor n="6" xml:id="note-o-6"/> <lb n="56" xml:id="l-56"/>saches que je suis absolument sans toile à présent<c type="kp">_</c>
+                </ab>
+                <lb n="57" xml:id="l-57"/>
+<ab rend="indent">Et j’allais te demander si serait le cas que tu trouverais <lb n="58" xml:id="l-58"/>difficulté à envoyer le montant de ce que je lui <lb n="59" xml:id="l-59"/>dois à m. Peyron tout de suite<c type="kk">/</c>
+                    <anchor n="7" xml:id="note-o-7"/> s’il t’etait possible <lb n="60" xml:id="l-60"/>de m’envoyer alors par bon de poste une <lb n="61" xml:id="l-61"/>quinzaine de francs j’irais un de ces jours à Arles<c type="kp">_</c>
+                </ab>
+                <lb n="62" xml:id="l-62"/>
+<ab rend="indent">Souvent il me semble que si Gauguin etait resté ici <lb n="63" xml:id="l-63"/>il n’y aurait rien perdu car je vois bien aussi dans <lb n="64" xml:id="l-64"/>la lettre qu’il m’a écrite qu’il n’est pas en plein dans son <lb n="65" xml:id="l-65"/>fort.<anchor n="8" xml:id="note-o-8"/> Et je sais bien à quoi cela tient – ils sont trop <lb n="66" xml:id="l-66"/>gênés pour trouver les modèles<c type="kk">/</c> et vivre à si bon compte <lb n="67" xml:id="l-67"/>qu’il croyait possible dans le commencement n’aura pas <lb n="68" xml:id="l-68"/>duré. Cependant avec sa patience l’année prochaine <lb n="69" xml:id="l-69"/>sera peut être épatante. mais alors il n’aura pas Bernard <lb n="70" xml:id="l-70"/>avec lui si celui là fait son service.<anchor n="9" xml:id="note-o-9"/>
+                </ab>
+                <lb n="71" xml:id="l-71"/>
+<ab rend="indent">Est ce que tu sens combien les figures de Jules Breton et <lb n="72" xml:id="l-72"/>Billet<anchor n="10" xml:id="note-o-10"/> et autres <hi rend="ital">resteront</hi>
+                    <c type="kp">_</c> Ces gens-là ont vaincu la <lb n="73" xml:id="l-73"/>difficulté des modèles et c’est beaucoup cela<c type="kp">_</c> Et un tableau <lb n="74" xml:id="l-74"/>d’Otto Weber du bon temps (pas des anglais)<anchor n="11" xml:id="note-o-11"/> comme <lb n="75" xml:id="l-75"/>cela doit se maintenir<c type="kp">_</c> Une hirondelle n’amène pas le <lb n="76" xml:id="l-76"/>printemps et une idée nouvelle n’abat point des <lb n="77" xml:id="l-77"/>oeuvres faites et parfaites<c type="kp">_</c> C’est là le terrible des <lb n="78" xml:id="l-78"/>impressionistes que le développement de la chôse cloche <lb n="79" xml:id="l-79"/>et qu’ils restent des années devant des obstacles dont <lb n="80" xml:id="l-80"/>la génération précédente avait triomphé<c type="kk">/</c> la difficulté <lb n="81" xml:id="l-81"/>d’argent et de modèles. Et ainsi Breton<c type="kk">/</c> Billet et <lb n="82" xml:id="l-82"/>autres doivent bien s’en moquer et s’etonner <lb n="83" xml:id="l-83"/>et dire: “mais voyons à quand vos paysans et vos <lb n="84" xml:id="l-84"/>paysannes”.– Moi je me sens pour un honteux <lb n="85" xml:id="l-85"/>et défait.</ab>
+                <lb n="86" xml:id="l-86"/>
+<ab rend="indent">j’ai copié cette femme avec un enfant assise auprès <lb n="87" xml:id="l-87"/>d’un foyer de M<hi rend="ss">me</hi> Dumont Breton<c type="kk">/</c> presque tout <lb n="88" xml:id="l-88"/>violet<c type="kk">/</c>
+                    <anchor n="12" xml:id="note-o-12"/> je vais certainement continuer à copier<c type="kk">/</c> <lb n="89" xml:id="l-89"/>cela me fera une collection à moi et lorsque ce sera 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                    <lb n="90" xml:id="l-90"/>important et complet assez je donne le tout à une <lb n="91" xml:id="l-91"/>école<c type="kp">_</c>
+                </ab>
+                <lb n="92" xml:id="l-92"/>
+<ab rend="indent">Je peux t’annoncer aussi que prochain envoi tu feras <lb n="93" xml:id="l-93"/>plus amplement connaissance avec les Alpines du bon <lb n="94" xml:id="l-94"/>Tartarin<anchor n="13" xml:id="note-o-13"/> que jusqu’à présent – sauf la toile des montagnes<anchor n="14" xml:id="note-o-14"/> – <lb n="95" xml:id="l-95"/>tu n’as encore vu se defiler que tout au fond des toiles<c type="kp">_</c> <lb n="96" xml:id="l-96"/>J’en ai une étude plus rude que la précédente des <lb n="97" xml:id="l-97"/>montagnes<c type="kp">_</c> Un ravin très sauvage où se faufile <lb n="98" xml:id="l-98"/>un mince ruisseau dans son lit de rochers<c type="kp">_</c>
+                    <anchor n="15" xml:id="note-o-15"/>
+                </ab>
+                <lb n="99" xml:id="l-99"/>
+<ab rend="indent">C’est tout violet. De ces Alpines je pourrais certes faire <lb n="100" xml:id="l-100"/>toute une série car les ayant vus à présent longtemps je <lb n="101" xml:id="l-101"/>me suis un peu fait à cela. Tu te rappelles ce beau paysage de <lb n="102" xml:id="l-102"/>Monticelli que nous avons vu chez Delarebeyrette d’un arbre sur <lb n="103" xml:id="l-103"/>des rochers contre un couchant.<anchor n="16" xml:id="note-o-16"/> Des effets comme cela il <lb n="104" xml:id="l-104"/>y en a beaucoup à présent<c type="kk">/</c> seulement je ne peux jamais <lb n="105" xml:id="l-105"/>être dehors à l’heure du coucher de soleil sans quoi j’en aurais <lb n="106" xml:id="l-106"/>essayé.</ab>
+                <lb n="107" xml:id="l-107"/>
+<ab rend="indent">Est ce que la santé de Jo continue à aller bien. je crois <lb n="108" xml:id="l-108"/>qu’en somme cette année est plus heureuse pour toi que <lb n="109" xml:id="l-109"/>les précédentes. Pour moi la santé va bien de ces jours <lb n="110" xml:id="l-110"/>ci – je crois bien que M. Peyron a raison lorsqu’il dit que je <lb n="111" xml:id="l-111"/>ne suis pas fou proprement dit car ma pensée est absolument <lb n="112" xml:id="l-112"/>normale et claire entre temps et même davantage <lb n="113" xml:id="l-113"/>qu’auparavant. mais dans les crises c’est pourtant terrible <lb n="114" xml:id="l-114"/>et alors je perds connaissance de tout. Mais cela me pousse <lb n="115" xml:id="l-115"/>au travail et au serieux comme un charbonnier toujours <lb n="116" xml:id="l-116"/>en danger se dépêche dans ce qu’il fait. La mère et la <lb n="117" xml:id="l-117"/>soeur feront leurs préparatifs de déménagement<c type="kp">_</c>
+                </ab>
+                <lb n="118" xml:id="l-118"/>
+<ab rend="indent">Je t’envoie ci inclus un mot pour Isaacson<c type="kk">/</c> <lb n="119" xml:id="l-119"/>Bernard et Gauguin<c type="kp">_</c> C’est naturellement pas <lb n="120" xml:id="l-120"/>pressé du tout de le leur remettre. la première <lb n="121" xml:id="l-121"/>fois qu’ils viendront te voir suffit. Le soir je m’embête <lb n="122" xml:id="l-122"/>à mourir<c type="kk">/</c> mon dieu la perspective de l’hiver n’est <lb n="123" xml:id="l-123"/>pas gaie.</ab>
+                <lb n="124" xml:id="l-124"/>
+<ab rend="indent">J’espère que tu auras reçu en bon ordre les toiles <lb n="125" xml:id="l-125"/>expediées il y a une dizaine de jours.</ab>
+                <lb n="126" xml:id="l-126"/>
+<ab rend="indent">Je m’en vais faire une longue course dans les montagnes <lb n="127" xml:id="l-127"/>pour chercher des sites<c type="kp">_</c> à bientôt – surtout envoie <lb n="128" xml:id="l-128"/>la couleur et la toile si c’est pas expédié car je n’ai plus <lb n="129" xml:id="l-129"/>de toile du tout ni de blanc de zinc.</ab>
+                <lb n="130" xml:id="l-130"/>
+<ab rend="indent">Bien des chôses à Jo.</ab>
+<vg:whiteline/>
+                <lb n="131" xml:id="l-131"/>
+<ab>t. à t<c type="kp">_</c>
+                </ab>
+                <lb n="131"/>
+<ab>Vincent.</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-6" n="6">plan: &lt; plan</note>
+<note target="l-94" n="94">sauf &lt; Sauf</note>
+<note target="l-94" n="94">montagnes – &lt; montagnes</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo,</ab>
+<ab>I’ve just brought back a canvas I’ve been working on for some time, once again of the same field as the one of the reaper. Now it’s mounds of earth and the background parched lands, then the rocks of the Alpilles. A bit of blue-green sky with small white and violet cloud. In the foreground: A thistle and some dry grass. A peasant dragging a bundle of straw in the middle. It’s another harsh study, and instead of being almost entirely yellow it makes an almost completely violet canvas. Broken and neutral violets.<anchor n="1" xml:id="note-t-1"/>
+                </ab>
+<ab rend="indent">But I’m writing you this because I think that this will complement the reaper and will make it easier to see what it is. For the reaper appears done at random, and this with it will balance it. As soon as it’s dry I’ll send it to you with the repetition of the bedroom.<anchor n="2" xml:id="note-t-2"/> I seriously ask you to show them <hi rend="ital">together</hi>, if someone or other comes to see the studies, because of the opposition of the complementaries.</ab>
+<ab rend="indent">Then this week I’ve done the entrance to a quarry, which is like a Japanese thing,<anchor n="3" xml:id="note-t-3"/> you’ll well remember that there are Japanese drawings of rocks where grasses and little trees grow here and there. There are moments between times when nature is superb, autumnal effects glorious in colour, green skies contrasting with yellow, orange, green vegetation, earth in all shades of violet, burnt grass where the rains have nevertheless given a last vigour to certain plants, which again start to produce little violet, pink, blue, yellow flowers. Things that make you quite melancholy not to be able to render them.</ab>
+<ab rend="indent">And the skies – like our northern skies, but the colours of the sunsets and sunrises are more varied and more pure. As in works by <rs type="pers" key="986">Jules Dupré</rs> and <rs type="pers" key="1449">Ziem</rs>.</ab>
+<ab rend="indent">I also have two views of the park and the asylum in which this place appears most agreeable. I tried to reconstruct the thing as it may have been by simplifying and accentuating the proud, unchanging nature of the pines and the cedar bushes against the blue.<anchor n="4" xml:id="note-t-4"/> 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">Anyway – if they should happen to remember me – which I’m not keen on – there’ll be enough to send something coloured to the Vingtistes. But I’m indifferent to that. What I’m not indifferent to is that a man who is far superior to me, <rs type="pers" key="1209">Meunier</rs>, has painted the female thrutchers of the Borinage and the shift going to the pit and the factories, their red roofs and their black chimneys against a delicate grey sky<anchor n="5" xml:id="note-t-5"/> – all things I’ve dreamed of doing, feeling that it hadn’t been done and that it ought to be painted. And still, there’s an infinite number of subjects there for artists, and one should go down into the depths and paint the light effects.</ab>
+<ab rend="indent">If you haven’t yet sent the canvas and the colours,<anchor n="6" xml:id="note-t-6"/> you should know that I now have absolutely no canvas.</ab>
+<ab rend="indent">And I was going to ask you if you would find it difficult to send the amount of what I owe to <rs type="pers" key="568">Mr Peyron</rs> immediately,<anchor n="7" xml:id="note-t-7"/> if it was possible for you then to send me about fifteen francs by postal order, I would go to Arles one of these days.</ab>
+<ab rend="indent">It often seems to me that if <rs type="pers" key="1039">Gauguin</rs> had remained here he wouldn’t have lost anything, for I clearly see, also in the letter he wrote me, that he isn’t entirely at the top of his form.<anchor n="8" xml:id="note-t-8"/> And I know well the cause of that – they’re too hard up to find models, and living as cheaply as he thought possible at the beginning won’t have lasted. However, with his patience, next year will perhaps be dazzling. But then he won’t have <rs type="pers" key="831">Bernard</rs> with him if the latter does his military service.<anchor n="9" xml:id="note-t-9"/>
+                </ab>
+<ab rend="indent">Do you sense how much the figures of <rs type="pers" key="899">Jules Breton</rs> and <rs type="pers" key="876">Billet</rs>
+                    <anchor n="10" xml:id="note-t-10"/> and others <hi rend="ital">will remain</hi>? Those people overcame the difficulty of models, and that’s a lot. And a painting like that by <rs type="pers" key="1423">Otto Weber</rs> from the good period (not the English)<anchor n="11" xml:id="note-t-11"/> is bound to hold its own. One swallow doesn’t make a summer, and one new idea doesn’t in any way destroy works that have been done and perfected. That’s the terrible thing about the Impressionists, that the development of the thing gets stuck, and that for years they’re left facing obstacles that the preceding generation had overcome, the difficulty of money and models. And so Breton, Billet and others really are certain to mock it and be astonished and say: ‘come on, when are we going to see your peasants and your peasant women?’ As for me, I feel ashamed and defeated.</ab>
+<ab rend="indent">I’ve copied that woman with a child sitting beside a hearth by <rs type="pers" key="901">Mrs Demont-Breton</rs>, almost all violet,<anchor n="12" xml:id="note-t-12"/> I’m certainly going to continue copying, it will give me a collection of my own, and when it’s 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> sufficiently large and complete I’ll give the whole lot to a school.</ab>
+<ab rend="indent">I can also tell you that next consignment you’ll become better acquainted with good Tartarin’s Alpilles,<anchor n="13" xml:id="note-t-13"/> which up to now – apart from the canvas of the mountains<anchor n="14" xml:id="note-t-14"/> – you haven’t yet seen unfold, except in the distant background of the canvases. I have a study, rougher than the previous one of the mountains. A very wild ravine where a slender stream weaves its way along its bed of rocks.<anchor n="15" xml:id="note-t-15"/>
+                </ab>
+<ab rend="indent">It’s all violet. I could certainly do an entire series of these Alpilles, for having seen them for a long time now I’ve got used to it a little. You remember that fine landscape by <rs type="pers" key="1240">Monticelli</rs> that we saw at <rs type="pers" key="344">Delarebeyrette</rs>’s, of a tree on some rocks against a sunset.<anchor n="16" xml:id="note-t-16"/> There are a lot of effects like that at the moment, only I can’t ever be outside at the time the sun sets, otherwise I would have tried it.</ab>
+<ab rend="indent">Does <rs type="pers" key="416">Jo</rs> continue in good health? I think that all in all this year is happier for you than the preceding ones. As for me, my health has been good lately – I really think that <rs type="pers" key="568">Mr Peyron</rs> is right when he says that strictly speaking I’m not mad, for my thoughts are absolutely normal and clear between times, and even more than before, but during the crises it’s terrible however, and then I lose consciousness of everything. But it drives me to work and to seriousness, as a coal-miner who is always in danger makes haste in what he does. Our <rs type="pers" key="524">mother</rs> and <rs type="pers" key="407">sister</rs> will be making their preparations to move house.</ab>
+<ab rend="indent">I’m enclosing a note for <rs type="pers" key="1103">Isaäcson</rs>, <rs type="pers" key="831">Bernard</rs> and <rs type="pers" key="1039">Gauguin</rs>. Naturally there’s no urgency at all to get it to them. The first time they come to see you will suffice. In the evenings I’m bored to death, my God the prospect of winter isn’t a cheery one.</ab>
+<ab rend="indent">I hope that you’ll have received the canvases sent about ten days ago in good order.</ab>
+<ab rend="indent">I’m going off for a long hike in the mountains to look for sites. More soon – above all send the paint and the canvas if it hasn’t been sent, for I’ve no canvas left at all, nor any zinc white.</ab>
+<ab rend="indent">Kind regards to <rs type="pers" key="416">Jo</rs>.</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent.</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>Van Gogh had depicted this field in his three versions of the <hi rend="ital">Reaper</hi>: <rs type="ill" key="2813">F 617 / JH 1753</rs>, <rs type="ill" key="2828">F 618 / JH 1773</rs> and <rs type="ill" key="2844">F 619 / JH 1792</rs>. The new study is <hi rend="ital">Ploughed field with a man carrying a bundle of straw </hi>(<rs type="ill" key="2846">F 641 / JH 1795</rs>).</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>
+      <hi rend="ital">The bedroom </hi>(<rs type="ill" key="3007">F 484 / JH 1771</rs>) is the repetition of <hi rend="ital">The bedroom </hi>(<rs type="ill" key="2735">F 482 / JH 1608</rs>).</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>
+      <hi rend="ital">Entrance to a quarry </hi>(<rs type="ill" key="2824">F 635 / JH 1767</rs>).</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>The description ‘the pines and the cedar bushes against the blue’ refers to <hi rend="ital">Pine trees in the garden of the asylum </hi>(<rs type="ill" key="2850">F 643 / JH 1799</rs>). The second work is probably <hi rend="ital">Trees in the garden of the asylum</hi> (<rs type="ill" key="2849">F 642 / JH 1798</rs>).</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+      <ab>For the paintings <hi rend="ital">
+                            <rs type="ill" key="1150">Black region, Borinage</rs>
+                        </hi>, <hi rend="ital">
+                            <rs type="otherart" key="892">Female coal-pit drawers (the coupling point)</rs>
+                        </hi> and <hi rend="ital">
+                            <rs type="otherart" key="893">Return from the pit (black)</rs>
+                        </hi> by <rs type="pers" key="1209">Meunier</rs>, which Theo had written about, <ref target="let802.xml#n-5">see letter 802, n. 5.</ref>
+                    </ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>In <ref target="let808.xml">letter 808</ref> Van Gogh had said that he urgently needed zinc white and canvas.</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>Vincent owed <rs type="pers" key="568">Dr Peyron</rs> 125 francs; <ref target="let808.xml">see letter 808</ref>. </ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>Van Gogh is probably referring here to the letter from <rs type="pers" key="1039">Gauguin</rs>, receipt of which he confirmed in <ref target="let797.xml">letter 797</ref> of 22 August. From <ref target="let808.xml">letter 808</ref> it emerges that he had not yet answered it.</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>Regarding <rs type="pers" key="831">Bernard</rs>’s military service, <ref target="let575.xml#n-8">see letter 575, n. 8.</ref>
+                    </ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>
+                        <rs type="pers" key="876">Pierre Billet</rs> was a pupil of <rs type="pers" key="899">Jules Breton</rs>. He belonged to the second generation of realists and specialized in portraying the life of peasants and fishermen.</ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>
+                        <rs type="pers" key="1423">Otto Weber</rs>, a pupil of Steffeck in Berlin and Couture in Paris, had specialized in landscape painting. In 1854 his work was exhibited at the Berlin Salon, and he received prizes at the Paris Salon of 1864 and 1869. He later settled in London, where he worked for Queen Victoria. From 1874 until his death he exhibited regularly at the Royal Academy, specializing in watercolours. Van Gogh’s remark therefore refers to work Weber had made before 1874.</ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+<ab>
+      <hi rend="ital">The husband is at sea (after Demont-Breton) </hi>(<rs type="ill" key="2854">F 644 / JH 1805</rs>). For the print by <rs type="pers" key="901">Virginie Demont-Breton</rs> after which Van Gogh made the painting, <ref target="let800.xml#n-26">see letter 800, n. 26.</ref>
+                    </ab>
+                </note>
+<note n="13" xml:id="n-13" target="#note-t-13">
+<ab>For <rs type="pers" key="583">Daudet</rs>’s <hi rend="ital">
+                            <rs type="lit" key="460">Tartarin sur les Alpes</rs>
+                        </hi>, <ref target="let583.xml#n-9">see letter 583, n. 9.</ref>
+                    </ab>
+                </note>
+<note n="14" xml:id="n-14" target="#note-t-14">
+<ab>Theo had received <hi rend="ital">The Alpilles with a hut </hi>(<rs type="ill" key="2823">F 622 / JH 1766</rs>) in the second consignment from Saint-Rémy; <ref target="let807.xml">see letter 807</ref>.</ab>
+                </note>
+<note n="15" xml:id="n-15" target="#note-t-15">
+<ab>
+      <hi rend="ital">Ravine </hi>(<rs type="ill" key="2853">F 662 / JH 1804</rs>). Owing to a lack of canvas (<ref target="#l-55">see ll. 55-56</ref>), Van Gogh painted this over a landscape from June 1889. See Chavannes and Van Tilborgh 2007.</ab>
+                </note>
+<note n="16" xml:id="n-16" target="#note-t-16">
+<ab>It is not known which work by <rs type="pers" key="1240">Monticelli</rs> is referred to here.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

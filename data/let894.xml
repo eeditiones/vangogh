@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>Theo van Gogh to Vincent van Gogh. Paris, Monday, 30 June and Tuesday, 1 July 1890.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let894"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">894</idno>
+<idno type="collectedletters">T39</idno>
+<idno type="brieven1990">899</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Theo van Gogh</author>
+                        <vg:addressee>Vincent van Gogh</vg:addressee>
+                        <vg:placeLet>Paris</vg:placeLet>
+                        <vg:dateLet>Monday, 30 June and Tuesday, 1 July 1890</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>Theo van Gogh to Vincent van Gogh. Paris, Monday, 30 June and Tuesday, 1 July 1890.</p>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. nos. b766 a-b V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Letter headed: ‘Paris le 30 Juin 1890’. The last part of the letter was written the following morning <ref target="#l-149">(ll. 149-154)</ref>. We have therefore dated the letter to Monday, 30 June and Tuesday, 1 July 1890.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0766 a" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001001034_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001001034_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001001034_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001001034_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001034_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001034_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="VGM001001034_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001034_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001034_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0766 a" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001001034_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001001034_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001001034_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001001034_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001034_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001034_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001001034_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001034_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001034_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0766 b" xml:id="surf-pb-2r">
+            <graphic mimeType="image/tiff" url="VGM001001035_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001001035_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001001035_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-2r-5">
+<graphic mimeType="image/tiff" url="VGM001001035_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001035_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001035_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-2r-8">
+<graphic mimeType="image/tiff" url="VGM001001035_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001035_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001035_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0766 b" xml:id="surf-pb-2v">
+            <graphic mimeType="image/tiff" url="VGM001001035_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001001035_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001001035_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-2v-6">
+<graphic mimeType="image/tiff" url="VGM001001035_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001035_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001035_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-2v-7">
+<graphic mimeType="image/tiff" url="VGM001001035_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001035_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001035_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Paris le 30 Juin 1890.</ab>
+<vg:whiteline/>
+                <lb n="2" xml:id="l-2"/>
+<ab>Mon très cher frère,<anchor n="1" xml:id="note-o-1"/>
+                </ab>
+                <lb n="3" xml:id="l-3"/>
+<ab>Nous avons été dans la <lb n="4" xml:id="l-4"/>plus grande inquiétude, notre chéri <lb n="5" xml:id="l-5"/>a été très souffrant, mais heureusement <lb n="6" xml:id="l-6"/>le médecin, qui était inquièt lui-même<c type="kk">/</c> <lb n="7" xml:id="l-7"/>disait à Jo hier<c type="kk">/</c> vous ne perdrez pas <lb n="8" xml:id="l-8"/>l’enfant de celà. Dans ce Paris le meilleur <lb n="9" xml:id="l-9"/>lait que l’on puisse avoir est une <lb n="10" xml:id="l-10"/>véritable poison. Maintenant nous <lb n="11" xml:id="l-11"/>lui donnons du lait d’anesse &amp; cela <lb n="12" xml:id="l-12"/>lui a fait du bien, mais jamais tu as <lb n="13" xml:id="l-13"/>entendu quelque chose de si douloreux <lb n="14" xml:id="l-14"/>que cette plainte presque continuelle <lb n="15" xml:id="l-15"/>durant plusieurs jours &amp; plusieurs nuits</ab>
+                <lb n="16" xml:id="l-16"/>
+<ab>&amp; que l’on ne sait pas quoi faire &amp; que 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                    <lb n="17" xml:id="l-17"/>tout ce que l’on fait a l’air d’agraver <lb n="18" xml:id="l-18"/>son mal. Ce n’est pas que le lait n’est <lb n="19" xml:id="l-19"/>pas frais, mais c’est dans la nouriture <lb n="20" xml:id="l-20"/>&amp; le traitement des vaches. C’est abominable<c type="kp">_</c>
+                </ab>
+                <lb n="21" xml:id="l-21"/>
+<ab rend="indent">Tu penses que nous sommes heureux que <lb n="22" xml:id="l-22"/>cela va mieux. Jo a été admirable <lb n="23" xml:id="l-23"/>comme tu le penses bien. Une vraie mère<c type="kk">/</c> <lb n="24" xml:id="l-24"/>mais elle s’est beaucoup fatiguée<c type="kk">/</c> de <lb n="25" xml:id="l-25"/>trop même, puisse-t-elle retrouver ses forces <lb n="26" xml:id="l-26"/>&amp; ne pas avoir de nouvelles épreuves à subir<c type="kp">_</c> <lb n="27" xml:id="l-27"/>En ce moment heureusement elle dort, mais <lb n="28" xml:id="l-28"/>dans son sommeil elle se plaint &amp; je n’y <lb n="29" xml:id="l-29"/>peux rien. Si seulement l’enfant qui dort <lb n="30" xml:id="l-30"/>aussi lui, la laisse dormir pendant quelques <lb n="31" xml:id="l-31"/>heures<c type="kk">/</c> tous les deux se réveilleront avec <lb n="32" xml:id="l-32"/>un sourire, je l’espère. En général la <lb n="33" xml:id="l-33"/>vie est dure pour elle en ce moment<c type="kp">_</c>
+                </ab>
+                <lb n="34" xml:id="l-34"/>
+<ab rend="indent">Nous ne savons pas ce que nous devons faire<c type="kk">/</c> <lb n="35" xml:id="l-35"/>il y a des questions. Devons nous prendre <lb n="36" xml:id="l-36"/>un autre appartement, tu sais, dans la <lb n="37" xml:id="l-37"/>même maison au premier? Devons nous 
+ <pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                    <lb n="38" xml:id="l-38"/>aller à Auvers, en Hollande ou non. <lb n="39" xml:id="l-39"/>Dois je vivre sans soucis pour le jour de <lb n="40" xml:id="l-40"/>demain &amp; quand je travaille toute la <lb n="41" xml:id="l-41"/>journée &amp; n’arrive pas encore à éviter des <lb n="42" xml:id="l-42"/>soucis à cette bonne Jo au point de vue <lb n="43" xml:id="l-43"/>de l’argent, puisque ces rats de Boussod &amp; <lb n="44" xml:id="l-44"/>Valadon me traitent comme si je venais <lb n="45" xml:id="l-45"/>d’entrer chez eux &amp; me tiennent à court.<anchor n="2" xml:id="note-o-2"/>
+                    <lb n="46" xml:id="l-46"/>
+Dois je quand je ne calcule pas, sans faire <lb n="47" xml:id="l-47"/>des extras &amp; suis à court, leur dire ce qui <lb n="48" xml:id="l-48"/>en est &amp; s’ils osaient refuser, enfin leur <lb n="49" xml:id="l-49"/>dire<c type="kk">/</c> Messieurs je risque le paquet &amp; je vais <lb n="50" xml:id="l-50"/>me mettre marchand en chambre?<anchor n="3" xml:id="note-o-3"/> Je <lb n="51" xml:id="l-51"/>crois que j’arrive en t’écrivant à <lb n="52" xml:id="l-52"/>cette conclusion que c’est mon devoir <lb n="53" xml:id="l-53"/>&amp; que si Moe, ou Jo ou toi ou moi nous <lb n="54" xml:id="l-54"/>nous serrons un peu le ventre, cela ne <lb n="55" xml:id="l-55"/>nous avancerait à rien &amp; qu’au contraire, toi <lb n="56" xml:id="l-56"/>&amp; moi en nous remuant dans le monde non <lb n="57" xml:id="l-57"/>en pauvres bougres qui ne mangent pas, mais <lb n="58" xml:id="l-58"/>au contraire en tenant bon courage &amp; en 
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                    <lb n="59" xml:id="l-59"/>vivant tous soutenu par notre amour <lb n="60" xml:id="l-60"/>mutuel &amp; notre estime mutuel<c type="kk">/</c> nous <lb n="61" xml:id="l-61"/>irons bien plus loin &amp; nous accomplirons <lb n="62" xml:id="l-62"/>notre devoir &amp; notre tâche avec bien <lb n="63" xml:id="l-63"/>plus de serenité qu’en pesant chaque bouchée <lb n="64" xml:id="l-64"/>de pain. Qu’en dis tu mon vieux? Ne <lb n="65" xml:id="l-65"/>te casse pas la tête pour moi ou pour <lb n="66" xml:id="l-66"/>nous mon vieux, sâches le que ce qui <lb n="67" xml:id="l-67"/>me fait le plus grand plaisir c’est quand <lb n="68" xml:id="l-68"/>tu te portes bien &amp; quand tu es à ton <lb n="69" xml:id="l-69"/>travail qui est admirable. Tu as déja <lb n="70" xml:id="l-70"/>trop de feu, et nous devons être encore <lb n="71" xml:id="l-71"/>bon à la bataille d’içi longtemps, car nous <lb n="72" xml:id="l-72"/>bataillerons toute notre vie sans prendre <lb n="73" xml:id="l-73"/>l’avoine de grace que l’on donne aux vieux <lb n="74" xml:id="l-74"/>chevaux de grande maison. Nous tirerons <lb n="75" xml:id="l-75"/>la charrue jusqu’à ce que cela ne marche <lb n="76" xml:id="l-76"/>plus &amp; que nous regarderons encore avec admiration <lb n="77" xml:id="l-77"/>le soleil ou la lune, selon l’heurre. Nous <lb n="78" xml:id="l-78"/>aimons mieux cela que d’être mis dans un <lb n="79" xml:id="l-79"/>fauteuil à se frotter les jambes comme <lb n="80" xml:id="l-80"/>le vieux marchand à Auvers.<anchor n="4" xml:id="note-o-4"/> Dis vieux, fais <lb n="81" xml:id="l-81"/>tout pour ta santé, moi aussi j’en ferai <lb n="82" xml:id="l-82"/>autant<c type="kk">/</c> nous avons trop dans la caboche 
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+                    <lb n="83" xml:id="l-83"/>pour que nous oublions les paquerettes &amp; les <lb n="84" xml:id="l-84"/>mottes de terre fraichement remuées, et <lb n="85" xml:id="l-85"/>les branches de buisson qui germent au <lb n="86" xml:id="l-86"/>printemps<c type="kk">/</c> ni les branches d’arbres dénudées <lb n="87" xml:id="l-87"/>qui frissonnent en hiver<c type="kk">/</c> ni les ciels serains<anchor n="a" xml:id="note-o-a"/> <lb n="88" xml:id="l-88"/>bleus limpide<c type="kk">/</c> ni les gros nuages de l’automne<c type="kk">/</c> <lb n="89" xml:id="l-89"/>ni le ciel gris uniforme en hiver<c type="kk">/</c> ni <lb n="90" xml:id="l-90"/>le soleil comme il se levait au-dessus du <lb n="91" xml:id="l-91"/>jardin des tantes, ni le soleil rouge se <lb n="92" xml:id="l-92"/>couchant dans la mer à Scheveningen, <lb n="93" xml:id="l-93"/>ni la lune &amp; les étoiles une belle nuit <lb n="94" xml:id="l-94"/>d’été ou d’hiver, non<c type="kk">/</c> arrive ce qui <lb n="95" xml:id="l-95"/>arrive, voilà notre possession. Est ce <lb n="96" xml:id="l-96"/>assez, non<c type="kk">/</c> moi j’ai &amp; toi tu auras<c type="kk">/</c> je <lb n="97" xml:id="l-97"/>l’espère de tout mon coeur<c type="kk">/</c> un jour <lb n="98" xml:id="l-98"/>une femme à qui tu pourras dire <lb n="99" xml:id="l-99"/>ces choses-là &amp; moi dont la bouche est <lb n="100" xml:id="l-100"/>souvent close et dont la tête est souvent <lb n="101" xml:id="l-101"/>vide<c type="kk">/</c> c’est par elle que les germes qui <lb n="102" xml:id="l-102"/>plus que probable viennent de très loin mais <lb n="103" xml:id="l-103"/>
+qui ont été transmis par notre père &amp; 
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>
+                    <lb n="104" xml:id="l-104"/>notre mère bien aimés, ils pousseront <lb n="105" xml:id="l-105"/>peut être pour que je puisse devenir au <lb n="106" xml:id="l-106"/>moins un homme &amp; qui sait si mon fils <lb n="107" xml:id="l-107"/>s’il peut vivre &amp; si je puis l’aider, qui <lb n="108" xml:id="l-108"/>sait ne sera t il pas quelqu’un. Toi <lb n="109" xml:id="l-109"/>tu as trouvé ton chemin, vieux frère<c type="kk">/</c> <lb n="110" xml:id="l-110"/>ta voiture est déjà callée &amp; solide &amp; moi <lb n="111" xml:id="l-111"/>j’entrevois mon chemin grace à ma <lb n="112" xml:id="l-112"/>femme chérie. Toi, calme toi &amp; retiens un <lb n="113" xml:id="l-113"/>peu ton cheval pour qu’il n’arrive <lb n="114" xml:id="l-114"/>pas d’accident &amp; moi un coup de fouet <lb n="115" xml:id="l-115"/>de temps en temps ne fait pas de mal.</ab>
+                <lb n="116" xml:id="l-116"/>
+<ab rend="indent">Ton portrait de M<hi rend="ss">lle</hi> Gachet doit être <lb n="117" xml:id="l-117"/>admirable &amp; je serai content de le voir<c type="kk">/</c> <lb n="118" xml:id="l-118"/>oh ces petites taches d’orangé dans le fond.</ab>
+                <lb n="119" xml:id="l-119"/>
+<ab rend="indent">Le croquis du paysage me fait penser <lb n="120" xml:id="l-120"/>à quelque chose de très beau.<anchor n="5" xml:id="note-o-5"/> Je serai content <lb n="121" xml:id="l-121"/>de le voir. La lettre du père Peyron était <lb n="122" xml:id="l-122"/>bonne.<anchor n="6" xml:id="note-o-6"/> Ces gens-là sont tout de même de <lb n="123" xml:id="l-123"/>bonne trempe. Dis donc, prochainement <lb n="124" xml:id="l-124"/>quand Jo sera un peu plus forte &amp; le petit 
+<pb f="2v" n="7" xml:id="pb-orig-2v-7" facs="#zone-pb-2v-7"/>
+                    <lb n="125" xml:id="l-125"/>remis<c type="kk">/</c> il faudrait que tu viennes passer les jours <lb n="126" xml:id="l-126"/>içi, au moins un dimanche &amp; quelques jours de <lb n="127" xml:id="l-127"/>plus. Les salons sont fermés mais tu n’y perds <lb n="128" xml:id="l-128"/>pas grand chose car nous irons voir ensemble <lb n="129" xml:id="l-129"/>le Quost, qui décidemment est un beau tableau<c type="kp">_</c> <lb n="130" xml:id="l-130"/>Nous irons lui demander si je puis l’exposer <lb n="131" xml:id="l-131"/>sur le Boulevard en vitrine, s’il n’est <lb n="132" xml:id="l-132"/>pas trop grand.<anchor n="7" xml:id="note-o-7"/> Mais il faut que cela <lb n="133" xml:id="l-133"/>aille &amp; de toi il y aura aussi quelque chose, <lb n="134" xml:id="l-134"/>vieux và! Il faut bien que vous soyez <lb n="135" xml:id="l-135"/>ensemble, car c’est toi qui m’a indiqué <lb n="136" xml:id="l-136"/>ce beau tableau de Quost. Sais tu que <lb n="137" xml:id="l-137"/>je t’ai dit que j’avais acheté ce beau <lb n="138" xml:id="l-138"/>tableau de Corot que ces c...<anchor n="8" xml:id="note-o-8"/> de B&amp;V. disaient <lb n="139" xml:id="l-139"/>ne pas être de vente. Tersteeg l’a vendu à <lb n="140" xml:id="l-140"/>Mesdag avec 5000 de bénéfice &amp; Mesdag en est <lb n="141" xml:id="l-141"/>si content qu’il en veut d’autres comme <lb n="142" xml:id="l-142"/>cela<anchor n="9" xml:id="note-o-9"/> &amp; qu’il écrit à Arnold &amp; Tripp de <lb n="143" xml:id="l-143"/>lui en chercher de comme cela. Cela m’a <lb n="144" xml:id="l-144"/>fait plaisir, mais B&amp;V. recommenceront tout <lb n="145" xml:id="l-145"/>de même demain. A toi mon vieux frère, les <lb n="146" xml:id="l-146"/>couleurs partent.<anchor n="10" xml:id="note-o-10"/> Je te serre bien la main &amp; suis content <lb n="147" xml:id="l-147"/>que le petit &amp; la maman dorment tranquilement<c type="kk">/</c> ton</ab>
+<vg:whiteline/>
+                <lb n="148" xml:id="l-148"/>
+<ab>Theo</ab>
+<vg:whiteline/>
+<pb f="2r" n="8" xml:id="pb-orig-2r-8" facs="#zone-pb-2r-8"/>
+                <lb n="149" xml:id="l-149"/>
+<ab>Ce matin je me suis réveillé avec les <lb n="150" xml:id="l-150"/>mêmes idées. C’est déçidé d’une façon <lb n="151" xml:id="l-151"/>inébranlable, en sortant pour commencer <lb n="152" xml:id="l-152"/>je vais louer l’appartement en question. <lb n="153" xml:id="l-153"/>Le gamin a bien dormi, il va bien ce matin<c type="kp">_</c>
+                </ab>
+                <lb n="154" xml:id="l-154"/>
+<ab>
+                    <hi rend="ital">adieu</hi>.</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-26" n="26">épreuves &lt; preuves</note>
+<note target="l-30" n="30">lui, la &lt; lui, lui</note>
+<note target="l-80" n="80">Auvers &lt; <hi rend="ital">It is possible that Theo wrote</hi> ‘Anvers’.</note>
+<note target="l-87" n="87">frissonnent &lt; frisonnent</note>
+<note target="l-122" n="122">sont &lt; ne sont</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>Paris, 30 June 1890</ab>
+<vg:whiteline/>
+<ab>My very dear brother,<anchor n="1" xml:id="note-t-1"/>
+                </ab>
+<ab>We’ve been going through the greatest anxiety, our dear one has been very ill, but fortunately the <rs type="pers" key="640">doctor</rs>, who was anxious himself, said to <rs type="pers" key="416">Jo</rs> yesterday, you won’t lose the <rs type="pers" key="418">child</rs> from this. Here in Paris the best milk one can get is a veritable poison. Now we’re giving him ass’s milk and that has done him good, but you’ve never heard anything so painful as this almost continual plaintive crying lasting several days and several nights and with us not knowing what to do and 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> everything we do seeming to aggravate his suffering. It’s not that the milk isn’t fresh, but it’s in the feeding and the treatment of the cows. It’s abominable.</ab>
+<ab rend="indent">You can imagine how happy we are that it’s going better. <rs type="pers" key="416">Jo</rs> has been admirable, as you can well imagine. A true mother, but she has tired herself very much, too much even, may she recover her strength and not have any more ordeals to undergo. At this moment, fortunately, she’s sleeping, but she’s moaning in her sleep and I can do nothing about it. If only the <rs type="pers" key="418">child</rs>, who is also sleeping, might let her sleep for a few hours, both of them will awake with a smile, I hope. In general life is hard for her at the moment.</ab>
+<ab rend="indent">We don’t know what we ought to do, there are questions. Ought we to take another apartment, you know, in the same house on the first floor? Ought we 
+ <pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> to go to Auvers, to Holland or not. Ought I to live without worrying about tomorrow, and when I work all day and still don’t manage to spare this good <rs type="pers" key="416">Jo</rs> from worries about money, since those rats <rs type="pers" key="303 796">Boussod &amp; Valadon</rs> treat me as if I’d just started working for them and keep me on a leash.<anchor n="2" xml:id="note-t-2"/> When I’m not calculating, without spending on extras and am short of money, must I tell them how things are, and if they dare refuse, finally tell them, Sirs, I’m taking the plunge and I’m going to set myself up as a dealer on my own account?<anchor n="3" xml:id="note-t-3"/> I think that as I write to you I’m reaching this conclusion, that it’s my duty, and that if <rs type="pers" key="524">Ma</rs> or <rs type="pers" key="416">Jo</rs> or you or I tighten our belts a little, it won’t get us anywhere, and that on the contrary, you and I by moving in the world not as poor down-and-outs who don’t eat, but on the contrary keeping up our courage and all living buoyed up by our mutual love, 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> we’ll go much further and we’ll accomplish our duty and our task with much more serenity than by weighing each mouthful of bread. What do you say to this old chap? Don’t bother your head about me or about us, old chap, be aware that what gives me the greatest pleasure is when you’re well and when you’re at your work, which is admirable. You already have too much fire, and we must still be ready for battle a long time from now, for we’ll battle all our lives without taking the oats of charity they give to the old horses in grand houses. We’ll pull the plough until it moves no longer, and we’ll still gaze with admiration at the sun or the moon, according to the time of day. We like that better than being put in an armchair to rub our legs like the old merchant in Auvers.<anchor n="4" xml:id="note-t-4"/> Look old fellow, do everything for your health, I too will do as much, we have too much in our noddles 
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/> for us to forget the daisies and the freshly stirred clods of earth, and the branches of the bushes that bud in spring, nor the bare tree branches that shiver in the winter, nor the serene skies of limpid blue, nor the big clouds of autumn, nor the uniformly grey sky in winter, nor the sun as it rose above our aunts’ garden, nor the red sun setting in the sea at Scheveningen, nor the moon and the stars one fine night in summer or winter, no, whatever happens, that is our possession. Is it enough, no, myself I have and you will have one day, I hope with all my heart, a wife to whom you can say these things, and I whose mouth is often closed and whose head is often empty, it’s through her that the seeds that more than likely come from very far off but which were passed on by our beloved <rs type="pers" key="526">father</rs> and 
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/> <rs type="pers" key="524">mother</rs>, they will perhaps grow so that I may become at least a man, and who knows if my <rs type="pers" key="418">son</rs>, if he may live and if I can help him, who knows he may be someone. For your part you have found your path, old brother, your carriage is already sturdy and strong, and I myself can glimpse my path thanks to my cherished <rs type="pers" key="416">wife</rs>. As for you, calm yourself and rein back your horse a little so that no accidents occur, and as for me a flick of the whip from time to time does no harm.</ab>
+<ab rend="indent">Your portrait of <rs type="pers" key="391">Miss Gachet</rs> must be admirable, and I’ll be pleased to see it, oh those little patches of orange in the background.</ab>
+<ab rend="indent">The croquis of the landscape makes me think of something very beautiful.<anchor n="5" xml:id="note-t-5"/> I’ll be pleased to see it. <rs type="pers" key="568">
+                        <hi rend="ital">Père</hi> Peyron</rs>’s letter was kind.<anchor n="6" xml:id="note-t-6"/> These people are good sorts after all. Listen, soon, when <rs type="pers" key="416">Jo</rs> is a bit stronger and the <rs type="pers" key="418">little one</rs> recovered, 
+ <pb f="2v" n="7" xml:id="pb-trans-2v-7" facs="#zone-pb-2v-7"/> you should come and spend the days here, at least a Sunday and a few days more. The salons are closed but you aren’t losing much by that, for we’ll go together to see the <rs type="pers" key="1282">Quost</rs>, which decidedly is a fine painting. We’ll go and ask him if I may exhibit it on the boulevard in the window,<anchor n="7" xml:id="note-t-7"/> if it’s not too big. But it must work, and there’ll also be something of yours, old fellow, come on! You really must be together, for it’s you who pointed out this fine Quost painting to me. Do you remember that I told you that I’d bought that fine painting by <rs type="pers" key="971">Corot</rs> that those b...<anchor n="8" xml:id="note-t-8"/> <rs type="pers" key="303 796">B &amp; V</rs> said wasn’t saleable. <rs type="pers" key="787">Tersteeg</rs> sold it to <rs type="pers" key="1218">Mesdag</rs> with 5,000 profit, and Mesdag is so pleased with it that he wants others like that,<anchor n="9" xml:id="note-t-9"/> and is writing to <rs type="pers" key="255">Arnold</rs> &amp; <rs type="pers" key="256">Tripp</rs> to find him some like that. It pleased me, but B &amp; V will start again tomorrow all the same. Yours, my old brother, the colours are going off.<anchor n="10" xml:id="note-t-10"/> I shake your hand firmly, and am pleased that the <rs type="pers" key="418">little one</rs> and his <rs type="pers" key="416">mummy</rs> are sleeping peacefully, your</ab>
+<vg:whiteline/>
+<ab>Theo</ab>
+<vg:whiteline/>
+<ab>
+<pb f="2r" n="8" xml:id="pb-trans-2r-8" facs="#zone-pb-2r-8"/>
+                </ab>
+<ab>This morning I woke up with the same ideas. It’s decided in an unshakeable way, when I go out, I’m going to rent that apartment as a start. The <rs type="pers" key="418">kid</rs> slept well, he’s well this morning. <hi rend="ital">Adieu</hi>.</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>This is the only time that Theo addresses his brother in this way, in what is for him a long, open-hearted letter that betrays the anxiety he is feeling.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>Theo was thinking of setting up in business on his own. The uncertainty of his future at <rs type="pers" key="797">Boussod, Valadon &amp; Cie</rs> had been on his mind for some time; in April he had spoken openly to <rs type="pers" key="787">H.G. Tersteeg</rs> about his grievances against his employers. Tersteeg wrote the following: ‘It does me good, for you and for myself, that you’ve poured your heart out to me ... All the same, it is a splendid thing that it has come to an outburst with the gentlemen, and I wish you luck in having voiced your opinion so frankly. You will see how such a thunderstorm clears the air ... Keep courage, stay calm and prudent, and seek the strength for it in your wife and child; that will remain for you the best rule of life’ (FR b1368, 7 April 1890).</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>Ass’s milk was rather expensive: Theo and <rs type="pers" key="416">Jo</rs>’s normal milk bill (21 June) had been 13.80 francs, whereas the milk bill of 15 July amounted to 37.50 francs (<hi rend="ital">Account book</hi> 2002, p. 77).</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>It is possible that Theo wrote ‘Anvers’ (Antwerp) instead of ‘Auvers’.</ab>
+                </note>
+<note n="a" xml:id="n-a" target="#note-o-a">
+ <ab>Read: ‘sereins’.</ab>
+                </note>
+                <note n="5" xml:id="n-5" target="#note-t-5">
+<ab>
+      <hi rend="ital">Marguerite Gachet at the piano</hi> (<rs type="ill" key="2932">F 772 / JH 2048</rs>) and <hi rend="ital">Wheatfields</hi> (<rs type="ill" key="2928">F 775 / JH 2038</rs>). Van Gogh had sent descriptions and letter sketches of them (<ref target="let893.xml">see letter 893</ref>).</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>This letter from <rs type="pers" key="568">Peyron</rs> to Vincent, enclosed with <ref target="let891.xml">letter 891</ref>, is not known.</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>For <rs type="pers" key="1282">Quost</rs>’s <hi rend="ital">
+                            <rs type="ill" key="324">Easter flowers</rs>
+                        </hi>, <ref target="let866.xml#n-10">see letter 866, n. 10.</ref> Theo’s plan to exhibit it was probably never realized, because a week later (on 7 July 1890) the painting was purchased at the Salon for 1,200 francs by the French state (Paris, Musée d’Orsay, Documentation).</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>This was probably meant to be filled in as ‘cons’ (bastards).</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>
+                        <rs type="pers" key="971">Camille Corot</rs>, <hi rend="ital">Souvenir of Nemi. Rocks and shrubs</hi>, c. 1844-1845 (The Hague, The Mesdag Collection). <rs type="ill" key="2319">Ill. 2319</rs>. Theo had bought it from Dorio on 5 April 1890 for 3,000 francs, after which <rs type="pers" key="787">Tersteeg</rs> sold it to <rs type="pers" key="1218">Mesdag</rs> on 23 June 1890 for 8,064 francs. See <hi rend="ital">RKD, Goupil Ledgers</hi>, no. 20439, and cat. The Hague 1996, pp. 133-134, cat. no. 65.</ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>Van Gogh had placed this order for paint in <ref target="let893.xml">letter 893</ref>.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

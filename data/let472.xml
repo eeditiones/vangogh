@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Nuenen, on or about Friday, 28 November 1884. </title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let472"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">472</idno>
+<idno type="collectedletters">386b</idno>
+<idno type="brieven1990">474</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Nuenen</vg:placeLet>
+                        <vg:dateLet>on or about Friday, 28 November 1884</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. Nuenen, on or about Friday, 28 November 1884. </p>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b422 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Theo must have complied with Vincent’s request for an extra 20 francs (<ref target="let471.xml">see letter 471</ref>), since he thanks him for the money in the present letter. The fact that this thank you is not for the first instalment in December is evident from the start of <ref target="let473.xml">letter 473</ref>. <ref target="let471.xml">Letter 471</ref> must have arrived in Paris on or about Wednesday, 26 November; assuming that Theo did not delay in sending the money because it was almost the end of the month, we have dated the present letter on or about Friday, 28 November 1884.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0422" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000565_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000565_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000565_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000565_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000565_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000565_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-2">
+<graphic mimeType="image/tiff" url="VGM001000565_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000565_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000565_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+        <surface n="b 0422 V/1962" xml:id="surf-extra-1v">
+            <graphic mimeType="image/tiff" url="VGM001000565_02.TIF" rend="norend"/>
+            <zone xml:id="zone-extra-1">
+<graphic mimeType="image/tiff" url="VGM001000565_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000565_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000565_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Beste broer,</ab>
+                <lb n="1*" xml:id="l-1s"/>
+<ab>Dank voor Uw brief en het geld.</ab>
+                <lb n="2" xml:id="l-2"/>
+<ab rend="indent">Aannemende dat waar is wat ge zegt<c type="kk">/</c> dat herhaaldelijk <lb n="3" xml:id="l-3"/>ge aan me zijt beginnen te schrijven doch er niet toe <lb n="4" xml:id="l-4"/>kwaamt dien brief eer af te maken – verkeer ik in <lb n="5" xml:id="l-5"/>’t zelfde geval<c type="kk">/</c> daar ik al twee keer in den kagchel <lb n="6" xml:id="l-6"/>gooide wat ik U schreef – om reden ik ’t <hi rend="ital">of te bitter</hi> <lb n="7" xml:id="l-7"/>
+                    <hi rend="ital">of te lam</hi> vond. Wat zal ik U zeggen – uw brief <lb n="8" xml:id="l-8"/>klinkt me zeer correct en heeft een toon als van <lb n="9" xml:id="l-9"/>een <hi rend="ital">goed</hi> ministre des Beaux Arts b.v.</ab>
+                <lb n="10" xml:id="l-10"/>
+<ab rend="indent">Maar – dat neemt niet weg ik er niet veel aan <lb n="11" xml:id="l-11"/>heb en ’t me niet voldoet – en vooral uw <lb n="12" xml:id="l-12"/>“misschien later als ge u duidelijker zult hebben uitgesproken<c type="kk">/</c> <lb n="13" xml:id="l-13"/>zullen we in uw tegenwoordig werk <hi rend="ital">misschien</hi> ook wat <lb n="14" xml:id="l-14"/>vinden – en <hi rend="ital">dan</hi> niet doen zoo als nu”.... <lb n="15" xml:id="l-15"/>mooie belofte – maar – ministerieele <lb n="16" xml:id="l-16"/>fata morgana – in ’t oog van iemand <lb n="17" xml:id="l-17"/>als ik<c type="kk">/</c> die liever <hi rend="ital">lager</hi> bij den weg een debouché <lb n="18" xml:id="l-18"/>vond mits in ’t <hi rend="ital">tegenwoordige</hi>
+                    <c type="kp">_</c>
+                </ab>
+                <lb n="19" xml:id="l-19"/>
+<ab rend="indent">Ziedaar – dat débouché in ’t tegenwoordige<c type="kk">/</c> <lb n="20" xml:id="l-20"/>
+                    <hi rend="ital">desnoods</hi> (niet bij verkiezing) bij marchands van 3<hi rend="ss">e</hi> rang – <lb n="21" xml:id="l-21"/>is iets wat ik van U niet kan vergen in uw <lb n="22" xml:id="l-22"/>positie – que soit – maar gij kunt <lb n="23" xml:id="l-23"/>van mij niet vergen ik beruste in <lb n="24" xml:id="l-24"/>een ministerieele fata morgana<c type="kk">/</c> <lb n="25" xml:id="l-25"/>ik ben daar te praktisch voor après tout<c type="kp">_</c> <lb n="26" xml:id="l-26"/>Wil s.v.p. apprecieeren ik u een <hi rend="ital">goed</hi> <lb n="27" xml:id="l-27"/>
+                    <hi rend="ital">minister</hi> noem – en te zeer weet hoe <lb n="28" xml:id="l-28"/>verdomd slecht de lui<anchor n="1" xml:id="note-o-1"/> boven den beganen grond in den regel zijn om <lb n="29" xml:id="l-29"/>met regt gaarne enkele lichtpuntjes<c type="kk">/</c> zelfs in ministerieele sfeer<c type="kk">/</c> op prijs <lb n="30" xml:id="l-30"/>te stellen<c type="kp">_</c>– Wat <hi rend="ital">niet</hi> intransigant<anchor n="a" xml:id="note-o-a"/> is en <lb n="31" xml:id="l-31"/>waarom ik bij dezen zeker tegen ’t heilige <lb n="32" xml:id="l-32"/>huisje der intransiganten pis – zoo als ik <lb n="33" xml:id="l-33"/>dat wel meer doe – tegen heilige huisjes in ’t algemeen.</ab>
+                <lb n="34" xml:id="l-34"/>
+<ab rend="indent">Ter zake echter – hebt ge wel eens bedacht<c type="kk">/</c> <lb n="35" xml:id="l-35"/>ik heb tegenwoordig dagelijks over de twee <lb n="36" xml:id="l-36"/>gulden onkosten – reken 1 voor model<c type="kk">/</c> 1 voor doek<c type="kk">/</c> <lb n="37" xml:id="l-37"/>verf – ’t komt niet goedkooper uit<c type="kp">_</c>–</ab>
+                <lb n="38" xml:id="l-38"/>
+<ab rend="indent">ik heb nog rekeningen te betalen – en – ik moet <lb n="39" xml:id="l-39"/>naar Antwerpen<c type="kp">_</c>–</ab>
+<pb f="1r" n="2" xml:id="pb-orig-1r-2" facs="#zone-pb-1r-2"/>
+                <lb n="40" xml:id="l-40"/>
+<ab rend="indent">Mijn positie is hier wel wat al te gespannen<c type="kk">/</c> <lb n="41" xml:id="l-41"/>ik heb ’t niet prettig tegenwoordig en ’t kost <lb n="42" xml:id="l-42"/>me moeite genoeg om wat men noemt <lb n="43" xml:id="l-43"/>“zijn ziel in lijdzaamheid bezitten”<anchor n="2" xml:id="note-o-2"/> vol te <lb n="44" xml:id="l-44"/>houden<c type="kp">_</c>–</ab>
+                <lb n="45" xml:id="l-45"/>
+<ab rend="indent">T’huis vinden ze – al zijn er geen bijzondere <lb n="46" xml:id="l-46"/>standjes – après tout ook geen prettig <lb n="47" xml:id="l-47"/>vooruitzigt ik hier <hi rend="ital">al te lang</hi> zou blijven. <lb n="47a" xml:id="l-47a"/>Wat ik me best kan begrijpen<c type="kp">_</c>–<anchor n="3" xml:id="note-o-3"/> <lb n="48" xml:id="l-48"/>En ik kan toch niet weg – ’t zij geheel – <lb n="49" xml:id="l-49"/>’t zij gedeeltelijk (gedeeltelijk als ik mijn atelier <lb n="50" xml:id="l-50"/>aanhoud<c type="kk">/</c> wat mijn plan is.) tenzij ik <lb n="51" xml:id="l-51"/>nog heel wat studies maak en – iets nieuws <lb n="52" xml:id="l-52"/>vind om me te caseeren te Antwerpen. <lb n="53" xml:id="l-53"/>Wil dit s.v.p. in consideratie houden. <lb n="54" xml:id="l-54"/>En als ge uw best zoudt willen doen <lb n="55" xml:id="l-55"/>om in ’t finantieele ’t me wat makkelijk <lb n="56" xml:id="l-56"/>te maken<c type="kk">/</c> geloof ik dat dan <lb n="57" xml:id="l-57"/>er werkelijk kans is voor later <hi rend="ital">kalmte</hi> <lb n="58" xml:id="l-58"/>te bewaren<c type="kk">/</c> al zij ’t verre van <hi rend="ital">eendragt</hi>
+                    <c type="kp">_</c> <lb n="59" xml:id="l-59"/>Die ik voor me zelf wensch en ook voor <lb n="60" xml:id="l-60"/>anderen<c type="kk">/</c> die bedaardheid.</ab>
+                <lb n="61" xml:id="l-61"/>
+<ab rend="indent">Wat niet is kan nog komen<c type="kk">/</c> zegt ge <lb n="62" xml:id="l-62"/>aangaande mijn werk – en ik <lb n="63" xml:id="l-63"/>betreffende iets anders dan fata morgana <lb n="64" xml:id="l-64"/>zien in uw zeggen van “later zullen <lb n="65" xml:id="l-65"/>we enz<c type="kp">_</c> – (zie boven)”: Heden – is ’t me <lb n="66" xml:id="l-66"/>fata morgana en wensch ik<c type="kk">/</c> wat er ook van <lb n="67" xml:id="l-67"/>zij<c type="kk">/</c> Antwerpen te probeeren. Gegroet<c type="kk">/</c> <lb n="68" xml:id="l-68"/>met een handdruk<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="69" xml:id="l-69"/>
+<ab>b<c type="kp">_</c> à t<c type="kp">_</c>
+                </ab>
+                <lb n="70" xml:id="l-70"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-20" n="20">(niet bij verkiezing) &lt; <hi rend="ital">Added later; parentheses added by us..</hi>
+                    </note>
+<note target="l-43" n="43">“zijn <supplied>
+                            <hi rend="ital">...</hi>
+                        </supplied> bezitten” &lt; <hi rend="ital">Quotation marks added by us.</hi>
+                    </note>
+<note target="l-65" n="65">boven)”: &lt; boven)”</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>Dear brother,</ab>
+<ab>Thanks for your letter and the money.</ab>
+<ab rend="indent">Assuming that what you say is true, that you started to write to me repeatedly but didn’t get round to finishing the letter before — I’m in the same position, since I’ve already thrown what I wrote to you into the stove twice — because I found it <hi rend="ital">either too bitter or too tame</hi>. What shall I say to you? — your letter sounds very correct to me, and has a tone like that of a <hi rend="ital">good</hi> Minister for Fine Arts, say.</ab>
+<ab rend="indent">But — that doesn’t alter the fact that it isn’t much good to me and it doesn’t satisfy me — and above all your ‘perhaps later, once you have expressed yourself more clearly, we’ll <hi rend="ital">perhaps</hi> also find something in your present work — and <hi rend="ital">then</hi> not act as we do now’.... fine promise — but — a ministerial fata Morgana — in the eyes of someone like me, who would rather find an outlet at a <hi rend="ital">lower</hi> level provided it was in the <hi rend="ital">present</hi>.</ab>
+<ab rend="indent">There you have it — that outlet in the present, with 3rd-rate dealers <hi rend="ital">if necessary</hi> (not from choice) — is something I can’t ask of you in your position — so be it — but you can’t ask me to acquiesce in a ministerial fata Morgana, I’m too practical for that, after all. Please appreciate that I call you a <hi rend="ital">good minister</hi> — and know only too well how damned bad the people<anchor n="1" xml:id="note-t-1"/> above the ground floor are as a rule, so I’m very willing to treasure a few bright spots, even in the ministerial sphere. Which <hi rend="ital">isn’t</hi> intransigent, and it’s for that reason that I herewith certainly piss on the sacred shrine of the intransigents — as I often do — on sacred shrines in general.</ab>
+<ab rend="indent">To business, though — have you ever realized that I presently have more than two guilders in expenses daily — reckon 1 for the model, 1 for canvas, paint — it can’t come out any cheaper.</ab>
+<ab rend="indent">I still have bills to pay — and — I must go to Antwerp. 
+<pb f="1r" n="2" xml:id="pb-trans-1r-2" facs="#zone-pb-1r-2"/>
+                </ab>
+<ab rend="indent">My position here is rather too strained, I’m not comfortable at the moment and I have enough trouble sticking it out and ‘possessing my soul in patience’,<anchor n="2" xml:id="note-t-2"/> as they say.</ab>
+<ab rend="indent">At home, after all — although there are no real rows — they don’t find the prospect of my staying here <hi rend="ital">too long</hi> a pleasant one. Which I can well understand.<anchor n="3" xml:id="note-t-3"/> And yet I can’t leave — either altogether — or partly (partly if I keep my studio on, which is my plan) unless I make a whole lot more studies and — find something new to settle me in Antwerp. Will you please bear this in mind? And if you’d do your best to make it rather easier for me financially, I believe that then there would be a real chance of keeping the <hi rend="ital">peace</hi> later, albeit it far from <hi rend="ital">concord</hi>. Which I wish for myself and also for others, that calmness.</ab>
+<ab rend="indent">What is not can yet come, you say, regarding my work — and I, regarding the perception of something other than a fata Morgana in your saying ‘later we’ll etc. — (see above)’: Today — it’s a fata Morgana to me and I wish, in any event, to try Antwerp. Regards, with a handshake.</ab>
+<vg:whiteline/>
+<ab>Yours truly,</ab>
+<ab>Vincent</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>After this it originally said: ‘in a higher sphere’ (‘in hooger sfeer’).</ab>
+                </note>
+<note n="a" xml:id="n-a" target="#note-o-a">
+<ab>Read: ‘Intransigeant’ (intransigent).</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Luke" chap="21" v="19">Luke 21:19</bibleref>.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>Van Gogh added ‘Which ... understand’ (‘Wat ... begrijpen’) later.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

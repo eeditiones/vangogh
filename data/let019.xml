@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. London, Friday, 20 February 1874.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let019"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">019</idno>
+<idno type="collectedletters">14</idno>
+<idno type="brieven1990">019</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>London</vg:placeLet>
+                        <vg:dateLet>Friday, 20 February 1874</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. London, Friday, 20 February 1874.</p>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b14 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Letter headed: ‘Londen 20 Februari 1874’.</p>
+                    </note>
+<note type="additionalDetail" xml:id="additionalDetail">
+<p>The way in which the address – ‘Mr. Th. van Gogh’ – is written on the letter itself indicates that it was enclosed in a shipment from Goupil’s London office.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0014" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000014_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000014_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000014_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000014_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0014" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000014_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000014_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000014_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000014_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Londen 20 Februari 1874</ab>
+<vg:whiteline/>
+                <lb n="2" xml:id="l-2"/>
+<ab>Waarde Theo,</ab>
+                <lb n="3" xml:id="l-3"/>
+<ab>Dank voor je brief.─ ’t Boek heb ik nog <lb n="4" xml:id="l-4"/>niet noodig, maar stuur het echter <lb n="5" xml:id="l-5"/>terug als je het op je gemak uitgelezen <lb n="6" xml:id="l-6"/>hebt.─<anchor n="1" xml:id="note-o-1"/> Ik heb ’t boek van van Vlooten<anchor n="2" xml:id="note-o-2"/> niet <lb n="7" xml:id="l-7"/>gelezen, maar wil het graag eens hebben. <lb n="8" xml:id="l-8"/>Ik heb een ander boek over kunst door <lb n="9" xml:id="l-9"/>v<c type="kp">_</c> Vl. gelezen &amp; was ’t niet geheel met hem <lb n="10" xml:id="l-10"/>eens, &amp; ’t was nog al erg geleerd.<anchor n="3" xml:id="note-o-3"/> Burger <lb n="11" xml:id="l-11"/>is eenvoudiger &amp; al wat die zegt is <lb n="12" xml:id="l-12"/>waar.─ Ik ben blij je in Amsterdam <lb n="13" xml:id="l-13"/>geweest bent;<anchor n="4" xml:id="note-o-4"/> bedank Oom Cor als <lb n="14" xml:id="l-14"/>je hem ziet voor de brochure die <lb n="15" xml:id="l-15"/>hij mij zond.</ab>
+                <lb n="16" xml:id="l-16"/>
+<ab rend="indent">Ik ben blij je het bij Roos zoo goed <lb n="17" xml:id="l-17"/>hebt, zoo als ik je reeds door Anna <lb n="18" xml:id="l-18"/>Carbentus<anchor n="5" xml:id="note-o-5"/> heb laten zeggen heb <lb n="19" xml:id="l-19"/>je groot gelijk aangaande de <lb n="20" xml:id="l-20"/>peen hanniken<c type="kp">_</c>
+                    <anchor n="6" xml:id="note-o-6"/> <lb n="20a" xml:id="l-20a"/>Ik ben ’t ook met je eens aangaande <lb n="20b" xml:id="l-20b"/>B.H.<c type="kk">/</c>
+                    <anchor n="7" xml:id="note-o-7"/> pas echter op je hart, kerel.─</ab>
+                <lb n="21" xml:id="l-21"/>
+<ab rend="indent">Heb je Mr. Jacobson’s collectie<anchor n="8" xml:id="note-o-8"/> al <lb n="22" xml:id="l-22"/>eens gezien, dat is de moeite <lb n="23" xml:id="l-23"/>waard, hij zal je wel eens vragen <lb n="24" xml:id="l-24"/>om te komen kijken.─ Groet <lb n="25" xml:id="l-25"/>hem, zoo beleefd als je kunt, <lb n="26" xml:id="l-26"/>voor mij &amp; vertel hem ’t mij <lb n="27" xml:id="l-27"/>hier goed gaat &amp; ik veel moois <lb n="28" xml:id="l-28"/>zie.</ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="29" xml:id="l-29"/>
+<ab rend="indent">Het gaat mij all right,<anchor n="9" xml:id="note-o-9"/> ik heb het <lb n="30" xml:id="l-30"/>druk.─ Bedank Willem<anchor n="10" xml:id="note-o-10"/> voor zijn <lb n="31" xml:id="l-31"/>brief &amp; groet allen bij Roos &amp; Iterson<c type="kk">/</c> <lb n="32" xml:id="l-32"/>Jan &amp; Piet<anchor n="11" xml:id="note-o-11"/> &amp; allen die naar mij <lb n="33" xml:id="l-33"/>mochten vragen.─ ’t Ga je goed.─</ab>
+<vg:whiteline/>
+                <lb n="34" xml:id="l-34"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note n="-">
+                        <hi rend="ital">On p. [1v:2] underlined: </hi>‘M<hi rend="ss">r</hi>. Th. van Gogh’.</note>
+<note target="l-6" n="6">heb &lt; wil</note>
+<note target="l-20" n="20">peen hanniken &lt; <hi rend="ital">Possibly one word.</hi>
+                    </note>
+<note target="l-33" n="33">mochten &lt; mocten</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>London, 20 February 1874</ab>
+<vg:whiteline/>
+<ab>My dear Theo,</ab>
+<ab>Thanks for your letter. I don’t need the book yet, but send it back anyway when you’ve had time to read it.<anchor n="1" xml:id="note-t-1"/> I haven’t read the book by <rs type="pers" key="845">Van Vloten</rs>,<anchor n="2" xml:id="note-t-2"/> but I’d like to have it sometime. I’ve read another book on art by V. Vl. and didn’t agree with him completely, and it was really quite scholarly.<anchor n="3" xml:id="note-t-3"/> <rs type="pers" key="554">Bürger</rs> is simpler, and everything he says is true. I’m glad you went to Amsterdam;<anchor n="4" xml:id="note-t-4"/> thank <rs type="pers" key="422">Uncle Cor</rs> when you see him for the brochure he sent me.</ab>
+<ab rend="indent">I’m glad you’re so happy at <rs type="pers" key="642 643">the Rooses</rs>’; as I already asked <rs type="pers" key="322">Anna Carbentus</rs> to tell you,<anchor n="5" xml:id="note-t-5"/> you’re completely right about pulling the carrot.<anchor n="6" xml:id="note-t-6"/> I also agree with you about <rs type="pers" key="98">B.H</rs>.,<anchor n="7" xml:id="note-t-7"/> but beware of your heart, old chap.</ab>
+<ab rend="indent">Have you seen <rs type="pers" key="458">Mr Jacobson’</rs>s collection<anchor n="8" xml:id="note-t-8"/> yet? It’s well worth while, he’ll no doubt ask you to come and see it sometime. Give him my regards, as politely as you can, and tell him that I’m doing well here and am seeing a lot of beautiful things. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">I’m all right,<anchor n="9" xml:id="note-t-9"/> I’m busy. Thank <rs type="pers" key="802">Willem</rs>
+                    <anchor n="10" xml:id="note-t-10"/> for his letter and give my regards to everyone at <rs type="pers" key="642 643">the Rooses</rs>’ and <rs type="pers" key="461">Iterson</rs>, Jan and <rs type="pers" key="85">Piet</rs>,<anchor n="11" xml:id="note-t-11"/> and anyone who asks after me. I wish you well.</ab>
+<vg:whiteline/>
+<ab>Vincent</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>Probably <rs type="pers" key="554">E.J.T. Thoré</rs> (under the pseudonym W. Bürger), <rs type="lit" key="13">
+                            <hi rend="ital">Musées de la Hollande, <hi rend="sc">i</hi>
+                            </hi>
+                        </rs>; <ref target="let015.xml#n-11">see letter 15, n. 11.</ref>
+                    </ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>The book by <rs type="pers" key="845">J.M. van Vloten</rs> that Theo had mentioned was presumably <rs type="lit" key="16">
+                            <hi rend="ital">Nederlands schilderkunst van de 14e tot de 18e eeuw. Voor het Nederlandsche volk geschetst. Met ruim 50 houtsneden en een portret van Rembrandt, op staal geëtst door J.W. Kaiser.</hi>
+                        </rs> Amsterdam 1874. The book’s publication was announced in 1873, so it possibly appeared early in 1874.</ab>
+                </note>
+    <note n="3" xml:id="n-3" target="#note-t-3">
+        <ab>J.M. van Vloten, <rs type="lit" key="17">
+                            <hi rend="ital">Aesthetica of schoonheidskunde, in losse hoofdtrekken, naar uit- en in-heemsche bronnen voor Nederlanders geschetst</hi>
+                        </rs>. Deventer 1865; or the second edition of the same: <rs type="lit" key="18">
+                            <hi rend="ital">Aesthetika of leer van den kunstsmaak, naar uit- en inheemsche bronnen voor Nederlanders bewerkt</hi>
+                        </rs>. Second, greatly expanded and improved edition. 2 vols. Deventer 1871. This tome, a general theoretical treatment of the principles of art, is written in a somewhat academic style.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>Theo visited <rs type="pers" key="422">Uncle Cor</rs> in Amsterdam on 8 February 1874 (FR b2687).</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>Vincent and Theo’s cousin <rs type="pers" key="322">Anna Cornelia Carbentus</rs>, who lived in The Hague.</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>The precise meaning of ‘de peen hanniken’ or ‘peenhanniken’ is unclear. Neither the <hi rend="ital">WNT</hi> nor dialect dictionaries contain this expression. In North Brabant dialect the word ‘pee’ is still used as a synonym of ‘biet’ (beet) or ‘wortel’ (carrot). The plural ‘peeën’ is pronounced the same as ‘peen’. In all likelihood ‘hanniken’ is a dialect variant of ‘hakken’ (to hack or to hoe). Sugar beets or mangel-wurzel (mangold) plants grow so close together that they have to be thinned out to prevent crowding. The literal meaning of ‘de peen hakken’ or ‘hanniken’ could therefore be ‘to thin out a row of beets’. In the figurative sense it could mean ‘to make room, or to give oneself the space, to blossom better’, but because the context is unclear, the meaning of this expression remains a mystery.</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>In earlier editions of the letters edited by Jo van Gogh-Bonger and the engineer V.W. van Gogh, these initials were replaced by the name ‘<rs type="pers" key="1623">Bertha Hanebeek</rs>’. A copy made by Jo van Gogh-Bonger follows the original ‘B.H.’, with the note ‘a young, pretty cousin who died at an early age’ (FR b4535). We could find no trace of a cousin by that name. It is more likely that Van Gogh was referring to <rs type="pers" key="98">Gijsbertha (Bertha) Hamming</rs>, an old friend of the Van Gogh children from Zundert, who occurs a number of times in the family correspondence. In the eyes of <rs type="pers" key="526">Mr van Gogh</rs>, her behaviour was certainly not beyond reproach, and he advised his children not to have too much to do with her. See, for example, FR b2639 and Kools 1990, pp. 39-41.</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>The Hague industrialist <rs type="pers" key="458">Edward Levien Jacobson</rs>, art collector and Maecenas, maintained contacts with Goupil’s Hague branch. Some of his extensive collection was sold at auction in 1875 and 1894. See Stolwijk 1998, p. 343 and Henri Reuchlin, ‘Edward Levien Jacobson (1802-1875), profiel van een verzamelaar en industrieel pionier rond het midden van de negentiende eeuw’, <hi rend="ital">Rotterdams jaarboekje</hi> (1976), pp. 168-181.</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>On 24 February 1874 <rs type="pers" key="412">Anna</rs>, in Leeuwarden, wrote a letter to Theo in which she told of a letter she had received from Vincent, from which she had inferred that he seemed ‘always in good-spirits’, writing further in English: ‘I got too a very kind letter from <rs type="pers" key="498">Eugénie</rs>, she seems to be a natural and admiable <hi rend="ital">[sic]</hi> girl. Vincent wrote me that she was engaged; with a good natured youth, who would know to appreciate her. I am very curious to know more about him and <rs type="pers" key="445">Annet</rs>, we two are just old people who try to know all about persons who are in love. But I am very glad for Vincent that he has found such a kind family to live, you know now yourself, how agreable <hi rend="ital">[sic]</hi> it is. He seems to be always in good-spirits. In the last letter he writes me: “I fear that after all the sunshine I enjoy from there could be very soon rain – but I will only enjoy as long as possible the sunshine, and have my umbrella in the neighbourhood for the rain that could come”’ (FR b2689).</ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>
+                        <rs type="pers" key="802">Willem Marinus Valkis</rs>.</ab>
+                </note>
+    <note n="11" xml:id="n-11" target="#note-t-11">
+<ab>Employees of Goupil in The Hague. The first could be the one to whom <rs type="pers" key="524 526">Mr and Mrs van Gogh</rs> refer in their letters as ‘Jan the assistant’; cf. ‘How adversely the party last Sunday of Jan the assistant was affected by the weather ... I hope that <rs type="pers" key="787">Mr Tersteeg</rs> will have been satisfied with it. It is certainly very nice indeed to give such evidence that one holds the assistants in esteem’ (FR b2551, Mr van Gogh in a letter to Theo, 16 August 1877).</ab>
+<ab rend="indent">The second, Piet, could be the one who was a foreman and frame-maker at Goupil’s during Van Gogh’s second stay in The Hague at the beginning of the 1880s, namely <rs type="pers" key="85">P.W. Gisolf</rs>. Cf. Visser 1973, p. 1.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

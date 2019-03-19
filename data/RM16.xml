@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+      <title>Crossed-out, unsent fragment of a letter to Paul Gauguin. The verso contains the sketch enclosed with letter 693 to Eugène Boch. Arles, probably September or October 1888.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/RM16"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">RM16</idno>
+<idno type="collectedletters"/>
+<idno type="brieven1990">-</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Paul Gauguin</vg:addressee>
+                        <vg:placeLet>Arles</vg:placeLet>
+                        <vg:dateLet>probably September or October 1888</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+</vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b598 b V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+      <p>On the verso of the sketch <hi rend="ital">Starry night over the Rhône</hi> (<rs type="sketch" key="192">F - / JH 1594</rs>), enclosed with <ref target="let693.xml">letter 693</ref> to Eugène Boch, appears this crossed-out, unsent fragment of a letter written by Van Gogh to Gauguin. This fragment was thus the beginning of a letter, and although the text continued, it was lost when a piece of the paper was cut off.</p>     
+<p>Because the text is to be found on the sketch enclosed with <ref target="let693.xml">letter 693</ref> of 2 October 1888 and is an answer to <ref target="let688.xml">letter 688</ref>, written about 26 September 1888, this fragment probably dates from September-October 1888.</p>
+                    </note>
+<note type="additionalDetail" xml:id="additionalDetail">
+<p>Jansen <hi rend="ital">et al</hi>. 2000. The version of the text published there differs in certain details from the present text.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0598 b" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000815_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000815_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000815_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000815_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>mon cher ami</ab>
+                <lb n="1*" xml:id="l-1s"/>
+<ab>écrivez donc plutôt <lb n="2" xml:id="l-2"/>à mon frère de garder vos tableaux à prix <lb n="3" xml:id="l-3"/>au lieu de les offrir à bas prix<c type="kp">_</c>
+                    <anchor n="1" xml:id="note-o-1"/>
+                </ab>
+                <lb n="4" xml:id="l-4"/>
+<ab rend="indent">Il n’est pas plus commode de les vendre à <lb n="5" xml:id="l-5"/>bas prix et pas plus difficile de les vendre plus <lb n="6" xml:id="l-6"/>chers<c type="kk">/</c> croyez m’en<c type="kk">/</c> si on les vend du tout<c type="kp">_</c>
+                </ab>
+                <lb n="7" xml:id="l-7"/>
+<ab rend="indent">J’ai évité de vous écrire à ce sujet<c type="kk">/</c> <lb n="8" xml:id="l-8"/>preferant que nous en causions <lb n="9" xml:id="l-9"/>plus amplement<c type="kp">_</c>–</ab>
+                <lb n="10" xml:id="l-10"/>
+    <ab rend="indent">Je suis dans ce moment en plein dans <lb n="11" xml:id="l-11"/>la besogne<c type="kk">/</c> j’ai une demi douzaine <lb n="12" xml:id="l-12"/>de toiles de 30 carrées en train <lb n="13" xml:id="l-13"/>qui serviront de décoration à la maison<c type="kp">_</c> <lb n="14" xml:id="l-14"/>Ce sont 3 toiles du jardin public<c type="kk">/</c>
+                    <anchor n="2" xml:id="note-o-2"/> <lb n="15" xml:id="l-15"/>4<c type="kp">_</c> des terres labourees<anchor n="3" xml:id="note-o-3"/> <hi rend="ital">[x]</hi> <supplied>la nuit étoilée <hi rend="ital">[?]</hi>
+                    </supplied>
+                    <anchor n="4" xml:id="note-o-4"/>
+                </ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-15" n="15">
+                        <hi rend="ital">Not all of the line is on the page. Only the accents and the tops of the ascenders of the uncertain reading </hi>‘la nuit étoilée’ <hi rend="ital">can be seen, but this reading is supported by letter 691, l. 225-228.</hi>
+                    </note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear <rs type="pers" key="1039">friend</rs>,</ab>
+<ab>Please write to my brother that he should maintain the prices for your paintings rather than offering them for less.<anchor n="1" xml:id="note-t-1"/>
+                </ab>
+<ab rend="indent">It’s no easier to sell them if they’re cheaper, nor is it more difficult to sell them for more, take my word for it, if you can sell them at all.</ab>
+<ab rend="indent">I hadn’t wanted to write you about this, preferring instead to talk to you at length about it.</ab>
+<ab rend="indent">I’m very busy at the moment: I’m working on half a dozen canvases of 30 square, to be used to decorate the house. There are three canvases of the public garden,<anchor n="2" xml:id="note-t-2"/> 4. ploughed fields<anchor n="3" xml:id="note-t-3"/> <hi rend="ital">[x]</hi> <supplied>the starry night <hi rend="ital">[?]</hi>
+                    </supplied>
+                    <anchor n="4" xml:id="note-t-4"/>
+                </ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>This is probably a response to a remark made by <rs type="pers" key="1039">Gauguin</rs> in his letter to Van Gogh of about 26 September 1888 (<ref target="let688.xml">688</ref>): ‘I’m fearful that your brother, who likes my talent, rates it too highly. If he found a collector or speculator who was tempted by <hi rend="ital">low prices</hi>, let him do it. I’m a man of sacrifices, and I’d like him to understand that whatever he does, I’ll find it well done.’ Referring to this passage, Van Gogh wrote in his next letter to Theo: ‘Now I have a letter from Gauguin, who seems very sad ... I’ll send you his letter with the reply’ (<ref target="let691.xml">691</ref>). Evidently the crossed-out text is a discarded version of that reply; we do not know the letter that Van Gogh actually sent to Gauguin.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>The three no. 30 canvases depicting the park are <hi rend="ital">The public garden (‘The poet’s garden’) </hi>(<rs type="ill" key="2713">F 468 / JH 1578</rs>), <hi rend="ital">Path in the public garden</hi> (<rs type="ill" key="2716">F 470 / JH 1582</rs>) and an unknown painting, previously described as ‘a round cedar or cypress bush’ (<ref target="let689.xml">689</ref>) and shortly thereafter as ‘the garden with the round bush and the oleanders’ (<ref target="let694.xml">694</ref>).</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>
+      <hi rend="ital">Ploughed fields (‘The furrows’) </hi>(<rs type="ill" key="2719">F 574 / JH 1586</rs>).</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>
+      <hi rend="ital">Starry night over the Rhône </hi>(<rs type="ill" key="2723">F 474 / JH 1592</rs>). Not all of the line is on the page. Only the accents and the tops of the ascenders of the uncertain reading ‘la nuit étoilée’ can be seen, but this reading is supported by <ref target="let691.xml">letter 691</ref>.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

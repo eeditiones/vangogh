@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>Drawing with explanatory text. Possibly enclosed in a letter to Anna van Gogh. London, about July 1873 - May 1874.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/RM01"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">RM01</idno>
+<idno type="collectedletters"/>
+<idno type="brieven1990">-</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Anna van Gogh</vg:addressee>
+                        <vg:placeLet>London</vg:placeLet>
+                        <vg:dateLet>about July 1873 - May 1874</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:physDesc>
+                        <vg:decoration>
+                            <vg:decoList xml:id="sketches">
+                                <vg:decoItem n="A" xml:id="sketch-1">
+                                    <vg:decoDesc>
+<p>
+      <hi rend="ital">Austin Friars Church, London</hi> (<rs type="sketch" key="237">F Juv. XXV / JH -</rs>), drawing</p>
+                                    </vg:decoDesc>
+                                </vg:decoItem>
+                            </vg:decoList>
+                        </vg:decoration>
+                    </vg:physDesc>
+                    <vg:letContents>
+</vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. d405 V/1973</p>
+                    </note>
+<note type="date" xml:id="date">
+      <p>We adhere to the dating given in cat. Amsterdam 1996 (see above): about July 1873 - May 1874.</p>
+                    </note>
+                    <note type="additionalDetail" xml:id="additionalDetail">
+                        <p>On this little sheet Van Gogh made a drawing of a small church in London and wrote a few sentences about the history of the building. The following is written on the back: ‘Vincent van Gogh / gekregen van zijn zuster Mevr van Houten 1914 / J. Nieweg’ (Vincent van Gogh, received from his sister, Mrs van Houten, in 1914. J. Nieweg). The last-mentioned is Jacob Nieweg, a clergyman and – since 1914 – a painter (having been influenced by H.P. Bremmer to take up painting), living in Amersfoort. This text might indicate that the drawing was enclosed in a letter to Anna, in which case the letter is not known. Vincent might also have given Anna the sheet in person; the drawing was possibly copied from a photograph or print. See cat. Amsterdam 1996, pp. 54-55, cat. no. 6.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="Sheet number 1 not found." xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001001681_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001001681_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001681_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001681_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+        <surface n="d 0405 V/1973" xml:id="surf-extra-1v">
+            <graphic mimeType="image/tiff" url="VGM001001681_02.TIF" rend="norend"/>
+            <zone xml:id="zone-extra-1">
+<graphic mimeType="image/tiff" url="VGM001001681_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001681_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001681_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/> <figure facs="zone-sketch-1" n="A"/>
+<vg:whiteline/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Dit kerkje is een merkwaardig overblijfsel van eene oude Augustijner Stichting (<hi rend="ital">Austin friars</hi>) minstens reeds dateerende <lb n="2" xml:id="l-2"/>van het jaar 1354 zoo niet reeds een 100 jaren vroeger<c type="kp">_</c> Reeds sedert 1550 ingevolge van eene vrijwillige <lb n="3" xml:id="l-3"/>schenking van Eduard VI houdt de Nederduitsche gemeente hier hare godsdienstigee zamenkomsten.</ab>
+<vg:whiteline/>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>
+                    <figure facs="zone-sketch-1" n="A"/>
+                </ab>
+<vg:whiteline/>
+<ab>This little church is a remarkable remnant of an old Augustinian foundation (<hi rend="ital">Austin Friars</hi>) dating from at least 1354, if not from 100 years earlier. The Dutch congregation had held its religious services here since 1550, by virtue of a voluntary gift of Edward VI.</ab>
+            </div>
+<div type="notes"/>
+        </body>
+    </text>
+</TEI>

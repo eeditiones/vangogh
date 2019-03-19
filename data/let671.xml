@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Arles, Wednesday, 29 or Thursday, 30 August 1888.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let671"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">671</idno>
+<idno type="collectedletters">529</idno>
+<idno type="brieven1990">675</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Arles</vg:placeLet>
+                        <vg:dateLet>Wednesday, 29 or Thursday, 30 August 1888</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+    <p>To Theo van Gogh. Arles, Wednesday, 29 or Thursday, 30 August 1888.</p>
+                        <note type="ongoingTopic" n="1">
+                            <p>Willemien’s visit to Paris (<ref target="let660.xml">660</ref>)</p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b571 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Since Vincent mentions paying the rent on the house (<ref target="#l-1*">ll. 1*-2</ref>), the letter must date from the last week of August. He suggests that Theo might send a money order (so that the allowance would arrive on Saturday). The letter with the money did indeed come on Saturday, 1 September (<ref target="let672.xml">see letter 672</ref>). Assuming this means that Theo complied with Vincent’s request, he must have received the present letter on Friday at the latest. We have consequently dated the letter Wednesday, 29 or Thursday, 30 August 1888. This date is also borne out by what Vincent says about the weather: ‘We’ve had two or three glorious days here, very hot, with no wind’ <ref target="#l-46">(ll. 46-47)</ref>. It was hot and virtually windless on 27, 29 and 30 August; on 31 August the weather turned, the temperature dropped to 21oC and it was rainy (<hi rend="ital">Météo-France</hi>). See also the notes to <ref target="let665.xml">letter 665</ref>, <hi rend="ital">Date.</hi>
+                        </p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0571" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000768_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000768_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000768_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000768_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000768_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000768_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0571" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000768_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000768_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000768_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000768_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000768_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000768_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000768_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000768_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000768_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Mon cher Theo,</ab>
+                <lb n="1*" xml:id="l-1s"/>
+<ab>le 1<hi rend="ss">er</hi> Septembre j’aurai mon loyer <lb n="2" xml:id="l-2"/>à payer et si tu pouvais m’envoyer la semaine <lb n="3" xml:id="l-3"/>le meme jour où toimeme tu toucheras ton mois<c type="kk">/</c> <lb n="4" xml:id="l-4"/>d’abord je payerais le loyer le jour même<c type="kk">/</c> ensuite <lb n="5" xml:id="l-5"/>la dépense porterait pour moi sur les deux <lb n="6" xml:id="l-6"/>semaines. Enfin s’il y avait moyen que <lb n="7" xml:id="l-7"/>tu m’enverrais l’argent le dimanche par ta <lb n="8" xml:id="l-8"/>lettre ou par mandat telegraphique il ne me serait pas indifferent <lb n="9" xml:id="l-9"/>de gagner ainsi un jour.</ab>
+                <lb n="10" xml:id="l-10"/>
+<ab rend="indent">J’ai deux modèles cette semaine<c type="kk">/</c> une <lb n="11" xml:id="l-11"/>arlesienne et le vieux paysan que cette fois <lb n="12" xml:id="l-12"/>ci je fais contre un fond orangé vif<c type="kk">/</c> qui <lb n="13" xml:id="l-13"/>quoiqu’il n’aie pas la prétention de représenter <lb n="14" xml:id="l-14"/>le trompe l’oeil d’un couchant rouge<c type="kk">/</c> <lb n="15" xml:id="l-15"/>en est peut-être tout de même une suggestion<c type="kp">_</c>
+                    <anchor n="1" xml:id="note-o-1"/> <lb n="16" xml:id="l-16"/>Malheureusement je crains que la petite <lb n="17" xml:id="l-17"/>arlésienne me posera un lapin pour le <lb n="18" xml:id="l-18"/>reste du tableau.<anchor n="2" xml:id="note-o-2"/> Candidement elle avait <lb n="19" xml:id="l-19"/>demandé l’argent que je lui avais promis <lb n="20" xml:id="l-20"/>pour toute les poses d’avance la dernière <lb n="21" xml:id="l-21"/>fois qu’elle était venue et comme je <lb n="22" xml:id="l-22"/>ne faisais à cela aucune difficulté <lb n="23" xml:id="l-23"/>elle a filé sans que je l’aie revue. 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                    <lb n="24" xml:id="l-24"/>Enfin un jour ou un autre elle me doit <lb n="25" xml:id="l-25"/>de revenir et ce serait un peu fort si elle <lb n="26" xml:id="l-26"/>manquait tout à fait.</ab>
+                <lb n="27" xml:id="l-27"/>
+<ab rend="indent">Egalement j’ai un bouquet en train <lb n="28" xml:id="l-28"/>et aussi une nature morte d’une <lb n="29" xml:id="l-29"/>paire de vieux souliers.<anchor n="3" xml:id="note-o-3"/>
+                </ab>
+                <lb n="30" xml:id="l-30"/>
+<ab rend="indent">J’ai un tas d’idées pour mon travail <lb n="31" xml:id="l-31"/>et en continuant la figure très assidument <lb n="32" xml:id="l-32"/>je trouverais possiblement du neuf<c type="kp">_</c>– <lb n="33" xml:id="l-33"/>Mais que veux tu<c type="kk">/</c> parfois je me sens <lb n="34" xml:id="l-34"/>trop faible contre les circonstances données <lb n="35" xml:id="l-35"/>et il faudrait être et plus sage et plus <lb n="36" xml:id="l-36"/>riche et plus jeune pour vaincre<c type="kp">_</c> <lb n="37" xml:id="l-37"/>Heureusement pour moi je ne tiens plus <lb n="38" xml:id="l-38"/>aucunément à une victoire et dans <lb n="39" xml:id="l-39"/>la peinture je ne cherche que le moyen <lb n="40" xml:id="l-40"/>de me tirer de la vie<c type="kp">_</c>
+                </ab>
+                <lb n="41" xml:id="l-41"/>
+<ab rend="indent">J’ai toujours aucune réponse de <lb n="42" xml:id="l-42"/>Russell. il ne doit pas avoir le sou <lb n="43" xml:id="l-43"/>actuellement<c type="kp">_</c>
+                    <anchor n="4" xml:id="note-o-4"/>
+                </ab>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                <lb n="44" xml:id="l-44"/>
+<ab rend="indent">J’espère bien que la soeur aura maintenant <lb n="45" xml:id="l-45"/>encore vu le Luxembourg.</ab>
+                <lb n="46" xml:id="l-46"/>
+<ab rend="indent">Nous avons eu deux ou trois jours superbes <lb n="47" xml:id="l-47"/>ici<c type="kk">/</c> tres chaudes sans vent. Le raisin <lb n="48" xml:id="l-48"/>commence à mûrir mais on entend dire <lb n="49" xml:id="l-49"/>qu’il sera pas bon.</ab>
+                <lb n="50" xml:id="l-50"/>
+<ab rend="indent">Je dois encore travailler aujourd’hui – <lb n="51" xml:id="l-51"/>à cause des modèles je redoute un <lb n="52" xml:id="l-52"/>peu ces derniers jours de la semaine<c type="kp">_</c> <lb n="53" xml:id="l-53"/>Je suis en pourparler encore avec d’autres <lb n="54" xml:id="l-54"/>personnes pour la pose<c type="kk">/</c> il y a quelque <lb n="55" xml:id="l-55"/>chôse qui me presse de faire des études <lb n="56" xml:id="l-56"/>de figure toujours le plus possible<c type="kp">_</c>
+                </ab>
+                <lb n="57" xml:id="l-57"/>
+<ab rend="indent">Les circonstances dans la suite pourraient <lb n="58" xml:id="l-58"/>bien encore s’aggraver et enfin quoi <lb n="59" xml:id="l-59"/>qu’il en soit<c type="kk">/</c> une fois que je tiens la <lb n="60" xml:id="l-60"/>figure le travail me semblera <lb n="61" xml:id="l-61"/>plus grave.</ab>
+                <lb n="62" xml:id="l-62"/>
+<ab rend="indent">Poignée de main à toi et à <lb n="63" xml:id="l-63"/>la soeur.</ab>
+<vg:whiteline/>
+                <lb n="64" xml:id="l-64"/>
+<ab>t<c type="kp">_</c> à t<c type="kp">_</c>
+                </ab>
+                <lb n="65" xml:id="l-65"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+                <lb n="66" xml:id="l-66"/>
+<ab>les contrariétés avec les modèles <lb n="67" xml:id="l-67"/>continuent tout de même<c type="kk">/</c> <lb n="68" xml:id="l-68"/>avec la tenacité du mistral d’ici <lb n="69" xml:id="l-69"/>cela ne m’egaie pas.</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-69" n="69">cela &lt; Cela</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo,</ab>
+<ab>On 1 September I’ll have my rent to pay, and if you could send me the money for the week the same day as you receive yours for the month, first of all I would pay the rent the same day, then the outlay would cover both weeks for me. Lastly, if there was some way that you could send me the money on Sunday in your letter or by money order, it wouldn’t leave me indifferent to gain a day that way.</ab>
+<ab rend="indent">I have two models this week, an Arlésienne and the old <rs type="pers" key="372">peasant</rs>, whom I’m doing this time against a bright orange background, which, although it doesn’t pretend to represent a red sunset in <hi rend="ital">trompe l’oeil</hi>, is perhaps a suggestion of it, all the same.<anchor n="1" xml:id="note-t-1"/> Unfortunately, I fear that the little Arlésienne will stand me up for the rest of the painting.<anchor n="2" xml:id="note-t-2"/> The last time she came she had innocently asked for the money in advance that I’d promised her for all the sittings, and as I made no difficulty about that she scarpered without my seeing her again. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> Anyway, one of these days she owes it to me to come back, and it would be a bit rich if she didn’t turn up at all.</ab>
+<ab rend="indent">I have a bouquet on the go as well, and also a still life of a pair of old shoes.<anchor n="3" xml:id="note-t-3"/>
+                </ab>
+<ab rend="indent">I have a mass of ideas for my work, and by continuing the figure very assiduously, I’d possibly find something new. But what can you do, sometimes I feel too weak in the face of the given circumstances, and I’d have to be wiser and richer and younger to win the fight. Fortunately for me, I no longer count at all on any victory, and in painting I look for nothing more than the means of getting by in life.</ab>
+<ab rend="indent">I’ve still had no reply whatsoever from <rs type="pers" key="1334">Russell</rs>. He probably doesn’t have a sou at the moment.<anchor n="4" xml:id="note-t-4"/> 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/>
+                </ab>
+<ab rend="indent">I really hope that our <rs type="pers" key="407">sister</rs> will also have seen the Luxembourg by now.</ab>
+<ab rend="indent">We’ve had two or three glorious days here, very hot, with no wind. The grapes are beginning to ripen, but you hear people saying they won’t be good.</ab>
+<ab rend="indent">I must do some more work today. Because of the models, I’m dreading these last days of the week a little. I’m still negotiating with some other people about posing; there’s something that’s urging me always to do as many figure studies as possible.</ab>
+<ab rend="indent">Circumstances could get even worse in future, and well, whatever the case may be, once I’ve mastered the figure, work will seem more serious to me.</ab>
+<ab rend="indent">Handshake to you and to our <rs type="pers" key="407">sister</rs>.</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<ab>Vexations with models continue all the same, and what with the tenacity of the mistral down here, that doesn’t cheer me up.</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>The ‘old peasant’ is <rs type="pers" key="372">Patience Escalier</rs>, who had previously posed for Van Gogh; <ref target="let663.xml">see letter 663</ref>. The new portrait is <hi rend="ital">Patience Escalier (‘The peasant’) </hi>(<rs type="ill" key="2705">F 444 / JH 1563</rs>).</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>We do not know who this Arlésienne was. Evidently she did not come back to sit for him, so Van Gogh was unable to finish the picture (at any rate there is no such portrait dating from this period; it was not until <ref target="let717.xml">letter 717</ref> that Van Gogh was able to report ‘I have an Arlésienne at last’. Dorn wrongly associates this passage with the painting <hi rend="ital">Portrait of a woman with carnations </hi>(<rs type="otherart" key="762">F 381 / JH 1355</rs>); <ref target="let658.xml#n-11">see letter 658, n. 11.</ref>
+                    </ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>Since Van Gogh had expressed a desire to paint a study of oleanders shortly before (<ref target="let660.xml">see letter 660</ref>), it seems likely that he carried out his plan here. There are two still lifes of oleanders: <hi rend="ital">Oleander branches in a majolica jug </hi>(<rs type="otherart" key="745">F 593 / JH 1566</rs>) and <hi rend="ital">Oleander branches in a majolica jug </hi>(<rs type="otherart" key="746">F 594 / JH 1567</rs>). <hi rend="ital">Zinnias in a majolica jug </hi>(<rs type="ill" key="2706">F 592 / JH 1568</rs>) also dates from late August, early September, given the flowering times of the species pictured (zinnias, asters and marigolds).</ab>
+<ab rend="indent">The still life of shoes is <hi rend="ital">Shoes</hi> (<rs type="ill" key="2707">F 461 / JH 1569</rs>).</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>Van Gogh expected a response from <rs type="pers" key="1334">Russell</rs> to the batch of drawings he sent him and to his request that he buy a work from Gauguin. <ref target="let652.xml#n-3">See letter 652, n. 3.</ref>
+                    </ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

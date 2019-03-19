@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Arles, Friday, 3 May 1889.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let768"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">768</idno>
+<idno type="collectedletters">590</idno>
+<idno type="brieven1990">771</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Arles</vg:placeLet>
+                        <vg:dateLet>Friday, 3 May 1889</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. Arles, Friday, 3 May 1889.</p>
+<note type="ongoingTopic" n="1">
+<p>Decision regarding Vincent’s admission to the asylum at Saint-Rémy <ref target="let760.xml">(760)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="2">
+<p>Vincent’s plan to join the Foreign Legion <ref target="let763.xml">(763)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="3">
+<p>Theo’s engagement and marriage to Jo Bonger <ref target="let728.xml">(728)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="4">
+<p>Third consignment of paintings from Arles <ref target="let767.xml">(767)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript (sheet 1, 3); reproduction (sheet 2)</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. nos. b637 a-b V/1962 (sheet 1, 3); location of sheet 2 unknown</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Vincent writes that Theo’s letter did him good ‘today’. This was <ref target="let766.xml">letter 766</ref> of 2 May, which is why we have dated the present letter to Friday, 3 May 1889. This is in keeping with the date given it by Jo van Gogh-Bonger in <hi rend="ital">Brieven </hi>1914; it is possible that she had a postmark to rely on.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <surface n="b 0637 a" xml:id="surf-pb-1r">
+    <graphic mimeType="image/tiff" url="VGM001000871_01.TIF" rend="norend"/>
+    <graphic mimeType="image/tiff" url="VGM001000871_01_n.tif" rend="norend"/>
+    <graphic mimeType="image/jpeg" url="VGM001000871_01_nt.jpg" height="50px" rend="thumbnail"/>
+    <zone xml:id="zone-pb-1r-1">
+      <graphic mimeType="image/tiff" url="VGM001000871_01_nR.tif" rend="norend"/>
+      <graphic mimeType="image/jpeg" url="VGM001000871_01_nRt.jpg" height="50px" rend="thumbnail"/>
+      <graphic mimeType="image/png" url="VGM001000871_01_nRf.png" width="380px" rend="facstab"/>
+    </zone>
+    <zone xml:id="zone-pb-1r-4">
+      <graphic mimeType="image/tiff" url="VGM001000871_01_nL.tif" rend="norend"/>
+      <graphic mimeType="image/jpeg" url="VGM001000871_01_nLt.jpg" height="50px" rend="thumbnail"/>
+      <graphic mimeType="image/png" url="VGM001000871_01_nLf.png" width="380px" rend="facstab"/>
+    </zone>
+  </surface>
+  <surface n="b 0637 a" xml:id="surf-pb-1v">
+    <graphic mimeType="image/tiff" url="VGM001000871_02.TIF" rend="norend"/>
+    <graphic mimeType="image/tiff" url="VGM001000871_02_n.tif" rend="norend"/>
+    <graphic mimeType="image/jpeg" url="VGM001000871_02_nt.jpg" height="50px" rend="thumbnail"/>
+    <zone xml:id="zone-pb-1v-2">
+      <graphic mimeType="image/tiff" url="VGM001000871_02_nL.tif" rend="norend"/>
+      <graphic mimeType="image/jpeg" url="VGM001000871_02_nLt.jpg" height="50px" rend="thumbnail"/>
+      <graphic mimeType="image/png" url="VGM001000871_02_nLf.png" width="380px" rend="facstab"/>
+    </zone>
+    <zone xml:id="zone-pb-1v-3">
+      <graphic mimeType="image/tiff" url="VGM001000871_02_nR.tif" rend="norend"/>
+      <graphic mimeType="image/jpeg" url="VGM001000871_02_nRt.jpg" height="50px" rend="thumbnail"/>
+      <graphic mimeType="image/png" url="VGM001000871_02_nRf.png" width="380px" rend="facstab"/>
+    </zone>
+  </surface>
+  <surface n="present whereabouts unknown" xml:id="surf-pb-2r">
+    <graphic mimeType="image/jpeg" url="brief768-2r.jpg" rend="norend"/>
+    <graphic mimeType="image/jpeg" url="brief768-2rt.jpg" height="50px" rend="thumbnail"/>
+    <zone xml:id="zone-pb-2r-5">
+      <graphic mimeType="image/jpeg" url="brief768-2rt.jpg" height="50px" rend="thumbnail"/>
+      <graphic mimeType="image/png" url="brief768-2rf.png" width="380px" rend="facstab"/>
+    </zone>
+  </surface>
+  <surface n="b 0637 b" xml:id="surf-pb-3r">
+    <graphic mimeType="image/tiff" url="VGM001000872_01.TIF" rend="norend"/>
+    <zone xml:id="zone-pb-3r-6">
+      <graphic mimeType="image/tiff" url="VGM001000872_01_n.tif" rend="norend"/>
+      <graphic mimeType="image/jpeg" url="VGM001000872_01_nt.jpg" height="50px" rend="thumbnail"/>
+      <graphic mimeType="image/png" url="VGM001000872_01_nf.png" width="380px" rend="facstab"/>
+    </zone>
+  </surface>
+  <surface n="b 0637 b" xml:id="surf-pb-3v">
+    <graphic mimeType="image/tiff" url="VGM001000872_02.TIF" rend="norend"/>
+    <zone xml:id="zone-pb-3v-7">
+      <graphic mimeType="image/tiff" url="VGM001000872_02_n.tif" rend="norend"/>
+      <graphic mimeType="image/jpeg" url="VGM001000872_02_nt.jpg" height="50px" rend="thumbnail"/>
+      <graphic mimeType="image/png" url="VGM001000872_02_nf.png" width="380px" rend="facstab"/>
+    </zone>
+  </surface>
+</facsimile>
+
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Mon cher Theo,</ab>
+                <lb n="1*" xml:id="l-1s"/>
+<ab>ta bonne lettre<anchor n="1" xml:id="note-o-1"/> m’a fait du bien <lb n="2" xml:id="l-2"/>aujourd’hui, ma foi – va pour S<hi rend="ss">t</hi> Remy alors, <lb n="3" xml:id="l-3"/>mais je te le dis encore une fois<c type="kk">/</c> si réflexion <lb n="4" xml:id="l-4"/>faite et le médecin consulté il serait <lb n="5" xml:id="l-5"/>peutêtre soit necessaire soit simplement utile <lb n="6" xml:id="l-6"/>et sage de s’engager<c type="kk">/</c> considerons cela <lb n="7" xml:id="l-7"/>avec le meme oeil que le reste et sans <lb n="8" xml:id="l-8"/>
+                    <hi rend="ital">parti pris contre</hi>. Voilà tout. Car éloigne <lb n="9" xml:id="l-9"/>de toi l’idée de sacrifice là-dedans – je l’écrivais <lb n="10" xml:id="l-10"/>encore l’autre jour à la soeur<c type="kk">/</c> que toute <lb n="11" xml:id="l-11"/>ma vie durant ou presque au moins j’ai cherché autre chôse <lb n="12" xml:id="l-12"/>qu’une carriere de martyr pour laquelle <lb n="13" xml:id="l-13"/>je ne suis pas de taille<c type="kp">_</c>
+                    <anchor n="2" xml:id="note-o-2"/>
+                </ab>
+                <lb n="14" xml:id="l-14"/>
+<ab rend="indent">Si je trouve de la contrariété ou en cause<c type="kk">/</c> <lb n="15" xml:id="l-15"/>ma foi j’en reste stupéfait. Certes <lb n="16" xml:id="l-16"/>je respecterais volontiers<c type="kk">/</c> j’admirerais des <lb n="17" xml:id="l-17"/>martyrs &amp;c<c type="kp">_</c> mais tu dois savoir que <lb n="18" xml:id="l-18"/>par exemple dans Bouvard &amp; Pécuchet<anchor n="3" xml:id="note-o-3"/> tout <lb n="19" xml:id="l-19"/>simplement il y a quelqu’autre chôse <lb n="20" xml:id="l-20"/>qui s’adapte davantage à nos petites <lb n="21" xml:id="l-21"/>existences.–</ab>
+                <lb n="22" xml:id="l-22"/>
+<ab rend="indent">Enfin je fais ma malle et probablement <lb n="23" xml:id="l-23"/>aussitot qu’il le pourra M. Salles ira avec <lb n="24" xml:id="l-24"/>moi là-bas.</ab>
+                <lb n="25" xml:id="l-25"/>
+<ab rend="indent">Ah ce que tu dis de Puvis et de Delacroix<anchor n="4" xml:id="note-o-4"/> <lb n="26" xml:id="l-26"/>c’est bigrement vrai<c type="kk">/</c> ceux-là ont bien <lb n="27" xml:id="l-27"/>démontré ce que pouvait etre la peinture <lb n="28" xml:id="l-28"/>mais ne confondons pas les chôses <lb n="29" xml:id="l-29"/>alors qu’il y a des distances immenses<c type="kp">_</c> <lb n="30" xml:id="l-30"/>Or moi comme peintre je ne signifierai <lb n="31" xml:id="l-31"/>jamais rien d’important<c type="kk">/</c> je le sens absolument<c type="kp">_</c> <lb n="32" xml:id="l-32"/>Supposant tout changé<c type="kk">/</c> le caractere<c type="kk">/</c> l’education<c type="kk">/</c> <lb n="33" xml:id="l-33"/>les circonstances<c type="kk">/</c> alors aurait pu exister ceci <lb n="34" xml:id="l-34"/>ou cela<c type="kp">_</c> Mais nous sommes trop positifs <lb n="35" xml:id="l-35"/>pour confondre. Je regrette quelquefois de <lb n="36" xml:id="l-36"/>ne pas simplement avoir gardé la palette <lb n="37" xml:id="l-37"/>hollandaise des tons gris et d’avoir brossé <lb n="38" xml:id="l-38"/>sans insister des paysages à Montmartre.</ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="39" xml:id="l-39"/>
+<ab rend="indent">Aussi j’y songe de recommencer à dessiner <lb n="40" xml:id="l-40"/>davantage à la plume de roseau ce qui<c type="kk">/</c> ainsi <lb n="41" xml:id="l-41"/>les vues de Mont Major de l’année passée<c type="kk">/</c>
+                    <anchor n="5" xml:id="note-o-5"/> <lb n="42" xml:id="l-42"/>est moins cher et me distrait tout autant<c type="kp">_</c> <lb n="43" xml:id="l-43"/>Aujourd’hui j’ai fabriqué un de ces dessins <lb n="44" xml:id="l-44"/>qui est devenu tres noir et assez melancolique <lb n="45" xml:id="l-45"/>pour du printemps<anchor n="6" xml:id="note-o-6"/> mais enfin quoi qu’il <lb n="46" xml:id="l-46"/>m’arrive et dans quelles circonstances<anchor n="a" xml:id="note-o-a"/> je <lb n="47" xml:id="l-47"/>me trouverai<c type="kk">/</c> c’est là une chose qui peut <lb n="48" xml:id="l-48"/>me rester longtemps comme occupation <lb n="49" xml:id="l-49"/>et en quelque sorte pourrait devenir un <lb n="50" xml:id="l-50"/>gagnepain même.</ab>
+                <lb n="51" xml:id="l-51"/>
+<ab rend="indent">Enfin à toi comme à moi en somme qu’est <lb n="52" xml:id="l-52"/>ce que ca nous fait d’avoir un peu plus <lb n="53" xml:id="l-53"/>ou un peu moins de contrariété<c type="kp">_</c>
+                </ab>
+                <lb n="54" xml:id="l-54"/>
+<ab rend="indent">Certes toi tu t’es <hi rend="ital">engagé</hi> bien plus tot <lb n="55" xml:id="l-55"/>que moi<c type="kk">/</c> si nous en venons là<c type="kk">/</c> chez les <lb n="56" xml:id="l-56"/>Goupil où en somme tu as passé de <lb n="57" xml:id="l-57"/>bien mauvais quarts d’heures souvent <lb n="58" xml:id="l-58"/>assez<c type="kk">/</c> desquelles on ne t’a pas toujours <lb n="59" xml:id="l-59"/>remercié. Et justement tu l’as fait avec <lb n="60" xml:id="l-60"/>zele et devouement parceque alors <lb n="61" xml:id="l-61"/>notre père était avec la grande famille d’alors <lb n="62" xml:id="l-62"/>un peu aux abois et qu’il était nécessaire <lb n="63" xml:id="l-63"/>pour faire marcher le tout que tu <lb n="64" xml:id="l-64"/>t’y jetas tout à fait. j’ai avec beaucoup <lb n="65" xml:id="l-65"/>d’emotion encore pensé à toutes ces <lb n="66" xml:id="l-66"/>vieilles choses pendant ma maladie<c type="kp">_</c>
+                </ab>
+                <lb n="67" xml:id="l-67"/>
+<ab rend="indent">Et enfin le principal c’est de se sentir <lb n="68" xml:id="l-68"/>bien unis et cela n’est pas encore <lb n="69" xml:id="l-69"/>dérangé.</ab>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                <lb n="70" xml:id="l-70"/>
+<ab rend="indent">J’ai une certaine espérance qu’avec ce qu’en <lb n="71" xml:id="l-71"/>somme je sais de mon art<c type="kk">/</c> il arrivera <lb n="72" xml:id="l-72"/>un temps où je produirai encore<c type="kk">/</c> quoique dans <lb n="73" xml:id="l-73"/>l’asile. A quoi me servirait une vie plus <lb n="74" xml:id="l-74"/>factice d’artiste à Paris – de laquelle <lb n="75" xml:id="l-75"/>en somme je ne serais dupe qu’à demi <lb n="76" xml:id="l-76"/>et pour laquelle je manque consequemment d’entrain <lb n="77" xml:id="l-77"/>primitif<c type="kk">/</c> indispensable pour me lancer<c type="kp">_</c>– <lb n="78" xml:id="l-78"/>Physiquement c’est épatant comme <lb n="79" xml:id="l-79"/>je me porte bien mais cela n’est pas <lb n="80" xml:id="l-80"/>tant que ça suffisant pour se baser là-<c type="shy">-</c>
+                    <lb n="81" xml:id="l-81"/>dessus pour aller croire qu’il en soit de <lb n="82" xml:id="l-82"/>même mentalement.</ab>
+                <lb n="83" xml:id="l-83"/>
+<ab rend="indent">Je voudrais volontiers<c type="kk">/</c> une fois un peu <lb n="84" xml:id="l-84"/>connu là-bas<c type="kk">/</c> essayer de me faire infirmier <lb n="85" xml:id="l-85"/>peu à peu<c type="kk">/</c> enfin travailler à n’importe <lb n="86" xml:id="l-86"/>quoi et reprendre de l’occupation – la <lb n="87" xml:id="l-87"/>première venue.</ab>
+                <lb n="88" xml:id="l-88"/>
+<ab rend="indent">J’aurai terriblement besoin du père Pangloss<anchor n="7" xml:id="note-o-7"/> <lb n="89" xml:id="l-89"/>lorsqu’il va naturellement m’arriver de <lb n="90" xml:id="l-90"/>redevenir amoureux. L’alcool et le <lb n="91" xml:id="l-91"/>tabac ont enfin cela de bon ou de mauvais <lb n="92" xml:id="l-92"/>– c’est un peu relatif cela – que ce sont <lb n="93" xml:id="l-93"/>des anti aphrodisiaques faudrait il nommer <lb n="94" xml:id="l-94"/>cela je crois<c type="kp">_</c>– Pas toujours méprisables <lb n="95" xml:id="l-95"/>dans l’exercice des beaux arts<c type="kp">_</c>
+                </ab>
+                <lb n="96" xml:id="l-96"/>
+<ab rend="indent">Enfin là sera l’épreuve où il faudra <lb n="97" xml:id="l-97"/>ne pas oublier de blaguer tout à fait<c type="kp">_</c>
+                    <anchor n="b" xml:id="note-o-b"/> <lb n="98" xml:id="l-98"/>Car la vertu et la sobrieté<c type="kk">/</c> je ne le crains <lb n="99" xml:id="l-99"/>que trop<c type="kk">/</c> me menerait encore dans ces <lb n="100" xml:id="l-100"/>parages-là où d’habitude je perds très vite <lb n="101" xml:id="l-101"/>complètement la boussole et où cette fois <lb n="102" xml:id="l-102"/>ci je dois essayer d’avoir moins de passion <lb n="103" xml:id="l-103"/>et plus de bonhomie<c type="kp">_</c>
+                </ab>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                <lb n="104" xml:id="l-104"/>
+<ab rend="indent">Le possible passionnel pour moi est bien pas grand <lb n="105" xml:id="l-105"/>chôse alors que pourtant demeure j’ose croire <lb n="106" xml:id="l-106"/>la puissance de se sentir attaché aux êtres humains <lb n="107" xml:id="l-107"/>avec lesquels on vivra. Comment va le père <lb n="108" xml:id="l-108"/>Tanguy – il faut bien lui dire le bonjour pour moi<c type="kp">_</c>
+                </ab>
+                <lb n="109" xml:id="l-109"/>
+<ab rend="indent">J’entends dire dans les journaux qu’il y a des choses <lb n="110" xml:id="l-110"/>bien au Salon. Ecoute – ne te fais pas impressioniste <lb n="111" xml:id="l-111"/>tout à fait exclusif enfin<c type="kk">/</c> s’il y a du bon <lb n="112" xml:id="l-112"/>dans quelque chose ne le perdons pas de vue<c type="kp">_</c> <lb n="113" xml:id="l-113"/>Certes la couleur est <lb n="114" xml:id="l-114"/>en progres <hi rend="ital">justement par</hi> les impressionistes <lb n="115" xml:id="l-115"/>même lorsqu’ils s’egarent<c type="kp">_</c>– Mais Delacroix <lb n="116" xml:id="l-116"/>a été deja plus complet qu’eux.</ab>
+                <lb n="117" xml:id="l-117"/>
+<ab rend="indent">Et bigre<c type="kk">/</c> Millet qui n’en a guere de couleur<c type="kk">/</c> <lb n="118" xml:id="l-118"/>quelle oeuvre que la sienne!</ab>
+                <lb n="119" xml:id="l-119"/>
+<ab rend="indent">La folie est salutaire pour cela qu’on <lb n="120" xml:id="l-120"/>devient peutetre moins exclusif.</ab>
+                <lb n="121" xml:id="l-121"/>
+<ab rend="indent">Je ne regrette pas d’avoir voulu savoir cette <lb n="122" xml:id="l-122"/>question des theories de couleurs un peu techniquement<c type="kp">_</c>
+                </ab>
+                <lb n="123" xml:id="l-123"/>
+<ab rend="indent">On n’est comme artiste qu’un anneau dans <lb n="124" xml:id="l-124"/>une chaine et qu’on trouve ou qu’on ne <lb n="125" xml:id="l-125"/>trouve pas<c type="kk">/</c> de cela on peut se consoler<c type="kp">_</c> </ab>
+                <lb n="126" xml:id="l-126"/>
+<ab rend="indent">– j’ai entendu parler d’un interieur tout vert avec une femme <lb n="127" xml:id="l-127"/>verte au Salon dont on disait du bien<anchor n="8" xml:id="note-o-8"/> ainsi que d’un <lb n="128" xml:id="l-128"/>portrait de Mathey<anchor n="9" xml:id="note-o-9"/> et d’un autre de Besnard<c type="kk">/</c> “la sirène”<c type="kp">_</c>
+                    <anchor n="10" xml:id="note-o-10"/> <lb n="129" xml:id="l-129"/>on disait aussi qu’il y a quelque chose d’extraordinaire <lb n="130" xml:id="l-130"/>d’un nommé Zorn mais on ne disait pas quoi<anchor n="11" xml:id="note-o-11"/> <lb n="131" xml:id="l-131"/>et qu’il y avait un Carolus Duran<c type="kk">/</c> triomphe de Bacchus<c type="kk">/</c> <lb n="132" xml:id="l-132"/>mauvais.<anchor n="12" xml:id="note-o-12"/> Pourtant sa dame au gant du Luxembourg<anchor n="13" xml:id="note-o-13"/> <lb n="133" xml:id="l-133"/>je trouve ça toujours si bien; enfin il y a de ces choses <lb n="134" xml:id="l-134"/>peu serieuses que j’aime beaucoup<c type="kk">/</c> ainsi un livre <lb n="135" xml:id="l-135"/>comme bel ami.<anchor n="14" xml:id="note-o-14"/> Et l’oeuvre de Carolus est comme ça un <lb n="136" xml:id="l-136"/>peu. Notre époque a pourtant été comme ça et tout <lb n="137" xml:id="l-137"/>le temps de Badingue<anchor n="15" xml:id="note-o-15"/> aussi. Et si un peintre fait comme <lb n="138" xml:id="l-138"/>il voit<c type="kk">/</c> cela reste toujours quelqu’un.</ab>
+                <lb n="139" xml:id="l-139"/>
+<ab rend="indent">Ah, peindre des figures comme Claude <lb n="140" xml:id="l-140"/>Monet peint les paysages<c type="kp">_</c> Voilà <lb n="141" xml:id="l-141"/>ce qui reste malgré tout à faire et avant <lb n="142" xml:id="l-142"/>qu’on ne<anchor n="16" xml:id="note-o-16"/> voie à la rigeur dans les impressionistes que <lb n="143" xml:id="l-143"/>Monet seul.</ab>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+                <lb n="144" xml:id="l-144"/>
+<ab rend="indent">Car enfin en figures Delacroix<c type="kk">/</c> Millet<c type="kk">/</c> <lb n="145" xml:id="l-145"/>plusieurs sculpteurs ont fait autrement <lb n="146" xml:id="l-146"/>mieux que les impressionistes et meme J<c type="kp">_</c> Breton<c type="kp">_</c>
+                </ab>
+                <lb n="147" xml:id="l-147"/>
+<ab rend="indent">Enfin mon cher frère soyons juste et <lb n="148" xml:id="l-148"/>je te le dis <hi rend="ital">en me retirant</hi>
+                    <c type="kk">/</c> <lb n="149" xml:id="l-149"/>songeons<c type="kk">/</c> là où nous nous faisons trop vieux <lb n="150" xml:id="l-150"/>pour nous ranger dans les jeunes<c type="kk">/</c> à <lb n="151" xml:id="l-151"/>ce que nous avons aimé dans le temps<c type="kk">/</c> <lb n="152" xml:id="l-152"/>Millet<c type="kk">/</c> Breton<c type="kk">/</c> Israels<c type="kk">/</c> Whistler<c type="kk">/</c> Delacroix<c type="kk">/</c> <lb n="152a" xml:id="l-152a"/>Leys<c type="kp">_</c> <lb n="153" xml:id="l-153"/>Et sois en bien sûr que moi je suis convaincu <lb n="154" xml:id="l-154"/>assez que je ne verrai pas un avenir au delà <lb n="155" xml:id="l-155"/>de ça ni d’ailleurs en désire<c type="kp">_</c>
+                </ab>
+                <lb n="156" xml:id="l-156"/>
+<ab rend="indent">Maintenant la societé est comme <lb n="157" xml:id="l-157"/>elle est<c type="kk">/</c> nous ne pouvons naturellement <lb n="158" xml:id="l-158"/>pas desirer qu’elle s’adapte juste à <lb n="159" xml:id="l-159"/>nos besoins personels. Enfin<c type="kk">/</c> cependant <lb n="160" xml:id="l-160"/>tout en trouvant fort fort bien d’aller <lb n="161" xml:id="l-161"/>à S<hi rend="ss">t</hi> Remy<c type="kk">/</c> cependant des gens comme <lb n="162" xml:id="l-162"/>moi cela serait réellement plus <lb n="163" xml:id="l-163"/>juste de les fourrer dans la légion<c type="kp">_</c> <lb n="164" xml:id="l-164"/>Nous n’y pouvons rien mais plus que <lb n="165" xml:id="l-165"/>probable là on me refuserait<c type="kk">/</c> au <lb n="166" xml:id="l-166"/>moins ici où mon aventure est trop <lb n="167" xml:id="l-167"/>connue et surtout exagérée<c type="kp">_</c> Je dis ca <lb n="168" xml:id="l-168"/>tres tres serieusement<c type="kk">/</c> physiquement <lb n="169" xml:id="l-169"/>je me porte mieux que depuis des <lb n="170" xml:id="l-170"/>annees et des annees et je pourrais <lb n="171" xml:id="l-171"/>faire le service<c type="kp">_</c> Réflechissons donc encore <lb n="172" xml:id="l-172"/>à ça tout en allant à S<hi rend="ss">t</hi> Remy. Je te <lb n="173" xml:id="l-173"/>serre bien la main ainsi qu’à ta femme<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="173"/>
+<ab>t. à t.</ab>
+                <lb n="174" xml:id="l-174"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<pb f="3r" n="6" xml:id="pb-orig-3r-6" facs="#zone-pb-3r-6"/>
+                <lb n="175" xml:id="l-175"/>
+<ab>Ah je ne voulais pas précisement dire<c type="kk">/</c> lorsque <lb n="176" xml:id="l-176"/>je t’écrivis qu’il ne faut pas oublier d’aprécier <lb n="177" xml:id="l-177"/>ce qui est bon dans ceux qui ne sont pas <lb n="178" xml:id="l-178"/>impressionistes<c type="kk">/</c>
+                    <anchor n="17" xml:id="note-o-17"/> que je t’engageais à admirer <lb n="179" xml:id="l-179"/>outre mesure le Salon mais plutot un <lb n="180" xml:id="l-180"/>tas de gens tels que par exemple Jourdan qui vient <lb n="181" xml:id="l-181"/>de mourir à Avignon<c type="kk">/</c>
+                    <anchor n="18" xml:id="note-o-18"/> Antigna<c type="kk">/</c> Feyen Perrin<c type="kk">/</c> <lb n="182" xml:id="l-182"/>tous ceux qu’autrefois nous avons tant <lb n="183" xml:id="l-183"/>connus étant plus jeunes<c type="kk">/</c> pourquoi les <lb n="184" xml:id="l-184"/>oublier ou pourquoi n’attacher aucune <lb n="185" xml:id="l-185"/>importance à leurs équivalents d’aprésent<c type="kp">_</c> <lb n="186" xml:id="l-186"/>Pourquoi Daubigny et Quost et Jeannin <lb n="187" xml:id="l-187"/>ne sont ils pas coloristes par exemple<c type="kp">_</c> <lb n="188" xml:id="l-188"/>Tant de distinctions dans l’impressionisme n’ont <lb n="189" xml:id="l-189"/>
+                    <hi rend="ital">pas</hi> l’importance qu’on a voulu y voir<c type="kp">_</c>
+                </ab>
+                <lb n="190" xml:id="l-190"/>
+<ab rend="indent">Les crinolines aussi avaient du joli et <lb n="191" xml:id="l-191"/>conséquemment du bon mais enfin la <lb n="192" xml:id="l-192"/>mode a été néamoins heureusement passagère<c type="kp">_</c> <lb n="193" xml:id="l-193"/>Non pas pour quelquesuns<c type="kp">_</c>
+                </ab>
+                <lb n="194" xml:id="l-194"/>
+<ab rend="indent">Et ainsi nous garderons toujours une certaine <lb n="195" xml:id="l-195"/>passion pour l’impressionisme mais <lb n="196" xml:id="l-196"/>je sens que moi je reviens de plus en <lb n="197" xml:id="l-197"/>plus dans des idees que j’avais déjà avant de <lb n="198" xml:id="l-198"/>venir à Paris.</ab>
+                <lb n="199" xml:id="l-199"/>
+<ab rend="indent">Maintenant que tu es marié nous <lb n="200" xml:id="l-200"/>n’avons plus à vivre pour de <lb n="201" xml:id="l-201"/>grandes idées mais crois le<c type="kk">/</c> pour <lb n="202" xml:id="l-202"/>des petites seulement<c type="kp">_</c> Et je trouve <lb n="203" xml:id="l-203"/>cela un fameux soulagement <lb n="204" xml:id="l-204"/>dont je ne me plains aucunément<c type="kp">_</c>
+                </ab>
+                <lb n="205" xml:id="l-205"/>
+<ab rend="indent">(J’ai dans ma chambre le fameux portrait d’homme <lb n="206" xml:id="l-206"/>(la gravure sur bois) que tu connais. une mandarine de <lb n="207" xml:id="l-207"/>Monorou (la grande planche de l’album Bing)<c type="kk">/</c>
+                    <anchor n="19" xml:id="note-o-19"/> <lb n="208" xml:id="l-208"/>le brin d’herbe (du meme album)<c type="kk">/</c>
+                    <anchor n="20" xml:id="note-o-20"/> la piéta<anchor n="21" xml:id="note-o-21"/> et le <lb n="209" xml:id="l-209"/>bon samaritain de Delacroix<c type="kk">/</c>
+                    <anchor n="22" xml:id="note-o-22"/> et le liseur de Meissonier<anchor n="23" xml:id="note-o-23"/> <lb n="210" xml:id="l-210"/>puis deux grands dessins à la plume de roseau.)<anchor n="24" xml:id="note-o-24"/>
+                </ab>
+<pb f="3v" n="7" xml:id="pb-orig-3v-7" facs="#zone-pb-3v-7"/>
+                <lb n="211" xml:id="l-211"/>
+<ab rend="indent">Je lis dans ce moment le médecin de campagne <lb n="212" xml:id="l-212"/>de Balzac qui est bien beau<c type="kk">/</c> il y a là-dedans <lb n="213" xml:id="l-213"/>une figure de femme pas folle mais trop <lb n="214" xml:id="l-214"/>sensible qui est bien charmante<c type="kk">/</c> je te <lb n="215" xml:id="l-215"/>l’enverrai quand je l’aurai fini<c type="kp">_</c>
+                    <anchor n="25" xml:id="note-o-25"/> Wil m’a écrit <lb n="216" xml:id="l-216"/>une bonne lettre toujours très ferme et calme<c type="kp">_</c>
+                </ab>
+                <lb n="217" xml:id="l-217"/>
+<ab rend="indent">Ils ont beaucoup de place ici à l’hospice<c type="kk">/</c> il y aurait <lb n="218" xml:id="l-218"/>de quoi faire des ateliers pour une trentaine de <lb n="219" xml:id="l-219"/>peintres.</ab>
+                <lb n="220" xml:id="l-220"/>
+<ab rend="indent">Il faut bien que j’en prenne mon parti<c type="kk">/</c> <lb n="221" xml:id="l-221"/>il n’est que trop vrai qu’un tas de peintres deviennent <lb n="222" xml:id="l-222"/>fous<c type="kk">/</c> c’est une vie qui rend<c type="kk">/</c> pour dire le moins<c type="kk">/</c> <lb n="223" xml:id="l-223"/>très abstrait.<anchor n="c" xml:id="note-o-c"/> Si je me rejette dans le travail <lb n="224" xml:id="l-224"/>en plein<c type="kk">/</c> c’est bon<c type="kk">/</c> mais je reste toujours toqué<c type="kp">_</c> <lb n="225" xml:id="l-225"/>Si je pouvais m’engager pour 5 ans je <lb n="226" xml:id="l-226"/>guérirais considérablement et serais plus <lb n="227" xml:id="l-227"/>raisonable et davantage maitre de moi<c type="kp">_</c>
+                </ab>
+                <lb n="228" xml:id="l-228"/>
+<ab rend="indent">Mais l’un ou l’autre<c type="kk">/</c> cela m’est égal.</ab>
+                <lb n="229" xml:id="l-229"/>
+<ab rend="indent">J’espere qu’il y ait dans le tas de toiles que <lb n="230" xml:id="l-230"/>je t’ai envoyés de certaines qui finiront par <lb n="231" xml:id="l-231"/>te faire quelque plaisir<c type="kp">_</c>– Si je reste peintre <lb n="232" xml:id="l-232"/>alors tot ou tard je reverrai probablement Paris <lb n="233" xml:id="l-233"/>et je me promets bien de donner à cette <lb n="234" xml:id="l-234"/>occasion une bonne retouche à plusieurs <lb n="235" xml:id="l-235"/>vieilles toiles. Que fait Gauguin, j’evite <lb n="236" xml:id="l-236"/>encore de lui écrire jusqu’à que je sois <lb n="237" xml:id="l-237"/>tout à fait normal mais je pense si souvent <lb n="238" xml:id="l-238"/>à lui et j’aimerais tant à savoir si tout <lb n="239" xml:id="l-239"/>va relativement bien pour lui.</ab>
+                <lb n="240" xml:id="l-240"/>
+<ab rend="indent">Si je n’avais pas été si pressé<c type="kk">/</c> si j’avais <lb n="241" xml:id="l-241"/>gardé mon atelier j’aurais cet été encore <lb n="242" xml:id="l-242"/>travaillé toutes les toiles que je t’ai envoyées<c type="kp">_</c> <lb n="243" xml:id="l-243"/>Tant que les pâtes ne sont pas sèches à fond<c type="kk">/</c> <lb n="244" xml:id="l-244"/>naturellement on ne peut pas y gratter<c type="kp">_</c>
+                </ab>
+                <lb n="245" xml:id="l-245"/>
+<ab rend="indent">Tu verras bien que les expressions des deux <lb n="246" xml:id="l-246"/>femmes<anchor n="26" xml:id="note-o-26"/> sont autres que les expressions <lb n="247" xml:id="l-247"/>qu’on voit à Paris.</ab>
+                <lb n="248" xml:id="l-248"/>
+<ab rend="indent">Signac est il deja de retour à Paris?</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-115" n="115">lorsqu’ils &lt; losqu’ils</note>
+<note target="l-142" n="142">impressionistes &lt; impressioniste</note>
+<note target="l-180" n="180">par exemple &lt; par</note>
+<note target="l-209" n="209">Meissonier &lt; meissonier)</note>
+<note target="l-210" n="210">roseau.) &lt; roseau</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo,</ab>
+<ab>Your kind letter<anchor n="1" xml:id="note-t-1"/> did me good today, my word – let’s go for St-Rémy then, but I tell you one more time, if after due consideration and consultation with the doctor it would be perhaps either necessary or simply useful and wise to enlist, let’s consider that with the same eye as the rest, and without <hi rend="ital">prior prejudice against it</hi>. That’s all. For dismiss the idea of sacrifice in it – I was writing to our <rs type="pers" key="407">sister</rs> the other day that throughout my life, or almost at least, I’ve sought something other than a martyr’s career, of which I’m not capable.<anchor n="2" xml:id="note-t-2"/>
+                </ab>
+<ab rend="indent">If I find annoyance or cause it, my word I remain stunned by it. Certainly I would gladly respect, I would admire martyrs &amp;c., but you must know that in Bouvard et Pécuchet,<anchor n="3" xml:id="note-t-3"/> for example, quite simply there is some other thing that adapts itself more to our little existences.</ab>
+<ab rend="indent">Anyway, I’m packing my trunk, and probably <rs type="pers" key="663">Mr Salles</rs> will go there with me as soon as he can.</ab>
+<ab rend="indent">Ah, what you said about <rs type="pers" key="1286">Puvis</rs> and <rs type="pers" key="982">Delacroix</rs>
+                    <anchor n="4" xml:id="note-t-4"/> is darned right, those fellows have well demonstrated what painting could be, but let’s not confuse things when there are immense distances. Now, myself as a painter, I’ll never signify anything important, I sense it absolutely. Supposing everything were changed, character, upbringing, circumstances, then this or that could have existed. But we’re too positive to confuse. I sometimes regret not having simply kept the Dutch palette of grey tones, and brushed landscapes in Montmartre without pressing the point.
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">Also, I’m thinking of beginning to draw more with the reed pen again which, like last year’s views of Montmajour,<anchor n="5" xml:id="note-t-5"/> is less expensive and distracts me just as much. Today I’ve made one of those drawings which became very dark and quite melancholic for springtime,<anchor n="6" xml:id="note-t-6"/> but anyway, whatever happens to me and in whatever circumstances I find myself, that’s something that I could keep as an occupation for a long time, and in some way could even become a means of earning a livelihood.</ab>
+<ab rend="indent">Anyway, all in all what does it matter to you or to me to have a little more or a little less annoyance.</ab>
+<ab rend="indent">Certainly you <hi rend="ital">joined up </hi>much earlier than I did, if we come to that, at the Goupils’, where all in all you spent some pretty bad moments often enough, for which you weren’t always thanked. And indeed you did it with zeal and devotion, because then our <rs type="pers" key="526">father</rs> rather had his back to the wall with the big family at the time, and it was necessary for you to throw yourself into it completely in order to make everything work. I’ve thought again with much emotion of all these old things during my illness.</ab>
+<ab rend="indent">And in the end the main thing is to feel ourselves closely united, and that hasn’t yet been disturbed. 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/>
+                </ab>
+<ab rend="indent">I have a certain hope that with what I know of my art in total, a time will come when I’ll produce again, although in the asylum. What use would the more artificial life of an artist in Paris be to me – one by which, all in all, I would only be half duped and for which I consequently lack primitive enthusiasm, indispensable for launching myself into it. Physically it’s amazing how well I am, but that isn’t enough of a basis for going on believing that it’s the same mentally.</ab>
+<ab rend="indent">I would happily, once I was known there a little, try and make myself a male nurse little by little, in short to work at anything and take up an occupation again – the first one that comes along.</ab>
+<ab rend="indent">I’ll have terrible need of <hi rend="ital">père</hi> Pangloss<anchor n="7" xml:id="note-t-7"/> when it naturally comes about that I become amorous again. Alcohol and tobacco have after all this good or bad point – it’s a bit relative, this – that they’re anti-aphrodisiacs, one should call it that I think. Not always to be despised in the exercise of the fine arts.</ab>
+<ab rend="indent">Anyway, that will be the ordeal in which one mustn’t forget completely how to jest. For virtue and sobriety, I’m only too afraid, would lead me again into those parts where usually I very quickly lose the compass completely, and where this time I must try to have less passion and more bonhomie. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/>
+                </ab>
+<ab rend="indent">The possible passionate thing is no great thing for me, although the power remains, I dare believe, to feel oneself attached to the human beings with whom one lives. How is <hi rend="ital">père</hi> <rs type="pers" key="772">Tanguy</rs> – you must give him my warm regards.</ab>
+<ab rend="indent">I hear in the newspapers that there are good things at the Salon. Listen – don’t make yourself a completely exclusive Impressionist after all, if there’s good in something let’s not lose sight of it. Certainly colour is making progress, <hi rend="ital">precisely by</hi> the Impressionists, even when they go astray. But <rs type="pers" key="982">Delacroix</rs> was already more complete than they are.</ab>
+<ab rend="indent">And my goodness, <rs type="pers" key="1226">Millet</rs>, who has hardly any colour, what work his is!</ab>
+<ab rend="indent">Madness is salutary for this, that one becomes perhaps less exclusive.</ab>
+<ab rend="indent">I don’t regret having wanted to know a little technically about this question of the theories of colours.</ab>
+<ab rend="indent">As an artist one is merely a link in a chain, and whether you find or you don’t find, you can console yourself with that.</ab>
+<ab rend="indent">I’ve heard talk of a completely green interior with a green woman at the Salon which people were saying good things about,<anchor n="8" xml:id="note-t-8"/> as well as a portrait by <rs type="pers" key="1196">Mathey</rs>,<anchor n="9" xml:id="note-t-9"/> and another by <rs type="pers" key="858">Besnard</rs>, ‘The siren’.<anchor n="10" xml:id="note-t-10"/> People were also saying that there’s something extraordinary by a fellow called <rs type="pers" key="1447">Zorn</rs>, but they didn’t say what,<anchor n="11" xml:id="note-t-11"/> and that there was a <rs type="pers" key="925">Carolus-Duran</rs> there, Triumph of Bacchus, bad.<anchor n="12" xml:id="note-t-12"/> However, I still find his ‘Lady with a glove’ in the Luxembourg<anchor n="13" xml:id="note-t-13"/> so good; anyway, there are things that aren’t serious that I like a lot, such as a book like Bel-ami.<anchor n="14" xml:id="note-t-14"/> And Carolus’s work is a little like that. Our epoch has been like that, though, and all Badinguet’s time<anchor n="15" xml:id="note-t-15"/> too. And if a painter does as he sees, he always remains someone.</ab>
+<ab rend="indent">Ah, to paint figures like <rs type="pers" key="1222">Claude Monet</rs> paints landscapes. That’s what remains to be done despite everything, and before, of necessity, one<anchor n="16" xml:id="note-t-16"/> sees only Monet among the Impressionists.
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/>
+                </ab>
+<ab rend="indent">For after all in figures, <rs type="pers" key="982">Delacroix</rs>, <rs type="pers" key="1226">Millet</rs>, several sculptors have otherwise done better than the Impressionists, and even <rs type="pers" key="899">J. Breton</rs>.</ab>
+      <ab rend="indent">Anyway, my dear brother, let’s be just, and I say to you <hi rend="ital">as I retire</hi>, let’s think, just when we’re getting too old to class ourselves with the young ones, of what we have loved in our time, <rs type="pers" key="1226">Millet</rs>, <rs type="pers" key="899">Breton</rs>, <rs type="pers" key="1107">Israëls</rs>, <rs type="pers" key="1444">Whistler</rs>, <rs type="pers" key="982">Delacroix</rs>, <rs type="pers" key="1176">Leys</rs>. And be fully assured that I myself am sufficiently convinced that I shan’t see a future beyond that, nor moreover desire one.</ab>
+<ab rend="indent">Now society is as it is, naturally we can’t wish for it to adapt itself just to our personal needs. Anyway, however while finding it really really good to go to St-Rémy, however with people like me it would really be more just to stuff them into the legion. We can’t do anything about it, but more than probably they’d refuse me there, at least here where my adventure is too well known, and above all exaggerated. I say this very, very seriously, physically I’m better than I have been for years and years, and I could do military service. So let’s think again about that while going to St-Rémy. I shake your hand heartily, and your <rs type="pers" key="416">wife</rs>’s too.</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<ab>
+<pb f="3r" n="6" xml:id="pb-trans-3r-6" facs="#zone-pb-3r-6"/>
+                </ab>
+<ab>Ah, when I wrote to you that we mustn’t forget to appreciate what’s good in those who aren’t Impressionists,<anchor n="17" xml:id="note-t-17"/> I didn’t exactly mean to say that I was urging you to admire the Salon beyond measure, but rather a heap of people like, for example, <rs type="pers" key="1126">Jourdan</rs>, who has just died in Avignon,<anchor n="18" xml:id="note-t-18"/> <rs type="pers" key="355">Antigna</rs>, <rs type="pers" key="1022">Feyen-Perrin</rs>, all those whom we knew so well before, when we were younger, why forget them or why attach no importance to their present-day equivalents? Why are <rs type="pers" key="976">Daubigny</rs> and <rs type="pers" key="1282">Quost</rs> and <rs type="pers" key="1112">Jeannin</rs> not colourists for example? So many distinctions in Impressionism do <hi rend="ital">not</hi> have the importance one wanted to see in them.</ab>
+<ab rend="indent">Crinolines also had something pretty and consequently good about them, but anyway the fashion was fortunately short-lived all the same. Not for some people.</ab>
+<ab rend="indent">And thus we’ll always retain a certain passion for Impressionism, but I sense that I’m returning more and more to the ideas I already had before coming to Paris.</ab>
+<ab rend="indent">Now that you’re married we no longer have to live for great ideas but, believe it, for little ones only. And I find that a real relief which I don’t complain about at all.</ab>
+<ab rend="indent">(In my room I have the famous portrait of a man (the wood engraving) that you know, a mandarin woman by Monorou (the large print from the <rs type="pers" key="290">Bing</rs> album),<anchor n="19" xml:id="note-t-19"/> the blade of grass (from the same album),<anchor n="20" xml:id="note-t-20"/> the Pietà<anchor n="21" xml:id="note-t-21"/> and the good Samaritan by <rs type="pers" key="982">Delacroix</rs>,<anchor n="22" xml:id="note-t-22"/> and <rs type="pers" key="1208">Meissonier</rs>’s reader,<anchor n="23" xml:id="note-t-23"/> then two large reed pen drawings.)<anchor n="24" xml:id="note-t-24"/>
+<pb f="3v" n="7" xml:id="pb-trans-3v-7" facs="#zone-pb-3v-7"/>
+                </ab>
+<ab rend="indent">At the moment I’m reading <rs type="pers" key="519">Balzac</rs>’s Le médecin de campagne, which is really fine, in it there’s a character of a woman, not mad but too sensitive, who is really charming, I’ll send it to you when I’ve finished it.<anchor n="25" xml:id="note-t-25"/> <rs type="pers" key="407">Wil</rs> wrote me a kind letter, still very firm and calm.</ab>
+<ab rend="indent">They have a lot of room here at the hospital, there’d be enough to make studios for thirty or so painters.</ab>
+<ab rend="indent">I really must make up my mind, it’s only too true that an awful lot of painters go mad, it’s a life which makes you very distracted, to say the least. If I throw myself fully into work again, that’s good, but I still remain cracked. If I could enlist for 5 years I would recover considerably and would be more rational and more the master of myself.</ab>
+<ab rend="indent">But one or the other, it’s all the same to me.</ab>
+<ab rend="indent">I hope that in the heap of canvases I’ve sent you there may be some which will end up giving you pleasure. If I remain a painter, then sooner or later I’ll probably see Paris again, and I firmly promise myself that I’ll thoroughly touch up several old canvases on that occasion. What’s <rs type="pers" key="1039">Gauguin</rs> doing, I’m still avoiding writing to him until I’m completely normal, but I think of him so often, and I’d so much like to know if everything is going relatively well for him.</ab>
+<ab rend="indent">If I hadn’t been in such a hurry, if I’d kept my studio, this summer I would have worked again on all the canvases I’ve sent you. As long as the impasto isn’t dry all the way through, naturally it can’t be scraped.</ab>
+<ab rend="indent">You’ll clearly see that the two women’s expressions<anchor n="26" xml:id="note-t-26"/> are different from the expressions one sees in Paris.</ab>
+<ab rend="indent">Is <rs type="pers" key="1350">Signac</rs> back in Paris yet?</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>This was Theo’s <ref target="let766.xml">letter 766</ref>.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>Vincent wrote this to <rs type="pers" key="407">Willemien</rs> in <ref target="let764.xml">letter 764</ref>.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>For <rs type="pers" key="596">Flaubert</rs>’s <hi rend="ital">
+                            <rs type="lit" key="498">Bouvard et Pécuchet</rs>
+                        </hi>, <ref target="let669.xml#n-9">see letter 669, n. 9.</ref>
+                    </ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>Theo had written about <rs type="pers" key="1286">Puvis de Chavannes</rs> and <rs type="pers" key="981">Degas</rs> (not about <rs type="pers" key="982">Delacroix</rs>, as Vincent writes here). <ref target="let766.xml">See letter 766</ref>.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>Van Gogh is referring to the second series of pen drawings that he made of Montmajour, in the first half of July 1888. <ref target="let639.xml">See letter 639</ref> and cat. Amsterdam 2007, pp. 135-146.</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>
+      <hi rend="ital">Weeping tree on a lawn</hi> (<rs type="ill" key="2661">F 1468 / JH 1498</rs>).</ab>
+                </note>
+<note n="a" xml:id="n-a" target="#note-o-a">
+<ab>Read: ‘quelques que soient les circonstances dans lesquelles’.</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>The philosopher Pangloss is a character in <rs type="pers" key="844">Voltaire</rs>’s <hi rend="ital">
+                            <rs type="lit" key="445">Candide</rs>
+                        </hi>. Van Gogh is alluding here to Pangloss’s cheerfully naive idea that ‘all is for the best in the best of all possible worlds’ (tout est pour le mieux dans le meilleur des mondes). <ref target="let568.xml#n-3">See letter 568, n. 3.</ref>
+                    </ab>
+                </note>
+<note n="b" xml:id="n-b" target="#note-o-b">
+<ab>‘tout à fait’ (completely) is to be taken as modifying ‘oublier’ (forget), not ‘blaguer’ (jest).</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>The information subsequently given by Van Gogh about paintings that were exhibited at the 1889 Salon was taken from the article ‘Le Salon. Premier article’ (The Salon. First article) by <rs type="pers" key="1837">Edmond Jacques</rs> in <hi rend="ital">L’Intransigeant</hi> of 1 May 1889, pp. 1-2. Van Gogh refers to a passage that discusses two works by <rs type="pers" key="1175">Maurice Lobre</rs>: ‘They are modest interiors, with a fragrance of intimacy, in a delightful key. The green sitting room, decorated with green pots, darkened by green curtains, into which a faint light slips through a half-open door, is an exquisitely delicate little jewel. The girl at luncheon is also very charming, but it does not have the same unity and does not please the eye to the same degree.’ (Ce sont des intérieurs modestes, tout parfumés d’intimité, dans une note charmante. Le salon vert, orné de poteries vertes, assombri de rideaux verts, où glisse une faible lumière par une porte entr’ouverte est un petit bijou d’une exquise délicatesse. Le déjeuner de la fille est fort charmant aussi; mais il n’a pas la même unité et ne flatte pas, au même point, le regard.) Van Gogh had apparently taken these to be a single painting of a woman in an interior. Both works bore the title <hi rend="ital">Intérieur</hi> in the catalogue of the Salon. See exhib. cat. Paris 1889-2, p. 131, cat. nos. 1719-1720.</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>After mentioning a few mediocre portraits, <rs type="pers" key="1837">Edmond Jacques</rs> goes on to say: ‘Mr <rs type="pers" key="1196">Mathey</rs> is more incisive. His two young woman are interpreted with a most subtle art. And yet I prefer to them the etcher <rs type="pers" key="1326">Rops</rs>, that masterpiece from last year.’ (M. Mathey est plus pénétrant. Ses deux jeunes femmes sont interprétées avec un art très subtil. Je leur préfère cependant l’aqua-fortiste Rops, cette oeuvre maîtresse de l’an dernier.) (p. 2) Apparently Van Gogh understood this as referring to a single work depicting two women, but Mathey exhibited two portraits: <hi rend="ital">
+                            <rs type="otherart" key="527">Portrait de Mme P.S.</rs>
+                        </hi> (Portrait of Madame P.S.) and <hi rend="ital">
+                            <rs type="otherart" key="151">Portrait de Mme W.S.</rs>
+                        </hi> (Portrait of Madame W.S.). See exhib. cat. Paris 1889-2, p. 139, cat. nos. 1826-1827.</ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>
+                        <rs type="pers" key="1837">Jacques</rs> writes: ‘So loud voices will be raised against Mr <rs type="pers" key="858">Besnard</rs>. I have no need to wait. It’s certain. It’s a matter of fact that Mr Besnard has painted no ordinary thing. His <hi rend="ital">Sirène</hi> is a young woman with a strange expression, leaning against a tree, at the edge of a lake. It would be nothing, if that was all there was. But the artist has chosen that time of day when, through an effect of the sunset, the lake – it’s Lake Annecy – assumes a pink colour, absolutely pink. This phenomenon does not last long, but it is repeated regularly every evening. Every traveller has observed it. No matter! It’s the exception, and voices will be raised at it, I say so again. Ah well, I shall not raise mine, for two reasons: the first is that I am sure of the master’s sincerity; the second is that this piece, destined in advance to be the object of every exclamation, fashionable or otherwise, is admirably painted, and that there emanates from it a profound and disturbing poetry.’ (Aussi on criera fort contre M. Besnard. Je n’ai pas besoin d’attendre. C’est certain. Il est de fait que M. Bernard <hi rend="ital">[sic]</hi> n’a pas peint une chose ordinaire. Sa <hi rend="ital">Sirène</hi>, c’est une jeune fille à l’oeuil étrange, adossée à un arbre, sur le bord d’un lac. Ce ne serait rien, s’il n’y avait que cela. Mais l’artiste a choisi l’heure où, par un effet de coucher de soleil, le lac – c’est celui d’Annecy – prend une coloration rose, absolument rose. Ce phénomène dure peu, mais il se renouvelle régulièrement chaque soir. Tous les voyageurs l’ont observé. N’importe! c’est l’exception, et l’on criera, je le repète. Eh bien, moi, je ne crierai pas pour deux motifs: le premier, c’est que je suis sûr de la sincérité du maître; le second, c’est que ce morceau, voué d’avance à toutes les exclamations boulevardières et autres, est admirablement peint, et qu’il s’en dégage un poésie profonde et troublante.)</ab>
+<ab rend="indent">The painting is <hi rend="ital">A siren</hi>, 1889 (Copenhagen, Ny Carlsberg Glypothek). <rs type="ill" key="579">Ill. 579</rs>. Exhib. cat. Paris 1889-2, p. 20, no. 237.</ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>The works exhibited by <rs type="pers" key="1447">Anders Zorn</rs> at the Salon were <hi rend="ital">
+                            <rs type="ill" key="1448">A l’air; – Suède</rs>
+                        </hi> (Out of doors – Sweden) and <hi rend="ital">
+                            <rs type="otherart" key="811">Portrait de Mme R</rs>
+                        </hi>. (Portrait of Madame R.) See exhib. cat. Paris 1889-2, p. 210, nos. 2765-2766.</ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+<ab>
+                        <rs type="pers" key="925">Charles Carolus-Duran</rs>, <hi rend="ital">Bacchus</hi> (present whereabouts unknown). See exhib. cat. Paris 1889-2, p. 39, no. 484. An engraving after this by <rs type="pers" key="1513">Clément Edouard Bellenger</rs> appeared in <hi rend="ital">L’Illustration. Le Salon de 1889</hi> (27 April 1889), pp. 350-351. <rs type="ill" key="678">Ill. 678</rs>. In his review of the Salon, <rs type="pers" key="1837">Jacques</rs> called the work ‘banal’.</ab>
+                </note>
+<note n="13" xml:id="n-13" target="#note-t-13">
+<ab>
+                        <rs type="pers" key="925">Charles Carolus-Duran</rs>, <hi rend="ital">Lady with a glove (Mrs Carolus-Duran)</hi>, 1869 (Paris, Musée d’Orsay). <rs type="ill" key="677">Ill. 677</rs>. Van Gogh no doubt associated this work with <hi rend="ital">Bel-ami</hi> because of its sophistication.</ab>
+                </note>
+<note n="14" xml:id="n-14" target="#note-t-14">
+<ab>For <rs type="pers" key="708">Maupassant</rs>’s <hi rend="ital">
+                            <rs type="lit" key="446">Bel-ami</rs>
+                        </hi>, <ref target="let568.xml#n-11">see letter 568, n. 11.</ref>
+                    </ab>
+                </note>
+<note n="15" xml:id="n-15" target="#note-t-15">
+<ab>The era of <rs type="pers" key="496">Napoleon <hi rend="sc">iii</hi>
+                        </rs>, whose nickname was ‘Badinguet’. Some think that this name can be traced to a caption on a lithograph by <rs type="pers" key="1043">Gavarni</rs>, which mentions a certain Eugénie who is ‘the old woman of Badinguet’ (l’ancienne à Badinguet). The more likely explanation is that the name refers to Louis Napoleon’s escape from the Fort of Ham (1846) wearing the clothes of the mason Badinguet.</ab>
+                </note>
+<note n="16" xml:id="n-16" target="#note-t-16">
+<ab>After ‘qu’on ne’ Van Gogh crossed out ‘me deïfie’.</ab>
+                </note>
+<note n="17" xml:id="n-17" target="#note-t-17">
+<ab>He wrote this in <ref target="#l-110">ll. 110-112</ref>.</ab>
+                </note>
+<note n="18" xml:id="n-18" target="#note-t-18">
+<ab>
+                        <rs type="pers" key="1126">Adolphe Jourdan</rs> had died on 22 February 1889 in Nîmes, a city not far from Avignon.</ab>
+                </note>
+<note n="19" xml:id="n-19" target="#note-t-19">
+      <ab>‘Monorou’ must refer to the double page <hi rend="ital">
+                            <rs type="ill" key="2289">Portrait of Ousoukoumo</rs>
+                        </hi> (‘Bright Clouds’), described as ‘a celebrated beauty of Yédo at the beginning of the 17th century’ (‘beauté célèbre de Yédo au commencement du <hi rend="sc">xvii</hi>e siecle’, since he writes ‘from the same album’ (namely the one with the ‘Study of grasses’). The caption reads ‘Kakémono. School of Moronobou. End of 17th century. Engraved and printed by Gillot’ (Kakémono. – École de Moronobou. Fin du xviie siècle. Grav. Impr. par Gillot). The engraver is probably <rs type="pers" key="1732">Eugène Louis Gillot</rs> <rs type="ill" key="2289">Ill. 2289</rs>. See <hi rend="ital">Le Japon Artistique</hi>, no. 2 (June 1888), unnumbered (before DH and after AA – in the luxury edition printed on Japan paper, numbered FA, but appearing there without a caption). This Kakémono was done by Ando Kaïghetsudo, a pupil of Hishigava Moronobou. Van Gogh misspelled the name of the artist and speaks of ‘une mandarine’, a non-existant feminine form of ‘mandarin’ (a Chinese official). Cf. also <ref target="let686.xml#n-11">letter 686, n. 11</ref> and Roskill 1970-1, pp. 82-83. With thanks to Tsukasa Kōdera.</ab>
+                </note>
+<note n="20" xml:id="n-20" target="#note-t-20">
+<ab>For the print <hi rend="ital">
+                            <rs type="ill" key="2251">Study of grass</rs>
+                        </hi>, <ref target="let686.xml#n-11">see letter 686, n. 11.</ref>
+                    </ab>
+                </note>
+<note n="21" xml:id="n-21" target="#note-t-21">
+<ab>For <rs type="pers" key="982">Delacroix</rs>’s <hi rend="ital">
+                            <rs type="ill" key="75">Pietà</rs>
+                        </hi>, <ref target="let686.xml#n-3">see letter 686, n. 3.</ref>
+                    </ab>
+                </note>
+<note n="22" xml:id="n-22" target="#note-t-22">
+      <ab>
+                        <rs type="pers" key="982">Delacroix</rs> made two paintings of <hi rend="ital">The Good Samaritan</hi>: one dating from 1849-1851 (private collection) and one from 1852 (London, Victoria and Albert Museum). The lithograph by <rs type="pers" key="1150">Jules Joseph Augustin Laurens</rs>, which Van Gogh owned, is based on the first version, in which the injured man is lifted off his horse. See Johnson 1981-1989, vol. 3, pp. 224-225, 229, cat. nos. 437, 446. Van Gogh’s copy, to which he applied a grid to aid him in copying it, has been preserved (Amsterdam, Van Gogh Museum). <rs type="ill" key="2290">Ill. 2290</rs>. (t*139) The painting he made after it is <hi rend="ital">The Good Samaritan (after Delacroix) </hi>(<rs type="ill" key="2901">F 633 / JH 1974</rs>) of May 1890.</ab>
+                </note>
+<note n="23" xml:id="n-23" target="#note-t-23">
+<ab>For <rs type="pers" key="1208">Meissonier</rs>’s <hi rend="ital">
+                            <rs type="ill" key="1884">The reader</rs>
+                        </hi>, engraved by <rs type="pers" key="1118">Jacquemart</rs>, <ref target="let686.xml#n-7">see letter 686, n. 7.</ref>
+                    </ab>
+                </note>
+<note n="24" xml:id="n-24" target="#note-t-24">
+<ab>These were most likely <hi rend="ital">The courtyard of the hospital </hi>(<rs type="ill" key="2784">F 1467 / JH 1688</rs>) and the drawing which Van Gogh had made that day, <hi rend="ital">Weeping tree on a lawn </hi>(<rs type="ill" key="2661">F 1468 / JH 1498</rs>). They measure 49 x 61.5 cm and 45.5 x 59 cm, respectively. </ab>
+                </note>
+<note n="25" xml:id="n-25" target="#note-t-25">
+<ab>In the novel <hi rend="ital">
+                            <rs type="lit" key="516">Le médecin de campagne</rs>
+                        </hi> (1833), <rs type="pers" key="519">Honoré de Balzac</rs> expressed his own social, political and religious views. Dr Benassis, a paragon of human kindness, has turned a village into a model community, but he tells the army commander Genestas the underlying reason for his good works: his attempt to forget an unhappy love affair.</ab>
+<ab rend="indent">Van Gogh’s remark about the woman refers to the 22-year-old La Fosseuse, an orphan whom Benassis has taken under his wing. Both of them have had much misfortune in their lives. La Fosseuse is plagued by mood swings and is extremely sensitive to natural beauty. She has a weak constitution and suffers from all kinds of complaints, mostly caused by her nervous condition.</ab>
+<ab rend="indent">Theo’s estate contains a copy of this novel, published in 1884 by Calmann-Lévy in Paris. It cannot be ascertained whether this copy ever belonged to Vincent.</ab>
+                </note>
+<note n="c" xml:id="n-c" target="#note-o-c">
+<ab>Read: ‘distrait’.</ab>
+                </note>
+<note n="26" xml:id="n-26" target="#note-t-26">
+<ab>The two women Van Gogh refers to are the portraits of <rs type="pers" key="648">Augustine Roulin</rs> and <rs type="pers" key="383">Marie Ginoux</rs>. The consignment most likely contained four versions of <hi rend="ital">Augustine Roulin (‘La berceuse’)</hi>, <rs type="ill" key="2762">F 504 / JH 1655</rs>, <rs type="ill" key="2774">F 506 / JH 1670</rs>, <rs type="ill" key="2776">F 507 / JH 1672</rs> and <rs type="ill" key="2775">F 508 / JH 1671</rs> (<ref target="let774.xml#n-2">see letter 774, n. 2</ref>), as well as <hi rend="ital">Marie Ginoux (‘The Arlésienne’) </hi>(<rs type="ill" key="2744">F 489 / JH 1625</rs>). Provenance research undertaken by The Metropolitan Museum of Art in New York has revealed that the second version, <hi rend="ital">Marie Ginoux (‘The Arlésienne’) </hi>(<rs type="otherart" key="812">F 488 / JH 1624</rs>), was in the possession of Madame Ginoux. See also Feilchenfeldt 2005, p. 297.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

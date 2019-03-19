@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>Vincent van Gogh and Félix Rey to Theo van Gogh. Arles, Wednesday, 2 January 1889.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let728"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">728</idno>
+<idno type="collectedletters">567</idno>
+<idno type="brieven1990">733</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Arles</vg:placeLet>
+                        <vg:dateLet>Wednesday, 2 January 1889</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>Vincent van Gogh and Félix Rey to Theo van Gogh. Arles, Wednesday, 2 January 1889.</p>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b614 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Letter headed: ‘Arles, le 2 Janvier 1889’.</p>
+                    </note>
+<note type="additionalDetail" xml:id="additionalDetail">
+<p>After Vincent had written to Theo, Dr Félix Rey added his own note to Theo.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0614" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000835_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000835_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000835_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000835_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000835_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000835_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0614" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000835_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000835_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000835_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000835_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000835_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000835_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>
+                    <vg:suppliedMilestone type="open"/>
+                    <hi rend="sc">Hospices civils</hi>
+                </ab>
+                <lb n="2" xml:id="l-2"/>
+<ab>de la</ab>
+                <lb n="3" xml:id="l-3"/>
+<ab>VILLE D’ARLES</ab>
+                <lb n="4" xml:id="l-4"/>
+<ab>
+                    <hi rend="sc">bouches-du-rhone</hi>
+                </ab>
+    <vg:whiteline/>
+                <lb n="5" xml:id="l-5"/>
+<ab>Arles, le<vg:suppliedMilestone type="close"/> 2 Janvier <supplied>188</supplied>9.</ab>
+<vg:whiteline/>
+                <lb n="6" xml:id="l-6"/>
+<ab>mon cher Theo,</ab>
+                <lb n="7" xml:id="l-7"/>
+<ab>afin de te rassurer tout <lb n="8" xml:id="l-8"/>à fait sur mon compte je t’écris ces quelques <lb n="9" xml:id="l-9"/>mots dans le cabinet de M. l’interne Rey <lb n="10" xml:id="l-10"/>que tu a vu toimême. Je resterai encore <lb n="11" xml:id="l-11"/>quelques jours ici à l’hôpital – puis j’ose <lb n="12" xml:id="l-12"/>compter retourner à la maison très-tranquillement<c type="kp">_</c>
+                    <anchor n="1" xml:id="note-o-1"/> <lb n="13" xml:id="l-13"/>Maintenant je te prie à toi une seule chôse<c type="kk">/</c> <lb n="14" xml:id="l-14"/>de ne pas t’inquieter car cela me causerait <lb n="15" xml:id="l-15"/>une inquietude de <hi rend="sc">trop</hi>.–</ab>
+                <lb n="16" xml:id="l-16"/>
+<ab rend="indent">A présent causons de notre ami <lb n="17" xml:id="l-17"/>Gauguin<c type="kk">/</c> l’ai je effrayé? enfin <lb n="18" xml:id="l-18"/>pourquoi ne me donne-t-il pas un signe <lb n="19" xml:id="l-19"/>de vie. Il doit être parti avec toi.</ab>
+                <lb n="20" xml:id="l-20"/>
+<ab rend="indent">Il avait d’ailleurs besoin de revoir Paris <lb n="21" xml:id="l-21"/>et à Paris peutêtre il se sentira plus <lb n="22" xml:id="l-22"/>chez lui qu’ici<c type="kp">_</c> <hi rend="ital">Dis à Gauguin</hi> <lb n="23" xml:id="l-23"/>
+                    <hi rend="ital">de m’écrire</hi> et que je pense à lui toujours<c type="kp">_</c>
+                </ab>
+                <lb n="24" xml:id="l-24"/>
+<ab rend="indent">Bonne poignée de main<c type="kk">/</c> j’ai lu et relu <lb n="25" xml:id="l-25"/>ta lettre concernant la rencontre avec les Bonger<c type="kp">_</c>
+                    <anchor n="2" xml:id="note-o-2"/> <lb n="26" xml:id="l-26"/>C’est parfait. Pour moi je suis content de rester tel que je suis.<anchor n="3" xml:id="note-o-3"/> <lb n="27" xml:id="l-27"/>encore une fois bonne poignée de main à toi &amp; Gauguin.</ab>
+<vg:whiteline/>
+                <lb n="27*" xml:id="l-27s"/>
+<ab>t<c type="kp">_</c> à t<c type="kp">_</c>
+                </ab>
+                <lb n="28" xml:id="l-28"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+                <lb n="29" xml:id="l-29"/>
+    <ab>ecrivez toujours même adresse<c type="kk">/</c> Place Lamartine 2.</ab>
+                <vg:whiteline/>
+    <pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                <ab rend="separate">
+                    <supplied>
+                        <hi rend="ital">Continued by Félix Rey</hi>
+                    </supplied>
+                </ab>
+    <vg:whiteline/>
+                <lb n="30" xml:id="l-30"/>
+    <ab>Monsieur –</ab>
+                <lb n="31" xml:id="l-31"/>
+<ab>Je joins quelques mots à la lettre de <lb n="32" xml:id="l-32"/>M<hi rend="ss">r</hi> votre frère pour vous rassurer, à mon <lb n="33" xml:id="l-33"/>tour, sur son compte<c type="kp">_</c>–</ab>
+                <lb n="34" xml:id="l-34"/>
+<ab rend="indent">Je suis heureux de vous annoncer que <lb n="35" xml:id="l-35"/>mes predictions se sont réalisées et que cette <lb n="36" xml:id="l-36"/>surexitation n’a été que passagère. Je <lb n="37" xml:id="l-37"/>crois fort qu’il sera remis dans <lb n="38" xml:id="l-38"/>quelques jours.–</ab>
+                <lb n="39" xml:id="l-39"/>
+<ab rend="indent">J’ai tenu à ce qu’il vous ecrivît, lui-<c type="shy">-</c>
+                    <lb n="40" xml:id="l-40"/>même, pour vous rendre mieux compte <lb n="41" xml:id="l-41"/>de son état.–</ab>
+                <lb n="42" xml:id="l-42"/>
+<ab rend="indent">Je l’ai fait descendre à mon cabinet <lb n="43" xml:id="l-43"/>pour causer un peu. cela me distraira <lb n="44" xml:id="l-44"/>et lui fera du bien à lui.–</ab>
+                <lb n="45" xml:id="l-45"/>
+<ab rend="indent">Veuillez agréer, Monsieur, mes salutations les plus <lb n="46" xml:id="l-46"/>empressées.–</ab>
+                <lb n="47" xml:id="l-47"/>
+                <vg:whiteline/>
+<ab>Rey F.</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-1" targetEnd="l-5" n="1-5">
+                        <hi rend="ital">Printed letterhead.</hi>
+                    </note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>[Letterhead: Hospices Civils Arles]</ab>
+<vg:whiteline/>
+<ab>Arles, 2 January 1889</ab>
+<vg:whiteline/>
+<ab>My dear Theo,</ab>
+<ab>In order to reassure you completely on my account I’m writing you these few words in the office of <rs type="pers" key="637">Mr Rey</rs>, the house physician, whom you saw yourself. I’ll stay here at the hospital for another few days — then I dare plan to return home very calmly.<anchor n="1" xml:id="note-t-1"/> Now I ask just one thing of you, not to worry, for that would cause me one worry <hi rend="sc">too many</hi>.</ab>
+<ab rend="indent">Now let’s talk about our friend <rs type="pers" key="1039">Gauguin</rs>, did I terrify him? In short, why doesn’t he give me a sign of life? He must have left with you.</ab>
+<ab rend="indent">Besides, he needed to see Paris again, and perhaps he’ll feel more at home in Paris than here. <hi rend="ital">Tell <rs type="pers" key="1039">Gauguin</rs> to write to me</hi>, and that I’m still thinking of him.</ab>
+<ab rend="indent">Good handshake, I’ve read and re-read your letter about the meeting with <rs type="pers" key="282 416">the Bongers</rs>.<anchor n="2" xml:id="note-t-2"/> It’s perfect. As for me, I’m content to remain as I am.<anchor n="3" xml:id="note-t-3"/> Once again, good handshake to you and <rs type="pers" key="1039">Gauguin</rs>.</ab>
+<vg:whiteline/>
+<ab>Ever yours</ab>
+<ab>Vincent</ab>
+<vg:whiteline/>
+    <ab>Write to me, still same address, 2 place Lamartine.</ab>
+                <vg:whiteline/>
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/>
+
+<ab rend="separate">
+                    <supplied>
+                        <hi rend="ital">Continued by Félix Rey</hi>
+                    </supplied>
+                </ab>
+<vg:whiteline/>
+<ab>Sir –</ab>
+<ab>I shall add a few words to your brother’s letter to reassure you, in my turn, on his account.</ab>
+<ab rend="indent">I am happy to tell you that my predictions have been borne out, and that this over-excitement was only fleeting. I strongly believe that he will have recovered in a few days’ time.</ab>
+<ab rend="indent">I very much wanted him to write to you himself, to give you a better account of his condition.</ab>
+<ab rend="indent">I have had him brought down to my office to talk a little. It will entertain me and do him good.</ab>
+<ab rend="indent">With my sincerest regards. </ab>
+<vg:whiteline/>
+<ab>
+                    <rs type="pers" key="637">Rey F.</rs>
+                </ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>On the evening of 23 December 1888, Van Gogh suffered an acute mental breakdown. As a result he cut off his left ear and took it to a prostitute in a local brothel. The police found him at home the next morning and had him admitted to hospital. On 24 December <rs type="pers" key="1039">Gauguin</rs> sent a telegram to Theo, who immediately took the night train to Arles.</ab>
+<ab rend="indent">Despite Van Gogh’s repeated pleas, Gauguin did not come to visit him in hospital (<ref target="let736.xml">see letter 736</ref>). <rs type="pers" key="416">Jo van Gogh-Bonger</rs> wrote in her introduction to the letters that Gauguin travelled back to Paris with Theo, who left Arles on Tuesday, 25 December, as emerges from a letter he wrote to Jo on 28 December (see <hi rend="ital">Brieven</hi> 1914, p. <hi rend="sc">liv</hi>, and <hi rend="ital">Brief happiness</hi> 1999, pp. 70-71). <rs type="pers" key="831">Bernard</rs>’s letter of 1 January 1889 to <rs type="pers" key="521">Albert Aurier</rs> (quoted below) agrees with this description of events: he reports that Gauguin had arrived in Paris four days earlier, meaning 27 December. </ab>
+<ab rend="indent">After his return to Paris, Theo gave an account of his visit in a letter he wrote to Jo on 28 December: ‘I found Vincent in the hospital in Arles. The people around him realized from his agitation that for the past few days he had been showing symptoms of that most dreadful illness, of madness, and an attack of <hi rend="ital">fièvre chaude</hi>, when he injured himself with a razor, was the reason he was taken to hospital. Will he remain insane? The doctors think it possible, but daren’t yet say for certain. It should be apparent in a few days’ time when he is rested; then we will see whether he is lucid again. He seemed to be all right for a few minutes when I was with him, but lapsed shortly afterwards into his brooding about philosophy and theology. It was terribly sad being there, because from time to time all his grief would well up inside and he would try to weep, but couldn’t. Poor fighter and poor, poor sufferer. Nothing can be done to relieve his anguish now, but it is deep and hard for him to bear. Had he just once found someone to whom he could pour his heart out, it might never have come to this. In the next few days they will decide whether he is to be transferred to a special institution and as I don’t yet know how much I shall have to do in all this, I dare not make any plans.’</ab>
+<ab rend="indent">Two days later he wrote to her again: ‘Since I last wrote I’ve been wavering between hope and fear. The news is still bad and the last letter from Vincent’s friend the <rs type="pers" key="647">postman</rs> says, “The doctor will wait a few days before deciding whether he should be committed to an institution.” One sees the ambiguity in this sentence when one asks Why? I am waiting for an answer from the assistant house physician at the hospital. There is little hope, but he has done more than so many in his life and suffered and fought more than most people are capable of doing. If he must pass away, so be it, but the thought of it breaks my heart ... My dear <rs type="pers" key="524">Mother</rs> knows no more than that he is ill and that his mind is confused. She is not aware that his life is in danger’ (see FR b2020 and b2021; <hi rend="ital">Brief happiness</hi> 1999, pp. 70, 74).</ab>
+<ab rend="indent">Vincent remained until 7 January 1889 in hospital, where he was treated by the resident physician <rs type="pers" key="637">Félix Rey</rs>. Rey assisted the chief physician, <rs type="pers" key="222">Marie Jules Joseph Urpar</rs>. Shortly after Van Gogh’s admission to the hospital, Urpar drew up a certificate regarding the artist's condition, which was sent to the <rs type="pers" key="212">mayor</rs> of Arles on 29 December 1888. The certificate has not survived, but it is evident from the accompanying letter to the mayor that the doctor had concluded that ‘Mr Vincent who, on the 23rd of this month, removed his ear using a razor, is suffering from mental disturbance. The treatment that this unfortunate man is receiving in our establishment not being such as to bring him back to a state of reason, I am writing to request that you be so kind as to take the necessary steps to have him admitted to a special asylum’ (M. le Maire, J’ai l’honneur de vous adresser ci-joint le certificat de M. le docteur Urpar, médecin en chef de l’hôpital, constatant que le Sieur Vincent qui, le 23 du mois ci, s’est enlevé l’oreille d’un coup de rasoir, est atteint d’aliénation mentale. Les soins que cet infortuné reçoit dans notre établissement n’étant pas de nature à le ramener à la raison, je viens vous prier de vouloir bien prendre les mesures nécessaires pour le faire admettre dans un asile spécial) (unsigned transcript of a letter to the mayor of Arles, ACA). The copy is not signed. The same day Dr Rey informed Theo of Vincent’s condition and told him about Urpar’s certificate (<ref target="documentation.xml#id29December1888-1">see <hi rend="ital">Documentation</hi>, 29 December 1888</ref>).</ab>
+    <ab rend="indent">The incident was reported in the column ‘Chronique locale’ in the weekly newspaper <hi rend="ital">Le Forum Républicain</hi> on Sunday, 30 December 1888: ‘Last Sunday, at half past eleven in the evening, one Vincent van Gogh, a painter and native of Holland, presented himself at brothel no 1, asked for one Rachel, and handed her.... his ear, telling her: “Keep this object carefully.” Then he disappeared. Informed of this act, which could only be that of a poor lunatic, the police went the following day to the home of this individual, whom they found lying in his bed, by then showing hardly any sign of life. The unfortunate was admitted to the hospital as a matter of urgency.’ (Dimanche dernier, à 11 heures ½ du soir, le nommé Vincent Vangogh peintre, originaire de Hollande, s’est présenté à la maison de tolérance no 1, a demandé la nommé Rachel, et lui a remis.... son oreille en lui disant: “Gardez cet objet précieusement.” Puis il a disparu. Informée de ce fait qui ne pouvait être que celui d’un pauvre aliéné, la police s’est rendue le lendemain matin chez cet individu qu’elle a trouvé couché dans son lit, ne donnant presque plus signe de vie. Ce malheureux a été admis d’urgence à l’hospice.) As late as 1929, the policeman Alphonse Robert described his recollection of the incident (quoted in Doiteau and Leroy 1939, p. 6).</ab>
+<ab rend="indent">Gauguin later declared that on the evening in question he had decided to sleep in a hotel because of Van Gogh's aggressive, threathening behaviour. The exact circumstances of the supposed incident between Gauguin and Van Gogh are not known, however. Van Gogh says nothing in his letters about its immediate cause, and Rey reported the following to Theo on 30 December: ‘When I tried to get him to talk about the motive that drove him to cut off his ear, he replied that it was a purely personal matter’ (Lorsque j’ai voulu le faire causer sur le motif qui l’avait poussé à se couper l’oreille; il m’a répondu que c’etait un affaire tout à fait personnelle) (FR b1056; <ref target="documentation.xml#30December1888-2">
+                            <hi rend="ital">Documentation</hi>, 30 December 1888</ref>).  Van Gogh remembered little of what happened. This is evident from a note made by <rs type="pers" key="568">Dr Peyron</rs> in the asylum at Saint-Rémy on 8 May 1889: ‘During that attack he cut off his left ear, but he has no more than a vague memory of all that, and is not aware of it.’ (Pendant cet accès il se coupa l’oreille gauche mais il ne conserve de tout cela qu’un souvenir très vague, et ne peut s’en rendre compte.) <ref target="documentation.xml#8May1889">See <hi rend="ital">Documentation</hi>, 8 May 1889</ref>. </ab>
+    <ab rend="indent">In <hi rend="ital">Avant et après</hi>, Gauguin wrote that, before finally wounding himself, Van Gogh had wanted to attack him that evening: ‘I had already gone almost all the way across place Victor-Hugo [place Lamartine], when I heard behind me a little step that was very familiar, quick and jerky. I turned at the very moment when Vincent rushed at me with an open razor in his hand. My look must at that moment have been very powerful, because he stopped, and lowering his head he ran back in the direction of the house.’ (J’avais déjà traversé presque entièrement la place Victor-Hugo, lorsque j’entendis derrière moi un petit pas bien connu, rapide et saccadé. Je me retournai au moment même où Vincent se précipitait sur moi un rasoir ouvert à la main. Mon regard dut à ce moment être bien puissant car il s’arrêta et baissant la tête il reprit en courant le chemin de la maison.) See Gauguin 1923, pp. 20-21.</ab>
+<ab rend="indent"> Gauguin wrote these words in 1903, long after the events themselves, and doubt has frequently been cast on his reliability as a witness. His account will, all the same, have been based on the truth. In Bernard’s summary of what Gauguin had told him directly after returning to Paris, no mention is made of the attack, however. In his letter of 1 January 1889 to Albert Aurier, Bernard wrote: ‘Gauguin returning precipitately, 4 days ago, and the news about Vincent in the hospital. I rushed to see Gauguin, who told me this.  The day before my departure (for he had to leave Arles) Vincent ran after me (he was going out, it was night). I turned around because for some time he had been acting strangely, but I was wary of him. Then he told me: <hi rend="ital">You are silent, but I will also be silent</hi>. Ever since I had been going to leave Arles, he was so bizarre that I couldn’t take it any more. He had even said to me: “Are you going to leave?” And when I said “Yes” he tore this sentence from a newspaper and put it into my hand: “the murderer took flight”. I spent the night in a hotel, and when I came back all of Arles was in front of our house. Then the police arrested me, because the house was covered in blood. This is what had happened: Vincent had returned home after my departure, had taken a razor and cut his ear clean through. Then he put a big beret over his head and went to a <hi rend="ital">brothel</hi> to take the ear to a wretched girl, telling her: “You will remember me, truly I tell you this.” The girl fainted immediately. The police set out and came to the house. Vincent was hospitalised. His state is worse, he wants to sleep with the patients, chases the nurse, and washes himself in the coal-bucket. In other words, he is performing biblical mortifications. They had to lock him up in a room.’ (Gauguin revenant précipitamment, il y a 4 jours, et la nouvelle de Vincent à l’hôpital. J’ai couru voir Gauguin qui m’a dit ceci. La veille de mon départ (car il devait quitter Arles) Vincent a couru après moi (il sortait c’était la nuit) je me suis retourné car depuis quelques temps il devenait très drôle, mais je m’en défiais. Alors il m’a dit: <hi rend="ital">Vous êtes taciturne, mais moi je le serai aussi</hi>. Depuis que je devais quitter Arles il était tellement bizarre que je ne vivais plus. Il m’avait même dit: “Vous allez partir?” Et comme j’avais dit “Oui” il a arraché d’un journal cette phrase et me l’a mise dans la main: “le meurtrier a pris la fuite”. Je suis allé coucher à l’hôtel et quand je suis revenu tout Arles était devant chez nous. Alors les gendarmes m’ont arrêté, car la maison était pleine de sang. Voici ce qui s’était passé. Vincent était rentré après mon départ, avait pris le rasoir et s’était tranché net l’oreille. Alors il s’était couvert la tête d’un berret profond et était allé dans une <hi rend="ital">maison publique</hi> porter à une malheureuse son oreille en lui disant: Tu te souviendras de moi, en vérité je te le dis. Cette fille s’est évanouie immédiatement. Les gendarmes se sont mis sur pied et on est venu au logis. Vincent a été mis à l’hôpital. Son état est pis, il veut coucher avec les malades, chasse la soeur et se lave dans la boîte à charbon. C’est à dire qu’il continue les macérations bibliques. On a été forcé de l’enfermer dans une chambre.) See Jacqueline Albert Simon and Lucy D. Rosenfeld, <hi rend="ital">A century of artists’ letters. Notes to family, friends, and dealers. Delacroix to Léger</hi>. From the Pierre F. Simon Collection at the New York Public Library. Atglen (PA) 2004, pp. 64-70. Cf. also exhib. cat. Chicago 2001, p. 260.</ab>
+<ab rend="indent">According to the people in Arles who were immediately involved (Gauguin, Dr Rey and the policeman Robert), Van Gogh cut off his entire ear, which is what was reported in <hi rend="ital">Le Forum Républicain</hi>. Jo van Gogh-Bonger, Paul Gachet Jr (the son of <rs type="pers" key="389">Dr Paul-Ferdinand Gachet)</rs> and <rs type="pers" key="1350">Paul Signac</rs> all later stated that it was only the lower part of the ear. For the various testimonies, see also Doiteau and Leroy 1939. However, since the discovery of a short letter from Dr Rey to the writer Irving Stone, which includes two drawings, we can now conclude that Van Gogh did indeed cut off his entire ear. See exhib. cat. Amsterdam 2016, pp. 35-40, and Murphy 2016, pp. 140-149.</ab>
+    <ab>On 4 January Theo wrote the following to Jo Bonger about the present letter: ‘A good letter from Vincent today, he appears to have recovered, isn’t that wonderful? There is no longer any question of committing him to an asylum and even the doctors have abandoned the idea.’ See FR b2023; <hi rend="ital">Brief happiness</hi> 1999, p. 83. Doctor Rey, <rs type="pers" key="647">Roulin</rs> and the Rev. <rs type="pers" key="663">Frédéric Salles</rs> kept Theo informed about Vincent’s recovery. The letters from Roulin and Salles are published in Hulsker 1970. See also exhib. cat. Amsterdam 2016, pp. 30-56. For Rey’s letter, <ref target="documentation.xml#12February1889">see <hi rend="ital">Documentation</hi>, 12 February 1889</ref>. </ab>
+                </note>
+    <note n="2" xml:id="n-2" target="#note-t-2">
+<ab>After a long period of silence, Theo was again in touch with <rs type="pers" key="282">Andries Bonger</rs> and his sister <rs type="pers" key="416">Jo</rs>, who had refused his proposal of marriage in 1887 (<ref target="let572.xml#n-1">see letter 572, n. 1</ref>). The renewed acquaintance led to Theo and Jo’s engagement. On 21 December 1888 Theo told his mother of their plans and asked for her consent (FR b917). The engagement party took place on 9 January in Amsterdam (<ref target="let731.xml">see letter 731</ref>), and the marriage was solemnized there on 18 April 1889 (<ref target="let759.xml">see letter 759</ref>). At that time Theo was staying with his cousin <rs type="pers" key="778">Jan Stricker</rs> (FR b2891). It is not known when Theo wrote to Vincent about his engagement; Theo had in fact broached the subject during his visit. See <hi rend="ital">Brief happiness </hi>1999, pp. 24-27, 76-77.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>Namely unmarried.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

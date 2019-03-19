@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Arles, Sunday, 27 May 1888.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let614"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">614</idno>
+<idno type="collectedletters">491</idno>
+<idno type="brieven1990">616</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Arles</vg:placeLet>
+                        <vg:dateLet>Sunday, 27 May 1888</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. Arles, Sunday, 27 May 1888.</p>
+<note type="ongoingTopic" n="1">
+<p>First consignment of paintings from Arles <ref target="let606.xml">(606)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="2">
+<p>Koning’s stay with Theo <ref target="let578.xml">(578)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b531 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>The letter was written on a Sunday <ref target="#l-28">(ll. 28-29)</ref>. It must follow <ref target="let613.xml">letter 613</ref> of Saturday, 26 May with the paint order that Van Gogh refers to here <ref target="#l-3">(ll. 3-4)</ref>. In <ref target="let613.xml">letter 613</ref> he says he only has enough money left for tomorrow, Sunday; in the present letter the money has all gone. Since he comments on the sunny weather <ref target="#l-30">(ll. 30-31)</ref> and the weather reports record sunshine on Sunday, 27 May 1888, we have dated the letter that day (<hi rend="ital">Météo-France</hi>).</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0531" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000714_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000714_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000714_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000714_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000714_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000714_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0531" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000714_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000714_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000714_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000714_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000714_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000714_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Mon cher Theo</ab>
+                <lb n="2" xml:id="l-2"/>
+<ab>Je m’aperçois que je n’ai pas <lb n="3" xml:id="l-3"/>ajouté à la commande pour <lb n="4" xml:id="l-4"/>Tasset l’échantillon de toile<c type="kp">_</c>
+                    <anchor n="1" xml:id="note-o-1"/> <lb n="5" xml:id="l-5"/>Donc je l’envoie ci-inclus. <lb n="6" xml:id="l-6"/>J’avais espéré avoir de tes nouvelles <lb n="7" xml:id="l-7"/>aujourd’hui, croyant que <lb n="8" xml:id="l-8"/>surement tu aurais reçu la caisse<c type="kp">_</c> <lb n="9" xml:id="l-9"/>Je me rappelle avoir <hi rend="ital">écrit</hi> <hi rend="ital">sur</hi> <lb n="10" xml:id="l-10"/>
+                    <hi rend="ital">la déclaration</hi> que la caisse devrait <lb n="11" xml:id="l-11"/>être livrée à <hi rend="ital">domicile</hi>
+                    <c type="kp">_</c>
+                </ab>
+                <lb n="12" xml:id="l-12"/>
+<ab rend="indent">Cependant comme les marchandises <lb n="13" xml:id="l-13"/>petite vitesse restent <hi rend="ital">en gare</hi> souvent<c type="kk">/</c> <lb n="14" xml:id="l-14"/>si tu n’as pas encore reçu l’envoi <lb n="15" xml:id="l-15"/>il serait bien d’y passer voir<c type="kp">_</c>
+                </ab>
+                <lb n="16" xml:id="l-16"/>
+<ab rend="indent">J’ai obtenu qu’on peindra la maison<c type="kk">/</c> la facade<c type="kk">/</c> <lb n="17" xml:id="l-17"/>les portes &amp; les fenêtres à l’exterieur et <lb n="18" xml:id="l-18"/>à l’interieur à neuf<c type="kp">_</c> Seulement <lb n="19" xml:id="l-19"/>je dois de mon côté payer 10 francs <lb n="20" xml:id="l-20"/>pour cela<c type="kp">_</c>– Mais je crois que cela <lb n="21" xml:id="l-21"/>en vaut bien la peine<c type="kp">_</c>
+                </ab>
+                <lb n="22" xml:id="l-22"/>
+<ab rend="indent">J’y travaille avec plaisir<c type="kp">_</c>
+                </ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="23" xml:id="l-23"/>
+<ab rend="indent">Si j’ai demandé quelques couleurs <lb n="24" xml:id="l-24"/>à l’aquarelle c’est parceque je voudrais <lb n="25" xml:id="l-25"/>faire des dessins à la plume mais <lb n="26" xml:id="l-26"/>alors colorés à teintes plates comme <lb n="27" xml:id="l-27"/>les crepons.<anchor n="2" xml:id="note-o-2"/>
+                </ab>
+                <lb n="28" xml:id="l-28"/>
+<ab rend="indent">J’espère que tu auras un <lb n="29" xml:id="l-29"/>aussi beau Dimanche à <lb n="30" xml:id="l-30"/>Paris qu’ici – il fait un soleil <lb n="31" xml:id="l-31"/>splendide &amp; pas de vent.</ab>
+                <lb n="32" xml:id="l-32"/>
+<ab rend="indent">Ecris moi aussitôt<c type="kk">/</c> je n’ai plus <lb n="33" xml:id="l-33"/>d’argent du tout.</ab>
+                <lb n="34" xml:id="l-34"/>
+<ab rend="indent">Poignée de main à toi et à <lb n="35" xml:id="l-35"/>Koninck<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="36" xml:id="l-36"/>
+<ab>t. à t<c type="kp">_</c>
+                </ab>
+                <lb n="37" xml:id="l-37"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+                <lb n="38" xml:id="l-38"/>
+<ab>En definitive qu’en est-il de <lb n="39" xml:id="l-39"/>l’échange que Koninck ferait <lb n="40" xml:id="l-40"/>avec moi – il m’a demandé deux dessins de <lb n="41" xml:id="l-41"/>moi contre une etude de lui<c type="kk">/</c> <lb n="42" xml:id="l-42"/>j’ai accepté en disant qu’il te <lb n="43" xml:id="l-43"/>donnerait l’étude – mais <lb n="44" xml:id="l-44"/>j’ai eu aucune reponse à cela.<anchor n="3" xml:id="note-o-3"/> <lb n="45" xml:id="l-45"/>Si c’est que l’ami Koninck ait <lb n="46" xml:id="l-46"/>changé d’idée et prefererait ne <lb n="47" xml:id="l-47"/>rien echanger – il va sans dire <lb n="48" xml:id="l-48"/>que je n’insisterais aucunément<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo</ab>
+<ab>I see that I didn’t add the sample of canvas to the order for <rs type="pers" key="785">Tasset</rs>.<anchor n="1" xml:id="note-t-1"/> So I’m sending you it herewith. I’d hoped to have some news from you today, thinking you would surely have received the crate. I remember <hi rend="ital">writing on the declaration</hi> that the crate was to be delivered to your<hi rend="ital"> home address.</hi> </ab>
+<ab rend="indent">However, as goods train freight often stays <hi rend="ital">at the station</hi>, if you haven’t received the consignment yet it would be a good idea to go by there and see.</ab>
+<ab rend="indent">I’ve got them to agree to repaint the house, the front, the doors and the windows outside and inside. Only I have to pay 10 francs for that myself. But I think it will be well worth the bother.</ab>
+<ab rend="indent">I enjoy working there. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">The reason I asked for some watercolour paints is because I’d like to do some pen drawings, but coloured in flat tints like Japanese prints.<anchor n="2" xml:id="note-t-2"/>
+                </ab>
+<ab rend="indent">I hope you’ll have as fine a Sunday in Paris as here — there’s splendid sunshine and no wind.</ab>
+<ab rend="indent">Write to me at once, I’ve no money left at all.</ab>
+<ab rend="indent">Handshake to you and to <rs type="pers" key="1145">Koning</rs>.</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<ab>What happened in the end to the exchange <rs type="pers" key="1145">Koning</rs> was going to make with me? He asked me for two of my drawings for one of his studies; I accepted, saying that he should give you the study — but I’ve had no reply to that.<anchor n="3" xml:id="note-t-3"/> If it’s the case that friend Koning has changed his mind and would prefer not to exchange anything — it goes without saying that I would in no way insist on it.</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>Van Gogh had enclosed this paint order for <rs type="pers" key="785">Tasset</rs> in <ref target="let613.xml">letter 613</ref>. He probably sent a sample of Tasset’s canvas that he had used before so that Theo could order the same thing again (this is the case in <ref target="let621.xml">letter 621</ref>). It is also possible that he sent a sample of the unprepared canvas he had bought in Arles, for which he had requested primer in <ref target="let610.xml">letter 610</ref>.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>Van Gogh used these watercolours to paint the following works in June: <hi rend="ital">Fishing boats on the beach at Saintes-Maries </hi>(<rs type="otherart" key="714">F 1429 / JH 1459</rs>), <hi rend="ital">Wheat stacks </hi>(<rs type="ill" key="2622">F 1425 / JH 1441</rs>), <hi rend="ital">The old mill </hi>(<rs type="otherart" key="967">F 1464 / JH 1497</rs>), <hi rend="ital">The harvest </hi>(<rs type="ill" key="2620">F 1483 / JH 1439</rs>) and in July <hi rend="ital">Zouave </hi>(<rs type="ill" key="2656">F 1482 / JH 1487</rs>). See cat. Amsterdam 2007, p. 134, n. 33. In <hi rend="ital">The harvest </hi>(<rs type="ill" key="2619">F 1484 / JH 1438</rs>) watercolour is a minor element. The style Van Gogh describes here can be found in F 1429, and in the later watercolours <hi rend="ital">The night café </hi>(<rs type="ill" key="3005">F 1463 / JH 1576</rs>), <hi rend="ital">The Yellow House (‘The street’) </hi>(<rs type="ill" key="2722">F 1413 / JH 1591</rs>) and <hi rend="ital">Breton women in the meadow (after Emile Bernard) </hi>(<rs type="ill" key="2761">F 1422 / JH 1654</rs>).</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>Van Gogh had suggested exchanging two of his drawings for a study by <rs type="pers" key="1145">Koning</rs>; <ref target="let600.xml">see letter 600</ref>. After he left Paris Koning returned to this question in a letter to Theo of 4 June 1888: ‘I shall send you something soon, then you can pick something out of it to exchange with Vincent. I’d rather have one painted study than the 2 drawings, if he doesn’t mind’ (FR b1077). As far as we know the exchange did not go ahead, although Koning did send work to Theo (<ref target="let666.xml#n-9">see letter 666, n. 9</ref>).</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

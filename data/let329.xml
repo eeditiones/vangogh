@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Anthon van Rappard. The Hague, Thursday, 15 or Friday, 16 March 1883.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let329"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">329</idno>
+<idno type="collectedletters">R31</idno>
+<idno type="brieven1990">330</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Anthon van Rappard</vg:addressee>
+                        <vg:placeLet>The Hague</vg:placeLet>
+                        <vg:dateLet>Thursday, 15 or Friday, 16 March 1883</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:physDesc>
+                        <vg:decoration>
+                            <vg:decoList xml:id="sketches">
+                                <vg:decoItem n="A" xml:id="sketch-1">
+                                    <vg:decoDesc>
+<p>
+      <hi rend="ital">Snowy yard</hi> (<rs type="sketch" key="89">F 1023 / JH 343</rs>), enclosed sketch (Geneva, Collection Jan Krugier &amp; Cie). See exhib. cat. Munich 2007, pp. 284-285, cat. no. 134.</p>
+                                    </vg:decoDesc>
+                                </vg:decoItem>
+                            </vg:decoList>
+                        </vg:decoration>
+                    </vg:physDesc>
+                    <vg:letContents>
+<p>To Anthon van Rappard. The Hague, Thursday, 15 or Friday, 16 March 1883.</p>
+<note type="ongoingTopic" n="1">
+<p>Van Gogh’s purchase of 21 volumes of <hi rend="ital">The Graphic</hi> <ref target="let302.xml">(302)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="2">
+<p>Van Gogh is working with natural chalk <ref target="let322.xml">(322)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b8363 V/2006 (sheet 1), private collection (sheet 2)</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>The letter must have been written in the week after Van Gogh’s visit to Van der Weele, which took place on 11 March; see ‘last Sunday’ <ref target="#l-2">(l. 2)</ref> and <ref target="let327.xml">letter 327</ref>. Moreover, Van Gogh assumes that Van Rappard is also having ‘winter weather’ again <ref target="#l-59">(l. 59)</ref> in Utrecht. After temperatures rose briefly above zero on the 13th and 14th, the cold returned on the 15th and 16th; it was warmer again on the 17th and 18th (<hi rend="ital">KNMI</hi>). We therefore date this letter to Thursday, 15 or Friday, 16 March 1883. </p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 8363" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001001613_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001001613_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001613_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001613_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 8363" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001001613_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001001613_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001613_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001613_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+      <surface n="Collection Jan Krugier" xml:id="surf-pb-2r">
+            <graphic mimeType="image/tiff" url="" rend="norend"/>
+            <zone xml:id="zone-pb-2r-3">
+<graphic mimeType="image/tiff" url="329_2r.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="329_2rt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="329_2rf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Amice Rappard,</ab>
+                <lb n="2" xml:id="l-2"/>
+<ab>Verl. Zondag was ik bij van der Weele. Zag daar <lb n="3" xml:id="l-3"/>een sch<hi rend="ss">ij</hi> van hem dat ik verreweg ’t mooiste vind wat ik <lb n="4" xml:id="l-4"/>van hem ken. ’t Stelde voor eenige zandkarren <lb n="5" xml:id="l-5"/>aan den kant van een kanaal of gracht<c type="kp">_</c> <lb n="6" xml:id="l-6"/>In den mist<c type="kp">_</c>–<anchor n="1" xml:id="note-o-1"/> ’t Had zoowel als motief <lb n="7" xml:id="l-7"/>als betreffende opvatting en executie misschien <lb n="8" xml:id="l-8"/>zekere rapporten met het werk van Mauve. <lb n="9" xml:id="l-9"/>In zoover ’t in een zelfden geest was gedaan <lb n="10" xml:id="l-10"/>maar met genoeg personaliteit toch <lb n="11" xml:id="l-11"/>om ten eenemaale oorspronkelijk te <lb n="12" xml:id="l-12"/>zijn en eigenaardig. Het was van <lb n="13" xml:id="l-13"/>afmeting nog al groot. Ik schrijf U dit <lb n="14" xml:id="l-14"/>om er op te wijzen v.d. W. mijns inziens een van <lb n="15" xml:id="l-15"/>de rising men is<c type="kp">_</c>– En ik wou wel gij hem <lb n="16" xml:id="l-16"/>persoonlijk kendet;– nu is er in de houtsneden <lb n="17" xml:id="l-17"/>juist een aanleiding tot kennismaking dunkt <lb n="18" xml:id="l-18"/>mij. ’t Zij dat gij – vroeger of later – zelf <lb n="19" xml:id="l-19"/>hem de bewuste bladen brengt (de Herkomer bedoel ik <lb n="20" xml:id="l-20"/>en wat ge mogelijk er bij vindt) ’t zij dat als ze hem <lb n="21" xml:id="l-21"/>door mijn intermediair geworden<c type="kk">/</c> ik U noemen <lb n="22" xml:id="l-22"/>mag als den gever en hem zeggen gij van zijn <lb n="23" xml:id="l-23"/>werk reeds een &amp; ander zaagt en gaarne <lb n="24" xml:id="l-24"/>kennis met hem zoudt maken. of zoo iets. Enfin <lb n="25" xml:id="l-25"/>ik bedoel maar dat op de een of andere <lb n="26" xml:id="l-26"/>wijs in contact met hem komende ik meen <lb n="27" xml:id="l-27"/>gij in hem iemand vinden zoudt met wien ge in <lb n="28" xml:id="l-28"/>contact zoudt blijven &amp; waarschijnlijk <lb n="29" xml:id="l-29"/>bepaald <hi rend="ital">vrienden</hi> worden.–</ab>
+                <lb n="30" xml:id="l-30"/>
+<ab rend="indent">Heden zond ik aan U af eene rol houtsneden<c type="kp">_</c> <lb n="31" xml:id="l-31"/>’t zijn de double page engravings uit Graphic. <lb n="32" xml:id="l-32"/>Ik heb er nog meer echter<c type="kk">/</c> sommigen echter <lb n="33" xml:id="l-33"/>niet geschikt om te rollen welligt<c type="kk">/</c> daar ze opgezet <lb n="34" xml:id="l-34"/>en gerepareerd zijn van scheuren<c type="kk">/</c> en minder importantes<c type="kp">_</c> <lb n="35" xml:id="l-35"/>Maar dit zijn die bladen welke ik meen gij <lb n="36" xml:id="l-36"/>zeker nog niet hebt vooreerst<c type="kk">/</c> en tevens allen 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                    <lb n="37" xml:id="l-37"/>zoodanigen dat <hi rend="ital">als</hi> gij ze <hi rend="ital">wel</hi> hadt <lb n="38" xml:id="l-38"/>ik ze aan v.d. W. zou geven.</ab>
+                <lb n="39" xml:id="l-39"/>
+<ab rend="indent">En gij eens verifieeren kunt of gij ze al dan <lb n="40" xml:id="l-40"/>niet hebt en hebt ge ze<c type="kk">/</c> ze retourneeren.</ab>
+                <lb n="41" xml:id="l-41"/>
+<ab rend="indent">De overigen kunt ge later wel uitzoeken <lb n="42" xml:id="l-42"/>maar daar we bij Uw eventueele komst <lb n="43" xml:id="l-43"/>toch onzen tijd noodig hebben ook voor andere dingen<c type="kk">/</c> is het dunkt me <lb n="44" xml:id="l-44"/>goed wij de meest importante houtsneden <lb n="45" xml:id="l-45"/>op deze wijs na kijken. Dan is dat ten minste <lb n="46" xml:id="l-46"/>afgedaan.</ab>
+                <lb n="47" xml:id="l-47"/>
+<ab rend="indent">Zoodra ik den tijd heb zal ik ook de <lb n="48" xml:id="l-48"/>kleinere voorloopig schiften en U datgene <lb n="49" xml:id="l-49"/>zenden tot nadere verifieering of ge ’t <lb n="50" xml:id="l-50"/>al dan niet hebt wat ik meen ge mankeeren <lb n="51" xml:id="l-51"/>mogt.</ab>
+                <lb n="52" xml:id="l-52"/>
+<ab rend="indent">Voorloopig voeg ik van kleinere slechts 2 <lb n="53" xml:id="l-53"/>
+                    <hi rend="ital">Lançons</hi> er bij die me<c type="kk">/</c> daar ’t Fransche zijn<c type="kk">/</c> <lb n="54" xml:id="l-54"/>soms later als ik de Graphics schift in ’t vergeetboek <lb n="55" xml:id="l-55"/>mogten raken en toch U aangenaam zullen <lb n="56" xml:id="l-56"/>zijn zonder twijfel<c type="kk">/</c> als ge ze ten minste niet reeds <lb n="57" xml:id="l-57"/>hebt. <hi rend="ital">Is Board School van Hol niet superbe?</hi>
+                    <anchor n="2" xml:id="note-o-2"/> <lb n="58" xml:id="l-58"/>
+                    <hi rend="ital">en Ploughing van Small</hi>
+                    <anchor n="3" xml:id="note-o-3"/>
+                    <hi rend="ital">&amp; Claxton printing?</hi>
+                    <anchor n="4" xml:id="note-o-4"/>
+                </ab>
+                <lb n="59" xml:id="l-59"/>
+<ab rend="indent">Zeker hebt gij te Utrecht ook wederom winterweer.</ab>
+                <lb n="60" xml:id="l-60"/>
+<ab rend="indent">Zie hiernevens een krabbeltje uit het raam<c type="kp">_</c>
+                    <anchor n="5" xml:id="note-o-5"/> <lb n="61" xml:id="l-61"/>Ik vind het altijd enorm gezellig in de <lb n="62" xml:id="l-62"/>schemering bij een vuur te zitten en te kijken <lb n="63" xml:id="l-63"/>uit het raam op een besneeuwd landschap.</ab>
+                <lb n="64" xml:id="l-64"/>
+<ab rend="indent">Het bewuste bergkrijt heb ik hier in stad ook nog gevonden<c type="kk">/</c> <lb n="65" xml:id="l-65"/>het is een artikel dat mij tot heden zoo goed als onbekend was<c type="kk">/</c> <lb n="66" xml:id="l-66"/>nu echter merk ik het niet zoo zeldzaam is – en welligt kent <lb n="67" xml:id="l-67"/>en hebt gij het reeds. Indien niet<c type="kk">/</c> mij dunkt het is een <lb n="68" xml:id="l-68"/>eigenaardig middel om mee te teekenen. adieu kerel<c type="kk">/</c> <lb n="69" xml:id="l-69"/>een handdruk in gedachten<c type="kp">_</c>– Schrijf eens spoedig <lb n="70" xml:id="l-70"/>en geloof me</ab>
+<vg:whiteline/>
+                <lb n="70*" xml:id="l-70s"/>
+<ab>t. à t. </ab>
+                <lb n="71" xml:id="l-71"/>
+                <ab>Vincent</ab>
+<pb f="2r" n="3" xml:id="pb-orig-2r-3" facs="#zone-pb-2r-3"/> <figure facs="zone-sketch-1" n="A"/>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-53" n="53">Fransche zijn<c type="kk">/</c> &lt; Fransche</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear friend <rs type="pers" key="1306">Rappard</rs>,</ab>
+<ab>Last Sunday I was at <rs type="pers" key="1440">Van der Weele</rs>’s. Saw a painting by him there that I think is by far the most beautiful of his that I know. It was of several sand-carts by the side of a channel or canal. In the mist.<anchor n="1" xml:id="note-t-1"/> It perhaps bore some resemblance to the work of <rs type="pers" key="323">Mauve</rs>, both in subject and in the approach and execution. Inasmuch as it was done in the same spirit but with enough personality to be absolutely original and singular. The dimensions were rather large. I write this to point out that Van der W. is one of the rising men, in my view. And I wish you knew him personally; now the woodcuts may provide an opportunity for getting acquainted, it seems to me. Either through you bringing him those prints sooner or later (I mean the <rs type="pers" key="1080">Herkomer</rs>, and whatever else you may find), or through them becoming his with me as intermediary, I may name you as the donor and tell him that you’ve seen something of his work and would like to make his acquaintance, or something like that. In short, I just mean that if you’re put in touch with him one way or another I believe you’ll find in him someone with whom you’ll want to keep in touch and probably become real <hi rend="ital">friends</hi>.</ab>
+<ab rend="indent">Today I sent you a roll of woodcuts. They’re the double-page engravings from The Graphic. I have more of them, but some are probably not suitable for rolling up, since they’re mounted and have had tears repaired and are less important. But these are the sheets I believe you certainly don’t have as yet, and all 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> those that I would give to <rs type="pers" key="1440">Van der W.</rs>, <hi rend="ital">provided</hi> you already had them.</ab>
+<ab rend="indent">And you can verify whether or not you already have them and if you do, return them.</ab>
+<ab rend="indent">You can sort the others out later, but I think it would be good to have a look at the most important woodcuts in this way, since if you come to visit we’ll need time for other things as well. Then at least that will be out of the way.</ab>
+<ab rend="indent">As soon as I have time I’ll go through the smaller ones too and send you what I think you may not have for further verification as to whether or not you do. </ab>
+<ab rend="indent">For now from the smaller ones I’m adding just 2 <hi rend="ital">
+                        <rs type="pers" key="1146">Lançon</rs>s</hi> which, since they’re French, might get forgotten later when I’m sorting The Graphics but which will undoubtedly please you, at least if you don’t already have them. <hi rend="ital">Isn’t Board School by <rs type="pers" key="1089">Holl</rs> superb</hi>?<anchor n="2" xml:id="note-t-2"/>
+                    <hi rend="ital"> and Ploughing by <rs type="pers" key="1359">Small</rs>
+                    </hi>
+                    <anchor n="3" xml:id="note-t-3"/> <hi rend="ital">and Caxton printing</hi>?<anchor n="4" xml:id="note-t-4"/>
+                </ab>
+<ab rend="indent">You doubtless have winter weather again in Utrecht.</ab>
+<ab rend="indent">Enclosed is a scratch out of the window.<anchor n="5" xml:id="note-t-5"/> I always find it wonderfully cosy to sit by a fire in the dusk and to look through the window at a snow-covered landscape.</ab>
+<ab rend="indent">I’ve also found that natural chalk here in town. It’s an article that was practically unknown to me until now. Now, though, I find it isn’t that rare — and you probably know it and already have it. If not, I think it a singular medium in which to draw. Adieu, old chap, a handshake in thought. Write soon, and believe me</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<ab>
+<pb f="2r" n="3" xml:id="pb-trans-2r-3" facs="#zone-pb-2r-3"/>
+                </ab>
+<ab>
+                    <figure facs="zone-sketch-1" n="A"/>
+                </ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>For <rs type="pers" key="1440">Van der Weele</rs>, <hi rend="ital">
+                            <rs type="otherart" key="499">A misty morning</rs>
+                        </hi>, <ref target="let327.xml#n-1">see letter 327, n. 1.</ref>
+                    </ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+      <ab>For <rs type="pers" key="1089">Francis Montague Holl</rs>, <hi rend="ital">
+                            <rs type="ill" key="1909">A board school</rs>
+                        </hi>, <ref target="let199.xml#n-11">see letter 199, n. 11.</ref>
+                    </ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>For <rs type="pers" key="1359">William Small</rs>, <hi rend="ital">
+                            <rs type="ill" key="1340">An English ploughing match</rs>
+                        </hi>, <ref target="let304.xml#n-40">see letter 304, n. 40.</ref>
+                    </ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>For William Small, <hi rend="ital">
+                            <rs type="ill" key="1334">The Caxton celebrations</rs>
+                        </hi>, <ref target="let304.xml#n-39">see letter 304, n. 39.</ref>
+                    </ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>The enclosed sketch was <hi rend="ital">Snowy yard</hi> (<rs type="sketch" key="89">F 1023 / JH 343</rs>); the drawing after which it was done is not known. Van Gogh again did a letter sketch after it in <ref target="let330.xml">letter 330</ref> to Theo.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Auvers-sur-Oise, Tuesday, 3 June 1890. </title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let877"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">877</idno>
+<idno type="collectedletters">638</idno>
+<idno type="brieven1990">881</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Auvers-sur-Oise</vg:placeLet>
+                        <vg:dateLet>Tuesday, 3 June 1890</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:physDesc>
+                        <vg:decoration>
+                            <vg:decoList xml:id="sketches">
+                                <vg:decoItem n="A" xml:id="sketch-1">
+                                    <vg:decoDesc>
+<p>
+      <hi rend="ital">Doctor Gachet</hi> (<rs type="sketch" key="227">F - / JH 2008</rs>), letter sketch</p>
+                                    </vg:decoDesc>
+                                </vg:decoItem>
+                            </vg:decoList>
+                        </vg:decoration>
+                    </vg:physDesc>
+                    <vg:letContents>
+<p>To Theo van Gogh. Auvers-sur-Oise, Tuesday, 3 June 1890. </p>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b687 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Van Gogh says that he received Theo’s letter ‘this morning’ <ref target="#l-2">(l. 2)</ref>. That was <ref target="let876.xml">letter 876</ref> of 2 June. We have therefore dated the present letter to Tuesday, 3 June 1890. In <hi rend="ital">Brieven </hi>1914 Jo van Gogh-Bonger dated this letter to 4 June 1890; she possibly had a postmark to rely on, in which case the letter was sent a day after it was written.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+      <facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <surface n="b 0687" xml:id="surf-pb-1r">
+                  <graphic mimeType="image/tiff" url="VGM001000935_01.TIF" rend="norend"/>
+                  <graphic mimeType="image/tiff" url="VGM001000935_01_n.tif" rend="norend"/>
+                  <graphic mimeType="image/jpeg" url="VGM001000935_01_nt.jpg" height="50px" rend="thumbnail"/>
+                  <zone xml:id="zone-pb-1r-1">
+                        <graphic mimeType="image/tiff" url="VGM001000935_01_nR.tif" rend="norend"/>
+                        <graphic mimeType="image/jpeg" url="VGM001000935_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                        <graphic mimeType="image/png" url="VGM001000935_01_nRf.png" width="380px" rend="facstab"/>
+                  </zone>
+                  <zone xml:id="zone-pb-1r-4">
+                        <graphic mimeType="image/tiff" url="VGM001000935_01_nL.tif" rend="norend"/>
+                        <graphic mimeType="image/jpeg" url="VGM001000935_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                        <graphic mimeType="image/png" url="VGM001000935_01_nLf.png" width="380px" rend="facstab"/>
+                  </zone>
+            </surface>
+            <surface n="b 0687" xml:id="surf-pb-1v">
+                  <graphic mimeType="image/tiff" url="VGM001000935_02.TIF" rend="norend"/>
+                  <graphic mimeType="image/tiff" url="VGM001000935_02_n.tif" rend="norend"/>
+                  <graphic mimeType="image/jpeg" url="VGM001000935_02_nt.jpg" height="50px" rend="thumbnail"/>
+                  <zone xml:id="zone-pb-1v-2">
+                        <graphic mimeType="image/tiff" url="VGM001000935_02_nL.tif" rend="norend"/>
+                        <graphic mimeType="image/jpeg" url="VGM001000935_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                        <graphic mimeType="image/png" url="VGM001000935_02_nLf.png" width="380px" rend="facstab"/>
+                  </zone>
+                  <zone xml:id="zone-pb-1v-3">
+                        <graphic mimeType="image/tiff" url="VGM001000935_02_nR.tif" rend="norend"/>
+                        <graphic mimeType="image/jpeg" url="VGM001000935_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                        <graphic mimeType="image/png" url="VGM001000935_02_nRf.png" width="380px" rend="facstab"/>
+                  </zone>
+            </surface>
+      </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Mon cher Theo,</ab>
+                <lb n="1*" xml:id="l-1s"/>
+<ab>déjà depuis plusieurs jours j’aurais désiré t’écrire <lb n="2" xml:id="l-2"/>à tête reposée mais ai été absorbé par le travail. Ce matin <lb n="3" xml:id="l-3"/>arrive ta lettre de laquelle je te remercie et du billet de 50 fr. <lb n="4" xml:id="l-4"/>qu’elle contenait<c type="kp">_</c> Oui je crois que pour bien des chôses il serait <lb n="5" xml:id="l-5"/>bien que nous fussions encore ensemble tous ici pour une <lb n="6" xml:id="l-6"/>huitaine de tes vacances<c type="kk">/</c> si plus longtemps n’est pas <lb n="7" xml:id="l-7"/>possible. Je pense souvent à toi<c type="kk">/</c> à Jo et au petit, et je <lb n="8" xml:id="l-8"/>vois que les enfants ici au grand air sain ont l’air <lb n="9" xml:id="l-9"/>de bien se porter<c type="kp">_</c> Et pourtant c’est dejà ici aussi difficile <lb n="10" xml:id="l-10"/>assez de les élever<c type="kk">/</c> à plus forte raison est ce plus ou moins <lb n="11" xml:id="l-11"/>terrible à de certains moments de les garder sains &amp; saufs <lb n="12" xml:id="l-12"/>à Paris dans un quatrième étage. Mais enfin il faut <lb n="13" xml:id="l-13"/>prendre les chôses comme elles sont. M. Gachet dit qu’il <lb n="14" xml:id="l-14"/>faut que père et mère se nourrissent bien naturellement<c type="kk">/</c> <lb n="15" xml:id="l-15"/>il parle de prendre 2 litres de biere par jour &amp;c.<c type="kk">/</c> dans ces <lb n="16" xml:id="l-16"/>mesures-là. Mais tu feras certes avec plaisir plus ample <lb n="17" xml:id="l-17"/>connaissance avec lui et il y compte déjà<c type="kk">/</c> en parle <lb n="18" xml:id="l-18"/>toutes les fois que je le vois<c type="kk">/</c> que vous tous viendrez. Il me <lb n="19" xml:id="l-19"/>parait certes aussi malade et ahuri que toi ou moi et <lb n="20" xml:id="l-20"/>il est plus agé et il a perdu il y a quelques années sa femme<anchor n="1" xml:id="note-o-1"/> <lb n="21" xml:id="l-21"/>mais il est très médecin et son métier et sa foi le tiennent <lb n="22" xml:id="l-22"/>pourtant. Nous sommes déjà très amis et par hasard <lb n="23" xml:id="l-23"/>il a connu encore Brias de Montpellier<anchor n="2" xml:id="note-o-2"/> et a les mêmes <lb n="24" xml:id="l-24"/>idées sur lui que j’ai<c type="kk">/</c> que c’est quelqu’un d’important <lb n="25" xml:id="l-25"/>dans l’histoire de l’art moderne. Je travaille à son portrait </ab>
+<vg:whiteline/> <figure facs="zone-sketch-1" n="A"/>
+<vg:whiteline/>
+                <lb n="26" xml:id="l-26"/>
+<ab>la tête avec une casquette blanche<c type="kk">/</c> très blonde<c type="kk">/</c> très claire<c type="kk">/</c> les mains <lb n="27" xml:id="l-27"/>aussi à carnation claire<c type="kk">/</c> un frac bleu et un fond bleu cobalt<c type="kk">/</c> <lb n="28" xml:id="l-28"/>appuyé sur une table rouge sur laquelle un livre jaune et <lb n="29" xml:id="l-29"/>une plante de digitale à fleurs pourpres.<anchor n="3" xml:id="note-o-3"/> Cela est dans <lb n="30" xml:id="l-30"/>le même sentiment que le portrait de moi que j’ai pris lorsque <lb n="31" xml:id="l-31"/>je suis parti pour ici.<anchor n="4" xml:id="note-o-4"/>
+                </ab>
+                <lb n="32" xml:id="l-32"/>
+<ab rend="indent">M. Gachet est absolument <hi rend="ital">fanatique</hi> pour ce portrait et veut <lb n="33" xml:id="l-33"/>que j’en fasse un de lui si je peux<c type="kk">/</c> absolument comme cela<c type="kk">/</c> <lb n="34" xml:id="l-34"/>ce que je désire faire aussi. Il est maintenant aussi <lb n="35" xml:id="l-35"/>arrivé à comprendre le dernier portrait d’Arlésienne dont tu en <lb n="36" xml:id="l-36"/>as un en rose<anchor n="5" xml:id="note-o-5"/> – il revient<c type="kk">/</c> lorsqu’il vient voir les etudes<c type="kk">/</c> tout le temps <lb n="37" xml:id="l-37"/>sur ces deux portraits et il les admet en plein<c type="kk">/</c> mais en plein tels qu’ils sont. 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                    <lb n="38" xml:id="l-38"/>J’espère t’envoyer un portrait de lui bientôt<c type="kp">_</c> Puis j’ai peint chez lui <lb n="39" xml:id="l-39"/>deux études que je lui ai données semaine passee<c type="kp">_</c> Un aloes avec <lb n="40" xml:id="l-40"/>des soucis et des cyprès<anchor n="6" xml:id="note-o-6"/> puis Dimanche dernier des roses blanches<c type="kk">/</c> de la <lb n="41" xml:id="l-41"/>vigne et une figure blanche là-dedans<c type="kp">_</c>
+                    <anchor n="7" xml:id="note-o-7"/>
+                </ab>
+                <lb n="42" xml:id="l-42"/>
+<ab rend="indent">Je ferai très probablement aussi le portrait de sa fille qui a 19 ans<anchor n="8" xml:id="note-o-8"/> et avec <lb n="43" xml:id="l-43"/>laquelle je me figure aisément que Jo sera vite amies.</ab>
+                <lb n="44" xml:id="l-44"/>
+<ab rend="indent">Alors je m’en fais une fête de faire les portraits de vous tous <lb n="45" xml:id="l-45"/>en plein air<c type="kk">/</c> le tien<c type="kk">/</c> celui de Jo et celui du petit.</ab>
+                <lb n="46" xml:id="l-46"/>
+<ab rend="indent">J’ai encore rien trouvé d’intéressant en fait d’atelier possible <lb n="47" xml:id="l-47"/>et il faudra pourtant prendre une chambre pour y mettre les <lb n="48" xml:id="l-48"/>toiles qui sont de trop chez toi et qui sont chez Tanguy<c type="kp">_</c> Car il faut <lb n="49" xml:id="l-49"/>encore beaucoup y retoucher. Mais enfin je vis au jour le <lb n="50" xml:id="l-50"/>jour – il fait si beau. Et la santé va bien<c type="kk">/</c> je me couche à 9 heures <lb n="51" xml:id="l-51"/>mais me lève à 5 h<c type="kp">_</c> la pluspart du temps.</ab>
+                <lb n="52" xml:id="l-52"/>
+<ab rend="indent">J’ai esperance qu’il ne sera pas desagréable de se retrouver <lb n="53" xml:id="l-53"/>après une longue absence<c type="kp">_</c> Et j’espère aussi que cela <lb n="54" xml:id="l-54"/>continuera que je me sens bien plus sûr de mon pinceau <lb n="55" xml:id="l-55"/>qu’avant d’aller à Arles. Et M. Gachet dit qu’il trouverait <lb n="56" xml:id="l-56"/>fort improbable que cela revienne et que cela va tout <lb n="57" xml:id="l-57"/>à fait bien. Mais lui aussi se plaint amèrement de <lb n="58" xml:id="l-58"/>l’etat de choses partout dans les villages où il est venu <lb n="59" xml:id="l-59"/>le moindre etranger<c type="kk">/</c> que la vie y devient si horriblement <lb n="60" xml:id="l-60"/>chère. Il dit qu’il s’étonne que les gens où je suis <lb n="61" xml:id="l-61"/>me logent et nourrissent pour cela et que j’ai encore<c type="kk">/</c> <lb n="62" xml:id="l-62"/>relativement à d’autres qui sont venus et qu’il a <lb n="63" xml:id="l-63"/>connus<c type="kk">/</c> de la chance. Que si tu viens et Jo et le <lb n="64" xml:id="l-64"/>petit vous ne pourrez faire mieux que de loger à <lb n="65" xml:id="l-65"/>cette même auberge. Maintenant rien<c type="kk">/</c> absolument <lb n="66" xml:id="l-66"/>rien ne nous retient ici que Gachet – mais celui là restera <lb n="67" xml:id="l-67"/>un ami à ce que je presumerais<c type="kp">_</c> Je sens que chez lui <lb n="68" xml:id="l-68"/>je peux faire un tableau pas trop mal toutes les <lb n="69" xml:id="l-69"/>fois que j’y vais et il continuera bien de m’inviter <lb n="70" xml:id="l-70"/>à diner tous les dimanches ou lundis<c type="kp">_</c>
+                </ab>
+                <lb n="71" xml:id="l-71"/>
+<ab rend="indent">Mais jusqu’à present<c type="kk">/</c> si c’est agréable d’y faire un tableau <lb n="72" xml:id="l-72"/>c’est une corvée pour moi d’y diner et déjeûner car <lb n="73" xml:id="l-73"/>l’excellent homme se donne du mal pour faire des <lb n="74" xml:id="l-74"/>diners où il y a 4 ou 5 plats<c type="kk">/</c> ce qui est abominable 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                    <lb n="75" xml:id="l-75"/>pour lui comme pour moi car il n’a certes pas l’estomac fort<c type="kp">_</c> Ce qui m’a un peu retenu d’y trouver à redire <lb n="76" xml:id="l-76"/>c’est que je vois que lui cela lui rappelle les jours d’autrefois <lb n="77" xml:id="l-77"/>où l’on faisait des diners de famille qu’enfin nous <lb n="78" xml:id="l-78"/>connaissons bien aussi<c type="kp">_</c>
+                </ab>
+                <lb n="79" xml:id="l-79"/>
+<ab rend="indent">Mais l’idée moderne de manger un, tout au plus <lb n="80" xml:id="l-80"/>deux plats est pourtant certes un progrès et un <lb n="81" xml:id="l-81"/>sain retour à l’antiquité vraie.</ab>
+                <lb n="82" xml:id="l-82"/>
+<ab rend="indent">Enfin le père Gachet est beaucoup mais beaucoup <lb n="83" xml:id="l-83"/>comme toi et moi. J’ai lu avec plaisir dans ta lettre <lb n="84" xml:id="l-84"/>que M. Peyron a demandé de mes nouvelles en t’ecrivant<c type="kp">_</c> <lb n="85" xml:id="l-85"/>Je vais lui écrire que cela va bien ce soir même car <lb n="86" xml:id="l-86"/>il était très bon pour moi et je ne l’oublierai certes <lb n="87" xml:id="l-87"/>pas. Desmoulins<c type="kk">/</c> celui qui a des tableaux japonais <lb n="88" xml:id="l-88"/>au Champ de Mars<c type="kk">/</c> est revenu ici et j’espère bien le rencontrer<c type="kp">_</c>
+                    <anchor n="9" xml:id="note-o-9"/>
+                </ab>
+                <lb n="89" xml:id="l-89"/>
+<ab rend="indent">Qu’est ce qu’a dit Gauguin du dernier portrait d’arlésienne <lb n="90" xml:id="l-90"/>qui est fait sur son dessin.<anchor n="10" xml:id="note-o-10"/> Tu finiras par voir je croirais<c type="kk">/</c> <lb n="91" xml:id="l-91"/>que cela est une des choses les moins mauvaises que <lb n="92" xml:id="l-92"/>j’ai faites. Gachet a un Guillaumin<c type="kk">/</c> femme nue sur un lit<c type="kk">/</c> que <lb n="93" xml:id="l-93"/>je trouve fort belle<c type="kk">/</c>
+                    <anchor n="11" xml:id="note-o-11"/> il a aussi un très ancien portrait de Guillaumin <lb n="94" xml:id="l-94"/>par lui<c type="kk">/</c> très different du nôtre, noir mais intéressant<c type="kp">_</c>
+                    <anchor n="12" xml:id="note-o-12"/>
+                </ab>
+                <lb n="95" xml:id="l-95"/>
+<ab rend="indent">Mais sa maison tu verras c’est plein<c type="kk">/</c> plein comme un <lb n="96" xml:id="l-96"/>marchand d’antiquités<c type="kk">/</c> de chôses pas toujours intéressantes<c type="kk">/</c> <lb n="97" xml:id="l-97"/>c’est même terrible.– Mais dans tout cela il y a ceci de bon <lb n="98" xml:id="l-98"/>que pour arranger des fleurs ou des natures mortes il y aurait <lb n="99" xml:id="l-99"/>toujours de quoi. J’ai fait ces études pour lui<c type="kk">/</c> pour lui <lb n="100" xml:id="l-100"/>montrer que si ce n’est pas un cas où on lui <lb n="101" xml:id="l-101"/>payerait en argent nous le dédomagerons pourtant <lb n="102" xml:id="l-102"/>toujours de ce qu’il ferait pour nous.</ab>
+                <lb n="103" xml:id="l-103"/>
+<ab rend="indent">Connais tu une eauforte de Bracquemond<c type="kk">/</c> le portrait de Comte<c type="kk">/</c> <lb n="104" xml:id="l-104"/>c’est un chef d’oeuvre.<anchor n="13" xml:id="note-o-13"/>
+                </ab>
+                <lb n="105" xml:id="l-105"/>
+<ab rend="indent">Il me faudrait aussitôt que possible 12 tubes <lb n="106" xml:id="l-106"/>blanc de zinc de Tasset et 2 tubes moyen laque <lb n="106a" xml:id="l-106a"/>geranium.</ab>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                <lb n="107" xml:id="l-107"/>
+<ab rend="indent">Puis aussitôt que tu pourrais me les envoyer je <lb n="108" xml:id="l-108"/>tiendrais absolument à copier encore une fois toutes <lb n="109" xml:id="l-109"/>les Etudes au fusain de Bargue<c type="kk">/</c> tu sais les figures nues. <lb n="110" xml:id="l-110"/>Je peux les dessiner relativement vite<c type="kk">/</c> mettons dans <lb n="111" xml:id="l-111"/>un mois les 60 feuilles qu’il y a<c type="kk">/</c> donc tu enverrais un exemplaire en <lb n="112" xml:id="l-112"/>commission<c type="kk">/</c> je ferais en sorte de ne pas les tacher <lb n="113" xml:id="l-113"/>ou salir.<anchor n="14" xml:id="note-o-14"/> Si je négligeais d’étudier encore les proportions <lb n="114" xml:id="l-114"/>et le nu je me trouverais mal pris plus tard. Que <lb n="115" xml:id="l-115"/>cela ne te paraisse pas absurde ou inutile<c type="kp">_</c>
+                </ab>
+                <lb n="116" xml:id="l-116"/>
+<ab rend="indent">Gachet m’a dit aussi que si je voulais lui faire un <lb n="117" xml:id="l-117"/>grand plaisir il désirerait que je refasse pour lui <lb n="118" xml:id="l-118"/>la copie de la pieta de Delacroix qu’il a regardé très <lb n="119" xml:id="l-119"/>longtemps.<anchor n="15" xml:id="note-o-15"/> Dans la suite probablement <lb n="120" xml:id="l-120"/>il me donnera un coup de main pour les modèles, je sens <lb n="121" xml:id="l-121"/>qu’il nous comprendra tout à fait et qu’il travaillera <lb n="122" xml:id="l-122"/>avec toi et moi sans arriere pensée<c type="kk">/</c> pour l’amour de <lb n="123" xml:id="l-123"/>l’art pour l’art<c type="kk">/</c> de toute son intelligence. Et il me <lb n="124" xml:id="l-124"/>fera peutêtre bien avoir des portraits<c type="kp">_</c> Or pour avoir <lb n="125" xml:id="l-125"/>des clients pour les portraits il faut pouvoir en montrer differents <lb n="126" xml:id="l-126"/>que l’on a fait. Voilà tout ce que je vois de possibilité de placer <lb n="127" xml:id="l-127"/>quelque chôse. Mais pourtant<c type="kk">/</c> pourtant de certaines toiles un <lb n="128" xml:id="l-128"/>jour trouveront des amateurs. Je trouve seulement que tout le bruit <lb n="129" xml:id="l-129"/>qu’ont fait les grands prix payés dans les derniers temps pour <lb n="130" xml:id="l-130"/>des Millets &amp;c.<anchor n="16" xml:id="note-o-16"/> ont encore empiré l’etat de chôses quant <lb n="131" xml:id="l-131"/>à la chance qu’on a rien que de rentrer dans ses frais de <lb n="132" xml:id="l-132"/>peinture. C’est à avoir le vertige. Donc qu’y penserons <lb n="133" xml:id="l-133"/>nous, cela abrutirait. Mieux vaut encore peutêtre chercher <lb n="134" xml:id="l-134"/>un peu d’amitié et vivre au jour le jour. J’espère que <lb n="135" xml:id="l-135"/>le petit continuera à aller bien et vous deux également jusqu’au <lb n="136" xml:id="l-136"/>revoir<c type="kk">/</c> à bientot<c type="kk">/</c> je vous serre bien la main<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="137" xml:id="l-137"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo,</ab>
+<ab>For several days now I’d have liked to write to you with a rested mind, but have been absorbed in work. This morning your letter arrives, for which I thank you and for the 50-franc note it contained. Yes, I think that it would be good for many reasons that we were all together again here for a week of your holidays, if longer isn’t possible. I often think of you, Jo and the little one, and I see that the children here look well in the healthy fresh air. And yet it’s difficult enough to raise them, even here, all the more is it rather terrible sometimes to keep them safe and sound in Paris on a fourth floor. But anyway, one must take things as they are. Mr Gachet says that father and mother must feed themselves quite naturally, he talks of taking 2 litres of beer a day &amp;c., in those amounts. But you’ll certainly enjoy furthering your acquaintance with him, and he’s already counting on it, speaks of it every time I see him, that you’ll all come. He certainly appears to me as ill and confused as you or I, and he’s older and a few years ago he lost his wife,<anchor n="1" xml:id="note-t-1"/> but he’s very much a doctor, and his profession and his faith keep him going however. We’re already firm friends, and by chance he also knew Bruyas of Montpellier<anchor n="2" xml:id="note-t-2"/> and has the same ideas on him as I have, that he’s someone important in the history of modern art. I’m working on his portrait</ab>
+<vg:whiteline/>
+<ab>
+                    <figure facs="zone-sketch-1" n="A"/>
+                </ab>
+<vg:whiteline/>
+<ab>the head with a white cap, very fair, very light, the hands also in light carnation, a blue frock coat and a cobalt blue background, leaning on a red table on which are a yellow book and a foxglove plant with purple flowers.<anchor n="3" xml:id="note-t-3"/> It’s in the same sentiment as the portrait of myself that I took when I left for here.<anchor n="4" xml:id="note-t-4"/>
+                </ab>
+<ab rend="indent">Mr Gachet is absolutely <hi rend="ital">fanatical</hi> about this portrait, and wants me to do one of him if I can, absolutely like that, which I also wish to do. He has now also come to understand the last portrait of the Arlésienne, one of which you have in pink<anchor n="5" xml:id="note-t-5"/> – he comes back all the time, when he comes to see the studies, to these two portraits and he accepts them fully, but fully as they are. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> I hope to send you a portrait of him soon. Then I painted two studies at his house which I gave him last week. One aloes with marigolds and cypresses,<anchor n="6" xml:id="note-t-6"/> then last Sunday white roses, vines and a white figure in it.<anchor n="7" xml:id="note-t-7"/>
+                </ab>
+<ab rend="indent">I’ll very probably also do the portrait of his daughter, who is 19,<anchor n="8" xml:id="note-t-8"/> and with whom I can easily imagine Jo will quickly make friends.</ab>
+<ab rend="indent">So I’m looking forward to doing the portraits of all of you in the open air, yours, Jo’s and the little one’s.</ab>
+<ab rend="indent">I still haven’t found anything interesting in the way of a possible studio, and yet I’ll have to take a room to put in the canvases which are surplus at your apartment and which are at Tanguy’s. For they still need a great deal of retouching. But anyway, I live from day to day – the weather is so fine. And my health is good, I go to bed at 9 o’clock but I get up at 5 o’clock most of the time.</ab>
+<ab rend="indent">I have hopes that it won’t be disagreeable to be together again after a long absence. And I also hope that I’ll continue to feel much surer of my brush than before I went to Arles. And Mr Gachet says that he would consider it highly improbable that it should recur, and that it’s going completely well. But he, too, complains bitterly of the state of things everywhere in the villages where the least foreigner has come, that life there becomes so horribly expensive. He says that he’s astonished that the people where I am lodge and feed me for that, and that I’m still fortunate, compared to others who have come and whom he’s known. That if you come, and Jo and the little one, you can’t do better than stay at this same inn. Now nothing, absolutely nothing keeps us here but Gachet – but the latter will remain a friend, I’d assume. I feel that at his place I can do not too bad a painting every time I go there, and he’ll certainly continue to invite me to dinner each Sunday or Monday.</ab>
+<ab rend="indent">But up to now, however agreeable it is to do a painting there, it’s a chore for me to dine and lunch there for, the excellent man goes to the trouble of making dinners in which there are 4 or 5 courses, which is as abominable 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> for him as it is for me, for he certainly doesn’t have a strong stomach. What has held me back a little from saying something about it is that I see that, for him, it reminds him of the days of yore when people had family dinners, which anyway we too well know.</ab>
+<ab rend="indent">But the modern idea of eating one, at most two courses is, however, certainly progress, and a healthy return to true antiquity.</ab>
+<ab rend="indent">Anyway <hi rend="ital">père</hi> Gachet is a lot, yes a lot like you and I. I was pleased to read in your letter that Mr Peyron asked for news of me when he wrote to you. I’m going to write to him this very evening that things are going well, for he was very kind to me and I’ll certainly not forget him. Dumoulin, the one who has Japanese paintings at the Champ de Mars, has come back here, and I very much hope to meet him.<anchor n="9" xml:id="note-t-9"/>
+                </ab>
+<ab rend="indent">What did Gauguin say about the last portrait of the Arlésienne that’s done after his drawing?<anchor n="10" xml:id="note-t-10"/> You’ll end up seeing, I would think, that it’s one of the least bad things I’ve done. Gachet has a Guillaumin, naked woman on a bed, which I consider very beautiful,<anchor n="11" xml:id="note-t-11"/> he also has a very old Guillaumin portrait by him, very different from ours, dark but interesting.<anchor n="12" xml:id="note-t-12"/>
+                </ab>
+<ab rend="indent">But his house, you will see, is full, full like an antique dealer’s, of things that aren’t always interesting, it’s terrible, even. But in all of this there’s this good aspect, that there would always be what I need there for arranging flowers or still lifes. I’ve done studies for him, to show him that should he not be paid in money we’ll nevertheless still compensate him for what he does for us.</ab>
+<ab rend="indent">Do you know an etching by Bracquemond, the portrait of Comte, it’s a masterpiece.<anchor n="13" xml:id="note-t-13"/>
+                </ab>
+<ab rend="indent">I’d also need as soon as possible 12 tubes zinc white from Tasset and 2 medium tubes geranium lake. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/>
+                </ab>
+<ab rend="indent">Then as soon as you could send them I’d be absolutely set upon copying all of Bargue’s Etudes au fusain again, you know the nude figures. I can draw them quite quickly, let’s say the 60 sheets that there are in a month, so you might send a copy on loan, I’d make sure not to stain or dirty it.<anchor n="14" xml:id="note-t-14"/> If I neglected to keep on studying proportions and the nude I’d find myself in a bad position later on. Don’t think this absurd or futile.</ab>
+<ab rend="indent">Gachet also told me that if I wanted to give him great pleasure he would like me to redo for him the copy of Delacroix’s Pietà, which he gazed at for a long time.<anchor n="15" xml:id="note-t-15"/> Later he’ll probably give me a hand with the models, I feel that he’ll understand us completely, and that he’ll work with you and me without reservation, with all his intelligence, for the love of art for art’s sake. And he’ll perhaps have me do some portraits. Now to have clients for portraits one must be able to show different ones that one has done. That’s the only possibility I can see of placing something. But however, however, certain canvases will one day find collectors. Only I think that all the fuss created by the large prices paid lately for Millets &amp;c.<anchor n="16" xml:id="note-t-16"/> has further worsened the state of things as regards the chance one has of merely recouping one’s painting expenses. It’s enough to make one dizzy. So why are we thinking about it, it would stupefy us. Better still, perhaps, to seek a little friendship and live from day to day. I hope that the little one will continue to be well, and you two also until we see each other again, more soon, I shake your hand firmly.</ab>
+<vg:whiteline/>
+<ab>Vincent</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>Gachet was 62 years old. In 1868 he had married Blanche Elisa Castets, who had died on 25 May 1875 in Paris. See exhib. cat. Paris 1999, p. 19 (n. 15).</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>In 1857-1858 Gachet had met the art collector Alfred Bruyas of Montpellier; in December 1888 Van Gogh had seen the Bruyas Collection. See exhib. cat. Paris 1999, p. 4, and <ref target="let726.xml">letter 726</ref>.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>The letter sketch <hi rend="ital">Doctor Gachet</hi> (<rs type="sketch" key="227">F - / JH 2008</rs>) was made after the painting of the same name <rs type="ill" key="2916">F 753 / JH 2007</rs>.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>
+      <hi rend="ital">Self-portrait</hi> (<rs type="ill" key="2827">F 627 / JH 1772</rs>). That Van Gogh is referring to this portrait is apparent from the description in <ref target="let879.xml">letter 879</ref>. The portrait had been at Theo’s since September 1889 (<ref target="let805.xml">see letter 805</ref>), so Vincent must have taken it from there.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>There were four versions of this <hi rend="ital">Marie Ginoux (‘The Arlésienne’)</hi>, made after a drawing by Gauguin (<ref target="#n-10">see n. 10</ref> below). The portrait ‘in pink’ which Theo had was <rs type="ill" key="2894">F 543 / JH 1895</rs>. Of the other three, <rs type="ill" key="2893">F 542 / JH 1894</rs> was intended for Gauguin (<ref target="let884.xml">see letter 884</ref>) and so still at Theo’s, so that the version Vincent took along to Auvers must have been <rs type="ill" key="2891">F 540 / JH 1892</rs> or <rs type="ill" key="2892">F 541 / JH 1893</rs>. Van Gogh speaks of ‘the last portrait of the Arlésienne’ to distinguish it from an earlier portrait, which was also at Theo’s: <hi rend="ital">Marie Ginoux (‘The Arlésienne’) </hi>(<rs type="ill" key="2744">F 489 / JH 1625</rs>).</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>
+      <hi rend="ital">Doctor Gachet’s garden</hi> (<rs type="ill" key="2913">F 755 / JH 1999</rs>).</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>
+      <hi rend="ital">Marguerite Gachet in the garden</hi> (<rs type="ill" key="2914">F 756 / JH 2005</rs>).</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>Marguerite Gachet was 20 years old. Van Gogh painted her portrait (<rs type="ill" key="2932">F 772 / JH 2048</rs>) at the end of June (<ref target="let893.xml">see letter 893</ref>).</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>For Louis Dumoulin, <ref target="let874.xml#n-3">see letter 874, n. 3.</ref>
+                    </ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+      <ab>For Gauguin’s <hi rend="ital">
+                            <rs type="ill" key="97">Madame Ginoux (study for ‘Night café, Arles’)</rs>
+                        </hi>, <ref target="let866.xml#n-6">see letter 866, n. 6.</ref>
+                    </ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>Armand Guillaumin, <hi rend="ital">Nude woman on a bed</hi>, c. 1877 (Paris, Musée d’Orsay). <rs type="ill" key="145">Ill. 145</rs>.</ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+<ab>Armand Guillaumin, <hi rend="ital">Self-portrait</hi>, c. 1870-1875 (Paris, Musée d’Orsay). <rs type="ill" key="147">Ill. 147</rs>. For the self-portrait of Guillaumin in Theo’s possession, <ref target="let800.xml#n-21">see letter 800, n. 21.</ref>
+                    </ab>
+                </note>
+<note n="13" xml:id="n-13" target="#note-t-13">
+<ab>Félix Bracquemond, <hi rend="ital">Auguste Comte (after Joseph Guichard)</hi>, 1851 (Paris, BNF, Cabinet des Estampes). <rs type="ill" key="626">Ill. 626</rs>. This etching came from Gachet’s collection. See exhib. cat. Paris 1999, p. 179.</ab>
+                </note>
+<note n="14" xml:id="n-14" target="#note-t-14">
+<ab>For Bargue’s <hi rend="ital">
+                            <rs type="lit" key="202">Exercices au fusain</rs>
+                        </hi>, <ref target="let156.xml#n-12">see letter 156, n. 12.</ref> Vincent had already asked Theo to send it in <ref target="let874.xml">letter 874</ref>. For the copies Van Gogh drew after Bargue’s sheets in Auvers, see cat. Amsterdam 2007, pp. 479-487, cat. nos. 483-485.</ab>
+                </note>
+<note n="15" xml:id="n-15" target="#note-t-15">
+<ab>
+      <hi rend="ital">Pietà (after Delacroix)</hi> (<rs type="ill" key="2830">F 630 / JH 1775</rs>). For Nanteuil’s lithograph after Delacroix, on which Van Gogh based his painting, <ref target="let686.xml#n-3">see letter 686, n. 3.</ref> As far as we know, Van Gogh did not make a copy for Gachet.</ab>
+                </note>
+<note n="16" xml:id="n-16" target="#note-t-16">
+<ab>This remark probably refers to the fact that Millet’s <hi rend="ital">
+                            <rs type="ill" key="1697">The angelus</rs>
+                        </hi> had been sold in January 1890 for the huge sum of 800,000 francs to the department store magnate Alfred Chauchard. He bought the painting from the American Arts Association, which had acquired it in September 1889 at the Secrétan sale. See exhib. cat. Boston 1984, p. <hi rend="sc">ix</hi> and <ref target="let785.xml#n-8">letter 785, n. 8.</ref>
+                    </ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

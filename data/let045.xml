@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>Theo van Gogh to Vincent van Gogh. The Hague, Tuesday, 7 September 1875.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let045"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">045</idno>
+<idno type="collectedletters">36a</idno>
+<idno type="brieven1990">045</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Theo van Gogh</author>
+                        <vg:addressee>Vincent van Gogh</vg:addressee>
+                        <vg:placeLet>The Hague</vg:placeLet>
+                        <vg:dateLet>Tuesday, 7 September 1875</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>Theo van Gogh to Vincent van Gogh. The Hague, Tuesday, 7 September 1875.</p>
+<note type="ongoingTopic" n="1">
+<p>Death of Weehuizen <ref target="let042.xml">(42)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b46 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Letter headed: ‘den Haag 7 Sept: 1875’.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0046" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000048_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000048_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000048_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000048_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000048_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000048_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0046" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000048_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000048_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000048_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000048_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000048_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000048_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>den Haag 7 Sept: 1875</ab>
+<vg:whiteline/>
+                <lb n="2" xml:id="l-2"/>
+<ab>Waarde Vincent,</ab>
+                <lb n="3" xml:id="l-3"/>
+<ab>Verleden voorjaar stierf <lb n="4" xml:id="l-4"/>Weehuizen. Ik dacht, dat gij het wist. <lb n="5" xml:id="l-5"/>Hij stierf zeer plotseling, na een paar da<c type="shy">-</c>
+                    <lb n="6" xml:id="l-6"/>gen ziek geweest te zijn. Hij is in het <lb n="7" xml:id="l-7"/>gasthuis gestorven zonder dat er iemand <lb n="8" xml:id="l-8"/>bij was. Het heeft mij zeer gespeten, dat <lb n="9" xml:id="l-9"/>ik niet bij hem was. In de tijd te voren, <lb n="10" xml:id="l-10"/>was ik veel met hem geweest. Hij had het <lb n="11" xml:id="l-11"/>boek van Michelet “l’amour” gelezen<anchor n="1" xml:id="note-o-1"/> &amp; veel <lb n="12" xml:id="l-12"/>met mij er over gesproken, hij vond het zoo <lb n="13" xml:id="l-13"/>mooi, &amp; hij hield zoo veel van de natuur 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                    <lb n="14" xml:id="l-14"/>en zocht er de stille weemoed in.</ab>
+                <lb n="15" xml:id="l-15"/>
+<ab rend="indent">Verleden Zondag hoorde ik een mooie <lb n="16" xml:id="l-16"/>preek. Jezus weende.<anchor n="2" xml:id="note-o-2"/>
+                </ab>
+                <lb n="17" xml:id="l-17"/>
+<ab rend="indent">Ik dank U voor de lithographiën &amp; het <lb n="18" xml:id="l-18"/>boek van Michel, dat gij mij belooft,<anchor n="3" xml:id="note-o-3"/> ik <lb n="19" xml:id="l-19"/>ben benieuwd, om ze te zien.</ab>
+                <lb n="20" xml:id="l-20"/>
+<ab rend="indent">Ik heb Uw brief bij Borchers bezorgd<c type="kk">/</c> dat <lb n="21" xml:id="l-21"/>zien er goede menschen uit. Ik hoop <lb n="22" xml:id="l-22"/>er meer te komen. Vandaag ontvingen <lb n="23" xml:id="l-23"/>wij de nouveautés waarbij de prent naar <lb n="24" xml:id="l-24"/>Rembrandt.<anchor n="4" xml:id="note-o-4"/> Die ziet er mooi uit, vooral <lb n="25" xml:id="l-25"/>het figuur van Jezus is mooi &amp; het geheel <lb n="26" xml:id="l-26"/>is nobel. Adieu<c type="kk">/</c> heb het goed<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="27" xml:id="l-27"/>
+<ab>Uw liefhebbende</ab>
+                <lb n="28" xml:id="l-28"/>
+<ab>Theo</ab>
+<vg:whiteline/>
+                <lb n="29" xml:id="l-29"/>
+<ab>De lijsten voor de gravures van Moe’s ver<c type="shy">-</c>
+                    <lb n="30" xml:id="l-30"/>jaardag<anchor n="5" xml:id="note-o-5"/> kosten f<c type="kp">_</c> 4.- het stuk<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note n="-">
+                        <hi rend="ital">Vincent’s reply to this letter (letter 46) was written on the same sheet. He underlined </hi>‘stille weemoed’<hi rend="ital">, in Theo’s letter (l. 14); see letter 46, l. 19-20.</hi>
+                    </note>
+<note target="l-4" n="4">Weehuizen. &lt; Weehuizen,</note>
+<note target="l-11" n="11">“l’amour” &lt; “l’amour</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>The Hague, 7 Sept. 1875</ab>
+<vg:whiteline/>
+<ab>My dear Vincent,</ab>
+<ab>
+                    <rs type="pers" key="819">Weehuizen</rs> died last spring. I thought you knew. He died very suddenly, after being ill for a couple of days. He died in hospital without anyone with him. I very much regretted not being with him. I had been with him a lot before then. He had read the book by <rs type="pers" key="707">Michelet</rs>, ‘L’amour’,<anchor n="1" xml:id="note-t-1"/> and had talked a lot about it with me; he thought it so beautiful, and he loved nature so much 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> and sought in it a quiet melancholy.</ab>
+<ab rend="indent">Last Sunday I heard a beautiful sermon. Jesus wept.<anchor n="2" xml:id="note-t-2"/>
+                </ab>
+<ab rend="indent">I thank you for the lithographs and the book by <rs type="pers" key="1228">Michel</rs> that you’ve promised me;<anchor n="3" xml:id="note-t-3"/> I’m eager to see them.</ab>
+<ab rend="indent">I gave your letter to <rs type="pers" key="298">Borchers</rs>, they look like good people. I hope to go there more often. Today we received the <hi rend="ital">nouveautés</hi>, which included the print after <rs type="pers" key="1295">Rembrandt</rs>.<anchor n="4" xml:id="note-t-4"/> It looks beautiful, the figure of Jesus, in particular, is beautiful, and the whole is noble. Adieu, I wish you well.</ab>
+<vg:whiteline/>
+<ab>Your loving</ab>
+<ab>Theo</ab>
+<vg:whiteline/>
+<ab>The frames for the engravings for <rs type="pers" key="524">Ma</rs>’s birthday<anchor n="5" xml:id="note-t-5"/> cost 4 guilders apiece.</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>On <rs type="pers" key="707">Michelet</rs>’s <rs type="lit" key="11">
+                            <hi rend="ital">L’amour</hi>
+                        </rs>, cf. <ref target="let026.xml#n-6">letter 26, n. 6.</ref>
+                    </ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="John" chap="11" v="35">John 11:35</bibleref>.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+  <ab>Regarding <rs type="lit" key="40">
+                            <hi rend="ital">Etude sur George Michel</hi>
+                        </rs> by <rs type="pers" key="737">Alfred Sensier</rs>, <ref target="let044.xml#n-2">see letter 44, n. 2.</ref>
+                    </ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>On <rs type="pers" key="1295">Rembrandt</rs>’s <rs type="ill" key="1735">
+                            <hi rend="ital">The pilgrims at Emmaus</hi>
+                        </rs>, <ref target="let042.xml#n-9">see letter 42, n. 9.</ref>
+                    </ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>Regarding this birthday, <ref target="let041.xml#n-9">see letter 41, n. 9.</ref>
+                    </ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

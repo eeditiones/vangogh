@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. The Hague, Sunday, 11 February 1883.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let312"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">312</idno>
+<idno type="collectedletters">266</idno>
+<idno type="brieven1990">314</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>The Hague</vg:placeLet>
+                        <vg:dateLet>Sunday, 11 February 1883</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. The Hague, Sunday, 11 February 1883.</p>
+<note type="ongoingTopic" n="1">
+<p>Theo’s love for the ailing Marie <ref target="let300.xml">(300)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. nos. b288 a-b V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Van Gogh inquires about the effects of the operation on Theo’s beloved Marie <ref target="#l-241">(ll. 241-243)</ref>, so the letter comes after that of 8 February, in which it first becomes apparent that the operation has taken place. It was written on a Sunday (see <ref target="#l-2">l. 2</ref>). Moreover, Van Gogh writes that ‘lately’ there has been ‘wet weather’ <ref target="#l-19">(ll. 19-21)</ref>. The weather records show that it rained on the days leading up to 11 February (<hi rend="ital">KNMI</hi>). Accordingly, we have dated the letter to Sunday, 11 February 1883. This date also explains why Vincent asks Theo to send money quickly (<ref target="#l-239">ll. 239-240</ref> and <ref target="#l-257">l. 257</ref>) – evidently he had not yet received his remittance of the 10th. This letter crossed with the one from Theo with the money (<ref target="let313.xml">see letter 313</ref>).</p>
+<p> </p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0288 a" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000358_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000358_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000358_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000358_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000358_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000358_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="VGM001000358_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000358_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000358_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0288 a" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000358_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000358_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000358_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000358_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000358_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000358_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000358_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000358_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000358_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0288 b" xml:id="surf-pb-2r">
+            <graphic mimeType="image/tiff" url="VGM001000359_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-2r-5">
+<graphic mimeType="image/tiff" url="VGM001000359_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000359_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000359_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0288 b" xml:id="surf-pb-2v">
+            <graphic mimeType="image/tiff" url="VGM001000359_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-2v-6">
+<graphic mimeType="image/tiff" url="VGM001000359_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000359_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000359_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Beste broer,</ab>
+                <lb n="2" xml:id="l-2"/>
+                <ab>Het is weer zondag en ik schrijf weer eens. Soms <lb n="3" xml:id="l-3"/>komt het mij voor ik nog niet warm en hartelijk genoeg <lb n="4" xml:id="l-4"/>U gezegd heb hoe zeer mij getroffen heeft wat gij mij <lb n="5" xml:id="l-5"/>dezen laatsten tijd mededeeldet.</ab>
+                <lb n="6" xml:id="l-6"/>
+<ab rend="indent">Wat betreft of eene opregt gemeende liefde, <lb n="7" xml:id="l-7"/>een illusion perdue zou kunnen worden – ik <lb n="8" xml:id="l-8"/>betwijfel niet of zoo gaat het soms – ’t zou me zeer <lb n="9" xml:id="l-9"/>verwonderen als ’t in Uw geval zoo gaan zou <lb n="10" xml:id="l-10"/>en met mij zelf geloof ik ook niet dat het zoo gaan zou<c type="kp">_</c> <lb n="15" xml:id="l-15"/>
+                    <hi rend="ital">Michelet</hi> zegt wel <lb n="16" xml:id="l-16"/>eigenaardig dat liefde eerst een spinnerag is en <lb n="17" xml:id="l-17"/>groeit tot de sterkte van een kabeltouw<c type="kp">_</c>–</ab>
+                <lb n="18" xml:id="l-18"/>
+<ab rend="indent">Wel te verstaan op conditie van getrouwheid.–<anchor n="1" xml:id="note-o-1"/>
+                </ab>
+                <lb n="19" xml:id="l-19"/>
+<ab rend="indent">Ik wandelde dezer dagen veel op de Geest en in die <lb n="20" xml:id="l-20"/>straten en stegen waar ik veel met de vrouw verleden jaar in <lb n="21" xml:id="l-21"/>’t begin geloopen heb. Het was nat weer – ik vind het <lb n="22" xml:id="l-22"/>alles daar dan prachtig en toen ik t’huis kwam zei ik tot <lb n="23" xml:id="l-23"/>de vrouw<c type="kk">/</c> ’t is nog net verleden jaar. ik schrijf dit eens met <lb n="24" xml:id="l-24"/>betrekking tot desenchantement – neen neen<c type="kk">/</c> er is wel een <lb n="25" xml:id="l-25"/>verflensen en weer uitspruiten in de liefde als in de heele natuur <lb n="26" xml:id="l-26"/>doch niet een sterven geheel en al. Wel is er eb en vloed doch <lb n="27" xml:id="l-27"/>de zee blijft de zee. En in de liefde<c type="kk">/</c> ’t zij voor eene vrouw ’t zij <lb n="28" xml:id="l-28"/>voor de kunst b.v. tijden van uitputting en magteloosheid <lb n="29" xml:id="l-29"/>doch niet een blijvend desenchantement.</ab>
+                <lb n="30" xml:id="l-30"/>
+<ab rend="indent">Ik beschouw liefde – even als vriendschap – niet alleen als een <lb n="31" xml:id="l-31"/>gevoel maar vooral als een <hi rend="ital">actie</hi>
+                    <anchor n="2" xml:id="note-o-2"/> – en juist als het een <lb n="32" xml:id="l-32"/>werkend zijn is en een inspanning zoo heeft het een <lb n="33" xml:id="l-33"/>revers van afmatting en magteloosheid.</ab>
+                <lb n="34" xml:id="l-34"/>
+<ab rend="indent">Waar men opregt en te goeder trouw liefheeft daar rust geloof ik <lb n="35" xml:id="l-35"/>zegen op ofschoon dat de moeielijke tijden niet <lb n="36" xml:id="l-36"/>wegneemt.–</ab>
+                <lb n="37" xml:id="l-37"/>
+<ab rend="indent">’k ben blij dat het met mijn oogen niet erger is en veeleer <lb n="38" xml:id="l-38"/>reeds veel minder<c type="kk">/</c> maar geheel weg is ’t nog niet en ik <lb n="39" xml:id="l-39"/>moet er mee voorzigtig zijn. ’k moet U zeggen<c type="kk">/</c> ik was <lb n="40" xml:id="l-40"/>er niet over gesticht.<anchor n="a" xml:id="note-o-a"/>
+                </ab>
+                <lb n="41" xml:id="l-41"/>
+<ab rend="indent">Wat zou ik graag eens met U praten – want ik ben <lb n="42" xml:id="l-42"/>niet moedeloos over het werk<c type="kk">/</c> niet lusteloos en <lb n="43" xml:id="l-43"/>ook niet magteloos maar ik zit er wat mee <lb n="44" xml:id="l-44"/>in en dat komt misschien omdat ik eens wat <lb n="45" xml:id="l-45"/>wrijving zou moeten hebben met zulken als <lb n="46" xml:id="l-46"/>men er mee over spreken kan; en met wie zou ik er <lb n="47" xml:id="l-47"/>hier in de gegeven omstandigheden over kunnen spreken, er is <lb n="48" xml:id="l-48"/>er op ’t moment geen een met wie ik vertrouwelijk ben – NIET <hi rend="ital">dat ik meen</hi> <lb n="49" xml:id="l-49"/>
+                    <hi rend="ital">er geen te vertrouwen zijn</hi>
+                    <c type="kk">/</c> dat zij verre<c type="kk">/</c> maar met zulken ben <lb n="50" xml:id="l-50"/>ik ongelukkigerwijs te weinig in relatie.–</ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="51" xml:id="l-51"/>
+<ab rend="indent">Ik denk wel eens dat nu jaren geleden <lb n="52" xml:id="l-52"/>toen ik voor ’t eerst te s’Hage kwam bij G&amp;C<hi rend="ss">ie</hi>
+                    <c type="kk">/</c>
+                    <anchor n="3" xml:id="note-o-3"/> <lb n="53" xml:id="l-53"/>van de 3 jaren die ik er doorbragt twee tamelijk <lb n="54" xml:id="l-54"/>onpleizierig waren maar het laatste veel gezelliger <lb n="55" xml:id="l-55"/>en dus wie weet of ook nu weer niet een <lb n="56" xml:id="l-56"/>dergelijk verschijnsel zal plaats hebben.</ab>
+                <lb n="57" xml:id="l-57"/>
+<ab rend="indent">Ik vind het spreekwoord heel leuk<c type="kk">/</c> When things <lb n="58" xml:id="l-58"/>are at the worst they are sure to mend<c type="kk">/</c>
+                    <anchor n="4" xml:id="note-o-4"/> doch <lb n="59" xml:id="l-59"/>nu vraag ik soms wel eens<c type="kk">/</c> Zijn we nu <lb n="60" xml:id="l-60"/>onder de hand aan “<hi rend="ital">the worst</hi>”<c type="kk">/</c> want <lb n="61" xml:id="l-61"/>the “mending” zou mij niet onwelkom zijn. <lb n="62" xml:id="l-62"/>Enfin.</ab>
+                <lb n="63" xml:id="l-63"/>
+<ab rend="indent">Dezer dagen las ik “<hi rend="ital">le Peuple</hi>” door Michelet<c type="kk">/</c> of liever <lb n="64" xml:id="l-64"/>las het een tijd geleden<c type="kk">/</c> reeds dezen winter<c type="kk">/</c> maar het kwam eerst <lb n="65" xml:id="l-65"/>dezer dagen in herinnering weer sterk bij mij op.</ab>
+                <lb n="66" xml:id="l-66"/>
+<ab rend="indent">Dat boek is snel en blijkbaar gehaast geschreven <lb n="67" xml:id="l-67"/>en als men slechts dat van M. las zou men geloof ik ’t niet <lb n="68" xml:id="l-68"/>heel mooi vinden of er minder door getroffen worden.<anchor n="5" xml:id="note-o-5"/> De meer doorwrochte <lb n="69" xml:id="l-69"/>boeken als la femme<c type="kk">/</c> l’amour<c type="kk">/</c> la mer<c type="kk">/</c> en de histoire de la <lb n="70" xml:id="l-70"/>revolution<anchor n="6" xml:id="note-o-6"/> kennende<c type="kk">/</c> vond ik het iets als eene ruwe schets <lb n="71" xml:id="l-71"/>van een schilder van wien ik veel houd en had het als <lb n="72" xml:id="l-72"/>zoodanig een bijzonder charme.</ab>
+                <lb n="73" xml:id="l-73"/>
+<ab rend="indent">De manier van doen van M. vind ik voor mij <lb n="74" xml:id="l-74"/>benijdenswaardig. Ik twijfel geen oogenblik of onder <lb n="75" xml:id="l-75"/>de schrijvers zullen er veel zijn die de techniek <lb n="76" xml:id="l-76"/>van M. afkeuren zoo als sommige schilders <lb n="77" xml:id="l-77"/>meenen ’t regt te hebben de techniek van Israels te <lb n="78" xml:id="l-78"/>bedillen. M. voelt sterk en wat hij voelt smeert <lb n="79" xml:id="l-79"/>hij erop zonder zich in ’t minst te bekommeren <hi rend="ital">hoe</hi> <lb n="80" xml:id="l-80"/>hij ’t doet<c type="kk">/</c> en niet in ’t minst aan “<hi rend="ital">techniek</hi>” of <lb n="81" xml:id="l-81"/>algemeen aangenomen vormen denkende <lb n="82" xml:id="l-82"/>in anderen zin dan voor zoover hij <lb n="83" xml:id="l-83"/>’t in een of anderen vorm gooit zóó dat ’t te begrijpen <lb n="84" xml:id="l-84"/>is voor wie ’t begrijpen willen. Le peuple is m.i<c type="kp">_</c> minder <lb n="85" xml:id="l-85"/>een premiere pensee of impressie echter, dan <lb n="86" xml:id="l-86"/>veeleer een onafgewerkte maar vooruit toch doordachte <lb n="87" xml:id="l-87"/>en gewilde conceptie. Sommige brokken zijn blijkbaar <lb n="88" xml:id="l-88"/>in haast naar de natuur gedaan en toegevoegd <lb n="89" xml:id="l-89"/>aan andere gedeelten die meer doorwerkt en <lb n="90" xml:id="l-90"/>gezocht zijn<c type="kp">_</c>
+                </ab>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                <lb n="91" xml:id="l-91"/>
+<ab rend="indent">De Bock schijnt naar zijn pelsjas te oordeelen in buitengewoon <lb n="92" xml:id="l-92"/>florissante omstandigheden te zijn<c type="kp">_</c> ik had hem nu <lb n="93" xml:id="l-93"/>in ’t geheel niet gezien in maanden maar kwam <lb n="94" xml:id="l-94"/>hem tegen eenige dagen geleden<c type="kk">/</c> zooals gezegd in <lb n="95" xml:id="l-95"/>allerprachtigsten pelsjas &amp;c.– Toch vond ik hem <lb n="96" xml:id="l-96"/>er <hi rend="ital">niet</hi> florissant uitzien. Hebt gij wel eens in Uw <lb n="97" xml:id="l-97"/>zelf sympathie gevoeld voor een persoon in wien <lb n="98" xml:id="l-98"/>
+                    <hi rend="ital">gij</hi> zaagt dat hij ongelukkig was doch die evenwel <lb n="99" xml:id="l-99"/>zich voordeed en beschouwd werd als voorspoedig<c type="kk">/</c> en <lb n="100" xml:id="l-100"/>dan in Uw zelf gevoeld<c type="kk">/</c> <hi rend="ital">als</hi> ik zocht vrienden met hem <lb n="101" xml:id="l-101"/>te worden zou hij of denken dat ik hem verneukte en <lb n="102" xml:id="l-102"/>zou ’t haast ondoenlijk zijn zijn <lb n="103" xml:id="l-103"/>vertrouwen<c type="kk">/</c> veel meer nog zijn gehechtheid te winnen – en al <lb n="104" xml:id="l-104"/>kwam ik zóó ver<c type="kk">/</c> zou hij toch zeggen “ik ben eenmaal <lb n="105" xml:id="l-105"/>in dit schuitje” &amp;c<c type="kp">_</c> en zouden we niets op elkaar <lb n="106" xml:id="l-106"/>kunnen uitwerken. Het is zóó dat ik aan de Bock <lb n="107" xml:id="l-107"/>denk en ofschoon ik wel degelijk sympathie voor hem heb <lb n="108" xml:id="l-108"/>en veel van wat hij maakt mooi vind<c type="kk">/</c> zoo geloof ik niet <lb n="109" xml:id="l-109"/>dat hij en ik iets aan elkaar zouden hebben<c type="kk">/</c> en wij <lb n="110" xml:id="l-110"/>tegenovergestelde dingen zien in het leven vooral en in de kunst <lb n="111" xml:id="l-111"/>ook.</ab>
+                <lb n="112" xml:id="l-112"/>
+<ab rend="indent">Het is mij wel eens moeielijk om eene vriendschap op te geven – <lb n="113" xml:id="l-113"/>maar als ik op een atelier kom en zou moeten denken bij mij zelf<c type="kk">/</c> spreek <lb n="114" xml:id="l-114"/>over koetjes en kalfjes<c type="kk">/</c> raak geen kwestie aan die importanter is <lb n="115" xml:id="l-115"/>en zeg niet uw eigentlijk gevoelen over dit of dat in de kunst<c type="kk">/</c> <lb n="116" xml:id="l-116"/>dan zou ik er melankolieker door worden dan als <lb n="117" xml:id="l-117"/>ik geheel weg bleef. Juist omdat ik graag opregte vriendschap <lb n="118" xml:id="l-118"/>zou zoeken en volhouden is het mij moeielijk mij <lb n="119" xml:id="l-119"/>te schikken naar conventioneele vriendschap.</ab>
+                <lb n="120" xml:id="l-120"/>
+<ab rend="indent">Als <hi rend="ital">van weerskanten</hi> verlangen bestaat om vriendschappelijk <lb n="121" xml:id="l-121"/>te zijn wordt men ook al heeft men eens oneenigheid<c type="kk">/</c> <lb n="122" xml:id="l-122"/>zoo ligt niet geergerd aan elkaar of al wordt men <lb n="123" xml:id="l-123"/>dat<c type="kk">/</c> men maakt het weer op. Waar conventie is<c type="kk">/</c> <lb n="124" xml:id="l-124"/>is ’t haast <lb n="125" xml:id="l-125"/>onvermijdelijk er bitterheid ontsta<c type="kk">/</c> juist omdat men <lb n="126" xml:id="l-126"/>zich niet vrij kan gevoelen en al uit men dan ook <lb n="127" xml:id="l-127"/>zijn ware gevoelens niet<c type="kk">/</c> zoo zijn die toch voldoende <lb n="128" xml:id="l-128"/>om wederzijdsch een blijvende<c type="kk">/</c> onaangename impressie <lb n="129" xml:id="l-129"/>achter te laten en het hopeloos te maken men met mogelijkheid <lb n="130" xml:id="l-130"/>iets aan elkaar hebben kan. Waar conventie is daar <lb n="131" xml:id="l-131"/>is argwaan en uit argwaan komen allerlei intrigues<c type="kp">_</c> <lb n="132" xml:id="l-132"/>En met wat meer opregtheid zou men elkaar t’leven <lb n="133" xml:id="l-133"/>makkelijker maken<c type="kp">_</c>
+                </ab>
+                <lb n="134" xml:id="l-134"/>
+<ab rend="indent">Intusschen wordt men toch gewoon aan <lb n="135" xml:id="l-135"/>bestaande toestanden maar normaal is het niet en <lb n="136" xml:id="l-136"/>als het mogelijk was in eens zich te verplaatsen een 30<c type="kk">/</c> <lb n="137" xml:id="l-137"/>40 of 50 jaar terug<c type="kk">/</c> zou men geloof ik in dat tijdvak 
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                    <lb n="138" xml:id="l-138"/>meer zich t’huis gevoelen dan in dit – dat wil zeggen<c type="kk">/</c> <lb n="139" xml:id="l-139"/>gij of ik b.v. zouden er ons t’huis in voelen geloof ik. <lb n="140" xml:id="l-140"/>Over 50 jaar zal men geloof ik <hi rend="ital">dit</hi> tijdvak <lb n="141" xml:id="l-141"/>niet terugwenschen. Want komt er een “pruikentijd”<anchor n="7" xml:id="note-o-7"/> <lb n="142" xml:id="l-142"/>uit voort zoo zal men te suf zijn om in ’t geheel <lb n="143" xml:id="l-143"/>er over na te denken en als er verandering <lb n="144" xml:id="l-144"/>ten goede komt – tant mieux<c type="kp">_</c>–</ab>
+                <lb n="145" xml:id="l-145"/>
+<ab rend="indent">Ik geloof niet dat het absurd is het mogelijk te <lb n="146" xml:id="l-146"/>achten er nog weer een soort pruikentijd in de <lb n="147" xml:id="l-147"/>toekomst kan liggen want dat wat men den <lb n="148" xml:id="l-148"/>pruikentijd noemt in de Hollandsche geschiedenis <lb n="149" xml:id="l-149"/>had toch ook zijn oorsprong in het loslaten <lb n="150" xml:id="l-150"/>van principes en in het vervangen van het oorspronkelijke <lb n="151" xml:id="l-151"/>door het conventioneele.</ab>
+                <lb n="152" xml:id="l-152"/>
+<ab rend="indent">Als de hollanders willen zijn ze de staalmeesters<anchor n="8" xml:id="note-o-8"/> <lb n="153" xml:id="l-153"/>maar als het zout zouteloos<anchor n="b" xml:id="note-o-b"/> wordt is het <lb n="154" xml:id="l-154"/>een pruiketijd. Niet op eens doch dat <lb n="155" xml:id="l-155"/>’t ervan komen kan bewijst de geschiedenis. <lb n="156" xml:id="l-156"/>Het is mij wel eens moeielijk te gelooven dat <lb n="157" xml:id="l-157"/>een tijdvak van b.v. slechts 50 jaar <lb n="158" xml:id="l-158"/>voldoende is om eene geheele verandering te weeg te brengen <lb n="159" xml:id="l-159"/>zóó dat <hi rend="ital">alles</hi> omgekeerd is<c type="kp">_</c>– Toch juist door soms <lb n="160" xml:id="l-160"/>na te denken over de geschiedenis ziet men die betrekkelijk zoo <lb n="161" xml:id="l-161"/>snelle en onophoudelijke wisselingen. En ik voor mij kom <lb n="162" xml:id="l-162"/>daardoor juist tot de conclusie dat ieder mensch<c type="kk">/</c> zij ’t ook een <lb n="163" xml:id="l-163"/>klein<c type="kk">/</c> toch nog altijd eenig gewigt in de schaal legt en ’t niet <lb n="164" xml:id="l-164"/>onverschillig is hoe men denkt &amp; handelt. De strijd is maar <lb n="165" xml:id="l-165"/>kort en ’t is de moeite waard opregt te zijn<c type="kp">_</c> Als er <lb n="166" xml:id="l-166"/>velen opregt zijn en willen wat zij willen dan wordt het <lb n="167" xml:id="l-167"/>heele tijdvak goed<c type="kk">/</c> althans energiek.</ab>
+                <lb n="168" xml:id="l-168"/>
+<ab rend="indent">Ja ik denk veel aan wat gij in den laatsten tijd mij hebt <lb n="169" xml:id="l-169"/>geschreven. Vindt gij ook niet dat als men iemand <lb n="170" xml:id="l-170"/>op zulk eene wijze ontmoet<c type="kk">/</c> n.l. zoo zwak en afhankelijk<c type="kk">/</c> <lb n="171" xml:id="l-171"/>juist die afhankelijkheid iets is waardoor men zich zelven <lb n="172" xml:id="l-172"/>als ’t ware overgeeft en zich ’t zelfs niet denken kan <lb n="173" xml:id="l-173"/>dat men zoo’n persoon weer zou kunnen verlaten. <lb n="174" xml:id="l-174"/>Ik geloof er een groot verschil zal zijn tusschen <lb n="175" xml:id="l-175"/>de vrouw welke gij hebt ontmoet en die met wie ik nu <lb n="176" xml:id="l-176"/>reeds een vol jaar ben maar zij hebben met elkaar <lb n="177" xml:id="l-177"/>gemeen het ongeluk en dat zij vrouwen zijn in elk geval<c type="kp">_</c> <lb n="178" xml:id="l-178"/>Als men eenmaal zoo aan elkaar verbonden is<c type="kk">/</c> <lb n="179" xml:id="l-179"/>is die band heilig en men denkt iets als dat woord “als ik U <lb n="180" xml:id="l-180"/>niet voor eeuwig had<c type="kk">/</c> ik had U liever niet”.–<anchor n="9" xml:id="note-o-9"/>
+                </ab>
+                <lb n="181" xml:id="l-181"/>
+<ab rend="indent">In ’t groot beschouwd is zoo’n ontmoeting als <lb n="182" xml:id="l-182"/>eene verschijning<c type="kp">_</c>– Hebt gij van Erckmann Chatrian <lb n="183" xml:id="l-183"/>Madame Thérèse gelezen<c type="kp">_</c>– Daar komt eene beschrijving van <lb n="184" xml:id="l-184"/>eene herstellende vrouw in die erg treffend en mooi gevoeld is<c type="kp">_</c>
+                    <anchor n="10" xml:id="note-o-10"/> <lb n="185" xml:id="l-185"/>’t is een eenvoudig boek maar het is diep tegelijk.</ab>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+                <lb n="186" xml:id="l-186"/>
+<ab rend="indent">Als gij M<hi rend="ss">me</hi> Thérèse niet kent<c type="kk">/</c> lees het <lb n="187" xml:id="l-187"/>eens – ik geloof dat zij het ook mooi zou <lb n="188" xml:id="l-188"/>vinden en er door getroffen worden.</ab>
+                <lb n="189" xml:id="l-189"/>
+<ab rend="indent">Ik betreur het wel eens dat de vrouw met <lb n="190" xml:id="l-190"/>wie ik ben boeken al evenmin als <lb n="191" xml:id="l-191"/>kunst begrijpen kan. Maar dat (ofschoon <lb n="192" xml:id="l-192"/>zij dit gedecideerd niet kan) ik toch zoo <lb n="193" xml:id="l-193"/>aan haar gehecht ben<c type="kk">/</c> is dat niet een <lb n="194" xml:id="l-194"/>bewijs er iets opregts tusschen ons <lb n="195" xml:id="l-195"/>is. Later wie weet of zij ’t niet leert <lb n="196" xml:id="l-196"/>vatten en het een band te meer tusschen ons wordt maar nu met de kinderen begrijpt <lb n="197" xml:id="l-197"/>gij zij ’t hoofd reeds vol heeft.</ab>
+                <lb n="198" xml:id="l-198"/>
+<ab rend="indent">En juist door de kinderen vooral is zij <lb n="199" xml:id="l-199"/>in aanraking met de werkelijkheid <lb n="200" xml:id="l-200"/>en leert van zelf. Boeken en werkelijkheid <lb n="201" xml:id="l-201"/>en kunst zijn voor mij soortgelijk. <lb n="202" xml:id="l-202"/>Vervelend gezelschap zou ik iemand vinden <lb n="203" xml:id="l-203"/>die buiten ’t werkelijke leven ware maar iemand <lb n="204" xml:id="l-204"/>die ten volle daarin is weet en voelt van zelf. <lb n="205" xml:id="l-205"/>Als ik de kunst niet in het werkelijke zocht <lb n="206" xml:id="l-206"/>dan zou ik waarschijnlijk haar dom vinden <lb n="207" xml:id="l-207"/>of zoo<c type="kk">/</c> nu zou ik het wel liever anders willen maar <lb n="208" xml:id="l-208"/>ben toch tevreden met wat het is.</ab>
+                <lb n="209" xml:id="l-209"/>
+<ab rend="indent">Ik hoop deze week weer geregelder te kunnen <lb n="210" xml:id="l-210"/>werken – ik voel het zoo dat ik om in te <lb n="211" xml:id="l-211"/>halen wat ik laat begonnen ben<c type="kk">/</c> dubbel moet <lb n="212" xml:id="l-212"/>werken en ’t is juist het gevoel dat wat mijn <lb n="213" xml:id="l-213"/>leeftijd betreft ik bij anderen ten achter ben dat <lb n="214" xml:id="l-214"/>mij geen rust laat.</ab>
+                <lb n="215" xml:id="l-215"/>
+<ab rend="indent">Dezer dagen zal Montmartre wel die eigenaardige effekten <lb n="216" xml:id="l-216"/>hebben die Michel b.v. geschilderd heeft, n.l. dat verdorde gras en <lb n="217" xml:id="l-217"/>zand tegen de grijze lucht. Althans in de weilanden is het <lb n="218" xml:id="l-218"/>tegenwoordig dikwijls zoo van kleur dat men aan Michel denkt. <lb n="219" xml:id="l-219"/>de grond geel<c type="kk">/</c> bruin verdord gras met een natten weg met plassen<c type="kk">/</c> <lb n="220" xml:id="l-220"/>de boomstammen zwart<c type="kk">/</c> de lucht grijs en wit de huizen<c type="kk">/</c> <lb n="221" xml:id="l-221"/>op een afstand toonig en toch nog kleur hebbende<c type="kk">/</c> b.v. in ’t rood <lb n="222" xml:id="l-222"/>der daken. Die effekten zijn sprekend genoeg en het geheim <lb n="223" xml:id="l-223"/>van Michel is een zoodanig dat het afhangt (als bij Weissenbruch) <lb n="224" xml:id="l-224"/>van juiste opmetingen nemen<c type="kk">/</c> juist proporties zien van <lb n="225" xml:id="l-225"/>voorgrond tegen achtergrond en ’t juiste voelen der <lb n="226" xml:id="l-226"/>rigting die de lijnen nemen door perspectief.</ab>
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>
+                <lb n="227" xml:id="l-227"/>
+<ab rend="indent">Deze kwesties zijn niet een toevallig vinden – <lb n="228" xml:id="l-228"/>(’t werk van Michel is overvloedig genoeg <lb n="229" xml:id="l-229"/>en ik zie er duidelijk uit hoe hij als ’t ware op <lb n="230" xml:id="l-230"/>een hoogte was dat hij het spelende deed) <lb n="231" xml:id="l-231"/>– maar het is een <hi rend="ital">weten</hi> en ik geloof dat <lb n="232" xml:id="l-232"/>Michel vòòr zijn tijd dat alles vlotte wel <lb n="233" xml:id="l-233"/>eens verbaasd en teleurgesteld heeft gestaan <lb n="234" xml:id="l-234"/>dat het <hi rend="ital">niet vlotten wilde</hi>.</ab>
+                <lb n="235" xml:id="l-235"/>
+<ab rend="indent">Hoe eenvoudig het alles schijne – er zit <lb n="236" xml:id="l-236"/>een zeer uitgebreide algemeene wetenschap <lb n="237" xml:id="l-237"/>achter – als achter meer eenvoudig er uitziend <lb n="238" xml:id="l-238"/>werk – b.v. dat van Daumier.</ab>
+                <lb n="239" xml:id="l-239"/>
+<ab rend="indent">Nu<c type="kk">/</c> ik eindig dezen. schrijf weer <lb n="240" xml:id="l-240"/>spoedig als ge nog niet reeds geschreven <lb n="241" xml:id="l-241"/>hebt. Ik ben verlangend te weten of bij Uw <lb n="242" xml:id="l-242"/>patient zich geen buitengewone gevolgen <lb n="243" xml:id="l-243"/>van de operatie hebben geopenbaard.</ab>
+                <lb n="244" xml:id="l-244"/>
+<ab rend="indent">Ik vind het wel aardig dat den eersten <lb n="245" xml:id="l-245"/>brief dien ik van Rappard nu na zijn ziekte <lb n="246" xml:id="l-246"/>ontving<c type="kk">/</c> hij weer met veel animo schreef juist over <lb n="247" xml:id="l-247"/>houtsneden die hij gevonden had. o.a. van Lançon<c type="kp">_</c>
+                    <anchor n="11" xml:id="note-o-11"/> <lb n="248" xml:id="l-248"/>Hij is er nu zóó attent op dat ik hem niet meer <lb n="249" xml:id="l-249"/>animeer en in ’t begin hechtte hij er toch evenmin <lb n="250" xml:id="l-250"/>aan als anderen. Zijn collectie wordt zeer goed <lb n="251" xml:id="l-251"/>en ik meen in wat hij doet en wil invloed te zien juist <lb n="252" xml:id="l-252"/>van de Engelschen ofschoon hij er verre van daan <lb n="253" xml:id="l-253"/>is natuurlijkerwijs iets te imiteeren. Maar dat hij b.v. <lb n="254" xml:id="l-254"/>studies ging maken in de blinden inrigting vóór zijn <lb n="255" xml:id="l-255"/>ziekte<anchor n="12" xml:id="note-o-12"/> is een flink praktisch gevolg van zijn liefde <lb n="256" xml:id="l-256"/>voor teekenaars als Herkomer of Frank Hol.</ab>
+                <lb n="257" xml:id="l-257"/>
+<ab rend="indent"> adieu kerel, schrijf spoedig, met een handdruk<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="258" xml:id="l-258"/>
+<ab>t. à t.</ab>
+                <lb n="259" xml:id="l-259"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-68" n="68">er minder &lt; minder</note>
+<note target="l-180" n="180">niet”.– &lt; niet.–</note>
+<note target="l-207" n="207">zou &lt; wou</note>
+<note target="l-243" n="243">hebben &lt; zich hebben</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>Dear brother,</ab>
+<ab>It’s Sunday again and I’m writing again. Sometimes it seems to me that I haven’t told you warmly and sincerely enough how deeply touched I’ve been by what you’ve told me of late. </ab>
+<ab rend="indent">As to whether a sincerely felt love could turn into a lost illusion, I don’t doubt that it sometimes happens — it would surprise me very much if it happened in your case, and I don’t believe it will happen to me. <hi rend="ital">
+                        <rs type="pers" key="707">Michelet</rs>
+                    </hi> says, singularly, that love is a spider’s web at first and grows to be as strong as a cable.</ab>
+<ab rend="indent">Provided there is faithfulness, that is.<anchor n="1" xml:id="note-t-1"/> </ab>
+<ab rend="indent">Lately I’ve walked a good deal in the Geest district and in the streets and alleys where I often walked with the <rs type="pers" key="463">woman</rs> last year in the beginning. It was wet weather — I find everything there beautiful then — and when I got home I said to the woman, it’s just like last year. I write this in relation to disenchantment — no, no, there’s a wilting and a budding again in love as in the whole of nature, but not a dying for ever. There’s ebb and flow, but the sea remains the sea. And in love, whether for a woman or for art, for instance, there are times of exhaustion and powerlessness, but not a lasting disenchantment. </ab>
+<ab rend="indent">I regard love — as I do friendship — not only as a feeling but chiefly as an <hi rend="ital">action</hi>
+                    <anchor n="2" xml:id="note-t-2"/> — and particularly when it involves working and is an effort, it has another side of fatigue and powerlessness. </ab>
+<ab rend="indent">Where people love sincerely and in good faith, they are blessed I believe, although that doesn’t dispel difficult times.</ab>
+<ab rend="indent">I’m glad that my eyes are no worse, in fact already much better, but it isn’t completely over yet, and I must be careful. I must tell you, I wasn’t pleased.</ab>
+<ab rend="indent">How I’d like to talk to you — for I’m not despondent about the work, not apathetic or powerless, but I am rather stuck and that may be because I need to have some friction with people one can discuss it with; and with whom could I discuss it here in the present circumstances? At the moment there isn’t a single person in whom I can confide — NOT <hi rend="ital">that I think none is to be trusted</hi>, far from it, but unfortunately I have too little contact with such people. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">I sometimes think that when I first came to The Hague to G&amp;Cie,<anchor n="3" xml:id="note-t-3"/> years ago now, two of the 3 years I spent there were fairly unpleasant, but the last was much happier and so, who knows, something similar may happen here. </ab>
+<ab rend="indent">I like the saying, When things are at the worst they are sure to mend,<anchor n="4" xml:id="note-t-4"/> but I sometimes ask, Are we by now at ‘<hi rend="ital">the worst</hi>’?, for the ‘mending’ wouldn’t be unwelcome. Anyway.</ab>
+<ab rend="indent">Lately I read ‘<hi rend="ital">Le peuple</hi>’ by <rs type="pers" key="707">Michelet</rs>, or rather I read it some time ago, this winter in fact, but I was strongly reminded of it for the first time just lately. </ab>
+<ab rend="indent">The book was written quickly and evidently in haste, and if it was all one read by M. I believe one wouldn’t find it very beautiful, or one would be less struck by it.<anchor n="5" xml:id="note-t-5"/> Knowing the more carefully worked books like La femme, L’amour, La mer and L’histoire de la revolution,<anchor n="6" xml:id="note-t-6"/> I found it to be like a rough sketch by a painter I like very much, and as such it had a special charm. </ab>
+<ab rend="indent">I, for one, find <rs type="pers" key="707">M.</rs>’s way of working enviable. I don’t doubt for a moment that there will be many writers who disapprove of M.’s technique, just as some painters believe they have the right to find fault with <rs type="pers" key="1107">Israëls</rs>’s technique. M. feels strongly, and what he feels he slaps on without troubling himself in the least about <hi rend="ital">how</hi> he does it, and without thinking in the least about ‘<hi rend="ital">technique</hi>’ or generally accepted forms, except in so far as he casts it into one form or another such that it’s comprehensible to those who wish to comprehend. In my view, though, Le peuple is less a first thought or impression than an unfinished but yet deliberate conception well thought-out in advance. Some fragments were evidently done in haste from nature and added to other parts that are more worked and studied. 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/>
+                </ab>
+<ab rend="indent">Judging by his fur coat, <rs type="pers" key="868">De Bock</rs> appears to be in especially flourishing circumstances. I hadn’t seen him in months but ran into him a few days ago, in a magnificent fur coat &amp;c., as mentioned. But he <hi rend="ital">didn’t</hi> look flourishing, I thought. Have you yourself sometimes felt a sympathy towards a person who <hi rend="ital">you</hi> saw was unhappy but who nonetheless appeared to be and was regarded as thriving?, and then felt in yourself, <hi rend="ital">if</hi> I tried to make friends with him, he would think I was making a fool of him and it would be almost impossible to win his trust, let alone his attachment — and even if I got that far, he would say ‘The fact is that I’m in this situation’ &amp;c. and we’d have no effect on each other. This is how I think of De Bock, and although I do feel sympathetic towards him and find much of what he does beautiful, I don’t believe that he and I would be much help to each other; we see opposite things, mainly in life but in art too. </ab>
+<ab rend="indent">I sometimes find it difficult to give up a friendship, but if I were to go to a studio and had to think to myself: talk about trivia, don’t bring up anything more important, and don’t say what your real feeling is about this or that in art, then I would be more melancholy than if I had stayed away. It’s hard for me to be content with conventional friendship, precisely because I seek and persevere in sincere friendship. </ab>
+<ab rend="indent">If there’s a desire to be friends <hi rend="ital">on both sides</hi>, even if there are disagreements from time to time, one doesn’t get irritated with each other lightly, or if one does one makes it up. Where there is convention it’s almost inevitable that bitterness arises, precisely because one doesn’t feel free, and even if one doesn’t express one’s true feelings they’re still enough to leave a lasting, unpleasant impression on both sides and to remove any hope that one might be able to be of help to each other. Where there is convention there is suspicion, and from suspicion comes all kinds of intrigues. With rather more sincerity we’d make life easier for each other. </ab>
+<ab rend="indent">In the meantime one gets used to the existing situation, but it isn’t normal, and if it were possible to suddenly go back 30, 40 or 50 years I believe 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> one would feel more at home in that period than in this — that’s to say, you or I, for example, would feel at home there, I believe. In 50 years from now people won’t, I think, wish they were back in <hi rend="ital">this</hi> period. For if it’s followed by a ‘periwig age’,<anchor n="7" xml:id="note-t-7"/> people will be too drowsy to think about it at all, and if things improve — so much the better. </ab>
+<ab rend="indent">I don’t think it absurd to consider it possible that there may again be a kind of periwig age in the future, for after all what’s known as the periwig age in Dutch history had its origins in the abandonment of principles and the replacement of the original by the conventional. </ab>
+<ab rend="indent">If the Hollanders feel like it, they can be the syndics,<anchor n="8" xml:id="note-t-8"/> but if the salt loses its savour it’s a periwig age. Not all of a sudden, but history proves that it can happen. I sometimes find it difficult to believe that a period of only 50 years, say, is enough to bring about a total change that turns <hi rend="ital">everything</hi> around. Yet precisely through reflecting on history sometimes, one sees these relatively rapid and continuous changes. And for my part I’m led by this to the conclusion that every person still always puts some weight in the scale, though it may not be much, and that how one thinks and acts isn’t a matter of indifference. The battle is short and it’s worthwhile being sincere. If many are sincere and want what they want, then the whole period will be good, or at least energetic. </ab>
+<ab rend="indent">Yes, I think a great deal about what you’ve written to me recently. Don’t you agree that if one meets someone in such a state, that’s to say so weak and dependent, that very dependence is something through which one surrenders, as it were, and can’t imagine how one could abandon such a person? I believe there’s certainly a great difference between the <rs type="pers" key="508">woman</rs> you’ve met and the <rs type="pers" key="463">one</rs> I’ve been with for a whole year now, but they have misfortune in common, and the fact of being women, at any rate. Once people are so tied to each other, the bond is sacred and one thinks of the words ‘if I did not have you for ever, I would rather not have you’.<anchor n="9" xml:id="note-t-9"/> </ab>
+<ab rend="indent">Taking a broad view, such an encounter is like an apparition. Have you read Madame Thérèse by <rs type="pers" key="594 591">Erckmann-Chatrian</rs>? There’s a description of a woman recovering that’s very striking and beautifully felt.<anchor n="10" xml:id="note-t-10"/> It’s a modest book, but deep at the same time. 
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/> </ab>
+<ab rend="indent">If you don’t know Mme Thérèse, read it sometime — I believe she’ll find it beautiful too, and be moved by it. </ab>
+<ab rend="indent">I sometimes regret that the <rs type="pers" key="463">woman</rs> I’m with can understand as little of books as of art. But (although she definitely can’t) isn’t the fact that I’m so attached to her nonetheless proof that there’s something sincere between us? Later, who knows, she may learn to grasp it, and it may become another bond between us, but now with the <rs type="pers" key="466 467">children</rs>, you understand, she’s got enough on her mind. </ab>
+<ab rend="indent">And through the children, especially, <rs type="pers" key="463">she</rs>’s in touch with reality and learning by herself. Books and reality and art are the same kind of thing for me. I’d find someone who was outside real life tiresome company, but someone who is fully inside it knows and feels by herself. If I didn’t seek art in the real, I’d probably find her stupid or something. Now I wish it were otherwise, but I’m still content with the way it is. </ab>
+<ab rend="indent">I hope to be able to work more regularly this week. I have the feeling that I have to work twice as hard to make up for starting late, and it’s the very sense that I’m behind others in my age that gives me no rest. </ab>
+<ab rend="indent">These days Montmartre no doubt has those curious effects painted by <rs type="pers" key="1228">Michel</rs>, for example, i.e. that withered grass and sand against the grey sky. At any rate the colour in the meadows at present is often such that one thinks of Michel. The ground yellow, brown withered grass with a wet road with puddles, the tree-trunks black, the sky grey and the houses white, tonal from a distance and yet still having colour, in the red of the roofs, for example. These effects are telling enough, and Michel’s secret is such that it depends (as with <rs type="pers" key="1443">Weissenbruch</rs>) on taking accurate measurements, seeing correct proportions of foreground to background, and correctly feeling the direction the lines take through perspective. 
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/> </ab>
+<ab rend="indent">These are not things one finds by chance (<rs type="pers" key="1228">Michel</rs>’s work is abundant enough, and from it I see clearly how he was on a height, so to speak, doing it with ease) but things one <hi rend="ital">knows</hi>, and I believe that before the period when everything started going well Michel was sometimes amazed and disappointed that things <hi rend="ital">weren’t working</hi>. </ab>
+<ab rend="indent">However simple everything may look — behind it there’s very extensive general science, as there is behind other simple-looking work, for example that of <rs type="pers" key="977">Daumier</rs>. </ab>
+<ab rend="indent">Well, I’ll end this. Write again soon if you haven’t already written. I’m longing to know whether any unusual effects of the operation have appeared in your <rs type="pers" key="508">patient</rs>. </ab>
+<ab rend="indent">I’m pleased that in the first letter I received from <rs type="pers" key="1306">Rappard</rs> after his illness he again wrote with great enthusiasm, especially about woodcuts he had found, by <rs type="pers" key="1146">Lançon</rs> among others.<anchor n="11" xml:id="note-t-11"/> He’s now so keen that I no longer need to encourage him, and in the beginning he was as little interested as others. His collection is becoming very good, and I believe that I see the influence of the English in what he does and wants, although of course it’s far from his nature to imitate something. But the fact that, for example, he went to make studies at the institution for the blind before his illness<anchor n="12" xml:id="note-t-12"/> is a very practical outcome of his love for draughtsmen like <rs type="pers" key="1080">Herkomer</rs> and <rs type="pers" key="1089">Frank Holl</rs>.</ab>
+    <ab rend="indent">Adieu, old chap, write soon, with a handshake.</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>An allusion to a passage in <rs type="pers" key="707">Michelet</rs>’s <rs type="lit" key="11">
+                            <hi rend="ital">L’amour</hi>
+                        </rs>, book 5, chapter 6, entitled ‘L’unité, est-elle obtenue?’, in which it is said of love that it develops with time: ‘It was the Virgin’s thread, and in the end it’s a cable that would defy storms’ (C’était le fil de la Vierge, et c’est un câble à la fin qui défierait les tempêtes) (Michelet, <hi rend="ital">L’amour</hi>, p. 397).</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>This idea that a thought alone is not enough, that it should lead to ‘action’, to a deed, may be borrowed from <rs type="pers" key="563">Carlyle</rs>: <ref target="let274.xml#n-11">see letter 274, n. 11.</ref>
+                    </ab>
+                </note>
+<note n="a" xml:id="n-a" target="#note-o-a">
+<ab>Means: ‘ik was er niet mee ingenomen’ (I was not pleased).</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>Van Gogh began working at Goupil’s in 1869.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>Van Gogh could have encountered this saying in (among other places) <rs type="pers" key="580">Charles Dickens</rs>, <rs type="lit" key="324">
+                            <hi rend="ital">Barnaby Rudge. A tale of the riots of ‘Eighty’</hi>
+                        </rs>. Ed. London 1890, chapter 20, p. 78.</ab>
+                </note>
+    <note n="5" xml:id="n-5" target="#note-t-5">
+<ab>In <rs type="lit" key="325">
+                            <hi rend="ital">Le peuple</hi>
+                        </rs> (1846), <rs type="pers" key="707">Jules Michelet</rs> describes the spirit and qualities of the French working class. He discusses various economic and political transformations as France and Europe shifted from an agrarian to an industrial society, and examines the condition of the social classes.</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>
+                        <rs type="pers" key="707">Jules Michelet</rs>, <rs type="lit" key="12">
+                            <hi rend="ital">La femme</hi>
+                        </rs> (1860; <ref target="let186.xml#n-2">see letter 186, n. 2</ref>); <rs type="lit" key="11">
+                            <hi rend="ital">L’amour</hi>
+                        </rs> (1858; <ref target="let026.xml#n-6">see letter 26, n. 6</ref>); <rs type="lit" key="185">
+                            <hi rend="ital">La mer</hi>
+                        </rs> (1861; <ref target="let143.xml#n-33">see letter 143, n. 33</ref>) and <rs type="lit" key="162">
+                            <hi rend="ital">Histoire de la Révolution française</hi>
+                        </rs> (1847-1853; <ref target="let143.xml#n-2">see letter 143, n. 2</ref>).</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>The ‘periwig period’ was the last part of the eighteenth and the first part of the nineteenth century – when the upper classes wore wigs. The term also denotes a stylistic era associated with a loss of intellectual vigour, artificiality and formalistic, regimented affectation.</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>Van Gogh means: as honourable, effective and ‘natural’ as the men in <rs type="pers" key="1295">Rembrandt</rs>’s <rs type="ill" key="1835">
+                            <hi rend="ital">Syndics</hi>
+                        </rs> (cf. <ref target="let121.xml">letter 121</ref>).</ab>
+                </note>
+<note n="b" xml:id="n-b" target="#note-o-b">
+<ab>Figurative, means: ‘ongeïnspireerd’ (uninspired).</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>Taken from the second stanza of the poem ‘<rs type="lit" key="259">Levensvoorwaarde</rs>’ (Living condition) by <rs type="pers" key="615">P.A. de Génestet</rs>. See De Génestet 1869, vol. 2, pp. 61-62.</ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>A reference to the passage in <rs type="lit" key="53">
+                            <hi rend="ital">Madame Thérèse ou les volontaires de 92</hi>
+                        </rs> in which Madame Thérèse – a republican – is badly wounded in fighting between the French and the Austrians. Thanks to the good care given her by Dr. Wagner, she recovers and her memories come back. The sickbed and the nursing are described movingly and in detail. <rs type="pers" key="594 591">Erckmann-Chatrian</rs> heralds the final recovery as follows: ‘The woman, very pale and very thin, appeared to be asleep; you could hardly hear her breathe. But after a moment she opened her eyes, and looked at us in turn, as if amazed, then at the end of the alcove, then at the windows, white with snow, the wardrobe, the old clock, then at the dog, who had stood up, its paw on the edge of the bed. This lasted a good minute; finally, she closed her eyes again, and her uncle said, very softly: “She has come to herself again”.’ (La femme, bien pâle et bien maigre, semblait dormir; on l’entendait à peine respirer. Mais au bout d’un instant elle ouvrit les yeux, et nous regarda l’un après l’autre, comme étonnée, puis le fond de l’alcôve, puis les fenêtres blanches de neige, l’armoire, la vieille horloge, puis le chien qui s’était dressé, la patte au bord du lit. Cela dura bien une minute; enfin elle referma les yeux, et l’oncle dit tout bas: “Elle est revenue à elle”). See Erckmann-Chatrian 1867, pp. 19-29 (quotation on p. 28).</ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>On this, <ref target="let307.xml">see letter 307</ref>.</ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+<ab>A few examples of the work <rs type="pers" key="1306">Van Rappard</rs> did in the autumn of 1882 at the Institute for the Blind in Utrecht are known; see exhib. cat. Amsterdam 1974, pp. 79-80, cat. nos. 83-89.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

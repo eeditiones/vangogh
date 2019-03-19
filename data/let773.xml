@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>Joseph Roulin to Vincent van Gogh. Marseille, Monday, 13 May 1889. </title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let773"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">773</idno>
+<idno type="collectedletters">-</idno>
+<idno type="brieven1990">776</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Joseph Roulin</author>
+                        <vg:addressee>Vincent van Gogh</vg:addressee>
+                        <vg:placeLet>Marseille</vg:placeLet>
+                        <vg:dateLet>Monday, 13 May 1889</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>Joseph Roulin to Vincent van Gogh. Marseille, Monday, 13 May 1889. </p>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b1070 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Letter headed: ‘Marseille le 13 mai 1889’.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 1070" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001001243_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001001243_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001001243_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001001243_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001243_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001243_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 1070" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001001243_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001001243_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001001243_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001001243_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001243_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001243_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Marseille le 13 mai 1889</ab>
+<vg:whiteline/>
+                <lb n="2" xml:id="l-2"/>
+<ab>Monsieur Vincent</ab>
+                <lb n="3" xml:id="l-3"/>
+<ab>Si j’ait tarder à vous écrirre<c type="kk">/</c> je croyais <lb n="4" xml:id="l-4"/>pouvoir disposé de ma journée de repos pour <lb n="5" xml:id="l-5"/>aller vous voir; comme ne je n’ai pu me rendre <lb n="6" xml:id="l-6"/>à Arles, je viens vous demander des <lb n="7" xml:id="l-7"/>nouvelles de votre santé<c type="kk">/</c> êtes vous <lb n="8" xml:id="l-8"/>bien rétabli depuis notre dernière <lb n="9" xml:id="l-9"/>entrevue<c type="kp">_</c>
+                    <anchor n="1" xml:id="note-o-1"/> vous me paraissiez disposé <lb n="10" xml:id="l-10"/>à bien reprendre vos traveaux<c type="kk">/</c> la <lb n="11" xml:id="l-11"/>campagne est belle<c type="kk">/</c> les modèles ne <lb n="12" xml:id="l-12"/>doivent pas vous manquer<c type="kp">_</c> <lb n="13" xml:id="l-13"/>Si vous <lb n="14" xml:id="l-14"/>me fésiez l’honneur d’une réponse <lb n="15" xml:id="l-15"/>vous me fériez un grand plaisir<c type="kp">_</c>
+                </ab>
+                <lb n="16" xml:id="l-16"/>
+<ab rend="indent">avez vous reçu des nouvelles de M<hi rend="ss">r</hi> <lb n="17" xml:id="l-17"/>votre frère<c type="kp">_</c> pour quand ta<anchor n="a" xml:id="note-o-a"/> moi ma <lb n="18" xml:id="l-18"/>santé est très bonne<c type="kp">_</c> j’ai reçu une <lb n="19" xml:id="l-19"/>lettre de mon épouse laquelle me dit <lb n="20" xml:id="l-20"/>qu’elle va très bien ainssi que <lb n="21" xml:id="l-21"/>Marcelle<c type="kk">/</c> Armand et Camille<c type="kp">_</c>
+                    <anchor n="2" xml:id="note-o-2"/> <lb n="22" xml:id="l-22"/>il se joignent à moi pour vous <lb n="23" xml:id="l-23"/>présenter leur respect et désire 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                    <lb n="24" xml:id="l-24"/>que ma lettre vous trouve en bonne <lb n="25" xml:id="l-25"/>santé. si vous avez l’occasions de voir <lb n="26" xml:id="l-26"/>M<hi rend="ss">r</hi> et M<hi rend="ss">me </hi>Ginoux ainssi que les amis <lb n="27" xml:id="l-27"/>M<hi rend="ss">r</hi> M<hi rend="ss">me</hi> Bressy,<anchor n="3" xml:id="note-o-3"/> Péllissier<anchor n="4" xml:id="note-o-4"/> et tous les amis qui <lb n="28" xml:id="l-28"/>s’intéressent à moi<c type="kk">/</c> faites leur bien <lb n="29" xml:id="l-29"/>des compliment ou dite le à M<hi rend="ss">r</hi> Ginoux <lb n="30" xml:id="l-30"/>qui le<anchor n="b" xml:id="note-o-b"/> fassent pour vous<c type="kp">_</c>
+                </ab>
+                <lb n="31" xml:id="l-31"/>
+<ab rend="indent">Reçevez<c type="kk">/</c> Mon cher M<hi rend="ss">r</hi> Vincent<c type="kk">/</c> <lb n="32" xml:id="l-32"/>les salutations de celui qui se <lb n="33" xml:id="l-33"/>dit votre tous devoué ami</ab>
+<vg:whiteline/>
+                <lb n="34" xml:id="l-34"/>
+<ab>Roulin<c type="kk">/</c> courrier Convoyeur<anchor n="5" xml:id="note-o-5"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="35" xml:id="l-35"/>
+<ab>.57. Rue Breteuil .57.</ab>
+                <lb n="36" xml:id="l-36"/>
+<ab>chez M<hi rend="ss">me</hi> Delpal<anchor n="6" xml:id="note-o-6"/>
+                </ab>
+                <lb n="37" xml:id="l-37"/>
+<ab>
+                    <hi rend="ital">Marseille</hi>
+                </ab>
+                <lb n="38" xml:id="l-38"/>
+<ab>(B. du Rhone)</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-5" n="5">voir; &lt; voir</note>
+<note target="l-6" n="6">je &lt; Je</note>
+<note target="l-19" n="19">laquelle &lt; quelle</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>Marseille 13 May 1889</ab>
+<vg:whiteline/>
+<ab>Mr Vincent,</ab>
+<ab>If I have delayed in writing to you, I thought I could use my day off to go and see you; as I was not able to come to Arles, I come to ask you for news of your health, are you well recovered since our last conversation?<anchor n="1" xml:id="note-t-1"/> You seemed to me disposed to begin your work in earnest again, the countryside is beautiful, you cannot lack for models. You would give me great pleasure if you did me the honour of a reply.</ab>
+<ab rend="indent">Have you received news of your esteemed brother? As for me, my health is very good. I received a letter from my <rs type="pers" key="648">wife</rs> telling me that she is very well, as are <rs type="pers" key="651">Marcelle</rs>, <rs type="pers" key="649">Armand</rs> and <rs type="pers" key="650">Camille</rs>.<anchor n="2" xml:id="note-t-2"/> They join me in sending you their respects, and hope 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> that my letter finds you in good health. If you have the occasion to see <rs type="pers" key="382 383">Mr and Mrs Ginoux</rs> and the friends <rs type="pers" key="310 311">Mr and Mrs Bressy</rs>,<anchor n="3" xml:id="note-t-3"/> <rs type="pers" key="567">Pelissier</rs>
+                    <anchor n="4" xml:id="note-t-4"/> and all the friends who are interested in me, give them my best regards, or tell Mr Ginoux to do it for you.</ab>
+<ab rend="indent">My dear Mr Vincent, accept the regards of he who declares himself to be your entirely devoted friend</ab>
+<vg:whiteline/>
+<ab>
+                    <rs type="pers" key="647">Roulin</rs>, Railway Postman<anchor n="5" xml:id="note-t-5"/>
+                </ab>
+<vg:whiteline/>
+<ab>57, rue Breteuil, 57.</ab>
+<ab>c/o <rs type="pers" key="345">Mrs Delpal</rs>
+                    <anchor n="6" xml:id="note-t-6"/>
+                </ab>
+<ab>
+                    <hi rend="ital">Marseille</hi>
+                </ab>
+<ab>(Bouches du Rhône)</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>Van Gogh and <rs type="pers" key="647">Roulin</rs> had last seen each other around Thursday, 4 April (<ref target="let754.xml">see letter 754</ref>). Apparently he did not know of Van Gogh’s departure for Saint-Rémy; the letter must therefore have been forwarded from Arles. </ab>
+                </note>
+<note n="a" xml:id="n-a" target="#note-o-a">
+<ab>Read: ‘quant à’.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>
+                        <rs type="pers" key="648">Madame Roulin</rs> and the <rs type="pers" key="649 650 651">children</rs> were staying with her <rs type="pers" key="160">mother</rs> in Lambesc. </ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>Most likely <rs type="pers" key="310">Antoine Bressy</rs>, railway employee, and his wife <rs type="pers" key="311">Madeleine Ferrary</rs>. They lived in the Quartier de la Cavalerie (<hi rend="ital">ACA</hi>). Place Lamartine, on which the Yellow House and <rs type="pers" key="382">Ginoux</rs>’s café bordered, was also in this district.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>Most likely the farmer <rs type="pers" key="567">Antoine Pelissier</rs>, who lived in avenue de Montmajour and was, like <rs type="pers" key="647">Roulin</rs>, a native of Lambesc (<hi rend="ital">ACA</hi>).</ab>
+                </note>
+<note n="b" xml:id="n-b" target="#note-o-b">
+<ab>Read: ‘qu’il le fasse’.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>Regarding <rs type="pers" key="647">Roulin</rs>’s position in Marseille, <ref target="let736.xml#n-14">see letter 736, n. 14.</ref>
+                    </ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>
+                        <rs type="pers" key="647">Roulin</rs> lived with <rs type="pers" key="59">Joseph Delpal</rs> and his wife <rs type="pers" key="345">Julienne Bloyet </rs>
+                        <hi rend="ital">(Archives Municipales de Marseille</hi>). Van Gogh made a note of her name (as ‘Madame Degal’) and address on <ref target="let742.xml">letter 742</ref>.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

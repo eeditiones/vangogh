@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Paris, Wednesday, 29 September 1875.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let052"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">052</idno>
+<idno type="collectedletters">39a</idno>
+<idno type="brieven1990">051</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Paris</vg:placeLet>
+                        <vg:dateLet>Wednesday, 29 September 1875</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. Paris, Wednesday, 29 September 1875.</p>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b51 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Letter headed: ‘Parijs 29 Sept. 1875’.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <surface n="b 0051" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000054_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000054_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000054_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000054_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000054_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000054_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-2">
+<graphic mimeType="image/tiff" url="VGM001000054_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000054_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000054_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0051" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000054_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1v-1">
+<graphic mimeType="image/tiff" url="VGM001000054_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000054_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000054_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Parijs 29 Sept. 1875</ab>
+<vg:whiteline/>
+                <lb n="2" xml:id="l-2"/>
+<ab>Waarde Theo,</ab>
+                <lb n="3" xml:id="l-3"/>
+<ab>Jongen pas op, verlies Uw veerkracht niet.–<anchor n="1" xml:id="note-o-1"/>
+                </ab>
+                <lb n="4" xml:id="l-4"/>
+<ab rend="indent">Zie de dingen zoo als zij zijn en vind, voor u zelven, <lb n="5" xml:id="l-5"/>niet alles goed.–</ab>
+                <lb n="6" xml:id="l-6"/>
+<ab rend="indent">Men kan afwijken, zoowel ter linker als ter rechterhand.<anchor n="2" xml:id="note-o-2"/> <lb n="7" xml:id="l-7"/>Denk aan wat Pa ook U wel eens zal gezegd hebben: <lb n="8" xml:id="l-8"/>
+                    <hi rend="ital">verstand</hi> en gevoel moeten samen gaan.–</ab>
+                <lb n="9" xml:id="l-9"/>
+<ab rend="indent">Hartelijk gegroet &amp; steeds</ab>
+<vg:whiteline/>
+                <lb n="10" xml:id="l-10"/>
+<ab>Uw liefh. broeder</ab>
+                <lb n="11" xml:id="l-11"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+                <lb n="12" xml:id="l-12"/>
+<ab>Schrijf weer eens spoedig.–</ab>
+<vg:whiteline/>
+<pb f="1r" n="2" xml:id="pb-orig-1r-2" facs="#zone-pb-1r-2"/>
+                <lb n="13" xml:id="l-13"/>
+<ab>Ik heb U aangeraden wat veel uit te gaan <lb n="14" xml:id="l-14"/>maar bevalt U dat niet, doe het dan niet. <lb n="15" xml:id="l-15"/>Gij weet wel ik ook zoo heel veel niet uitging <lb n="16" xml:id="l-16"/>en men daar dikwijls aanmerking op maakte.</ab>
+                <lb n="17" xml:id="l-17"/>
+<ab rend="indent">Wat zou ik gaarne willen wij eens zamen <lb n="18" xml:id="l-18"/>konden ontbijten of een kop chocolade drinken <lb n="19" xml:id="l-19"/>op mijne kamer. Houd U goed kerel<c type="kp">_</c> <lb n="20" xml:id="l-20"/>Trek u de dingen, die U eigentlijk van zoo <lb n="21" xml:id="l-21"/>heel nabij niet raken, niet <hi rend="ital">al</hi> te sterk <lb n="22" xml:id="l-22"/>aan, en neem ze niet <hi rend="ital">al</hi> te zwaar op<c type="kp">_</c> <lb n="23" xml:id="l-23"/>Hoe is het met het brood eten, hebt gij dat <lb n="24" xml:id="l-24"/>al eens geprobeerd? In haast druk ik <lb n="25" xml:id="l-25"/>U hartelijk de hand, in gedachten.–</ab>
+<vg:whiteline/>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>Paris, 29 Sept. 1875</ab>
+<vg:whiteline/>
+<ab>My dear Theo,</ab>
+<ab>Be careful, old boy, don’t lose your resilience.<anchor n="1" xml:id="note-t-1"/>
+                </ab>
+<ab rend="indent">See things as they are, and, for yourself, don’t think everything good.</ab>
+<ab rend="indent">One can deviate, both to the left hand and to the right hand.<anchor n="2" xml:id="note-t-2"/> Remember what <rs type="pers" key="526">Pa</rs> no doubt once told you too: <hi rend="ital">understanding</hi> and feeling must go together.</ab>
+<ab rend="indent">Warm regards and ever,</ab>
+<vg:whiteline/>
+<ab>Your loving brother</ab>
+<ab>Vincent</ab>
+<vg:whiteline/>
+    <ab>Write again soon.</ab>
+                <vg:whiteline/>
+<pb f="1r" n="2" xml:id="pb-trans-1r-2" facs="#zone-pb-1r-2"/>
+<ab>I advised you to go out quite a lot, but if you don’t like it, don’t do it. You know that I didn’t go out so very much either, and that people often remarked upon it.</ab>
+<ab rend="indent">How much I’d like for us to be able to breakfast together or drink a cup of chocolate in my room. Keep well, old chap. Don’t take things that don’t concern you directly <hi rend="ital">too</hi> much to heart, and don’t let them weigh upon you <hi rend="ital">too</hi> heavily. How is it going, eating bread? Have you tried it yet? In haste, I shake your hand heartily in thought.</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>Theo was depressed. <rs type="pers" key="1633">Willem Laurens Kiehl</rs> – who, like Theo, boarded with <rs type="pers" key="642 643">the Rooses</rs> – had died on 22 September. <rs type="pers" key="526">Mr van Gogh</rs> wrote to Theo on 25 September: ‘We are hard hit by the news of Kiehl’s death. I can imagine that you’re very conscious of it and feel it deeply. You lived with him for a fairly long time. How that Miss Roos will have taken care of him faithfully. Dying pathetically. So young. With a life behind him that was not easy, missing much of what others experience of love from their close relations’ (FR b2363).</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Num" chap="20" v="17">Num. 20:17</bibleref>, <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Deut" chap="28" v="14">Deut. 28:14</bibleref> and <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Isa" chap="30" v="21">Isa. 30:21</bibleref>.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

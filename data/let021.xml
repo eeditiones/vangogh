@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. London, Monday, 30 March 1874.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">021</idno>
+<idno type="collectedletters">15</idno>
+<idno type="brieven1990">021</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>London</vg:placeLet>
+                        <vg:dateLet>Monday, 30 March 1874</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. London, Monday, 30 March 1874.</p>
+<note type="ongoingTopic" n="1">
+<p>Anna’s departure for England <ref target="let020.xml">(20)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b15 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Letter headed: ‘Londen 30 Maart 1874’</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0015" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000015_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000015_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000015_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000015_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0015" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000015_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000015_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000015_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000015_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Londen 30 Maart 1874</ab>
+<vg:whiteline/>
+                <lb n="4" xml:id="l-4"/>
+<ab>Waarde Theo,</ab>
+                <lb n="5" xml:id="l-5"/>
+<ab>In een brief van Pa en Moe <lb n="6" xml:id="l-6"/>kreeg ik een gulden van je <lb n="7" xml:id="l-7"/>voor een paar manchetteknoopen<c type="kp">_</c>
+                    <anchor n="1" xml:id="note-o-1"/> <lb n="8" xml:id="l-8"/>Hartelijk dank daarvoor kerel, <lb n="9" xml:id="l-9"/>maar dat had je niet moeten <lb n="10" xml:id="l-10"/>doen, je hebt je geld meer noo<c type="shy">-</c>
+                    <lb n="11" xml:id="l-11"/>dig dan ik.─</ab>
+                <lb n="12" xml:id="l-12"/>
+<ab rend="indent">Dank voor je brief van dezen <lb n="13" xml:id="l-13"/>morgen. Zeer blij was ik <lb n="14" xml:id="l-14"/>te hooren Mauve met Jet C. <lb n="15" xml:id="l-15"/>is geëngageerd.<anchor n="2" xml:id="note-o-2"/> Dat is heerlijk. <lb n="16" xml:id="l-16"/>’k Ben blij dat het je zoo <lb n="17" xml:id="l-17"/>goed gaat.</ab>
+                <lb n="18" xml:id="l-18"/>
+<ab rend="indent">’t Is goed je ’t boek van Bur<c type="shy">-</c>
+                    <lb n="19" xml:id="l-19"/>ger<anchor n="3" xml:id="note-o-3"/> gelezen hebt, lees maar <lb n="20" xml:id="l-20"/>zooveel over kunst als <lb n="21" xml:id="l-21"/>mogelijk is; vooral ook de <lb n="22" xml:id="l-22"/>Gazette des Beaux Arts &amp;c.</ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="23" xml:id="l-23"/>
+<ab rend="indent">Je moet vooral zorgen dat <lb n="24" xml:id="l-24"/>je op de hoogte komt van de <lb n="25" xml:id="l-25"/>schilderijen, zooveel mogelijk. <lb n="26" xml:id="l-26"/>De Apol die we nu hier hebben <lb n="27" xml:id="l-27"/>is heel mooi, verleden jaar <lb n="28" xml:id="l-28"/>schilderde hij een dergelijk su<c type="shy">-</c>
+                    <lb n="29" xml:id="l-29"/>jet &amp; ik vond dat beter &amp; frisscher <lb n="30" xml:id="l-30"/>dan dit.─<anchor n="4" xml:id="note-o-4"/>
+                </ab>
+                <lb n="31" xml:id="l-31"/>
+<ab rend="indent">Ik ben blij dat je soms naar <lb n="32" xml:id="l-32"/>Oom Cor toe gaat. Je ziet daar <lb n="33" xml:id="l-33"/>dingen die in ’t huis te s’Hage <lb n="34" xml:id="l-34"/>nooit voorkomen.─</ab>
+                <lb n="35" xml:id="l-35"/>
+<ab rend="indent">Ik heb het ook druk tegen<c type="shy">-</c>
+                    <lb n="36" xml:id="l-36"/>woordig &amp; ben daar blij om <lb n="37" xml:id="l-37"/>want dat heb ik noodig. </ab>
+                <lb n="38" xml:id="l-38"/>
+<ab rend="indent">à Dieu kerel, houd je taai, <lb n="39" xml:id="l-39"/>&amp; heb het goed. Groet v<c type="kp">_</c> Iterson.</ab>
+<vg:whiteline/>
+                <lb n="40" xml:id="l-40"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+                <lb n="2" xml:id="l-2"/>
+<ab>Aangaande Anna heb ik nog niets na<c type="shy">-</c>
+                    <lb n="3" xml:id="l-3"/>ders gehoord.─</ab>
+<vg:whiteline/>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>London, 30 March 1874</ab>
+<vg:whiteline/>
+<ab>My dear Theo,</ab>
+<ab>In a letter from <rs type="pers" key="524 526">Pa and Ma</rs> I got a guilder from you to buy a pair of cuff links.<anchor n="1" xml:id="note-t-1"/> Many thanks, old chap, but you shouldn’t have done it, you need your money more than I do.</ab>
+<ab rend="indent">Thanks for your letter of this morning. I was very glad to hear that <rs type="pers" key="323">Mauve</rs> is engaged to <rs type="pers" key="321">Jet C</rs>.<anchor n="2" xml:id="note-t-2"/> That’s wonderful. I’m glad that you’re so well.</ab>
+<ab rend="indent">It’s good that you’ve read the book by <rs type="pers" key="554">Bürger</rs>;<anchor n="3" xml:id="note-t-3"/> read about art as much as possible, especially the Gazette des Beaux-Arts &amp;c. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">Above all, be sure to find out as much as possible about paintings. The <rs type="pers" key="76">Apol</rs> that we have here now is very beautiful, last year he painted a similar subject and I found it better and fresher than this one.<anchor n="4" xml:id="note-t-4"/>
+                </ab>
+<ab rend="indent">I’m glad that you go to <rs type="pers" key="422">Uncle Cor</rs>’s occasionally. You see things there that you never find at the gallery in The Hague.</ab>
+<ab rend="indent">I’m also busy at present and am glad of it, because that’s what I need.</ab>
+<ab rend="indent">Adieu, old chap, keep your chin up, and I wish you well. Give my regards to <rs type="pers" key="461">Van Iterson</rs>.</ab>
+    <vg:whiteline/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<ab>As regards <rs type="pers" key="412">Anna</rs>, I haven’t heard anything more.</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>This had to do with Vincent’s birthday on 30 March. In fact it was not Theo but <rs type="pers" key="526">Mr van Gogh</rs> who had given Vincent the money. Mrs van Gogh wrote to Theo: ‘Pa sent him something to do with as he liked, and added that 1 guilder was from you for cuff links to go with his watch chain, and we said that he really must buy them on Theo’s behalf’ (FR b2694, 26 March 1874).</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>
+                        <rs type="pers" key="321">Ariëtte Sophia Jeanette (Jet) Carbentus</rs>, a cousin of Vincent and Theo, was engaged to <rs type="pers" key="323">Anton Mauve</rs>. They were to be married on 26 November.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>For the book by <rs type="pers" key="554">Bürger</rs>, <ref target="let015.xml#n-11">see letter 15, n. 11.</ref>
+                    </ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>It is not known which paintings this refers to. </ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh and Jo van Gogh-Bonger. Auvers-sur-Oise, Sunday, 25 May 1890.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let875"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">875</idno>
+<idno type="collectedletters">637</idno>
+<idno type="brieven1990">879</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh and Jo van Gogh-Bonger</vg:addressee>
+                        <vg:placeLet>Auvers-sur-Oise</vg:placeLet>
+                        <vg:dateLet>Sunday, 25 May 1890</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh and Jo van Gogh-Bonger. Auvers-sur-Oise, Sunday, 25 May 1890.</p>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b686 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>On Monday, 2 June Theo wrote that he had wanted to reply earlier to the present letter, which must have been written shortly before a Tuesday (see <ref target="#l-4">l. 4</ref>). Van Gogh remarks that it has been raining ‘yesterday and today’ <ref target="#l-53">(ll. 53-54)</ref>. This must have been Saturday, 24 and Sunday, 25 May (<hi rend="ital">Météo-France</hi>). On the basis of this information we have dated the letter to Sunday, 25 May 1890. On the same day Theo recorded in his account book the 50 francs for which Vincent thanks him in the first lines of the present letter (see <hi rend="ital">Account book</hi> 2002, p. 45). See also Hulsker 1998, p. 51.</p>
+                    </note>
+<note type="additionalDetail" xml:id="additionalDetail">
+<p>This letter, which confirms the receipt ‘this morning’ (<ref target="#l-1*">ll. 1*-2</ref>) of the money Theo sent, most likely caused Vincent to decide not to send <ref target="RM20.xml">RM20</ref> (this explains why the two letters contain several identical passages).</p>
+                        <p rend="indent"> Van Gogh enclosed a letter for Isaäcson (cf. <ref target="RM21.xml">RM21</ref>).</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0686" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000934_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000934_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000934_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000934_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0686" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000934_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000934_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000934_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000934_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Mon cher Theo, ma chère Jo,</ab>
+                <lb n="1*" xml:id="l-1s"/>
+<ab>merci de ta lettre que j’ai reçue ce <lb n="2" xml:id="l-2"/>matin<anchor n="1" xml:id="note-o-1"/> et des cinquante francs qui s’y trouvaient.</ab>
+                <lb n="3" xml:id="l-3"/>
+<ab rend="indent">Aujourd’hui j’ai revu le D<hi rend="ss">r</hi> Gachet et je vais peindre <lb n="4" xml:id="l-4"/>chez lui Mardi matin puis je dinerais avec lui et après <lb n="5" xml:id="l-5"/>il viendrait voir ma peinture. Il me parait très raisonable <lb n="6" xml:id="l-6"/>mais est aussi decouragé dans son metier de médecin de <lb n="7" xml:id="l-7"/>campagne que moi de ma peinture<c type="kp">_</c> Alors je lui ai dit que <lb n="8" xml:id="l-8"/>j’echangerais pourtant volontiers métier pour métier. Enfin <lb n="9" xml:id="l-9"/>je crois volontiers que je finirai par être amis avec lui. Il m’a <lb n="10" xml:id="l-10"/>d’ailleurs dit que si de la melancolie ou autre chôse deviendrait <lb n="11" xml:id="l-11"/>trop forte pour que je la supporte<c type="kk">/</c> il pouvait bien encore y faire <lb n="12" xml:id="l-12"/>quelque chôse pour en diminuer l’intensité et qu’il ne fallait <lb n="13" xml:id="l-13"/>pas se gêner d’être franc avec lui. Eh bien ce moment-là <lb n="14" xml:id="l-14"/>où j’aurai besoin de lui peut certes venir<c type="kk">/</c> pourtant jusqu’à <lb n="15" xml:id="l-15"/>aujourd’hui cela va bien. Et cela peut devenir encore mieux<c type="kk">/</c> <lb n="16" xml:id="l-16"/>je crois toujours que c’est surtout une maladie du midi que <lb n="17" xml:id="l-17"/>j’ai attrappé et que le retour ici suffira pour dissiper tout cela.</ab>
+                <lb n="18" xml:id="l-18"/>
+<ab rend="indent">Souvent<c type="kk">/</c> fort souvent je pense à ton petit et je me dis alors <lb n="19" xml:id="l-19"/>que je voudrais qu’il fût grand assez pour venir à la campagne<c type="kp">_</c> <lb n="20" xml:id="l-20"/>Car c’est le meilleur système de les élever là. Combien <lb n="21" xml:id="l-21"/>je souhaiterais que toi<c type="kk">/</c> Jo et le petit preniez un repos <lb n="22" xml:id="l-22"/>à la campagne au lieu du voyage traditionnel en Hollande. <lb n="23" xml:id="l-23"/>Oui je sais bien que la mère voudra absolument voir le <lb n="24" xml:id="l-24"/>petit et c’est certes une raison d’y aller. pourtant certes <lb n="25" xml:id="l-25"/>elle comprendrait si c’était réellement l’avantage du petit.</ab>
+                <lb n="26" xml:id="l-26"/>
+<ab rend="indent">Ici on est loin assez de Paris pour que ce soit la vraie <lb n="27" xml:id="l-27"/>campagne mais combien néamoins changé depuis <lb n="28" xml:id="l-28"/>Daubigny. Mais non pas changé d’une façon déplaisante<c type="kk">/</c> <lb n="29" xml:id="l-29"/>il y a beaucoup de villas &amp; habitations diverses modernes <lb n="30" xml:id="l-30"/>et bourgeoises<c type="kk">/</c> tres souriantes<c type="kk">/</c> ensoleillées et fleuries<c type="kp">_</c> 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                    <lb n="31" xml:id="l-31"/>Cela dans une campagne presque grasse<c type="kk">/</c> juste <lb n="32" xml:id="l-32"/>à ce moment ci du développement d’une société <lb n="33" xml:id="l-33"/>nouvelle dans la vieille<c type="kk">/</c> n’a rien de desagreable; il <lb n="34" xml:id="l-34"/>y a beaucoup de bienêtre dans l’air<c type="kp">_</c> Un calme <lb n="35" xml:id="l-35"/>à la Puvis de Chavannes j’y vois ou y crois voir, <lb n="36" xml:id="l-36"/>pas d’usines, mais de la belle verdure en abondance <lb n="37" xml:id="l-37"/>et en bon ordre.</ab>
+                <lb n="38" xml:id="l-38"/>
+<ab rend="indent">Veux tu me dire à l’occasion quel est le tableau qu’a <lb n="39" xml:id="l-39"/>acheté M<hi rend="ss">lle</hi> Bock. Je dois écrire à son frère pour <lb n="40" xml:id="l-40"/>les remercier et puis je proposerais l’échange de <lb n="41" xml:id="l-41"/>deux de mes études contre une de chacun d’eux<c type="kp">_</c>
+                    <anchor n="2" xml:id="note-o-2"/>
+                </ab>
+                <lb n="42" xml:id="l-42"/>
+<ab rend="indent">Ci inclus un mot que tu enverrais à Isaacson s<c type="kp">_</c>v<c type="kp">_</c>p<c type="kp">_</c>
+                    <anchor n="3" xml:id="note-o-3"/>
+                </ab>
+                <lb n="43" xml:id="l-43"/>
+<ab rend="indent">J’ai un dessin d’une vieille vigne dont je me <lb n="44" xml:id="l-44"/>propose de faire une toile de 30<anchor n="4" xml:id="note-o-4"/> puis une étude <lb n="45" xml:id="l-45"/>de maronniers rose<anchor n="5" xml:id="note-o-5"/> et une de maronniers blancs<c type="kp">_</c>
+                    <anchor n="6" xml:id="note-o-6"/> <lb n="46" xml:id="l-46"/>Mais si les circonstances me le permettront j’espère <lb n="47" xml:id="l-47"/>faire un peu de figure. Vaguement des tableaux <lb n="48" xml:id="l-48"/>se présentent à ma vision<c type="kk">/</c> qu’il prendra <lb n="49" xml:id="l-49"/>du temps pour mettre au clair mais ça viendra <lb n="50" xml:id="l-50"/>peu à peu. Si j’avais pas été malade<c type="kk">/</c> depuis longtemps j’aurais <lb n="51" xml:id="l-51"/>ecrit à Bock et à Isaacson. Ma malle n’est pas encore <lb n="52" xml:id="l-52"/>arrivée<c type="kk">/</c> ce qui m’embête<c type="kk">/</c> j’ai envoyé ce matin une dépêche<c type="kp">_</c>
+                </ab>
+                <lb n="53" xml:id="l-53"/>
+<ab rend="indent">Je te remercie d’avance de la toile et du papier.<anchor n="7" xml:id="note-o-7"/> Hier et aujourd’hui <lb n="54" xml:id="l-54"/>il pleut &amp; fait de l’orage mais c’est pas desagréable de revoir ces <lb n="55" xml:id="l-55"/>effets-là. Les lits ne sont pas arrivés non plus<c type="kp">_</c>
+                    <anchor n="8" xml:id="note-o-8"/> Mais quoi qu’il <lb n="56" xml:id="l-56"/>en soit de ces embêtements<c type="kk">/</c> je me sens heureux de ne plus être <lb n="57" xml:id="l-57"/>si loin de vous autres et des amis. J’espère que ta santé <lb n="58" xml:id="l-58"/>ira bien. Cela m’a pourtant paru que tu avais moins d’apetit <lb n="59" xml:id="l-59"/>que dans le temps et d’après ce que disent les medecins <lb n="60" xml:id="l-60"/>pour nos temperaments il faudrait une nourriture très solide<c type="kp">_</c> <lb n="61" xml:id="l-61"/>Sois donc sage là-dedans<c type="kk">/</c> surtout Jo aussi ayant son enfant <lb n="62" xml:id="l-62"/>à nourrir<c type="kp">_</c> Vrai il faudrait bien doubler la dose<c type="kk">/</c> ce serait <lb n="63" xml:id="l-63"/>rien exagérer quand il y a des enfants à faire et à nourrir<c type="kp">_</c> <lb n="64" xml:id="l-64"/>Sans ça c’est comme un train qui marche lentement là <lb n="65" xml:id="l-65"/>où la route est droite<c type="kp">_</c> Temps assez de moderer la vapeur <lb n="66" xml:id="l-66"/>quand la route est plus accidentée. Poignée de <lb n="67" xml:id="l-67"/>main en pensée<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="68" xml:id="l-68"/>
+<ab>t. à v.</ab>
+                <lb n="68*" xml:id="l-68s"/>
+<ab>Vincent.</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-33" n="33">desagreable; &lt; desagreable</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo, my dear <rs type="pers" key="416">Jo</rs>,</ab>
+<ab>Thank you for your letter which I received this morning,<anchor n="1" xml:id="note-t-1"/> and for the fifty francs that were inside it.</ab>
+<ab rend="indent">Today I saw <rs type="pers" key="389">Dr Gachet</rs> again, and I’m going to paint at his place on Tuesday morning, then I’m going to lunch with him and afterwards he’ll come to see my painting. He seems very reasonable to me, but is as discouraged in his profession of country doctor as I with my painting. So I told him that I would, however, gladly swap profession for profession. Anyway, I readily think that I’ll end up being friends with him. He told me, besides, that if melancholy or something else were to become too strong for me to bear, he could well do something again to lessen its intensity, and that I mustn’t be embarrassed to be open with him. Well, that moment when I have need of him may indeed come, however up to today things are going well. And they may get even better, I still believe that it’s above all an illness of the south that I caught, and that the return here will be enough to dispel all that.</ab>
+<ab rend="indent">Often, very often, I think of your little one, and I then tell myself that I would like him to be big enough to come to the country. For it’s the best system of bringing them up here. How I would like you, <rs type="pers" key="416">Jo</rs> and the <rs type="pers" key="418">little one</rs> to have a rest in the country instead of the traditional journey to Holland. Yes, I’m well aware that <rs type="pers" key="524">Mother</rs> will absolutely want to see the little one, and it’s certainly a reason to go there. However, she would certainly understand if it were really in the little one’s best interests.</ab>
+<ab rend="indent">Here we’re far enough from Paris for it to be the real countryside, but nevertheless, how changed since <rs type="pers" key="976">Daubigny</rs>. But not changed in an unpleasant way, there are many villas and various modern and middle-class dwellings, very jolly, sunny and covered with flowers. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> That in an almost lush countryside, just at this moment of the development of a new society in the old one, has nothing disagreeable about it; there’s a lot of well-being in the air. I see or think I see a calm there à la <rs type="pers" key="1286">Puvis de Chavannes</rs>, no factories, but beautiful greenery in abundance and in good order.</ab>
+<ab rend="indent">When you have the opportunity, will you tell me which painting <rs type="pers" key="870">Miss Boch</rs> bought? I must write to her <rs type="pers" key="869">brother</rs> to thank them, and then I would propose the exchange of two of my studies for one by each of them.<anchor n="2" xml:id="note-t-2"/>
+                </ab>
+<ab rend="indent">Enclosed is a note which you will please send to <rs type="pers" key="1103">Isaäcson</rs>.<anchor n="3" xml:id="note-t-3"/>
+                </ab>
+<ab rend="indent">I have a drawing of an old vineyard of which I plan to do a no. 30 canvas,<anchor n="4" xml:id="note-t-4"/> then a study of pink chestnut trees<anchor n="5" xml:id="note-t-5"/> and one of white chestnut trees.<anchor n="6" xml:id="note-t-6"/> But if circumstances permit, I hope to do a little figure work. Paintings vaguely present themselves to my sight which it will take time to shape, but that will come little by little. If I hadn’t been ill, I would have written to <rs type="pers" key="869">Boch</rs> and to <rs type="pers" key="1103">Isaäcson</rs> long since. My trunk hasn’t arrived yet, which annoys me, I sent a telegram this morning.</ab>
+<ab rend="indent">Thank you in advance for the canvas and the paper.<anchor n="7" xml:id="note-t-7"/> Yesterday and today it rains and is stormy, but it isn’t unpleasant to see these effects again. The beds haven’t arrived either.<anchor n="8" xml:id="note-t-8"/> But despite these annoyances, I feel happy no longer to be so far from you all and our friends. I hope that your health will be good. It seemed to me, though, that you had less appetite than before, and from what the doctors say, we should have very solid food for our temperaments. So be sensible about it, especially <rs type="pers" key="416">Jo</rs> too, as she has her <rs type="pers" key="418">child</rs> to feed. Truly, the amount should be doubled, it wouldn’t be any exaggeration when there are children to make and feed. Without that it’s like a train moving slowly where the route is straight. Time enough to reduce steam when the route is more uneven. Handshake in thought.</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent.</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>Unlike other letters Vincent received from Theo (and <rs type="pers" key="416">Jo</rs>) in this period, this letter has not been preserved.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>
+                        <rs type="pers" key="870">Anna Boch</rs> had bought Van Gogh’s <hi rend="ital">The red vineyard</hi> (<rs type="ill" key="2745">F 495 / JH 1626</rs>); <ref target="let855.xml#n-5">see letter 855, n. 5.</ref> An exchange between her brother, <rs type="pers" key="869">Eugène Boch</rs>, and Van Gogh took place in June 1890 (<ref target="let890.xml#n-2">see letter 890, n. 2</ref>).</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>This letter is not known; cf. letter RM21.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>
+      <hi rend="ital">Vineyard with a woman</hi> (<rs type="ill" key="2909">F 1624 / JH 1985</rs>). There is no known no. 30 canvas of this motif; the same house and garden do occur, however, in <hi rend="ital">Vineyard and houses</hi> (<rs type="otherart" key="914">F 794 / JH 2002</rs>), which measures 51 x 58 cm. See exhib. cat. Amsterdam 2005, p. 332.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>
+      <hi rend="ital">Chestnut tree</hi> <hi rend="ital">in blossom</hi> (<rs type="ill" key="2912">F 751 / JH 1992</rs>).</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>
+      <hi rend="ital">Chestnut tree</hi> <hi rend="ital">in blossom</hi> (<rs type="ill" key="2911">F 752 / JH 1991</rs>).</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>Van Gogh had asked for canvas and paper in <ref target="let874.xml">letter 874</ref>.</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>
+                        <rs type="pers" key="382">Ginoux</rs> was supposed to send the beds from Arles (<ref target="let871.xml">see letter 871</ref>).</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

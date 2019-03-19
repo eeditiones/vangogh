@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Paris, Monday, 13 September 1875.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let048"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">048</idno>
+<idno type="collectedletters">37a</idno>
+<idno type="brieven1990">047</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Paris</vg:placeLet>
+                        <vg:dateLet>Monday, 13 September 1875</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. Paris, Monday, 13 September 1875.</p>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b48 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Letter headed: ‘<hi rend="ital">[</hi>Paris, le<hi rend="ital">]</hi> 13 Sept_ <hi rend="ital">[</hi>187<hi rend="ital">]</hi>5.’</p>
+                    </note>
+<note type="additionalDetail" xml:id="additionalDetail">
+<p>The nature and content of the letter indicate that it was enclosed in one of Goupil’s shipments.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0048" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000050_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000050_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000050_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000050_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000050_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000050_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+        <surface n="b 0048 V/1962" xml:id="surf-extra-1v">
+            <graphic mimeType="image/tiff" url="VGM001000050_02.TIF" rend="norend"/>
+            <zone xml:id="zone-extra-1">
+<graphic mimeType="image/tiff" url="VGM001000050_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000050_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000050_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>
+                    <vg:suppliedMilestone type="open"/>Goupil &amp; C<hi rend="ss">ie</hi>
+                </ab>
+                <lb n="2" xml:id="l-2"/>
+<ab>Editeurs Imprimeurs</ab>
+                <lb n="3" xml:id="l-3"/>
+<ab>Estampes Françaises &amp; Étrangères</ab>
+                <lb n="4" xml:id="l-4"/>
+<ab>Tableaux Modernes</ab>
+                <lb n="5" xml:id="l-5"/>
+<ab>Rue Chaptal, 9, PARIS.</ab>
+                <lb n="6" xml:id="l-6"/>
+<ab>Succursales à la Haye, Londres, Berlin, New-York.</ab>
+<vg:whiteline/>
+                <lb n="7" xml:id="l-7"/>
+<ab>Paris, le<vg:suppliedMilestone type="close"/> 13 Sept<c type="kp">_</c> <supplied>187</supplied>5.</ab>
+<vg:whiteline/>
+                <lb n="8" xml:id="l-8"/>
+<ab>Waarde Theo,</ab>
+                <lb n="9" xml:id="l-9"/>
+<ab>De photographie naar J. Breton &amp; die naar Corot zijn <lb n="10" xml:id="l-10"/>voor Helvoirt;<anchor n="1" xml:id="note-o-1"/> de rest is voor U.─</ab>
+                <lb n="11" xml:id="l-11"/>
+<ab rend="indent">Stuur die voor Helvoirt bij gelegenheid op, ik wil echter <lb n="12" xml:id="l-12"/>mijn best doen om nog een ex. van die Rembrandt<anchor n="2" xml:id="note-o-2"/> te krijgen <lb n="13" xml:id="l-13"/>&amp; misschien is het daarom beter met het opzenden te <lb n="14" xml:id="l-14"/>wachten tot ik ook die U gezonden heb.─</ab>
+                <lb n="15" xml:id="l-15"/>
+<ab rend="indent">Mijn brief van gisteren hebt gij zeker reeds ontvangen.</ab>
+<vg:whiteline/>
+                <lb n="16" xml:id="l-16"/>
+<ab>Hartelijk gegroet</ab>
+                <lb n="17" xml:id="l-17"/>
+<ab>V.<hi rend="ss">t</hi>
+                </ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-1" targetEnd="l-7" n="1-7">
+                        <hi rend="ital">Printed letterhead.</hi>
+                    </note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>[Letterhead: Goupil Paris]</ab>
+<vg:whiteline/>
+<ab>Paris, 13 Sept. 1875.</ab>
+<vg:whiteline/>
+<ab>My dear Theo,</ab>
+<ab>The photographs of the <rs type="pers" key="899">J. Breton</rs> and the <rs type="pers" key="971">Corot</rs> are for Helvoirt;<anchor n="1" xml:id="note-t-1"/> the rest are for you.</ab>
+<ab rend="indent">Send on the Helvoirt ones when you have the opportunity, but I’ll do my best to get another copy of the <rs type="pers" key="1295">Rembrandt</rs>,<anchor n="2" xml:id="note-t-2"/> so perhaps it would be better to delay sending them until I’ve sent you that one as well.</ab>
+<ab rend="indent">You’ll have received my letter of yesterday by now.</ab>
+<vg:whiteline/>
+<ab>Warm regards,</ab>
+<ab>Vt.</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>Cf. <ref target="let042.xml">letter 42</ref>.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>Presumably <rs type="pers" key="1295">Rembrandt</rs>’s <rs type="otherart" key="44">
+                            <hi rend="ital">Reading the Bible</hi>
+                        </rs>; <ref target="let040.xml">see letters 40</ref> and <ref target="let042.xml">42</ref>.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

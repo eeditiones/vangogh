@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Hoogeveen, Sunday, 16 September 1883.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let387"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">387</idno>
+<idno type="collectedletters">325</idno>
+<idno type="brieven1990">390</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Hoogeveen</vg:placeLet>
+                        <vg:dateLet>Sunday, 16 September 1883</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:physDesc>
+                        <vg:decoration>
+                            <vg:decoList xml:id="sketches">
+                                <vg:decoItem n="A" xml:id="sketch-1">
+                                    <vg:decoDesc>
+<p>
+      <hi rend="ital">Churchyard</hi> (<rs type="sketch" key="108">F- / JH 396</rs>), letter sketch</p>
+                                    </vg:decoDesc>
+                                </vg:decoItem>
+                            </vg:decoList>
+                        </vg:decoration>
+                    </vg:physDesc>
+                    <vg:letContents>
+<p>To Theo van Gogh. Hoogeveen, Sunday, 16 September 1883.</p>
+<note type="ongoingTopic" n="1">
+<p>Drawings on commission with Uncle Cor <ref target="let378.xml">(378)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="2">
+<p>Theo’s love for the ailing Marie <ref target="let300.xml">(300)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="3">
+<p>Van Gogh looks back at the time he was with Sien <ref target="let385.xml">(385)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. nos. b348 a-b V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Van Gogh writes that for the first time since he arrived in Drenthe the sun is not shining <ref target="#l-236">(ll. 236-238)</ref>. The weather broke on Sunday, 16 September 1888 (with thanks to Wout Dijk), which means that the letter can be dated that day.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0348 a" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000445_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000445_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000445_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000445_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000445_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000445_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="VGM001000445_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000445_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000445_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0348 a" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000445_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000445_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000445_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000445_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000445_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000445_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000445_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000445_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000445_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0348 b" xml:id="surf-pb-2r">
+            <graphic mimeType="image/tiff" url="VGM001000446_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000446_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000446_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-2r-5">
+<graphic mimeType="image/tiff" url="VGM001000446_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000446_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000446_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-2r-8">
+<graphic mimeType="image/tiff" url="VGM001000446_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000446_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000446_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0348 b" xml:id="surf-pb-2v">
+            <graphic mimeType="image/tiff" url="VGM001000446_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000446_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000446_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-2v-6">
+<graphic mimeType="image/tiff" url="VGM001000446_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000446_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000446_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-2v-7">
+<graphic mimeType="image/tiff" url="VGM001000446_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000446_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000446_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Waarde Theo,</ab>
+                <lb n="1*" xml:id="l-1s"/>
+<ab>Zooeven komt Uw brief en <lb n="2" xml:id="l-2"/>weet ik dus dat de correspondentie geregeld <lb n="3" xml:id="l-3"/>gaat. Ik schreef een paar dagen geleden nog <lb n="4" xml:id="l-4"/>een woordje om U een &amp; ander van het land hier <lb n="5" xml:id="l-5"/>te vertellen.<anchor n="1" xml:id="note-o-1"/> Mooi is het hier alles<c type="kk">/</c> waar men <lb n="6" xml:id="l-6"/>ook gaat. De heide is veel uitgestrekter dan de <lb n="7" xml:id="l-7"/>Brabantsche<c type="kk">/</c> bij Zundert of Etten althans – ietwat <lb n="8" xml:id="l-8"/>monotoon als het middag is &amp; de zon schijnt vooral<c type="kk">/</c> <lb n="9" xml:id="l-9"/>doch juist ook dat effekt<c type="kk">/</c> ’twelk ik vruchteloos <lb n="10" xml:id="l-10"/>een paar maal reeds toch heb willen schilderen<c type="kk">/</c> zou <lb n="11" xml:id="l-11"/>ik niet willen missen. De zee is ook niet altijd <lb n="12" xml:id="l-12"/>pittoresk maar ook die momenten &amp; effekten <lb n="13" xml:id="l-13"/>moet men bekijken<c type="kk">/</c> wil men in ’t eigentlijk karakter <lb n="14" xml:id="l-14"/>zich niet bedriegen. Dan – op dat heete middaguur <lb n="15" xml:id="l-15"/>is de heide verre van liefelijk soms.– is agaçant <lb n="16" xml:id="l-16"/>vervelend en vermoeiend als de woestijn<c type="kk">/</c> even <lb n="17" xml:id="l-17"/>onherbergzaam en als ’t ware vijandig. <lb n="37" xml:id="l-37"/>Het te schilderen in dat volle licht en de wijking der plannen <lb n="38" xml:id="l-38"/>tot in ’t oneindige te geven<c type="kk">/</c> is iets waar men duizelig van wordt<c type="kp">_</c>
+                    <anchor n="2" xml:id="note-o-2"/> <lb n="17*" xml:id="l-17s"/>Daarom <lb n="18" xml:id="l-18"/>moet men niet meenen het sentimenteel <lb n="19" xml:id="l-19"/>moet worden opgevat<c type="kk">/</c> integendeel dat is het <lb n="20" xml:id="l-20"/>bijna nooit. Die zelfde agaçant vervelende <lb n="21" xml:id="l-21"/>plek – s’avonds als een arm figuurtje <lb n="22" xml:id="l-22"/>door de schemering zich beweegt – als die <lb n="23" xml:id="l-23"/>uitgestrekte<c type="kk">/</c> door de zon verschroeide aardkorst <lb n="24" xml:id="l-24"/>donker uitkomt tegen de fijne lilas toonen <lb n="25" xml:id="l-25"/>van den avondhemel<c type="kk">/</c> en het donker blaauwe <lb n="26" xml:id="l-26"/>allerlaatste lijntje aan den horizon grond van <lb n="27" xml:id="l-27"/>lucht scheidt – kan subliem worden zóó <lb n="28" xml:id="l-28"/>als op een J. Dupré. En de figuren<c type="kk">/</c> zij hebben <lb n="29" xml:id="l-29"/>datzelfde. de boeren &amp; vrouwen<c type="kk">/</c> niet altijd zijn ze <lb n="30" xml:id="l-30"/>interessant maar als men er geduld mee heeft <lb n="31" xml:id="l-31"/>ziet men het Millet achtige toch geheel &amp; al.</ab>
+                <lb n="32" xml:id="l-32"/>
+<ab rend="indent">Gisteren vond ik een der eigenaardigste kerkhoven <lb n="33" xml:id="l-33"/>die ik ooit zag<anchor n="3" xml:id="note-o-3"/> – verbeeld U een stuk heide <lb n="34" xml:id="l-34"/>met een heg van digt opeen staande mastboompjes <lb n="35" xml:id="l-35"/>er om heen – zóó dat men meenen zou ’t een <lb n="36" xml:id="l-36"/>gewoon mastboschje was.–</ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="39" xml:id="l-39"/>
+<ab rend="indent">Evenwel er is een ingang – een kort laantje <lb n="40" xml:id="l-40"/>en dan komt men op een aantal graven <lb n="41" xml:id="l-41"/>begroeid met bunt<anchor n="a" xml:id="note-o-a"/> en heide<c type="kp">_</c> Velen gemerkt <lb n="42" xml:id="l-42"/>met witte palen waarop de namen staan.</ab>
+                <lb n="43" xml:id="l-43"/>
+<ab rend="indent">Ik stuur er U een croquis van naar de <lb n="44" xml:id="l-44"/>studie welke ik er van schilderde.<anchor n="4" xml:id="note-o-4"/>
+                </ab>
+                <lb n="45" xml:id="l-45"/>
+<ab rend="indent">Ik ben bezig aan een andere studie van <lb n="46" xml:id="l-46"/>een roode zon tusschen de berkjes die <lb n="47" xml:id="l-47"/>op een moerassig weiland staan waar de <lb n="48" xml:id="l-48"/>witte avonddamp uit opstijgt<c type="kk">/</c> waarboven men <lb n="49" xml:id="l-49"/>een blaauwgrijzen horizon lijn <lb n="50" xml:id="l-50"/>van geboomte met een paar daken nog ziet<c type="kp">_</c>
+                    <anchor n="5" xml:id="note-o-5"/>
+                </ab>
+                <lb n="51" xml:id="l-51"/>
+<ab rend="indent">Het is wel jammer dat gij van C.M<c type="kp">_</c> nog <lb n="52" xml:id="l-52"/>niets hebt vernomen. Natuurlijk <hi rend="ital">hoeft</hi> hij <lb n="53" xml:id="l-53"/>niets te doen maar dat telkens dan maar <lb n="54" xml:id="l-54"/>geen woord antwoorden vind ik ietwat grof<c type="kp">_</c> <lb n="55" xml:id="l-55"/>Doch begrijp één ding wel – meer en <lb n="56" xml:id="l-56"/>meer komt het mij voor dat wij leven in een <lb n="57" xml:id="l-57"/>tijd waarin de dingen eenigzins <lb n="58" xml:id="l-58"/>in de war zijn geraakt<anchor n="6" xml:id="note-o-6"/> (dat eenigzins houd ik <lb n="59" xml:id="l-59"/>voor enorm groot doch wil U deze opinie niet opdringen)<c type="kp">_</c> <lb n="60" xml:id="l-60"/>C.M. betreffende<c type="kk">/</c> als meer anderen<c type="kk">/</c> zoude <lb n="61" xml:id="l-61"/>zeer beleefd zijn tegen een vreemde doch on <lb n="62" xml:id="l-62"/>ne hait que ses amis<anchor n="7" xml:id="note-o-7"/> en juist zich zelf een beetje <lb n="63" xml:id="l-63"/>verloren hebbende in het zijn aandacht <lb n="64" xml:id="l-64"/>vestigen op eb en vloed <lb n="65" xml:id="l-65"/>van handels- en kunst zaken<c type="kk">/</c> is hij zóó verdiept <lb n="66" xml:id="l-66"/>in au fond zeer abstracte dingen dat <lb n="67" xml:id="l-67"/>iets wat zeer natuurlijk is<c type="kk">/</c> n.l. <lb n="68" xml:id="l-68"/>dat ik met hem gesproken heb en nog met hem <lb n="69" xml:id="l-69"/>spreek over mijn zaken<c type="kk">/</c> hem onaangenaam <lb n="70" xml:id="l-70"/>aandoet als een openstaande deur die tocht<c type="kk">/</c> want zijn gedachten zijn heel<c type="kk">/</c> <lb n="71" xml:id="l-71"/>heel ver weg – altijd – en hij weet er <lb n="72" xml:id="l-72"/>niet beter op dan desnoods ietwat <lb n="73" xml:id="l-73"/>grof er zich afmaken<c type="kk">/</c> even als men de tochtige <lb n="74" xml:id="l-74"/>deur digtsmijt.</ab>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                <lb n="75" xml:id="l-75"/>
+<ab rend="indent">Ge zult zeggen<c type="kk">/</c> dit is veronderstellen <lb n="76" xml:id="l-76"/>hij weinig fijngevoelig is<c type="kp">_</c> <lb n="77" xml:id="l-77"/>nu<c type="kk">/</c> ik veronderstel dat ook zeer zeker in <lb n="78" xml:id="l-78"/>zoover dat ik niet betwijfel evenwel <lb n="79" xml:id="l-79"/>of hij <hi rend="ital">kan</hi> weldegelijk zeer hupsch<anchor n="b" xml:id="note-o-b"/> zijn <lb n="80" xml:id="l-80"/>doch mits zijn <hi rend="ital">gedachten er bij zijn</hi>
+                    <c type="kk">/</c> <lb n="81" xml:id="l-81"/>en in mijn geval zijn ze het <hi rend="ital">niet</hi> en te <lb n="82" xml:id="l-82"/>meer niet omdat hij betreffende mij zekere <lb n="83" xml:id="l-83"/>vaste opinies schijnt te hebben die ik niet <lb n="84" xml:id="l-84"/>meen te mogen trachten weg te nemen. <lb n="85" xml:id="l-85"/>Als ik hem schrijf is het op een toon <lb n="86" xml:id="l-86"/>waarin doorstraalt “ik ben een mauvais <lb n="87" xml:id="l-87"/>sujet, niet waar, welnu <lb n="88" xml:id="l-88"/>ik zeg niet dat zulks zoo is doch U het meenende <lb n="89" xml:id="l-89"/>laat ik U in uw meening en zeg ik slechts datgene wat ik ook nog <lb n="90" xml:id="l-90"/>zou mogen zeggen als alles zóó was als <lb n="91" xml:id="l-91"/>gij veronderstelt.”–</ab>
+                <lb n="92" xml:id="l-92"/>
+<ab>Gij zult zeggen dat die toon ietwat <lb n="93" xml:id="l-93"/>heel nuchter is – goed – tegen sommige <lb n="94" xml:id="l-94"/>personen is het evenwel consequent dien <lb n="95" xml:id="l-95"/>toon aan te nemen<c type="kp">_</c>– Lezen zij dan <lb n="96" xml:id="l-96"/>de enkele woorden die men eens in ’t jaar <lb n="97" xml:id="l-97"/>schrijft nog niet eens<c type="kk">/</c> is hun dat dan nog <lb n="98" xml:id="l-98"/>te veel – nu – que soit – ik zal geen <lb n="99" xml:id="l-99"/>ander middel te baat nemen echter want <lb n="100" xml:id="l-100"/>ik wil van indringen <hi rend="ital">ook niet den</hi> <lb n="101" xml:id="l-101"/>
+                    <hi rend="ital">schijn zelfs hebben.</hi>
+                </ab>
+                <lb n="102" xml:id="l-102"/>
+<ab rend="indent">En indien C.M. mij niet antwoordde zoo <lb n="103" xml:id="l-103"/>kan ik me dat desnoods in zoover begrijpen <lb n="104" xml:id="l-104"/>dat ik zeg<c type="kk">/</c> enfin ’t is zoo als ’t is en meer niet<c type="kp">_</c>– versta <lb n="105" xml:id="l-105"/>me wel – indien C.M. <hi rend="ital">U</hi> echter <hi rend="ital">niet</hi> antwoord <lb n="106" xml:id="l-106"/>dan neem IK C.M. <hi rend="ital">dat</hi>
+                    <c type="kk">/</c> zegge een <lb n="107" xml:id="l-107"/>beleediging tegen <hi rend="ital">U</hi> (jegens wien hij anders behoorde te doen)<c type="kk">/</c> <lb n="108" xml:id="l-108"/>wel degelijk kwalijk.– En <hi rend="ital">dan</hi> daalt <lb n="109" xml:id="l-109"/>hij een heel eind in mijn achting – meer niet ook.</ab>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                <lb n="110" xml:id="l-110"/>
+<ab rend="indent">Ik hoop U over niet al te langen tijd studies van hier <lb n="111" xml:id="l-111"/>te zenden als ik er eenigen van bij elkaar zal hebben<c type="kp">_</c>
+                    <lb n="112" xml:id="l-112"/> En denk er eens over<c type="kk">/</c> misschien kunnen sommigen daarvan <lb n="113" xml:id="l-113"/>voor Wisselingh iets worden.</ab>
+                <lb n="114" xml:id="l-114"/>
+<ab rend="indent">Mijn geld raakt weer op zijn einde evenwel <lb n="115" xml:id="l-115"/>en eigentlijk had ik gehoopt nog wat verf en <lb n="116" xml:id="l-116"/>sommig gereedschap te kunnen in voorraad nemen<c type="kp">_</c> <lb n="117" xml:id="l-117"/>Maar enfin – wij moeten roeijen met de riemen <lb n="118" xml:id="l-118"/>die wij hebben<c type="kk">/</c> al is het deplorable ze niet ietwat <lb n="119" xml:id="l-119"/>langer zijn. Ook dat kan door geduldig voortwerken <lb n="120" xml:id="l-120"/>teregt komen en is althans niet van C.M<c type="kp">_</c> afhankelijk <lb n="121" xml:id="l-121"/>geheel en al. Alleen<c type="kk">/</c> ik ben zeer blijde dat ik hier <lb n="122" xml:id="l-122"/>ben want kerel<c type="kk">/</c> het is hier rijk.</ab>
+                <lb n="123" xml:id="l-123"/>
+<ab rend="indent">Ja ik zoude het U ook toewenschen. Ik ben <lb n="124" xml:id="l-124"/>wel verlangend iets naders omtrent de vrouw <lb n="125" xml:id="l-125"/>van U te vernemen. Misschien begrijp ik sommige <lb n="126" xml:id="l-126"/>dingen eenigzins doch vooral dit eene<c type="kk">/</c> dat ik <lb n="127" xml:id="l-127"/>vertrouw en weet gij regt hebt gedaan met haar<c type="kp">_</c> <lb n="128" xml:id="l-128"/>Betreffende regt doen<c type="kk">/</c> onze omstandigheden maken <lb n="129" xml:id="l-129"/>ons soms tot iets anders dan wij zijn zouden <lb n="130" xml:id="l-130"/>indien wij door niets in onzen wil werden <lb n="131" xml:id="l-131"/>gehinderd. Zoo ik voor mij zou liever met <lb n="132" xml:id="l-132"/>de vrouw gebleven zijn ofschoon het dubbel moeielijk <lb n="133" xml:id="l-133"/>zou geweest zijn<c type="kk">/</c> maar het was voor zoover ik <lb n="134" xml:id="l-134"/>kon nagaan onmogelijk in de gegevenen<c type="kp">_</c>
+                </ab>
+                <lb n="135" xml:id="l-135"/>
+<ab rend="indent">En het is er zoo mede<c type="kk">/</c> dat als ik in mijn verbeelding <lb n="136" xml:id="l-136"/>telkens haar als een schim nog zie is het niet <lb n="137" xml:id="l-137"/>als een verwijtende<c type="kk">/</c> doch ik ben er slechts <lb n="138" xml:id="l-138"/>melankoliek over dat de middelen mij te kort <lb n="139" xml:id="l-139"/>kwamen om het zòò te doen met haar als mijn <lb n="140" xml:id="l-140"/>verlangen geweest zoude zijn<c type="kp">_</c> De tijden zijn <lb n="141" xml:id="l-141"/>wel moeielijk en gij zult er het Uwe van <lb n="142" xml:id="l-142"/>hebben.</ab>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+                <lb n="143" xml:id="l-143"/>
+<ab rend="indent">Toen ik hierheen kwam had ik van verf bij <lb n="144" xml:id="l-144"/>mij een aantal half uitgeknepen tubes en <lb n="145" xml:id="l-145"/>daarbij eenige nieuwen om het noodige <lb n="146" xml:id="l-146"/>voor een stuk of 6 studies te hebben doch <lb n="147" xml:id="l-147"/>zeker niet meer. Ik zal van het volgende <lb n="148" xml:id="l-148"/>geld dus dadelijk weer iets of wat laten <lb n="149" xml:id="l-149"/>komen<c type="kk">/</c> weer voor een stuk of wat studies.<anchor n="8" xml:id="note-o-8"/> <lb n="150" xml:id="l-150"/>Verder teeken ik<c type="kk">/</c> maar gij weet er alles van <lb n="151" xml:id="l-151"/>dat het schilderen hoofdzaak moet zijn zooveel <lb n="152" xml:id="l-152"/>mogelijk. Ik weet niet hoe het hier met het geldwisselen <lb n="153" xml:id="l-153"/>zal gaan. Desnoods<c type="kk">/</c> indien ik het hier niet kon<c type="kk">/</c> <lb n="154" xml:id="l-154"/>zou ik het te Assen of zoo wel gewisseld kunnen <lb n="155" xml:id="l-155"/>krijgen doch mogt gij in staat zijn mij b.v. voor <lb n="156" xml:id="l-156"/>de eerste twee keeren – tot ik wat beter op de <lb n="157" xml:id="l-157"/>hoogte ben hier en ook te Assen eens een kantoor <lb n="158" xml:id="l-158"/>gevonden heb waar ik nu nog niet ben geweest – <lb n="159" xml:id="l-159"/>voor de twee eerste keeren dus b.v. Hollandsch <lb n="160" xml:id="l-160"/>geld te zenden of postwissel<c type="kk">/</c> zoude wel <lb n="161" xml:id="l-161"/>goed zijn want anders zou ik soms er mee <lb n="162" xml:id="l-162"/>verlegen zitten. Ik hoop dat gij tegen 20 – niet <lb n="163" xml:id="l-163"/>later – kunt zenden want ik heb de menschen <lb n="164" xml:id="l-164"/>zoodra ik kwam een week gegeven<c type="kk">/</c> dus is dan <lb n="165" xml:id="l-165"/>reeds vervallen en moet ik weer betalen.</ab>
+                <lb n="166" xml:id="l-166"/>
+<ab rend="indent">Ge vindt hierachter het <lb n="167" xml:id="l-167"/>croquis van ’t Kerkhofje. De kleur <lb n="168" xml:id="l-168"/>is aldaar zeer eigenaardig. Het is iets <lb n="169" xml:id="l-169"/>schoons de echte heide op de graven <lb n="170" xml:id="l-170"/>te zien<c type="kk">/</c> de geur van terpentijn<anchor n="9" xml:id="note-o-9"/> heeft <lb n="171" xml:id="l-171"/>iets mystieks. de donkere strook masthout die het afsluit <lb n="172" xml:id="l-172"/>scheidt een tintelende lucht van den <lb n="173" xml:id="l-173"/>ruigen grond<c type="kk">/</c> die in ’t algemeen een <lb n="174" xml:id="l-174"/>rosse kleur heeft – <hi rend="ital">fauve</hi> – bruinachtig – <lb n="175" xml:id="l-175"/>geelachtig doch overal met lilas toonen<c type="kp">_</c> <lb n="176" xml:id="l-176"/>Het was niet makkelijk te schilderen, ik zal <lb n="177" xml:id="l-177"/>er verschillende effekten nog van zoeken<c type="kk">/</c> <lb n="178" xml:id="l-178"/>met sneeuw b.v. moet het zeer eigenaardig wezen<c type="kp">_</c>
+                </ab>
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>
+                <lb n="179" xml:id="l-179"/>
+<ab rend="indent">Liebermann had ik reeds iets van gehoord <lb n="180" xml:id="l-180"/>doch uw beschrijving van zijn factuur vooral <lb n="181" xml:id="l-181"/>geeft mij meer licht omtrent hem.<anchor n="10" xml:id="note-o-10"/> <lb n="182" xml:id="l-182"/>zijn kleur moet <hi rend="ital">oneindig</hi> beter dan Henkes <lb n="183" xml:id="l-183"/>zijn (ge zegt het heel goed “leikleurig met <lb n="184" xml:id="l-184"/>overgangen tot grijsgeel &amp; grijsbruin”)<c type="kp">_</c> <lb n="185" xml:id="l-185"/>Ik begrijp het er volkomen uit. <hi rend="ital">Dat</hi>
+                    <c type="kk">/</c> <lb n="186" xml:id="l-186"/>die manier van schilderen<c type="kk">/</c> is een heerlijk <lb n="187" xml:id="l-187"/>ding als men er achter is. En dat ik veel verlang <lb n="188" xml:id="l-188"/>te schilderen is juist wegens ik in mijn factuur <lb n="189" xml:id="l-189"/>iets vasts en – ofschoon ik menigeen hoorde <lb n="190" xml:id="l-190"/>zeggen<c type="kk">/</c> je moet geen systeem hebben – toch <lb n="191" xml:id="l-191"/>
+                    <hi rend="ital">heel graag</hi> iets systematisch wilde hebben. <lb n="192" xml:id="l-192"/>wat hij en meer anderen hebben. Uit uw <lb n="193" xml:id="l-193"/>beschrijving zie ik dat hij, Liebermann, <lb n="194" xml:id="l-194"/>veel van de manier van Herkomer moet <lb n="195" xml:id="l-195"/>hebben. vooral wegens consequent doorvoeren <lb n="196" xml:id="l-196"/>en <hi rend="ital">dat</hi> te analyseeren<c type="kk">/</c> die plekjes licht en <lb n="197" xml:id="l-197"/>donker veroorzaakt door zonnestralen <lb n="198" xml:id="l-198"/>door ’t gebladerte<c type="kk">/</c> waar menig oog op duizelt. <lb n="199" xml:id="l-199"/>Ik zag laatst de groote gravure n. Herkomer<c type="kk">/</c> <lb n="200" xml:id="l-200"/>
+                    <hi rend="ital">The last muster</hi> – gij hebt die zeker <lb n="201" xml:id="l-201"/>ook gezien – wat een mannelijkheid!–<anchor n="11" xml:id="note-o-11"/> <lb n="202" xml:id="l-202"/>De <hi rend="ital">Jules Breton</hi>
+                    <c type="kk">/</c> fille d’un mineur<c type="kk">/</c> <lb n="203" xml:id="l-203"/>zou ik erg graag zien<anchor n="12" xml:id="note-o-12"/> – er is te <lb n="204" xml:id="l-204"/>Courrières nog een steenkolen mijn<c type="kk">/</c> <lb n="205" xml:id="l-205"/>toen ik er op een regendag kwam<anchor n="13" xml:id="note-o-13"/> gingen <lb n="206" xml:id="l-206"/>juist de arbeiders terug door den modder<c type="kk">/</c> <lb n="207" xml:id="l-207"/>een karavaan als van schoorsteenvegers<c type="kk">/</c> <lb n="208" xml:id="l-208"/>een met een ouden kapotjas<anchor n="c" xml:id="note-o-c"/> om herinner ik me<c type="kk">/</c> de vrouwen <lb n="209" xml:id="l-209"/>echter (die ik zag ten minste) droegen geen mannen kleeren zoo <lb n="210" xml:id="l-210"/>als in de Borinage waar de “<hi rend="ital">loques de fosse</hi>” <lb n="211" xml:id="l-211"/>voor allen ’t zelfde zijn.</ab>
+<pb f="2v" n="7" xml:id="pb-orig-2v-7" facs="#zone-pb-2v-7"/>
+    <figure facs="zone-sketch-1" n="A"/>
+    <vg:whiteline/>
+    <lb n="212" xml:id="l-212"/>
+<ab>Nu kerel Uw <lb n="213" xml:id="l-213"/>brief zal weer <lb n="214" xml:id="l-214"/>welkom wezen<c type="kp">_</c> <lb n="215" xml:id="l-215"/>Schrijf in elk <lb n="216" xml:id="l-216"/>geval<c type="kk">/</c> indien ge <lb n="217" xml:id="l-217"/>dit ten minste <lb n="218" xml:id="l-218"/>nog niet reeds <lb n="219" xml:id="l-219"/>hebt gedaan<c type="kk">/</c> met <lb n="220" xml:id="l-220"/>een enkel woord <lb n="221" xml:id="l-221"/>aan C.M<c type="kp">_</c> dat ik <lb n="222" xml:id="l-222"/>
+                    <hi rend="ital">alleen</hi>
+                    <anchor n="14" xml:id="note-o-14"/> hier in <lb n="223" xml:id="l-223"/>Drenthe nu ben<c type="kk">/</c> <lb n="224" xml:id="l-224"/>en iets van de <lb n="225" xml:id="l-225"/>plannen<c type="kp">_</c> Doch <lb n="226" xml:id="l-226"/>antwoord hij daar <lb n="227" xml:id="l-227"/>niet op dan <lb n="228" xml:id="l-228"/>moet het dunkt <lb n="229" xml:id="l-229"/>me overgegeven <lb n="230" xml:id="l-230"/>worden.</ab>
+                <lb n="231" xml:id="l-231"/>
+<ab rend="indent">Dank voor al <lb n="232" xml:id="l-232"/>uw bemoeijingen<c type="kp">_</c> <lb n="233" xml:id="l-233"/>Het is dezen <lb n="234" xml:id="l-234"/>morgen fijn <lb n="235" xml:id="l-235"/>grijs weder<c type="kk">/</c> <lb n="236" xml:id="l-236"/>voor ’t eerst <lb n="237" xml:id="l-237"/>sedert ik hier <lb n="238" xml:id="l-238"/>ben geen zon <lb n="239" xml:id="l-239"/>en dat zal <lb n="240" xml:id="l-240"/>nog wel zoo <lb n="241" xml:id="l-241"/>mooi zijn<c type="kk">/</c> dus ik ga er op uit. De lui waar <lb n="242" xml:id="l-242"/>ik in de kost ben zijn heel best. de man is <lb n="243" xml:id="l-243"/>aan de spoor voor de goederen<c type="kk">/</c> een kerel <lb n="244" xml:id="l-244"/>die iets de Groux achtigs heeft<c type="kk">/</c> een gezigt dat soms <lb n="245" xml:id="l-245"/>den toon van roode kool heeft<c type="kk">/</c> een echte sjouwer<c type="kp">_</c> <lb n="246" xml:id="l-246"/>De vrouw heel werkzaam en netjes. 3 kinderen.<anchor n="15" xml:id="note-o-15"/> <lb n="247" xml:id="l-247"/>Ik krijg waarschijnlijk een achterzolder voor <lb n="248" xml:id="l-248"/>werkplaats. adieu broer<c type="kk">/</c> het beste<c type="kk">/</c>
+                </ab>
+                <lb n="249" xml:id="l-249"/>
+<ab>met een handdruk<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="250" xml:id="l-250"/>
+<ab>t. à t<c type="kp">_</c>
+                </ab>
+                <lb n="251" xml:id="l-251"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<pb f="2r" n="8" xml:id="pb-orig-2r-8" facs="#zone-pb-2r-8"/>
+                <lb n="252" xml:id="l-252"/>
+<ab>Ge weet het adres is</ab>
+                <lb n="253" xml:id="l-253"/>
+<ab>A. Hartsuiker</ab>
+                <lb n="254" xml:id="l-254"/>
+<ab>logementhouder</ab>
+                <lb n="255" xml:id="l-255"/>
+<ab>Hoogeveen.</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-8" n="8">&amp; &lt; <hi rend="ital">Reading uncertain due to an ink-blot.</hi>
+                    </note>
+<note target="l-34" n="34">opeen &lt; op een</note>
+<note target="l-65" n="65">handels- &lt; handels</note>
+<note target="l-93" n="93">goed – &lt; goed</note>
+<note target="l-163" n="163">later – &lt; later</note>
+<note target="l-174" n="174">bruinachtig – &lt; bruinachtig</note>
+<note target="l-189" n="189">en – &lt; en</note>
+<note target="l-209" n="209">(die <supplied>
+                            <hi rend="ital">...</hi>
+                        </supplied> minste) &lt; <hi rend="ital">Added later; parentheses added by us.</hi>
+                    </note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>Dear Theo,</ab>
+<ab>Your letter has just come, so I know that the post is working properly. I dropped you a line a couple of days ago to tell you a thing or two about the countryside here.<anchor n="1" xml:id="note-t-1"/> Everything is beautiful here, wherever one goes. The heath is much vaster than it is in Brabant, near Zundert or Etten at least — rather monotonous, particularly when it’s afternoon and the sun’s shining, and yet it’s that very effect, which I’ve already vainly tried to paint several times, that I shouldn’t want to miss. The sea isn’t always picturesque either, but one has to look at those moments and effects as well if one doesn’t want to deceive oneself as to its true character. Then — the heath is sometimes far from pleasant in the heat of midday. It’s as irritatingly tedious and fatiguing as the desert, just as inhospitable, and as it were hostile. Painting it in that blazing light and capturing the planes vanishing into infinity is something that makes one dizzy.<anchor n="2" xml:id="note-t-2"/> So one mustn’t think that it has to be conceived sentimentally; on the contrary it’s almost never that. That same irritatingly tedious spot — in the evening as a poor little figure moves through the twilight — when that vast, sun-scorched earth stands out dark against the delicate lilac tints of the evening sky, and the very last fine dark blue line on the horizon separates earth from sky — can be as sublime as in a <rs type="pers" key="986">J. Dupré</rs>. And it’s the same with the figures. The peasants and the women aren’t always interesting, but if one is patient one will nonetheless really see the whole <rs type="pers" key="1226">Millet</rs>-like quality.</ab>
+<ab rend="indent">Yesterday I came across one of the oddest churchyards I’ve ever seen<anchor n="3" xml:id="note-t-3"/> — imagine a patch of heath with a hedge of small, closely planted pines around it — so that one would think that it was an ordinary little pine-wood.
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">However, there’s an entrance — a short avenue and then one comes upon a number of graves overgrown with bent-grass and heather. Many of them marked with white posts bearing the names.</ab>
+<ab rend="indent">I’m sending you a croquis of it after the study that I painted of it.<anchor n="4" xml:id="note-t-4"/>
+                </ab>
+<ab rend="indent">I’m working on another study of a red sun between little birches standing in a marshy meadow from which the white evening mist rises; above this one can just see a blue-grey line of trees and a few roofs on the horizon.<anchor n="5" xml:id="note-t-5"/>
+                </ab>
+<ab rend="indent">It’s certainly a pity that you’ve still heard nothing from <rs type="pers" key="422">C.M.</rs> Obviously he doesn’t <hi rend="ital">have</hi> to do anything, but I think that his never sending a single word in reply is rather rude. But understand one thing clearly — it increasingly appears to me that we’re living in an age when things have become somewhat confused<anchor n="6" xml:id="note-t-6"/> (I think that that should be enormously rather than somewhat, but I don’t want to force this opinion on you). As to C.M., like many other people he would be very polite to a stranger, but one only hates one’s friends,<anchor n="7" xml:id="note-t-7"/> and having lost himself rather in focusing his attention on the ebb and flow of commerce and art dealing, he’s so engrossed in fundamentally very abstract things that something that’s very natural, namely that I’ve spoken to him and still speak to him about my affairs, is as disagreeable to him as an open door letting in a draught, because his thoughts are very, very far away — always — and he knows no better than to get himself out of it rather rudely if necessary, just as one slams the draughty door shut.
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/>
+                </ab>
+      <ab rend="indent">You will say, this presumes that he’s rather insensitive. Well, I most certainly do presume that, although I don’t doubt that he really <hi rend="ital">can</hi> be very obliging, at least provided he <hi rend="ital">has gathered his thoughts together</hi>, and in my case he has <hi rend="ital">not</hi>, all the more so because he appears to have certain fixed opinions about me that I don’t believe I may endeavour to dispel. When I write to him it’s in a tone that resounds with, ‘I’m a bad lot, am I not, well then, I don’t say that this is so, but I leave you to believe what you believe, and I say only what I might say if everything was as you suppose’. You will say that this tone is really rather dry — very well — it still makes sense to adopt this tone to some people. If they then don’t even read the few words that one writes to them once a year, if even that’s too much for them — well — so be it — I shan’t resort to any other means though, because I don’t want there to be <hi rend="ital">even the appearance </hi>of insistence.</ab>
+<ab rend="indent">And if <rs type="pers" key="422">C.M.</rs> didn’t answer me, I can if need be understand that in so far as I say, oh well, it’s as it is and nothing more. Make no mistake — if C.M. does <hi rend="ital">not</hi> reply to <hi rend="ital">you </hi>though, then <hi rend="ital">I</hi> really will hold <hi rend="ital">that</hi> against C.M., being an insult to <hi rend="ital">you</hi> (to whom he should behave otherwise). And <hi rend="ital">then</hi> he’ll fall a very long way in my estimation — nothing more than that.
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/>
+                </ab>
+<ab rend="indent">I hope to be able to send you studies from here before too long, when I’ve got a few together. And give it some thought, perhaps some of them might be something for Wisselingh.</ab>
+<ab rend="indent">I’m running out of money again, though, and I had actually hoped to be able to lay in some more paint and some tools. But there — we have to cut our coat according to our cloth, although it’s a great shame that there isn’t a little more cloth. That too may be put to rights by continuing to work patiently, and at least it isn’t entirely dependent on <rs type="pers" key="422">C.M.</rs> Only I’m very glad that I’m here because, old chap, it is rich here.</ab>
+<ab rend="indent">Yes, I would wish the same for you. I’m really longing to hear something more from you about the <rs type="pers" key="508">woman</rs>. Perhaps I understand some things a little, but this one thing above all: I trust and know that you’ve done right by her. As to doing right, our circumstances sometimes make us something other than we would be if there was nothing obstructing our will. As for myself, I would rather have stayed with the <rs type="pers" key="463">woman</rs>, although it would have been twice as hard, but as far as I could tell it was impossible in the circumstances.</ab>
+<ab rend="indent">And the way things are, each time I still see <rs type="pers" key="463">her</rs> in my imagination as a phantom, it’s not as a reproachful one, but I’m only sad that I didn’t have the means to behave towards her as I’d have wished. Times are hard, and you will have your share of it.
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/>
+                </ab>
+<ab rend="indent">When I came here I had a number of half-used tubes of paint with me and a few new ones, enough for 6 studies or so, but certainly no more. So I’ll immediately send for something or other with the next money, again for some studies.<anchor n="8" xml:id="note-t-8"/> Otherwise I’m drawing, but you know very well that painting must be the main thing as far as possible. I don’t know what it’s like changing money here. If necessary, if I can’t do it here, I could get it changed in Assen or somewhere, but should you be in a position, for the first two occasions, say — until I know more about how things are here and also have found an office in Assen, where I haven’t yet been — so for the first two occasions could you send, for example, Dutch money or a postal order, that would be good, because otherwise I might not be able to get by. I hope you’ll be able to send something by the 20th — no later — because I paid the people for a week as soon as I got here, so that will be up then and I’ll have to pay again.</ab>
+<ab rend="indent">You’ll find the croquis of the little churchyard on the back. The colour there is quite singular. It’s a beautiful sight to see the real heather on the graves, the scent of turpentine<anchor n="9" xml:id="note-t-9"/> has something mystical about it. The dark band of pines that encloses it separates a shimmering sky from the rough ground, which is generally a reddish colour — <hi rend="ital">tawny</hi> — brownish — yellowish, but with lilac tints everywhere. It wasn’t easy to paint; I’ll carry on looking for other effects in it. In the snow, for example, it must be very singular.
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/>
+                </ab>
+<ab rend="indent">I had already heard something about <rs type="pers" key="1181">Liebermann</rs>, but your description of his brushwork, in particular, is more enlightening.<anchor n="10" xml:id="note-t-10"/> His colour must be <hi rend="ital">infinitely</hi> better than <rs type="pers" key="1083">Henkes</rs>’s (you put it very well, ‘the colour of slate with transitions to grey-yellow and grey-brown’). I understand it perfectly. <hi rend="ital">That</hi>, that manner of painting, is wonderful once one has got the hang of it. And the fact that I want to paint a great deal is precisely because I <hi rend="ital">very much</hi> want to have something constant and systematic in my brushwork — although I’ve heard many people say that you mustn’t have a system — which he and several others have. I see from your description that he, Liebermann, must work much in <rs type="pers" key="1080">Herkomer</rs>’s manner, mainly because of consistently carrying through, and analyzing <hi rend="ital">that</hi>, those patches of light and shade caused by sunbeams through the foliage, which dazzles many an eye. I recently saw the large engraving after Herkomer, <hi rend="ital">The last muster</hi> — you must have seen it too — what virility!<anchor n="11" xml:id="note-t-11"/> I’d very much like to see the <hi rend="ital">
+                        <rs type="pers" key="899">Jules Breton</rs>
+                    </hi>, A miner’s daughter<anchor n="12" xml:id="note-t-12"/>
+                    <hi rend="ital"> </hi>— there’s still a coal-mine in Courrières; when I went there on a rainy day<anchor n="13" xml:id="note-t-13"/> the labourers were just going back through the mud, like a caravan of chimney-sweeps, one with an old capote on, I remember; the women, though (at least those that I saw) didn’t wear men’s clothes like they do in the Borinage, where the ‘<hi rend="ital">pit rags</hi>’ are the same for all.</ab>
+<ab>
+<pb f="2v" n="7" xml:id="pb-trans-2v-7" facs="#zone-pb-2v-7"/>
+                </ab>
+    <ab>
+                    <figure facs="zone-sketch-1" n="A"/>
+                </ab>
+    <vg:whiteline/>
+    <ab>Well, old chap, your letter will be welcome again. Write just a word to <rs type="pers" key="422">C.M.</rs> in any event, at least if you haven’t already done so, that I’m now here in Drenthe <hi rend="ital">alone</hi>
+                    <anchor n="14" xml:id="note-t-14"/>, and tell him something of the plans. But if he doesn’t reply to that, then I think it has to be abandoned.</ab>
+<ab rend="indent">Thanks for all your efforts. It’s fine, grey weather this morning; no sun for the first time since I got here, and that will surely be just as beautiful, so I’m going to set out. The people I’m lodging with are very good. The <rs type="pers" key="452">man</rs> works on the freight railway, a fellow with something <rs type="pers" key="1063">Degroux</rs>-like about him, a face that sometimes takes on the colour of red cabbage, a real workhorse. The <rs type="pers" key="453">woman</rs> very industrious and tidy. 3 <rs type="pers" key="104 105 106">children</rs>.<anchor n="15" xml:id="note-t-15"/> I’ll probably get a back attic as a studio. Adieu, brother, my best wishes, with a handshake.</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<ab>
+<pb f="2r" n="8" xml:id="pb-trans-2r-8" facs="#zone-pb-2r-8"/>
+                </ab>
+<ab>You know the address is</ab>
+<ab>
+                    <rs type="pers" key="452">A. Hartsuiker</rs>
+                </ab>
+      <ab>lodging-house keeper</ab>
+<ab>Hoogeveen.</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>This was <ref target="let386.xml">letter 386</ref>.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>Van Gogh added the sentence ‘Painting in ... one dizzy’ later.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>Tralbaut thought that it was the cemetery of the village of Pesse, to the north of the Dutch Reformed Church (Tralbaut 1959); this was accepted by later researchers, in part on the basis of the church spire. Metselaar, on the other hand, believed that it was the churchyard in Hollandscheveld, a hamlet near Hoogeveen, on the grounds of aspects of the position, the moorland inside the churchyard itself, the little avenue Van Gogh refers to and the pine trees. See Metselaar 2000, and (also for the debate) Dijk and Van der Sluis 2001, pp. 119-122.</ab>
+                </note>
+<note n="a" xml:id="n-a" target="#note-o-a">
+<ab>This is a type of grass (also known as bent).</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>The painting of the churchyard after which the letter sketch <hi rend="ital">Churchyard</hi> (<rs type="sketch" key="108">F - / JH 396</rs>) was made is unknown.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>This painting of a landscape in the evening is not known.</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>Probably a reference to <rs type="pers" key="735">William Shakespeare</rs>, <hi rend="ital">
+                            <rs type="lit" key="354">Hamlet</rs>
+                        </hi>, act 1, scene 5: ‘The time is out of joint’, since Van Gogh alluded to this expression not long after this: <ref target="let393.xml#n-9">see letter 393, n. 9</ref>
+                    </ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>This expression occurs in <rs type="pers" key="607">Théophile Gautier</rs>, <hi rend="ital">
+                            <rs type="lit" key="355">Fortunio</rs>
+                        </hi> (1838), chapter 15, where Fortunio says: ‘I hate only my friends and I should feel quite inclined toward philanthropy if men were monkeys’ (Je ne hais que mes amis et me sentirais assez porté à la philanthropie si les hommes étaient des singes). See Théophile Gautier, <hi rend="ital">Fortunio et autres Nouvelles</hi>. Ed. Anne Bouchard. Lausanne 1977, p. 91. It is not known whether Van Gogh was familiar with this novel.</ab>
+                </note>
+<note n="b" xml:id="n-b" target="#note-o-b">
+<ab>Means: ‘well-mannered, considerate’.</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>Van Gogh continued to deal with the two suppliers in The Hague, <rs type="pers" key="491">Leurs</rs> and <rs type="pers" key="370">Furnée</rs>, not only in Drenthe but when he was in Nuenen too.</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>Van Gogh must have meant the scent of the pine trees; turpentine is made from pine tree resin.</ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+      <ab>Theo must have written about <rs type="pers" key="1181">Liebermann</rs>’s <hi rend="ital">
+                            <rs type="ill" key="1063">Die grosse Bleiche – Die Rasenbleiche</rs>
+                        </hi> (Bleaching field at Zweeloo), which was exhibited at the 1883 Salon as <hi rend="ital">La blanchisserie de Zweeloo</hi> (Hollande). See <ref target="let402.xml#n-1">letter 402, n.1</ref>.</ab>
+                </note>
+      <note n="11" xml:id="n-11" target="#note-t-11">
+<ab>See for <rs type="pers" key="1080">Herkomer</rs>’s <hi rend="ital">
+                            <rs type="ill" key="171">The last muster</rs>
+                        </hi>: <ref target="let199.xml#n-12">letter 199, n. 12.</ref>
+                    </ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+<ab>
+                        <rs type="pers" key="899">Jules Breton</rs>, <hi rend="ital">Fille de mineur </hi>(Miner’s daughter) (present whereabouts unknown) <rs type="ill" key="2116">Ill. 2116</rs>, hung at the ‘Exposition Triennale’ (Triennial Exhibition) which ran from 15 September to 31 October 1883. Theo must have seen the painting there and written about it. Shortly afterwards Vincent asked about the exhibition (<ref target="let395.xml#n-6">see letter 395, n. 6</ref>).</ab>
+                </note>
+<note n="13" xml:id="n-13" target="#note-t-13">
+<ab>Van Gogh visited the village of Courrières in Northern France in the winter of 1879-1880; <ref target="let158.xml">see letter 158</ref>.</ab>
+                </note>
+<note n="c" xml:id="n-c" target="#note-o-c">
+<ab>Means: ‘a long overcoat’.</ab>
+                </note>
+<note n="14" xml:id="n-14" target="#note-t-14">
+<ab>Van Gogh underlined ‘alone’ to stress that he was now living apart from <rs type="pers" key="463">Sien</rs>.</ab>
+                </note>
+<note n="15" xml:id="n-15" target="#note-t-15">
+<ab>
+                        <rs type="pers" key="452">Albertus Hartsuiker</rs> marrried <rs type="pers" key="453">Fennigje(n) Veen</rs> in 1860, and married again on 22 February 1873. By 1883 Albertus and his second wife <rs type="pers" key="454">Catharina Beukema</rs> had three children: <rs type="pers" key="104">Catharina Geertruida</rs>, <rs type="pers" key="105">Hilbertus</rs> and <rs type="pers" key="106">Adrianus</rs>. Hartsuiker sustained injuries to his face in 1874 when the house he owned at that time burnt down. This may explain Van Gogh’s description of his remarkably red complexion. Cf. Dijk and Van der Sluis 2001, pp. 83-85.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

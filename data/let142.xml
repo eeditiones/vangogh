@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Amsterdam, Sunday, 3 March 1878.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let142"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">142</idno>
+<idno type="collectedletters">120</idno>
+<idno type="brieven1990">141</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Amsterdam</vg:placeLet>
+                        <vg:dateLet>Sunday, 3 March 1878</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. Amsterdam, Sunday, 3 March 1878.</p>
+<note type="ongoingTopic" n="1">
+<p>Christoffel Vos’s illness <ref target="let131.xml">(131)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b140 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Letter headed: ‘Amsterdam 3 Maart 1878’.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0140" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000148_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000148_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000148_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000148_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000148_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000148_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0140" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000148_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000148_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000148_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000148_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000148_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000148_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Amsterdam 3 Maart 1878</ab>
+<vg:whiteline/>
+                <lb n="2" xml:id="l-2"/>
+<ab>Waarde Theo,</ab>
+                <lb n="3" xml:id="l-3"/>
+<ab>Het is tijd om U weer eens te schrijven, wat zou ik vandaag graag eens bij U zijn <lb n="4" xml:id="l-4"/>geweest, ’t was hier zulk mooi weer en men voelt dat het lente wordt.</ab>
+                <lb n="5" xml:id="l-5"/>
+<ab rend="indent">Buiten zou men waarschijnlijk wel een leeuwerik hebben kunnen hooren, <lb n="6" xml:id="l-6"/>maar in de stad gaat dat moeielijk tenzij men dan de klanken van de leeuwrikkenstem <lb n="7" xml:id="l-7"/>opmerkt in de stem van den een of anderen ouden dominé wiens woorden komen <lb n="8" xml:id="l-8"/>uit een hart dat even als dat van een leeuwerik is gestemd<c type="kp">_</c>
+                </ab>
+                <lb n="9" xml:id="l-9"/>
+<ab rend="indent">Hoorde D<hi rend="ss">s</hi> Laurillard van morgen die in de Oude Zijds Kapel preekte,<anchor n="1" xml:id="note-o-1"/> Oom Stricker <lb n="10" xml:id="l-10"/>was daar ook in de kerk en bij dien dronk ik koffij, Oom Jan was van <lb n="11" xml:id="l-11"/>morgen naar ’t Nieuwe Diep, maar is nu weer terug. Toen nog naar eene <lb n="12" xml:id="l-12"/>Zondagschool in de Barnde steeg en toen de buitencingels<anchor n="2" xml:id="note-o-2"/> omgewandeld <lb n="13" xml:id="l-13"/>en gaandeweg nog drie roomsche kerken bezocht.</ab>
+                <lb n="14" xml:id="l-14"/>
+<ab rend="indent">Was gisterenavond bij Vos die maar min is, ’t is zoo’n treurig gezicht om hem met de <lb n="15" xml:id="l-15"/>voeten op eene stoof<c type="kk">/</c> daar hij last van koude voeten heeft<c type="kk">/</c> voor ’t raam te zien zitten turen <lb n="16" xml:id="l-16"/>met zijn diepe oogen<c type="kp">_</c> Kee is ook zoo bleek en ziet zoo vermoeid, ging van daar nog eens <lb n="17" xml:id="l-17"/>bij Oom Cor aan, die heeft de zaal op nieuw laten behangen en een nieuw grijs kleed op den <lb n="18" xml:id="l-18"/>vloer laten leggen<c type="kk">/</c> nu komen die mooie kasten waarin de heele Gazette des Beaux Arts enz<c type="kp">_</c> staan <lb n="19" xml:id="l-19"/>in roode banden beter uit dan vroeger. Oom vertelde mij dat Daubigny is gestorven<c type="kk">/</c>
+                    <anchor n="3" xml:id="note-o-3"/> <lb n="20" xml:id="l-20"/>ik werd er, wil ik gerust bekennen, bedroefd om toen ik het hoorde evenals toen ik hoorde <lb n="21" xml:id="l-21"/>dat Brion gestorven was<anchor n="4" xml:id="note-o-4"/> (zijn Bénédicité<anchor n="5" xml:id="note-o-5"/> hangt op mijn kamer) want het werk van zulken, indien <lb n="22" xml:id="l-22"/>men het begrijpt<c type="kk">/</c> treft dieper dan men zich zelf is bewust, ’t moet toch goed zijn als <lb n="23" xml:id="l-23"/>men sterft de bewustheid te hebben van ’t een of ander te hebben gedaan dat in waarheid <lb n="24" xml:id="l-24"/>was en te weten dat men daardoor in de gedachtenis van eenigen ten minste zal blijven <lb n="25" xml:id="l-25"/>leven<c type="kk">/</c> en aan die volgen een goed voorbeeld te hebben nagelaten. Een werk <lb n="26" xml:id="l-26"/>dat goed is<anchor n="6" xml:id="note-o-6"/> ─ ’t blijft wel niet in eeuwigheid maar de gedachte er in uitgedrukt wel <lb n="27" xml:id="l-27"/>en het werk zelf blijft dan toch vrij zeker zeer lang bestaan en indien er <lb n="28" xml:id="l-28"/>later anderen opstaan dan kunnen zij niet beter doen dan de voetstappen <lb n="29" xml:id="l-29"/>van zulke voorgangers te drukken en het dergelijk te doen.</ab>
+                <lb n="30" xml:id="l-30"/>
+<ab rend="indent">Van een goed werk gesproken<c type="kk">/</c> zoudt Gij gevoel hebben voor een vlaamsche <lb n="31" xml:id="l-31"/>navolging van Christus, die hoop ik U binnen kort te sturen<c type="kk">/</c> een klein boekske <lb n="32" xml:id="l-32"/>dat men desnoods gemakkelijk in den zak kan steken.<anchor n="7" xml:id="note-o-7"/>
+                </ab>
+                <lb n="33" xml:id="l-33"/>
+<ab rend="indent">Toen Oom mij vertelde van Daubigny kwamen mij zijne etsen naar Ruysdael<c type="kk">/</c> Le buisson en le Coup de soleil<anchor n="8" xml:id="note-o-8"/> in de gedachten <lb n="34" xml:id="l-34"/>en hij heeft beloofd die eens te laten komen daar hij ze in het geheel niet kende.</ab>
+                <lb n="35" xml:id="l-35"/>
+<ab rend="indent">Ben ll. Maandag avond bij D<hi rend="ss">s</hi> Gagnebin geweest en heb ook zijne vrouw en dochter <lb n="36" xml:id="l-36"/>gezien<anchor n="9" xml:id="note-o-9"/> en ook op zijne studeerkamer geweest waar ik tot zoowat 11 uur toe met Hem gesproken heb<c type="kp">_</c>
+                </ab>
+                <lb n="37" xml:id="l-37"/>
+<ab rend="indent">Hij zeide o.a. qu’à certains temps de sa vie il s’était bien trouvé en s’oubliant entièrement <lb n="38" xml:id="l-38"/>et en se jetant dans le travail sans arrière pensée, qu’alors il avait fait beaucoup et s’était <lb n="39" xml:id="l-39"/>retrouvé plus tard fortifié et avancé dans ce qu’il s’était proposé et éclairé dans <lb n="40" xml:id="l-40"/>son esprit. Que cependant, même maintenant, personne n’en savait rien combien ses sermons lui coûtaient de peine<c type="kp">_</c>
+                </ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="42" xml:id="l-42"/>
+<ab rend="indent">Heb de vaderl. geschiedenis doorgewerkt en er een uittreksel van 30 pag<c type="kp">_</c> digt in elkaar geschreven van <lb n="43" xml:id="l-43"/>gemaakt.<lb n="43a" xml:id="l-43a"/> (Ik was blij daarin den slag bij Waterloo<anchor n="10" xml:id="note-o-10"/> en den 10daagschen veldtogt<anchor n="11" xml:id="note-o-11"/> weer eens te ontmoeten<c type="kp">_</c>) <lb n="43"/>Weet Gij dat Rochussen eens het beleg van Leiden heeft geschilderd<c type="kk">/</c>
+                    <anchor n="12" xml:id="note-o-12"/>
+                    <lb n="44" xml:id="l-44"/> het schilderij hoort meen ik van den Hr de Vos.<anchor n="13" xml:id="note-o-13"/> Ben nu ook aan de algemeene gesch. bezig<c type="kp">_</c> <lb n="45" xml:id="l-45"/>Ik verlang er niet weinig naar dat Gij weer eens komt, doe toch Uw best om zoo lang <lb n="46" xml:id="l-46"/>mogelijk hier te blijven. En als gij kunt schrijf weer eens spoedig want weet <lb n="47" xml:id="l-47"/>toch Gij mij daar altijd zoo veel vreugde door geeft<c type="kp">_</c>
+                </ab>
+                <lb n="48" xml:id="l-48"/>
+<ab rend="indent">Hebt Gij iets moois gelezen in den laatsten tijd? Zorg toch dat Gij <lb n="49" xml:id="l-49"/>op de een of andere manier de boeken van Eliot eens te lezen <lb n="50" xml:id="l-50"/>krijgt<c type="kk">/</c> Gij zult daar geen spijt van hebben, <hi rend="ital">Adam Bede</hi>, <hi rend="ital">Silas</hi> <lb n="51" xml:id="l-51"/>
+                    <hi rend="ital">Marner</hi>, Felix Holt, Romola (Savonarola’s geschiedenis)<c type="kk">/</c> <hi rend="ital">Scenes from</hi> <lb n="52" xml:id="l-52"/>
+                    <hi rend="ital">Clerical life</hi>.<anchor n="14" xml:id="note-o-14"/> Gij weet wij gaven de 3 onderstreepten aan Pa op <lb n="53" xml:id="l-53"/>Zijn verjaardag verleden jaar.<anchor n="15" xml:id="note-o-15"/>
+                </ab>
+                <lb n="54" xml:id="l-54"/>
+<ab rend="indent">Als ik weer eens tijd om te lezen krijg dan lees ik ze nog eens op nieuw<c type="kp">_</c> <lb n="55" xml:id="l-55"/>Beiden D<hi rend="ss">s</hi> M<hi rend="ss">c</hi> Farlane en Adler spraken mij er nog over<c type="kk">/</c> dat <lb n="56" xml:id="l-56"/>zij mij n.l. aanraadden ze te lezen.</ab>
+                <lb n="57" xml:id="l-57"/>
+<ab rend="indent">Schreef nog aan Harry Gladwell deze week, daar hij niet antwoordde <lb n="58" xml:id="l-58"/>op mijn laatsten brief en ik zoo gaarne wilde weten wat hij doet en <lb n="59" xml:id="l-59"/>wat hij voornemens is verder te doen.─</ab>
+                <lb n="60" xml:id="l-60"/>
+<ab rend="indent">Ik heb nog steeds hoop er een predikant uit hem zal worden en indien dat <lb n="61" xml:id="l-61"/>zoo gebeurt dan zal hij het goed doen<c type="kk">/</c> daarvan ben ik overtuigd <lb n="62" xml:id="l-62"/>maar ’t zou geen gemakkelijke zaak voor hem zijn om het uit te voeren<c type="kp">_</c>
+                    <anchor n="16" xml:id="note-o-16"/>
+                </ab>
+                <lb n="63" xml:id="l-63"/>
+<ab rend="indent">Hebt Gij ooit gezien eene ets van Millet zelf<c type="kk">/</c> een man die mest op een kruiwagen <lb n="64" xml:id="l-64"/>in een tuin brengt op een dag zoo als heden in ’t begin van de lente,<anchor n="17" xml:id="note-o-17"/> en onthoud <lb n="65" xml:id="l-65"/>ook dat hij heeft gemaakt eene ets “<hi rend="ital">les bêcheurs</hi>”<c type="kk">/</c>
+                    <anchor n="18" xml:id="note-o-18"/> als Gij die ooit tegenkomt zult Gij <lb n="66" xml:id="l-66"/>die niet ligt weer vergeten. Dacht heden aan die eerste toen vanmorgen <lb n="67" xml:id="l-67"/>Oom Stricker zocht naar teksten waarin het woord mest voorkomt, o.a<c type="kp">_</c>
+                    <c type="kk">/</c> <lb n="68" xml:id="l-68"/>laat hem ook nog dit jaar totdat ik om hem zal gegraven en mest zal gelegd hebben.<anchor n="19" xml:id="note-o-19"/>
+                </ab>
+                <lb n="69" xml:id="l-69"/>
+<ab rend="indent">Maakte onlangs nog eene lijst van de schilderijen van Brion die ik mij <lb n="70" xml:id="l-70"/>kon herinneren<c type="kk">/</c> als gij hier komt moet gij eens zeggen of ik er veel heb <lb n="71" xml:id="l-71"/>vergeten<c type="kp">_</c>─ Lord keep my memory green!<anchor n="20" xml:id="note-o-20"/> dat moet men telkens weer <lb n="72" xml:id="l-72"/>zeggen.</ab>
+                <lb n="73" xml:id="l-73"/>
+<ab rend="indent">Was ll. Zondag avond bij neef Vrijdag in de Houttuinen, daar zijn nog 7 <lb n="74" xml:id="l-74"/>kinderen t’huis, ’t was er een aardig kringetje, de meesten zijn <lb n="75" xml:id="l-75"/>nog zeer jong.<anchor n="21" xml:id="note-o-21"/>
+                </ab>
+                <lb n="76" xml:id="l-76"/>
+<ab rend="indent">Zoudt Gij toch niet wat vooruit kunnen opgeven wanneer Gij komt<c type="kk">/</c> <lb n="77" xml:id="l-77"/>dan reken ik er op door wat vooruit te werken zoodat wij nog wat <lb n="78" xml:id="l-78"/>zamen kunnen zijn, à Dieu<c type="kk">/</c> een handdruk in gedachten en geloof mij </ab>
+<vg:whiteline/>
+                <lb n="79" xml:id="l-79"/>
+<ab>Uw liefh. broer</ab>
+                <lb n="80" xml:id="l-80"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+                <lb n="81" xml:id="l-81"/>
+<ab>Oom Jan laat u groeten<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="41" xml:id="l-41"/>
+<ab>Zeg Uwe huisgenooten voor mij goedendag.─</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-61" n="61">overtuigd &lt; ovetuigd</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>Amsterdam, 3 March 1878</ab>
+<vg:whiteline/>
+<ab>My dear Theo,</ab>
+<ab>It’s time to write to you again, how I should like to have been with you today, it was such beautiful weather here, and one feels that spring is coming.</ab>
+<ab rend="indent">In the country one would probably have been able to hear a lark, but that’s difficult in the city, unless one notices the sounds of the lark’s song in the voice of some old minister whose words come from a heart tuned like a lark’s.</ab>
+<ab rend="indent">Heard the <rs type="pers" key="53">Rev. Laurillard</rs> this morning, preaching in the Oudezijdskapel,<anchor n="1" xml:id="note-t-1"/> <rs type="pers" key="318">Uncle Stricker</rs> was in that church too, and I had coffee with him. <rs type="pers" key="410">Uncle Jan</rs> went this morning to ’t Nieuwe Diep, but has come back again. Then to a Sunday school in Barndesteeg, and then walked around the outer canals,<anchor n="2" xml:id="note-t-2"/> visiting three Roman Catholic churches along the way.</ab>
+<ab rend="indent">Went yesterday to see <rs type="pers" key="806">Vos</rs> who is but poorly, it’s such a sad sight, seeing him sitting with his feet on a stove, for he’s troubled by cold feet, staring out the window with his hollow eyes. <rs type="pers" key="776">Kee</rs> is just as pale and looks so tired, went from there to <rs type="pers" key="422">Uncle Cor</rs>’s again, he’s had the gallery newly wallpapered and a new grey carpet laid on the floor, now those beautiful cupboards containing the whole Gazette des Beaux-Arts etc. in red volumes stand out better than before. Uncle told me that <rs type="pers" key="976">Daubigny</rs> has died,<anchor n="3" xml:id="note-t-3"/> I freely admit that it made me sad to hear it, just as it did to hear that <rs type="pers" key="891">Brion</rs> had died<anchor n="4" xml:id="note-t-4"/> (his Saying grace<anchor n="5" xml:id="note-t-5"/> is hanging in my room), because the work of such men, if one understands it, moves one more deeply than one is aware of, it must be truly good, when one dies, to be conscious of having done a thing or two in truth, knowing that as a result one will continue to live in the memory of at least a few, and having left a good example to those who follow. A work that is good<anchor n="6" xml:id="note-t-6"/> — it can hardly last for eternity but the idea expressed in it can, and the work itself almost certainly continues to exist for a long time and, if others appear later, they can do no better than to follow in the footsteps of such predecessors and to do it the same way.</ab>
+<ab rend="indent">Speaking of a good work, would you care to have a Flemish Imitation of Christ? I hope to send it to you shortly, a little book that one can easily put in one’s pocket if necessary.<anchor n="7" xml:id="note-t-7"/>
+                </ab>
+<ab rend="indent">When <rs type="pers" key="422">Uncle</rs> told me about <rs type="pers" key="976">Daubigny</rs>, his etchings after <rs type="pers" key="1333">Ruisdael</rs>, The bush and The ray of sunlight, came to mind, and he promised to send for them sometime,<anchor n="8" xml:id="note-t-8"/> since he didn’t know them at all.</ab>
+<ab rend="indent">Was at the <rs type="pers" key="385">Rev. Gagnebin</rs>’s last Monday evening and also saw <rs type="pers" key="386">his wife</rs> and <rs type="pers" key="78">daughter</rs>,<anchor n="9" xml:id="note-t-9"/> and was also in his study, where I talked to him until about 11 o’clock.</ab>
+<ab rend="indent">He said, among other things, that at certain times in his life he had benefited from forgetting himself altogether and throwing himself into work without a second thought; that he had done a lot then and had later found himself stronger and more advanced in what he intended to do and clear in his mind. That nevertheless, even now, nobody had any idea how much effort his sermons cost him. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">Have worked my way through the history of the Netherlands and made an extract of 30 pages, closely written. (I was pleased to come across the Battle of Waterloo<anchor n="10" xml:id="note-t-10"/> and the 10-day campaign<anchor n="11" xml:id="note-t-11"/> again.) Did you know that <rs type="pers" key="1320">Rochussen</rs> once painted the siege of Leiden?<anchor n="12" xml:id="note-t-12"/> The painting belongs, I think, to <rs type="pers" key="808">Mr de Vos</rs>.<anchor n="13" xml:id="note-t-13"/> Am now working on general history as well. I really long for you to come here again, be sure and do your best to stay as long as possible. And write again soon if you can, for you must know that you always give me so much joy by doing so.</ab>
+<ab rend="indent">Have you read anything beautiful lately? Do make sure somehow to get hold of and read the books by <rs type="pers" key="590">Eliot</rs>, you won’t be sorry, <hi rend="ital">Adam Bede, Silas Marner</hi>, Felix Holt, Romola (Savonarola’s story), <hi rend="ital">Scenes of clerical life</hi>.<anchor n="14" xml:id="note-t-14"/> You know we gave the 3 underlined ones to <rs type="pers" key="526">Pa</rs> on his birthday last year.<anchor n="15" xml:id="note-t-15"/>
+                </ab>
+<ab rend="indent">When I get the time for reading, I’ll read them again. Both the <rs type="pers" key="280">Rev. Macfarlane</rs> and the <rs type="pers" key="251">Rev. Adler</rs> spoke to me about them, i.e. advised me to read them.</ab>
+<ab rend="indent">Wrote to <rs type="pers" key="394">Harry Gladwell</rs> again this week, since he didn’t answer my last letter and I wanted so much to know what he’s doing and what he’s planning to do.</ab>
+<ab rend="indent">I still have hopes of his becoming a minister, and if that happens he’ll do it well, of that I’m convinced, but it would be no easy thing for him to carry it off.<anchor n="16" xml:id="note-t-16"/>
+                </ab>
+<ab rend="indent">Have you ever seen an etching by <rs type="pers" key="1226">Millet</rs> himself, a man pushing a wheelbarrow of dung into a garden on a day like today in early spring?<anchor n="17" xml:id="note-t-17"/> And don’t forget that he also made the etching ‘<hi rend="ital">The diggers</hi>’,<anchor n="18" xml:id="note-t-18"/> if you ever run into it you won’t easily forget it. Thought today of the former, this morning when <rs type="pers" key="318">Uncle Stricker</rs> was looking for texts in which the word dung occurs, one of which is ‘let it alone this year also, till I shall dig about it, and dung it’.<anchor n="19" xml:id="note-t-19"/>
+                </ab>
+<ab rend="indent">Recently made a list of the paintings by <rs type="pers" key="891">Brion</rs> that I could remember, next time you come you must tell me whether I’ve forgotten many. Lord keep my memory green!<anchor n="20" xml:id="note-t-20"/> One must say that over and over again.</ab>
+<ab rend="indent">Was last Sunday evening at cousin <rs type="pers" key="809">Vrijdag</rs>’s in Houttuinen, there are still 7 children at home, it was a pleasant little circle, most of them are still very young.<anchor n="21" xml:id="note-t-21"/>
+                </ab>
+<ab rend="indent">Couldn’t you say a bit in advance when you’ll be coming? I’ll count on it, then, by working ahead a little so we can spend some time together. Adieu, a handshake in thought, and believe me</ab>
+<vg:whiteline/>
+<ab>Your loving brother</ab>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<ab>
+                    <rs type="pers" key="410">Uncle Jan</rs> sends you his regards.</ab>
+<vg:whiteline/>
+<ab>Bid your housemates good-day from me. </ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>
+                        <rs type="pers" key="53">Laurillard</rs> preached on Sunday, 3 March 1878 at 10 a.m. in the Oudezijdskapel.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>The canals encircling what was then the old part of Amsterdam (now Nassaukade, Stadhouderskade and Mauritskade).</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>
+                        <rs type="pers" key="976">Charles-François Daubigny</rs> died on 19 February 1878 in Paris.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>For the death of <rs type="pers" key="891">Brion</rs>, <ref target="let135.xml#n-32">see letter 135, n. 32.</ref>
+                    </ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>An engraving <hi rend="ital">Le bénédicité</hi> by <rs type="pers" key="1511">Joel Ballin</rs> after <rs type="pers" key="891">Gustave Brion</rs>’s <hi rend="ital">Saying grace</hi> was published in 1862 by Goupil &amp; Cie in the ‘Musée Goupil’ series (Bordeaux, Musée Goupil). <rs type="ill" key="643">Ill. 643</rs>.</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>Biblical; cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Eph" chap="4" v="28">Eph. 4:28</bibleref>.</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>Van Gogh must mean that he had a translation, published in Flanders, of <rs type="pers" key="679">Thomas a Kempis</rs>’s <rs type="lit" key="35">
+                            <hi rend="ital">De imitatione Christi</hi>
+                        </rs> for Theo; it cannot be ascertained which one, since various versions were available.</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>For <rs type="pers" key="976">Daubigny</rs>’s print after <rs type="pers" key="1333">Ruisdael</rs>’s <rs type="ill" key="1717">
+                            <hi rend="ital">The bush</hi>
+                        </rs>, <ref target="let035.xml#n-5">see letter 35, n. 5.</ref> This print and his <hi rend="ital">Le coup de soleil</hi> (d’après Ruysdael) (The ray of sunlight (after Ruisdael)) were published by the Printroom of the Louvre (Paris, BNF, Cabinet des Estampes). <rs type="ill" key="41">Ill. 41</rs>. Cf. also <ref target="let156.xml">letter 156</ref>. See Henriet 1875, pp. 128-129 (no. 79), 175; and <hi rend="ital">Chalcographie</hi> 1954, p. 29, no. 849.</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>The <rs type="pers" key="385">Rev. Gagnebin</rs> was married to <rs type="pers" key="386">Charlotte-Henriette Junod</rs>. They had one daughter, <rs type="pers" key="78">Marie Madeleine</rs>.</ab>
+                </note>
+  <note n="10" xml:id="n-10" target="#note-t-10">
+<ab>The battle near the now Belgian town of Waterloo that took place on 18 June 1815, at which Napoleon Bonaparte was defeated by the allied English and Prussian troops.</ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>The campaign of the Dutch army against the Belgians, from 2-12 August 1831.</ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+<ab>
+                        <rs type="pers" key="1320">Charles Rochussen</rs>, <hi rend="ital">The relief of Leiden</hi>, 1853 (Amsterdam, Amsterdam Museum). <rs type="ill" key="1285">Ill. 1285</rs>.</ab>
+                </note>
+<note n="13" xml:id="n-13" target="#note-t-13">
+<ab>The painting was indeed to be found in the collection of the Amsterdammer <rs type="pers" key="808">Jacob de Vos Jacobszoon</rs>, who had installed in his garden pavilion a ‘Historical Gallery’ with works depicting subjects from Dutch history. The gallery, founded in 1850, was not a commercial venture and was not open to the public. See exhib. cat. Rotterdam 1997-2, pp. 48-49, 139 (n. 60).</ab>
+                </note>
+<note n="14" xml:id="n-14" target="#note-t-14">
+  <ab>
+                        <rs type="pers" key="590">George Eliot</rs>, <rs type="lit" key="66">
+                            <hi rend="ital">Silas Marner. The weaver of Raveloe</hi>
+                        </rs> (1861), a novel about village life in the English Midlands at the beginning of the nineteenth century. Its protagonist is the humble weaver Silas Marner. In Eliot’s view, the story ‘intended to set in a strong light the remedial influences of pure, natural, human relations’. The historical novel <rs type="lit" key="181">
+                            <hi rend="ital">Romola</hi>
+                        </rs> (1862-1863), which takes place in Florence around 1500, is the story of a young woman called Romola, who is disappointed in her love for her husband Tito. Under the influence of the reformer Girolamo Savonarola, ‘she reconstructs upon the wreck of her personal happiness a life of unselfish service to her community’. The rise and fall of Savonarola forms a thread running through the entire fabric of the story. Both <hi rend="ital">Silas Marner</hi> and <hi rend="ital">Romola</hi> were translated into Dutch: <hi rend="ital">Silas Marner, de wever van Raveloe</hi>. Translated by Mrs van Westhreene. Amsterdam 1861 and <hi rend="ital">Romola</hi>. Translated by J.C. van Deventer. Haarlem 1864 and Rotterdam 1864. For Eliot’s  <rs type="lit" key="20">
+                            <hi rend="ital">Adam Bede</hi>
+                        </rs>, <ref target="let030.xml#n-1">see letter 30, n. 1</ref>, for <rs type="lit" key="57">
+                            <hi rend="ital">Felix Holt, the radical</hi>
+                        </rs>, <ref target="let066.xml#n-1">see letter 66, n. 1</ref> and for  <rs type="lit" key="65">
+                            <hi rend="ital">Scenes of clerical life</hi>
+                        </rs>, <ref target="let70.xml#n-4">see letter 70, n. 4</ref>.</ab>
+                </note>
+  <note n="15" xml:id="n-15" target="#note-t-15">
+  <ab>For those presents, <ref target="let101.xml#n-3">see letter 101, notes 3</ref>
+                        <ref target="let101.xml#n-4"> and 4.</ref> Van Gogh’s underlining has been rendered here in italics. </ab>
+                </note>
+<note n="16" xml:id="n-16" target="#note-t-16">
+<ab>
+                        <rs type="pers" key="394">Harry Gladwell</rs> was planning to continue his career as an art dealer in his <rs type="pers" key="396">father</rs>’s London firm. He and Vincent evidently stopped writing to each other; this is the last time he is mentioned in the correspondence.</ab>
+                </note>
+<note n="17" xml:id="n-17" target="#note-t-17">
+<ab>
+                        <rs type="pers" key="1226">Jean-François Millet</rs>,<hi rend="ital"> Peasant bringing in dung</hi> (<hi rend="ital">Man with a wheelbarrow</hi>), 1855-1856, etching (Boston, Museum of Fine Arts. Gift of Allan Curtis). <rs type="ill" key="285">Ill. 285</rs>.</ab>
+                </note>
+<note n="18" xml:id="n-18" target="#note-t-18">
+<ab>
+                        <rs type="pers" key="1226">Jean-François Millet</rs>, <hi rend="ital">The two diggers</hi> (<hi rend="ital">Two men turning over the soil</hi>), 1855-1856, etching (New Haven, Yale University Art Gallery, G. Allen Smith Collection). <rs type="ill" key="1876">Ill. 1876</rs>. In <ref target="let160.xml">letter 160</ref>, Van Gogh appears to have borrowed a photograph (isograph) of this from <rs type="pers" key="29">Braun</rs>.</ab>
+                </note>
+<note n="19" xml:id="n-19" target="#note-t-19">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Luke" chap="13" v="8">Luke 13:8</bibleref>.</ab>
+                </note>
+<note n="20" xml:id="n-20" target="#note-t-20">
+<ab>Taken from <rs type="pers" key="580">Dickens</rs>; <ref target="let141.xml#n-17">see letter 141, n. 17.</ref>
+                    </ab>
+                </note>
+<note n="21" xml:id="n-21" target="#note-t-21">
+<ab>The merchant <rs type="pers" key="809">Daniël Joost Vrijdag</rs>, a distant cousin of Van Gogh, was married to <rs type="pers" key="810">Clara Cramer</rs>. Their shop in timber and fuels, as well as their house, was located at Haarlemmer Houttuinen 25. In 1877 the family had eight children: Diewertje Carolina (18 March 1861); Johanna Clasina (3 July 1863); Derk Jan Alexander (23 June 1865); Gerard Hendrik (17 February 1868); Willem (14 August 1869); Eliza (28 May 1871); Daniël Joost (28 September 1873) and Clara (10 November 1874). Van Gogh mentions <hi rend="ital">seven</hi> children, but civil registration records do not show that any of them had moved away or died. See <hi rend="ital">SAAm</hi>, <hi rend="ital">Adresboek 1877-1878</hi>, and Groot and De Vries 1990, pp. 96-98.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

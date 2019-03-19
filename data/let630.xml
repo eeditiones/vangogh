@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Arles, Saturday, 23 June 1888.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let630"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">630</idno>
+<idno type="collectedletters">502</idno>
+<idno type="brieven1990">634</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Arles</vg:placeLet>
+                        <vg:dateLet>Saturday, 23 June 1888</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. Arles, Saturday, 23 June 1888.</p>
+<note type="ongoingTopic" n="1">
+<p>Theo’s Monet exhibition <ref target="let625.xml">(625)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="2">
+<p>Mourier-Petersen’s stay with Theo <ref target="let623.xml">(623)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b543 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>The letter must have been written after 17 June because Van Gogh refers to an article in <hi rend="ital">La Justice</hi> of that date (<ref target="#n-1">n. 1</ref>). He writes: ‘It’s still raining a lot here’ <ref target="#l-36">(l. 36)</ref>. According to the weather records it rained heavily until Saturday, 23 June, and considerably less on 24 and 25 June. Since Saturday, 23 June was the last very rainy day and Van Gogh thanks Theo for sending his allowance, we have dated the letter Saturday, 23 June 1888.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0543" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000728_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000728_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000728_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000728_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000728_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000728_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="VGM001000728_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000728_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000728_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0543" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000728_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000728_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000728_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000728_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000728_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000728_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000728_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000728_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000728_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Mon cher Theo,</ab>
+                <lb n="1*" xml:id="l-1s"/>
+<ab>Bien merci de ta lettre <lb n="2" xml:id="l-2"/>et du billet de 50 frs<c type="kp">_</c> qu’elle contenait<c type="kp">_</c> <lb n="3" xml:id="l-3"/>j’ignorais que l’article sur Claude Monet <lb n="4" xml:id="l-4"/>fût de la même main que celui sur Bismarck<c type="kp">_</c>
+                    <anchor n="1" xml:id="note-o-1"/> <lb n="5" xml:id="l-5"/>Cela fait du bien d’en lire de pareils<c type="kk">/</c> <lb n="6" xml:id="l-6"/>davantage que la pluspart des articles <lb n="7" xml:id="l-7"/>des décadents avec leur affection de <lb n="8" xml:id="l-8"/>dire les choses les plus banales en termes <lb n="9" xml:id="l-9"/>bizarrement contournés<c type="kp">_</c>
+                    <anchor n="2" xml:id="note-o-2"/>
+                </ab>
+                <lb n="10" xml:id="l-10"/>
+<ab rend="indent">je suis bien mécontent de ce que j’ai <lb n="11" xml:id="l-11"/>fait de ces jours ci car c’est très laid<c type="kp">_</c> <lb n="12" xml:id="l-12"/>Et pourtant la figure m’intéresse bien <lb n="13" xml:id="l-13"/>davantage que le paysage.</ab>
+                <lb n="14" xml:id="l-14"/>
+<ab rend="indent">Tout de même je t’enverrai un dessin <lb n="15" xml:id="l-15"/>du Zouave aujourd’hui<c type="kp">_</c>
+                    <anchor n="3" xml:id="note-o-3"/>
+                </ab>
+                <lb n="16" xml:id="l-16"/>
+<ab rend="indent">faire des études de figures pour chercher et <lb n="17" xml:id="l-17"/>pour apprendre ce serait encore après tout <lb n="18" xml:id="l-18"/>pour moi le plus court chemin de faire <lb n="19" xml:id="l-19"/>quelque chose qui vaille<c type="kp">_</c>
+                </ab>
+                <lb n="20" xml:id="l-20"/>
+<ab rend="indent">Bernard en est à la meme question. <lb n="21" xml:id="l-21"/>il m’envoie aujourd’hui un croquis <lb n="22" xml:id="l-22"/>de bordel<anchor n="4" xml:id="note-o-4"/> que je t’envoie ci-<c type="shy">-</c>
+                    <lb n="23" xml:id="l-23"/>inclus pour l’accrocher à côté des <lb n="24" xml:id="l-24"/>saltimbanques que tu as de lui<c type="kp">_</c>
+                    <anchor n="5" xml:id="note-o-5"/>
+                </ab>
+                <lb n="25" xml:id="l-25"/>
+<ab rend="indent">Derriere le dessin il y a une poésie qui est bien <lb n="26" xml:id="l-26"/>dans le même ton que le dessin<c type="kk">/</c>
+                    <anchor n="6" xml:id="note-o-6"/> il est <lb n="27" xml:id="l-27"/>probable qu’il en a une etude peinte <lb n="28" xml:id="l-28"/>plus faite.<anchor n="7" xml:id="note-o-7"/>
+                </ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="29" xml:id="l-29"/>
+<ab rend="indent">Je ne serais pas étonné s’il voulait me <lb n="30" xml:id="l-30"/>faire un échange avec la tête de zouave <lb n="31" xml:id="l-31"/>quoique celle là soit très laide.<anchor n="8" xml:id="note-o-8"/> Mais comme <lb n="32" xml:id="l-32"/>je n’aimerais pas à le priver d’études vendables <lb n="33" xml:id="l-33"/>je ne proposerais pas un échange à moins <lb n="34" xml:id="l-34"/>qu’on puisse lui acheter pour une <lb n="35" xml:id="l-35"/>petite somme en même temps.–</ab>
+                <lb n="36" xml:id="l-36"/>
+<ab rend="indent">Il pleut encore beaucoup ici ce qui fait grand <lb n="37" xml:id="l-37"/>tort au blé qui est encore sur pied.</ab>
+                <lb n="38" xml:id="l-38"/>
+<ab rend="indent">Mais heureusement j’avais un modèle de ces <lb n="39" xml:id="l-39"/>jours ci.</ab>
+                <lb n="40" xml:id="l-40"/>
+<ab rend="indent">J’aurais besoin d’un livre<c type="kk">/</c> <lb n="41" xml:id="l-41"/>
+                    <hi rend="sc">A B C D du dessin par A<c type="kp">_</c> Cassagne<c type="kp">_</c>
+                    </hi>
+                    <anchor n="9" xml:id="note-o-9"/> <lb n="42" xml:id="l-42"/>je l’ai demandé à la librairie ici et après <lb n="43" xml:id="l-43"/>avoir attendu 14 jours on me répond qu’il <lb n="44" xml:id="l-44"/>leur faut le nom de l’éditeur que j’ignore. <lb n="45" xml:id="l-45"/>Si tu pouvais me l’envoyer cela me ferait <lb n="46" xml:id="l-46"/>bien plaisir. La negligence<c type="kk">/</c> le laisser aller <lb n="47" xml:id="l-47"/>paresseux des gens ici est sans nom et on <lb n="48" xml:id="l-48"/>est bien gêné pour les moindres des chôses<c type="kp">_</c> <lb n="49" xml:id="l-49"/>C’est là la raison pourquoi il faudra aller <lb n="50" xml:id="l-50"/>à Marseille un de ces jours pour pouvoir <lb n="51" xml:id="l-51"/>faire venir de là-bas ce dont j’ai besoin<c type="kp">_</c>
+                </ab>
+                <lb n="52" xml:id="l-52"/>
+<ab rend="indent">Le port de Paris<anchor n="a" xml:id="note-o-a"/> n’est pas toujours agreable <lb n="53" xml:id="l-53"/>et rencherit les choses mais voila<c type="kk">/</c> pour aller <lb n="54" xml:id="l-54"/>expres à Marseille cela renchérit encore <lb n="55" xml:id="l-55"/>plus. Cela me chagrine bien souvent <lb n="56" xml:id="l-56"/>que la peinture soit comme une <lb n="57" xml:id="l-57"/>mauvaise maitresse qu’on aurait qui <lb n="58" xml:id="l-58"/>depense<c type="kk">/</c> depense toujours et c’est <lb n="59" xml:id="l-59"/>jamais assez<c type="kk">/</c> 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                    <lb n="60" xml:id="l-60"/>et de me dire<anchor n="b" xml:id="note-o-b"/> que si par hasard de temps <lb n="61" xml:id="l-61"/>en temps il y a une etude passable il <lb n="62" xml:id="l-62"/>serait beaucoup meilleur marché de <lb n="63" xml:id="l-63"/>les acheter aux autres.</ab>
+                <lb n="64" xml:id="l-64"/>
+<ab rend="indent">Le reste<c type="kk">/</c> l’espoir de mieux faire<c type="kk">/</c> est aussi <lb n="65" xml:id="l-65"/>un peu une fata morgana<c type="kp">_</c>
+                </ab>
+                <lb n="66" xml:id="l-66"/>
+<ab rend="indent">Enfin il n’y a pas grand remède à tout <lb n="67" xml:id="l-67"/>cela à moins qu’un jour ou un autre on <lb n="68" xml:id="l-68"/>puisse s’associer avec un bon travailleur et <lb n="69" xml:id="l-69"/>à deux produire davantage.</ab>
+                <lb n="70" xml:id="l-70"/>
+<ab rend="indent">Pour ce qui est de l’éditeur du livre de <lb n="71" xml:id="l-71"/>Cassagne – tu dois avoir son traité de <lb n="72" xml:id="l-72"/>perspective et l’adresse doit y être.</ab>
+                <lb n="73" xml:id="l-73"/>
+<ab rend="indent">d’ailleurs on tient ces livres chez Latouche <lb n="74" xml:id="l-74"/>et Rue Chaussée d’Antin chez celui qui a toujours les <lb n="75" xml:id="l-75"/>Allongé.–<anchor n="10" xml:id="note-o-10"/>
+                </ab>
+                <lb n="76" xml:id="l-76"/>
+<ab rend="indent">C’est bien beau que Claude Monet a <lb n="77" xml:id="l-77"/>trouvé moyen de faire de fevrier à Mai <lb n="78" xml:id="l-78"/>ces dix tableaux.</ab>
+                <lb n="79" xml:id="l-79"/>
+<ab rend="indent">Travailler vite ce n’est pas travailler <lb n="80" xml:id="l-80"/>moins serieux<c type="kk">/</c> cela dépend de l’aplomb <lb n="81" xml:id="l-81"/>qu’on a et de l’experience.</ab>
+                <lb n="82" xml:id="l-82"/>
+<ab rend="indent">Ainsi Jules Guérard le chasseur de <lb n="83" xml:id="l-83"/>lions raconte dans son livre que <lb n="84" xml:id="l-84"/>les jeunes lions ont dans le commen<c type="shy">-</c>
+                    <lb n="85" xml:id="l-85"/>cement beaucoup de mal à tuer un <lb n="86" xml:id="l-86"/>cheval ou un boeuf mais que les <lb n="87" xml:id="l-87"/>vieux lions tuent d’un seul coup <lb n="88" xml:id="l-88"/>de griffe ou de dent bien calculé <lb n="89" xml:id="l-89"/>et ont une sureté etonnante pour cette <lb n="90" xml:id="l-90"/>besogne.<anchor n="11" xml:id="note-o-11"/>
+                </ab>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                <lb n="91" xml:id="l-91"/>
+<ab rend="indent">Je ne retrouve pas ici la gaieté meridionale <lb n="92" xml:id="l-92"/>dont Daudet parle tant<c type="kk">/</c>
+                    <anchor n="12" xml:id="note-o-12"/> au contraire une <lb n="93" xml:id="l-93"/>mignardise fade<c type="kk">/</c> une nonchallance sordide <lb n="94" xml:id="l-94"/>mais n’empêche que le pays est beau.</ab>
+                <lb n="95" xml:id="l-95"/>
+<ab rend="indent">Pourtant la nature ici doit etre très differente <lb n="96" xml:id="l-96"/>de Bordiguera<c type="kk">/</c> Hyères<c type="kk">/</c> Genes<c type="kk">/</c> Antibes<c type="kk">/</c> où <lb n="97" xml:id="l-97"/>il y a moins de mistral<c type="kk">/</c> où les montagnes <lb n="98" xml:id="l-98"/>donnent un tout autre caractère<c type="kp">_</c>
+                    <anchor n="13" xml:id="note-o-13"/>
+                </ab>
+                <lb n="99" xml:id="l-99"/>
+<ab rend="indent">Ici – sauf une couleur plus intense cela <lb n="100" xml:id="l-100"/>rappelle la Hollande<c type="kk">/</c> tout est plat – et <lb n="101" xml:id="l-101"/>seulement on pense surtout à la Hollande <lb n="102" xml:id="l-102"/>de Ruysdael et de Hobbema et d’Ostade <lb n="103" xml:id="l-103"/>plutot qu’à la Hollande actuelle.</ab>
+                <lb n="104" xml:id="l-104"/>
+<ab rend="indent">Ce qui m’etonne c’est la rareté des fleurs<c type="kk">/</c> <lb n="105" xml:id="l-105"/>ainsi pas de bluets dans les blés<c type="kk">/</c> rarement <lb n="106" xml:id="l-106"/>des coquelicots.</ab>
+                <lb n="107" xml:id="l-107"/>
+<ab rend="indent">Combien a couté la caisse de tableaux <lb n="108" xml:id="l-108"/>de port dernierement. les empatements <lb n="109" xml:id="l-109"/>de certaines toiles sont sèches superficiellement mais <lb n="110" xml:id="l-110"/>pas assez pour rouler<c type="kk">/</c> sans cela j’enverrais.</ab>
+                <lb n="111" xml:id="l-111"/>
+<ab rend="indent">Mac Knight a maintenant un ami avec <lb n="112" xml:id="l-112"/>lui<c type="kk">/</c>
+                    <anchor n="14" xml:id="note-o-14"/> de son travail je ne vois jamais <lb n="113" xml:id="l-113"/>rien<c type="kk">/</c> j’ai montré hier à lui et son <lb n="114" xml:id="l-114"/>ami quatre ou cinq nouvelles études <lb n="115" xml:id="l-115"/>qu’ils ont regardé avec un silence glacé<c type="kp">_</c> <lb n="116" xml:id="l-116"/>Je pense qu’ils preparent une surprise de <lb n="117" xml:id="l-117"/>leur côté de laquelle j’espère qu’elle <lb n="118" xml:id="l-118"/>sera bonne. car cela me ferait grand <lb n="119" xml:id="l-119"/>plaisir de voir qu’ils aient trouvé une <lb n="120" xml:id="l-120"/>voie. Poignée de main à toi <lb n="121" xml:id="l-121"/>et à Mouries si toutefois il n’est <lb n="122" xml:id="l-122"/>pas encore installé dans l’atelier <lb n="123" xml:id="l-123"/>à la Gerome.<anchor n="15" xml:id="note-o-15"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="123*" xml:id="l-123s"/>
+<ab>t<c type="kp">_</c> à t<c type="kp">_</c>
+                </ab>
+                <lb n="124" xml:id="l-124"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-40" n="40">livre: &lt; livre</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo,</ab>
+<ab>Many thanks for your letter and the 50-franc note it contained. I didn’t know that the article on <rs type="pers" key="1222">Claude Monet</rs> was by the same hand as the one on <rs type="pers" key="292">Bismarck</rs>.<anchor n="1" xml:id="note-t-1"/> It does you good to read things like that, more than the majority of articles by the Decadents, with their fondness for saying the most banal things in strangely convoluted ways.<anchor n="2" xml:id="note-t-2"/>
+                </ab>
+<ab rend="indent">I’m really unhappy with what I’ve done these past few days, because it’s very ugly. And yet the figure interests me much more than landscape. </ab>
+<ab rend="indent">I’ll send you a drawing of the Zouave today all the same.<anchor n="3" xml:id="note-t-3"/>
+                </ab>
+<ab rend="indent">To do studies of figures, to attempt them and to learn would still after all be the shortest route for me to do something of value.</ab>
+<ab rend="indent">
+                    <rs type="pers" key="831">Bernard</rs>’s in the same position. Today he sends me a croquis of a brothel<anchor n="4" xml:id="note-t-4"/> that I’m sending you enclosed herewith to pin up next to the acrobats by him that you have.<anchor n="5" xml:id="note-t-5"/>
+                </ab>
+<ab rend="indent">On the back of the drawing there’s a poem with very much the same tone as the drawing,<anchor n="6" xml:id="note-t-6"/> it’s likely that he has a more finished painted study of it.<anchor n="7" xml:id="note-t-7"/> 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">I wouldn’t be surprised if he wanted to make an exchange with me for the head of a Zouave, although that one’s very ugly.<anchor n="8" xml:id="note-t-8"/> But as I wouldn’t wish to deprive him of saleable studies I wouldn’t suggest an exchange unless at the same time we could buy something from him for a small sum.</ab>
+<ab rend="indent">It’s still raining a lot here, which does a lot of damage to the wheat, which is still standing.</ab>
+<ab rend="indent">But luckily I had a model these past few days.</ab>
+<ab rend="indent">I’ll need a book, <hi rend="sc">A B C D du dessin by <rs type="pers" key="922">A. Cassagne</rs>
+                    </hi>.<anchor n="9" xml:id="note-t-9"/> I requested it at the bookshop here, and after waiting a fortnight they tell me they need the name of the publisher, which I don’t know. If you could send me it I’d be very pleased. The negligence, the lazy carelessness of people here is indescribable and one is really put out by the least things. That’s the reason I’ll have to go to Marseille one of these days, to be able to get what I need from over there.</ab>
+<ab rend="indent">The cost of carriage from Paris isn’t always pleasant, and makes things dearer, but there you are, to go to Marseille specially, that makes them even dearer. It quite often makes me feel sad that painting’s like a bad mistress one might have, who’s always spending, spending and it’s never enough, 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> and to say to myself that even if there happens to be a passable study from time to time, it would be much less expensive to buy them from others.</ab>
+<ab rend="indent">The rest, the hope of doing better, is also a bit of a fata Morgana.</ab>
+<ab rend="indent">Well, there’s not much remedy for all that, unless some day or other one could enter into an association with a good worker and produce more together.</ab>
+<ab rend="indent">As for the publisher of <rs type="pers" key="922">Cassagne</rs>’s book — you probably have his treatise on perspective, and the address should be in it.</ab>
+<ab rend="indent">Besides, they have these books at <rs type="pers" key="486">Latouche</rs>’s, and in rue de la Chaussée d’Antin, at the place of that man who always has works by <rs type="pers" key="417">Allongé</rs>.<anchor n="10" xml:id="note-t-10"/>
+                </ab>
+<ab rend="indent">It’s very good that <rs type="pers" key="1222">Claude Monet</rs> found a way of making these ten pictures between February and May.</ab>
+<ab rend="indent">To work quickly isn’t to work less seriously, it depends on the confidence and experience one has.</ab>
+<ab rend="indent">In the same way, <rs type="pers" key="614">Jules Gérard</rs> the lion-hunter says in his book that at the beginning young lions have a lot of trouble killing a horse or an ox, but old lions kill with a single well-judged strike from a claw or a tooth, and have an amazing sureness for that job.<anchor n="11" xml:id="note-t-11"/> 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/>
+                </ab>
+<ab rend="indent">I don’t find the southern gaiety here that <rs type="pers" key="583">Daudet</rs> talks about so much,<anchor n="12" xml:id="note-t-12"/> on the contrary, an insipid affectation, a sordid carelessness, but that doesn’t mean that the region isn’t beautiful.</ab>
+<ab rend="indent">All the same, nature here must be very different from Bordighera, Hyères, Genoa, Antibes, where there’s less mistral, where the mountains give a quite different character.<anchor n="13" xml:id="note-t-13"/>
+                </ab>
+<ab rend="indent">Here — except for a more intense colour, it reminds one of Holland, it’s all flat — only one thinks more of the Holland of <rs type="pers" key="1333">Ruisdael</rs> and <rs type="pers" key="1096">Hobbema</rs> and <rs type="pers" key="1260 1261">Ostade</rs> rather than the Holland of today.</ab>
+<ab rend="indent">What amazes me is how few flowers there are, so no cornflowers in the wheatfields, seldom any poppies.</ab>
+<ab rend="indent">What was the cost of the carriage for the crate of pictures recently? The impastos on some canvases are dry on the surface but not enough to roll them up; if it wasn’t for that I’d send them.</ab>
+<ab rend="indent">
+                    <rs type="pers" key="1189">Macknight</rs> has a <rs type="pers" key="869">friend</rs> with him now,<anchor n="14" xml:id="note-t-14"/> I never see any of his work, yesterday I showed him and his friend four or five new studies, which they looked at in icy silence. I think for their part they’re preparing a big surprise, which I hope will be a good one. Because it would please me greatly to see that they’d found a direction. Handshake to you and to <rs type="pers" key="1233">Mourier</rs> if, that is, he hasn’t yet moved into the studio like <rs type="pers" key="1044">Gérôme</rs>’s.<anchor n="15" xml:id="note-t-15"/>
+                </ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>
+                        <rs type="pers" key="616">Gustave Geffroy</rs>, ‘Bismarck’ appeared in <hi rend="ital">Le Figaro, Supplément Littéraire</hi> (18 February 1888), pp. 25-26. Geffroy writes about Prince <rs type="pers" key="292">Otto von Bismarck-Schönhausen</rs> as a political figure and recounts some anecdotes from his biography. See for Geffroy’s article ‘Dix tableaux de Claude Monet’ in <hi rend="ital">La Justice</hi> 9 (17 June 1888): <ref target="let629.xml#n-1">letter 629, n. 1.</ref>
+                    </ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>An allusion to the often high-flown style in the Symbolist manifestos.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>
+      <hi rend="ital">Seated Zouave</hi> (<rs type="ill" key="2654">F 1443 / JH 1485</rs>).</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+  <ab>
+                        <rs type="pers" key="831">Emile Bernard</rs>, <hi rend="ital">Brothel scene</hi>, with the dedication ‘à mon ami Vincent ce croquis bête’ (to my friend Vincent, this silly sketch), 1888 (Amsterdam, Van Gogh Museum). <rs type="ill" key="2322">Ill. 2322</rs>.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>
+                        <rs type="pers" key="831">Emile Bernard</rs>, <hi rend="ital">The acrobats,</hi> 1887 (Montevideo, Uruguay, Museo Municipal de Bellas Artes Juan Manuel Blanes). <rs type="ill" key="2323">Ill. 2323</rs>. The painting is dedicated to Vincent, but went back to Bernard later. See Luthi 1982, p. 14, cat. no. 65.</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>On the back of the drawing <rs type="pers" key="831">Bernard</rs> wrote (accents added by us): </ab>
+                    <vg:whiteline/>
+<ab>I </ab>
+<ab>It’s in a faraway corner,</ab>
+<ab>A dark tavern saddened</ab>
+<ab>By the feeble light of a closed shutter.</ab>
+<vg:whiteline/>
+<ab>The landlady’s a specialist</ab>
+<ab>And sells, as in a quite open trade,</ab>
+<ab>Both drink and flesh...</ab>
+<vg:whiteline/>
+<ab>With a look that displays</ab>
+<ab>All of a heart’s wretchedness,</ab>
+<ab>Each woman, as if at market,</ab>
+<vg:whiteline/>
+<ab>Meat dressed with a flower,</ab>
+<ab>Decked out in silk and gold,</ab>
+<ab>Sells her poor resigned soul.</ab>
+<vg:whiteline/>
+<ab>II</ab>
+<ab>Society, behold your crime.</ab>
+<ab>Man, cast a lenient glance</ab>
+<ab>Upon the whore, this victim.</ab>
+<vg:whiteline/>
+<ab>Woman, who knows full well that everything is a lie,</ab>
+<ab>Longing for nothing now,</ab>
+<ab>Not even the end of life,</ab>
+<vg:whiteline/>
+<ab>Who sees only a great emptiness</ab>
+<ab>Round all her being and her soul,</ab>
+<ab>Love’s sad victim!</ab>
+<vg:whiteline/>
+<ab>– Society, you are wicked</ab>
+<ab>When, for your own Desire, you force </ab>
+<ab>Children under Pleasure’s yoke.</ab>
+<vg:whiteline/>
+<ab>19 June 1888.</ab>
+<vg:whiteline/>
+<ab>I</ab>
+<ab>C’est dans un coin très retiré</ab>
+<ab>Un cabaret sombre qu’attriste</ab>
+<ab>Le jour bas d’un volet tiré.</ab>
+<vg:whiteline/>
+<ab>La marchande est specialiste</ab>
+<ab>Et vend comme en un débit clair</ab>
+<ab>De la boisson et de la chair...</ab>
+<vg:whiteline/>
+<ab>Avec un regard où s’étale</ab>
+<ab>Toute la misère d’un coeur</ab>
+<ab>Chaque femme comme à la halle</ab>
+<vg:whiteline/>
+<ab>La viande qu’habille une fleur</ab>
+<ab>Dans la soie et l’or bien peignée</ab>
+<ab>Vend sa pauvre âme résignée</ab>
+<vg:whiteline/>
+<ab>II</ab>
+<ab>Société voici ton crime.</ab>
+<ab>Homme jette un regard clément</ab>
+<ab>Sur la putain, cette victime.</ab>
+<vg:whiteline/>
+<ab>Femme qui sait bien que tout ment</ab>
+<ab>A qui plus rien ne fait envie</ab>
+<ab>Pas même la fin de la vie,</ab>
+<vg:whiteline/>
+<ab>Qui ne voit qu’un grand vide autour</ab>
+<ab>De tout son être et de son âme</ab>
+<ab>Triste victime de l’amour!</ab>
+<vg:whiteline/>
+<ab>– Société tu es infâme</ab>
+<ab>Quand tu courbes pour ton Désir</ab>
+<ab>Des enfants au joug du Plaisir.</ab>
+<ab>19 Juin 1888.</ab>
+<vg:whiteline/>
+<ab>Although Van Gogh talks about ‘sonnets’, strictly speaking this is not what they are. Cf. exhib. cat. New Brunswick 1988, p. 23.</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>There is no known painted version of <rs type="pers" key="831">Bernard</rs>’s <hi rend="ital">
+                            <rs type="ill" key="2322">Brothel scene</rs>
+                        </hi>.</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>It emerges from <ref target="let633.xml">letter 633</ref> that Van Gogh wanted to exchange the painting <hi rend="ital">Zouave</hi> (<rs type="ill" key="2655">F 423 / JH 1486</rs>) with <rs type="pers" key="831">Bernard</rs>. Eventually he sent the watercolour <hi rend="ital">Zouave </hi>(<rs type="ill" key="2656">F 1482 / JH 1487</rs>) with the dedication ‘A mon cher copain Bernard. Vincent’. A letter from Bernard to his parents tells us that Van Gogh sent this drawing in mid-July: <ref target="let641.xml">see letter 641</ref>.</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>See for <rs type="pers" key="922">Cassagne</rs>’s <hi rend="ital">
+                            <rs type="lit" key="213">Guide de l’alphabet du dessin</rs>
+                        </hi>: <ref target="let214.xml#n-2">letter 214, n. 2.</ref> It was published by Ch. Fouraut et fils, éditeurs, at 47 rue Saint-André des Arts in Paris. Van Gogh needed the book for the drawing lessons he was giving the Zouave Lieutenant <rs type="pers" key="515">Milliet</rs> (<ref target="let628.xml">see letter 628</ref>).</ab>
+                </note>
+<note n="a" xml:id="n-a" target="#note-o-a">
+<ab>Read: ‘Les frais de port de Paris’.</ab>
+                </note>
+<note n="b" xml:id="n-b" target="#note-o-b">
+<ab>Read: ‘et cela me chagrine de me dire’.</ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>
+  <ref target="let158.xml#n-3">See letter 158, n. 3,</ref> for <rs type="pers" key="922">Cassagne</rs>’s <hi rend="ital">
+                            <rs type="lit" key="213">Guide de l’alphabet du dessin</rs>
+                        </hi> and <ref target="let168.xml#n-21">letter 168, n. 21</ref> for his <hi rend="ital">
+                            <rs type="lit" key="212">Traité d’aquarelle</rs>
+                        </hi>, <hi rend="ital">
+                            <rs type="lit" key="509">Eléments de perspective</rs>
+                        </hi>, <hi rend="ital">
+                            <rs type="lit" key="214">Traité pratique de perspective</rs>
+                        </hi> and <hi rend="ital">
+                            <rs type="lit" key="215">La perspective du paysagiste</rs>
+                        </hi>. Madame Latouche had a ‘magasin de couleurs fines et tableaux modernes’.</ab>
+<ab rend="indent">Madame Latouche had a ‘magasin de couleurs fines et tableaux modernes’ (shop selling fine colours and modern paintings) at 34 rue Lafayette. She had run the business alone since the death of her husband, the painter <rs type="pers" key="486">Louis Latouche</rs>, in 1884. She did framing and lining and exhibited the work of the Impressionists in her shop window. Her business was taken over by Contet in 1886. See <hi rend="ital">Correspondance Gauguin</hi> 1984, p. 332 (n. 24) and Distel 1989, pp. 33-34. <rs type="pers" key="1039">Gauguin</rs> had paintings lined there (<ref target="let776.xml#n-30">see letter 776, n. 30</ref>). The plaster cast of a Dante mask from Van Gogh’s collection (Amsterdam, Van Gogh Museum) has a Latouche label on it. See cat. Amsterdam 2011.</ab>
+<ab rend="indent">There were several art shops in rue de la Chaussée d’Antin, but since Van Gogh refers to a colourman in this context in <ref target="let657.xml">letter 657</ref>, ‘that man who always has works by [Auguste] <rs type="pers" key="417">Allongé</rs>’ is probably <rs type="pers" key="17">Léon Berville</rs>, 25 rue de la Chaussée d’Antin. In the address books Berville is the only paint merchant in rue de la Chaussée d’Antin; he is moreover listed in 1886 and 1887 as ‘marchand de tableaux’ (dealer in pictures) (Almanach du commerce de Paris 1886-1888). We learn from an advertisement on the back of the catalogue Musée national du Luxembourg. Peintures, sculptures et dessins de l’école moderne of 1886 that Berville sold ‘all the supplies’ for, among other things, ‘Le Dessin Académique et d’Architecture’ (academic and architectural drawing). There are two drawings from Van Gogh’s Paris period on paper with watermark ‘L. Berville’. See cat. Amsterdam 2001, p. 204.</ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>
+                        <rs type="pers" key="614">Jules Gérard</rs> writes in <hi rend="ital">
+                            <rs type="lit" key="487">La chasse au lion</rs> </hi>(1855): ‘Aged between eight months and a year old, the lion cubs start to attack the flocks of sheep or herds of goats which come to the area surrounding where they live during the day. Sometimes they take on cattle but are still so unskilful that for every one they kill, ten are injured and the father has to intervene. It is only when they reach two that the young lions can kill a horse, a bullock, a camel with a single snap of the jaws to the throat and leap over the two metre high hedges which are supposed to protect the doyars’ (De huit mois à un an, les lionceaux commencent à attaquer les troupeaux de moutons ou de chèvres qui, pendant le jour, viennent dans le voisinage de leur demeure. Quelquefois ils s’en prennent aux boeufs; mais ils sont encore si maladroits, qu’il y a souvent dix blessés pour un mort, et que le père est obligé d’intervenir. Ce n’est qu’à deux ans que les jeunes lions savent étrangler un cheval, un boeuf, un chameau, d’un seul coup de gueule à la gorge, et franchir les haies de deux mètres de haut qui sont réputées protéger les douars) (Paris 1855, p. 31).</ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+<ab>A reference to <rs type="pers" key="583">Alphonse Daudet</rs>’s novels <hi rend="ital">
+                            <rs type="lit" key="459">Aventures prodigeuses de Tartarin de Tarascon</rs> </hi>(1872) and <hi rend="ital">
+                            <rs type="lit" key="460">Tartarin sur les Alpes</rs> </hi>(1885).</ab>
+                </note>
+<note n="13" xml:id="n-13" target="#note-t-13">
+<ab>Bordighera is on the coast of Liguria (northwestern Italy). Hyères is the most southerly town in Provence, 18 km to the east of Toulon; Antibes is on the Côte d’Azur, 20 km south-west of Nice. <rs type="pers" key="1222">Monet</rs> had painted in both Bordighera and Antibes.</ab>
+                </note>
+<note n="14" xml:id="n-14" target="#note-t-14">
+<ab>
+                        <rs type="pers" key="869">Eugène Boch</rs>.</ab>
+                </note>
+<note n="15" xml:id="n-15" target="#note-t-15">
+<ab>See for ‘the studio like <rs type="pers" key="1044">Gérôme</rs>’s’: <ref target="let625.xml#n-21">letter 625, n. 21.</ref>
+                    </ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

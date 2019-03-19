@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Antwerp, on or about Thursday, 26 November 1885.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let544"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">544</idno>
+<idno type="collectedletters">436</idno>
+<idno type="brieven1990">547</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Antwerp</vg:placeLet>
+                        <vg:dateLet>Thursday, 26 November 1885</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. Antwerp, on or about Thursday, 26 November 1885.</p>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b476 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Van Gogh signed out from the municipal register in Nuenen on Monday, 23 November 1885, and must have gone to Antwerp on Tuesday, the twenty-fourth as he had planned (<ref target="let543.xml">see letter 543</ref>, FR b1507 and De Brouwer 1984, pp. 98-102). Before he wrote this letter in Antwerp he had ‘already seen various things’ <ref target="#l-2">(ll. 2-3)</ref>, so we assume that he had been in the city for at least a day; this means that the letter could not have been written until 25 November at the earliest. Since the next letter was written on 28 November <ref target="let545.xml">(545)</ref>, we date the present letter on or about Thursday, 26 November 1885.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0476" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000643_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000643_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000643_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000643_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000643_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000643_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="VGM001000643_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000643_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000643_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0476" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000643_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000643_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000643_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000643_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000643_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000643_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000643_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000643_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000643_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Waarde Theo,</ab>
+                <lb n="1*" xml:id="l-1s"/>
+<ab>Wilde U berigten dat ik <lb n="2" xml:id="l-2"/>in Antwerpen ben &amp; reeds een &amp; ander heb <lb n="3" xml:id="l-3"/>gezien. Ik heb een kamertje gehuurd <lb n="4" xml:id="l-4"/>
+                    <hi rend="ital">Rue des images N</hi>
+                    <hi rend="ss">  <hi rend="ital">o</hi>
+                    </hi>
+                    <hi rend="ital"> 194</hi>
+                    <c type="kk">/</c> boven een <lb n="5" xml:id="l-5"/>verfkoopman<c type="kk">/</c>
+                    <anchor n="1" xml:id="note-o-1"/> voor frs 25 in de maand. <lb n="6" xml:id="l-6"/>Dus als gij schrijft<c type="kk">/</c> adresseer daar s.v.p. Uw <lb n="7" xml:id="l-7"/>brief inplaats van Poste restante<c type="kp">_</c>
+                </ab>
+                <lb n="8" xml:id="l-8"/>
+<ab rend="indent">Ik begin met U te vertellen dat ik de eetzaal van Leys <lb n="9" xml:id="l-9"/>heb gezien<c type="kk">/</c> ge weet <hi rend="ital">La promenade sur les remparts</hi>
+                    <c type="kk">/</c> <hi rend="ital">les patineurs</hi>
+                    <c type="kk">/</c> <lb n="10" xml:id="l-10"/>
+                    <hi rend="ital">la reception</hi>
+                    <c type="kk">/</c> <hi rend="ital">la table</hi>.<anchor n="2" xml:id="note-o-2"/> en op een paneel tusschen de <lb n="11" xml:id="l-11"/>ramen St<c type="kp">_</c> Luc.<anchor n="3" xml:id="note-o-3"/> Tot mijn verwondering was (verbeeld ik me althans) de compositie <lb n="12" xml:id="l-12"/>nog al anders – ofschoon ik nog niet in de gelegenheid ben <lb n="13" xml:id="l-13"/>om de phot. naar de <hi rend="ital">schilderijen</hi> er bij te vergelijken – <lb n="14" xml:id="l-14"/>nog al anders dan de definitieve composities<c type="kp">_</c>
+                    <anchor n="4" xml:id="note-o-4"/>
+                </ab>
+                <lb n="15" xml:id="l-15"/>
+<ab rend="indent">Dan<c type="kk">/</c> het is geschilderd à fresque – dus op ’t pleister <lb n="16" xml:id="l-16"/>van de muren.<anchor n="5" xml:id="note-o-5"/> Fresco nu moet en kan eigentlijk eeuwen <lb n="17" xml:id="l-17"/>durend zijn doch deze zijn reeds aanmerkelijk <lb n="18" xml:id="l-18"/>verschoten<c type="kk">/</c> en die boven de schoorsteen vooral (stuk uit <lb n="19" xml:id="l-19"/>la réception) ook eenige barsten reeds. Ook heeft de <lb n="20" xml:id="l-20"/>hoogst snuggere zoon van Baron Leys eene verbetering <lb n="21" xml:id="l-21"/>in die zaal gebragt door eene deur te laten vergrooten<c type="kk">/</c> <lb n="22" xml:id="l-22"/>zoo dat uit Les patineurs de beenen van de <lb n="23" xml:id="l-23"/>kerels die op de brug staan en over de leuning 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                    <lb n="24" xml:id="l-24"/>kijken<c type="kk">/</c> weggesneden zijn<c type="kk">/</c> dat een deplorabel effekt <lb n="25" xml:id="l-25"/>maakt.<anchor n="6" xml:id="note-o-6"/> Dan is het licht er fataal slecht – nu <lb n="26" xml:id="l-26"/>is de zaal oorspronkelijk geschilderd<c type="kk">/</c> stel ik me voor<c type="kk">/</c> <lb n="27" xml:id="l-27"/>om dienst te doen bij lamplicht. Daarom<c type="kk">/</c> <lb n="28" xml:id="l-28"/>omdat ik waarachtig niet zien kon<c type="kk">/</c> door <lb n="29" xml:id="l-29"/>een fooi aan de bonne heb ik de <lb n="30" xml:id="l-30"/>kroon laten aansteken en toen zag <lb n="31" xml:id="l-31"/>ik beter. Na zooveel wat mij <lb n="32" xml:id="l-32"/>betrekkelijk tegenviel – in de eerste plaats dat <lb n="33" xml:id="l-33"/>de kleur à fresque<c type="kk">/</c> en helaas vrees ik slecht fresque<c type="kk">/</c> <lb n="34" xml:id="l-34"/>niet is wat we van Leys gewoon zijn – na zooveel <lb n="35" xml:id="l-35"/>wat me tegenviel – toch superbe. <lb n="36" xml:id="l-36"/>De meid<c type="kk">/</c> de vrouw bij den bakkerswinkel<c type="kk">/</c> <lb n="37" xml:id="l-37"/>de amoureux en andere figuren in de <lb n="38" xml:id="l-38"/>promenade sur les remparts – ’t stads<c type="shy">-</c>
+                    <lb n="39" xml:id="l-39"/>gezicht à vol d’oiseau<c type="kk">/</c> ’t silhouet <lb n="40" xml:id="l-40"/>der torens en daken tegen de lucht<c type="kk">/</c> <lb n="41" xml:id="l-41"/>gescharrel van schaatsenrijders op de bevrozen <lb n="42" xml:id="l-42"/>vest – superbe van tournure.</ab>
+                <lb n="43" xml:id="l-43"/>
+<ab rend="indent">Heb ook gezien ’t museum van oude schilderijen en <lb n="44" xml:id="l-44"/>’t musee moderne.<anchor n="7" xml:id="note-o-7"/> Ik ben ’t met U eens dat <lb n="45" xml:id="l-45"/>de figuren op ’t eerste plan – die koppen – <lb n="46" xml:id="l-46"/>in le Christ au purgatoire <hi rend="ital">zeer</hi> mooi zijn<c type="kk">/</c> 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                    <lb n="47" xml:id="l-47"/>mooier dan de rest<c type="kk">/</c> n.l. ’t hoofdfiguur<c type="kp">_</c>
+                    <anchor n="8" xml:id="note-o-8"/> <lb n="48" xml:id="l-48"/>vooral die 2 blonde vrouwenkoppen is Rubens <lb n="49" xml:id="l-49"/>1<hi rend="ss">iere</hi> qualité<c type="kp">_</c> Bijzonder trof mij de Frans Hals<c type="kk">/</c> <lb n="50" xml:id="l-50"/>visschersjongen<c type="kp">_</c>
+                    <anchor n="9" xml:id="note-o-9"/> M. de Vos<c type="kk">/</c> portret van overste van <lb n="51" xml:id="l-51"/>gilde<c type="kp">_</c>
+                    <anchor n="10" xml:id="note-o-10"/> Rembrandt <hi rend="ital">zeer</hi> mooi<c type="kk">/</c> twee kleine Rembrandts <lb n="52" xml:id="l-52"/>die misschien wel niet van R. zijn maar van <lb n="53" xml:id="l-53"/>N<c type="kp">_</c> Maas?? of zoo<c type="kp">_</c>
+                    <anchor n="11" xml:id="note-o-11"/> <hi rend="ital">Jordaens</hi>
+                    <c type="kk">/</c> <hi rend="ital">zoo de ouden zongen</hi>
+                    <c type="kp">_</c>
+                    <anchor n="12" xml:id="note-o-12"/> <lb n="54" xml:id="l-54"/>v. Goyen<c type="kp">_</c>
+                    <anchor n="13" xml:id="note-o-13"/> <hi rend="ital">S</hi>
+                    <c type="kp">_</c> Ruysdael<c type="kp">_</c>
+                    <anchor n="14" xml:id="note-o-14"/> En de Quenten Matsys<c type="kp">_</c>
+                    <anchor n="15" xml:id="note-o-15"/> <lb n="55" xml:id="l-55"/>de Teekening S.<hi rend="ss">te</hi> Barbe van v. Eyck.<anchor n="16" xml:id="note-o-16"/> &amp;c.</ab>
+                <lb n="56" xml:id="l-56"/>
+<ab rend="indent">Musée moderne<c type="kk">/</c> de groote Mols is Mesdagachtig<c type="kk">/</c> <lb n="57" xml:id="l-57"/>met smeeren van Vollon denkelijk er in (Vollon <lb n="58" xml:id="l-58"/>kende hem goed)<c type="kp">_</c>
+                    <anchor n="17" xml:id="note-o-17"/> Braekeleer<c type="kk">/</c> <hi rend="ital">niet</hi> de slechte<c type="kk">/</c> <lb n="59" xml:id="l-59"/>een Brabantsche herberg<c type="kk">/</c> curieus mooi<c type="kk">/</c>
+                    <anchor n="18" xml:id="note-o-18"/> mooie <lb n="60" xml:id="l-60"/>landschappen van C<c type="kp">_</c> de Cock<c type="kk">/</c>
+                    <anchor n="19" xml:id="note-o-19"/> Lamorinière<c type="kk">/</c>
+                    <anchor n="20" xml:id="note-o-20"/>
+                </ab>
+                <lb n="61" xml:id="l-61"/>
+<ab>Coosemans<c type="kk">/</c>
+                    <anchor n="21" xml:id="note-o-21"/>Asselbergs<c type="kk">/</c>
+                    <anchor n="22" xml:id="note-o-22"/> Roseels<c type="kk">/</c>
+                    <anchor n="23" xml:id="note-o-23"/> Baron<c type="kk">/</c>
+                    <anchor n="24" xml:id="note-o-24"/> Munthe<c type="kk">/</c>
+                    <anchor n="25" xml:id="note-o-25"/> <lb n="62" xml:id="l-62"/>Achenbach<c type="kk">/</c>
+                    <anchor n="26" xml:id="note-o-26"/> een mooie Clays<anchor n="27" xml:id="note-o-27"/> – twee oude <lb n="63" xml:id="l-63"/>Leys<c type="kk">/</c> een Braekeleerachtig<c type="kk">/</c> nog een romantiek<c type="kk">/</c> <lb n="64" xml:id="l-64"/>de laatste mooi.<anchor n="28" xml:id="note-o-28"/> een mooi portret van Ingres<c type="kk">/</c>
+                    <anchor n="29" xml:id="note-o-29"/> <lb n="65" xml:id="l-65"/>een mooi portret van David<c type="kk">/</c>
+                    <anchor n="30" xml:id="note-o-30"/> nog andere mooie <lb n="66" xml:id="l-66"/>dingen<c type="kk">/</c> ook horrible zaken als – <lb n="67" xml:id="l-67"/>levensgroote koeien van den godvruchtigen <lb n="68" xml:id="l-68"/>Verboeckhoven<c type="kk">/</c>
+                    <anchor n="31" xml:id="note-o-31"/> enz<c type="kp">_</c>
+                </ab>
+                <lb n="69" xml:id="l-69"/>
+<ab rend="indent">Maar – ik heb in de <hi rend="ital">winkels</hi>
+                    <anchor n="32" xml:id="note-o-32"/> al bijzonder <lb n="70" xml:id="l-70"/>weinig gezien<c type="kk">/</c> <hi rend="ital">haast</hi> niets – één schilderijtje <lb n="71" xml:id="l-71"/>van een hand groot nog niet eens<c type="kk">/</c> zoo mooi als <lb n="72" xml:id="l-72"/>Raffaelli<c type="kk">/</c>
+                    <anchor n="33" xml:id="note-o-33"/> anders niets bijzonders en ik vrees <lb n="73" xml:id="l-73"/>in den handel categorisch de dood <lb n="74" xml:id="l-74"/>in den pot<c type="kp">_</c>– Doch – het is een goed 
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                    <lb n="75" xml:id="l-75"/>oudhollandsch spreekwoord – <hi rend="ital">desespereert</hi> <lb n="76" xml:id="l-76"/>
+                    <hi rend="ital">niet</hi>.</ab>
+                <lb n="76*" xml:id="l-76s"/>
+<ab rend="indent">Antwerpen vind ik mooi<c type="kk">/</c> heb <lb n="77" xml:id="l-77"/>diverse kruistogten in de stad gemaakt<c type="kk">/</c> <lb n="78" xml:id="l-78"/>langs de kaaien is het echt<c type="kp">_</c>
+                </ab>
+                <lb n="79" xml:id="l-79"/>
+<ab rend="indent">Nu – het kan nooit kwaad Antwerpen <lb n="80" xml:id="l-80"/>een beetje te kennen<c type="kk">/</c> dat wel zijn zal zóó als <lb n="81" xml:id="l-81"/>alles en overal<c type="kk">/</c> n.l. désillusioneerend <lb n="82" xml:id="l-82"/>doch echter met zijn eigen nuance<c type="kp">_</c> <lb n="83" xml:id="l-83"/>En dan<c type="kk">/</c> het is wel eens goed te <lb n="84" xml:id="l-84"/>varieeren.</ab>
+                <lb n="85" xml:id="l-85"/>
+<ab rend="indent">Gegroet, schrijf eens spoedig als ge wilt<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="86" xml:id="l-86"/>
+<ab>b<c type="kp">_</c> à t<c type="kp">_</c>
+                </ab>
+                <lb n="87" xml:id="l-87"/>
+<ab>Vincent.</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-11" n="11">(verbeeld ik me althans) &lt; <hi rend="ital">Added later; parentheses added by us.</hi>
+                    </note>
+<note target="l-46" n="46">Christ &lt; Crist</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo,</ab>
+<ab>Wanted to let you know that I’m in Antwerp and have already seen various things. I’ve rented a little room, <hi rend="ital">rue des Images No. 194</hi>, above a paint merchant,<anchor n="1" xml:id="note-t-1"/> for 25 francs a month. So when you write, please address your letter there instead of Poste restante.</ab>
+<ab rend="indent">I’ll start by telling you that I’ve seen <rs type="pers" key="1176">Leys</rs>’s dining room, you know <hi rend="ital">The walk on the ramparts</hi>, <hi rend="ital">The skaters</hi>, <hi rend="ital">The reception</hi>, <hi rend="ital">The table</hi>,<anchor n="2" xml:id="note-t-2"/> and, on a panel between the windows, St Luke.<anchor n="3" xml:id="note-t-3"/> To my surprise, the composition (at least so I imagine) was rather different — although I’ve not yet had an opportunity to compare the photos of the <hi rend="ital">paintings</hi> — rather different from the definitive compositions.<anchor n="4" xml:id="note-t-4"/>
+                </ab>
+<ab rend="indent">Then, it’s painted as a fresco — in other words on the plaster of the walls.<anchor n="5" xml:id="note-t-5"/> Now frescoes actually should and can last for centuries, but these have already faded appreciably, and the one over the fireplace in particular (part of The reception) already has some cracks, too. Baron <rs type="pers" key="1176">Leys</rs>’s oh so clever son has also made an improvement to this room by having a door enlarged, so that in The skaters the legs of the fellows standing on the bridge and looking 
+      <pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> over the rail have been cut off, which creates a deplorable effect.<anchor n="6" xml:id="note-t-6"/> Then the light in there is terribly bad — I imagine the room was originally painted to be used in lamplight. That’s why, because I really couldn’t see, I gave the maid a tip to light the chandelier and then I saw it better. After so much that left me rather disappointed — in the first place that the fresco colour, and, alas, bad fresco I’m afraid, isn’t what we’re accustomed to from Leys — after so much that disappointed me — superb nonetheless. The girl, the woman by the bakery, the lovers and other figures in The walk on the ramparts — the bird’s eye view of the city, the silhouette of the towers and roofs against the sky, bustle of skaters on the frozen moat — superb in manner.</ab>
+<ab rend="indent">Have also seen the museum of old paintings and the Musée Moderne.<anchor n="7" xml:id="note-t-7"/> I agree with you that the figures in the foreground — those heads — in the Christ in Purgatory are <hi rend="ital">very</hi> fine, 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> finer than the rest, that’s to say the central figure.<anchor n="8" xml:id="note-t-8"/> Those 2 blonde women’s heads, above all, are prime quality <rs type="pers" key="1336">Rubens</rs>. I was particularly struck by the <rs type="pers" key="1073">Frans Hals</rs>, The fisher boy.<anchor n="9" xml:id="note-t-9"/> <rs type="pers" key="1436">M. de Vos</rs>, portrait of guild patron.<anchor n="10" xml:id="note-t-10"/> <rs type="pers" key="1295">Rembrandt</rs> <hi rend="ital">very</hi> fine, two small Rembrandts that are perhaps not by R. but by <rs type="pers" key="1185">N. Maes</rs>?? or someone.<anchor n="11" xml:id="note-t-11"/> <hi rend="ital">
+                        <rs type="pers" key="1124">Jordaens</rs>, As</hi> <hi rend="ital">the old sing</hi>.<anchor n="12" xml:id="note-t-12"/> <rs type="pers" key="1056">Van Goyen</rs>.<anchor n="13" xml:id="note-t-13"/>
+                    <hi rend="ital">S</hi>. <rs type="pers" key="1337">Ruysdael</rs>.<anchor n="14" xml:id="note-t-14"/> And the <rs type="pers" key="1195">Quinten Massys</rs>.<anchor n="15" xml:id="note-t-15"/> The drawing of St Barbara by <rs type="pers" key="1016">Van Eyck</rs>.<anchor n="16" xml:id="note-t-16"/> &amp;c.</ab>
+<ab rend="indent">Musée Moderne, the large <rs type="pers" key="1223">Mols</rs> is <rs type="pers" key="1218">Mesdag</rs>-like, probably with smears by <rs type="pers" key="1426">Vollon</rs> in it (Vollon knew him well).<anchor n="17" xml:id="note-t-17"/> <rs type="pers" key="902">Braekeleer</rs>, <hi rend="ital">not</hi> the bad one, a Brabant inn, curiously good,<anchor n="18" xml:id="note-t-18"/> fine landscapes by <rs type="pers" key="951">C. de Cock</rs>,<anchor n="19" xml:id="note-t-19"/> <rs type="pers" key="1147">Lamorinière</rs>,<anchor n="20" xml:id="note-t-20"/> <rs type="pers" key="947">Coosemans</rs>,<anchor n="21" xml:id="note-t-21"/> <rs type="pers" key="539">Asselbergs</rs>,<anchor n="22" xml:id="note-t-22"/> <rs type="pers" key="1322">Rosseels</rs>,<anchor n="23" xml:id="note-t-23"/> <rs type="pers" key="103">Baron</rs>,<anchor n="24" xml:id="note-t-24"/> <rs type="pers" key="1243">Munthe</rs>,<anchor n="25" xml:id="note-t-25"/> <rs type="pers" key="320">Achenbach</rs>,<anchor n="26" xml:id="note-t-26"/> a fine <rs type="pers" key="949">Clays</rs>
+                    <anchor n="27" xml:id="note-t-27"/> — two old <rs type="pers" key="1176">Leys</rs>, one Braekeleer-like, another romantic, the latter fine.<anchor n="28" xml:id="note-t-28"/> A fine portrait by <rs type="pers" key="1102">Ingres</rs>,<anchor n="29" xml:id="note-t-29"/> a fine portrait by <rs type="pers" key="978">David</rs>,<anchor n="30" xml:id="note-t-30"/> yet more fine things, also horrible affairs like — life-sized cows by the God-fearing <rs type="pers" key="1409">Verboeckhoven</rs>,<anchor n="31" xml:id="note-t-31"/> etc.</ab>
+<ab rend="indent">But — I’ve seen extraordinarily little in the <hi rend="ital">shops</hi>,<anchor n="32" xml:id="note-t-32"/> <hi rend="ital">virtually</hi> nothing — one little painting not even as big as a hand, as good as <rs type="pers" key="1279">Raffaëlli</rs>,<anchor n="33" xml:id="note-t-33"/> otherwise nothing special, and I’m afraid that the trade is categorically as quiet as the grave. Still — it’s a good 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> old Dutch saying — <hi rend="ital">don’t despair</hi>.</ab>
+<ab rend="indent">I like Antwerp, have explored various parts of the city, it’s authentic down by the wharves.</ab>
+<ab rend="indent">Well — it can’t do any harm to know Antwerp a little, though it’ll probably be the same as everything and everywhere, that’s to say disillusioning, but yet with its own subtle distinctions. And besides, it’s good to have a change sometimes.</ab>
+<ab rend="indent">Regards, write soon if you will.</ab>
+<vg:whiteline/>
+<ab>Yours truly,</ab>
+<ab>Vincent</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>Van Gogh rented a room on the second floor at 194 rue des Images ((Lange) Beeldeke(n)sstraat), now no. 224, where the Dutch citizens <rs type="pers" key="28">Willem Henricus Brandel</rs> and <rs type="pers" key="296">Anna Wilhelmina Huberta Steegmans</rs> were registered. Brandel is listed in the archives as a ‘(house) painter’ and from 1890 onwards also as a ‘shopkeeper’. Van Gogh may be referring to him as the ‘paint merchant’. It is not certain whether he was also the landlord (<hi rend="ital">SAA</hi>, Register MA-BZA-B 348; B 401 and B 549; cf. also Tralbaut 1948, pp. 31-32).</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>See for these works by <rs type="pers" key="1176">Leys</rs> <ref target="let354.xml#n-3">letter 354, n. 3.</ref> <rs type="pers" key="902">Henri de Braekeleer</rs> had made a painting of this dining room in 1869: <hi rend="ital">The dining room at the home of Henri Leys</hi> (Antwerp, Koninklijk Museum voor Schone Kunsten). <rs type="ill" key="2165">Ill. 2165</rs>.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>
+      <hi rend="ital">The walk on the ramparts</hi> is part of <hi rend="ital">Merry company</hi>. Van Gogh says that <hi rend="ital">St Luke</hi> is a panel but, like the other works, it is actually canvas on a thin board; it measures 152 x 78 cm. <rs type="ill" key="1058">Ill. 1058</rs>. In 1863 <rs type="pers" key="1176">Leys</rs> did make a preliminary study on a panel and there is also an undated panel of St Luke. See Vanzype 1934, p. 101, no. 142 and p. 103, no. 201. Van Gogh had read about Leys’s dining room in September 1885 in <hi rend="ital">
+                            <rs type="lit" key="418">Du dessin et de la couleur</rs>
+                        </hi> by <rs type="pers" key="894">Félix Bracquemond</rs>, which dwelt at length on decorations. See also Van Uitert 1983, pp. 28-30.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>As emerged from <ref target="let354.xml">letter 354</ref> Van Gogh was familiar with the decorations through reproductions. Because some of the photographs show only parts of the paintings or figures taken from them, the decoration in its entirety was not what Van Gogh had expected.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>Strictly speaking they are not frescoes; the surviving works are on canvas and attached to a thin board on the wall. However, at the time <rs type="pers" key="1694">Philippe Burty</rs> (‘obviously documented by the artist himself’ (évidemment documenté par l’artiste lui-même)) described the decoration as ‘Etude de fresque’. See Vanzype 1934, p. 102, no. 159 and p. 84 (quotation).</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>Van Gogh may have gathered this information about <rs type="pers" key="1176">Leys</rs>’s son Julien during his visit; Julien’s part in enlarging the door is not recorded in the surviving documents. See Todts 1988, p. 105.</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>At that time the Musée Ancien, with around 700 paintings, was in the city centre, at the end of Minderbroedersstraat; the Musée Moderne was on the other side of the complex, in Venusstraat. The works discussed hereafter are now in Antwerp, Koninklijk Museum voor Schone Kunsten.</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>
+                        <rs type="pers" key="1336">Peter Paul Rubens</rs>, <hi rend="ital">St Theresa of Avila through Christ’s intervention rescuing Bernardinus of Mendoza from Purgatory</hi>, c 1630. <rs type="ill" key="1303">Ill. 1303</rs>.</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>
+                        <rs type="pers" key="1073">Frans Hals</rs>, <hi rend="ital">Fisher boy</hi>, <hi rend="ital">c</hi>. 1630-1632. <rs type="ill" key="2166">Ill. 2166</rs>. Van Gogh had also been transfixed by this work not long before, during an earlier trip to Antwerp. <rs type="pers" key="475">Kerssemakers</rs> recalled: ‘Suddenly he’s gone from my side, and I see him walking up to the painting, and me after him. When I came up to him he was standing with hands folded as if in prayer in front of the painting and whispered: “God d ...; do you see that,” he said after a while, “now that’s painting, look” and following the direction of the broad strokes with his thumb: “he leaves it just as he puts it down,” and with an expansive gesture taking in the gallery: “the rest is almost all from the old periwig era”.’ See <hi rend="ital">Verzamelde brieven</hi> 1973, vol. 3, p. 95 and <ref target="let527.xml#n-5">letter 527, n. 5.</ref>
+                    </ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>
+                        <rs type="pers" key="1436">Maerten de Vos</rs>, <hi rend="ital">St Luke painting the Virgin Mary</hi>, 1602. <rs type="ill" key="1411">Ill. 1411</rs>.</ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>Van Gogh is referring to the panel <hi rend="ital">An old man</hi> (71 x 58 cm), probably a late seventeenth-century copy after <rs type="pers" key="1295">Rembrandt</rs> (<rs type="ill" key="1848">Ill. 1848</rs>), and the small panel <hi rend="ital">A fisher boy</hi> (24 x 19 cm), with false signature ‘Rem. 1659’, but since – as Van Gogh already suspected – attributed to <rs type="pers" key="1185">Nicolaes Maes</rs>. <rs type="ill" key="1098">Ill. 1098</rs>. At the time both works were still regarded as Rembrandts. <ref target="let131.xml#n-25">See letter 131, n. 25,</ref> and cf. cat. Antwerp 1988, p. 237.</ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+<ab>
+                        <rs type="pers" key="1124">Jacob Jordaens</rs>, <hi rend="ital">As the elders sing, so pipe the young</hi>, 1638. <rs type="ill" key="1002">Ill. 1002</rs>.</ab>
+                </note>
+<note n="13" xml:id="n-13" target="#note-t-13">
+<ab>
+                        <rs type="pers" key="1056">Jan van Goyen</rs>, <hi rend="ital">Landscape</hi>, 1631. <rs type="ill" key="890">Ill. 890</rs>.</ab>
+                </note>
+<note n="14" xml:id="n-14" target="#note-t-14">
+<ab>
+                        <rs type="pers" key="1337">Salomon van Ruysdael</rs>, <hi rend="ital">By still water</hi> and <hi rend="ital">The ferry</hi>, 1657. <rs type="ill" key="1313">Ill. 1313</rs> and <rs type="ill" key="1314">Ill. 1314</rs>.</ab>
+                </note>
+<note n="15" xml:id="n-15" target="#note-t-15">
+<ab>There were at least five works by <rs type="pers" key="1195">Quinten Massys</rs> in the museum: <hi rend="ital">
+                            <rs type="otherart" key="955">Portrait of Peter Gilis</rs>
+                        </hi>, <hi rend="ital">
+                            <rs type="otherart" key="956">Christus Salvator Mundi</rs>
+                        </hi>, <hi rend="ital">
+                            <rs type="otherart" key="957">Magdalene</rs>
+                        </hi>, <hi rend="ital">Triptych of the Cabinetmakers’ Guild</hi> (<hi rend="ital">The entombment</hi>) and <hi rend="ital">
+                            <rs type="otherart" key="958">The Virgin embracing the dead Jesus</rs>
+                        </hi> (the last now as a follower). See cat. Antwerp 1988, pp. 245-250 and Baedeker 1885, pp. 95-102. Van Gogh must have meant the <hi rend="ital">Triptych of the Cabinetmakers’ Guild</hi>. At the time it was considered to be the most important work (cf. Baedeker 1985, pp. 97-98). <rs type="ill" key="3041">Ill. 3041</rs>.</ab>
+                </note>
+<note n="16" xml:id="n-16" target="#note-t-16">
+<ab>
+                        <rs type="pers" key="1016">Jan van Eyck</rs>, <hi rend="ital">St Barbara</hi>, 1437. <rs type="ill" key="825">Ill. 825</rs>.</ab>
+                </note>
+<note n="17" xml:id="n-17" target="#note-t-17">
+<ab>The ‘large Mols’ is probably <hi rend="ital">The roads of Antwerp in 1870</hi> (1878) by <rs type="pers" key="1223">Robert Mols</rs>, which measures 294 x 947 cm. <rs type="ill" key="1173">Ill. 1173</rs>. It hung together with his <hi rend="ital">The South Arsenal Quay in Antwerp in 1870</hi> (1876) – which was 297 x 331 cm. See cat. Antwerp 1977, pp. 311-312. <rs type="pers" key="1426">Antoine Vollon</rs> had been one of Mols’s teachers.</ab>
+                </note>
+<note n="18" xml:id="n-18" target="#note-t-18">
+<ab>
+                        <rs type="pers" key="902">Henri de Braekeleer</rs>,<hi rend="ital"> The old inn ‘The Pilots’ House’ in Antwerp</hi>, 1877. <rs type="ill" key="629">Ill. 629</rs>. The epithet ‘the bad one’ refers to Henri’s father, <rs type="pers" key="898">Ferdinand Braekeleer the Elder</rs>, as we learn from <ref target="let547.xml">letter 547</ref>.</ab>
+                </note>
+<note n="19" xml:id="n-19" target="#note-t-19">
+<ab>
+                        <rs type="pers" key="951">César de Cock</rs>, <hi rend="ital">Woodland view: the banks of the Epte at Gasny (Eure)</hi>, 1882. <rs type="ill" key="33">Ill. 33</rs>.</ab>
+                </note>
+<note n="20" xml:id="n-20" target="#note-t-20">
+<ab>
+                        <rs type="pers" key="1147">Jean Pierre François Lamorinière</rs>, <hi rend="ital">Prinsenvijver on the island of Walcheren</hi>, 1876. <rs type="ill" key="1024">Ill. 1024</rs>.</ab>
+                </note>
+<note n="21" xml:id="n-21" target="#note-t-21">
+<ab>
+                        <rs type="pers" key="947">Joseph Théodore Coosemans</rs>, <hi rend="ital">A winter’s day in the Kempen</hi>, 1879. <rs type="ill" key="2168">Ill. 2168</rs>.</ab>
+                </note>
+<note n="22" xml:id="n-22" target="#note-t-22">
+<ab>
+                        <rs type="pers" key="539">Alphonse Asselbergs</rs>, <hi rend="ital">Peat moor in the Kempen. Sunset</hi>, 1878. <rs type="ill" key="517">Ill. 517</rs>.</ab>
+                </note>
+<note n="23" xml:id="n-23" target="#note-t-23">
+<ab>J<rs type="pers" key="1322">acques Rosseels</rs>, <hi rend="ital">The environs of Waasmunster</hi>, 1882. <rs type="ill" key="1293">Ill. 1293</rs>.</ab>
+                </note>
+<note n="24" xml:id="n-24" target="#note-t-24">
+<ab>
+                        <rs type="pers" key="103">Théodore Baron</rs>, <hi rend="ital">The forest of Fontainebleau, autumn evening</hi>. <rs type="ill" key="540">Ill. 540</rs>.</ab>
+                </note>
+<note n="25" xml:id="n-25" target="#note-t-25">
+<ab>
+                        <rs type="pers" key="1243">Ludwig Munthe</rs>, <hi rend="ital">Winter landscape</hi>. <rs type="ill" key="1188">Ill. 1188</rs>.</ab>
+                </note>
+<note n="26" xml:id="n-26" target="#note-t-26">
+<ab>
+                        <rs type="pers" key="320">Andreas Achenbach</rs>, <hi rend="ital">A tug leaving the port of Ostend at high tide</hi>, 1878. <rs type="ill" key="480">Ill. 480</rs>.</ab>
+                </note>
+<note n="27" xml:id="n-27" target="#note-t-27">
+<ab>
+                        <rs type="pers" key="949">Paul Jean Clays</rs>, <hi rend="ital">Calm before the storm, near Dordrecht</hi>, 1876. <rs type="ill" key="695">Ill. 695</rs>.</ab>
+                </note>
+<note n="28" xml:id="n-28" target="#note-t-28">
+<ab>
+                        <rs type="pers" key="1176">Henri Leys</rs>’s <hi rend="ital">P.P. Rubens feted by the gunsmiths of Antwerp</hi> (1851) and <hi rend="ital">Flemish nuptials in the 17th century </hi>(1839) hung in gallery 2 at the museum. <rs type="ill" key="1052">Ill. 1052</rs> and <rs type="ill" key="3008">Ill. 3008</rs>. See Baedeker 1885, p. 103.</ab>
+                </note>
+<note n="29" xml:id="n-29" target="#note-t-29">
+<ab>
+                        <rs type="pers" key="1102">Jean Auguste Dominique Ingres</rs>, <hi rend="ital">Self-portrait</hi>, 1864. <rs type="ill" key="982">Ill. 982</rs>.</ab>
+                </note>
+<note n="30" xml:id="n-30" target="#note-t-30">
+<ab>
+                        <rs type="pers" key="978">Jacques Louis David</rs>, <hi rend="ital">Man with a hat</hi>. <rs type="ill" key="2167">Ill. 2167</rs>. The attribution is now in doubt.</ab>
+                </note>
+<note n="31" xml:id="n-31" target="#note-t-31">
+<ab>
+                        <rs type="pers" key="1409">Eugène Verboeckhoven</rs>, <hi rend="ital">
+                            <rs type="otherart" key="613">Cattle in a Flemish meadow</rs>
+                        </hi>, 1847 (no illustration available). In view of Van Gogh’s remark that Verboeckhoven painted ‘life-sized cows’ he must have had in mind this work by the romantic animal painter, which measures 249 x 341 cm. The museum in Antwerp has a panel by Eugène’s brother <rs type="pers" key="224">Louis</rs> titled <hi rend="ital">Cows</hi>; however, it only measures 125 x 135 cm. See cat. Antwerp 1977, pp. 457-458.</ab>
+<ab rend="indent">Nothing in Verboeckhoven’s biography would seem to indicate that he was particularly pious. Van Gogh may have been thinking of the painting <hi rend="ital">
+                            <rs type="otherart" key="614">Flock frightened by the storm</rs>
+                        </hi>, 1839 (Brussels, Musées Royaux des Beaux-Arts) – in which a shepherd, with a clear Christian allusion, stands beside a prominent field cross with a lamb in his arms – or by ‘God-fearing’ he may have been commenting ironically on all the extremely ‘good’ and ‘virtuous’ motifs in Verboeckhoven’s oeuvre. See P. and V. Berko, Eugène Verboeckhoven. Brussels 1981.</ab>
+                </note>
+<note n="32" xml:id="n-32" target="#note-t-32">
+<ab>In 1885 there were at least thirteen art dealers – ‘Marchands de tableaux’ – in the city. See <hi rend="ital">Adresboek 1885</hi>.</ab>
+                </note>
+<note n="33" xml:id="n-33" target="#note-t-33">
+<ab>From <ref target="let546.xml">letter 546</ref> it appears that this was a work by <rs type="pers" key="1239">Franciscus Leonardus Johannes Moormans</rs>. It is not possible to identify the specific work Van Gogh is referring to here.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Nuenen, Monday, 4 and Tuesday, 5 May 1885. </title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let500"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">500</idno>
+<idno type="collectedletters">406</idno>
+<idno type="brieven1990">503</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Nuenen</vg:placeLet>
+                        <vg:dateLet>Monday, 4 and Tuesday, 5 May 1885</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. Nuenen, Monday, 4 and Tuesday, 5 May 1885. </p>
+<note type="ongoingTopic" n="1">
+<p>Portier’s opinion of <hi rend="ital">The potato eaters</hi> <ref target="let494.xml">(494)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="2">
+<p>Discussion with Theo about a lighter palette <ref target="let499.xml">(499)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="3">
+<p>The move to the studio <ref target="let490.xml">(490)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. nos. b444 a-b V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Van Gogh wrote the letter over two days <ref target="#l-195">(l. 195)</ref>. He also says that the painting still had to dry for another day or two <ref target="#l-203">(l. 203)</ref>. In the next letter, <ref target="let501.xml">501</ref>, which was written on Wednesday, 6 May, he says that he sent ‘painted studies’ yesterday and the painting ‘today, Wednesday’. We have therefore dated the present letter Monday, 4 and Tuesday, 5 May 1885; it is striking, though, that the fact that Theo’s remittance was on the late side (see <ref target="#l-195">l. 195</ref>) did not provoke any comments on Vincent’s part.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0444 a" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000592_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000592_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000592_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000592_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000592_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000592_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="VGM001000592_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000592_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000592_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0444 a" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000592_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000592_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000592_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000592_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000592_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000592_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000592_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000592_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000592_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0444 b" xml:id="surf-pb-2r">
+            <graphic mimeType="image/tiff" url="VGM001000593_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-2r-5">
+<graphic mimeType="image/tiff" url="VGM001000593_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000593_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000593_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0444 b" xml:id="surf-pb-2v">
+            <graphic mimeType="image/tiff" url="VGM001000593_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-2v-6">
+<graphic mimeType="image/tiff" url="VGM001000593_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000593_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000593_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Waarde Theo,</ab>
+                <lb n="1*" xml:id="l-1s"/>
+<ab>ik maak vast een woordje voor U klaar tegen dat ik <lb n="2" xml:id="l-2"/>het kistje wegzend. ik stuur het franco (Anvers) (of geheel door <lb n="2a" xml:id="l-2a"/>als het kan) <lb n="2"/>aan Uw adres <lb n="3" xml:id="l-3"/>Rue de Laval.</ab>
+                <lb n="4" xml:id="l-4"/>
+<ab rend="indent">Als er nog vracht op komt<c type="kk">/</c> is het omdat ze misschien niet <lb n="5" xml:id="l-5"/>door frankeeren. Maar ik wilde niet ge er onkosten aan <lb n="6" xml:id="l-6"/>hebben zult<c type="kk">/</c> daar het U misschien tegenvalt.<anchor n="1" xml:id="note-o-1"/>
+                </ab>
+                <lb n="7" xml:id="l-7"/>
+<ab rend="indent">Indien dit het geval mogt wezen<c type="kk">/</c> kijk er dan eens een <lb n="8" xml:id="l-8"/>tijd op<c type="kp">_</c>
+                </ab>
+                <lb n="9" xml:id="l-9"/>
+<ab rend="indent">Wat Portier zeggen zal weet ik natuurlijkerwijs niet.</ab>
+                <lb n="10" xml:id="l-10"/>
+<ab rend="indent">Bij wijze van critiek zou ik er zelf nog dingen tegen kunnen <lb n="11" xml:id="l-11"/>zeggen die denkelijk de meeste critici ontsnappen zouden. <lb n="12" xml:id="l-12"/>Maar de reden waarom met een zekere gerustheid ik <lb n="13" xml:id="l-13"/>het zend<c type="kk">/</c> is dat in tegenoverstelling van heel wat <lb n="14" xml:id="l-14"/>andere schilderijen het rustieke en een zeker leven <lb n="15" xml:id="l-15"/>er in zit. En dan<c type="kk">/</c> ofschoon ’t anders gedaan <lb n="16" xml:id="l-16"/>is<c type="kk">/</c> in een andere eeuw dan de oude Hollanders<c type="kk">/</c> Ostade b.v.<c type="kk">/</c> <lb n="17" xml:id="l-17"/>toch is het ook uit het hart van ’t boerenleven <lb n="18" xml:id="l-18"/>en – oorspronkelijk<c type="kp">_</c>–</ab>
+                <lb n="19" xml:id="l-19"/>
+<ab rend="indent">Als ik zie b.v. in het Salonnummer<anchor n="2" xml:id="note-o-2"/> zooveel schilderijen <lb n="20" xml:id="l-20"/>die wat techniek aangaat als men wil onberispelijk <lb n="21" xml:id="l-21"/>zijn geteekend en geschilderd<c type="kk">/</c> dan vervelen <lb n="22" xml:id="l-22"/>veel daarvan me niet te min gruwelijk omdat <lb n="23" xml:id="l-23"/>ze me niets te voelen of te denken geven<c type="kk">/</c> omdat <lb n="24" xml:id="l-24"/>ze zonder een zekere hartstogtelijkheid blijkbaar zijn <lb n="25" xml:id="l-25"/>gemaakt. En iets hartstogtelijks is in wat ik U stuur – <lb n="26" xml:id="l-26"/>ik heb een grooten lust gehad om het te maken en <lb n="27" xml:id="l-27"/>het is met een zekere animo dat ik heb gewerkt<c type="kp">_</c>– <lb n="28" xml:id="l-28"/>Ik heb me niet verveeld – misschien zal het <lb n="29" xml:id="l-29"/>daarom ook anderen niet vervelen<c type="kp">_</c>– <lb n="30" xml:id="l-30"/>Omdat ik dat geloof stuur ik het<c type="kp">_</c>–</ab>
+                <lb n="31" xml:id="l-31"/>
+<ab rend="indent">Hoe mooi ik echter in ’t Salon nummer <hi rend="ital">l’alouette</hi> <lb n="32" xml:id="l-32"/>van Jules Breton<anchor n="3" xml:id="note-o-3"/> vind – het schilderij van Roll<c type="kk">/</c>
+                    <anchor n="4" xml:id="note-o-4"/> <lb n="33" xml:id="l-33"/>ook den <hi rend="ital">Fantin Latour</hi>
+                    <anchor n="5" xml:id="note-o-5"/>– ook <hi rend="ital">les Côtes de Cornouailles</hi>
+                    <c type="kk">/</c> <lb n="34" xml:id="l-34"/>
+                    <hi rend="ital">Vernier</hi>
+                    <c type="kk">/</c>
+                    <anchor n="6" xml:id="note-o-6"/> en enkele anderen nog – wees er gerust over – <lb n="35" xml:id="l-35"/>ik vind ze <hi rend="ital">prachtig</hi>
+                    <c type="kk">/</c> ofschoon van andere blijkbaar <lb n="36" xml:id="l-36"/>zeer groote lappen ik gerust durf zeggen ik ze <lb n="37" xml:id="l-37"/>geweldig vervelend vind.</ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="38" xml:id="l-38"/>
+<ab rend="indent">Het vrouwtje met de schop van L’Hermitte<c type="kk">/</c> <lb n="39" xml:id="l-39"/>wat leeft dat en wat is het echt: <hi rend="ital">als door</hi> <lb n="40" xml:id="l-40"/>
+                    <hi rend="ital">een boer die schilderen kan</hi> gedaan<c type="kk">/</c> <lb n="41" xml:id="l-41"/>het is meesterlijk.<anchor n="7" xml:id="note-o-7"/> Als ik U was zou ik van <lb n="42" xml:id="l-42"/>de L’Hermittes exemplaren koopen om <lb n="43" xml:id="l-43"/>ze 10 jaar te bewaren<c type="kp">_</c>
+                </ab>
+                <lb n="44" xml:id="l-44"/>
+<ab rend="indent">Want het zijn meesterstukken die men <lb n="44"/>zoodoende voor zijn 50 centimes krijgt.</ab>
+                <lb n="46" xml:id="l-46"/>
+<ab rend="indent">Hoe is ’t toch mogelijk dat de illustraties niet <lb n="47" xml:id="l-47"/>beter zijn!</ab>
+                <lb n="48" xml:id="l-48"/>
+<ab rend="indent">
+                    <hi rend="ital">Lançon</hi> is dood hoorde ik.<anchor n="8" xml:id="note-o-8"/> Jaren lang heb <lb n="49" xml:id="l-49"/>ik zijn werk gevolgd en nooit heeft iets <lb n="50" xml:id="l-50"/>van hem me verveeld.</ab>
+                <lb n="51" xml:id="l-51"/>
+<ab rend="indent">Leven in ieder krabbeltje<c type="kp">_</c>
+                </ab>
+                <lb n="52" xml:id="l-52"/>
+<ab rend="indent">Als er zoo een sterft – uit dat zelfde ras <lb n="53" xml:id="l-53"/>als de Regameys en Renouard – <lb n="54" xml:id="l-54"/>Dan is het een verlies en ontstaat er een <lb n="55" xml:id="l-55"/>leege plaats<c type="kp">_</c>
+                </ab>
+                <lb n="56" xml:id="l-56"/>
+<ab rend="indent">Maar de <lb n="57" xml:id="l-57"/>teekeningen van Lançon zijn bewonderenswaardig <lb n="58" xml:id="l-58"/>geweest<c type="kk">/</c> zoo mannelijk en zoo breed.</ab>
+                <lb n="59" xml:id="l-59"/>
+<ab rend="indent">
+                    <hi rend="ital">Tissot</hi> heeft een expositie hoor ik – hebt ge dat <lb n="60" xml:id="l-60"/>gezien.<anchor n="9" xml:id="note-o-9"/>
+                </ab>
+                <lb n="61" xml:id="l-61"/>
+<ab rend="indent">Het ligt maar aan de mate leven en passie <lb n="62" xml:id="l-62"/>die een artist in zijn figuur weet te geven<c type="kk">/</c> <lb n="63" xml:id="l-63"/>als ’t maar goed leeft dan is een damesfiguur van Alfred Stevens b.v. <lb n="64" xml:id="l-64"/>of sommige Tissots ook wel degelijk prachtig. <lb n="65" xml:id="l-65"/>En de boeren van l’Hermitte<c type="kk">/</c> Millet zijn juist om <lb n="66" xml:id="l-66"/>het leven zoo mooi.</ab>
+                <lb n="67" xml:id="l-67"/>
+<ab rend="indent">In welke rigting men ook werke – laat het <lb n="68" xml:id="l-68"/>Israels zijn<c type="kk">/</c> Herkomer<c type="kk">/</c> zooveel verschillende <lb n="69" xml:id="l-69"/>opvattingen – Als het gevoeld is en <lb n="70" xml:id="l-70"/>leeft dan is het goed ook.</ab>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                <lb n="71" xml:id="l-71"/>
+<ab rend="indent">Er zullen wel veel mooie schilderijen zijn<c type="kk">/</c> juist ook <lb n="72" xml:id="l-72"/>bij degenen die <hi rend="ital">niet</hi> gereproduceerd zijn.</ab>
+                <lb n="73" xml:id="l-73"/>
+<ab rend="indent">Maar als ik eens denk aan een Salon zoo <lb n="74" xml:id="l-74"/>van 70 of 74 om maar iets te noemen – <lb n="75" xml:id="l-75"/>me dunkt het peil was hooger en <lb n="76" xml:id="l-76"/>sedert is men – <hi rend="ital">gezakt</hi>
+                    <c type="kp">_</c>
+                </ab>
+                <lb n="77" xml:id="l-77"/>
+<ab rend="indent">Als men de Albums Boetzel<anchor n="10" xml:id="note-o-10"/> maar eens <lb n="78" xml:id="l-78"/>doorkijkt b.v.. En daar staan de <hi rend="ital">grootste krachten</hi> <lb n="79" xml:id="l-79"/>
+                    <hi rend="ital">niet in</hi>
+                    <c type="kk">/</c> Millet b.v. niet.</ab>
+                <lb n="80" xml:id="l-80"/>
+<ab rend="indent">Het is me volstrekt niet te doen om de kwestie te opperen <lb n="81" xml:id="l-81"/>als wist ik ’t zelf precies<c type="kp">_</c>–</ab>
+                <lb n="82" xml:id="l-82"/>
+<ab rend="indent">Integendeel – gij ziet zooveel Daubignys<c type="kk">/</c> Corots<c type="kk">/</c> Millets<c type="kk">/</c> <lb n="83" xml:id="l-83"/>Dupré<c type="kk">/</c> Israels<c type="kk">/</c> Herkomer<c type="kk">/</c> Breton &amp;c.</ab>
+                <lb n="84" xml:id="l-84"/>
+<ab rend="indent">En ik geen<c type="kp">_</c>– Maar iederen dag tegenwoordig <lb n="85" xml:id="l-85"/>denk ik er over dat de gamma van al die <lb n="86" xml:id="l-86"/>schilders lager staat dan het <hi rend="ital">schijnt</hi> en dat <lb n="87" xml:id="l-87"/>ook die schilderijen welke helder schijnen als men <lb n="88" xml:id="l-88"/>’t goed nagaat &amp; vergelijkt veel lager staan <lb n="89" xml:id="l-89"/>dan de grijzen van Mauve zelfs.</ab>
+                <lb n="90" xml:id="l-90"/>
+<ab rend="indent">Uitgezonderd juist de <hi rend="ital">allermooiste</hi> Mauves – om er <lb n="91" xml:id="l-91"/>een paar te noemen<c type="kk">/</c> die oude van Post met <lb n="92" xml:id="l-92"/>die karavaan oude knollen<c type="kp">_</c>
+                    <anchor n="11" xml:id="note-o-11"/>
+                </ab>
+                <lb n="93" xml:id="l-93"/>
+<ab rend="indent">En zijn schilderij van den Salon van 2 jaar geleden<c type="kk">/</c> <lb n="94" xml:id="l-94"/>het in zee slepen van die pink.<anchor n="12" xml:id="note-o-12"/>
+                </ab>
+                <lb n="95" xml:id="l-95"/>
+<ab rend="indent">Ik hoor &amp; zie zoo weinig of niets<c type="kk">/</c> dus ik ben niet <lb n="96" xml:id="l-96"/>in de gelegenheid aan de schilderijen zelf te toetsen en <lb n="97" xml:id="l-97"/>na te gaan wat er van die kwestie is<c type="kp">_</c>–</ab>
+                <lb n="98" xml:id="l-98"/>
+<ab rend="indent">Doch zelf werkende en zoekende en met de natuur <lb n="99" xml:id="l-99"/>er bij nadenkende<c type="kk">/</c> laat zoo als ik al meer U schreef <lb n="100" xml:id="l-100"/>die kwestie me geen rust.</ab>
+                <lb n="101" xml:id="l-101"/>
+<ab rend="indent">En niets zegt duidelijker wat ik bedoel<c type="kk">/</c> nergens <lb n="102" xml:id="l-102"/>vind ik zooveel grond in voor mijn vermoeden <lb n="103" xml:id="l-103"/>dan dat woord zoo juist Millets kleur en <lb n="104" xml:id="l-104"/>techniek latende voelen. Son paysan semble <lb n="105" xml:id="l-105"/>peint avec la terre meme qu’il ensemence.<anchor n="13" xml:id="note-o-13"/>
+                </ab>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                <lb n="106" xml:id="l-106"/>
+<ab rend="indent">Mauve – als hij helder schildert – en de andere <hi rend="ital">heldere</hi> <lb n="107" xml:id="l-107"/>Hollanders – van de goede kwaliteit – gebruiken geen <lb n="108" xml:id="l-108"/>andere kleurmenging dan de tegenwoordige Fransche of dan de <lb n="109" xml:id="l-109"/>oud Hollandsche school – n.l. een doodeenvoudig palet<c type="kk">/</c> <lb n="110" xml:id="l-110"/>doch hier in Holland gebruikt men meer wit <lb n="111" xml:id="l-111"/>dan Millet of Dupré of Daubigny of Corot. Als ge er <lb n="112" xml:id="l-112"/>naar aanleiding van schilderijen die ge zien mogt eens over wilt <lb n="113" xml:id="l-113"/>schrijven zou mij pleizier doen<c type="kp">_</c>
+                </ab>
+                <lb n="114" xml:id="l-114"/>
+      <ab rend="indent">Ik lees daar net in een Graphic compte rendu van een tentoonstelling <lb n="115" xml:id="l-115"/>van 25 Teekeningen van Fred Walker. Walker is een jaar of 10 <lb n="116" xml:id="l-116"/>dood weet ge wel.<anchor n="14" xml:id="note-o-14"/> Pinwell ook<c type="kp">_</c>– Terwijl ik over dit onderwerp <lb n="117" xml:id="l-117"/>schrijf denk ik ook aan hun werk en hoe verbazend knap zij <lb n="118" xml:id="l-118"/>zijn geweest. Hoe zij het waren die in Engeland ’t zelfde deden <lb n="119" xml:id="l-119"/>wat Maris<c type="kk">/</c> Israels<c type="kk">/</c> Mauve in Holland hebben bewerkstelligd<c type="kk">/</c> n.l. <lb n="120" xml:id="l-120"/>natuur hersteld in plaats van conventie<c type="kk">/</c> gevoel en impressie <lb n="121" xml:id="l-121"/>in plaats van akademische suf- en dofheden. Hoe zij de eerste <lb n="122" xml:id="l-122"/>
+                    <hi rend="ital">toonisten</hi> waren. Maar ik herinner <lb n="123" xml:id="l-123"/>mij boeren op het land van Pinwell –<anchor n="15" xml:id="note-o-15"/> the Harbour of refuge van <lb n="124" xml:id="l-124"/>Walker<anchor n="16" xml:id="note-o-16"/> – waarvan men ook zou kunnen zeggen <lb n="125" xml:id="l-125"/>
+                    <hi rend="ital">peints avec de la Terre</hi>. Ik zou meer schil<c type="shy">-</c>
+                    <lb n="126" xml:id="l-126"/>derijen moeten zien om conclusies te kunnen <lb n="127" xml:id="l-127"/>maken – en ik vraag U alleen<c type="kk">/</c> weet gij hieromtrent <lb n="128" xml:id="l-128"/>iets. <hi rend="ital">wijn</hi> bevat vanzelf natuurlijk vocht of water<c type="shy">-</c>
+                    <lb n="129" xml:id="l-129"/>deelen – en er zal <hi rend="ital">altijd</hi> wel water bij zijn uit den aard der <lb n="130" xml:id="l-130"/>zaak. Maar al te veel water er bij – <lb n="131" xml:id="l-131"/>en het wordt slap<c type="kp">_</c>– Het is mijn bewering evenmin <lb n="132" xml:id="l-132"/>dat men zonder wit of licht kan of zou moeten <lb n="133" xml:id="l-133"/>schilderen<c type="kk">/</c> evenmin als ik ooit beweren zou men wijn moest <hi rend="ital">droogen</hi>. ’K zeg echter wel degelijk<c type="kk">/</c> <lb n="134" xml:id="l-134"/>men mag wel een beetje oppassen in onzen <lb n="135" xml:id="l-135"/>zoo reinen? en helderen? tijd<c type="kk">/</c> dat men niet <hi rend="ital">al te</hi> <lb n="136" xml:id="l-136"/>
+                    <hi rend="ital">veel</hi> water in den wijn<c type="kk">/</c> al te veel wit in den <lb n="137" xml:id="l-137"/>wijn van de kleur doe<c type="kp">_</c>– Opdat er <lb n="138" xml:id="l-138"/>vurigheid blijve en de effekten niet te tam worden <lb n="139" xml:id="l-139"/>en den boel verslappe.</ab>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+                <lb n="140" xml:id="l-140"/>
+<ab rend="indent">Weet ge waar men in dit opzigt iets van zou <lb n="141" xml:id="l-141"/>kunnen leeren – Aan een schilderij van Leys<c type="kk">/</c> <lb n="142" xml:id="l-142"/>niet uit de eerste periode maar uit de <lb n="143" xml:id="l-143"/>tweede en derde periode van Leys<c type="kp">_</c>–<anchor n="17" xml:id="note-o-17"/>
+                </ab>
+                <lb n="144" xml:id="l-144"/>
+<ab rend="indent">Ik herinner me <hi rend="ital">les patineurs</hi> uit de serie en <lb n="145" xml:id="l-145"/>
+                    <hi rend="ital">la promenade sur les remparts</hi>.<anchor n="18" xml:id="note-o-18"/>
+                </ab>
+                <lb n="146" xml:id="l-146"/>
+<ab rend="indent">In beide schilderijen figuren in de sneeuw <lb n="147" xml:id="l-147"/>en beide schilderijen toch niet grijs<c type="kk">/</c> zóó licht als de <lb n="148" xml:id="l-148"/>tegenwoordige Hollanders sneeuw zouden schilderen. <lb n="149" xml:id="l-149"/>Dat schilderijtje van Millet dat gij mij eens genoemd hebt <lb n="150" xml:id="l-150"/>als type van een impressionistisch sch<hi rend="ss">ij</hi> – is dat <lb n="151" xml:id="l-151"/>van de Luxembourg?–</ab>
+                <lb n="152" xml:id="l-152"/>
+<ab rend="indent">Ik geloof dat menig Hollandsch landschap <lb n="153" xml:id="l-153"/>wit zou worden en kleurig toch vergeleken <lb n="154" xml:id="l-154"/>bij dien toon<c type="kp">_</c>– Hiervan houd ik me <lb n="155" xml:id="l-155"/>overtuigd – dat het grootendeels geschilderd <lb n="156" xml:id="l-156"/>is met rood<c type="kk">/</c> blaauw en geel<c type="kk">/</c> met misschien <lb n="157" xml:id="l-157"/>
+                    <hi rend="ital">iets of wat</hi> maar waarschijnlijk niet veel wit<c type="kp">_</c> <lb n="158" xml:id="l-158"/>Ik heb het in geen 10 of 12 jaar gezien<anchor n="19" xml:id="note-o-19"/> – doch hoe <lb n="159" xml:id="l-159"/>meer ik er over denk<c type="kk">/</c> zelf zoekende naar zekere <lb n="160" xml:id="l-160"/>effekten in de natuur<c type="kk">/</c> hoe minder ik geneigd <lb n="161" xml:id="l-161"/>word om te gelooven dat de echte fransche schilders <lb n="162" xml:id="l-162"/>zooveel wit gebruikten als tegenwoordig <lb n="163" xml:id="l-163"/>men in dreigt te vervallen.</ab>
+                <lb n="164" xml:id="l-164"/>
+<ab rend="indent">Ik weet wel dat er van de modellen ook iets <lb n="165" xml:id="l-165"/>afhangt. Als ik denk aan de Scheveningster die aan Artz <lb n="166" xml:id="l-166"/>geregeld tot model dient<c type="kk">/</c> die ik me heel goed herinner<c type="kk">/</c> wel <lb n="167" xml:id="l-167"/>die is zoo blank<c type="kk">/</c> zoo helder als – sommige hoeren<c type="kp">_</c>–<anchor n="20" xml:id="note-o-20"/> <lb n="168" xml:id="l-168"/>Dat is ook mooi om te schilderen<c type="kk">/</c> ja wel<c type="kp">_</c>–</ab>
+                <lb n="169" xml:id="l-169"/>
+<ab rend="indent">Maar <hi rend="ital">boeren</hi> of visschers op kleine dorpen <lb n="170" xml:id="l-170"/>en ver van stad – die zijn<c type="kk">/</c> waar men dan overigens <lb n="171" xml:id="l-171"/>ook kome<c type="kk">/</c> anders<c type="kp">_</c>– <hi rend="ital">Zij doen denken aan</hi> <lb n="172" xml:id="l-172"/>
+                    <hi rend="ital">de aarde</hi>
+                    <c type="kk">/</c>
+                    <hi rend="ital"> schijnen er soms uit gemodeleerd te</hi> <lb n="173" xml:id="l-173"/>
+                    <hi rend="ital">wezen</hi>.</ab>
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>
+                <lb n="174" xml:id="l-174"/>
+<ab rend="indent">In de gedichten van Jules Breton herinner ik mij dat <lb n="175" xml:id="l-175"/>staat<c type="kk">/</c> en ik geloof juist in dat ’t welk hij <lb n="176" xml:id="l-176"/>aan Millet gededieerd heeft (een boertje dat naar huis gaat <lb n="176a" xml:id="l-176a"/>door de aardappelvelden s’avonds)</ab>
+<vg:whiteline/>
+                <lb n="177" xml:id="l-177"/>
+<ab>
+                    <hi rend="ital">Par le crépuscule &amp; le hâle</hi>
+                </ab>
+                <lb n="178" xml:id="l-178"/>
+<ab>
+                    <hi rend="ital">le paysan </hi>DEUX FOIS BRUNI<c type="kp">_</c>
+                    <anchor n="21" xml:id="note-o-21"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="179" xml:id="l-179"/>
+<ab>Maar dacht ge dat ik daarom van geen heldere schilderijen <lb n="180" xml:id="l-180"/>houd – waarachtig wel – ik ken een Bastien <lb n="181" xml:id="l-181"/>Lepage – een bruid die geheel blanc sur <lb n="182" xml:id="l-182"/>blanc is met een bruin gezigtje in ’t midden – <lb n="183" xml:id="l-183"/>prachtig<anchor n="22" xml:id="note-o-22"/> – en hoeveel Hollandsche schilderijen <lb n="184" xml:id="l-184"/>met sneeuw mist en lucht – Prachtig<c type="kp">_</c>–</ab>
+                <lb n="185" xml:id="l-185"/>
+<ab rend="indent">Ik wil alleen er maar op komen men <lb n="186" xml:id="l-186"/>mag doen al wat men wil<c type="kk">/</c> <lb n="187" xml:id="l-187"/>en b.v. Jaap Maris<c type="kk">/</c> die soms zeer helder is – <lb n="188" xml:id="l-188"/>den volgenden dag schildert hij een stadsgezigt bij <lb n="189" xml:id="l-189"/>nacht in de somberste gamma<c type="kp">_</c>–</ab>
+                <lb n="190" xml:id="l-190"/>
+<ab rend="indent">Waar ik op wijs is vooral dat schilderijen als zekere <lb n="191" xml:id="l-191"/>
+                    <hi rend="ital">oude Cabats</hi> b.v.<c type="kk">/</c> zekere Duprés – al zijn zij <lb n="192" xml:id="l-192"/>misschien haast enkel met rood<c type="kk">/</c> blaauw en geel <lb n="193" xml:id="l-193"/>geschilderd<c type="kk">/</c> zonder veel wit<c type="kk">/</c> toch volstrekt <hi rend="ital">mijns</hi> <lb n="194" xml:id="l-194"/>
+                    <hi rend="ital">inziens</hi> niet onderdoen voor latere<c type="kk">/</c> grijzere concepties<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="195" xml:id="l-195"/>
+<ab>Tot zoover gisteren. Zooeven komt Uw brief met het ingeslotene<c type="kk">/</c> <lb n="196" xml:id="l-196"/>waarvoor hartelijk dank. Interessant vind ik wat ge schrijft over <lb n="197" xml:id="l-197"/>den Salon<c type="kp">_</c> Ik kan zien dat gij begrepen hebt waar ik ’t over had<c type="kk">/</c> <lb n="198" xml:id="l-198"/>van gebroken kleuren<c type="kk">/</c> oranje gebroken door blaauw en omgekeerd<c type="kk">/</c> <lb n="199" xml:id="l-199"/>aan wat ge zegt over Sch<hi rend="ss">ij</hi> <hi rend="ital">Besnard</hi>.<anchor n="23" xml:id="note-o-23"/> Alleen<c type="kk">/</c> er zijn verschillende <lb n="200" xml:id="l-200"/>andere gammas ook<c type="kp">_</c>– Maar die van oranje tegen blaauw is logisch<c type="kk">/</c> <lb n="201" xml:id="l-201"/>zoo ook geel tegen lilas<c type="kk">/</c> zoo ook rood tegen groen.</ab>
+                <lb n="202" xml:id="l-202"/>
+<ab rend="indent">De kist voor ’t sch<hi rend="ss">ij</hi> staat klaar<c type="kk">/</c> ik stuur ’t dus <hi rend="ital">plat</hi> en ’t is een ligt kistje<c type="kk">/</c> <lb n="203" xml:id="l-203"/>1 of 2 dagen moet ’t echter nog droogen. Ik zend tevens <lb n="204" xml:id="l-204"/>nog een 10tal geschilderde studies.<anchor n="24" xml:id="note-o-24"/> Vertel mij s.v.p<c type="kp">_</c> <lb n="205" xml:id="l-205"/>nog iets van Sch<hi rend="ss">ij</hi> UHDE<c type="kp">_</c>
+                    <anchor n="25" xml:id="note-o-25"/> ge weet Rembrandt schilderde <lb n="206" xml:id="l-206"/>hetzelfde in ’t groote sch<hi rend="ss">ij</hi> van National Gallery<c type="kp">_</c>
+                    <anchor n="26" xml:id="note-o-26"/>
+                </ab>
+                <lb n="207" xml:id="l-207"/>
+<ab rend="indent">ik zit in verhuisrommel. Nogmaals dank voor het gezondene<c type="kk">/</c> <lb n="208" xml:id="l-208"/>met een handdruk<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="208*" xml:id="l-208s"/>
+<ab>b<c type="kp">_</c> à t<c type="kp">_</c>
+                </ab>
+                <lb n="209" xml:id="l-209"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-25" n="25">hartstogtelijks &lt; hartogtelijks</note>
+<note target="l-121" n="121">suf- &lt; suf</note>
+<note target="l-151" n="151">Luxembourg?– &lt; Luxembourg –</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo,</ab>
+<ab>I’m dropping you a quick line before I send off the little crate. I’m sending it carriage paid (Antwerp) (or right through if possible) to your address, rue de Laval.</ab>
+<ab rend="indent">If extra carriage has to be paid, it’s because they perhaps don’t do carriage paid all the way. But I didn’t want you to incur any expenses for it, since it might perhaps disappoint you.<anchor n="1" xml:id="note-t-1"/>
+                </ab>
+<ab rend="indent">Should this be the case, then just look at it for a while.</ab>
+<ab rend="indent">Naturally I don’t know what <rs type="pers" key="601">Portier</rs> will say.</ab>
+<ab rend="indent">I could say things against it myself by way of criticism that would probably escape most critics. But the reason why I’m sending it with a certain confidence is that, in contrast to a great many other paintings, it has rusticity and a certain life in it. And then, although it’s done differently, in a different century from the old Dutchmen, <rs type="pers" key="1260 1261">Ostade</rs>, for instance, it’s nevertheless out of the heart of peasant life and — original.</ab>
+<ab rend="indent">When I see in the Salon issue,<anchor n="2" xml:id="note-t-2"/> for instance, so many paintings which are impeccably drawn and painted in terms of technique, if one will, many of them bore me stiff all the same, because they don’t make me feel or think anything, because they’ve evidently been made without a certain passionateness. And there’s something passionate in what I’m sending you — I’ve had a great desire to make it, and it’s with a certain fervour that I worked on it. I wasn’t bored — so perhaps it won’t bore others. I’m sending it because I believe that.</ab>
+<ab rend="indent">How fine, though, I think <rs type="pers" key="899">Jules Breton</rs>’s <hi rend="ital">The song of the lark</hi>
+                    <anchor n="3" xml:id="note-t-3"/> in the Salon issue — the painting by <rs type="pers" key="1329">Roll</rs>,<anchor n="4" xml:id="note-t-4"/> also the <hi rend="ital">
+                        <rs type="pers" key="1015">Fantin-Latour</rs>
+                    </hi>
+                    <anchor n="5" xml:id="note-t-5"/>— also <hi rend="ital">The Cornish coast, <rs type="pers" key="1422">Vernier</rs>
+                    </hi>,<anchor n="6" xml:id="note-t-6"/> and several others too — rest assured — I think they’re <hi rend="ital">magnificent</hi>, although I can safely say that I find other apparently huge canvases dreadfully boring.
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">The woman with the spade by <rs type="pers" key="1179">Lhermitte</rs>, how it lives and how real it is: <hi rend="ital">as if done</hi> <hi rend="ital">by a peasant who can paint</hi>, it’s masterly.<anchor n="7" xml:id="note-t-7"/> If I were you, I would buy copies of the Lhermittes in order to keep them for 10 years.</ab>
+<ab rend="indent">For they are masterpieces that one gets for 50 centimes this way.</ab>
+<ab rend="indent">How on earth is it that the illustrated magazines aren’t better!</ab>
+<ab rend="indent">I heard <hi rend="ital">
+                        <rs type="pers" key="1146">Lançon</rs>
+                    </hi> is dead.<anchor n="8" xml:id="note-t-8"/> I’ve followed his work for years and nothing of his has ever bored me.</ab>
+<ab rend="indent">Life in every little scratch.</ab>
+<ab rend="indent">When someone like that dies — of the same breed as the <rs type="pers" key="1301 1302">Régameys</rs> and <rs type="pers" key="1292">Renouard</rs> — then it’s a loss and leaves an empty place.</ab>
+<ab rend="indent">But <rs type="pers" key="1146">Lançon</rs>’s drawings were admirable, so manly and so broad.</ab>
+<ab rend="indent">I hear<hi rend="ital"> <rs type="pers" key="1394">Tissot</rs>
+                    </hi> has an exhibition — have you seen it?<anchor n="9" xml:id="note-t-9"/>
+                </ab>
+<ab rend="indent">It all comes down to the degree of life and passion that an artist manages to put into his figure. So long as they really live, a figure of a lady by <rs type="pers" key="1368">Alfred Stevens</rs>, say, or some <rs type="pers" key="1394">Tissot</rs>s are also really magnificent. And the peasants by <rs type="pers" key="1179">Lhermitte</rs>, <rs type="pers" key="1226">Millet</rs>, are so fine precisely because of the life.</ab>
+<ab rend="indent">Whichever school one may work in — be it <rs type="pers" key="1107">Israëls</rs>, <rs type="pers" key="1080">Herkomer</rs>, so many different views — if it’s felt and lives, then it’s good.
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/>
+                </ab>
+<ab rend="indent">There must be many fine paintings, among the very ones that were <hi rend="ital">not</hi> reproduced.</ab>
+<ab rend="indent">But when I think about a Salon of 70 or 74, to give an example — it seems to me that the standard was higher, and since then people have — <hi rend="ital">declined</hi>.</ab>
+<ab rend="indent">When one just looks through the <rs type="pers" key="866">Boetzel</rs> Albums,<anchor n="10" xml:id="note-t-10"/> for instance. And the <hi rend="ital">greatest powers aren’t even in </hi>it, <rs type="pers" key="1226">Millet</rs> isn’t, for example.</ab>
+<ab rend="indent">It’s absolutely not my intention to raise the question as if I myself knew it all.</ab>
+<ab rend="indent">On the contrary — you see so many <rs type="pers" key="976">Daubigny</rs>s, <rs type="pers" key="971">Corot</rs>s, <rs type="pers" key="1226">Millet</rs>s, <rs type="pers" key="986">Dupré</rs>, <rs type="pers" key="1107">Israëls</rs>, <rs type="pers" key="1080">Herkomer</rs>, <rs type="pers" key="899">Breton</rs> &amp;c.</ab>
+<ab rend="indent">And I none. But every day, at present, I think about it, that the spectrum of all those painters is lower than it <hi rend="ital">seems</hi>, and that when one looks at them closely and compares, even those paintings than seem light are much lower than even <rs type="pers" key="323">Mauve</rs>’s greys.</ab>
+<ab rend="indent">With the exception, specifically, of the <hi rend="ital">very finest</hi> <rs type="pers" key="323">Mauve</rs>s — to mention a couple, the old one of <rs type="pers" key="598">Post</rs>’s with that caravan of old nags.<anchor n="11" xml:id="note-t-11"/>
+                </ab>
+<ab rend="indent">And his painting at the Salon 2 years ago, dragging that pink into the sea.<anchor n="12" xml:id="note-t-12"/>
+                </ab>
+<ab rend="indent">I hear and see so little, or nothing, so I’m not in a position to test this against the paintings themselves and see what they reveal about this question.</ab>
+<ab rend="indent">But working and seeking myself, and thinking about it in front of nature, as I’ve written to you before, this question won’t leave me in peace.</ab>
+<ab rend="indent">And nothing says more clearly what I mean, nowhere do I find so many grounds for my supposition, as that phrase which so accurately makes one feel <rs type="pers" key="1226">Millet</rs>’s colour and technique. His peasant seems to have been painted with the very soil he sows.<anchor n="13" xml:id="note-t-13"/>
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/>
+                </ab>
+<ab rend="indent">
+                    <rs type="pers" key="323">Mauve</rs> — when he paints light — and the other <hi rend="ital">light</hi> Dutchmen — of good quality — use a colour mix no different from the present French or the old Dutch school — that is, a dead simple palette, but here in Holland people use more white than <rs type="pers" key="1226">Millet</rs> or <rs type="pers" key="986">Dupré</rs> or <rs type="pers" key="976">Daubigny</rs> or <rs type="pers" key="971">Corot</rs>. You’d be doing me a favour if you were to write sometimes about paintings you might see.</ab>
+      <ab rend="indent">I just read a review in The Graphic of an exhibition of 25 drawings by <rs type="pers" key="1428">Fred Walker</rs>.<anchor n="14" xml:id="note-t-14"/> Walker’s been dead for about 10 years, you know. <rs type="pers" key="1269">Pinwell</rs> too. While I’m writing about this subject I’m also thinking about their work, and how amazingly clever they were. How they were the ones who did the same in England as <rs type="pers" key="1201 1202 1203">Maris</rs>, <rs type="pers" key="1107">Israëls</rs>, <rs type="pers" key="323">Mauve</rs> accomplished in Holland, that is, restored nature over convention, feeling and impression over academic stuffiness and dullness. How they were the first <hi rend="ital">tonists</hi>. But I remember peasants on the land by <rs type="pers" key="1269">Pinwell</rs>
+                    <anchor n="15" xml:id="note-t-15"/> — the Harbour of refuge by <rs type="pers" key="1428">Walker</rs>
+                    <anchor n="16" xml:id="note-t-16"/> — of which one could also say, <hi rend="ital">painted with the Soil</hi>. I would have to see more paintings in order to be able to draw conclusions — and I’m just asking you, do you know anything about this? <hi rend="ital">Wine</hi>, of course, contains moisture or water particles naturally — and there will <hi rend="ital">always</hi> be water in it by the nature of the thing. But too much water in it — and it becomes weak. It’s by no means my assertion that one can or should paint without white or light, any more than I would ever assert that one should <hi rend="ital">dry</hi> wine. I do definitely say, though, that one may well watch out a little in our so pure? and light? times that one doesn’t put <hi rend="ital">too much</hi> water in the wine, too much white in the wine of colour. So that fieriness remains, and the effects don’t become too tame and weaken the whole thing.
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/>
+                </ab>
+<ab rend="indent">Do you know what people could learn something from in this regard? From a painting by <rs type="pers" key="1176">Leys</rs>; not from Leys’s first period, but from the second and third periods.<anchor n="17" xml:id="note-t-17"/>
+                </ab>
+<ab rend="indent">I remember <hi rend="ital">The skaters</hi> and <hi rend="ital">The walk on the ramparts </hi>from the series.<anchor n="18" xml:id="note-t-18"/>
+                </ab>
+<ab rend="indent">In both paintings figures in the snow, and both paintings not grey at all, as light as the present Dutchmen would paint snow. That little painting by <rs type="pers" key="1226">Millet</rs> that you once mentioned to me as the archetype of an Impressionist painting — is that in the Luxembourg?</ab>
+<ab rend="indent">All the same, I think that many a Dutch landscape would become white and colourful compared with that tone. I’m convinced of this — that it’s largely painted in red, blue and yellow, with perhaps <hi rend="ital">a little or some</hi> but probably not much white. I haven’t seen it in 10 or 12 years<anchor n="19" xml:id="note-t-19"/> — yet the more I think about it, searching for certain effects in nature myself, the less I’m inclined to believe that the real French painters used as much white as people are in danger of lapsing into nowadays.</ab>
+<ab rend="indent">I’m well aware that something also depends on the models. When I think of the Scheveningen woman who regularly serves <rs type="pers" key="33">Artz</rs> as a model, whom I remember very well, well she’s as fair, as light as — some whores.<anchor n="20" xml:id="note-t-20"/> That’s good to paint, too, yes indeed.</ab>
+<ab rend="indent">But <hi rend="ital">peasants</hi> or fishermen in small villages and far from the city — wherever one may go, they’re different. <hi rend="ital">They remind one of the earth, sometimes appear to have been modelled out of it</hi>.
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/>
+                </ab>
+<ab rend="indent">I remember it says in <rs type="pers" key="899">Jules Breton</rs>’s poems, and I think in the very one he dedicated to <rs type="pers" key="1226">Millet</rs> (a little peasant going home through the potato fields in the evening),</ab>
+<vg:whiteline/>
+<ab>
+                    <hi rend="ital">The peasant</hi> TWICE BROWNED</ab>
+                <ab> <hi rend="ital">By the twilight and suntan</hi>.<anchor n="21" xml:id="note-t-21"/>
+                    <hi rend="ital"/> </ab>
+<vg:whiteline/>
+<ab>But if you thought that this means I don’t like any light paintings — I really do — I know a <rs type="pers" key="124">Bastien-Lepage</rs> — a bride who’s entirely white on white with a little brown face in the middle<anchor n="22" xml:id="note-t-22"/> — magnificent — and any number of Dutch paintings with snow, mist and sky. Magnificent.</ab>
+<ab rend="indent">I’m just trying to say that one may do what one likes, and <rs type="pers" key="1203">Jaap Maris</rs>, say, who is sometimes very light — the next day he paints a townscape at night in the most sombre spectrum.</ab>
+<ab rend="indent">What I’m pointing out above all is that paintings like certain <hi rend="ital">old <rs type="pers" key="919">Cabat</rs>s</hi>, say, certain <rs type="pers" key="986">Dupré</rs>s — even though they may have been painted almost solely with red, blue and yellow, without much white, nevertheless, <hi rend="ital">to my mind</hi>, are not inferior to later, greyer conceptions.</ab>
+<vg:whiteline/>
+<ab>That was yesterday. Your letter with the enclosure just came, for which many thanks. I find what you say about the Salon interesting. I can see from what you say about the <hi rend="ital">
+                        <rs type="pers" key="858">Besnard</rs>
+                    </hi> painting<anchor n="23" xml:id="note-t-23"/> that you understood what I was talking about, about broken colours, orange broken by blue and vice versa. Only, there are other, different spectrums too. But that of orange against blue is logical, as is yellow against lilac, as is red against green.</ab>
+<ab rend="indent">The crate for the painting is ready, so I’m sending it <hi rend="ital">flat</hi> and it’s a light little crate, however it still has to dry for 1 or 2 days. I’m also sending another 10 painted studies at the same time.<anchor n="24" xml:id="note-t-24"/> Please tell me something more about the <rs type="pers" key="1387">UHDE</rs> painting.<anchor n="25" xml:id="note-t-25"/> You know <rs type="pers" key="1295">Rembrandt</rs> painted the same thing in the large painting in the National Gallery.<anchor n="26" xml:id="note-t-26"/>
+                </ab>
+<ab rend="indent">I’m in the middle of moving. Thanks again for what you sent, with a handshake.</ab>
+<vg:whiteline/>
+<ab>Yours truly,</ab>
+<ab>Vincent</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>It was evidently possible to send a shipment like this to Paris cash on delivery.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>See for this special issue of <hi rend="ital">L’Illustration</hi> on the Salon 1885: <ref target="let497.xml#n-13">letter 497, n. 13.</ref>
+                    </ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>
+                        <rs type="pers" key="899">Jules Breton</rs>, <hi rend="ital">Le chant de l’alouette</hi> (The song of the lark), in <hi rend="ital">L’Illustration</hi> 85 (25 April 1885), cover. <rs type="ill" key="5">Ill. 5</rs>. The painting <hi rend="ital">The song of the lark</hi> dates from 1884 (The Art Institute of Chicago, Henry Field Memorial Collection).</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>This print after the painting by <rs type="pers" key="1329">Alfred Roll</rs>, <hi rend="ital">Le travail, chantier de Suresnes (Seine)</hi> – <ref target="let499.xml#n-1">see letter 499, n. 1</ref> – was published in the Salon issue of <hi rend="ital">L’Illustration</hi> 85 (25 April 1885), p. 292. <rs type="ill" key="2139">Ill. 2139</rs>.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>
+                        <rs type="pers" key="1015">Henri Fantin-Latour</rs>, <hi rend="ital">Autour du piano</hi> (Around the piano) 1885 (Paris, Musée d’Orsay), in <hi rend="ital">L’Illustration</hi> 85 (25 April 1885), p. 309. <rs type="ill" key="830">Ill. 830</rs>.</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+      <ab>
+                        <rs type="pers" key="1422">Emile Louis Vernier</rs>, <hi rend="ital">Grande marée d’octobre en Cornwall (Angleterre)</hi> (October spring tide in Cornwall (England)), in <hi rend="ital">L’Illustration</hi> 85 (25 April 1885), p. 289, no. 10. <rs type="ill" key="1405">Ill. 1405</rs>.</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>See for <rs type="pers" key="1179">Léon Augustin Lhermitte</rs>, <hi rend="ital">
+                            <rs type="ill" key="2137">Hirondelles ou le jardinage</rs>
+                        </hi>: <ref target="let496.xml#n-4">letter 496, n. 4.</ref>
+                    </ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>
+                        <rs type="pers" key="1146">Auguste André Lançon</rs> died in Paris on 14 April 1885.</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>The <hi rend="ital">Exposition J.-J. Tissot: Quinze tableaux sur la femme à Paris</hi> ran from 19 April to 15 June 1885 in Galerie Sedelmeyer in Paris. See Wentworth 1984, p. 205.</ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>
+                        <rs type="pers" key="866">Ernest Philippe Boetzel</rs> had published albums containing engravings of the best works at the Salon; cf. <ref target="let234.xml#n-16">letter 234, n. 16.</ref>
+                    </ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>
+                        <rs type="pers" key="323">Anton Mauve</rs>’s <hi rend="ital">Jaagpaarden langs de Rijnoever</hi> (Tow-horses on the bank of the Rhine) (private collection). <rs type="ill" key="238">Ill. 238</rs>. At that time it belonged to the Hague collector <rs type="pers" key="598">F.H.M. Post</rs>; for him <ref target="let014.xml#n-10">see letter 14, n. 10.</ref>
+                    </ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+<ab>
+      <hi rend="ital">
+                            <rs type="ill" key="239">Fishing boat on the beach</rs>
+                        </hi> was shown at the Salon in 1882 (<ref target="let194.xml#n-5">see letter 194, n. 5</ref>). <rs type="pers" key="323">Anton Mauve</rs> did not submit any work in 1883.</ab>
+                </note>
+<note n="13" xml:id="n-13" target="#note-t-13">
+      <ab>Van Gogh derived this observation from <rs type="pers" key="737">Sensier</rs>, <hi rend="ital">
+                            <rs type="lit" key="238">La vie et l’oeuvre de J.F. Millet</rs>
+                        </hi>: <ref target="let495.xml#n-9">see letter 495, n. 9.</ref>
+                    </ab>
+                </note>
+<note n="14" xml:id="n-14" target="#note-t-14">
+<ab>There had been an anonymous review of this exhibition, held in ‘Mr. Robert Dunthorne’s Gallery’ in Vigo Street, London, in <hi rend="ital">The Graphic</hi> 31 (14 March 1885), p. 263. It says there that there were not twenty-five but ‘nearly fifty water-colours, drawings and sketches’ by Frederick Walker. Cf. also J. Comyns Carr, <hi rend="ital">
+                            <rs type="pers" key="1428">Frederick Walker</rs>. An essay. To which is appended a catalogue of a loan collection of water-colour drawings by that painter.</hi> [London] 1885. Walker had indeed died in 1875.</ab>
+                </note>
+<note n="15" xml:id="n-15" target="#note-t-15">
+<ab>Van Gogh may have been referring here to a print after <rs type="pers" key="1269">Pinwell</rs>’s drawing <hi rend="ital">The last load</hi>. This had been shown at the Water-colour Society in London, Winter 1869-1870 (London, Witt Library). <rs type="ill" key="1217">Ill. 1217</rs>.</ab>
+                </note>
+<note n="16" xml:id="n-16" target="#note-t-16">
+<ab>See for <rs type="pers" key="1428">Frederick Walker</rs>, <hi rend="ital">
+                            <rs type="ill" key="1414">The harbour of refuge</rs>
+                        </hi>: <ref target="let304.xml#n-16">letter 304, n. 16.</ref>
+                    </ab>
+                </note>
+<note n="17" xml:id="n-17" target="#note-t-17">
+      <ab>Van Gogh may have based his breakdown of the periods in <rs type="pers" key="1176">Leys</rs>’s work on the article ‘<rs type="lit" key="581">Artistes contemporains. M. Henri Leys</rs>’  by <rs type="pers" key="700">Mantz</rs> that he had read. Mantz discusses Leys’s ‘première manière’ (early manner), his development into a prominent artist and the highlights of his oeuvre. He describes the ‘période d’incubation’ (incubation period) as uncertain and not very original, but is full of praise for the later paintings and decorations. See Mantz 1866.</ab>
+                </note>
+<note n="18" xml:id="n-18" target="#note-t-18">
+      <ab>See for these two works, <rs type="ill" key="1056">
+                            <hi rend="ital">Crossing the bridge</hi>
+                        </rs> and <rs type="ill" key="1055">
+                            <hi rend="ital">Merry Company</hi>
+                        </rs> by <rs type="pers" key="1176">Leys</rs> <ref target="let354.xml#n-3">letter 354, n. 3.</ref>
+                    </ab>
+                </note>
+<note n="19" xml:id="n-19" target="#note-t-19">
+<ab>
+                        <rs type="pers" key="1226">Millet</rs>’s <hi rend="ital">Church at Gréville</hi>, which Van Gogh had seen in the Musée du Luxembourg in 1875; <ref target="let036.xml#n-9">see letter 36, n. 9</ref>.</ab>
+                </note>
+      <note n="20" xml:id="n-20" target="#note-t-20">
+<ab>This model for the Hague painter <rs type="pers" key="33">Artz</rs> must have been the talk of the town; she was referred to in similar terms in <ref target="let203.xml">letter 203</ref>.</ab>
+                </note>
+<note n="21" xml:id="n-21" target="#note-t-21">
+<ab>Opening line of the sixth verse of the poem ‘<rs type="lit" key="176">Le retour des champs</rs>’ (à <rs type="pers" key="1226">François Millet</rs>) by <rs type="pers" key="899">Jules Breton</rs>. See Breton 1875, pp. 51-53. Van Gogh had copied out the whole poem for <rs type="pers" key="1306">Anthon van Rappard</rs> in <ref target="let435.xml">letter 435</ref>.</ab>
+                </note>
+<note n="22" xml:id="n-22" target="#note-t-22">
+<ab>
+                        <rs type="pers" key="124">Jules Bastien-Lepage</rs>, <hi rend="ital">La petite communiante</hi> (The little communicant) (Tournai, Musée des Beaux-Arts). <rs type="ill" key="2140">Ill. 2140</rs>. This picture hung at the Salon of 1875, which Van Gogh went to see (<ref target="let034.xml">see letter 34</ref>). Catholics used the term ‘little bride’ to describe a girl taking her first communion.</ab>
+                </note>
+<note n="23" xml:id="n-23" target="#note-t-23">
+<ab>
+                        <rs type="pers" key="858">Paul Albert Besnard</rs> exhibited two works at the Salon: <hi rend="ital">
+                            <rs type="otherart" key="568">Paris</rs>
+                        </hi> and <hi rend="ital">
+                            <rs type="otherart" key="569">Portrait de Mme G.[eorges Duruy]</rs>
+                        </hi>. See F-G. Dumas, <hi rend="ital">Catalogue illustré du Salon</hi>. Paris 1885, cat. nos. 243-244.</ab>
+                </note>
+<note n="24" xml:id="n-24" target="#note-t-24">
+<ab>For the shipment, <ref target="let501.xml#n-1">see letter 501, n. 1.</ref>
+                    </ab>
+                </note>
+<note n="25" xml:id="n-25" target="#note-t-25">
+<ab>
+                        <rs type="pers" key="1387">Friedrich (Fritz) Karl Hermann von Uhde</rs>, <hi rend="ital">Suffer the little children to come unto me</hi>, 1884 (Leipzig, Museum der bildenden Künste). <rs type="ill" key="2141">Ill. 2141</rs>. Theo later sent a reproduction of it: <ref target="let510.xml">see letter 510</ref>.</ab>
+                </note>
+<note n="26" xml:id="n-26" target="#note-t-26">
+<ab>Van Gogh was referring to <hi rend="ital">Christ blessing the children</hi>, 1652-1653 (London, The National Gallery), at that time still thought to be by <rs type="pers" key="1295">Rembrandt</rs>, but now attributed to <rs type="pers" key="1185">Nicolaes Maes</rs>. <rs type="ill" key="2142">Ill. 2142</rs>. The work measures 206 x 154 cm.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

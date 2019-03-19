@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>Paul Gauguin to Vincent van Gogh. Paris, December 1887.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let576"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">576</idno>
+<idno type="collectedletters">-</idno>
+<idno type="brieven1990">-</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Paul Gauguin</author>
+                        <vg:addressee>Vincent van Gogh</vg:addressee>
+                        <vg:placeLet>Paris</vg:placeLet>
+                        <vg:dateLet>December 1887</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>Paul Gauguin to Vincent van Gogh. Paris, December 1887.</p>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b882 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>On the basis of the kind of paper and the handwriting, Merlhès dates the letter to December 1887. See Merlhès 1989, p. 56. This dating is supported by the contents of the letter: the exchange, which was prompted by the exhibition held in Restaurant du Chalet (<ref target="let640.xml">see letter 640</ref>) and Gauguin’s remark that he is seldom in Montmartre (at the time he was living at Schuffenecker’s in rue Boulard; <ref target="#n-3">see n. 3</ref>). We have therefore adopted the same dating.</p>
+                    </note>
+<note type="additionalDetail" xml:id="additionalDetail">
+<p>Cooper assumed that this letter was addressed to Theo. See <hi rend="ital">Gauguin lettres</hi> 1983, p. 180 (GAC 24).</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0882" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001001176_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001001176_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001176_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001176_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+        <surface n="b 0882 V/1962" xml:id="surf-extra-1v">
+            <graphic mimeType="image/tiff" url="VGM001001176_02.TIF" rend="norend"/>
+            <zone xml:id="zone-extra-1">
+<graphic mimeType="image/tiff" url="VGM001001176_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001176_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001176_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Cher Monsieur</ab>
+                <lb n="2" xml:id="l-2"/>
+<ab>En venant de ma part vous trouverez chez <lb n="3" xml:id="l-3"/>Cluzel encadreur Rue Fontaine<anchor n="1" xml:id="note-o-1"/> un tableau <lb n="4" xml:id="l-4"/>que j’ai remis à votre intention (pour notre échange).<anchor n="2" xml:id="note-o-2"/> <lb n="5" xml:id="l-5"/>Si il ne vous convenait pas faites m’en part en venant <lb n="6" xml:id="l-6"/>vous-même choisir. Excusez-moi si je ne viens pas moi-même <lb n="7" xml:id="l-7"/>chercher les vôtres<c type="kk">/</c> je vais si peu dans votre quartier.<anchor n="3" xml:id="note-o-3"/> Je les <lb n="8" xml:id="l-8"/>prendrai 19 Boulev<hi rend="ss">d</hi> Montmartre<anchor n="4" xml:id="note-o-4"/> si vous voulez bien les <lb n="9" xml:id="l-9"/>déposer à cet endroit<c type="kp">_</c>–</ab>
+<vg:whiteline/>
+                <lb n="10" xml:id="l-10"/>
+<ab>Tout à vous –</ab>
+                <lb n="11" xml:id="l-11"/>
+<ab>Paul Gauguin</ab>
+<vg:whiteline/>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>Dear Sir,</ab>
+<ab>If you come on my behalf you will find at <rs type="pers" key="333">Cluzel</rs>’s, the framer in rue Fontaine,<anchor n="1" xml:id="note-t-1"/> a painting that I have delivered for you (for our exchange).<anchor n="2" xml:id="note-t-2"/> If you do not consider it suitable, let me know, and come and choose yourself. Forgive me if I do not come to collect your paintings myself, I am so rarely in your part of town.<anchor n="3" xml:id="note-t-3"/> I shall collect them from 19 boulevard Montmartre<anchor n="4" xml:id="note-t-4"/> if you will be so kind as to leave them there.</ab>
+<vg:whiteline/>
+<ab>Yours,</ab>
+<ab>
+                    <rs type="pers" key="1039">Paul Gauguin</rs>
+                </ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+    <ab>The frame-maker <rs type="pers" key="333">Pierre Cluzel</rs> had his shop at 33 rue Fontaine Saint-Georges, in Montmartre. See Frédéric Destremau, ‘Pierre Cluzel (1850-1894), encadreur de Redon, Pissarro, Degas, Lautrec, Anquetin, Gauguin’, <hi rend="ital">Bulletin de la Société de l’Histoire de l’Art Français</hi> 1995, pp. 239-247.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>As a result of the exhibition held in Restaurant du Chalet in November-December 1887 (<ref target="let640.xml">see letter 640</ref>), Van Gogh exchanged his <hi rend="ital">Sunflowers gone to seed </hi>(<rs type="ill" key="2554">F 375 / JH 1329</rs>) and <hi rend="ital">Sunflowers gone to seed</hi> (<rs type="ill" key="2555">F 376 / JH 1331</rs>) for <rs type="pers" key="1039">Gauguin</rs>’s <hi rend="ital">On the shore of the lake, Martinique</hi>, 1887 (W252/W222) (Amsterdam, Van Gogh Museum) <rs type="ill" key="100">Ill. 100</rs>. See Annet Tellegen, ‘Vincent en Gauguin’, <hi rend="ital">Museumjournaal</hi> 11 (1966), pp. 42-45. Cf. also <ref target="let653.xml">letters 653</ref> and <ref target="let736.xml">736</ref>.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>
+                        <rs type="pers" key="1039">Gauguin</rs> had been staying since his return from Martinique in mid-November 1887 with <rs type="pers" key="1357">Emile Schuffenecker</rs>, 29 rue Boulard. This street is located in the south of Paris, below Montparnasse, and was therefore quite some distance from Montmartre, where the Van Gogh brothers lived.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>The art dealers <rs type="pers" key="797">Boussod, Valadon et Cie</rs>, for whom Theo worked, had their gallery at 19 boulevard Montmartre.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

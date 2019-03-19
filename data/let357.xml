@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. The Hague, on or about Wednesday, 27 June 1883.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let357"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">357</idno>
+<idno type="collectedletters">296</idno>
+<idno type="brieven1990">359</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>The Hague</vg:placeLet>
+                        <vg:dateLet>on or about Wednesday, 27 June 1883</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:physDesc>
+                        <vg:decoration>
+                            <vg:decoList xml:id="sketches">
+                                <vg:decoItem n="A" xml:id="sketch-1">
+                                    <vg:decoDesc>
+<p>
+      <hi rend="ital">Potato grubbers</hi> (<rs type="sketch" key="99">F - / JH 373</rs>), letter sketch</p>
+                                    </vg:decoDesc>
+                                </vg:decoItem>
+                            </vg:decoList>
+                        </vg:decoration>
+                    </vg:physDesc>
+                    <vg:letContents>
+<p>To Theo van Gogh. The Hague, on or about Wednesday, 27 June 1883.</p>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b319 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>The letter was written a few days after <ref target="let356.xml">letter 356</ref> of 22 June 1883, because the plan mentioned there for a drawing of ‘potato grubbers’ turns out in the present letter to be in progress. Moreover, here Van Gogh asks Theo to send the next remittance quickly – his letter ‘will be most welcome again’ <ref target="#l-81">(l. 81)</ref> – and this indicates that there are still a few days to go before the end of the month. In addition, the weekend of 23-24 June must be past, because he also says that he saw an illustration ‘this week’ <ref target="#l-1">(l. 1)</ref>, which implies that the week began several days ago. We have therefore dated the letter on or about Wednesday, 27 June 1883. </p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0319" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000401_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000401_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000401_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000401_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000401_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000401_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0319" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000401_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000401_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000401_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000401_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000401_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000401_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000401_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000401_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000401_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Waarde Theo,</ab>
+                <lb n="2" xml:id="l-2"/>
+<ab>In den laatsten tijd heb ik U wel dikwijls <lb n="3" xml:id="l-3"/>geschreven maar het draait zoozeer op ’t zelfde <lb n="4" xml:id="l-4"/>neer dat ik er eigentlijk geen vrede mee heb dat ik <lb n="5" xml:id="l-5"/>U niet wat amusanter schrijf. ’t zal wel weer <lb n="6" xml:id="l-6"/>eens komen – ik denk dat als ge weer eens <lb n="7" xml:id="l-7"/>op ’t atelier geweest zijn zult er meer stof zal <lb n="8" xml:id="l-8"/>wezen die animeerender is. Dat hoop ik ten <lb n="9" xml:id="l-9"/>minste &amp; zou ’t geval zijn als gij sympathie <lb n="10" xml:id="l-10"/>hebt voor ’t geen onderhanden is &amp; ge nu nog <lb n="11" xml:id="l-11"/>niet hebt gezien.</ab>
+                <lb n="12" xml:id="l-12"/>
+<ab rend="indent">Ik zag deze week in <hi rend="ital">Paris illustré</hi> eene mooie <lb n="13" xml:id="l-13"/>reproductie van een teek. van <hi rend="ital">Ulysse Butin</hi>
+                    <c type="kk">/</c> <lb n="14" xml:id="l-14"/>
+                    <hi rend="ital">la mise à l’eau</hi>
+                    <c type="kp">_</c> Visschers &amp; vrouwen die <lb n="15" xml:id="l-15"/>een boot in zee duwen.<anchor n="1" xml:id="note-o-1"/> Juist zag ik die <lb n="16" xml:id="l-16"/>terwijl ik onwillekeurig veel dacht aan Butin en <lb n="17" xml:id="l-17"/>aan Legros bij ’t zoeken naar iets wat toch <lb n="18" xml:id="l-18"/>weer een heel ander sujet is dan zij maken<c type="kk">/</c> n.l. die <lb n="19" xml:id="l-19"/>aardappelwroeters op de knieen liggende en werkende <lb n="20" xml:id="l-20"/>met korte rieken<c type="kk">/</c> waarover ik U laatst schreef dat <lb n="21" xml:id="l-21"/>ik er studies voor maakte.<anchor n="2" xml:id="note-o-2"/> Ik heb er nu <lb n="22" xml:id="l-22"/>eene schets van op t’ezel met 4 figuren<c type="kk">/</c> <lb n="23" xml:id="l-23"/>3 mannen &amp; 1 vrouw.<anchor n="3" xml:id="note-o-3"/> Ik wou er iets breeds en <lb n="24" xml:id="l-24"/>brutaals van silhouet en teekening in hebben<c type="kp">_</c> <lb n="25" xml:id="l-25"/>Ik zoek daar hoe langer hoe meer naar<c type="kp">_</c> <lb n="26" xml:id="l-26"/>Altijd weet ik nog dat ’t eerste sch<hi rend="ss">ij</hi> dat ik van Butin heb gezien <lb n="27" xml:id="l-27"/>(een van zijn lateren) een sterken indruk op mij maakte<c type="kp">_</c> Het was <lb n="28" xml:id="l-28"/>dat wat hij later zelf geëtst heeft<c type="kk">/</c> la jetée heet het geloof ik<c type="kk">/</c> <lb n="29" xml:id="l-29"/>vrouwen die op den uitkijk staan naar vaartuigen die op een <lb n="30" xml:id="l-30"/>stormachtigen avond moeten binnenloopen<c type="kp">_</c>
+                    <anchor n="4" xml:id="note-o-4"/> Dat was ’t eerste <lb n="31" xml:id="l-31"/>dat ik van hem zag en sedert dat van den Luxembourg<anchor n="5" xml:id="note-o-5"/> en verscheiden <lb n="32" xml:id="l-32"/>anderen<c type="kp">_</c>
+                </ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="33" xml:id="l-33"/>
+<ab rend="indent">Ik vind hem zeer opregt en degelijk en geloof dat <lb n="34" xml:id="l-34"/>juist als hij schijnbaar er snel overheengeloopen is <lb n="35" xml:id="l-35"/>hij niet minder raisonable en juist in zijn teekening <lb n="36" xml:id="l-36"/>is gebleven après tout<c type="kp">_</c> Hij is een van die mannen <lb n="37" xml:id="l-37"/>die ik niet persoonlijk ken en toch<c type="kk">/</c> als ik iets van <lb n="38" xml:id="l-38"/>hem zie kan ik me voorstellen hoe hij ’t gemaakt <lb n="39" xml:id="l-39"/>heeft<c type="kp">_</c>
+                </ab>
+                <lb n="40" xml:id="l-40"/>
+<ab rend="indent">Vindt gij ’t schij van Blommers van den Salon <lb n="41" xml:id="l-41"/>niet mooi (November)<c type="kp">_</c> ik zag ’t schij niet maar wel de <lb n="42" xml:id="l-42"/>reproductie<c type="kk">/</c>
+                    <anchor n="6" xml:id="note-o-6"/> ik vind het net iets als of ’t van Butin <lb n="43" xml:id="l-43"/>was en meer passie en iets dramatisch er in dan B. gewoonlijk <lb n="44" xml:id="l-44"/>heeft.</ab>
+                <lb n="45" xml:id="l-45"/>
+<ab rend="indent">Op dit oogenblik heb ik niet minder dan 7 of 8 <lb n="46" xml:id="l-46"/>stuks teekeningen onderhanden van 1 meter zoowat <lb n="47" xml:id="l-47"/>in afmeting<c type="kk">/</c>
+                    <anchor n="7" xml:id="note-o-7"/> dat ik dus tot over de ooren <lb n="48" xml:id="l-48"/>in ’t werk zit zult ge U wel kunnen denken<c type="kp">_</c> <lb n="49" xml:id="l-49"/>Maar ik heb zoo’n hoop juist door dezen tijd <lb n="50" xml:id="l-50"/>van sjouwerij mijn hand wat vaardiger te maken<c type="kp">_</c> <lb n="51" xml:id="l-51"/>Zoo bijvoorbeeld begint den tegenzin die ik had <lb n="52" xml:id="l-52"/>om met houtskool te werken met den dag meer <lb n="53" xml:id="l-53"/>weg te gaan. Dat ligt ook daaraan dat ik er iets op gevonden <lb n="54" xml:id="l-54"/>heb om de houtskool te fixeeren en dan met iets anders<c type="kk">/</c> <lb n="55" xml:id="l-55"/>b.v. drukinkt<c type="kk">/</c> er over heen.<anchor n="8" xml:id="note-o-8"/>
+                </ab>
+<vg:whiteline/>
+                <figure facs="zone-sketch-1" n="A"/>
+<vg:whiteline/>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                <lb n="56" xml:id="l-56"/>
+<ab>Ziehier een krabbeltje van aardappelwroeters<c type="kk">/</c> maar <lb n="57" xml:id="l-57"/>ze zitten iets verder uiteen op de teekening<c type="kp">_</c>
+                </ab>
+                <lb n="58" xml:id="l-58"/>
+<ab rend="indent">Nu zoo terwijl ik U schrijf denk ik aan dien <lb n="59" xml:id="l-59"/>avond – ge herinnert ’t U misschien ofschoon <lb n="60" xml:id="l-60"/>’t jaren geleden is – dat gij &amp; ik zamen een avond <lb n="61" xml:id="l-61"/>doorbragten bij Mauve toen hij nog woonde <lb n="62" xml:id="l-62"/>bij de Kazerne en nog een photographie <lb n="63" xml:id="l-63"/>naar een teekening van hem kregen<c type="kk">/</c> een ploeg<c type="kp">_</c>–<anchor n="9" xml:id="note-o-9"/> <lb n="64" xml:id="l-64"/>Weinig dacht ik toen ter tijde ik zelf zoude teekenen<c type="kp">_</c> <lb n="65" xml:id="l-65"/>Weinig dacht ik toen ter tijde ook dat <lb n="66" xml:id="l-66"/>er moeielijkheden zouden komen tusschen Mauve en <lb n="67" xml:id="l-67"/>mij.<anchor n="10" xml:id="note-o-10"/>
+                </ab>
+                <lb n="68" xml:id="l-68"/>
+<ab rend="indent">Ik blijf betrekkelijk me verwonderen dat ’t niet <lb n="69" xml:id="l-69"/>teregt komt<c type="kk">/</c> te meer omdat er eigentlijk <lb n="70" xml:id="l-70"/>als men ’t regt in den grond zou nagaan <lb n="71" xml:id="l-71"/>omtrent zoo goed als niets verschil van inzigten <lb n="72" xml:id="l-72"/>bestaat.</ab>
+                <lb n="73" xml:id="l-73"/>
+<ab rend="indent">’t Is nu zóó lang geleden trouwens dat ik <lb n="74" xml:id="l-74"/>tegenwoordig mijn opgeruimdheid weer terug <lb n="75" xml:id="l-75"/>begin te krijgen wat het werk betreft en een vertrouwen <lb n="76" xml:id="l-76"/>dat het toch gaan zal. Ik heb dat al vroeger <lb n="77" xml:id="l-77"/>ook wel gehad ondanks alles maar men raakt <lb n="78" xml:id="l-78"/>toch van streek onwillekeurig &amp; heeft een <lb n="79" xml:id="l-79"/>melankoliek gevoel als zulke personen het afkeuren <lb n="80" xml:id="l-80"/>of ’t geen men doet een slechten weg noemen.</ab>
+                <lb n="81" xml:id="l-81"/>
+<ab rend="indent">Schrijft ge spoedig? Uw brief zal weer zeer welkom <lb n="82" xml:id="l-82"/>zijn als altijd. Wilt ge wel gelooven dat <lb n="83" xml:id="l-83"/>een figuur zoo van een voet grootte volstrekt <lb n="84" xml:id="l-84"/>niet gemakkelijker te teekenen is dan een kleiner<c type="kp">_</c> <lb n="85" xml:id="l-85"/>– <hi rend="ital">Integendeel</hi> – het komt er alles veel <lb n="86" xml:id="l-86"/>meer op aan – en om het op <hi rend="ital">die</hi> grootte toch <lb n="87" xml:id="l-87"/>naar proportie even krachtig te krijgen als kleine figuren <lb n="88" xml:id="l-88"/>is soms een erge sjouwerij. adieu kerel<c type="kk">/</c> heb goede <lb n="89" xml:id="l-89"/>dagen en doe maar goede zaken<c type="kk">/</c> met een handdruk<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="90" xml:id="l-90"/>
+<ab>t. à t.</ab>
+                <lb n="90*" xml:id="l-90s"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-41" n="41">(November)<c type="kp">_</c> &lt; November)</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo,</ab>
+<ab>I’ve written to you quite often lately, but it comes down to the same thing so much that I’m in fact dissatisfied that I don’t write to you more entertainingly. That will come again eventually — I think that once you’ve been to the studio again there will be livelier material. At least I hope so, and that will be the case if you’re in sympathy with what I’m working on and you haven’t yet seen. </ab>
+<ab rend="indent">This week in <hi rend="ital">Paris Illustré</hi> I saw a fine reproduction of a drawing by <hi rend="ital">
+                        <rs type="pers" key="915">Ulysse Butin</rs>
+                    </hi>, <hi rend="ital">Launching the boat</hi>. Fishermen and women pushing a boat into the sea.<anchor n="1" xml:id="note-t-1"/> I saw it just as I couldn’t help thinking a great deal about Butin and <rs type="pers" key="1157">Legros</rs> while looking for something that’s a completely different subject from what they do, namely the potato grubbers on their knees and working with short forks, about whom I recently wrote to you that I was doing studies for them.<anchor n="2" xml:id="note-t-2"/> I now have a sketch of them on the easel with 4 figures, 3 men and 1 woman.<anchor n="3" xml:id="note-t-3"/> I wanted to have something broad and bold in silhouette and delineation in it. I’m searching for that more and more. I still remember how the first painting by Butin I saw (one of his later ones) made a strong impression on me. It was the one he later etched himself, called The pier I believe, women looking out for ships that are due to come in on a stormy evening.<anchor n="4" xml:id="note-t-4"/> That was the first thing of his that I saw, and since then the one in the Luxembourg<anchor n="5" xml:id="note-t-5"/> and several others.
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">I find him very honest and thorough, and believe that precisely when he appears to have dashed something off quickly he remains no less sound and correct in his drawing after all. He’s one of those men I don’t know personally and yet, when I see something by him, I can imagine how he did it. </ab>
+<ab rend="indent">Don’t you think the painting by <rs type="pers" key="872">Blommers</rs> at the Salon is beautiful (November)? I haven’t seen the painting but the reproduction,<anchor n="6" xml:id="note-t-6"/> I think it’s just as if it were by <rs type="pers" key="915">Butin</rs>, with more passion and a greater dramatic element than B. normally has. </ab>
+<ab rend="indent">At the moment I have no fewer than 7 or 8 drawings measuring about 1 metre that I’m working on,<anchor n="7" xml:id="note-t-7"/> so you can imagine that I’m up to my ears in work. But I’m very hopeful that I can make my hand more skilled through this period of toil. Thus, for instance, the reluctance I felt to work with charcoal is disappearing day by day. One of the reasons is that I’ve found a way of fixing the charcoal and then going over it with something else, such as printer’s ink.<anchor n="8" xml:id="note-t-8"/>
+                </ab>
+<vg:whiteline/>
+<ab>
+                    <figure facs="zone-sketch-1" n="A"/>
+                </ab>
+<vg:whiteline/>
+<ab>
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/>
+                </ab>
+<ab>Here’s a scratch of potato grubbers, but they’re slightly further apart in the drawing.</ab>
+<ab rend="indent">Now as I write to you I think of that evening — you may remember it even though it was years ago — when you and I spent an evening together with <rs type="pers" key="323">Mauve</rs> when he still lived near the Barracks, and were given a photograph after a drawing by him, a plough.<anchor n="9" xml:id="note-t-9"/> Little did I think then that I would make drawings myself. Little did I also think then that difficulties would arise between Mauve and me.<anchor n="10" xml:id="note-t-10"/>
+                </ab>
+<ab rend="indent">I continue to be rather surprised that it hasn’t come right, all the more so because when you get down to it there’s virtually nothing about which there is a difference of view. </ab>
+<ab rend="indent">It’s now so long ago, in fact, that these days I’m beginning to regain my good humour as regards work, and confidence that it will be all right. I used to have that before, in spite of everything, but one can’t help being upset all the same, and feeling melancholy when such people disapprove or say that what one is doing is the wrong direction. </ab>
+<ab rend="indent">Will you write soon? Your letter will be most welcome again as always. Would you believe that a figure a foot high is not a bit easier to draw than a smaller one? <hi rend="ital">On the contrary</hi> — everything is much more critical — and to get it as forceful in proportion as small figures at <hi rend="ital">that</hi> size is sometimes very hard labour. Adieu, old chap, have good days and just do good business. With a handshake.</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>
+                        <rs type="pers" key="915">Ulysse Louis Auguste Butin</rs>, <hi rend="ital">La mise à l’eau </hi>(Launching the boat), in <hi rend="ital">Paris Illustré</hi> 1 (June 1883), p. [2]. <rs type="ill" key="665">Ill. 665</rs>.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>Van Gogh wrote about the potato grubbers in <ref target="let356.xml">letter 356</ref>.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>This drawing, <hi rend="ital">Potato grubbers</hi> (<rs type="ill" key="2442">F 1034 / JH 372</rs>),  is only known from a photograph. It corresponds with the letter sketch with the same title (<rs type="sketch" key="99">F - / JH 373</rs>) later in the letter. See also letters <ref target="let356.xml">356</ref> and <ref target="let362.xml">362</ref>.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>The painting is most probably <hi rend="ital">L’attente – Le samedi à Villerville, Calvados</hi> (Waiting – Saturday at Villerville, Calvados) (present whereabouts unknown). A photograph of the work was published in <hi rend="ital">L’Illustration</hi> 43 (21 March 1885), pp. 189-190. <rs type="ill" key="664">Ill. 664</rs>. The etching by Butin is <rs type="ill" key="3105">ill. 3105</rs>. </ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>
+                        <rs type="pers" key="915">Ulysse Butin</rs>, <hi rend="ital">Enterrement d’un marin à Villerville (Calvados) </hi>(The burial of a sailor at Villerville, Calvados), 1878 (Paris, Musée d’Orsay). <rs type="ill" key="2102">Ill. 2102</rs>.</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>
+                        <rs type="pers" key="872">Bernardus Blommers</rs>, <hi rend="ital">Novembre</hi> (November) (private collection) was shown at the Salon of 1883. As is evident from <ref target="let361.xml">letter 361</ref>, Van Gogh knew the illustration in <rs type="pers" key="585">F.-G. Dumas</rs>, <hi rend="ital">Catalogue illustré du Salon</hi>. Paris 1883, p. 47. <rs type="ill" key="592">Ill. 592</rs>.</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>Van Gogh evidently continued working on all the drawings he had started in the previous month in a large, horizontal format. Apart from the latest of the <rs type="ill" key="2442">
+                            <hi rend="ital">Potato grubbers</hi>
+                        </rs>, which was mentioned above, they were the following six: <hi rend="ital">Peat diggers in the dunes</hi> (<rs type="ill" key="2437">F 1031 / JH 363</rs>), a sand quarry (‘workmen labouring’), two versions of the dung-heap, a scene at the coal yard at Rijnspoor station and a row of diggers; only <hi rend="ital">Peat diggers</hi> and <hi rend="ital">Potato grubbers</hi> are known. </ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>In this period Van Gogh combined printing ink with other black drawing materials, one example being the large sheet of peat-cutters in the dunes (<rs type="ill" key="2437">F 1031 / JH 363</rs>). In March and April 1883 he also ‘experimented with a combination of printing ink and oil paint. As yet it is unclear which drawings are the result of this technique, assuming any have survived’. Cat. Amsterdam 1996, p. 29.</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>It is not known which drawing by <rs type="pers" key="323">Mauve</rs> this is; the photograph is also mentioned in <ref target="let122.xml">letter 122</ref>. The visit probably took place at Mauve’s studio on Alexanderplein in The Hague.</ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>Relations between Van Gogh and <rs type="pers" key="323">Mauve</rs> had deteriorated since early March 1882 because he was living with <rs type="pers" key="463">Sien</rs>; <ref target="let209.xml">see letters 209</ref> ff.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

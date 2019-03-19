@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Arles, on or about Friday, 20 April 1888.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let600"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">600</idno>
+<idno type="collectedletters">478</idno>
+<idno type="brieven1990">602</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Arles</vg:placeLet>
+                        <vg:dateLet>on or about Friday, 20 April 1888</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:physDesc>
+                        <vg:decoration>
+                            <vg:decoList xml:id="sketches">
+                                <vg:decoItem n="A" xml:id="sketch-1">
+                                    <vg:decoDesc>
+<p>
+      <hi rend="ital">Orchard with pear trees in blossom</hi> (<rs type="sketch" key="161">F - / JH 1400</rs>), letter sketch. On the sketch: ‘Bleu’ (blue) in the sky; ‘vert’ (green) across the – hatched – patch of ground in front; ‘rose’ (pink) twice, on the ground under the small trees on the left, and ‘lilas’ (lilac) on the ground at front right. Beside the sketch: with a line to the second tree: ‘arbre vert’ (green tree); with a line to the roof of the house: ‘toit orangé’ (orange roof); with a line to the ground in front of the house: ‘carré vert’ (green square); next to the ground in front of it.: ‘terrain lilas’ (lilac soil).</p>
+                                    </vg:decoDesc>
+                                </vg:decoItem>
+                            </vg:decoList>
+                        </vg:decoration>
+                    </vg:physDesc>
+                    <vg:letContents>
+<p>To Theo van Gogh. Arles, on or about Friday, 20 April 1888.</p>
+<note type="ongoingTopic" n="1">
+<p>Koning’s stay with Theo <ref target="let578.xml">(578)</ref> </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. nos. b518 a-b V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>The letter follows <ref target="let599.xml">letter 599</ref>, which was written on Thursday, 19 April. In that one Van Gogh has nine orchards on the go; in the present letter he mentions ten. Both letters include a sketch after <hi rend="ital">Orchard and house with orange roof</hi> and a reference to the failed study of a cherry tree. Vincent also says he hopes that Theo will receive this letter before he leaves on Sunday <ref target="#l-144">(ll. 144-145)</ref>, so he must have posted the letter by Saturday at the latest. We have therefore dated it on or about Friday, 20 April 1888.</p>
+<p rend="indent">This means that Theo must have sent the 100 francs for which Vincent thanks him earlier than usual. This is explained by the fact that he was under the impression that Vincent had not received the instalment of 50 francs he had sent around 15 April (<ref target="let601.xml">see letter 601</ref>).</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0518 a" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000698_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000698_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000698_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000698_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000698_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000698_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="VGM001000698_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000698_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000698_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0518 a" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000698_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000698_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000698_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000698_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000698_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000698_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000698_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000698_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000698_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0518 b" xml:id="surf-pb-2r">
+            <graphic mimeType="image/tiff" url="VGM001000696_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000696_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000696_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-2r-5">
+<graphic mimeType="image/tiff" url="VGM001000696_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000696_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000696_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0518 b" xml:id="surf-pb-2v">
+            <graphic mimeType="image/tiff" url="VGM001000696_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000696_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000696_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-2v-6">
+<graphic mimeType="image/tiff" url="VGM001000696_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000696_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000696_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-2v-7">
+<graphic mimeType="image/tiff" url="VGM001000696_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000696_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000696_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Mon cher Theo,</ab>
+                <lb n="1*" xml:id="l-1s"/>
+<ab>Merci de ta lettre <lb n="2" xml:id="l-2"/>d’aujourd’hui et du billet de 100 fr. <lb n="3" xml:id="l-3"/>qu’elle contenait. Pour ce qui est <lb n="4" xml:id="l-4"/>de la lettre précédente contenant 50 fr<c type="kp">_</c>
+                    <c type="kk">/</c> je <lb n="5" xml:id="l-5"/>l’ai également reçue et je te l’ai <lb n="6" xml:id="l-6"/>aussi écrit le jour avant ou deux <lb n="7" xml:id="l-7"/>jours avant que je n’aie envoyé les <lb n="8" xml:id="l-8"/>deux dessins<c type="kp">_</c>
+                    <anchor n="1" xml:id="note-o-1"/> Ces dessins sont faits <lb n="9" xml:id="l-9"/>avec un roseau taillé comme <lb n="10" xml:id="l-10"/>serait une plume d’oie. Je compte <lb n="11" xml:id="l-11"/>en faire une série comme cela. <lb n="12" xml:id="l-12"/>et j’espère faire mieux que les deux <lb n="13" xml:id="l-13"/>premiers<c type="kp">_</c> C’est un procedé que <lb n="14" xml:id="l-14"/>j’ai déjà cherché en Hollande <lb n="15" xml:id="l-15"/>dans le temps, mais là je n’avais <lb n="16" xml:id="l-16"/>pas d’aussi bons roseaux qu’ici<c type="kp">_</c>
+                    <anchor n="2" xml:id="note-o-2"/>
+                </ab>
+                <lb n="17" xml:id="l-17"/>
+<ab rend="indent">Ai reçu une lettre de Koning <lb n="18" xml:id="l-18"/>de laquelle veuille le remercier – <lb n="19" xml:id="l-19"/>très volontiers je veux lui échanger <lb n="20" xml:id="l-20"/>les deux dessins contre une étude <lb n="21" xml:id="l-21"/>de lui que tu choisiras &amp; garderas <lb n="22" xml:id="l-22"/>dans la collection.<anchor n="3" xml:id="note-o-3"/> Je lui écrirai <lb n="23" xml:id="l-23"/>pour lui expliquer le procedé <lb n="24" xml:id="l-24"/>et lui enverrai des roseaux taillés <lb n="25" xml:id="l-25"/>pour qu’il puisse en faire aussi<c type="kp">_</c>
+                </ab>
+                <lb n="26" xml:id="l-26"/>
+<ab rend="indent">Maintenant c’était une impor<c type="shy">-</c>
+                    <lb n="27" xml:id="l-27"/>tante nouvelle que celle de <lb n="28" xml:id="l-28"/>ton voyage à Bruxelles.<anchor n="4" xml:id="note-o-4"/> 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                    <lb n="29" xml:id="l-29"/>Tu seras à même de juger <lb n="30" xml:id="l-30"/>comment marche l’ancienne <lb n="31" xml:id="l-31"/>marchandise à haut prix là-bas<c type="kp">_</c> <lb n="32" xml:id="l-32"/>Mais quelle affaire. Car il <lb n="33" xml:id="l-33"/>est probable en effet que ces <lb n="34" xml:id="l-34"/>messieurs préparent quelque <lb n="35" xml:id="l-35"/>coup.<anchor n="5" xml:id="note-o-5"/> Te rappelles tu que nous <lb n="36" xml:id="l-36"/>en avons encore causé avant mon <lb n="37" xml:id="l-37"/>départ<c type="kk">/</c> que en vue de l’exposition <lb n="38" xml:id="l-38"/>universelle<c type="kk">/</c> Bouguereau<c type="kk">/</c> Lefevre<c type="kk">/</c> <lb n="39" xml:id="l-39"/>Benjamin C<c type="kp">_</c>
+                    <c type="kk">/</c> toute la clique <lb n="40" xml:id="l-40"/>irait chez Boussod se plaindre <lb n="41" xml:id="l-41"/>et insister sur ce qu’ils y tiennent <lb n="42" xml:id="l-42"/>que la maison B. (la première <lb n="43" xml:id="l-43"/>du monde) demeure pure et <lb n="44" xml:id="l-44"/>fidèle aux principes de l’art vraiment <lb n="45" xml:id="l-45"/>le plus civilisé et le plus <lb n="46" xml:id="l-46"/>aimable<c type="kk">/</c> soit leurs tableaux à eux.<anchor n="6" xml:id="note-o-6"/> <lb n="47" xml:id="l-47"/>Quoi qu’il en soit cela donne <lb n="48" xml:id="l-48"/>rudement à penser. Et la <lb n="49" xml:id="l-49"/>situation serait grave si tu te <lb n="50" xml:id="l-50"/>brouilles avec ces messieurs<c type="kp">_</c>–</ab>
+                <lb n="51" xml:id="l-51"/>
+<ab rend="indent">Je ne te cache pas que ce <lb n="52" xml:id="l-52"/>sera un rude choc pour toi<c type="kk">/</c> <lb n="53" xml:id="l-53"/>non pas immédiatement<c type="kk">/</c> mais <lb n="54" xml:id="l-54"/>6 mois disons après à cause <lb n="55" xml:id="l-55"/>du changement de vie que <lb n="56" xml:id="l-56"/>cela te causerait.</ab>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                <lb n="57" xml:id="l-57"/>
+<ab rend="indent">Quand on sort de prison après <lb n="58" xml:id="l-58"/>y avoir longtemps sejourné<c type="kk">/</c> il <lb n="59" xml:id="l-59"/>y a des moments où l’on regrette <lb n="60" xml:id="l-60"/>la prison même<c type="kk">/</c> parce que <lb n="61" xml:id="l-61"/>l’on se trouve desorienté dans <lb n="62" xml:id="l-62"/>la liberté<c type="kk">/</c> ainsi probablement <lb n="63" xml:id="l-63"/>nommée puisque la tâche <lb n="64" xml:id="l-64"/>quotidienne éreintante pour <lb n="65" xml:id="l-65"/>gagner sa vie ne laisse guère <lb n="66" xml:id="l-66"/>de liberté. Mais tu sais tout <lb n="67" xml:id="l-67"/>cela<c type="kp">_</c>– Certainement tu regretteras <lb n="68" xml:id="l-68"/>des choses involontairement même <lb n="69" xml:id="l-69"/>en en gagnant d’autres.</ab>
+                <lb n="70" xml:id="l-70"/>
+<ab rend="indent">J’ai maintenant 10 vergers <lb n="71" xml:id="l-71"/>sans compter trois petites etudes <lb n="72" xml:id="l-72"/>et une grande d’un cérisier que <lb n="73" xml:id="l-73"/>j’ai ereintée<c type="kp">_</c>
+                    <anchor n="7" xml:id="note-o-7"/>
+                </ab>
+                <lb n="74" xml:id="l-74"/>
+<ab rend="indent">Quand est ce que tu serais de retour<c type="kk">/</c> <lb n="75" xml:id="l-75"/>comment faire pour l’envoi en <lb n="76" xml:id="l-76"/>définitive? Car il me faut maintenant <lb n="77" xml:id="l-77"/>changer de motifs<c type="kk">/</c> les vergers <lb n="78" xml:id="l-78"/>ayant pour la plupart perdu leurs fleurs<c type="kp">_</c> <lb n="79" xml:id="l-79"/>Donc ces vergers avec le <lb n="80" xml:id="l-80"/>pont de l’Anglais<anchor n="8" xml:id="note-o-8"/> forment <lb n="81" xml:id="l-81"/>une premiere serie.</ab>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                <lb n="82" xml:id="l-82"/>
+<ab rend="indent">Si tu prefèrès que cela sèche <lb n="83" xml:id="l-83"/>encore ici<c type="kk">/</c> cela n’est pas mauvais <lb n="84" xml:id="l-84"/>peutêtre. Ils sont maintenant <lb n="85" xml:id="l-85"/>sur une terrasse couverte pour <lb n="86" xml:id="l-86"/>y sécher.<anchor n="9" xml:id="note-o-9"/>
+                </ab>
+                <lb n="87" xml:id="l-87"/>
+<ab rend="indent">Dites donc <hi rend="ital">Daumier</hi> est exposé <lb n="88" xml:id="l-88"/>aux Beaux arts &amp; Gavarni n’est ce pas<c type="kp">_</c>
+                    <anchor n="10" xml:id="note-o-10"/> <lb n="89" xml:id="l-89"/>Bravo pour le Daumier<c type="kk">/</c> pas pour <lb n="90" xml:id="l-90"/>les Beaux arts<c type="kp">_</c>
+                </ab>
+<vg:whiteline/> <figure facs="zone-sketch-1" n="A"/>
+<vg:whiteline/>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+                <lb n="91" xml:id="l-91"/>
+<ab>Voici croquis d’un verger <lb n="92" xml:id="l-92"/>que j’avais plus spécialement <lb n="93" xml:id="l-93"/>destiné pour toi à l’occasion <lb n="94" xml:id="l-94"/>du 1° Mai<c type="kp">_</c>
+                    <anchor n="11" xml:id="note-o-11"/> C’est absolument <lb n="95" xml:id="l-95"/>clair et absolument fait <lb n="96" xml:id="l-96"/>d’un coup<c type="kk">/</c> une furie d’empatements <lb n="97" xml:id="l-97"/>à peine teinté de jaune et de lilas <lb n="98" xml:id="l-98"/>dans la touffe blanche première<c type="kp">_</c> <lb n="99" xml:id="l-99"/>Tu seras alors probablement <lb n="100" xml:id="l-100"/>en Hollande et là-bas <lb n="101" xml:id="l-101"/>tu verras peutêtre ce jour-là <lb n="102" xml:id="l-102"/>les mêmes arbres en fleur<c type="kp">_</c>
+                </ab>
+                <lb n="103" xml:id="l-103"/>
+<ab rend="indent">Quel dommage de Cor<c type="kk">/</c> pourvu <lb n="104" xml:id="l-104"/>que cela ne soit pas quelque <lb n="105" xml:id="l-105"/>chose de grâve<c type="kp">_</c>
+                    <anchor n="12" xml:id="note-o-12"/>
+                </ab>
+                <lb n="106" xml:id="l-106"/>
+<ab rend="indent">Cela me fait grand plaisir <lb n="107" xml:id="l-107"/>que tu aies pris des leçons <lb n="108" xml:id="l-108"/>de manger au jeune Koning<c type="kk">/</c> <lb n="109" xml:id="l-109"/>il est très malin là-dedans <lb n="110" xml:id="l-110"/>et c’est amusant de manger <lb n="111" xml:id="l-111"/>avec cette jeune verdure d’artiste<c type="kp">_</c> 
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>
+                    <lb n="112" xml:id="l-112"/>Je suis bien content que tu aies <lb n="113" xml:id="l-113"/>son étude de négresse<c type="kp">_</c>
+                    <anchor n="13" xml:id="note-o-13"/> <lb n="114" xml:id="l-114"/>Enfin mais cela te fera du <lb n="115" xml:id="l-115"/>bien de déjeûner. Ici j’ai <lb n="116" xml:id="l-116"/>fait d’ailleurs la meme chôse <lb n="117" xml:id="l-117"/>en mangeant 2 oeufs le matin<c type="kp">_</c> <lb n="118" xml:id="l-118"/>L’estomac chez moi est très faible <lb n="119" xml:id="l-119"/>mais j’espère y arriver à le <lb n="120" xml:id="l-120"/>retablir<c type="kk">/</c> il faudra du temps &amp; <lb n="121" xml:id="l-121"/>de la patience. En tout cas je <lb n="122" xml:id="l-122"/>me porte déjà beaucoup mieux <lb n="123" xml:id="l-123"/>
+                    <hi rend="ital">en réalité</hi> qu’à Paris.</ab>
+                <lb n="124" xml:id="l-124"/>
+<ab rend="indent">Il parait d’ailleurs qu’ici on <lb n="125" xml:id="l-125"/>n’a pas precisement besoin d’une <lb n="126" xml:id="l-126"/>grande quantité de nourriture et <lb n="127" xml:id="l-127"/>je voulais bien à cette occasion <lb n="128" xml:id="l-128"/>encore te dire que je doute de <lb n="129" xml:id="l-129"/>plus en plus de la véracité de <lb n="130" xml:id="l-130"/>la légende Monticelli absorbeur <lb n="131" xml:id="l-131"/>de quantites énormes d’absinthe<c type="kp">_</c> <lb n="132" xml:id="l-132"/>Considérant son oeuvre<anchor n="a" xml:id="note-o-a"/> <lb n="134" xml:id="l-134"/>il me parait pas possible <lb n="135" xml:id="l-135"/>qu’un homme enervé par la boisson <lb n="136" xml:id="l-136"/>aie fait cela.</ab>
+<pb f="2v" n="7" xml:id="pb-orig-2v-7" facs="#zone-pb-2v-7"/>
+                <lb n="137" xml:id="l-137"/>
+<ab rend="indent">Peutêtre cette Limousine<c type="kk">/</c> la <lb n="138" xml:id="l-138"/>dame la Roquette<c type="kk">/</c> y a mis <lb n="139" xml:id="l-139"/>de sa médisance après tout pour <lb n="140" xml:id="l-140"/>que cette légende se soit enracinée<c type="kp">_</c>
+                    <anchor n="14" xml:id="note-o-14"/>
+                </ab>
+                <lb n="141" xml:id="l-141"/>
+<ab rend="indent">Enfin je t’écris à la hâte<c type="kk">/</c> <lb n="142" xml:id="l-142"/>de cette façon tu auras ma <lb n="143" xml:id="l-143"/>lettre avant ton depart si <lb n="144" xml:id="l-144"/>c’est ce Dimanche-ci que <lb n="145" xml:id="l-145"/>tu comptes partir.</ab>
+                <lb n="146" xml:id="l-146"/>
+<ab rend="indent">Tout en sentant que <lb n="147" xml:id="l-147"/>ce voyage ne t’enchantera <lb n="148" xml:id="l-148"/>pas fort si ce sont des tableaux <lb n="149" xml:id="l-149"/>Delort<anchor n="15" xml:id="note-o-15"/> &amp; C° qui formeront <lb n="150" xml:id="l-150"/>surtout la collection destinée aux <lb n="151" xml:id="l-151"/>vertueux Belges<c type="kk">/</c> n’empêche <lb n="152" xml:id="l-152"/>que je te souhaite bon sang <lb n="153" xml:id="l-153"/>et bon voyage et bon courage <lb n="154" xml:id="l-154"/>surtout.</ab>
+                <lb n="155" xml:id="l-155"/>
+<ab rend="indent">J’ai vu la nature morte de Bernard <lb n="156" xml:id="l-156"/>en train<c type="kk">/</c> je la trouvais superbe<c type="kp">_</c>
+                    <anchor n="16" xml:id="note-o-16"/>
+                </ab>
+                <lb n="157" xml:id="l-157"/>
+<ab rend="indent">Poignée de main à toi et à Koning.</ab>
+<vg:whiteline/>
+                <lb n="158" xml:id="l-158"/>
+<ab>t<c type="kp">_</c> à t<c type="kp">_</c>
+                </ab>
+                <lb n="159" xml:id="l-159"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-45" n="45">civilisé &lt; civilsé</note>
+<note target="l-65" n="65">gagner &lt; gagne</note>
+<note target="l-76" n="76">définitive? &lt; définitive</note>
+<note target="l-79" n="79">ces &lt; Ces</note>
+<note target="l-137" n="137">Limousine &lt; Limousin</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo,</ab>
+<ab>Thanks for today’s letter and for the 100-franc note it contained. About the previous letter containing 50 francs, I received it as well, and I also wrote telling you that the day before or two days before I sent the two drawings.<anchor n="1" xml:id="note-t-1"/> These drawings are done with a reed cut the same way as you’d cut a goose quill. I plan to do a series like that. And I hope to do better than the first two. It’s a process I already tried in Holland in the past, but I didn’t have as good reeds there as here.<anchor n="2" xml:id="note-t-2"/>
+                </ab>
+<ab rend="indent">Have had a letter from <rs type="pers" key="1145">Koning</rs> for which please thank him — I’ll be very glad to exchange the two drawings with him for a study of his that you will choose and keep in the collection.<anchor n="3" xml:id="note-t-3"/> I’ll write to him to explain the process to him, and will send him some cut reeds so that he can make some too.</ab>
+<ab rend="indent">Now that was an important piece of news about your trip to Brussels.<anchor n="4" xml:id="note-t-4"/> 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> You’ll be in a position to judge how the old and highly priced merchandise is doing over there. But what a business. Because it’s indeed likely that those gentlemen are up to something.<anchor n="5" xml:id="note-t-5"/> Do you remember, we had a chat about it before I left, that with the World Exhibition coming, <rs type="pers" key="890">Bouguereau</rs>, <rs type="pers" key="1158">Lefebvre</rs>, <rs type="pers" key="733">Benjamin C.</rs>, the whole clique would go to <rs type="pers" key="303">Boussod</rs> to grumble and to insist on their determination that the house of B. (the world’s leader) remain pure and faithful to the principles of the art that is truly the most civilized and the most agreeable, namely their own paintings.<anchor n="6" xml:id="note-t-6"/> Be that as it may, it certainly gives you a hell of a lot to think about. And the situation would be serious if you were to fall out with those gentlemen.</ab>
+<ab rend="indent">I won’t hide from you that it would be a rude shock for you, not immediately, but let’s say 6 months later, because of the change it would bring about in your life. 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/>
+                </ab>
+<ab rend="indent">When a man comes out of prison after having spent a long time there, there are times when he even misses prison, because he feels disoriented once he’s at liberty, probably so called because the exhausting daily task of earning one’s living leaves one hardly any liberty. But you know all that. You’ll certainly regret some things without choosing to, even while you gain others.</ab>
+<ab rend="indent">I have 10 orchards now, not counting three small studies and a large one of a cherry tree that I worked to death.<anchor n="7" xml:id="note-t-7"/>
+                </ab>
+<ab rend="indent">When will you be back, and what to do about the definitive consignment? Because now I have to change subjects, the orchards having mostly lost their blossom. So these orchards with the Langlois bridge <anchor n="8" xml:id="note-t-8"/> form a first series. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/>
+                </ab>
+<ab rend="indent">If you prefer them to continue to dry here, that’s not bad perhaps. At the moment they’re on a covered terrace to dry.<anchor n="9" xml:id="note-t-9"/>
+                </ab>
+<ab rend="indent">Tell me, isn’t <hi rend="ital">
+                        <rs type="pers" key="977">Daumier</rs> </hi>on show at the Beaux-Arts, and <rs type="pers" key="1043">Gavarni</rs>?<anchor n="10" xml:id="note-t-10"/> Bravo as far as Daumier’s concerned, not the Beaux-Arts.</ab>
+<vg:whiteline/>
+<ab>
+                    <figure facs="zone-sketch-1" n="A"/>
+                </ab>
+<vg:whiteline/>
+<ab>
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/>
+                </ab>
+<ab>Croquis here of an orchard that I had especially intended for you to mark the first of May.<anchor n="11" xml:id="note-t-11"/> It’s entirely bright and done entirely in one go, a riot of impastos barely tinged with yellow and lilac in the first white clump. You’ll probably be in Holland then, and over there you’ll perhaps see the same trees in blossom on that day.</ab>
+<ab rend="indent">What a pity about <rs type="pers" key="420">Cor</rs>, let’s hope it’s nothing serious.<anchor n="12" xml:id="note-t-12"/>
+                </ab>
+<ab rend="indent">I’m very pleased to hear you’ve taken lessons in eating from young <rs type="pers" key="1145">Koning</rs>, he’s very clever at that, and it’s entertaining to eat with that young sprig of an artist. 
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/> I’m very glad you have his study of a negro woman.<anchor n="13" xml:id="note-t-13"/> Well, anyway, it will do you good to eat breakfast. I’ve done the same thing here by the way, eating 2 eggs in the morning. My stomach’s very weak but I hope I can get it back to normal, it’ll take time and patience. In any case I’m <hi rend="ital">in fact</hi> already much better than in Paris.</ab>
+<ab rend="indent">Anyway, it seems you don’t exactly need a vast amount of food here, and on this occasion I also really wanted to tell you that I’m increasingly doubtful about the truth of the legend of <rs type="pers" key="1240">Monticelli</rs>’s absorbing huge quantities of absinthe. When I think of his work it doesn’t seem possible to me that a man who’s jittery from drink could have done it. 
+<pb f="2v" n="7" xml:id="pb-trans-2v-7" facs="#zone-pb-2v-7"/>
+                </ab>
+<ab rend="indent">Perhaps that woman from the Limousin, the <rs type="pers" key="343">Roquette</rs> lady, has after all put in a bit of her spiteful gossip to plant this legend.<anchor n="14" xml:id="note-t-14"/>
+                </ab>
+<ab rend="indent">Well then, I’m writing to you in haste, that way you’ll have my letter before you leave if it’s this coming Sunday you plan to go.</ab>
+<ab rend="indent">While I feel this visit won’t delight you so much if it’s mainly paintings from <rs type="pers" key="980">Delort</rs> &amp; Co.<anchor n="15" xml:id="note-t-15"/> that make up the collection intended for the virtuous Belgians, it doesn’t stop me saying that I wish you good health and bon voyage, and above all, good luck.</ab>
+<ab rend="indent">I saw <rs type="pers" key="831">Bernard</rs>’s still life when he was working on it, and I thought it superb.<anchor n="16" xml:id="note-t-16"/>
+                </ab>
+<ab rend="indent">Handshake to you and to <rs type="pers" key="1145">Koning</rs>.</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>This letter from Vincent has not survived; he addressed it wrongly and it was returned to him (<ref target="let601.xml">see letter 601</ref>).</ab>
+<ab rend="indent">The drawings he sent must have been quite large given that in <ref target="let601.xml">letter 601</ref> Van Gogh writes that he is working on a ‘series of pen drawings of which you’ve had the first two, but in a smaller format’ <ref target="#l-40">(ll. 40-42)</ref>. They must therefore be <hi rend="ital">Orchard with Arles in the background</hi> (<rs type="ill" key="2575">F 1516 / JH 1376</rs>) and <hi rend="ital">The white orchard</hi> (<rs type="ill" key="2583">F 1414 / JH 1385</rs>). Both measure approx. 39.5 x 54 cm.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>Van Gogh first mentioned working with a reed pen in <ref target="let168.xml">letter 168</ref> of late June 1881; according to Pickvance traces of it can be determined in <hi rend="ital">Marsh with water lilies</hi> (<rs type="ill" key="2335">F 845 / JH 7</rs>) and <hi rend="ital">Marsh </hi>(<rs type="ill" key="2336">F 846 / JH 8</rs>). Van Heugten, though, believes that Van Gogh is referring here to his drawings in Nuenen, ‘however it is difficult to say exactly when he used a reed, a quill or a metal nib’. See exhib. cat. New York 1984, p. 54 and cat. Amsterdam 1997, p. 22 (quotation). Vellekoop thinks Etten is more likely and mentions in this regard <hi rend="ital">The daughter of Jacob Meyer (after Holbein) </hi>(<rs type="ill" key="2339">F 833 / JH 13</rs>), <hi rend="ital">Marsh with water lilies</hi> (<rs type="ill" key="2335">F 845 / JH 7</rs>) and <hi rend="ital">Garden with arbour </hi>(<rs type="otherart" key="677">F 902 / JH 9</rs>). See cat. Amsterdam 2007, p. 3, n. 17.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>
+                        <rs type="pers" key="1145">Koning</rs> did not get the two drawings that were sent (<ref target="#n-2">n. 2</ref>). <hi rend="ital">The white orchard </hi>(<rs type="ill" key="2583">F 1414 / JH 1385</rs>) is still in the Van Gogh Museum collection. <hi rend="ital">Orchard with Arles in the background </hi>(<rs type="ill" key="2575">F 1516 / JH 1376</rs>) also remained in Theo’s possession; it was sold by <rs type="pers" key="416">Jo van Gogh-Bonger</rs> in 1924 (see <hi rend="ital">Account book </hi>2002, p. 197; <ref target="#n-13">n. 13</ref> below, and <ref target="let614.xml#n-3">letter 614, n. 3</ref>).</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>Later in the letter it says that Theo was planning to go to Brussels ‘this coming Sunday’; this would have been 22 April. He cannot have returned to Paris before 12 May at the earliest, since Vincent had still not had any word from him on that date (<ref target="let609.xml">letter 609</ref>) and thanked him in <ref target="let610.xml">letter 610</ref> of about 14 May for writing so soon after he got back. It emerges from <ref target="let602.xml">letter 602</ref> that Theo combined his business trip to Brussels with a visit to his <rs type="pers" key="524">mother</rs> and sister <rs type="pers" key="407">Willemien</rs> in Breda.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>Theo’s employers at <rs type="pers" key="797">Boussod, Valadon &amp; Cie</rs>. In this and the subsequent letters Van Gogh hints at a possible breach between Theo and his employers. Vincent was evidently afraid that Theo’s position was in danger because of his preference for modern art. </ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>
+                        <rs type="pers" key="890">Bouguereau</rs>, <rs type="pers" key="1158">Lefebvre</rs> and <rs type="pers" key="733">Benjamin-Constant</rs> sold their work successfully through Goupil for a long time; in the 1870s people even referred to ‘The school of Goupil’. Bouguereau’s contract with Goupil was terminated as part of the reorganization of the business in 1884-1887, and <rs type="pers" key="797">Boussod, Valadon &amp; Cie</rs> tried to build up a new stock with new names. See Richard Thomson in exhib. cat. Amsterdam 1999, pp. 70-71, 76. Bouguereau and co.’s ‘grumble’ to Boussod, Valadon &amp; Cie is possibly related to this.</ab>
+<ab rend="indent">These artists were in any event very well represented at the Paris World Exhibition of 1889: Benjamin-Constant had ten works there, Lefebvre had nine, Bouguereau had fourteen. See exhib. cat. Paris 1889-3, pp. 2 (cat. nos. 59-68), 4 (cat. nos. 157-166), 18 (cat. nos. 885-893), 45 (cat. nos. 91-94).</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>These ten orchards are <hi rend="ital">Pink peach trees </hi>(<rs type="ill" key="2588">F 404 / JH 1391</rs>), <hi rend="ital">The pink orchard </hi>(<rs type="ill" key="2578">F 555 / JH 1380</rs>), <hi rend="ital">The white orchard </hi>(<rs type="ill" key="2576">F 403 / JH 1378</rs>), <hi rend="ital">Small pear tree in blossom</hi> (<rs type="ill" key="2590">F 405 / JH 1394</rs>), <hi rend="ital">Orchard with apricot trees in blossom </hi>(<rs type="ill" key="2585">F 553 / JH 1387</rs>), <hi rend="ital">Orchard with apricot trees in blossom </hi>(<rs type="ill" key="2581">F 556 / JH 1383</rs>), <hi rend="ital">Orchard bordered by cypresses </hi>(<rs type="ill" key="2587">F 513 / JH 1389</rs>), <hi rend="ital">Orchard with peach trees in blossom</hi> (<rs type="ill" key="2591">F 551 / JH 1396</rs>), <hi rend="ital">Orchard </hi>(<rs type="ill" key="2579">F 552 / JH 1381</rs>) and <hi rend="ital">Orchard with pear trees in blossom </hi>(<rs type="ill" key="2594">F 406 / JH 1399</rs>). Cf. also <ref target="let597.xml">letter 597</ref>.</ab>
+<ab rend="indent"> The three small studies are <hi rend="ital">Orchard bordered by cypresses</hi> (<rs type="ill" key="2586">F 554 / JH 1388</rs>), <hi rend="ital">Peach tree in blossom</hi> (<rs type="ill" key="2592">F 557 / JH 1397</rs>) and <hi rend="ital">Peach tree in blossom</hi> (<rs type="ill" key="2593">F 399 / JH 1398</rs>). They measure 32 x 40 cm, 48.5 x 38 cm and 41 x 33 cm respectively.</ab>
+<ab rend="indent">The ‘large one of a cherry tree that I worked to death’ has not survived; Van Gogh described the work in <ref target="let599.xml">letter 599</ref> to <rs type="pers" key="831">Bernard</rs>.</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>The Pont de Langlois, pictured by Van Gogh in <hi rend="ital">The Langlois bridge with washerwomen</hi> (<rs type="ill" key="2571">F 397 / JH 1368</rs>) and the repetition <hi rend="ital">The Langlois bridge with washerwomen</hi> (<rs type="ill" key="2589">F 571 / JH 1392</rs>). Since Van Gogh had intended the first work for <rs type="pers" key="787">Tersteeg</rs>, he must have the repetition for Theo in mind here.</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>See for this terrace: <ref target="let599.xml#n-7">letter 599, n. 7.</ref>
+                    </ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>Work by <rs type="pers" key="977">Daumier</rs> and <rs type="pers" key="1043">Gavarni</rs> was on show in the exhibition of caricatures in the Ecole des Beaux-Arts in Paris from 17 April. See exhib. cat. Paris 1888, and <hi rend="ital">La Revue Indépendante</hi>, no. 19 (May 1888), vol. 7, p. 382.</ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>Theo turned 31 on 1 May. The painting meant for him was <hi rend="ital">Orchard with pear trees in blossom </hi>(<rs type="ill" key="2594">F 406 / JH 1399</rs>).</ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+      <ab>Apparently <rs type="pers" key="420">Cor</rs>, who was employed  in an engineering works in Lincoln, was ill or had some other problem. On 18 March his <rs type="pers" key="524">mother</rs> had told Theo that she had received good reports about her youngest son (FR b2417). Vincent himself had little contact with him: Cor wrote to Theo from Lincoln on 16 October 1888: ‘How’s Vincent getting on? I never hear anything from him now, except something about he’s going to Algiers or is there ... Don’t think that even though I don’t write often I’ve forgotten you, because in fact you’re my only brother’ (FR b3706).</ab>
+                </note>
+<note n="13" xml:id="n-13" target="#note-t-13">
+<ab>Three paintings by <rs type="pers" key="1145">Arnold Koning</rs> from Theo’s collection are candidates; all three are titled <hi rend="ital">Head of a Gypsy woman</hi> (Amsterdam, Van Gogh Museum). <rs type="ill" key="1016">Ill. 1016</rs>, <rs type="ill" key="2189">Ill. 2189</rs>, <rs type="ill" key="2190">2190</rs>. See for the works that Koning (possibly) gave Theo: exhib. cat. Amsterdam 1999, pp. 157, 160, 206 (n. 16).</ab>
+                </note>
+<note n="a" xml:id="n-a" target="#note-o-a">
+<ab>After this Van Gogh crossed out: ‘si multiple et si constant’ (so varied and so constant).</ab>
+                </note>
+<note n="14" xml:id="n-14" target="#note-t-14">
+<ab>By ‘<rs type="pers" key="343">La Roquette</rs>’ Van Gogh meant the wife of the art dealer <rs type="pers" key="342">François Joseph Delarebeyrette</rs>, who carried on the trade in <rs type="pers" key="1240">Monticelli</rs>s with her son <rs type="pers" key="344">Gabriel</rs> after her husband’s death in 1886. Van Gogh refers to the son as ‘Gabriel de la Roquette’ (<ref target="let625.xml">see letter 625</ref>). This must have been a nickname since the woman’s full name was Evelina Delarebeyrette-Lassarre and her son is always referred to in official documents as Gabriel Delarebeyrette.</ab>
+<ab rend="indent">In <ref target="let686.xml">letter 686</ref> Vincent talks about ‘Madame de Larebey la Roquette’, so we know that he did know her real name; Theo also calls her ‘La Roquette’ (<ref target="let830.xml">see letter 830</ref>). They may have called her this because she was so touchy and liable to fly off the handle – a ‘roquette’ is a rocket – the fact that it sounds something like ‘Delarebeyrette’ may also have been a factor. The Delarebeyrettes came from the department of Creuse in the Limousin, a region in central France (Archives de Paris).</ab>
+<ab rend="indent">Although <rs type="pers" key="1240">Monticelli</rs>’s legendary consumption of alcohol sounds somewhat exaggerated, he must nonetheless have been a heavy drinker. He used to do the rounds of the bars in Marseille to sell his paintings, and from 1880 onwards he only ever received buyers in his local, Café Plauchut. See Alauzen and Ripert 1969, p. 153.</ab>
+                </note>
+<note n="15" xml:id="n-15" target="#note-t-15">
+<ab>The popular genre and history painter <rs type="pers" key="980">Charles Edouard Delort</rs>, a pupil of <rs type="pers" key="1044">Gérôme</rs>, made his debut at the 1864 Salon and painted chiefly anecdotal, eighteenth-century costume pieces and Oriental scenes. </ab>
+                </note>
+<note n="16" xml:id="n-16" target="#note-t-16">
+<ab>Van Gogh is most probably referring here to one of the still lifes he saw at <rs type="pers" key="831">Bernard</rs>’s before he left Paris: <hi rend="ital">Still life: the blue coffee-pot</hi>, 1888 (Bremen, Kunsthalle) and <hi rend="ital">Still life: earthenware pot and apples </hi>(Paris, Musée d’Orsay). <rs type="ill" key="2179">Ill. 2179</rs> and <rs type="ill" key="567">Ill. 567</rs>. He was full of praise for these still lifes in <ref target="let655.xml">letter 655</ref> to Bernard. It is not possible to tell which of the two he means here.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

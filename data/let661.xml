@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Arles, Wednesday, 15 August 1888.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let661"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">661</idno>
+<idno type="collectedletters">524a</idno>
+<idno type="brieven1990">666</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Arles</vg:placeLet>
+                        <vg:dateLet>Wednesday, 15 August 1888</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. Arles, Wednesday, 15 August 1888.</p>
+<note type="ongoingTopic" n="1">
+<p>Milliet takes paintings to Paris <ref target="let652.xml">(652)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original telegram</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b566 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Date of postmark: Wednesday, 15 August 1888.</p>
+                    </note>
+<note type="additionalDetail" xml:id="additionalDetail">
+<p>Telegram. Postmark: ‘CENTRAL PARIS / 15 AOUT 85’.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <surface n="b 0566" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000763_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1r-1">
+                <graphic mimeType="image/tiff" url="VGM001000763_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000763_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000763_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+        </surface>
+        <surface n="b 0566 V/1962" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000763_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1v-2">
+                <graphic mimeType="image/tiff" url="VGM001000763_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000763_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000763_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+        </surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<ab>
+                    <pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="1" xml:id="l-1"/>
+<ab>
+                    <hi rend="sc">Paris Arles 664 18 15 2<hi rend="ss">H</hi>30 S</hi>
+                </ab>
+<vg:whiteline/>
+                <lb n="2" xml:id="l-2"/>
+<ab>
+                    <hi rend="sc">milliet remettra tableaux vendredi matin 7<hi rend="ss">H</hi> précises cercle militaire</hi>
+                    <anchor n="1" xml:id="note-o-1"/> <lb n="3" xml:id="l-3"/>
+                    <hi rend="sc">avenue opéra</hi>
+                </ab>
+<vg:whiteline/>
+                <lb n="3*" xml:id="l-3s"/>
+<ab>
+                    <hi rend="sc">Vincent</hi>
+                </ab>
+    <ab>
+                    <pb f="1v" n="1" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>    
+<vg:whiteline/>
+            </div>
+<div type="translation">
+<ab>
+                    <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+                </ab>
+<ab>
+                    <hi rend="sc">Paris Arles 664 18 15 2<hi rend="ss">h</hi>30 s</hi>
+                </ab>
+    <vg:whiteline/>
+    <ab>
+                    <hi rend="sc">
+                        <rs type="pers" key="515">milliet</rs> will deliver paintings friday morning 7 o’clock sharp cercle militaire</hi>
+                    <anchor n="1" xml:id="note-t-1"/> avenue opéra</ab>
+    <vg:whiteline/>
+    <ab>
+                    <hi rend="sc">vincent</hi>
+                </ab>
+    <ab>
+                    <pb f="1v" n="1" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+</div>
+    <div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>The <hi rend="ital">Cercle national des armées de terre et de mer</hi> in avenue de l’Opéra was set up in 1887 and was a club for army and naval officers; they could eat there and stay overnight. <rs type="pers" key="515">Milliet</rs> probably stayed there while he was in Paris.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

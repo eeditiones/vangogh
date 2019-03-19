@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Amsterdam, Thursday, 31 May 1877.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let118"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">118</idno>
+<idno type="collectedletters">99</idno>
+<idno type="brieven1990">118</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Amsterdam</vg:placeLet>
+                        <vg:dateLet>Thursday, 31 May 1877</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. Amsterdam, Thursday, 31 May 1877.</p>
+<note type="ongoingTopic" n="1">
+<p>Theo’s infatuation <ref target="let103.xml">(103)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="2">
+<p>Theo’s request for a transfer <ref target="let117.xml">(117)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. nos. b117 V/1962; b1458 V/1962 (Appendix 1), b1459 V/1962 (Appendix 2), and b1460 V/1962 (Appendix 3)</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Letter headed: ‘Amsterdam 31 Mei 1877’.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0117" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000126_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000126_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000126_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000126_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0117" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000126_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000126_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000126_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000126_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+        <surface n="b 1458 V/1962" xml:id="surf-extra-1">
+            <graphic mimeType="image/tiff" url="VGM001001343_01.TIF" rend="norend"/>
+            <zone xml:id="zone-extra-b1-1r1">
+<graphic mimeType="image/tiff" url="VGM001001343_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001343_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001343_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+        <surface n="b 1458 V/1962" xml:id="surf-extra-2">
+            <graphic mimeType="image/tiff" url="VGM001001343_02.TIF" rend="norend"/>
+            <zone xml:id="zone-extra-b1-1v2">
+<graphic mimeType="image/tiff" url="VGM001001343_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001343_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001343_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+        <surface n="b 1459 V/1962" xml:id="surf-extra-3">
+            <graphic mimeType="image/tiff" url="VGM001001344_01.TIF" rend="norend"/>
+            <zone xml:id="zone-extra-b2-1r1">
+<graphic mimeType="image/tiff" url="VGM001001344_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001344_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001344_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+        <surface n="b 1459 V/1962" xml:id="surf-extra-4">
+            <graphic mimeType="image/tiff" url="VGM001001344_02.TIF" rend="norend"/>
+            <zone xml:id="zone-extra-b2-1v2">
+<graphic mimeType="image/tiff" url="VGM001001344_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001344_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001344_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+        <surface n="b 1460 V/1962" xml:id="surf-extra-5">
+            <graphic mimeType="image/tiff" url="VGM001001345_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001001345_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001001345_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-extra-b3-1r1">
+<graphic mimeType="image/tiff" url="VGM001001345_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001345_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001345_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+        <surface n="b 1460 V/1962" xml:id="surf-extra-6">
+            <graphic mimeType="image/tiff" url="VGM001001345_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001001345_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001001345_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-extra-b3-1v2">
+<graphic mimeType="image/tiff" url="VGM001001345_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001345_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001345_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+    <zone xml:id="zone-extra-b3-1v3">
+<graphic mimeType="image/tiff" url="VGM001001345_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001345_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001345_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Amsterdam 31 Mei 1877</ab>
+<vg:whiteline/>
+                <lb n="2" xml:id="l-2"/>
+<ab>Waarde Theo,</ab>
+                <lb n="3" xml:id="l-3"/>
+<ab>Het is reeds laat en allen zijn reeds slapende maar het is mij behoefte om U <lb n="4" xml:id="l-4"/>nog eens een woordje te schrijven. Gij moet volharden ─ gij moet vooruit ─ <lb n="5" xml:id="l-5"/>gelijk ik ook ─ wij zijn in het zelfde oordeel<anchor n="1" xml:id="note-o-1"/> in menig opzicht.</ab>
+                <lb n="6" xml:id="l-6"/>
+<ab rend="indent">In Uw laatsten brief schrijft Gij dat Gij er over denkt om naar eene andere plaats <lb n="7" xml:id="l-7"/>te gaan indien zulks mogelijk ware, en Gij noemt Londen en Parijs<c type="kp">_</c>─</ab>
+                <lb n="8" xml:id="l-8"/>
+<ab rend="indent">dat kan wel goed zijn ─ o jongen wat houd ik toch zielsveel van die steden<c type="kk">/</c> <lb n="9" xml:id="l-9"/>dat wil zeggen van veel wat men daar ontmoet, er is wel veel dat ik haat <lb n="10" xml:id="l-10"/>ook ─ ten minste niet zoo lief heb als de heggen van doorn en het groene gras en de grijze kerkjes.─ ’t is zoo kwaad niet van U gedacht<c type="kp">_</c>
+                </ab>
+                <lb n="11" xml:id="l-11"/>
+<ab rend="indent">Maar weet dit ─ wij beiden moeten zien dat wij den tijd tusschen nu en <lb n="12" xml:id="l-12"/>den leeftijd van 30 jaren of daarboven doorkomen ─ en moeten ons wachten <lb n="13" xml:id="l-13"/>voor zonde ─ wij zijn eenmaal in het leven ─ welnu wij moeten een goeden <lb n="14" xml:id="l-14"/>strijd strijden<anchor n="2" xml:id="note-o-2"/> ─ en wij moeten mannen worden ─ dat zijn wij nog niet<c type="kk">/</c> <lb n="15" xml:id="l-15"/>geen van beiden ─ er is iets grooters in de toekomst, dat voorzegt <lb n="16" xml:id="l-16"/>mijn geweten mij<c type="kk">/</c> wij zijn niet wat anderen zijn ─ welnu<c type="kk">/</c> maar wij kunnen <lb n="17" xml:id="l-17"/>trachten het te worden. Wat ik wil weet Gij. Als ik predikant mag worden<c type="kk">/</c> <lb n="18" xml:id="l-18"/>als ik die betrekking vervul zoo dat mijn werk gelijkt op dat van onzen <lb n="19" xml:id="l-19"/>Vader dan zal ik God danken.─ Ik heb eene goede hoop het zal gelukken<c type="kk">/</c> <lb n="20" xml:id="l-20"/>eens is mij gezegd geworden door iemand die verder was in het leven dan <lb n="21" xml:id="l-21"/>ik en die geen vreemdeling was in Jeruzalem<anchor n="3" xml:id="note-o-3"/> ─ ik bedoel die zelf <lb n="22" xml:id="l-22"/>
+                    <hi rend="ital">er</hi> naar had gezocht en ook had gevonden; eens is mij gezegd geworden: <lb n="23" xml:id="l-23"/>ik geloof dat gij een Christen zijt, zie het was mij zoo goed dat woord <lb n="24" xml:id="l-24"/>te hooren. Houdt ook Gij<c type="kk">/</c> wat Gij ook voor U zelven wenscht<c type="kk">/</c> de gedachte <lb n="25" xml:id="l-25"/>aan Christus vast en bewaar Zijn woord,<anchor n="4" xml:id="note-o-4"/> gelijk Gij ook doet. Het is <lb n="26" xml:id="l-26"/>goed om te gelooven dat er een God is die weet wat wij behoeven<c type="kk">/</c> beter <lb n="27" xml:id="l-27"/>dan wij het zelven weten en Die ons helpt als wij hulp noodig hebben. <lb n="28" xml:id="l-28"/>Het is ook goed te gelooven dat even als in de oude dagen zoo ook nu <lb n="29" xml:id="l-29"/>nog er een Engel niet verre is van hen die droefheid hebben naar God<anchor n="5" xml:id="note-o-5"/> <lb n="30" xml:id="l-30"/>─ niet alleen zulken die zelf bijna als Engelen zijn, maar <lb n="31" xml:id="l-31"/>ook juist hen die de hulp van eene hoogere magt behoeven om be<c type="shy">-</c>
+                    <lb n="32" xml:id="l-32"/>waard te worden van het booze<c type="kk">/</c>
+                    <anchor n="6" xml:id="note-o-6"/> van het kwaad dat wij weten dat in <lb n="33" xml:id="l-33"/>de wereld en niet verre van ons is, niet verre van dezulken die zijn gebroken <lb n="34" xml:id="l-34"/>van hart en verslagen van geest.─<anchor n="7" xml:id="note-o-7"/> Zoo dikwijls las ik met aandacht het <lb n="35" xml:id="l-35"/>verhaal van Elia<c type="kk">/</c>
+                    <anchor n="8" xml:id="note-o-8"/> zoo dikwijls tot op heden toe versterkte het mij:</ab>
+<vg:whiteline/>
+                <lb n="36" xml:id="l-36"/>
+<ab>Toen hij dat zag, maakte hij zich op, en ging henen, om zijns levens wil, <lb n="37" xml:id="l-37"/>en kwam te Berseba dat in Juda is, en liet zijnen jongen aldaar. Maar <lb n="38" xml:id="l-38"/>hij zelf ging in de woestijn eene dagreis, en kwam en zat onder eenen <lb n="39" xml:id="l-39"/>jeneverboom; en bad, dat zijne ziel stierve, en zeide: “het is genoeg, neem <lb n="40" xml:id="l-40"/>nu Heer, mijne ziel, want ik ben niet beter dan mijne vaderen”. En hij <lb n="41" xml:id="l-41"/>leide zich neder, en sliep onder eenen jeneverboom; en zie toen roerde een 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                    <lb n="42" xml:id="l-42"/>Engel hem aan, en zeide tot hem: Sta op! eet! En hij zag om, en zie<c type="kk">/</c> <lb n="43" xml:id="l-43"/>aan zijn hoofdeneinde was een koek op kolen gebakken, en eene <lb n="44" xml:id="l-44"/>flesch met water; alzoo at hij, en dronk, en leide zich wederom neder. <lb n="45" xml:id="l-45"/>En de Engel des Heeren kwam ten anderen male weder, en roerde hem <lb n="46" xml:id="l-46"/>aan, en zeide: sta op, eet! want de weg zoude voor U te veel zijn. Zoo <lb n="47" xml:id="l-47"/>stond hij op, en at, en dronk, en hij ging door de kracht dezer spijs <lb n="48" xml:id="l-48"/>veertig dagen en veertig nachten, tot aan den berg Gods Horeb<c type="kp">_</c> En hij <lb n="49" xml:id="l-49"/>kwam aldaar in eene spelonk, en vernachtte aldaar, en zie het woord des <lb n="50" xml:id="l-50"/>Heeren geschiedde tot hem: en zeide tot hem: wat maakt gij hier Elia? <lb n="51" xml:id="l-51"/>En hij zeide: ik heb zeer geijverd voor den Heer, den God der heerscharen; want <lb n="52" xml:id="l-52"/>de kinderen Israels hebben Uw verbond verlaten en Uwe altaren afgebroken <lb n="53" xml:id="l-53"/>en Uwe profeten met het zwaard gedood; en ik ben alleen overgebleven <lb n="54" xml:id="l-54"/>en zij zoeken mijne ziel, om die weg te nemen. En Hij zeide: ga uit, en <lb n="55" xml:id="l-55"/>sta op dezen berg, voor het aangezigt des Heeren. En zie<c type="kk">/</c> de Heer ging voorbij, <lb n="56" xml:id="l-56"/>en een groote en sterke wind scheurende de bergen en brekende de steen<c type="shy">-</c>
+                    <lb n="57" xml:id="l-57"/>rotsen ging<anchor n="a" xml:id="note-o-a"/> voor den Heer henen, doch de Heer was in den wind niet; en <lb n="58" xml:id="l-58"/>na dezen wind eene aardbeving, de Heer was ook in de aardbeving niet; <lb n="59" xml:id="l-59"/>En na de aardbeving een vuur, de Heer was ook in het vuur niet, en <lb n="60" xml:id="l-60"/>na het vuur het suizen van eene zachte stilte. En het geschiedde als <lb n="61" xml:id="l-61"/>Elia dat hoorde, dat hij zijn aangezigt bewond met zijnen mantel, en uit<c type="shy">-</c>
+                    <lb n="62" xml:id="l-62"/>ging, en stond in den ingang der spelonk. En zie<c type="kk">/</c> eene stem kwam tot hem <lb n="63" xml:id="l-63"/>die zeide: wat maakt Gij hier Elia. En hij zeide: Ik heb zeer geijverd <lb n="64" xml:id="l-64"/>voor den Heer!─ En de Heer zeide tot hem, “Ga<c type="kk">/</c> keer weder op uwen weg”.─</ab>
+<vg:whiteline/>
+                <lb n="65" xml:id="l-65"/>
+<ab>En dat verhaal staat niet alleen<c type="kk">/</c> wij lezen van den Engel die in Ghetsemane Hem <lb n="66" xml:id="l-66"/>versterkte<anchor n="9" xml:id="note-o-9"/> Die bedroefd was tot den dood toe<c type="kk">/</c>
+                    <anchor n="10" xml:id="note-o-10"/> van den Engel die Petrus opwekte <lb n="67" xml:id="l-67"/>uit zijn slaap in de gevangenis<c type="kk">/</c>
+                    <anchor n="11" xml:id="note-o-11"/> van den Engel die Paulus verscheen in den <lb n="68" xml:id="l-68"/>nacht en zeide “Vrees niet”<c type="kp">_</c>
+                    <anchor n="12" xml:id="note-o-12"/> En wij<c type="kk">/</c> al zagen wij geen Engel<c type="kk">/</c> al zijn wij niet <lb n="69" xml:id="l-69"/>gelijk die mannen van ouds, zouden wij het niet weten dat er versterking is van Boven?</ab>
+                <lb n="70" xml:id="l-70"/>
+<ab rend="indent">Dezen middag stormde en regende het hier en wandelde ik naar de zee langs het joden<c type="shy">-</c>
+                    <lb n="71" xml:id="l-71"/>kerkhof,<anchor n="13" xml:id="note-o-13"/> ook deed ik eenige dagen geleden eene wandeling op die plaats aan den Buitenkant bij de <lb n="72" xml:id="l-72"/>Oosterspoor waar men aan die zandwerken &amp;c<c type="kp">_</c> bezig is.─<anchor n="14" xml:id="note-o-14"/> Wat is toch ook dat verhaal van Jezus wandelende <lb n="73" xml:id="l-73"/>op de zee schoon en opwekkend<c type="kk">/</c> Matth<c type="kp">_</c> XIV:22-33<c type="kk">/</c>
+                    <anchor n="15" xml:id="note-o-15"/> En terstond dwong Jezus Zijne discipelen in het schip te <lb n="74" xml:id="l-74"/>gaan en vóór Hem af te varen naar de andere zijde terwijl Hij de schare van zich zoude <lb n="75" xml:id="l-75"/>laten. En als Hij de schare van zich gelaten had klom Hij op den berg alleen om te bidden<c type="kp">_</c> <lb n="76" xml:id="l-76"/>En als het nu avond geworden was zoo was Hij daar alleen<c type="kp">_</c> En het schip was nu midden in de zee<c type="kk">/</c> <lb n="77" xml:id="l-77"/>zijnde in nood van de baren want de wind was hun tegen. Maar ter vierde wake kwam Jezus <lb n="78" xml:id="l-78"/>tot hen af<c type="kk">/</c> wandelende op de zee<c type="kp">_</c> En de discipelen<c type="kk">/</c> ziende Hem op de zee wandelen<c type="kk">/</c> werden <lb n="79" xml:id="l-79"/>ontroerd<c type="kk">/</c> zeggende: Het is een spooksel, en zij schreeuwden van vrees<c type="kp">_</c> Maar terstond sprak <lb n="80" xml:id="l-80"/>Jezus hen aan<c type="kk">/</c> zeggende: Zijt goedsmoeds: Ik ben ’t<c type="kk">/</c> vrees niet. En Petrus antwoordde <lb n="81" xml:id="l-81"/>Hem en zeide<c type="kk">/</c> Heer, indien Gij het zijt zoo gebied mij tot U te komen op het water<c type="kp">_</c> En Hij <lb n="82" xml:id="l-82"/>zeide<c type="kk">/</c> Kom. En Petrus klom neder van het schip en wandelde op het water <lb n="83" xml:id="l-83"/>om tot Jezus te komen<c type="kp">_</c> Maar ziende den sterken wind werd hij bevreesd en als hij begon te <lb n="84" xml:id="l-84"/>zinken riep hij<c type="kk">/</c> zeggende<c type="kk">/</c> Heer behoud mij<c type="kp">_</c> En Jezus terstond de hand uitstekende <lb n="85" xml:id="l-85"/>greep hem aan en zeide tot hem: Gij kleingeloovige<c type="kk">/</c> waarom hebt gij gewankeld<c type="kp">_</c> En als <lb n="86" xml:id="l-86"/>zij in het schip geklommen waren stilde de wind.─ Geloof in God<c type="kk">/</c> door het geloof <lb n="87" xml:id="l-87"/>kan men worden “droevig maar altijd blijde”<anchor n="16" xml:id="note-o-16"/> en ever green en <lb n="88" xml:id="l-88"/>hoeven wij niet te klagen “als onze jeugd verdwijnt bij ’t rijpen onzer krachten”<c type="kp">_</c>
+                    <anchor n="17" xml:id="note-o-17"/>
+                </ab>
+                <lb n="89" xml:id="l-89"/>
+<ab rend="indent">Hierbij nog iets van Esquiros,<anchor n="18" xml:id="note-o-18"/> heb het zoo goed mogelijk<c type="kk">/</c> schrijf weer eens spoedig, groet <lb n="90" xml:id="l-90"/>Uwe huisgenooten en ook bekenden als Gij ze ziet en ontvang in gedachten een hartelijken <lb n="91" xml:id="l-91"/>handdruk en geloof mij</ab>
+<vg:whiteline/>
+                <lb n="92" xml:id="l-92"/>
+<ab>Uw zoo liefh<c type="kp">_</c> broer</ab>
+                <lb n="93" xml:id="l-93"/>
+<ab>Vincent</ab> <lb n="94" xml:id="l-94"/> <vg:whiteline/>
+<ab>Lees ook eens Ps<c type="kp">_</c> 23, 42 &amp; 91<c type="kp">_</c>
+                    <anchor n="19" xml:id="note-o-19"/>
+                </ab>
+
+<ab rend="separate">
+                    <hi rend="sc">Appendices</hi>
+                </ab>
+    <ab rend="separate">
+                    <hi rend="ital">Appendix 1</hi>. inv. no. b1458 V/1962</ab>
+
+    <pb f="1r" n="1" xml:id="pb-orig-1r-1a1" facs="#zone-extra-b1-1r1"/>
+    <lb n="1" xml:id="la1-1"/>
+                <ab>
+                    <hi rend="ital">Siège de Leyde.</hi>
+                    <anchor n="20" xml:id="note-o-20"/>
+        <vg:whiteline/>
+                    <lb n="2" xml:id="la1-2"/>La ville de Leyde est le Versailles de la Hollande pour son air de grandeur déchue, de tristesse 
+        <lb n="3" xml:id="la1-3"/>souveraine et de solitude imposante. Elle ne pleure point les fêtes ni les grandeurs evanouies d’une an<c type="shy">-</c>
+                    <lb n="4" xml:id="la1-4"/>cienne cour, mais elle regrette son industrie éteinte, ses fabriques de drap, autrefois célèbres 
+        <lb n="5" xml:id="la1-5"/>dans le monde entier, aujourd’hui perdues. Ces fabriques berceau d’une aristocratie nouvelle 
+        <lb n="6" xml:id="la1-6"/>avaient été fondées en partie par des réfugiés français, qui, après la Saint Barthelemy 
+        <lb n="7" xml:id="la1-7"/>et après la revocation de l’Edit de Nantes, portèrent en Hollande leur activité<c type="kk">/</c> leurs richesses<c type="kk">/</c> 
+        <lb n="8" xml:id="la1-8"/>leurs lumières. Le desir de ressaisir une patrie les rendit entreprenants et superieurs à l’adver<c type="shy">-</c>
+                    <lb n="9" xml:id="la1-9"/>sité. Leyde devint alors par leur concours ce que devait plus tard devenir Manchester pour 
+        <lb n="10" xml:id="la1-10"/>la Grande Bretagne, le centre d’une industrie forte et productive. De cette grandeur économique 
+        <lb n="11" xml:id="la1-11"/>et de cette richesse, il ne lui reste plus qu’une maison de ville, edifice magistral du XVme siècle, 
+        <lb n="12" xml:id="la1-12"/>deux grandes églises, de superbes canaux avec de larges quais plantés d’arbres, des 
+        <lb n="13" xml:id="la1-13"/>maisons qui se souviennent encore des beaux temps de la republique, et surtout une université<c type="kp">_</c> 
+        <lb n="14" xml:id="la1-14"/>L’origine de cette université fameuse se lie au siège que soutint, en 1573, la ville de Leyde<c type="kp">_</c> 
+        <lb n="15" xml:id="la1-15"/>On connait les causes qui avaient soulevé les Provinces–Unies contre la domination de 
+        <lb n="16" xml:id="la1-16"/>l’Espagne. La liberté de conscience indignement violée, le despotisme politique et reli<c type="shy">-</c>
+                    <lb n="17" xml:id="la1-17"/>gieux, l’inquisition, la censure, les impots arbitraires, tout avait exaspéré le sentiment 
+        <lb n="18" xml:id="la1-18"/>national. En ce temps-là dit l’historien Hooft,<anchor n="21" xml:id="note-o-21"/> les rangs, les sexes, les âges furent confon<c type="shy">-</c>
+                    <lb n="19" xml:id="la1-19"/>dus dans une persécution générale. On ne voyait partout que des instruments de supplice<c type="kp">_</c>– 
+        <lb n="20" xml:id="la1-20"/>Les gibets et les roues n’y pouvaient suffire. Les arbres qui bordaient les routes étaient surchargés 
+        <lb n="21" xml:id="la1-21"/>de cadavres. Ailleurs s’elevaient les flammes de buchers sans nombre. Chaque jour se dressaient des 
+        <lb n="22" xml:id="la1-22"/>échafauds où coulait le sang. L’air même<c type="kk">/</c> source de vie, en était comme infecté et ressemblait à 
+        <lb n="23" xml:id="la1-23"/>un immense tombeau. Alors on vit un spectacle unique dans l’histoire du monde. Quelques 
+        <lb n="24" xml:id="la1-24"/>centaines d’hommes poussés au desespoir, des pêcheurs, des bergers, des negociants, s’unirent 
+        <lb n="25" xml:id="la1-25"/>pour lutter contre l’écrasante oppression d’un gouvernement fort, et contre des armées réputées 
+        <lb n="26" xml:id="la1-26"/>invincibles<c type="kp">_</c> Suivant l’exemple donné par d’autres villes de la Hollande, les habitants de 
+        <lb n="27" xml:id="la1-27"/>Leyde s’étaient déclarés en faveur de l’union des provinces, mais dans les derniers jours 
+        <lb n="28" xml:id="la1-28"/>d’octobre ils furent attaqués et cernés par les Espagnols. Le prince d’Orange leur écrivit d’or<c type="shy">-</c>
+                    <lb n="29" xml:id="la1-29"/>ganiser à tout prix la résistance<c type="kp">_</c> Il s’engageait de son côté à chercher tous les moyens de 
+        <lb n="30" xml:id="la1-30"/>venir à leur secours. Tenez trois mois leur disait–il; quand même le siége durerait plus 
+        <lb n="31" xml:id="la1-31"/>longtemps, ne perdez pas courage. Si vous perseverez malgré les angoisses de la faim<c type="kk">/</c> la deli<c type="shy">-</c>
+                    <lb n="32" xml:id="la1-32"/>vrance est certaine; si au contraire vous fléchissez<c type="kk">/</c> une eternelle servitude vous attend.</ab>
+    <lb n="33" xml:id="la1-33"/>
+                <ab rend="indent">L’ennemi cherchait cependant par de flatteuses promesses à s’ouvrir l’entrée de la place. A de 
+        <lb n="34" xml:id="la1-34"/>telles avances, les insurgés ne repondirent que par ce vers:<anchor n="22" xml:id="note-o-22"/> L’oiseleur trompant l’oiseau joue agreablement 
+        <lb n="34a" xml:id="la1-34a"/>de la flûte<c type="kp">_</c> 
+        <lb n="35" xml:id="la1-35"/>La défense de la ville fut confiée à Janus Douza. Les citoyens s’engagèrent par serment à s’ensevelir 
+        <lb n="36" xml:id="la1-36"/>sous les debris de leurs maisons plutot que de céder. On crea une monnaie de detresse. Quoique 
+        <lb n="37" xml:id="la1-37"/>l’on eût renvoyé tout d’abord les bouches inutiles, la famine ne tarda point à sévir<c type="kp">_</c> Depuis 7 semaines 
+        <lb n="38" xml:id="la1-38"/>on n’avait point vu de pain dans la ville. Les provisions de toute sorte étaient épuisées. L’herbe<c type="kk">/</c> 
+        <lb n="39" xml:id="la1-39"/>les feuilles, l’ecorce des arbres, le poil des bêtes tuées et devorées depuis longtemps, la terre même<c type="kk">/</c> 
+        <lb n="40" xml:id="la1-40"/>tout devint une nourriture. A la famine succéda la peste<c type="kp">_</c> Sur 16000 habitants que renfermait 
+        <lb n="41" xml:id="la1-41"/>la place<c type="kk">/</c> six ou sept mille perirent. On ne voyait plus que des cadavres vivants occupés à ensevelir 
+        <lb n="42" xml:id="la1-42"/>les morts. Cette ville, defendue par des ombres, se soutenait neamoins contre la fureur de l’armée ennemie et 
+        <lb n="43" xml:id="la1-43"/>contre ses propres divisions. Aux soldats qui leur criaient<c type="kk">/</c> Vous mourez de faim, rendez vous, et vous recevrez 
+        <lb n="44" xml:id="la1-44"/>une distribution de vivres, il repondaient du haut des remparts<c type="kk">/</c> Quand les provisions nous manqueront 
+        <lb n="45" xml:id="la1-45"/>tout à fait nous mangerons nos mains gauches en gardant notre main droite pour defendre notre liberté. 
+        <lb n="46" xml:id="la1-46"/>Un jour pourtant des bandes affamés se presentent devant le bourgmestre de Leyde<c type="kk">/</c> Pieter Adriaans zoon 
+        <lb n="47" xml:id="la1-47"/>van der Werff<c type="kp">_</c> elles demandaient peremptoirement du pain ou la reddition de la ville. J’ai juré 
+        <lb n="48" xml:id="la1-48"/>de defendre cette cité, répondit le magistrat civil<c type="kk">/</c> et avec l’aide de Dieu j’espère tenir mon serment<c type="kp">_</c> 
+        <lb n="49" xml:id="la1-49"/>Du pain je n’en ai pas; mais si mon corps peut vous servir à continuer la lutte, prenez-le<c type="kk">/</c> 
+        <lb n="50" xml:id="la1-50"/>coupez-le et divisez–le entre vous. Les malheureux se retirèrent en silence.–
+        <pb f="1v" n="2" xml:id="pb-orig-1v-2a1" facs="#zone-extra-b1-1v2"/>
+                </ab>
+    <lb n="51" xml:id="la1-51"/>
+                <ab rend="indent">Le sort de la Hollande etait dans les murs de Leyde<c type="kk">/</c> toutes les provinces avaient les yeux sur cette 
+        <lb n="52" xml:id="la1-52"/>ville héroïque, mais la place était si vigoureusement bloquée qu’il était très difficile de lui venir 
+        <lb n="53" xml:id="la1-53"/>en aide<c type="kp">_</c> Le prince d’Orange se decida enfin à percer les digues<c type="kp">_</c> C’était un parti extrême<c type="kp">_</c> 
+        <lb n="54" xml:id="la1-54"/>Neamoins le vieux proverbe Batave prévalut: Mieux vaut pays desolé que pays perdu<c type="kp">_</c> 
+        <lb n="55" xml:id="la1-55"/>Les terres furent donc désolées par les eaux et les moissons englouties<c type="kp">_</c> La mer, cette ennemie 
+        <lb n="56" xml:id="la1-56"/>naturelle de la Hollande, accourut au secours de Leyde, mais elle accourut lentement. Le 
+        <lb n="57" xml:id="la1-57"/>vent ne portait pas les flots. Sur ces vagues paresseuses qui ne poussaient point jusqu’à la ville 
+        <lb n="58" xml:id="la1-58"/>on vit apparaître des barques avec du canon<c type="kp">_</c> Ces barques, sans rames ni voiles, et qui se mou<c type="shy">-</c>
+                    <lb n="59" xml:id="la1-59"/>vaient au moyen de roues, etaient montées par des terribles marins Zelandais presque tous 
+        <lb n="60" xml:id="la1-60"/>mutilés dans la guerre d’independance. C’etaient des hommes à mine farouche, pour la 
+        <lb n="61" xml:id="la1-61"/>plupart defigurés par d’affreuses et honorables blessures. Ils venaient donner à la ville 
+        <lb n="62" xml:id="la1-62"/>en ruine l’exemple et le conseil d’une resistance désesperée<c type="kp">_</c> Les assiégés voyaient du haut 
+        <lb n="63" xml:id="la1-63"/>de leurs remparts la flottille, ils pouvaient parler avec les équipages mais contrariée par un 
+        <lb n="64" xml:id="la1-64"/>vent du Nord–est, l’eau refluait au lieu d’avancer, et éloignait avec elle l’espérance: les 
+        <lb n="65" xml:id="la1-65"/>murs mêmes étaient ebranlés<c type="kp">_</c> L’ennemi, au contraire, quoique chassé de quelques positions 
+        <lb n="66" xml:id="la1-66"/>avancées par le debordement des eaux<c type="kk">/</c> se maintenait encore sur les principales digues. 
+        <lb n="67" xml:id="la1-67"/>Leyde semblait perdue, lorsque la lune, entrant dans son plein, enfla la masse des eaux. 
+        <lb n="68" xml:id="la1-68"/>Le vent tourna au Sud–ouest. Une de ces tempêtes violentes et continues, qui, dans les 
+        <lb n="69" xml:id="la1-69"/>temps ordinaires, causent de si vives inquiétudes pour la sureté du pays, éclate sur les côtes. 
+        <lb n="70" xml:id="la1-70"/>La mer, n’étant plus retenue, elargit les brèches déjà pratiquées dans les digues et se précipite 
+        <lb n="71" xml:id="la1-71"/>sur les terres, portant devant elle l’épouvante<c type="kk">/</c> la désolation et le salut. Surpris et submergés<c type="kk">/</c> 
+        <lb n="72" xml:id="la1-72"/>glacés d’effroi par le bruit extraordinaire de la tempête et d’une partie des murs qui s’écroulent<c type="kk">/</c> 
+        <lb n="73" xml:id="la1-73"/>les Espagnols abandonnent tumultueusement leurs postes jetant leurs canons dans l’eau. 
+        <lb n="74" xml:id="la1-74"/>La même marée qui les emporte, conduit la flottille Zélandaise, chargée de provisions<c type="kk">/</c> 
+        <lb n="75" xml:id="la1-75"/>jusque devant les portes de Leyde. Un combat terrible, un combat Amphibie, pour nous 
+        <lb n="76" xml:id="la1-76"/>servir de l’expression d’un historien hollandais, s’engage au milieu des branches d’arbres<c type="kk">/</c> 
+        <lb n="77" xml:id="la1-77"/>en partie sur les digues, en partie dans les barques. Les marins libérateurs entrent 
+        <lb n="78" xml:id="la1-78"/>dans la ville; mais au milieu de la joie quel triste spectacle s’offre à leurs yeux! Sur les 
+        <lb n="79" xml:id="la1-79"/>deux rives du grand canal des hommes extenués demandent des vivres à grands cris. 
+        <lb n="80" xml:id="la1-80"/>Ils saisissent avec une avidité bestiale les pains, les harengs qu’on leur distribue, et 
+        <lb n="81" xml:id="la1-81"/>plusieurs d’entre eux, qui avaient supporté la famine<c type="kk">/</c> succombent à cette nourriture. 
+        <lb n="82" xml:id="la1-82"/>Une telle délivrance parut tenir du prodige<c type="kp">_</c> La redoutable armée espagnole, attaquée, 
+        <lb n="83" xml:id="la1-83"/>noyée, dispersée dans l’intérieur des terres par les eaux de la mer, que semblait conduire une 
+        <lb n="84" xml:id="la1-84"/>main invisible<c type="kk">/</c> avait disparu comme celle de Pharaon. On crut voir dans cette dispersion 
+        <lb n="85" xml:id="la1-85"/>subite une faveur directe de Dieu, qui aimait maintenant la Neerlande comme il 
+        <lb n="86" xml:id="la1-86"/>avait autrefois aimé Israel: Les chroniqueurs racontent même qu’une jeune Hollandaise 
+        <lb n="87" xml:id="la1-87"/>nourrie sans doute dans les traditions de l’Ancien Testament, Madeleine Moons, avait 
+        <lb n="88" xml:id="la1-88"/>fait traîner le siége en longueur, en occupant par ses charmes le coeur de Valdez qui 
+        <lb n="89" xml:id="la1-89"/>commandait en chef l’armée espagnole. Voici un fait plus serieux<c type="kp">_</c> Retenu par une 
+        <lb n="90" xml:id="la1-90"/>maladie, le prince d’Orange n’avait pu se porter en personne devant les murs de Leyde. 
+        <lb n="91" xml:id="la1-91"/>Il était à Delft, et à peine rétabli, il assistait au prêche dans une des églises de la ville, quand 
+        <lb n="92" xml:id="la1-92"/>on vint lui apprendre l’heureuse nouvelle de la levée du siège<c type="kp">_</c> Il fit passer le message au 
+        <lb n="93" xml:id="la1-93"/>prédicateur, qui en donna lecture à haute voix<c type="kp">_</c> Les larmes tomberent de tous les yeux 
+        <lb n="94" xml:id="la1-94"/>avec des actions de grâces. Quoique la peste fit encore des victimes dans cette malheureuse cité de Leyde, le Taciturne 
+        <lb n="95" xml:id="la1-95"/>n’hésita point à s’y rendre. Entouré par les habitants, qui oubliaient leurs maux en voyant dans cet homme le rempart 
+        <lb n="96" xml:id="la1-96"/>vivant de la liberté reconquise, il leur demanda ce qu’ils préféraient, ou l’exemption de certains impots, ou 
+        <lb n="97" xml:id="la1-97"/>la fondation d’une université protestante. Les citoyens de Leyde ne balancèrent pas dans leur choix<c type="kk">/</c> “Une 
+        <lb n="98" xml:id="la1-98"/>Université!” tel fut le cri général. Cette academie fut érigée le 9 fevrier 1575. Une grande idée politique protégeait 
+        <lb n="99" xml:id="la1-99"/>alors une telle institution, qui allait donner un centre au mouvement intellectuel de la reformation batave. 
+        <lb n="100" xml:id="la1-100"/>Ce n’était pas tout que de fonder par les armes l’indépendance matérielle des Provinces Unies, il fallait 
+        <lb n="101" xml:id="la1-101"/>encore constituer une nationalité morale.–
+    </ab>
+    <vg:whiteline/>
+    <lb n="102" xml:id="la1-102"/>
+                <ab>Alphonse Esquiros</ab>
+
+    <ab rend="separate">
+                    <hi rend="ital">Appendix 2</hi>. inv. no. b1459 V/1962</ab>
+    
+    <pb f="1r" n="1" xml:id="pb-orig-1r-1a2" facs="#zone-extra-b2-1r1"/>
+    <lb n="1" xml:id="la2-1"/>
+                <ab>
+                    <hi rend="ital">Siège de Harlem</hi>
+                    <anchor n="23" xml:id="note-o-23"/>
+    </ab>
+                <vg:whiteline/>
+    <lb n="2" xml:id="la2-2"/>
+                <ab>Une des periodes de l’histoire de la Hollande qui a laissé le plus de traces dans les monuments et 
+        <lb n="3" xml:id="la2-3"/>dans la physionomie extérieure des cités Neerlandaises, est le grand mouvement qui au 16<hi rend="ss">me</hi> siècle 
+        <lb n="4" xml:id="la2-4"/>souleva les forces vives de la nation contre la domination étrangère. A partir de Briel, la pre<c type="shy">-</c>
+                    <lb n="5" xml:id="la2-5"/>mière place dont s’emparèrent les Hollandais, on peut suivre pas à pas les progrès et les alterna<c type="shy">-</c>
+                    <lb n="6" xml:id="la2-6"/>tives de cette guerre sainte<c type="kp">_</c>
+                    <anchor n="24" xml:id="note-o-24"/> 
+        <lb n="7" xml:id="la2-7"/>La ville de Harlem par exemple porte encore les cicatrices de cette lutte heroique et désesperée 
+        <lb n="8" xml:id="la2-8"/>qu’elle soutint contre les Espagnols<c type="kp">_</c> Je me suis promené plus d’une fois autour des vieux remparts de cette 
+        <lb n="9" xml:id="la2-9"/>ancienne place forte, aujourd’hui dechirés par les lézardes<c type="kk">/</c> percés de maisons neuves qui s’encadrent 
+        <lb n="10" xml:id="la2-10"/>fièrement entre les bastions<c type="kk">/</c> troués par des arbres qui végètent jusque dans la pierre, et dont l’ombre 
+        <lb n="11" xml:id="la2-11"/>se prolonge à la surface du canal. la vue de cette enceinte et des portes<c type="kk">/</c> sombres défilés qui 
+        <lb n="12" xml:id="la2-12"/>serpentent jusque dans la ville<c type="kk">/</c> me retraçait les principales circonstances du siège<c type="kp">_</c> Dès ce 
+        <lb n="13" xml:id="la2-13"/>temps-là les remparts de la ville de Harlem etaient mauvais<c type="kk">/</c> je parle des murailles, mais 
+        <lb n="14" xml:id="la2-14"/>le patriotisme des habitants se chargea de couvrir cette vieille cité, et un tel boulevard se 
+        <lb n="15" xml:id="la2-15"/>trouva inexpugnable<c type="kp">_</c> Le siège de Harlem précéda celui de Leyde<c type="kp">_</c> Les avertissements ne 
+        <lb n="16" xml:id="la2-16"/>manquaient pas. Amsterdam, qui ne s’était point encore declaree ouvertement pour la cause 
+        <lb n="17" xml:id="la2-17"/>de la reformation et de l’indépendance, représenta aux habitants de Harlem les dangers de 
+        <lb n="18" xml:id="la2-18"/>la resistance dans laquelle ils s’engageaient, le nombre et la discipline de l’armee ennemie<c type="kk">/</c> 
+        <lb n="19" xml:id="la2-19"/>le peu de confiance qu’on devait placer dans le prince d’Orange lequel n’avait pas encore 
+        <lb n="20" xml:id="la2-20"/>réussi à delivrer une seule ville assiégée<c type="kp">_</c> Devant ces conseils de la prudence humaine les 
+        <lb n="21" xml:id="la2-21"/>citoyens hésitaient. Une harangue hardie et animée de Wybald van Ripperda, capi<c type="shy">-</c>
+                    <lb n="22" xml:id="la2-22"/>taine de la garde bourgeoise<c type="kk">/</c> domina leur irrésolution<c type="kp">_</c> Il leur rappela le sang de 
+        <lb n="23" xml:id="la2-23"/>leurs concitoyens qui venait de couler sur les ruines de Naarden et la fidélité qu’ils a<c type="shy">-</c>
+                    <lb n="24" xml:id="la2-24"/>vaient juré au Prince d’Orange. Ce discours fut accueilli par un cri unanime d’en<c type="shy">-</c>
+                    <lb n="25" xml:id="la2-25"/>thousiasme<c type="kp">_</c> “Oui, repondirent les citoyens de Harlem, chacun de nous donnera 
+        <lb n="26" xml:id="la2-26"/>sa vie pour la défence de la ville et le triomphe de la bonne cause”<c type="kp">_</c> Les images 
+        <lb n="27" xml:id="la2-27"/>furent bientôt arrachees des églises, et on établit partout le service du culte 
+        <lb n="28" xml:id="la2-28"/>réformé<c type="kp">_</c> Le 9 decembre 1572 don Frederic<c type="kk">/</c> lieutenant du Duc d’Albe, marcha contre 
+        <lb n="29" xml:id="la2-29"/>Harlem avec soixante compagnies d’infanterie espagnole<c type="kk">/</c> seize d’allemands, 
+        <lb n="30" xml:id="la2-30"/>vingt de Wallons et quinze cents chevaux<c type="kp">_</c> Ces forces étaient accablantes comparées 
+        <lb n="31" xml:id="la2-31"/>à celles des assiégés<c type="kp">_</c> La garnison ne comptait guère tout d’abord au dela de 1500 
+        <lb n="32" xml:id="la2-32"/>hommes, mais chaque citoyen devint soldat. Les femmes elles mêmes coururent aux 
+        <lb n="33" xml:id="la2-33"/>armes<c type="kp">_</c> Kenau Hasselaar<c type="kk">/</c> veuve d’un certain rang et d’une assez grande fortune<c type="kk">/</c> 
+        <lb n="34" xml:id="la2-34"/>forma un regiment de 300 femmes qui tout en conservant le costume de leur sexe 
+        <lb n="35" xml:id="la2-35"/>n’en montrèrent pas moins une intrepidité virile<c type="kp">_</c> Les operations du siège s’ouvrirent 
+        <lb n="36" xml:id="la2-36"/>toutefois sous de mauvais auspices pour les assiégés<c type="kp">_</c> Don Frederic<c type="kk">/</c> couvert par un épais 
+        <lb n="37" xml:id="la2-37"/>brouillard comme par un manteau<c type="kk">/</c> s’empara du fort de Sparendam situé à peu de 
+        <lb n="38" xml:id="la2-38"/>distance de la ville<c type="kp">_</c> Il put ainsi jeter ses ouvrages d’attaque et de retranchements sans 
+        <lb n="39" xml:id="la2-39"/>être inquiété par le feu de la garnison<c type="kp">_</c> J’abrège l’histoire de ce siège mémorable<c type="kp">_</c> A 
+        <lb n="40" xml:id="la2-40"/>peine une brèche s’ouvrait-elle qu’on la fermait aussitôt avec du bois<c type="kk">/</c> des sacs, de la 
+        <lb n="41" xml:id="la2-41"/>terre et tout ce qu’on avait sous la main<c type="kp">_</c> Les habitants passèrent de longues nuits 
+        <lb n="42" xml:id="la2-42"/>d’hiver à construire un mur intérieur plus haut et plus fort que l’ancien<c type="kk">/</c> dont l’ensemble 
+        <lb n="43" xml:id="la2-43"/>menaçait ruine.– Riches et pauvres, adultes et enfants, hommes et femmes, tout 
+        <lb n="44" xml:id="la2-44"/>le monde concourut aux travaux de defense et mania la bêche et la pioche. Il ne se 
+        <lb n="45" xml:id="la2-45"/>passait presque pas un jour sans qu’un assaut fût livré par les assiegés aux assiegeants<c type="kp">_</c> 
+        <lb n="46" xml:id="la2-46"/>Plus d’une fois les Hollandais s’élancèrent sur les tranchees de l’ennemi<c type="kk">/</c> pillèrent et brulèrent 
+        <lb n="47" xml:id="la2-47"/>ses tentes<c type="kp">_</c> Le froid était rigoureux, mais l’hiver devint un allié<c type="kk">/</c> les éléments semblaient 
+        <lb n="48" xml:id="la2-48"/>prendre le parti de la Hollande<c type="kp">_</c> Les habitants de Harlem recevaient constamment 
+        <lb n="49" xml:id="la2-49"/>des habitants de Leyde des vivres et des munitions qu’on conduisait sur des traineaux 
+        <lb n="50" xml:id="la2-50"/>à travers le lac changé en une mer de glace<c type="kp">_</c> Des renforts de troupes leur arrivaient par la 
+        <lb n="51" xml:id="la2-51"/>meme voie<c type="kp">_</c> Malheureusement pour les assiégés la sévérité de la saison se detendit et le 
+        <lb n="52" xml:id="la2-52"/>printemps qui réjouit toute la nature vint aggraver encore la triste situation de la ville<c type="kp">_</c> 
+        <lb n="53" xml:id="la2-53"/>Quoique les espagnols eussent fait de larges breches près de la porte de la croix de S<hi rend="ss">t</hi> Jean<c type="kk">/</c> 
+        <lb n="54" xml:id="la2-54"/>leurs assauts furent repoussés à deux reprises et après sept mois d’hostilités infructueuses<c type="kk">/</c> 
+        <lb n="55" xml:id="la2-55"/>après avoir essuyé une perte de dix à douze mille hommes<c type="kk">/</c> ils furent obligés à lever le siège en 
+        <lb n="56" xml:id="la2-56"/>se bornant à tenir la place bloquée<c type="kp">_</c> Bossu neamoins profita du dégel pour couper 
+        <lb n="57" xml:id="la2-57"/>la digue qui retenait les eaux entre l’Y et le lac de Harlem<c type="kp">_</c>– Il ouvrit par ce moyen un passage 
+        <pb f="1v" n="2" xml:id="pb-orig-1v-2a2" facs="#zone-extra-b2-1v2"/> 	
+        <lb n="58" xml:id="la2-58"/>à travers lequel un escadre composée de soixante chaloupes de guerre entra dans le lac et vint 
+        <lb n="59" xml:id="la2-59"/>se stationner devant la ville<c type="kp">_</c> Ce lac a été puni, l’historien chercherait aujourd’hui vainement les 
+        <lb n="60" xml:id="la2-60"/>vagues de celui, qui, enfant de Hollande, dit un poète, osa porter les vaisseaux ennemis jusque 
+        <lb n="61" xml:id="la2-61"/>dans l’interieur du pays<c type="kp">_</c>– Cependant la situation de la ville bloquée devint de jour en jour 
+        <lb n="62" xml:id="la2-62"/>plus lamentable<c type="kp">_</c>– Les provisions commencaient à manquer<c type="kp">_</c> Un grand nombre des habi<c type="shy">-</c>
+                    <lb n="63" xml:id="la2-63"/>tants avaient péri de faim<c type="kp">_</c> Les rues étaient encombrés de malades et de mourants<c type="kp">_</c> Les amis 
+        <lb n="64" xml:id="la2-64"/>des assiégés essayèrent à plusieurs reprises de leur envoyer des vivres mais sans succès<c type="kp">_</c> 
+        <lb n="65" xml:id="la2-65"/>Les habitants prirent alors la resolution de se former en un corps d’armée<c type="kk">/</c> de mettre leurs 
+        <lb n="66" xml:id="la2-66"/>femmes et leurs enfants au centre et de s’ouvrir un chemin, l’épée au poing, à travers 
+        <lb n="67" xml:id="la2-67"/>les lignes de l’ennemi<c type="kp">_</c> Les troupes allemandes qui étaient dans la ville refusèrent 
+        <lb n="68" xml:id="la2-68"/>seules de se joindre à une entreprise si audacieuse. Instruits de cette intention et 
+        <lb n="69" xml:id="la2-69"/>craignant les effets du desespoir, les espagnols envoyèrent un parlementaire qui promit 
+        <lb n="70" xml:id="la2-70"/>grâce et amnistie à condition que la ville se rendrait et remettrait cinquante sept de ses 
+        <lb n="71" xml:id="la2-71"/>principaux membres entre les mains des maîtres légitimés<c type="kp">_</c> Il était convenu aussi 
+        <lb n="72" xml:id="la2-72"/>que les habitants pourraient racheter du pillage leurs maisons leurs biens en payant 
+        <lb n="73" xml:id="la2-73"/>une somme de 240<anchor n="25" xml:id="note-o-25"/> florins<c type="kp">_</c> Des conditions aussi dures n’eussent jamais été acceptées 
+        <lb n="74" xml:id="la2-74"/>si le mot de clémence n’avait point été prononcé par l’ennemi<c type="kp">_</c> Lorsque les Es<c type="shy">-</c>
+                    <lb n="75" xml:id="la2-75"/>pagnols firent leur entrée dans la place, ils trouvèrent la garnison reduite de 4000 à 
+        <lb n="76" xml:id="la2-76"/>1800 hommes<c type="kp">_</c> Trois jours s’écoulèrent; on comptait sur la parole donnée et les habi<c type="shy">-</c>
+                    <lb n="77" xml:id="la2-77"/>tants avaient mis bas les armes. Tout à coup Ripperda, le gouverneur de la ville 
+        <lb n="78" xml:id="la2-78"/>et les 57 nobles qui avaient été remis en otage subirent le dernier supplice<c type="kp">_</c> Quatre 
+        <lb n="79" xml:id="la2-79"/>boureaux furent ensuite requis pour une autre tâche, et deux mille hommes parmi les<c type="shy">-</c>
+                    <lb n="80" xml:id="la2-80"/>quels des soldats de la garnison<c type="kk">/</c> des habitants de la ville, des ministres du culte 
+        <lb n="81" xml:id="la2-81"/>Protestant furent froidement immolés<c type="kp">_</c> La boucherie touchait à sa fin<c type="kp">_</c> Les 
+        <lb n="82" xml:id="la2-82"/>assommeurs étaient fatigués<c type="kk">/</c> les victimes qui restaient dans les prisons furent 
+        <lb n="83" xml:id="la2-83"/>liées deux à deux et jetées dans le lac de Harlem. Le siège avait duré du mois de Dé<c type="shy">-</c>
+                    <lb n="84" xml:id="la2-84"/>cembre 1572 jusqu’à Juillet 1573<c type="kp">_</c> Le triste dénouement d’une résistance si longue 
+        <lb n="85" xml:id="la2-85"/>et si vaillante jeta d’abord la consternation dans les Provinces unies mais une cause 
+        <lb n="86" xml:id="la2-86"/>n’est point perdue tant que le sentiment du droit n’est point éteint<c type="kp">_</c> Quatre ans plus 
+        <lb n="87" xml:id="la2-87"/>tard, les Hollandais rentrèrent en possession de Harlem<c type="kp">_</c> Les souvenirs du siège sont 
+        <lb n="88" xml:id="la2-88"/>conservés dans l’hôtel de ville, élégant édifice, là j’ai vu non sans émotion un vieux 
+        <lb n="89" xml:id="la2-89"/>tableau qui représente l’état de cette malheureuse cité durant les sombres jours où elle 
+        <lb n="90" xml:id="la2-90"/>donna à la Neerlande l’exemple d’un heroique devouement.–</ab>
+        <vg:whiteline/>
+        <ab>
+                    <hi rend="ital">Alphonse Esquiros</hi>
+                </ab>
+    <vg:whiteline/>
+    <lb n="91" xml:id="la2-91"/>
+                <ab>Minuit sonne<c type="kk">/</c> une lueur vaccillante brille au loin sur l’Océan, on entend le tintement d’une 
+        <lb n="92" xml:id="la2-92"/>cloche, demi perdu dans le grand murmure des flots. Aussitot de toutes les criques<c type="kk">/</c> de toutes 
+        <lb n="93" xml:id="la2-93"/>les anfractuosités du rivage<c type="kk">/</c> de tous les rochers surgissent de longs points noirs qui glissent 
+        <lb n="94" xml:id="la2-94"/>sur les vagues<c type="kp">_</c> Ce sont des barques de pêcheurs chargées d’hommes<c type="kk">/</c> d’enfants<c type="kk">/</c> de femmes<c type="kk">/</c> de vieillards, 
+        <lb n="95" xml:id="la2-95"/>qui se dirigent vers la haute mer<c type="kp">_</c> Tous cinglent vers le même point. Déjà le son de la cloche se fait entendre 
+        <lb n="96" xml:id="la2-96"/>de plus près, la lueur lointaine devient plus distincte, enfin l’objet vers lequel accourt cette population 
+        <lb n="97" xml:id="la2-97"/>reunie apparaît au milieu des vagues! C’est une nacelle sur laquelle un prêtre est debout<c type="kk">/</c> prêt à célébrer 
+        <lb n="98" xml:id="la2-98"/>la messe<c type="kp">_</c>– Sûr de n’avoir là que Dieu pour témoin il a convoqué les paroisses à cette solennité, et tous 
+        <lb n="99" xml:id="la2-99"/>les fidèles sont venus: tous sont à genoux entre la mer qui gronde sourdement et le ciel tout sombre 
+        <lb n="100" xml:id="la2-100"/>de nuages<c type="kp">_</c> Que l’on se figure<c type="kk">/</c> si l’on peut<c type="kk">/</c> un pareil spectacle! La nuit, les flots, deux mille têtes 
+        <lb n="101" xml:id="la2-101"/>courbées autour d’un homme sur l’abime<c type="kp">_</c> Les chants de l’office saint – et entre chaque réponse les grandes 
+        <lb n="102" xml:id="la2-102"/>menaces de la mer murmurant comme la voix de Dieu.–<anchor n="26" xml:id="note-o-26"/>
+                </ab>
+        <vg:whiteline/>
+    <lb n="103" xml:id="la2-103"/>
+                <ab>
+                    <hi rend="ital">1. Korinthe XI</hi>
+                    <c type="kp">_</c> Want ik heb van den Heer ontvangen hetgeen ik ook U overgegeven heb, hoe de Heer Jezus in den nacht 
+        <lb n="104" xml:id="la2-104"/>in welken Hij verraden werd het brood nam. En als Hij gedankt had, brak Hij het en zeide: Neemt<c type="kk">/</c> 
+        <lb n="105" xml:id="la2-105"/>eet, dat is Mijn ligchaam hetwelk voor U verbroken wordt, doet dit tot Mijne gedachtenis<c type="kp">_</c> 
+        <lb n="106" xml:id="la2-106"/>Desgelijks nam Hij ook den drinkbeker na het eten des Avondmaals en zeide<c type="kk">/</c> Deze drinkbeker is 
+        <lb n="107" xml:id="la2-107"/>het Nieuwe Testament in Mijn bloed. Doet dat zoo dikwijls gij dien drinken zult tot Mijne 
+        <lb n="108" xml:id="la2-108"/>gedachtenis. want zoo dikwijls als gij dit brood zult eten en dezen drinkbeker zult drinken 
+        <lb n="109" xml:id="la2-109"/>zoo verkondigt den dood des Heeren<c type="kk">/</c> totdat Hij komt.–<anchor n="27" xml:id="note-o-27"/>
+                </ab>
+    
+    <ab rend="separate">
+                    <hi rend="ital">Appendix 3</hi>. inv. no. b1460 V/1962</ab>
+    
+    <pb f="1r" n="1" xml:id="pb-orig-1r-1a3" facs="#zone-extra-b3-1r1"/>
+    <lb n="1" xml:id="la3-1"/>
+                <ab>
+                    <hi rend="ital">Scheveningen</hi>
+                    <anchor n="28" xml:id="note-o-28"/>
+                </ab>
+    <vg:whiteline/>
+                <lb n="2" xml:id="la3-2"/>
+                <ab>Les côtes de la Hollande sont masqués par des chaines de dunes 
+        <lb n="3" xml:id="la3-3"/>qui derobent au voyageur la vue des eaux. Apres une longue et 
+        <lb n="4" xml:id="la3-4"/>penible ascension dans ces collines de sable, levez les yeux, la 
+        <lb n="5" xml:id="la3-5"/>mer est là! Cette mer du Nord était mal connue des anciens, qui 
+        <lb n="6" xml:id="la3-6"/>l’envisageaient à travers les fables et de superstitieuses terreurs. 
+        <lb n="7" xml:id="la3-7"/>Tacite lui–même se la representait comme bouleversée par des 
+        <lb n="8" xml:id="la3-8"/>vents eternels et peuplée de monstres.– La vérité est que ses côtes 
+        <lb n="9" xml:id="la3-9"/>sont tempestueuses, sa couleur est changeante; sur le premier 
+        <lb n="10" xml:id="la3-10"/>plan elle est d’un jaune ecumeux qui ressemble à l’eau de 
+        <lb n="11" xml:id="la3-11"/>lessive; plus loin d’un vert mourant; là-bas d’un bleu évaporé 
+        <lb n="12" xml:id="la3-12"/>qui se confond avec la ligne ondoyante du ciel.– De grands nuages 
+        <lb n="13" xml:id="la3-13"/>projettent obliquement de distance en distance leur ombre grave 
+        <lb n="14" xml:id="la3-14"/>sur ce miroir indécis. Aucuns rochers<c type="kk">/</c> aucunes falaises ne 
+        <lb n="15" xml:id="la3-15"/>brisent l’effort des vagues: cette mer se roule sur son lit de sable 
+        <lb n="16" xml:id="la3-16"/>qu’elle s’est fait elle-même et qu’elle étend toujours. La physio<c type="shy">-</c>
+                    <lb n="17" xml:id="la3-17"/>nomie des côtes de la Hollande varie peu: du sable et puis du 
+        <lb n="18" xml:id="la3-18"/>sable, de l’eau et puis de l’eau, le ciel et puis le ciel. Sur ces 
+        <lb n="19" xml:id="la3-19"/>côtes, qui donnent le sentiment de l’infini, s’élèvent depuis 
+        <lb n="20" xml:id="la3-20"/>l’embouchure de la Meuse jusqu’au Helder, plusieurs villages 
+        <lb n="21" xml:id="la3-21"/>de pecheurs<c type="kp">_</c> Les plus interessants de ces villages sont Scheveningen 
+        <lb n="22" xml:id="la3-22"/>et Katwijk.– La plage de Scheveningen est frequentée pendant 
+        <lb n="23" xml:id="la3-23"/>la belle saison par les baigneurs.– Un joli village, relié à La Haye 
+        <lb n="24" xml:id="la3-24"/>par une route plantée d’arbres et par une promenade en forme 
+        <lb n="25" xml:id="la3-25"/>de bois qui se perd dans les dunes, reçoit durant l’été des 
+        <lb n="26" xml:id="la3-26"/>etrangers de toutes les nations. Ici tout se ressent du voisinage 
+        <lb n="27" xml:id="la3-27"/>de l’Océan. L’église qui ne manque point d’élégance conserve 
+        <lb n="28" xml:id="la3-28"/>l’enorme crâne et quelques vertèbres d’un cachalot qui fut jeté 
+        <lb n="29" xml:id="la3-29"/>sur le rivage en 1617 par une tempête.– Ce silencieux débris est 
+        <lb n="30" xml:id="la3-30"/>comme un commentaire de ces paroles de Job: “Les monstres Te 
+        <lb n="31" xml:id="la3-31"/>racontent, ô Seigneur!” Dans la principale rue, qui conduit 
+        <lb n="32" xml:id="la3-32"/>à la mer, on rencontre plusieurs marchands de coquillages.– 
+        <lb n="33" xml:id="la3-33"/>Cette mer dont on entend la voix, ne se montre elle-même que 
+        <lb n="34" xml:id="la3-34"/>quand le voyageur a les pieds tout près de l’eau. Le brusque 
+        <lb n="35" xml:id="la3-35"/>plaisir de la surprise, et la grandeur de la scène qui se deploie a<c type="shy">-</c>
+                    <lb n="36" xml:id="la3-36"/>lors, compensent bien cette gradation d’effets qu’on rencontre 
+        <lb n="37" xml:id="la3-37"/>sur d’autres rivages. Une flottille de pêche, dont les flibots sont 
+        <lb n="38" xml:id="la3-38"/>ou échoués sur le sable, ou maintenus par l’ancre, ou éparpillés 
+        <lb n="39" xml:id="la3-39"/>au large comme les pensées du cerveau de la mer, associe l’image 
+        <lb n="40" xml:id="la3-40"/>du travail aux souvenirs historiques.– Ici l’Océan a lieu 
+        <lb n="41" xml:id="la3-41"/>d’être fièr de la Hollande et des Hollandais; en 1673, de Ruyter defit 
+        <lb n="42" xml:id="la3-42"/>en vue de Scheveningen les flottes Anglaise et francaise.–
+    </ab>
+                <vg:whiteline/>
+    <lb n="43" xml:id="la3-43"/>
+                <ab>La grande rue, les bains<c type="kk">/</c> les cafés, les hôtels, tout cela n’est cependant 
+        <lb n="44" xml:id="la3-44"/>point Scheveningen. Derrière d’élégantes habitations, qui servent 
+        <lb n="45" xml:id="la3-45"/>veritablement de trompe-l’-oeil, se cachent des rues étroites, de pauvres 
+        <lb n="46" xml:id="la3-46"/>niches de briques, dans lesquelles se dissimule une population 
+        <lb n="47" xml:id="la3-47"/>silencieuse et miserable.– A la porte de ces reduits, devant lesquels 
+        <pb f="1v" n="2" xml:id="pb-orig-1v-2a3" facs="#zone-extra-b3-1v2"/>
+                </ab>
+    <lb n="48" xml:id="la3-48"/>
+                <ab>séchent du linge, des filets, des chemises rouges et des chapelets de poissons 
+        <lb n="49" xml:id="la3-49"/>enfilés dans une corde, apparait de temps à autre une figure de femme 
+        <lb n="50" xml:id="la3-50"/>triste, vieille et amaigrie par la fièvre. Les enfants eux jouent à travers 
+        <lb n="51" xml:id="la3-51"/>toute cette detresse, comme si c’était un des privilèges de leur âge 
+        <lb n="52" xml:id="la3-52"/>d’ignorer le mal et la pauvreté<c type="kp">_</c>
+                </ab>
+    <lb n="53" xml:id="la3-53"/>
+                <ab rend="indent">La langue des pecheurs est une sorte de patois qui diffère essentiellement 
+        <lb n="54" xml:id="la3-54"/>du Hollandais ordinaire, et dans lequel certains linguistes ont cru 
+        <lb n="55" xml:id="la3-55"/>reconnaître des traces de l’anglo saxon qui parait avoir été la souche de 
+        <lb n="56" xml:id="la3-56"/>l’idiome national. Leur costume est particulier, surtout celui des femmes<c type="kp">_</c> 
+        <lb n="57" xml:id="la3-57"/>elles portent, durant l’hiver, un corsage de serge ou d’indienne, une jupe 
+        <lb n="58" xml:id="la3-58"/>de serge brune, un long camail de la même étoffe et de la même 
+        <lb n="59" xml:id="la3-59"/>couleur, doublé de rouge avec un collet raide et droite. Cet 
+        <lb n="60" xml:id="la3-60"/>habillement a quelque chose d’austère et de cénobitique: on est d’ailleurs 
+        <lb n="61" xml:id="la3-61"/>forcé de convenir qu’il s’adapte bien au climat et à la profession. Un 
+        <lb n="62" xml:id="la3-62"/>grand chapeau de grosse paille, bordé d’un ruban noir, doublé d’une 
+        <lb n="63" xml:id="la3-63"/>indienne à fleurs abaissé légèrement des deux cotés, relevé par derrière 
+        <lb n="64" xml:id="la3-64"/>et par devant en forme de nacelle, leur sert à maintenir sur la tête 
+        <lb n="65" xml:id="la3-65"/>jusqu’a trois ou quatre corbeilles. Ces femmes ont une stature robuste<c type="kk">/</c>
+                </ab>
+    <lb n="66" xml:id="la3-66"/>
+                <ab>une grande taille, une figure mediocrement jolie mais qui respire un 
+        <lb n="67" xml:id="la3-67"/>air de santé, des yeux bleus dont les paupières sont peu ouvertes, et des 
+        <lb n="68" xml:id="la3-68"/>membres vigoureux. A trente ans, elles ont déjà beaucoup perdu de 
+        <lb n="69" xml:id="la3-69"/>leur fraicheur; leur peau est hâlée, circonstance qui tient sans doute 
+        <lb n="70" xml:id="la3-70"/>au voisinage de la mer et à l’habitation dans les dunes. Les dunes 
+        <lb n="71" xml:id="la3-71"/>constituent un pays dans le pays même, le sable y réfléchit plus 
+        <lb n="72" xml:id="la3-72"/>fortement qu’ailleurs les rayons du soleil<c type="kk">/</c> c’est l’Arabie de la Hollande. 
+        <lb n="73" xml:id="la3-73"/>Les hommes sont relativement de petite taille, leur costume<c type="kk">/</c> veste 
+        <lb n="74" xml:id="la3-74"/>et pantalon noirs favorise peu leur tournure, qui est grave mais lourde. 
+        <lb n="75" xml:id="la3-75"/>Ils ont le visage rond, le col court, les cheveux le plus souvent bruns ou 
+        <lb n="76" xml:id="la3-76"/>frisés<c type="kp">_</c> Leur grand luxe consiste dans des boutons de chemise et dans 
+        <lb n="77" xml:id="la3-77"/>des boucles d’argent qu’ils attachent aux pieds ou à la ceinture. Cette 
+        <lb n="78" xml:id="la3-78"/>persistance dans le costume, surtout dans celui des femmes, cette 
+        <lb n="79" xml:id="la3-79"/>fixité des traits physiques, ces caractères de race qui se conservent par le soin 
+        <lb n="80" xml:id="la3-80"/>qu’ont les garcons et les filles de Scheveningen de ne se marier qu’entre eux, 
+        <lb n="81" xml:id="la3-81"/>tout cela est peutêtre une consequence du commerce avec la mer. L’Ocean 
+        <lb n="82" xml:id="la3-82"/>dans lequel certains poètes ont cru voir une image de l’inconstance, est 
+        <lb n="83" xml:id="la3-83"/>au contraire une image de l’Eternité<c type="kk">/</c> c’est de tous les éléments, celui 
+        <lb n="84" xml:id="la3-84"/>qui a subi le moins de vicissitudes depuis l’origine du monde. Tel 
+        <lb n="85" xml:id="la3-85"/>l’aurore de la creation l’a vu naitre<c type="kk">/</c> tel il roule encore maintenant. 
+        <lb n="86" xml:id="la3-86"/>Les moeurs des pecheurs qui habitent la côte participent du caractère de 
+        <lb n="87" xml:id="la3-87"/>l’Ocean.– Ils n’ont aucune des habitudes de la ville. Le fond de leur 
+        <lb n="88" xml:id="la3-88"/>caractère est l’indépendance.– Ces hommes n’aiment point la terre<c type="kk">/</c> 
+        <lb n="89" xml:id="la3-89"/>il leur faut l’espace, la libre immensité des mers, le flot indompté<c type="kk">/</c> 
+        <lb n="90" xml:id="la3-90"/>le ciel bleu le jour, étoilé la nuit, l’acre brise du nord, la conscience 
+        <lb n="91" xml:id="la3-91"/>de l’homme debout sur l’Ocean.– Soldats du travail ils aiment à braver 
+        <lb n="92" xml:id="la3-92"/>volontairement le feu de l’éclair, le hennissement des flots qui courent 
+        <lb n="93" xml:id="la3-93"/>sans mors et la bouche écumante autour de la quille du navire. A 
+        <lb n="94" xml:id="la3-94"/>terre ils ont le mal du pays<c type="kp">_</c> Ces sentiments d’indépendance sont 
+        <lb n="95" xml:id="la3-95"/>visibles sur leur physionomie<c type="kp">_</c> Les matelots et les pecheurs se distinguent 
+        <pb f="1v" n="3" xml:id="pb-orig-1v-3a3" facs="#zone-extra-b3-1v3"/>
+                </ab>
+    <lb n="96" xml:id="la3-96"/>
+                <ab>des autres hommes par la manière dont ils portent la tête haute 
+        <lb n="97" xml:id="la3-97"/>en marchant. C’est pour eux, on le dirait au moins, qu’a été fait 
+        <lb n="98" xml:id="la3-98"/>le vers d’Ovide: “Il a donné à l’homme une face qui regarde le 
+        <lb n="99" xml:id="la3-99"/>ciel.”<anchor n="29" xml:id="note-o-29"/>
+                </ab>
+    <lb n="100" xml:id="la3-100"/>
+                <ab rend="indent">Cet amour de la liberté déteint jusque sur leurs croyances 
+        <lb n="101" xml:id="la3-101"/>religieuses. Les pecheurs de la côte, ainsi que nous l’avons vu<c type="kk">/</c> 
+        <lb n="102" xml:id="la3-102"/>sont tous ou presque tous réformés; ils ne reconnaissent que deux 
+        <lb n="103" xml:id="la3-103"/>livres qui aient le droit de leur parler de Dieu, la Bible et la mer. 
+        <lb n="104" xml:id="la3-104"/>Il semble que l’Océan exerce sur eux une action morale et 
+        <lb n="105" xml:id="la3-105"/>sanctifiante. L’ivrognerie est rare parmi les pecheurs de Scheveningen 
+        <lb n="106" xml:id="la3-106"/>mais ceux-là même qui boivent du genièvre à terre avec excès 
+        <lb n="107" xml:id="la3-107"/>s’abstiennent de toute intempérance quand ils naviguent.</ab>
+    <lb n="108" xml:id="la3-108"/>
+                <ab rend="indent">Au bord du vaisseau les jurons sont inconnus.–</ab>
+    <lb n="109" xml:id="la3-109"/>
+                <ab rend="indent">La vie de la mer fortifie et exalte chez ces hommes<anchor n="30" xml:id="note-o-30"/> le sentiment 
+        <lb n="110" xml:id="la3-110"/>religieux<c type="kp">_</c> Quand un flibot part, chaque pecheur emporte sa Bible<c type="kp">_</c> 
+        <lb n="111" xml:id="la3-111"/>On ne prend jamais de repas sans prière, et le repas finit 
+        <lb n="112" xml:id="la3-112"/>également par une action de graces. Le Dimanche, si les hom<c type="shy">-</c>
+                    <lb n="113" xml:id="la3-113"/>mes sont en mer, ils s’abstiennent de pêcher, s’ils sont à terre, on 
+        <lb n="114" xml:id="la3-114"/>entend dès le matin dans leurs petites maisons le chant des 
+        <lb n="115" xml:id="la3-115"/>Psaumes<c type="kp">_</c>
+    </ab>
+                <vg:whiteline/>
+    <lb n="116" xml:id="la3-116"/>
+                <ab>Alphonse Esquiros.</ab>
+    
+
+
+    
+    <div type="textualNotes">
+<note target="l-29" n="29">God &lt; God versterkt</note>
+<note target="l-40" n="40">vaderen”. &lt; vaderen.</note>
+<note target="l-64" n="64">weg”.─ &lt; weg.─</note>
+
+        <ab rend="separate">Textual notes Appendix 1</ab>
+        
+        <note target="la1-8" n="8">patrie &lt; partie  <hi rend="ital">Corresponding to the original text.</hi>
+                    </note>
+        <note target="la1-54" n="54">prévalut: &lt; prévalu:</note>
+        <note target="la1-95" n="95">maux &lt; meaux  <hi rend="ital">Corresponding to the original text.</hi>
+                    </note>
+        <note target="la1-95" n="95">constituer &lt; continuer  <hi rend="ital">Corresponding to the original text.</hi>
+                    </note>
+        
+        <ab rend="separate">Textual notes Appendix 2</ab>
+
+        <note target="la2-26" n="26">la ville &lt; la vie  <hi rend="ital">Corresponding to the original text.</hi>
+                    </note>
+        <note target="la2-26" n="26">cause”<c type="kp">_</c> &lt; cause</note>
+        <note target="la2-31" n="31">guère &lt; guerre  <hi rend="ital">Corresponding to the original text.</hi>
+                    </note>
+        <note target="la2-39" n="39">inquiété &lt; attaqué  <hi rend="ital">Corresponding to the original text.</hi>
+                    </note>
+        <note target="la2-87" n="87">rentrèrent &lt; rentèrent  <hi rend="ital">Corresponding to the original text.</hi>
+                    </note>
+        <note target="la2-90" n="90">l’exemple &lt; l’exempl</note>
+        
+        <ab rend="separate">Textual notes Appendix 3</ab>
+        
+        <note target="la3-40" n="40">l’Océan &lt; la Hollande  <hi rend="ital">Corresponding to the original text.</hi>
+                    </note>
+        <note target="la3-41" n="41">en 1673 &lt; en 1793  <hi rend="ital">Corresponding to the original text.</hi>
+                    </note>
+        
+        
+
+
+</div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>Amsterdam, 31 May 1877</ab>
+<vg:whiteline/>
+<ab>My dear Theo,</ab>
+<ab>It’s already late and everyone is already asleep, but I feel the need to write a few words to you again. You must persevere – you must go onward – as I must, too – we’re going through the same ordeal<anchor n="1" xml:id="note-t-1"/> in many respects.</ab>
+<ab rend="indent">In your last letter you write that you were thinking about moving elsewhere if possible, and you mention London and Paris.</ab>
+<ab rend="indent">That might be good – oh, old boy, how deeply I love those cities, that’s to say I love much of what one meets with there, there’s also much that I hate – or at least don’t love as much as the hedges of thorn-bush and the green grass and the little grey churches. What you’re thinking of is not bad at all.</ab>
+<ab rend="indent">Be aware, though – we must both make sure that we survive the time between now and the age of 30 or so – and we must beware of sin – after all, we’re in the midst of life – well then, we must fight a good fight<anchor n="2" xml:id="note-t-2"/> – and we must become men – which we aren’t yet, neither of us – there is something greater in store for us, my conscience tells me so, we are not what others are – well then, but we can endeavour to become so. You know what I want. If I may become a clergyman, if I fulfil that position so that my work is equal to that of our <rs type="pers" key="526">Father</rs>, then I shall thank God. I have good hope that I shall succeed, it was once said to me by someone who was further on in life than I, and who was no stranger in Jerusalem<anchor n="3" xml:id="note-t-3"/> – I mean someone who had sought <hi rend="ital">it</hi> himself and had also found it; it was once said to me: I believe that you are a Christian, you see, it was so good for me to hear those words. You too hold fast, no matter what you wish for yourself, to the thought of Christ and keep His saying,<anchor n="4" xml:id="note-t-4"/> as you do. It is good to believe that there is a God who knows what we need, better than we know it ourselves, and who helps us when we need help. It is also good to believe that, just as in the olden days, now, too, an angel is not far from those who feel godly sorrow<anchor n="5" xml:id="note-t-5"/> – not only from those who are almost angels themselves, but especially those who need help from a higher power to keep them from evil,<anchor n="6" xml:id="note-t-6"/> from the evil that we know is in the world and not far from us, not far from those who have a broken heart and a contrite spirit.<anchor n="7" xml:id="note-t-7"/> I’ve carefully read the story of Elijah so often,<anchor n="8" xml:id="note-t-8"/> and so often has it given me strength up to now:</ab>
+<vg:whiteline/>
+<ab>And when he saw that, he arose, and went for his life, and came to Beer-sheba, which belongeth to Judah, and left his servant there. But he himself went a day’s journey into the wilderness, and came and sat down under a juniper tree: and he requested for himself that he might die; and said, It is enough; now, O Lord, take away my life; for I am not better than my fathers. And as he lay and slept under a juniper tree, behold, then an Angel touched him, 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> and said unto him, Arise and eat. And he looked, and, behold, there was a cake baken on the coals, and a cruse of water at his head. And he did eat and drink, and laid him down again. And the Angel of the Lord came again the second time, and touched him, and said, Arise and eat; because the journey is too great for thee. And he arose, and did eat and drink, and went in the strength of that meat forty days and forty nights unto Horeb the mount of God. And he came thither unto a cave, and lodged there; and, behold, the word of the Lord came to him, and he said unto him, What doest thou here, Elijah? And he said, I have been very jealous for the Lord God of hosts: for the children of Israel have forsaken Thy covenant, thrown down Thine altars, and slain Thy prophets with the sword; and I, even I only, am left; and they seek my life, to take it away. And He said, Go forth, and stand upon the mount before the Lord. And, behold, the Lord passed by, and a great and strong wind rent the mountains, and brake in pieces the rocks before the Lord; but the Lord was not in the wind: and after the wind an earthquake; but the Lord was not in the earthquake: and after the earthquake a fire; but the Lord was not in the fire: and after the fire a still small voice. And it was so, when Elijah heard it, that he wrapped his face in his mantle, and went out, and stood in the entering in of the cave. And, behold, there came a voice unto him, and said, What doest thou here, Elijah? And he said, I have been very jealous for the Lord God of hosts. And the Lord said unto him, ‘Go, return on thy way’.</ab>
+<vg:whiteline/>
+<ab>And that story does not stand alone, we read of the Angel who strengthened Him in Gethsemane,<anchor n="9" xml:id="note-t-9"/> who was sorrowful, even unto death,<anchor n="10" xml:id="note-t-10"/> of the Angel who woke Peter from his sleep in prison,<anchor n="11" xml:id="note-t-11"/> of the Angel who appeared to Paul in the night and said ‘Fear not’.<anchor n="12" xml:id="note-t-12"/> And we, although we saw no Angel, although we are not the same as those men of old, should we not know that there is strengthening from Above?</ab>
+<ab rend="indent">This afternoon it was stormy and rained here, and I walked to the sea past the Jewish cemetery,<anchor n="13" xml:id="note-t-13"/> a few days ago I also went for a walk there on Buitenkant near the Oosterspoor, where they’re working on the sand works &amp;c.<anchor n="14" xml:id="note-t-14"/> What a beautiful and heartening story that is too, the one about Jesus walking on the sea, <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Matt" chap="14" vr="22-33">Matthew XIV:22-33</bibleref>,<anchor n="15" xml:id="note-t-15"/> And straightway Jesus constrained His disciples to get into a ship, and to go before Him unto the other side, while He sent the multitudes away. And when He had sent the multitudes away, He went up into a mountain apart to pray: and when the evening was come, He was there alone. But the ship was now in the midst of the sea, tossed with waves: for the wind was contrary. And in the fourth watch of the night Jesus went unto them, walking on the sea. And when the disciples saw Him walking on the sea, they were troubled, saying, It is a spirit; and they cried out for fear. But straightway Jesus spake unto them, saying, Be of good cheer; it is I; be not afraid. And Peter answered Him and said, Lord, if it be Thou, bid me come unto Thee on the water. And He said, Come. And when Peter was come down out of the ship, he walked on the water, to go to Jesus. But when he saw the wind boisterous, he was afraid; and beginning to sink, he cried, saying, Lord, save me. And immediately Jesus stretched forth his hand, and caught him, and said unto him, O thou of little faith, wherefore didst thou doubt? And when they were come into the ship, the wind ceased. Believe in God, through faith one can become ‘sorrowful, yet alway rejoicing’<anchor n="16" xml:id="note-t-16"/> and evergreen and we need not complain ‘if our youth disappears at the maturing of our powers’.<anchor n="17" xml:id="note-t-17"/>
+                </ab>
+<ab rend="indent">Herewith something by <rs type="pers" key="600">Esquiros</rs>,<anchor n="18" xml:id="note-t-18"/> I wish you the very best, write again soon, give my regards to your housemates and any acquaintances you might see, and accept in thought a hearty handshake, and believe me</ab>
+<vg:whiteline/>
+<ab>Your most loving brother</ab>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<ab>Read <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Ps" chap="23">Ps. 23</bibleref>, <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Ps" chap="42">42</bibleref> and <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Ps" chap="91">91</bibleref> as well.<anchor n="19" xml:id="note-t-19"/>
+                </ab>
+<vg:whiteline/>
+<ab rend="separate">
+                    <supplied>
+                        <hi rend="ital">Three appendices</hi>
+                    </supplied>
+                </ab>
+<ab rend="separate">
+                    <supplied>
+                        <hi rend="ital">Appendix 1</hi>
+                    </supplied>
+                </ab>
+    <pb f="1r" n="2" xml:id="pb-trans-1r-2a1" facs="#zone-extra-b1-1r1"/>
+<ab>
+                    <hi rend="ital">The Siege of Leiden.</hi>
+                    <anchor n="20" xml:id="note-t-20"/>
+                </ab>
+<vg:whiteline/>
+<ab>The city of Leiden is Holland’s Versailles, with its air of past grandeur, of all-pervading sadness and dignified solitude. It mourns not at all its festivities, nor the vanished splendours of a departed court, but it looks back wistfully on its defunct industry, its woollen mills, once famous throughout the world, now gone. These mills, the cradle of a new aristocracy, were founded in part by French refugees, who, following Saint Bartholomew and the Revocation of the Edict of Nantes, brought to Holland their business, their wealth, their eminent men. The desire to regain a country made them enterprising and capable of surmounting adversity. And so, with their help, Leiden became what Manchester was later to become for Great Britain, the centre of a strong and productive industry. Of that economic glory and that wealth it retains only one town house (a magnificent fifteenth-century building), two large churches, splendid canals with wide, tree-lined quays, houses that still retain a memory of the good days of the Republic, and above all, a university. The origins of this famous university are connected with the siege that Leiden sustained in 1573. The causes that made the United Provinces rise up against domination by Spain are well known. Freedom of conscience shamefully abused, political and religious despotism, the Inquisition, censorship, arbitrary taxation, all these had outraged national feeling. In those days, says the historian Hooft,<anchor n="21" xml:id="note-t-21"/> ranks, sexes and ages were mingled in a general persecution. The instruments of torture were everywhere to be seen. Gibbets and wheels were not sufficient in number. Trees bordering the roads were over-laden with corpses. Elsewhere, the flames rose up from countless execution pyres. Every day were erected gallows, from which the blood dripped. The very air, the source of life, seemed infected by it, and resembled an immense tomb. And then was seen a sight unique in the history of the world. A few hundred men, driven to despair – fishermen, shepherds, shopkeepers – came together to fight against the crushing oppression of a powerful government, and against armies deemed invincible. Following the example given by other cities in Holland, the residents of Leiden had declared themselves in favour of the union of the provinces, but in the last days of October they were attacked and surrounded by the Spaniards. The Prince of Orange wrote to them, telling them to organize the resistance at all costs. He himself undertook to seek all the means of coming to their aid. Hold out for three months, he told them; even if the siege should last longer, do not lose courage. If you are able to persevere despite the agonies of hunger, deliverance is assured; if, on the other hand, you yield, eternal servitude awaits you.</ab>
+<ab rend="indent">But the enemy tried with flattering promises to open a way into the citadel. To such advances, the insurgents replied with this saying, and no more:<anchor n="22" xml:id="note-t-22"/> The bird-catcher tricking the bird plays sweetly on the flute. The defence of the city was put into the hands of Janus Douza. The citizens swore an oath that they would bury themselves beneath the debris of their houses rather than yield. A siege currency was created. Although from the first all superfluous mouths had been sent away, famine soon raged. For 7 weeks, bread had not been seen in the city. Provisions of all kinds were exhausted. Grass, leaves, the bark of trees, the pelt of slaughtered beasts long since devoured, even earth, all became food. Famine was followed by plague. Of 16,000 residents who closed up the citadel, six or seven thousand perished. All that was to be seen was living corpses engaged in burying the dead. This city, defended by shades, nevertheless stood out against the fury of the opposing army, and against its own divisions. To the soldiers who yelled at them, You’re dying of hunger, surrender and you’ll receive a distribution of victuals, they answered from the top of the ramparts, When we run short of provisions we will eat our left hands forthwith, and keep our right hands to defend our freedom. But one day, famished bands of men presented themselves to the burgomaster of Leiden, Pieter Adriaanszoon van der Werff. They made a peremptory demand for bread or the surrender of the city. I have sworn to defend this city, answered the mayor, and with God’s help I hope to keep my word. I have no bread; but if my body may be of use to you in continuing the fight, take it, cut it up and divide it amongst you. The wretched men withdrew in silence.
+</ab>
+                <pb f="1v" n="2" xml:id="pb-trans-1v-2a1" facs="#zone-extra-b1-1v2"/>
+<ab rend="indent">Holland’s fate lay within the walls of Leiden; the eyes of all the provinces were on that heroic city, but the citadel was so strongly blockaded that it was very difficult to come to its aid. At last, the Prince of Orange resolved to breach the dykes. It was a desperate decision. Nevertheless, the old Batavian proverb held good: Better a devastated land than one that is lost. And so the land was devastated by the waters and the crops engulfed. The sea, that natural enemy of Holland, came to Leiden’s aid, but it was slow in coming. The wind did not carry the flood with it. On those lazy waves, which fell far short of the city, there appeared boats bearing cannons. These boats, which had neither oars nor sails, and moved by means of wheels, were manned by fearsome Zeeland sailors, almost all of them wounded in the war for independence. They were men of savage mien, most of them disfigured by terrible but honourable wounds. They came in order to offer the ruined city the example and the counsel of desperate resistance. The besieged citizens could see the flotilla from the top of their ramparts, and they could speak with the crews, but impeded by a north-easterly wind, the water retreated instead of advancing, and carried hope away with it: the very walls were shaken. The enemy, on the other hand, although driven from certain advanced positions by the overflowing of these waters, still held its ground on the principal dykes. Leiden appeared lost, when the moon, just then becoming full, swelled the mass of the waters. The wind veered to the south-west. One of those violent, unremitting storms which, in ordinary times, cause such acute alarms for the country’s safety, broke upon the coasts. The sea, being no longer held back, enlarged the breaches already made in the dykes and flung itself upon the land, carrying before it terror, desolation and salvation. Taken by surprise and overwhelmed, rigid with terror at the extraordinary noise of the tempest and of the collapse of parts of the walls, the Spaniards abandoned their posts amid great commotion, throwing their cannons into the water. The same tide that carried them away brought the Zeeland fleet, loaded with provisions, to the gates of Leiden. A tremendous battle, an Amphibious battle, to borrow a Dutch historian’s expression, was engaged amongst the branches of trees, partly on the dykes and partly in the boats. The liberating sailors entered the city, but in the midst of the joy, how sad a sight presented itself to their eyes! On both banks of the great canal exhausted men cried out for provisions. With the avidity of animals they seized the bread and herrings that were handed out to them, and several of them who had survived famine succumbed to this food. This deliverance seemed to have something of the miraculous. The formidable Spanish army – attacked, drowned, scattered inland by the waters of the sea, which appeared to be guided by an unseen hand – had vanished like the army of Pharaoh. This sudden rout seemed to reveal the direct favour of God, who now loved the Netherlands as he had once loved Israel; chroniclers even tell how a young Dutch woman, Madeleine Moons, raised, no doubt, in the traditions of the Old Testament, had made the siege drag on, using her charms to distract the heart of Valdez, the commander-in-chief of the Spanish army. And here is a graver fact. Detained by an illness, the Prince of Orange had not been able to appear in person before the walls of Leiden. He was in Delft, and barely recovered, was listening to the sermon at one of the city’s churches, when they came to bring him the happy news of the lifting of the siege. He had the message passed to the preacher, who read it out. Tears flowed from all eyes, together with thanksgivings. Although the plague was still claiming victims in that unhappy city of Leiden, William the Silent hesitated not a moment in going there. Surrounded by the citizenry, who forgot their woes on seeing in this man the living fortress of liberty regained, he asked them which they preferred, exemption from certain taxes, or the foundation of a Protestant university. The citizens of Leiden did not waver in their choice, ‘A University’ was the general cry. This academy was established on February 9 1575. And so a great political idea protected such an institution, which would provide a focus for the intellectual movement of the Batavian Reformation. To found by force of arms the material independence of the United Provinces was not all; a national moral identity had also to be created.</ab>
+<vg:whiteline/>
+<ab>
+                    <rs type="pers" key="600">Alphonse Esquiros</rs>
+                </ab>
+    <vg:whiteline/>
+<ab rend="separate">[<hi rend="ital">Appendix 2</hi>]</ab>
+    <pb f="1r" n="2" xml:id="pb-trans-1r-2a2" facs="#zone-extra-b2-1r1"/>
+    <ab>
+                    <hi rend="ital">Siege of Harlem</hi>
+                    <anchor n="23" xml:id="note-t-23"/>
+                </ab>
+<vg:whiteline/>
+<ab>One of the periods in the history of Holland that has left most traces in the buildings and the outward physiognomy of Dutch cities is the great movement that in the 16th century aroused the nation’s energies against foreign domination. Starting with Briel, the first citadel seized by the Dutch, we can follow step by step the alternating progress and reverses of that holy war.<anchor n="24" xml:id="note-t-24"/> The city of Harlem, for example, still bears the scars of that heroic and desperate struggle that it waged against the Spanish. I have walked more than once round the old ramparts of that ancient fortress, now riven with cracks, pierced by new houses set proudly between their bastions, split by trees that grow from the very stone and whose shadows are cast over the surface of the canal. The sight of these walls and its gates, dark, narrow passageways that wind all the way into the city, brought back to mind the chief circumstances of the siege. In those times, the ramparts of the city of Harlem were already bad (I am speaking of the walls), but the residents’ patriotism took it upon itself to cover this ancient city, and such a boulevard thus proved impregnable. The siege of Harlem preceded that of Leiden. There was no lack of warnings. Amsterdam, which had yet made no open declaration of support for the Reformation and independence, laid before the residents of Harlem the dangers of the resistance to which they were committing themselves, the number and discipline of the enemy’s army, and the scant trust that could be placed in the Prince of Orange, who had so far succeeded in liberating not a single besieged city. At these counsels of human caution, the citizens hesitated. A bold and vigorous harangue by Wybald van Ripperda, captain of the civic guard, overcame their irresolution. He reminded them of the blood of their fellow-citizens that had flowed in the ruins of Naarden, and the loyalty they had sworn to the Prince of Orange. This speech was greeted by a unanimous shout of enthusiasm. ‘Yes,’ replied the citizens of Harlem, ‘each of us will give his life for the defence of the city and the triumph of the good cause.’ Images were promptly torn from the churches, and the reformed order of worship was established everywhere. On 9 December 1572, Don Frederico, the Duke of Alba’s lieutenant, marched on Harlem with sixty companies of Spanish infantry, sixteen of Germans, twenty of Walloons and fifteen hundred horse. These forces were overwhelming in comparison with those of the besieged. To begin with, the garrison numbered scarcely over 1,500 men, but every citizen became a soldier. Even the women flocked to take up arms. Kenau Hasselaar, a widow of a certain standing and a substantial fortune, formed a regiment of 300 women, who, while retaining their female attire, none the less showed manly intrepidity. However, the siege operations opened under bad auspices for the besieged. Don Frederico, covered by a dense fog as if by a cloak, seized the fort of Sparendam, a short distance from the city. He was thus able to launch his equipment for mounting an attack and entrenching his positions without being concerned about fire from the garrison. I curtail the story of this memorable siege. Hardly was a breach opened but it was at once closed up with timber, sacks, earth and anything that came to hand. The residents spent long winter nights building an inner wall, higher and stronger than the old one, which threatened to collapse entirely. Rich and poor, adults and children, men and women, everyone flocked to the defence works and wielded spades and picks. Scarcely a day passed but an assault was made by the besieged upon the besiegers. More than once, the Dutch threw themselves into the enemy’s trenches, and pillaged and set fire to his tents. The cold was severe, but winter became an ally; the elements appeared to be taking Holland’s part. The residents of Harlem received from those of Leiden a constant supply of provisions and munitions, carried on sledges across the lake that had turned into a sea of ice. Troop reinforcements reached them by the same route. Unhappily for the besieged, the severity of the season decreased, and spring, which gladdened all of nature, came and made the city’s sad situation even more grave. Although the Spaniards had made wide breaches near the gate of St John’s Cross, their assaults were twice repulsed, and after seven months of fruitless hostilities, and after suffering the loss of between ten and twelve thousand men, they were forced to raise the siege and to confine themselves to keeping the citadel blockaded. However, Bossu took advantage of the thaw to breach the dyke that held back the waters between the river IJ and the Harlem lake. By that means he opened a passage 
+    <pb f="1v" n="2" xml:id="pb-trans-1v-2a2" facs="#zone-extra-b2-1v2"/> through which a squadron made up of sixty naval launches entered the lake and took up positions before the city. That lake was punished, and the historian would search in vain today for the waves of one that, a child of Holland, says a poet, dared bring the enemy vessels right into the interior of the country. Nevertheless, the situation of the blockaded city became more lamentable by the day. Provisions were beginning to run short. A great many of the residents had died of hunger. The streets were full of the sick and dying. Friends of those besieged attempted several times to send them provisions, but without success. The residents then resolved to form themselves into an armed corps, to put their wives and children in the centre and to open up a passage, swords in hand, through the enemy’s lines. Only the German troops who were in the city refused to be part of so bold an enterprise. Learning of this plan, and fearing the effects of despair, the Spaniards sent a negotiator, who promised mercy and amnesty on condition that the city surrender and deliver fifty-seven of its leading members into the hands of their rightful masters. It was also agreed that the residents could redeem the pillage of their houses and their possessions by paying a sum of 240<anchor n="25" xml:id="note-t-25"/> florins. Such harsh conditions would never have been accepted had the word ‘clemency’ not been uttered by the enemy. When the Spaniards entered the city, they found its garrison reduced from 4,000 to 1,800 men. Three days passed; people trusted the word that had been given, and the residents had laid down their arms. Suddenly, Ripperda, the Governor of the city, and the 57 noblemen who had been taken hostage, were executed. Four executioners were then enlisted for another task, and two thousand men, including soldiers of the garrison, residents of the city, and Protestant ministers, were coldly put to death. The butchery was approaching its end. The butchers were weary, and the victims remaining in the prisons were tied two by two and thrown into the Harlem lake. The siege had lasted from December 1572 to July 1573. The sad outcome of so long and valiant a resistance at first brought consternation to the United Provinces, but a cause is not lost while the sense of justice is not snuffed out. Four years later, the Dutch regained possession of Harlem. Memories of the siege are preserved in its town hall, an elegant building; there I saw, not without emotion, an old painting showing the condition of this unhappy city during the dark days in which it offered the Netherlands the example of heroic devotion.</ab>
+<vg:whiteline/>
+<ab>
+                    <rs type="pers" key="600">Alphonse Esquiros</rs>
+                </ab>
+    <vg:whiteline/>
+<ab>Midnight strikes, a flickering light shines far off over the Ocean, and a bell can be heard ringing, half lost in the great murmuring of the waves. At once, from every creek and cranny in the shore, from every rock, there emerge long, black, pointed forms that slip over the waves. They are fishing-boats, laden with men, children, women and old people, heading for the open sea. They all make for the same spot. The sound of the bell can already be heard closer, the distant light becomes more distinct and finally the object towards which this gathered crowd is making its way appears in the midst of the waves! It is a skiff, on which is standing a priest, ready to celebrate Mass. Certain that here he has only God as his witness, he has summoned the parishes to this solemn act, and all the faithful have come; all are kneeling between the sea, with its dull roaring, and the sky, dark with clouds. Imagine, if you can, such a sight! The darkness, the waves, two thousand bowed heads surrounding a man standing over the depths. The chanting of the holy office – and between each response and the next, the great threats uttered by the sea, murmuring like the voice of God.<anchor n="26" xml:id="note-t-26"/>
+                </ab>
+<vg:whiteline/>
+<ab>
+                    <hi rend="ital">1. Corinthians XI</hi>. For I have received of the Lord that which also I delivered unto you, that the Lord Jesus the same night in which He was betrayed took the bread. And when He had given thanks, He brake it, and said, Take, eat: this is My body, which is broken for you: this do in remembrance of Me. After the same manner also He took the cup, when He had supped, saying, This cup is the New Testament in My blood, this do ye, as oft as ye drink it, in remembrance of Me. For as often as ye eat this bread, and drink this cup, ye do shew the Lord’s death till He come.<anchor n="27" xml:id="note-t-27"/>
+                </ab>
+<vg:whiteline/>
+<ab rend="separate">[<hi rend="ital">Appendix 3</hi>]</ab>
+<vg:whiteline/>
+    <pb f="1r" n="2" xml:id="pb-trans-1r-2a3" facs="#zone-extra-b3-1r1"/> 
+    <ab>
+                    <hi rend="ital">Scheveningen</hi>
+                    <anchor n="28" xml:id="note-t-28"/>
+                </ab>
+<vg:whiteline/>
+<ab>Holland’s coasts are hidden by ranges of dunes that deprive the traveller of the sight of the waters. After a long and arduous climb up these sandy hills, raise your eyes, and there’s the sea! This North Sea was poorly known to the ancients, who imagined it in terms of fables and superstitious terrors. Even Tacitus pictured it as being churned up by constant winds and inhabited by monsters. The fact is that its coasts are stormy, and its colour is variable; in the foreground it is a scummy yellow that looks like dirty washing water, further off, a weak green, and in the distance, a faded blue that blends into the wavy line of the sky. Here and there, great clouds cast their sombre shadows obliquely over this indistinct mirror. No rocks, no cliffs break the force of the waves: this sea rolls on its sandy bed, which it had made for itself and which it is constantly expanding. The physiognomy of Holland’s coasts varies very little: sand, and more sand, water and more water, sky and more sky. On these coasts, which give the impression of being limitless, there stand, between the mouth of the Maas and Den Helder, a number of fishing villages. The most interesting of these villages are Scheveningen and Katwijk. The beach at Scheveningen is frequented by bathers during the summer. At that time of year, a pretty village, linked with The Hague by a tree-lined road, and a promenade built of timber that disappears among the dunes, welcomes foreigners from every country. Here everything shows the effects of proximity to the Ocean. The church, which by no means lacks elegance, contains the enormous skull and a few vertebrae of a sperm whale that was cast up on the shore in a storm, in 1617. These silent fragments are like a commentary on these words of Job: ‘The monsters proclaim Thee, O Lord’. In the main street, which leads to the sea, are to be found several vendors of shellfish. This sea, whose voice can be heard, shows itself only when the traveller’s feet are almost at the water. The sudden delight of surprise, and the grandeur of the scene that then opens up, fully compensate for the gradation of effects found on other shores. A fishing fleet, whose smacks are beached on the sand, or riding at anchor, or scattered out at sea like the thoughts of the sea’s brain, associates the image of labour with historical memories. Here the Ocean must be proud of Holland and the Dutch; in 1673, De Ruyter defeated the English and French fleets within sight of Scheveningen. </ab>
+                <vg:whiteline/>
+<ab>And yet the main street, the baths, the cafés, the hotels – all of that is not Scheveningen. Behind some elegant dwellings, which are a true example of <hi rend="ital">trompe l’oeil</hi>, are hidden narrow streets, and poor brick hovels, in which a silent and wretched population conceals itself. At the doors of these poky cubby-holes, in front of which 
+    <pb f="1v" n="2" xml:id="pb-trans-1v-2a3" facs="#zone-extra-b3-1v2"/> are drying washing, nets, red shirts and strings of fish threaded on a line, there appears from time to time the figure of a woman, sad, aged and wasted by fever. Children play in the midst of all this wretchedness, as if it were one of the privileges of their age to be unaware of misfortune and poverty.</ab>
+<ab rend="indent">The fishermen’s language is a kind of patois that is fundamentally different from ordinary Dutch, and in which some linguists have believed they recognize traces of the Anglo-Saxon that seems to have been the source of the national language. Their dress, especially the women’s, is distinctive. In the winter, they wear a bodice of serge or calico, a brown serge skirt, a long cape of the same stuff and the same colour, lined in red, with a tall, stiff collar. There is something austere and monkish about this form of clothing; one must in any case admit that it is well suited to the climate and to their occupation. A large hat of coarse straw with a border of black ribbon, lined in flower-printed calico, bent slightly downward on either side and rising at the back and the front like a boat, enables them to hold up to three or four baskets on their heads. These women are tall, and robustly built, with rather plain but healthy-looking faces, blue eyes with somewhat drooping lids, and sturdy limbs. By the age of thirty they have already lost much of their freshness; their skin is weather-beaten, a condition due, no doubt, to the proximity of the sea and to their living in the dunes. The dunes form a country within the country itself; the sand reflects the sun’s rays more strongly than elsewhere; this is Holland’s Arabia. The men are comparatively short in stature; their dress – black jacket and trousers – does not suit their bearing, which is serious, but awkward. They have round faces, short necks, usually brown or curly hair. Their great treasures are their shirt-buttons and the silver buckles which they attach to their feet or their belts. This conservatism in their dress, especially the women’s, this consistency in their physical traits, these racial characteristics that are preserved due to the concern shown by the boys and girls of Scheveningen to marry only amongst themselves, are all, perhaps, a consequence of their dealings with the sea. The Ocean, in which some poets have believed they have seen an image of inconstancy, is, on the contrary, an image of Eternity; of all the elements, it is the one that has suffered the fewest vicissitudes since the beginning of the world. The dawn of creation saw it born thus, and thus it still rolls today. The ways of the fishermen who live on the coast share the nature of the Ocean. They have none of the habits of the city. The essence of their character is independence. These men have no love of the land; they need space, the free vastness of the seas, the untamed flood, the sky, blue by day, full of stars by night, the sharp north wind, the mind of a man standing upright upon the Ocean. Soldiers of toil, they love deliberately to brave the lightning’s bolt, the whinnying of the waves that run, without a bit and foaming at the mouth, about the boat’s keel. On land, they are homesick. These feelings of independence can be seen on their faces. Sailors and fishermen differ 
+    <pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-extra-b3-1v3"/> from other men in the way they carry their heads high as they walk. One would at the very least say that for them was written Ovid’s line: ‘He gave man a face that looks at the sky’.<anchor n="29" xml:id="note-t-29"/>
+                </ab>
+<ab rend="indent">This love of liberty even rubs off on their religious beliefs. As we have seen, all, or almost all, of the fishermen of the coast are Protestant; they acknowledge only two books that have the right to speak to them of God: the Bible and the sea. It appears that the Ocean exerts a moral and sanctifying effect on them. Drunkenness is rare among the fishermen of Scheveningen, but even those who drink Hollands gin to excess on land abstain from any form of intemperance when they are at sea.</ab>
+<ab rend="indent">Swearing is unknown on board a boat.</ab>
+<ab rend="indent">The seafaring life strengthens and increases religious feelings in men.<anchor n="30" xml:id="note-t-30"/> When a fishing smack sails, each fisherman takes his Bible with him. A meal is never eaten without grace being said, and is also followed by a prayer of thanks. On Sunday, if the men are at sea, they abstain from fishing, and if they are on land, the singing of the Psalms can be heard in their little houses from morning onwards.</ab>
+<vg:whiteline/>
+<ab>
+                    <rs type="pers" key="600">Alphonse Esquiros</rs>.</ab>
+            </div>
+    <div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>Read: ‘We are being put to the test (by life) in a similar way’; cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Luke" chap="23" v="40">Luke 23:40</bibleref>.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="1 Tim" chap="6" v="12">1 Tim. 6:12</bibleref>.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Luke" chap="24" v="18">Luke 24:18</bibleref>.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="John" chap="8" v="55">John 8:55</bibleref>.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="2 Cor" chap="7" v="10">2 Cor. 7:10</bibleref>.</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="2 Thess" chap="3" v="3">2 Thess. 3:3</bibleref>; <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Matt" chap="6" v="13">Matt. 6:13</bibleref> and <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Luke" chap="11" v="4">Luke 11:4</bibleref>.</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Ps" chap="51" v="19">Ps. 51:19</bibleref> (in <hi rend="ital">KJ</hi> <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Ps" chap="51" v="17">Ps. 51:17</bibleref>), ‘The sacrifices of God are a broken spirit: a broken and a contrite heart, O God, thou wilt not despise’; and <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Rhy. ps" chap="147" v="2">rhy. ps. 147:2</bibleref>, ‘He heals the broken-hearted’.</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>Van Gogh then quotes <bibleref xmlns="http://www.vangoghletters.org/ns/" book="1 Kings" chap="19" vr="3-15">1 Kings 19:3-15</bibleref>, leaving out all but the beginning of verses 14 and 15.</ab>
+                </note>
+<note n="a" xml:id="n-a" target="#note-o-a">
+<ab>Here Van Gogh filled in the contracted ‘ging’ (it’s not in the Bible).</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Luke" chap="22" v="43">Luke 22:43</bibleref>.</ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Matt" chap="26" v="38">Matt. 26:38</bibleref> and <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Mark" chap="14" v="34">Mark 14:34</bibleref>.</ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Acts" chap="12" v="7">Acts 12:7</bibleref>.</ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Acts" chap="18" v="9">Acts 18:9</bibleref>, ‘Then spake the Lord to Paul in the night by a vision, Be not afraid’; Van Gogh’s wording seems to be a mixture of this passage and <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Luke" chap="2" v="10">Luke 2:10</bibleref>.</ab>
+                </note>
+<note n="13" xml:id="n-13" target="#note-t-13">
+<ab>Regarding the Jewish cemetery, <ref target="let115.xml#n-12">see letter 115, n. 12.</ref>
+                    </ab>
+                </note>
+<note n="14" xml:id="n-14" target="#note-t-14">
+<ab>At that time the Oosterspoor (eastern railway) had its station on the Oosterdoksdijk; in 1876 work began on a project to fill in three islands to accommodate the railway. The new Central Station, which opened in 1889, was built on the middle island, making it possible to extend the lines of the Oosterspoor. </ab>
+                </note>
+<note n="15" xml:id="n-15" target="#note-t-15">
+<ab>Van Gogh’s notation must mean up to (but not including) verse 33.</ab>
+                </note>
+<note n="16" xml:id="n-16" target="#note-t-16">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="2 Cor" chap="6" v="10">2 Cor. 6:10</bibleref>.</ab>
+                </note>
+<note n="17" xml:id="n-17" target="#note-t-17">
+<ab>‘If our... our powers’ is most likely a quotation.</ab>
+                </note>
+<note n="18" xml:id="n-18" target="#note-t-18">
+<ab>Van Gogh probably enclosed several pages of text from <rs type="lit" key="136">
+                            <hi rend="ital">La Néerlande et la vie hollandaise</hi>
+                        </rs> (1859) by <rs type="pers" key="600">Henri Alphonse Esquiros</rs>; they have been preserved the estate (FR b1458-b1461). See also <ref target="RM11.xml">RM11</ref> and cf. Pabst 1988, pp. 72-82. It is not certain which of these loose leaves were enclosed, because one text was duplicated: in addition to ‘Siège de Leyde’ and ‘Siège de Harlem’, Van Gogh copied the passage ‘Scheveningen’ twice. The materials used offer no clues either.</ab>
+                </note>
+<note n="19" xml:id="n-19" target="#note-t-19">
+<ab>‘The Lord is my shepherd’ (<vg:bibleref book="Ps" chap="23">Ps. 23</vg:bibleref>), ‘The panting hart’ (<vg:bibleref book="Ps" chap="42">Ps. 42</vg:bibleref>) and ‘The secret place of the most High’ (<vg:bibleref book="Ps" chap="91">Ps. 91</vg:bibleref>), which includes the sentence ‘he shall deliver thee from the snare of the fowler, and from the noisome pestilence’ (<bibleref xmlns="http://www.vangoghletters.org/ns/" book="Ps" chap="91" v="3">Ps. 91:3</bibleref>), to which Van Gogh referred in <ref target="let112.xml">letter 112</ref>.</ab>
+<vg:whiteline/>
+<ab>
+      [Three appendices]
+    </ab>
+<vg:whiteline/>
+<ab>
+      [Appendix 1]
+    </ab>
+<vg:whiteline/>
+                </note>
+<note n="20" xml:id="n-20" target="#note-t-20">
+<ab>Original manuscript. Amsterdam, Van Gogh Museum, inv. no. b1458 V/1962. This passage was copied, with a few minor discrepancies, from <rs type="lit" key="136">
+                            <hi rend="ital">La Néerlande et la vie hollandaise</hi>
+                        </rs>. See Esquiros 1859, pp. 67-74. </ab>
+                </note>
+    <note n="21" xml:id="n-21" target="#note-t-21">
+<ab>Van Gogh omitted a long note here.</ab>
+                </note>
+<note n="22" xml:id="n-22" target="#note-t-22">
+<ab>
+                        <rs type="pers" key="600">Esquiros</rs> wrote: ‘Fistula dulce canit, volucrem dum decipit auceps’ (<rs type="lit" key="137">
+                            <hi rend="ital">Disticha Catonis</hi>
+                        </rs>, I, 27). Van Gogh first left an open space and then returned to it to insert his translation in French.</ab>
+<vg:whiteline/>
+<ab>
+      [Appendix 2]
+    </ab>
+                </note>
+<note n="23" xml:id="n-23" target="#note-t-23">
+<ab>Original manuscript. Amsterdam, Van Gogh Museum, inv. no. b1459 V/1962. This passage was copied, with a few minor discrepancies, from <rs type="lit" key="136">
+                            <hi rend="ital">La Néerlande et la vie hollandaise</hi>
+                        </rs>. See Esquiros 1859, pp. 286-291. </ab>
+                </note>
+    <note n="24" xml:id="n-24" target="#note-t-24">
+<ab>Van Gogh mistakenly copied out the sentence beginning ‘La ville de Harlem’ twice.</ab>
+                </note>
+<note n="25" xml:id="n-25" target="#note-t-25">
+<ab>
+                        <rs type="pers" key="600">Esquiros</rs> wrote : ‘240,000’.</ab>
+                </note>
+<note n="26" xml:id="n-26" target="#note-t-26">
+<ab>Taken from <rs type="pers" key="744">Emile Souvestre</rs>, <rs type="lit" key="96">
+                            <hi rend="ital">Les derniers Bretons</hi>
+                        </rs>. Paris 1858, deuxième partie, pp. 216-217 (chap. 3, § 2, ‘Une messe sur la mer’). There are a few minor discrepancies. Van Gogh also copied out this passage in the Visitors’ book of <rs type="pers" key="201">Annie Slade-Jones</rs>. See Pabst 1988, p. 67.</ab>
+                </note>
+<note n="27" xml:id="n-27" target="#note-t-27">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="1 Cor" chap="11" vr="23-26">1 Cor. 11:23-26</bibleref>.</ab>
+<vg:whiteline/>
+<ab>
+      [Appendix 3]
+    </ab>
+                </note>
+<note n="28" xml:id="n-28" target="#note-t-28">
+<ab>Original manuscript. Amsterdam, Van Gogh Museum, inv. no. b1460 V/1962. The passage was copied from <rs type="lit" key="136">
+                            <hi rend="ital">La Néerlande et la vie hollandaise</hi>
+                        </rs>. See Esquiros 1859, pp. 231-238. Van Gogh omitted several sentences and phrases, and there are a few other, more minor discrepancies.</ab>
+                </note>
+<note n="29" xml:id="n-29" target="#note-t-29">
+<ab>
+                        <rs type="pers" key="600">Esquiros</rs> wrote: ‘Os homini sublime dedit’ (Ovid, <rs type="lit" key="54">
+                            <hi rend="ital">Metamorphoses</hi>
+                        </rs>, <hi rend="sc">i</hi>, 85).</ab>
+                </note>
+    <note n="30" xml:id="n-30" target="#note-t-30">
+<ab>
+                        <rs type="pers" key="600">Esquiros</rs> added: ‘ces hommes simples et ignorants’, which Van Gogh did include in his second copy (<ref target="RM11.xml">see RM11</ref>).</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

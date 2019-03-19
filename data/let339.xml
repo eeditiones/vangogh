@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+    <teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+        <titleStmt>
+            <title>To Theo van Gogh. The Hague, Wednesday, 2 or Thursday, 3 May 1883.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+        <publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let339"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+                <idno type="jlb">339</idno>
+                <idno type="collectedletters">282</idno>
+                <idno type="brieven1990">341</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>The Hague</vg:placeLet>
+                        <vg:dateLet>Wednesday, 2 or Thursday, 3 May 1883</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+                    <p>To Theo van Gogh. The Hague, Wednesday, 2 or Thursday, 3 May 1883.</p>
+                    <note type="ongoingTopic" n="1">
+                        <p>Theo’s love for the ailing Marie <ref target="let300.xml">(300)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+                <note type="sourceStatus" xml:id="sourceStatus">
+                    <p>Original manuscript</p>
+                    </note>
+                <note type="location" xml:id="location">
+                    <p>Amsterdam, Van Gogh Museum, inv. no. b305 V/1962</p>
+                    </note>
+                <note type="date" xml:id="date">
+                    <p>Vincent thanks Theo for his (first) remittance <ref target="#l-2">(l. 2)</ref>, which arrived ‘this morning’ <ref target="#l-129">(l. 129)</ref>. He writes that ‘the Salon has opened’ <ref target="#l-27">(l. 27)</ref> – this took place on 1 May. Given that the letter must have been written after <ref target="let338.xml">letter 338</ref> of 30 April, we have dated it Wednesday, 2 or Thursday, 3 May 1883.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <surface n="b 0305" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000382_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000382_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000382_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000382_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000382_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000382_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="VGM001000382_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000382_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000382_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+        <surface n="b 0305" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000382_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000382_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000382_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000382_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000382_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000382_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000382_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000382_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000382_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+            <div type="original">
+                <pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+                <ab>Waarde Theo,</ab>
+                <lb n="2" xml:id="l-2"/>
+                <ab>Uw brief &amp; het ingeslotene was zeer welkom als altijd<c type="kp">_</c>– En als altijd <lb n="3" xml:id="l-3"/>wel bedankt er voor – en zoozeer begrijpende ge zelf heel <lb n="4" xml:id="l-4"/>wat te zorgen hebt waardeer ik het te meer<c type="kp">_</c>
+                </ab>
+                <lb n="5" xml:id="l-5"/>
+                <ab rend="indent">Hetgeen ge schrijft betreffende Uw patient is betrekkelijk geen <lb n="6" xml:id="l-6"/>nieuws &amp; betrekkelijk wel<c type="kp">_</c>– Dat ge er over naar huis <lb n="7" xml:id="l-7"/>geschreven hebt<c type="kk">/</c> of schrijven zult liever<c type="kk">/</c> is iets wat U zelf rust zal geven en regt <lb n="8" xml:id="l-8"/>is. Natuurlijkerwijs heb ik nooit ’t minst over de zaak <lb n="9" xml:id="l-9"/>gerept en kunt ge er van verzekerd zijn ik ook niet t’huis <lb n="10" xml:id="l-10"/>of elders zal laten merken ik er reeds vroeger iets van <lb n="11" xml:id="l-11"/>wist of meer intieme details ken. En<c type="kk">/</c> dunkt me<c type="kk">/</c> <lb n="12" xml:id="l-12"/>doen als hoorde ik er zoo dezer dagen voor ’t eerst van, <lb n="13" xml:id="l-13"/>in ’t oppervlakkige. Doch ’t zal ook niet <lb n="14" xml:id="l-14"/>voorkomen iemand me er over spreekt.</ab>
+                <lb n="15" xml:id="l-15"/>
+                <ab rend="indent">Wees dus hieromtrent gerust<c type="kp">_</c>–</ab>
+                <lb n="16" xml:id="l-16"/>
+                <ab rend="indent">Nu<c type="kk">/</c> ik hoop van harte dat alles zoo van stapel zal <lb n="17" xml:id="l-17"/>loopen als ge beraamd hebt tegen October &amp; ben blij <lb n="18" xml:id="l-18"/>’t zoo ver is, van harte blij<c type="kk">/</c> <hi rend="ital">en</hi> voor U <hi rend="ital">en</hi> voor haar<c type="kp">_</c> <lb n="19" xml:id="l-19"/>Ik vind het zoo best – vooral juist <hi rend="ital">omdat</hi> ik <lb n="20" xml:id="l-20"/>details ken – als men zóó elkaar ontmoet dan moet <lb n="21" xml:id="l-21"/>men niet meer van elkaar gaan.<anchor n="1" xml:id="note-o-1"/>
+                </ab>
+                <lb n="22" xml:id="l-22"/>
+                <ab rend="indent">En hoop ik van harte het er van komen zal ge dezen <lb n="23" xml:id="l-23"/>zomer met haar eens naar Holland komt. <lb n="24" xml:id="l-24"/>Wie weet of niet juist nu sommige dingen <lb n="25" xml:id="l-25"/>met betrekking tot de vrouw voor mij ook zich <lb n="26" xml:id="l-26"/>zouden kunnen ophelderen.</ab>
+                <lb n="27" xml:id="l-27"/>
+                <ab rend="indent">En dus is de Salon geopend<c type="kp">_</c>–<anchor n="2" xml:id="note-o-2"/> Ge zult dezer <lb n="28" xml:id="l-28"/>dagen de heeren H.G.T<c type="kp">_</c> en C.M. wel <lb n="29" xml:id="l-29"/>weer over hebben. ’t Is nu al haast een <lb n="30" xml:id="l-30"/>jaar geleden dat ik met hem onaangenaamheden had (n.l. met HGT)<c type="kp">_</c>–<anchor n="3" xml:id="note-o-3"/> <lb n="31" xml:id="l-31"/>Ik zal hem niet weer in den weg komen<c type="kk">/</c> <lb n="32" xml:id="l-32"/>dat heeft hij wel gezien ook dunkt mij en <lb n="33" xml:id="l-33"/>kan hij verzekerd zijn ik aan het gebeurde <lb n="34" xml:id="l-34"/>haast niet meer denk. Mij dunkt<c type="kk">/</c> mogt H.G.T<c type="kp">_</c> <lb n="35" xml:id="l-35"/>U soms een woord over mij spreken<c type="kk">/</c> coupeer het plus <lb n="36" xml:id="l-36"/>minus in dezer voege: Is V.<anchor n="4" xml:id="note-o-4"/> U sedert in <lb n="37" xml:id="l-37"/>den weg geloopen of U tot last geweest – daar hij dit <lb n="38" xml:id="l-38"/>niet geweest is<c type="kk">/</c> maak gij het hem ook niet moeielijk. 
+                    <pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                    <lb n="39" xml:id="l-39"/>Het is mij min of meer onpleizierig dat ik om reden <lb n="40" xml:id="l-40"/>van die moeielijkheid met H<c type="kp">_</c>G.T<c type="kp">_</c> het huis G.&amp;C<c type="kp">_</c> steeds <lb n="41" xml:id="l-41"/>uit discretie moet mijden. <lb n="43" xml:id="l-43"/>Gij weet wat H.G.T. b.v. toen in <lb n="44" xml:id="l-44"/>der tijd aan Pa over mij schreef – welnu die opinie <lb n="45" xml:id="l-45"/>van dat ik het onmogelijk gemaakt had dat hij iets verder <lb n="46" xml:id="l-46"/>met mij te doen zou hebben heeft hij tot heden niet <lb n="47" xml:id="l-47"/>teruggenomen<c type="kp">_</c>– ’t Spreekt van zelf dat zoolang hij <lb n="48" xml:id="l-48"/>die opinie van mij heeft ik mijn voeten in de zaak op <lb n="49" xml:id="l-49"/>de Plaats niet zetten zal<c type="kp">_</c>
+                </ab>
+                <lb n="50" xml:id="l-50"/>
+                <ab rend="indent">Niet omdat ik bang ben H.G.T<c type="kp">_</c> te ontmoeten evenwel<c type="kk">/</c> <lb n="51" xml:id="l-51"/>niet omdat ik mij voor hem verbergen wil of iets dergelijks<c type="kk">/</c> <lb n="52" xml:id="l-52"/>maar omdat ik hem geen aanstoot wil geven<c type="kp">_</c>
+                </ab>
+                <lb n="53" xml:id="l-53"/>
+                <ab rend="indent">Wil iemand niets met me te doen hebben<c type="kk">/</c> welnu ik zal zelf mee <lb n="54" xml:id="l-54"/>helpen en de enkele gelegenheden <lb n="55" xml:id="l-55"/>waar men soms elkaar ongezocht tegen ’t lijf zou loopen<c type="kk">/</c> trachten <lb n="56" xml:id="l-56"/>te vermijden. Overigens zoodanige opinie niet tegenspreken<c type="kp">_</c> <lb n="57" xml:id="l-57"/>van uit een zeker standpunt gezien heeft H.G.T<c type="kp">_</c> <lb n="58" xml:id="l-58"/>geen ongelijk – evenwel de zaken zouden van <lb n="59" xml:id="l-59"/>een anderen kant kunnen bezien worden<c type="kp">_</c>–</ab>
+                <lb n="60" xml:id="l-60"/>
+                <ab rend="indent">Men zou ’t anders hebben kunnen opgevat hebben dan <lb n="61" xml:id="l-61"/>ZEd<c type="kp">_</c> toen deed<c type="kp">_</c>– Maar dat moet hij zelf <lb n="62" xml:id="l-62"/>weten.– Waarom ik er met een woord even over <lb n="63" xml:id="l-63"/>schrijf is dat<c type="kk">/</c> gesteld hij sprak er U over<c type="kk">/</c> gij hem <lb n="64" xml:id="l-64"/>kunt zeggen dat ik aan ’t gebeurde niet meer denk <lb n="65" xml:id="l-65"/>anders dan dat ik om te vermijden wat hij indiscreet <lb n="66" xml:id="l-66"/>zou kunnen vinden (ten overstaan van zijn over mij duidelijk <lb n="67" xml:id="l-67"/>uitgesproken opinie) mij van het komen in de zaak op <lb n="68" xml:id="l-68"/>de Plaats onthoud en onthouden zal zoolang <lb n="69" xml:id="l-69"/>hij die opinie van me behoudt zóó als hij ze uitte tegenover <lb n="70" xml:id="l-70"/>Pa.</ab>
+                <lb n="71" xml:id="l-71"/>
+                <ab rend="indent">Van mijn kant heb ik mij toen over ZEd<c type="kp">_</c> uitgelaten <lb n="72" xml:id="l-72"/>tegenover U – maar overigens zoover ik weet ook niet tegenover <lb n="73" xml:id="l-73"/>anderen – geinfluenceerd door diverse omstandigheden <lb n="74" xml:id="l-74"/>die voor mij zeer onaangenaam waren (ongenoegen met Mauve<anchor n="5" xml:id="note-o-5"/> &amp;c<c type="kp">_</c>)<c type="kp">_</c> Dat mijn oordeel over <lb n="75" xml:id="l-75"/>hem daardoor ook niet juist was geef ik gaarne toe en <lb n="76" xml:id="l-76"/>op conditie dat H.G.T. terugneemt wat hij over <lb n="77" xml:id="l-77"/>mij schreef aan Pa (dat ik het onmogelijk gemaakt had hij iets verder met me te doen zou hebben) <lb n="77"/>neem ik terug mijn opinie dat <lb n="78" xml:id="l-78"/>H.G.T. schuld had aan onaangename dingen die me <lb n="79" xml:id="l-79"/>overkwamen. Indien ik me duidelijk genoeg uitdruk <lb n="80" xml:id="l-80"/>vindt ge in deze beschouwing mogelijk iets dat <lb n="81" xml:id="l-81"/>tot meer vrede of elkaar beter verstaan mogt kunnen <lb n="82" xml:id="l-82"/>leiden, ’t geen me verre van onverschillig zoude wezen.</ab>
+                <pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                <lb n="83" xml:id="l-83"/>
+                <ab rend="indent">Als ik reken van af Mei l.l. Theo<c type="kk">/</c> dan is ’t jaar <lb n="84" xml:id="l-84"/>voor mij niet precies makkelijk of zonder zorg geweest<c type="kk">/</c> <lb n="85" xml:id="l-85"/>he<c type="kp">_</c>– Maar dat’s niets<c type="kk">/</c> gemak of <lb n="86" xml:id="l-86"/>zonder zorgen wezen is ook mijn ideaal &amp; bedoeling <lb n="87" xml:id="l-87"/>niet<c type="kp">_</c>– Toch – er is heel wat komen kijken<c type="kp">_</c>
+                </ab>
+                <lb n="88" xml:id="l-88"/>
+                <ab rend="indent">Hetgeen gij stuurt vind ik niet weinig doch veel <lb n="89" xml:id="l-89"/>maar ofschoon het veel was – meer zelfs dan <lb n="90" xml:id="l-90"/>gij zelf eigentlijk missen kondt – om voort te <lb n="91" xml:id="l-91"/>gaan en te vorderen met het werk en met het <lb n="92" xml:id="l-92"/>huishouden is een heksenwerk voor de vrouw en voor <lb n="93" xml:id="l-93"/>mij<c type="kp">_</c>– Nu is ’t soms voor mij erg naar als er zulke <lb n="94" xml:id="l-94"/>scheeve verhoudingen zijn dat ik b.v. juist zulke <lb n="95" xml:id="l-95"/>personen moet vermijden als men soms juist in verband <lb n="96" xml:id="l-96"/>tot ’t werk<c type="kk">/</c> direkt of indirekt<c type="kk">/</c> mee in aanraking zou dienen <lb n="97" xml:id="l-97"/>te komen. En wou ik ’t uit de wereld was.</ab>
+                <lb n="98" xml:id="l-98"/>
+                <ab rend="indent">Enfin – betrekkelijk heb ik ’t overgegeven<c type="kp">_</c>
+                </ab>
+                <lb n="99" xml:id="l-99"/>
+                <ab rend="indent">Op dit moment heb ik verschillend werk onder handen <lb n="100" xml:id="l-100"/>dat ik dien door te voeren – en werkelijk<c type="kk">/</c> ik ben <lb n="101" xml:id="l-101"/>wat gegeneerd. Ge schrijft over Rappard – ’t is <lb n="102" xml:id="l-102"/>zoo lam hij niet gekomen is toen hij schreef te zullen <lb n="103" xml:id="l-103"/>komen – als ik hem vraag me wat voor te schieten <lb n="104" xml:id="l-104"/>geloof ik bepaald hij dit me niet zal weigeren<c type="kp">_</c>
+                    <anchor n="6" xml:id="note-o-6"/> <lb n="105" xml:id="l-105"/>Want hij zelf heeft het me geproponeerd dezen winter<c type="kk">/</c>
+                    <anchor n="7" xml:id="note-o-7"/> <lb n="106" xml:id="l-106"/>toen werd hij echter ziek en konden we niet correspon<c type="shy">-</c>
+                    <lb n="107" xml:id="l-107"/>deeren over de zaak waar ’t geld voor zou bestemd zijn<c type="kk">/</c> <lb n="108" xml:id="l-108"/>n<c type="kp">_</c>l. lithographies en teekeningen die daarmee in <lb n="109" xml:id="l-109"/>rapport stonden. Toen schreef zijn vader nog <lb n="110" xml:id="l-110"/>“mijn zoon is ziek doch ik weet er van<c type="kk">/</c> als gij soms <lb n="111" xml:id="l-111"/>in verlegenheid zijt zal ik U het bewuste voorschieten”. <lb n="112" xml:id="l-112"/>Dat vond ik zóó fijn van R. vader dat ik het grof <lb n="113" xml:id="l-113"/>van me zelf zou gevonden hebben indien ik <lb n="114" xml:id="l-114"/>toen het direkt hadde genomen<c type="kp">_</c> En schreef dus “neen<c type="kk">/</c> <lb n="115" xml:id="l-115"/>laat Uw zoon eerst beter zijn”<c type="kp">_</c> Nu werd <lb n="116" xml:id="l-116"/>R. beter maar ik hoorde daaromtrent niets direkts <lb n="117" xml:id="l-117"/>meer en was hij geabsorbeerd in ander werk<c type="kp">_</c> <lb n="118" xml:id="l-118"/>En zoo is dat nog steeds hangende en <lb n="119" xml:id="l-119"/>is er telkens iets dat in den weg komt van die zaak <lb n="120" xml:id="l-120"/>door te zetten. Maar ik van mijn kant ging er <lb n="121" xml:id="l-121"/>wel mede door<c type="kk">/</c> n.l. teekenen met drukinkt<c type="kk">/</c> lith<c type="kp">_</c> krijt <lb n="122" xml:id="l-122"/>enz. en heb nog al kosten gehad ook. Daar is hij <lb n="123" xml:id="l-123"/>niet in ’t minst aansprakelijk voor maar ik wil maar <lb n="124" xml:id="l-124"/>zeggen<c type="kk">/</c> reden te meer hij me niet zal weigeren<c type="kk">/</c> denk ik<c type="kk">/</c> <lb n="125" xml:id="l-125"/>mij voor te schieten.</ab>
+                <pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                <lb n="126" xml:id="l-126"/>
+                <ab rend="indent">Ik zal ’t hem dus verzoeken – doch ben een brief van <lb n="127" xml:id="l-127"/>hem wachtende &amp; vóór ik de zaak beschreven &amp; antwoord <lb n="128" xml:id="l-128"/>heb<c type="kk">/</c> verstrijkt ligt een tijd want hij is slof in correspondentie <lb n="129" xml:id="l-129"/>soms. Toen ’t geld van U kwam van morgen was ik <lb n="130" xml:id="l-130"/>zonder geld – d.i. absoluut zonder een cent <lb n="131" xml:id="l-131"/>geweest ± een week. Ik was bovendien uitgeput in <lb n="132" xml:id="l-132"/>teekengerij<c type="kp">_</c>– Ik was in besprek met Smulders <lb n="133" xml:id="l-133"/>over eene partij teekenpapier &amp; heb dat gehaald ofschoon <lb n="134" xml:id="l-134"/>die uitgaaf nu niet convenieerde – maar ik moest het hebben <lb n="135" xml:id="l-135"/>met andere materialen als b.v. de drukinkt van de graveurs en <lb n="136" xml:id="l-136"/>lith<c type="kp">_</c> krijt. En moest verscheiden dingen betalen en inslaan <lb n="137" xml:id="l-137"/>voor ’t huishouden. En moest modellen betalen die <lb n="138" xml:id="l-138"/>ik intusschen toch gehad had om door te blijven werken.</ab>
+                <lb n="139" xml:id="l-139"/>
+                <ab rend="indent">Het spijt me verschrikkelijk dat ik het <lb n="140" xml:id="l-140"/>dien te vragen maar als ge eenigzins kunt<c type="kk">/</c> stuur <lb n="141" xml:id="l-141"/>mij nog b.v. 10 francs<c type="kp">_</c> Er hangt een week werk <lb n="142" xml:id="l-142"/>van af want ik zal van Rappard niet direkt antwoord <lb n="143" xml:id="l-143"/>hebben kunnen, ben reeds à court en heb afspraak met <lb n="144" xml:id="l-144"/>modellen. Als Rappard me dan zendt is er ook weer <lb n="145" xml:id="l-145"/>een tijd dat alles geregeld zal gaan tot er eens weer ruimte <lb n="146" xml:id="l-146"/>komen kan. Kunt ge het zenden zoo loopt <lb n="147" xml:id="l-147"/>deze week werk grif van stapel en anders is er <lb n="148" xml:id="l-148"/>onaangename averij. Maar neem het me niet <lb n="149" xml:id="l-149"/>kwalijk<c type="kk">/</c> er was een combinatie van kosten (en allen onvermijdelijken) <lb n="150" xml:id="l-150"/>die ik niet precies kon schipperen. En hebt ge <lb n="151" xml:id="l-151"/>het niet – enfin – we zullen er niet van sterven <lb n="152" xml:id="l-152"/>daarom. De moeielijkheden in kleine zaken over <lb n="153" xml:id="l-153"/>kleine sommen zijn soms ook waarachtig hoofdbrekend <lb n="154" xml:id="l-154"/>en dit is zulk een geval. Ik hoop dat R. me <lb n="155" xml:id="l-155"/>wat mogt kunnen helpen want heb <lb n="156" xml:id="l-156"/>er behoefte aan<c type="kk">/</c> net als het veld naar<anchor n="a" xml:id="note-o-a"/> <lb n="157" xml:id="l-157"/>een regenbui als ’t lang droog geweest is.</ab>
+                <lb n="158" xml:id="l-158"/>
+                <ab rend="indent">Nu<c type="kk">/</c> nogmaals wensch ik U allen voorspoed toe <lb n="159" xml:id="l-159"/>met betrekking tot uw patient<c type="kp">_</c> het weer is hier <lb n="160" xml:id="l-160"/>bij tijden heerlijk<c type="kk">/</c> ’t zal bij U te lande ook zeker mooi <lb n="161" xml:id="l-161"/>zijn &amp; zal haar goed doen. adieu.</ab>
+                <vg:whiteline/>
+                <lb n="162" xml:id="l-162"/>
+                <ab>t. à. t.</ab>
+                <lb n="163" xml:id="l-163"/>
+                <ab>Vincent</ab>
+                <vg:whiteline/>
+                <div type="textualNotes">
+                    <note target="l-30" n="30">(n.l. met HGT) &lt; <hi rend="ital">Added later; parentheses added by us.</hi>
+                    </note>
+                    <note target="l-73" n="73">anderen – &lt; anderen</note>
+                    <note target="l-74" n="74">(ongenoegen <supplied>
+                            <hi rend="ital">...</hi>
+                        </supplied> &amp;c<c type="kp">_</c>)<c type="kp">_</c> &lt; <hi rend="ital">Added later; parentheses added by us.</hi>
+                    </note>
+                    <note target="l-77" n="77">hebben) &lt; hebben</note>
+                    <note target="l-149" n="149">(en allen onvermijdelijken) &lt; <hi rend="ital">Added later; parentheses added by us.</hi>
+                    </note>
+                </div>
+            </div>
+            <div type="translation">
+                <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+                <ab>My dear Theo,</ab>
+                <ab>Your letter and the enclosure were most welcome, as always. And as always, thank you for them — I appreciate it all the more knowing so well that you yourself have many cares.</ab>
+                <ab rend="indent">What you write concerning your <rs type="pers" key="508">patient</rs> is to some extent new and to some extent not. That you’ve written home about it, or rather will write, is something that will give you peace and is right. Naturally, I’ve never said a word about the matter, and you can rest assured that I won’t let on at home or elsewhere that I already knew something of it or am aware of more intimate details. And, I imagine, behave as if I first heard about it only recently, on a superficial level. But anyway, it’s unlikely that anyone will speak to me about it.</ab>
+                <ab rend="indent">So rest assured on this point.</ab>
+                <ab rend="indent">Well, I sincerely hope that everything happens as you have planned towards October, and am glad the time has come, sincerely glad <hi rend="ital">both</hi> for you <hi rend="ital">and</hi> for <rs type="pers" key="508">her</rs>. I think this is for the best — especially <hi rend="ital">because</hi> I know details — when one meets each other like that one should never again part.<anchor n="1" xml:id="note-t-1"/>
+                </ab>
+                <ab rend="indent">And I sincerely hope that this summer it will be possible for you to come to Holland with <rs type="pers" key="508">her</rs>. Who knows if precisely now some things to do with the woman may become clear to me too.</ab>
+                <ab rend="indent">And so the Salon has opened.<anchor n="2" xml:id="note-t-2"/> No doubt Messrs <rs type="pers" key="787">H.G.T.</rs> and <rs type="pers" key="422">C.M.</rs> will be paying you a visit one of these days. It’s now almost a year since I had the unpleasantness with him (i.e. with HGT).<anchor n="3" xml:id="note-t-3"/> I shan’t cross his path again, I believe he realizes that too, and he can rest assured that I hardly ever think of what occurred. It seems to me, should H.G.T. say anything to you about me, that you should cut him off more or less in this manner: Has V.<anchor n="4" xml:id="note-t-4"/> obstructed you since then or bothered you? — given that he hasn’t, you shouldn’t make things difficult for him. 
+                    <pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> It’s rather disagreeable to me that I always have to avoid the house of G.&amp;C. out of discretion, on account of that difficulty with H.G.T. You know what H.G.T. wrote about me to <rs type="pers" key="526">Pa</rs> that time, for example — well, so far he hasn’t retracted his view that I’d made it impossible for him to have anything further to do with me. It goes without saying that as long as he holds that opinion of me I won’t set foot inside the premises on the Plaats.</ab>
+                <ab rend="indent">Not, however, that I’m afraid of meeting <rs type="pers" key="787">H.G.T.</rs>, not because I want to hide from him or anything like that, but because I don’t want to give him offence. </ab>
+                <ab rend="indent">If someone wants to have nothing to do with me, well I’ll help and try to avoid the few places where we might unintentionally bump into each other. Otherwise, don’t contradict such an opinion. From a certain point of view <rs type="pers" key="787">H.G.T.</rs> isn’t wrong — nonetheless, things could be viewed from another angle.</ab>
+                <ab rend="indent">It could have been taken differently from the way in which His Hon. took it then. But that’s up to him. The reason I’m writing just a word about it is so that, supposing he speaks to you on the subject, you can tell him I no longer think about what happened other than that, to avoid what he might find indiscreet (given his plainly pronounced opinion of me), I refrain from going into the premises on the Plaats and shall continue so to refrain as long as he holds the opinion of me that he expressed to <rs type="pers" key="526">Pa</rs>.</ab>
+                <ab rend="indent">For my part I gave my opinion of His Hon. to you then, but not as far as I remember to others, influenced by various circumstances that were most disagreeable for me (displeasure with <rs type="pers" key="323">Mauve</rs>
+                    <anchor n="5" xml:id="note-t-5"/> &amp;c.). I freely admit that as a result my judgement of him wasn’t correct either and, on condition that <rs type="pers" key="787">H.G.T.</rs> takes back what he wrote about me to <rs type="pers" key="526">Pa</rs> (that I had made it impossible for him to have anything further to do with me), I will take back my opinion that H.G.T. was to blame for disagreeable things that happened to me. If I express myself clearly enough, you may find in these thoughts something that could lead to more peace or better mutual understanding, which would be far from a matter of indifference to me.
+                    <pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/>
+                </ab>
+                <ab rend="indent">If I count from last May, Theo, this year hasn’t been exactly easy or free of care, eh. But that’s nothing; convenience or being without cares isn’t my ideal and goal either. Still, rather a lot has happened.</ab>
+                <ab rend="indent">I find what you send not a little but a lot, yet although it was a lot — more even than you yourself could really go without — the <rs type="pers" key="463">woman</rs> and I have the devil’s own job to keep going and to make progress with the work and with housekeeping. Now it’s sometimes very unpleasant for me if relations are so strained that, for example, I must avoid the very people that one ought to meet in connection with the work, directly or indirectly. And I wish it was all cleared up.</ab>
+                <ab rend="indent">Anyway, I’ve just about given up responsibility for that.</ab>
+                <ab rend="indent">At the moment I have different kinds of work on my hands that I ought to carry through — and truly, I’m rather short. You write about <rs type="pers" key="1306">Rappard</rs> — it’s so tiresome that he didn’t come when he wrote that he would — if I asked him to advance me something I’m sure he wouldn’t refuse me.<anchor n="6" xml:id="note-t-6"/> For he himself proposed that to me this winter,<anchor n="7" xml:id="note-t-7"/> but then he fell ill and we couldn’t correspond about the matter for which the money was to be intended, namely lithographs and drawings related to them. Then his <rs type="pers" key="183">father</rs> wrote, ‘my son is ill but I know about it, if you are hard up I shall advance you the amount in question’. I thought that was so good of R.’s father that I would have found it gross of myself if I had immediately taken it then. And so wrote, ‘no, let your son get better first’. Now R. did get better but I heard no more about it and he was absorbed in other work. And so that’s still pending and there’s always something that gets in the way of pursuing the matter. But I for one did carry on with it, namely drawing with printer’s ink, lithographic crayon, etc., and indeed incurred considerable costs. He isn’t in the least responsible for that, but I just mean that that’s all the more reason why he won’t refuse, I believe, to give me an advance.
+                    <pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/>
+                </ab>
+                <ab rend="indent">So I’ll ask him — but am expecting a letter from him and some time will probably pass before I’ve explained the matter and got a reply, for he’s sometimes a lazy correspondent. When the money from you arrived this morning I had no money — that is, had been absolutely without a single cent for about a week. Furthermore, I had run out of drawing materials. I was in discussions with <rs type="pers" key="1482">Smulders</rs> about a batch of drawing paper and took it, although the expenditure was inconvenient now — but I had to have it and other materials such as the engravers’ printer’s ink and lithographic crayon. And had to pay various things and stock up for the housekeeping. And had to pay models whom I had had in the meantime so that I could carry on working.</ab>
+                <ab rend="indent">I’m terribly sorry to have to ask but if it’s at all possible send me another 10 francs, say. A week’s work depends on it, for I shan’t be able to get an immediate answer from <rs type="pers" key="1306">Rappard</rs>, am already short of cash, and have appointments with models. If Rappard then sends me some, there will again be a phase when everything goes smoothly until there can be a breathing space once more. If you can send some, work will come off the stocks rapidly this week, and otherwise there’ll be nasty damage to the vessel. But forgive me, there was a combination of costs (all unavoidable) that I couldn’t quite cope with. And if you haven’t got it — well — we won’t starve as a result. The difficulties in small matters about small sums are sometimes truly perplexing, and this is such a case. I hope R. will be able to help me a little, for I’m in need of it, just as the field needs a shower when it has long been dry. </ab>
+                <ab rend="indent">Well, again I wish you all good fortune as regards your <rs type="pers" key="508">patient</rs>. The weather here is delightful at times; no doubt it’s beautiful where you are too, and will do her good. Adieu.</ab>
+                <vg:whiteline/>
+                <ab>Ever yours,</ab>
+                <ab>Vincent</ab>
+            </div>
+            <div type="notes">
+                <note n="1" xml:id="n-1" target="#note-t-1">
+                    <ab>Theo had plans to marry <rs type="pers" key="508">Marie</rs>; see also <ref target="let331.xml">letter 331</ref>.</ab>
+                </note>
+                <note n="2" xml:id="n-2" target="#note-t-2">
+                    <ab>The Paris Salon opened on 1 May.</ab>
+                </note>
+                <note n="3" xml:id="n-3" target="#note-t-3">
+                    <ab>For the worsening relations with <rs type="pers" key="787">H.G. Tersteeg</rs>, which was the case from February 1882, <ref target="let208.xml">see letters 208</ref> ff. Tersteeg’s disapproving attitude towards <rs type="pers" key="463">Sien</rs> and her <rs type="pers" key="466 467">children</rs> during a visit in July 1882 (he also wrote about Vincent to his <rs type="pers" key="526">father</rs>) led to relations being broken off (<ref target="let247.xml">see letters 247</ref> ff.).</ab>
+                </note>
+                <note n="4" xml:id="n-4" target="#note-t-4">
+                    <ab>Read: ‘Vincent’.</ab>
+                </note>
+                <note n="5" xml:id="n-5" target="#note-t-5">
+                    <ab>On the deteriorating relationship with <rs type="pers" key="323">Mauve</rs>, <ref target="let209.xml">see letters 209</ref> ff.</ab>
+                </note>
+                <note n="6" xml:id="n-6" target="#note-t-6">
+                    <ab>
+                        <rs type="pers" key="1306">Van Rappard</rs> was to lend Van Gogh 25 guilders; <ref target="let343.xml">see letter 343</ref>.</ab>
+                </note>
+                <note n="7" xml:id="n-7" target="#note-t-7">
+                    <ab>For <rs type="pers" key="1306">Van Rappard</rs>’s earlier offer to lend Van Gogh money, <ref target="let289.xml">see letter 289</ref>.</ab>
+                </note>
+                <note n="a" xml:id="n-a" target="#note-o-a">
+                    <ab>Read: ‘aan’ (of).</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

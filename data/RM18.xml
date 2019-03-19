@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+    <title>Fragment of a letter to Theo van Gogh containing a copy of the poem ‘St Jerome’s love’ by Thomas Moore. Saint-Rémy-de-Provence, about November-December 1889.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/RM18"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">RM18</idno>
+    <idno type="collectedletters">623</idno> 
+<idno type="brieven1990">-</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Saint-Rémy-de-Provence</vg:placeLet>
+                        <vg:dateLet>about November-December 1889</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+</vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b672 c V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+    <p>The letter fragment and poem were probably written about November-December 1889: on p. 1 Bernard’s parents are mentioned (they also appear in <ref target="let823.xml">letter 823</ref> of 26 November 1889 and <ref target="let827.xml">letter 827</ref> of 9 or 10 December 1889). Van Gogh also copied the poem in <ref target="let832.xml">letter 832</ref> of about 23 December 889.</p>
+                    </note>
+                    <note type="additionalDetail" xml:id="additionalDetail">
+                        <p>In <hi rend="ital">Verzamelde brieven</hi> 1973 and <hi rend="ital">De brieven</hi> 1990, this text was assigned to <ref target="let839.xml">letter 839</ref>, but we see no reason to do so, nor can we find a compelling argument to place it with any other letter. It seems, rather, that Van Gogh kept the sheet for himself because of the poem he copied on p. 2, since the sheet is torn all around this poem. </p>
+                        <p rend="indent">Because he added several lines of verse in this version (<ref target="#l-35a">ll. 35a-35e</ref>), it is highly likely that he attempted to reconstruct the poem. We therefore assume that this loose leaf – which, considering the remark about Seurat (<ref target="#l-21">l. 21</ref>), must originally have been addressed to Theo – was never sent.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0672 c" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000918_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000918_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000918_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000918_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0672 c" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000918_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000918_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000918_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000918_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>exagéré dans l’oeuvre<c type="kp">_</c> Que des parents ignorants <lb n="2" xml:id="l-2"/>au point de vue de la peinture cessent d’aimer un <lb n="3" xml:id="l-3"/>enfant un peu autrement que le reste – c’est certes <lb n="4" xml:id="l-4"/>un malentendu terrible – mais même s’ils <lb n="5" xml:id="l-5"/>comprenaient la peinture – comment le leur <lb n="6" xml:id="l-6"/>trop reprocher dans cette societe d’argent et de <lb n="7" xml:id="l-7"/>militaires<c type="kp">_</c>– C’est pourquoi s’il faisait son <lb n="8" xml:id="l-8"/>service<anchor n="1" xml:id="note-o-1"/> ce ne serait pas plus malheureux pour <lb n="9" xml:id="l-9"/>lui<c type="kk">/</c> ce serait s’avouer vaincu par la fatalité <lb n="10" xml:id="l-10"/>encore à temps. Qu’est devenu Vignon?<anchor n="2" xml:id="note-o-2"/>
+                </ab>
+                <lb n="11" xml:id="l-11"/>
+<ab rend="indent">Enfin ceci est certain<c type="kk">/</c> il ne s’agit pas <lb n="12" xml:id="l-12"/>de faire le fier ou d’avoir grande espérance <lb n="13" xml:id="l-13"/>pour la suite<c type="kp">_</c> Prenons les réalités terribles <lb n="14" xml:id="l-14"/>comme elles sont et s’il faut que moi <lb n="15" xml:id="l-15"/>je laisse la peinture je crois que je le ferai<c type="kp">_</c> <lb n="16" xml:id="l-16"/>En tout cas je veux bien encore une <lb n="17" xml:id="l-17"/>fois essayer avec une meilleure santé <lb n="18" xml:id="l-18"/>qu’il y a deux ans si je ne trouve pas une <lb n="19" xml:id="l-19"/>position quelconque. Je me le suis souvent <lb n="20" xml:id="l-20"/>dit que si il y a deux ans j’eusse eu un <lb n="21" xml:id="l-21"/>temperament plus calme comme Seurat <lb n="22" xml:id="l-22"/>par exemple<c type="kk">/</c> je aurais pu résister<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="23" xml:id="l-23"/>
+<ab>Who is the maid my spirit seeks<anchor n="3" xml:id="note-o-3"/>
+                </ab>
+                <lb n="24" xml:id="l-24"/>
+<ab>Through cold reproof &amp; slanders blight</ab>
+                <lb n="25" xml:id="l-25"/>
+<ab>has she loves roses on her cheeks</ab>
+                <lb n="26" xml:id="l-26"/>
+<ab>Is hers an eye of calm delight?</ab>
+                <lb n="27" xml:id="l-27"/>
+<ab>No<c type="kk">/</c> wan &amp; sunk with midnight prayer</ab>
+                <lb n="28" xml:id="l-28"/>
+<ab>As the worn looks of her I love</ab>
+                <lb n="29" xml:id="l-29"/>
+<ab>And if by chance a light be there</ab>
+                <lb n="30" xml:id="l-30"/>
+<ab>As fire was kindled from above</ab>
+                <lb n="31" xml:id="l-31"/>
+<ab>I choose not her mine hearts elect</ab>
+                <lb n="32" xml:id="l-32"/>
+<ab>Amongst those who seek their makers’ shrine</ab>
+                <lb n="33" xml:id="l-33"/>
+<ab>In gems and garlands proudly decked</ab>
+                <lb n="34" xml:id="l-34"/>
+<ab>As if themselves were things divine</ab>
+                <lb n="35a" xml:id="l-35a"/>
+<ab>And they who come in glittering dress</ab>
+                <lb n="35b" xml:id="l-35b"/>
+<ab>to mourn their frailty yet are frail</ab>
+                <lb n="35c" xml:id="l-35c"/>
+<ab>No heaven but faintly warm the breast</ab>
+                <lb n="35d" xml:id="l-35d"/>
+<ab>That beats beneath a broidered veil.</ab>
+                <lb n="36" xml:id="l-36"/>
+<ab>Not so the form of her I love</ab>
+                <lb n="37" xml:id="l-37"/>
+<ab>And... because her bloom is gone</ab>
+                <lb n="38" xml:id="l-38"/>
+<ab>But ne’er was beauty’s bloom so bright</ab>
+                <lb n="39" xml:id="l-39"/>
+<ab>So touching as that forms decay</ab>
+                <lb n="40" xml:id="l-40"/>
+<ab>That like the altars wavering light</ab>
+                <lb n="41" xml:id="l-41"/>
+<ab>In holy lustre fades away<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-26" n="26">delight? &lt; delight</note>
+<note target="l-29" n="29">chance &lt; chanche</note>
+<note target="l-34" n="34">were &lt; where</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>exaggerated in the work. That parents who are ignorant from the point of view of painting should stop loving a child who’s a little different from the rest – that’s certainly a terrible misunderstanding – but even if they understood painting, how could one reproach them for it too much in this society of money and military men? That’s why, if he did his military service,<anchor n="1" xml:id="note-t-1"/> it wouldn’t be more unfortunate for him, it would be to admit in good time that one has been vanquished by fate. What became of <rs type="pers" key="1415">Vignon</rs>?<anchor n="2" xml:id="note-t-2"/>
+                </ab>
+<ab rend="indent">Anyway, this is certain, it’s not a matter of putting on a proud front or having great hopes for what comes next. Let’s take the terrible realities as they are, and if I have to abandon painting I think I shall. In any case, I really want to see, one more time and with better health than two years ago, if I can’t find some sort of position. I’ve often told myself that if, two years ago, I’d had a calmer temperament like <rs type="pers" key="1353">Seurat</rs>, for example, I could have resisted.</ab>
+<vg:whiteline/>
+<ab>
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab>Who is the maid my spirit seeks<anchor n="3" xml:id="note-t-3"/>
+                </ab>
+<ab>Through cold reproof and slanders blight</ab>
+<ab>Has she loves roses on her cheeks</ab>
+<ab>Is hers an eye of calm delight?</ab>
+<ab>No, wan and sunk with midnight prayer</ab>
+<ab>As the worn looks of her I love</ab>
+<ab>And if by chance a light be there</ab>
+<ab>As fire was kindled from above</ab>
+<ab>I choose not her mine hearts elect</ab>
+<ab>Amongst those who seek their makers’ shrine</ab>
+<ab>In gems and garlands proudly decked</ab>
+<ab>As if themselves were things divine</ab>
+<ab>And they who come in glittering dress</ab>
+<ab>To mourn their frailty yet are frail</ab>
+<ab>No heaven but faintly warm the breast</ab>
+<ab>That beats beneath a broidered veil.</ab>
+<ab>Not so the form of her I love</ab>
+<ab>And... because her bloom is gone</ab>
+<ab>But ne’er was beauty’s bloom so bright</ab>
+<ab>So touching as that forms decay</ab>
+<ab>That like the altars wavering light</ab>
+<ab>In holy lustre fades away.</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>
+                        <rs type="pers" key="831">Emile Bernard</rs>’s military service.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>It is not known what Vincent is enquiring about here. Theo was in touch with <rs type="pers" key="1415">Victor Vignon</rs>, one of the less successful Impressionists. The estate includes three of his works. See Monneret 1978-1981, vol. 3, p. 53, and cat. Amsterdam 1987, p. 363. Cf. also FR b4302 and b1179.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+    <ab>Regarding the poem  ‘<rs type="lit" key="518">Who is the maid? St. Jerome’s love</rs>’ by <rs type="pers" key="711">Thomas Moore</rs>, <ref target="let832.xml#n-2">see letter 832, n. 2,</ref> and <ref target="RM12.xml">RM12</ref>.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

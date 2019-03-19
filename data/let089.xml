@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Isleworth, Saturday, 26 August 1876.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let089"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">089</idno>
+<idno type="collectedletters">74</idno>
+<idno type="brieven1990">088</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Isleworth</vg:placeLet>
+                        <vg:dateLet>Saturday, 26 August 1876</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. Isleworth, Saturday, 26 August 1876.</p>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b87 V/1962 (sheet 1); inv. no. b88 b V/1962 (sheet 2); inv. nos. b98 a-b V/1962 (sheets 3, 4), and inv. no. b97 b V/1962 (sheet 5)</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Letter headed: ‘Isleworth 26 Aug. 1876’.</p>
+                    </note>
+<note type="arrangement" xml:id="arrangement">
+<p>In <hi rend="ital">De brieven</hi> 1990 this letter – the main part of which comprises <ref target="#l-1">ll. 1-175</ref> – has a text fragment appended to it, an excerpt from Henri Conscience’s <hi rend="ital">Le conscrit</hi>. There is however no indication that that text ever belonged to this letter; indeed, it is more likely to have belonged to an earlier letter. We have therefore separated the Conscience excerpt from this letter; for the text, see RM8).</p>
+<p rend="indent">Van Gogh did however enclose texts in this letter (cf. ll. 16-19). We consider the sheets published in <hi rend="ital">De brieven</hi> 1990 as a separate letter (<ref target="let089.xml">letter 89</ref> [82a-2], along with part of a sheet previously thought to belong to <ref target="let090.xml">letter 90</ref>), to be a continuation of the present letter, basing our opinion on the remark that ‘Anna should be back in Welwyn by now’ <ref target="#l-240">(l. 240)</ref>. In fact, Anna left the Netherlands on Friday, 25 August (FR b2768 and b2769) and probably arrived in Welwyn the next day. Van Gogh must have known how long the journey took; the phrase quoted indicates that the letter was written around the time of Anna’s expected return to England, which happens to be the date at the top of the letter.</p>
+<p rend="indent">The supplement to the first part of the letter consists of three sheets. Although it is not impossible that the first sheet <ref target="#l-176">(ll. 176-215)</ref> belonged to <ref target="let092.xml">letter 92</ref> (Van Gogh mentions Christmas both on this sheet and in that letter), we have appended all three sheets to the end of this letter, immediately following the signature, because they were written on identical paper that is to be found nowhere else in the correspondence.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0087" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000090_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000090_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000090_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000090_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000090_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000090_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="VGM001000090_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000090_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000090_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0087" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000090_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000090_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000090_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000090_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000090_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000090_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000090_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000090_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000090_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0088 b" xml:id="surf-pb-2r">
+            <graphic mimeType="image/tiff" url="VGM001000092_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-2r-5">
+<graphic mimeType="image/tiff" url="VGM001000092_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000092_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000092_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0088 b" xml:id="surf-pb-2v">
+            <graphic mimeType="image/tiff" url="VGM001000092_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-2v-6">
+<graphic mimeType="image/tiff" url="VGM001000092_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000092_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000092_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0098 a" xml:id="surf-pb-3r">
+            <graphic mimeType="image/tiff" url="VGM001000103_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-3r-7">
+<graphic mimeType="image/tiff" url="VGM001000103_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000103_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000103_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0098 a" xml:id="surf-pb-3v">
+            <graphic mimeType="image/tiff" url="VGM001000103_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-3v-8">
+<graphic mimeType="image/tiff" url="VGM001000103_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000103_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000103_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0098 b" xml:id="surf-pb-4r">
+            <graphic mimeType="image/tiff" url="VGM001000104_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-4r-9">
+<graphic mimeType="image/tiff" url="VGM001000104_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000104_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000104_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0098 b" xml:id="surf-pb-4v">
+            <graphic mimeType="image/tiff" url="VGM001000104_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-4v-10">
+<graphic mimeType="image/tiff" url="VGM001000104_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000104_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000104_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0097 b" xml:id="surf-pb-5r">
+            <graphic mimeType="image/tiff" url="VGM001000102_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-5r-11">
+<graphic mimeType="image/tiff" url="VGM001000102_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000102_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000102_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0097 b" xml:id="surf-pb-5v">
+            <graphic mimeType="image/tiff" url="VGM001000102_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-5v-12">
+<graphic mimeType="image/tiff" url="VGM001000102_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000102_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000102_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Isleworth 26 Aug. 1876</ab>
+<vg:whiteline/>
+                <lb n="2" xml:id="l-2"/>
+<ab>Waarde Theo,</ab>
+                <lb n="3" xml:id="l-3"/>
+<ab>Hierbij een woordje voor den Heer Tersteeg, <lb n="4" xml:id="l-4"/>de laatste keer ik hem schreef was ik nog in <lb n="5" xml:id="l-5"/>Parijs en het was tijd weer eens te schrijven; wij <lb n="6" xml:id="l-6"/>hebben elkander sedert ik den Haag verliet <lb n="7" xml:id="l-7"/>toch altijd in het oog gehouden.─<anchor n="1" xml:id="note-o-1"/>
+                </ab>
+                <lb n="8" xml:id="l-8"/>
+<ab rend="indent">Het is een prachtigen morgen<c type="kk">/</c> de zon schijnt door <lb n="9" xml:id="l-9"/>de groote accaciaboomen op de speelplaats en <lb n="10" xml:id="l-10"/>glinstert op de daken en vensters die men achter <lb n="11" xml:id="l-11"/>den tuin ziet, er zijn reeds herfstdraden <lb n="12" xml:id="l-12"/>in den tuin en het is frisch s’morgens en de <lb n="13" xml:id="l-13"/>jongens draven op en neer om zich warm te loopen. <lb n="14" xml:id="l-14"/>Van avond, in hunne slaapkamer<c type="kk">/</c> hoop ik hen <lb n="15" xml:id="l-15"/>de geschiedenis van Johannes en Theagenes<anchor n="2" xml:id="note-o-2"/> te <lb n="16" xml:id="l-16"/>vertellen. Ik vertel hen s’avonds nog al eens<c type="kk">/</c> <lb n="17" xml:id="l-17"/>b.v. Le Conscrit van Conscience<anchor n="3" xml:id="note-o-3"/> en Madame Therèse <lb n="18" xml:id="l-18"/>van Erckmann Chatrian<anchor n="4" xml:id="note-o-4"/> en Oudejaar van Jean <lb n="19" xml:id="l-19"/>Paul,<anchor n="5" xml:id="note-o-5"/> dat ik U hierbij stuur, en de sprookjes van <lb n="20" xml:id="l-20"/>Andersen<c type="kk">/</c> “de geschiedenis eener Moeder, de roode <lb n="21" xml:id="l-21"/>schoentjes, the little matchseller”,<anchor n="6" xml:id="note-o-6"/> King Robert <lb n="22" xml:id="l-22"/>of Sicily van Longfellow<anchor n="7" xml:id="note-o-7"/> enz.─ Soms ook een <lb n="23" xml:id="l-23"/>en ander uit de Hollandsche geschiedenis.</ab>
+                <lb n="24" xml:id="l-24"/>
+<ab rend="indent">Iederen dag doe ik Bijbelsche geschiedenis met <lb n="25" xml:id="l-25"/>hen, en dat is iets beters dan een genot.─</ab>
+                <lb n="26" xml:id="l-26"/>
+<ab rend="indent">Geen dag meer zonder tot God te bidden en 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                    <lb n="27" xml:id="l-27"/>zonder te spreken van God, niet bidden alleen <lb n="28" xml:id="l-28"/>maar ook er voor uit komen, niet spreken alleen <lb n="29" xml:id="l-29"/>maar ook vasthouden het bidden<c type="kk">/</c> Vader ik bid <lb n="30" xml:id="l-30"/>U niet dat Gij mij uit de wereld wegneemt maar <lb n="31" xml:id="l-31"/>dat Gij mij bewaart voor den booze<c type="kp">_</c>
+                    <anchor n="8" xml:id="note-o-8"/> “Verbind Gij, o <lb n="32" xml:id="l-32"/>Heer ons innig aan elkaar en laat de Liefde <lb n="33" xml:id="l-33"/>tot U dien band meer en meer versterken”.─<anchor n="9" xml:id="note-o-9"/>
+                </ab>
+                <lb n="34" xml:id="l-34"/>
+<ab rend="indent">Nu is dat spreken van Hem nog niet veel maar <lb n="35" xml:id="l-35"/>met Gods hulp en zegen zal dat beter worden. <lb n="36" xml:id="l-36"/>Ik heb vrijmoedigheid<anchor n="10" xml:id="note-o-10"/> dezer dagen maar daar <lb n="37" xml:id="l-37"/>is grooter vrijmoedigheid dan deze en grooter Liefde <lb n="38" xml:id="l-38"/>en grooter kracht tot daden en tot wat goed is<c type="kk">/</c> een grooter <lb n="39" xml:id="l-39"/>zich overgeven aan een sterker drang, een beter <lb n="40" xml:id="l-40"/>en inniger zoeken naar God en naar <lb n="41" xml:id="l-41"/>het doen van Zijn wil met een eenvoudiger<c type="kk">/</c> beter <lb n="42" xml:id="l-42"/>en nederiger hart, en daarop hoop ik.─<anchor n="11" xml:id="note-o-11"/>
+                </ab>
+                <lb n="43" xml:id="l-43"/>
+<ab rend="indent">Heb ik U ooit verteld van dat schilderij van Boughton<c type="kk">/</c> <lb n="44" xml:id="l-44"/>“The pilgrims progress”?<anchor n="12" xml:id="note-o-12"/>
+                </ab>
+                <lb n="45" xml:id="l-45"/>
+<ab rend="indent">Het is tegen den avond. Een mulle zandweg leidt over <lb n="46" xml:id="l-46"/>de heuvels naar een berg waarop men de heilige stad <lb n="47" xml:id="l-47"/>ziet liggen<c type="kk">/</c> verlicht door de zon die rood achter de <lb n="48" xml:id="l-48"/>grijze avondwolken ondergaat.</ab>
+                <lb n="49" xml:id="l-49"/>
+<ab rend="indent">Op den weg een pelgrim die naar die stad heenwil, <lb n="50" xml:id="l-50"/>hij is reeds moede en vraagt aan een vrouw in <lb n="51" xml:id="l-51"/>het zwart die aan den weg staat en wier naam <lb n="52" xml:id="l-52"/>is “droevig maar altijd blijde”<c type="kk">/</c>
+                    <anchor n="13" xml:id="note-o-13"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="53" xml:id="l-53"/>
+<ab>“Does the road go uphill then all the way?</ab>
+                <lb n="54" xml:id="l-54"/>
+<ab>`Yes to the very end´</ab>
+                <lb n="55" xml:id="l-55"/>
+<ab>And will the journey take all day long?</ab>
+                <lb n="56" xml:id="l-56"/>
+<ab>`From morn till night my friend.´”<anchor n="14" xml:id="note-o-14"/>
+                </ab>
+<vg:whiteline/>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                <lb n="57" xml:id="l-57"/>
+<ab>Het landschap waardoor de weg gaat is zoo schoon<c type="kk">/</c> <lb n="58" xml:id="l-58"/>bruine heidegrond met hier en daar berken en mast<c type="shy">-</c>
+                    <lb n="59" xml:id="l-59"/>boomen en plekken geel zand, en in het verschiet <lb n="60" xml:id="l-60"/>tegen de zon in bergen.─</ab>
+                <lb n="61" xml:id="l-61"/>
+<ab rend="indent">Het is eigentlijk geen schilderij maar eene <lb n="62" xml:id="l-62"/>inspiratie.─</ab>
+                <lb n="63" xml:id="l-63"/>
+<ab rend="indent">Ik schrijf U tusschen de lessen in; vandaag ben <lb n="64" xml:id="l-64"/>ik er even uitgebroken en heb tusschen de heggen <lb n="65" xml:id="l-65"/>gewandeld met “Johannes en Theagenes” om <lb n="66" xml:id="l-66"/>het in te studeeren, wat zou ik willen gij de <lb n="67" xml:id="l-67"/>speelplaats nu eens zaagt en den tuin er <lb n="68" xml:id="l-68"/>achter, in de schemering, binnen de school <lb n="69" xml:id="l-69"/>flikkert het gas en hoort men het gezellige <lb n="70" xml:id="l-70"/>geluid van de jongens die hunne lessen leeren<c type="kk">/</c> <lb n="71" xml:id="l-71"/>van tijd tot tijd begint een van hen een <lb n="72" xml:id="l-72"/>gedeelte van de wijs van een of ander gezang te neuriën, <lb n="73" xml:id="l-73"/>en er is iets in mij van het “oud vertrouwen”<c type="kp">_</c>
+                    <anchor n="15" xml:id="note-o-15"/> <lb n="74" xml:id="l-74"/>wat ik zou willen zijn ben ik nog lang niet <lb n="75" xml:id="l-75"/>maar met Gods hulp zal het lukken, wat <lb n="76" xml:id="l-76"/>wil ik – – – Aan Christus verbonden zijn met <lb n="77" xml:id="l-77"/>onverbreekbare banden en die banden te voelen. <lb n="78" xml:id="l-78"/>Droevig zijn maar altijd blijde.<anchor n="16" xml:id="note-o-16"/> Te leven in en <lb n="79" xml:id="l-79"/>voor Christus, een arme zijn in Zijn koninkrijk,<anchor n="17" xml:id="note-o-17"/> <lb n="80" xml:id="l-80"/>doorzuurd met den zuurdeessem<c type="kk">/</c>
+                    <anchor n="18" xml:id="note-o-18"/> bezield met Zijn <lb n="81" xml:id="l-81"/>Geest, gedrongen door Zijne Liefde,<anchor n="19" xml:id="note-o-19"/> rustende <lb n="82" xml:id="l-82"/>in den Vader met die rust waarvan ik U sprak <lb n="83" xml:id="l-83"/>in mijn vorigen brief. Te worden een die in niets kan <lb n="84" xml:id="l-84"/>rusten dan in Hem<c type="kk">/</c> wien nevens Hem niets meer lust op <lb n="85" xml:id="l-85"/>aarde<c type="kk">/</c>
+                    <anchor n="20" xml:id="note-o-20"/> een die leeft in de Liefde tot God en tot Christus <lb n="86" xml:id="l-86"/>in wien wij innig aan elkander verbonden zijn.</ab>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                <lb n="87" xml:id="l-87"/>
+<ab rend="indent">Gal. IV:6. Overmits gij kinderen zijt, zoo heeft God den <lb n="88" xml:id="l-88"/>Geest Zijns Zoons uitgezonden in uwe harten, die roept: <lb n="89" xml:id="l-89"/>Abba, Vader!─</ab>
+<vg:whiteline/>
+                <lb n="90" xml:id="l-90"/>
+<ab>Al ware het dat ik de talen der menschen en der Engelen <lb n="91" xml:id="l-91"/>sprak, en de Liefde niet had, zoo ware ik een klinkend <lb n="92" xml:id="l-92"/>metaal of luidende schel geworden.─</ab>
+                <lb n="93" xml:id="l-93"/>
+<ab rend="indent">En al ware het dat ik de gave der profetie had en wist al de <lb n="94" xml:id="l-94"/>verborgenheden en al de wetenschap, en al ware het dat <lb n="95" xml:id="l-95"/>ik al het geloof had, zoodat ik bergen verzette, en de Liefde <lb n="96" xml:id="l-96"/>niet had<c type="kk">/</c> zoo ware ik niets. En al ware het dat ik al <lb n="97" xml:id="l-97"/>mijne goederen tot onderhoud der armen uitdeelde <lb n="98" xml:id="l-98"/>en al ware het dat ik mijn ligchaam overgaf opdat ik <lb n="99" xml:id="l-99"/>verbrand zoude worden, en had de liefde niet, zoo zoude <lb n="100" xml:id="l-100"/>het mij geene nuttigheid geven.</ab>
+                <lb n="101" xml:id="l-101"/>
+<ab rend="indent">De Liefde is lang moedig<c type="kk">/</c> zij is zacht moedig<c type="kk">/</c> zij is <lb n="102" xml:id="l-102"/>wee moedig<c type="kk">/</c> zij heeft wee en moed, de liefde is goeder<c type="shy">-</c>
+                    <lb n="103" xml:id="l-103"/>tieren, de Liefde is niet afgunstig, de Liefde handelt <lb n="104" xml:id="l-104"/>niet ligtvaardig, zij is niet opgeblazen. Zij handelt <lb n="105" xml:id="l-105"/>niet ongeschikt, zij zoekt zich zelve niet, zij wordt niet <lb n="106" xml:id="l-106"/>verbitterd, zij denkt geen kwaad; zij verblijdt zich niet <lb n="107" xml:id="l-107"/>in de ongeregtigheid maar zij verblijdt zich in de waarheid; <lb n="108" xml:id="l-108"/>Zij bedekt alle dingen, Zij gelooft alle dingen, Zij hoopt alle <lb n="109" xml:id="l-109"/>dingen<c type="kk">/</c> zij verdraagt alle dingen. De Liefde vergaat <lb n="110" xml:id="l-110"/>nimmermeer; maar hetzij profetieën, zij zullen te niet <lb n="111" xml:id="l-111"/>gedaan worden; hetzij talen<c type="kk">/</c> zij zullen ophouden; hetzij <lb n="112" xml:id="l-112"/>kennis, zij zal te niet gedaan worden. Want wij kennen <lb n="113" xml:id="l-113"/>ten deele en wij profeteeren ten deele; Doch wanneer het vol<c type="shy">-</c>
+                    <lb n="114" xml:id="l-114"/>maakte zal gekomen zijn dan zal hetgeen ten deele <lb n="115" xml:id="l-115"/>is, te niet gedaan worden. Toen ik een kind was, sprak ik <lb n="116" xml:id="l-116"/>als een kind, was ik gezind als een kind, overleide ik als <lb n="117" xml:id="l-117"/>een kind; maar wanneer ik een man geworden ben, zoo <lb n="118" xml:id="l-118"/>heb ik te niet gedaan hetgeen eens kinds was. Want <lb n="119" xml:id="l-119"/>nu zien wij door eenen spiegel in eene duistere rede, <lb n="120" xml:id="l-120"/>maar alsdan zullen wij zien aangezigt tot aangezigt; <lb n="121" xml:id="l-121"/>nu ken ik ten deele maar alsdan zal ik kennen, <lb n="122" xml:id="l-122"/>gelijk ook ik gekend ben. Nu dan blijft geloof<c type="kk">/</c> hoop en <lb n="123" xml:id="l-123"/>Liefde, maar de meeste van deze is de Liefde.─<anchor n="21" xml:id="note-o-21"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="124" xml:id="l-124"/>
+<ab>Ik weet aan Wien ik mij vertrouwe</ab>
+                <lb n="125" xml:id="l-125"/>
+<ab>Al wisselen ook dag en nacht</ab>
+                <lb n="126" xml:id="l-126"/>
+<ab>Ik ken de rots waarop ik bouwe</ab>
+                <lb n="127" xml:id="l-127"/>
+<ab>Hij feilt niet die mijn heil verwacht</ab>
+                <lb n="128" xml:id="l-128"/>
+<ab>Eens aan den avond van mijn leven</ab>
+                <lb n="129" xml:id="l-129"/>
+<ab>Breng ik van zorg en strijden moe</ab>
+                <lb n="130" xml:id="l-130"/>
+<ab>Voor elken dag mij hier gegeven</ab>
+                <lb n="131" xml:id="l-131"/>
+<ab>U hooger, reiner loflied toe.─<anchor n="22" xml:id="note-o-22"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="132" xml:id="l-132"/>
+<ab>Is ook Uw avond heden goed, <lb n="133" xml:id="l-133"/>zoo zij het, dank voor Uw brief<c type="shy">-</c>
+                    <lb n="134" xml:id="l-134"/>kaart<c type="kp">_</c> Mr. Jones heeft nog niet <lb n="135" xml:id="l-135"/>beslist wat hij doen zal.<anchor n="23" xml:id="note-o-23"/> Groet <lb n="136" xml:id="l-136"/>allen die naar mij mogten <lb n="137" xml:id="l-137"/>vragen<c type="kk">/</c> in elk geval Borchers als <lb n="138" xml:id="l-138"/>gij hem of iemand van zijne familie <lb n="139" xml:id="l-139"/>ziet. Een handdruk in gedachten <lb n="140" xml:id="l-140"/>van</ab>
+<vg:whiteline/>
+                <lb n="140*" xml:id="l-140s"/>
+<ab>Uw zoo liefh. broer</ab>
+                <lb n="141" xml:id="l-141"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+                <lb n="142" xml:id="l-142"/>
+<ab>Nog een woordje. Daareven heb ik Johannes en <lb n="143" xml:id="l-143"/>Theagenes verteld<c type="kk">/</c> eerst in de kamer waar de <lb n="144" xml:id="l-144"/>meeste jongens slapen en toen in de bovenkamer <lb n="145" xml:id="l-145"/>waar er nog 4 zijn, in den donker, maar toen <lb n="146" xml:id="l-146"/>ik gedaan had waren zij zoo ongemerkt allen ingeslapen<c type="kp">_</c> <lb n="147" xml:id="l-147"/>’t Is geen wonder want zij hebben heel wat gedraafd <lb n="148" xml:id="l-148"/>vandaag in de speelplaats en dan, ik spreek <lb n="149" xml:id="l-149"/>niet zonder moeite en hoe dat in Engelsche <lb n="150" xml:id="l-150"/>ooren klinkt weet ik niet<c type="kp">_</c> Maar al doende <lb n="151" xml:id="l-151"/>zal ik leeren. Ik meen dat de Heer mij heeft <lb n="152" xml:id="l-152"/>aangenomen,<anchor n="24" xml:id="note-o-24"/> zoo als ik ben met al mijne <lb n="153" xml:id="l-153"/>gebreken, hoewel daar nog inniger aan<c type="shy">-</c>
+                    <lb n="154" xml:id="l-154"/>neming is waarop ik hoop.─</ab>
+                <lb n="154*" xml:id="l-154s"/>
+<ab rend="indent">Het is reeds <lb n="155" xml:id="l-155"/>laat. Morgen avond moet ik de zelfde <lb n="156" xml:id="l-156"/>geschiedenis vertellen aan den ondermeester <lb n="157" xml:id="l-157"/>en twee oudste jongens die later opblijven<c type="kp">_</c> <lb n="158" xml:id="l-158"/>Die drie en ik eten s’avons ons brood <lb n="159" xml:id="l-159"/>zamen. Toen ik aan het vertellen 
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>
+                    <lb n="160" xml:id="l-160"/>was hoorde ik een van hen beneden op <lb n="161" xml:id="l-161"/>de piano spelen “Tell me the old old story”.<anchor n="25" xml:id="note-o-25"/> <lb n="162" xml:id="l-162"/>Het is reeds laat en eigentlijk mag ik zoo <lb n="163" xml:id="l-163"/>laat niet opblijven, naar de regels van de school, ik rookte mijn pijp <lb n="164" xml:id="l-164"/>op de speelplaats daareven<c type="kk">/</c> het was zoo <lb n="165" xml:id="l-165"/>mooi buiten daar en zelfs op het kleine <lb n="166" xml:id="l-166"/>binnenplaatsje waar een groot gedeelte <lb n="167" xml:id="l-167"/>van het jaar het varken is, dat is er echter <lb n="168" xml:id="l-168"/>op het oogenblik niet. Het is wel prettig <lb n="169" xml:id="l-169"/>s’avonds zoo eens overal rond te gaan <lb n="170" xml:id="l-170"/>van boven naar beneden. En nu goeden <lb n="171" xml:id="l-171"/>nacht en slaap gerust en als Gij s’avonds <lb n="172" xml:id="l-172"/>bidt denk dan ook aan mij gelijk ik aan <lb n="173" xml:id="l-173"/>U. Goeden nacht jongen<c type="kk">/</c> een handdruk <lb n="174" xml:id="l-174"/>in gedachten van</ab>
+<vg:whiteline/>
+                <lb n="174*" xml:id="l-174s"/>
+<ab>Uw zoo liefh. broer</ab>
+                <lb n="175" xml:id="l-175"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<pb f="3r" n="7" xml:id="pb-orig-3r-7" facs="#zone-pb-3r-7"/>
+                <lb n="176" xml:id="l-176"/>
+<ab>Ik verheug mij reeds op kersmis, twee <lb n="177" xml:id="l-177"/>jaar geleden deden wij s’avonds die wande<c type="shy">-</c>
+                    <lb n="178" xml:id="l-178"/>ling in de sneeuw, weet gij dat nog, toen <lb n="179" xml:id="l-179"/>wij de maan zagen op komen boven Mariënhof.<anchor n="26" xml:id="note-o-26"/> <lb n="180" xml:id="l-180"/>Den avond toen ik, dien kerstijd, van den Bosch<anchor n="27" xml:id="note-o-27"/> <lb n="181" xml:id="l-181"/>naar Helvoirt reed in een open karretje herin<c type="shy">-</c>
+                    <lb n="182" xml:id="l-182"/>ner ik mij nog zoo goed, het was geducht <lb n="183" xml:id="l-183"/>koud en glad op den weg, wat zag den Bosch <lb n="184" xml:id="l-184"/>er mooi uit, de marktplaats en de straten met <lb n="185" xml:id="l-185"/>sneeuw en de huizen donker met sneeuw op de <lb n="186" xml:id="l-186"/>daken, Brabant is toch Brabant, en ’t Vaderland <lb n="187" xml:id="l-187"/>is toch het vaderland, en landen der vreemdeling<c type="shy">-</c>
+                    <lb n="188" xml:id="l-188"/>schappen zijn landen der vreemdelingschappen<c type="kp">_</c>
+                    <anchor n="28" xml:id="note-o-28"/> <lb n="189" xml:id="l-189"/>En hoe vriendelijk zag Helvoirt en de lichten <lb n="190" xml:id="l-190"/>in het dorp en den toren tusschen de besneeuwde <lb n="191" xml:id="l-191"/>populieren er dien avond uit, in de verte van <lb n="192" xml:id="l-192"/>den weg naar ’s Bosch af gezien.─ Maar <lb n="193" xml:id="l-193"/>’t is de liefde die ’t alles zoo groote schoonheid <lb n="194" xml:id="l-194"/>en leven geeft.─ En herinnert Gij u dien tocht naar <lb n="195" xml:id="l-195"/>S<hi rend="ss">t</hi> Michiels Gestel<anchor n="29" xml:id="note-o-29"/> nog?─</ab>
+<vg:whiteline/>
+<pb f="3v" n="8" xml:id="pb-orig-3v-8" facs="#zone-pb-3v-8"/>
+                <lb n="196" xml:id="l-196"/>
+<ab>De vrijgekochten des Heeren zullen wederkomen en <lb n="197" xml:id="l-197"/>tot Zion wederkeeren met groot gejuich<c type="kk">/</c> en eeuwige <lb n="198" xml:id="l-198"/>blijdschap zal op hun hoofd wezen, vrolijkheid en <lb n="199" xml:id="l-199"/>blijdschap zullen zij verkrijgen, maar droefenis en <lb n="200" xml:id="l-200"/>zuchten zullen wegvluchten.<anchor n="30" xml:id="note-o-30"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="201" xml:id="l-201"/>
+<ab>Daar is eene stem gehoord in Rama, eene klagt, een <lb n="202" xml:id="l-202"/>zeer bitter geween; Rachel weent over Hare kinderen; <lb n="203" xml:id="l-203"/>zij weigert zich te laten troosten over Hare kinderen, <lb n="204" xml:id="l-204"/>omdat zij niet zijn.<anchor n="31" xml:id="note-o-31"/>
+                </ab>
+                <lb n="205" xml:id="l-205"/>
+<ab rend="indent">Zoo zegt de Heer: Bedwing uwe stem van geween, <lb n="206" xml:id="l-206"/>en Uwe oogen van tranen, want er is loon voor Uwen <lb n="207" xml:id="l-207"/>arbeid, spreekt de Heer want zij zullen uit het vreemde <lb n="208" xml:id="l-208"/>land wederkomen.─<anchor n="32" xml:id="note-o-32"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="209" xml:id="l-209"/>
+<ab>Versterkt de slappe handen en maakt de struikelende <lb n="210" xml:id="l-210"/>knieën vast<c type="kp">_</c>
+                    <anchor n="33" xml:id="note-o-33"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="211" xml:id="l-211"/>
+<ab>Want mijne gedachten zijn niet uwe gedachten en <lb n="212" xml:id="l-212"/>mijne wegen zijn niet uwe wegen<c type="kk">/</c> spreekt de Heer; want gelijk <lb n="213" xml:id="l-213"/>de hemelen hooger zijn dan de aarde alzoo zijn mijne <lb n="214" xml:id="l-214"/>wegen hooger dan uwe wegen en mijne gedachten <lb n="215" xml:id="l-215"/>hooger dan uwe gedachten.─<anchor n="34" xml:id="note-o-34"/>
+                </ab>
+<pb f="4r" n="9" xml:id="pb-orig-4r-9" facs="#zone-pb-4r-9"/>
+                <lb n="226" xml:id="l-226"/>
+<ab rend="indent">Toen Lies met Kersmis thuis kwam <lb n="227" xml:id="l-227"/>hadden wij zoo’n aardige ontmoeting. Zij en <lb n="228" xml:id="l-228"/>Albertien<anchor n="35" xml:id="note-o-35"/> kwamen in het rijtuig van oom Vincent <lb n="229" xml:id="l-229"/>van Breda.─<anchor n="36" xml:id="note-o-36"/> Pa<c type="kk">/</c> Cor en ik gingen den weg op hen <lb n="230" xml:id="l-230"/>te gemoet, en toen wij het rijtuig in de verte <lb n="231" xml:id="l-231"/>zagen liep ik vooruit. Het was in de schemering <lb n="232" xml:id="l-232"/>en donker in het rijtuig. Door het raam zag <lb n="233" xml:id="l-233"/>men den weg met de rij boomen aan weerskanten <lb n="234" xml:id="l-234"/>en de velden<c type="kp">_</c> Aan het einde van den weg de <lb n="235" xml:id="l-235"/>kerk donker tegen de lucht uit. Achter de kerk <lb n="236" xml:id="l-236"/>de groote donkere avondwolken<c type="kk">/</c> donker maar met zilveren <lb n="237" xml:id="l-237"/>randen.─ En het was mij zoo onverwacht goed <lb n="238" xml:id="l-238"/>het meiske weer te zien<c type="kk">/</c> het was een veel grooter <lb n="239" xml:id="l-239"/>vreugde dan ik gedacht had.</ab>
+                <lb n="240" xml:id="l-240"/>
+<ab rend="indent">Anna zal nu weer te Welwyn terug zijn,<anchor n="37" xml:id="note-o-37"/> als zij <lb n="241" xml:id="l-241"/>Welwyn verlaat zal zij voelen hoe zij het heeft lief<c type="shy">-</c>
+                    <lb n="242" xml:id="l-242"/>gehad. Gij weet hoe zij s’winters het eerst op was <lb n="243" xml:id="l-243"/>en het vuur aanmaakte, zij is eene zegening voor dat <lb n="244" xml:id="l-244"/>huis geweest. Haar kamertje is zoo mooi met de klimop 
+<pb f="4v" n="10" xml:id="pb-orig-4v-10" facs="#zone-pb-4v-10"/>
+                    <lb n="245" xml:id="l-245"/>om het raam en het gezicht op den tuin en de <lb n="246" xml:id="l-246"/>groote kastanjeboomen waar eene menigte zwaluwen <lb n="247" xml:id="l-247"/>s’zomers om heenvliegen als de zon achter die boomen <lb n="248" xml:id="l-248"/>ondergaat. En de roeken hebben er hunne nesten. <lb n="249" xml:id="l-249"/>Boven Haar bed hing de Mater Dolorosa van <lb n="250" xml:id="l-250"/>Delaroche.<anchor n="38" xml:id="note-o-38"/>
+                </ab>
+                <lb n="251" xml:id="l-251"/>
+<ab rend="indent">Hebt gij misschien nog die bladzijde uit Michelet die begint <lb n="252" xml:id="l-252"/>“je vois d’ici une dame”<anchor n="39" xml:id="note-o-39"/> Zoo ja schrijf die voor mij over als <lb n="253" xml:id="l-253"/>Gij wilt, ik heb die noodig maar heb het boek niet meer<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="254" xml:id="l-254"/>
+<ab>Een stroom van ongeregtigheden,</ab>
+                <lb n="255" xml:id="l-255"/>
+<ab>Heeft de overhand op mij</ab>
+                <lb n="256" xml:id="l-256"/>
+<ab>o, Mijn weerspannig overtreden</ab>
+                <lb n="257" xml:id="l-257"/>
+<ab>Verzoent en zuivert Gij!</ab>
+                <lb n="258" xml:id="l-258"/>
+<ab>Welzalig dien Gij hebt verkoren</ab>
+                <lb n="259" xml:id="l-259"/>
+<ab>Dien Ge uit al ’t aardsch gedruisch</ab>
+                <lb n="260" xml:id="l-260"/>
+<ab>Doet naad’ren en Uw heilstem hooren</ab>
+                <lb n="261" xml:id="l-261"/>
+<ab>Ja wonen in Uw Huis.─<anchor n="40" xml:id="note-o-40"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="262" xml:id="l-262"/>
+<ab>Welzalig hij wiens zonden zijn vergeven</ab>
+                <lb n="263" xml:id="l-263"/>
+<ab>Die van de straf voor eeuwig is ontheven</ab>
+                <lb n="264" xml:id="l-264"/>
+<ab>Wiens wanbedrijf waarmee hij was bevlekt</ab>
+                <lb n="265" xml:id="l-265"/>
+<ab>Voor ’t heilig oog des Heeren is bedekt</ab>
+                <lb n="266" xml:id="l-266"/>
+<ab>Welzalig is de mensch wien ’t mag gebeuren</ab>
+                <lb n="267" xml:id="l-267"/>
+<ab>Dat God naar regt hem niet wil schuldig keuren</ab>
+                <lb n="268" xml:id="l-268"/>
+<ab>Maar die in ’t vroom en ongeveinsd gemoed</ab>
+                <lb n="269" xml:id="l-269"/>
+<ab>Geen snood bedrog maar blanke opregtheid voed.<anchor n="41" xml:id="note-o-41"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="270" xml:id="l-270"/>
+<ab>Hoe zullen deze dingen geschieden?<anchor n="42" xml:id="note-o-42"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="271" xml:id="l-271"/>
+<ab>Wie zal ons den steen van het graf wentelen?<anchor n="43" xml:id="note-o-43"/>
+                </ab>
+<vg:whiteline/>
+<pb f="5r" n="11" xml:id="pb-orig-5r-11" facs="#zone-pb-5r-11"/>
+                <lb n="272" xml:id="l-272"/>
+<ab>Ik zal voor uw aangezigt heengaan, en Ik zal kromme <lb n="273" xml:id="l-273"/>wegen regt maken; de koperen deuren zal Ik verbreken, <lb n="274" xml:id="l-274"/>en de ijzeren grendels zal Ik in stukken slaan<c type="kp">_</c>
+                    <anchor n="44" xml:id="note-o-44"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="275" xml:id="l-275"/>
+<ab>Ik ben de Eerste en de Laatste<c type="kp">_</c>
+                    <anchor n="45" xml:id="note-o-45"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="276" xml:id="l-276"/>
+<ab>Kan ook eene vrouw haar zuigeling vergeten<c type="kk">/</c> dat zij <lb n="277" xml:id="l-277"/>zich niet ontferme over den zoon haars schoots? <lb n="278" xml:id="l-278"/>Ofschoon deze vergate zoo zal ik U toch niet vergeten<c type="kp">_</c>
+                    <anchor n="46" xml:id="note-o-46"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="279" xml:id="l-279"/>
+<ab>Hoort dit nu Gij bedrukten! en gij dronkenen <lb n="280" xml:id="l-280"/>maar niet van wijn. Zie Ik neem den beker <lb n="281" xml:id="l-281"/>der zwijmeling van uwe hand, den droesem <lb n="282" xml:id="l-282"/>van den beker mijner grimmigheid, gij zult <lb n="283" xml:id="l-283"/>dien voortaan niet meer drinken<c type="kp">_</c>
+                    <anchor n="47" xml:id="note-o-47"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="284" xml:id="l-284"/>
+<ab>Want bergen zullen wijken, en heuvelen wan<c type="shy">-</c>
+                    <lb n="285" xml:id="l-285"/>kelen, maar mijne goedertierenheid zal van <lb n="286" xml:id="l-286"/>u niet wijken, en het vreeverbond zal niet wan<c type="shy">-</c>
+                    <lb n="287" xml:id="l-287"/>kelen, zegt de Heer<c type="kk">/</c> de Ontfermer.─<anchor n="48" xml:id="note-o-48"/>
+                </ab>
+                <lb n="288" xml:id="l-288"/>
+<ab rend="indent">De zon zal U niet meer wezen tot een licht des daags <lb n="289" xml:id="l-289"/>en tot eenen glans zal u de maan niet lichten; <lb n="290" xml:id="l-290"/>maar de Heer zal u wezen tot een eeuwig licht</ab>
+<pb f="5v" n="12" xml:id="pb-orig-5v-12" facs="#zone-pb-5v-12"/>
+                <lb n="291" xml:id="l-291"/>
+<ab>en uw God tot uwe heerlijkheid. Uwe zon <lb n="292" xml:id="l-292"/>zal niet meer ondergaan, en uwe maan <lb n="293" xml:id="l-293"/>zal haar licht niet intrekken; want de Heer <lb n="294" xml:id="l-294"/>zal u tot een eeuwig licht wezen, en de dagen <lb n="295" xml:id="l-295"/>uwer treuring zullen een einde nemen<c type="kp">_</c>
+                    <anchor n="49" xml:id="note-o-49"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="296" xml:id="l-296"/>
+<ab>Als een dien zijne Moeder vertroost, alzoo zal <lb n="297" xml:id="l-297"/>ik u troosten<c type="kk">/</c>
+                    <anchor n="50" xml:id="note-o-50"/> spreekt de Heer. Van nu af zult <lb n="298" xml:id="l-298"/>gij tot mij roepen: Mijn Vader<c type="kk">/</c> Gij zijt mijn <lb n="299" xml:id="l-299"/>leidsman van mijne jeugd af.─<anchor n="51" xml:id="note-o-51"/> Gij zult tot mij <lb n="300" xml:id="l-300"/>roepen<c type="kk">/</c> Mijn Vader! en gij zult van achter <lb n="301" xml:id="l-301"/>mij niet afkeeren<c type="kp">_</c>
+                    <anchor n="52" xml:id="note-o-52"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="302" xml:id="l-302"/>
+<ab>Genees mij, Heer, zoo zal ik genezen worden, <lb n="303" xml:id="l-303"/>behoud mij, zoo zal ik behouden worden<c type="kp">_</c>
+                    <anchor n="53" xml:id="note-o-53"/> Bekeer mij zoo <lb n="303a" xml:id="l-303a"/>zal ik bekeerd zijn.─<anchor n="54" xml:id="note-o-54"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="304" xml:id="l-304"/>
+<ab>Want Ik ben met U, spreekt de Heer, om U te ver<c type="shy">-</c>
+                    <lb n="305" xml:id="l-305"/>lossen,<anchor n="55" xml:id="note-o-55"/> al hebben allen die u lief hadden u vergeten<c type="kp">_</c>
+                    <anchor n="56" xml:id="note-o-56"/>
+                </ab>
+                <vg:whiteline/>
+                <lb n="306" xml:id="l-306"/>
+<ab>Ik zal u gezondheid doen rijzen en u van uwe <lb n="307" xml:id="l-307"/>plagen genezen.<anchor n="57" xml:id="note-o-57"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="308" xml:id="l-308"/>
+<ab>
+                    <hi rend="ital">De Heer is mij verschenen van verre tijden! Ja Ik heb</hi> <lb n="309" xml:id="l-309"/>
+                    <hi rend="ital">u liefgehad met eene eeuwige Liefde!</hi>
+                    <anchor n="58" xml:id="note-o-58"/> Als een dien zijne <lb n="310" xml:id="l-310"/>Moeder vertroost zal ik U troosten<c type="kk">/</c>
+                    <anchor n="59" xml:id="note-o-59"/> spreekt de Heer. Daar is <lb n="311" xml:id="l-311"/>een vriend die zich vaster klemt dan een broeder.<anchor n="60" xml:id="note-o-60"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="216 »" xml:id="l-216"/>
+<ab>Daar is geen veiliger en beter weg om door het leven te komen dan <lb n="217" xml:id="l-217"/>Liefde<c type="kk">/</c> bovenal voor onzen Vader, in dien naam gaan wij vooruit <lb n="218" xml:id="l-218"/>van den eenen dag op den anderen. Maar ook voor anderen kunnen <lb n="219" xml:id="l-219"/>wij liefde hebben. Hoe dikwijls heeft de nagedachtenis van <lb n="220" xml:id="l-220"/>een die reeds gegaan is, naar het huis des Vaders waar vele woningen <lb n="221" xml:id="l-221"/>zijn,<anchor n="61" xml:id="note-o-61"/> mij verwarmd en mijn hart doen gloeijen van Liefde in de Londensche <lb n="222" xml:id="l-222"/>straten en op mijne avondwandelingen in die koolvelden buiten de stad. En <lb n="223" xml:id="l-223"/>nog komt de gedachte aan Hem weer boven en de Liefde voor Hem<c type="kk">/</c> zoo dikwijls ik weer in de <lb n="224" xml:id="l-224"/>Londensche <lb n="225" xml:id="l-225"/>straten wandel<c type="kp">_</c> </ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-21" n="21">matchseller” &lt; matchseller</note>
+<note target="l-33" n="33">tot &lt; to</note>
+<note target="l-33" n="33">versterken”.─ &lt; versterken.─</note>
+<note target="l-44" n="44">progress”? &lt; progress?</note>
+<note target="l-56" n="56">friend.´” &lt; friend”.”</note>
+<note target="l-114" n="114">hetgeen &lt; dat hetgeen</note>
+<note target="l-191" n="191">avond uit, &lt; avond</note>
+<note target="l-233" n="233">weerskanten &lt; weeskanten</note>
+<note target="l-256" n="256">o, Mijn &lt; o’ Mijn</note>
+<note target="l-257" n="257">Verzoent en zuivert &lt; Verzoen en zuiver</note>
+<note target="l-264" n="264">bevlekt &lt; bedekt  <hi rend="ital">Corresponding to the original text.</hi>
+                    </note>
+<note target="l-216" targetEnd="l-225" n="216-225">
+                        <hi rend="ital">Insertion uncertain; this fragment was written in the top margin of p. 4 </hi>(Toen <supplied>
+                            <hi rend="ital">...</hi>
+                        </supplied> klimop)<hi rend="ital"> and could be a continuation of l. 193: </hi>‘Maar ’t is de liefde die ’t alles zoo groote schoonheid en leven geeft’.</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>Isleworth, 26 Aug. 1876</ab>
+<vg:whiteline/>
+<ab>My dear Theo,</ab>
+<ab>Herewith a few words for <rs type="pers" key="787">Mr Tersteeg</rs>. The last time I wrote to him I was still in Paris and it’s time I wrote again; we’ve always kept in touch with each other since I left The Hague.<anchor n="1" xml:id="note-t-1"/>
+                </ab>
+  <ab rend="indent">It’s a magnificent morning, the sun is shining through the large acacias on the playground, flashing on the roofs and windows visible behind the garden. There are already threads of gossamer in the garden, and it’s cool in the morning and the boys run back and forth to get warm. I hope to tell them the story of John and Theagenes<anchor n="2" xml:id="note-t-2"/> this evening in their bedroom. I often tell them stories in the evening, such as Le conscrit by <rs type="pers" key="572">Conscience</rs>,<anchor n="3" xml:id="note-t-3"/> and Madame Therèse by <rs type="pers" key="594 591">Erckmann-Chatrian</rs>
+                    <anchor n="4" xml:id="note-t-4"/> and Oudejaar by <rs type="pers" key="718">Jean Paul</rs>,<anchor n="5" xml:id="note-t-5"/> which is enclosed herewith, and <rs type="pers" key="512">Andersen</rs>’s fairy tales, ‘The story of a mother, The red shoes, The little matchseller’,<anchor n="6" xml:id="note-t-6"/> King Robert of Sicily by <rs type="pers" key="696">Longfellow</rs>,<anchor n="7" xml:id="note-t-7"/> etc. Sometimes something from Dutch history, too.</ab>
+<ab rend="indent">Every day I teach them biblical history, and that is something more than a pleasure.</ab>
+<ab rend="indent">Not a day goes by without praying to God and 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> without speaking of God, not only praying but also admitting to it, not only speaking but also holding fast to prayer, Father I pray not that Thou shouldest take me out of the world, but that Thou shouldest keep me from the evil.<anchor n="8" xml:id="note-t-8"/> ‘O Lord, join us intimately to one another and let our Love for Thee make that bond ever stronger’.<anchor n="9" xml:id="note-t-9"/>
+                </ab>
+<ab rend="indent">My speaking of Him is nothing much as yet, but with God’s help and blessing it will get better. I have confidence<anchor n="10" xml:id="note-t-10"/> nowadays, but there is greater confidence than this, and greater Love and greater strength to act and to do what is right, a greater yielding to a stronger urge, a better and more profound searching for God and doing His will with a simpler, better and humbler heart, and that’s what I hope for.<anchor n="11" xml:id="note-t-11"/>
+                </ab>
+  <ab rend="indent">Have I ever told you about that painting by <rs type="pers" key="878">Boughton</rs>, ‘The pilgrim’s progress’?<anchor n="12" xml:id="note-t-12"/>
+                </ab>
+<ab rend="indent">It’s getting on towards evening. A sandy road leads over the hills to a mountain on which one sees the holy city lit by the sun setting red behind the grey clouds of evening.</ab>
+<ab rend="indent">On the road a pilgrim who wants to go to that city, he is already tired and asks a woman in black standing by the roadside whose name is ‘sorrowful, yet alway rejoicing’,<anchor n="13" xml:id="note-t-13"/>
+                </ab>
+<vg:whiteline/>
+<ab>‘Does the road go uphill then all the way?’</ab>
+<ab>‘Yes to the very end’</ab>
+<ab>‘And will the journey take all day long?’</ab>
+<ab>‘From morn till night my friend’.<anchor n="14" xml:id="note-t-14"/> 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/>
+                </ab>
+<vg:whiteline/>
+<ab>The landscape the road goes through is so beautiful, brown heathland with birches and pine trees here and there, and patches of yellow sand, and mountains in the distance, against the sun.</ab>
+<ab rend="indent">Actually, it’s not a painting but an inspiration.</ab>
+<ab rend="indent">I’m writing to you between lessons; today I escaped briefly and walked between the hedgerows with ‘John and Theagenes’ in order to memorize it. How I wish you could see the playground now, and the garden behind it, in the twilight, inside the school the gas-lamps flicker and one hears the congenial sound of the boys learning their lessons, from time to time one of them starts humming a snatch of melody from some hymn or other, and there’s something of that ‘faith of old’<anchor n="15" xml:id="note-t-15"/> in me. I’m still a long way from being what I’d like to be, but with God’s help I’ll succeed. What do I want – – – to be bound to Christ with unbreakable bonds and to feel those bonds. To be sorrowful, yet alway rejoicing.<anchor n="16" xml:id="note-t-16"/> To live in and for Christ, to be one of the poor in His kingdom,<anchor n="17" xml:id="note-t-17"/> leavened with the leaven,<anchor n="18" xml:id="note-t-18"/> inspired by His Spirit, constrained by His Love,<anchor n="19" xml:id="note-t-19"/> resting in the Father with that rest of which I spoke in my last letter. To become one who cannot rest in anything but in Him, who desires nothing on earth beside Him,<anchor n="20" xml:id="note-t-20"/> and who lives in the Love of God and of Christ, in whom we are intimately bound with one another. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/>
+                </ab>
+<ab rend="indent">
+                    <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Gal" chap="4" v="6">Gal. IV:6</bibleref>. And because ye are sons, God hath sent forth the Spirit of his Son into your hearts, crying, Abba, Father!</ab>
+<vg:whiteline/>
+<ab>Though I speak with the tongues of men and of angels, and have not Charity, I am become as sounding brass, or a tinkling cymbal.</ab>
+<ab rend="indent">And though I have the gift of prophecy, and understand all mysteries, and all knowledge; and though I have all faith, so that I could remove mountains, and have not Charity, I am nothing. And though I bestow all my goods to feed the poor, and though I give my body to be burned, and have not charity, it profiteth me nothing.</ab>
+<ab rend="indent">Charity suffereth long, it is meek, it is woe-spirited, it has woe and spirit, charity is kind; Charity envieth not; Charity vaunteth not itself, is not puffed up, doth not behave itself unseemly, seeketh not her own, is not easily provoked, thinketh no evil; rejoiceth not in iniquity, but rejoiceth in the truth; beareth all things, believeth all things, hopeth all things, endureth all things. Charity never faileth: but whether there be prophecies, they shall fail; whether there be tongues, they shall cease; whether there be knowledge, it shall vanish away. For we know in part, and we prophesy in part. But when that which is perfect is come, then that which is in part shall be done away. When I was a child, I spake as a child, I understood as a child, I thought as a child: but when I became a man, I put away childish things. For now we see through a glass, darkly; but then face to face: now I know in part; but then shall I know even as also I am known. And now abideth faith, hope, Charity; but the greatest of these is Charity.<anchor n="21" xml:id="note-t-21"/>
+                </ab>
+<vg:whiteline/>
+<ab>I know in Whom my faith is founded,</ab>
+<ab>Though day and night change constantly,</ab>
+<ab>I know the rock on which I’m grounded,</ab>
+<ab>My Saviour waits, unfailingly.</ab>
+<ab>When once life’s evening overcomes me,</ab>
+<ab>Worn down by ills and strife always,</ab>
+<ab>For every day Thou hast allowed me,</ab>
+<ab>I’ll bring Thee higher, purer praise.<anchor n="22" xml:id="note-t-22"/>
+                </ab>
+<vg:whiteline/>
+<ab>May you also have a pleasant evening, may it be so. Thanks for your postcard. <rs type="pers" key="682">Mr Jones</rs> hasn’t yet decided what he will do.<anchor n="23" xml:id="note-t-23"/> Give my regards to all who ask after me, in any case <rs type="pers" key="298">Borchers</rs> if you see him or any of his family. A handshake in thought from</ab>
+<vg:whiteline/>
+<ab>Your most loving brother,</ab>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<ab>
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/>
+                </ab>
+<ab>Just a few more words. I just told the story of John and Theagenes – first in the room where most of the boys sleep and then in the room upstairs where there are 4 others – in the dark, but when I’d finished they had all fallen asleep unnoticed. It’s no wonder, because they ran around a lot today in the playground. Then, too, I speak with some difficulty and I don’t know what it sounds like to English ears. But I’ll learn by practice. I think that the Lord has received me<anchor n="24" xml:id="note-t-24"/> just as I am, with all my shortcomings, although there’s an even deeper kind of receiving for which I hope.</ab>
+<ab>It’s already late. Tomorrow evening I have to tell the same story to the assistant teacher and the two oldest boys, who stay up later. Those three and I eat our bread together in the evenings. When I was telling the story, 
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/> I heard one of them playing ‘Tell me the old, old story’ on the piano downstairs.<anchor n="25" xml:id="note-t-25"/> It’s already late, and school rules don’t really allow me to stay up this long. Just now I smoked my pipe in the playground, it was so beautiful outside, even in the small yard where the pig lives for most of the year, though it’s not there at the moment. It’s nice to walk around like that everywhere in the evening, upstairs and downstairs. And now good-night and sleep well, and when you say your evening prayers, remember me as I do you. Good-night, old boy, a handshake in thought from</ab>
+<vg:whiteline/>
+<ab>Your most loving brother</ab>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<ab>
+<pb f="3r" n="7" xml:id="pb-trans-3r-7" facs="#zone-pb-3r-7"/>
+                </ab>
+<ab>I’m already looking forward to Christmas, two years ago we took that walk in the snow in the evening, do you remember it, when we saw the moon rise above Mariënhof?<anchor n="26" xml:id="note-t-26"/> I still remember very well that evening at Christmas-time when I rode from Den Bosch<anchor n="27" xml:id="note-t-27"/> to Helvoirt in an open cart, it was awfully cold and the road was slippery, how beautiful Den Bosch looked, the marketplace and the streets with snow and the houses dark, with snow on the roofs; Brabant is indeed Brabant, and the Mother country is indeed the mother country, and the lands where one is a stranger are the lands where one is a stranger.<anchor n="28" xml:id="note-t-28"/> And how friendly Helvoirt looked that evening, and the lights in the village and the tower between the snow-covered poplars, seen from a distance on the road to Den Bosch. But it’s love that gives everything such great beauty and life. And do you still remember that trip to Sint-Michielsgestel?<anchor n="29" xml:id="note-t-29"/>
+                </ab>
+<vg:whiteline/>
+<ab>
+<pb f="3v" n="8" xml:id="pb-trans-3v-8" facs="#zone-pb-3v-8"/>
+                </ab>
+<ab>And the ransomed of the Lord shall return, and come to Zion with great singing and everlasting joy upon their heads: they shall obtain joy and gladness, and sorrow and sighing shall flee away.<anchor n="30" xml:id="note-t-30"/>
+                </ab>
+<vg:whiteline/>
+<ab>A voice was heard in Ramah, lamentation, and bitter weeping; Rahel weeping for her children refused to be comforted for her children, because they were not.<anchor n="31" xml:id="note-t-31"/>
+                </ab>
+<ab rend="indent">Thus saith the Lord; Refrain thy voice from weeping, and thine eyes from tears: for thy work shall be rewarded, saith the Lord; and they shall come again from the foreign land.<anchor n="32" xml:id="note-t-32"/>
+                </ab>
+<vg:whiteline/>
+<ab>Strengthen ye the weak hands, and confirm the feeble knees.<anchor n="33" xml:id="note-t-33"/>
+                </ab>
+<vg:whiteline/>
+<ab>For my thoughts are not your thoughts, neither are my ways your ways, saith the Lord. For as the heavens are higher than the earth, so are my ways higher than your ways, and my thoughts higher than your thoughts.<anchor n="34" xml:id="note-t-34"/>
+                </ab>
+
+
+<pb f="4r" n="9" xml:id="pb-trans-4r-9" facs="#zone-pb-4r-9"/>
+<ab rend="indent">When <rs type="pers" key="401">Lies</rs> came home at Christmas we had such a nice reunion. She and <rs type="pers" key="240">Albertien</rs>
+                    <anchor n="35" xml:id="note-t-35"/> came from Breda<anchor n="36" xml:id="note-t-36"/> in <rs type="pers" key="423">Uncle Vincent</rs>’s carriage. <rs type="pers" key="526">Pa</rs>, <rs type="pers" key="420">Cor</rs> and I walked up the road to meet them, and when we saw the carriage in the distance I walked on ahead. It was twilight, and dark in the carriage. Through the window one saw the road with rows of trees on either side, and the fields. At the end of the road the church, dark against the sky. Behind the church the large, dark evening clouds, dark but with silver edges. And it was so unexpectedly good for me to see the girl again; it was a much greater joy than I thought it would be.</ab>
+<ab rend="indent">
+                    <rs type="pers" key="412">Anna</rs> should be back in Welwyn by now,<anchor n="37" xml:id="note-t-37"/> when she leaves Welwyn she’ll feel how much she loved it. You remember how in the winter she was the first to get up and make the fire. She’s been a blessing for that household. Her little room is so pretty, with the ivy 
+<pb f="4v" n="10" xml:id="pb-trans-4v-10" facs="#zone-pb-4v-10"/> around the window and the view of the garden and the huge chestnut trees, which masses of swallows fly around in the summer when the sun goes down behind the trees. And the rooks have their nests there. The Mater Dolorosa by <rs type="pers" key="983">Delaroche</rs>
+                    <anchor n="38" xml:id="note-t-38"/> was hanging above her bed.</ab>
+<ab rend="indent">Do you perhaps still have that page from <rs type="pers" key="707">Michelet</rs> that begins ‘from here I see a lady’?<anchor n="39" xml:id="note-t-39"/> If you do, copy it for me if you will, I need it but don’t have the book any more.</ab>
+<vg:whiteline/>
+<ab>A torrent of unrightousness</ab>
+<ab>Has got the mastery of me</ab>
+<ab>Oh my unbridled sinfulness</ab>
+<ab>Thou dost atone in harmony!</ab>
+<ab>Blest is he whom Thou hast chosen</ab>
+<ab>From all earthly woe set free</ab>
+<ab>Coming nigh, for Thou hast spoken</ab>
+<ab>To find his dwelling-place in Thee.<anchor n="40" xml:id="note-t-40"/>
+                </ab>
+<vg:whiteline/>
+<ab>Blest is the man whose sins have been forgiven</ab>
+<ab>Saved from punition in the sight of heaven</ab>
+<ab>The transgression leading to his blight</ab>
+<ab>Is hidden from the Lord’s most holy sight.</ab>
+<ab>Blest is the man to whom it is allowed</ab>
+<ab>To be judged blameless by a righteous God And nurtures in his heart sincere and pious</ab>
+<ab>Pure probity and no base wickedness.<anchor n="41" xml:id="note-t-41"/>
+                </ab>
+<vg:whiteline/>
+<ab>How shall these things be?<anchor n="42" xml:id="note-t-42"/>
+                </ab>
+<vg:whiteline/>
+<ab>Who shall roll us away the stone from the sepulchre?<anchor n="43" xml:id="note-t-43"/>
+                </ab>
+<vg:whiteline/>
+<ab rend="indent">
+<pb f="5r" n="11" xml:id="pb-trans-5r-11" facs="#zone-pb-5r-11"/>
+                </ab>
+<ab>I will go forth before thee, and make the crooked places straight: I will break in pieces the gates of brass, and cut in sunder the bars of iron.<anchor n="44" xml:id="note-t-44"/>
+                </ab>
+<vg:whiteline/>
+<ab>I am the First and the Last.<anchor n="45" xml:id="note-t-45"/>
+                </ab>
+<vg:whiteline/>
+<ab>Can a woman forget her sucking child, that she should not have compassion on the son of her womb? yea, they may forget, yet will I not forget Thee.<anchor n="46" xml:id="note-t-46"/>
+                </ab>
+<vg:whiteline/>
+<ab>Hear now this, thou afflicted, and drunken, but not with wine: Behold, I have taken out of thine hand the cup of trembling, even the dregs of the cup of my fury; thou shalt no more drink it again.<anchor n="47" xml:id="note-t-47"/>
+                </ab>
+<vg:whiteline/>
+<ab>For the mountains shall depart, and the hills be removed; but my kindness shall not depart from thee, neither shall the covenant of my peace be removed, saith the Lord that hath mercy on thee.<anchor n="48" xml:id="note-t-48"/>
+                </ab>
+<ab rend="indent">The sun shall be no more thy light by day; neither for brightness shall the moon give light unto thee: but the Lord shall be unto thee an everlasting light, 
+<pb f="5v" n="12" xml:id="pb-trans-5v-12" facs="#zone-pb-5v-12"/> and thy God thy glory. Thy sun shall no more go down; neither shall thy moon withdraw itself: for the Lord shall be thine everlasting light, and the days of thy mourning shall be ended.<anchor n="49" xml:id="note-t-49"/>
+                </ab>
+<vg:whiteline/>
+<ab>As one whom his Mother comforteth, so will I comfort you,<anchor n="50" xml:id="note-t-50"/> saith the Lord. From this time thou shalt cry unto me, My Father, thou art the guide of my youth.<anchor n="51" xml:id="note-t-51"/> Thou shalt call me, My Father; and shalt not turn away from me.<anchor n="52" xml:id="note-t-52"/>
+                </ab>
+<vg:whiteline/>
+<ab>Heal me, O Lord, and I shall be healed; save me, and I shall be saved.<anchor n="53" xml:id="note-t-53"/> Turn thou me, and I shall be turned.<anchor n="54" xml:id="note-t-54"/>
+                </ab>
+<vg:whiteline/>
+  <ab>For I am with thee, saith the Lord, to save thee,<anchor n="55" xml:id="note-t-55"/> even if all thy lovers have forgotten thee.<anchor n="56" xml:id="note-t-56"/>
+                </ab> 
+  <vg:whiteline/>
+                <ab>I will restore health unto thee, and I will heal thee of thy wounds.<anchor n="57" xml:id="note-t-57"/>
+                </ab>
+<vg:whiteline/>
+<ab>
+                    <hi rend="ital">The Lord hath appeared of old unto me, Yea, I have loved thee with an everlasting Love.</hi>
+                    <anchor n="58" xml:id="note-t-58"/> As one whom his Mother comforteth, so will I comfort you,<anchor n="59" xml:id="note-t-59"/> saith the Lord. There is a friend that sticketh closer than a brother.<anchor n="60" xml:id="note-t-60"/>
+                </ab>
+<vg:whiteline/>
+<ab>There is no safer or better way to get through life than Love, above all for our Father, in whose name we go forward from one day to the next, though we can feel love for others as well. How often has the memory of one who is already departed to our Father’s house where there are many mansions<anchor n="61" xml:id="note-t-61"/> warmed me and made my heart glow with Love in the streets of London and on my evening walks in the cabbage fields outside the city. And still the thought of Him recurs and Love of Him, as often as I walk the streets of London.</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>That Van Gogh corresponded frequently with <rs type="pers" key="787">H.G. Tersteeg</rs> at this time emerges from the following remark made by <rs type="pers" key="524">Mrs van Gogh</rs> to Theo: ‘When Vincent was home last year, he let us read letters from Mr Tersteeg which he received in London. So nice, and enjoyable’ (FR b972, 31 March 1878).</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>The early Christian legend of <hi rend="ital">John and Theagenes</hi> treats the apostle John, who asks a bishop near Ephesus to keep an eye on the promising youth Theagenes. The bishop fails in this endeavour and the lad becomes the leader of a band of robbers. Later, however, John succeeds in making him repent: Theagenes shows remorse and is converted to a new, God-fearing life. In the Netherlands the story was known from <rs type="pers" key="619">Bernard ter Haar</rs>’s adaptation titled <rs type="lit" key="76">
+                            <hi rend="ital">Joannes en Theagenes. Eene legende uit de apostolische eeuw</hi>
+                        </rs>. Arnhem 1838 (and several reprints).</ab>
+                </note>
+  <note n="3" xml:id="n-3" target="#note-t-3">
+<ab>
+      <rs type="lit" key="77">
+                            <hi rend="ital">Le conscrit</hi>
+                        </rs> (The conscript) is the French title of an originally Flemish story set in an idyllic village, titled <rs type="lit" key="77">
+                            <hi rend="ital">De loteling</hi>
+                        </rs> (1850) by <rs type="pers" key="572">Henri Conscience</rs>. It recounts the heartrending story of Jan, whose conscription into the army forced him to take leave of his family and his beloved Trien. The book had been reprinted several times before 1876 (the year in which this letter was written), and there were a number of French translations.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>Regarding <rs type="lit" key="53">
+                            <hi rend="ital">Madame Therèse</hi>
+                        </rs>, <ref target="let055.xml#n-24">see letter 55, n. 24.</ref>
+                    </ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>The short story ‘<rs type="lit" key="78">Die Neujahrsnacht eines Unglücklichen</rs>’ (A wretch’s New Year’s Eve) by <rs type="pers" key="718">Jean Paul</rs>, (the pseudonym of <rs type="pers" key="718">Johann Paul Friedrich Richter</rs>) is about an old man who regrets his past mistakes, and upon hearing the chimes ringing in the new year, recalls with longing his innocent youth and realizes that it is not too late to turn over a new leaf and lead a virtuous life. See <hi rend="ital">Jean Pauls Sämtliche Werke</hi>. Ed. Eduard Berend. Vol. 7, section 1. Weimar 1931, pp. 392-394. A Dutch translation, ‘De oudejaarsnacht van eenen ongelukkigen’, appeared in <hi rend="ital">Gedachten van Jean Paul. Met eene inleiding door J.A. Weiland</hi>. 2 vols. Amsterdam 1837, vol. 1, pp. 85-88.</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>
+                        <rs type="pers" key="512">Andersen</rs>'s <rs type="lit" key="59">fairy tales</rs> ‘<rs type="lit" key="79">De geschiedenis eener moeder</rs>’ (Andersen 1872, pp. 413-419), which appeared as ‘The story of a mother’ in Andersen 1861, pp. 394-400; ‘<rs type="lit" key="80">De roode schoentjes</rs>’ (Andersen 1872, pp. 253-260), which appeared as ‘The red shoes’ in Andersen 1861, pp. 271-277; ‘<rs type="lit" key="81">Het kleine meisje met de lucifers</rs>’ (Andersen 1872, pp. 319-321), which appeared as ‘The little matchseller’, Andersen 1861, pp. 324-326.</ab>
+<ab rend="indent">The first is the story of a horror-stricken mother who sets out in search of her daughter, who has been claimed by Death. At first prepared to go to any lengths to recover her daughter, the mother ultimately accepts God’s will. The second fairy tale is about a girl called Karen who is obsessed with red shoes. When her shoes are put under a spell and cannot stop dancing, she has her feet chopped off. She goes to work for a preacher, whom she helps ‘diligently and thoughtfully’, finally realizing that it is not splendour and finery that is important, but the attainment of God’s grace. ‘The little matchseller’ is the tale of a little girl who is sent out on a cold New Year’s Eve to sell matches. She manages to stay alive by lighting one match after another, in the course of which beautiful and joyous things happen to her. Just before freezing to death, she is lovingly gathered up in the arms of her grandmother, and together they are embraced by God.</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>Regarding ‘<rs type="lit" key="61">King Robert of Sicily</rs>’ by <rs type="pers" key="696">Longfellow</rs>, <ref target="let066.xml#n-12">see letter 66, n. 12.</ref>
+                    </ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="John" chap="17" v="15">John 17:15</bibleref>.</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>A prayer written and often recited in the family circle by <rs type="pers" key="526">Mr van Gogh</rs>; <ref target="let113.xml">see letter 113</ref>.</ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>‘Vrijmoedigheid hebben’ (to have confidence) is a pietistic manner of speaking.</ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>Van Gogh’s striving for greater godliness was viewed with dismay by his family. <rs type="pers" key="401">Lies</rs>, for example, wrote to Theo on 18 August: ‘I believe he is intoxicated with piety’ (FR b2766).</ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+<ab>For a long time it was thought that Van Gogh was referring here to <rs type="pers" key="878">Boughton</rs>’s <hi rend="ital">The pilgrim’s progress</hi>, also called: <hi rend="ital">Godspeed! Pilgrims setting out for Canterbury; Time of Chaucer</hi>, 1874 (Amsterdam, Van Gogh Museum). <rs type="ill" key="1815">Ill. 1815</rs>. There is reason to doubt this identification, however. Parts of Van Gogh’s description do not correspond to this work: the woman who is being addressed is not wearing black, for example, and there is no sign of either the evening sun or mountains in the distance. Moreover, Van Gogh refers again to this work in <ref target="let099.xml">letter 99</ref>, in which he explicitly mentions a ‘sketch’. Sund therefore imagines a work ‘in the mode of <hi rend="ital">Bearers of the Burden</hi>’, in Sund 1992, p. 259 (n. 77). See also Hope B. Werness, ‘Vincent van Gogh and a lost painting by G.H. Boughton’, <hi rend="ital">Gazette des Beaux-Arts</hi> 106 (September 1985), pp. 53-75, and Xander van Eck, who stated: ‘It seems very probable that Boughton did indeed make a painting based on Bunyan’s immensely popular <hi rend="ital">Pilgrim’s Progress</hi>, even though no such painting has yet come to light.’ See ‘Van Gogh and George Henry Boughton’, <hi rend="ital">The Burlington Magazine</hi> 132 (1990), pp. 539-540 (quotation on p. 540); and De Leeuw 1995.</ab>
+                </note>
+<note n="13" xml:id="n-13" target="#note-t-13">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="2 Cor" chap="6" v="10">2 Cor. 6:10</bibleref>.</ab>
+                </note>
+<note n="14" xml:id="n-14" target="#note-t-14">
+<ab>From the poem ‘<rs type="lit" key="46">Up-hill</rs>’ by <rs type="pers" key="192">Christina Georgina Rossetti</rs>; <ref target="let054.xml#n-1">see letter 54, n. 1.</ref>
+                    </ab>
+                </note>
+<note n="15" xml:id="n-15" target="#note-t-15">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Rhy. ps" chap="42" v="7">Rhy. ps. 42:7</bibleref>.</ab>
+                </note>
+<note n="16" xml:id="n-16" target="#note-t-16">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="2 Cor" chap="6" v="10">2 Cor. 6:10</bibleref>.</ab>
+                </note>
+<note n="17" xml:id="n-17" target="#note-t-17">
+<ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Matt" chap="5" v="3">Matt. 5:3</bibleref> and <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Luke" chap="6" v="20">Luke 6:20</bibleref>.</ab>
+                </note>
+<note n="18" xml:id="n-18" target="#note-t-18">
+<ab>Biblical; cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Matt" chap="13" v="33">Matt. 13:33</bibleref>.</ab>
+                </note>
+<note n="19" xml:id="n-19" target="#note-t-19">
+<ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="2 Cor" chap="5" v="14">2 Cor. 5:14</bibleref>.</ab>
+                </note>
+<note n="20" xml:id="n-20" target="#note-t-20">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Ps" chap="73" v="25">Ps. 73:25</bibleref>.</ab>
+                </note>
+<note n="21" xml:id="n-21" target="#note-t-21">
+<ab>
+                        <vg:bibleref book="1 Cor" chap="13">1 Cor. 13</vg:bibleref>. To verse 4 of this passage Van Gogh added the phrase ‘zij is zacht... moed’ (it is meek... woe and spirit), which is based on <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Gal" chap="5" v="22">Gal. 5:22</bibleref>, <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Eph" chap="4" v="2">Eph. 4:2</bibleref> and <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Col" chap="3" v="12">Col. 3:12</bibleref>.</ab>
+                </note>
+<note n="22" xml:id="n-22" target="#note-t-22">
+<ab>
+                        <vg:bibleref book="Hymn" chap="180" v="5">Hymn 180, verse 5</vg:bibleref>.</ab>
+                </note>
+  <note n="23" xml:id="n-23" target="#note-t-23">
+<ab>In <ref target="let087.xml">letters 87</ref> and <ref target="let088.xml">88</ref>, Vincent had asked Theo to inquire about the price of butter. Apparently Theo had written the information requested on the above-mentioned postcard.</ab>
+                </note>
+<note n="24" xml:id="n-24" target="#note-t-24">
+<ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Rom" chap="14" v="3">Rom. 14:3</bibleref> and <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Rom" chap="15" v="7">Rom. 15:7</bibleref>.</ab>
+                </note>
+<note n="25" xml:id="n-25" target="#note-t-25">
+  <ab>Concerning ‘Tell me the old, old story’ from the book <rs type="lit" key="69">
+                            <hi rend="ital">The old, old story</hi>
+                        </rs> by <rs type="pers" key="99">Arabella Catherine Hankey</rs>, <ref target="let082.xml#n-1">see letter 82, n. 1.</ref>
+                    </ab>
+                </note>
+<note n="26" xml:id="n-26" target="#note-t-26">
+<ab>Mariënhof was a country estate lying due south-west of Helvoirt. <rs type="pers" key="524 526">The Van Goghs</rs> – who were friends of the owners, the <rs type="pers" key="459">De Jonge van Zwijnsbergen</rs> family – visited the estate regularly, as emerges from the family correspondence.</ab>
+                </note>
+<note n="27" xml:id="n-27" target="#note-t-27">
+<ab>’s-Hertogenbosch, a city c. 10 km north of Helvoirt.</ab>
+                </note>
+<note n="28" xml:id="n-28" target="#note-t-28">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Gen" chap="37" v="1">Gen. 37:1</bibleref>.</ab>
+                </note>
+<note n="29" xml:id="n-29" target="#note-t-29">
+<ab>The village of Sint-Michielsgestel is c. 8 km east of Helvoirt.</ab>
+                </note>
+<note n="30" xml:id="n-30" target="#note-t-30">
+<ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Isa" chap="35" v="10">Isa. 35:10</bibleref>.</ab>
+                </note>
+<note n="31" xml:id="n-31" target="#note-t-31">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Jer" chap="31" v="15">Jer. 31:15</bibleref>.</ab>
+                </note>
+<note n="32" xml:id="n-32" target="#note-t-32">
+<ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Jer" chap="31" v="16">Jer. 31:16</bibleref>, ‘and they shall come again from the land of the enemy’.</ab>
+                </note>
+<note n="33" xml:id="n-33" target="#note-t-33">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Isa" chap="35" v="3">Isa. 35:3</bibleref>.</ab>
+                </note>
+<note n="34" xml:id="n-34" target="#note-t-34">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Isa" chap="55" vr="8-9">Isa. 55:8-9</bibleref>.</ab>
+                </note>
+<note n="35" xml:id="n-35" target="#note-t-35">
+<ab>
+                        <rs type="pers" key="240">Albertina Brugsma</rs>, a school friend of <rs type="pers" key="401">Lies</rs>, spent the Christmas holidays with the Van Gogh family in 1875 (FR b2224, b2379 and b2385).</ab>
+                </note>
+<note n="36" xml:id="n-36" target="#note-t-36">
+<ab>The city of Breda is c. 35 km west of Helvoirt.</ab>
+                </note>
+<note n="37" xml:id="n-37" target="#note-t-37">
+<ab>
+                        <rs type="pers" key="412">Anna</rs> had left on Friday, 25 August and therefore could not have arrived in Welwyn before Saturday, 26 August (FR b2768).</ab>
+                </note>
+<note n="38" xml:id="n-38" target="#note-t-38">
+<ab>Regarding the <rs type="ill" key="1745">
+                            <hi rend="ital">Mater Dolorosa</hi>
+                        </rs> by <rs type="pers" key="983">Paul Delaroche</rs>, <ref target="let054.xml#n-14">see letter 54, n. 14.</ref>
+                    </ab>
+                </note>
+<note n="39" xml:id="n-39" target="#note-t-39">
+<ab>For the passage ‘Je vois d’ici une dame’ from the chapter ‘Les aspirations de l’automne’ from<rs type="pers" key="707"> Jules Michelet</rs>’s <rs type="lit" key="11">
+                            <hi rend="ital">L’amour</hi>
+                        </rs>, <ref target="let014.xml#n-19">see letter 14, n. 19.</ref> There is a sheet in the estate with this passage in Theo’s handwriting (FR b4527).</ab>
+                </note>
+<note n="40" xml:id="n-40" target="#note-t-40">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Rhy. ps" chap="65" v="2">Rhy. ps. 65:2</bibleref>.</ab>
+                </note>
+<note n="41" xml:id="n-41" target="#note-t-41">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Rhy. ps" chap="32" v="1">Rhy. ps. 32:1</bibleref>.</ab>
+                </note>
+<note n="42" xml:id="n-42" target="#note-t-42">
+<ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="John" chap="3" v="9">John 3:9</bibleref>.</ab>
+                </note>
+<note n="43" xml:id="n-43" target="#note-t-43">
+<ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Mark" chap="16" v="3">Mark 16:3</bibleref>.</ab>
+                </note>
+<note n="44" xml:id="n-44" target="#note-t-44">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Isa" chap="45" v="2">Isa. 45:2</bibleref>. Van Gogh wrote ‘heengaan’ (go forth) instead of ‘gaan’ (go).</ab>
+                </note>
+<note n="45" xml:id="n-45" target="#note-t-45">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Rev" chap="22" v="13">Rev. 22:13</bibleref>.</ab>
+                </note>
+<note n="46" xml:id="n-46" target="#note-t-46">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Isa" chap="49" v="15">Isa. 49:15</bibleref>.</ab>
+                </note>
+<note n="47" xml:id="n-47" target="#note-t-47">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Isa" chap="51" vr="21-22">Isa. 51:21-22</bibleref>.</ab>
+                </note>
+<note n="48" xml:id="n-48" target="#note-t-48">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Isa" chap="54" v="10">Isa. 54:10</bibleref>.</ab>
+                </note>
+<note n="49" xml:id="n-49" target="#note-t-49">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Isa" chap="60" vr="19-20">Isa. 60:19-20</bibleref>.</ab>
+                </note>
+<note n="50" xml:id="n-50" target="#note-t-50">
+<ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Isa" chap="66" v="13">Isa. 66:13</bibleref>.</ab>
+                </note>
+<note n="51" xml:id="n-51" target="#note-t-51">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Jer" chap="3" v="4">Jer. 3:4</bibleref>.</ab>
+                </note>
+<note n="52" xml:id="n-52" target="#note-t-52">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Jer" chap="3" v="19">Jer. 3:19</bibleref>.</ab>
+                </note>
+<note n="53" xml:id="n-53" target="#note-t-53">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Jer" chap="17" v="14">Jer. 17:14</bibleref>.</ab>
+                </note>
+<note n="54" xml:id="n-54" target="#note-t-54">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Jer" chap="31" v="18">Jer. 31:18</bibleref>.</ab>
+                </note>
+<note n="55" xml:id="n-55" target="#note-t-55">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Jer" chap="30" v="11">Jer. 30:11</bibleref>.</ab>
+                </note>
+<note n="56" xml:id="n-56" target="#note-t-56">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Jer" chap="30" v="14">Jer. 30:14</bibleref>.</ab>
+                </note>
+<note n="57" xml:id="n-57" target="#note-t-57">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Jer" chap="30" v="17">Jer. 30:17</bibleref>.</ab>
+                </note>
+<note n="58" xml:id="n-58" target="#note-t-58">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Jer" chap="31" v="3">Jer. 31:3</bibleref>.</ab>
+                </note>
+<note n="59" xml:id="n-59" target="#note-t-59">
+<ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Isa" chap="66" v="13">Isa. 66:13</bibleref>.</ab>
+                </note>
+<note n="60" xml:id="n-60" target="#note-t-60">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Prov" chap="18" v="24">Prov. 18:24</bibleref>.</ab>
+                </note>
+<note n="61" xml:id="n-61" target="#note-t-61">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="John" chap="14" v="2">John 14:2</bibleref>.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

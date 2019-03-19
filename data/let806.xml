@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Saint-Rémy-de-Provence, Saturday, 28 September 1889.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let806"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">806</idno>
+<idno type="collectedletters">608</idno>
+<idno type="brieven1990">807</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Saint-Rémy-de-Provence</vg:placeLet>
+                        <vg:dateLet>Saturday, 28 September 1889</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. Saint-Rémy-de-Provence, Saturday, 28 September 1889.</p>
+<note type="ongoingTopic" n="1">
+<p>Second consignment of paintings from Saint-Rémy <ref target="let805.xml">(805)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="2">
+<p>Vincent has paintings intended for his mother and Willemien <ref target="let803.xml">(803)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="3">
+<p>First attack in Saint-Rémy <ref target="let793.xml">(793)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b656 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Vincent complains that he has not heard from Theo for a long time <ref target="#l-87">(ll. 87-89)</ref>. Theo’s last letter dated from 18 September <ref target="let802.xml">(802)</ref>, and Vincent has not yet received <ref target="let807.xml">letter 807</ref> of 4 October. On 5 October Vincent writes that he sent canvases ‘last Saturday’ which Theo has probably received in the meantime (<ref target="let808.xml">letter 808</ref>). This can only be the consignment about which he says in the present letter that it is ‘leaving today’ <ref target="#l-6">(l. 6)</ref>. On the basis of the above, we have dated the letter to Saturday, 28 September 1889.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0656" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000899_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000899_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000899_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000899_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000899_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000899_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="VGM001000899_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000899_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000899_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0656" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000899_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000899_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000899_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000899_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000899_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000899_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000899_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000899_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000899_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Mon cher Theo,</ab>
+                <lb n="1*" xml:id="l-1s"/>
+<ab>je t’écris encore un mot <lb n="2" xml:id="l-2"/>pour expliquer qu’il manque à l’envoi <lb n="3" xml:id="l-3"/>de toiles (que tu auras déjà) 3 études puisque le rouleau <lb n="4" xml:id="l-4"/>en les ôtant coutait fr<c type="kp">_</c> 3.50 de moins <lb n="5" xml:id="l-5"/>de transport. Je les enverrai donc prochaine <lb n="6" xml:id="l-6"/>occasion – ou plutôt ils partent aujourd’hui <lb n="7" xml:id="l-7"/>avec d’autres toiles – les suivantes.</ab>
+<vg:whiteline/>
+                <lb n="8" xml:id="l-8"/>
+<ab rend="html" html="806_01_ol.html">Champ de blé<anchor n="1" xml:id="note-o-1"/>
+                </ab>
+                <lb n="9" xml:id="l-9"/>
+<ab rend="html" html="806_01_ol.html">Champ de blé et cyprès<anchor n="2" xml:id="note-o-2"/>
+                </ab>
+                <lb n="10" xml:id="l-10"/>
+<ab rend="html" html="806_01_ol.html">idem.<anchor n="3" xml:id="note-o-3"/>
+                </ab>
+                <lb n="11" xml:id="l-11"/>
+<ab rend="html" html="806_01_ol.html">le lierre<anchor n="4" xml:id="note-o-4"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="12" xml:id="l-12"/>
+    <ab rend="html" html="806_01_ol.html">Etude de Cyprès<anchor n="5" xml:id="note-o-5"/>
+                </ab>
+                <lb n="13" xml:id="l-13"/>
+    <ab rend="html" html="806_01_ol.html">Faucheur<anchor n="6" xml:id="note-o-6"/>
+                </ab>
+                <lb n="14" xml:id="l-14"/>
+    <ab rend="html" html="806_01_ol.html">idem<anchor n="7" xml:id="note-o-7"/>
+                </ab>
+                <lb n="15" xml:id="l-15"/>
+    <ab rend="html" html="806_01_ol.html">les oliviers<anchor n="8" xml:id="note-o-8"/>
+                </ab>
+<lb n="16" xml:id="l-16"/>
+<ab>plus alors les trois études susmentionnées<c type="kk">/</c> <lb n="17" xml:id="l-17"/>Coquelicots<anchor n="9" xml:id="note-o-9"/> – Effet de nuit<anchor n="10" xml:id="note-o-10"/> – lever de lune.<anchor n="11" xml:id="note-o-11"/> <lb n="18" xml:id="l-18"/>Bientôt je t’envoie quelques toiles <lb n="19" xml:id="l-19"/>plus petites avec les 4 ou 5 études <lb n="20" xml:id="l-20"/>que je voulais donner à la mère et la <lb n="21" xml:id="l-21"/>soeur. Ces etudes sèchent à present<c type="kp">_</c> <lb n="22" xml:id="l-22"/>C’est des toiles de 10 et de 12<c type="kk">/</c> reductions <lb n="23" xml:id="l-23"/>du champ de blé &amp; cyprès<c type="kk">/</c>
+                    <anchor n="12" xml:id="note-o-12"/> Oliviers<c type="kk">/</c>
+                    <anchor n="13" xml:id="note-o-13"/> <lb n="24" xml:id="l-24"/>Faucheur<anchor n="14" xml:id="note-o-14"/> et Chambre à coucher<anchor n="15" xml:id="note-o-15"/> <lb n="25" xml:id="l-25"/>et un petit portrait de moi<c type="kp">_</c>
+                    <anchor n="16" xml:id="note-o-16"/>
+                </ab>
+                <lb n="26" xml:id="l-26"/>
+<ab rend="indent">Cela leur fera un bon commencement <lb n="27" xml:id="l-27"/>et je crois qu’à toi comme à moi cela <lb n="28" xml:id="l-28"/>nous donnera quelque plaisir de <lb n="29" xml:id="l-29"/>faire en sorte que la soeur ou les soeurs <lb n="30" xml:id="l-30"/>aient une petite collection de <lb n="31" xml:id="l-31"/>tableaux. Je ferai à leur intention <lb n="32" xml:id="l-32"/>des reduction des meilleures toiles<c type="kk">/</c> <lb n="33" xml:id="l-33"/>ainsi je voulais aussi qu’elles eussent <lb n="34" xml:id="l-34"/>la vigne rouge et verte<c type="kk">/</c> les maronniers <lb n="35" xml:id="l-35"/>roses<c type="kk">/</c> l’effet de nuit que tu as exposé<c type="kp">_</c>
+                    <anchor n="17" xml:id="note-o-17"/>
+                </ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="36" xml:id="l-36"/>
+<ab rend="indent">Tu verras que je gagne un peu en patience <lb n="37" xml:id="l-37"/>et que perséverer sera une suite de ma <lb n="38" xml:id="l-38"/>maladie. Je me sens plus dégagé de bien <lb n="39" xml:id="l-39"/>de preoccupations.</ab>
+                <lb n="40" xml:id="l-40"/>
+<ab rend="indent">Tu m’enverras un jour<c type="kk">/</c> quand ca te conviendra<c type="kk">/</c> <lb n="41" xml:id="l-41"/>la vigne rouge et d’autres toiles dans ce but <lb n="42" xml:id="l-42"/>lorsque tu auras vu les 5 que j’ai faites<c type="kp">_</c>
+                </ab>
+                <lb n="43" xml:id="l-43"/>
+<ab rend="indent">à Présent pour ce faucheur – d’abord je croyais <lb n="44" xml:id="l-44"/>que la repetition en grand format que je <lb n="45" xml:id="l-45"/>t’envoie était pas mal – mais ensuite <lb n="46" xml:id="l-46"/>lorsque les jours de mistral et de pluie sont <lb n="47" xml:id="l-47"/>venues j’ai préféré la toile faite sur nature <lb n="48" xml:id="l-48"/>qui me paraissait un peu drôle.<anchor n="18" xml:id="note-o-18"/> Mais non<c type="kk">/</c> <lb n="49" xml:id="l-49"/>quand il fait un temps froid et triste c’est <lb n="50" xml:id="l-50"/>precisement celle là qui me fait ressouvenir <lb n="51" xml:id="l-51"/>de cette fournaise d’été sur les blés chauffés <lb n="52" xml:id="l-52"/>à blanc et donc l’exagération n’y est pas <lb n="53" xml:id="l-53"/>tant que ça.</ab>
+                <lb n="54" xml:id="l-54"/>
+<ab rend="indent">le père Peyron est revenu et a causé <lb n="55" xml:id="l-55"/>avec moi de ce qu’il t’avait vu et disait <lb n="56" xml:id="l-56"/>que sans doute ta lettre m’apprendrait tous <lb n="57" xml:id="l-57"/>les details de la conversation qu’il avait eu avec <lb n="58" xml:id="l-58"/>toi<c type="kp">_</c>
+                    <anchor n="19" xml:id="note-o-19"/> Que dans tous les cas le résultat était <lb n="59" xml:id="l-59"/>qu’il serait sage d’attendre encore ici. Ce qui <lb n="60" xml:id="l-60"/>étant aussi mon avis<c type="kk">/</c> va sans dire.</ab>
+                <lb n="61" xml:id="l-61"/>
+<ab rend="indent">Neamoins si une attaque revient je persiste <lb n="62" xml:id="l-62"/>à vouloir essayer un changement de <lb n="63" xml:id="l-63"/>climat et retourner même pour un pis aller <lb n="64" xml:id="l-64"/>dans le nord.</ab>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                <lb n="65" xml:id="l-65"/>
+<ab rend="indent">M. Peyron disait que tu avais l’air de te <lb n="66" xml:id="l-66"/>bien porter ce qui me fait plaisir<c type="kp">_</c>
+                </ab>
+                <lb n="67" xml:id="l-67"/>
+<ab rend="indent">J’ai reçu les 10 tubes de blanc<anchor n="20" xml:id="note-o-20"/> <lb n="68" xml:id="l-68"/>mais il m’en faudra <hi rend="ital">aussitôt</hi> <lb n="69" xml:id="l-69"/>
+                    <hi rend="ital">possible</hi> encore <lb n="69*" xml:id="l-69s"/> une douzaine blanc de zinc</ab>
+                <lb n="70" xml:id="l-70"/>
+<ab rend="html" html="806_02_ol.html">     2 grand tube Cobalt</ab>
+                <lb n="71" xml:id="l-71"/>
+<ab rend="html" html="806_02_ol.html">     1      ,,    ,,     Emeraude</ab>
+                <lb n="72" xml:id="l-72"/>
+<ab rend="html" html="806_02_ol.html">     1      ,,    ,,     Chrome 1</ab>
+                <lb n="73" xml:id="l-73"/>
+<ab rend="html" html="806_02_ol.html">     1   petit tube carmin</ab>
+<vg:whiteline/>
+                <lb n="74" xml:id="l-74"/>
+<ab>Car il y a de beaux effets d’automne <lb n="75" xml:id="l-75"/>à faire<c type="kp">_</c>
+                </ab>
+                <lb n="76" xml:id="l-76"/>
+<ab rend="indent">Je me sens à présent tout à fait <lb n="77" xml:id="l-77"/>normal et ne me souviens plus du <lb n="78" xml:id="l-78"/>tout de ces mauvais jours.</ab>
+                <lb n="79" xml:id="l-79"/>
+<ab rend="indent">Avec le travail et une nourriture <lb n="80" xml:id="l-80"/>très regulière cela durera <lb n="81" xml:id="l-81"/>probablement pendant assez longtemps <lb n="82" xml:id="l-82"/>comme ci comme ça et quand même <lb n="83" xml:id="l-83"/>je ferai aussi mon travail <lb n="84" xml:id="l-84"/>sans que cela paraisse<c type="kp">_</c> Car fin du <lb n="85" xml:id="l-85"/>mois tu recevras encore une douzaine <lb n="86" xml:id="l-86"/>d’études<c type="kp">_</c>
+                </ab>
+                <lb n="87" xml:id="l-87"/>
+<ab rend="indent">Est ce que je me trompe mais <lb n="88" xml:id="l-88"/>ta lettre me parait tarder <lb n="89" xml:id="l-89"/>bien longtemps cette fois ci.</ab>
+                <lb n="90" xml:id="l-90"/>
+<ab rend="indent">Malheureusement les vignes manquent <lb n="91" xml:id="l-91"/>ici<c type="kk">/</c> sans cela je m’étais promis <lb n="92" xml:id="l-92"/>de ne faire que ça cet automne<c type="kp">_</c> <lb n="93" xml:id="l-93"/>Il y en a bien mais pour cela <lb n="94" xml:id="l-94"/>il aurait fallu aller loger dans <lb n="95" xml:id="l-95"/>un autre village.</ab>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                <lb n="96" xml:id="l-96"/>
+<ab rend="indent">Par contre les oliviers sont fort <lb n="97" xml:id="l-97"/>caracteristiques et je lutte pour <lb n="98" xml:id="l-98"/>attraper cela. C’est de l’argent <lb n="99" xml:id="l-99"/>tantot plus bleu tantot verdi<c type="kk">/</c> bronzé<c type="kk">/</c> <lb n="100" xml:id="l-100"/>blanchissant sur terrain jaune<c type="kk">/</c> <lb n="101" xml:id="l-101"/>rose<c type="kk">/</c> violacé ou orangeâtre <lb n="102" xml:id="l-102"/>jusqu’à l’ocre rouge sourde.</ab>
+                <lb n="103" xml:id="l-103"/>
+<ab rend="indent">Mais fort difficile fort difficile<c type="kp">_</c> <lb n="104" xml:id="l-104"/>Mais cela me va et m’attire <lb n="105" xml:id="l-105"/>de travailler en plein dans de l’or <lb n="106" xml:id="l-106"/>ou de l’argent. Et un jour peutêtre <lb n="107" xml:id="l-107"/>en ferai je une impression personelle <lb n="108" xml:id="l-108"/>comme le sont les tournesols pour <lb n="109" xml:id="l-109"/>les jaunes.<anchor n="21" xml:id="note-o-21"/> Si j’en avais eu cet <lb n="110" xml:id="l-110"/>automne<c type="kp">_</c>– Mais cette demi liberté <lb n="111" xml:id="l-111"/>empêche souvent de faire ce <lb n="112" xml:id="l-112"/>qu’on sent pouvoir cependant<c type="kp">_</c> <lb n="113" xml:id="l-113"/>Patience cependant me diras tu <lb n="114" xml:id="l-114"/>et il le faut bien.</ab>
+                <lb n="115" xml:id="l-115"/>
+<ab rend="indent">Dis bien des chôses à Jo et porte <lb n="116" xml:id="l-116"/>toi bien et écris bientôt s.v.p.</ab>
+                <lb n="117" xml:id="l-117"/>
+<ab rend="indent">poignées de main<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="118" xml:id="l-118"/>
+<ab>t. à t<c type="kp">_</c>
+                </ab>
+                <lb n="119" xml:id="l-119"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-2" n="2">(que <supplied>
+                            <hi rend="ital">…</hi>
+                        </supplied> déjà) &lt; <hi rend="ital">Added later; parentheses added by us.</hi>
+                    </note>
+</div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo,</ab>
+<ab>I’m dropping you another line to explain that 3 studies are missing from the consignment of canvases (which you will have already), since by removing them the roll cost 3.50 francs less for carriage. So I’ll send them next opportunity – or rather they’re leaving today with other canvases – the following.</ab>
+<vg:whiteline/>
+<ab rend="html" html="806_01_tr.html">Wheatfield<anchor n="1" xml:id="note-t-1"/>
+                </ab>
+<ab rend="html" html="806_01_tr.html">Wheatfield and cypresses<anchor n="2" xml:id="note-t-2"/>
+                </ab>
+<ab rend="html" html="806_01_tr.html">ditto<anchor n="3" xml:id="note-t-3"/>
+                </ab>
+<ab rend="html" html="806_01_tr.html">The ivy<anchor n="4" xml:id="note-t-4"/>
+                </ab>
+<vg:whiteline/>
+    <ab rend="html" html="806_01_tr.html">Study of cypresses<anchor n="5" xml:id="note-t-5"/>
+                </ab>
+    <ab rend="html" html="806_01_tr.html">Reaper<anchor n="6" xml:id="note-t-6"/>
+                </ab>
+    <ab rend="html" html="806_01_tr.html">ditto<anchor n="7" xml:id="note-t-7"/>
+                </ab>
+    <ab rend="html" html="806_01_tr.html">The olive trees<anchor n="8" xml:id="note-t-8"/>
+                </ab>
+<ab>then also the three studies mentioned below, Poppies<anchor n="9" xml:id="note-t-9"/> – Night effect<anchor n="10" xml:id="note-t-10"/> – Moonrise<anchor n="11" xml:id="note-t-11"/>. Soon I’m sending you a few smaller canvases with the 4 or 5 studies I wanted to give to <rs type="pers" key="524">Mother</rs> and our <rs type="pers" key="407">sister</rs>. These studies are drying at the moment. It’s no. 10 and no. 12 canvases, reductions of the Wheatfield and cypresses,<anchor n="12" xml:id="note-t-12"/> Olive trees,<anchor n="13" xml:id="note-t-13"/> Reaper<anchor n="14" xml:id="note-t-14"/> and Bedroom<anchor n="15" xml:id="note-t-15"/> and a little portrait of me.<anchor n="16" xml:id="note-t-16"/>
+                </ab>
+<ab rend="indent">This will give them a good start, and I think this will give both you and me some pleasure to ensure that our sister or <rs type="pers" key="401 407">sisters</rs> have a small collection of paintings. I’ll do reductions of the best canvases with them in mind, in this way I also wanted them to have the red and green vineyard, the pink chestnut trees, the night effect that you exhibited.<anchor n="17" xml:id="note-t-17"/>
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">You’ll see that I’m gaining a little patience, and that persevering will be a result of my illness. I feel more detached from many preoccupations.</ab>
+<ab rend="indent">You’ll send me one day, when it suits you, the red vineyard and other canvases with that aim when you’ve seen the 5 that I’ve done.</ab>
+<ab rend="indent">Now for that reaper – at first I feared that the large format repetition that I’m sending you wasn’t bad – but afterwards, when the days of mistral and rain came, I preferred the canvas done from life, which appeared a little odd to me.<anchor n="18" xml:id="note-t-18"/> But no, when the weather’s cold and sad, it’s precisely that one that makes me remember once again that summer furnace over the white-hot wheat, so the exaggeration isn’t as much as all that.</ab>
+<ab rend="indent">
+                    <hi rend="ital">Père</hi> <rs type="pers" key="568">Peyron</rs> came back and chatted with me about seeing you, and said that no doubt your letter would tell me all the details of the conversation he’d had with you.<anchor n="19" xml:id="note-t-19"/> That in any case the upshot was that it would be wise to go on waiting here. Which, also being my opinion, goes without saying.</ab>
+<ab rend="indent">Nevertheless, if an attack recurs I still want to try a change of climate, and even to return to the north as a stopgap.
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/>
+                </ab>
+<ab rend="indent">
+                    <rs type="pers" key="568">Mr Peyron</rs> said that you looked as if you were well, which gives me pleasure.</ab>
+<ab rend="indent">I’ve received the 10 tubes of white,<anchor n="20" xml:id="note-t-20"/> but <hi rend="ital">as soon as possible </hi>I’ll need another dozen zinc white</ab>
+<ab rend="html" html="806_02_tr.html">2 large tubes Cobalt</ab>
+<ab rend="html" html="806_02_tr.html">1 ,, ,, Emerald</ab>
+<ab rend="html" html="806_02_tr.html">1 ,, ,, Chrome 1</ab>
+<ab rend="html" html="806_02_tr.html">1 small tube carmine</ab>
+<vg:whiteline/>
+<ab>For there are fine autumnal effects to do.</ab>
+<ab rend="indent">At present I feel completely normal and no longer remember those bad days at all.</ab>
+<ab rend="indent">With work and very regular food this will probably last for quite a long time, so-so, and I’ll also do my work all the same without it appearing. For at the end of the month you’ll receive another dozen studies.</ab>
+<ab rend="indent">Am I mistaken, but it seems to me that your letter is very delayed this time?</ab>
+<ab rend="indent">Unfortunately there are no vineyards here, otherwise I’d promised myself to do nothing else this autumn. There are some, but for that I would have had to go and stay in another village.
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/>
+                </ab>
+<ab rend="indent">On the other hand the olive trees are very characteristic, and I’m struggling to capture that. It’s silver, sometimes more blue, sometimes greenish, bronzed, whitening on ground that is yellow, pink, purplish or orangeish to dull red ochre.</ab>
+<ab rend="indent">But very difficult, very difficult. But that suits me and attracts me to work fully in gold or silver. And one day perhaps I’ll do a personal impression of it, the way the sunflowers are for yellows.<anchor n="21" xml:id="note-t-21"/> If only I’d had some of them this autumn. But this half-freedom often prevents one from doing what one nevertheless feels able to do. Patience, however, you’ll tell me, and it’s indeed necessary.</ab>
+<ab rend="indent">Give my warm regards to <rs type="pers" key="416">Jo</rs>, look after yourself, and write soon please.</ab>
+<ab rend="indent">Handshakes.</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>
+      <hi rend="ital">Wheatfield </hi>(<rs type="ill" key="2798">F 719 / JH 1725</rs>).</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>
+      <hi rend="ital">Wheatfield and cypresses </hi>(<rs type="ill" key="2816">F 717 / JH 1756</rs>).</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>
+      <hi rend="ital">Wheatfield and cypresses </hi>(<rs type="ill" key="2815">F 615 / JH 1755</rs>).</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>
+      <hi rend="ital">Trees with ivy in the garden of the asylum </hi>(<rs type="ill" key="2821">F 746 / JH 1762</rs>).</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>
+      <hi rend="ital">Cypresses </hi>(<rs type="ill" key="2807">F 613 / JH 1746</rs>). Van Gogh kept for himself the other painting of cypresses: <rs type="ill" key="2809">F 620 / JH 1748</rs>; in April 1890 he decided to give it to the critic <rs type="pers" key="521">Albert Aurier</rs> (<ref target="let863.xml">see letter 863</ref>).</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>
+      <hi rend="ital">Reaper </hi>(<rs type="ill" key="2813">F 617 / JH 1753</rs>).</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>
+      <hi rend="ital">Reaper</hi> (<rs type="ill" key="2828">F 618 / JH 1773</rs>).</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>
+      Probably <hi rend="ital">Olive grove </hi>(<rs type="ill" key="2819">F 715 / JH 1759</rs>). <ref target="let805.xml#n-23">See letter 805, n. 23.</ref>
+                    </ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>
+      <hi rend="ital">Fields with poppies </hi>(<rs type="ill" key="2811">F 581 / JH 1751</rs>).</ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>
+      <hi rend="ital">Starry night </hi>(<rs type="ill" key="2801">F 612 / JH 1731</rs>).</ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>
+      <hi rend="ital">Wheatfield with sheaves and rising moon </hi>(<rs type="ill" key="2820">F 735 / JH 1761</rs>).</ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+<ab>
+      <hi rend="ital">Wheatfield and cypresses </hi>(<rs type="ill" key="2842">F 743 / JH 1790</rs>) is a smaller version of the works listed in <ref target="#n-2">nn. 2</ref> and <ref target="#n-4">3</ref> above; it measures 52 x 65 cm (no. 15 canvas).</ab>
+                </note>
+<note n="13" xml:id="n-13" target="#note-t-13">
+<ab>No small version is known of any of the paintings of olive groves.</ab>
+                </note>
+<note n="14" xml:id="n-14" target="#note-t-14">
+<ab>
+      <hi rend="ital">Reaper </hi>(<rs type="ill" key="2844">F 619 / JH 1792</rs>) is a smaller version of the works listed in <ref target="#n-6">nn. 6</ref> and <ref target="#n-7">7</ref> above; it measures 59.5 x 73 cm (no. 20 canvas).</ab>
+                </note>
+<note n="15" xml:id="n-15" target="#note-t-15">
+<ab>
+      <hi rend="ital">The bedroom </hi>(<rs type="ill" key="2845">F 483 / JH 1793</rs>) is a smaller version of <hi rend="ital">The bedroom </hi>(<rs type="ill" key="2735">F 482 / JH 1608</rs>) and <hi rend="ital">The bedroom </hi>(<rs type="ill" key="3007">F 484 / JH 1771</rs>). It measures 56.5 x 74 cm (no. 20 canvas).</ab>
+                </note>
+<note n="16" xml:id="n-16" target="#note-t-16">
+<ab>This ‘little portrait of me’ was <hi rend="ital">Self-portrait with clean-shaven face</hi> (<rs type="ill" key="2769">F 525 / JH 1665</rs>), 40 x 31 cm. Van Gogh depicted the portrait in <hi rend="ital">The bedroom </hi>(<rs type="ill" key="2845">F 483 / JH 1793</rs>), the painting intended for his <rs type="pers" key="524">mother</rs> and <rs type="pers" key="407">Willemien</rs> (<ref target="#n-15">see n. 15</ref>).</ab>
+                </note>
+<note n="17" xml:id="n-17" target="#note-t-17">
+<ab>
+      <hi rend="ital">The green vineyard</hi> (<rs type="ill" key="2726">F 475 / JH 1595</rs>), <hi rend="ital">The red vineyard </hi>(<rs type="ill" key="2745">F 495 / JH 1626</rs>), <hi rend="ital">Avenue of chestnut trees in blossom</hi> (<rs type="ill" key="2785">F 517 / JH 1689</rs>) and <hi rend="ital">Starry night over the Rhône </hi>(<rs type="ill" key="2723">F 474 / JH 1592</rs>). The last-mentioned painting was on display at the fifth exhibition of the <hi rend="ital">Société des Artistes Indépendants</hi>; <ref target="let799.xml">see letter 799</ref>. In the end Van Gogh did not make a repetitions of these.</ab>
+                </note>
+<note n="18" xml:id="n-18" target="#note-t-18">
+<ab>The version painted from nature is <hi rend="ital">Reaper </hi>(<rs type="ill" key="2813">F 617 / JH 1753</rs>); the repetition is <hi rend="ital">Reaper</hi> (<rs type="ill" key="2828">F 618 / JH 1773</rs>).</ab>
+                </note>
+<note n="19" xml:id="n-19" target="#note-t-19">
+<ab>Theo spoke of <rs type="pers" key="568">Dr Peyron</rs>’s visit in <ref target="let807.xml">letter 807</ref>.</ab>
+                </note>
+<note n="20" xml:id="n-20" target="#note-t-20">
+<ab>Van Gogh had asked for ten tubes of zinc white in <ref target="let801.xml">letter 801</ref>. Theo had told him that <rs type="pers" key="785">Tasset</rs> had no more zinc white in stock and that it would take a while for the order to be filled (<ref target="let802.xml">letter 802</ref>).</ab>
+                </note>
+<note n="21" xml:id="n-21" target="#note-t-21">
+<ab>Van Gogh is referring to the five paintings of sunflowers made in Arles. On this subject, <ref target="let783.xml#n-9">see letter 783, n. 9.</ref>
+                    </ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

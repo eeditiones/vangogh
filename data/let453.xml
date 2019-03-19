@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Nuenen, on or about Monday, 4 August 1884.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let453"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">453</idno>
+<idno type="collectedletters">374</idno>
+<idno type="brieven1990">456</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Nuenen</vg:placeLet>
+                        <vg:dateLet>on or about Monday, 4 August 1884</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:physDesc>
+                        <vg:decoration>
+                            <vg:decoList xml:id="sketches">
+                                <vg:decoItem n="A" xml:id="sketch-1">
+                                    <vg:decoDesc>
+<p>
+      <hi rend="ital">Wheat harvest</hi> (<rs type="sketch" key="137">F - / JH 508</rs>), letter sketch</p>
+                                    </vg:decoDesc>
+                                </vg:decoItem>
+                            </vg:decoList>
+                        </vg:decoration>
+                    </vg:physDesc>
+                    <vg:letContents>
+<p>To Theo van Gogh. Nuenen, on or about Monday, 4 August 1884.</p>
+<note type="ongoingTopic" n="1">
+<p>Theo’s trip to London and visit to Nuenen <ref target="let451.xml">(451)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="2">
+<p>Van Gogh’s new studio at the Schafrats’ <ref target="let446.xml">(446)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b408 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>The letter was sent to Theo during his stay in London: Vincent writes ‘while you’re in London’ and thanks his brother for the money he sent <ref target="#l-2">(ll. 2-4)</ref>. This must have been the allowance for August. The precise dates of Theo’s stay in England are not known, although we do know that he planned to go there on 4 August (<ref target="let452.xml">letter 452</ref>), and he must have left the Netherlands again for France before 20 August, because his parents thanked him for a letter from Paris that they had received on Friday, 22 August. (Theo probably took a week’s holiday on the end of his trip to England, as he usually did in August.) In view of Vincent’s thanks for the money and bearing in mind the opportunity Theo would have to follow up the tips he was given to visit various places in London, we have dated the letter on or about Monday, 4 August 1884.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0408" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000537_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000537_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000537_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000537_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000537_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000537_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0408" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000537_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000537_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000537_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000537_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000537_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000537_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000537_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000537_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000537_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Waarde Theo,</ab>
+                <lb n="2" xml:id="l-2"/>
+<ab>Wilde U nog een woordje schrijven terwijl <lb n="3" xml:id="l-3"/>ge in Londen zijt.<anchor n="1" xml:id="note-o-1"/> Ik dank U wel <lb n="4" xml:id="l-4"/>voor Uw laatste schrijven en ingesl. frs 150. <lb n="5" xml:id="l-5"/>Zou wel graag ginder nog eens met U <lb n="6" xml:id="l-6"/>wandelen in Londen<c type="kk">/</c> liefst echter bij echt <lb n="7" xml:id="l-7"/>Londensch weer<c type="kk">/</c> als de stad vooral in zekere <lb n="8" xml:id="l-8"/>oude gedeelten bij de rivier aspecten heeft die <lb n="9" xml:id="l-9"/>zeer melankoliek zijn – maar tevens een karakter <lb n="10" xml:id="l-10"/>hebben dat buitengewoon aangrijpend is.</ab>
+                <lb n="11" xml:id="l-11"/>
+<ab rend="indent">Dat sommige engelschen van dezen tijd<c type="kk">/</c> <lb n="12" xml:id="l-12"/>toen zij van de Franschen hadden leeren kijken <lb n="13" xml:id="l-13"/>en schilderen<c type="kk">/</c> zijn begonnen te maken<c type="kp">_</c>
+                </ab>
+                <lb n="14" xml:id="l-14"/>
+<ab rend="indent">Maar om datgene van de <lb n="15" xml:id="l-15"/>Engelsche kunst te zien wat voor U en voor mij <lb n="16" xml:id="l-16"/>eigentlijk ’t interessantst is – dat is ongelukkigerwijs <lb n="17" xml:id="l-17"/>moeielijk<c type="kp">_</c>– Op de tentoonstellingen is <lb n="18" xml:id="l-18"/>het <hi rend="ital">meerendeel</hi> der schilderijen meestal <hi rend="ital">niet</hi> sympathiek. <lb n="19" xml:id="l-19"/>Doch ik hoop evenwel dat gij hier en daar <lb n="20" xml:id="l-20"/>iets zult tegenkomen dat U begrijpelijk maakt <lb n="21" xml:id="l-21"/>hoe ik voor mij altijd blijf denken aan sommige <lb n="22" xml:id="l-22"/>Engelsche schilderijen – b.v. Chill October van <lb n="23" xml:id="l-23"/>Millais<anchor n="2" xml:id="note-o-2"/> – b.v. de teekeningen van Fred Walker <lb n="24" xml:id="l-24"/>en Pinwell<c type="kp">_</c>– Let eens op de <hi rend="ital">Hobbema</hi> van <lb n="25" xml:id="l-25"/>de National Gallery<anchor n="3" xml:id="note-o-3"/> – een paar <hi rend="ital">heele</hi> mooie Constables <lb n="26" xml:id="l-26"/>zult gij wel niet vergeten te bekijken daar (Cornfield)<anchor n="4" xml:id="note-o-4"/> en ook <lb n="27" xml:id="l-27"/>te South Kensington (waar die boerderij is<c type="kk">/</c> Valley farm).<anchor n="5" xml:id="note-o-5"/> Ik ben erg nieuwsgierig <lb n="28" xml:id="l-28"/>wat U zal hebben getroffen en wat gij er zult hebben <lb n="29" xml:id="l-29"/>gezien<c type="kp">_</c>–</ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="30" xml:id="l-30"/>
+<ab rend="indent">Verleden week ben ik dagelijksch op ’t veld <lb n="31" xml:id="l-31"/>bij den korenoogst geweest – <lb n="32" xml:id="l-32"/>waarvan ik nog eene compositie gemaakt <lb n="33" xml:id="l-33"/>heb<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <figure facs="zone-sketch-1" n="A"/>
+<vg:whiteline/>
+                <lb n="34" xml:id="l-34"/>
+<ab>Dit maakte ik voor iemand in Eindhoven <lb n="35" xml:id="l-35"/>die eene eetzaal wenscht te decoreeren.<anchor n="6" xml:id="note-o-6"/> Hij wilde <lb n="36" xml:id="l-36"/>dit doen met composities van diverse <hi rend="ital">heiligen</hi>
+                    <c type="kp">_</c> <lb n="37" xml:id="l-37"/>Ik gaf hem in bedenking of een 6tal voorstellingen <lb n="38" xml:id="l-38"/>uit het boerenleven van de Meijerij<anchor n="7" xml:id="note-o-7"/> – tevens de <lb n="39" xml:id="l-39"/>4 jaargetijden symboliseerende –</ab>
+                <lb n="40" xml:id="l-40"/>
+<ab>niet meer den appetijt der brave menschen die <lb n="41" xml:id="l-41"/>aldaar aan tafel moeten komen zitten zou <lb n="42" xml:id="l-42"/>opwekken dan de mystieke personages hierboven <lb n="43" xml:id="l-43"/>genoemd<c type="kp">_</c>– Nu is de man daar warm op geworden <lb n="44" xml:id="l-44"/>na een bezoek op ’t atelier<c type="kp">_</c>–</ab>
+                <lb n="45" xml:id="l-45"/>
+<ab rend="indent">Maar hij wil <hi rend="ital">zelf</hi> die vakken schilderen en <lb n="46" xml:id="l-46"/>zal dat lukken? (Doch ik zou in reductie de composities ontwerpen <lb n="46a" xml:id="l-46a"/>en schilderen.)</ab>
+                <lb n="47" xml:id="l-47"/>
+<ab rend="indent">’t Is een man die ik zoo mogelijk wil te vriend <lb n="48" xml:id="l-48"/>houden – een gewezen goudsmid die tot <lb n="49" xml:id="l-49"/>3 maal toe eene <hi rend="ital">zeer aanzienlijke</hi> collectie <lb n="50" xml:id="l-50"/>antiquiteiten heeft verzameld &amp; verkocht<c type="kp">_</c>– <lb n="51" xml:id="l-51"/>Nu rijk is en een huis heeft gezet dat 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                    <lb n="52" xml:id="l-52"/>hij weer vol antiquiteiten heeft en meubileert <lb n="53" xml:id="l-53"/>met sommige <hi rend="ital">heel</hi> mooie eikenhouten kasten <lb n="54" xml:id="l-54"/>&amp;c.<anchor n="8" xml:id="note-o-8"/> De plafonds en muren decoreert <lb n="55" xml:id="l-55"/>hij zelf en werkelijk goed soms<c type="kp">_</c>
+                </ab>
+                <lb n="56" xml:id="l-56"/>
+<ab rend="indent">Maar in de eetzaal wil hij bepaald schilderwerk <lb n="57" xml:id="l-57"/>hebben en is begonnen 12 paneelen <lb n="58" xml:id="l-58"/>met bloemen te schilderen<c type="kp">_</c>
+                </ab>
+                <lb n="59" xml:id="l-59"/>
+<ab rend="indent">Blijven over 6 vakken in de breedte <lb n="60" xml:id="l-60"/>en daarvoor gaf ik hem voorloopige plans van <lb n="61" xml:id="l-61"/>Zaaier<anchor n="9" xml:id="note-o-9"/> – ploeger<anchor n="10" xml:id="note-o-10"/> – herder<anchor n="11" xml:id="note-o-11"/> – korenoogst<anchor n="12" xml:id="note-o-12"/> – <lb n="62" xml:id="l-62"/>aardappeloogst<anchor n="13" xml:id="note-o-13"/> – Ossekar in de sneeuw<c type="kp">_</c>
+                    <anchor n="14" xml:id="note-o-14"/> <lb n="63" xml:id="l-63"/>Maar of ’t iets geven zal weet ik niet – <lb n="64" xml:id="l-64"/>want een vaste afspraak heb ik niet van <lb n="65" xml:id="l-65"/>hem<c type="kp">_</c>– Alleen<c type="kk">/</c> met dit eerste vak <lb n="66" xml:id="l-66"/>is hij ingenomen alsmede met mijn <lb n="67" xml:id="l-67"/>schetsjes voor de andere sujetten.</ab>
+                <lb n="68" xml:id="l-68"/>
+<ab rend="indent">Ik verlang zeer naar Uw komst<c type="kp">_</c>– <lb n="69" xml:id="l-69"/>Het blijft me hier wel bevallen – bij tijden <lb n="70" xml:id="l-70"/>mis ik wel sommige dingen doch het werk <lb n="71" xml:id="l-71"/>absorbeert mij genoeg<c type="kp">_</c>
+                </ab>
+                <lb n="72" xml:id="l-72"/>
+<ab rend="indent">Nu – groet den Hr Obach voor me als <lb n="73" xml:id="l-73"/>ge hem tegen ’t lijf loopt.</ab>
+                <lb n="74" xml:id="l-74"/>
+<ab rend="indent">Als ge hier komt zult ge alle boeren aan ’t ploegen <lb n="75" xml:id="l-75"/>vinden – en spurrie<anchor n="a" xml:id="note-o-a"/> zaaien – <lb n="76" xml:id="l-76"/>of – dit zal dan net op zijn eind loopen<c type="kp">_</c> <lb n="77" xml:id="l-77"/>Ik heb prachtige zonsondergangen gezien op <lb n="78" xml:id="l-78"/>de stoppelvelden. Tot ziens<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="79" xml:id="l-79"/>
+<ab>t<c type="kp">_</c> à t<c type="kp">_</c>
+                </ab>
+                <lb n="80" xml:id="l-80"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-16" n="16">interessantst &lt; interessants</note>
+<note target="l-26" n="26">(Cornfield) &lt; <hi rend="ital">Added later; parentheses added by us.</hi>
+                    </note>
+<note target="l-27" n="27">(waar <supplied>
+                            <hi rend="ital">...</hi>
+                        </supplied> farm) &lt; <hi rend="ital">Added later; parentheses added by us.</hi>
+                    </note>
+<note target="l-39" n="39">symboliseerende – &lt; symboliseerende</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo,</ab>
+      <ab>Just wanted to drop you a line while you’re in London.<anchor n="1" xml:id="note-t-1"/> I thank you for your last letter and enclosed 150 francs. Would really like to go for a walk with you again there in London, preferably in real London weather, though, when the city has very melancholy aspects, particularly in certain old areas by the river — but at the same time has an extraordinarily poignant character.</ab>
+<ab rend="indent">Which some present-day English artists have started to make, after having learned to see and paint from the French.</ab>
+<ab rend="indent"> But, unfortunately, it’s difficult to see that part of English art that’s actually the most interesting to you and to me. The <hi rend="ital">majority</hi> of the paintings in the exhibitions are usually <hi rend="ital">not</hi> appealing. Yet I hope, though, that you’ll come across something here and there that will enable you to understand how I, for my part, always keep thinking about some English paintings — for instance, Chill October by <rs type="pers" key="1227">Millais</rs>
+                    <anchor n="2" xml:id="note-t-2"/> — for instance, the drawings by <rs type="pers" key="1428">Fred Walker</rs> and <rs type="pers" key="1269">Pinwell</rs>. Look out for the <hi rend="ital">
+                        <rs type="pers" key="1096">Hobbema</rs>
+                    </hi> in the National Gallery<anchor n="3" xml:id="note-t-3"/> — you certainly won’t forget to look at a couple of <hi rend="ital">very</hi> fine <rs type="pers" key="945">Constable</rs>s there (Cornfield)<anchor n="4" xml:id="note-t-4"/> and also in South Kensington (where that farm is, Valley farm).<anchor n="5" xml:id="note-t-5"/> I’m very curious as to what will have struck you most and what you’ll have seen there. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">Last week I was in the fields every day during the wheat harvest — of which I’ve made a composition.</ab>
+<vg:whiteline/>
+<ab>
+                    <figure facs="zone-sketch-1" n="A"/>
+                </ab>
+<vg:whiteline/>
+<ab>I made this for <rs type="pers" key="449">someone</rs> in Eindhoven who wants to decorate a dining room.<anchor n="6" xml:id="note-t-6"/> He wanted to do it with compositions of various <hi rend="ital">saints</hi>. I suggested he consider whether 6 scenes from the peasant life of the Meijerij<anchor n="7" xml:id="note-t-7"/> — at the same time symbolizing the 4 seasons — might not whet the appetites of the good folk who would have to sit at table there more than the above-mentioned mystical personages. Well, the man warmed to the idea after visiting the studio.</ab>
+<ab rend="indent">But <rs type="pers" key="449">he</rs> wants to paint those panels <hi rend="ital">himself</hi>, and will that work? (However, I was to design and paint the compositions on a reduced scale.)</ab>
+<ab rend="indent">
+                    <rs type="pers" key="449">He</rs>’s a man I want to remain on good terms with if possible — a former goldsmith who has amassed and sold a <hi rend="ital">very considerable</hi> collection of antiques no fewer than 3 times. Is now rich and has built a house that 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> he’s filled with antiques again, and furnished with some <hi rend="ital">very</hi> fine oak chests &amp;c.<anchor n="8" xml:id="note-t-8"/> He decorates the ceilings and walls himself, and really well sometimes.</ab>
+<ab rend="indent">But <rs type="pers" key="449">he</rs> specifically wants painting in the dining room, and has started painting 12 panels of flowers.</ab>
+<ab rend="indent">That leaves 6 panels across the width, and for those I gave him provisional plans for sower<anchor n="9" xml:id="note-t-9"/> — ploughman<anchor n="10" xml:id="note-t-10"/> — shepherd<anchor n="11" xml:id="note-t-11"/> — wheat harvest<anchor n="12" xml:id="note-t-12"/> — potato harvest<anchor n="13" xml:id="note-t-13"/> — ox-cart in the snow.<anchor n="14" xml:id="note-t-14"/> But I don’t know whether it’ll come to anything — because I haven’t got a definite agreement from him. Only, he’s taken with this first panel as well as with my little sketches for the other subjects.</ab>
+<ab rend="indent">I’m really looking forward to your arrival. I’m still pleased to be here — I miss some things from time to time, but the work absorbs me enough.</ab>
+<ab rend="indent">Well — give my regards to <rs type="pers" key="547">Mr Obach</rs> if you run into him.</ab>
+<ab rend="indent">When you come here you’ll find all the peasants busy ploughing — and sowing spurrey — or — it will just be coming to an end then. I’ve seen magnificent sunsets over the stubble fields. Goodbye for now.</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>See for Theo’s stay in London: <hi rend="ital">Date</hi>.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>See for <rs type="pers" key="1227">Millais</rs>’s <hi rend="ital">
+                            <rs type="ill" key="1839">Chill October</rs>
+                        </hi>: <ref target="let122.xml#n-19">letter 122, n. 19.</ref>
+                    </ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>At that time the National Gallery had the following <rs type="pers" key="1096">Hobbema</rs>s: <hi rend="ital">A woody landscape</hi>, <hi rend="ital">A stream by a wood</hi>, <hi rend="ital">The watermills at Singraven near Denekamp</hi>, <hi rend="ital">The ruins of Brederode castle</hi> and <hi rend="ital">Avenue at Middelharnis</hi>. Two works that are now no longer accepted as being by Hobbema, <hi rend="ital">A woody landscape with a cottage</hi> and <hi rend="ital">A castle on a hill by a river</hi>, were exhibited there from August 1876 onwards. Although it is not possible to establish with certainty which work Van Gogh regarded as ‘the’ Hobbema, he was probably referring to the most famous of them, <hi rend="ital">Avenue at Middelharnis</hi>. <rs type="ill" key="931">Ill. 931</rs>. See cat. London 1995, pp. 310-313, 607.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>
+                        <rs type="pers" key="945">John Constable</rs>, <hi rend="ital">The cornfield</hi>, 1826 (London, The National Gallery). <rs type="ill" key="2122">Ill. 2122</rs>.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>
+                        <rs type="pers" key="945">John Constable</rs>, <hi rend="ital">The valley farm: Willy Lott’s house</hi>, 1835 (London, Tate). <rs type="ill" key="2123">Ill. 2123</rs>. This painting was exhibited from 1859 to 1876 in the South Kensington Museum in West London. See cat. London 1995, p. <hi rend="sc">xiv</hi>, and Leslie Parris and Ian Fleming-Williams,<hi rend="ital"> Constable</hi>. New York etc. 1993, pp. 376-378, cat. no. 216 (Previously published as exhib. cat. London (Tate), 1991.)</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+      <ab>The retired <rs type="pers" key="449">Anthonius (Antoon) Petrus Hermans</rs>, formerly a goldsmith. See on this series of decorations, which can be linked to the four seasons in general and works by <rs type="pers" key="1226">Millet</rs> in particular: exhib. cat. Paris 1998, pp. 74-78; cf. also Sensier 1881, pp. 286-287.</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>The Meierij in Brabant is the area between the towns of Tilburg, Eindhoven, Waalwijk and ’s-Hertogenbosch, with the River Maas as the northern boundary.</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>
+                        <rs type="pers" key="449">Hermans</rs> lived on Keizersgracht, district C, no. 384c (now no. 15), then called De Wal, in an imposing house, the ‘Dirven House’ – also known as ‘Rust na Arbeid’ (Rest after Labour) – which was built to a design by Hermans’s friend Pierre Cuypers (<hi rend="ital">RHC</hi>, and De Brouwer<hi rend="ital"> </hi>1984, pp. 44-45).</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>By the ‘provisional plans’ Vincent must be referring to the ‘little sketches’ he mentions later in the letter. The first one is  <hi rend="ital">Sower</hi> (<rs type="ill" key="2478">F 1143 / JH 509</rs>). The painting of this has been lost.</ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>The sketch is <hi rend="ital">Ploughman</hi> (<rs type="ill" key="2481">F 1142 / JH 512</rs>). Van Gogh painted over the painting after this sketch – it is under <hi rend="ital">Cottage with tumbledown barn and a stooping woman</hi> (<rs type="ill" key="3024">F 1669 / JH 825</rs>). See Alan Bowness, ‘A Van Gogh discovery’, <hi rend="ital">The Burlington Magazine</hi> 111 (1969), pp. 299-300, with x-ray (fig. 49). Later he adapted the composition in the new version <hi rend="ital">Ploughman and a woman planting potatoes</hi> (<rs type="ill" key="2483">F 172 / JH 514</rs>), <ref target="let466.xml#n-1">see letter 466, n. 1.</ref>
+                    </ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>The sketch for the <hi rend="ital">Shepherd with flock of sheep</hi> (<rs type="ill" key="2485">F 42 / JH 517</rs>) is not known, but it must have existed (<ref target="let454.xml">see letter 454</ref>).</ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+<ab>The letter sketch <hi rend="ital">Wheat harvest</hi> (<rs type="sketch" key="137">F - / JH 508</rs>) gives an impression of the picture; the sketch and the painting are not known. This must have been done in the ‘first panel’. Van Gogh also made a preliminary sketch for this similar to those he did for the previous works (as we learn from <ref target="let454.xml">letter 454</ref>).</ab>
+                </note>
+<note n="13" xml:id="n-13" target="#note-t-13">
+      <ab>The sketch <hi rend="ital">Planting potatoes</hi> (<rs type="ill" key="2479">F 1141 / JH 510</rs>). It resulted in the painting <hi rend="ital">Planting potatoes</hi> (<rs type="ill" key="2482">F 41 / JH 513</rs>). In letters <ref target="let454.xml">454</ref> and <ref target="let459.xml">459</ref> Van Gogh describes the subject as planting potatoes.</ab>
+                </note>
+<note n="14" xml:id="n-14" target="#note-t-14">
+<ab>The sketch <hi rend="ital">Ox-cart in the snow</hi> (<rs type="ill" key="2480">F 1144 / JH 511</rs>). The painting is not known.</ab>
+                </note>
+<note n="a" xml:id="n-a" target="#note-o-a">
+<ab>Means: ‘gewas, doorgaans gebruikt voor veevoer’ (a crop usually used for animal feed).</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

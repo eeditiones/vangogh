@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. The Hague, Tuesday, 20 or Wednesday, 21 February 1883.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let318"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">318</idno>
+<idno type="collectedletters">268</idno>
+<idno type="brieven1990">320</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>The Hague</vg:placeLet>
+                        <vg:dateLet>Tuesday, 20 or Wednesday, 21 February 1883</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:physDesc>
+                        <vg:decoration>
+                            <vg:decoList xml:id="sketches">
+                                <vg:decoItem n="A" xml:id="sketch-1">
+                                    <vg:decoDesc>
+<p>
+      <hi rend="ital">Studio window with shutters</hi> (<rs type="sketch" key="76">F - / JH -</rs>), letter sketch</p>
+                                    </vg:decoDesc>
+                                </vg:decoItem>
+                                <vg:decoItem n="B" xml:id="sketch-2">
+                                    <vg:decoDesc>
+<p>
+      <hi rend="ital">Studio window with shutters</hi> (<rs type="sketch" key="77">F - / JH -</rs>), letter sketch</p>
+                                    </vg:decoDesc>
+                                </vg:decoItem>
+                            </vg:decoList>
+                        </vg:decoration>
+                    </vg:physDesc>
+                    <vg:letContents>
+<p>To Theo van Gogh. The Hague, Tuesday, 20 or Wednesday, 21 February 1883.</p>
+<note type="ongoingTopic" n="1">
+ <p>Alterations to the studio windows <ref target="let317.xml">(317)</ref>
+                            </p>
+                        </note>
+ <note type="ongoingTopic" n="2">
+<p>Theo’s love for the ailing Marie <ref target="let300.xml">(300)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b290 a-b V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Van Gogh says ‘I wanted to write to you on Sunday’ <ref target="#l-2">(ll. 2-3)</ref>, so this letter probably dates from a few days later. It contains several turns of phrase and subjects that are also found in the previous letter to Van Rappard (<ref target="let317.xml">letter 317</ref>), which was written on or about Tuesday, 20 February; moreover, Vincent says he is ‘longing’ for Theo’s letter (this was the third remittance of the month), so the present letter must date from Tuesday, 20 or Wednesday, 21 February 1883.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0290 a" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000361_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000361_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000361_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000361_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000361_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000361_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="VGM001000361_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000361_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000361_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0290 a" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000361_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000361_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000361_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000361_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000361_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000361_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000361_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000361_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000361_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0290 b" xml:id="surf-pb-2r">
+            <graphic mimeType="image/tiff" url="VGM001000362_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-2r-5">
+<graphic mimeType="image/tiff" url="VGM001000362_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000362_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000362_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0290 b" xml:id="surf-pb-2v">
+            <graphic mimeType="image/tiff" url="VGM001000362_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-2v-6">
+<graphic mimeType="image/tiff" url="VGM001000362_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000362_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000362_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Waarde Theo,</ab>
+                <lb n="2" xml:id="l-2"/>
+<ab>Reeds Zondag had ik U willen <lb n="3" xml:id="l-3"/>schrijven maar ik wachtte er nog mede <lb n="4" xml:id="l-4"/>omdat ik iets doende was wat nog niet <lb n="5" xml:id="l-5"/>beslist was. Een week of wat geleden las <lb n="6" xml:id="l-6"/>ik Fritz Reuters “uit mijn gevangenistijd”<c type="kk">/</c> <lb n="7" xml:id="l-7"/>waarin allergeestigst beschreven wordt hoe <lb n="8" xml:id="l-8"/>Fritz R. en anderen die vestingstraf <lb n="9" xml:id="l-9"/>hadden zich het leven zoo gezellig mogelijk <lb n="10" xml:id="l-10"/>maakten en van hun “plaatsmajoor” <lb n="11" xml:id="l-11"/>verschillende privileges bemagtigden<c type="kp">_</c>
+                    <anchor n="1" xml:id="note-o-1"/> <lb n="12" xml:id="l-12"/>Dat boek bragt mij op de gedachte <lb n="13" xml:id="l-13"/>om mijn huisbaas<anchor n="2" xml:id="note-o-2"/> te attaqueeren<c type="kk">/</c> <lb n="14" xml:id="l-14"/>ook met het oog op zekere verbeteringen <lb n="15" xml:id="l-15"/>die mij het werk gemakkelijker zouden <lb n="16" xml:id="l-16"/>maken.</ab>
+                <lb n="17" xml:id="l-17"/>
+<ab rend="indent">En ik ben dikwijls over en weer te <lb n="18" xml:id="l-18"/>Voorburg geweest waar hij woont<c type="kk">/</c> om <lb n="19" xml:id="l-19"/>een &amp; ander van hem gedaan te krijgen. <lb n="20" xml:id="l-20"/>Er lagen hier oude blinden en planken <lb n="21" xml:id="l-21"/>die ik gebruiken wilde doch het kostte <lb n="22" xml:id="l-22"/>moeite ze te krijgen. Doch ik heb ze. <lb n="23" xml:id="l-23"/>Ge weet er zijn 3 ramen op ’t atelier.<anchor n="3" xml:id="note-o-3"/> <lb n="24" xml:id="l-24"/>Die geven veel te veel licht<c type="kk">/</c> zelfs als ik <lb n="25" xml:id="l-25"/>ze afsluit<c type="kk">/</c> en heb ik reeds lang er over <lb n="26" xml:id="l-26"/>gedacht hoe het te verbeteren.</ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="27" xml:id="l-27"/>
+<ab rend="indent">Maar hij wilde niets doen tenzij <lb n="28" xml:id="l-28"/>ik ’t hem betaalde.</ab>
+                <lb n="29" xml:id="l-29"/>
+<ab rend="indent">Maar nu heb ik door een nieuwe <lb n="30" xml:id="l-30"/>attaque 6 stuks blinden en een <lb n="31" xml:id="l-31"/>stuk of 6 lange planken.</ab>
+<vg:whiteline/>
+                <figure facs="zone-sketch-1" n="A"/>
+<vg:whiteline/>
+                <lb n="32" xml:id="l-32"/>
+<ab>Die blinden <lb n="33" xml:id="l-33"/>worden nu <lb n="34" xml:id="l-34"/>doorgezaagd <lb n="35" xml:id="l-35"/>zoodat er <lb n="36" xml:id="l-36"/>luiken komen <lb n="37" xml:id="l-37"/>waarmee men <lb n="38" xml:id="l-38"/>manoeuvreeren <lb n="39" xml:id="l-39"/>kan en naar <lb n="40" xml:id="l-40"/>verkiezing meer <lb n="41" xml:id="l-41"/>of minder licht <lb n="42" xml:id="l-42"/>kan afsluiten of <lb n="43" xml:id="l-43"/>laten invallen<c type="kk">/</c> <lb n="44" xml:id="l-44"/>’t zij van boven <lb n="45" xml:id="l-45"/>’t zij van onder. <lb n="46" xml:id="l-46"/>Uit dit krabbeltje zult ge denk ik wel zien <lb n="47" xml:id="l-47"/>het heel leuk gaat.</ab>
+                <lb n="48" xml:id="l-48"/>
+<ab rend="indent">En de planken zijn voor eene groote <lb n="48"/>kast in ’t alkoof<c type="kk">/</c> tot bergplaats van teekeningen<c type="kk">/</c> prenten<c type="kk">/</c> <lb n="50" xml:id="l-50"/>boeken, en kapstok voor diverse kielen<c type="kk">/</c> <lb n="51" xml:id="l-51"/>buizen<c type="kk">/</c> oude jassen<c type="kk">/</c> doeken<c type="kk">/</c> hoeden en <lb n="52" xml:id="l-52"/>den zuidwester niet te vergeten, die ik voor de <lb n="53" xml:id="l-53"/>modellen noodig heb.</ab>
+                <lb n="54" xml:id="l-54"/>
+<ab rend="indent">Ik heb den huisbaas trouw betaald en hem nu <lb n="55" xml:id="l-55"/>kort en bondig gezegd dat als hij de huur <lb n="56" xml:id="l-56"/>laag vond voor het huis ik zulks niet wilde <lb n="57" xml:id="l-57"/>tegenspreken doch hem in consideratie wilde <lb n="58" xml:id="l-58"/>geven die huur op zich zelf voor mij zwaar <lb n="59" xml:id="l-59"/>was. En ik zóó niet grif werken <hi rend="ital">kon</hi> en 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                    <lb n="60" xml:id="l-60"/>niet vorderen voor ik beter licht had<c type="kp">_</c>
+                </ab>
+                <lb n="61" xml:id="l-61"/>
+<ab rend="indent">Dat als hij ’t niet veranderen kon ik van mijn <lb n="62" xml:id="l-62"/>kant werkelijk van atelier zou <hi rend="ital">moeten</hi> veranderen. <lb n="63" xml:id="l-63"/>Dat als ik ’t kon betalen ik ’t over mijn kant <lb n="64" xml:id="l-64"/>zou laten gaan maar nu niet in omstandig<c type="shy">-</c>
+                    <lb n="65" xml:id="l-65"/>heden was om meer te betalen dan <lb n="66" xml:id="l-66"/>ik deed. Dat dus hoogere betaling <lb n="67" xml:id="l-67"/>van mijn kant buiten kwestie was <lb n="68" xml:id="l-68"/>en ’t er van afhing of ik blijven zou of <lb n="69" xml:id="l-69"/>hij al dan niet dit wilde maken. <lb n="70" xml:id="l-70"/>was hem mijn weggaan onverschillig zoo <lb n="71" xml:id="l-71"/>zouden we als goede vrienden zonder meer <lb n="72" xml:id="l-72"/>woorden scheiden. Nu<c type="kk">/</c> toen zei hij<c type="kk">/</c> neen<c type="kk">/</c> <lb n="73" xml:id="l-73"/>hij wilde wel <hi rend="ital">iets</hi> doen<c type="kk">/</c> en zoo kwamen <lb n="74" xml:id="l-74"/>we eindelijk er op neer dat ik alleen <lb n="75" xml:id="l-75"/>een paar gulden werkloon te betalen <lb n="76" xml:id="l-76"/>heb.</ab>
+                <lb n="77" xml:id="l-77"/>
+<ab rend="indent">Hij is herhaaldelijk zelf op ’t atelier <lb n="78" xml:id="l-78"/>geweest en is niet een afzetter bepaald<c type="kk">/</c> <lb n="79" xml:id="l-79"/>ofschoon een tamelijk scherp sabeltje<anchor n="a" xml:id="note-o-a"/> <lb n="80" xml:id="l-80"/>(iets van een yankee)<c type="kp">_</c> En ’t scheen dat het <lb n="81" xml:id="l-81"/>atelier hem meeviel (hij was er niet geweest <lb n="82" xml:id="l-82"/>sedert Julij verl. jaar) en althans op ’t atelier <lb n="83" xml:id="l-83"/>zijnde kreeg ik het er door en zelfs <lb n="84" xml:id="l-84"/>makkelijker dan ik gedacht had.</ab>
+                <lb n="85" xml:id="l-85"/>
+<ab rend="indent">Had men maar altijd op ’t atelier <lb n="86" xml:id="l-86"/>met de lui te doen! maar <lb n="87" xml:id="l-87"/>ik voor mij kan daarbuiten niet veel <lb n="88" xml:id="l-88"/>van de lui gedaan krijgen en niet goed <lb n="89" xml:id="l-89"/>met ze omgaan.</ab>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                <lb n="90" xml:id="l-90"/>
+<ab rend="indent">Ben bezig geweest aan eenige figuren<c type="kk">/</c> <lb n="91" xml:id="l-91"/>nog al groot<c type="kk">/</c> bustes of tot aan de knieen<c type="kk">/</c> <lb n="92" xml:id="l-92"/>die met een paar anderen die ik reeds had <lb n="93" xml:id="l-93"/>een soort decoratie voor den gang en trap <lb n="94" xml:id="l-94"/>worden, ofschoon het eigentlijk niets dan gewone studies zijn.<anchor n="4" xml:id="note-o-4"/> <lb n="95" xml:id="l-95"/>Enfin uit een en ander ziet gij dat ik <lb n="96" xml:id="l-96"/>er mij maar weer eens geheel ingeworpen <lb n="97" xml:id="l-97"/>heb om juist door bezig te zijn nieuwe <lb n="98" xml:id="l-98"/>gedachten in ’t hoofd te krijgen.</ab>
+                <lb n="99" xml:id="l-99"/>
+<ab rend="indent">Zoo b.v. te Voorburg<c type="kk">/</c> toen ik het bewuste hout <lb n="100" xml:id="l-100"/>met hem ging uitzoeken heb ik mooie dingen <lb n="101" xml:id="l-101"/>gezien van werklui in eene loods en het uitgraven <lb n="102" xml:id="l-102"/>van een kelder en ’t leggen van de <lb n="103" xml:id="l-103"/>fondamenten van een huis. Ik dacht nog <lb n="104" xml:id="l-104"/>aan wat gij mij eens beschreeft van die <lb n="105" xml:id="l-105"/>werklui te Montmartre<anchor n="5" xml:id="note-o-5"/> toen gij bijwoondet dat <lb n="106" xml:id="l-106"/>een zich blesseerde in eene steengroef.</ab>
+                <lb n="107" xml:id="l-107"/>
+<ab rend="indent">Gij weet ik had reeds iets voor de ramen<c type="kk">/</c> n.l. <lb n="108" xml:id="l-108"/>doek op latten gespannen. Die komen nu vrij <lb n="109" xml:id="l-109"/>en zijn zeer wenschelijk om te dienen om<c type="kk">/</c> met <lb n="110" xml:id="l-110"/>donkerder of lichter stof bespannen<c type="kk">/</c> een fonds<anchor n="b" xml:id="note-o-b"/> te <lb n="111" xml:id="l-111"/>maken als men b.v. koppen teekenen wil<c type="kp">_</c>
+                </ab>
+                <lb n="112" xml:id="l-112"/>
+<ab rend="indent">Gij begrijpt dat ik nu één of twee <lb n="113" xml:id="l-113"/>ramen ook geheel digt zal kunnen maken <lb n="114" xml:id="l-114"/>en zoo één generaal licht verkrijgen dat de effekten <lb n="115" xml:id="l-115"/>veel krachtiger maakt. die anders door reflexies of verschillende <lb n="115a" xml:id="l-115a"/>lichten geneutraliseerd worden.</ab>
+                <lb n="116" xml:id="l-116"/>
+<ab rend="indent">De karwei zou als ik ’t zelf had moeten <lb n="117" xml:id="l-117"/>betalen geheel buiten kwestie zijn geweest, <lb n="118" xml:id="l-118"/>als zijnde kostbaar, en ben ik niet weinig <lb n="119" xml:id="l-119"/>er mee in mijn schik<c type="kp">_</c>
+                </ab>
+                <lb n="120" xml:id="l-120"/>
+<ab rend="indent">Juist bij het maken van teekeningen als <lb n="121" xml:id="l-121"/>ik in den laatsten tijd onder handen had, b.v. <lb n="122" xml:id="l-122"/>die koppen die ik U zond waarin ik krachtiger <lb n="123" xml:id="l-123"/>zwart gebruikte<c type="kk">/</c>
+                    <anchor n="6" xml:id="note-o-6"/> voelde ik het wenschelijke van beter licht. 
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+                    <lb n="124" xml:id="l-124"/>Ik hoop maar alles goed uitkomt <lb n="125" xml:id="l-125"/>doch uit dit krabbeltje ziet ge zelf wel <lb n="126" xml:id="l-126"/>dat het zóó eenvoudig is dat mij dunkt <lb n="127" xml:id="l-127"/>het goed <hi rend="ital">moet</hi> uitkomen.</ab>
+                <lb n="128" xml:id="l-128"/>
+<ab rend="indent">Toch<c type="kk">/</c> wat zijn de huizen van tegenwoordig dikwijls <lb n="129" xml:id="l-129"/>miserable in vergelijking van wat ze zouden kunnen <lb n="130" xml:id="l-130"/>zijn indien men er op werkte ze wat gezellig in <lb n="131" xml:id="l-131"/>te rigten.</ab>
+                <lb n="132" xml:id="l-132"/>
+<ab rend="indent">Vergelijk een raam van nu bij een uit den tijd <lb n="133" xml:id="l-133"/>van Rembrandt. Toen ten tijde scheen iedereen <lb n="134" xml:id="l-134"/>een soort behoefte aan eigenaardig getemperd <lb n="135" xml:id="l-135"/>licht te hebben die nu niet meer schijnt te <lb n="136" xml:id="l-136"/>bestaan, althans er is een streven om het <lb n="137" xml:id="l-137"/>koud<c type="kk">/</c> cru en zonder liefde in te rigten. <lb n="138" xml:id="l-138"/>De arbeiderswoningen begon men goed doch <lb n="139" xml:id="l-139"/>ik zie niet in men vorderingen gemaakt heeft <lb n="140" xml:id="l-140"/>sedert die van een jaar of 20 of 30 terug. <lb n="141" xml:id="l-141"/>Integendeel<c type="kk">/</c> het aardige gaat er meer en meer <lb n="142" xml:id="l-142"/>uit en wordt het iets kouds en systematisch en <lb n="143" xml:id="l-143"/>methodieks dat hoe langer hoe leeger wordt. <lb n="144" xml:id="l-144"/>Als ik ’t had kunnen doen zou ik de ramen aldus <lb n="145" xml:id="l-145"/>hebben laten betimmeren:</ab>
+<vg:whiteline/>
+                <figure facs="zone-sketch-2" n="B"/>
+<vg:whiteline/>
+                <lb n="145"/>
+<ab>’t geen zooveel meer <lb n="146" xml:id="l-146"/>niet geweest zou zijn <lb n="147" xml:id="l-147"/>indien we niet met reeds <lb n="148" xml:id="l-148"/>eenmaal bestaande blinden <lb n="149" xml:id="l-149"/>te doen hadden gehad. <lb n="150" xml:id="l-150"/>’t verschil alleen zijnde <lb n="151" xml:id="l-151"/>er om elk lichtvak eene <lb n="152" xml:id="l-152"/>lijst is en de blindjes <lb n="153" xml:id="l-153"/>dus iets kleiner<c type="kp">_</c>
+                </ab>
+                <lb n="154" xml:id="l-154"/>
+<ab rend="indent">Maar dit laatste is <lb n="155" xml:id="l-155"/>een aardig en gemakkelijk <lb n="156" xml:id="l-156"/>te verkrijgen gezellig <lb n="157" xml:id="l-157"/>venster. Maar men <lb n="158" xml:id="l-158"/>kan niet alles hebben. <lb n="159" xml:id="l-159"/>En er behoort een breed <lb n="160" xml:id="l-160"/>kozijn bij eigentlijk – waar <lb n="161" xml:id="l-161"/>men in zitten kan – wat hier in dit huis toch geheel ontbreekt.</ab>
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>
+                <lb n="162" xml:id="l-162"/>
+<ab rend="indent">Ik ben zeer verlangend naar Uw <lb n="163" xml:id="l-163"/>brief en nieuws van Uw zieke. <lb n="164" xml:id="l-164"/>Moge zij kalm gebleven zijn en de genezing <lb n="165" xml:id="l-165"/>normaal en voorspoedig. Doch dat gaat <lb n="166" xml:id="l-166"/>niet altijd vlot en grif en haast altijd is er het <lb n="167" xml:id="l-167"/>een of ’t ander en moet men althans erg <lb n="168" xml:id="l-168"/>op zijn qui vive zijn. Ik las nog verl. week <lb n="169" xml:id="l-169"/>Notre dame van Hugo, wat ik ruim 10 jaar geleden reeds <lb n="170" xml:id="l-170"/>gelezen had.<anchor n="7" xml:id="note-o-7"/> Weet ge wie ik er in vond of althans <lb n="171" xml:id="l-171"/>zóó meende te vinden dat ik niet twijfel of <lb n="172" xml:id="l-172"/>Victor Hugo bedoelde iets dergelijks<c type="kp">_</c> Thijs Maris <lb n="173" xml:id="l-173"/>vind ik terug in Quasimodo.</ab>
+                <lb n="174" xml:id="l-174"/>
+<ab rend="indent">Waarschijnlijk krijgen de meesten die N. Dame lezen van <lb n="175" xml:id="l-175"/>Quasimodo den indruk van een soort nar. Doch gij zoudt <lb n="176" xml:id="l-176"/>evenmin als ik Quasimodo bespottelijk vinden en evenals <lb n="177" xml:id="l-177"/>ik voelen dat het waar is wat Hugo zegt. <hi rend="ital">Pour ceux qui</hi> <lb n="178" xml:id="l-178"/>
+                    <hi rend="ital">savent que Quasimodo a existé</hi> maintenant Notre Dame <lb n="179" xml:id="l-179"/>est vide. Car non seulement il en était l’habitant <lb n="180" xml:id="l-180"/>mais <hi rend="ital">il en était l’âme</hi>.<anchor n="8" xml:id="note-o-8"/> Notre Dame als <lb n="181" xml:id="l-181"/>zinnebeeld nemende van die rigting van kunst <lb n="182" xml:id="l-182"/>welke b.v. in Leys en de Groux (soms) en Lagye en Devriendt<c type="kk">/</c>
+                    <anchor n="9" xml:id="note-o-9"/> Henri Pille<c type="kk">/</c> <lb n="183" xml:id="l-183"/>haar uiting vond<c type="kk">/</c> kan men op Thijs Maris toepassen <lb n="184" xml:id="l-184"/>het maintenant il y a un vide pour ceux qui savent qu’il <lb n="185" xml:id="l-185"/>a existé car il en était l’ame et l’âme de cet art-là<c type="kk">/</c> <lb n="186" xml:id="l-186"/>c’etait lui. Enfin Thijs Maris bestaat nog wel <lb n="187" xml:id="l-187"/>maar niet in zijn volle fleur en kracht – niet ongekrenkt <lb n="188" xml:id="l-188"/>en desenchanté <hi rend="ital">voor zoover bij hem désenchantement zijn kan</hi>
+                    <c type="kp">_</c> <lb n="189" xml:id="l-189"/>Een van de enormiteiten der schilders hier vind ik dat zij <lb n="190" xml:id="l-190"/>
+                    <hi rend="ital">zelfs nu nog</hi> om Thijs Maris lagchen. Ik vind daarin iets <lb n="191" xml:id="l-191"/>akeligs als zelfmoord<c type="kp">_</c>– Waarom als zelfmoord? <lb n="192" xml:id="l-192"/>Omdat Thijs Maris zoo danig een verpersoonlijking is van <lb n="193" xml:id="l-193"/>iets hoogs en nobels dat een schilder daarmee mijns inziens <lb n="194" xml:id="l-194"/>niet spotten kan zonder zich zelf te verlagen.</ab>
+                <lb n="195" xml:id="l-195"/>
+<ab rend="indent">Wie Maris niet begrijpt<c type="kk">/</c> tant pis pour lui<c type="kk">/</c> wie hem begrepen hebben <lb n="196" xml:id="l-196"/>betreuren hem en betreuren het dat zoo iemand geknakt is.<anchor n="10" xml:id="note-o-10"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="197" xml:id="l-197"/>
+<ab>Noble lame, vil fourreau –</ab> <lb n="198" xml:id="l-198"/>
+                <ab>Dans mon âme je suis beau<c type="kp">_</c>
+                    <anchor n="11" xml:id="note-o-11"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="198*" xml:id="l-198s"/>
+<ab>dat is op Thijs M. en op Quasimodo toepasselijk.</ab>
+                <lb n="199" xml:id="l-199"/>
+<ab rend="indent">Nu – schrijf spoedig als <lb n="200" xml:id="l-200"/>gij nog niet geschreven hebt, <lb n="201" xml:id="l-201"/>en geloof me<c type="kk">/</c> met een <lb n="202" xml:id="l-202"/>handdruk,</ab>
+<vg:whiteline/>
+                <lb n="202*" xml:id="l-202s"/>
+<ab>t. à t.</ab>
+                <lb n="203" xml:id="l-203"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-10" n="10">en &lt; en en  <hi rend="ital">Written twice due to ink corrosion.</hi>
+                    </note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo,</ab>
+<ab>I wanted to write to you on Sunday but I waited because I was busy with something that hadn’t yet been decided. A week or so ago I was reading <rs type="pers" key="728">Fritz Reuter</rs>’s ‘Uit mijn gevangenistijd’, in which he describes very amusingly how Fritz R. and others serving fortress sentences made life as agreeable as possible and secured various privileges from their ‘field officer’.<anchor n="1" xml:id="note-t-1"/> That book gave me the idea of tackling my <rs type="pers" key="812">landlord</rs>
+                    <anchor n="2" xml:id="note-t-2"/> with a view to certain improvements that would make my work easier. </ab>
+<ab rend="indent">And I’ve been back and forth to Voorburg, where he lives, several times to get him to do one thing and another. There were some old wooden blinds and planks lying there that I wanted to use, but it wasn’t easy to get them. Still, I have them now. As you know, there are 3 windows in the studio.<anchor n="3" xml:id="note-t-3"/> They give much too much light, even if I cover them, and I’ve long been thinking about how to remedy this. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">But he didn’t want to do anything unless I paid him. </ab>
+<ab rend="indent">But now, as the result of tackling him again, I have 6 blinds and about 6 long planks. </ab>
+<vg:whiteline/>
+<ab>
+                    <figure facs="zone-sketch-1" n="A"/>
+                </ab>
+<vg:whiteline/>
+<ab>Those blinds are now being sawn to make shutters that can be manoeuvred so that more or less light is shut out or let in as required, from above or below. From this scratch I think you’ll see that it works very nicely. </ab>
+<ab rend="indent">And the planks are for a big cupboard in the alcove, for storing drawings, prints, books, and as a hatstand for various smocks, jackets, old coats, shawls and hats, not forgetting the sou’wester, which I need for the models. </ab>
+<ab rend="indent">I’ve paid the <rs type="pers" key="812">landlord</rs> regularly and have now told him straight out that I wouldn’t contradict him if he thought the rent for the house was low, but I asked him to consider that for me the rent was still a heavy burden. And that I <hi rend="ital">could</hi> not work readily 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> or make progress until I had better light. </ab>
+<ab rend="indent">That if he couldn’t change it I, for my part, really would be <hi rend="ital">forced</hi> to find another studio. That if I could afford it I would put up with paying for it, but now I wasn’t in a position to pay more than I was already. So my paying more was out of the question, and whether I stayed depended on whether or not he would have this done. If my leaving was a matter of indifference to him, we’d part as good friends and say no more. Well, then he said, no, he did want to do <hi rend="ital">something</hi>, and so we finally agreed that I need only pay a few guilders’ worth of labour. </ab>
+<ab rend="indent">He’s been to the studio himself repeatedly and is certainly not a swindler, though he has a pretty sharp tongue (a bit like a Yankee). And it seems that the studio was better than he’d expected (he hadn’t seen it since July last year); at any rate I got it approved while in the studio, and more easily even than I expected. </ab>
+<ab rend="indent">If only one could always deal with people in the studio! But outside it I, for one, can’t get them to do much and can’t get on well with them. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> </ab>
+<ab rend="indent">Have been working on some figures, rather large, busts or to the knees, which will be a sort of decoration for the corridor and stairs, together with a few others, though they’re really no more than ordinary studies.<anchor n="4" xml:id="note-t-4"/> Anyway, you see from one thing and another that I’ve once again thrown myself headlong into it, so that I’ll get new ideas in my head through being busy. </ab>
+<ab rend="indent">At Voorburg, for example, when I went with him to sort out that wood, I saw beautiful scenes of labourers in a shed and the excavation of a cellar and the laying of the foundations of a house. I thought of what you once wrote to me about the labourers in Montmartre<anchor n="5" xml:id="note-t-5"/> when you were there, when one of them injured himself in a stone quarry.</ab>
+<ab rend="indent">As you know, I already had something in front of the windows, namely canvas stretched on laths. They’re no longer needed now, but will be highly desirable as backgrounds, with darker or lighter material stretched over them, when one wants to draw heads, for example.</ab>
+<ab rend="indent">You see now that I’ll be able to cover over one or two windows completely and thus obtain one general light that will make the effects much stronger. Otherwise they’d be neutralized by reflections or different lights. </ab>
+<ab rend="indent">The job would have been entirely out of the question if I’d had to pay for it myself, since it was expensive, and I’m very pleased with it. </ab>
+<ab rend="indent">I felt that better light was desirable, especially when doing drawings like those I was working on of late, such as those heads I sent you in which I used a stronger black.<anchor n="6" xml:id="note-t-6"/> 
+      <pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/> I hope everything will work properly but you can see for yourself from this scratch that it’s so simple that it’s <hi rend="ital">bound</hi> to work, it seems to me.</ab>
+<ab rend="indent">Yet how miserable today’s houses often are compared with what they could be if people made an effort to furnish them pleasantly. </ab>
+<ab rend="indent">Compare a modern window with one from <rs type="pers" key="1295">Rembrandt</rs>’s time. In those days everyone seems to have had a sort of need for a curious, dimmed light that no longer seems to exist, at least there’s a tendency to make it cold, harsh and loveless. A good start was made with workers’ dwellings, but I see no sign of advances being made since those of 20 or 30 years ago. On the contrary, the pleasing aspect is increasingly lost, and it turns into something cold and systematic and methodical that becomes ever more empty with time. If I could have, I would have had the windows altered like this: </ab>
+<vg:whiteline/>
+<ab>
+                    <figure facs="zone-sketch-2" n="B"/>
+                </ab>
+<vg:whiteline/>
+<ab>which wouldn’t have been that much more if we hadn’t been dealing with blinds that already existed. The difference is only that there’s a frame around each square of light, and the blinds are thus slightly smaller. </ab>
+<ab rend="indent">But the latter is an agreeable and easily achieved, pleasing window. But one can’t have everything. And it ought really to have a broad window-sill — where one could sit — which is entirely lacking in this house. 
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/> </ab>
+<ab rend="indent">I’m longing for your letter and news of your <rs type="pers" key="508">patient</rs>. May she have remained calm and may the recovery be normal and successful. But it doesn’t always go smoothly and rapidly, and something or other almost always comes up, and at all events one must be very much on the alert. Just last week I read Notre-Dame by <rs type="pers" key="666">Hugo</rs>, which I had read before over 10 years ago.<anchor n="7" xml:id="note-t-7"/> Do you know who I recognized in it, or at least was so convinced I recognized that I don’t doubt that Victor Hugo intended some such thing? I recognized <rs type="pers" key="1202">Thijs Maris</rs> in Quasimodo. </ab>
+<ab rend="indent">Most people who read N. Dame probably have an impression of Quasimodo as a sort of clown. But you wouldn’t think Quasimodo ridiculous any more than I would, and like me you would feel that what <rs type="pers" key="666">Hugo</rs> says is true. <hi rend="ital">For those who know that Quasimodo existed</hi>, now Notre-Dame is empty. For not only was he its inhabitant, but <hi rend="ital">he was its soul</hi>.<anchor n="8" xml:id="note-t-8"/> If one takes Notre-Dame as a symbol of the movement in art that found expression in, for instance, <rs type="pers" key="1176">Leys</rs> and <rs type="pers" key="1063">Degroux</rs> (sometimes) and <rs type="pers" key="1140">Lagye</rs> and <rs type="pers" key="1433 1434">De Vriendt</rs>,<anchor n="9" xml:id="note-t-9"/> <rs type="pers" key="1270">Henri Pille</rs>, the following can be applied to <rs type="pers" key="1202">Thijs Maris</rs>: now there’s an emptiness for those who know that he existed, for he was its soul, and the soul of that art, it was he. Anyway, Thijs Maris still exists but not in his full prime and vigour — not unhurt and disenchanted <hi rend="ital">to the extent that there can be disenchantment with him</hi>. One of the enormities committed by the painters here is, I believe, that <hi rend="ital">even now</hi> they still laugh at Thijs Maris. I think there’s something as dismal as suicide in that. Why suicide? Because Thijs Maris is such an embodiment of something high and noble that in my view a painter can’t mock that without lowering himself. </ab>
+<ab rend="indent">Those who don’t understand <rs type="pers" key="1202">Maris</rs>, so much the worse for them, those who do understand him grieve for him, and grieve that such a person has snapped.<anchor n="10" xml:id="note-t-10"/>
+                </ab>
+<vg:whiteline/>
+<ab>Noble blade, ignoble scabbard —</ab>
+<ab>In my soul I am fair.<anchor n="11" xml:id="note-t-11"/>
+                </ab>
+<vg:whiteline/>
+<ab>This is applicable to <rs type="pers" key="1202">Thijs M.</rs> and to Quasimodo.</ab>
+<ab rend="indent">Well — write soon if you haven’t written already, and believe me, with a handshake,</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+      <ab>For <rs type="pers" key="728">Fritz Reuter</rs>, <rs type="lit" key="320">
+                            <hi rend="ital">Ut mine Festungstid</hi>
+                        </rs> and the passage meant, <ref target="let306.xml#n-6">see letters 306, n. 6</ref> and <ref target="let317.xml#n-2">317, n. 2.</ref>
+                    </ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>The landlord was <rs type="pers" key="812">M.A. De Zwart</rs>.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>These large windows faced north-west; see the sketch in <ref target="let222.xml">letter 222</ref>.</ab>
+                </note>
+<note n="a" xml:id="n-a" target="#note-o-a">
+<ab>Means: ‘hij is direct en geeft niet makkelijk toe’ (he is direct and does not give in easily).</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>These studies, which are also mentioned in <ref target="let317.xml">letter 317</ref>, are not known.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>Theo had sent Vincent this description at the beginning of September 1882: <ref target="let260.xml">see letter 260</ref>.</ab>
+                </note>
+<note n="b" xml:id="n-b" target="#note-o-b">
+<ab>Read: ‘fond’ (background).</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>See the two heads sent to Theo in <ref target="let298.xml">letter 298</ref> and the five in <ref target="let299.xml">letter 299</ref>.</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>In <rs type="pers" key="666">Victor Hugo</rs>’s <rs type="lit" key="331">
+                            <hi rend="ital">Notre-Dame de Paris</hi>
+                        </rs> (1831) Archdeacon Claude Frollo falls in love with Esmerelda. On his instructions, Quasimodo, the grotesque hunchbacked bell-ringer of Notre-Dame whom he has befriended, kidnaps her. Her rescue is brought about by Phoebus de Chateaupers and she falls in love with him for his bravery when he is in reality something of a rogue. Frollo follows her to a meeting with Phoebus, who is killed. She is sentenced to death for the murder. Quasimodo has become her effective slave due to an act of kindness and takes her to sanctuary in the cathedral. The sad finale involves the arrest of Esmerelda, her hanging and Quasimodo’s wretched misery at the loss of the girl.</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+      <ab>The passage in <rs type="pers" key="666">Hugo</rs>’s <rs type="lit" key="331">
+                            <hi rend="ital">Notre-Dame de Paris</hi>
+                        </rs>  reads (book 4, chapter 3): ‘And all that came from Quasimodo. Egypt would have taken him for the god of that temple, the Middle Ages believed he was its demon; he was its soul. So much so that for those who know that Quasimodo existed, Notre-Dame today is barren, inanimate, dead. You can feel that something has disappeared. This immense body is empty; it’s a skeleton; the spirit has left it, you can see where it was, and that’s all. It’s like a skull which still has holes for the eyes, but no longer sight.’ (Et tout cela venait de Quasimodo. L’Egypte l’eût pris pour le dieu de ce temple; le moyen âge l’en croyait le démon; il en était l’âme. A tel point que pour ceux qui savent que Quasimodo a existé, Notre-Dame est aujourd’hui déserte, inanimée, morte. On sent qu’il y a quelque chose de disparu. Ce corps immense est vide; c’est une squelette; l’esprit l’a quitté, on en voit la place, et voilà tout. C’est comme un crâne où il y a encore des trous pour les yeux, mais plus de regard.) See Hugo 1975, pp. 154-155.</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>Van Gogh may mean <rs type="pers" key="1434">Albert</rs> or <rs type="pers" key="1433">Julien de Vriendt</rs>.</ab>
+                </note>
+      <note n="10" xml:id="n-10" target="#note-t-10">
+<ab>At the time he was living in Paris (1869-1877), <rs type="pers" key="1202">Matthijs Maris</rs> was inward-looking, depressive and difficult to get on with. He depicted fairy-tale scenes and atmospheric, historical landscapes. Van Gogh compiled an anthology for him, probably between May 1875 and March 1876. See Heijbroek 1975, Pabst 1988, pp. 38-59, and exhib. cat. Mannheim 1987, p. 88.</ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+      <ab>Words spoken by Quasimodo in <rs type="pers" key="666">Victor Hugo</rs>’s <rs type="lit" key="332">
+                            <hi rend="ital">La Esmeralda</hi>
+                        </rs>, the libretto of an opera based on his great tragic romance, <rs type="lit" key="331">
+                            <hi rend="ital">Notre-Dame de Paris</hi>
+                        </rs> (Act 4, scene 2). See Victor Hugo, <hi rend="ital">Oeuvres complètes</hi>. Drame. Vol. 4. Paris 1880, p. 61. The lines are also quoted in Blanc, <hi rend="ital">
+                            <rs type="lit" key="135">L’Oeuvre complet de Rembrandt</rs>
+                        </hi>, vol. 1, p. 20.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Saint-Rémy-de-Provence, on or about Friday, 2 May 1890.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let866"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">866</idno>
+<idno type="collectedletters">632</idno>
+<idno type="brieven1990">867</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Saint-Rémy-de-Provence</vg:placeLet>
+                        <vg:dateLet>on or about Friday, 2 May 1890</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:physDesc>
+                        <vg:decoration>
+                            <vg:decoList xml:id="sketches">
+                                <vg:decoItem n="A" xml:id="sketch-1">
+                                    <vg:decoDesc>
+<p>
+      <hi rend="ital">The raising of Lazarus (after Rembrandt)</hi> (<rs type="sketch" key="225">F - / JH 1973</rs>), letter sketch</p>
+                                    </vg:decoDesc>
+                                </vg:decoItem>
+                            </vg:decoList>
+                        </vg:decoration>
+                    </vg:physDesc>
+                    <vg:letContents>
+<p>To Theo van Gogh. Saint-Rémy-de-Provence, on or about Friday, 2 May 1890.</p>
+<note type="ongoingTopic" n="1">
+<p>Fourth attack in Saint-Rémy <ref target="let857.xml">(857)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="2">
+<p>Vincent considers settling in Auvers and putting himself in the care of Dr Gachet <ref target="let808.xml">(808)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="3">
+<p>Seventh consignment of paintings from Saint-Rémy <ref target="let863.xml">(863)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. nos. b681 a-b V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Vincent wrote to Theo on 29 April and on or about 1 May (<ref target="let863.xml">863</ref> and <ref target="let865.xml">865</ref>). In the present letter he says: ‘Once again I’m writing to you’ (<ref target="#l-1*">l. 1*</ref>), and asks Theo: ‘In any event, write to me in the next few days’ <ref target="#l-79">(ll. 79-80)</ref>. This suggests that Theo’s letter of 3 May (<ref target="let867.xml">letter 867</ref>) had not yet arrived in Saint-Rémy – their letters probably crossed. Because Vincent again mentions the Rembrandt etchings he received, the present letter follows upon <ref target="let865.xml">letter 865</ref>, in which he thanks Theo for sending them. We have therefore dated this letter to about Friday, 2 May 1890.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0681 a" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000927_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000927_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000927_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000927_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0681 a" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000927_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000927_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000927_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000927_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0681 b" xml:id="surf-pb-2r">
+            <graphic mimeType="image/tiff" url="VGM001000928_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-2r-3">
+<graphic mimeType="image/tiff" url="VGM001000928_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000928_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000928_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0681 b" xml:id="surf-pb-2v">
+            <graphic mimeType="image/tiff" url="VGM001000928_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-2v-4">
+<graphic mimeType="image/tiff" url="VGM001000928_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000928_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000928_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <figure facs="zone-sketch-1" n="A"/>
+<vg:whiteline/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Mon cher Theo,</ab>
+                <lb n="1*" xml:id="l-1s"/>
+<ab>encore une fois je t’ecris pour dire <lb n="2" xml:id="l-2"/>que la santé continue à aller bien, pourtant <lb n="3" xml:id="l-3"/>je me sens un peu éreinté par cette longue crise <lb n="4" xml:id="l-4"/>et j’ose croire que le changement projeté <lb n="5" xml:id="l-5"/>me rafraichira davantage les idées<c type="kp">_</c>
+                </ab>
+                <lb n="6" xml:id="l-6"/>
+<ab rend="indent">Je crois que le mieux sera que j’aille <lb n="7" xml:id="l-7"/>moi-même voir ce médecin à la campagne <lb n="8" xml:id="l-8"/>le plus tôt possible; alors on pourra bientôt <lb n="9" xml:id="l-9"/>décider si c’est chez lui ou provisoirement <lb n="10" xml:id="l-10"/>à l’auberge que j’irai loger; et ainsi on <lb n="11" xml:id="l-11"/>évitera un séjour trop prolongé à Paris, chôse <lb n="12" xml:id="l-12"/>que je redouterais<c type="kp">_</c>–</ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="13" xml:id="l-13"/>
+<ab rend="indent">Tu te rappelles qu’il y a 6 mois je te disais <lb n="14" xml:id="l-14"/>après une crise que si cela se répétait je te <lb n="15" xml:id="l-15"/>demanderais de changer<c type="kp">_</c>–<anchor n="1" xml:id="note-o-1"/> Nous en <lb n="16" xml:id="l-16"/>sommes là – quoique je ne me sens pas <lb n="17" xml:id="l-17"/>capable de porter un jugement sur la façon <lb n="18" xml:id="l-18"/>qu’ils ont ici de traiter les malades – il suffit <lb n="19" xml:id="l-19"/>que je sens ce qui me reste de raison et de <lb n="20" xml:id="l-20"/>puissance de travailler absolument en danger. <lb n="21" xml:id="l-21"/>tandis qu’au contraire je me fais fort de <lb n="22" xml:id="l-22"/>prouver à ce médecin duquel tu parles <lb n="23" xml:id="l-23"/>que je sais encore travailler logiquement <lb n="24" xml:id="l-24"/>et lui me traitera en conséquence, et <lb n="25" xml:id="l-25"/>puisqu’il aime la peinture il y a assez de <lb n="26" xml:id="l-26"/>chance qu’il en résulte une amitié solide.</ab>
+                <lb n="27" xml:id="l-27"/>
+<ab rend="indent">Je ne crois pas que M. Peyron s’opposera <lb n="28" xml:id="l-28"/>à un très prompt départ. je me persuade <lb n="29" xml:id="l-29"/>d’ailleurs que le plaisir de passer quelques <lb n="30" xml:id="l-30"/>jours avec toi me remettra beaucoup.– <lb n="31" xml:id="l-31"/>Et dès lors nous pouvons bien compter <lb n="32" xml:id="l-32"/>sur une période de santé relative<c type="kp">_</c> <lb n="33" xml:id="l-33"/>Ne tarde donc pas à prendre les <lb n="34" xml:id="l-34"/>mesures nécessaires pour que cela <lb n="35" xml:id="l-35"/>ne traîne pas<c type="kp">_</c>–</ab>
+<pb f="2r" n="3" xml:id="pb-orig-2r-3" facs="#zone-pb-2r-3"/>
+                <lb n="36" xml:id="l-36"/>
+<ab rend="indent">Une fois là-bas je pourrai faire venir <lb n="37" xml:id="l-37"/>mon lit qui est à Arles.<anchor n="2" xml:id="note-o-2"/>
+                </ab>
+                <lb n="38" xml:id="l-38"/>
+<ab rend="indent">D’ailleurs je changerais quand même<c type="kk">/</c> <lb n="39" xml:id="l-39"/>préférant être dans un asile où <lb n="40" xml:id="l-40"/>les malades travailleraient<c type="kk">/</c> à <lb n="41" xml:id="l-41"/>cette affreuse oisiveté d’ici qui <lb n="42" xml:id="l-42"/>reellement me parait simplement <lb n="43" xml:id="l-43"/>comme un crime. Enfin tu <lb n="44" xml:id="l-44"/>me diras qu’on voit cela un peu <lb n="45" xml:id="l-45"/>partout et que même à Paris <lb n="46" xml:id="l-46"/>cela abonde. Quoi qu’il en soit <lb n="47" xml:id="l-47"/>j’espère que nous nous reverrons <lb n="48" xml:id="l-48"/>sous peu.</ab>
+                <lb n="49" xml:id="l-49"/>
+<ab rend="indent">Les eaux fortes que tu m’as envoyé<anchor n="3" xml:id="note-o-3"/> <lb n="50" xml:id="l-50"/>sont bien belles. Ci contre j’ai griffonné <lb n="51" xml:id="l-51"/>un croquis d’après une peinture que j’ai <lb n="52" xml:id="l-52"/>faite de trois figures qui sont dans <lb n="53" xml:id="l-53"/>le fond de l’eau forte du Lazare.<anchor n="4" xml:id="note-o-4"/>
+                </ab>
+                <lb n="54" xml:id="l-54"/>
+<ab rend="indent">Le mort et ses deux soeurs<c type="kp">_</c>– La grotte <lb n="55" xml:id="l-55"/>et le cadavre sont violet<c type="kk">/</c> jaune<c type="kk">/</c> blanc<c type="kp">_</c> <lb n="56" xml:id="l-56"/>La femme qui ôte le mouchoir de la face <lb n="57" xml:id="l-57"/>du ressucité a une robe verte et des cheveux <lb n="58" xml:id="l-58"/>orangés<c type="kk">/</c> l’autre a une chevelure noire et un <lb n="59" xml:id="l-59"/>vetement rayé. Vert &amp; rose. Derriere une <lb n="60" xml:id="l-60"/>campagne<c type="kk">/</c> des collines bleues<c type="kk">/</c> un soleil levant jaune. <lb n="61" xml:id="l-61"/>La combinaison de couleurs ainsi parlerait par elle-même <lb n="62" xml:id="l-62"/>de la même chose qu’exprime le clair obscur de l’eau forte<c type="kp">_</c>
+                </ab>
+<pb f="2v" n="4" xml:id="pb-orig-2v-4" facs="#zone-pb-2v-4"/>
+                <lb n="63" xml:id="l-63"/>
+<ab rend="indent">J’aurais encore à ma disposition le modèle <lb n="64" xml:id="l-64"/>qui a posé la berceuse<anchor n="5" xml:id="note-o-5"/> et l’autre dont <lb n="65" xml:id="l-65"/>tu viens de recevoir le portrait d’après le <lb n="66" xml:id="l-66"/>dessin de Gauguin<c type="kk">/</c>
+                    <anchor n="6" xml:id="note-o-6"/> alors certes j’essayerais <lb n="67" xml:id="l-67"/>à exécuter en grand cette toile<c type="kk">/</c> les personalités <lb n="68" xml:id="l-68"/>étant ce que j’aurais rêvé comme caractères. <lb n="69" xml:id="l-69"/>Mais laissant de côté des motifs de ce <lb n="70" xml:id="l-70"/>genre<c type="kk">/</c> il restera là-bas l’étude d’après <lb n="71" xml:id="l-71"/>nature de paysans et paysages quand <lb n="72" xml:id="l-72"/>je serai de retour dans le nord.</ab>
+                <lb n="73" xml:id="l-73"/>
+<ab rend="indent">Pour ce qui est de la commande de couleurs.<anchor n="7" xml:id="note-o-7"/> <lb n="74" xml:id="l-74"/>si c’est que je reste ici encore quelques <lb n="75" xml:id="l-75"/>jours<c type="kk">/</c> expédies en je te prie une partie <lb n="76" xml:id="l-76"/>
+                    <hi rend="ital">de suite</hi>
+                    <c type="kp">_</c>– si toutefois je pars de ces <lb n="77" xml:id="l-77"/>jours ci – ce que j’espère – tu peux bien <lb n="78" xml:id="l-78"/>la garder à Paris.</ab>
+                <lb n="79" xml:id="l-79"/>
+<ab rend="indent">Ecris moi de ces jours ci dans tous les <lb n="80" xml:id="l-80"/>cas; j’espère que tu auras reçu les toiles en <lb n="81" xml:id="l-81"/>bon ordre. j’en ai fait encore une d’un <lb n="82" xml:id="l-82"/>coin de verdure qui me parait avoir quelque <lb n="83" xml:id="l-83"/>fraîcheur.<anchor n="8" xml:id="note-o-8"/> J’ai aussi essayé une copie du <lb n="84" xml:id="l-84"/>bon Samaritain de Delacroix.<anchor n="9" xml:id="note-o-9"/> Je crois d’après <lb n="85" xml:id="l-85"/>une note dans le Figaro que le père Quost doit <lb n="86" xml:id="l-86"/>avoir un tableau rudement bien au salon.<anchor n="10" xml:id="note-o-10"/>
+                </ab>
+                <lb n="87" xml:id="l-87"/>
+<ab rend="indent">Bien des chôses à ta femme, je me fais <lb n="88" xml:id="l-88"/>une fête de faire enfin sa connaissance <lb n="89" xml:id="l-89"/>et bonne poignée de main en pensee<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="90" xml:id="l-90"/>
+<ab>t. à t<c type="kp">_</c>
+                </ab>
+                <lb n="91" xml:id="l-91"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-66" n="66">alors &lt; que</note>
+<note target="l-67" n="67">toile; &lt; toile</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>
+                    <figure facs="zone-sketch-1" n="A"/>
+                </ab>
+<vg:whiteline/>
+<ab>My dear Theo,</ab>
+<ab>Once again I’m writing to you to say that I’m staying well, yet I feel a little worn out by this long crisis, and I dare believe that the planned move will refresh my ideas more.</ab>
+<ab rend="indent">I think that it’ll be best for me to go myself to see this <rs type="pers" key="389">doctor</rs> in the country as soon as possible; then we can soon decide if I’m going to lodge with him or temporarily at the inn; and thus we’ll avoid an over-long stay in Paris, a thing that I would fear. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">You remember that 6 months ago I told you after a crisis that if it happened again I would ask you to let me move?<anchor n="1" xml:id="note-t-1"/> We’re at that point – although I don’t feel capable of passing judgement on the way they have of dealing with the patients here – it’s enough that I feel that what remains to me of reason and capacity for work is absolutely in danger. While, on the contrary, I’m confident that I can prove to this doctor you speak of that I still know how to work logically, and he’ll treat me accordingly, and since he likes painting there’s sufficient chance that a solid friendship will result from it.</ab>
+<ab rend="indent">I don’t think <rs type="pers" key="568">Mr Peyron</rs> will oppose a very prompt departure. Besides, I tell myself that the pleasure of spending a few days with you will do me a lot of good. And from that moment on we can really count on a period of relative health. So don’t delay in taking the necessary steps so that this doesn’t drag on. 
+<pb f="2r" n="3" xml:id="pb-trans-2r-3" facs="#zone-pb-2r-3"/>
+                </ab>
+<ab rend="indent">Once I’m there I can send for my bed, which is in Arles.<anchor n="2" xml:id="note-t-2"/>
+                </ab>
+<ab rend="indent">Besides, I would move anyway, preferring to be in an asylum where the patients worked to this awful idleness here, which really seems to me quite simply a crime. Anyway, you’ll tell me that this is seen more or less everywhere, and that there’s even plenty of it in Paris. Whatever the case, I hope that we’ll see each other again very soon.</ab>
+<ab rend="indent">The etchings you sent me<anchor n="3" xml:id="note-t-3"/> are really beautiful. Opposite this I’ve scribbled a croquis after a painting I’ve done of three figures which are in the background of the Lazarus etching.<anchor n="4" xml:id="note-t-4"/>
+                </ab>
+<ab rend="indent">The dead man and his two sisters. The cave and the corpse are violet, yellow, white. The woman who is taking the handkerchief from the resurrected man’s face has a green dress and orange hair, the other has black hair and a striped garment. Green and pink. Behind a countryside, blue hills, a yellow rising sun. The combination of colours would thus itself speak of the same thing expressed by the chiaroscuro of the etching. 
+<pb f="2v" n="4" xml:id="pb-trans-2v-4" facs="#zone-pb-2v-4"/>
+                </ab>
+<ab rend="indent">If I were still to have at my disposal the <rs type="pers" key="648">model</rs> who posed for the Berceuse<anchor n="5" xml:id="note-t-5"/> and the <rs type="pers" key="383">other</rs> whose portrait you’ve just received after <rs type="pers" key="1039">Gauguin</rs>’s drawing,<anchor n="6" xml:id="note-t-6"/> then certainly I’d try to execute it in a large size, this canvas, the personalities being what I would have dreamed of as characters. But leaving aside subjects of this kind, there will still remain the study from life of peasants and landscapes when I’m back in the north.</ab>
+<ab rend="indent">As regards the order for colours.<anchor n="7" xml:id="note-t-7"/> Should I remain here for another few days, please send off part of it <hi rend="ital">at once</hi>. If, however, I leave in the next few days – which I hope – you can keep it in Paris.</ab>
+<ab rend="indent">In any event, write to me in the next few days; I hope that you’ll have received the canvases in good order. I’ve done another one of a nook of greenery which seems to me to have some freshness.<anchor n="8" xml:id="note-t-8"/> I’ve also attempted a copy of <rs type="pers" key="982">Delacroix</rs>’s Good Samaritan.<anchor n="9" xml:id="note-t-9"/> I think from a note in Le Figaro that <rs type="pers" key="1282">
+                        <hi rend="ital">père</hi> Quost</rs> must have a darned good painting in the Salon.<anchor n="10" xml:id="note-t-10"/>
+                </ab>
+<ab rend="indent">Warm regards to your <rs type="pers" key="416">wife</rs>, I’m very much looking forward to making her acquaintance at last, and good handshake in thought.</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>Van Gogh had written this in <ref target="let805.xml">letter 805</ref> of about 20 September 1889, some two months after his first attack in Saint-Rémy.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>When he left Arles in May 1889, Van Gogh had stored his furniture at <rs type="pers" key="382 383">Joseph and Marie Ginoux</rs>’s Café de la Gare.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>For these etchings by <rs type="pers" key="1295">Rembrandt</rs>, <ref target="let865.xml">see letter 865</ref>.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>The letter sketch <hi rend="ital">The raising of Lazarus</hi> <hi rend="ital">(after Rembrandt) </hi>(<rs type="sketch" key="225">F - / JH 1973</rs>) was made after the painting of the same name <rs type="ill" key="2900">F 677 / JH 1972</rs>. For <rs type="pers" key="1295">Rembrandt</rs>’s etching, <ref target="let865.xml#n-3">see letter 865, n. 3.</ref>
+                    </ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+
+<ab>
+                        <rs type="pers" key="648">Augustine Roulin</rs> was the model for the five versions of <hi rend="ital">Augustine Roulin (‘La berceuse’)</hi>: <rs type="ill" key="2762">F 504 / JH 1655</rs>, <rs type="ill" key="2773">F 505 / JH 1669</rs>, <rs type="ill" key="2774">F 506 / JH 1670</rs>, <rs type="ill" key="2776">F 507 / JH 1672</rs> and <rs type="ill" key="2775">F 508 / JH 1671</rs>.</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+
+      <ab>
+                        <rs type="pers" key="383">Marie Ginoux</rs> was portrayed by <rs type="pers" key="1039">Gauguin</rs> in his drawing <hi rend="ital">Madame Ginoux (study for ‘Night café, Arles’)</hi>, 1888 (Fine Arts Museums of San Francisco. Memorial gift from Dr T. Edward and Tullah Hanley, Bradford Pennsylvania). <rs type="ill" key="97">Ill. 97</rs>. Gauguin’s drawing came into the possession of Theo and was sold in 1910 (see <hi rend="ital">Account book</hi> 2002, p. 150). Van Gogh had made five paintings after it, four of which are still known: <hi rend="ital">Marie Ginoux (‘The Arlésienne’)</hi> <rs type="ill" key="2891">F 540 / JH 1892</rs>, <rs type="ill" key="2892">F 541 / JH 1893</rs>, <rs type="ill" key="2893">F 542 / JH 1894</rs> and <rs type="ill" key="2894">F 543 / JH 1895</rs>. Regarding this consignment, <ref target="let863.xml#n-8">see letter 863, n. 8.</ref>
+                    </ab>
+                </note>
+
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>
+  <ref target="let863.xml">Letter 863</ref> contained an order for paint, brushes and canvas.</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>
+      <hi rend="ital">Meadow in the garden of the asylum </hi>(<rs type="ill" key="2902">F 672 / JH 1975</rs>).</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>
+      <hi rend="ital">The Good Samaritan (after Delacroix) </hi>(<rs type="ill" key="2901">F 633 / JH 1974</rs>). Van Gogh had planned to paint this canvas as early as September 1889, and mentioned his intention again in February (<ref target="let805.xml">see letters 805</ref> and <ref target="let854.xml">854</ref>).</ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+
+<ab>Albert Wolff wrote in his article ‘<rs type="lit" key="582">Le Salon</rs>’, published in <hi rend="ital">Le Figaro</hi> 36 (30 April 1890), 3rd series, pp. 1-3, about the work of <rs type="pers" key="1282">Quost</rs>: ‘Mr Quost paints flowers with virtuosity, in the open air, in bright daylight, all in green and all in yellow’ (M. Quost peint avec virtuosité des fleurs en plein air, en pleine lumière, en plein vert et en plein jaune) (p. 2). The painting in question is <hi rend="ital">Easter flowers</hi> (Roubaix, Musée d’Art et d’Industrie). <rs type="ill" key="324">Ill. 324</rs>.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

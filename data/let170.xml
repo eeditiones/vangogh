@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Etten, Friday, 5 August 1881.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let170"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">170</idno>
+<idno type="collectedletters">148</idno>
+<idno type="brieven1990">169</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Etten</vg:placeLet>
+                        <vg:dateLet>Friday, 5 August 1881</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. Etten, Friday, 5 August 1881.</p>
+<note type="ongoingTopic" n="1">
+<p>Van Gogh is copying Bargue’s <hi rend="ital">Exercices au fusain</hi> (<ref target="let156.xml">156</ref> and <ref target="let158.xml">158</ref>)</p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b168 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>As emerges from the first sentence, this letter was written shortly after Theo’s departure from Etten (<ref target="#n-1">see n. 1</ref>) and on a day Vincent received a letter from Theo <ref target="#l-10">(l. 10)</ref>. The same is true of a letter written by Mr van Gogh: Mr and Mrs van Gogh received a letter from Theo and wrote back the same day. Because this occurred on 5 August 1881 (FR b2236), and it is highly likely that Theo’s letters arrived on the same day (and may even have been written on the same sheet of paper), both letters – Vincent’s and his father’s – were almost certainly written on 5 August and most likely sent in the same envelope.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0168" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000179_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000179_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000179_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000179_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0168" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000179_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000179_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000179_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000179_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Waarde Theo,</ab>
+                <lb n="2" xml:id="l-2"/>
+<ab>Regt prettig vond ik het dat ge weer hier waart<anchor n="1" xml:id="note-o-1"/> &amp; wij weer eens praten konden over <lb n="3" xml:id="l-3"/>een en ander. Nog steeds blijf ik het jammer vinden dat wij nog niet veel meer <lb n="4" xml:id="l-4"/>kunnen zamen zijn. Niet dat ik aan praten op zich zelf veel waarde hecht maar <lb n="5" xml:id="l-5"/>mijn bedoeling is dat ik wel wenschte we elkaar nog veel beter en intiemer <lb n="6" xml:id="l-6"/>kenden dan nu ’t geval is. Dat dacht ik vooral nog in ’t terugrijden van <lb n="7" xml:id="l-7"/>Rozendael toen ik U naar ’t station gebragt had, ook naar aanleiding van <lb n="8" xml:id="l-8"/>sommige dingen waarover we in t’laatste oogenblik het hadden in ’t station<c type="kp">_</c>
+                    <anchor n="2" xml:id="note-o-2"/> <lb n="9" xml:id="l-9"/>Maar mogelijk, waarschijnlijk, weet ge zelfs niet eens meer wat dat geweest is. <lb n="10" xml:id="l-10"/>Het verheugt mij dat in uw brief van heden ge hoop geeft dat ’t niet zoo enorm <lb n="11" xml:id="l-11"/>lang duren zal voor ge weer eens terug komt.─</ab>
+                <lb n="12" xml:id="l-12"/>
+<ab rend="indent">Natuurlijk ben ik weer heel &amp; al beter<c type="kk">/</c> ben evenwel den dag na uw vertrek <lb n="13" xml:id="l-13"/>in bed gebleven &amp; heb eens gesproken met D<hi rend="ss">r</hi> van Genk,<anchor n="3" xml:id="note-o-3"/> een flink praktisch man, <lb n="14" xml:id="l-14"/>niet omdat ik deze onbeteekenende malaise de moeite waard rekende <lb n="15" xml:id="l-15"/>maar veeleer omdat in ’t algemeen<c type="kk">/</c> wel of niet wel<c type="kk">/</c> ik graag eens van <lb n="16" xml:id="l-16"/>tijd tot tijd een dokter spreek om te weten dat alles in orde is<c type="kp">_</c>
+                    <anchor n="4" xml:id="note-o-4"/> Als men <lb n="17" xml:id="l-17"/>zoo eens nu &amp; dan een gezond en waar woord over gezondheid hoort <lb n="18" xml:id="l-18"/>krijgt men dunkt me daaromtrent langzamerhand veel helderder <lb n="19" xml:id="l-19"/>begrippen en als men zoo ongeveer weet waar men zich voor moet <lb n="20" xml:id="l-20"/>wachten<c type="kk">/</c> waar men zich aan moet houden dan gaat men niet mee <lb n="21" xml:id="l-21"/>met allerlei wind van meening<c type="kk">/</c> met allerlei nonsens die <lb n="22" xml:id="l-22"/>men zoo dikwijls over gezondheid &amp; ongezondheid hoort.</ab>
+                <lb n="23" xml:id="l-23"/>
+<ab rend="indent">Ik ben verder druk in de Exercices au fusain te teekenen op ’t Papier <lb n="24" xml:id="l-24"/>Ingres dat ge hebt meegebragt. ’t Kost mij moeite genoeg om aan dat <lb n="25" xml:id="l-25"/>werk te blijven. ’t is veel meer animeerend om iets buiten te teekenen <lb n="26" xml:id="l-26"/>dan zoo’n blad uit de Bargues maar toch<c type="kk">/</c> ik heb mij zelven de <lb n="27" xml:id="l-27"/>taak opgelegd ze nog eens &amp; dan ook voor ’t laatst, door te maken<c type="kp">_</c> <lb n="28" xml:id="l-28"/>’t Zou niet wel zijn als ik verviel bij het teekenen naar de natuur in <lb n="29" xml:id="l-29"/>te veel details &amp; groote dingen over ’t hoofd zag. En dat vond ik <lb n="30" xml:id="l-30"/>veel te veel in mijn laatste teekeningen. En ’t is daarom dat ik <lb n="31" xml:id="l-31"/>nog weer op nieuw die methode van Bargue (die werkt met <lb n="32" xml:id="l-32"/>groote lijnen &amp; massas en eenvoudige fijngevoelde contours) <lb n="33" xml:id="l-33"/>wil bestudeeren. En laat ik momenteel het teekenen <lb n="34" xml:id="l-34"/>buiten rusten<c type="kk">/</c> dan<c type="kk">/</c> wanneer ik er op zal terugkomen na korten <lb n="35" xml:id="l-35"/>tijd<c type="kk">/</c> zal ik beter oog krijgen op de dingen dan vroeger.</ab>
+                <lb n="36" xml:id="l-36"/>
+<ab rend="indent">Ik weet niet of gij ooit engelsche boeken leest. Zoo ja dan <lb n="37" xml:id="l-37"/>kan ik U zeer recommandeeren “<hi rend="ital">Shirley</hi>” door <hi rend="ital">Currer</hi> <lb n="38" xml:id="l-38"/>
+                    <hi rend="ital">Bell</hi>
+                    <c type="kk">/</c> schrijfster ook van een ander boek<c type="kk">/</c> “<hi rend="ital">Jane Eyre</hi>”.<anchor n="5" xml:id="note-o-5"/> Dat is <lb n="39" xml:id="l-39"/>zoo mooi als de schilderijen van Millais of Boughton <lb n="40" xml:id="l-40"/>of Herkomer. Ik vond het te Prinsenhage<anchor n="6" xml:id="note-o-6"/> en las het <lb n="41" xml:id="l-41"/>in drie dagen uit hoewel ’t een vrij volumineus boek is.</ab>
+                <lb n="42" xml:id="l-42"/>
+<ab rend="indent">Ik wenschte wel dat alle menschen hadden wat ik zoo langzamerhand <lb n="43" xml:id="l-43"/>begin te krijgen<c type="kk">/</c> het vermogen om een boek zonder moeite in korten tijd te lezen <lb n="44" xml:id="l-44"/>en er een sterken indruk van te behouden. Het is met het boeken <lb n="45" xml:id="l-45"/>lezen als met het schilderijen zien<c type="kk">/</c> men moet zonder twijfelen<c type="kk">/</c> <lb n="46" xml:id="l-46"/>zonder aarzelen<c type="kk">/</c> zeker van zijn zaak mooi vinden wat mooi <lb n="47" xml:id="l-47"/>is.</ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="48" xml:id="l-48"/>
+<ab rend="indent">Ik ben bezig om zoo langzamerhand al mijn boeken weer <lb n="49" xml:id="l-49"/>in orde te brengen<c type="kk">/</c> ik heb te veel gelezen om niet systematisch <lb n="50" xml:id="l-50"/>voort te werken om althans eenigermate te trachten op de hoogte te komen van <lb n="51" xml:id="l-51"/>de moderne litteratuur.</ab>
+                <lb n="52" xml:id="l-52"/>
+<ab rend="indent">Het kan mij soms zoo erg spijten dat ik nog niet veel meer weet van geschiedenis <lb n="53" xml:id="l-53"/>bijvoorbeeld. vooral ook van moderne geschiedenis<c type="kp">_</c> Enfin met spijt hebben <lb n="54" xml:id="l-54"/>en bij de pakken neerzitten daar zou men niet verder mee komen<c type="kk">/</c> <lb n="55" xml:id="l-55"/>maar vooruitscharrelen is wat men moet zoeken te doen.</ab>
+                <lb n="56" xml:id="l-56"/>
+<ab rend="indent">Het deed mij regt veel pleizier je in je gesprekken onlangs <lb n="57" xml:id="l-57"/>enkele malen op waarlijk goede philosophie te betrappen<c type="kk">/</c> <lb n="58" xml:id="l-58"/>wie weet wat een nadenkend wezen je met der tijd nog <lb n="59" xml:id="l-59"/>wordt.</ab>
+                <lb n="60" xml:id="l-60"/>
+<ab rend="indent">Als “<hi rend="ital">illusions perdues</hi>” van de Balzac je te lang is (2 deelen)<anchor n="7" xml:id="note-o-7"/> <lb n="61" xml:id="l-61"/>begin dan eens met <hi rend="ital">le père Goriot</hi>
+                    <c type="kk">/</c> 1 deel slechts<c type="kk">/</c>
+                    <anchor n="8" xml:id="note-o-8"/> hebt ge <lb n="62" xml:id="l-62"/>eenmaal Balzac gegeten dan zult ge dat boven enorm veel <lb n="63" xml:id="l-63"/>andere dingen prefereeren. <lb n="63a" xml:id="l-63a"/>Onthoud den bijnaam van de Balzac<c type="kk">/</c> <lb n="63b" xml:id="l-63b"/>“Vétérinaire des maladies incurables”<c type="kp">_</c>
+                    <anchor n="9" xml:id="note-o-9"/>
+                </ab>
+                <lb n="64" xml:id="l-64"/>
+<ab rend="indent">Tegen dat ik de Bargues af heb zal het herfst worden<c type="kk">/</c> <lb n="65" xml:id="l-65"/>dat is wel een heerlijken tijd om te teekenen<c type="kk">/</c> ik wilde <lb n="66" xml:id="l-66"/>wel dat dan Rappard nog eens weer hier kwam<c type="kp">_</c>
+                    <anchor n="10" xml:id="note-o-10"/> <lb n="67" xml:id="l-67"/>Ik hoop ook te slagen met een goed model te vinden<c type="kk">/</c> <lb n="68" xml:id="l-68"/>b.v. Piet Kaufman den arbeider maar ik <lb n="69" xml:id="l-69"/>denk dat het beter zal zijn hem niet hier aan huis <lb n="70" xml:id="l-70"/>maar hetzij op de werf<anchor n="a" xml:id="note-o-a"/> bij hem t’huis ’t zij op t’veld <lb n="71" xml:id="l-71"/>te laten poseeren met een schop of ploeg of iets anders<c type="kp">_</c>
+                    <anchor n="11" xml:id="note-o-11"/> <lb n="72" xml:id="l-72"/>Maar wat een toer is het om de lui aan ’t verstand <lb n="73" xml:id="l-73"/>te brengen wat poseeren is.─ Boeren en burgers zijn <lb n="74" xml:id="l-74"/>desperaat verstokt op ’t punt waar ze niet af willen<c type="kk">/</c> <lb n="75" xml:id="l-75"/>dat n.l. men niet anders moet willen poseeren <lb n="76" xml:id="l-76"/>dan in zijn Zondags pak met onmogelijke plooien <lb n="77" xml:id="l-77"/>waar noch knie noch elleboog noch omoplates<anchor n="b" xml:id="note-o-b"/> noch <lb n="78" xml:id="l-78"/>eenig ander ligchaamsdeel zijn karakteristiek deukje <lb n="79" xml:id="l-79"/>of verhevenheid in heeft gemerkt. Waarlijk dat is een <lb n="80" xml:id="l-80"/>van de petites misères de la vie d’un dessinateur.<anchor n="12" xml:id="note-o-12"/>
+                </ab>
+                <lb n="81" xml:id="l-81"/>
+<ab rend="indent">Nu, adieu, schrijf eens als ge kunt en ontvang <lb n="82" xml:id="l-82"/>in gedachten een handdruk, en geloof me</ab>
+<vg:whiteline/>
+                <lb n="83" xml:id="l-83"/>
+<ab>t. à t.</ab>
+                <lb n="84" xml:id="l-84"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-63" n="63">b incurables”<c type="kp">_</c> &lt; incurables</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo,</ab>
+<ab>I found it really nice that you were here again<anchor n="1" xml:id="note-t-1"/> and we could talk about things again. I still think it a pity that we can’t yet be together more. Not that I attach much value to talking in itself, but I mean that I do wish we knew each other much better and more intimately than is now the case. I thought this especially during the ride back from Roosendaal, after I had brought you to the station, also because of some things we talked about during our last moments at the station.<anchor n="2" xml:id="note-t-2"/> But possibly, probably, you don’t even know what that was any more. I’m glad that your letter of today holds out hope that it won’t be so very long before you come back again.</ab>
+<ab rend="indent">I am, of course, completely better again, though I did stay in bed the day after you left and have spoken to <rs type="pers" key="377">Dr Van Genk</rs>,<anchor n="3" xml:id="note-t-3"/> a thoroughly practical man, not because I thought this insignificant malaise to be worth the bother, but rather because in general, well or not well, I like to speak to a doctor from time to time to find out if everything is all right.<anchor n="4" xml:id="note-t-4"/> If one hears wholesome and true words about health now and then, it seems to me that one gradually acquires much clearer notions about such matters, and if one knows more or less what one should take care not to do, and what one should abide by, one isn’t tossed about by the shifting winds of opinion, by all manner of nonsense that one hears so often concerning health and ill health.</ab>
+      <ab rend="indent">I’m also busy drawing the Exercices au fusain on the Ingres paper that you brought. It costs me a great deal of effort to stick to that work. It’s much more stimulating to draw something outdoors than such a sheet from the <rs type="lit" key="202">Bargues</rs>, but still, I set myself the task of drawing them again, thus for the last time. It wouldn’t be good if, when drawing from nature, I lapsed into too much detail and overlooked the important things. And I found much too much of that in my last drawings. And that’s why I want to study <rs type="pers" key="851">Bargue</rs>’s method once more (who works with broad lines and large masses and simple, delicate contours). And if I let outdoor drawing rest for the moment, then when I come back to it in a short while I’ll have a better eye for things than I used to.</ab>
+<ab rend="indent">I don’t know if you ever read English books. If so, then I can highly recommend <hi rend="ital">Shirley</hi> by <hi rend="ital">
+                        <rs type="pers" key="534">Currer Bell</rs>
+                    </hi>, the author of another book, <hi rend="ital">Jane Eyre</hi>.<anchor n="5" xml:id="note-t-5"/> This is as beautiful as the paintings of <rs type="pers" key="1227">Millais</rs> or <rs type="pers" key="878">Boughton</rs> or <rs type="pers" key="1080">Herkomer</rs>. I found it at Princenhage<anchor n="6" xml:id="note-t-6"/> and read it in three days, even though it’s quite a thick book.</ab>
+<ab rend="indent">I’d wish that everyone had what I’m gradually beginning to acquire, the ability to read a book easily and quickly and to retain a strong impression of it. Reading books is like looking at paintings: without doubting, without hesitating, with self-assurance, one must find beautiful that which is beautiful. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">I’m gradually putting my books back in order. I’ve read too much not to continue systematically to try to keep abreast of modern literature, to some extent at least.</ab>
+<ab rend="indent">Sometimes I very much regret not knowing a great deal more about history, for example, especially modern history. Well, one won’t get any further by being sorry and having these sad thoughts; what one must try and do is simply struggle on.</ab>
+<ab rend="indent">It gave me a great deal of pleasure to detect some truly good philosophy occasionally in your recent conversation. Who knows what a thoughtful creature you may become with time?</ab>
+<ab rend="indent">If <hi rend="ital">Illusions perdues</hi> by <rs type="pers" key="519">Balzac</rs> is too long for you (2 volumes),<anchor n="7" xml:id="note-t-7"/> start with <hi rend="ital">Le père Goriot</hi>, 1 volume only,<anchor n="8" xml:id="note-t-8"/> once you’ve tasted Balzac you’ll prefer it to a great many other things. Remember Balzac’s nickname, ‘veterinary surgeon for incurable maladies’.<anchor n="9" xml:id="note-t-9"/>
+                </ab>
+<ab rend="indent">By the time I’ve finished the <rs type="pers" key="851">Bargue</rs>s it will be autumn, that’s really a wonderful time to draw, I’d like <rs type="pers" key="1306">Rappard</rs> to come here again then.<anchor n="10" xml:id="note-t-10"/> I also hope to succeed in finding a good model, such as <rs type="pers" key="478">Piet Kaufmann</rs> the labourer, though I think it will be better not to have him pose here at the house, but either in the yard at his place or in the field with a spade or plough or something else.<anchor n="11" xml:id="note-t-11"/> But what a business it is to get people to understand what posing is! Peasants and townsfolk desperately cling to an idea they won’t give up, namely that one shouldn’t pose other than in one’s Sunday suit with impossible folds in which neither knee nor elbow nor shoulder blades nor any other part of the body has made its characteristic dent or hump. Truly, this is one of the petty vexations in the life of a draughtsman.<anchor n="12" xml:id="note-t-12"/>
+                </ab>
+<ab rend="indent">Well, adieu, write if you can, and accept in thought a handshake, and believe me</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>Theo’s holiday in Etten probably ended on the weekend of 30-31 July, since several days later he wrote to his <rs type="pers" key="524 526">parents</rs> and Vincent from Paris (see <hi rend="ital">Date</hi>). The letter to his parents reveals that the family had had some ‘good days’ together and that Theo had also visited friends in The Hague. His holiday therefore lasted at least a week.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>The brothers had discussed the desirability of a relationship with a woman (<ref target="let432.xml#l-300">see letter 432, ll. 300-308</ref>).</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>
+                        <rs type="pers" key="377">Dr Ludovicus Cornelis van Genk</rs> of Etten.</ab>
+                </note>
+      <note n="4" xml:id="n-4" target="#note-t-4">
+<ab>
+                        <rs type="pers" key="526">Mr van Gogh</rs> also wrote to Theo about Vincent’s brief illness: ‘Vincent recovered quickly. He seldom goes outdoors, but anyhow it’s too warm’ (FR b2236, 5 August 1881).</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>
+                        <rs type="pers" key="534">Currer Bell</rs> was the pseudonym of <rs type="pers" key="534">Charlotte Brontë</rs>. Her long novel <rs type="lit" key="216">
+                            <hi rend="ital">Shirley. A tale</hi>
+                        </rs> (1849) is the story of the Yorkshire mill owner Robert Moore, who is convinced that mechanization is necessary for his mill to be profitable, a conviction that makes him seem indifferent to the fate of his workers. Even though he loves Caroline Helstone, he makes an offer of marriage to the wealthy and charismatic Shirley Keeldar, who refuses him because she loves Louis, Robert’s brother. An attempt on Robert’s life opens his eyes to his selfish behaviour, and in the end he turns to Caroline. Shirley and Louis also confess their love for one another and both couples marry.</ab>
+<ab rend="indent">In the novel <rs type="lit" key="217">
+                            <hi rend="ital">Jane Eyre. An autobiography</hi>
+                        </rs> (1847) the eponymous heroine – an orphan who has become a governess – falls in love with her employer, Mr Rochester. During the marriage ceremony, an uninvited guest shockingly reveals that Rochester is already married to a woman who is mentally ill. Jane flees, and eventually starts a new life elsewhere. Later on she is driven by a sense of foreboding to visit Rochester, and finds out that he was disfigured during an unsuccessful attempt to rescue his wife from their burning house. Jane and Rochester end up marrying after all.</ab>
+<ab rend="indent">It is in fact uncertain whether Van Gogh had even read <rs type="lit" key="217">
+                            <hi rend="ital">Jane Eyre</hi>
+                        </rs> at this point. For a long time it was customary to refer to Currer Bell as ‘the author of <hi rend="ital">Jane Eyre</hi>’ on the cover and title page of editions of <rs type="lit" key="216">
+                            <hi rend="ital">Shirley</hi>
+                        </rs>; cf. the words Van Gogh uses in l. 38. When he mentions <hi rend="ital">Jane Eyre</hi> again several months later, however, he does seem to have read the novel (<ref target="let187.xml">letter 187</ref> of 19 November).</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>Van Gogh therefore obtained books from <rs type="pers" key="423">Uncle Vincent van Gogh</rs>.</ab>
+                </note>
+      <note n="7" xml:id="n-7" target="#note-t-7">
+<ab>
+                        <rs type="pers" key="519">Honoré de Balzac</rs>’s long novel <rs type="lit" key="218">
+                            <hi rend="ital">Illusions perdues</hi>
+                        </rs> (1837) is part of the cycle <rs type="lit" key="219">
+                            <hi rend="ital">La comédie humaine</hi>
+                        </rs>. The protagonist, Lucien Chardon, a promising young poet, goes to Paris to seek his fortune. He fails to realize his expectations, however, and returns to his native province. The novel criticizes the social structures of Paris and the provinces alike.</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>
+      <rs type="lit" key="220">
+                            <hi rend="ital">Le père Goriot</hi>
+                        </rs> (1835) is part of the series <hi rend="ital">Scènes de la vie privée</hi> from the cycle of novels <rs type="lit" key="219">
+                            <hi rend="ital">La comédie humaine</hi>
+                        </rs>. The protagonist, Goriot, works himself up from poverty to a position of wealth. His money is squandered by his daughters, however, and his business takes a bad turn. He tries to marry off his daughters to men in higher circles, while others of his acquaintance scheme to climb higher up the social ladder.</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>The nickname is taken from <rs type="pers" key="519">Balzac</rs>’s foreword to <rs type="lit" key="221">
+                            <hi rend="ital">La cousine Bette</hi>
+                        </rs> (1846), addressed to Don Michele Angelo Cajetani, Prince of Cajetani, in which Balzac says of himself: ‘I could have ... become a learned man with the power of three Schlegels; whereas I shall remain a mere doctor of social medicine, the veterinarian of incurable diseases’. (J’aurais pu ... devenir un homme docte de la force de trois Schlegel; tandis que je vais rester simple docteur en médecine sociale, le vétérinaire des maux incurables). See Balzac, <rs type="lit" key="219">
+                            <hi rend="ital">La comédie humaine</hi>
+                        </rs> <hi rend="sc">vi</hi>. <hi rend="ital">La cousine Bette</hi>. Ed. Anne-Marie Meininger. Paris 1977, p. 53.</ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>
+                        <rs type="pers" key="1306">Van Rappard</rs> had spent some time in Etten in June; <ref target="let168.xml">see letter 168</ref>.</ab>
+                </note>
+<note n="a" xml:id="n-a" target="#note-o-a">
+<ab>Meaning: ‘het erf’ (the yard).</ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>
+                        <rs type="pers" key="478">Piet Kaufmann</rs>, a gardener and clog-maker in Etten, lived at Leursestraat, Dorp, A 82. He looked after the garden of the Van Gogh family. As to his role as Vincent’s model, <ref target="let172.xml#n-1">see letter 172, n. 1.</ref> The term ‘labourer’ was applied to people who did farm work on land owned by others. Cf. Kerstens 1990.</ab>
+                </note>
+<note n="b" xml:id="n-b" target="#note-o-b">
+<ab>Meaning: ‘schouderbladen’ (shoulder blades).</ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+<ab>This expression could allude to two things: first of all, to the title of the book <rs type="lit" key="222">
+                            <hi rend="ital">Petites misères de la vie humaine</hi>
+                        </rs> (1843) by <rs type="pers" key="748">Old Nick</rs> and Grandville, repeated almost exactly in <ref target="let178.xml">letter 178</ref>; secondly, considering the earlier references to <rs type="pers" key="519">Balzac</rs> in this letter, to his <rs type="lit" key="223">
+                            <hi rend="ital">Petites misères de la vie conjugale</hi>
+                        </rs> (1859), which Van Gogh mentions about a year and a half later in <ref target="let316.xml">letter 316</ref>.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

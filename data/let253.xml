@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. The Hague, Saturday, 5 August 1882.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let253"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">253</idno>
+<idno type="collectedletters">222</idno>
+<idno type="brieven1990">254</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>The Hague</vg:placeLet>
+                        <vg:dateLet>Saturday, 5 August 1882</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:physDesc>
+                        <vg:decoration>
+                            <vg:decoList xml:id="sketches">
+                                <vg:decoItem n="A" xml:id="sketch-1">
+                                    <vg:decoDesc>
+<p>
+      <hi rend="ital">Van Gogh’s palette</hi> (<rs type="sketch" key="52">F - / JH -</rs>) The following names of colours are written next to the nine circles showing the positions of the paint on the palette (from left to right): ‘blanc d’argent’, ‘jaune de Naples’, ‘Ocre jaune’, ‘Ocre rouge’, ‘Ocre brulée’, ‘Terre de Sienne’, ‘Cobalt ou bl. de Prusse’, ‘Noir d’ivoire’, ‘vermillon’ (‘silver white, Naples yellow, Ochre yellow, Ochre red, Burnt ochre, Terra sienna, Cobalt or Prussian blue, Ivory black, vermilion’), letter sketch</p>
+                                    </vg:decoDesc>
+                                </vg:decoItem>
+                                <vg:decoItem n="B" xml:id="sketch-2">
+                                    <vg:decoDesc>
+<p>
+      <hi rend="ital">Beach at Scheveningen with perspective frame</hi> (<rs type="sketch" key="53">F - / JH -</rs>), letter sketch</p>
+                                    </vg:decoDesc>
+                                </vg:decoItem>
+                            </vg:decoList>
+                        </vg:decoration>
+                    </vg:physDesc>
+                    <vg:letContents>
+<p>To Theo van Gogh. The Hague, Saturday, 5 August 1882.</p>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b244 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Letter headed: ‘Zaturdag’. The letter was written after Theo’s visit, which must have taken place in the first days of August <ref target="#l-3">(l. 3)</ref>, and certainly precedes <ref target="let254.xml">letter 254</ref> (which dates from 5 or 6 August), because it refers back to the question of the perspective frame that is raised here in <ref target="#l-71">ll. 71-75</ref>. This means that the ‘Saturday’ was 5 August 1882.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0244" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000298_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000298_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000298_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000298_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000298_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000298_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="VGM001000298_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000298_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000298_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0244" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000298_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000298_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000298_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000298_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000298_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000298_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000298_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000298_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000298_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Zaturdag.</ab>
+<vg:whiteline/>
+                <lb n="2" xml:id="l-2"/>
+<ab>Waarde Theo,</ab> <lb n="3" xml:id="l-3"/>
+                <ab>Nog geheel onder den indruk van Uw bezoek<anchor n="1" xml:id="note-o-1"/> <lb n="4" xml:id="l-4"/>en niet weinig in mijn schik dat ik met <lb n="5" xml:id="l-5"/>schilderen weer krachtig kan doorgaan schrijf ik U <lb n="6" xml:id="l-6"/>nog een woordje.</ab>
+                <lb n="7" xml:id="l-7"/>
+<ab rend="indent">Ik had wel graag U nog naar de spoor gebragt den <lb n="8" xml:id="l-8"/>volgenden morgen – maar ik dacht gij hadt <lb n="9" xml:id="l-9"/>aan mij reeds zooveel tijd gegeven dat het <lb n="10" xml:id="l-10"/>indiscreet geweest ware als ik U nog voor den <lb n="11" xml:id="l-11"/>volgenden morgen gevraagd had<c type="kp">_</c>
+                </ab>
+                <lb n="12" xml:id="l-12"/>
+<ab rend="indent">Ik ben erg dankbaar er voor dat ge er eens geweest <lb n="13" xml:id="l-13"/>zijt – ik vindt het heerlijk weer ’t vooruitzigt te <lb n="14" xml:id="l-14"/>hebben van een jaar geregeld werk zonder <lb n="15" xml:id="l-15"/>calamiteiten, en door ’t geen ge mij hebt <lb n="16" xml:id="l-16"/>gegeven heb ik in ’t schilderen weer bovendien <lb n="17" xml:id="l-17"/>nog een nieuwen horizon.<anchor n="2" xml:id="note-o-2"/> </ab>
+                <lb n="18" xml:id="l-18"/>
+<ab rend="indent">Ik reken het een voorregt boven duizend <lb n="19" xml:id="l-19"/>anderen dat gij zooveel slagboomen uit den <lb n="20" xml:id="l-20"/>weg ruimt<c type="kp">_</c>–</ab>
+                <lb n="21" xml:id="l-21"/>
+<ab rend="indent">’t Spreekt van zelf dat menigeen niet <lb n="22" xml:id="l-22"/>voort kan dikwijls om reden van de onkosten<c type="kk">/</c> <lb n="23" xml:id="l-23"/>en hoe dankbaar ik daarvoor ben dat ik <lb n="24" xml:id="l-24"/>geregeld werken kan<c type="kk">/</c> wel ik kan ’t U <lb n="25" xml:id="l-25"/>niet in woorden zeggen.</ab>
+                <lb n="26" xml:id="l-26"/>
+<ab rend="indent">Om in te halen den tijd dien ik later dan <lb n="27" xml:id="l-27"/>anderen begonnen ben moet ik dubbel mijn <lb n="28" xml:id="l-28"/>best doen en met den besten wil zou <lb n="29" xml:id="l-29"/>ik stoppen moeten als ik U niet had.</ab>
+                <lb n="30" xml:id="l-30"/>
+<ab rend="indent">Ik zal U eens vertellen wat ik alzoo <lb n="31" xml:id="l-31"/>mij heb aangeschaft.</ab>
+                <lb n="32" xml:id="l-32"/>
+<ab rend="indent">Primo een flinke moist colour box voor 12 stukjes <lb n="33" xml:id="l-33"/>of tubes waterverf met een dubbel geslagen deksel <lb n="34" xml:id="l-34"/>die<c type="kk">/</c> open, voor palet dient – tegelijk is er bergplaats <lb n="35" xml:id="l-35"/>voor een stuk of 6 penseelen.<anchor n="3" xml:id="note-o-3"/> 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+                <lb n="36" xml:id="l-36"/>
+<ab rend="indent">Dat is een stuk gereedschap dat veel waard is <lb n="37" xml:id="l-37"/>om buiten te werken en eigentlijk absoluut <lb n="38" xml:id="l-38"/>noodig maar het is een heele kosten<anchor n="a" xml:id="note-o-a"/> en <lb n="39" xml:id="l-39"/>ik had het in mijn gedachte tot later verschoven, <lb n="40" xml:id="l-40"/>en nu gewerkt met losse stukjes op theeschoteltjes <lb n="41" xml:id="l-41"/>die echter lastig mee te nemen zijn<c type="kk">/</c> vooral <lb n="42" xml:id="l-42"/>als men nog andere baggage heeft.</ab>
+                <lb n="43" xml:id="l-43"/>
+<ab rend="indent">Dat is dus een mooi stuk dat men <lb n="44" xml:id="l-44"/>als men ’t eens heeft<c type="kk">/</c> voor lang heeft.</ab>
+                <lb n="45" xml:id="l-45"/>
+<ab rend="indent">Tegelijk heb ik waterverf genomen in <lb n="46" xml:id="l-46"/>voorraad en mijn penseelen vernieuwd <lb n="47" xml:id="l-47"/>en aangevuld.</ab>
+                <lb n="48" xml:id="l-48"/>
+<ab rend="indent">Dan voor eigentlijk schilderen<anchor n="4" xml:id="note-o-4"/> heb ik nu <lb n="49" xml:id="l-49"/>alles wat absoluut noodig is.</ab>
+                <lb n="50" xml:id="l-50"/>
+<ab rend="indent">En ook verf in voorraad – groote tubes (die <lb n="51" xml:id="l-51"/>veel goedkooper uitkomen dan kleine) maar <lb n="52" xml:id="l-52"/>zoo als ge begrijpt heb ik zoowel voor water- <lb n="53" xml:id="l-53"/>als voor olieverf mij bepaald tot eenvoudige <lb n="54" xml:id="l-54"/>kleuren<c type="kk">/</c> oker (rood<c type="kk">/</c> geel – bruine)<c type="kk">/</c> cobalt &amp; <lb n="55" xml:id="l-55"/>pruissisch blaauw<c type="kk">/</c> napelsch geel<c type="kk">/</c> terra sienne<c type="kk">/</c> <lb n="56" xml:id="l-56"/>Zwart en Wit<c type="kk">/</c> aangevuld met <lb n="57" xml:id="l-57"/>wat carmijn, sepia<c type="kk">/</c> vermiljoen<c type="kk">/</c> ultramarijn<c type="kk">/</c> <lb n="58" xml:id="l-58"/>guttegom in kleinere tubes<c type="kp">_</c>
+                </ab>
+                <lb n="59" xml:id="l-59"/>
+<ab rend="indent">Maar mij onthouden van kleurtjes die men zelf <lb n="60" xml:id="l-60"/>moet<anchor n="b" xml:id="note-o-b"/> mengen.</ab>
+<vg:whiteline/>
+                <figure facs="zone-sketch-1" n="A"/>
+<vg:whiteline/>
+                <lb n="60"/>
+<ab>Dit is geloof ik een praktisch palet, <lb n="61" xml:id="l-61"/>met gezonde kleuren.–<anchor n="5" xml:id="note-o-5"/> <lb n="62" xml:id="l-62"/>Ultramarijn<c type="kk">/</c> Carmijn of <lb n="63" xml:id="l-63"/>iets anders voegt men <lb n="64" xml:id="l-64"/>bij in geval ’t bepaald <lb n="65" xml:id="l-65"/>noodig is.</ab>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                <lb n="66" xml:id="l-66"/>
+<ab rend="indent">Ik zal beginnen met kleine dingen – maar <lb n="67" xml:id="l-67"/>wel hoop ik nog dezen zomer <lb n="68" xml:id="l-68"/>mij te oefenen met houtskool voor <lb n="69" xml:id="l-69"/>grootere schetsen met het oog om later <lb n="70" xml:id="l-70"/>te schilderen in wat ruimer formaat<c type="kp">_</c>–</ab>
+                <lb n="71" xml:id="l-71"/>
+<ab rend="indent">En ’t is daarvoor dat ik weer een nieuw en <lb n="72" xml:id="l-72"/>hoop ik beter perspectiefraam<anchor n="6" xml:id="note-o-6"/> laat maken <lb n="73" xml:id="l-73"/>dat in ongelijken duingrond b.v. toch vast <lb n="74" xml:id="l-74"/>staat met twee stijlen<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <figure facs="zone-sketch-2" n="B"/>
+<vg:whiteline/>
+                <lb n="75" xml:id="l-75"/>
+<ab>b.v. op deze manier.</ab>
+                <lb n="76" xml:id="l-76"/>
+<ab rend="indent">Dat wat we zamen op Schevening zagen, <lb n="77" xml:id="l-77"/>Zand – Zee – lucht – is iets dat <lb n="78" xml:id="l-78"/>ik zeer zeker van mijn leven wel eens hoop <lb n="79" xml:id="l-79"/>uit te drukken.</ab>
+                <lb n="80" xml:id="l-80"/>
+<ab rend="indent">Natuurlijk heb ik niet alles wat gij mij <lb n="81" xml:id="l-81"/>gegeven hebt in eens uitgegeven – ofschoon<c type="kk">/</c> <lb n="82" xml:id="l-82"/>dit moet ik wel zeggen<c type="kk">/</c> de prijzen van een &amp; ander <lb n="83" xml:id="l-83"/>mij weer geducht tegenvielen – en er als men nagaat <lb n="84" xml:id="l-84"/>meer dingen noodig zijn dan oppervlakkig wel schijnt. 
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                    <lb n="85" xml:id="l-85"/>Is het dat het mij aangenaam zou zijn gij tegen <lb n="86" xml:id="l-86"/>den twintigsten het gewone zenden kondt zoo <lb n="87" xml:id="l-87"/>is ’t niet omdat dan alles op zal zijn maar <lb n="88" xml:id="l-88"/>wel omdat ik het raadzaam vindt voor ’t geval <lb n="89" xml:id="l-89"/>ik onder ’t werken bespeur nog dingen <lb n="90" xml:id="l-90"/>bepaald noodig te hebben<c type="kk">/</c> wat in den zak <lb n="91" xml:id="l-91"/>te houden. Dat geeft een groote rust <lb n="92" xml:id="l-92"/>en orde in ’t werk.</ab>
+                <lb n="93" xml:id="l-93"/>
+<ab rend="indent">De moist colour box past in de schilderkist – <lb n="94" xml:id="l-94"/>zoodat ik in <hi rend="ital">één voorwerp</hi> desnoods de benoodigdheden <lb n="95" xml:id="l-95"/>voor aquarel &amp; voor schilderen tegelijk kan meedragen. <lb n="96" xml:id="l-96"/>Ik stel er veel prijs op goed spul te hebben en <lb n="97" xml:id="l-97"/>heb graag dat mijn atelier er flink gaat uitzien <lb n="98" xml:id="l-98"/>– zonder antiquiteiten of tapijten &amp; draperies <lb n="99" xml:id="l-99"/>evenwel<anchor n="7" xml:id="note-o-7"/> – maar door de studies aan den muur en <lb n="100" xml:id="l-100"/>door goed gereedschap. Dat moet komen door werken &amp; door den tijd.</ab>
+                <lb n="101" xml:id="l-101"/>
+<ab rend="indent">Van den rijksveldwachterstijl<anchor n="8" xml:id="note-o-8"/> gesproken – ik voor <lb n="102" xml:id="l-102"/>mij voel me minder een rijksveldwachter dan <lb n="103" xml:id="l-103"/>wel een soort van Delftschen schipper, b.v.<c type="kk">/</c> <lb n="104" xml:id="l-104"/>en ik heb er niets op tegen dat het een soort van <lb n="105" xml:id="l-105"/>gezellige trekschuit wordt bij mij.–</ab>
+                <lb n="106" xml:id="l-106"/>
+<ab rend="indent">Gisteren middag ben ik geweest op den zolder van het papiermagazijn <lb n="107" xml:id="l-107"/>van Smulders op de Laan.<anchor n="9" xml:id="note-o-9"/> Ik heb daar gevonden – weet ge wat – <lb n="108" xml:id="l-108"/>het <hi rend="ital">dubbele Ingres</hi> onder den naam van Papier Torchon<c type="kk">/</c> <lb n="109" xml:id="l-109"/>het was een soort nog ruwer van grein dan het Uwe. <lb n="110" xml:id="l-110"/>Ik stuur U een staaltje om U eens te laten zien<c type="kp">_</c>– Er is een heele <lb n="111" xml:id="l-111"/>partij – oud &amp; belegen reeds, erg best. Nu heb ik er <lb n="112" xml:id="l-112"/>maar een half boek<anchor n="10" xml:id="note-o-10"/> van genomen maar voor later <lb n="113" xml:id="l-113"/>kan ik daar teregt. Nu was ik er voor een ander doel<c type="kk">/</c> <lb n="114" xml:id="l-114"/>n.l. het honigpapier wat ik nu &amp; dan heb, zeer goedkoop<c type="kk">/</c> <lb n="115" xml:id="l-115"/>afkomstig van een niet afgeleverde bestelling voor ’t kadaster<c type="kp">_</c> <lb n="116" xml:id="l-116"/>
+                    <hi rend="ital">Dat</hi> is zeer geschikt voor fusain geloof ik en ’t zijn groote vellen<c type="kk">/</c> <lb n="117" xml:id="l-117"/>getint zoowat als ’t Harding<c type="kp">_</c>
+                </ab>
+                <lb n="118" xml:id="l-118"/>
+<ab rend="indent">Gij ziet<c type="kk">/</c> dit staaltje heeft een grein zoo ruw als een stuk zeildoek<c type="kp">_</c> <lb n="119" xml:id="l-119"/> Dat wat gij medebragt is aardiger van kleur en heerlijk b.v. <lb n="120" xml:id="l-120"/>voor studies van slootkanten &amp; gronden. Ik ben echter ook blij deze <lb n="120a" xml:id="l-120a"/>nieuwe partij ontdekt te hebben<c type="kp">_</c>
+                </ab>
+                <lb n="121" xml:id="l-121"/>
+<ab rend="indent">Nu kerel, hartelijk dank voor alles, een handdruk in gedachten, <lb n="122" xml:id="l-122"/>ik ga aan ’t werk<c type="kp">_</c>– Zeg Pa &amp; Moe regt hartelijk goedendag<c type="kk">/</c> bedank <lb n="123" xml:id="l-123"/>hun voor wat zij U voor me medegaven en zeg dat ik hun spoedig <lb n="124" xml:id="l-124"/>eens schrijven zal – volgens afspraak echter niet over buitengewone dingen<c type="kp">_</c>
+                    <anchor n="11" xml:id="note-o-11"/> <lb n="125" xml:id="l-125"/>adieu – heb goede dagen verder en een goede ’thuiskomst in Uw gewonen <lb n="126" xml:id="l-126"/>werkkring &amp; geloof me</ab>
+<vg:whiteline/>
+                <lb n="126*" xml:id="l-126s"/>
+<ab>t.à.t.</ab>
+                <lb n="126*"/>
+<ab>Vincent </ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-52" n="52">water- &lt; water</note>
+<note target="l-119" n="119">medebragt &lt; medbragt</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>Saturday. </ab>
+<vg:whiteline/>
+<ab>My dear Theo,</ab>
+<ab>Still very much under the impression of your visit,<anchor n="1" xml:id="note-t-1"/> and more than a little pleased that I can go on painting with new vigour, I’m writing you a few words.</ab>
+<ab rend="indent">I had wanted to take you to the train the next morning — but I thought you had already given me so much time that it would have been impolite if I had asked you for the following morning as well.</ab>
+<ab rend="indent">I’m very grateful to you for visiting me here — it’s wonderful to have the prospect of a year of steady work without disasters, and thanks to what you gave me I now also have a new horizon in painting.<anchor n="2" xml:id="note-t-2"/>
+                </ab>
+<ab rend="indent">I regard myself as privileged above a thousand others in that you remove so many barriers in my way.</ab>
+<ab rend="indent">It goes without saying that many often can’t carry on because of the expense; well, I can hardly put into words how thankful I am to be able to keep on working steadily. </ab>
+<ab rend="indent">I have to try twice as hard to make up for lost time because I began later than others, and with the best will in the world I would have to give up if I didn’t have you. </ab>
+<ab rend="indent">Let me tell you about everything I’ve bought. </ab>
+<ab rend="indent">First, a large moist colour box for 12 pieces or tubes of watercolour with a folding lid that serves as a palette when open — there’s also room for 6 brushes.<anchor n="3" xml:id="note-t-3"/> 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">This is a valuable piece of equipment for working out of doors, in fact absolutely essential, but it’s expensive and in my mind I had postponed it until later, and until now worked with loose pieces on saucers, but they’re awkward to carry, especially if you have other items as well. </ab>
+<ab rend="indent">So it’s a fine thing to have, and once you have one it will last you for a long time.</ab>
+<ab rend="indent">At the same time I bought a supply of watercolour and replaced my brushes and added some new ones. </ab>
+<ab rend="indent">Moreover, I now have all the essentials for proper painting.<anchor n="4" xml:id="note-t-4"/> </ab>
+<ab rend="indent">And a supply of paint — big tubes (which work out much cheaper than small ones), but you will understand that I’ve limited myself to simple colours in both watercolour and oil: ochre (red, yellow, brown), cobalt and Prussian blue, Naples yellow, terra sienna, black and white, supplemented with some carmine, sepia, vermilion, ultramarine, gamboge in smaller tubes. </ab>
+<ab rend="indent">But I refrained from buying colours one ought to mix oneself.</ab>
+<vg:whiteline/>
+<ab>
+                    <figure facs="zone-sketch-1" n="A"/>
+                </ab>
+<vg:whiteline/>
+<ab>I believe this is a practical palette, with sound colours.<anchor n="5" xml:id="note-t-5"/> Ultramarine, carmine or something else are added if absolutely necessary. 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/>
+                </ab>
+<ab rend="indent">I’ll start with small things — but before the summer ends I hope to practise bigger sketches in charcoal with an eye to painting in a rather larger format later.</ab>
+<ab rend="indent">This is why I’m having a new and, I hope, better perspective frame<anchor n="6" xml:id="note-t-6"/> made, which will stand firmly on two legs in uneven ground like the dunes.</ab>
+<vg:whiteline/>
+<ab>
+                    <figure facs="zone-sketch-2" n="B"/>
+                </ab>
+<vg:whiteline/>
+<ab>Like this, for example.</ab>
+<ab rend="indent">What we saw together at Scheveningen, sand — sea — sky — is something I certainly hope to express one day.</ab>
+<ab rend="indent">Of course I didn’t spend everything you gave me all at once — although I must say the prices of things greatly took me aback, especially bearing in mind that more items are needed than appears at first sight. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> It would be a help if you could send the usual around the twentieth, not because everything will be gone by then, but because I think it advisable to keep a little in my pocket in case, while working, I find that I really need something or other. That will help me to work calmly and in an orderly fashion.</ab>
+<ab rend="indent">The moist colour box fits into the painting box — so that if need be I can carry everything required both for watercolour and for painting in<hi rend="ital"> one object</hi>. I place great value on having good materials, and would like my studio to look substantial — but without antiquities or tapestries and drapery<anchor n="7" xml:id="note-t-7"/> — but through the studies on the walls and good tools. That will have to come with work and time. </ab>
+<ab rend="indent">On the subject of the village constable style<anchor n="8" xml:id="note-t-8"/> — I feel less like a village constable than like a Delft bargee, for example, and I don’t at all object to my place being like a cosy tow barge.</ab>
+<ab rend="indent">Yesterday afternoon I was in the attic of <rs type="pers" key="1482">Smulders</rs>’ paper warehouse on Laan.<anchor n="9" xml:id="note-t-9"/> There I found — guess what — <hi rend="ital">double Ingres</hi> under the name Papier Torchon: it was a type with an even coarser grain than yours. I’m sending you a sample to show you. There’s a whole batch — already old and mature, excellent. I bought only half a quire<anchor n="10" xml:id="note-t-10"/> for now, but I can always go back later. I was there in search of something else, namely the Honig paper that I have now and then, very cheap, from an undelivered order for the land registry. <hi rend="ital">That</hi> is very suitable for charcoal drawing, I believe, and comes in large sheets tinted rather like the Harding type.</ab>
+<ab rend="indent">As you see, this sample has a grain as coarse as a piece of sailcloth. What you brought is a nicer colour and wonderful, for example, for studies of the sides of ditches and soils. However, I’m glad to have discovered this new batch.</ab>
+<ab rend="indent">Well, old chap, many thanks for everything, a handshake in thought; I’m going to start work. Give <rs type="pers" key="524 526">Pa and Ma</rs> my warmest regards, thank them for what they gave you for me, and tell them I’ll write soon — but as agreed not about special matters.<anchor n="11" xml:id="note-t-11"/> Adieu — enjoy yourself, and have a safe return to your ordinary work, and believe me</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>Theo’s visit to Vincent must have taken place on 2, 3 or 4 August; at all events before the weekend of 5-6 August. There is no external evidence to establish the exact date.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>In view of the substantial purchase of artists’ materials mentioned later, Theo must have given Vincent a generous amount of extra money during his visit.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>The fact that Van Gogh uses the English words ‘moist colour box’ here, and also refers to ‘cerulean blue’ in <ref target="let257.xml">letter 257</ref>, indicates that he had bought a watercolour box made in England. Cf. for possible models the chapter ‘Les boîtes de couleurs’ in <rs type="pers" key="922">Cassagne</rs>’s <rs type="lit" key="212">
+                            <hi rend="ital">Traité d’aquarelle</hi>
+                        </rs> (Cassagne 1875, pp. 3-14).</ab>
+                </note>
+<note n="a" xml:id="n-a" target="#note-o-a">
+<ab>Means: ‘een grote uitgave’ (expensive).</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>By ‘proper painting’ Van Gogh means ‘real’ painting, in oils. </ab>
+                </note>
+<note n="b" xml:id="n-b" target="#note-o-b">
+<ab>Read: ‘behoort te’ (ought to).</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>Van Gogh put down the names of the colours in his sketch of the palette (see <hi rend="ital">Sketches</hi>).</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>In the following letter Van Gogh wrote about the frame in more detail. For the earlier version of the perspective frame, <ref target="let235.xml#n-10">see letter 235, n. 10.</ref> It had wires stretched horizontally and vertically; with the new version it was possible to have diagonals as well. <rs type="sketch" key="53">Letter sketch B</rs> shows how Van Gogh used it.</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>For a similar gibe at academic studios, <ref target="let246.xml">see letter 246</ref>.</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>For this expression, which was invented by Theo, <ref target="let196.xml#n-1">see letter 196, n. 1.</ref>
+                    </ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>This is the renowned firm of <rs type="pers" key="1482">J. Smulders &amp; Co.</rs>, ‘Paper dealers and Lithographers, Publishers of Maps’, located at Spuistraat 55. The warehouse was at Laan 3 (both addresses are in the centre of The Hague; Laan then ran from Grote Markt to Assendelftstraat.) It is not clear whether the printing works was also at Laan 3. See S. de Vries, <hi rend="ital">125 jaar vakmanschap</hi>. The Hague 1969; Visser 1973, pp. 12-13 (ill.); and <hi rend="ital">Adresboek 1882-1883</hi>.</ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>A quire consists of 24 or 25 folded sheets of paper.</ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>Theo, who had visited his parents before going to The Hague, went to see them again after leaving and visited their new address (cf. <ref target="let259.xml">letter 259</ref>); they were in the middle of moving at this time. On 7 August they were officially registered as living in Nuenen. The ‘special matters’ that ‘as agreed’ Vincent would no longer discuss evidently included the fact that he was living with <rs type="pers" key="463">Sien</rs>: it was to be six months before she was mentioned again (<ref target="let301.xml">see letter 301</ref>).</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

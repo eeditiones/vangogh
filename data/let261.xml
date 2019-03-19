@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. The Hague, Saturday, 9 September 1882.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let261"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">261</idno>
+<idno type="collectedletters">229</idno>
+<idno type="brieven1990">262</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>The Hague</vg:placeLet>
+                        <vg:dateLet>Saturday, 9 September 1882</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:physDesc>
+                        <vg:decoration>
+                            <vg:decoList xml:id="sketches">
+                                <vg:decoItem n="A" xml:id="sketch-1">
+                                    <vg:decoDesc>
+<p>
+      <hi rend="ital">A girl in a wood</hi> (<rs type="sketch" key="61">F - / JH 183</rs>), letter sketch</p>
+                                    </vg:decoDesc>
+                                </vg:decoItem>
+                                <vg:decoItem n="B" xml:id="sketch-2">
+                                    <vg:decoDesc>
+<p>
+      <hi rend="ital">Edge of a wood after the rain</hi> (<rs type="sketch" key="62">F - / JH 191</rs>), letter sketch</p>
+                                    </vg:decoDesc>
+                                </vg:decoItem>
+                            </vg:decoList>
+                        </vg:decoration>
+                    </vg:physDesc>
+                    <vg:letContents>
+<p>To Theo van Gogh. The Hague, Saturday, 9 September 1882.</p>
+<note type="ongoingTopic" n="1">
+      <p>The parents’ move to Nuenen <ref target="let247.xml">(247)</ref>
+                            </p>
+                        </note>
+                        <note type="ongoingTopic" n="2">
+                            <p>Theo’s description of Montmartre <ref target="let260.xml">(260)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. nos. b251 a-b V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Van Gogh writes: ‘it’s Saturday evening’ <ref target="#l-124">(l. 124)</ref>. The letter follows <ref target="let260.xml">letter 260</ref> of Sunday, 3 September 1882 (Vincent returns to the subject of Theo’s description of Montmartre, which is quoted there, <ref target="let260.xml#l-26">ll. 26-27</ref>). He also congratulates his brother on their mother’s birthday <ref target="#l-2">(ll. 2-3)</ref>: her birthday was 10 September. Moreover, he expresses the hope that Theo will send the usual amount on the tenth. This means that the letter was written on Saturday, 9 September 1882.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0251 a" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000307_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000307_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000307_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000307_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0251 a" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000307_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000307_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000307_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000307_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0251 b" xml:id="surf-pb-2r">
+            <graphic mimeType="image/tiff" url="VGM001000308_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-2r-3">
+<graphic mimeType="image/tiff" url="VGM001000308_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000308_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000308_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0251 b" xml:id="surf-pb-2v">
+            <graphic mimeType="image/tiff" url="VGM001000308_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-2v-4">
+<graphic mimeType="image/tiff" url="VGM001000308_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000308_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000308_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Waarde Theo,</ab>
+                <lb n="2" xml:id="l-2"/>
+<ab>Met een enkel woordje wil ik U nog gelukwenschen <lb n="3" xml:id="l-3"/>met 10 Sept.<anchor n="1" xml:id="note-o-1"/>
+                </ab>
+                <lb n="4" xml:id="l-4"/>
+<ab rend="indent">ik weet niet of ik U al heb geschreven dat ik een <lb n="5" xml:id="l-5"/>brief heb ontvangen van Wil die mij heel <lb n="6" xml:id="l-6"/>aardig die natuur van Nuenen beschrijft. <lb n="7" xml:id="l-7"/>Het schijnt dat het daar terdeeg mooi is. <lb n="8" xml:id="l-8"/>Ik heb haar nog een en andere inlichtingen <lb n="9" xml:id="l-9"/>omtrent de wevers gevraagd die me <lb n="10" xml:id="l-10"/>bijzonder interesseeren. Ik heb dat in der <lb n="11" xml:id="l-11"/>tijd in ’t Pas de Calais gezien<c type="kk">/</c>
+                    <anchor n="2" xml:id="note-o-2"/> onbeschrijfelijk <lb n="12" xml:id="l-12"/>mooi.–</ab>
+                <lb n="13" xml:id="l-13"/>
+<ab rend="indent">Doch intusschen hoef ik nog geen wevers te schilderen <lb n="14" xml:id="l-14"/>ofschoon vroeger of later ik hoop er eens van <lb n="15" xml:id="l-15"/>komen zal ik zulks eens doe. Nu is het herfst in <lb n="16" xml:id="l-16"/>’t bosch – ik ben daar vol van.</ab>
+                <lb n="17" xml:id="l-17"/>
+<ab rend="indent">Er zijn in den herfst twee dingen die mij <lb n="18" xml:id="l-18"/>bijzonder aantrekken. Er is soms een zachte <lb n="19" xml:id="l-19"/>melankolie in de vallende blaren<c type="kk">/</c> in het <lb n="20" xml:id="l-20"/>getemperde licht<c type="kk">/</c> in de wazigheid van de dingen<c type="kk">/</c> in de elegance van de stammetjes<c type="kp">_</c> <lb n="21" xml:id="l-21"/>Dan<c type="kk">/</c> evenzeer houd ik van den meer stoeren<c type="kk">/</c> <lb n="22" xml:id="l-22"/>ruwen kant – van die sterke lichteffekten <lb n="23" xml:id="l-23"/>b.v. op zoo’n spitter<anchor n="3" xml:id="note-o-3"/> die in de middagzon staat <lb n="24" xml:id="l-24"/>te zweeten. Hierbij een paar krabbeltjes van <lb n="25" xml:id="l-25"/>studies die ik deze week maakte.<anchor n="4" xml:id="note-o-4"/>
+                </ab>
+                <lb n="26" xml:id="l-26"/>
+<ab rend="indent">Ik heb nog gedacht over die werklui van Montmartre die gij in <lb n="27" xml:id="l-27"/>Uw laatsten brief beschreven hebt<c type="kk">/</c> het lag mij bij<anchor n="a" xml:id="note-o-a"/> dat er <lb n="28" xml:id="l-28"/>iemand was die die bijzonder goed gemaakt heeft.</ab>
+                <lb n="29" xml:id="l-29"/>
+<ab rend="indent">Ik bedoel <hi rend="ital">A. Lançon</hi> – ik keek nog eens de <lb n="30" xml:id="l-30"/>houtsneden na die ik van hem heb – wat is die kerel <lb n="31" xml:id="l-31"/>toch knap – ik zag er bij een Rendez vous des chiffonniers<c type="kk">/</c>
+                    <anchor n="5" xml:id="note-o-5"/> <lb n="32" xml:id="l-32"/>een Distribution de soupe<anchor n="6" xml:id="note-o-6"/> – Balayeurs de neige<c type="kk">/</c>
+                    <anchor n="7" xml:id="note-o-7"/> <lb n="33" xml:id="l-33"/>die ik prachtig vind. En hij is zoo productief – ’t is als <lb n="34" xml:id="l-34"/>of hij het uit zijn mouw schudde.</ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="35" xml:id="l-35"/>
+<ab rend="indent">Van houtsneden gesproken, deze week vond ik er <lb n="36" xml:id="l-36"/>eenige mooie bij – uit l’Illustration<c type="kp">_</c> <lb n="37" xml:id="l-37"/>het is eene serie van Paul Renouard<c type="kk">/</c> les prisons <lb n="38" xml:id="l-38"/>de Paris<c type="kk">/</c> wat zijn daar mooie dingen bij<c type="kp">_</c>
+                    <anchor n="8" xml:id="note-o-8"/> <lb n="39" xml:id="l-39"/>Als ik s’nachts niet slapen kan<c type="kk">/</c> wat mij <lb n="40" xml:id="l-40"/>dikwijls gebeurt<c type="kk">/</c> zit ik altijd met nieuw pleizier <lb n="41" xml:id="l-41"/>in de houtsneden te scharrelen.</ab>
+                <lb n="42" xml:id="l-42"/>
+<ab rend="indent">Wie ook een fameus teekenaar is<c type="kk">/</c> is J. Mahoney <lb n="43" xml:id="l-43"/>die de Household edition van Dickens heeft <lb n="44" xml:id="l-44"/>geillustreerd<c type="kp">_</c>
+                    <anchor n="9" xml:id="note-o-9"/>
+                </ab>
+                <lb n="45" xml:id="l-45"/>
+<ab rend="indent">Ik geloof dat ik door ’t schilderen er toe <lb n="46" xml:id="l-46"/>zal komen om ’t licht beter te voelen <lb n="47" xml:id="l-47"/>waardoor er in mijn teekeningen ook nog iets <lb n="48" xml:id="l-48"/>heel anders zou komen.</ab>
+                <lb n="49" xml:id="l-49"/>
+<ab rend="indent">Wat komt er veel kijken voor men iets <lb n="50" xml:id="l-50"/>uitdrukken kan – maar er is toch <lb n="52" xml:id="l-52"/>juist in de moeielijkheid wel een prikkel <lb n="53" xml:id="l-53"/>gelegen.</ab>
+<vg:whiteline/>
+                <figure facs="zone-sketch-1" n="A"/>
+<vg:whiteline/>
+<pb f="2r" n="3" xml:id="pb-orig-2r-3" facs="#zone-pb-2r-3"/>
+                <lb n="54" xml:id="l-54"/>
+<ab>Ziehier nog een krabbeltje uit het bosch<c type="kk">/</c> <lb n="55" xml:id="l-55"/>daar heb ik een groote studie van gemaakt.<anchor n="10" xml:id="note-o-10"/> <lb n="56" xml:id="l-56"/>Ik gevoel in mij zelf zoo de kracht om te produceeren<c type="kk">/</c> <lb n="57" xml:id="l-57"/>ik heb de bewustheid dat er een tijd komt waarin <lb n="58" xml:id="l-58"/>ik om zoo te zeggen <hi rend="ital">dagelijks</hi> ’t een of ander <lb n="59" xml:id="l-59"/>goeds zal afmaken<c type="kk">/</c> en dat geregeld.</ab>
+                <lb n="60" xml:id="l-60"/>
+<ab rend="indent">Er gaat nu ook niet dan hoogst zelden een dag <lb n="61" xml:id="l-61"/>voorbij waarop ik niet een of ander maak maar <lb n="62" xml:id="l-62"/>het is nog niet het eigentlijke wat ik wil.</ab>
+                <lb n="63" xml:id="l-63"/>
+<ab rend="indent">Enfin – soms is het mij als kan het spoedig zijn <lb n="64" xml:id="l-64"/>dat ik productief werd – als ’t gebeurt op een <lb n="65" xml:id="l-65"/>goeden morgen zou ’t mij niets verwonderen. <lb n="66" xml:id="l-66"/>Ik heb de gedachte dat het schilderen in elk geval <lb n="67" xml:id="l-67"/>nog indirekt ook iets bij mij wakker maken zal<c type="kp">_</c> <lb n="68" xml:id="l-68"/>Ziehier b.v. een krabbeltje van de aardappelmarkt op <lb n="69" xml:id="l-69"/>de Noordwal.–<anchor n="11" xml:id="note-o-11"/> het gescharrel van arbeiders en <lb n="70" xml:id="l-70"/>vrouwen<c type="kk">/</c> met de manden die uit de schuit geladen <lb n="71" xml:id="l-71"/>worden – het is erg aardig om te zien.</ab>
+                <lb n="72" xml:id="l-72"/>
+<ab rend="indent">Dat zijn dingen die ik <hi rend="ital">krachtig</hi> zou willen schilderen <lb n="73" xml:id="l-73"/>of teekenen. Het leven en de beweging van zoo’n <lb n="74" xml:id="l-74"/>scène en de typen van de luidjes<c type="kp">_</c>
+                </ab>
+                <lb n="75" xml:id="l-75"/>
+<ab rend="indent">Alleen het verwondert mij zelf niet dat ik dit niet <lb n="76" xml:id="l-76"/>in eens kan en dat als ik ’t beproef ’t mij dikwijls <lb n="77" xml:id="l-77"/>mislukt tot heden.– Nu<c type="kk">/</c> door ’t schilderen zal <lb n="78" xml:id="l-78"/>ik zeker handiger met de kleuren worden, <lb n="79" xml:id="l-79"/>en beter in staat om zulk een motief er <lb n="80" xml:id="l-80"/>op te zetten. Enfin geduld en voortwerken is de <lb n="81" xml:id="l-81"/>kwestie. Ik stuur U het krabbeltje eens – ik maak er zoo veel <lb n="82" xml:id="l-82"/>zoo – juist om U eens te zeggen dat zulke dingen als <lb n="83" xml:id="l-83"/>b.v. die scène met de werklieden te Montmartre wel <lb n="84" xml:id="l-84"/>degelijk mij preoccupeeren. Er is een algemeene kennis <lb n="85" xml:id="l-85"/>van ’t figuur voor noodig die ik mij tracht eigen <lb n="86" xml:id="l-86"/>te maken door het teekenen van groote figuurstudies<c type="kp">_</c> <lb n="87" xml:id="l-87"/>En mits ik daar maar op blijf werken geloof ik <lb n="88" xml:id="l-88"/>vast dat ik zooals ik zeg er toe geraken zal om hetgeen ik zoo <lb n="89" xml:id="l-89"/>op straat of buiten zie van gescharrel van arbeiders te kunnen uitdrukken.</ab>
+<pb f="2v" n="4" xml:id="pb-orig-2v-4" facs="#zone-pb-2v-4"/>
+                <lb n="90" xml:id="l-90"/>
+<ab rend="indent">Daar waar ik die aardappelmarkt zag is het zoo aardig. <lb n="91" xml:id="l-91"/>al het arme volk van de Geest<c type="kk">/</c> van het Ledig erf<anchor n="12" xml:id="note-o-12"/> <lb n="92" xml:id="l-92"/>en al die hofjes daar in de buurt<c type="kk">/</c> komt dan aanloopen<c type="kp">_</c> <lb n="93" xml:id="l-93"/>Steeds zijn daar dergelijke scènes<c type="kk">/</c> nu is ’t een schuit met <lb n="94" xml:id="l-94"/>turf – dan weer een met visch<c type="kk">/</c> dan met steenkool of iets anders<c type="kp">_</c> <lb n="95" xml:id="l-95"/>Ik heb eene menigte schetsen van Engelsche artisten <lb n="96" xml:id="l-96"/>uit Ierland – mij dunkt die buurt waarover <lb n="97" xml:id="l-97"/>ik U schrijf moet veel van een iersche stad hebben. <lb n="98" xml:id="l-98"/>Ik doe al mijn best er kracht achter te zetten <lb n="99" xml:id="l-99"/>want ik verlang er zoo sterk naar mooie dingen te <lb n="100" xml:id="l-100"/>maken<c type="kp">_</c>– Maar mooie dingen kosten moeite – <lb n="101" xml:id="l-101"/>en teleurstelling en volhouden.</ab>
+<vg:whiteline/>
+                <figure facs="zone-sketch-2" n="B"/>
+<vg:whiteline/>
+                <lb n="101"/>
+<ab>Ziehier nog een <lb n="102" xml:id="l-102"/>stukje van ’t bosch s’avonds <lb n="103" xml:id="l-103"/>na den regen. hoe prachtig <lb n="104" xml:id="l-104"/>dat effekt in de natuur was <lb n="105" xml:id="l-105"/>kan ik U niet zeggen – <lb n="106" xml:id="l-106"/>met het brons van het groen <lb n="107" xml:id="l-107"/>en de afgevallen blaren <lb n="108" xml:id="l-108"/>hier &amp; daar.</ab>
+                <lb n="109" xml:id="l-109"/>
+<ab rend="indent">Ik wou dat gij er s’avonds <lb n="110" xml:id="l-110"/>eens kondt wandelen<c type="kk">/</c> <lb n="111" xml:id="l-111"/>in dat prachtige herfstbosch <lb n="112" xml:id="l-112"/>hier<c type="kp">_</c>– Hetgeen ik er dit jaar uit terug <lb n="113" xml:id="l-113"/>zal brengen is nog maar een schralen oogst<c type="kk">/</c> <lb n="114" xml:id="l-114"/>enfin – toch hoop ik een paar dingen, <lb n="115" xml:id="l-115"/>en later hoe langer hoe meer<c type="kp">_</c>–</ab>
+                <lb n="116" xml:id="l-116"/>
+<ab rend="indent">Intusschen is mijn verf op – ik hoop hartelijk <lb n="117" xml:id="l-117"/>dat gij zelf niet in ’t naauw zit. In elk <lb n="118" xml:id="l-118"/>geval hoop ik ge 10 Sept. het gewone zult kunnen <lb n="119" xml:id="l-119"/>zenden. Ik moet van middag nog naar <lb n="120" xml:id="l-120"/>de aardappelmarkt – daar te schilderen gaat niet <lb n="121" xml:id="l-121"/>van wege ’t volk – ik heb er toch al dikwijls genoeg <lb n="122" xml:id="l-122"/>last van. Men moest maar overal binnen <lb n="123" xml:id="l-123"/>in de huizen mogen loopen &amp; zonder complimenten <lb n="124" xml:id="l-124"/>voor de ramen mogen gaan zitten. Enfin – het is zaturdagavond <lb n="125" xml:id="l-125"/>en dus is er zeker wat te doen wat typig is om te zien<c type="kp">_</c>
+                </ab>
+                <lb n="126" xml:id="l-126"/>
+<ab rend="indent">Het beste U toegewenscht – weet dat ik dagelijks aan <lb n="127" xml:id="l-127"/>U denk. adieu<c type="kk">/</c> met een handdruk<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="128" xml:id="l-128"/>
+<ab>t. à t.</ab>
+                <lb n="129" xml:id="l-129"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-88" n="88">dat ik &lt; dat</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo,</ab>
+<ab>Just a few words to congratulate you on 10 Sept.<anchor n="1" xml:id="note-t-1"/>
+                </ab>
+<ab rend="indent">I don’t know whether I told you that I’ve had a letter from <rs type="pers" key="407">Wil</rs> in which she gives a quite charming description of the countryside at Nuenen. It does seem to be really beautiful there. I’ve asked her for more information on one or two points about the weavers, who especially interest me. I saw that at the time in the Pas de Calais<anchor n="2" xml:id="note-t-2"/> — inexpressibly beautiful. </ab>
+<ab rend="indent">But in the meantime I don’t need to paint weavers, although sooner or later I hope I’ll get round to that. Now it’s autumn in the woods — that preoccupies me. </ab>
+<ab rend="indent">There are two things about the autumn that particularly attract me. Sometimes there’s a gentle melancholy in the falling leaves, in the tempered light, in the haziness of things, in the elegance of the slender trunks. Then, I like the more robust, rougher side just as much — the strong light effects, for example on a digger<anchor n="3" xml:id="note-t-3"/> sweating in the midday sun. Herewith a few scratches of studies I did this week.<anchor n="4" xml:id="note-t-4"/> </ab>
+<ab rend="indent">I’ve been thinking again about the workmen in Montmartre you described in your last letter. I vaguely recalled that there was someone who did them extremely well. </ab>
+<ab rend="indent">I mean <hi rend="ital">
+                        <rs type="pers" key="1146">A. Lançon</rs>
+                    </hi>. I had another look at the woodcuts I have by him — how clever that chap is. Among them I saw a gathering of rag-pickers,<anchor n="5" xml:id="note-t-5"/> a soup distribution<anchor n="6" xml:id="note-t-6"/> and Gang of snow-shovellers,<anchor n="7" xml:id="note-t-7"/> which I think is splendid. And he’s so productive — it’s as if he just dashes them off. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> </ab>
+<ab rend="indent">Speaking of woodcuts, this week I found some fine ones — from L’Illustration. It’s a series by <rs type="pers" key="1292">Paul Renouard</rs>, The prisons of Paris. What beautiful things it contains.<anchor n="8" xml:id="note-t-8"/> If I can’t sleep at night, which often happens, I always rummage among the woodcuts with new enjoyment. </ab>
+<ab rend="indent">Another excellent draughtsman is <rs type="pers" key="1184">J. Mahoney</rs>, who illustrated the Household edition of <rs type="pers" key="580">Dickens</rs>.<anchor n="9" xml:id="note-t-9"/>
+                </ab>
+<ab rend="indent">I believe that through painting I’ll come to feel the light better, so that in my drawings, too, there’ll be something very different. </ab>
+<ab rend="indent">How much is involved before one can express something — but in that very difficulty lies a stimulus.</ab>
+<vg:whiteline/>
+<ab>
+                    <figure facs="zone-sketch-1" n="A"/>
+                </ab>
+<vg:whiteline/>
+<ab>
+<pb f="2r" n="3" xml:id="pb-trans-2r-3" facs="#zone-pb-2r-3"/>
+                </ab>
+<ab>Here’s another scratch from the woods. I’ve made a large study of it.<anchor n="10" xml:id="note-t-10"/> I feel the power to produce so strongly within myself, I’m aware that there will come a time when I’ll finish something good, so to speak, <hi rend="ital">daily</hi>, and do so regularly.</ab>
+<ab rend="indent">At present hardly a day passes without my making a few things, but it isn’t yet what I really want. </ab>
+<ab rend="indent">Well — sometimes it seems to me that I’ll become productive very soon — I shouldn’t be surprised if it happens one fine day. I’ve an idea that in any case painting will also indirectly awaken something in me. Here, for example, is a scratch of the potato market in Noordwal.<anchor n="11" xml:id="note-t-11"/> The bustle of workmen and women, with the baskets being unloaded from the barge — it’s a very interesting sight.</ab>
+<ab rend="indent">These are things I would like to paint or draw <hi rend="ital">forcefully</hi>. The life and movement of such a scene, and the types of folk.</ab>
+<ab rend="indent">It doesn’t surprise me, though, that I can’t do this straightaway, and that so far when I try I’ve often failed. Now, through painting, I’ll certainly become handier with colours, and better able to capture such a subject. Well, the point is to be patient and carry on working. I’m sending you the scratch — I make so many like this — precisely to tell you that things like that scene, say, with the workmen in Montmartre do indeed preoccupy me. They require a general knowledge of the figure that I’m trying to gain by drawing large figure studies. And provided I continue to work on that, I firmly believe that, as I say, I’ll reach the point where I can express the bustle of workmen I see on the street or outdoors.
+<pb f="2v" n="4" xml:id="pb-trans-2v-4" facs="#zone-pb-2v-4"/>
+                </ab>
+<ab rend="indent">The place where I saw the potato market is so interesting. All the poor people from the Geest district, from Ledig Erf<anchor n="12" xml:id="note-t-12"/> and from all the courtyards in that neighbourhood come to it. Similar scenes take place there all the time: now it’s a barge with peat, then one with fish, then with coal or something else. I have a host of sketches by English artists from Ireland — I think the neighbourhood I’m writing about probably has much in common with an Irish town. I’m doing my very best to put all my energy into it, for I long so much to make beautiful things. But beautiful things require effort — and disappointment and perseverance.</ab>
+<vg:whiteline/>
+<ab>
+                    <figure facs="zone-sketch-2" n="B"/>
+                </ab>
+<vg:whiteline/>
+<ab>Here’s a part of the woods in the evening after rain. I can’t tell you how superb that effect was in nature, with the bronze of the greenery and the fallen leaves here and there.</ab>
+<ab rend="indent">I wish you could walk there in the evening sometime, in the superb autumn woods here. What I’ll bring out of it this year will be only a meagre harvest. Well, a few things nevertheless I hope, and with time more and more. </ab>
+<ab rend="indent">Meanwhile, my paint is finished. I sincerely hope you aren’t hard pressed yourself. At all events, I hope you’ll be able to send the usual on 10 Sept. This afternoon I must go to the potato market — it’s impossible to paint there because of the crowd — they’re enough trouble already. One ought to be allowed to enter any of the houses and sit down at the windows without further ado. Anyway, it’s Saturday evening, and so there’s bound to be something to do that makes a typical scene. </ab>
+<ab rend="indent">Wishing you the very best — be assured that I think of you every day. Adieu, with a handshake.</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>On 10 September Van Gogh’s <rs type="pers" key="524">mother</rs> would be 63.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>The Pas de Calais is a department in north-west France where Van Gogh had been on a walking tour in the winter of 1879-1880: <ref target="let158.xml">see letter 158</ref>.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>Van Gogh is referring to <hi rend="ital">Man stooping with a stick or spade</hi> (<rs type="ill" key="2388">F 12 / JH 185</rs>), in which the sunlight falls on the digger’s back.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>These scratches are not known. Nor is it known after which painted studies these enclosed sketches were made, but one of them would have been <hi rend="ital">Man stooping with a stick or spade</hi> (<rs type="ill" key="2388">F 12 / JH 185</rs>).</ab>
+                </note>
+<note n="a" xml:id="n-a" target="#note-o-a">
+<ab>Means: ‘het stond mij bij’ (I vaguely recollect).</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+      <ab>The estate contains <rs type="pers" key="1146">Auguste André Lançon</rs>’s <hi rend="ital">Een herberg van voddenrapers te Parijs</hi> (A rag-pickers’ tavern in Paris), engraved by <rs type="pers" key="1225">Frederick William Moller</rs>, from <hi rend="ital">De Hollandsche Illustratie</hi> 9 (9 September 1872), p. 4. Van Gogh himself wrote the French title <hi rend="ital">Rendez-vous des chiffonniers</hi> under it in pencil. <rs type="ill" key="1029">Ill. 1029</rs>. (t*466). The print had been in <hi rend="ital">L’Illustration</hi> 58 (26 August 1871), p. 132 under the title <hi rend="ital">Les bas-fonds parisiens.– La casserole, cabaret des chiffonniers</hi>.</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+      <ab>The estate contains <hi rend="ital">De Parijsche armen. Uitdeeling van soep </hi>(The Paris poor. Soup distribution), engraved by <rs type="pers" key="1225">Frederick William Moller</rs>, from <hi rend="ital">De Hollandsche Illustratie</hi> 9 (6 December 1872), p. 4. Van Gogh himself wrote the French title <hi rend="ital">Distribution de soupe</hi> under it in pencil. <rs type="ill" key="1940">Ill. 1940</rs>. (t*465). The print had appeared in <hi rend="ital">L’Illustration</hi> 58 (2 September 1871), p. 149 under the title <hi rend="ital">Les bas-fonds parisiens.– La soupe des capucins</hi>.</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>‘Snow-clearing gang’ must refer to <hi rend="ital">Une équipe de ramasseurs de neige </hi>(A gang of snow shovellers); it appeared in <hi rend="ital">La Vie Moderne</hi> 3 (29 January 1881), no. 5, p. 66. <rs type="ill" key="1941">Ill. 1941</rs>. (t*141). Besides this print, Van Gogh also had Lançon’s <hi rend="ital">Paris sous la neige – La charrue à glace du boulevard Montparnasse</hi> (Paris under snow – The snow plough of boulevard Montparnasse) (t*46), from <hi rend="ital">Le Monde Illustré</hi> 24 (3 January 1880), p. 12. But in this the snow-clearers are not the main subject. </ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>The series <hi rend="ital">Les prisons de Paris</hi> (<hi rend="ital">Mazas</hi>) (The prisons of Paris (Mazas)) had been in <hi rend="ital">L’Illustration</hi>. In the estate there are 12 wood engravings, all from volume 48 of 1881 (February, July and August), including <hi rend="ital">“169! Liberté!”</hi>, (“169!, you’re free!”), engraved by <rs type="pers" key="1537">Eugène Froment</rs>, from <hi rend="ital">L’Illustration</hi> 78 (6 August 1881), p. 96. <rs type="ill" key="397">Ill. 397</rs>. (t*495). The others are t*43, t*45, t*187, t*203, t*223 and t*475.</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>The ‘Engraving Commission’ for the<rs type="lit" key="242"> Household Edition</rs> of <rs type="pers" key="580">Dickens</rs>’s work was given to the <rs type="pers" key="1523 1525">Dalziel Brothers</rs>. <rs type="pers" key="1184">James Mahoney</rs> illustrated <hi rend="ital">
+                            <rs type="lit" key="107">Oliver Twist</rs>, <rs type="lit" key="199">Little Dorrit</rs>
+                        </hi> and <rs type="lit" key="257">
+                            <hi rend="ital">Our mutual friend</hi>
+                        </rs> (all of 1871) for this edition. See Kitton 1899, p. 221 and Engen<hi rend="ital"> </hi>1985, p. 173.</ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>The letter sketch <hi rend="ital">A girl in a wood</hi> (<rs type="sketch" key="61">F - / JH 183</rs>) is after <hi rend="ital">A girl in a wood</hi> (<rs type="ill" key="2387">F 8 / JH 182</rs>), which measures 39 x 59 cm.</ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>This ‘scratch’ is not known; for the subject, cf. the watercolour <hi rend="ital">Potato market</hi> (<rs type="otherart" key="341">F 1091 / JH 252</rs>). Noordwal is near to Geest and Slijkeinde, where Sien’s <rs type="pers" key="464">mother</rs> lived; the potato market was between Gedempte Sloot and Breedstraat.</ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+<ab>Ledig Erf (now Bakkersstraat) in The Hague is close to Geest, in the same poor neighbourhood in the centre of the city.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Brussels, January 1881.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let162"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">162</idno>
+<idno type="collectedletters">140</idno>
+<idno type="brieven1990">161</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Brussels</vg:placeLet>
+                        <vg:dateLet>January 1881</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:physDesc>
+                        <vg:decoration>
+                            <vg:decoList xml:id="sketches">
+                                <vg:decoItem n="A" xml:id="sketch-1">
+                                    <vg:decoDesc>
+<p>
+      <hi rend="ital">On the road</hi> (<rs type="sketch" key="15">F - / JH Juv. 15</rs>), enclosed drawing</p>
+                                    </vg:decoDesc>
+                                </vg:decoItem>
+                                <vg:decoItem n="B" xml:id="sketch-2">
+                                    <vg:decoDesc>
+<p>
+      <hi rend="ital">In front of the embers</hi> (<rs type="sketch" key="14">F - / JH Juv. 16</rs>), enclosed drawing</p>
+                                    </vg:decoDesc>
+                                </vg:decoItem>
+                            </vg:decoList>
+                        </vg:decoration>
+                    </vg:physDesc>
+                    <vg:letContents>
+<p>To Theo van Gogh. Brussels, January 1881.</p>
+<note type="ongoingTopic" n="1">
+<p>Van Gogh is copying Bargue’s <hi rend="ital">Exercices au fusain</hi> (<ref target="let156.xml">156</ref> and <ref target="let158.xml">158</ref>)</p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. nos. b160 V/1962 (sheet 1), d294 V/1972 (sheet 2) and d295 V/1972 (sheet 3)</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Letter headed: ‘Bruxelles Janvier 81’. It is not possible to determine which day of the month the letter was written, but it was after Vincent had received Theo’s reply to <ref target="let161.xml">letter 161</ref> (dating from late December or early January), for which Vincent apologizes in this letter.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0160" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000170_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000170_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000170_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000170_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000170_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000170_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0160" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000170_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000170_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000170_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000170_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000170_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000170_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000170_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000170_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000170_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="d 0294" xml:id="surf-pb-2r">
+            <graphic mimeType="image/tiff" url="VGM001001662_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-2r-5">
+<graphic mimeType="image/tiff" url="VGM001001662_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001662_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001662_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    <surface n="d 0294" xml:id="surf-pb-2v">
+            <graphic mimeType="image/tiff" url="VGM001001662_02.TIF" rend="norend"/>
+            <zone xml:id="zone-extra-2">
+        <graphic mimeType="image/tiff" url="VGM001001662_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001662_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001662_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    <surface n="d 0295 V/1972" xml:id="surf-pb-3r">
+            <graphic mimeType="image/tiff" url="VGM001001663_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-3r-6">
+<graphic mimeType="image/tiff" url="VGM001001663_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001663_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001663_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+    </surface>
+    <surface n="d 0295 V/1972" xml:id="surf-pb-3v">
+            <graphic mimeType="image/tiff" url="VGM001001663_02.TIF" rend="norend"/>
+            <zone xml:id="zone-extra-3">
+<graphic mimeType="image/tiff" url="VGM001001663_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001663_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001663_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Bruxelles Janvier 81.</ab>
+<vg:whiteline/>
+                <lb n="2" xml:id="l-2"/>
+<ab>Mon cher Theo,</ab>
+                <lb n="3" xml:id="l-3"/>
+<ab>Tu me pardonneras tout à fait lorsque tu sauras que je t’ai ecrit ma lettre <lb n="4" xml:id="l-4"/>précedente dans un moment de malaise. Mes dessins n’allaient pas &amp; ne sachant de <lb n="5" xml:id="l-5"/>quel côté me tourner je me suis mis à écrire. Certes j’aurais mieux fait d’attendre <lb n="6" xml:id="l-6"/>un meilleur moment mais par ceci tu verras précisément que moi-même <lb n="7" xml:id="l-7"/>appartiens sans aucun doute à cette classe de gens dont je te parlais dans ma lettre<c type="kk">/</c> soit <lb n="8" xml:id="l-8"/>à cette classe de personnes qui ne réfléchissent pas toujours à ce qu’ils disent &amp; font.</ab>
+                <lb n="9" xml:id="l-9"/>
+<ab rend="indent">Cela étant<c type="kk">/</c> brisons là-dessus<c type="kp">_</c>– Sachez toujours ceci<c type="kp">_</c> Dans les derniers jours il y a eu un changement <lb n="10" xml:id="l-10"/>favorable. Je viens de terminer au moins une douzaine de dessins ou plustôt <lb n="11" xml:id="l-11"/>croquis au crayon &amp; à la plume qui sont, à ce qui me parait, déjà un peu <lb n="12" xml:id="l-12"/>mieux<c type="kp">_</c> Ça ressemble vaguement à certains dessins de Lançon<anchor n="1" xml:id="note-o-1"/> ou <lb n="13" xml:id="l-13"/>à certaines gravures s. bois anglaises<c type="kk">/</c> mais plus maladroit<c type="kk">/</c> plus gauche encore.<anchor n="a" xml:id="note-o-a"/> Ca représente entre <lb n="14" xml:id="l-14"/>autres un commissionnaire, un charbonnier, balayeur de neige, promenade d.l. neig<supplied>e</supplied>
+                    <c type="kk">/</c> <lb n="15" xml:id="l-15"/>vieilles femmes<c type="kk">/</c> type de vieillard (“Ferragus” de l’histoire des treize de Balzac)<anchor n="2" xml:id="note-o-2"/> &amp;c.<c type="kp">_</c> <lb n="16" xml:id="l-16"/>Je t’en envoie 2 petites<c type="kk">/</c> “En route” &amp; “Devant les tisons”<c type="kp">_</c>
+                    <anchor n="3" xml:id="note-o-3"/> Je vois bien <lb n="17" xml:id="l-17"/>que ce n’est pas encore bon<c type="kk">/</c> toutefois ça commence à se dégager<c type="kp">_</c>
+                </ab>
+                <lb n="18" xml:id="l-18"/>
+<ab rend="indent">J’ai presque tous les jours quelque modèle<c type="kk">/</c> un vieux commissionaire ou <lb n="19" xml:id="l-19"/>quelqu’ouvrier ou gamin que je fais poser. Dimanche prochain j’aurai <lb n="20" xml:id="l-20"/>peutêtre un ou deux soldats qui viendront poser. Et puisque donc <lb n="21" xml:id="l-21"/>maintenant je ne suis plus de mauvaise humeur je me fais une toute <lb n="22" xml:id="l-22"/>autre &amp; meilleure idée de toi &amp; de tout le monde en général<c type="kp">_</c>
+                </ab>
+                <lb n="23" xml:id="l-23"/>
+<ab rend="indent">J’ai aussi dessiné de nouveau un paysage<c type="kk">/</c> soit une bruyère<c type="kk">/</c>
+                    <anchor n="4" xml:id="note-o-4"/> ce que je <lb n="24" xml:id="l-24"/>n’avais pas fait depuis longtemps.</ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="25" xml:id="l-25"/>
+<ab rend="indent">J’aime beaucoup le paysage mais encore 10 fois mieux ces études de moeurs parfois <lb n="26" xml:id="l-26"/>d’effrayante vérité tels que Gavarni, Henri Monnier,<anchor n="5" xml:id="note-o-5"/> Daumier, de Lemud, Henri Pille, <lb n="27" xml:id="l-27"/>Th. Schuler, Ed. Morin<c type="kk">/</c> G. Doré (par ex<c type="kp">_</c> dans son Londres)<c type="kk">/</c>
+                    <anchor n="6" xml:id="note-o-6"/> A<c type="kp">_</c> Lançon, de Groux<c type="kk">/</c> <lb n="28" xml:id="l-28"/>Felicien Rops<anchor n="7" xml:id="note-o-7"/> &amp;c<c type="kp">_</c> &amp;c. les ont dessinées si magistralement.</ab>
+                <lb n="29" xml:id="l-29"/>
+<ab rend="indent">Maintenant sans osant en aucune manière prétendre monter si haut <lb n="30" xml:id="l-30"/>que ceux là<c type="kk">/</c> toutefois en continuant à dessiner ces types d’ouvriers &amp;c. <lb n="31" xml:id="l-31"/>j’espère bien arriver à être plus ou moins capable de travailler pour <lb n="32" xml:id="l-32"/>l’illustration de journaux ou de livres. Principalement lorsque <lb n="33" xml:id="l-33"/>je serai à même de me payer davantage des modèles &amp; aussi <lb n="34" xml:id="l-34"/>des modèles de femmes<c type="kk">/</c> je ferai encore des progrès<c type="kk">/</c> je le sens <lb n="35" xml:id="l-35"/>&amp; je le sais. Et j’arriverai probablement aussi à savoir faire <lb n="36" xml:id="l-36"/>des portraits. Mais c’est à la condition de travailler beaucoup<c type="kk">/</c> <lb n="37" xml:id="l-37"/>pas un jour sans une ligne<c type="kk">/</c> comme disait Gavarni.<anchor n="8" xml:id="note-o-8"/>
+                </ab>
+                <lb n="38" xml:id="l-38"/>
+<ab rend="indent">Il est donc entendu que je reste provisoirement ici <lb n="39" xml:id="l-39"/>en attendant que peutêtre tu aurais chose ou autre à <lb n="40" xml:id="l-40"/>me proposer. Seulement ecris moi de temps à autre<c type="kp">_</c> <lb n="41" xml:id="l-41"/>Je suis maintenant occupé à dessiner pour la 3<hi rend="ss">me</hi> fois <lb n="42" xml:id="l-42"/>toutes les Exercices au fusain de Bargue.</ab>
+                <lb n="43" xml:id="l-43"/>
+<ab rend="indent">Tu m’as parlé d’un changement dans le personnel des <lb n="44" xml:id="l-44"/>employés de la maison G&amp;C<hi rend="ss">ie</hi>
+                    <c type="kk">/</c> puis d’un autre changement <lb n="45" xml:id="l-45"/>dans ta propre position.–<anchor n="9" xml:id="note-o-9"/>
+                </ab>
+                <lb n="46" xml:id="l-46"/>
+<ab rend="indent">Je t’en félicite &amp; quant à ces Messieurs G&amp;C<hi rend="ss">ie</hi> je suis porté à croire <lb n="47" xml:id="l-47"/>qu’il y a lieu de les féliciter aussi du déblayement.</ab>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                <lb n="48" xml:id="l-48"/>
+<ab rend="indent">J’ai toujours pensé que Ces Messieurs eux mêmes étaient animés d’un <lb n="49" xml:id="l-49"/>esprit supérieur &amp; plus noble que celui qu’avaient ceux qui maintenant <lb n="50" xml:id="l-50"/>enfin viennent de décamper. Peutêtre la position que les derniers <lb n="51" xml:id="l-51"/>nommés ont occupé si longtemps dans la maison<c type="kk">/</c> leur influence &amp;, puisque ces Messieurs G&amp;C<hi rend="ss">ie</hi> les laissaient <lb n="53" xml:id="l-53"/>faire, leur domination – ont repugné à quelques autres employés <lb n="54" xml:id="l-54"/>que ces Messieurs auraient peutêtre bien fait de conserver, mais <lb n="55" xml:id="l-55"/>qui, poussés à bout, ont fini en quelque sorte par casser leur épée.<anchor n="10" xml:id="note-o-10"/>
+                </ab>
+                <lb n="56" xml:id="l-56"/>
+<ab rend="indent">Puisque dans le temps tu m’as vaguement parlé de venir <lb n="57" xml:id="l-57"/>à Paris<c type="kk">/</c>
+                    <anchor n="11" xml:id="note-o-11"/> sachez que je ne demanderais pas mieux que d’y <lb n="58" xml:id="l-58"/>aller effectivement un de ces quatre matins – si j’étais assez heureux <lb n="59" xml:id="l-59"/>de savoir que j’y trouverais de l’emploi pour gagner ad minimum <lb n="60" xml:id="l-60"/>100 francs par mois – toutefois sachez aussi que puisque j’ai <lb n="61" xml:id="l-61"/>commencé le dessin<c type="kk">/</c> ce n’est pas pour le laisser là<c type="kk">/</c> conséquemment <lb n="62" xml:id="l-62"/>je chercherais principalement à continuer &amp; à avancer de ce <lb n="63" xml:id="l-63"/>côté-là. Non seulement le dessin de figures &amp; scènes de moeurs <lb n="64" xml:id="l-64"/>demande des connaissances du dessin en tant que metier mais <lb n="65" xml:id="l-65"/>en outre de fortes études de littérature, de physiognomonie &amp;c. qui sont <lb n="66" xml:id="l-66"/>difficiles à acquérir.</ab>
+                <lb n="67" xml:id="l-67"/>
+<ab rend="indent">Voila assez pour aujourd’hui; je te serre la main<c type="kk">/</c> <lb n="68" xml:id="l-68"/>as tu un moment de disponible<c type="kk">/</c> écris moi &amp; crois moi</ab>
+<vg:whiteline/>
+                <lb n="69" xml:id="l-69"/>
+<ab>t. à t.</ab>
+                <lb n="70" xml:id="l-70"/>
+<ab>Vincent</ab>
+                <lb n="71" xml:id="l-71"/>
+<ab>72 B<hi rend="ss">d</hi> du Midi</ab>
+<vg:whiteline/>
+                <lb n="72" xml:id="l-72"/>
+<ab>Un de ces jours j’espère aller voir M<c type="kp">_</c> Horta<c type="kp">_</c>
+                    <anchor n="12" xml:id="note-o-12"/>
+                </ab>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/> <figure facs="zone-sketch-1" n="A"/>
+<pb f="3r" n="6" xml:id="pb-orig-3r-6" facs="#zone-pb-3r-6"/> <figure facs="zone-sketch-2" n="B"/>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-14" n="14">neig<supplied>e</supplied>
+                        <c type="kk">/</c> &lt; <hi rend="ital">Text lost due to the edge of the paper.</hi>
+                    </note>
+<note target="l-58" n="58">– si &lt; si</note>
+<note target="l-65" n="65">physiognomonie &lt; physiognonie  <hi rend="ital">Van Gogh mangled the words </hi>‘physiognomonie’ <hi rend="ital">and </hi>‘physionomie’<hi rend="ital">; cf. letter 160.</hi>
+                    </note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>Brussels, January 81.</ab>
+<vg:whiteline/>
+<ab>My dear Theo,</ab>
+<ab>You will entirely forgive me when you realize that I wrote you my last letter at a bad time. My drawings weren’t going well, and not knowing which way to turn I began to write. I would certainly have done better to have waited for a better moment, but this way you’ll clearly see that without a doubt I myself belong to that class of people of whom I was speaking to you in my letter, namely to that class of persons who don’t always think about what they’re saying and doing.</ab>
+<ab rend="indent">That being so, let’s leave it there. Always be sure of this. In the past few days there’s been a change for the better. I’ve just finished at least a dozen drawings, or rather, pencil and pen croquis, which are, it seems to me, already a little better. They vaguely resemble certain drawings by <rs type="pers" key="1146">Lançon</rs>
+                    <anchor n="1" xml:id="note-t-1"/> or certain English wood engravings, but even clumsier, more awkward.<anchor n="a" xml:id="note-t-a"/> They depict, among others, a delivery man, a miner, man sweeping snow, a walk in the snow, old women, type of old man (‘Ferragus’, from <rs type="pers" key="519">Balzac</rs>’s L’histoire des treize)<anchor n="2" xml:id="note-t-2"/> &amp;c. I’m sending you 2 small ones, ‘On the road’ and ‘In front of the embers’.<anchor n="3" xml:id="note-t-3"/> I can clearly see that it’s not good yet; it’s beginning to emerge, though.</ab>
+<ab rend="indent">I have a model almost every day, an old delivery man or some labourer or lad whom I have pose. Next Sunday I’ll perhaps have one or two soldiers who’ll come to pose. And so, since I’m no longer in a bad mood now, I have a quite different and better idea of you and of the whole world in general.</ab>
+<ab rend="indent">I’ve also drawn a landscape again, namely a heath,<anchor n="4" xml:id="note-t-4"/> which I hadn’t done for a long time. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">I like landscape very much, but 10 times more these studies of everyday life, sometimes of terrifying truthfulness, such as <rs type="pers" key="1043">Gavarni</rs>, <rs type="pers" key="712">Henry Monnier</rs>,<anchor n="5" xml:id="note-t-5"/> <rs type="pers" key="977">Daumier</rs>, <rs type="pers" key="1167">De Lemud</rs>, <rs type="pers" key="1270">Henri Pille</rs>, <rs type="pers" key="1356">T. Schuler</rs>, <rs type="pers" key="1236">E. Morin</rs>, <rs type="pers" key="998">G. Doré</rs> (in his Londres, for example),<anchor n="6" xml:id="note-t-6"/>
+                    <rs type="pers" key="1146"> A. Lançon</rs>, <rs type="pers" key="1063">Degroux</rs>, <rs type="pers" key="1326">Félicien Rops</rs>
+                    <anchor n="7" xml:id="note-t-7"/> &amp;c. &amp;c. have drawn with such mastery.</ab>
+<ab rend="indent">Now without in any way daring to claim to rise as high as them, nevertheless, by continuing to draw these types of workmen &amp;c., I’m confident of succeeding in becoming more or less capable of working in magazine or book illustration. First and foremost, when I’ll be able to pay more for models, and female models too, I’ll make further progress; I feel it and I know it. And I’ll probably also succeed in being able to do portraits. But that depends on working hard; not a day without a line, as <rs type="pers" key="1043">Gavarni</rs> used to say.<anchor n="8" xml:id="note-t-8"/>
+                </ab>
+<ab rend="indent">So it’s understood that I stay here for the time being, while waiting for you to have something or other to offer me, perhaps. But write to me once in a while. I’m now busy drawing all <rs type="pers" key="851">Bargue</rs>’s Exercices au fusain for the 3rd time.</ab>
+<ab rend="indent">You mentioned to me a change in the composition of the staff at the firm of G&amp;Cie, and of another change in your own position.<anchor n="9" xml:id="note-t-9"/>
+                </ab>
+<ab rend="indent">I congratulate you on it, and as for those Messrs G&amp;Cie, I’m inclined to believe that there is occasion to congratulate them, too, on clearing out dead wood. 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/>
+                </ab>
+<ab rend="indent">I’ve always thought that Those Gentlemen themselves were moved by a superior and nobler spirit than that of those who have at last just cleared off. Perhaps the position that the latter occupied for so long in the firm, their influence and, since these Messrs G&amp;Cie allowed them to do so, their domination — repelled some other employees, whom these Gentlemen could perhaps have done well to retain, but who, driven to the limit, somehow ended up quitting the service.<anchor n="10" xml:id="note-t-10"/> </ab>
+<ab rend="indent">Since you spoke to me vaguely about coming to Paris in the past,<anchor n="11" xml:id="note-t-11"/> be sure that I would ask for nothing better than indeed to go there one of these days — if I</ab>
+<ab>was fortunate enough to know that I would find work there to earn at least 100 francs a month — be sure also, however, that since I’ve made a start with drawing, it isn’t in order to leave it at that; consequently I would mainly try to continue and to make progress in that direction. Drawing figures and scenes of everyday life requires not only knowledge of drawing as a craft, but in addition, rigorous study of literature, physiognomy &amp;c., which are difficult to acquire. </ab>
+<ab rend="indent">That’s enough for today; I shake your hand; if you have a spare moment, write to me, and believe me</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent</ab>
+<ab>72 blvd du Midi</ab>
+<vg:whiteline/>
+<ab>I hope to go to see <rs type="pers" key="1094">Mr Horta</rs> one of these days.<anchor n="12" xml:id="note-t-12"/>
+                </ab>
+<vg:whiteline/>
+<ab>
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/>
+                </ab>
+<ab>
+                    <figure facs="zone-sketch-1" n="A"/>
+                </ab>
+<vg:whiteline/>
+<ab>
+<pb f="3r" n="6" xml:id="pb-trans-3r-6" facs="#zone-pb-3r-6"/>
+                </ab>
+<ab>
+                    <figure facs="zone-sketch-2" n="B"/>
+                </ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>
+                        <rs type="pers" key="1146">Auguste André Lançon</rs> contributed drawings for wood engravings published in <hi rend="ital">The</hi> <hi rend="ital">Illustrated London News</hi> (1870); later in the decade he became a ‘special artist’ for <hi rend="ital">L’Illustration</hi>.</ab>
+                </note>
+<note n="a" xml:id="n-a" target="#note-o-a">
+<ab>Meaning: ‘nog steeds’ (still).</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>Ferragus is the protagonist of the eponymous story in <rs type="lit" key="208">
+                            <hi rend="ital">Histoire des treize</hi>
+                        </rs> (1834-1835) by <rs type="pers" key="519">Honoré de Balzac</rs>. He is the leader of a secret society called ‘Les Dévorants’. When his involvement in this society indirectly causes the death of his daughter, he sinks into a depression and goes insane. It is possible that Van Gogh’s drawing was based on the illustration by <rs type="pers" key="977">Honoré Daumier</rs> (<ref target="let274.xml#n-3">see letter 274, n. 3</ref>).</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>
+      <hi rend="ital">On the road</hi> (<rs type="sketch" key="15">F - / JH Juv. 15</rs>). This might be the work Van Gogh refers to as a ‘delivery man’. The second, <hi rend="ital">In front of the embers</hi> (<rs type="sketch" key="14">F - / JH Juv. 16</rs>), is possibly the old-man type he mentions. Van Gogh calls them both ‘small ones’ – they measure 9.8 x 5.8 cm. See cat. Amsterdam 1996, pp. 72-75, cat. nos. 13-14. It is possible that the drawings <hi rend="ital">Sketch of a landscape with factories</hi> (<rs type="otherart" key="309">F 874r / JH -</rs>) and <hi rend="ital">Two men on a country road</hi> (<rs type="otherart" key="310">F 1105 / JH -</rs>) correspond to ‘A miner’ and ‘A walk in the snow’.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>Considering the possible identifications listed in the previous note, this could have been the <hi rend="ital">Landscape</hi> (<rs type="otherart" key="681">F 874v / JH 3</rs>). See also <ref target="let165.xml#n-4">letter 165, n. 4.</ref>
+                    </ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>Van Gogh might have been thinking of <rs type="pers" key="712">Henry Bonaventure Monnier</rs>’s <rs type="lit" key="209">
+                            <hi rend="ital">Mémoires de Monsieur Joseph Prudhomme</hi>
+                        </rs> (1857), which he mentions in a later letter (<ref target="let296.xml">296</ref>).</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>In 1876 <rs type="pers" key="998">Gustave Doré</rs>’s <rs type="lit" key="157">
+                            <hi rend="ital">London – A pilgrimage</hi>
+                        </rs> (1872) was published in a French edition called <hi rend="ital">Londres</hi> by Louis Ernault in Paris. The book contains 174 wood engravings. See Doré 1885, p. 158, and cf. <ref target="let129.xml#n-36">letter 129, n. 36.</ref>
+                    </ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+    <ab>Van Gogh had shown an interest in <rs type="pers" key="1326">Rops</rs> as early as 1873, when he made the drawing <hi rend="ital">Old woman sleeping (after Rops)</hi> (<rs type="otherart" key="153">F XVII / JH -</rs>). See cat. Amsterdam 1996, pp. 51-53, cat. no. 5.</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>
+                        <rs type="pers" key="1043">Paul Gavarni</rs> was the pseudonym of the French draughtsman, caricaturist and writer <rs type="pers" key="1043">Hippolyte Sulpice Guillaume Chevalier</rs>. The phrase Van Gogh quotes has not been found in Gavarni’s writings. For the source of this maxim, <ref target="let120.xml#n-8">see letter 120, n. 8.</ref>
+                    </ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+    <ab>For <rs type="pers" key="851">Bargue</rs>'s <hi rend="ital">
+                            <rs type="lit" key="202">Exercises au fusain</rs>
+                        </hi>, <ref target="let156.xml#n-12">see letter 156, n. 12</ref>. In early 1881 Theo was promoted – probably as of 1 February – to the position of manager (‘gérant’) of Goupil’s branch at 19 boulevard Montmartre. See exhib. cat. Amsterdam 1999, p. 33. Theo’s father congratulated him and offered encouragement: ‘It is as though the melancholy that had taken hold of us because of our sadness about Vincent has eased greatly since we heard the good news about your promotion. I can well understand that the firm and the firm’s interests sometimes keep you awake at night’ (FR b2235, 14 February 1881).</ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>Variation of the saying ‘rendre leur épée’ (to lay down one’s arms).</ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>Theo had suggested that Vincent come to Paris (<ref target="let158.xml">see letter 158</ref>).</ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+<ab>This postscript seems to be a reaction to a remark made by Theo, who had become acquainted with <rs type="pers" key="1094">Victor Horta</rs> through a colleague at Goupil’s. The colleague was probably <rs type="pers" key="624">Thomas Schmidt</rs>, whom Vincent had visited the previous October (<ref target="let159.xml">see letter 159</ref>). Horta, who later gained renown as an architect, had gone to live in Brussels in 1880. See Victor Horta, <hi rend="ital">Mémoires</hi>. Ed. C. Dulière. Brussels 1985, pp. 7-8, 316; and <hi rend="ital">Horta. Van Art Nouveau tot Modernisme</hi>. Ed. Françoise Aubry and Jos Vandenbreeden. Ghent 1997, p. 225. Horta’s memoirs do not tell us whether Vincent actually paid him a visit.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Willemien van Gogh. Auvers, Friday, 13 June 1890. </title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let886"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">886</idno>
+<idno type="collectedletters">W23</idno>
+<idno type="brieven1990">889</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Willemien van Gogh</vg:addressee>
+                        <vg:placeLet>Auvers-sur-Oise</vg:placeLet>
+                        <vg:dateLet>Friday, 13 June 1890</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Willemien van Gogh. Auvers, Friday, 13 June 1890. </p>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b723 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>The letter was enclosed with <ref target="let885.xml">letter 885</ref> (<ref target="#l-1*">see ll. 1*-2</ref>); we have therefore dated both letters to Friday, 13 June 1890 (<ref target="let885.xml">see letter 885</ref>, <hi rend="ital">Date</hi>).</p>
+                    </note>
+<note type="additionalDetail" xml:id="additionalDetail">
+<p>This letter was enclosed with the letter to Mrs van Gogh (<ref target="let885.xml">letter 885</ref>).</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0723" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000978_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000978_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000978_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000978_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0723" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000978_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000978_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000978_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000978_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Ma chère soeur,</ab>
+                <lb n="1*" xml:id="l-1s"/>
+<ab>j’ajoute quelques mots pour <lb n="2" xml:id="l-2"/>toi à la lettre de la mère. Dimanche <lb n="3" xml:id="l-3"/>dernier j’ai eu la visite de Theo et de sa <lb n="4" xml:id="l-4"/>famille,<anchor n="1" xml:id="note-o-1"/> je trouve fort agreable d’être moins <lb n="5" xml:id="l-5"/>éloigné d’eux. De ces jours ci je travaille <lb n="6" xml:id="l-6"/>beaucoup et vite; ainsi faisant je cherche <lb n="7" xml:id="l-7"/>à exprimer le passage désespérément <lb n="8" xml:id="l-8"/>rapide des chôses dans la vie moderne.</ab>
+                <lb n="9" xml:id="l-9"/>
+<ab rend="indent">Hier dans la pluie j’ai peint un grand paysage <lb n="10" xml:id="l-10"/>où l’on aperçoit des champs à perte de vue <lb n="11" xml:id="l-11"/>vus d’une hauteur<c type="kk">/</c> des verdures différentes<c type="kk">/</c> <lb n="12" xml:id="l-12"/>un champ de pommes de terre vert sombre<c type="kk">/</c> <lb n="13" xml:id="l-13"/>entre les plants réguliers la terre grasse et violette, <lb n="14" xml:id="l-14"/>un champ de pois en fleur blanchissant à côté, <lb n="15" xml:id="l-15"/>un champ de luzerne à fleurs roses avec une <lb n="16" xml:id="l-16"/>figurine de faucheur, un champ d’herbe <lb n="17" xml:id="l-17"/>longue et mûre d’un ton fauve<c type="kk">/</c> puis <lb n="18" xml:id="l-18"/>des blés<c type="kk">/</c> des peupliers<c type="kk">/</c> une derniere ligne <lb n="19" xml:id="l-19"/>de collines bleues à l’horizon au bas desquelles <lb n="20" xml:id="l-20"/>un train passe<c type="kk">/</c> laissant derrière soi dans <lb n="21" xml:id="l-21"/>la verdure une immense traînée de blanche <lb n="22" xml:id="l-22"/>fumée. Une route blanche traverse <lb n="23" xml:id="l-23"/>la toile<c type="kp">_</c> Sur la route une petite voiture <lb n="24" xml:id="l-24"/>et des maisons blanches à toits rouge cru au bord de <lb n="25" xml:id="l-25"/>cette route. De la pluie fine raye le <lb n="26" xml:id="l-26"/>tout de lignes bleues ou grises<c type="kp">_</c>
+                    <anchor n="2" xml:id="note-o-2"/>
+                </ab>
+                <lb n="27" xml:id="l-27"/>
+<ab rend="indent">il y a un autre paysage avec de la <lb n="28" xml:id="l-28"/>vigne et des prairies au premier plan<c type="kk">/</c> <lb n="29" xml:id="l-29"/>les toits du village venant après.<anchor n="3" xml:id="note-o-3"/>
+                </ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="30" xml:id="l-30"/>
+<ab rend="indent">Et encore un avec rien qu’un champ vert <lb n="31" xml:id="l-31"/>de froment qui s’étend jusqu’à une <lb n="32" xml:id="l-32"/>villa blanche entourée d’un mur blanc <lb n="33" xml:id="l-33"/>avec un seul arbre<c type="kp">_</c>
+                    <anchor n="4" xml:id="note-o-4"/>
+                </ab>
+                <lb n="34" xml:id="l-34"/>
+<ab rend="indent">J’ai fait le portrait de M. Gachet avec <lb n="35" xml:id="l-35"/>une expression de mélancolie qui souvent <lb n="36" xml:id="l-36"/>à ceux qui regarderaient la toile pourrait <lb n="37" xml:id="l-37"/>paraître une grimace<c type="kp">_</c>
+                    <anchor n="5" xml:id="note-o-5"/> Et pourtant c’est <lb n="38" xml:id="l-38"/>ça qu’il faudrait peindre parcequ’alors on peut <lb n="39" xml:id="l-39"/>se rendre compte combien<c type="kk">/</c> en comparaison des portraits <lb n="40" xml:id="l-40"/>calmes anciens<c type="kk">/</c> il y a de l’expression dans nos <lb n="41" xml:id="l-41"/>têtes actuelles et de la passion et comme de l’attente <lb n="42" xml:id="l-42"/>et comme un cri. Triste mais doux mais <lb n="43" xml:id="l-43"/>clair et intelligent<c type="kk">/</c> ainsi faudrait il en faire <lb n="44" xml:id="l-44"/>beaucoup de portraits<c type="kk">/</c> cela ferait encore un certain <lb n="45" xml:id="l-45"/>effet à des moments sur les gens.</ab>
+                <lb n="46" xml:id="l-46"/>
+<ab rend="indent">Il y a des têtes modernes que l’on regardera <lb n="47" xml:id="l-47"/>encore longtemps<c type="kk">/</c> qu’on regrettera peutêtre <lb n="48" xml:id="l-48"/>cent ans après. Si j’avais dix ans de moins<c type="kk">/</c> <lb n="49" xml:id="l-49"/>avec ce que je sais maintenant<c type="kk">/</c> comme j’aurais <lb n="50" xml:id="l-50"/>de l’ambition pour travailler à cela. Dans les <lb n="51" xml:id="l-51"/>conditions données je ne peux pas grand <lb n="52" xml:id="l-52"/>chôse<c type="kk">/</c> je ne fréquente ni ne saurais fréquenter assez <lb n="53" xml:id="l-53"/>la sorte de gens que je voudrais influencer<c type="kp">_</c>
+                </ab>
+                <lb n="54" xml:id="l-54"/>
+<ab rend="indent">J’espère bien faire ton portrait à toi un jour<c type="kp">_</c> <lb n="55" xml:id="l-55"/>Je suis bien curieux d’avoir une nouvelle lettre <lb n="56" xml:id="l-56"/>de toi<c type="kk">/</c> à bientot j’espère, en pensée je <lb n="57" xml:id="l-57"/>t’embrasse bien.</ab>
+<vg:whiteline/>
+                <lb n="57*" xml:id="l-57s"/>
+<ab>t. à t<c type="kp">_</c>
+                </ab>
+                <lb n="58" xml:id="l-58"/>
+<ab>Vincent.</ab>
+<vg:whiteline/>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear <rs type="pers" key="407">sister</rs>,</ab>
+<ab>I’m adding a few words for you to <rs type="pers" key="524">Mother</rs>’s letter. Last Sunday I had a visit from Theo and his <rs type="pers" key="416 418">family</rs>,<anchor n="1" xml:id="note-t-1"/> I find it most agreeable to be less far away from them. Lately I’ve been working a lot and quickly; by doing so I’m trying to express the desperately swift passage of things in modern life.</ab>
+<ab rend="indent">Yesterday in the rain I painted a large landscape viewed from a height in which there are fields as far as the eye can see, different types of greenery, a dark green field of potatoes, between the regular plants the lush, violet earth, a field of peas in flower whitening to the side, a field of pink-flowered lucerne with a small figure of a reaper, a field of long, ripe grass, fawn in hue, then wheatfields, poplars, a last line of blue hills on the horizon, at the bottom of which a train is passing, leaving behind it an immense trail of white smoke in the greenery. A white road crosses the canvas. On the road a little carriage and white houses with stark red roofs beside this road. Fine rain streaks the whole with blue or grey lines.<anchor n="2" xml:id="note-t-2"/>
+                </ab>
+<ab rend="indent">There’s another landscape with vineyards and meadows in the foreground, the roofs of the village coming behind.<anchor n="3" xml:id="note-t-3"/>
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">And another one with nothing but a green field of wheat which extends up to a white villa surrounded by a white wall with a single tree.<anchor n="4" xml:id="note-t-4"/>
+                </ab>
+<ab rend="indent">I’ve done the portrait of <rs type="pers" key="389">Mr Gachet</rs> with an expression of melancholy which might often appear to be a grimace to those looking at the canvas.<anchor n="5" xml:id="note-t-5"/> And yet that’s what should be painted, because then one can realize, compared to the calm ancient portraits, how much expression there is in our present-day heads, and passion and something like waiting and a shout. Sad but gentle but clear and intelligent, that’s how many portraits should be done, that would still have a certain effect on people at times.</ab>
+<ab rend="indent">There are modern heads that one will go on looking at for a long time, that one will perhaps regret a hundred years afterwards. If I were ten years younger, with what I know now, how much ambition I would have for working on that. In the given conditions I can’t do very much, I neither frequent nor would know how to frequent sufficiently the sort of people I would like to influence.</ab>
+<ab rend="indent">I do hope to do your portrait one day. I’m very curious to have another letter from you, more soon, I hope, I kiss you affectionately in thought.</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent.</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>This visit had taken place on Sunday, 8 June. </ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>
+      <hi rend="ital">Landscape with a carriage and train</hi> (<rs type="ill" key="2918">F 760 / JH 2019</rs>).</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>
+      <hi rend="ital">Vineyards with a view of Auvers</hi> (<rs type="ill" key="2919">F 762 / JH 2020</rs>).</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>
+      <hi rend="ital">Wheatfield </hi>(<rs type="ill" key="2917">F 804 / JH 2018</rs>).</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>
+      <hi rend="ital">Doctor Gachet</hi> (<rs type="ill" key="2916">F 753 / JH 2007</rs>).</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

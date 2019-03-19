@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Nuenen, on or about Thursday, 28 May 1885. </title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let505"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">505</idno>
+<idno type="collectedletters">409</idno>
+<idno type="brieven1990">506</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Nuenen</vg:placeLet>
+                        <vg:dateLet>on or about Thursday, 28 May 1885</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:physDesc>
+                        <vg:decoration>
+                            <vg:decoList xml:id="sketches">
+                                <vg:decoItem n="A" xml:id="sketch-1">
+                                    <vg:decoDesc>
+<p>
+      <hi rend="ital">Head of a woman (Gordina de Groot)</hi> (<rs type="sketch" key="150">F - / JH 784</rs>), letter sketch</p>
+                                    </vg:decoDesc>
+                                </vg:decoItem>
+                            </vg:decoList>
+                        </vg:decoration>
+                    </vg:physDesc>
+                    <vg:letContents>
+<p>To Theo van Gogh. Nuenen, on or about Thursday, 28 May 1885. </p>
+<note type="ongoingTopic" n="1">
+<p>Portier’s opinion of <hi rend="ital">The potato eaters</hi> <ref target="let494.xml">(494)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b447 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>The letter follows <ref target="let502.xml">letter 502</ref> of about 22 May, since in that one Vincent was still asking Theo to send Zola’s <hi rend="ital">Germinal</hi>, whereas now he can say that he has already read fifty pages of the novel. It also appears that by about 2 June (<ref target="let506.xml">letter 506</ref>) he had finished it. We have therefore dated the present letter on or about Thursday, 28 May 1885.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0447" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000598_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000598_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000598_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000598_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000598_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000598_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0447" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000598_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000598_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000598_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000598_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000598_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000598_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000598_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000598_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000598_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <figure facs="zone-sketch-1" n="A"/>
+<vg:whiteline/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Waarde Theo,</ab>
+                <lb n="1*" xml:id="l-1s"/>
+<ab>Zooeven heb ik Germinal ontvangen<c type="kk">/</c> waar <lb n="2" xml:id="l-2"/>ik onmiddelijk aan begonnen ben. ik heb er een 50 <lb n="3" xml:id="l-3"/>pagina’s van gelezen – die ik prachtig vind. <lb n="4" xml:id="l-4"/>ik heb er ook eens geloopen<c type="kp">_</c>–<anchor n="1" xml:id="note-o-1"/>
+                </ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="5" xml:id="l-5"/>
+<ab rend="indent">Ziehier een croquis van een kop die ik <lb n="6" xml:id="l-6"/>zooeven mee breng<c type="kp">_</c>
+                    <anchor n="2" xml:id="note-o-2"/> Gij hebt bij de laatstgezonden <lb n="7" xml:id="l-7"/>studies dezelfde ontvangen<c type="kk">/</c> n.l. de grootste <lb n="8" xml:id="l-8"/>die er bij was. doch glad geschilderd.<anchor n="3" xml:id="note-o-3"/>
+                </ab>
+                <lb n="9" xml:id="l-9"/>
+<ab rend="indent">Ik heb nu de penseelstreek niet uitgestreken <lb n="10" xml:id="l-10"/>en de kleur is trouwens ook heel anders<c type="kp">_</c> <lb n="11" xml:id="l-11"/>Ik heb nog geen kop gemaakt die dermate <lb n="12" xml:id="l-12"/>
+                    <hi rend="ital">peint avec de la terre</hi>
+                    <anchor n="4" xml:id="note-o-4"/> is en er zullen <lb n="13" xml:id="l-13"/>er nu wel meer volgen<c type="kp">_</c>
+                </ab>
+                <lb n="14" xml:id="l-14"/>
+<ab rend="indent">Als alles goed gaat – als ik wat meer <lb n="15" xml:id="l-15"/>verdien zoo dat ik meer op reis kan <lb n="16" xml:id="l-16"/>gaan – welnu dan ga ik<c type="kk">/</c> hoop ik<c type="kk">/</c> <lb n="17" xml:id="l-17"/>ook de mijnwerkerskoppen eens schilderen. <lb n="18" xml:id="l-18"/>Ik werk echter door tot ik geheel en al <lb n="19" xml:id="l-19"/>zeker van mijn zaak ben – zóó dat ik nog <lb n="20" xml:id="l-20"/>sneller werk dan nu en in b.v. een maand <lb n="21" xml:id="l-21"/>tijds ook een 30tal studies meebreng<c type="kp">_</c>
+                </ab>
+                <lb n="22" xml:id="l-22"/>
+<ab rend="indent">Ik weet niet of we geld verdienen zullen <lb n="23" xml:id="l-23"/>maar als ’t maar genoeg is om verschrikkelijk <lb n="24" xml:id="l-24"/>veel te werken dan ben ik content<c type="kk">/</c> datgene <lb n="25" xml:id="l-25"/>te doen wat men wil is de kwestie<c type="kp">_</c>
+                </ab>
+                <lb n="26" xml:id="l-26"/>
+<ab rend="indent">Ja we moeten met der tijd de mijnwerkers <lb n="27" xml:id="l-27"/>maken!</ab>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                <lb n="28" xml:id="l-28"/>
+<ab rend="indent">Wat heeft Portier gezegd van de aardappeleters<c type="kp">_</c>
+                    <anchor n="5" xml:id="note-o-5"/> <lb n="29" xml:id="l-29"/>ik zelf weet ook er gebreken in zijn<c type="kk">/</c> toch<c type="kk">/</c> <lb n="30" xml:id="l-30"/>juist omdat ik zie dat de koppen van nu <lb n="31" xml:id="l-31"/>krachtiger worden<c type="kk">/</c> durf ik beweren dat <lb n="32" xml:id="l-32"/>in verband met volgende schilderijen de <lb n="33" xml:id="l-33"/>aardappeleters ook wel blijven zullen.</ab>
+                <lb n="34" xml:id="l-34"/>
+<ab rend="indent">Ik ben verleden jaar dikwijls wanhopend <lb n="35" xml:id="l-35"/>geweest op de kleur. doch ik werk nu veel <lb n="36" xml:id="l-36"/>geruster. Ge moet maar eens schrijven <lb n="37" xml:id="l-37"/>wat gij ’t beste vindt<c type="kk">/</c> of ik mijn werk <lb n="38" xml:id="l-38"/>van nu bewaren wil voor Antwerpen of <lb n="39" xml:id="l-39"/>dat ik het zoodra mogelijk aan u <lb n="40" xml:id="l-40"/>en Portier zend. Want mij is het onverschillig. <lb n="41" xml:id="l-41"/>ik heb nu klaar 7 koppen<anchor n="6" xml:id="note-o-6"/> en 1 aquarel<c type="kk">/</c>
+                    <anchor n="7" xml:id="note-o-7"/> <lb n="42" xml:id="l-42"/>dus ik zou weer een kleine zending kunnen <lb n="43" xml:id="l-43"/>doen. Gegroet<c type="kk">/</c> nogmaals dank voor <lb n="44" xml:id="l-44"/>Germinal<c type="kk">/</c> ik zit er terwijl ik schrijf <lb n="45" xml:id="l-45"/>nog in te lezen<c type="kp">_</c> Het is prachtig.</ab>
+<vg:whiteline/>
+                <lb n="46" xml:id="l-46"/>
+<ab>b<c type="kp">_</c> à t<c type="kp">_</c>
+                </ab>
+                <lb n="47" xml:id="l-47"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-10" n="10">is trouwens &lt; is trouwens is</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>
+                    <figure facs="zone-sketch-1" n="A"/>
+                </ab>
+<vg:whiteline/>
+<ab>My dear Theo,</ab>
+<ab>I’ve just received Germinal, which I started on immediately. I’ve read 50 pages of it — which I think splendid. I also walked there once.<anchor n="1" xml:id="note-t-1"/>
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">Here’s a croquis of a head that I just brought back.<anchor n="2" xml:id="note-t-2"/> You received the same one in the last studies I sent, the largest one among them, but painted smoothly.<anchor n="3" xml:id="note-t-3"/>
+                </ab>
+<ab rend="indent">This time I haven’t smoothed out the brushstroke, and besides the colour is very different too. I haven’t yet made a head that’s so much <hi rend="ital">painted with the soil</hi>,<anchor n="4" xml:id="note-t-4"/> and more will certainly follow now.</ab>
+<ab rend="indent">If all goes well — if I earn rather more so that I can travel more — well then I’ll also, I hope, paint the miners’ heads sometime. However, I’ll keep working until I’m absolutely and utterly sure of my case — such that I’m working even faster than now and will also be able to bring home 30 or so studies in the space of a month, say.</ab>
+<ab rend="indent">I don’t know whether we’ll earn money, but if it’s just enough to work a tremendous amount then I’m content; doing what one wants is what matters.</ab>
+<ab rend="indent">Yes, we must do the miners one day!
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/>
+                </ab>
+<ab rend="indent">What did <rs type="pers" key="601">Portier</rs> say about the potato eaters?<anchor n="5" xml:id="note-t-5"/> I know myself that there are flaws in it; all the same, precisely because I see that the heads I’m doing now are becoming more powerful, I dare assert that the potato eaters will also hold up in association with subsequent paintings.</ab>
+<ab rend="indent">Last year I was often desperate about colour, but now I’m working much more confidently. You must just write and tell me what you think best; whether I should keep the work I’m doing now for Antwerp or that I send it to you and <rs type="pers" key="601">Portier</rs> as soon as possible. Because it’s all the same to me. I have 7 heads<anchor n="6" xml:id="note-t-6"/> and 1 watercolour<anchor n="7" xml:id="note-t-7"/> ready now, so I could make another small consignment. Regards, thanks again for Germinal, I’m still reading it as I write. It’s splendid.</ab>
+<vg:whiteline/>
+<ab>Yours truly,</ab>
+<ab>Vincent</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>In <ref target="let502.xml">letter 502</ref> Vincent had asked Theo to send <rs type="pers" key="836">Zola</rs>’s novel, something that Theo had evidently previously said he would do. <hi rend="ital">
+                            <rs type="lit" key="413">Germinal</rs>
+                        </hi> is set primarily in and around the fictional North French mining village of Montsou, which supposedly lies some 10 km from Marchiennes. This district is not far from the Borinage. Van Gogh went on long walks in the area when he lived there, and probably saw this setting during his trip to Courrières (<ref target="let158.xml">letter 158</ref>), which is only about 20 km from Marchiennes. Reading this book must have encouraged Van Gogh to start painting miners’ heads (see later in the letter).</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>The letter sketch <hi rend="ital">Head of a woman (Gordina de Groot)</hi> (<rs type="sketch" key="150">F - / JH 784</rs>) was made after the painting of the same name (<rs type="ill" key="2515">F 141 / JH 783</rs>).</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>
+      <hi rend="ital">Head of a woman (Gordina de Groot)</hi> (<rs type="ill" key="2508">F 140 / JH 745</rs>). The painting, which measures 47.5 x 35.5 cm, must have been part of the consignment referred to in <ref target="let501.xml">letter 501</ref>.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+      <ab>Van Gogh borrowed the expression ‘peint avec la terre’ from <rs type="pers" key="737">Sensier</rs>, <rs type="lit" key="238">
+                            <hi rend="ital">La vie et l’oeuvre de J.F. Millet</hi>
+                        </rs>: <ref target="let495.xml#n-9">see letter 495, n. 9.</ref>
+                    </ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>
+                        <rs type="pers" key="601">Portier</rs> had meanwhile seen the work, but remarkably Theo had not yet written to tell Vincent about it. On 19 May 1885 he did, however, tell his <rs type="pers" key="524">mother</rs>: ‘So Vincent has moved, it will be strange for him and you mustn’t think that this was altogether what he wished. I’m longing for a letter from him, partly to know if he received mine. Several people saw his work, either at my place or Mr Portier’s and the painters, in particular, think it’s very promising. Some of them find a great deal of beauty in it, precisely because his characters are so true, for it is after all a certain truth that among the peasant men and women in Brabant one finds many more on whose faces the harsh lines of hard work and of poverty too are expressed than one finds pretty little faces among them. As far as sales are concerned, even well known painters are not finding it easy at the moment. So it is that much harder to sell something by an unknown who has only been working for a few years. Still, it will happen’ (FR b901).</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>It is not possible to identify exactly which heads he means here. <rs type="ill" key="2508">F 140 / JH 745</rs> referred to earlier in the letter must have been one of them, as probably was <hi rend="ital">Head</hi> <hi rend="ital">of a man </hi>(<rs type="ill" key="2495">F 163 / JH 687</rs>) and possibly <hi rend="ital">Head of a woman </hi>(<rs type="ill" key="2514">F 388r / JH 782</rs>); <ref target="let502.xml#n-5">see letter 502, n. 5.</ref>
+                    </ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>The watercolour <hi rend="ital">Sale of building scrap </hi>(<rs type="ill" key="2511">F 1230 / JH 770</rs>); <ref target="let502.xml">see letter 502</ref>.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

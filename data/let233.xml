@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. The Hague, Tuesday, 30 May 1882.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let233"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">233</idno>
+<idno type="collectedletters">203</idno>
+<idno type="brieven1990">232</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>The Hague</vg:placeLet>
+                        <vg:dateLet>Tuesday, 30 May 1882</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. The Hague, Tuesday, 30 May 1882.</p>
+<note type="ongoingTopic" n="1">
+<p>Payment of the rent to A.J. van der Drift <ref target="let231.xml">(231)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="2">
+<p>Second order for drawings from Uncle Cor <ref target="let214.xml">(214)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b225 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Date of postmark: Tuesday, 30 May 1882. Jo van Gogh-Bonger dated it 31 May in <hi rend="ital">Brieven </hi>1914 – she probably based this on the Paris postmark, which is also on the postcard (the other occasion when she adopted the date of the received stamp was with <ref target="let872.xml">letter 872</ref>).</p>
+                    </note>
+<note type="additionalDetail" xml:id="additionalDetail">
+<p>Postcard (5 cents). Postmarks: ‘’SGRAVENHAGE 9-10 V / 30 MEI 82’ and ‘PARIS 3 (60) 3 / 1E.31 MAI 82’. It is addressed to ‘Monsieur Th. van Gogh/ 5 Rue de Laval/ <hi rend="ital">Paris.</hi>’ Van Gogh probably wrote in English because the card could be read by anyone; cf. in this connection <ref target="let223.xml">letter 223</ref>.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <surface n="b 0225" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000265_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1r-1">
+                <graphic mimeType="image/tiff" url="VGM001000265_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000265_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000265_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+        </surface>
+        <surface n="b 0225 V/1962" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000265_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1v-2">
+                <graphic mimeType="image/tiff" url="VGM001000265_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000265_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000265_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+        </surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>My dear brother,</ab>
+                <lb n="2" xml:id="l-2"/>
+<ab>To day or tomorrow<c type="kk">/</c> being the 1<hi rend="ss">st</hi> of June<c type="kk">/</c> I promised to pay my landlord f<c type="kp">_</c> 5. rent of studio for <lb n="3" xml:id="l-3"/>the month of April + f<c type="kp">_</c> 7.50 for last month – makes f<c type="kp">_</c> 12.50.</ab>
+                <lb n="4" xml:id="l-4"/>
+<ab rend="indent">But not having up to now received any letter of yours since that <lb n="5" xml:id="l-5"/>of May 12<hi rend="ss">th</hi>
+                    <anchor n="1" xml:id="note-o-1"/> I have nothing to pay him his twelve guilders &amp; 50<hi rend="ss">c</hi> with<c type="kp">_</c> <lb n="6" xml:id="l-6"/>The man will surely not give me any longer delay but they <lb n="7" xml:id="l-7"/>can immediately sell my furniture publicly. Whatever may <lb n="8" xml:id="l-8"/>be your opinion concerning the things I told you – do not let <lb n="9" xml:id="l-9"/>it come to this scandal. My drawings for C.M. are ready but I shall <lb n="10" xml:id="l-10"/>not be able to get that money early enough. I say again – <lb n="11" xml:id="l-11"/>let us at all events avoid irregularity &amp; public scandal and <lb n="12" xml:id="l-12"/>talk or write calmly on the subject till we know what <lb n="13" xml:id="l-13"/>ought to be done. Therefore I hope you will sent<anchor n="a" xml:id="note-o-a"/> me what <lb n="14" xml:id="l-14"/>I so greatly want<c type="kk">/</c> &amp; write. I work day &amp; night &amp; have a <lb n="15" xml:id="l-15"/>small drawing ready for you which I will send bye &amp; bye.<anchor n="2" xml:id="note-o-2"/> <anchor n="b" xml:id="note-o-b"/> I have no more <lb n="16" xml:id="l-16"/>money for a stamp, excuse the postcard, &amp; believe me </ab>
+<vg:whiteline/>
+                <lb n="16*" xml:id="l-16s"/>
+<ab>Yours truly</ab>
+                <lb n="17" xml:id="l-17"/>
+<ab>Vincent</ab>
+    <vg:whiteline/>
+                <pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear brother,</ab>
+<ab>Today or tomorrow, being the 1st of June, I promised to pay my <rs type="pers" key="812">landlord</rs> 5 guilders rent of studio for the month of April + 7.50 guilders for last month — makes 12.50 guilders.</ab>
+    <ab rend="indent">But not having up to now received any letter of yours since that of May 12th<anchor n="1" xml:id="note-t-1"/> I have nothing to pay him his twelve guilders and 50 c with. The man will surely not give me any longer delay but they can immediately sell my furniture publicly. Whatever may be your opinion concerning the things I told you — do not let it come to this scandal. My drawings for <rs type="pers" key="422">C.M.</rs> are ready but I shan’t be able to get that money early enough. I say again — let us at all events avoid irregularity and public scandal and talk or write calmly on the subject till we know what ought to be done. So I hope you’ll send me what I so greatly want, and write. I work day and night and have a small drawing ready for you which I’ll send bye and bye.<anchor n="2" xml:id="note-t-2"/> <anchor n="b" xml:id="note-t-b"/> I have no more money for a stamp, excuse the postcard, and believe me</ab>
+<vg:whiteline/>
+<ab>Yours truly,</ab>
+    <ab>Vincent</ab>
+                <pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>But earlier, immediately after receiving it, Van Gogh referred to a letter of <hi rend="ital">13</hi> May (<ref target="let227.xml">letter 227</ref>).</ab>
+                </note>
+<note n="a" xml:id="n-a" target="#note-o-a">
+    <ab>Read: ‘send’.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>Whether by ‘small drawing’ here Van Gogh was referring to the dimensions is uncertain. A small drawing of a fish-drying barn is not known, but a few days later he sent Theo <hi rend="ital">Fish-drying Barn</hi> (<rs type="ill" key="2377">F 940 / JH 154</rs>), which measures 28.5 x 45 cm; <ref target="let235.xml">see letter 235</ref> and <ref target="let237.xml">237</ref>. In the latter he also talks about ‘little drawings’ in connection with this drawing. </ab>
+                </note>
+<note n="b" xml:id="n-b" target="#note-o-b">
+<ab>Read: ‘by and by’.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

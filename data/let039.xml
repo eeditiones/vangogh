@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Paris, Saturday, 24 July 1875.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let039"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">039</idno>
+<idno type="collectedletters">32</idno>
+<idno type="brieven1990">039</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Paris</vg:placeLet>
+                        <vg:dateLet>Saturday, 24 July 1875</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:physDesc>
+                        <vg:decoration>
+                            <vg:decoList xml:id="sketches">
+                                <vg:decoItem n="A" xml:id="sketch-1">
+                                    <vg:decoDesc>
+<p>
+      <hi rend="ital">Westminster Bridge</hi> (<rs type="sketch" key="5">F Juv. XXIII / JH Juv. 4</rs>), letter sketch</p>
+                                    </vg:decoDesc>
+                                </vg:decoItem>
+                            </vg:decoList>
+                        </vg:decoration>
+                    </vg:physDesc>
+                    <vg:letContents>
+<p>To Theo van Gogh. Paris, Saturday, 24 July 1875.</p>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b41 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Letter headed: ‘<hi rend="ital">[</hi>Paris, le<hi rend="ital">]</hi> 24 Juli <hi rend="ital">[</hi>187<hi rend="ital">]</hi>5’.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0041" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000043_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000043_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000043_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000043_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000043_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000043_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-2">
+<graphic mimeType="image/tiff" url="VGM001000043_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000043_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000043_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+        <surface n="b 0041 V/1962" xml:id="surf-extra-1v">
+            <graphic mimeType="image/tiff" url="VGM001000043_02.TIF" rend="norend"/>
+            <zone xml:id="zone-extra-1">
+<graphic mimeType="image/tiff" url="VGM001000043_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000043_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000043_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <figure facs="zone-sketch-1" n="A"/>
+<vg:whiteline/>
+                <lb n="1" xml:id="l-1"/>
+<ab>
+                    <vg:suppliedMilestone type="open"/>Goupil &amp; C<hi rend="ss">ie</hi>
+                </ab>
+                <lb n="2" xml:id="l-2"/>
+<ab>Editeurs Imprimeurs</ab>
+                <lb n="3" xml:id="l-3"/>
+<ab>Estampes Françaises &amp; Étrangères</ab>
+                <lb n="4" xml:id="l-4"/>
+<ab>Tableaux Modernes</ab>
+                <lb n="5" xml:id="l-5"/>
+<ab>Rue Chaptal, 9, PARIS.</ab>
+                <lb n="6" xml:id="l-6"/>
+<ab>Succursales à la Haye, Londres, Berlin, New-York.</ab>
+<vg:whiteline/>
+                <lb n="7" xml:id="l-7"/>
+<ab>Paris, le<vg:suppliedMilestone type="close"/> 24 Juli <supplied>187</supplied>5</ab>
+<vg:whiteline/>
+                <lb n="8" xml:id="l-8"/>
+<ab>Waarde Theo,</ab>
+                <lb n="9" xml:id="l-9"/>
+<ab>Een paar dagen geleden kregen wij een Sch<hi rend="ss">ij</hi> <lb n="10" xml:id="l-10"/>van de Nittis, een gezicht in London op een <lb n="11" xml:id="l-11"/>regendag, Westminster Bridge &amp; the House of <lb n="12" xml:id="l-12"/>Parliament.<anchor n="1" xml:id="note-o-1"/> Ik ging elken morgen &amp; avond <lb n="13" xml:id="l-13"/>over Westminsterbridge &amp; weet hoe dat er uit <lb n="14" xml:id="l-14"/>ziet als de zon achter Westminster Abbey &amp; <lb n="15" xml:id="l-15"/>the House of Parliament ondergaat &amp; hoe het <lb n="16" xml:id="l-16"/>s’morgens vroeg is &amp; s’winters met sneeuw &amp; met <lb n="17" xml:id="l-17"/>mist.─</ab>
+                <lb n="18" xml:id="l-18"/>
+<ab rend="indent">Toen ik dit Sch<hi rend="ss">ij</hi> zag voelde ik hoe ik van <lb n="19" xml:id="l-19"/>Londen houd.</ab>
+                <lb n="20" xml:id="l-20"/>
+<ab rend="indent">Toch geloof ik het goed voor mij is ik er van <lb n="21" xml:id="l-21"/>daan ben.─ Dit in antwoord op Uw vraag.─ <lb n="22" xml:id="l-22"/>Dat gij naar Londen gaat geloof ik zeker <lb n="23" xml:id="l-23"/>niet.─</ab>
+<pb f="1r" n="2" xml:id="pb-orig-1r-2" facs="#zone-pb-1r-2"/>
+                <lb n="24" xml:id="l-24"/>
+<ab rend="indent">Dank voor “Aus der Jugendzeit” &amp; “Um Mitter<c type="shy">-</c>
+                    <lb n="25" xml:id="l-25"/>nacht” van Rückert.<anchor n="2" xml:id="note-o-2"/> ’t Is roerend schoon; ’t laatst<c type="shy">-</c>
+                    <lb n="26" xml:id="l-26"/>genoemde deed mij denken aan “La nuit <lb n="27" xml:id="l-27"/>de Décembre” van Musset.<anchor n="3" xml:id="note-o-3"/> Ik wilde ik U <lb n="28" xml:id="l-28"/>dat kon zenden, doch heb het niet.─</ab>
+                <lb n="29" xml:id="l-29"/>
+<ab rend="indent">Gisteren hebben wij eene kist naar den Haag <lb n="30" xml:id="l-30"/>gezonden, waarin voor U, wat ik U beloofde.<anchor n="4" xml:id="note-o-4"/>
+                </ab>
+                <lb n="31" xml:id="l-31"/>
+<ab rend="indent">Ik hoor Anna en Lies t’huis zijn, ik zou hen <lb n="32" xml:id="l-32"/>wel eens willen zien. Heb het zoo goed <lb n="33" xml:id="l-33"/>mogelijk &amp; schrijf weer spoedig. En te <lb n="34" xml:id="l-34"/>serrant la main<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="35" xml:id="l-35"/>
+<ab>Uw liefh. broeder</ab>
+                <lb n="36" xml:id="l-36"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-1" targetEnd="l-7" n="1-7">
+                        <hi rend="ital">Printed letterhead.</hi>
+                    </note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>
+                    <figure facs="zone-sketch-1" n="A"/>
+                </ab>
+<vg:whiteline/>
+<ab>[Letterhead: Goupil Paris]</ab>
+<vg:whiteline/>
+<ab>Paris, 24 July 1875</ab>
+<vg:whiteline/>
+<ab>My dear Theo,</ab>
+<ab>A couple of days ago we got a painting by <rs type="pers" key="1246">De Nittis</rs>, a view of London on a rainy day, Westminster Bridge and the Houses of Parliament.<anchor n="1" xml:id="note-t-1"/> I crossed Westminster Bridge every morning and evening and know what it looks like when the sun’s setting behind Westminster Abbey and the Houses of Parliament, and what it’s like early in the morning, and in the winter with snow and fog.</ab>
+<ab rend="indent">When I saw this painting I felt how much I love London.</ab>
+<ab rend="indent">Yet I believe it’s good for me to be away from it. This in answer to your question. I certainly don’t think that you’ll be going to London. 
+<pb f="1r" n="2" xml:id="pb-trans-1r-2" facs="#zone-pb-1r-2"/>
+                </ab>
+<ab rend="indent">Thanks for ‘Aus der Jugendzeit’ and ‘Um Mitternacht’ by <rs type="pers" key="734">Rückert</rs>.<anchor n="2" xml:id="note-t-2"/> It’s poignantly beautiful; the latter made me think of ‘La nuit de Décembre’ by <rs type="pers" key="715">Musset</rs>.<anchor n="3" xml:id="note-t-3"/> I wish I could send it to you, but don’t have it.</ab>
+<ab rend="indent">Yesterday we sent a crate to The Hague, what I had promised you was in it.<anchor n="4" xml:id="note-t-4"/>
+                </ab>
+<ab rend="indent">I hear that <rs type="pers" key="412">Anna</rs> and <rs type="pers" key="401">Lies</rs> are at home; I’d like to see them again. I wish you the very best, and write again soon. With a handshake</ab>
+<vg:whiteline/>
+<ab>Your loving brother</ab>
+<ab>Vincent</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>
+                        <rs type="pers" key="1246">Giuseppe de Nittis</rs> sold his work through Goupil. On the basis of the sketch in the upper left-hand corner of the letter, J.G. van Gelder concluded that the work Van Gogh is referring to here is <hi rend="ital">Victoria Embankment in London</hi>, 1875 (sold at auction at Sotheby’s New York, October 1989). <rs type="ill" key="1729">Ill. 1729</rs>. See Van Gelder 1974.</ab>
+      <ab rend="indent">There is however a striking difference in viewpoint between the painting and Van Gogh’s sketch, which in this respect more closely resembles four similar works by De Nittis: <rs type="otherart" key="943">
+                            <hi rend="ital">Victoria Embankment in London</hi>
+                        </rs>, <rs type="otherart" key="52"> <hi rend="ital">Westminster Bridge (I)</hi>
+                        </rs>,<rs type="otherart" key="53">
+                            <hi rend="ital"> Westminster Bridge (II)</hi>
+                        </rs> and <rs type="otherart" key="54">
+                            <hi rend="ital">Westminster Bridge (III)</hi>
+                        </rs>. See Dini and Marini 1990, p. 397, cat. no. 542 (<hi rend="ital">Victoria Embankment in London</hi>) and p. 405, cat. nos. 712-714 (<hi rend="ital">Westminster Bridge I-III</hi>). Dini and Marini did not date the paintings; the date of completion is known only of <hi rend="ital">Westminster Bridge (I)</hi> (1863). Moreover, <hi rend="ital">Victoria Embankment in London</hi> clearly shows a sunny day, whereas Van Gogh speaks of a ‘rainy day’ <ref target="#l-11">(l. 11)</ref>. Cf. also Caroline Igra, ‘Spatial engineer and social recorder: Giuseppe de Nittis and the development of nineteenth-century cityscape imagery’, Van Gogh Museum Journal 1998. Amsterdam 1999, pp. 94-103; esp. pp. 96-97.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>
+                        <rs type="pers" key="734">Rückert</rs>’s ‘<rs type="lit" key="36">Aus der Jugendzeit</rs>’ (From childhood) expresses a yearning for lost youth; ‘<rs type="lit" key="37">Mitternacht</rs>’ (Midnight) is an expression of <hi rend="ital">Weltschmerz</hi>, deliverance from which is sought in God. For these poems, see Rückert 1868-1869, vol. 5, pp. 29-30 and vol. 2, pp. 465-466.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>
+                        <rs type="pers" key="715">Alfred de Musset</rs>’s long poem, ‘<rs type="lit" key="38">La nuit de décembre</rs>’ (A night in December) is about a man who continually sees a sorrowful ghost who resembles him like a brother. At the end the ghost reveals his identity: he is Loneliness and will be the man’s companion for ever. See Musset 1957, pp. 310-315, 737-742. On p. [1r:4] of <ref target="let031.xml">letter 31</ref>, the eighteenth stanza of ‘<rs type="lit" key="38">La nuit de Décembre</rs>’ was written by another hand. See also <ref target="let726.xml#n-16">letter 726, n. 16.</ref>
+                    </ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>A French bible and <rs type="lit" key="35">
+                            <hi rend="ital">L’imitation de Jésus-Christ</hi>
+                        </rs>; <ref target="let038.xml#l-45">see letter 38, ll. 45-46</ref>.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

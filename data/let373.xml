@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. The Hague, Tuesday, 14 August 1883.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let373"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">373</idno>
+<idno type="collectedletters">311</idno>
+<idno type="brieven1990">376</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>The Hague</vg:placeLet>
+                        <vg:dateLet>Tuesday, 14 August 1883</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. The Hague, Tuesday, 14 August 1883.</p>
+<note type="ongoingTopic" n="1">
+<p>Planned visit from Theo <ref target="let361.xml">(361)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b334 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Date of postmark: Tuesday, 14 August 1883.</p>
+                    </note>
+<note type="additionalDetail" xml:id="additionalDetail">
+<p>The text is written on a postcard (2½ cents). Postmark: ‘’S GRAVENHAGE / 3-4 N/ 14 AUG 83’ and ‘NUENEN 8-12N 14 AUG 83’. It is addressed to: ‘Monsieur Th. van Gogh/ Nunen/ <hi rend="ital">bij Eindhoven</hi>.’</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <surface n="b 0334" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000425_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1r-1">
+                <graphic mimeType="image/tiff" url="VGM001000425_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000425_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000425_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+        </surface>
+        <surface n="b 0334 V/1962" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000425_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1v-2">
+                <graphic mimeType="image/tiff" url="VGM001000425_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000425_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000425_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+        </surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Waarde Theo,</ab>
+                <lb n="1*" xml:id="l-1s"/>
+<ab>Zooeven ontving ik een brief van thuis <lb n="2" xml:id="l-2"/>(bedank er Pa svp. voor<c type="kk">/</c> ik had den brief nog niet toen ik schreef)<anchor n="1" xml:id="note-o-1"/> <lb n="3" xml:id="l-3"/>en ik verneem Uw plan is uit Breda te gaan 2.15 Vrijdag<c type="kp">_</c> <lb n="4" xml:id="l-4"/>Mogt er nog verandering komen in uw reisplan <lb n="5" xml:id="l-5"/>zoo meld het me<c type="kk">/</c> dan kom ik U afhalen aan den <lb n="6" xml:id="l-6"/>trein. Want als ge gehaast zijt zoo moeten we zorgen <lb n="7" xml:id="l-7"/>we geen tijd, die we zamen zijn kunnen, laten <lb n="8" xml:id="l-8"/>ontsnappen. ’k heb onder handen een geschilderde <lb n="9" xml:id="l-9"/>schets voor aardappelrooijers<c type="kk">/</c>
+                    <anchor n="2" xml:id="note-o-2"/> ik hoop het iets wordt<c type="kp">_</c> <lb n="10" xml:id="l-10"/>Ik verlang erg naar U<c type="kk">/</c> heb prettige dagen<c type="kk">/</c> <lb n="11" xml:id="l-11"/>met een handdruk<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="11*" xml:id="l-11s"/>
+<ab>t. à t<c type="kp">_</c>
+                </ab>
+                <lb n="12" xml:id="l-12"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+                <lb n="13" xml:id="l-13"/>
+<ab>Let eens op het veld in Brabant<c type="kk">/</c> wat ze er <lb n="14" xml:id="l-14"/>uitvoeren<c type="kp">_</c>– En zie ge eens een weversinterieur <lb n="15" xml:id="l-15"/>in ’t dorp bekijkt<c type="kk">/</c> of dat geen mooie gevallen zijn<c type="kp">_</c>
+                </ab>
+    <vg:whiteline/>
+                <pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo,</ab>
+<ab>I’ve just received a letter from home (please thank <rs type="pers" key="526">Pa</rs> for it, I hadn’t had the letter when I wrote),<anchor n="1" xml:id="note-t-1"/> and I gather you plan to leave Breda at 2.15 on Friday. If there’s any change in your travel plans, let me know, and I’ll meet your train. Because if you’re in a hurry we must make sure not to let slip any time when we can be together. I’m working on a painted sketch for potato grubbers.<anchor n="2" xml:id="note-t-2"/> I hope it comes off. I’m longing to see you, have a pleasant time, with a handshake.</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent</ab>
+<vg:whiteline/>
+    <ab>Look closely at the fields in Brabant, what they’re doing there. And try to take a look at the interior of a weaver’s cottage in the village to see whether they aren’t beautiful things.</ab>
+                <pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>Van Gogh means when he wrote <ref target="let372.xml">letter 372</ref>.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>This ‘sketch’ is probably <hi rend="ital">Potato grubbers</hi> (<rs type="ill" key="2444">F 9 / JH 385</rs>).</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

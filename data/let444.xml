@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Nuenen, early April 1884.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let444"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">444</idno>
+<idno type="collectedletters">366</idno>
+<idno type="brieven1990">447</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Nuenen</vg:placeLet>
+                        <vg:dateLet>early April 1884</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:physDesc>
+                        <vg:decoration>
+                            <vg:decoList xml:id="sketches">
+                                <vg:decoItem n="A" xml:id="sketch-1">
+                                    <vg:decoDesc>
+<p>
+      <hi rend="ital">Parsonage garden with trees in blossom</hi> (<rs type="sketch" key="134">F - / JH 476</rs>), letter sketch</p>
+                                    </vg:decoDesc>
+                                </vg:decoItem>
+                            </vg:decoList>
+                        </vg:decoration>
+                    </vg:physDesc>
+                    <vg:letContents>
+<p>To Theo van Gogh. Nuenen, early April 1884.</p>
+<note type="ongoingTopic" n="1">
+<p>Invitation to Van Rappard to come to Nuenen <ref target="let441.xml">(441)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b400 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>This letter must have been written in April 1884, since Van Rappard had replied to the invitation to come to Nuenen – <ref target="let443.xml">see letter 443</ref>, which dates from about 28 March – that he would come in May <ref target="#l-23">(ll. 23-26)</ref>. Assuming that he would not have delayed replying to the invitation too long, the letter will most likely have been written towards the beginning of April 1884.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0400" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000528_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000528_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000528_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000528_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000528_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000528_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-3">
+<graphic mimeType="image/tiff" url="VGM001000528_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000528_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000528_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0400" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000528_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000528_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000528_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000528_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000528_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000528_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Waarde Theo,</ab>
+                <lb n="1*" xml:id="l-1s"/>
+<ab>Hierbij stuur ik U croquis van <lb n="2" xml:id="l-2"/>een schilderij dat ik met meer anderen onder handen <lb n="3" xml:id="l-3"/>heb – dit is een effekt van bloeiende boomen <lb n="4" xml:id="l-4"/>in den achtermiddag<c type="kp">_</c>–<anchor n="1" xml:id="note-o-1"/> Bij de teekeningen <lb n="5" xml:id="l-5"/>die ge krijgen zult zoodra Rappard hier komt<c type="kk">/</c> zijn <lb n="6" xml:id="l-6"/>er 3 die van ’t zelfde geval genomen zijn<c type="kp">_</c>
+                    <anchor n="2" xml:id="note-o-2"/> <lb n="7" xml:id="l-7"/>Wat mij trof in de natuur was het verbazend <lb n="8" xml:id="l-8"/>echt en half ouderwets half rustiek karakter van dien tuin. En dat ik van <lb n="9" xml:id="l-9"/>’t zelfde hoekje<c type="kk">/</c> behalve dat ik er verscheiden <lb n="10" xml:id="l-10"/>studies van maakte die ik vernietigde<c type="kk">/</c> tot 3 keer <lb n="11" xml:id="l-11"/>toe een penteekening maakte<c type="kk">/</c> was juist <lb n="12" xml:id="l-12"/>omdat ik wilde geven dat karakter in eenige <lb n="13" xml:id="l-13"/>intieme details die niet makkelijk of van zelf of <lb n="14" xml:id="l-14"/>toevallig uit te drukken zijn<c type="kp">_</c>–</ab>
+                <lb n="15" xml:id="l-15"/>
+<ab rend="indent">Als ik voor mij eenig zelfvertrouwen heb <lb n="16" xml:id="l-16"/>in mijn werk is het ook daarom omdat het <lb n="17" xml:id="l-17"/>me te veel moeite kost dan dat ik zoo <lb n="18" xml:id="l-18"/>maar geloof men daar niets door winnen <lb n="19" xml:id="l-19"/>zou of het te vergeefs doen<c type="kp">_</c>– En nog eens<c type="kk">/</c> <lb n="20" xml:id="l-20"/>voor de algemeenheden waarin de meeste <lb n="21" xml:id="l-21"/>kunstkenners wel schijnen te vervallen meer <lb n="22" xml:id="l-22"/>en meer<c type="kk">/</c> ik haal er mijn schouders voor op.</ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="23" xml:id="l-23"/>
+<ab rend="indent">Rappard had een paar schilderijen die hij <lb n="24" xml:id="l-24"/>kans zag af te maken met model dat hij krijgen <lb n="25" xml:id="l-25"/>kon en schreef me nu dat in plaats van <lb n="26" xml:id="l-26"/>direkt<c type="kk">/</c> hij in Mei komt en misschien dan <lb n="27" xml:id="l-27"/>vragen zou dit bezoek wat langer te doen <lb n="28" xml:id="l-28"/>duren als het hier schikte, omdat ’t zijn plan is hier <lb n="28a" xml:id="l-28a"/>nog iets te maken<c type="kp">_</c>
+                </ab>
+                <lb n="29" xml:id="l-29"/>
+<ab rend="indent">Ik wou wel zijn komst zamenviel met de <lb n="30" xml:id="l-30"/>uwe.</ab>
+                <lb n="31" xml:id="l-31"/>
+<ab rend="indent">Ge moet vooral niet denken dat ik voor mij groote <lb n="32" xml:id="l-32"/>verwachtingen heb betreffende de appreciatie van mijn <lb n="33" xml:id="l-33"/>werk – ik geloof men tevreden moet <lb n="34" xml:id="l-34"/>zijn als men ’t zoover krijgt men eenige weinigen overtuigen <lb n="35" xml:id="l-35"/>kan van de degelijkheid van waar men naar streeft en <lb n="36" xml:id="l-36"/>door hen begrepen wordt zonder opschroeverij<c type="kp">_</c>–<anchor n="a" xml:id="note-o-a"/> <lb n="37" xml:id="l-37"/>En de rest is iets van<c type="kk">/</c> als ’t er bij komt<c type="kk">/</c> tant mieux<c type="kk">/</c> <lb n="38" xml:id="l-38"/>doch iets waar men zoo min mogelijk zelfs over <lb n="39" xml:id="l-39"/>denken moet<c type="kp">_</c>– Maar toch geloof ik het werk <lb n="40" xml:id="l-40"/>moet gezien worden en wel juist omdat uit den stroom <lb n="41" xml:id="l-41"/>van de voorbijgangers de enkele vrienden bezinken kunnen<c type="kp">_</c> <lb n="42" xml:id="l-42"/>Wat het meerendeel zegt of doet hoeft men zich niet <lb n="43" xml:id="l-43"/>naar te rigten echter. (Weet ge dat Tante Bertha<anchor n="3" xml:id="note-o-3"/> van kanker <lb n="44" xml:id="l-44"/>aan de borst is geopereerd)?</ab>
+                <lb n="45" xml:id="l-45"/>
+<ab rend="indent">Gegroet<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="46" xml:id="l-46"/>
+<ab>b. à t.</ab>
+                <lb n="47" xml:id="l-47"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<pb f="1r" n="3" xml:id="pb-orig-1r-3" facs="#zone-pb-1r-3"/>
+                <figure facs="zone-sketch-1" n="A"/>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-8" n="8">en &lt; <hi rend="ital">Reading uncertain.</hi>
+                    </note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo,</ab>
+<ab>I send you herewith a croquis of a painting I’m working on with some others — this is an effect of trees in blossom in the late afternoon.<anchor n="1" xml:id="note-t-1"/> There are 3 made of the same subject among the drawings that you’ll get as soon as <rs type="pers" key="1306">Rappard</rs> gets here.<anchor n="2" xml:id="note-t-2"/> What struck me in the scene was the astonishingly authentic and half old-fashioned, half rustic character of this garden. And the reason that I made no fewer than 3 pen drawings of the same little corner, as well as making several studies of it which I destroyed, was precisely because I wanted to convey this character in some intimate details that aren’t expressed easily or as a matter of course or by chance.</ab>
+<ab rend="indent">If, for my part, I have any self-confidence in my work, it’s also because it costs me too much effort for me to believe that one can’t gain anything by it or does it in vain. And yet again, I shrug my shoulders at the commonplaces into which most connoisseurs increasingly seem to be lapsing. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">
+                    <rs type="pers" key="1306">Rappard</rs> had a couple of paintings that he saw a chance of finishing with a model that he could get, and has now written to me that he’s coming in May instead of right away, and might perhaps ask then if this visit could last a little longer if it were convenient here, because his plan is to make something else here.</ab>
+<ab rend="indent">I wish his arrival might coincide with yours.</ab>
+<ab rend="indent">You mustn’t, whatever you do, think that I have great expectations regarding the appreciation of my work — I believe one must be satisfied if one gets to the point where one can persuade a few people of the soundness of what one is striving for and is understood by them, without exaggerated praise. And the rest is a matter of, if something comes of it so much the better, but something that one should even think about as little as possible. But still I believe the work has to be seen, precisely because the few friends can settle out from the stream of passers-by. One doesn’t have to be guided by what the majority say or do, though. (Do you know that <rs type="pers" key="502">Aunt Bertha</rs> has been operated on for breast cancer?)<anchor n="3" xml:id="note-t-3"/>
+                </ab>
+<ab rend="indent">Regards.</ab>
+<vg:whiteline/>
+<ab>Yours truly,</ab>
+      <ab>Vincent</ab> <vg:whiteline/>
+<pb f="1r" n="3" xml:id="pb-trans-1r-3" facs="#zone-pb-1r-3"/>
+
+<ab>
+                    <figure facs="zone-sketch-1" n="A"/>
+                </ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>The painting after which the letter sketch <hi rend="ital">Parsonage garden with trees in blossom</hi> (<rs type="otherart" key="553">F - / JH 476</rs>) was made is not known.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>See for the twelve drawings by Van Gogh that <rs type="pers" key="1306">Van Rappard</rs> had at this time: <ref target="let441.xml">letter 441</ref>.</ab>
+                </note>
+<note n="a" xml:id="n-a" target="#note-o-a">
+<ab>Means: ‘overdreven loftuitingen’ (overblown praise).</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>
+                        <rs type="pers" key="502">Elisabeth Hubertha Pompe-Van Gogh</rs>, Mr van Gogh’s sister.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

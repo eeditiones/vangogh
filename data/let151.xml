@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Petit-Wasmes, between Tuesday, 1 and Wednesday, 16 April 1879.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let151"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">151</idno>
+<idno type="collectedletters">129</idno>
+<idno type="brieven1990">150</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Wasmes</vg:placeLet>
+                        <vg:dateLet>between Tuesday, 1 and Wednesday, 16 April 1879</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:physDesc>
+                        <vg:decoration>
+                            <vg:decoList xml:id="sketches">
+                                <vg:decoItem n="A" xml:id="sketch-1">
+                                    <vg:decoDesc>
+<p>
+      <hi rend="ital">
+                                                <rs type="sketch" key="11">Cells where the miners work</rs>
+                                            </hi> (F - / JH -). Text: ‘tailles à droit’ (worked standing up), letter sketch</p>
+                                    </vg:decoDesc>
+                                </vg:decoItem>
+                                <vg:decoItem n="B" xml:id="sketch-2">
+                                    <vg:decoDesc>
+<p>
+      <hi rend="ital">
+                                                <rs type="sketch" key="12">Cells where the miners work</rs>
+                                            </hi> (F - / JH -). Text: ‘tailles à plat’ (worked lying down), letter sketch</p>
+                                    </vg:decoDesc>
+                                </vg:decoItem>
+                            </vg:decoList>
+                        </vg:decoration>
+                    </vg:physDesc>
+                    <vg:letContents>
+<p>To Theo van Gogh. Wasmes, between Tuesday, 1 and Wednesday, 16 April 1879.</p>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b149 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Letter headed: ‘Wasmes April 1879’. On 17 April a mining accident occurred which Van Gogh reported to his parents (cf. <ref target="#n-3">n. 3</ref>). One may assume, because he makes no mention of it here, that this letter was written before that date. We have therefore dated this letter to some time between Tuesday, 1 and Wednesday, 16 April 1879.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0149" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000157_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000157_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000157_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000157_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000157_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000157_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0149" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000157_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000157_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000157_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000157_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000157_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000157_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000157_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000157_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000157_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Wasmes April 1879</ab>
+<vg:whiteline/>
+                <lb n="2" xml:id="l-2"/>
+<ab>Waarde Theo,</ab>
+                <lb n="3" xml:id="l-3"/>
+<ab>Het is tijd dat Gij weer eens iets van mij hoort, van t’huis hoorde ik dat Gij <lb n="4" xml:id="l-4"/>een paar dagen te Etten zijt geweest en dat Gij op reis waart voor <lb n="5" xml:id="l-5"/>de zaak.<anchor n="1" xml:id="note-o-1"/> Van harte hoop ik dat Gij het goed hebt gehad op reis<c type="kp">_</c>
+                </ab>
+                <lb n="6" xml:id="l-6"/>
+<ab rend="indent">Gij zult dezer dagen wel eens nu en dan in de duinen en te Scheveningen <lb n="7" xml:id="l-7"/>zijn. Hier is het ook aantrekkelijk buiten met de lente en er zijn <lb n="8" xml:id="l-8"/>hier &amp; daar plekken waar men zou kunnen meenen in de <lb n="9" xml:id="l-9"/>duinen te zijn van wege de heuvels.</ab>
+                <lb n="10" xml:id="l-10"/>
+<ab rend="indent">Niet lang geleden heb ik een zeer interressanten togt gemaakt<c type="kk">/</c> ben <lb n="11" xml:id="l-11"/>toen namelijk 6 uur lang in een mijn geweest.</ab>
+                <lb n="12" xml:id="l-12"/>
+<ab rend="indent">En wel in een van de oudste en gevaarlijkste mijnen van den <lb n="13" xml:id="l-13"/>omtrek<c type="kk">/</c> Marcasse genaamd.<anchor n="2" xml:id="note-o-2"/> Die mijn staat in slechten naam <lb n="14" xml:id="l-14"/>van wege dat er velen in omkomen hetzij bij het afdalen of <lb n="15" xml:id="l-15"/>naar boven gaan of door stiklucht of gasontploffing of door <lb n="16" xml:id="l-16"/>het water in den grond of door het instorten van verouderde <lb n="17" xml:id="l-17"/>gangen enz.<anchor n="3" xml:id="note-o-3"/> Het is een sombere plek en bij t’eerste gezigt <lb n="18" xml:id="l-18"/>heeft alles in den omtrek iets akeligs en doodsch. De arbeiders aldaar zijn meestendeels lieden <lb n="19" xml:id="l-19"/>vermagerd en verbleekt door de koorts en zien er vermoeid en uitgemergeld <lb n="20" xml:id="l-20"/>uit<c type="kk">/</c> verweerd en vroegtijdig verouderd, de vrouwen vaal en verlept evenzeer <lb n="21" xml:id="l-21"/>over ’t algemeen. Rondom de mijn armoedige mijnwerkerswoningen <lb n="22" xml:id="l-22"/>met een paar doode boomen<c type="kk">/</c> geheel zwart berookt<c type="kk">/</c> en dorenheggen<c type="kk">/</c> <lb n="23" xml:id="l-23"/>mestvaalten en aschhoopen<c type="kk">/</c> bergen onbruikbare steenkool &amp;c<c type="kp">_</c> <lb n="24" xml:id="l-24"/>Maris<anchor n="4" xml:id="note-o-4"/> zou er een prachtig schilderij van maken<c type="kp">_</c>
+                </ab>
+                <lb n="25" xml:id="l-25"/>
+<ab rend="indent">Straks zal ik beproeven er een schetsje van te maken om er u een gedacht van te geven.<anchor n="5" xml:id="note-o-5"/>
+                </ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="26" xml:id="l-26"/>
+<ab rend="indent">Had een goeden gids<c type="kk">/</c> een man die reeds 33 jaar aldaar werkzaam is <lb n="27" xml:id="l-27"/>geweest<c type="kk">/</c> een vriendelijk en geduldig man die alles goed uitlegde <lb n="28" xml:id="l-28"/>en trachtte begrijpelijk te maken<c type="kp">_</c>
+                </ab>
+                <lb n="29" xml:id="l-29"/>
+<ab rend="indent">Zoo gingen wij zamen naar beneden<c type="kk">/</c> 700 meters diep ditmaal <lb n="30" xml:id="l-30"/>en gingen tot in de meest verborgen hoeken in die onderwereld<c type="kp">_</c>
+                </ab>
+                <lb n="31" xml:id="l-31"/>
+    <ab rend="indent">De maintenages of gredins<anchor n="a" xml:id="note-o-a"/> (cellen waar de arbeiders werken) <lb n="32" xml:id="l-32"/>die het verst van den uitgang verwijderd zijn noemt men <lb n="33" xml:id="l-33"/>“des caches” (verborgen plaatsen<c type="kk">/</c> plaatsen waar men zoekt)<c type="kp">_</c> Deze mijn heeft 5 verdiepingen<c type="kk">/</c> <lb n="34" xml:id="l-34"/>3 daarvan<c type="kk">/</c> de bovenste<c type="kk">/</c> zijn uitgeput en verlaten<c type="kk">/</c> men werkt er niet meer in van wege <lb n="35" xml:id="l-35"/>er geen steenkool meer is. Indien iemand het zou beproeven <lb n="36" xml:id="l-36"/>om een schilderij te maken van de maintenages<c type="kk">/</c> dat zou iets nieuws <lb n="37" xml:id="l-37"/>zijn en iets ongehoords of liever ongeziens. Verbeeld U eene reeks van <lb n="38" xml:id="l-38"/>cellen in een vrij naauwen en lagen gang<c type="kk">/</c> gestut door ruw houtwerk. In ieder van die cellen is <lb n="39" xml:id="l-39"/>een arbeider in een grof linnen pak<c type="kk">/</c> groezelig en bezoedeld als een schoorsteenveger<c type="kk">/</c> <lb n="40" xml:id="l-40"/>bij het flaauwe licht van eene kleine lamp bezig om de steenkool los te hakken<c type="kp">_</c> <lb n="41" xml:id="l-41"/>In sommige van die cellen staat de arbeider regtop<c type="kk">/</c> in anderen <lb n="42" xml:id="l-42"/>(veine tailles à plat) ligt hij plat op den grond<c type="kp">_</c>  </ab> <ab>
+                    <figure facs="zone-sketch-1" n="A"/>
+                </ab> <ab>
+                    <figure facs="zone-sketch-2" n="B"/>
+                </ab>
+                <lb n="43" xml:id="l-43"/>
+<ab rend="indent">De inrigting is min of meer als de cellen in een bijenkorf of als een <lb n="44" xml:id="l-44"/>donkeren somberen gang in een onderaardsche gevangenis <lb n="45" xml:id="l-45"/>of als eene reeks kleine weefgetouwen<c type="kk">/</c> of eigenlijk zij zien er uit als eene reeks bakovens <lb n="45a" xml:id="l-45a"/>zooals men ze bij de boeren ziet <lb n="45b" xml:id="l-45b"/>of de vakken in een grafkelder. <lb n="46" xml:id="l-46"/>De gangen zelf zijn als de groote schoorsteenen bij de brabantsche boeren<c type="kp">_</c>
+                </ab>
+                <lb n="47" xml:id="l-47"/>
+<ab rend="indent">In sommigen lekt het water overal door en het licht van de mijnwerkerslamp <lb n="48" xml:id="l-48"/>maakt er een zonderling effekt en weerkaatst als in een grot van druipsteen. <lb n="49" xml:id="l-49"/>Sommige arbeiders werken in de maintenages<c type="kk">/</c> anderen laden de losgemaakte steenkool in <lb n="50" xml:id="l-50"/>kleine wagens die langs rails als van een tramway vervoerd worden<c type="kk">/</c> het zijn <lb n="51" xml:id="l-51"/>vooral de kinderen die dit doen<c type="kk">/</c> zoowel jongens als meisjes<c type="kp">_</c> Er is ook <lb n="52" xml:id="l-52"/>een paardenstal aldaar 700 meters onder den grond met een stuk of 7 oude <lb n="53" xml:id="l-53"/>paarden die grootere hoeveelheden vervoeren en ze brengen naar <lb n="54" xml:id="l-54"/>de zoogenaamde accrochage<c type="kk">/</c> zijnde de plaats waar zij naar boven worden <lb n="55" xml:id="l-55"/>getrokken. Andere werklieden zijn bezig om de verouderde gangen te herstellen <lb n="56" xml:id="l-56"/>om het instorten te voorkomen<c type="kk">/</c> of om nieuwe gangen te maken in de steenkoolader<c type="kp">_</c> <lb n="57" xml:id="l-57"/>Even als de zeelieden aan land het heimwee hebben naar de zee ondanks <lb n="58" xml:id="l-58"/>al de gevaren en moeiten die hen bedreigen<c type="kk">/</c> zoo ook de mijnwerker<c type="kk">/</c> hij is liever <lb n="59" xml:id="l-59"/>beneden dan boven den grond.</ab>
+                <lb n="60" xml:id="l-60"/>
+<ab rend="indent">De dorpen hier hebben iets verlatens en stils en uitgestorvens omdat het leven onder <lb n="61" xml:id="l-61"/>den grond is in plaats van boven. Men zou hier jaren lang kunnen zijn <lb n="62" xml:id="l-62"/>maar als men niet beneden in de mijnen geweest ware zou men nog <lb n="63" xml:id="l-63"/>geen juist gedacht hebben van den gang der zaken.</ab>
+                <lb n="64" xml:id="l-64"/>
+<ab rend="indent">De lieden hier zijn zeer ongeleerd en onwetend<c type="kk">/</c> kunnen meestendeels niet lezen doch tegelijk <lb n="65" xml:id="l-65"/>verstandig en vlug in hun moeielijk werk<c type="kk">/</c> moedig<c type="kk">/</c> vrij klein <lb n="66" xml:id="l-66"/>van postuur maar vierkant in de schouders met sombere diepliggende <lb n="67" xml:id="l-67"/>oogen<c type="kp">_</c> Zij zijn <lb n="68" xml:id="l-68"/>handig in veel dingen en werken verbazend veel. Zeer zenuwachtig van <lb n="69" xml:id="l-69"/>gestel<c type="kk">/</c> ik bedoel niet zwak maar gevoelig. Hebben een ingekankerden <lb n="70" xml:id="l-70"/>en vastgewortelden haat en een innig wantrouwen jegens een iegelijk die <lb n="71" xml:id="l-71"/>over hen zou willen den baas spelen. Met de kolenbranders moet men <lb n="72" xml:id="l-72"/>een kolenbranders aard en karakter hebben en geen pretenties<c type="kk">/</c> trotschheid of <lb n="73" xml:id="l-73"/>meesterachtigheid<c type="kk">/</c> anders kan men met hen niet opschieten en zou nimmer hun vertrouwen winnen.<anchor n="6" xml:id="note-o-6"/>
+                </ab>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                <lb n="74" xml:id="l-74"/>
+<ab rend="indent">Heb ik U in der tijd verteld van dien mijnwerker die door gasontploffing deerlijk <lb n="75" xml:id="l-75"/>gebrand was.<anchor n="7" xml:id="note-o-7"/> God zij dank hij is thans hersteld en gaat uit en begint heele einden <lb n="76" xml:id="l-76"/>te loopen tot oefening<c type="kk">/</c> zijne handen zijn nog zwak en het zal nog duren moeten <lb n="77" xml:id="l-77"/>eer hij in staat zal zijn om ze te gebruiken voor zijn werk, doch hij is behouden<c type="kp">_</c> <lb n="78" xml:id="l-78"/>Maar er zijn sedert nogal gevallen van typhus geweest en kwaadaardige <lb n="79" xml:id="l-79"/>koorts<c type="kk">/</c> o.a<c type="kp">_</c> van hetgeen men noemt “la sotte fievre” die maakt dat men <lb n="80" xml:id="l-80"/>akelige droomen heeft als de nachtmerrie en ijlt. Zoo zijn er weer <lb n="81" xml:id="l-81"/>veel ziekelijke en bedlegerige menschen, uitgemergeld op hun bed, zwak <lb n="82" xml:id="l-82"/>en ellendig.─</ab>
+                <lb n="83" xml:id="l-83"/>
+<ab rend="indent">In een huis zijn allen ziek met koorts en zij hebben maar weinig <lb n="84" xml:id="l-84"/>hulp of geen zoodat daar de zieken de zieken oppassen<c type="kp">_</c> “ici <lb n="85" xml:id="l-85"/>c’est les malades qui soignent les malades” zei de vrouw<c type="kk">/</c> zooals <lb n="86" xml:id="l-86"/>le pauvre est l’ami du pauvre.─<anchor n="8" xml:id="note-o-8"/>
+                </ab>
+                <lb n="87" xml:id="l-87"/>
+<ab rend="indent">Hebt Gij wat moois gezien in den laatsten tijd, zeer verlangend ben <lb n="88" xml:id="l-88"/>ik naar een brief van U<c type="kp">_</c>
+                </ab>
+                <lb n="89" xml:id="l-89"/>
+<ab rend="indent">Heeft Israels veel gewerkt in den laatsten tijd en Maris en Mauve<c type="kp">_</c>
+                </ab>
+                <lb n="90" xml:id="l-90"/>
+<ab rend="indent">Een paar nachten geleden is hier in den stal een veulen ter wereld <lb n="91" xml:id="l-91"/>gekomen<c type="kk">/</c> een aardig klein beest dat spoedig ferm op zijn pooten <lb n="92" xml:id="l-92"/>stond. De arbeiders houden hier veel geiten en er zijn overal <lb n="93" xml:id="l-93"/>jongen in de huizen<c type="kk">/</c> evenzoo de konijnen die hier ook algemeen <lb n="94" xml:id="l-94"/>zijn in de mijnwerkerswoningen<c type="kp">_</c>
+                </ab>
+                <lb n="95" xml:id="l-95"/>
+<ab rend="indent">Moet er op uit naar de zieken en moet dus eindigen<c type="kk">/</c> laat spoedig <lb n="96" xml:id="l-96"/>iets van U hooren om een teeken van leven te geven als Gij <lb n="97" xml:id="l-97"/>tijd mogt hebben.</ab>
+                <lb n="98" xml:id="l-98"/>
+<ab rend="indent">Groet Uwe huisgenooten en Mauve bij gelegenheid<c type="kk">/</c> <lb n="99" xml:id="l-99"/>heb het zoo goed mogelijk en geloof mij steeds<c type="kk">/</c> met een handdruk <lb n="100" xml:id="l-100"/>in gedachten</ab>
+<vg:whiteline/>
+                <lb n="100*" xml:id="l-100s"/>
+<ab>Uw liefh<c type="kp">_</c> broer</ab>
+                <lb n="101" xml:id="l-101"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+                <lb n="102" xml:id="l-102"/>
+<ab>Het afdalen in een mijn is een akelig ding in zoo’n <lb n="103" xml:id="l-103"/>soort mand of kooi als een emmer in den put<c type="kk">/</c> maar dat <lb n="104" xml:id="l-104"/>in een put van 500-700 meters diep zoodat men op den grond naar booven <lb n="105" xml:id="l-105"/>ziende het daglicht ontwaart zoo ongeveer ter groote van een ster aan den hemel<c type="kp">_</c> <lb n="106" xml:id="l-106"/>Men heeft een gevoel als voor t’eerst in een schip op zee doch het is erger <lb n="107" xml:id="l-107"/>maar duurt gelukkig niet lang. De arbeiders raken er aan gewoon <lb n="108" xml:id="l-108"/>doch behouden evenwel een onoverwinnelijk gevoel van ijzing en afgrijzen <lb n="109" xml:id="l-109"/>dat hen bijblijft en dat niet zonder reden of ten onregte. Doch eenmaal <lb n="110" xml:id="l-110"/>beneden zijnde is het leed geleden en wordt de moeite rijk vergoed <lb n="111" xml:id="l-111"/>door hetgeen men ziet<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="112" xml:id="l-112"/>
+<ab>adres</ab>
+                <lb n="113" xml:id="l-113"/>
+<ab>Vincent van Gogh</ab>
+                <lb n="114" xml:id="l-114"/>
+<ab>chez Jean Baptiste Denis</ab>
+                <lb n="115" xml:id="l-115"/>
+<ab>Rue du petit Wasmes</ab>
+                <lb n="116" xml:id="l-116"/>
+<ab>
+                    <hi rend="ital">Wasmes</hi> (Borinage, Hainaut)</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-41" n="41">sommige &lt; Sommige</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>Wasmes, April 1879</ab>
+<vg:whiteline/>
+<ab>My dear Theo,</ab>
+<ab>It’s time that you hear something from me again. I heard from home that you were in Etten for a couple of days and that you were travelling for the firm.<anchor n="1" xml:id="note-t-1"/> I sincerely hope that your trip went well.</ab>
+<ab rend="indent">These days you’ll no doubt be in the dunes and in Scheveningen now and then. Here it’s also attractive in the country in the spring; here and there are places where one could imagine oneself in the dunes, because of the hills.</ab>
+<ab rend="indent">I went on a very interesting excursion not long ago; the fact is, I spent 6 hours in a mine.</ab>
+<ab rend="indent">In one of the oldest and most dangerous mines in the area no less, called Marcasse.<anchor n="2" xml:id="note-t-2"/> This mine has a bad name because many die in it, whether going down or coming up, or by suffocation or gas exploding, or because of water in the ground, or because of old passageways caving in and so on.<anchor n="3" xml:id="note-t-3"/> It’s a sombre place, and at first sight everything around it has something dismal and deathly about it. The workers there are usually people, emaciated and pale owing to fever, who look exhausted and haggard, weather-beaten and prematurely old, the women generally sallow and withered. All around the mine are poor miners’ dwellings with a couple of dead trees, completely black from the smoke, and thorn-hedges, dung-heaps and rubbish dumps, mountains of unusable coal &amp;c. <rs type="pers" key="1203">Maris</rs>
+                    <anchor n="4" xml:id="note-t-4"/> would make a beautiful painting of it.</ab>
+<ab rend="indent">Later I’ll try and make a sketch of it to give you an idea of it.<anchor n="5" xml:id="note-t-5"/> 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">Had a good guide, a man who has already worked there for 33 years, a friendly and patient man who explained everything clearly and tried to make it understandable.</ab>
+<ab rend="indent">We went down together, 700 metres deep this time, and went into the most hidden corners of that underworld.</ab>
+<ab rend="indent">The <hi rend="ital">maintenages</hi> or <hi rend="ital">gradins</hi> (cells where the miners work) that are farthest removed from the exit are called ‘des caches’ (hidden places, places where one searches). This mine has 5 levels, 3 of which, the uppermost ones, are exhausted and abandoned, one no longer works in them because there’s no more coal. If anyone were to try and make a painting of the <hi rend="ital">maintenages</hi>, that would be something new and something unheard-of or rather never-before-seen. Imagine a series of cells in a rather narrow and low passageway, supported by rough timber-work. In each of the cells is a worker in a coarse linen suit, dingy and soiled as a chimney-sweep, chipping away at the coal by the dim light of a small lamp. In some of the cells the worker stands upright, in others (‘seams worked lying down’) he lies flat on the ground.</ab>
+<vg:whiteline/>
+<ab>
+                    <figure facs="zone-sketch-1" n="A"/>
+                </ab>
+<ab>
+                    <figure facs="zone-sketch-2" n="B"/>
+                </ab>
+<vg:whiteline/>
+<ab rend="indent">The arrangement is more or less like the cells in a beehive, or like a dark, sombre passageway in an underground prison, or like a series of small looms, or actually they look like a row of ovens such as one sees among the peasants, or like the separate tombs in a vault. The passageways themselves are like the large chimneys of the Brabant farmsteads.</ab>
+<ab rend="indent">In some, water leaks in everywhere and the light of the miner’s lamp creates a peculiar effect and reflects as in a cave full of stalactites. Some of the miners work in the <hi rend="ital">maintenages</hi>, others load the loosened coal into small wagons that are transported along rails resembling a tramway. It’s mostly children who do this, both boys and girls. There’s also a stable there, 700 metres below ground, with around 7 old horses that transport larger amounts, bringing them to the so-called <hi rend="ital">accrochage</hi>, that being the place where they’re hauled up. Other workers are busy restoring the antiquated passageways to prevent them from caving in, or are making new passageways in the coal seam. Just as sailors on land are homesick for the sea, despite all the dangers and difficulties that threaten them, so the mine-worker would rather be below ground than above.</ab>
+<ab rend="indent">The villages here have something forsaken and still and extinct about them, because life goes on underground instead of above. One could be here for years, but unless one has been down in the mines one has no clear picture of what goes on here.</ab>
+<ab rend="indent">The people here are very uneducated and ignorant, and most of them can’t read, yet they’re shrewd and nimble in their difficult work, courageous, of rather small build but square-shouldered, with sombre, deep-set eyes. They’re skilled at many things and work amazingly hard. Very nervous dispositions, I mean not weak but sensitive. Have a festering and deep-rooted hatred and an innate distrust of anyone who tries to boss them around. With charcoal-burners one must have a charcoal-burner’s nature and character, and no pretensions, pridefulness or imperiousness, otherwise one can’t get on with them and could never win their trust.<anchor n="6" xml:id="note-t-6"/>
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/>
+                </ab>
+<ab rend="indent">Did I tell you at the time about the miner who was badly burned by a gas explosion?<anchor n="7" xml:id="note-t-7"/> Thank God he has now recovered and goes out and about and is beginning to take long walks as practice, his hands are still weak and it will be some time before he’s able to use them for his work, yet he has been saved. But since then there have been quite a few cases of typhus and virulent fever, including what is known as ‘foolish fever’, which causes one to have bad dreams such as nightmares and delirium. So there are again many sickly and bedridden people, lying emaciated on their beds, weak and miserable.</ab>
+<ab rend="indent">In one house everyone is sick with fever, and they have little or no help, which means that there the sick are taking care of the sick. ‘Here it is the sick who nurse the sick,’ said the woman, just as it is the poor who befriend the poor.<anchor n="8" xml:id="note-t-8"/>
+                </ab>
+<ab rend="indent">Have you seen anything beautiful recently? I’m eagerly longing for a letter from you.</ab>
+<ab rend="indent">Has <rs type="pers" key="1107">Israëls</rs> been working a lot lately, and <rs type="pers" key="1202">Maris</rs> and <rs type="pers" key="323">Mauve</rs>?</ab>
+<ab rend="indent">A couple of nights ago a foal was born in the stable here, a nice small creature that was quick to stand firmly on its feet. The workers keep a lot of goats here, and there are young ones in the houses everywhere, just like the rabbits commonly to be found in the workers’ houses.</ab>
+<ab rend="indent">Must go out and visit the sick, so have to finish now, let me hear from you soon, to give a sign of life, should you have the time.</ab>
+<ab rend="indent">Give my regards to your housemates, and to <rs type="pers" key="323">Mauve</rs> when you get the chance, I wish you the very best, and believe me ever, with a handshake in thought,</ab>
+<vg:whiteline/>
+<ab>Your loving brother</ab>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<ab>Going down in a mine is an unpleasant business, in a kind of basket or cage like a bucket in a well, but then a well 500-700 metres deep, so that down there, looking upward, the daylight appears to be about as big as a star in the sky. One has a feeling similar to one’s first time on a ship at sea, but worse, though fortunately it doesn’t last long. The workers get used to it, but even so, they never shake off an unconquerable feeling of horror and dread that stays with them, not without reason or unjustifiably. Once down there, however, it isn’t so bad, and the effort is richly rewarded by what one sees.</ab>
+<vg:whiteline/>
+<ab>Address</ab>
+<ab>Vincent van Gogh</ab>
+<ab>c/o <rs type="pers" key="346">Jean-Baptiste Denis</rs>
+                </ab>
+      <ab>rue du Petit-Wasmes</ab>
+<ab>
+                    <hi rend="ital">Wasmes</hi> (Borinage, Hainaut)</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>Theo’s sales trip took place at the end of March. At all events, when <rs type="pers" key="423">Uncle Vincent</rs> wrote to Theo on 2 April, he referred to the trip in the past tense: ‘I’m glad your trip proved better than expected, because you certainly weren’t lucky with the weather!’ (FR b2466).</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>Charbonnage de Marcasse/Saint-Antoine (Escouffiaux no. 7) d’Hornu-Petit-Wasmes. For an illustration of this mine, see Eeckaut<hi rend="ital"> </hi>1990, ‘Annexes’, p. 16.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>The great danger of collapse was tragically demonstrated when many people lost their lives in the accident that occurred on 17 April in the L’Agrappe coal mine at Frameries, just east of Wasmes. See Eeckaut 1990, ‘Annexes’, pp. 3-9. <rs type="pers" key="526">Mr van Gogh</rs> wrote to Theo about it on 23 April: ‘We received a letter from Vincent to you and one for us. I copied ours out for you. It is indeed moving, that terrible accident. And I just read in the newspaper that it was followed by a strike. I hope that that won’t create any difficulties for Vincent. What a situation for those people to be in – buried alive like that and almost no hope of being rescued in time. It does appear from Vincent’s letters that, despite all the eccentricity that is his nature, he takes a true interest in the unfortunate, and that, too, will surely be noticed by God.’ The letter forwarded to Theo is not known (cf. FR b2469; regarding the mining accident, see also FR b2470 and b2471). Vincent had sent along reports from the newspaper (FR b2472, <rs type="pers" key="524">Mrs van Gogh</rs> to Theo, 30 April).</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>Of the painters <rs type="pers" key="1203">Jacob</rs>, <rs type="pers" key="1202">Matthijs</rs> and <rs type="pers" key="1201">Willem Maris</rs>, it is most likely Jacob to whom Vincent is referring, considering the subject in question. Later on in the letter Vincent asks if Theo knows whether Maris has made anything recently.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+      <ab>Van Gogh’s only known watercolour from this period is <rs type="otherart" key="146">
+                            <hi rend="ital">Coal mine in the Borinage</hi>
+                        </rs> (<rs type="otherart" key="146">F 1040 / JH 100</rs>), but it does not match this description. Cf. cat. Amsterdam 1996, pp. 69-71, cat. no. 12.</ab>
+                </note>
+<note n="a" xml:id="n-a" target="#note-o-a">
+<ab>Read: ‘gradins’.</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>It seems that Van Gogh had meanwhile won the confidence of the people. In any case, <rs type="pers" key="526">Mr van Gogh</rs> could report in his letter of 18 April to Theo that Vincent’s last letter contained ‘much that was truly interesting ... He also wrote that he had heard no more comments about his clothing’ (FR b2468).</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>Van Gogh had definitely written to his parents in January about this explosion and how he had nursed the injured man, as evidenced by a letter written by <rs type="pers" key="526">Mr van Gogh</rs> to Theo: ‘He devotes himself completely to his duties and is faithful in helping and comforting those people. He again had a very sick patient, burned by an explosion in the mine. Burned from head to foot. He sat up with him and helped to bandage his wounds’ (FR b2459, 29 January 1879). This matter is referred to again in <ref target="let250.xml">letter 250</ref>.</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>A saying.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

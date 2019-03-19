@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. The Hague, Sunday, 29 September 1872.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let001"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">001</idno>
+<idno type="collectedletters">1</idno>
+<idno type="brieven1990">001</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>The Hague</vg:placeLet>
+                        <vg:dateLet>Sunday, 29 September 1872</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. The Hague, Sunday, 29 September 1872.</p>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b1 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+    <p>Letter headed: ‘<hi rend="ital">[</hi>Den Haag, 29 september 187<hi rend="ital">]</hi>2.’ (see <hi rend="ital">Textual Notes</hi>). The date is  based on the harness racing mentioned in the letter <ref target="#l-18">(l. 18)</ref>, which took place on 28 September 1872.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0001 r" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000001_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000001_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000001_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000001_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    <surface n="b 0001 v" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000001_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1v-1">
+<graphic mimeType="image/tiff" url="VGM001000001_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000001_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000001_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+    <ab>
+                    <supplied>Den Haag, 29 september 187</supplied>2.</ab>
+<vg:whiteline/>
+                <lb n="2" xml:id="l-2"/>
+<ab>
+                    <supplied>Waarde</supplied> Theo,</ab>
+                <lb n="3" xml:id="l-3"/>
+<ab>Dank voor je brief, <lb n="4" xml:id="l-4"/>het deed mij genoegen dat je <lb n="5" xml:id="l-5"/>weer goed aangekomen zijt. <lb n="6" xml:id="l-6"/>Ik heb je de eerste dagen ge<c type="shy">-</c>
+                    <lb n="7" xml:id="l-7"/>mist &amp; het was mij vreemd <lb n="8" xml:id="l-8"/>je niet te vinden als ik s’mid<c type="shy">-</c>
+                    <lb n="9" xml:id="l-9"/>dags t’huis kwam.</ab>
+                <lb n="10" xml:id="l-10"/>
+<ab rend="indent">Wij hebben prettige dagen sa<c type="shy">-</c>
+                    <lb n="11" xml:id="l-11"/>men gehad, en tusschen de <lb n="12" xml:id="l-12"/>droppeltjes door<anchor n="a" xml:id="note-o-a"/> toch nog al <lb n="13" xml:id="l-13"/>eens gewandeld &amp; het een en <lb n="14" xml:id="l-14"/>ander gezien.</ab>
+                <lb n="15" xml:id="l-15"/>
+<ab rend="indent">Wat vreesselijk weer, je zult <lb n="16" xml:id="l-16"/>het wel <hi rend="ital">benauwd</hi> hebben <lb n="17" xml:id="l-17"/>op je wandelingen naar <lb n="18" xml:id="l-18"/>Ois<supplied>ter</supplied>wijk.<anchor n="1" xml:id="note-o-1"/> Gisteren is het hard<c type="shy">-</c>
+                    <lb n="19" xml:id="l-19"/>draverij geweest ter gelegenheid van <lb n="20" xml:id="l-20"/>de tentoonstelling,<anchor n="2" xml:id="note-o-2"/> maar de illumi<c type="shy">-</c>
+                    <lb n="21" xml:id="l-21"/>natie &amp; het vuurwerk zijn uit <lb n="22" xml:id="l-22"/>gesteld, om het slechte weer,<anchor n="3" xml:id="note-o-3"/> het <lb n="23" xml:id="l-23"/>is dus maar goed dat je niet <lb n="24" xml:id="l-24"/>gebleven zijt om die te zien. Groeten <lb n="25" xml:id="l-25"/>van de familie Haanebeek<anchor n="4" xml:id="note-o-4"/> &amp; Roos.<anchor n="5" xml:id="note-o-5"/> <lb n="26" xml:id="l-26"/>Steeds</ab>
+<vg:whiteline/>
+                <lb n="27" xml:id="l-27"/>
+<ab>je liefh.</ab>
+                <lb n="28" xml:id="l-28"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-1" targetEnd="l-2" n="1-2">
+                        <hi rend="ital">Text lost due to damaged edge of the paper. Part of the top of the letter has been torn off.</hi>
+                    </note>
+    <note target="l-1" n="1">
+                        <supplied>Den Haag, 29 september 187</supplied>2 &lt; <hi rend="ital">Only the final digit, the 2, is legible, because the top of the sheet has been torn off. We have added the place and date on the basis of Van Gogh’s usual way of heading his letters in this period.</hi>
+                    </note>
+<note target="l-2" n="2">
+                        <supplied>Waarde</supplied> &lt; <hi rend="ital">Completed consistent with the following letters.</hi>
+                    </note>
+<note target="l-18" n="18">Ois<supplied>ter</supplied>wijk &lt; <hi rend="ital">Text lost due to a hole in the paper.</hi>
+                    </note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+    <ab>The Hague, 29 September 1872.</ab>
+    <vg:whiteline/>
+    <ab>My dear Theo,</ab>
+<ab>Thanks for your letter, I was glad to hear that you got back safely. I missed you the first few days, and it was strange for me not to find you when I came home in the afternoon.</ab>
+<ab rend="indent">We spent some pleasant days together, and actually did go for some walks and see a thing or two whenever we had the chance.</ab>
+    <ab rend="indent">What terrible weather, you must feel <hi rend="ital">anxious</hi> on your walks to <rs type="topo" key="1">Oisterwijk</rs>.<anchor n="1" xml:id="note-t-1"/> Yesterday there were trotting races on the occasion of the exhibition,<anchor n="2" xml:id="note-t-2"/> but the illumination and fireworks were postponed because of the bad weather,<anchor n="3" xml:id="note-t-3"/> so it’s just as well you didn’t stay to see them. Regards from the <rs type="pers" key="442 443">Haanebeeks</rs>
+                    <anchor n="4" xml:id="note-t-4"/> and the <rs type="pers" key="642 643">Rooses</rs>.<anchor n="5" xml:id="note-t-5"/> Ever,</ab>
+<vg:whiteline/>
+<ab>Your loving</ab>
+<ab>Vincent</ab>
+            </div>
+<div type="notes">
+<note n="a" xml:id="n-a" target="#note-o-a">
+<ab>Expression meaning ‘to make the most of an opportunity’. In the context of this letter, it could also be meant literally.</ab>
+                </note>
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>Theo attended secondary school in <rs type="topo" key="1">Oisterwijk</rs> in the province of North Brabant. He walked the 6 km to school from his <rs type="pers" key="524 526">parents</rs>’ house in Helvoirt. The fact that Vincent assumes Theo must have felt ‘anxious’ during these long walks must have something to do with the stormy autumn weather: they were having at the time, which included frequent showers, strong winds and occasional thunderstorms (<hi rend="ital">KNMI</hi>).</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>The trotting races took place on Saturday, 28 September at 11.00 in the <rs type="topo" key="2">Haagse Bos</rs>, during the Nationale- en Internationale tentoonstelling (National and International Exhibition) held on the Malieveld from 21-30 September 1872 on the occasion of the 25th anniversary of the Hollandsche Maatschappij van Landbouw (Dutch Agricultural Association). See <hi rend="ital">Landbouw-Courant</hi> 26 (1872), 21 September, no. 39, p. 162.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>The programme included a display of fireworks on Thursday on the terrace of the Stedelijk Badhuis (Municipal Baths); an illumination on Friday in the garden of the Zoölogisch Botanisch Genootschap (Zoological Botanical Society), and, in the same garden, a Bengal light on Saturday. The bad weather caused the fireworks to be postponed several times, according to a report in <hi rend="ital">Het Vaderland</hi> of 30 September 1872, no. 232.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>The family of <rs type="pers" key="442">Carl Adolph Haanebeek</rs> was distantly related, via his second wife, <rs type="pers" key="443">Leonarda Catharina Adriana Stricker</rs>, to the Van Gogh family.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>Van Gogh boarded with <rs type="pers" key="642">Willem Marinus Roos</rs> and his wife <rs type="pers" key="643">Dina Margrieta van Aalst</rs>, who lived at Lange Beestenmarkt 32 in The Hague. The couple had no children.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

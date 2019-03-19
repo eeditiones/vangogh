@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. The Hague, Tuesday, 18 or Wednesday, 19 April 1882.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let218"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">218</idno>
+<idno type="collectedletters">188</idno>
+<idno type="brieven1990">217</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>The Hague</vg:placeLet>
+                        <vg:dateLet>Tuesday, 18 or Wednesday, 19 April 1882</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. The Hague, Tuesday, 18 or Wednesday, 19 April 1882.</p>
+<note type="ongoingTopic" n="1">
+<p>Vincent has sent Theo the drawing <hi rend="ital">Sorrow</hi> <ref target="let216.xml">(216)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="2">
+<p>Strained relations with Mauve and Tersteeg (<ref target="let208.xml">208</ref> and <ref target="let209.xml">209</ref>)</p>
+                        </note>
+<note type="ongoingTopic" n="3">
+<p>Mauve’s <hi rend="ital">Fishing boat on the beach</hi> for the Salon <ref target="let194.xml">(194)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="4">
+<p>Uncle Cor orders a second series of drawings from Vincent <ref target="let214.xml">(214)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b209 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>
+  <ref target="let218.xml">Letter 218</ref> was written after <ref target="let217.xml">217</ref>, because Vincent writes ‘So now you have a figure of mine and a landscape’ <ref target="#l-4">(l. 4)</ref>; in <ref target="let217.xml">217</ref> Theo had only <hi rend="ital">Sorrow</hi> (the ‘figure’). The letter was written before <ref target="let219.xml">letter 219</ref>, in which Van Gogh writes about the previously sent ‘drawings’ (plural, <ref target="let219.xml#l-5">l. 5</ref>). The dating is based on Van Gogh’s remark that it is ‘very bleak and windy’; in the coastal region temperatures dropped several degrees on 18 April, and on 18 and 19 April there were strong winds (<hi rend="ital">KNMI</hi>).</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0209" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000239_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000239_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000239_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000239_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000239_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000239_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0209" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000239_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000239_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000239_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000239_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000239_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000239_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000239_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000239_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000239_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Waarde Theo,</ab>
+                <lb n="2" xml:id="l-2"/>
+<ab>Heden heb ik aan U afgezonden 1 Teek. Moestuinen <lb n="3" xml:id="l-3"/>op de Laan van Meerdervoort.<anchor n="1" xml:id="note-o-1"/>
+                </ab>
+                <lb n="4" xml:id="l-4"/>
+<ab rend="indent">Nu hebt gij dus een figuur van me<anchor n="2" xml:id="note-o-2"/> &amp; een landschap. <lb n="5" xml:id="l-5"/>en mij dunkt gij zult zien dat ik niet op de zelfde <lb n="6" xml:id="l-6"/>hoogte blijf.</ab>
+                <lb n="7" xml:id="l-7"/>
+<ab rend="indent">Ofschoon dit “<hi rend="ital">maar </hi>wit &amp; zwart” is &amp; onverkoopbaar??? <lb n="8" xml:id="l-8"/>en onbehagelijk??? <lb n="9" xml:id="l-9"/>zoo hoop ik toch dat <lb n="10" xml:id="l-10"/>er iets pittigs in moge zijn. En meen dat <lb n="11" xml:id="l-11"/>wel verre van ’t mij kwalijk te nemen dat ik <lb n="12" xml:id="l-12"/>mij toeleg bepaald op ’t <hi rend="ital">teekenen</hi> van de dingen<c type="kk">/</c> <lb n="13" xml:id="l-13"/>men daarin juist ’t bewijs kan zien van dat <lb n="14" xml:id="l-14"/>ik den meest praktischen weg insla. Aangezien <lb n="15" xml:id="l-15"/>men makkelijker van ’t teekenen tot ’t schilderen <lb n="16" xml:id="l-16"/>kan komen dan omgekeerd schilderijen maken zonder <lb n="16a" xml:id="l-16a"/>er de noodige studies voor te teekenen.</ab>
+                <lb n="17" xml:id="l-17"/>
+<ab rend="indent">Het spreekt van zelf dat het mij veel displeizier <lb n="18" xml:id="l-18"/>veroorzaakt en mij ’t leven niet makkelijker <lb n="19" xml:id="l-19"/>maakt als zulken op wier sympathie ik min <lb n="20" xml:id="l-20"/>of meer meende te kunnen rekenen<c type="kk">/</c> zooals <lb n="21" xml:id="l-21"/>Mauve &amp; H<c type="kp">_</c>G.T<c type="kp">_</c>
+                    <c type="kk">/</c> onverschillig of vijandig &amp; hatelijk <lb n="22" xml:id="l-22"/>worden. Van Mauve heb ik niets vernomen<c type="kk">/</c> nu eens is <lb n="23" xml:id="l-23"/>hij ziek<c type="kk">/</c> dan eens heeft hij rust noodig of heeft het <lb n="24" xml:id="l-24"/>overdruk.– Wat was zijn schilderij voor den salon mooi. 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                    <lb n="25" xml:id="l-25"/>Maar gij begrijpt die dingen zelf wel en dus <lb n="26" xml:id="l-26"/>basta.–</ab>
+                <lb n="27" xml:id="l-27"/>
+<ab rend="indent">Nu heeft dit teekeningetje ook een klein <lb n="28" xml:id="l-28"/>grijs passepartout<anchor n="3" xml:id="note-o-3"/> noodig.</ab>
+                <lb n="29" xml:id="l-29"/>
+<ab rend="indent">Gij schrijft dat ge verhuisd zijt<c type="kk">/</c>
+                    <anchor n="4" xml:id="note-o-4"/> ik zal mijn <lb n="30" xml:id="l-30"/>best doen om nu en dan iets voor de muren <lb n="31" xml:id="l-31"/>van uwe nieuwe woning te maken.</ab>
+                <lb n="32" xml:id="l-32"/>
+<ab rend="indent">Ik heb daarvoor misschien ook nog wel <lb n="33" xml:id="l-33"/>eenige mooie houtsneden als ge daar <lb n="34" xml:id="l-34"/>schik in hebben mogt<c type="kk">/</c> aangezien ik van <lb n="35" xml:id="l-35"/>een paar mooie dingen duplicaten <lb n="36" xml:id="l-36"/>heb. Doch die moet ge dan van den <lb n="37" xml:id="l-37"/>zomer als ge komt maar eens zien.</ab>
+                <lb n="38" xml:id="l-38"/>
+<ab rend="indent">Ik ben wel niet verhuisd doch ik heb toch <lb n="39" xml:id="l-39"/>eene verandering in mijn woning gemaakt <lb n="40" xml:id="l-40"/>door nl. op den zolder een slaapkamertje <lb n="41" xml:id="l-41"/>te laten afschieten<anchor n="a" xml:id="note-o-a"/> zoodat ik nu meer <lb n="42" xml:id="l-42"/>ruimte op ’t atelier heb<c type="kk">/</c> te meer daar de <lb n="43" xml:id="l-43"/>kagchel weg is.<anchor n="5" xml:id="note-o-5"/>
+                </ab>
+                <lb n="44" xml:id="l-44"/>
+<ab rend="indent">Ziet ge, wat ’t teekenen betreft<c type="kk">/</c> daar <lb n="45" xml:id="l-45"/>komt enorm veel kijken wat menigeen <lb n="46" xml:id="l-46"/>maar zou willen verdonkeremanen. 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                    <lb n="47" xml:id="l-47"/>Daar hebt ge de juiste perspectief van een <lb n="48" xml:id="l-48"/>interieur b.v. (ik zal U daarvan ook wel <lb n="49" xml:id="l-49"/>eens iets zenden)<c type="kk">/</c> daar hebt ge de groote <lb n="50" xml:id="l-50"/>lijnen van een landschap en dan<anchor n="b" xml:id="note-o-b"/> <lb n="51" xml:id="l-51"/>zie ik voor mij geen kans er te komen <lb n="52" xml:id="l-52"/>zonder studie van ’t naakt figuur.<lb n="53" xml:id="l-53"/> Dat alles is essentieel <hi rend="ital">teekenen</hi>
+                    <c type="kk">/</c> <lb n="54" xml:id="l-54"/>heeft men dat eenigzins onder de knie <lb n="55" xml:id="l-55"/>dan komt er veel licht en ik voor mij <lb n="56" xml:id="l-56"/>ga heel bedaard mijn weg<c type="kk">/</c> wetende dat <lb n="57" xml:id="l-57"/>ik nog wel den een of ander die meent <lb n="58" xml:id="l-58"/>over die dingen te kunnen heenspringen eerlang <lb n="59" xml:id="l-59"/>zal inhalen mits ik maar voet bij stek houd.</ab>
+                <lb n="60" xml:id="l-60"/>
+<ab rend="indent">Nu<c type="kk">/</c> het beste U toegewenscht – het is <lb n="61" xml:id="l-61"/>hier zeer guur &amp; winderig ’t welk mij <lb n="62" xml:id="l-62"/>bijzonder embêteert omdat ik niet voortkan <lb n="63" xml:id="l-63"/>aan de stadsgezigten voor C.M<c type="kp">_</c> die ik anders <lb n="64" xml:id="l-64"/>tusschen de droppeltjes door zou snappen.<anchor n="6" xml:id="note-o-6"/> <lb n="65" xml:id="l-65"/>Maar ’t zal wel weer eens zacht worden.</ab>
+                <lb n="66" xml:id="l-66"/>
+<ab rend="indent">Met een handdruk,</ab>
+<vg:whiteline/>
+                <lb n="67" xml:id="l-67"/>
+<ab>t. à t.</ab>
+                <lb n="68" xml:id="l-68"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+                <lb n="69" xml:id="l-69"/>
+<ab>Er is aan dit teekeningetje misschien meer moeite geweest dan aan <lb n="70" xml:id="l-70"/>menige aquarel. Ik zond het B<hi rend="ss">d</hi> Montmartre<anchor n="7" xml:id="note-o-7"/> omdat ge ’t dan meteen <lb n="71" xml:id="l-71"/>kunt opzetten en vlak leggen.</ab>
+<vg:whiteline/>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo,</ab>
+<ab>Today I sent you 1 drawing of Kitchen gardens in Laan van Meerdervoort.<anchor n="1" xml:id="note-t-1"/>
+                </ab>
+<ab rend="indent">So now you have a figure of mine<anchor n="2" xml:id="note-t-2"/> and a landscape. And I think you’ll see that I’m not staying at the same level.</ab>
+<ab rend="indent">Even though this is ‘<hi rend="ital">only</hi> white and black’ and unsaleable??? and disagreeable??? I still hope that there may be something strong in it. And I think that, far from holding it against me for devoting myself specifically to <hi rend="ital">drawing</hi> things, one can see it as definite proof that I’m taking the most practical path. Considering that one can more easily go from drawing to painting than the other way round: making paintings without drawing the necessary studies.</ab>
+<ab rend="indent">It goes without saying that it gives me great displeasure and doesn’t make my life any easier when those whose sympathy I more or less thought I could count on, such as <rs type="pers" key="323">Mauve</rs> and <rs type="pers" key="787">H.G.T.</rs>, become indifferent or hostile and hateful. I haven’t heard anything from Mauve, sometimes he’s ill, at other times he needs to rest or is too busy. How beautiful his painting for the Salon was. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> But you understand these things yourself, so enough of this.</ab>
+<ab rend="indent">This little drawing also needs a small grey mount.<anchor n="3" xml:id="note-t-3"/>
+                </ab>
+<ab rend="indent">You write that you’ve moved house.<anchor n="4" xml:id="note-t-4"/> I’ll do my best to make something now and then for the walls of your new home.</ab>
+<ab rend="indent">I may also have a few nice woodcuts, if you’d like them, since I have duplicates of several nice things. But you must look at them when you come this summer.</ab>
+<ab rend="indent">Though I haven’t moved, I’ve nevertheless made a change in my house by having a bedroom partitioned off in the attic, so I now have more room in my studio, the more so because the stove is gone.<anchor n="5" xml:id="note-t-5"/>
+                </ab>
+<ab rend="indent">Drawing, you see, involves all kinds of things that many would prefer to disregard. 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> There’s the true perspective of an interior, for example (sometime I’ll send you one of those as well), there are the broad outlines of a landscape, and as for me, I see no chance of success without studying the nude. All of that is essentially <hi rend="ital">drawing</hi>, much is clarified when one has mastered that to some extent, and I, for my part, go calmly on my way, knowing that if I persevere, before long I’ll overtake those who think they can skip over such things.</ab>
+<ab rend="indent">Well, I wish you the best – it’s very bleak and windy here, which I find particularly annoying because I can’t get on with the townscapes for <rs type="pers" key="422">C.M.</rs>, which I’d otherwise capture in my spare moments.<anchor n="6" xml:id="note-t-6"/> But surely it will become mild again.</ab>
+<ab rend="indent">With a handshake,</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<ab>Perhaps more effort went into this little drawing than into many a watercolour. I sent it to blvd Montmartre<anchor n="7" xml:id="note-t-7"/> so that you could immediately mount it and press it flat.</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>This drawing is not known.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>This figure is an unknown version of <hi rend="ital">Sorrow</hi> (<ref target="let216.xml">see letter 216</ref>).</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>As regards this advice, which was probably prompted by reading <rs type="pers" key="617 618">Edmond and Jules de Goncourt</rs>’s <rs type="lit" key="224">
+                            <hi rend="ital">Gavarni, l’homme et l’oeuvre</hi>
+                        </rs>, <ref target="let216.xml#n-4">see letter 216, n. 4.</ref>
+                    </ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>Theo, in Paris, had moved to 25 rue Laval (also called rue de Laval, now rue Victor Massé), in the ninth arrondissement. The exact date of this move is not known, but it definitely took place at the beginning of April. Theo lived at this address until June 1886.</ab>
+                </note>
+<note n="a" xml:id="n-a" target="#note-o-a">
+<ab>Meaning: ‘laten afscheiden door middel van een wand’ (partition it off by means of a wall).</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+  <ab>It was customary to dismantle the stoves in the spring, so that the rooms seemed larger. They were replaced in the autumn (cf. <ref target="let274.xml">letter 274</ref>). The stove of the studio is visible in the following drawings: <rs type="sketch" key="39">F - / JH 91</rs>, <rs type="ill" key="2370">F 1116a / JH 139</rs>, <rs type="otherart" key="249">F 936 / JH 140</rs>, and <rs type="otherart" key="248">F 898 / JH 141</rs>.</ab>
+                </note>
+<note n="b" xml:id="n-b" target="#note-o-b">
+<ab>Meaning: ‘voorts’ (furthermore).</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>An expression that means ‘to make the most of opportune moments’. In the context of this letter, however, it could have been meant literally, although ‘bleak and windy’ do not necessarily spell rain.</ab>
+<ab rend="indent">With regard to ‘snappen’, meaning: ‘grijpen’, ‘op papier zetten’ (seize, capture, commit to paper), cf. Van Gogh’s choice of words ‘dingen op heterdaad vatten’ (capture things first-hand) in <ref target="let220.xml">letter 220</ref>.</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>The branch of Goupil’s where Theo worked was located at 19 boulevard Montmartre.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

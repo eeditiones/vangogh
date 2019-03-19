@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. The Hague, Friday, 21 December 1883. </title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let416"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">416</idno>
+<idno type="collectedletters">349</idno>
+<idno type="brieven1990">418</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>The Hague</vg:placeLet>
+                        <vg:dateLet>Friday, 21 December 1883</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. The Hague, Friday, 21 December 1883. </p>
+<note type="ongoingTopic" n="1">
+<p>Theo’s visit to The Hague <ref target="let374.xml">(374)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="2">
+<p>Van Gogh is given the mangle room to use as his studio <ref target="let413.xml">(413)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b378 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Van Gogh left for Utrecht to see Van Rappard on the morning of Thursday, 20 December 1883 (FR b2250). He discusses this visit in the present letter – he writes: ‘spent a day with Rappard’ <ref target="#l-12">(l. 12)</ref>. This form of words would appear to indicate that the letter was not written on that same day. He also says that he has meanwhile seen and spoken to Sien, and gives Theo his temporary address – he only intended to stay for a few days (FR b2250), so it would not have made sense for him to give Theo this address unless he did it at the beginning of his stay. In view of this and assuming that he was back in Nuenen on Christmas Day (cf. <ref target="let417.xml">letter 417</ref>), we have dated the letter Friday, 21 December 1883.</p>
+                    </note>
+<note type="additionalDetail" xml:id="additionalDetail">
+<p>There is a short laundry list written in pencil (probably in Theo’s handwriting) on p. [1r:4]. There is a similar list on the back of <ref target="let567.xml">letter 567</ref>.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0378" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000492_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000492_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000492_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000492_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000492_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000492_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0378" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000492_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000492_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000492_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000492_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000492_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000492_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000492_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000492_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000492_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>den Haag.</ab>
+<vg:whiteline/>
+                <lb n="2" xml:id="l-2"/>
+<ab>Waarde Theo</ab>
+                <lb n="3" xml:id="l-3"/>
+<ab>Met een woord wilde ik U berigten ik, <lb n="4" xml:id="l-4"/>naar aanleiding van de schikking met Pa <lb n="5" xml:id="l-5"/>en Moe om het vertrek dat tot heden tot <lb n="6" xml:id="l-6"/>mangelkamer diende mij te laten <lb n="7" xml:id="l-7"/>gebruiken tot atelier &amp; bergplaats voor een <lb n="8" xml:id="l-8"/>&amp; ander<anchor n="1" xml:id="note-o-1"/> ik heb, naar den Haag ben gegaan <lb n="9" xml:id="l-9"/>om mijn studies<c type="kk">/</c> prenten &amp;c<c type="kp">_</c>&amp;c. in te pakken <lb n="10" xml:id="l-10"/>en te verzenden.<anchor n="2" xml:id="note-o-2"/> Wat ik zelf <lb n="11" xml:id="l-11"/>dien te beredderen<c type="kp">_</c>
+                </ab>
+                <lb n="12" xml:id="l-12"/>
+<ab rend="indent">Tevens ben ik een dag bij Rappard geweest<c type="kk">/</c>
+                    <anchor n="3" xml:id="note-o-3"/> <lb n="13" xml:id="l-13"/>die zeer hartelijk was en mij nog al geruststelde <lb n="14" xml:id="l-14"/>betreffende sommige bezwaren die ik had om <lb n="15" xml:id="l-15"/>het als iets dat van blijvenden aard kon zijn te <lb n="16" xml:id="l-16"/>beschouwen.</ab>
+                <lb n="17" xml:id="l-17"/>
+<ab rend="indent">Nu<c type="kk">/</c> ik zag teekeningen (aquarellen) en geschilderde <lb n="18" xml:id="l-18"/>studies van hem die ik <hi rend="sc">zeer goed</hi> vind<c type="kp">_</c>
+                </ab>
+                <lb n="19" xml:id="l-19"/>
+<ab rend="indent">Vooral het oude vrouwen huis op Terschelling<c type="kp">_</c>
+                    <anchor n="4" xml:id="note-o-4"/> <lb n="20" xml:id="l-20"/>Wat zoudt ge hem veranderd vinden in zijn werk<c type="kp">_</c>– <lb n="21" xml:id="l-21"/>Nog eens – wat ik zeide betreffende de <lb n="22" xml:id="l-22"/>Rappards – daar bedoel ik <hi rend="ital">niet</hi> mede dat <lb n="23" xml:id="l-23"/>ik ooit heb gewenscht of nu wensch dat men <lb n="24" xml:id="l-24"/>t’huis voor mij kosten zou maken aan het <lb n="25" xml:id="l-25"/>atelier. Dat niet – maar wel dat 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                    <lb n="26" xml:id="l-26"/>op de meest eenvoudige manier <lb n="27" xml:id="l-27"/>er een vertrek zij waar ik althans een <lb n="28" xml:id="l-28"/>pied à terre heb<c type="kk">/</c> zoo dat in moeielijke <lb n="29" xml:id="l-29"/>tijden ik er beter door kan <lb n="30" xml:id="l-30"/>komen.</ab>
+                <lb n="31" xml:id="l-31"/>
+<ab rend="indent">Juist omdat wij armer zijn dan de Rappards <lb n="32" xml:id="l-32"/>is het nog meer reden om voorzigtige maatregelen <lb n="33" xml:id="l-33"/>te nemen<c type="kp">_</c>
+                </ab>
+                <lb n="34" xml:id="l-34"/>
+<ab rend="indent">Enfin als de tijd er eens over heengegaan is zal <lb n="35" xml:id="l-35"/>geloof ik het bevorderlijk zijn <lb n="36" xml:id="l-36"/>om tot een solide resultaat te komen.</ab>
+                <lb n="37" xml:id="l-37"/>
+<ab rend="indent">Ik heb de vrouw<anchor n="5" xml:id="note-o-5"/> terug gezien<c type="kk">/</c> waar ik <lb n="38" xml:id="l-38"/>zeer naar verlangde<c type="kp">_</c>–</ab>
+                <lb n="39" xml:id="l-39"/>
+<ab rend="indent">Ik gevoel wel degelijk dat het moeielijk <lb n="40" xml:id="l-40"/>op nieuw te beginnen zou zijn<c type="kp">_</c>
+                </ab>
+                <lb n="41" xml:id="l-41"/>
+<ab rend="indent">Maar dat neemt niet weg ik <lb n="42" xml:id="l-42"/>geenszins mij zou willen houden als kende ik <lb n="43" xml:id="l-43"/>haar niet of zoo<c type="kp">_</c>–</ab>
+                <lb n="44" xml:id="l-44"/>
+<ab rend="indent">En ik wenschte wel dat zij t’huis <lb n="45" xml:id="l-45"/>konden inzien dat de grenzen van <lb n="46" xml:id="l-46"/>medelijden niet liggen daar waar de wereld <lb n="47" xml:id="l-47"/>ze stelt. Gij trouwens verstondt in deze zaak <lb n="48" xml:id="l-48"/>mij. Zij heeft zich gegeven de <lb n="49" xml:id="l-49"/>omstandigheden sedert dapper gehouden<c type="kk">/</c> <lb n="50" xml:id="l-50"/>reden voor mij om wat ik voor moeielijkheden <lb n="51" xml:id="l-51"/>gehad heb bij wijlen met haar<c type="kk">/</c> te vergeten<c type="kp">_</c>
+                </ab>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                <lb n="52" xml:id="l-52"/>
+<ab rend="indent">En juist omdat ik nu bijna niets meer <lb n="53" xml:id="l-53"/>voor haar doen kan<c type="kk">/</c> althans haar moed <lb n="54" xml:id="l-54"/>in ’t hart trachten te spreken en te sterken. <lb n="55" xml:id="l-55"/>Ik zie in haar eene vrouw<c type="kk">/</c> ik zie in <lb n="56" xml:id="l-56"/>haar eene moeder en ieder man <lb n="57" xml:id="l-57"/>die een beetje mannelijk is <lb n="58" xml:id="l-58"/>geloof ik zulken moet beschermen als de <lb n="59" xml:id="l-59"/>gelegenheid er is om iets te kunnen <lb n="60" xml:id="l-60"/>doen. Ik heb er me nooit voor geschaamd <lb n="61" xml:id="l-61"/>noch zal er me voor schamen.</ab>
+                <lb n="62" xml:id="l-62"/>
+<ab rend="indent">Nu<c type="kk">/</c> ik schrijf in haast. met een handdruk<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="63" xml:id="l-63"/>
+<ab>t. à t<c type="kp">_</c>
+                </ab>
+                <lb n="64" xml:id="l-64"/>
+<ab>Vincent.</ab>
+<vg:whiteline/>
+                <lb n="65" xml:id="l-65"/>
+    <ab rend="html" html="416_01_ol.html">Mijn adres is</ab>
+                <lb n="66" xml:id="l-66"/>
+    <ab rend="html" html="416_01_ol.html">Kosthuis N<hi rend="ss">o</hi> 1</ab>
+                <lb n="67" xml:id="l-67"/>
+    <ab rend="html" html="416_01_ol.html">Assendelftstraat 16.<anchor n="6" xml:id="note-o-6"/>
+                </ab>
+                <lb n="68" xml:id="l-68"/>
+<ab>Doch ik zal natuurlijkerwijs hier niet lang zijn.</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note n="-">
+                        <hi rend="ital">Part of the sheet has been torn off at the bottom, so text may have been lost here.</hi>
+                    </note>
+<note target="l-67" n="67">16. &lt; 16,</note>
+</div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>The Hague.</ab>
+<vg:whiteline/>
+<ab>My dear Theo,</ab>
+<ab>I wanted to drop you a line to tell you that, as a result of the arrangement with <rs type="pers" key="524 526">Pa and Ma</rs> to let me use the room that has until now served as the mangle room as a studio and storeroom for the bits and pieces I have,<anchor n="1" xml:id="note-t-1"/> I’ve come to The Hague to pack up and send my studies, prints, &amp;c. &amp;c.<anchor n="2" xml:id="note-t-2"/> Which I need to attend to myself.</ab>
+<ab rend="indent">I’ve also spent a day with <rs type="pers" key="1306">Rappard</rs>,<anchor n="3" xml:id="note-t-3"/> who was very cordial, and reassured me not a little concerning some scruples that I had about regarding it as something that might be of a permanent nature.</ab>
+<ab rend="indent">Well, I saw drawings (watercolours) and painted studies by him that I consider <hi rend="sc">very good</hi>.</ab>
+<ab rend="indent">Particularly the old women’s home on Terschelling.<anchor n="4" xml:id="note-t-4"/> What a change you would see in his work. Again — what I said about <rs type="pers" key="135 183">the Rappards</rs> — I do <hi rend="ital">not</hi> mean by that that I’ve ever wished nor wish now that they should spend money on my studio at home. Not that — but that it should be in the simplest way 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> a room where I at least have a pied-à-terre, so that I can get through hard times more easily.</ab>
+<ab rend="indent">There’s all the more reason to take careful steps, precisely because we’re poorer than <rs type="pers" key="135 183">the Rappards</rs>.</ab>
+    <ab rend="indent">Anyway, when time has passed it will, I think, be conducive to arriving at a solid result.</ab>
+<ab rend="indent">I’ve seen the <rs type="pers" key="463">woman</rs>
+                    <anchor n="5" xml:id="note-t-5"/> again, which I very much longed to do.</ab>
+<ab rend="indent">I really do feel that it would be hard to begin again.</ab>
+<ab rend="indent">But that doesn’t alter the fact that I don’t in any way want to act as if I didn’t know <rs type="pers" key="463">her</rs> or something.</ab>
+<ab rend="indent">And I wished that at home they could realize that the bounds of compassion do not lie where the world draws them. You, after all, understood me in this. Given the circumstances, <rs type="pers" key="463">she</rs> has behaved bravely since then, a reason for me to forget the problems I had with her from time to time.
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/>
+                </ab>
+<ab rend="indent">And precisely because I can do almost nothing more for <rs type="pers" key="463">her</rs> now, I must at least try to put heart into her and fortify her. I see in her a woman, I see in her a mother, and I believe any man who is at all manly must protect such a one if there’s an opportunity to do something. I’ve never been ashamed of it, nor shall I be ashamed of it.</ab>
+<ab rend="indent">Well, I write in haste. With a handshake.</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent.</ab>
+<vg:whiteline/>
+    <ab rend="html" html="416_01_tr.html">My address is</ab>
+    <ab rend="html" html="416_01_tr.html">Kosthuis No. 1</ab>
+    <ab rend="html" html="416_01_tr.html">Assendelftstraat 16.<anchor n="6" xml:id="note-t-6"/>
+                </ab>
+
+<ab>But of course I won’t be here long.</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>
+                        <rs type="pers" key="526">Mr van Gogh</rs> told Theo about this on the evening of Thursday, 20 December 1883: ‘You will be curious to hear how things have been going with Vincent.</ab>
+<ab rend="indent">At first it seemed to be hopeless, but it has gradually got better, particularly since we agreed that he will stay with us for the time being, to make studies here.</ab>
+<ab rend="indent">He wanted the mangle room to be fitted up for him. We don’t think it’s a particularly suitable place, but we’ve had a decent stove put in there. We are having a sort of wooden foot-rest made, since the room has a stone floor. We had it spruced up and have even had a bed put in there, also on a wooden foot-rest, so that it won’t be unhealthy. Now we shall just make it nice and warm and dry and then it should do. I wanted to have a large window put in, but he prefers it without.</ab>
+<ab rend="indent">Early this morning he went to Utrecht to visit <rs type="pers" key="1306">Rappard</rs>, who urged him to do so. He also deemed it necessary that a collection of drawings and studies, which are in The Hague, should come here, and he plans to go and pack them up because he stubbornly asserted that no one but he himself could do it.</ab>
+<ab rend="indent">You know that once he has made his plans there is no changing them and so he left, to return within a few days so he has said.</ab>
+<ab rend="indent">We should rather that he had just left The Hague alone, but the matter of his drawings and other artist’s tools made it necessary, so he declared.</ab>
+<ab rend="indent">Anyway, we’re undertaking this new trial with real good faith and are resolved to leave him completely free in his eccentricities of dress etc. The people here have seen him now, and although it’s still a pity that he isn’t a little more accommodating: there’s simply no changing the fact that he’s eccentric.</ab>
+<ab rend="indent">It seems that he’s still pretty much occupied with your plans and future; but you will be wise enough not to let yourself be talked into things that aren’t practical. For that is certainly his trouble, alas! It is certain that he works hard and that he finds plenty of material for studies here. He made various ones that we think are good. It seems that he still has something to pay to the supplier of paints. I wanted to give him money for it; but he refused categorically – he has now left with 25 guilders on him – including the 23 guilders you just sent’ (FR b2250).</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>Van Gogh had left his things in The Hague when he went to Drenthe in September.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>
+                        <rs type="pers" key="1306">Van Rappard</rs> lived with his <rs type="pers" key="135 183">parents</rs> in Heerenstraat district A, no. 1173 (now Herenstraat 23 and 23bis) in Utrecht.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>
+                        <rs type="pers" key="1306">Anthon van Rappard</rs>, <hi rend="ital">Old women in the West-Terschelling home</hi>, 1883 (The Hague, Gemeentemuseum). <rs type="ill" key="329">Ill. 329</rs>.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>
+                        <rs type="pers" key="463">Sien Hoornik</rs>.</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>Assendelftstraat 16 was the address of Lodging-House number 1 of the Haagsche Maatschappij voor Kosthuizen (Hague Society of Lodging-Houses), a private organization that was also responsible for soup kitchens (<hi rend="ital">GAH</hi>).</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

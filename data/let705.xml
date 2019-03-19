@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Arles, Tuesday, 16 October 1888.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let705"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">705</idno>
+<idno type="collectedletters">554</idno>
+<idno type="brieven1990">710</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Arles</vg:placeLet>
+                        <vg:dateLet>Tuesday, 16 October 1888</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:physDesc>
+                        <vg:decoration>
+                            <vg:decoList xml:id="sketches">
+                                <vg:decoItem n="A" xml:id="sketch-1">
+                                    <vg:decoDesc>
+<p>
+      <hi rend="ital">The bedroom</hi> (<rs type="sketch" key="197">F - / JH 1609</rs>), enclosed sketch</p>
+                                    </vg:decoDesc>
+                                </vg:decoItem>
+                            </vg:decoList>
+                        </vg:decoration>
+                    </vg:physDesc>
+                    <vg:letContents>
+<p>To Theo van Gogh. Arles, Tuesday, 16 October 1888.</p>
+<note type="ongoingTopic" n="1">
+<p>Theo’s health problems <ref target="let611.xml">(611)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. nos. b599 V/1962 (sheet 1) and d311 V/1970 (sheet 2)</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>In his last letter of Monday, 15 October Van Gogh was still recovering from the exhaustion brought on by the work of the previous week <ref target="let704.xml">(704)</ref>; in the present letter he reports that he has started work again. He wrote to Gauguin that he had had two and a half days of rest (<ref target="let706.xml">letter 706</ref>). He had done his last painting on Saturday, 13 October (<ref target="let703.xml">letter 703</ref>), so he must in any event have rested on Sunday, 14 and Monday, 15 October. On these grounds we have dated the present letter Tuesday, 16 October 1888.</p>
+                    </note>
+<note type="additionalDetail" xml:id="additionalDetail">
+<p>The enclosed sketch is the same size as the letter and was drawn on the same squared paper. Both have one crease. There is no indication that the sheets were ever part of a single folded sheet (there are no visible traces of the ink from the drawing on the letter).</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0599" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000817_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000817_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000817_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000817_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0599" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000817_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000817_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000817_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000817_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="d 0311" xml:id="surf-pb-2r">
+            <graphic mimeType="image/tiff" url="VGM001001667_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-2r-3">
+<graphic mimeType="image/tiff" url="VGM001001667_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001667_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001667_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+        <surface n="d 0311 V/1972" xml:id="surf-extra-2v">
+            <graphic mimeType="image/tiff" url="VGM001001667_02.TIF" rend="norend"/>
+            <zone xml:id="zone-extra-1">
+<graphic mimeType="image/tiff" url="VGM001001667_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001667_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001667_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Mon cher Theo –</ab>
+                <lb n="1*" xml:id="l-1s"/>
+<ab>Enfin je t’envoie un petit croquis <lb n="2" xml:id="l-2"/>pour te donner au moins une idée de la tournure que <lb n="3" xml:id="l-3"/>prend le travail. Car aujourd’hui je m’y suis remis<c type="kp">_</c>
+                </ab>
+                <lb n="4" xml:id="l-4"/>
+<ab rend="indent">J’ai encore les yeux fatigués mais enfin j’avais <lb n="5" xml:id="l-5"/>une nouvelle idée en tête et en voici le croquis<c type="kp">_</c> <lb n="6" xml:id="l-6"/>Toujours toile de 30<c type="kp">_</c>
+                </ab>
+                <lb n="7" xml:id="l-7"/>
+<ab rend="indent">C’est cette fois ci ma chambre à coucher tout simplement<c type="kk">/</c> <lb n="8" xml:id="l-8"/>seulement la couleur doit ici faire la chôse et en <lb n="9" xml:id="l-9"/>donnant par sa simplification un style plus grand <lb n="10" xml:id="l-10"/>aux chôses<c type="kk">/</c> être suggestive ici <hi rend="ital">du repos</hi> ou <lb n="11" xml:id="l-11"/>
+                    <hi rend="ital">du sommeil</hi> en général<c type="kp">_</c> Enfin la vue du tableau <lb n="12" xml:id="l-12"/>doit <hi rend="ital">reposer</hi> la tête ou plutôt l’imagination.–<anchor n="1" xml:id="note-o-1"/>
+                </ab>
+                <lb n="13" xml:id="l-13"/>
+<ab rend="indent">Les murs sont d’un violet pâle<c type="kp">_</c> Le sol – est <lb n="14" xml:id="l-14"/>à carreaux rouges.</ab>
+                <lb n="15" xml:id="l-15"/>
+<ab rend="indent">Le bois du lit et les chaises sont jaune beurre frais<c type="kp">_</c>
+                </ab>
+                <lb n="16" xml:id="l-16"/>
+<ab rend="indent">le drap et les oreillers citron vert très clair<c type="kp">_</c>
+                </ab>
+                <lb n="17" xml:id="l-17"/>
+<ab rend="indent">La couverture rouge écarlate<c type="kp">_</c>
+                </ab>
+                <lb n="18" xml:id="l-18"/>
+<ab rend="indent">La fenêtre verte.</ab>
+                <lb n="19" xml:id="l-19"/>
+<ab rend="indent">la table à toilette orangée<c type="kk">/</c> la cuvette bleue<c type="kp">_</c> </ab>
+                <lb n="20" xml:id="l-20"/>
+<ab rend="indent">Les portes lilas.</ab>
+                <lb n="21" xml:id="l-21"/>
+<ab rend="indent">Et c’est tout – rien dans cette chambre <lb n="22" xml:id="l-22"/>à volets clos<c type="kp">_</c>
+                </ab>
+                <lb n="23" xml:id="l-23"/>
+<ab rend="indent">La carrure des meubles doit maintenant <lb n="24" xml:id="l-24"/>encore exprimer le repos inébranlable<c type="kp">_</c>
+                </ab>
+                <lb n="25" xml:id="l-25"/>
+<ab rend="indent">Des portraits sur le mur et un miroir et un <lb n="26" xml:id="l-26"/>essuie mains et quelques vêtements.</ab>
+                <lb n="27" xml:id="l-27"/>
+<ab rend="indent">Le cadre – comme il n’y a pas de blanc dans le <lb n="28" xml:id="l-28"/>tableau – sera blanc.</ab>
+                <lb n="29" xml:id="l-29"/>
+<ab rend="indent">Cela pour prendre ma revanche du repos forcé <lb n="30" xml:id="l-30"/>que j’ai été obligé de prendre.</ab>
+                <lb n="31" xml:id="l-31"/>
+<ab rend="indent">J’y travaillerai encore toute la journée demain <lb n="32" xml:id="l-32"/>mais tu vois comme la conception est simple<c type="kp">_</c>– <lb n="33" xml:id="l-33"/>Les ombres et ombres portées sont suprimées<c type="kk">/</c> c’est <lb n="34" xml:id="l-34"/>coloré à teintes plates et franches comme les <lb n="35" xml:id="l-35"/>crepons.</ab>
+                <lb n="36" xml:id="l-36"/>
+<ab rend="indent">Cela va contraster avec par exemple la dilligence de <lb n="37" xml:id="l-37"/>Tarascon<anchor n="2" xml:id="note-o-2"/> et le café de nuit<c type="kp">_</c>
+                    <anchor n="3" xml:id="note-o-3"/>
+                </ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="38" xml:id="l-38"/>
+<ab rend="indent">Je ne t’ecris pas longtemps car je vais <lb n="39" xml:id="l-39"/>commencer demain fort de bonne heure avec la <lb n="40" xml:id="l-40"/>lumière fraiche du matin pour finir ma toile<c type="kp">_</c>
+                </ab>
+                <lb n="41" xml:id="l-41"/>
+<ab rend="indent">Comment vont tes douleurs<c type="kk">/</c> n’oublie pas de <lb n="42" xml:id="l-42"/>m’en donner des nouvelles.</ab>
+                <lb n="43" xml:id="l-43"/>
+<ab rend="indent">J’espère que tu ecriras de ces jours ci<c type="kp">_</c>
+                </ab>
+                <lb n="44" xml:id="l-44"/>
+<ab rend="indent">Je te ferai un jour des croquis des autres pieces <lb n="45" xml:id="l-45"/>aussi<c type="kp">_</c>
+                </ab>
+                <lb n="46" xml:id="l-46"/>
+<ab rend="indent">Je te serre bien la main<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="47" xml:id="l-47"/>
+<ab>t<c type="kp">_</c> à t<c type="kp">_</c>
+                </ab>
+                <lb n="48" xml:id="l-48"/>
+<ab>Vincent</ab>
+                <vg:whiteline/>
+<pb f="2r" n="3" xml:id="pb-orig-2r-3" facs="#zone-pb-2r-3"/> <figure facs="zone-sketch-1" n="A"/>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-28" n="28">tableau – &lt; tableau</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo —</ab>
+<ab>At last I’m sending you a little croquis to give you at least an idea of the direction the work is taking. Because today I’ve gone back to it.</ab>
+<ab rend="indent">My eyes are still tired, but anyway I had a new idea in mind, and here’s the croquis of it. No. 30 canvas once again.</ab>
+<ab rend="indent">This time it’s simply my bedroom, but the colour has to do the job here, and through its being simplified by giving a grander style to things, to be suggestive here <hi rend="ital">of rest</hi> or <hi rend="ital">of sleep </hi>in general. In short, looking at the painting should <hi rend="ital">rest </hi>the mind, or rather, the imagination.<anchor n="1" xml:id="note-t-1"/>
+                </ab>
+<ab rend="indent">The walls are of a pale violet. The floor — is of red tiles.</ab>
+<ab rend="indent">The bedstead and the chairs are fresh butter yellow.</ab>
+<ab rend="indent">The sheet and the pillows very bright lemon green.</ab>
+<ab rend="indent">The blanket scarlet red.</ab>
+<ab rend="indent">The window green.</ab>
+<ab rend="indent">The dressing table orange, the basin blue.</ab>
+<ab rend="indent">The doors lilac.</ab>
+<ab rend="indent">And that’s all — nothing in this bedroom, with its shutters closed.</ab>
+<ab rend="indent">The solidity of the furniture should also now express unshakeable repose.</ab>
+<ab rend="indent">Portraits on the wall, and a mirror and a hand-towel and some clothes.</ab>
+<ab rend="indent">The frame — as there’s no white in the painting — will be white.</ab>
+<ab rend="indent">This to take my revenge for the enforced rest that I was obliged to take.</ab>
+<ab rend="indent">I’ll work on it again all day tomorrow, but you can see how simple the idea is. The shadows and cast shadows are removed; it’s coloured in flat, plain tints like Japanese prints.</ab>
+<ab rend="indent"> It will contrast, for example, with the Tarascon diligence<anchor n="2" xml:id="note-t-2"/> and the night café.<anchor n="3" xml:id="note-t-3"/> 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">I won’t write to you at length, because I’m going to start very early tomorrow with the fresh morning light, to finish my canvas.</ab>
+<ab rend="indent">How are your pains? Don’t forget to give me news about them.</ab>
+<ab rend="indent">I hope you’ll write in the next few days.</ab>
+<ab rend="indent">One day I’ll do you some croquis of the other rooms as well.</ab>
+<ab rend="indent">I shake your hand firmly.</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<ab>
+<pb f="2r" n="3" xml:id="pb-trans-2r-3" facs="#zone-pb-2r-3"/>
+                </ab>
+<ab>
+                    <figure facs="zone-sketch-1" n="A"/>
+                </ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>The enclosed sketch <hi rend="ital">The bedroom </hi>(<rs type="sketch" key="197">F - / JH 1609</rs>) is after the painting of the same title <rs type="ill" key="2735">F 482 / JH 1608</rs>. There is a note on the back, probably written by <rs type="pers" key="416">Jo van Gogh-Bonger</rs>: ‘Arles Oct 1888’. The sketch differs in some respects from the painting (there is a portrait above the bed rather than a landscape, the hat hangs on the left and in F 482 it is on the right, and the washbasin under the small table is absent in F 482). So Van Gogh probably made changes to his painting after he did the sketch; in <ref target="let706.xml">letter 706</ref> to <rs type="pers" key="1039">Gauguin</rs> he sketched it in its finished state.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>
+      <hi rend="ital">The Tarascon stagecoach </hi>(<rs type="ill" key="2733">F 478a / JH 1605</rs>).</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>
+      <hi rend="ital">The night café </hi>(<rs type="ill" key="2711">F 463 / JH 1575</rs>).</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

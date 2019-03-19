@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh, c/o 19 boulevard Montmartre, Paris. Telegram, sent from Eindhoven, Friday, 27 March 1885.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let487"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">487</idno>
+<idno type="collectedletters">-</idno>
+<idno type="brieven1990">490a</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Eindhoven</vg:placeLet>
+                        <vg:dateLet>Friday, 27 March 1885</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh, c/o 19 boulevard Montmartre, Paris. Telegram, sent from Eindhoven, Friday, 27 March 1885.</p>
+<note type="ongoingTopic" n="1">
+<p>The death of Mr van Gogh <ref target="let486.xml">(486)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original telegram</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b2271 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Date of postmark: Friday, 27 March 1885. Received 7.35 hours. See also <ref target="let486.xml">letter 486</ref>, <hi rend="ital">Date</hi>.</p>
+                    </note>
+<note type="additionalDetail" xml:id="additionalDetail">
+<p>Telegram. Postmark ‘PARIS BOURSE / 27 MARS 85’.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <surface n="b 2271" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001003385_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1r-1">
+                <graphic mimeType="image/tiff" url="VGM001003385_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001003385_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001003385_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+        </surface>
+        <surface n="b 2271 V/1982" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001003385_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1v-2">
+                <graphic mimeType="image/tiff" url="VGM001003385_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001003385_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001003385_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+        </surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<ab>
+                    <pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                </ab>
+                <lb n="2" xml:id="l-2"/>
+<ab>Notre père attaque foudroyante, viens <lb n="3" xml:id="l-3"/>mais c’est fini<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="4" xml:id="l-4"/>
+<ab>Vangogh</ab>
+    <ab>
+                    <pb f="1v" n="1" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<vg:whiteline/>
+            </div>
+<div type="translation">
+<ab>
+                    <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+                </ab>
+<ab>Our <rs type="pers" key="526">father</rs> fatal stroke, come, but it is over.</ab>
+<vg:whiteline/>
+<ab>Van Gogh</ab>
+    <ab>
+                    <pb f="1v" n="1" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+</div>
+<div type="notes"/>
+        </body>
+    </text>
+</TEI>

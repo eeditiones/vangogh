@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Arles, Tuesday, 25 September 1888.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let687"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">687</idno>
+<idno type="collectedletters">541a</idno>
+<idno type="brieven1990">691</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Arles</vg:placeLet>
+                        <vg:dateLet>Tuesday, 25 September 1888</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:physDesc>
+                        <vg:decoration>
+                            <vg:decoList xml:id="sketches">
+                                <vg:decoItem n="A" xml:id="sketch-1">
+                                    <vg:decoDesc>
+<p>
+      <hi rend="ital">Ploughed fields (‘The furrows’)</hi> (<rs type="sketch" key="185">F - / JH 1587</rs>), letter sketch</p>
+                                    </vg:decoDesc>
+                                </vg:decoItem>
+                            </vg:decoList>
+                        </vg:decoration>
+                    </vg:physDesc>
+                    <vg:letContents>
+<p>To Theo van Gogh. Arles, Tuesday, 25 September 1888.</p>
+<note type="ongoingTopic" n="1">
+<p>Framing paintings for the decoration <ref target="let673.xml">(673)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="2">
+<p>First consignment of paintings from Arles <ref target="let606.xml">(606)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="3">
+<p>Second consignment of paintings from Arles <ref target="let660.xml">(660)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="4">
+<p>Van Gogh’s ambition to exhibit work at the 1889 World Exhibition <ref target="let590.xml">(590)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="5">
+<p>Milliet’s stay in Africa <ref target="let628.xml">(628)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="6">
+<p>Gauguin coming to Arles <ref target="let602.xml">(602)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="7">
+<p>Decoration of the Yellow House <ref target="let665.xml">(665)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Private collection (sheet 1); Amsterdam, Van Gogh Museum, inv. no. b587 b V/1962 (sheet 2)</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Van Gogh refers to his previous letter, <ref target="let686.xml">686</ref> of Sunday, 23 or Monday, 24 September, in which he wrote about the bad weather. In the present letter he reports that he has painted a landscape in the intervals between the showers – a day later he writes, ‘the day has been so beautiful again’ (<ref target="let689.xml">letter 689</ref>). Given that the weather turned fine again on 26 September (<hi rend="ital">Météo-France</hi>), we have dated the present letter Tuesday, 25 September 1888. This would also mean that Theo could have acceded to Vincent’s request to send his allowance earlier than usual: he hopes that he will be able to get the next letter (with the money) by Friday <ref target="#l-215">(ll. 215-217)</ref> – so this must have been 28 September. See <hi rend="ital">Arrangement</hi>.</p>
+                    </note>
+<note type="arrangement" xml:id="arrangement">
+<p>In <hi rend="ital">De brieven</hi> 1990 the letter is printed without a conclusion. However, Pickvance – and following him Merlhès and Dorn – pointed out that a sheet that has until now been regarded as the second sheet of <ref target="let691.xml">letter 691</ref> actually belongs with this letter. We go along with this suggestion for two reasons. Firstly <ref target="let691.xml">letter 691</ref> now has a different second sheet from the one it originally had (see <hi rend="ital">Arrangement </hi>in the notes to that letter). Moreover, placing the old closing part of <ref target="let691.xml">letter 691</ref> at the end of the present letter means that Vincent’s asking in <ref target="#l-215">ll. 215-217</ref> if he can receive his allowance from Theo on Friday <hi rend="ital">again</hi> fits logically in the sequence of the letters in this period, since Vincent had received his allowance on Friday, 21 September (<ref target="let685.xml">see letter 685</ref>). Cf. exhib. cat. New York 1984, p. 260; Merlhès 1989, p. 192 (<ref target="#n-3">n. 3</ref>); and Dorn<hi rend="ital"> </hi>1990, p. 512 respectively.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0587 b" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="" rend="norend"/>
+            <graphic mimeType="image/tiff" url="687_1r.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="687_1rt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="687_1rR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="687_1rRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="687_1rRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="687_1rL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="687_1rLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="687_1rLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0587 b" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="" rend="norend"/>
+            <graphic mimeType="image/tiff" url="687_1v.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="687_1vt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="687_1vL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="687_1vLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="687_1vLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="687_1vR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="687_1vRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="687_1vRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0587 b" xml:id="surf-pb-2r">
+            <graphic mimeType="image/tiff" url="VGM001000796_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000796_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000796_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-2r-5">
+<graphic mimeType="image/tiff" url="VGM001000796_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000796_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000796_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-2r-8">
+<graphic mimeType="image/tiff" url="VGM001000796_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000796_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000796_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0587 b" xml:id="surf-pb-2v">
+            <graphic mimeType="image/tiff" url="VGM001000796_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000796_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000796_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-2v-6">
+<graphic mimeType="image/tiff" url="VGM001000796_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000796_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000796_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-2v-7">
+<graphic mimeType="image/tiff" url="VGM001000796_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000796_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000796_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>mon cher Theo,</ab>
+                <lb n="1*" xml:id="l-1s"/>
+<ab>j’ai à te remercier beaucoup de l’envoi <lb n="2" xml:id="l-2"/>de toile et de couleurs de Tasset qui est arrivé en <lb n="3" xml:id="l-3"/>bon état et maintenant en collis postaux.<anchor n="1" xml:id="note-o-1"/>
+                </ab>
+                <lb n="4" xml:id="l-4"/>
+<ab rend="indent">Dans ma dernière lettre je t’ai déjà dit que l’automne <lb n="5" xml:id="l-5"/>s’était manifesté par de la pluie et du mauvais temps<c type="kp">_</c>
+                    <anchor n="2" xml:id="note-o-2"/> <lb n="6" xml:id="l-6"/>Cela m’a un peu contrarié mais dans les intervalles <lb n="7" xml:id="l-7"/>ensoleillées tout de même je viens de terminer <lb n="8" xml:id="l-8"/>une toile de 30 représentant des terres <lb n="9" xml:id="l-9"/>labourées<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <figure facs="zone-sketch-1" n="A"/>
+<vg:whiteline/>
+                <lb n="10" xml:id="l-10"/>
+<ab>Un ciel bleu avec nuages blancs<c type="kp">_</c>
+                    <lb n="11" xml:id="l-11"/> Un immense terrain d’un lilas cendré<c type="kk">/</c>
+                    <lb n="12" xml:id="l-12"/> des sillons<c type="kk">/</c> des mottes innombrables<c type="kk">/</c>
+                    <lb n="13" xml:id="l-13"/> l’horizon de collines bleues et de buissons verts <lb n="14" xml:id="l-14"/>avec petits mas à toits orangés<c type="kp">_</c>
+                    <anchor n="3" xml:id="note-o-3"/>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                    <lb n="15" xml:id="l-15"/> C’en est encore un qui prendra long à sécher<c type="kk">/</c> <lb n="16" xml:id="l-16"/>pour les tableaux empatés il faut faire comme <lb n="17" xml:id="l-17"/>pour le vin plus fort<c type="kk">/</c> il faut que cela <lb n="18" xml:id="l-18"/>cuve. Aussi ai je commandé un cadre <lb n="19" xml:id="l-19"/>en Sapin blanc pour celui là<c type="kp">_</c>
+                </ab>
+                <lb n="20" xml:id="l-20"/>
+<ab rend="indent">Tant que durera l’automne je n’aurai pas assez <lb n="21" xml:id="l-21"/>de mains<c type="kk">/</c> de toile et de couleurs pour <lb n="22" xml:id="l-22"/>peindre ce que je vois de beau. Je travaille aussi <lb n="23" xml:id="l-23"/>au portrait de Milliet<anchor n="4" xml:id="note-o-4"/> mais il pose mal<c type="kk">/</c> ou bien cela tient <lb n="24" xml:id="l-24"/>à moi<c type="kk">/</c> ce que je ne crois pourtant pas car j’aurais trop <lb n="25" xml:id="l-25"/>besoin de quelques études d’après lui parcequ’il est <lb n="26" xml:id="l-26"/>beau garcon<c type="kk">/</c> bien dégagé<c type="kk">/</c> avec beaucoup de laisser <lb n="27" xml:id="l-27"/>aller dans l’allure et il ferait rudement mon <lb n="28" xml:id="l-28"/>affaire pour un tableau d’amoureux.</ab>
+                <lb n="29" xml:id="l-29"/>
+<ab rend="indent">Je lui ai déja promis une étude pour sa peine<c type="kk">/</c>
+                    <anchor n="5" xml:id="note-o-5"/> <lb n="30" xml:id="l-30"/>mais oui<c type="kk">/</c>
+                    <anchor n="a" xml:id="note-o-a"/> il ne peut pas tenir en place<c type="kp">_</c>
+                </ab>
+                <lb n="31" xml:id="l-31"/>
+<ab rend="indent">Avec cela qu’il n’a guère le temps<c type="kk">/</c> vu qu’il <lb n="32" xml:id="l-32"/>aura à faire de tendres adieux à toutes les <lb n="33" xml:id="l-33"/>grues et grenouilles de la grenouillère d’Arles<c type="kk">/</c> <lb n="34" xml:id="l-34"/>maintenant que<c type="kk">/</c> comme il dit<c type="kk">/</c> il y a sa pine <lb n="35" xml:id="l-35"/>rentrée en garnison.</ab>
+                <lb n="36" xml:id="l-36"/>
+<ab rend="indent">Je ne m’y oppose point<c type="kk">/</c> cependant je regrette <lb n="37" xml:id="l-37"/>qu’il a un mouvement nerveux dans les jambes <lb n="38" xml:id="l-38"/>lorsqu’il pose. C’est un bon garçon mais <lb n="39" xml:id="l-39"/>il n’a que 25 ans, nom de dieu 10 de moins <lb n="40" xml:id="l-40"/>que moi – et dans dix ans – selon Ziem <lb n="41" xml:id="l-41"/>je craindrais s’il continue comme cela que <lb n="42" xml:id="l-42"/>ne pouvant plus bander il se mettra possiblement <lb n="43" xml:id="l-43"/>dans les ambitieux.<anchor n="6" xml:id="note-o-6"/>
+                </ab>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                <lb n="44" xml:id="l-44"/>
+<ab rend="indent">Je ne serais pas etonné si cela l’embêtait <lb n="45" xml:id="l-45"/>au fond d’avoir à partir et peutetre depasse-t-il <lb n="46" xml:id="l-46"/>son budget et est ce pour cela qu’il est obligé de <lb n="47" xml:id="l-47"/>rentrer en Afrique. Je ne lui connais <lb n="48" xml:id="l-48"/>qu’un tort grave<c type="kk">/</c> c’est d’aimer l’abbé Constantin <lb n="49" xml:id="l-49"/>de monsieur Georges Ohnet<anchor n="7" xml:id="note-o-7"/> et je lui ai dit <lb n="50" xml:id="l-50"/>qu’il ferait mille fois mieux de lire bel ami <lb n="51" xml:id="l-51"/>de Guy de Maupassant.<anchor n="8" xml:id="note-o-8"/> Que dit maintenant le <lb n="52" xml:id="l-52"/>père Tanguy de la couleur à gros grain<c type="kp">_</c>
+                    <anchor n="9" xml:id="note-o-9"/>
+                </ab>
+                <lb n="53" xml:id="l-53"/>
+<ab rend="indent">Je crois que je dois t’avertir de suite que <lb n="54" xml:id="l-54"/>j’aurai encore besoin de 5 ou même <lb n="55" xml:id="l-55"/>10 mètres de toile<c type="kp">_</c>
+                </ab>
+                <lb n="56" xml:id="l-56"/>
+<ab rend="indent">Et que en meme temps il me faudra <lb n="57" xml:id="l-57"/>alors aussi</ab>
+<vg:whiteline/>
+                <lb n="58" xml:id="l-58"/>
+<ab rend="html" html="687_01_ol.html">3 gros tubes comme le blanc</ab>
+                <lb n="59" xml:id="l-59"/>
+<ab rend="html" html="687_01_ol.html">d’argent et de zinc<c type="kk">/</c>
+                    <anchor n="10" xml:id="note-o-10"/> de bleu de Prusse</ab>
+                <lb n="60" xml:id="l-60"/>
+<ab rend="html" html="687_01_ol.html">6 gros tubes id<c type="kp">_</c>id<c type="kp">_</c> Chrome I citron</ab>
+                <lb n="61" xml:id="l-61"/>
+<ab rend="html" html="687_01_ol.html">6  ,,   ,,   id<c type="kp">_</c> id<c type="kp">_</c>  ,,   II</ab>
+                <lb n="62" xml:id="l-62"/>
+<ab rend="html" html="687_01_ol.html">2  ,,   ,,   id<c type="kp">_</c> id<c type="kp">_</c>  ,,   III</ab>
+                <lb n="63" xml:id="l-63"/>
+<ab rend="html" html="687_01_ol.html">6  ,,   ,,   id<c type="kp">_</c> id<c type="kp">_</c> Vert Veronese</ab>
+                <lb n="64" xml:id="l-64"/>
+<ab rend="html" html="687_01_ol.html">et 6 tubes moyens Laque Geranium</ab>
+                <lb n="65" xml:id="l-65"/>
+<ab rend="html" html="687_01_ol.html">12 blanc de zinc gros tubes</ab>
+                <lb n="66" xml:id="l-66"/>
+<ab rend="html" html="687_01_ol.html">12   ,,  d’argent.</ab>
+<vg:whiteline/>
+                <lb n="67" xml:id="l-67"/>
+<ab>Cela c’est approximativement <lb n="68" xml:id="l-68"/>proportionné à la toile<c type="kp">_</c> </ab>
+                <lb n="69" xml:id="l-69"/>
+<ab rend="indent">Puisque je viens de recevoir <lb n="70" xml:id="l-70"/>l’envoi et de toile et de couleurs tu <lb n="71" xml:id="l-71"/>comprendras combien c’est peu pressé 
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                    <lb n="72" xml:id="l-72"/>mais c’est seulement le minimum de <lb n="73" xml:id="l-73"/>ce que je calcule avoir besoin pendant <lb n="74" xml:id="l-74"/>l’automne et à la chute des feuilles qui <lb n="75" xml:id="l-75"/>certes sera etonnante et qui comme tu le sais <lb n="76" xml:id="l-76"/>ne dure qu’une semaine<c type="kp">_</c> Je suis sûr de <lb n="77" xml:id="l-77"/>pouvoir alors abattre du bon travail et <lb n="78" xml:id="l-78"/>je ne voudrais pas à cette époque être <lb n="79" xml:id="l-79"/>à sec de jaune et de bleu<c type="kp">_</c>
+                </ab>
+                <lb n="80" xml:id="l-80"/>
+<ab rend="indent">Je puis en cas que tu serais gêné m’en <lb n="81" xml:id="l-81"/>tirer parfaitement sans les bleus chers <lb n="82" xml:id="l-82"/>et le carmin. 1 tube de bleu de prusse <lb n="83" xml:id="l-83"/>fournit comme 6 outremer ou cobalt <lb n="84" xml:id="l-84"/>et coûte <hi rend="ital">3 fois moins</hi>
+                    <c type="kp">_</c>
+                    <anchor n="11" xml:id="note-o-11"/>
+                </ab>
+                <lb n="85" xml:id="l-85"/>
+<ab rend="indent">Maintenant il passe plus ou moins <lb n="86" xml:id="l-86"/>mais en employant le blanc de zinc et <lb n="87" xml:id="l-87"/>en l’employant cru<c type="kk">/</c> je peux à la <lb n="88" xml:id="l-88"/>rigueur me passer du reste.</ab>
+                <lb n="89" xml:id="l-89"/>
+<ab rend="indent">Delacroix jurait par ce bleu canaille <lb n="90" xml:id="l-90"/>et s’en est servi beaucoup.<anchor n="12" xml:id="note-o-12"/>
+                </ab>
+                <lb n="91" xml:id="l-91"/>
+<ab rend="indent">Je te previens donc de cet état de <lb n="92" xml:id="l-92"/>chôses quoique nous soyons à considérable <lb n="93" xml:id="l-93"/>distance de cette fameuse chute des feuilles<c type="kp">_</c> <lb n="94" xml:id="l-94"/>J’ai besoin de travailler comme un attelage <lb n="95" xml:id="l-95"/>de mulets tant que dure l’automne <lb n="96" xml:id="l-96"/>si je veux rattrapper ce qu’a couté <lb n="97" xml:id="l-97"/>notre ameublement.</ab>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+                <lb n="98" xml:id="l-98"/>
+<ab rend="indent">J’avais encore voulu faire des tournesols aussi mais <lb n="99" xml:id="l-99"/>c’était déjà fini. Oui durant l’automne <lb n="100" xml:id="l-100"/>je voudrais bien pouvoir faire une douzaine <lb n="101" xml:id="l-101"/>de toiles de 30 carrées et cela peut très bien <lb n="102" xml:id="l-102"/>s’accomplir pour autant que je puisse prévoir<c type="kp">_</c>
+                </ab>
+                <lb n="103" xml:id="l-103"/>
+<ab rend="indent">J’ai une lucidité terrible par moments <lb n="104" xml:id="l-104"/>lorsque la nature est si belle de ces jours ci <lb n="105" xml:id="l-105"/>et alors je ne me sens plus et le <lb n="106" xml:id="l-106"/>tableau me vient comme dans un rêve<c type="kp">_</c> <lb n="107" xml:id="l-107"/>Je redoute bien un peu que cela aura <lb n="108" xml:id="l-108"/>sa réaction de mélancolie <lb n="109" xml:id="l-109"/>quand nous aurons la mauvaise saison <lb n="110" xml:id="l-110"/>mais je chercherai à m’y soustraire <lb n="111" xml:id="l-111"/>par l’étude de cette question de dessiner des <lb n="112" xml:id="l-112"/>figures de tête. Je me trouve toujours frustré <lb n="113" xml:id="l-113"/>dans mes meilleures capacités par le manque de <lb n="114" xml:id="l-114"/>modèles mais je ne m’en occupe pas – je fais <lb n="115" xml:id="l-115"/>du paysage et de la couleur sans m’inquiéter <lb n="116" xml:id="l-116"/>de ce où cela me mènera. Je sais ceci que <lb n="117" xml:id="l-117"/>si j’allais supplier les modèles: mais posez <lb n="118" xml:id="l-118"/>donc pour moi je vous en prie<c type="kk">/</c> je ferais <lb n="119" xml:id="l-119"/>comme le bon peintre de Zola dans l’oeuvre<c type="kp">_</c> <lb n="120" xml:id="l-120"/>Et certes Manet par exemple n’a pas fait <lb n="121" xml:id="l-121"/>comme cela<c type="kp">_</c> Et Zola ne dit pas dans son <lb n="121a" xml:id="l-121a"/>livre <lb n="122" xml:id="l-122"/>comment ont agi ceux qui ne voyaient <lb n="123" xml:id="l-123"/>dans la peinture rien de surnaturel.</ab>
+                <lb n="124" xml:id="l-124"/>
+<ab rend="indent">Mais ne critiquons pas le livre de Zola.<anchor n="13" xml:id="note-o-13"/> <lb n="125" xml:id="l-125"/>Je t’enverrai cinq dessins de Bernard dans <lb n="126" xml:id="l-126"/>le genre des autres<c type="kp">_</c>
+                    <anchor n="14" xml:id="note-o-14"/>
+                </ab>
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>
+                <lb n="127" xml:id="l-127"/>
+<ab rend="indent">Je lui ai écrit que Gauguin ne s’etant <lb n="128" xml:id="l-128"/>pas prononcé categoriquement s’il viendrait <lb n="129" xml:id="l-129"/>ou ne viendrait pas<c type="kk">/</c> je ne pouvais pas lui offrir <lb n="130" xml:id="l-130"/>à Bernard l’hospitalité gratuite ou même <lb n="131" xml:id="l-131"/>payée en tableaux ou dessins<c type="kp">_</c>
+                </ab>
+                <lb n="132" xml:id="l-132"/>
+<ab rend="indent">Que sa nourriture seule ici lui couterait dans <lb n="133" xml:id="l-133"/>tous les cas un peu plus que la nourriture <lb n="134" xml:id="l-134"/>et le logement à l’endroit où il est actuellement<c type="kp">_</c> <lb n="135" xml:id="l-135"/>A moins pourtant que mangeant à l’atelier <lb n="136" xml:id="l-136"/>avec ou sans Gauguin nous fassions des <lb n="137" xml:id="l-137"/>economies<c type="kp">_</c>
+                </ab>
+                <lb n="138" xml:id="l-138"/>
+<ab rend="indent">Mais que dans tous les cas je ne l’engageais <lb n="139" xml:id="l-139"/>pas à venir. Que comptant bien moi <lb n="140" xml:id="l-140"/>hiverner ici<c type="kk">/</c> certes sa compagnie me serait <lb n="141" xml:id="l-141"/>fort desirable mais qu’avant tout il fallait <lb n="142" xml:id="l-142"/>qu’il fasse bien ses calculs.<anchor n="15" xml:id="note-o-15"/>
+                </ab>
+                <lb n="143" xml:id="l-143"/>
+<ab rend="indent">Si de ces jours ci Gauguin t’écrit categoriquement <lb n="144" xml:id="l-144"/>soit à toi soit à moi<c type="kk">/</c> on pourra encore voir <lb n="145" xml:id="l-145"/>pour Bernard. Il me semble que Bernard <lb n="146" xml:id="l-146"/>certes trouverait son affaire ici mais son <lb n="147" xml:id="l-147"/>père devrait bien être un tant soit peu <lb n="148" xml:id="l-148"/>plus magnanime à son égard<c type="kp">_</c>
+                    <anchor n="16" xml:id="note-o-16"/> Car Bernard <lb n="149" xml:id="l-149"/>se donne du mal.– J’aime toutefois pas <lb n="150" xml:id="l-150"/>autant ces dessins-ci que les précédents<c type="kp">_</c>
+                </ab>
+                <lb n="151" xml:id="l-151"/>
+<ab rend="indent">Dans le commencement du mois prochain <lb n="152" xml:id="l-152"/>il y aura encore un tas de chôses qui me <lb n="153" xml:id="l-153"/>tomberont sur le dos ensemble: 
+<pb f="2v" n="7" xml:id="pb-orig-2v-7" facs="#zone-pb-2v-7"/>
+                    <lb n="154" xml:id="l-154"/>les cadres et chassis que je fais faire ici pour la <lb n="155" xml:id="l-155"/>decoration de la maison<anchor n="17" xml:id="note-o-17"/> simultanément avec le <lb n="156" xml:id="l-156"/>loyer du mois et la femme de ménage<c type="kp">_</c>
+                    <anchor n="18" xml:id="note-o-18"/>
+                </ab>
+                <lb n="157" xml:id="l-157"/>
+<ab rend="indent">Mais je peux tarder à prendre livraison des cadres et <lb n="158" xml:id="l-158"/>chassis et donc je m’en tirerai j’espère bien dans <lb n="159" xml:id="l-159"/>tous les cas.</ab>
+                <lb n="160" xml:id="l-160"/>
+<ab rend="indent">La seule espérance que j’ai c’est qu’en travaillant <lb n="161" xml:id="l-161"/>bien raide<c type="kk">/</c> au bout d’une année j’aurai assez de <lb n="162" xml:id="l-162"/>tableaux pour pouvoir me montrer – si je veux <lb n="163" xml:id="l-163"/>ou si toi tu le désires – à cette époque de <lb n="164" xml:id="l-164"/>l’exposition. Moi je n’y tiens pas mais ce à quoi <lb n="165" xml:id="l-165"/>certes je tiens c’est à te montrer quelque chôse <lb n="166" xml:id="l-166"/>de pas tout à fait mauvais.</ab>
+                <lb n="167" xml:id="l-167"/>
+<ab rend="indent">Je n’exposerais <hi rend="ital">pas</hi> mais nous aurions dans <lb n="168" xml:id="l-168"/>la maison du travail de moi qui prouverait <lb n="169" xml:id="l-169"/>qu’on n’est ni lâche ni faineant<c type="kk">/</c> je serais tranquille<c type="kp">_</c> <lb n="170" xml:id="l-170"/>Mais le principal me semble être que je ne dois <lb n="171" xml:id="l-171"/>pas me donner moins de mal que les peintres <lb n="172" xml:id="l-172"/>qui travaillent expressément pour cela.</ab>
+                <lb n="173" xml:id="l-173"/>
+<ab rend="indent">Qu’on expose<c type="kk">/</c> qu’on n’expose pas<c type="kk">/</c> il faut être <lb n="174" xml:id="l-174"/>productif et dès lors on a le droit de fumer <lb n="175" xml:id="l-175"/>sa pipe en paix.</ab>
+                <lb n="176" xml:id="l-176"/>
+<ab rend="indent">Mais cette année nous serons productifs et <lb n="177" xml:id="l-177"/>je m’efforce de faire que la nouvelle serie soit <lb n="178" xml:id="l-178"/>mieux que les deux premiers envois<c type="kp">_</c>
+                </ab>
+                <lb n="179" xml:id="l-179"/>
+<ab rend="indent">Et dans le nombre des études il y en aura <lb n="180" xml:id="l-180"/>j’espère qui soient des tableaux c.à.d. des<anchor n="19" xml:id="note-o-19"/>
+                </ab>
+                <lb n="181" xml:id="l-181"/>
+<ab rend="indent">Pour le ciel étoilé j’espère toujours bien <lb n="182" xml:id="l-182"/>le peindre et peut être serai je un de ces <lb n="183" xml:id="l-183"/>soirs dans le même champ labouré <lb n="184" xml:id="l-184"/>si le ciel est bien étincelant.</ab>
+                <lb n="185" xml:id="l-185"/>
+<ab rend="indent">Le livre de Tolstoï<c type="kk">/</c> ma religion<c type="kk">/</c> a été <lb n="186" xml:id="l-186"/>publié en français en 1885 dejà mais <lb n="187" xml:id="l-187"/>je ne l’ai jamais vu sur aucun catalogue. 
+<pb f="2r" n="8" xml:id="pb-orig-2r-8" facs="#zone-pb-2r-8"/>
+                    <lb n="188" xml:id="l-188"/>il parait ne pas beaucoup croire à une resurrection soit <lb n="189" xml:id="l-189"/>du corps soit de l’âme<c type="kp">_</c> Surtout il parait ne pas beaucoup croire <lb n="190" xml:id="l-190"/>au ciel – donc comme un nihiliste il raisonne les <lb n="191" xml:id="l-191"/>choses – mais – en opposition dans un certain sens avec <lb n="192" xml:id="l-192"/>ceux-ci – il attache une grande importance à bien faire <lb n="193" xml:id="l-193"/>ce qu’on fait puisque probablement on n’à que cela. <lb n="194" xml:id="l-194"/>Et s’il ne croit pas à la resurrection il parait croire à <lb n="195" xml:id="l-195"/>l’equivalent – la durée de la vie – la marche de <lb n="196" xml:id="l-196"/>l’humanité<c type="kk">/</c> l’homme et l’oeuvre continué infailiblement <lb n="197" xml:id="l-197"/>presque par l’humanité de la generation à venir<c type="kp">_</c> <lb n="198" xml:id="l-198"/>Enfin cela ne doit pas être des consolations éphémères <lb n="199" xml:id="l-199"/>qu’il donne. Lui-meme gentilhomme s’est fait <lb n="200" xml:id="l-200"/>ouvrier<c type="kk">/</c> sait faire des bottes<c type="kk">/</c> sait reparer les <lb n="201" xml:id="l-201"/>poêles<c type="kk">/</c> sait mener la charue et bêcher la terre.<anchor n="20" xml:id="note-o-20"/> <lb n="202" xml:id="l-202"/>Moi je ne sais rien de tout cela mais je <lb n="203" xml:id="l-203"/>sais respecter une ame humaine énergique assez <lb n="204" xml:id="l-204"/>pour se reformer ainsi<c type="kp">_</c>– Mon dieu nous <lb n="205" xml:id="l-205"/>n’avons tout de meme pas à nous plaindre <lb n="206" xml:id="l-206"/>de vivre dans un temps où il n’y aurait que <lb n="207" xml:id="l-207"/>des faineants lorsque nous assistons à l’existence <lb n="208" xml:id="l-208"/>de pareils specimens de pauvres mortels qui ne <lb n="209" xml:id="l-209"/>croient même pas très fort au ciel même.</ab>
+                <lb n="210" xml:id="l-210"/>
+<ab rend="indent">Il croit – je te l’ai peut être déjà écrit<c type="kk">/</c> à une revolution <lb n="211" xml:id="l-211"/>non violente par le besoin d’amour et de <lb n="212" xml:id="l-212"/>religiosité qui doit par reaction au scepticisme <lb n="213" xml:id="l-213"/>et de la souffrance desesperée et <lb n="214" xml:id="l-214"/>desesperante se manifester dans les gens.<anchor n="21" xml:id="note-o-21"/>
+                </ab>
+                <lb n="215" xml:id="l-215"/>
+<ab rend="indent">à bientôt. Ta dernière lettre etant de vendredi<c type="kk">/</c>
+                    <anchor n="22" xml:id="note-o-22"/> <lb n="216" xml:id="l-216"/>si j’avais tes prochaines nouvelles aussi <lb n="217" xml:id="l-217"/>déjà le vendredi cela serait rudement bien<c type="kp">_</c> <lb n="218" xml:id="l-218"/>Mais c’est pas pressé<c type="kk">/</c> cela sera bien comme cela <lb n="219" xml:id="l-219"/>tombe. Poignée de main<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="220" xml:id="l-220"/>
+<ab>t<c type="kp">_</c> à t<c type="kp">_</c>
+                </ab>
+                <lb n="221" xml:id="l-221"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-99" n="99">c’était &lt; ils c’était</note>
+<note target="l-153" n="153">ensemble: &lt; ensemble. dans</note>
+<note target="l-180" n="180">c.à.d. des &lt; <hi rend="ital">This sentence was not finished.</hi>
+                    </note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo,</ab>
+<ab>I have to thank you very much for <rs type="pers" key="785">Tasset</rs>’s consignment of canvases and colours, which arrived in good condition and this time in postal parcels.<anchor n="1" xml:id="note-t-1"/>
+                </ab>
+<ab rend="indent">I already told you in my last letter that autumn had shown itself in rain and bad weather.<anchor n="2" xml:id="note-t-2"/> That inconvenienced me a bit, but in the sunny intervals I still managed to finish a no. 30 canvas of ploughed fields.</ab>
+<vg:whiteline/>
+<ab>
+                    <figure facs="zone-sketch-1" n="A"/>
+                </ab>
+<vg:whiteline/>
+<ab>A blue sky with white clouds. An immense field of an ashy lilac, furrows, innumerable clods of earth, the horizon of blue hills and green bushes and small farmsteads with orange-coloured roofs.<anchor n="3" xml:id="note-t-3"/> 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> It’s another of those that’ll take a long time to dry; with impasto paintings you have to do the same as with the strongest wine, it has to ferment. So I’ve ordered a frame in white deal for that one.</ab>
+<ab rend="indent">As long as autumn lasts I won’t have enough hands, canvas or colours to paint the beautiful things that I see. I’m also working on the portrait of <rs type="pers" key="515">Milliet</rs>,<anchor n="4" xml:id="note-t-4"/> but he poses badly, or else it’s my fault, which I don’t believe, however, because I badly need some studies of him because he’s good-looking, very jaunty, very easy-going in his appearance, and he’d suit me down to the ground for a painting of lovers.</ab>
+<ab rend="indent">I’ve already promised him a study for his trouble,<anchor n="5" xml:id="note-t-5"/> but there you are, he can’t keep still.</ab>
+<ab rend="indent">On top of that, he hardly has any time, since he’ll have to say his tender farewells to all the tarts and other pond-life in the Arles stewpond, now that his prick has gone back to the garrison, as he puts it.</ab>
+<ab rend="indent">I don’t object to that at all; however, I regret that he has a nervous movement in his legs when he poses. He’s a good lad, but he’s only 25 years old, 10 fewer than me for Christ’s sake — and in ten years — according to <rs type="pers" key="1449">Ziem</rs>, I’m afraid if he carries on like that, being unable to get a hard-on any more, he may join the ambitious.<anchor n="6" xml:id="note-t-6"/> 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/>
+                </ab>
+<ab rend="indent">I shouldn’t be surprised if deep down he was annoyed at having to leave, and perhaps he’s exceeding his budget and that’s the reason he’s forced to go back to Africa. I know only one serious fault in him, that’s liking <rs type="pers" key="719">Mr Georges Ohnet</rs>’s L’abbé Constantin,<anchor n="7" xml:id="note-t-7"/> and I’ve told him that he would do a thousand times better to read <rs type="pers" key="708">Guy de Maupassant</rs>’s Bel-ami.<anchor n="8" xml:id="note-t-8"/>
+                </ab>
+<ab rend="indent">What does <hi rend="ital">père</hi> <rs type="pers" key="772">Tanguy</rs> say now about coarse colours?<anchor n="9" xml:id="note-t-9"/>
+                </ab>
+<ab rend="indent">I think I should warn you right away that I’ll need another 5 or even 10 metres of canvas.</ab>
+<ab rend="indent">And that at the same time I’ll also need</ab>
+<vg:whiteline/>
+<ab rend="html" html="687_01_tr.html">3 large tubes like the silver</ab>
+<ab rend="html" html="687_01_tr.html">and zinc white,<anchor n="10" xml:id="note-t-10"/> of Prussian blue</ab>
+<ab rend="html" html="687_01_tr.html">6 large tubes ditto ditto Chrome I lemon</ab>
+<ab rend="html" html="687_01_tr.html">6 ,, ,, ditto ditto ,, <hi rend="sc">ii</hi>
+                </ab>
+<ab rend="html" html="687_01_tr.html">6 ,, ,, ditto ditto ,, <hi rend="sc">iii</hi>
+                </ab>
+<ab rend="html" html="687_01_tr.html">6 ,, ,, ditto ditto Veronese Green</ab>
+<ab rend="html" html="687_01_tr.html">and 6 medium tubes Geranium Lake</ab>
+<ab rend="html" html="687_01_tr.html">12 zinc white, large tubes</ab>
+<ab rend="html" html="687_01_tr.html">12 silver ,, .</ab>
+<vg:whiteline/>
+<ab>That’s approximately in proportion to the canvas.</ab>
+<ab rend="indent">As I’ve just received the consignment of both canvas and colours, you’ll understand how little urgency there is, 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> but that’s only the minimum of what I calculate I’ll need during the autumn and leaf-fall, which will surely be amazing and which, as you know, lasts only a week. I’m sure I’ll be able to get some good work done then, and I wouldn’t like to be right out of yellow and blue at that time.</ab>
+<ab rend="indent">In case you’re hard up, I can manage perfectly well without the expensive blues and the carmine. 1 tube of Prussian blue goes as far as 6 ultramarine or cobalt and costs <hi rend="ital">3 times less</hi>.<anchor n="11" xml:id="note-t-11"/>
+                </ab>
+<ab rend="indent">Now, it fades to a certain extent, but by using zinc white and using it unmixed, I can do without the rest, if it comes to it.</ab>
+<ab rend="indent">
+                    <rs type="pers" key="982">Delacroix</rs> swore by that vulgar blue, and used it a lot.<anchor n="12" xml:id="note-t-12"/>
+                </ab>
+<ab rend="indent">So I’m alerting you to this state of affairs, although we’re a good way away from that famous leaf-fall. As long as the autumn lasts, I need to work like a team of mules if I want to recoup what our furnishing has cost. 
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/>
+                </ab>
+<ab rend="indent">I wanted to do more sunflowers too, but they were already over. Yes, during the autumn I’d very much like to do a dozen or so square no. 30 canvases, and that may very well be achieved, as far as I can see.</ab>
+<ab rend="indent">I have a terrible clarity of mind at times, when nature is so lovely these days, and then I’m no longer aware of myself and the painting comes to me as if in a dream. I am indeed somewhat fearful that that will have its reaction in melancholy when the bad season comes, but I’ll try to get away from it by studying this question of drawing figures from memory. I’m always frustrated in my best abilities by the lack of models, but I don’t dwell on it — I do landscape and colour without worrying where that will take me. I know this, that if I went to beg models: but please pose for me, I beseech you, I would be behaving like <rs type="pers" key="836">Zola</rs>’s good painter in L’oeuvre. And certainly <rs type="pers" key="1182">Manet</rs>, for example, didn’t do that. And Zola doesn’t say in his book what those people did who saw nothing supernatural in the painting.</ab>
+<ab rend="indent">But let’s not criticize <rs type="pers" key="836">Zola</rs>’s book.<anchor n="13" xml:id="note-t-13"/> I’ll send you five drawings by <rs type="pers" key="831">Bernard</rs>, of the same kind as the others.<anchor n="14" xml:id="note-t-14"/> 
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/>
+                </ab>
+<ab rend="indent">I wrote to him that, <rs type="pers" key="1039">Gauguin</rs> not having stated categorically whether he’ll come or not come, I couldn’t offer <rs type="pers" key="831">Bernard</rs> hospitality for free, or even paid for with paintings or drawings.</ab>
+<ab rend="indent">That his board alone here would, in any case, cost him a little more than board and lodging at the place where he is at present. Unless, though, we were to make savings eating at the studio, with or without <rs type="pers" key="1039">Gauguin</rs>.</ab>
+<ab rend="indent">But that in any case, I wasn’t urging him to come. That, as I definitely plan to spend the winter here, his company would of course be very welcome to me, but that above all, it was important that he do his sums carefully.<anchor n="15" xml:id="note-t-15"/>
+                </ab>
+<ab rend="indent">If in the next few days, <rs type="pers" key="1039">Gauguin</rs> writes to you categorically, either to you or to me, we could still see about <rs type="pers" key="831">Bernard</rs>. It seems to me that it would definitely suit Bernard’s book here, but his father would have to be a touch more magnanimous towards him.<anchor n="16" xml:id="note-t-16"/> Because <rs type="pers" key="831">Bernard</rs> takes pains. However, I don’t like these drawings as much as the previous ones.</ab>
+<ab rend="indent">At the beginning of next month there’ll be another heap of things falling on my back all together: 
+<pb f="2v" n="7" xml:id="pb-trans-2v-7" facs="#zone-pb-2v-7"/> the frames and stretching frames that I’m having made here for the decoration of the house,<anchor n="17" xml:id="note-t-17"/> at the same time as the month’s rent and the charwoman.<anchor n="18" xml:id="note-t-18"/>
+                </ab>
+<ab rend="indent">But I can put off taking delivery of the frames and stretching frames, and so I’ll get by, I hope, in any case.</ab>
+<ab rend="indent">The only hope I have is that by working really hard, by the end of a year I’ll have enough paintings to be able to show myself — if I wish, or if you so desire — at that time of the exhibition. I’m not keen on it, but what I’m certainly keen on is to show you something that isn’t entirely bad.</ab>
+<ab rend="indent">I would <hi rend="ital">not </hi>exhibit, but should we have work by me in the house that would prove that we’re neither cowards nor idlers, I’d be content. But the main thing seems to me to be that I shouldn’t put myself to less trouble than painters who work specifically for that.</ab>
+<ab rend="indent">Whether we exhibit, whether we don’t exhibit, we must be productive, and after that we have the right to smoke our pipe in peace.</ab>
+<ab rend="indent">But this year we’ll be productive, and I’m doing all I can to make sure that the new series is better than the first two consignments.</ab>
+<ab rend="indent">And among the studies there’ll be some, I hope, that may be paintings, that is, ...<anchor n="19" xml:id="note-t-19"/>
+                </ab>
+<ab rend="indent">For the starry sky, I still very much hope to paint it, and perhaps one of these evenings I’ll be in the same ploughed field, if the sky is twinkling brightly.</ab>
+<ab rend="indent">
+                    <rs type="pers" key="829">Tolstoy</rs>’s book, Ma religion, was published in French as long ago as 1885, but I’ve never seen it in any catalogue. 
+<pb f="2r" n="8" xml:id="pb-trans-2r-8" facs="#zone-pb-2r-8"/> He doesn’t seem to believe much in resurrection, either of the body or of the soul. In particular, he seems not to believe much in heaven — so he argues things like a nihilist — but — in a certain sense in opposition to them — he attaches great importance to doing well whatever one does, since that’s probably all one has. And even if he doesn’t believe in resurrection, he appears to believe in the equivalent — the continuance of human life — the march of humanity, the man and the work almost inevitably carried on by the humanity of the next generation. In short, it mustn’t be ephemeral consolations that he offers. A gentleman himself, he became a manual worker, knows how to make boots, knows how to mend stoves, knows how to handle a plough and dig the earth.<anchor n="20" xml:id="note-t-20"/> Now I know nothing about any of that, but I know how to respect a human soul with enough energy to remake itself like that. Dear God, we’ve well and truly no reason to complain about living in times when there seem to be nothing but idlers, when we live at the same time as such specimens of poor mortals who don’t even believe very strongly in heaven itself. </ab>
+<ab rend="indent">He believes — I’ve perhaps written you it already, in non-violent revolution, through the need for love and religious feeling which must manifest itself in people as a reaction against scepticism and desperate and appalling suffering.<anchor n="21" xml:id="note-t-21"/>
+                </ab>
+<ab rend="indent">More soon. As your last letter was on Friday,<anchor n="22" xml:id="note-t-22"/> if I had your next news by Friday as well, that would be darned good. But there’s no hurry, it’ll be fine just as it turns out. Handshake.</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>Van Gogh had asked for paint and canvas in <ref target="let677.xml">letters 677</ref> and <ref target="let680.xml">680</ref> respectively.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>Van Gogh wrote about the autumn weather in <ref target="let686.xml">letter 686</ref>.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>The letter sketch <hi rend="ital">Ploughed fields (‘The furrows’) </hi>(<rs type="sketch" key="185">F - / JH 1587</rs>) is after the painting of the same name <rs type="ill" key="2719">F 574 / JH 1586</rs>.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>
+      <hi rend="ital">Paul Eugène Milliet</hi> <hi rend="ital">(‘The lover’) </hi>(<rs type="ill" key="2720">F 473 / JH 1588</rs>).</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>We do not know whether <rs type="pers" key="515">Milliet</rs> received a study in return for sitting.</ab>
+                </note>
+<note n="a" xml:id="n-a" target="#note-o-a">
+<ab>Read: ‘mais bon’ (but there you are); influenced by the Dutch: ‘maar ja’.</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>
+  <ref target="let638.xml#n-15">See letter 638, n. 15,</ref> for this anecdote about <rs type="pers" key="1449">Ziem.</rs>
+                    </ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>Van Gogh is mistaken about the author: <hi rend="ital">
+                            <rs type="lit" key="486">L’abbé Constantin</rs>
+                        </hi> (1882) is by <rs type="pers" key="652">Ludovic Halévy</rs>; <ref target="let626.xml#n-14">see letter 626, n. 14.</ref>
+                    </ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>
+  <ref target="let568.xml#n-11">See letter 568, n. 11,</ref> for <rs type="pers" key="708">Guy de Maupassant</rs>’s <hi rend="ital">
+                            <rs type="lit" key="446">Bel-ami</rs>
+                        </hi>.</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>Vincent had asked Theo to find out from <rs type="pers" key="772">Tanguy</rs> whether he could supply more coarsely ground paint; <ref target="let677.xml">see letter 677</ref>.</ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>White was supplied in larger tubes than the other colours.</ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>This is confirmed by one of <rs type="pers" key="772">Tanguy</rs>’s price lists – undated – on which ‘Bleu de Berlin (ou Prusse)’ and ‘bleu minéral’ cost 0.25 francs, and ‘Bleu de Cobalt’ costs 1 franc (FR b1445).</ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+<ab>Van Gogh must have got the notion that <rs type="pers" key="982">Delacroix</rs> used large quantities of Prussian blue from <rs type="pers" key="742">Silvestre</rs>; in this context cf. <ref target="let595.xml#n-14">letter 595, n. 14.</ref>
+                    </ab>
+                </note>
+<note n="13" xml:id="n-13" target="#note-t-13">
+<ab>
+  <ref target="let552.xml#n-11">See letter 552, n. 11,</ref> for <rs type="pers" key="836">Zola</rs>’s <hi rend="ital">
+                            <rs type="lit" key="287">L’oeuvre</rs>
+                        </hi>. There are three scenes in the novel where the painter Claude Lantier begs his model – his mistress and later his wife Christine – to pose for him. See Zola 1960-1967, chapter 1 (p. 21) and chapter 4 (pp. 111-112, 114). The idea that Zola based the character of Lantier on <rs type="pers" key="1182">Manet</rs> arises out of a misunderstanding; <ref target="let561.xml#n-7">see letter 561, n. 7.</ref>
+                    </ab>
+                </note>
+<note n="14" xml:id="n-14" target="#note-t-14">
+<ab>
+                        <rs type="pers" key="831">Bernard</rs> had sent six sketches altogether; <ref target="let696.xml">see letter 696</ref>. They were probably <hi rend="ital">Meadow with figures and animals</hi>, <hi rend="ital">Idyll at Asnières</hi>, <hi rend="ital">Figures by the riverside </hi>and the sheet <hi rend="ital">Brothel scene </hi>with <hi rend="ital">Two sketches of prostitutes</hi> on the back (Amsterdam, Van Gogh Museum). <rs type="ill" key="2257">Ill. 2257</rs>, <rs type="ill" key="2258">2258</rs>, <rs type="ill" key="2259">2259</rs>, <rs type="ill" key="2260">2260</rs>, <rs type="ill" key="2287">2287</rs>. See Roskill 1970-2, pp. 223-224. In <ref target="let690.xml">letter 690</ref> Van Gogh thanks Bernard for sending them. The fact that two of the sketches are together on a single sheet (with another one on the back) explains why Van Gogh refers to five sketches here and six in <ref target="let696.xml">letter 696</ref>.</ab>
+<ab rend="indent">By ‘others’ Vincent means the drawings Bernard had sent earlier, which he had forwarded to Theo; <ref target="let630.xml">see letters 630</ref> and <ref target="let649.xml">649</ref>.</ab>
+                </note>
+<note n="15" xml:id="n-15" target="#note-t-15">
+<ab>Van Gogh had written this in <ref target="let684.xml">letter 684</ref> to <rs type="pers" key="831">Bernard</rs>.</ab>
+                </note>
+<note n="16" xml:id="n-16" target="#note-t-16">
+<ab>Evidently <rs type="pers" key="831">Bernard</rs> had complained to Van Gogh that his father did not support him enough. However the published letters he wrote to his family in 1888 do not give this impression. Cf. Harscoët-Maire 1997, pp. 160-183.</ab>
+                </note>
+<note n="17" xml:id="n-17" target="#note-t-17">
+<ab>
+  <ref target="let683.xml">See letter 683</ref> for this order for frames and stretching frames, to which the frame for <hi rend="ital">
+                            <rs type="ill" key="2719">Ploughed fields</rs> </hi>(<ref target="#n-3">n. 3</ref> above) was added.</ab>
+                </note>
+<note n="18" xml:id="n-18" target="#note-t-18">
+<ab>
+ <rs type="pers" key="1926">Thérèse Balmoissière</rs>.</ab>
+                </note>
+<note n="19" xml:id="n-19" target="#note-t-19">
+<ab>This sentence was not finished.</ab>
+                </note>
+<note n="20" xml:id="n-20" target="#note-t-20">
+  <ab>Van Gogh had read about <rs type="pers" key="829">Tolstoy</rs>’s <hi rend="ital">
+                            <rs type="lit" key="293">My religion</rs>
+                        </hi> in the article ‘<rs type="lit" key="577">Les Réformateurs. Le comte Léon Tolstoï, ses précurseurs et ses émules</rs>’ by Leroy-Beaulieu in the <hi rend="ital">Revue des Deux Mondes</hi>; <ref target="let686.xml#n-10">see letter 686, n. 10.</ref> In it Tolstoy’s thinking is associated with Nihilism several times. His doctrine is described as ‘Christian Nihilism’ (nihilisme chrétien) (p. 438; in this connection see also pp. 431, 434). Leroy-Beaulieu also wrote: ‘Tolstoy lives in the country, he ploughs, makes hay and harvests with his own hands ... he produces boots which sell well ... he still knows how to mend pots ... the broad hand that wrote <hi rend="ital">War and Peace</hi> enjoys driving a plough’ (Tolstoï vit à la campagne; il laboure, il fane, il moissonne de ses mains ... Il fait des bottes qui se vendent bien ... il sait encore réparer les poêles ... la large main qui a écrit <hi rend="ital">Guerre et Paix</hi> se délecte à conduire la charrue) (p. 436).</ab>
+                </note>
+<note n="21" xml:id="n-21" target="#note-t-21">
+<ab>
+  <ref target="let686.xml#n-20">See letter 686, n. 20,</ref> for <rs type="pers" key="829">Tolstoy</rs>’s concept of the ‘inner’ revolution.</ab>
+                </note>
+<note n="22" xml:id="n-22" target="#note-t-22">
+<ab>Van Gogh thanked Theo for this letter and the money in <ref target="let685.xml">letter 685</ref>.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

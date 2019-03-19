@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Amsterdam, Sunday, 5 August 1877.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let126"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">126</idno>
+<idno type="collectedletters">105</idno>
+<idno type="brieven1990">125</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Amsterdam</vg:placeLet>
+                        <vg:dateLet>Sunday, 5 August 1877</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. Amsterdam, Sunday, 5 August 1877.</p>
+<note type="ongoingTopic" n="1">
+<p>Anna van Gogh and Joan van Houten’s visit to Amsterdam <ref target="let123.xml">(123)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="2">
+<p>A visit paid by members of the family to Uncle Jan <ref target="let123.xml">(123)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b124 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Letter headed: ‘Amsterdam 5 Aug. 1877’.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0124" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000133_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000133_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000133_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000133_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0124" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000133_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000133_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000133_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000133_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Amsterdam 5 Aug. 1877</ab>
+<vg:whiteline/>
+                <lb n="2" xml:id="l-2"/>
+<ab>Waarde Theo,</ab>
+                <lb n="3" xml:id="l-3"/>
+<ab>Dank voor Uw brief van gisteren, dat was een goede, waar men wat aan heeft, en die mij eene ware verkwikking <lb n="4" xml:id="l-4"/>was.─ Anna is gisteren weder naar Hengelo<anchor n="1" xml:id="note-o-1"/> vertrokken, zij hadden hier natuurlijk veel te doen, <lb n="5" xml:id="l-5"/>zoodat ik niet zoo heel veel met hen ben zamen geweest, zij was ook nog op mijn studeerkamertje, s’avonds <lb n="6" xml:id="l-6"/>juist toen het begon te schemeren en het volk van de werf naar huis ging.─ Mij dunkt uit dat <lb n="7" xml:id="l-7"/>gezigt en die oogen van van Houten spreekt hart en karakter en hij heeft geheel het voorkomen van <lb n="8" xml:id="l-8"/>een man van zaken, heeft, naar het mij voorkwam, iets gedecideerds en kortafs dat dikwijls <lb n="9" xml:id="l-9"/>uit vasten wil en door ondervinding verkregen verstand voortvloeit, moge zij eene goede keuze hebben <lb n="10" xml:id="l-10"/>gedaan en de tijd daar Liefde van maken die niet vergaat<anchor n="2" xml:id="note-o-2"/> maar onze beste zuster door <lb n="11" xml:id="l-11"/>het leven brengende<c type="kk">/</c>
+                    <anchor n="a" xml:id="note-o-a"/>alles bedekkende en verdragende en de hoop en het Geloof behoudende.<anchor n="3" xml:id="note-o-3"/>
+                </ab>
+                <lb n="12" xml:id="l-12"/>
+<ab rend="indent">In Uw brief vond ik een paar postzegels ingesloten waarvoor hartelijk dank<c type="kk">/</c> verder <lb n="13" xml:id="l-13"/>zegt Gij een postwissel te zullen sturen opdat ik naar s’Hage zou komen om de tentoon<c type="shy">-</c>
+                    <lb n="14" xml:id="l-14"/>stelling van teekeningen te zien.─<anchor n="4" xml:id="note-o-4"/> Die postwissel is heden, zondag morgen<c type="kk">/</c> ook gekomen<c type="kk">/</c>
+                    <lb n="15" xml:id="l-15"/> dank daarvoor en voor Uw vriendelijk aanbod<c type="kk">/</c> echter zend ik U het geld terug en <lb n="16" xml:id="l-16"/>kom niet, hoe gaarne ik ook al de mooie en interessante zaken waarover Gij <lb n="17" xml:id="l-17"/>schrijft zou zien.─<anchor n="5" xml:id="note-o-5"/> Heb reeds geweigerd naar Baarn<anchor n="6" xml:id="note-o-6"/> te gaan<c type="kk">/</c> ten eerste omdat ik mijn <lb n="18" xml:id="l-18"/>Zondag liever besteed met hier eenige malen naar de kerk te gaan en nog wat te <lb n="19" xml:id="l-19"/>schrijven en te studeeren<c type="kk">/</c>
+                    <anchor n="7" xml:id="note-o-7"/> ten tweede omdat ik het geld van de reis aan Oom Stricker, die <lb n="20" xml:id="l-20"/>geld van Pa heeft waarover ik des noods kan beschikken, zou moeten vragen en <lb n="21" xml:id="l-21"/>dat zoo min mogelijk hoop te blijven doen. Ga ik naar s’Hage dan moet ik ook <lb n="22" xml:id="l-22"/>naar Baarn en dan blijft het niet bij één keer ─ quoi qu’il en soit<c type="kk">/</c> ’t is beter van <lb n="23" xml:id="l-23"/>niet. Daarenboven, jongen, ik weet Gij het zelf zoo noodig hebt. Toch hartelijk <lb n="24" xml:id="l-24"/>dank hoor. Ik ben er niet rouwig om dat ik niet altijd geld op zak heb. <lb n="25" xml:id="l-25"/>Naar zoo ontzettend veel zaken heb ik groote begeerte en als ik geld had zou <lb n="26" xml:id="l-26"/>ik het misschien spoedig uitgeven aan boeken en andere zaken waar ik <lb n="27" xml:id="l-27"/>best buiten kan en die mij van de onmiddelijk noodige studie zouden aftrekken<c type="kk">/</c>
+                </ab>
+                <lb n="27a" xml:id="l-27a"/>
+<ab>zelfs nu is het niet altijd gemakkelijk tegen de afleiding te vechten en als ik geld had zou dat nog erger worden<c type="kp">_</c> <lb n="28" xml:id="l-28"/>En men blijft hier op de wereld toch altijd arm en behoeftig<c type="kk">/</c>
+                    <anchor n="8" xml:id="note-o-8"/> dat heb ik al wel reeds <lb n="29" xml:id="l-29"/>gezien; in één ding echter kan men rijk worden en dat is het doel van het leven<c type="kk">/</c> <lb n="30" xml:id="l-30"/>men kan rijk worden in God<anchor n="9" xml:id="note-o-9"/> en dat is een deel dat niet zal weggenomen <lb n="31" xml:id="l-31"/>worden.─<anchor n="10" xml:id="note-o-10"/> <lb n="31a" xml:id="l-31a"/>En er kan een tijd komen waarin wij ons geld beter kunnen besteden dan aan de beste boeken enz<c type="kp">_</c> en <lb n="31b" xml:id="l-31b"/>waarin men spijt zou hebben als men veel uitgaven voor zich zelven gedaan had in zijn jongen tijd ─ nl. wanneer <lb n="31c" xml:id="l-31c"/>wij misschien eens een eigen huishouden hebben en anderen om voor te zorgen en te denken<c type="kp">_</c> <lb n="31d" xml:id="l-31d"/>er is een tijd geweest dat ook onze ouders waren <lb n="31e" xml:id="l-31e"/>ongetroost en door den wind voortgedreven<c type="kp">_</c>
+                    <anchor n="11" xml:id="note-o-11"/>
+                </ab>
+                <lb n="32" xml:id="l-32"/>
+<ab rend="indent">In het midden des levens zijn wij in den dood,<anchor n="12" xml:id="note-o-12"/> dat is een woord dat ons allen ook <lb n="33" xml:id="l-33"/>persoonlijk aangaat, dat is eene waarheid die wij weer bevestigd zien in <lb n="34" xml:id="l-34"/>hetgeen Gij mij mededeelt aangaande Caroline van Stockum<anchor n="13" xml:id="note-o-13"/> en vroeger zagen <lb n="35" xml:id="l-35"/>wij dat ook aan eene andere uit dat zelfde huis.─<anchor n="14" xml:id="note-o-14"/> Het heeft mij getroffen en <lb n="36" xml:id="l-36"/>van ganscher harte hoop ik dat zij nog herstellen zal. O, wat is er een droefenis <lb n="37" xml:id="l-37"/>en treurigheid en lijden in de wereld<c type="kk">/</c> en in het openbaar en in het verborgen<c type="kp">_</c>
+                    <anchor n="15" xml:id="note-o-15"/> <lb n="38" xml:id="l-38"/>“Zoekt en gij zult vinden”<anchor n="16" xml:id="note-o-16"/> is ook daarvan waar. Wat is er veel veranderd <lb n="39" xml:id="l-39"/>in dat huis wanneer men het vergelijkt bij wat het was eenige jaren geleden. <lb n="39a" xml:id="l-39a"/>Dasz war vor langen Jahren wenn wir beisammen waren.<anchor n="17" xml:id="note-o-17"/> En dat was de tijd van <lb n="39b" xml:id="l-39b"/>der Wirthin Töchterlein<anchor n="18" xml:id="note-o-18"/> en Longfellow zegt “there are thoughts that make the strong <lb n="39c" xml:id="l-39c"/>heart weak”<anchor n="19" xml:id="note-o-19"/> maar daar staat ook bovenal “Laat hem die de hand aan den ploeg slaat <lb n="39d" xml:id="l-39d"/>niet omzien”<anchor n="20" xml:id="note-o-20"/> en “Wees een man”.─<anchor n="21" xml:id="note-o-21"/>
+                </ab>
+                <lb n="40" xml:id="l-40"/>
+<ab rend="indent">De plaat naar het schilderij van Ruysdael<c type="kk">/</c> Haarlem en Overveen<c type="kk">/</c>
+                    <anchor n="22" xml:id="note-o-22"/> heb ik er <lb n="41" xml:id="l-41"/>eens op aangezien, die schilder wist het ook wel.─</ab>
+                <lb n="42" xml:id="l-42"/>
+<ab rend="indent">In geval zij spoedig zoo ver herstelt dat zij weer naar s’Hage mag vervoerd<anchor n="23" xml:id="note-o-23"/> worden en Gij <lb n="43" xml:id="l-43"/>Haar dan ziet<c type="kk">/</c> groet Haar dan en als Gij een woord kunt vinden om Haar <lb n="44" xml:id="l-44"/>op te wekken of moed te geven en Haar er aan te herinneren hoe groote reden van <lb n="45" xml:id="l-45"/>zijn zij heeft en als het ware regt om te leven, om Harer kinderen wil vooral, zeg het <lb n="46" xml:id="l-46"/>dan en Gij doet een goed werk.<anchor n="24" xml:id="note-o-24"/> Bij eene Moeder is het geloof in God vernieuwd; wat zij voor <lb n="47" xml:id="l-47"/>Hare kinderen gevoelt dat is Heilig en van Boven en van God en Hij zegt in Zijn woord <lb n="48" xml:id="l-48"/>tot elke Moeder “<hi rend="ital">Voed dit kind voor Mij op en Ik zal U Uw loon geven</hi>”.─<anchor n="25" xml:id="note-o-25"/> <lb n="49" xml:id="l-49"/>Een krachtig woord uit het hart op zijn tijd gesproken kan verkwikken en goeddoen.</ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="50" xml:id="l-50"/>
+<ab rend="indent">Was hedenmorgen nog al vroeg op en ging om ongeveer 6 uur de deur uit <lb n="51" xml:id="l-51"/>naar de vroegkerk<c type="kk">/</c>
+                    <anchor n="26" xml:id="note-o-26"/> daarna wandelde ik door allerlei oude straten waar ik U wel <lb n="52" xml:id="l-52"/>bij had willen hebben<c type="kp">_</c> Gij kent het schilderij (ten minste de lithographie en houtsnee er <lb n="53" xml:id="l-53"/>naar) van Daubigny<c type="kk">/</c> Le pont Marie<c type="kk">/</c>
+                    <anchor n="27" xml:id="note-o-27"/> daar dacht ik aan<c type="kp">_</c> Ik wandel graag in die <lb n="54" xml:id="l-54"/>oude naauwe min of meer sombere straten met apotheken<c type="kk">/</c> steen- en andere drukkerijen, winkels van <lb n="55" xml:id="l-55"/>zeekaarten<anchor n="28" xml:id="note-o-28"/> en magazijnen van scheepsvictualiën<anchor n="b" xml:id="note-o-b"/> enz<c type="kp">_</c> die men daar bij de Oude Zijds <lb n="56" xml:id="l-56"/>Kapel en de Teertuinen en het eind van de Warmoesstraat vindt, alles spreekt daar.─ <lb n="57" xml:id="l-57"/>Toen nog even Vos en Kee gaan goeden morgen zeggen<anchor n="29" xml:id="note-o-29"/> en toen naar de Eilands<c type="shy">-</c>
+                    <lb n="58" xml:id="l-58"/>kerk waar D<hi rend="ss">s</hi> ten Kate<c type="kk">/</c> de dichter van de Schepping en schrijver van vele <lb n="59" xml:id="l-59"/>mooie boeken zoo als bijvoorbeeld “Bij brood en beker”<c type="kk">/</c> preekte<anchor n="30" xml:id="note-o-30"/> over Rom<c type="kp">_</c> I:15-17 <lb n="60" xml:id="l-60"/>Alzoo hetgeen in mij is<c type="kk">/</c> dat is volvaardig, om U ook het Evangelie te verkondigen<c type="kp">_</c> <lb n="61" xml:id="l-61"/>Want ik schaam mij het Evangelie van Christus niet, want het is eene kracht <lb n="62" xml:id="l-62"/>Gods tot zaligheid een iegelijk die gelooft<c type="kp">_</c> Want de regtvaardigheid Gods wordt in <lb n="63" xml:id="l-63"/>hetzelve geopenbaard, uit geloof tot geloof, gelijk geschreven staat: maar de <lb n="64" xml:id="l-64"/>regtvaardige zal uit het geloof leven.─ Het was eene zeer volle kerk en als men die <lb n="65" xml:id="l-65"/>gezigten zoo aan zag dan zag men iets van <hi rend="ital">het geloof</hi> want daarvan stond op <lb n="66" xml:id="l-66"/>menig gelaat<c type="kk">/</c> op dat van mannen en op dat van vrouwen<c type="kk">/</c> op verschillende wijze in de <lb n="67" xml:id="l-67"/>trekken geschreven<c type="kk">/</c> iets te lezen.─ Zijne stem had soms klanken en <lb n="68" xml:id="l-68"/>uitdrukkingen als die van Pa en hij sprak zeer goed en uit een overvol <lb n="69" xml:id="l-69"/>hart en<c type="kk">/</c> hoewel de preek niet kort was<c type="kk">/</c> de kerk was uit voor men <lb n="70" xml:id="l-70"/>het wist bijna want zijn woord boeide zoo dat men aan geen tijd dacht.</ab>
+                <lb n="71" xml:id="l-71"/>
+<ab rend="indent">Heb verl<c type="kp">_</c> week tot afwisseling een uittreksel gemaakt van de reizen <lb n="72" xml:id="l-72"/>van Paulus<anchor n="31" xml:id="note-o-31"/> en daar een kaartje bij geteekend<c type="kk">/</c> dat is eene bezitting<c type="kp">_</c> <lb n="73" xml:id="l-73"/>Oom Stricker gaf mij onlangs een boek over de Aardrijkskunde van Palestina <lb n="74" xml:id="l-74"/>(Duitsch v. Raumer)<anchor n="32" xml:id="note-o-32"/> dat hij dubbel had<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="75" xml:id="l-75"/>
+<ab>Dit is wel een aardig gedeelte uit Télémaque<c type="kp">_</c>
+                    <anchor n="33" xml:id="note-o-33"/> <lb n="76" xml:id="l-76"/>Mentor dit: <hi rend="ital">La terre n’est jamais ingrate</hi>
+                    <c type="kk">/</c>
+                    <hi rend="ital"> elle</hi> <lb n="77" xml:id="l-77"/>
+                    <hi rend="ital">nourrit toujours de ses fruits ceux qui la cultivent soigneusement et avec amour</hi>
+                    <c type="kk">/</c>
+                    <hi rend="ital"> elle ne refuse ses</hi> <lb n="78" xml:id="l-78"/>
+                    <hi rend="ital">biens qu’à ceux qui craignent de lui donner leurs peines</hi>. Plus les laboureurs ont d’enfants<c type="kk">/</c> <lb n="79" xml:id="l-79"/>plus ils sont riches si le prince ne les appauvrit pas, car leurs enfants dès leur plus tendre <lb n="80" xml:id="l-80"/>jeunesse, commencent à les secourir<c type="kp">_</c> Les plus jeunes conduisent les moutons dans les <lb n="81" xml:id="l-81"/>pâturages, les autres qui sont plus grand mènent déjà les grands troupeaux, les <lb n="82" xml:id="l-82"/>plus agés labourent avec leur père. Cependant la mère de toute la famille prépare <lb n="83" xml:id="l-83"/>un repas simple à son époux et à ses chers enfants, qui doivent revenir fatigués du <lb n="84" xml:id="l-84"/>travail de la journée; elle a soin de traire ses vaches et ses brebis et on voit couler des <lb n="85" xml:id="l-85"/>ruisseaux de lait; elle fait un grand feu: autour duquel toute la famille innocente <lb n="86" xml:id="l-86"/>et paisible prend plaisir à chanter tout le soir, en attendant le doux sommeil, elle <lb n="87" xml:id="l-87"/>prépare des fromages, des châtaignes et des fruits conservés dans la meme fraîcheur <lb n="88" xml:id="l-88"/>que si on venait de les cueillir<c type="kp">_</c> Le berger revient avec sa flûte, et chante à la famille assemblée <lb n="89" xml:id="l-89"/>les chansons qu’il a apprises dans les hameaux voisins<c type="kp">_</c> Le laboureur rentre avec sa charrue et ses boeufs fatigués <lb n="90" xml:id="l-90"/>marchent<c type="kk">/</c> le cou penché<c type="kk">/</c> d’un pas lent et tardif, malgré l’aiguillon qui les presse<c type="kp">_</c> Tous les maux du travail finissent <lb n="91" xml:id="l-91"/>avec la journée<c type="kp">_</c> Le sommeil apaise les noirs soucis par leurs charmes et tient toute la nature dans un doux <lb n="92" xml:id="l-92"/>enchantement; chacun s’endort sans prevoir les peines du lendemain.─</ab>
+                <lb n="93" xml:id="l-93"/>
+<ab rend="indent">Vooral is het aardig als men het zich denkt geïllustreerd door de etsen van Jacque<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="94" xml:id="l-94"/>
+<ab>Daar komt net uw briefkaart, gelukkig, dank voor het spoedig berigt, van harte hoop ik dat Gij een <lb n="95" xml:id="l-95"/>goeden Zondag hebt gehad<c type="kp">_</c> Fan &amp; Bet s’Graeuwen en Bertha van Gogh zijn nog hier en <lb n="96" xml:id="l-96"/>zijn bloemen in het huis<c type="kk">/</c> Bertha vooral is een aardig meiske. Groet Uwe huisgenooten <lb n="97" xml:id="l-97"/>en ontvang in gedachten een handdruk van</ab>
+<vg:whiteline/>
+                <lb n="97*" xml:id="l-97s"/>
+<ab>Uw zoo liefh. broer</ab>
+                <lb n="98" xml:id="l-98"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+                <lb n="99" xml:id="l-99"/>
+<ab>Kon geen couponnetje krijgen dus moet ik het U in postzegels <lb n="100" xml:id="l-100"/>terug zenden<c type="kp">_</c>─<anchor n="34" xml:id="note-o-34"/>
+                </ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-32" n="32">ons &lt; on</note>
+<note target="l-39" n="39">c weak” &lt; weak</note>
+<note target="l-39" n="39">c “Laat &lt; Laat</note>
+<note target="l-44" n="44">reden &lt; rede</note>
+<note target="l-48" n="48">geven”.─ &lt; geven.─</note>
+<note target="l-60" n="60">ook &lt; ook,</note>
+<note target="l-82" n="82">mère de &lt; mère et  <hi rend="ital">Corresponding the original text</hi>.</note>
+<note target="l-95" n="95">s’Graeuwen &lt; s’Greauwen</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>Amsterdam, 5 Aug. 1877</ab>
+<vg:whiteline/>
+<ab>My dear Theo,</ab>
+<ab>Thanks for your letter of yesterday, it was a good one, the kind that is of some use, and it was a real comfort to me. <rs type="pers" key="412">Anna</rs> left again yesterday for Hengelo,<anchor n="1" xml:id="note-t-1"/> they had a lot to do here, of course, so I wasn’t with them so very much, she also came to my little study in the evening just as it was growing dark and people were leaving the dockyard to go home. It seems to me that that face and those eyes of <rs type="pers" key="413">Van Houten</rs> speak of heart and character, and he has entirely the appearance of a man of affairs, has – it appeared to me – something decisive and abrupt which often stems from a firm will and understanding acquired through experience, may she have made a good choice and may time turn that into the love that never faileth<anchor n="2" xml:id="note-t-2"/> but brings our dear sister through life, covering and forbearing everything and making whole hope and faith.<anchor n="3" xml:id="note-t-3"/>
+                </ab>
+<ab rend="indent">I found a couple of stamps enclosed in your letter, for which I sincerely thank you, you also said you would send a postal order so that I could come to The Hague and see the exhibition of drawings.<anchor n="4" xml:id="note-t-4"/> The postal order indeed arrived today, Sunday morning, I thank you for it and for your kind offer, but I’m sending the money back and am not coming, however much I’d like to see all the beautiful and interesting things you wrote about.<anchor n="5" xml:id="note-t-5"/> Have already refused to go to Baarn,<anchor n="6" xml:id="note-t-6"/> first of all because I’d rather spend my Sunday here going to church several times, and writing and studying some more,<anchor n="7" xml:id="note-t-7"/> secondly because I’d have to ask for travelling money from <rs type="pers" key="318">Uncle Stricker</rs>, who has some money of <rs type="pers" key="526">Pa</rs>’s to be put at my disposal if necessary, and I hope to go on doing that as little as possible. If I go to The Hague, then I have to go to Baarn as well, and not just once – in any case, it’s better I don’t. Moreover, old boy, I know you really need it yourself. Many thanks all the same. I’m not sorry not always to have money in my pocket. I have a great craving for so many things, and if I had money perhaps I’d quickly spend it on books and other things that I can well do without, and which would pull me away from the studies necessary at the moment, even now it isn’t always easy to fight against distractions, and if I had money things would only get worse. And here in this world one remains poor and needy anyway,<anchor n="8" xml:id="note-t-8"/> I’ve seen that already; one can, however, become rich in <hi rend="ital">one </hi>thing and that is the goal of life, one can become rich toward God,<anchor n="9" xml:id="note-t-9"/> and that is a part which shall not be taken away.<anchor n="10" xml:id="note-t-10"/> And there may come a time when we can spend our money more wisely than on the best books and so on, and when one would regret having spent a lot on oneself in one’s youth, namely when we’ll perhaps have our own household and others to care and think for. There was a time when our <rs type="pers" key="524 526">parents</rs>, too, were uncomforted and tossed with tempest.<anchor n="11" xml:id="note-t-11"/>
+                </ab>
+<ab rend="indent">In the midst of life we are in death,<anchor n="12" xml:id="note-t-12"/> those are words that apply to each of us personally, that is a truth we see reconfirmed in what you told me about <rs type="pers" key="761">Caroline van Stockum</rs>,<anchor n="13" xml:id="note-t-13"/> and earlier we also saw it in another member of that family.<anchor n="14" xml:id="note-t-14"/> It affected me, and I sincerely hope with all my heart that she’ll recover. Oh, how much sadness and sorrow and suffering there is in the world, both in the open and in secret.<anchor n="15" xml:id="note-t-15"/> ‘Seek, and ye shall find’<anchor n="16" xml:id="note-t-16"/> is also one of those truths. How much has changed in that family if one compares it with how it was a few years ago. It was many years ago when we were together.<anchor n="17" xml:id="note-t-17"/> And that was the time of The landlady’s daughter,<anchor n="18" xml:id="note-t-18"/> and <rs type="pers" key="696">Longfellow</rs> says ‘there are thoughts that make the strong heart weak’,<anchor n="19" xml:id="note-t-19"/> but it is written above all ‘Let him who has put his hand to the plough not look back’<anchor n="20" xml:id="note-t-20"/> and ‘Shew thyself a man’.<anchor n="21" xml:id="note-t-21"/>
+                </ab>
+<ab rend="indent">I looked for it in the illustration after the painting by <rs type="pers" key="1333">Ruisdael</rs>, Haarlem and Overveen,<anchor n="22" xml:id="note-t-22"/> that painter knew it too.</ab>
+<ab rend="indent">Should she quickly recover sufficiently for her to be taken back to The Hague<anchor n="23" xml:id="note-t-23"/> and you then see her, give her my regards, and if you can find the words to cheer her up or give her courage and remind her what important reasons she has for being and, as it were, the right to live, especially for her children’s sake, tell her and you will be doing a good deed.<anchor n="24" xml:id="note-t-24"/> Faith in God is renewed in a mother; what she feels for her children is holy and comes from Above and from God, and He says in holy writ to every mother ‘<hi rend="ital">Raise this child for Me and I will give thee thy reward</hi>’.<anchor n="25" xml:id="note-t-25"/> A strong word spoken from the heart at the right time can give comfort and do good. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">Was up rather early this morning and left around 6 o’clock for the early service,<anchor n="26" xml:id="note-t-26"/> afterwards I walked down all sorts of old streets and would have liked to have you with me. You know the painting (at least the lithograph and woodcut made after it) by <rs type="pers" key="976">Daubigny</rs>, The Marie bridge,<anchor n="27" xml:id="note-t-27"/> I thought of that. I like to walk in those old, narrow, rather sombre streets with chemists’ shops, lithographers and other printers, shops with sea-charts<anchor n="28" xml:id="note-t-28"/> and warehouses for ships’ victuals and so on, which one finds near the Oudezijdskapel and the Teertuinen and the end of Warmoesstraat, everything is evocative there. Then went to bid good-day to <rs type="pers" key="806">Vos</rs> and <rs type="pers" key="776">Kee</rs>,<anchor n="29" xml:id="note-t-29"/> and then to the Eilandskerk where the <rs type="pers" key="681">Rev. Ten Kate</rs> – the poet of De schepping and the writer of many beautiful books, such as, for example, ‘Bij brood en beker’ – gave the sermon<anchor n="30" xml:id="note-t-30"/> on Rom. I:15-17: So, as much as in me is, I am ready to preach the gospel to you. For I am not ashamed of the gospel of Christ: for it is the power of God unto salvation to every one that believeth. For therein is the righteousness of God revealed from faith to faith: as it is written, The just shall live by faith. The church was very full, and when one looked at those faces one saw something of <hi rend="ital">the faith</hi>, for it was on many a countenance, on those of men and on those of women, written in their features in various ways, something to read. His voice sometimes uttered sounds and expressions like <rs type="pers" key="526">Pa</rs>’s, and he spoke very well and from an overfull heart and, although the sermon wasn’t short, church was out almost before one knew it, because his words were so enthralling that one forgot the time.</ab>
+<ab rend="indent">Made a summary last week, for a change, of the journeys of Paul,<anchor n="31" xml:id="note-t-31"/> and drew a small map to accompany it, that is good to have. <rs type="pers" key="318">Uncle Stricker</rs> recently gave me a book on the geography of Palestine (German, by <rs type="pers" key="725">Raumer</rs>),<anchor n="32" xml:id="note-t-32"/> of which he had two copies.</ab>
+<vg:whiteline/>
+<ab>This is a nice excerpt from Télémaque.<anchor n="33" xml:id="note-t-33"/> Mentor says, <hi rend="ital">The earth is never ungrateful, she always nourishes with her fruits those who cultivate her with care and with love, she denies her goods only to those who fear giving her their hard labour.</hi> The more children the ploughmen have, the richer they are if the Lord does not impoverish them, because their children, from their most tender youth, begin to help them. The youngest take the sheep to the pastures, the others who are older already lead the large flocks, the eldest plough with their father. Meanwhile, the mother of the whole family prepares a simple meal for her husband and her beloved children, who will return weary from the day’s work; she takes care of milking her cows and her ewes, and we see streams of milk flowing; she makes a big fire, around which all the innocent, peaceful family takes pleasure in singing, the whole evening long, while waiting for sweet sleep. She prepares cheeses, sweet chestnuts and fruits preserved with the same freshness as if they had just been picked. The shepherd returns with his flute, and sings to the assembled family the songs he has learned in neighbouring hamlets. The ploughman returns with his plough, and his weary oxen walk, necks bowed, with slow and tardy tread, despite the goad that pricks them. All toil’s evils end with the day. Sleep soothes black care with its spell, and holds all nature in a sweet enchantment; each one falls asleep without foreseeing the morrow’s troubles.</ab>
+<ab rend="indent">It’s especially nice if one imagines it illustrated by the etchings of <rs type="pers" key="1117">Jacque</rs>.</ab>
+                <vg:whiteline/>
+                <ab>Your postcard just arrived, fortunately, thanks for the quick reply, I sincerely hope that you had a good Sunday. <rs type="pers" key="438 439">Fan and Bet ’s Graeuwen</rs> and <rs type="pers" key="419">Bertha van Gogh</rs> are still here and are flowers in the house, Bertha, in particular, is a nice girl. Give my regards to your housemates, and accept in thought a handshake from</ab>
+<vg:whiteline/>
+<ab>Your most loving brother,</ab>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<ab>Couldn’t get a money order so have to send it back to you in stamps.<anchor n="34" xml:id="note-t-34"/>
+                </ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>
+                        <rs type="pers" key="412">Anna</rs> was a lady companion in Hengelo; <ref target="let107.xml#n-4">see letter 107, n. 4.</ref>
+                    </ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>An allusion to <bibleref xmlns="http://www.vangoghletters.org/ns/" book="1 Cor" chap="13" v="8">1 Cor. 13:8</bibleref>.</ab>
+                </note>
+<note n="a" xml:id="n-a" target="#note-o-a">
+<ab>Read: ‘brings’.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>This echoes several biblical passages, such as <bibleref xmlns="http://www.vangoghletters.org/ns/" book="1 Pet" chap="4" v="8">1 Pet. 4:8</bibleref>, <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Eph" chap="4" v="2">Eph. 4:2</bibleref>, <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Col" chap="3" v="13">Col. 3:13</bibleref> and Christ’s words ‘thy faith hath made thee whole’ in <vg:bibleref book="Matt" chap="9" v="22">Matt. 9:22</vg:bibleref>, <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Mark" chap="5" v="34">Mark 5:34</bibleref>, <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Mark" chap="10" v="52">Mark 10:52</bibleref>, <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Luke" chap="7" v="50">Luke 7:50</bibleref>, <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Luke" chap="8" v="48">Luke 8:48</bibleref>, <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Luke" chap="17" v="19">Luke 17:19</bibleref> and <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Luke" chap="18" v="42">Luke 18:42</bibleref>.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>With regard to this exhibition, <ref target="let125.xml#n-3">see letter 125, n. 3.</ref>
+                    </ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>Theo must have told his parents of Vincent’s refusal to visit him, as emerges from the explanation given by <rs type="pers" key="526">Mr van Gogh</rs>: ‘It’s a pity that Vincent cannot decide to visit you, the more so because you wanted to make it possible for him by sending him money, which he has now sent back.</ab>
+<ab rend="indent">There might be a human reason behind it, which one can indeed appreciate. I imagine that as long as he is not actually a student, that is until he hears that he has amounted to something, it could well hurt his feelings a bit to present himself now in The Hague to those who knew him before. If once he succeeds in passing an examination, thereby giving proof of actual competence, then he will feel that he has acquitted himself in the eyes of the public. I can understand that feeling to some extent ... I should like him to have a more cheerful tone and also hope that he won’t keep himself too aloof from normal life. He must also apply himself quite seriously to conversation. But I’d like to say to you: do not take it amiss and continue to help him, and if he cannot now decide to come and visit you, go and see him, if you can manage it. You would certainly be doing good, and do remain on an intimate footing with him. He has such urgent need of it.</ab>
+<ab rend="indent">It is really a formidable task that he has taken upon himself, and it seems that he has started by applying himself to it with all seriousness and not without success.</ab>
+<ab rend="indent">He has recently seen many members of the family at <rs type="pers" key="410">Uncle Jan</rs>’s and occasionally experienced stressful days there’ (FR b2551, 16 August 1877).</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>For <rs type="pers" key="422">Uncle Cor</rs>’s villa at Baarn, <ref target="let158.xml#n-11">see letter 158, n. 11.</ref>
+                    </ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>
+                        <rs type="pers" key="524">Mrs van Gogh</rs> did not approve of Vincent’s decision: ‘I was very sorry that Vincent did not accept your good intention. It is not the same thing, going to Baarn or going to see you, but it’s possible he’ll shrink from the idea until he has progressed further, but even so, he should say it plainly, because then I’d be able to understand it. Do continue to write to him faithfully’ (FR b2552, 22 August 1877).</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Ps" chap="82" v="4">Ps. 82:4</bibleref>.</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Luke" chap="12" v="21">Luke 12:21</bibleref>.</ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Luke" chap="10" v="42">Luke 10:42</bibleref>.</ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Isa" chap="54" v="11">Isa. 54:11</bibleref>, ‘O thou afflicted, tossed with tempest, and not comforted’. The tenor of this passage is in keeping with the parental concern for children of which Van Gogh speaks.</ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+<ab>The saying ‘Media vita in morte sumus’ comes from the 11th-century hymn <hi rend="ital">Antiphona de morte</hi>; cf. also the beginning of <rs type="pers" key="569">Dante Alighieri</rs>’s <hi rend="ital">Divine comedy</hi>.</ab>
+                </note>
+  <note n="13" xml:id="n-13" target="#note-t-13">
+<ab>
+                        <rs type="pers" key="761">Caroline van Stockum-Haanebeek</rs> most likely had tuberculosis. The Van Gogh family felt for her and feared for her life: ‘How terrible for Caroline Haanebeek, it will certainly end badly; the poor people, who watch her wasting away like that’ (FR b2561, 6 October 1877). ‘Poor Caroline Haanebeek. She wrote such a sweet letter. It is often the most delicate plants that cannot withstand raw weather!’ (b2564, 1 November 1877). In fact Caroline lived until 1926.</ab>
+                </note>
+<note n="14" xml:id="n-14" target="#note-t-14">
+<ab>Namely <rs type="pers" key="445">Annet Haanebeek</rs>; <ref target="let033.xml">see letters 33</ref> and <ref target="let035.xml">35</ref>.</ab>
+                </note>
+<note n="15" xml:id="n-15" target="#note-t-15">
+<ab>Biblical; see, for example, <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Matt" chap="6" v="4">Matt. 6:4</bibleref>, <vg:bibleref book="Matt" chap="6" v="6">6:6</vg:bibleref> and <vg:bibleref book="Matt" chap="6" v="18">6:18</vg:bibleref>.</ab>
+                </note>
+<note n="16" xml:id="n-16" target="#note-t-16">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Matt" chap="7" v="7">Matt. 7:7</bibleref> and <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Luke" chap="11" v="9">Luke 11:9</bibleref>.</ab>
+                </note>
+<note n="17" xml:id="n-17" target="#note-t-17">
+<ab>Possibly an allusion to ‘<rs type="lit" key="15">Der Spinnerin Nachtlied</rs>’ by <rs type="pers" key="31">Clemens Brentano</rs>; <ref target="let018.xml#n-1">see letter 18, n. 1.</ref>
+                    </ab>
+                </note>
+<note n="18" xml:id="n-18" target="#note-t-18">
+<ab>The poem ‘<rs type="lit" key="9">Der Wirthin Töchterlein</rs>’ by <rs type="pers" key="841">Ludwig Uhland</rs>; <ref target="let014.xml#n-15">see letter 14, n. 15.</ref>
+                    </ab>
+                </note>
+<note n="19" xml:id="n-19" target="#note-t-19">
+<ab>Taken from <rs type="pers" key="696">Henry Wadsworth Longfellow</rs>’s poem ‘<rs type="lit" key="146">My lost youth</rs>’ (verse 8) as it appears in the volume <hi rend="ital">Birds of passage</hi>. See Longfellow 1886-1891, vol. 3, pp. 41-44. </ab>
+                </note>
+<note n="20" xml:id="n-20" target="#note-t-20">
+<ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Luke" chap="9" v="62">Luke 9:62</bibleref>.</ab>
+                </note>
+<note n="21" xml:id="n-21" target="#note-t-21">
+<ab>A saying based on <bibleref xmlns="http://www.vangoghletters.org/ns/" book="1 Kings" chap="2" v="2">1 Kings 2:2</bibleref>.</ab>
+                </note>
+<note n="22" xml:id="n-22" target="#note-t-22">
+<ab>For the print after <rs type="pers" key="1333">Jacob van Ruisdael</rs>, <rs type="ill" key="1671">
+                            <hi rend="ital">The bleaching fields at Overveen</hi>
+                        </rs>, cf. <ref target="let037.xml#n-3">letter 37, n. 3.</ref>
+                    </ab>
+                </note>
+<note n="23" xml:id="n-23" target="#note-t-23">
+<ab>
+                        <rs type="pers" key="761">Caroline van Stockum-Haanebeek</rs> had gone to live outside The Hague (FR b2552).</ab>
+                </note>
+<note n="24" xml:id="n-24" target="#note-t-24">
+<ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Matt" chap="5" v="16">Matt. 5:16</bibleref>.</ab>
+                </note>
+<note n="25" xml:id="n-25" target="#note-t-25">
+<ab>An allusion to the words spoken by the daughter of Pharaoh to the wet-nurse of the suckling Moses. See <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Exod" chap="2" v="9">Exod. 2:9</bibleref>, ‘Take this child away, and nurse it for me, and I will give thee thy wages’.</ab>
+                </note>
+<note n="26" xml:id="n-26" target="#note-t-26">
+<ab>The early service attended by Vincent at 7 a.m. on 5 August could have been either the one conducted by the <rs type="pers" key="455">Rev. J.P. Hasebroek</rs> in the Noorderkerk or the service taken by the <rs type="pers" key="1689">Rev. Ph.J. Hoedemaker</rs> in the Zuiderkerk.</ab>
+                </note>
+<note n="27" xml:id="n-27" target="#note-t-27">
+  <ab>
+                        <rs type="pers" key="976">Charles-François Daubigny</rs>, <hi rend="ital">Le pont Marie </hi>(The Marie bridge). Lithograph by <rs type="pers" key="1422">Emile Louis Vernier</rs>, 1870 (Bordeaux, Musée Goupil). <rs type="ill" key="1844">Ill. 1844</rs>. Which woodcut (or rather wood engraving) Van Gogh is referring to here has not been ascertained.</ab>
+                </note>
+<note n="28" xml:id="n-28" target="#note-t-28">
+<ab>One of the shops where ‘sea-charts, books and instruments’ were sold was located at the corner of Nieuwebrugsteeg and the quay; at Warmoesstraat 96 was the printing house of De Roever-Kröber-Bakels (UBA, Bibliotheek van de Koninklijke Vereniging ter Bevordering van de Belangen des Boekhandels, sub Weduwe van Keulen; and <hi rend="ital">Adresboek Amsterdam</hi>). </ab>
+                </note>
+<note n="b" xml:id="n-b" target="#note-o-b">
+<ab>Provisions and food taken on sea voyages.</ab>
+                </note>
+<note n="29" xml:id="n-29" target="#note-t-29">
+<ab>
+                        <rs type="pers" key="806 776">Christoffel and Kee Vos</rs> lived at Prinsengracht 158, opposite the Westerkerk.</ab>
+                </note>
+<note n="30" xml:id="n-30" target="#note-t-30">
+<ab>On 5 August, <rs type="pers" key="681">Jan Jacob Lodewijk ten Kate</rs> conducted the 10 a.m. service in the Eilandskerk. The publications mentioned are the song <rs type="lit" key="147">
+                            <hi rend="ital">De schepping, een gedicht</hi>
+                        </rs> (Creation, a Poem). Utrecht 1866, reprinted in 1867 and 1869, and the recently published <rs type="lit" key="148">
+                            <hi rend="ital">Bij brood en beker. Stemmen des Avondmaals</hi>
+                        </rs> (Bread and cup. Voices from the Lord’s Supper). Amsterdam 1876.</ab>
+<ab rend="indent">In <rs type="lit" key="147">
+                            <hi rend="ital">De schepping</hi>
+                        </rs>, Ten Kate attempted to reconcile the results of recent discoveries in the field of geology and the teachings of the Bible. <rs type="pers" key="53">Laurillard</rs>, with whom Van Gogh often attended church, praised the book. Bij brood en beker is a ‘guide’ for families wishing to celebrate the Lord’s Supper, and is aimed especially at the younger members of the congregation who wish to profess their faith. The book alternates between poems and songs (by E. Laurillard, <rs type="pers" key="1690">N. Beets</rs>, <rs type="pers" key="73">R. Feith</rs> and others), biblical passages, and pieces of prose by various authors, including <rs type="pers" key="574">Claudius</rs>, <rs type="pers" key="679">Thomas a Kempis</rs>, <rs type="pers" key="597">Fénelon</rs>, <rs type="pers" key="1660">Spurgeon</rs>, <rs type="pers" key="455">J.P. Hasebroek</rs> and of course Ten Kate himself. Van Gogh read all these writers.</ab>
+                </note>
+<note n="31" xml:id="n-31" target="#note-t-31">
+<ab>The apostle Paul.</ab>
+                </note>
+<note n="32" xml:id="n-32" target="#note-t-32">
+<ab>
+                        <rs type="pers" key="725">Karl Georg von Raumer</rs>, <rs type="lit" key="149">
+                            <hi rend="ital">Palästina</hi>
+                        </rs> (Palestine). The first four editions were all published in Leipzig, in 1835, 1838, 1850 and 1860: <hi rend="ital">Palästina</hi>. With maps. In the meantime a Dutch translation had also appeared: <hi rend="ital">Palestina</hi>. With a map of Palestine. Translation after the fourth edition ... from the German by <rs type="pers" key="1699">Daniël Koorders</rs>. Utrecht 1867.</ab>
+                </note>
+<note n="33" xml:id="n-33" target="#note-t-33">
+<ab>The passage quoted was taken (with several small departures from the source text) from <rs type="pers" key="597">Fénelon</rs>’s <rs type="lit" key="143">
+                            <hi rend="ital">Les aventures de Télémaque</hi>
+                        </rs> (The adventures of Telemachus). See Fénelon 1995, pp. 223-224 (book 10). Van Gogh added ‘avec amour’ <ref target="#l-77">(l. 77)</ref>.</ab>
+                </note>
+<note n="34" xml:id="n-34" target="#note-t-34">
+<ab>The sentence added in pencil was most likely written at the post office. It refers to the receipt of the postal order, which Vincent wanted to send back to Theo <ref target="#l-14">(ll. 14-15)</ref>.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,987 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Isleworth, between about Saturday, 2 and Friday, 8 September 1876.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let090"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">090</idno>
+<idno type="collectedletters">82a-1</idno>
+<idno type="brieven1990">090</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Isleworth</vg:placeLet>
+                        <vg:dateLet>between about Saturday, 2 and Friday, 8 September 1876</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. Isleworth, between about Saturday, 2 and Friday, 8 September 1876.</p>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b99 V/1962 (sheet 1), and inv. no. b97 a V/1962 (sheet 2)</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>The most important indication of when this letter was written is the remark ‘If you can, send a Carte de visite to Ma on her birthday’ <ref target="#l-263">(l. 263)</ref>. This implies that the letter was written at least two days before Mrs van Gogh’s birthday on 10 September, i.e. on Friday, 8 September at the latest. Vincent’s request that Theo send ‘that page from Michelet’ <ref target="#l-34">(l. 34)</ref> seems to be a repetition of the question posed in <ref target="let089.xml#l-251">letter 89 (ll. 251-253)</ref>. Thus the present letter, which was most likely written around the beginning of September, is here dated to between about Saturday, 2 and Friday, 8 September 1876.</p>
+                    </note>
+<note type="arrangement" xml:id="arrangement">
+<p>The letter differs from the version in <hi rend="ital">De brieven</hi> 1990, in which one of two sides (both containing writing) of a loose sheet was included with the present letter. The other side was printed with the incomplete letter formerly numbered 89 [82a]. We have appended all of these fragments to <ref target="let089.xml">letter 89</ref>.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0099" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000105_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000105_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000105_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000105_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000105_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000105_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="VGM001000105_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000105_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000105_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0099" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000105_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000105_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000105_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000105_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000105_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000105_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000105_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000105_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000105_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0097 a" xml:id="surf-pb-2r">
+            <graphic mimeType="image/tiff" url="VGM001000101_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-2r-5">
+<graphic mimeType="image/tiff" url="VGM001000101_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000101_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000101_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0097 a" xml:id="surf-pb-2v">
+            <graphic mimeType="image/tiff" url="VGM001000101_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-2v-6">
+<graphic mimeType="image/tiff" url="VGM001000101_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000101_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000101_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Waarde Theo</ab>
+                <lb n="2" xml:id="l-2"/>
+<ab>Dank voor Uw brief van heden morgen.─ Er zijn uren <lb n="3" xml:id="l-3"/>en dagen en tijden in het leven waarin God als het <lb n="4" xml:id="l-4"/>ware zijn aangezicht verbergt,<anchor n="1" xml:id="note-o-1"/> maar voor hen die <lb n="5" xml:id="l-5"/>God liefhebben zijn ook die tijden, die droevige tijden, <lb n="6" xml:id="l-6"/>niet geheel zonder God, maar als vol profetieen <lb n="7" xml:id="l-7"/>voor de toekomst en vol stemmen uit het verleden: <lb n="8" xml:id="l-8"/>“tot hiertoe heeft de Heer U gebragt”,<anchor n="2" xml:id="note-o-2"/> “voed het <lb n="9" xml:id="l-9"/>oud vertrouwen weder”<c type="kp">_</c>
+                    <anchor n="3" xml:id="note-o-3"/>
+                </ab>
+                <lb n="10" xml:id="l-10"/>
+<ab rend="indent">Mochten U soms dingen gebeuren waarop Gij niet <lb n="11" xml:id="l-11"/>gerekend hadt<c type="kk">/</c> versterk dan in U de droefheid naar <lb n="12" xml:id="l-12"/>God<anchor n="4" xml:id="note-o-4"/> en de stem: “Abba Vader”<c type="kp">_</c>
+                    <anchor n="5" xml:id="note-o-5"/>
+                </ab>
+                <lb n="13" xml:id="l-13"/>
+<ab rend="indent">Het was een herfstdag en ik stond op de stoep van <lb n="14" xml:id="l-14"/>de school van den Heer Provily<anchor n="6" xml:id="note-o-6"/> het rijtuig waarin <lb n="15" xml:id="l-15"/>Pa en Moe naar huis reden na te kijken.</ab>
+                <lb n="16" xml:id="l-16"/>
+<ab rend="indent">Dat geele karretje zag men in de verte op den <lb n="17" xml:id="l-17"/>langen weg, nat na den regen, met dunne boomen <lb n="18" xml:id="l-18"/>aan weerskanten, die door de weilanden heenloopt<c type="kp">_</c> <lb n="19" xml:id="l-19"/>De grijze lucht boven alles, spiegelde in de plassen. <lb n="20" xml:id="l-20"/>En een dag of 14 later stond ik op een avond in <lb n="21" xml:id="l-21"/>een hoek van de speelplaats toen men mij kwam <lb n="22" xml:id="l-22"/>zeggen dat er iemand was die naar mij vroeg <lb n="23" xml:id="l-23"/>en ik wist wie het was en een oogenblik later viel <lb n="24" xml:id="l-24"/>ik mijn Vader om den hals. Wat ik voelde, zou het <lb n="25" xml:id="l-25"/>niet geweest zijn “Omdat gij kinderen zijt heeft God <lb n="26" xml:id="l-26"/>den geest Zijns zoons in uwe harten uitgezonden, die <lb n="27" xml:id="l-27"/>in ons roept ‘Abba Vader’”<c type="kp">_</c>
+                    <anchor n="7" xml:id="note-o-7"/> Het was een oogenblik <lb n="28" xml:id="l-28"/>waarop wij beiden voelden dat wij een Vader in de hemelen <lb n="29" xml:id="l-29"/>hebben; want ook mijn Vader zag naar boven en in zijn hart <lb n="30" xml:id="l-30"/>was eene grootere stemme dan de mijne die riep: “Abba Vader”<c type="kp">_</c>
+                </ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="37" xml:id="l-37"/>
+<ab>Tusschen dat oogenblik en heden liggen de jaren <lb n="38" xml:id="l-38"/>der vreemdelingschappen<c type="kp">_</c>─<anchor n="8" xml:id="note-o-8"/> Daar is een woord dat met <lb n="39" xml:id="l-39"/>ons medegaat en als het ware met ons opgroeit ─ dat <lb n="40" xml:id="l-40"/>is<c type="kk">/</c> Droevig maar altijd blijde.─<anchor n="9" xml:id="note-o-9"/> Daar is het <lb n="41" xml:id="l-41"/>gebed eener Moeder voor Hare kinderen <lb n="42" xml:id="l-42"/>dat zeer machtig is, want het gebed <lb n="43" xml:id="l-43"/>van eene rechtvaardige vermag veel:<anchor n="10" xml:id="note-o-10"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="44" xml:id="l-44"/>
+<ab>Vader ik bid U niet dat Gij hen uit de wereld <lb n="45" xml:id="l-45"/>wegneemt maar dat Gij hen bewaart voor <lb n="46" xml:id="l-46"/>den booze.─<anchor n="11" xml:id="note-o-11"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="47" xml:id="l-47"/>
+<ab>Daar is eene trouwe Vaderhand die <lb n="48" xml:id="l-48"/>ons zegende toen wij het ouderlijk <lb n="49" xml:id="l-49"/>huis verlieten.─</ab>
+                <lb n="50" xml:id="l-50"/>
+<ab rend="indent">En dan jongen<c type="kk">/</c> ik zei het reeds vroeger<c type="kk">/</c> daar is het sterk <lb n="51" xml:id="l-51"/>verlangen naar de dagen waarin Hij de ongeregtig<c type="shy">-</c>
+                    <lb n="52" xml:id="l-52"/>heden der jeugd<anchor n="12" xml:id="note-o-12"/> niet meer gedenken zal. <lb n="52a" xml:id="l-52a"/>Wie heeft lust <lb n="52b" xml:id="l-52b"/>in grijze haren?</ab>
+                <lb n="53" xml:id="l-53"/>
+<ab rend="indent">Zoover het Oosten is van het Westen<c type="kk">/</c> zoo ver doe Ik uwe <lb n="54" xml:id="l-54"/>overtredingen van u.<anchor n="13" xml:id="note-o-13"/> Al waren Uwe zonden als schar<c type="shy">-</c>
+                    <lb n="55" xml:id="l-55"/>laken<c type="kk">/</c> Ik zal ze wit maken als sneeuw.<anchor n="14" xml:id="note-o-14"/>
+                </ab>
+                <lb n="56" xml:id="l-56"/>
+<ab rend="indent">Zoo wie niet haat zijn eigen leven die kan Christus’ <lb n="57" xml:id="l-57"/>discipel niet zijn.<anchor n="15" xml:id="note-o-15"/> Dit stuurde Pa mij eens<c type="kk">/</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="58" xml:id="l-58"/>
+<ab>
+                    <hi rend="ital">Zucht naar heiliging</hi>
+                    <anchor n="16" xml:id="note-o-16"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="59" xml:id="l-59"/>
+<ab>Wie zal voor immer en volkomen ons bevrijden</ab>
+                <lb n="60" xml:id="l-60"/>
+<ab>Van ’t ligchaam dezes doods gebogen onder ’t juk</ab>
+                <lb n="61" xml:id="l-61"/>
+<ab>Hoe lang moet ik mij zelven nog bestrijden</ab>
+                <lb n="62" xml:id="l-62"/>
+<ab>Eer ik dit hart der zonde dienst ontruk.</ab>
+<vg:whiteline/>
+                <lb n="63" xml:id="l-63"/>
+<ab>Ik had aan God beloofd dat Hij mijn God zou heeten</ab>
+                <lb n="64" xml:id="l-64"/>
+<ab>Dat ik Hem volgen zou met onverdeeld gemoed</ab>
+                <lb n="65" xml:id="l-65"/>
+<ab>Ik werd beproefd ─ Daar was mijn eed vergeten</ab>
+                <lb n="66" xml:id="l-66"/>
+<ab>Ik werd verzocht ─ Daar wankelde mijn voet</ab>
+<vg:whiteline/>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                <lb n="70" xml:id="l-70"/>
+<ab>Neen niet in eigen kracht zal ik verwinnen leeren</ab>
+                <lb n="71" xml:id="l-71"/>
+<ab>Beken uw zwakte o ziel, en zelfbedrog, verdwijn!</ab>
+                <lb n="72" xml:id="l-72"/>
+<ab>De Vader moet het kinderhart formeeren</ab>
+                <lb n="73" xml:id="l-73"/>
+<ab>De Meester moet des leerlings leidsman zijn</ab>
+<vg:whiteline/>
+                <lb n="74" xml:id="l-74"/>
+<ab>Welaan dan Vader! laat Uw liefde mij bekwamen</ab>
+                <lb n="75" xml:id="l-75"/>
+<ab>Mijn Meester grijp mijn hand, en toon mij Uw banier</ab>
+                <lb n="76" xml:id="l-76"/>
+<ab>Ik stond alleen ─ en viel: nu gaan wij zamen</ab>
+                <lb n="77" xml:id="l-77"/>
+<ab>’k Bezweek, Gij strijdt mij voor, en ’k zegevier.─</ab>
+<vg:whiteline/>
+                <lb n="78" xml:id="l-78"/>
+<ab>Eerst nu voel ik mij sterk, nu ik mij zwak gevoele</ab>
+                <lb n="79" xml:id="l-79"/>
+<ab>Onmachtig in mij zelf, Almachtig in den Heer!</ab>
+                <lb n="80" xml:id="l-80"/>
+<ab>De zonde lokke, de booze hartstocht woele,</ab>
+                <lb n="81" xml:id="l-81"/>
+<ab>Gij, God in mij! werpt elken vijand neer.─</ab>
+<vg:whiteline/>
+                <lb n="82" xml:id="l-82"/>
+<ab>Ik ben bedroefd, maar ’t is een goddelijke smarte</ab>
+                <lb n="83" xml:id="l-83"/>
+<ab>Een nachtwolk ─ maar omzoomd met hemelsch morgenrood</ab>
+                <lb n="84" xml:id="l-84"/>
+<ab>Ik ween, o God! maar met de vreugd in ’t harte</ab>
+                <lb n="85" xml:id="l-85"/>
+<ab>Ik buig het hoofd ─ maar Vader in Uw schoot.─</ab>
+<vg:whiteline/>
+                <lb n="86" xml:id="l-86"/>
+<ab>Wie heeft lust in grijze haren? Wie ziet er achter heen <lb n="87" xml:id="l-87"/>even als Felix Holt achter het woord mislukking?<anchor n="17" xml:id="note-o-17"/>
+                </ab>
+                <lb n="88" xml:id="l-88"/>
+<ab rend="indent">Wie ziet dat dan wanneer het eerste leven, het leven <lb n="89" xml:id="l-89"/>van de jeugd en jongelingsjaren, dat leven van wereld<c type="shy">-</c>
+                    <lb n="90" xml:id="l-90"/>vreugde en ijdelheid, tegen wil en dank, verdort, en <lb n="91" xml:id="l-91"/>het zal verdorren even als de bloesem van de boomen <lb n="92" xml:id="l-92"/>afvalt, er een ander leven krachtig opschiet, het leven <lb n="93" xml:id="l-93"/>van de liefde tot Christus die dringt<anchor n="18" xml:id="note-o-18"/> en der droefheid naar God die onberouwelijk is<c type="kp">_</c>
+                    <anchor n="19" xml:id="note-o-19"/> <lb n="94" xml:id="l-94"/>hoe wij dan in onze diepe afhankelijkheid van God, <lb n="95" xml:id="l-95"/>en in het duidelijk en levendig gevoel daarvan meer <lb n="96" xml:id="l-96"/>genade vinden in Zijne oogen,<anchor n="20" xml:id="note-o-20"/> die te rein zijn dan dat <lb n="97" xml:id="l-97"/>zij het kwade zien zouden,<anchor n="21" xml:id="note-o-21"/> en Hij ons dan, in onze <lb n="98" xml:id="l-98"/>zwakheid veiliger kan en wil toevertrouwen, Zijn <lb n="99" xml:id="l-99"/>heiligen Geest die levend maakt<anchor n="22" xml:id="note-o-22"/> en dringt tot goede <lb n="100" xml:id="l-100"/>werken.─<anchor n="23" xml:id="note-o-23"/> Wie heeft er lust in het verdere leven? Wie <lb n="101" xml:id="l-101"/>heeft lust in grijze haren, wie heeft lust in droevig <lb n="102" xml:id="l-102"/>maar altijd blijde,<anchor n="24" xml:id="note-o-24"/> getuchtigd maar niet gedood tot <lb n="103" xml:id="l-103"/>“stervende maar zie wij leven”<anchor n="25" xml:id="note-o-25"/> toe<c type="kp">_</c> Wie heeft lust in <lb n="104" xml:id="l-104"/>vallen: en weer opstaan met langmoedigheid en <lb n="105" xml:id="l-105"/>zachtmoedigheid.─<anchor n="26" xml:id="note-o-26"/> Wie heeft lust in het groen van <lb n="106" xml:id="l-106"/>de mastboomen en ceder en klimop en hulst en mos <lb n="107" xml:id="l-107"/>in den winter.─ Dor hout <hi rend="ital">geeft</hi> meer warmte, <lb n="108" xml:id="l-108"/>helder vuur en licht, als het aangestoken wordt<c type="kk">/</c> dan <lb n="109" xml:id="l-109"/>het groene.─ Daar is in de Liefde geene vrees maar de <lb n="110" xml:id="l-110"/>volmaakte liefde sluit de vrees buiten.─<anchor n="27" xml:id="note-o-27"/>
+                </ab>
+<vg:whiteline/>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                <lb n="116" xml:id="l-116"/>
+<ab>Vader onder al mijn nooden</ab>
+                <lb n="117" xml:id="l-117"/>
+<ab>Vader onder heil en straf</ab>
+                <lb n="118" xml:id="l-118"/>
+<ab>Vader ook in ’t rijk der dooden</ab>
+                <lb n="119" xml:id="l-119"/>
+<ab>Vader ook in ’t zwijgend graf</ab>
+                <lb n="120" xml:id="l-120"/>
+<ab>Waar ik ooit verandring schouwe</ab>
+                <lb n="121" xml:id="l-121"/>
+<ab>Gij o God houdt eeuwig stand</ab>
+                <lb n="122" xml:id="l-122"/>
+<ab>Ook mijn stof rust op Uw trouwe</ab>
+                <lb n="123" xml:id="l-123"/>
+<ab>Sluimert in Uw Vaderhand</ab>
+<vg:whiteline/>
+                <lb n="132" xml:id="l-132"/>
+<ab>Snelt dan jaren<c type="kk">/</c> snelt vrij henen</ab>
+                <lb n="133" xml:id="l-133"/>
+<ab>Met Uw blijdschap en verdriet</ab>
+                <lb n="134" xml:id="l-134"/>
+<ab>Welk een ramp ik moog’ beweenen</ab>
+                <lb n="135" xml:id="l-135"/>
+<ab>God mijn God verandert niet<c type="kp">_</c>
+                    <anchor n="28" xml:id="note-o-28"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="136" xml:id="l-136"/>
+<ab>Zitten wij in treurig duister</ab>
+                <lb n="137" xml:id="l-137"/>
+<ab>Nog behoud dat eeuwig licht</ab>
+                <lb n="138" xml:id="l-138"/>
+<ab>Al zijn glans en al Zijn luister</ab>
+                <lb n="139" xml:id="l-139"/>
+<ab>Waardig aller lof en dicht.<anchor n="29" xml:id="note-o-29"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="124" xml:id="l-124"/>
+<ab>Ik weet aan Wien ik mij vertrouwe</ab>
+                <lb n="125" xml:id="l-125"/>
+<ab>Al wisselen ook dag en nacht</ab>
+                <lb n="126" xml:id="l-126"/>
+<ab>Ik ken de rots waarop ik bouwe</ab>
+                <lb n="127" xml:id="l-127"/>
+<ab>Hij feilt niet die mijn heil verwacht</ab>
+                <lb n="128" xml:id="l-128"/>
+<ab>Eens aan den avond van mijn leven</ab>
+                <lb n="129" xml:id="l-129"/>
+<ab>Breng ik van Zorg en Strijden moe</ab>
+                <lb n="130" xml:id="l-130"/>
+<ab>Voor elken dag mij hier gegeven</ab>
+                <lb n="131" xml:id="l-131"/>
+<ab>U hooger reiner loflied toe.─<anchor n="30" xml:id="note-o-30"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="140" xml:id="l-140"/>
+<ab>O mijn ziel wat buigt Ge u neder</ab>
+                <lb n="141" xml:id="l-141"/>
+<ab>Waarom zijt ge in mij ontrust</ab>
+                <lb n="142" xml:id="l-142"/>
+<ab>Voed het oud vertrouwen weder</ab>
+                <lb n="143" xml:id="l-143"/>
+<ab>Zoek in s’Hoogsten lof Uw lust</ab>
+                <lb n="144" xml:id="l-144"/>
+<ab>Menigwerf heeft Hij Uw druk</ab>
+                <lb n="145" xml:id="l-145"/>
+<ab>Doen verandren in geluk</ab>
+                <lb n="146" xml:id="l-146"/>
+<ab>Hoop op Hem<c type="kk">/</c> sla ’t oog naar boven</ab>
+                <lb n="147" xml:id="l-147"/>
+<ab>Want ik zal mijn God nog loven.<anchor n="31" xml:id="note-o-31"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="148" xml:id="l-148"/>
+<ab>En bovenal hebt vurige liefde onder elkander, want de <lb n="149" xml:id="l-149"/>liefde zal menigte van zonden bedekken<c type="kp">_</c>
+                    <anchor n="32" xml:id="note-o-32"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="150" xml:id="l-150"/>
+<ab>Waar Liefde woont<c type="kk">/</c> gebied den Heer zijn zegen<c type="kp">_</c> <lb n="151" xml:id="l-151"/>Daar woont Hij zelf daar wordt Zijn heil verkregen, en</ab>
+                <lb n="152" xml:id="l-152"/>
+<ab>’t leven tot in eeuwigheid.─<anchor n="33" xml:id="note-o-33"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="152*" xml:id="l-152s"/>
+<ab>Laat ons Liefde hebben onder <lb n="153" xml:id="l-153"/>elkander opdat God onze Liefde vermeerdere en versterke<anchor n="34" xml:id="note-o-34"/> <lb n="154" xml:id="l-154"/>en heb liefde om U heen en als er soms geen menschen <lb n="155" xml:id="l-155"/>zijn die gij genoeg lief kunt hebben, heb dan de stad <lb n="156" xml:id="l-156"/>lief waar Gij woont, gelijk gij ook doet, heb ik Parijs <lb n="157" xml:id="l-157"/>en Londen niet lief al ben ik een kind van de <lb n="158" xml:id="l-158"/>mastbosschen en van dat strand te Ramsgate.─</ab>
+                <lb n="159" xml:id="l-159"/>
+<ab rend="indent">En tracht de armen te behagen<anchor n="35" xml:id="note-o-35"/> en genade in hunne oogen <lb n="160" xml:id="l-160"/>te vinden.─<anchor n="36" xml:id="note-o-36"/>
+                </ab>
+                <lb n="161" xml:id="l-161"/>
+<ab rend="indent">“Versterk Uw hart”<c type="kp">_</c>
+                    <anchor n="37" xml:id="note-o-37"/> “Omdat Gij kinderen zijt<c type="kk">/</c> heeft God den <lb n="162" xml:id="l-162"/>geest Zijns Zoons in onze harten uitgezonden die in ons <lb n="163" xml:id="l-163"/>roept ‘Abba Vader’”<c type="kp">_</c>
+                    <anchor n="38" xml:id="note-o-38"/>
+                </ab>
+                <lb n="164" xml:id="l-164"/>
+<ab rend="indent">Zoo wie niet heeft liefgehad heeft God niet gekend want <lb n="165" xml:id="l-165"/>God is Liefde.<anchor n="39" xml:id="note-o-39"/> En dit is het eeuwige leven<c type="kk">/</c> God te kennen <lb n="166" xml:id="l-166"/>en Christus dien Hij gezonden heeft.<anchor n="40" xml:id="note-o-40"/> <lb n="166a" xml:id="l-166a"/>Daar is in de liefde <lb n="166b" xml:id="l-166b"/>geene vrees.─<anchor n="41" xml:id="note-o-41"/>
+                </ab>
+                <lb n="167" xml:id="l-167"/>
+<ab rend="indent">In het huis mijns Vaders zijn vele woningen, anderszins <lb n="168" xml:id="l-168"/>zou ik het u niet gezegd hebben.<anchor n="42" xml:id="note-o-42"/>
+                </ab>
+                <lb n="169" xml:id="l-169"/>
+<ab rend="indent">En nogtans ben ik niet alleen maar de Vader is met mij<c type="kp">_</c>
+                    <anchor n="43" xml:id="note-o-43"/> <lb n="170" xml:id="l-170"/>Het is beter op den Heer te betrouwen dan op de menschen<c type="kp">_</c>
+                    <anchor n="44" xml:id="note-o-44"/> <lb n="171" xml:id="l-171"/>Het is beter te vallen in de handen des Heeren dan in <lb n="172" xml:id="l-172"/>de handen der menschen.─<anchor n="45" xml:id="note-o-45"/>
+                </ab>
+                <lb n="172a" xml:id="l-172a"/>
+<ab rend="indent">Laat Christus zijn het middelpunt van uw verlangen, den <lb n="172b" xml:id="l-172b"/>Trooster van ’t ontrust gemoed.─<anchor n="46" xml:id="note-o-46"/>
+                </ab>
+                <lb n="173" xml:id="l-173"/>
+<ab rend="indent">“Versterk uw hart”<anchor n="47" xml:id="note-o-47"/> ook in dezen zin: eet uw <hi rend="ital">brood</hi> in eenvou<c type="shy">-</c>
+                    <lb n="174" xml:id="l-174"/>digheid des harten,<anchor n="48" xml:id="note-o-48"/> ik ten minste doe dat, ik kan niet <lb n="175" xml:id="l-175"/>anders, God helpe mij, indien er gevaar is in dat te doen; <lb n="176" xml:id="l-176"/>“Vader in Uwe handen beveel ik mijn hart”<c type="kk">/</c>
+                    <anchor n="49" xml:id="note-o-49"/> eet uw brood <lb n="177" xml:id="l-177"/>maar leef eenvoudig, en rook uw pijp, dat doe ik ook als ik <lb n="178" xml:id="l-178"/>tabak heb en wandel, dat doe ik ook als ik er nu en dan <lb n="179" xml:id="l-179"/>eens uit kan breken. “En wentel Uwen weg op den Heer Hij zal het <lb n="180" xml:id="l-180"/>maken”.<anchor n="50" xml:id="note-o-50"/>
+                </ab>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+                <lb n="181" xml:id="l-181"/>
+<ab rend="indent">“Versterk uwe Liefde”<c type="kp">_</c> Wat is toch die Liefde waar <lb n="182" xml:id="l-182"/>van Paulus spreekt? wat zijn toch die wonderbare <lb n="183" xml:id="l-183"/>woorden? die ook Gij kent<c type="kk">/</c> 1 Cor. XIII.─<anchor n="51" xml:id="note-o-51"/> die Liefde is <lb n="184" xml:id="l-184"/>het leven in Christus<c type="kk">/</c> die liefde is onze Moeder<c type="kk">/</c> <lb n="185" xml:id="l-185"/>al het goede der aarde behoort haar toe, want alles <lb n="186" xml:id="l-186"/>is goed met dankzegging genoten,<anchor n="52" xml:id="note-o-52"/> maar zij <lb n="187" xml:id="l-187"/>strekt zich uit veel verder dan tot dat goede der <lb n="188" xml:id="l-188"/>aarde. Haar behoort toe een dronk uit de beek <lb n="189" xml:id="l-189"/>op eene wandeling of uit een fontein in de heete straten van Londen <lb n="190" xml:id="l-190"/>en Parijs<c type="kk">/</c> haar behoort ook toe “Ik zal uw bed <lb n="191" xml:id="l-191"/>maken in ziekte”,<anchor n="53" xml:id="note-o-53"/> “gelijk een dien zijne Moeder <lb n="192" xml:id="l-192"/>vertroost zal ik u troosten”,<anchor n="54" xml:id="note-o-54"/> haar behoort ook toe <lb n="193" xml:id="l-193"/>de trouwe tot in den dood in Christus die ons kracht <lb n="194" xml:id="l-194"/>geeft tot alles.─<anchor n="55" xml:id="note-o-55"/> Daar is een vriend die zich vaster <lb n="195" xml:id="l-195"/>klemt dan een broeder.<anchor n="56" xml:id="note-o-56"/>
+                </ab>
+                <lb n="196" xml:id="l-196"/>
+<ab rend="indent">“Versterk uwe hoop” want er is veel goeds in <lb n="197" xml:id="l-197"/>het leven, wien Christus liefheeft<c type="kk">/</c> voor dien is de <lb n="198" xml:id="l-198"/>wereld wat zij is, en alle dingen worden hem als het <lb n="199" xml:id="l-199"/>ware toegeworpen.<anchor n="57" xml:id="note-o-57"/> Wel is het waar dat veel vreugde <lb n="200" xml:id="l-200"/>reeds achter ons ligt en veel waarop wij vroeger ons <lb n="201" xml:id="l-201"/>verheugden in voorbaat en zoo er ook nog misschien <lb n="202" xml:id="l-202"/>veel vreugde vóór ons ligt<c type="kk">/</c> wij hebben het reeds gezien <lb n="203" xml:id="l-203"/>“de wereld gaat voorbij en al hare heerlijkheid”.<anchor n="58" xml:id="note-o-58"/> En zoo <lb n="204" xml:id="l-204"/>het waar is:</ab>
+<vg:whiteline/>
+                <lb n="205" xml:id="l-205"/>
+<ab>I’ve found a joy in sorrow, a secret balm for pain</ab>
+                <lb n="206" xml:id="l-206"/>
+<ab>A beautiful tomorrow of sunshine after rain</ab>
+                <lb n="207" xml:id="l-207"/>
+<ab>I’ve found a branch of healing near every bitter spring <lb n="208" xml:id="l-208"/>A whispered promise stealing o’er every broken string<c type="kk">/</c>
+                    <anchor n="59" xml:id="note-o-59"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="209" xml:id="l-209"/>
+<ab>zoo is het ook waar dat er geene vreugde is zonder ongenoeg<c type="shy">-</c>
+                    <lb n="210" xml:id="l-210"/>zaamheid.</ab>
+                <lb n="211" xml:id="l-211"/>
+<ab rend="indent">Sorrow is better than joy<anchor n="60" xml:id="note-o-60"/> and it is better to go to the house <lb n="212" xml:id="l-212"/>of mourning than to the house of feasts,<anchor n="61" xml:id="note-o-61"/> for by the sadness <lb n="213" xml:id="l-213"/>of the countenance the heart is made better.<anchor n="62" xml:id="note-o-62"/>
+                </ab>
+                <lb n="214" xml:id="l-214"/>
+<ab rend="indent">Even in mirth the heart is sad.<anchor n="63" xml:id="note-o-63"/>
+                </ab>
+                <lb n="215" xml:id="l-215"/>
+<ab rend="indent">Ik voor mij wil trachten naar de Liefde voor Christus en <lb n="216" xml:id="l-216"/>naar het werken voor Hem in mijn leven<c type="kk">/</c> al mislukt het <lb n="217" xml:id="l-217"/>en al val ik<c type="kk">/</c> zoo zal daar toch altijd nog overblijven <lb n="218" xml:id="l-218"/>het van verre staan<anchor n="64" xml:id="note-o-64"/> en eene zucht naar boven uit de <lb n="219" xml:id="l-219"/>ellende van beneden.─ Maar ik wil zoeken het geloof <lb n="220" xml:id="l-220"/>en de Liefde en blijven vragen om Gods geest onder alle omstandig<c type="shy">-</c>
+                    <lb n="221" xml:id="l-221"/>heden.─</ab>
+                <lb n="221a" xml:id="l-221a"/>
+<ab>Dit nu is mijne gelofte aan den Heer mijn God en mijne rots<c type="kp">_</c>
+                    <anchor n="65" xml:id="note-o-65"/> <lb n="221"/>Als ik verlaten ben<anchor n="66" xml:id="note-o-66"/> dan ben ik verlaten maar Hij is <lb n="222" xml:id="l-222"/>trouw en heeft lief met eene eeuwige Liefde en geeft ons de begeerte <lb n="222a" xml:id="l-222a"/>van ons hart te zijn Evergreen.</ab>
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>
+                <lb n="224" xml:id="l-224"/>
+<ab rend="indent">Lees eens in de profetien van Jesaja en Jeremia<c type="kk">/</c> Jes. 9, 11, 35; <lb n="225" xml:id="l-225"/>Jes. 40, 42, 43, 44, 45:2 en volgende verzen<c type="kk">/</c> 49<c type="kk">/</c> <hi rend="ital">53</hi>
+                    <c type="kk">/</c> <hi rend="ital">55</hi>
+                    <c type="kk">/</c> <hi rend="ital">58</hi>
+                    <c type="kk">/</c> <lb n="226" xml:id="l-226"/>
+                    <hi rend="ital">61</hi>
+                    <c type="kk">/</c> <hi rend="ital">63</hi>
+                    <c type="kk">/</c> 65;<anchor n="67" xml:id="note-o-67"/> Jer. 3, 17, 30, 31<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="227" xml:id="l-227"/>
+<ab>De Heer is uw bewaarder<c type="kk">/</c> Hij is uwe schaduw aan uwe <lb n="228" xml:id="l-228"/>regterhand<c type="kp">_</c>
+                    <anchor n="68" xml:id="note-o-68"/> Bij Hem zijn uitkomsten tegen den dood<c type="kk">/</c>
+                    <anchor n="69" xml:id="note-o-69"/> bij Hem is het <lb n="228a" xml:id="l-228a"/>eeuwige leven.<anchor n="70" xml:id="note-o-70"/>
+                </ab>
+                <lb n="229" xml:id="l-229"/>
+<ab rend="indent">Mijn jongen<c type="kk">/</c> er zullen dagen komen waarop wij niet <lb n="230" xml:id="l-230"/>meer zullen gelooven omdat wij <hi rend="ital">het</hi> hebben hooren zeggen <lb n="231" xml:id="l-231"/>maar waarop wij <hi rend="ital">het</hi> zullen weten en gevoelen <lb n="232" xml:id="l-232"/>en liefhebben. Dan zullen wij ontroerd<anchor n="71" xml:id="note-o-71"/> worden wan<c type="shy">-</c>
+                    <lb n="233" xml:id="l-233"/>neer wij den naam van God hooren uitspreken even <lb n="234" xml:id="l-234"/>als wij ontroerd worden wanneer wij onzen vader <lb n="235" xml:id="l-235"/>weerzien na lang van huis te zijn geweest.</ab>
+                <lb n="236" xml:id="l-236"/>
+<ab rend="indent">En broeders en zusters en kinderen van de pastorie <lb n="237" xml:id="l-237"/>zullen wij allen zijn, als van nieuws, en in menigerlei <lb n="238" xml:id="l-238"/>zin.─</ab>
+                <lb n="239" xml:id="l-239"/>
+<ab rend="indent">Laat ons voortgaan in het leven zoolang onze <lb n="240" xml:id="l-240"/>beenen ons dragen, al wordt ook de voet moede, <lb n="241" xml:id="l-241"/>en de verdrukking groot, en al suist het oor ook <lb n="242" xml:id="l-242"/>van het geruisch der wereld dat het reeds zooveel <lb n="243" xml:id="l-243"/>jaren lang hoorde, en al is het geheele hoofd moe, <lb n="244" xml:id="l-244"/>en den gang zwaar, laat ons voortgaan in het <lb n="245" xml:id="l-245"/>leven omdat onzen Vader en onze Moeder ons zeggen <lb n="246" xml:id="l-246"/>“ga voort en zie niet om” en als wij kunnen wel<c type="shy">-</c>
+                    <lb n="247" xml:id="l-247"/>doen onder het voortgaan<c type="kk">/</c>
+                    <anchor n="72" xml:id="note-o-72"/> laat ons het niet nalaten; <lb n="248" xml:id="l-248"/>maar toch is het meer ons hart dan ons werk dat <lb n="249" xml:id="l-249"/>God begeert. Pa en Moe zeggen “ga voort” en zij <lb n="250" xml:id="l-250"/>hebben ons lief, zei Pa niet, mijn jongen gij weet <lb n="251" xml:id="l-251"/>immers wel dat ik mijn laatste hemd voor u zou <lb n="252" xml:id="l-252"/>geven.─ Laat ons voortgaan zoolang de beenen <lb n="253" xml:id="l-253"/>ons dragen willen (en gij zult het ondervinden dat <lb n="254" xml:id="l-254"/>God den moede kracht geeft en versterkt hem die <lb n="255" xml:id="l-255"/>geene krachten heeft,<anchor n="73" xml:id="note-o-73"/> dat God ondersteunt.) want <lb n="256" xml:id="l-256"/>daar is grooter Liefde in het verschiet<c type="kk">/</c> daarom <lb n="257" xml:id="l-257"/>hebben wij lust en vertrouwen in dat verdere leven.</ab>
+                <lb n="258" xml:id="l-258"/>
+<ab rend="indent">Een handdruk in gedachten<c type="kk">/</c> het is reeds laat<c type="kk">/</c> à Dieu<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="259" xml:id="l-259"/>
+<ab>Uw zoo liefh. broer</ab>
+                <lb n="260" xml:id="l-260"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+                <lb n="261" xml:id="l-261"/>
+<ab>Nu Broêr dit is een pennevrucht en een <lb n="262" xml:id="l-262"/>hartevrucht<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="31 »" xml:id="l-31"/>
+<ab>Mijn oog, o ween niet meer, maar houdt uw tranen in</ab>
+                <lb n="32" xml:id="l-32"/>
+<ab>Mijn ziele treur niet meer, maar bidt, maar bidt, <lb n="33" xml:id="l-33"/>mijn ziel.─<anchor n="74" xml:id="note-o-74"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="35 »" xml:id="l-35"/>
+<ab>Gaat Gij wel eens naar het Avondmaal.<anchor n="75" xml:id="note-o-75"/> Zoo wie gezond zijn hebben den medicijnmeester <lb n="36" xml:id="l-36"/>niet van noode maar die ziek zijn<c type="kp">_</c>
+                    <anchor n="76" xml:id="note-o-76"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="34 »" xml:id="l-34"/>
+<ab>(Tracht die bladzijde uit Michelet te sturen.─)<anchor n="77" xml:id="note-o-77"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="67 »" xml:id="l-67"/>
+<ab>Wees niet bang om s’avonds als Gij wandelt en er niemand in de buurt is eens <lb n="68" xml:id="l-68"/>een psalm te zingen: t’Hijgend hert der jagt ontkomen,<anchor n="78" xml:id="note-o-78"/> of O mijn ziel wat buigt ge u neder,<anchor n="79" xml:id="note-o-79"/> of Middelpunt van <lb n="69" xml:id="l-69"/>ons verlangen<c type="kk">/</c>
+                    <anchor n="80" xml:id="note-o-80"/> of Ik weet aan Wien ik mij vertrouwe.─<anchor n="81" xml:id="note-o-81"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="111 »" xml:id="l-111"/>
+<ab>De jaren tusschen 20 en 30 zijn vol gevaren van allerlei aard, vol groote gevaren<c type="kk">/</c> ja gevaren <lb n="112" xml:id="l-112"/>voor zonde en dood maar ook vol licht en troost van God<c type="kp">_</c> al worstelende zult Gij boven blijven<anchor n="82" xml:id="note-o-82"/> en <lb n="113" xml:id="l-113"/>als zij voorbij zijn zult Gij er met wee<c type="shy">-</c>
+                    <lb n="114" xml:id="l-114"/>moed aan terugdenken en zeggen<c type="kk">/</c> t’was <lb n="115" xml:id="l-115"/>toch wel een goede tijd.─</ab>
+<vg:whiteline/>
+                <lb n="223 »" xml:id="l-223"/>
+<ab>Groeten bij Roos<c type="kk">/</c> Haanebeek<c type="kk">/</c> Tersteeg<c type="kk">/</c> Borchers<c type="kk">/</c> Carolien<anchor n="83" xml:id="note-o-83"/> en Mauve<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="263 »" xml:id="l-263"/>
+<ab>Als gij kunt stuur dan aan Moe op haar verjaardag een Carte de visite Nr 669<c type="kk">/</c> L’enfant prodigue van <lb n="264" xml:id="l-264"/>Scheffer.<anchor n="84" xml:id="note-o-84"/>
+                </ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note n="-">
+                        <hi rend="ital">There are several reinforcements in this letter: ascenders and descenders in l. 151, 154, 156 and 177 were gone over in pencil, while the word </hi>‘begeerte’<hi rend="ital"> written in pencil in l. 222 was strengthened with ink</hi>
+                    </note>
+<note n="-">
+                        <hi rend="ital">The sequence of the marginal postscripts is uncertain.</hi>
+                    </note>
+<note target="l-12" n="12">“Abba &lt; Abba</note>
+<note target="l-27" n="27">‘Abba Vader’”<c type="kp">_</c> &lt; “Abba Vader”</note>
+<note target="l-143" n="143">Zoek &lt; Voed  <hi rend="ital">Corresponding the original text; in the letters 92, 96 and 102 Van Gogh wrote ‘Zoek’.</hi>
+                    </note>
+<note target="l-163" n="163">‘Abba Vader’”<c type="kp">_</c> &lt; “Abba Vader”</note>
+<note target="l-203" n="203">heerlijkheid”. &lt; heerlijkheid.</note>
+<note target="l-224" n="224">profetien &lt; pofetien</note>
+<note target="l-225" targetEnd="l-226" n="225-226">
+                        <hi rend="ital">53</hi>
+                        <c type="kk">/</c> <hi rend="ital">55</hi>
+                        <c type="kk">/</c> <hi rend="ital">58</hi>
+                        <c type="kk">/</c> <hi rend="ital">63</hi>
+                        <c type="kk">/</c> &lt; <hi rend="ital">Underlined twice.</hi>
+                    </note>
+<note target="l-226" n="226">61 &lt; <hi rend="ital">Underlined three times.</hi>
+                    </note>
+<note target="l-245" n="245">zeggen &lt; zeggen”</note>
+<note target="l-31" targetEnd="l-33" n="31-33">
+                        <hi rend="ital">In the top margin of  p. 1 (</hi>Waarde <supplied>
+                            <hi rend="ital">...</hi>
+                        </supplied> Vader”<hi rend="ital">). Possibly intended as the beginning of the letter.</hi>
+                    </note>
+<note target="l-35" targetEnd="l-36" n="35-36">
+                        <hi rend="ital">In the left margin of p. 1 (</hi>Waarde <supplied>
+                            <hi rend="ital">...</hi>
+                        </supplied> Vader”<hi rend="ital">)</hi>.</note>
+<note target="l-34" n="34">
+                        <hi rend="ital">In the lower margin of  p. 1 (</hi>Waarde <supplied>
+                            <hi rend="ital">...</hi>
+                        </supplied> Vader”<hi rend="ital">)</hi>.</note>
+<note target="l-67" targetEnd="l-69" n="67-69">
+                        <hi rend="ital">In the right margin of  p. 2 (</hi>Tusschen <supplied>
+                            <hi rend="ital">...</hi>
+                        </supplied> voet<hi rend="ital">)</hi>.</note>
+<note target="l-111" targetEnd="l-115" n="111-115">
+                        <hi rend="ital">In the left margin of p. 3 (</hi>Neen <supplied>
+                            <hi rend="ital">...</hi>
+                        </supplied> buiten<hi rend="ital">)</hi>.</note>
+<note target="l-223" n="223">
+                        <hi rend="ital">In the left margin of p. 5 (</hi>“Versterk uwe Liefde” <supplied>
+                            <hi rend="ital">...</hi>
+                        </supplied> Evergreen<hi rend="ital">)</hi>.</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo,</ab>
+<ab>Thanks for your letter of this morning. There are hours and days and times in life when God hides His face,<anchor n="1" xml:id="note-t-1"/> as it were, but for those who love God even those times, those sorrowful times, are not entirely without God, but as though full of prophecies for the future and full of voices from the past: ‘hitherto hath the Lord brought you’,<anchor n="2" xml:id="note-t-2"/> ‘foster again the faith of old’.<anchor n="3" xml:id="note-t-3"/>
+                </ab>
+<ab rend="indent">If things should sometimes happen to you that you hadn’t counted on, strengthen within yourself the godly sorrow<anchor n="4" xml:id="note-t-4"/> and the voice: ‘Abba, Father’.<anchor n="5" xml:id="note-t-5"/>
+                </ab>
+<ab rend="indent">It was an autumn day and I stood on the front steps of <rs type="pers" key="576">Mr Provily</rs>’s school,<anchor n="6" xml:id="note-t-6"/> watching the carriage drive away that <rs type="pers" key="526">Pa</rs> and <rs type="pers" key="524">Ma</rs> rode home in.</ab>
+<ab rend="indent">One could see that yellow carriage in the distance on the long road – wet after the rain, with thin trees on either side – running through the meadows. The grey sky above it all was reflected in the puddles. And around a fortnight later I was standing one evening in a corner of the playground when they came to tell me that someone was asking after me, and I knew who it was and a moment later I flung my arms round Father’s neck. What I felt, wouldn’t it have been ‘because ye are sons, God hath sent forth the spirit of His Son into your hearts, crying in us, “Abba, Father”’?<anchor n="7" xml:id="note-t-7"/> It was a moment in which we both felt that we have a Father in heaven; because my Father, too, looked up and in his heart there was an even bigger voice than mine crying ‘Abba, Father’.
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab>Between that moment and today are years of pilgrimage.<anchor n="8" xml:id="note-t-8"/> There are words that accompany us and grow up with us, as it were – which are, ‘sorrowful, yet alway rejoicing’.<anchor n="9" xml:id="note-t-9"/> There is the prayer of a Mother for her children which is very powerful, for the prayer of a righteous person availeth much.<anchor n="10" xml:id="note-t-10"/>
+                </ab>
+<vg:whiteline/>
+<ab>Father, I pray not that Thou shouldest take them out of the world, but that Thou shouldest keep them from the evil.<anchor n="11" xml:id="note-t-11"/>
+                </ab>
+<vg:whiteline/>
+<ab>There is the hand of a faithful Father that blessed us when we left the family home.</ab>
+<ab rend="indent">And then, old boy, as I said earlier, there is a strong yearning for the day when He will no longer remember the iniquities of our youth.<anchor n="12" xml:id="note-t-12"/> Who rejoices in grey hair?</ab>
+<ab rend="indent">As far as the east is from the west, so far do I remove your transgressions from you.<anchor n="13" xml:id="note-t-13"/> Though your sins be as scarlet, I shall make them white as snow.<anchor n="14" xml:id="note-t-14"/>
+                </ab>
+<ab rend="indent">He who hate not his own life, he cannot be Christ’s disciple.<anchor n="15" xml:id="note-t-15"/> <rs type="pers" key="526">Pa</rs> once sent me this:</ab>
+<vg:whiteline/>
+<ab>
+                    <hi rend="ital">A longing for sanctification</hi>
+                    <anchor n="16" xml:id="note-t-16"/>
+                </ab>
+<vg:whiteline/>
+<ab>Who shall free us fully and for ever</ab>
+<ab>From the body of this death, bent beneath the yoke?</ab>
+<ab>How long must I still combat my nature</ab>
+<ab>Ere this heart from sinful service be revoked?</ab>
+<vg:whiteline/>
+<ab>That God my God would be, I pledged my troth</ab>
+<ab>With singleness of mind Him would I follow</ab>
+<ab>But I was tried – forgotten was my oath</ab>
+  <ab>I was tempted – and my foot did falter.</ab>
+                <vg:whiteline/>
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/>
+<ab>No, with my own strength I shan’t learn to conquer</ab>
+<ab>Soul, confess your weakness, self-deceit, take flight!</ab>
+<ab>A child’s heart must be shaped by the Father</ab>
+<ab>The Master be the pupil’s guiding light.</ab>
+<vg:whiteline/>
+<ab>Well then, Father, let your love be my teacher</ab>
+<ab>My Master, take my hand, and show your standard</ab>
+<ab>I stood alone – and fell: now we’re together</ab>
+<ab>I succumbed, but win behind your vanguard.</ab>
+<vg:whiteline/>
+<ab>Only now do I feel strong, when with weakness stricken</ab>
+<ab>Powerless in myself, but in the Lord, almighty!</ab>
+<ab>Sin may tempt, the evil passions quicken,</ab>
+<ab>Thou castest down all foes, O God in me!</ab>
+<vg:whiteline/>
+<ab>I am grieved, but it’s a godly sadness</ab>
+<ab>A night-cloud – tinged all round with dawn’s bright crimson</ab>
+<ab>I weep, Lord, though my heart is full of gladness</ab>
+<ab>I bow my head – but, Father, in thy bosom.</ab>
+<vg:whiteline/>
+<ab>Who rejoices in grey hair? Who sees behind it as Felix Holt saw behind the word ‘failure’?<anchor n="17" xml:id="note-t-17"/>
+                </ab>
+  <ab rend="indent">Who sees, when the first life, the life of childhood and adolescence, that life of joy in the world and vanity reluctantly withers, and it will wither, even as the blossom falls from the trees, that then another life shoots up vigorously, the life of the love of Christ that constraineth<anchor n="18" xml:id="note-t-18"/> and godly sorrow not to be repented of;<anchor n="19" xml:id="note-t-19"/> how then, in our profound dependence on God, and in the clear and forceful feeling of this, we find more favour in His eyes,<anchor n="20" xml:id="note-t-20"/> which are too pure to behold evil,<anchor n="21" xml:id="note-t-21"/> and how He will entrust to us more safely, in our weakness, His Holy Spirit which giveth life<anchor n="22" xml:id="note-t-22"/> and constraineth unto good works.<anchor n="23" xml:id="note-t-23"/> Who rejoices in the life ahead? Who rejoices in grey hair, who rejoices in sorrowful, yet alway rejoicing,<anchor n="24" xml:id="note-t-24"/> chastened, but not killed until ‘dying, and, behold, we live’?<anchor n="25" xml:id="note-t-25"/> Who rejoices in falling down, and standing up again with longsuffering and meekness?<anchor n="26" xml:id="note-t-26"/> Who rejoices in the green of the pine trees and cedar and ivy and holly and moss in the winter? Dry wood <hi rend="ital">gives</hi> more heat, bright fire and light when it is lit than green wood does. There is no fear in Love, but perfect love shutteth out fear.<anchor n="27" xml:id="note-t-27"/>
+                </ab>
+                <vg:whiteline/>
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/>
+<ab>Father in my great affliction,</ab>
+<ab>Father, who punishes and saves,</ab>
+<ab>Father, e’en in death’s own kingdom,</ab>
+<ab>Father, too, in the silent grave.</ab>
+<ab>Where’er I see inconstancy,</ab>
+<ab>God, Thou takest a firm stand.</ab>
+<ab>My dust, too, rests in Thy loyalty</ab>
+<ab>And slumbers in Thy fatherly hand.</ab>
+<vg:whiteline/>
+<ab>Years, go quickly, fly by swiftly</ab>
+<ab>With your gladness and travail</ab>
+<ab>Whatever evil I bewail</ab>
+<ab>God, my God, He changeth not.<anchor n="28" xml:id="note-t-28"/>
+                </ab>
+<vg:whiteline/>
+<ab>Though we sit in mournful darkness</ab>
+<ab>That eternal light will blaze</ab>
+<ab>All its glory and resplendence</ab>
+<ab>Worthy of all laud and praise.<anchor n="29" xml:id="note-t-29"/>
+                </ab>
+<vg:whiteline/>
+<ab>I know in Whom my faith is founded,</ab>
+<ab>Though day and night change constantly,</ab>
+<ab>I know the rock on which I’m grounded,</ab>
+<ab>My Saviour waits, unfailingly.</ab>
+<ab>When once life’s evening overcomes me,</ab>
+<ab>Worn down by ills and strife always,</ab>
+<ab>For every day Thou hast allowed me,</ab>
+<ab>I’ll bring Thee higher, purer praise.<anchor n="30" xml:id="note-t-30"/>
+                </ab>
+<vg:whiteline/>
+<ab>Why art thou cast down, my soul,</ab>
+<ab>Disquieted in me, oh why?</ab>
+<ab>Foster again the faith of old,</ab>
+<ab>Rejoice in praising Him most high.</ab>
+<ab>Oft hath He taken your distress</ab>
+<ab>And turned it into happiness.</ab>
+<ab>Hope in Him, eyes heavenward raised,</ab>
+<ab>For to my God I still give praise.<anchor n="31" xml:id="note-t-31"/>
+                </ab>
+<vg:whiteline/>
+<ab>And above all things have fervent charity among yourselves: for charity shall cover the multitude of sins.<anchor n="32" xml:id="note-t-32"/>
+                </ab>
+<vg:whiteline/>
+<ab>The good Lord blesses love’s dwelling-place,</ab>
+<ab>He dwelleth there, there one obtains His grace,</ab>
+<ab>and life everlasting.<anchor n="33" xml:id="note-t-33"/>
+                </ab>
+<vg:whiteline/>
+<ab>Let us have Love toward one another, so that God may increase and strengthen our Love,<anchor n="34" xml:id="note-t-34"/> and let us have love toward those around us, and if sometimes there are no people whom you can love enough, love the town you live in, as you certainly do, don’t I love Paris and London even though I’m a child of the pine-woods and of that beach at Ramsgate?</ab>
+<ab rend="indent">And seek to please the poor,<anchor n="35" xml:id="note-t-35"/> and to find favour in their eyes.<anchor n="36" xml:id="note-t-36"/>
+                </ab>
+<ab rend="indent">‘Stablish your heart’.<anchor n="37" xml:id="note-t-37"/> ‘Because ye are sons, God hath sent forth the Spirit of His Son into our hearts, crying in us, “Abba, Father”’.<anchor n="38" xml:id="note-t-38"/>
+                </ab>
+<ab rend="indent">He that hath not loved knoweth not God; for God is Love.<anchor n="39" xml:id="note-t-39"/> And this is life eternal, to know God, and Christ, Whom He hath sent.<anchor n="40" xml:id="note-t-40"/> There is no fear in love.<anchor n="41" xml:id="note-t-41"/>
+                </ab>
+<ab rend="indent">In my Father’s house are many mansions: if it were not so, I would have told you.<anchor n="42" xml:id="note-t-42"/>
+                </ab>
+<ab rend="indent">And yet I am not alone, but the Father is with me.<anchor n="43" xml:id="note-t-43"/> It is better to trust in the Lord than to put confidence in man.<anchor n="44" xml:id="note-t-44"/> It is better to fall into the hand of the Lord than into the hand of man.<anchor n="45" xml:id="note-t-45"/>
+                </ab>
+<ab rend="indent">Let Christ be the centre of your longing, the Comforter of a troubled mind.<anchor n="46" xml:id="note-t-46"/>
+                </ab>
+<ab rend="indent">‘Stablish your heart’<anchor n="47" xml:id="note-t-47"/> in this sense, too: eat your <hi rend="ital">bread</hi> with singleness of heart,<anchor n="48" xml:id="note-t-48"/> I do so at least, I cannot do otherwise, God help me, if there be any danger in doing it; ‘Father, into thy hands I commend my heart’,<anchor n="49" xml:id="note-t-49"/> eat your bread but live simply, and smoke your pipe, I do it too, whenever I have some tobacco and take a walk, I do it too whenever I get the chance to break loose. ‘And commit thy way unto the Lord; He shall bring it to pass’.<anchor n="50" xml:id="note-t-50"/>
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/>
+                </ab>
+<ab rend="indent">‘Stablish your Love’. What exactly is the Love of which Paul speaks? What exactly are those wonderful words which you also know, 1 Cor. XIII.<anchor n="51" xml:id="note-t-51"/> That Love is the life in Christ, that love is our Mother, all the goodness of the earth belongs to her, for everything is good if enjoyed with thanksgiving,<anchor n="52" xml:id="note-t-52"/> but she extends much further than that goodness of the earth. To her belongs a drink from the brook during a walk or from a fountain in the hot streets of London and Paris, to her also belongs ‘I shall make your bed in sickness’,<anchor n="53" xml:id="note-t-53"/> ‘as one whom his Mother comforteth, so will I comfort you’,<anchor n="54" xml:id="note-t-54"/> to her also belongs faithfulness until death in Christ who gives us the strength to do all things.<anchor n="55" xml:id="note-t-55"/> There is a friend that sticketh closer than a brother.<anchor n="56" xml:id="note-t-56"/>
+                </ab>
+<ab rend="indent">‘Stablish your hope’, for there is much that is good in life, for him who loves Christ the world is what it is, and all things shall be added unto him, as it were.<anchor n="57" xml:id="note-t-57"/> It is indeed true that much joy already lies behind us, and also much that we used to look forward to, and although much joy may lie in store for us, we have already seen that ‘the world passeth away, and all the glory thereof’.<anchor n="58" xml:id="note-t-58"/> And if it be true that:</ab>
+<vg:whiteline/>
+<ab>I’ve found a joy in sorrow, a secret balm for pain,</ab>
+<ab>A beautiful tomorrow of sunshine after rain;</ab>
+<ab>I’ve found a branch of healing near every bitter spring,</ab>
+<ab>A whispered promise stealing o’er every broken string.<anchor n="59" xml:id="note-t-59"/>
+                </ab>
+<vg:whiteline/>
+<ab>then it’s also true that there is no joy without insufficiency.</ab>
+<ab rend="indent">Sorrow is better than joy,<anchor n="60" xml:id="note-t-60"/> and it is better to go to the house of mourning than to the house of feasts,<anchor n="61" xml:id="note-t-61"/> for by the sadness of the countenance the heart is made better.<anchor n="62" xml:id="note-t-62"/>
+                </ab>
+<ab rend="indent">Even in mirth the heart is sad.<anchor n="63" xml:id="note-t-63"/>
+                </ab>
+<ab rend="indent">For myself I shall endeavour to strive to love Christ and to work for Him in my life, even if it fails and even if I fall, there will always remain a standing aloof<anchor n="64" xml:id="note-t-64"/> and a longing for above from the misery below. But I want to seek faith and Love and to continue asking for God’s spirit under all circumstances.</ab>
+<ab rend="indent">Now this is my vow to the Lord my God, my rock.<anchor n="65" xml:id="note-t-65"/> If I am forsaken,<anchor n="66" xml:id="note-t-66"/> then I am forsaken, but He is faithful and loves with an eternal Love and grants us our heart’s desire of being Evergreen. 
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/>
+                </ab>
+  <ab rend="indent">Read the prophecies of Isaiah and Jeremiah, <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Isa" chap="9 11 35">Isa. 9, 11, 35</bibleref>; <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Isa" chap="40 42 43 44">Isa. 40, 42, 43, 44</bibleref>, <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Isa" chap="45" v="2">45:2</bibleref> and the following verses, <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Isa" chap="45" v="49">49</bibleref>, <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Isa" chap="45" vr="53 55 58 61 63"/>
+                    <hi rend="ital">53, 55, 58, 61, 63,</hi> <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Isa" chap="45" v="65">65</bibleref>;<anchor n="67" xml:id="note-t-67"/> <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Jer" chap="3 17 30 31">Jer. 3, 17, 30, 31</bibleref>.</ab>
+  <vg:whiteline/>
+<ab>The Lord is thy keeper, The Lord is thy shade upon thy right hand.<anchor n="68" xml:id="note-t-68"/> Unto Him belong the issues from death,<anchor n="69" xml:id="note-t-69"/> with Him is everlasting life.<anchor n="70" xml:id="note-t-70"/>
+                </ab>
+<ab rend="indent">My boy, days will come when we’ll no longer believe because we heard <hi rend="ital">it</hi> said but when we’ll know, feel and love <hi rend="ital">it</hi>. Then we’ll be moved<anchor n="71" xml:id="note-t-71"/> to hear the name of God spoken, just as we’re moved to see our father again after a long time away from home.</ab>
+<ab rend="indent">And we’ll be brothers and sisters and children of the parsonage, as though made new, and in manifold ways.</ab>
+<ab rend="indent">Let us continue in life as long as our legs will carry us, even though our feet grow tired, and the oppression great, and even if our ears buzz with the sound of the world that they have been hearing for so many years, and even if our whole head is tired, and the going is difficult, let us continue in life because our Father and our Mother tell us to ‘go forth and don’t look back’, and if we can do good along the way,<anchor n="72" xml:id="note-t-72"/> let us not neglect to do so; and yet it is more our heart than our work that God desires. <rs type="pers" key="526">Pa</rs> and <rs type="pers" key="524">Ma</rs> say ‘go forth’ and they love us, didn’t Pa say: my boy, surely you know that I would give my last shirt for you. Let us continue as long as our legs will carry us (and you will find that God giveth power to the faint; and increaseth strength to him that has no might,<anchor n="73" xml:id="note-t-73"/> that God supports) for there is greater Love in store, that is why we rejoice and have faith in that life ahead.</ab>
+<ab rend="indent">A handshake in thought, it’s already late, adieu.</ab>
+<vg:whiteline/>
+<ab>Your most loving brother,</ab>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<ab>Now, Brother, these are the fruits of my pen and the fruits of my heart.</ab>
+<vg:whiteline/>
+<ab>My eyes, O weep no more, but hold back your tears</ab>
+<ab>My soul, grieve no more, but pray, but pray,</ab>
+<ab>my soul.<anchor n="74" xml:id="note-t-74"/>
+                </ab>
+<vg:whiteline/>
+<ab>Do you ever go to the Lord’s Supper?<anchor n="75" xml:id="note-t-75"/> They that be whole need not a physician, but they that are sick.<anchor n="76" xml:id="note-t-76"/>
+                </ab>
+<vg:whiteline/>
+<ab>(Try and send that page from <rs type="pers" key="707">Michelet</rs>.)<anchor n="77" xml:id="note-t-77"/>
+                </ab>
+<vg:whiteline/>
+<ab>Don’t be afraid, when you’re out walking in the evening and there’s no one near by, to sing a psalm: ‘The panting hart, the hunt escapèd’,<anchor n="78" xml:id="note-t-78"/> or ‘O why art thou cast down, my soul?’<anchor n="79" xml:id="note-t-79"/> or ‘Centre of our longing’<anchor n="80" xml:id="note-t-80"/> or ‘I know in Whom my faith is founded’.<anchor n="81" xml:id="note-t-81"/>
+                </ab>
+<vg:whiteline/>
+<ab>The years between 20 and 30 are full of all sorts of dangers, full of great danger, yea, the danger of sin and death, but also full of light and God’s comfort. Wrestling, you will emerge victorious,<anchor n="82" xml:id="note-t-82"/> and when they’re over you’ll think back on them with nostalgia and say, it was a good time after all.</ab>
+<vg:whiteline/>
+<ab>Regards to everyone at the <rs type="pers" key="642 643">Rooses</rs>’, <rs type="pers" key="442 443">Haanebeeks</rs>’, <rs type="pers" key="787 788">Tersteegs</rs>’, <rs type="pers" key="298">Borchers</rs>’, <rs type="pers" key="761">Caroline</rs>
+                    <anchor n="83" xml:id="note-t-83"/> and <rs type="pers" key="323">Mauve</rs>.</ab>
+<vg:whiteline/>
+<ab>If you can, send a Carte de visite to <rs type="pers" key="524">Ma</rs> on her birthday, No. 669, The prodigal son by <rs type="pers" key="1339">Scheffer</rs>.<anchor n="84" xml:id="note-t-84"/>
+                </ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>Cf., among other things, <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Ps" chap="104" v="29">Ps. 104:29</bibleref>, <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Isa" chap="64" v="7">Isa. 64:7</bibleref> and <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Rhy. ps" chap="44" v="13">rhy. ps. 44:13</bibleref>.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="1 Sam" chap="7" v="12">1 Sam. 7:12</bibleref>.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Rhy. ps" chap="42" v="7">Rhy. ps. 42:7</bibleref>.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="2 Cor" chap="7" v="10">2 Cor. 7:10</bibleref>.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Mark" chap="14" v="36">Mark 14:36</bibleref>; <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Rom" chap="8" v="15">Rom. 8:15</bibleref> and <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Gal" chap="4" v="6">Gal. 4:6</bibleref>.</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>Regarding <rs type="pers" key="576">Provily</rs>’s school, <ref target="let076.xml#n-4">see letter 76, n. 4.</ref>
+                    </ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Gal" chap="4" v="6">Gal. 4:6</bibleref>.</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Gen" chap="47" v="9">Gen. 47:9</bibleref>.</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="2 Cor" chap="6" v="10">2 Cor. 6:10</bibleref>.</ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Jas" chap="5" v="16">Jas. 5:16</bibleref>.</ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="John" chap="17" v="15">John 17:15</bibleref>. <rs type="pers" key="524">Mrs van Gogh</rs> said this prayer when Vincent left the parental home; <ref target="let098.xml#l-98">see letter 98, ll. 98-100</ref>.</ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+<ab>Possibly an allusion to <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Ps" chap="51" v="11">Ps. 51:11</bibleref> (in <hi rend="ital">KJ</hi> <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Ps" chap="51" v="9">Ps. 51:9</bibleref>).</ab>
+                </note>
+<note n="13" xml:id="n-13" target="#note-t-13">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Ps" chap="103" v="12">Ps. 103:12</bibleref>.</ab>
+                </note>
+<note n="14" xml:id="n-14" target="#note-t-14">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Isa" chap="1" v="18">Isa. 1:18</bibleref>.</ab>
+                </note>
+<note n="15" xml:id="n-15" target="#note-t-15">
+<ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Luke" chap="14" v="26">Luke 14:26</bibleref>.</ab>
+                </note>
+<note n="16" xml:id="n-16" target="#note-t-16">
+  <ab>The song ‘<rs type="lit" key="82">Zucht naar heiliging</rs>’ (A longing for sanctification) is to be found in <rs type="pers" key="1655">César Malan</rs>, <hi rend="ital"> De harpe Sions</hi>. <hi rend="ital">Een honderdtal liederen voor piano of orgel, voor den huisselijken kring.</hi> Freely adapted by <rs type="pers" key="681">J.J.L. ten Kate</rs>. Utrecht 1868, no. 19 (unpaginated). Quoted again in an enclosure. See <ref target="RM09.xml">RM9.</ref>
+                    </ab>
+                </note>
+  <note n="17" xml:id="n-17" target="#note-t-17">
+<ab>An allusion to <rs type="pers" key="590">George Eliot</rs>’s <rs type="lit" key="57">
+                            <hi rend="ital">Felix Holt</hi>
+                        </rs>: ‘But I’m proof against that word failure. I’ve seen behind it.’<hi rend="ital"> </hi>See Eliot 1980, p. 364.</ab>
+                </note>
+<note n="18" xml:id="n-18" target="#note-t-18">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="2 Cor" chap="5" v="14">2 Cor. 5:14</bibleref>.</ab>
+                </note>
+<note n="19" xml:id="n-19" target="#note-t-19">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="2 Cor" chap="7" v="10">2 Cor. 7:10</bibleref>.</ab>
+                </note>
+<note n="20" xml:id="n-20" target="#note-t-20">
+<ab>Biblical; see, for example, <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Deut" chap="24" v="1">Deut. 24:1</bibleref>.</ab>
+                </note>
+<note n="21" xml:id="n-21" target="#note-t-21">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Hab" chap="1" v="13">Hab. 1:13</bibleref>.</ab>
+                </note>
+<note n="22" xml:id="n-22" target="#note-t-22">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="John" chap="6" v="63">John 6:63</bibleref> and <bibleref xmlns="http://www.vangoghletters.org/ns/" book="2 Cor" chap="3" v="6">2 Cor. 3:6</bibleref>.</ab>
+                </note>
+<note n="23" xml:id="n-23" target="#note-t-23">
+<ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Eph" chap="2" v="10">Eph. 2:10</bibleref>.</ab>
+                </note>
+<note n="24" xml:id="n-24" target="#note-t-24">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="2 Cor" chap="6" v="10">2 Cor. 6:10</bibleref>.</ab>
+                </note>
+<note n="25" xml:id="n-25" target="#note-t-25">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="2 Cor" chap="6" v="9">2 Cor. 6:9</bibleref>.</ab>
+                </note>
+<note n="26" xml:id="n-26" target="#note-t-26">
+<ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Gal" chap="5" v="22">Gal. 5:22</bibleref>, <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Eph" chap="4" v="2">Eph. 4:2</bibleref> and <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Col" chap="3" v="12">Col. 3:12</bibleref>.</ab>
+                </note>
+<note n="27" xml:id="n-27" target="#note-t-27">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="1 John" chap="4" v="18">1 John 4:18</bibleref>.</ab>
+                </note>
+<note n="28" xml:id="n-28" target="#note-t-28">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Hymn" chap="160" vr="5-6">Hymn 160:5-6</bibleref>. Cf. Pabst 1988, p. 62.</ab>
+                </note>
+<note n="29" xml:id="n-29" target="#note-t-29">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Hymn" chap="21" v="1">Hymn 21:1</bibleref>.</ab>
+                </note>
+<note n="30" xml:id="n-30" target="#note-t-30">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Hymn" chap="180" v="5">Hymn 180:5</bibleref>.</ab>
+                </note>
+<note n="31" xml:id="n-31" target="#note-t-31">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Rhy. ps" chap="42" v="7">Rhy. ps. 42:7</bibleref>.</ab>
+                </note>
+<note n="32" xml:id="n-32" target="#note-t-32">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="1 Pet" chap="4" v="8">1 Pet. 4:8</bibleref>.</ab>
+                </note>
+<note n="33" xml:id="n-33" target="#note-t-33">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Rhy. ps" chap="133" v="3">Rhy. ps. 133:3</bibleref>.</ab>
+                </note>
+<note n="34" xml:id="n-34" target="#note-t-34">
+<ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="1 Thess" chap="3" v="12">1 Thess. 3:12</bibleref>.</ab>
+                </note>
+<note n="35" xml:id="n-35" target="#note-t-35">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Job" chap="20" v="10">Job 20:10</bibleref>.</ab>
+                </note>
+<note n="36" xml:id="n-36" target="#note-t-36">
+<ab>Biblical; see, for instance, <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Deut" chap="24" v="1">Deut. 24:1</bibleref>.</ab>
+                </note>
+<note n="37" xml:id="n-37" target="#note-t-37">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Jas" chap="5" v="8">Jas. 5:8</bibleref>.</ab>
+                </note>
+<note n="38" xml:id="n-38" target="#note-t-38">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Gal" chap="4" v="6">Gal. 4:6</bibleref>.</ab>
+                </note>
+<note n="39" xml:id="n-39" target="#note-t-39">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="1 John" chap="4" v="8">1 John 4:8</bibleref>.</ab>
+                </note>
+<note n="40" xml:id="n-40" target="#note-t-40">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="John" chap="17" v="3">John 17:3</bibleref>.</ab>
+                </note>
+<note n="41" xml:id="n-41" target="#note-t-41">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="1 John" chap="4" v="18">1 John 4:18</bibleref>.</ab>
+                </note>
+<note n="42" xml:id="n-42" target="#note-t-42">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="John" chap="14" v="2">John 14:2</bibleref>.</ab>
+                </note>
+<note n="43" xml:id="n-43" target="#note-t-43">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="John" chap="16" v="32">John 16:32</bibleref>.</ab>
+                </note>
+<note n="44" xml:id="n-44" target="#note-t-44">
+<ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Ps" chap="118" v="8">Ps. 118:8</bibleref>.</ab>
+                </note>
+<note n="45" xml:id="n-45" target="#note-t-45">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="2 Sam" chap="24" v="14">2 Sam. 24:14</bibleref> and <bibleref xmlns="http://www.vangoghletters.org/ns/" book="1 Chron" chap="21" v="13">1 Chron. 21:13</bibleref>.</ab>
+                </note>
+<note n="46" xml:id="n-46" target="#note-t-46">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Hymn" chap="120" v="1">Hymn 120:1</bibleref>.</ab>
+                </note>
+<note n="47" xml:id="n-47" target="#note-t-47">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Jas" chap="5" v="8">Jas. 5:8</bibleref>.</ab>
+                </note>
+<note n="48" xml:id="n-48" target="#note-t-48">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Acts" chap="2" v="46">Acts 2:46</bibleref>.</ab>
+                </note>
+<note n="49" xml:id="n-49" target="#note-t-49">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Luke" chap="23" v="46">Luke 23:46</bibleref>. In <ref target="#l-176">l. 176</ref> Van Gogh wrote ‘mijn hart’ (my heart) instead of ‘mijnen geest’ (my spirit).</ab>
+                </note>
+<note n="50" xml:id="n-50" target="#note-t-50">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Ps" chap="37" v="5">Ps. 37:5</bibleref>.</ab>
+                </note>
+<note n="51" xml:id="n-51" target="#note-t-51">
+<ab>1 Cor. 13 treats the perfection of love.</ab>
+                </note>
+<note n="52" xml:id="n-52" target="#note-t-52">
+<ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="1 Tim" chap="4" v="4">1 Tim. 4:4</bibleref>.</ab>
+                </note>
+<note n="53" xml:id="n-53" target="#note-t-53">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Ps" chap="41" v="3">Ps. 41:3</bibleref>. Van Gogh’s choice of words, which does not correspond to the Statenvertaling, suggests that he translated into Dutch the version in the King James Bible: ‘Thou wilt make all his bed in his sickness’.</ab>
+                </note>
+<note n="54" xml:id="n-54" target="#note-t-54">
+<ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Isa" chap="66" v="13">Isa. 66:13</bibleref>.</ab>
+                </note>
+<note n="55" xml:id="n-55" target="#note-t-55">
+<ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Phil" chap="4" v="13">Phil. 4:13</bibleref>.</ab>
+                </note>
+<note n="56" xml:id="n-56" target="#note-t-56">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Prov" chap="18" v="24">Prov. 18:24</bibleref>.</ab>
+                </note>
+<note n="57" xml:id="n-57" target="#note-t-57">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Matt" chap="6" v="33">Matt. 6:33</bibleref>.</ab>
+                </note>
+<note n="58" xml:id="n-58" target="#note-t-58">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="1 John" chap="2" v="17">1 John 2:17</bibleref>. In <ref target="#l-203">l. 203</ref> Van Gogh wrote ‘heerlijkheid’ (glory) instead of ‘begeerlijkheid’ (lust).</ab>
+                </note>
+<note n="59" xml:id="n-59" target="#note-t-59">
+<ab>Taken from the song ‘<rs type="lit" key="84">Joy in Sorrow</rs>’, based on <bibleref xmlns="http://www.vangoghletters.org/ns/" book="John" chap="16" v="20">John 16:20</bibleref> in <rs type="pers" key="536">Ira D. Sankey</rs>, <rs type="lit" key="605">
+                            <hi rend="ital">Sacred songs &amp; solos</hi>
+                        </rs>, numerous editions of which appeared in the 1870s. See <hi rend="ital">Sacred songs &amp; solos, with standard hymns combined</hi>. London n.d. [1892], song no. 36. A Dutch translation was published in <hi rend="ital">Opwekkingszangen. Liederen van Ira D. Sankey. Nagezongen door C.S. Adama van Scheltema</hi>. Amsterdam n.d. [1875], song no. 37.</ab>
+                </note>
+<note n="60" xml:id="n-60" target="#note-t-60">
+<ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Eccl" chap="7" v="3">Eccl. 7:3</bibleref> (in <hi rend="ital">KJ</hi> ‘laughter’ instead of ‘joy’).</ab>
+                </note>
+<note n="61" xml:id="n-61" target="#note-t-61">
+<ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Eccl" chap="7" v="2">Eccl. 7:2</bibleref>.</ab>
+                </note>
+<note n="62" xml:id="n-62" target="#note-t-62">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Eccl" chap="7" v="3">Eccl. 7:3</bibleref>.</ab>
+                </note>
+<note n="63" xml:id="n-63" target="#note-t-63">
+<ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Eccl" chap="7" v="4">Eccl. 7:4</bibleref>, ‘But the heart of fools is in the house of mirth’; and <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Prov" chap="14" v="13">Prov. 14:13</bibleref>, ‘Even in laughter the heart is sorrowful; and the end of that mirth is heaviness’.</ab>
+                </note>
+<note n="64" xml:id="n-64" target="#note-t-64">
+<ab>Biblical; cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Luke" chap="23" v="49">Luke 23:49</bibleref>.</ab>
+                </note>
+<note n="65" xml:id="n-65" target="#note-t-65">
+<ab>Biblical; see, for example, <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Ps" chap="18" v="3">Ps. 18:3</bibleref> (in <hi rend="ital">KJ</hi> <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Ps" chap="18" v="2">Ps. 18:2</bibleref>).</ab>
+                </note>
+<note n="66" xml:id="n-66" target="#note-t-66">
+<ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="hymn" chap="27" v="6">hymn 27:6</bibleref>.</ab>
+                </note>
+<note n="67" xml:id="n-67" target="#note-t-67">
+<ab>Van Gogh underlined the verse numbers 53 55 58 63 twice, and number 61 three times.</ab>
+                </note>
+<note n="68" xml:id="n-68" target="#note-t-68">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Ps" chap="121" v="5">Ps. 121:5</bibleref>.</ab>
+                </note>
+<note n="69" xml:id="n-69" target="#note-t-69">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Ps" chap="68" v="21">Ps. 68:21</bibleref> (in <hi rend="ital">KJ</hi> <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Ps" chap="68" v="20">Ps. 68:20</bibleref>).</ab>
+                </note>
+<note n="70" xml:id="n-70" target="#note-t-70">
+<ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="John" chap="6" v="40">John 6:40</bibleref>, <bibleref xmlns="http://www.vangoghletters.org/ns/" book="John" chap="6" v="47">47</bibleref> and <bibleref xmlns="http://www.vangoghletters.org/ns/" book="John" chap="6" v="54">54</bibleref>; and <bibleref xmlns="http://www.vangoghletters.org/ns/" book="John" chap="10" v="28">John 10:28</bibleref>.</ab>
+                </note>
+<note n="71" xml:id="n-71" target="#note-t-71">
+<ab>Biblical.</ab>
+                </note>
+<note n="72" xml:id="n-72" target="#note-t-72">
+<ab>Cf. the Dutch saying, ‘Doe wel en zie niet om’ (Do well and don’t look back), meaning that one who acts virtuously may have a clear conscience; cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Luke" chap="9" v="62">Luke 9:62</bibleref>.</ab>
+                </note>
+<note n="73" xml:id="n-73" target="#note-t-73">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Isa" chap="40" v="29">Isa. 40:29</bibleref>.</ab>
+                </note>
+<note n="74" xml:id="n-74" target="#note-t-74">
+<ab>The origin of this quotation has not been traced.</ab>
+                </note>
+<note n="75" xml:id="n-75" target="#note-t-75">
+<ab>On another loose page containing an undated fragment of a letter, Vincent advised Theo to go to The Lord’s Supper; <ref target="let105.xml">see letter 105</ref>.</ab>
+                </note>
+<note n="76" xml:id="n-76" target="#note-t-76">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Matt" chap="9" v="12">Matt. 9:12</bibleref>, <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Mark" chap="2" v="17">Mark 2:17</bibleref> and <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Luke" chap="5" v="31">Luke 5:31</bibleref>.</ab>
+                </note>
+<note n="77" xml:id="n-77" target="#note-t-77">
+<ab>Vincent had previously asked Theo to send an excerpt from <rs type="pers" key="707">Michelet</rs>’s <rs type="lit" key="11">
+                            <hi rend="ital">L’amour</hi>
+                        </rs> in <ref target="let089.xml">letter 89</ref>.</ab>
+                </note>
+<note n="78" xml:id="n-78" target="#note-t-78">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Rhy. ps" chap="42" v="1">Rhy. ps. 42:1</bibleref>. Cf. Pabst 1988, p. 62.</ab>
+                </note>
+<note n="79" xml:id="n-79" target="#note-t-79">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Ps" chap="42" v="6">Ps. 42:6</bibleref>, <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Rhy. ps" chap="42" v="3">rhy. ps. 42:3</bibleref> and <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Rhy. ps" chap="42" v="7">rhy. ps. 42:7</bibleref>. Cf. Pabst 1988, p. 62.</ab>
+                </note>
+<note n="80" xml:id="n-80" target="#note-t-80">
+<ab>
+                        <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Hymn" chap="120">Hymn 120</bibleref>. Cf. Pabst 1988, p. 62.</ab>
+                </note>
+<note n="81" xml:id="n-81" target="#note-t-81">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Hymn" chap="180" v="5">Hymn 180:5</bibleref>. Cf. Pabst 1988, p. 62.</ab>
+                </note>
+<note n="82" xml:id="n-82" target="#note-t-82">
+<ab>An allusion to the saying ‘Ik worstel en kom boven’ (I wrestle and emerge victorious), the Latin version of which (‘Luctor et emergo’) is part of the coat of arms of the province of Zeeland.</ab>
+                </note>
+<note n="83" xml:id="n-83" target="#note-t-83">
+<ab>
+                        <rs type="pers" key="761">Caroline van Stockum-Haanebeek</rs>.</ab>
+                </note>
+  <note n="84" xml:id="n-84" target="#note-t-84">
+<ab>The ‘Carte de visite’ of <rs type="pers" key="1339">Ary Scheffer</rs>, <rs type="otherart" key="106">
+                            <hi rend="ital">L’enfant prodigue</hi>
+                        </rs> (The return of the prodigal son), 1857 (London, The Wallace Collection); it measures 6.5 x 10.5 cm (Bordeaux, Musée Goupil). <rs type="ill" key="1779">Ill. 1779</rs>. Cf. also <ref target="let098.xml">letter 98</ref>.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

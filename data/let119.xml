@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Amsterdam, Monday, 4 and Tuesday, 5 June 1877.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let119"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">119</idno>
+<idno type="collectedletters">100</idno>
+<idno type="brieven1990">119</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Amsterdam</vg:placeLet>
+                        <vg:dateLet>Monday, 4 and Tuesday, 5 June 1877</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. Amsterdam, Monday, 4 and Tuesday, 5 June 1877.</p>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b118 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Letter headed: ‘Amsterdam 4 Junij 1877’; the date when the letter was continued, ‘5 Junij’ <ref target="#l-41">(l. 41)</ref>, was added later.</p>
+                    </note>
+<note type="additionalDetail" xml:id="additionalDetail">
+<p>The letter originally consisted of <ref target="#l-1">ll. 1-41a</ref> on the left-hand side of the page, and the passage copied from <hi rend="ital">La jeunesse de Cromwell</hi> by Lamartine, beginning on the right-hand side (<ref target="#l-53">ll. 53</ref> ff.). The next day Van Gogh added a number of lines to the letter part (<ref target="#l-41">ll. 41b-52</ref>). He later dated the added part ‘5 Junij’.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0118" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000127_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000127_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000127_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000127_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000127_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000127_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-2">
+<graphic mimeType="image/tiff" url="VGM001000127_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000127_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000127_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0118" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000127_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000127_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000127_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000127_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000127_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000127_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-4">
+<graphic mimeType="image/tiff" url="VGM001000127_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000127_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000127_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1*" xml:id="l-1s"/>
+<ab>Amsterdam 4 Junij 1877</ab>
+<vg:whiteline/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Waarde Theo,</ab>
+                <lb n="2" xml:id="l-2"/>
+<ab>Gij herinnert U dien avond te Dordrecht toen wij door Dordrecht zamen wandelden,<anchor n="1" xml:id="note-o-1"/> om <lb n="3" xml:id="l-3"/>de Groote kerk en door allerlei straten en langs de grachten waarin de oude huizen en het licht <lb n="4" xml:id="l-4"/>van de vensters weerkaatste. Gij spraakt toen (of liever het was dien Zondag toen Gij kwaamt) over eene beschrijving van een dag in Londen door <lb n="5" xml:id="l-5"/>Theophile Gautier, de koetsen van eene bruiloft voor de deur eener kerk op een dag met mist en <lb n="6" xml:id="l-6"/>storm.<anchor n="2" xml:id="note-o-2"/> Ik zag het alles voor mij, maar als dat u trof dan zult Gij ook het bijgaande <lb n="7" xml:id="l-7"/>wel gevoelen, deze bladzijden las ik op een zeer stormachtigen dag verl. week<c type="kk">/</c> ook met de gedachte <lb n="8" xml:id="l-8"/>aan de ziekte der Koningin;<anchor n="3" xml:id="note-o-3"/> het was des avonds toen de zon onderging en een rossen gloed <lb n="9" xml:id="l-9"/>wierp op de graauwe avondwolken waartegen de masten der schepen en de rei oude huizen <lb n="10" xml:id="l-10"/>en boomen afstaken, en alles weerkaatste in het water<c type="kk">/</c> en de lucht een vreemd schijnsel <lb n="11" xml:id="l-11"/>wierp op de zwarte aarde<c type="kk">/</c> het groene gras met madelieven en boterbloemen en op de <lb n="12" xml:id="l-12"/>struiken witte &amp; paarsche seringen en vlier van den tuin op de werf. Te Londen <lb n="13" xml:id="l-13"/>had ik dat boek van Lamartine gelezen en had het mij zeer getroffen en dat deden, <lb n="14" xml:id="l-14"/>vooral die laatste bladzijden, mij ook nu weer.</ab>
+                <lb n="15" xml:id="l-15"/>
+<ab rend="indent">Schrijf eens wat Gij er van denkt. Die plekken waarover gesproken wordt: Hampton Court <lb n="16" xml:id="l-16"/>met zijne lanen van linden vol roekennesten (rookeries)<c type="kk">/</c> White Hall met klimop begroeid <lb n="17" xml:id="l-17"/>aan den achterkant en het binnenplein grenzende aan St James’ Park waar men West<c type="shy">-</c>
+                    <lb n="18" xml:id="l-18"/>minster Abbey &amp;c<c type="kp">_</c> ziet, het alles zie ik voor mij, en het weer en den somberen <lb n="19" xml:id="l-19"/>toon over het geheel.<anchor n="4" xml:id="note-o-4"/> (cela m’empêche de dormir!)</ab>
+                <lb n="20" xml:id="l-20"/>
+<ab rend="indent">Zijt Gij naar Etten geweest Zondag, van harte hoop ik het, en dat Gij er een <lb n="21" xml:id="l-21"/>goeden dag zult gehad hebben, ik maak dit op uit een zin in den laatsten brief <lb n="22" xml:id="l-22"/>uit Etten: “wij wachten Theo waarschijnlijk aanst<c type="kp">_</c> Zondag”. Heden avond moet <lb n="23" xml:id="l-23"/>ik naar Oom Stricker. Was gisteren morgen in de vroegpreek,<anchor n="5" xml:id="note-o-5"/> hoorde eene <lb n="24" xml:id="l-24"/>preek over den tekst “Wilt gij gezond worden”,<anchor n="6" xml:id="note-o-6"/> hoe zal wie gezond zijn den medi<c type="shy">-</c>
+                    <lb n="25" xml:id="l-25"/>cijnmeester niet van noode hebben maar die ziek zijn.<anchor n="7" xml:id="note-o-7"/> Daarna hoorde <lb n="26" xml:id="l-26"/>ik Oom Stricker in den bekende Amstelkerk<anchor n="8" xml:id="note-o-8"/> over 2 Kor<c type="kp">_</c> 4:18<hi rend="ss"> b</hi>
+                    <c type="kk">/</c> Want de dingen <lb n="27" xml:id="l-27"/>die men ziet zijn tijdelijk maar de dingen die men niet ziet zijn eeuwig.</ab>
+                <lb n="28" xml:id="l-28"/>
+<ab rend="indent">Aan het slot kwam er een gedeelte waarin Hij met veel geestdrift sprak en uitriep “maar <lb n="29" xml:id="l-29"/>de Liefde blijft”.<anchor n="9" xml:id="note-o-9"/> Hoe wij door God aan elkander zijn verbonden door banden die <lb n="30" xml:id="l-30"/>in Gods hand zijn, en in die banden is onze sterkte, en die zijn oud en breken zoo ligt niet.─</ab>
+                <lb n="31" xml:id="l-31"/>
+<ab rend="indent">Heb het druk, dus à Dieu, misschien schrijf ik hier dezen avond nog een woordje onder. <lb n="32" xml:id="l-32"/>Ontvang in gedachten een handdruk en geloof mij</ab>
+<vg:whiteline/>
+                <lb n="33" xml:id="l-33"/>
+<ab>Uw Zoo liefh. broeder</ab>
+                <lb n="34" xml:id="l-34"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+                <lb n="35" xml:id="l-35"/>
+<ab>Kwam heden voorbij de bloemmarkt op den Singel,<anchor n="10" xml:id="note-o-10"/> daar zag ik iets zoo aardigs<c type="kp">_</c> <lb n="36" xml:id="l-36"/>Een boer stond daar met eene groote partij potten<c type="kk">/</c> allerlei bloemen en heesters, achteraan stond de klimop en <lb n="37" xml:id="l-37"/>daartusschen in zat zijn meiske, een kindje zooals Maris zou schilderen,<anchor n="11" xml:id="note-o-11"/> zoo eenvoudig <lb n="38" xml:id="l-38"/>met een zwart mutsje op en een paar zoo levendige en toch zoo vriendelijke oogen, zij zat te breijen<c type="kk">/</c> <lb n="39" xml:id="l-39"/>de man recommandeerde zijne waar en als ik het had kunnen doen zou ik er wat graag <lb n="40" xml:id="l-40"/>van hebben gekocht en hij zeide zoo en wees onwillekeurig op zijn dochtertje ook: “Ziet het er niet goed <lb n="41" xml:id="l-41"/>uit<c type="kp">_</c>”</ab>
+<vg:whiteline/>
+                <lb n="41*" xml:id="l-41s"/>
+<ab>5 Junij<c type="kp">_</c> Gisteren avond was ik bij Stricker, Margreet Meyboom met wie Paul<anchor n="12" xml:id="note-o-12"/> geengageerd is was er ook, dat is een meisje <lb n="42" xml:id="l-42"/>dat zeer doet denken aan Ellen in The wide wide world,<anchor n="13" xml:id="note-o-13"/> haar Vader was een zeer knap predikant, een buitengewoon <lb n="43" xml:id="l-43"/>man en intiem vriend van Oom Stricker.<anchor n="14" xml:id="note-o-14"/> Wij wandelden aan den Buitenkant &amp; daar aan die zandwerken aan de Oosterspoor<c type="kk">/</c> <lb n="44" xml:id="l-44"/>kan U niet zeggen hoe schoon het daar was in de schemering<c type="kp">_</c> Rembrandt<c type="kk">/</c> Michel en anderen hebben het wel geschilderd<c type="kk">/</c> <lb n="45" xml:id="l-45"/>de grond donker<c type="kk">/</c> de lucht nog verlicht door den gloed van de ondergegane zon<c type="kk">/</c> de rei huizen en torens er boven uit<c type="kk">/</c> de lichten <lb n="46" xml:id="l-46"/>overal in de vensters<c type="kk">/</c> alles weerkaatsende in het water<c type="kp">_</c> En de menschen en rijtuigen als kleine zwarte figuurtjes overal<c type="kp">_</c> <lb n="47" xml:id="l-47"/>Zooals men dat op een Rembrandt soms ziet<c type="kp">_</c> En het stemde ons zoo dat wij over allerlei begonnen te spreken<c type="kp">_</c> </ab>
+                <lb n="48" xml:id="l-48"/>
+<ab rend="indent">Zat nog laat te schrijven gisterenavond en hedenmorgen vroeg was het zoo heerlijk mooi weer. Des avonds is het ook <lb n="49" xml:id="l-49"/>een schoon gezigt op de werf waar dan alles doodstil is en de lantaarns branden en de sterrenhemel er boven<c type="kp">_</c> <lb n="50" xml:id="l-50"/>When all sounds cease ─ God’s voice is heard ─ Under the stars.─<anchor n="15" xml:id="note-o-15"/> Schrijft Gij eens spoedig en <lb n="51" xml:id="l-51"/>zeg eens of dat niet iets uit het hartje van Londen is<c type="kk">/</c> dat stuk over Cromwell.─</ab>
+<vg:whiteline/>
+<pb f="1r" n="2" xml:id="pb-orig-1r-2" facs="#zone-pb-1r-2"/>
+                <lb n="52" xml:id="l-52"/>
+<ab>
+                    <hi rend="ital">Jeunesse de Cromwell</hi>
+                    <anchor n="16" xml:id="note-o-16"/>
+                </ab>
+                <lb n="52*" xml:id="l-52s"/>
+<ab>Sa famille ne tarda pas à déchoir de sa richesse<c type="kp">_</c> Il se retira dans un petit domaine qu’il posséda<supplied>it</supplied>
+                </ab>
+                <lb n="53" xml:id="l-53"/>
+<ab>parmi les marais d’Huntingdon<c type="kp">_</c> La nature indigente<c type="kk">/</c> âpre et morose de cette contrée aquatique, l’horizon monotone<c type="kk">/</c> <lb n="54" xml:id="l-54"/>la rivière fangeuse<c type="kk">/</c> le ciel nébuleux<c type="kk">/</c> les arbres grêles<c type="kk">/</c> les chaumières rares, les moeurs rudes des habitants, étaient <lb n="55" xml:id="l-55"/>de nature à concentrer et assombrir le caractère du jeune homme<c type="kp">_</c> L’âme des sites semble passer dans <lb n="56" xml:id="l-56"/>l’âme des hommes, souvent d’une contrée ingrate et triste sort la foi vive<c type="kk">/</c> ardente et profonde<c type="kp">_</c> Tel lieu tel <lb n="57" xml:id="l-57"/>homme<c type="kp">_</c> L’âme est un miroir avant d’être un foyer.─</ab>
+                <lb n="58" xml:id="l-58"/>
+<ab rend="indent">Un malheur domestique atteignit Cromwell au coeur à cette période ascendante de sa vie, où l’on s’étonne <lb n="59" xml:id="l-59"/>de voir des larmes dans les yeux d’un homme qui avait vu d’un oeil sec l’infortuné Charles I<hi rend="ss">er</hi> arraché <lb n="60" xml:id="l-60"/>des bras de ses enfants pour mourir<c type="kp">_</c> Il perdit sa Mère agée de quatre vingt quatorze ans<c type="kp">_</c> C’était cette <lb n="61" xml:id="l-61"/>Elisabeth Stuart, fille du sang des rois qu’avait detrônés son fils, femme biblique<c type="kk">/</c> mère d’une nombreuse <lb n="62" xml:id="l-62"/>famille, source de leur piété, nourrice de leurs vertus, inspiration vivante de leur passion pour la <lb n="63" xml:id="l-63"/>liberté religieuse de leur secte, elle jouissait, dans la plenitude de ses facultés, de la gloire humaine, <lb n="64" xml:id="l-64"/>mais surtout de la gloire céleste du plus grand de ses fils, du Machabée de sa foi. Cromwell dans sa <lb n="65" xml:id="l-65"/>toute puissance, la cultivait et la vénérait comme la racine de son coeur et de sa destinée. </ab>
+                <lb n="66" xml:id="l-66"/>
+<ab rend="indent">La Mère de Mylord protecteur, écrit à cette date de 1654, le secretaire intime de Cromwell, Thurloe<c type="kk">/</c> <lb n="67" xml:id="l-67"/>est morte la nuit dernière âgée de près d’un siècle. Un moment avant d’expirer, elle fit appeler son <lb n="68" xml:id="l-68"/>fils auprès de son lit, et, lui donnant de la main sa bénédiction “Que le Seigneur, lui dit ell<supplied>e</supplied>
+                    <c type="kk">/</c> <lb n="69" xml:id="l-69"/>fasse constamment briller la splendeur de Sa face sur vous, mon fils! Qu’Il vous soutienne dans <lb n="70" xml:id="l-70"/>toutes vos adversités! Qu’Il égale vos forces aux grandes choses que le Très Haut vous a chargé <lb n="71" xml:id="l-71"/>d’accomplir pour la gloire de Son Saint nom et pour le salut de Son peuple! Mon cher fils, ajouta-t-elle <lb n="72" xml:id="l-72"/>en insistant sur ce nom qui faisait sa gloire au dernier moment, mon cher fils, je <lb n="73" xml:id="l-73"/>laisse mon esprit et mon coeur avec toi! à Dieu, à Dieu!” Et elle retomba, dit Thurloe<c type="kk">/</c> dans <lb n="74" xml:id="l-74"/>son dernier assoupissement. Cromwell fondit en larmes comme un homme qui aurait perdu <lb n="75" xml:id="l-75"/>une partie de la lumière qui l’eclairait dans ses ténèbres<c type="kp">_</c> Sa mère qui l’aimait comme fils et <lb n="76" xml:id="l-76"/>qui le venerait comme élu de Dieu, habitait avec lui le palais des rois de White Hall, mais <lb n="77" xml:id="l-77"/>elle y vivait dans un appartement retiré et nu du palais. Ne voulant pas, disait-elle, ap<c type="shy">-</c>
+                    <lb n="78" xml:id="l-78"/>proprier à elle et à ses autres enfants cette splendeur à laquelle le Seigneur condam<c type="shy">-</c>
+                    <lb n="79" xml:id="l-79"/>nait son fils, mais qui n’était que la decoration passagère d’une hôtellerie, à laquelle <lb n="80" xml:id="l-80"/>elle ne voulait attacher ni son coeur, ni l’existence future de sa famille. De cruels <lb n="81" xml:id="l-81"/>soucis troublaient ses jours et ses nuits dans ce palais des rois, où elle regrettait s<supplied>a</supplied> <lb n="82" xml:id="l-82"/>ferme champêtre du pays de Galle<supplied>s</supplied>
+                    <c type="kp">_</c> Cromwell fit à sa mère des funérailles de reine, <supplied>té</supplied>
+                    <c type="shy">-</c>
+                    <lb n="83" xml:id="l-83"/>moignage de piété filiale plutôt que d’ostentation. Elle fut ensevelie au milieu des <lb n="84" xml:id="l-84"/>poussières royales ou illustres, sous les parvis de Westminster, ce Saint Denis des dynasties <lb n="85" xml:id="l-85"/>et des grandeurs Brittaniques<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="86" xml:id="l-86"/>
+<ab>Hampton-Court, magnifique résidence féodale de Henri VIII, était un séjour qui, <lb n="87" xml:id="l-87"/>par sa morne et monacale grandeur, devait plaire à Cromwell. Le château flanqué <lb n="88" xml:id="l-88"/>de tours larges et surbaissées comme des bastions d’une place forte, est couronné <lb n="89" xml:id="l-89"/>de créneaux sans cesse noircis par des volées de corneilles (rooks)<c type="kp">_</c> Il <lb n="90" xml:id="l-90"/>est bâti au bord de ces profondes forêts, luxe de la terre cher à la race Saxonne. Les <lb n="91" xml:id="l-91"/>chênes séculaires de son vaste parc semblent affecter la majesté d’une végétation <lb n="92" xml:id="l-92"/>royale pour s’égaler aux tours gothiques du Chateau. De longues avenues voilées <lb n="93" xml:id="l-93"/>d’ombre et de brumes n’y ont pour perspective que de verts gazons traversés en <lb n="94" xml:id="l-94"/>silence par des troupeaux de daims apprivoisés<c type="kp">_</c> Des portes étroites, basses, <lb n="95" xml:id="l-95"/>cintrées en ogives, semblables à des ouvertures de caverne dans le massif du rocher, <lb n="96" xml:id="l-96"/>donnent accès à des souterrains, à des corps de garde<c type="kk">/</c> à des salles voûtées, tapissées <lb n="97" xml:id="l-97"/>de faisceaux d’armures antiques. Tout y respire cette souveraineté ombrageuse qui <lb n="98" xml:id="l-98"/>fait le vide autour des rois par le respect ou par la terreur. Hampton-Court était <lb n="99" xml:id="l-99"/>le séjour de prédilection de Cromwell, mais la douleur l’y retenait en ce moment autant <lb n="100" xml:id="l-100"/>que le délassement. Son premier goût, le goût de la nature rurale et des animaux qui <lb n="101" xml:id="l-101"/>la vivifient, était le dernier qui mourut en lui<c type="kp">_</c> Le gentilhomme cultivateur se retrouvait <lb n="102" xml:id="l-102"/>sous le maître d’empire. La Bible et la vie patriarchale, à laquelle la Bible fait sans <lb n="103" xml:id="l-103"/>cesse allusion, s’associaient dans son imagination à ses souvenirs &amp; occupations rurales <lb n="104" xml:id="l-104"/>qu’il regrettait jusque dans ses palais<c type="kp">_</c> Il disait souvent: Heureux celui qui vit <lb n="105" xml:id="l-105"/>sous le chaume et qui cultive son champ.─ Une fièvre lente et intermittente le saisit à <lb n="106" xml:id="l-106"/>Hampton Court. Il en brava les premiers accès sans que personne autour de lui soupçon<c type="shy">-</c>
+                    <lb n="107" xml:id="l-107"/>nat la gravité du mal<c type="kp">_</c> La fièvre devint tierce et plus aiguë; les médecins appelés de Londres <lb n="108" xml:id="l-108"/>l’attribuèrent à l’air marécageux des bords mal endigués de la Tamise, à l’extrémité des <lb n="109" xml:id="l-109"/>jardins de Hampton-Court. Elle consumait rapidement ses forces.</ab>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                <lb n="110" xml:id="l-110"/>
+<ab rend="indent">On le ramena au palais de White Hall, comme s’il était dans les decrets de la Providence <lb n="111" xml:id="l-111"/>de le faire mourir devant la même fenêtre du même palais où l’on avait, par sa volonté<c type="kk">/</c> <lb n="112" xml:id="l-112"/>construit dix ans auparavant l’echafaud du roi sa victime. Cromwell ne devait plus se relever <lb n="113" xml:id="l-113"/>du lit royal où on le coucha à son retour de Londres<c type="kp">_</c> On a mille fois travesti ou interprété <lb n="114" xml:id="l-114"/>ses actes et ses paroles pendant sa longue maladie, au gré des partis qui avaient à se <lb n="115" xml:id="l-115"/>venger de sa vie ou à se parer de sa mort. Un document nouveau, authentique et inappréciable<c type="kk">/</c> <lb n="116" xml:id="l-116"/>les notes prises à son insu, heure par heure et soupir par soupir, par l’intendant de sa <lb n="117" xml:id="l-117"/>chambre, qui le servait jour et nuit, font assister à toutes ses pensées et à toutes ses <lb n="118" xml:id="l-118"/>paroles. Les paroles de cette heure suprême sont le secret des pensées. La mort <lb n="119" xml:id="l-119"/>démasque tous les visages, et il n’y a pas d’hypocrisie sous la main levée de Dieu. </ab>
+                <lb n="120" xml:id="l-120"/>
+<ab rend="indent">Dans les intervalles de ses accès de fièvre il remplissait ses heures par des lectures <lb n="121" xml:id="l-121"/>des livres saints et par des retours, tantôt désespérés tantôt résignés sur la mort de <lb n="122" xml:id="l-122"/>sa fille. Lisez-moi<c type="kk">/</c> dit-il dans un de ces moments à sa femme<c type="kk">/</c> l’epitre de <lb n="123" xml:id="l-123"/>Saint Paul aux habitants de Philippes. Elle lut ces mots: <hi rend="ital">J’ai appris à être</hi> <lb n="124" xml:id="l-124"/>
+                    <hi rend="ital">satisfait dans quelque tribulation où Dieu me jette, j’ai appris à con</hi>
+                    <c type="shy">-</c>
+                    <lb n="125" xml:id="l-125"/>
+                    <hi rend="ital">naître les deux fortunes, l’excès des abaissements et l’excès des prospérités; je</hi> <lb n="126" xml:id="l-126"/>
+                    <hi rend="ital">sais braver l’une et l’autre avec la force du Dieu Qui me soutient</hi>
+                    <c type="kp">_</c> La lectrice s’arrêta<c type="kp">_</c> <lb n="127" xml:id="l-127"/>Ce verset<c type="kk">/</c> dit Cromwell, m’a sauvé une fois la vie, au moment où la mort de mon premier né<c type="kk">/</c> le <lb n="128" xml:id="l-128"/>petit Olivier, m’entra dans le coeur comme un poignard. Ah Saint Paul, continua-t-il, vous <lb n="129" xml:id="l-129"/>aviez le droit de parler ainsi, vous vous aviez correspondu à la grâce, mais moi!... <lb n="130" xml:id="l-130"/>Puis<c type="kk">/</c> se reprenant d’un ton de confiance réfléchie, après un peu de silence: <hi rend="ital">Mais</hi> <lb n="131" xml:id="l-131"/>
+                    <hi rend="ital">[ce]lui Qui était le Christ de Saint Paul, dit-il, n’est-il pas aussi le mien.</hi>
+                </ab>
+                <lb n="132" xml:id="l-132"/>
+<ab rend="indent">On priait pour lui dans les trois royaumes<c type="kk">/</c> les puritains pour leur prophète, les républicains pour leur <lb n="133" xml:id="l-133"/>champion<c type="kk">/</c> les patriotes pour le soutien de leur patrie<c type="kp">_</c> Les antichambres retentissaient du mur<c type="shy">-</c>
+                    <lb n="134" xml:id="l-134"/>mure sourd et perpetuel des ministres precheurs, des chapelains<c type="kk">/</c> des inspirés, des amis de sa <lb n="135" xml:id="l-135"/>personne et de sa famille, offrant à Dieu leurs gémissements pour racheter la vie de leur saint. <lb n="136" xml:id="l-136"/>White Hall ressemblait plus à un sanctuaire qu’à un palais, ce même esprit d’inspiration mystique <lb n="137" xml:id="l-137"/>
+                    <supplied>qui</supplied> l’avait poussé dans cette demeure au commencement éclatait dans sa fin. Il ne s’entre<c type="shy">-</c>
+                    <lb n="138" xml:id="l-138"/>
+                    <supplied>ten</supplied>ait que de piété<c type="kk">/</c> jamais de politique; tant la pensée du salut l’emportait chez lui sur <lb n="139" xml:id="l-139"/>la pensée de prolonger son pouvoir. Il avait désigné son fils Richard pour son successeur <lb n="140" xml:id="l-140"/>dans un papier scellé et égaré le jour même où il avait été nommé protecteur. On <lb n="141" xml:id="l-141"/>aurait voulu, autour de lui, qu’il renouvelât cet acte; mais il temoignait ou de l’indifference ou <lb n="142" xml:id="l-142"/>de la repugnance à le faire<c type="kp">_</c> Enfin<c type="kk">/</c> quand on lui demandait devant témoins s’il n’était <lb n="143" xml:id="l-143"/>pas vrai que sa volonté fût que son fils Richard lui succédât: Oui, balbutia-t-il <lb n="144" xml:id="l-144"/>avec un signe de tête affirmatif. Et il changea aussitôt d’entretien. Il était évi<c type="shy">-</c>
+                    <lb n="145" xml:id="l-145"/>dent que cet homme, rompu aux vicissitudes des empires et à la versatilité des peuples<c type="kk">/</c> <lb n="146" xml:id="l-146"/>attachait peu de valeur aux testaments d’un dictateur et s’en rapportait à la <lb n="147" xml:id="l-147"/>Providence du sort de la dictature après lui. Dieu gouvernera par l’instrument <lb n="148" xml:id="l-148"/>qu’il Lui conviendra de choisir, disait-il, qui est ce qui m’a donné à moi-<c type="shy">-</c>
+                    <lb n="149" xml:id="l-149"/>même l’autorité sur son peuple. Il croyait avoir deposé ce papier à Hampton Court<c type="kk">/</c> <lb n="150" xml:id="l-150"/>on alla l’y chercher, on ne trouva rien, on n’en reparla plus. Richard, qui vivait <lb n="151" xml:id="l-151"/>toujours à la campagne dans la maison paternelle de sa femme, arrivà à Londres <lb n="152" xml:id="l-152"/>avec ses soeurs et ses beaux frères pour entourer le lit de mort du chef de famille. <lb n="153" xml:id="l-153"/>Il ne semblait pas lui-même se faire plus d’illusion que son père sur l’hérédité de son pouvoir. <lb n="154" xml:id="l-154"/>Il n’en avait ni le goût, ni l’ambition<c type="kp">_</c> Toute la famille<c type="kk">/</c> laissée par le protecteur <lb n="155" xml:id="l-155"/>dans la vie privee et dans la médiocreté de la vie commune, paraissait prête à y <lb n="156" xml:id="l-156"/>rentrer avec bonheur comme des acteurs qui sortent de la scène après le drame. <lb n="157" xml:id="l-157"/>Ils n’avaient accumulé sur eux ni haine ni envie par leur insolence ou leur orgueil<c type="kp">_</c> Enfants de Sylla <lb n="158" xml:id="l-158"/>qui pouvaient impunément se mêler à la foule, la tendresse mutuelle de cette famille et ses <lb n="159" xml:id="l-159"/>larmes étaitent le seul appareil de cette mort autour du lit du protecteur. “Ne pleurez pas ainsi, <lb n="160" xml:id="l-160"/>dit-il, une fois à sa femme et à ses enfants qui sanglotaient dans sa chambre, n’aimez <lb n="161" xml:id="l-161"/>
+                    <supplied>p</supplied>as ce vain monde, je vous le dis au bord de ma tombe, n’aimez pas ce monde.” Il y eut <lb n="162" xml:id="l-162"/>un moment où il parut ressentir cependant quelque faiblesse pour la vie<c type="kp">_</c> N’y a t-il personne <lb n="163" xml:id="l-163"/>ici qui puisse me tirer du danger? On ne répondit rien: Les hommes ne peuvent rien<c type="kk">/</c> <lb n="164" xml:id="l-164"/>reprit-il<c type="kk">/</c> Dieu peut ce qu’Il veut! Eh bien, n’y a-t-il personne qui veuille prier avec moi? <lb n="165" xml:id="l-165"/>Le silence de ses lèvres était interrompu de temps en temps par des aspirations mystiques <lb n="166" xml:id="l-166"/>et par des balbutiements, et l’on entendait l’accent de la prière intérieure<c type="kp">_</c>
+                </ab>
+<pb f="1v" n="4" xml:id="pb-orig-1v-4" facs="#zone-pb-1v-4"/>
+                <lb n="167" xml:id="l-167"/>
+<ab rend="indent">Seigneur, Vous m’êtes témoin que, si je désire vivre<c type="kk">/</c> c’est pour glorifier Votre nom et achever Vos oeuvres<c type="kp">_</c> <lb n="168" xml:id="l-168"/>Il est terrible, murmura-t-il trois fois de suite, de tomber entre les mains du Dieu vivant!</ab>
+                <lb n="169" xml:id="l-169"/>
+<ab rend="indent">Croyez vous, dit-il à son chapelain, que l’homme puisse jamais perdre l’étât de grâce devant Dieu <lb n="170" xml:id="l-170"/>une fois qu’il y a été élevé. Non<c type="kk">/</c> répondit le chapelain, l’étât de grâce ne suppose pas la possibilité <lb n="171" xml:id="l-171"/>de la rechute. “Eh bien, repliqua Cromwell, je suis content, car je suis sûr d’avoir été en étât de grâce <lb n="172" xml:id="l-172"/>parfait à une certaine période de ma vie.” Tous ses problèmes étaient de la vie à venir, aucun de <lb n="173" xml:id="l-173"/>la vie présente. Je suis le dernier des hommes, continua-t-il un moment après, mais j’ai <lb n="174" xml:id="l-174"/>aimé Dieu, loué Dieu, ou plutôt je suis aimé de Dieu! Il y eût un moment où l’on crut que <lb n="175" xml:id="l-175"/>le danger de sa maladie était passé, où il le crut lui-même<c type="kp">_</c> White Hall et ses temples <lb n="176" xml:id="l-176"/>retentirent d’actions de grâces. Ce moment fut court, la fièvre redoubla<c type="kp">_</c> Il eut des jours <lb n="177" xml:id="l-177"/>et des nuits de tranquille affaiblissement et de vagues délires<c type="kp">_</c> Dans la matinée du 30 aôut <lb n="178" xml:id="l-178"/>un des officiers, regardant par la fenêtre, reconnut le capitaine Ludlow, exilé de <lb n="179" xml:id="l-179"/>Londres, qui passait sur la place<c type="kp">_</c> Cromwell<c type="kk">/</c> informé de la présence de Ludlow, s’inquiéta <lb n="180" xml:id="l-180"/>du motif qui lui donnait l’audace de se montrer dans la capitale et de passer sous ses <lb n="181" xml:id="l-181"/>fenêtres<c type="kp">_</c> Il craignit une explosion républicaine calculée pour éclater à son dernier soupir. <lb n="182" xml:id="l-182"/>Il envoya son fils Richard chez Ludlow pour sonder l’intention secrète des républicains<c type="kp">_</c> <lb n="183" xml:id="l-183"/>Ludlow assura Richard qu’il n’était venu à Londres que pour une affaire privée et qu’il <lb n="184" xml:id="l-184"/>ignorait même en y venant la maladie du protecteur. Il promit de repartir le même <lb n="185" xml:id="l-185"/>jour<c type="kp">_</c> C’est ce même Ludlow qui, proscrit peu de temps après la mort de Cromwell comm<supplied>e</supplied>
+                </ab>
+                <lb n="186" xml:id="l-186"/>
+<ab>régicide, alla vieillir et mourir impenitent de ce meurtre à Vévay<c type="kk">/</c> sur les bords du lac Lema<supplied>n</supplied> <lb n="187" xml:id="l-187"/>où l’on voit sa tombe.─ Cromwell<c type="kk">/</c> rassuré sur les intentions des republicains, ne s’oc<c type="shy">-</c>
+                    <lb n="188" xml:id="l-188"/>cupa plus que de sanctifier sa fin. L’intendant de sa chambre, qui le veillait, l’en<c type="shy">-</c>
+                    <lb n="189" xml:id="l-189"/>tendit proferer, par versets decousus<c type="kk">/</c> Sa dernière prière à haute voix<c type="kp">_</c> Il nota pour sa <lb n="190" xml:id="l-190"/>propre édification, les paroles à mesure qu’elles s’echappaient des lèvres du protec<c type="shy">-</c>
+                    <lb n="191" xml:id="l-191"/>teur mourant et les transmit longtemps après à l’histoire:</ab>
+                <lb n="192" xml:id="l-192"/>
+<ab rend="indent">Seigneur, je suis une misérable creature. Mais je suis dans Ta vérité par Ta grâce <lb n="193" xml:id="l-193"/>et j’espère comparaître devant Toi pour ce peuple. Tu m’as créé, quoiqu’indigne, <lb n="194" xml:id="l-194"/>pour être l’instrument de quelque bien ici-bas et de quelques services à mes frères. <lb n="195" xml:id="l-195"/>Beaucoup d’entre eux ont eu de moi une idée trop supérieure de mes forces, d’autres <lb n="196" xml:id="l-196"/>vont se réjouir de ma mort. N’importe, o mon Dieu! Continue de les combler de <lb n="197" xml:id="l-197"/>Tes secours, <hi rend="ital">donne leur la constance et la rectitude de sens, rends par eux le</hi> <lb n="198" xml:id="l-198"/>
+                    <hi rend="ital">nom du Christ de plus en plus glorieux dans l’univers</hi>
+                    <c type="kk">/</c>
+                    <hi rend="ital"> enseigne à ceux qui se</hi> <lb n="199" xml:id="l-199"/>
+                    <hi rend="ital">fiaient trop à Ton instrument à ne placer la confiance qu’en Toi seul!</hi> Excuse <lb n="200" xml:id="l-200"/>ceux qui sont impatients de fouler aux pieds ce ver de terre! et accorde moi une nuit <lb n="201" xml:id="l-201"/>de repos si c’est Ton bon plaisir!</ab>
+                <lb n="201*" xml:id="l-201s"/>
+<ab rend="indent">Le lendemain<c type="kk">/</c> anniversaire des batailles de <lb n="202" xml:id="l-202"/>Dumbar et de Worcester<c type="kk">/</c> ses plus grands triomphes<c type="kk">/</c> le bruit des fanfares militaires <lb n="203" xml:id="l-203"/>qui célébraient ces victoires monta jusque dans ses appartements. Je voudrais<c type="kk">/</c> s’écria-t-il<c type="kk">/</c> <lb n="204" xml:id="l-204"/>vivre encore assez pour rendre de pareils services à ce peuple mais ma journée est faite<c type="kp">_</c> <lb n="205" xml:id="l-205"/>Que Dieu soit toujours avec Ses enfants! Après une dernière nuit d’agonie et d’insom<c type="shy">-</c>
+                    <lb n="206" xml:id="l-206"/>nie, on lui demanda s’il voulait boire ou dormir. Ni boire ni dormir <lb n="207" xml:id="l-207"/>maintenant<c type="kk">/</c> repondit-il, mais m’en aller vite à mon Père. Au lever du soleil il <lb n="208" xml:id="l-208"/>perdit la voix, mais on le voyait prier encore à voix basse.</ab>
+                <lb n="209" xml:id="l-209"/>
+<ab rend="indent">L’ouragan d’équinoxe qui soufflait depuis la veille se changea, à ce mo<c type="shy">-</c>
+                    <lb n="210" xml:id="l-210"/>ment, en une tempête si convulsive qu’elle ressemblait à un tremblement de <lb n="211" xml:id="l-211"/>terre. Les voitures qui amenaient à Londres les amis du protecteur, avertis <lb n="212" xml:id="l-212"/>de l’extrémité du péril, ne purent avancer contre le vent et se réfugièrent dans <lb n="213" xml:id="l-213"/>les hôtelleries de la route. Les maisons hautes de Londres semblaient <lb n="214" xml:id="l-214"/>osciller comme des navires sur les vagues<c type="kp">_</c> Des toits furent emportés, des <lb n="215" xml:id="l-215"/>arbres séculaires d’Hyde Park déracinés et balayés sur le sol, avec toutes <lb n="216" xml:id="l-216"/>leurs feuilles, comme des brins d’herbe. Cromwell expira à deux heures <lb n="217" xml:id="l-217"/>après midi au milieu de ce bouleversement de la nature<c type="kp">_</c> La tempête l’emporta <lb n="218" xml:id="l-218"/>comme elle l’avait apporté<c type="kp">_</c> Le peuple vit un prodige dans cette convulsion ath<c type="shy">-</c>
+                    <lb n="219" xml:id="l-219"/>mospherique avec la dernière convulsion de son prophète.─<anchor n="17" xml:id="note-o-17"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="220" xml:id="l-220"/>
+<ab>A. de Lamartine ─ Cromwell.</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-4" n="4">(of <supplied>
+                            <hi rend="ital">...</hi>
+                        </supplied> kwaamt) &lt; <hi rend="ital">Added later; parentheses added by us.</hi>
+                    </note>
+<note target="l-37" n="37">zijn &lt; zein</note>
+<note target="l-52" n="52">* posséda<supplied>it</supplied> &lt; <hi rend="ital">Text lost due to damaged edge of the paper. All the reconstructions correspond to the original text.</hi>
+                    </note>
+<note target="l-73" n="73">à Dieu!” &lt; à Dieu!</note>
+<note target="l-68" n="68">ell<supplied>e</supplied> &lt; <hi rend="ital">Text lost due to damaged edge of the paper.</hi>
+                    </note>
+<note target="l-81" n="81">s<supplied>a</supplied> &lt; <hi rend="ital">Text lost due to damaged edge of the paper.</hi>
+                    </note>
+<note target="l-82" n="82">Galle<supplied>s</supplied> &lt; <hi rend="ital">Text lost due to damage of the paper.</hi>
+                    </note>
+<note target="l-82" targetEnd="l-83" n="82-83">
+                        <supplied>té</supplied>moignage &lt; <hi rend="ital">Text lost due to damaged edge of the paper.</hi>
+                    </note>
+<note target="l-124" n="124">
+                        <hi rend="ital">satisfait</hi> &lt; <hi rend="ital">Satisfait</hi>
+                    </note>
+<note target="l-131" n="131">
+                        <supplied>ce</supplied>lui &lt; <hi rend="ital">Text lost due to damaged edge of the paper.</hi>
+                    </note>
+<note target="l-137" n="137">
+                        <supplied>qui</supplied> &lt; <hi rend="ital">Text lost due to damaged edge of the paper.</hi>
+                    </note>
+<note target="l-138" n="138">
+                        <supplied>ten</supplied>ait &lt; <hi rend="ital">Text lost due to damaged edge of the paper.</hi>
+                    </note>
+<note target="l-159" n="159">pleurez &lt; plurez</note>
+<note target="l-161" n="161">
+                        <supplied>p</supplied>as &lt; <hi rend="ital">Text lost due to damaged edge of the paper..</hi>
+                    </note>
+<note target="l-185" n="185">comm<supplied>e</supplied> &lt; <hi rend="ital">Text lost due to damaged edge of the paper.</hi>
+                    </note>
+<note target="l-212" n="212">contre &lt; Contre</note>
+<note target="l-214" n="214">osciller &lt; occiler</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>Amsterdam, 4 June 1877</ab>
+<vg:whiteline/>
+<ab>My dear Theo,</ab>
+<ab>You remember that evening in Dordrecht when we walked through Dordrecht together,<anchor n="1" xml:id="note-t-1"/> around the Grote Kerk and through all kinds of streets and along the canals with their reflections of the old houses and the lights from the windows. You spoke then (or rather it was that Sunday when you arrived) about a description of a day in London by <rs type="pers" key="607">Théophile Gautier</rs>, the coaches from a wedding before the doors of a church on a stormy and misty day.<anchor n="2" xml:id="note-t-2"/> I saw it all before me, but if it struck you then you’ll also feel moved by the enclosed, I read these pages on a very stormy day last week, also with thoughts about the <rs type="pers" key="757">Queen</rs>’s illness;<anchor n="3" xml:id="note-t-3"/> it was evening when the sun went down, casting a reddish glow on the grey evening clouds, against which the masts of the ships and the row of old houses and trees stood out, and everything was reflected in the water, and the sky cast a strange light on the black earth, the green grass with daisies and buttercups, and on the shrubs of white and purple lilacs and elderberry from the garden at the dockyard. I had read that book by <rs type="pers" key="685">Lamartine</rs> in London and it had made a deep impression on me, and did so again this time, especially those last few pages.</ab>
+<ab rend="indent">Write and tell me what you think of it. The places spoken about: Hampton Court with its avenues of lime trees full of rookeries,<anchor n="a" xml:id="note-t-a"/> Whitehall overgrown with ivy on the back, and the inner courtyard bordering on St James’s Park where one can see Westminster Abbey &amp;c., I see it all before me, and the weather and the sombre tone covering it all.<anchor n="4" xml:id="note-t-4"/> (That’s what keeps me from sleeping!)</ab>
+  <ab rend="indent">Did you go to Etten on Sunday? I sincerely hope so, and that you had a good day; I gather this from a sentence in the last letter from Etten: ‘we expect Theo, probably this Sunday’. This evening I have to go to <rs type="pers" key="318">Uncle Stricker</rs>’s. Went to the early sermon yesterday morning,<anchor n="5" xml:id="note-t-5"/> heard a sermon on the text ‘Wilt thou be made whole?’,<anchor n="6" xml:id="note-t-6"/> how they that be whole need not a physician, but they that are sick.<anchor n="7" xml:id="note-t-7"/> Afterwards I heard Uncle Stricker in the Amstelkerk that you know<anchor n="8" xml:id="note-t-8"/> on <bibleref xmlns="http://www.vangoghletters.org/ns/" book="2 Cor" chap="4" v="18">2 Cor. 4:18</bibleref>
+                    <hi rend="ss">b</hi>, ‘for the things which are seen are temporal; but the things which are not seen are eternal’.</ab>
+<ab rend="indent">There was a bit at the end where he spoke passionately and cried out ‘but Charity abideth’.<anchor n="9" xml:id="note-t-9"/> How we are bound to one another through God by bonds that are in God’s hand, and in those bonds lies our strength, and they are old and do not break easily.</ab>
+<ab rend="indent">Have got a lot to do, so adieu, perhaps this evening I’ll write a few more words below. Accept in thought a handshake, and believe me</ab>
+<vg:whiteline/>
+<ab>Your most loving brother,</ab>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<ab>Went past the flower market on Singel today,<anchor n="10" xml:id="note-t-10"/> I saw such a nice thing there. A farmer was standing there with lots and lots of pots, all kinds of flowers and shrubs, the ivy was at the back, and in between sat his little girl, a child like <rs type="pers" key="1203">Maris</rs> would paint,<anchor n="11" xml:id="note-t-11"/> so simple, wearing a black cap, and with a pair of eyes so lively and really so friendly, she sat there knitting, the man was hawking his wares, and if I’d been able to I would gladly have bought something, and he said, also pointing unintentionally at his little daughter, ‘Doesn’t it look good?’</ab>
+<vg:whiteline/>
+<ab>5 June. Last night I was at <rs type="pers" key="317 318">the Strickers</rs>’, <rs type="pers" key="516">Margreet Meyboom</rs>, to whom <rs type="pers" key="775">Paul</rs>
+                    <anchor n="12" xml:id="note-t-12"/> is engaged, was there as well. That’s a girl who’s very reminiscent of Ellen in ‘The wide, wide World’,<anchor n="13" xml:id="note-t-13"/> her father was a very clever preacher, an extraordinary man and close friend of Uncle Stricker.<anchor n="14" xml:id="note-t-14"/> We walked along Buitenkant and there by the sand works at the Oosterspoor, I can’t tell you how beautiful it was there in the twilight. <rs type="pers" key="1295">Rembrandt</rs>, <rs type="pers" key="1228">Michel</rs> and others have painted it, the ground dark, the sky still lit by the glow of the sun, already gone down, the row of houses and towers standing out above, the lights in the windows everywhere, everything reflected in the water. And the people and carriages like small black figures everywhere. Like one sometimes sees in a Rembrandt. And it put us in such a mood that we began talking about all sorts of things.</ab>
+<ab rend="indent">Sat up late last night writing, and early this morning it was such gorgeous weather. In the evening there’s also a beautiful view of the yard, where everything is deathly still and the street-lamps are burning and the sky above full of stars. When all sounds cease – God’s voice is heard – Under the stars.<anchor n="15" xml:id="note-t-15"/> Be sure to write soon and tell me whether that piece about <rs type="pers" key="339">Cromwell</rs> isn’t something right out of the heart of London.</ab>
+<vg:whiteline/>
+<ab rend="indent">
+<pb f="1r" n="2" xml:id="pb-trans-1r-2" facs="#zone-pb-1r-2"/>
+                </ab>
+<ab>
+                    <hi rend="ital">
+                        <rs type="pers" key="339">Cromwell</rs>’s Youth</hi>
+                    <anchor n="16" xml:id="note-t-16"/>
+                </ab>
+                <ab> It did not take long for his family to fall from its position of wealth. He retired to a small estate which he owned in the Huntingdon fens. The poor, harsh, desolate surroundings of this watery region, the monotonous horizon, the filthy river, the overcast sky, the spindly trees, the few scattered cottages, the rude manners of the inhabitants were of a kind to concentrate and to darken the young man’s character. The souls of places seem to enter the souls of men; often from a barren, dreary region there emerges a lively, ardent and profound faith. As the place, so the man. The soul is a mirror first, and only then a seat of feeling.</ab>
+<ab rend="indent">A family misfortune affected Cromwell during this period of ascendancy in his life, when we are surprised to see tears in the eyes of a man who had watched dry-eyed the ill-fated Charles I torn from his children’s arms to die. He lost his mother, aged ninety-four. She was this Elizabeth Stuart, blood-daughter of the kings whom her son had dethroned, a biblical woman, mother of a large family, the wellspring of their piety, the nursemaid of their virtues, the living inspiration of their passion for the religious liberty of their sect; while in the full possession of her faculties, she enjoyed earthly glory, but most of all the heavenly glory of the greatest of her sons, the Maccabeus of her faith. Cromwell, as he wielded supreme power, cherished and venerated her as the root of his heart and of his destiny.</ab>
+<ab rend="indent">My Lord Protector’s mother, wrote Cromwell’s private secretary, Thurloe, in that year of 1654, died last night almost a century old. Moments before she expired, she asked for her son to be called to her bedside, and giving her blessing with her hand, she said to him ‘May the Lord constantly make the splendour of His face to shine upon you, my son! May He sustain you in all your adversities! May He make your strength equal to the great things the Highest has charged you to accomplish for the glory of His Holy name and for the salvation of His people! My dear son, she continued, emphasizing the name that was her glory in her last moments, my dear son, I leave my spirit and my heart with thee! Farewell! Farewell!’ And she fell back, says Thurloe, in her final slumber. Cromwell burst into tears like a man who seemed to have lost part of the light that illuminated him in his darkness. His mother who loved him as a son and venerated him as God’s elect, resided with him in the royal palace of Whitehall, but she lived in a bare, secluded apartment in the palace. Not wishing, she said, to appropriate unto herself and to her other children that glory to which the Lord had condemned her son, but which was no more than the temporary furnishings of an inn, to which she wished to attach neither her heart, nor the future existence of her family. Keen anxieties troubled her days and nights in that palace of kings, where she missed her rural farm in Wales. Cromwell gave his mother a queen’s funeral, a sign rather of filial piety than of ostentation. She was buried among the ashes of royalty and illustrious men, beneath the parvis of Westminster, that Saint Denis of Britain’s royal houses and great men.</ab>
+<vg:whiteline/>
+<ab>Hampton Court, the magnificent feudal residence of Henry VIII, was an abode which, in its gloomy monastic grandeur, ought to have pleased Cromwell. The palace, flanked by broad, squat towers like the bastions of a fortress, is crowned with crenellations constantly blackened with flocks of crows (rooks). It was built on the edge of those deep forests, one of earth’s extravagances dear to the Saxon race. The ancient oaks of its vast park seem to assume the majesty of a royal plantation to match the castle’s Gothic towers. Long avenues veiled in shadow and mist afford no view other than green lawns crossed in silence by herds of tame fallow deer. Low, narrow doors with pointed arches, like the mouths of caves in a formation of rocks, give access to underground chambers, guardrooms and vaulted halls, hung with an array of ancient arms and armour. Everything there exudes that shadowy sovereign power that creates an empty space around kings, whether out of respect or terror. Hampton Court was Cromwell’s favourite residence, but at that moment it was pain as much as relaxation that detained him there. His first love, the love of nature in the countryside and the animals that give it life, was the last to die in him. The gentleman farmer was still to be found behind the master of an empire. The Bible and the patriarchal life, of which the Bible constantly speaks, were associated in his imagination with his memories and rural activities, which he missed even in his palaces. He often said: Happy he who lives under the thatch and tills his field. At Hampton Court, a lingering and recurrent fever seized hold of him. He braved the first bouts without anyone around him suspecting the seriousness of his illness. The fever became tertian and more acute; doctors summoned from London attributed it to the marshy air of the poorly embanked sides of the Thames, at the bottom of Hampton Court’s gardens. It rapidly consumed his strength. 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/>
+                </ab>
+<ab rend="indent">He was taken back to the palace of Whitehall, as though it had been decreed by Providence that he should die before the same window in the same palace where, at his wish, the scaffold of his victim, the king, had been erected ten years previously. Cromwell was never again to rise from the royal bed in which he was laid on his return to London. The things he did and said during his long illness have been misrepresented or interpreted a thousand times, at the will of those who had reason to seek revenge for his life or to enhance their own position through his death. A new, authentic and invaluable document, the notes taken unbeknownst to him, hour by hour and sigh by sigh, by the groom of his bedchamber, who was at his service day and night, makes us privy to his every word and thought. Words spoken at this hour of death are thought’s secrets. Death removes the mask from every face, and there is no hypocrisy beneath the raised hand of God.</ab>
+<ab rend="indent">Between his bouts of fever he filled his hours reading holy books and dwelling, sometimes in despair and sometimes with resignation, on his daughter’s death. Read to me, he said to his wife, on one such occasion, the Epistle of Saint Paul to the Philippians. She read these words: <hi rend="ital">I have learned to be satisfied in whatever tribulation God casts me, I have learned to know the two fortunes, the excess of abasements and the excess of abundance. I can face both the one and the other with the strength of the God Who sustains me.</hi> The reader stopped. This verse, said Cromwell, once saved my life, at the time when the death of my firstborn, little Oliver, pierced my heart like a dagger. Ah, Saint Paul, he went on, you had the right to speak thus, you had measured yourself beside grace, but I!... Then, rallying, in a tone of reflective confidence, after a brief silence: <hi rend="ital">But he Who</hi> <hi rend="ital">was the Christ of Saint Paul, he said, is he not mine also?</hi>
+                </ab>
+<ab rend="indent">They prayed for him in the three kingdoms: Puritans for their prophet, republicans for their champion, and patriots for the mainstay of their country. Antechambers echoed to the ceaseless, muffled murmur of ministers, preachers, chaplains, visionaries, mystics, friends of his person and of his family, offering up their groans to God in order to redeem the life of their saint. Whitehall was more like a shrine than a palace, and the same spirit of mystical inspiration which had brought him to this dwelling-place at the beginning was bursting forth at his end. He talked only of devotion, never of policy; by so much more did the thought of salvation weigh with him than the thought of prolonging his power. He had named his son Richard as his successor, in a document which had been sealed and mislaid on the day he was named Protector. Those around him would have wished him to repeat this act; but he showed either indifference or repugnance towards doing so. At last, when he was asked before witnesses if it were not true that it was his wish that Richard should succeed him: Yes, he stammered, nodding his head in assent. And he immediately changed the subject. It was clear that this man, broken by the vicissitudes of empires and the fickleness of peoples, set little store by a dictator’s testaments, and relied on Providence to determine the fate of the dictatorship after him. God will govern through the instrument that it pleases Him to choose, he said; who was it who gave me authority over his people? He believed he had deposited this document at Hampton Court, people went to look for it, but found nothing, and it was not mentioned again. Richard, who was still living in the country at his wife’s father’s house, arrived in London with his sisters and brothers-in-law, to gather around the deathbed of the head of the family. He himself appeared to have no more illusions than his father as to the hereditary nature of his power. He had neither the inclination nor the ambition for it. The whole family, whom the Protector had consigned to private life and to the mediocrity of life in the community, seemed prepared happily to return to it, like actors leaving the stage after the play. They had brought neither hatred nor envy upon themselves through their arrogance or their pride. The mutual tenderness, and the tears, of this family, children of Sulla, who could mingle with impunity in the crowd, were the only funereal pomp around the Protector’s bed. ‘Do not weep thus,’ he said on one occasion to his wife and children, who were sobbing in his bedchamber, ‘do not love this vain and empty world; I say this to you from the brink of my tomb, do not love this world.’ And yet there was a moment when he seemed to feel some weakness for life. Is there no one here who could bring me out of danger? There was no reply. Men can do nothing, he continued, God may do what He will! Ah well, is there no one who will pray with me? The silence on his lips was broken from time to time by mystical yearnings and by mutterings, and one could hear the sounds of the inner prayer. 
+<pb f="1v" n="4" xml:id="pb-trans-1v-4" facs="#zone-pb-1v-4"/>
+                </ab>
+<ab rend="indent">Lord, Thou art my witness that, if I desire to live, it is in order to glorify Thy name and to perform Thy works. It is terrible, he murmured three times in succession, to fall into the hands of the living God!</ab>
+<ab rend="indent">Do you believe, he said to his chaplain, that man can ever lose the state of grace before God once he has been raised to it? No, replied the chaplain, the state of grace does not allow of the possibility of lapsing from it. ‘Well,’ replied Cromwell, ‘then I am happy, because I am sure that I have been in a perfect state of grace at a certain time in my life.’ All his problems were of the life to come, none of this present life. I am the least of men, he continued a moment later, but I have loved God, praised God, or rather, I am beloved of God! There was a moment when the crisis of his illness was believed to have passed, and when he believed it himself. Whitehall and its churches resounded with thanksgiving. This moment was brief; the fever doubled in intensity. He had days and nights of calm enfeeblement and of wandering delirium. On the morning of August 30th, one of the officers, looking out of the window, recognized Captain Ludlow, exiled from London, passing by. Cromwell, informed of Ludlow’s presence, became anxious about what was making him bold enough to show himself in the capital and to walk beneath his windows. He feared an outburst of republicanism, calculated to erupt as he breathed his last. He sent his son Richard to Ludlow to probe the republicans’ secret intention. Ludlow assured Richard that he had come to London on private business only, and that when he came he did not even know of the Protector’s illness. He promised to leave the same day. This is the same Ludlow who, banished as a regicide shortly after Cromwell’s death, departed to grow old and die, impenitent for that murder, at Vevay, on the shores of Lake Geneva, where his tomb may be seen. Reassured as to the republicans’ intentions, Cromwell concerned himself only with making his death holy. The groom of his bedchamber, who kept vigil over him, heard him uttering his last prayer aloud in disjointed verses. For his own edification, he made a note of the words as they escaped from the lips of the dying Protector, and imparted them to history long afterwards: </ab>
+<ab rend="indent">Lord, I am a miserable creature. But I am in Thy truth through Thy grace and I hope to appear before Thee for this people. Thou hast created me, though unworthy, to be the instrument of some good here on earth and of some service to my brethren. Many of them have had of me too superior a notion of my strengths, others will rejoice at my death. This is of no import, o God! Continue to shower Thy succour upon them, <hi rend="ital">give them constancy and uprightness of judgement, through them make the name of Christ ever more glorious in the world, teach those who placed too great reliance in Thy instrument to place their faith in Thee alone!</hi> Pardon those who are eager to trample this worm under foot! And give me a good night if it be Thy pleasure!</ab>
+<ab rend="indent">On the following day, the anniversary of the battles of Dunbar and Worcester, his greatest triumphs, the noise of military fanfares in celebration of these victories rose into his apartments. I should like, he cried, to live long enough to render similar service to this people, but my day is done. May God always be with His children! After a final night of agony and sleeplessness, he was asked if he wished to drink or to sleep. Neither to drink nor to sleep now, he replied, but to go speedily to my Father. At sunrise he lost the power of speech, but could be seen still praying in a low voice.</ab>
+<ab rend="indent">The equinoctial gales, which had been blowing since the previous day, at that moment turned into a storm so violent that it resembled an earthquake. Carriages bringing to London the Protector’s friends, who had been warned of the extremity of his peril, could not make headway against the wind, and sought refuge at roadside inns. The tall London houses seemed to sway like ships on the waves. Roofs were carried away and centuries-old trees in Hyde Park torn up by the roots and swept along the ground, with all their leaves, like tufts of grass. Cromwell expired at two o’clock in the afternoon, in the midst of this upheaval of nature. The storm carried him off as it had brought him in. The people saw a wonder in this convulsion of the atmosphere with the final convulsion of their prophet.</ab>
+<vg:whiteline/>
+<ab>
+                    <rs type="pers" key="685">A. de Lamartine</rs> — <rs type="pers" key="339">Cromwell</rs>.<anchor n="17" xml:id="note-t-17"/>
+                </ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>This walk through Dordrecht took place on Sunday, 25 February; <ref target="let103.xml">see letter 103</ref>.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>An allusion to a passage in the novel <rs type="lit" key="138">
+                            <hi rend="ital">Partie carrée</hi>
+                        </rs> (1851) by <rs type="pers" key="607">Théophile Gautier</rs>, which describes how the wedding guests arrived on a ‘foggy day’ in coaches at the Church of Sainte-Margareth. Ed. Pierre Laubriet. 2 vols. Paris 2002, vol. 2, chapter 4, pp. 35-37.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+  <ab>
+                        <rs type="pers" key="757">Queen Sophia of the Netherlands</rs> (wife of <rs type="pers" key="1799">King Willem <hi rend="sc">iii</hi>
+                        </rs>) was ill and would die on 7 June.</ab>
+                </note>
+                <note n="a" xml:id="n-a" target="#note-t-a">
+                    <ab>
+                        <hi rend="ital">rookeries</hi>: Van Gogh wrote the Dutch ‘roekennesten’ and added ‘(rookeries)’.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>
+      <rs type="lit" key="139">
+                            <hi rend="ital">Cromwell</hi>
+                        </rs> by <rs type="pers" key="685">Alphonse Marie Louis Prat de Lamartine</rs> originally appeared in <hi rend="ital">Le civilisateur. Histoire de l’humanité par les grands hommes</hi> (1853-1854) and was included in <hi rend="ital">Vies des grands hommes</hi> (1855-1856 and 1859), in Lamartine’s <hi rend="ital">Oeuvres complètes</hi> (1863) and as a separate work, one such edition being the volume referred to here: <hi rend="ital">Cromwell</hi>. Brussels 1854; Paris 1864; Paris 1872 and Versailles 1872.</ab>
+<ab rend="indent">
+      <hi rend="ital">
+                            <rs type="lit" key="139">Cromwell</rs>
+                        </hi> contains a passage about Hampton Court, which Van Gogh recollects in his letter. The closing remark – that a ‘sombre tone’ hangs over the whole – is a description of the book’s ending. See Cromwell. Paris 1864, pp. 235-236, 245-257.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>The early sermon of 3 June could have been one of three possibilities: the <rs type="pers" key="506">Rev. J.C. van Marken</rs> preached in the Noorderkerk, the <rs type="pers" key="1685">Rev. N.H. de Graaf</rs> in the Zuiderkerk, and the <rs type="pers" key="1686">Rev. A.H.W. Brandt</rs> in the Nieuwezijdskapel. Brandt conducted his service in German, which makes it less likely that his was the sermon Van Gogh heard.</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="John" chap="5" v="6">John 5:6</bibleref>.</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Matt" chap="9" v="12">Matt. 9:12</bibleref>, <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Mark" chap="2" v="17">Mark 2:17</bibleref> and <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Luke" chap="5" v="31">Luke 5:31</bibleref>.</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>The Amstelkerk, a wooden chapel of ease in Amstelveld, near Reguliersgracht and Kerkstraat. <rs type="pers" key="318">Stricker</rs>’s service was held at 10 a.m.</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="1 Cor" chap="13" v="13">1 Cor. 13:13</bibleref>.</ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>For the flower market, <ref target="let109.xml#n-5">see letter 109, n. 5.</ref>
+                    </ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>In the 1870s, <rs type="pers" key="1203">Jacob Maris</rs> painted many Italian flower girls.</ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+<ab>
+                        <rs type="pers" key="775">Paul Stricker</rs>.</ab>
+                </note>
+<note n="13" xml:id="n-13" target="#note-t-13">
+<ab>Ellen Montgomery, the protagonist of <rs type="pers" key="839">Elizabeth Wetherell</rs>’s <rs type="lit" key="68">
+                            <hi rend="ital">The wide, wide world</hi>
+                        </rs>, grew up in an affluent New York family. After the death of her parents, she is forced to go and live with relatives in Scotland, where she makes friends with the children of a local minister, Alice and John (the latter a divinity student) and associates with the cultured Marshman family. Ellen is an attractive girl who struggles against many sins, discovers Jesus on her difficult path through life, and finally becomes a confirmed Christian. When Margreet Meyboom was staying with the Van Gogh family in Etten, Mrs van Gogh found her to be ‘a dear girl, so refined and uncomplicated’ (FR b2536, to Theo, 17 June 1877).</ab>
+                </note>
+<note n="14" xml:id="n-14" target="#note-t-14">
+<ab>The minister <rs type="pers" key="518">Louis Suson Pedro Meyboom</rs> belonged – as did <rs type="pers" key="526">Mr van Gogh</rs> – to the Groningen persuasion. <rs type="pers" key="318">J.P. Stricker</rs> wrote the ‘Levensbericht van Dr. L.S.P. Meyboom’, <hi rend="ital">Levensberichten der afgestorvene medeleden van de Maatschappij der Nederlandsche Letterkunde. Bijlage tot de Handelingen van 1875</hi>. Leiden 1875, pp. 165-202.</ab>
+                </note>
+<note n="15" xml:id="n-15" target="#note-t-15">
+  <ab>The quotation is taken from the poem ‘<rs type="lit" key="419">Under the stars</rs>’ (1875) by <rs type="pers" key="713">Dinah Maria Mulock Craik</rs> in <hi rend="ital">Thirty years being poems new and old</hi>. By the author of “John Halifax, Gentleman” etc. London 1881, pp. 307-308. In the original text: ‘When earth-sounds cease, God’s voice is heard / Under the stars.’</ab>
+                </note>
+<note n="16" xml:id="n-16" target="#note-t-16">
+<ab>There are a number of differences between Van Gogh’s copy and <rs type="pers" key="685">Lamartine</rs>’s text as it appears in the sources consulted. The following differences are the most striking with respect to the 1864 Paris edition (in which the text appears on pp. 8-9, 211-214, 235-236, 242-243, 245-257):</ab>
+<ab>
+                        <ref target="#l-56">l. 56</ref> une contrée ingrate et triste sort la foi vivre, ardente et profonde ] des contrées ingrates et tristes (p. 9)</ab>
+<ab>
+                        <ref target="#l-114">l. 114</ref> maladie ] agonie (p. 246)</ab>
+<ab>
+                        <ref target="#l-178">l. 178</ref> capitaine ] républica in (p. 252)</ab>
+<ab>
+                        <ref target="#l-201">l. 201</ref> repos ] paix (p. 254)</ab>
+<ab>
+                        <ref target="#l-205">l. 205</ref> nuit d’agonie ] nuit (p. 255)</ab>
+<ab>
+                        <ref target="#l-216">l. 216</ref> herbe ] paille (p. 256)</ab>
+<ab>Van Gogh’s copy of the text is a combination of a passage from the beginning and parts from the end of the book. Van Gogh added ‘Jeunesse de Cromwell’ as a title for the passages he copied.</ab>
+                </note>
+<note n="17" xml:id="n-17" target="#note-t-17">
+<ab>Van Gogh altered the source text, and the resulting sentence is incorrect. It originally read: ‘La superstition du peuple vit un prodige dans cette coïncidence d’une convulsion atmosphérique avec la dernière convulsion de son Machabée.’</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Paris, between Monday, 16 August and Wednesday, 1 September 1875.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let041"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">041</idno>
+<idno type="collectedletters">34</idno>
+<idno type="brieven1990">041</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Paris</vg:placeLet>
+                        <vg:dateLet>between Monday, 16 August and Wednesday, 1 September 1875</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. Paris, between Monday, 16 August and Wednesday, 1 September 1875.</p>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b43 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Van Gogh says at the beginning of the letter: ‘On Sunday I went <hi rend="ital">again</hi> to Monsieur Bersier’ (the italics are ours). In the previous letter (<ref target="let040.xml">letter 40</ref>), dated Friday, 13 August, he speaks of first attending that church on 1 and 8 August. Since he has again gone to that church, this letter will have been written after Sunday, 15 August. Considering that <ref target="let042.xml">letters 42</ref>-<ref target="let045.xml">45</ref> were written within the space of a week, and this letter (with a reference to his mother’s birthday on <ref target="#l-39">l. 39</ref>) cannot have been written later, it must have been written before the following surviving letter, which is dated 2 September.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0043" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000045_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000045_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000045_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000045_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000045_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000045_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-2">
+<graphic mimeType="image/tiff" url="VGM001000045_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000045_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000045_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+        <surface n="b 0043 V/1962" xml:id="surf-extra-1v">
+            <graphic mimeType="image/tiff" url="VGM001000045_02.TIF" rend="norend"/>
+            <zone xml:id="zone-extra-1">
+<graphic mimeType="image/tiff" url="VGM001000045_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000045_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000045_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>
+                    <vg:suppliedMilestone type="open"/>Goupil &amp; C<hi rend="ss">ie</hi>
+                </ab>
+                <lb n="2" xml:id="l-2"/>
+<ab>Editeurs Imprimeurs</ab>
+                <lb n="3" xml:id="l-3"/>
+<ab>Estampes Françaises &amp; Étrangères</ab>
+                <lb n="4" xml:id="l-4"/>
+<ab>Tableaux Modernes</ab>
+                <lb n="5" xml:id="l-5"/>
+<ab>Rue Chaptal, 9, PARIS.</ab>
+                <lb n="6" xml:id="l-6"/>
+<ab>Succursales à la Haye, Londres, Berlin, New-York.</ab>
+<vg:whiteline/>
+                <lb n="7" xml:id="l-7"/>
+<ab>Paris, le ... 187.<vg:suppliedMilestone type="close"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="8" xml:id="l-8"/>
+<ab>Waarde Theo</ab>
+                <lb n="9" xml:id="l-9"/>
+<ab>Dank voor Uw laatsten brief &amp; voor ’t vers van <lb n="10" xml:id="l-10"/>Rückert.</ab>
+                <lb n="11" xml:id="l-11"/>
+<ab rend="indent">Zondag was ik weer bij M. Bercier, hij had <lb n="12" xml:id="l-12"/>tot tekst “Il ne vous est pas permis”<c type="kk">/</c>
+                    <anchor n="1" xml:id="note-o-1"/> hij besloot <lb n="13" xml:id="l-13"/>met: Heureux ceux pour qui la vie a toutes ses <lb n="14" xml:id="l-14"/>épines.<anchor n="2" xml:id="note-o-2"/>
+                </ab>
+                <lb n="15" xml:id="l-15"/>
+<ab rend="indent">Ziehier een woord waarvan ik weet dat Oom <lb n="16" xml:id="l-16"/>Vincent veel houdt:</ab>
+                <lb n="17" xml:id="l-17"/>
+<ab rend="indent">Jeune homme réjouis-toi dans ton jeune âge &amp; <lb n="18" xml:id="l-18"/>que ton coeur te rende content aux jours de <lb n="19" xml:id="l-19"/>ta jeunesse, &amp; marche comme ton coeur te mène <lb n="20" xml:id="l-20"/>&amp; selon le regard de tes yeux, mais sache que <lb n="21" xml:id="l-21"/>pour toutes ces choses Dieu te fera venir en jugement. <lb n="22" xml:id="l-22"/>Ote le chagrin de ton coeur &amp; éloigne de toi la <lb n="23" xml:id="l-23"/>malice, car le jeune âge &amp; l’adolescence ne sont <lb n="24" xml:id="l-24"/>que vanité.</ab>
+                <lb n="25" xml:id="l-25"/>
+<ab rend="indent">Mais souviens toi de ton Créateur pendant <lb n="26" xml:id="l-26"/>tous les jours de ta jeunesse, avant que les <lb n="27" xml:id="l-27"/>jours mauvais viennent &amp; que les ans arrivent 
+<pb f="1r" n="2" xml:id="pb-orig-1r-2" facs="#zone-pb-1r-2"/>
+                    <lb n="28" xml:id="l-28"/>desquels tu diras: Je n’y prends pas plaisir.<anchor n="3" xml:id="note-o-3"/> <lb n="29" xml:id="l-29"/>Toch vind ik nog mooier:</ab>
+                <lb n="30" xml:id="l-30"/>
+<ab rend="indent">“Crains Dieu &amp; garde ses commandements, <lb n="31" xml:id="l-31"/>car c’est là le tout de l’homme”.<anchor n="4" xml:id="note-o-4"/> en “Que <lb n="32" xml:id="l-32"/>Ta volonté soit faite”<anchor n="5" xml:id="note-o-5"/> en “Ne nous induis <lb n="33" xml:id="l-33"/>pas en tentation, mais délivre nous du mal”.<anchor n="6" xml:id="note-o-6"/> </ab>
+                <lb n="34" xml:id="l-34"/>
+<ab rend="indent">Hierbij een briefje voor de Hr. Tersteeg.</ab>
+                <lb n="35" xml:id="l-35"/>
+<ab>Het is om hem te vragen of hij 2 gravures <lb n="36" xml:id="l-36"/>“Vendredi Saint”<anchor n="7" xml:id="note-o-7"/> &amp; “St Augustin”<anchor n="8" xml:id="note-o-8"/> die gij in <lb n="37" xml:id="l-37"/>de volgende kist zult vinden<c type="kk">/</c> zou willen <lb n="38" xml:id="l-38"/>laten encadreeren. En gij zult wel zoo goed <lb n="39" xml:id="l-39"/>willen zijn die tegen 10 Sept.<anchor n="9" xml:id="note-o-9"/> naar Helvoirt te <lb n="40" xml:id="l-40"/>zenden. Ik zou wel willen wij ze samen <lb n="41" xml:id="l-41"/>gaven, &amp; betaal gij dus f<c type="kp">_</c> 2.50 aan de lijsten. <lb n="42" xml:id="l-42"/>Ik heb den Hr. Tersteeg gezegd dat gij mij <lb n="43" xml:id="l-43"/>zoudt schrijven wat zij kosten &amp; dat ik hem <lb n="44" xml:id="l-44"/>dan het geld zou zenden; de f<c type="kp">_</c> 2.50 geeft <lb n="45" xml:id="l-45"/>gij mij als wij elkaar zien. Dat zal waar<c type="shy">-</c>
+                    <lb n="46" xml:id="l-46"/>schijnlijk niet vóór Kersmis zijn, ik geloof <lb n="47" xml:id="l-47"/>het beter is ik vóór dien tijd geen verlof <lb n="48" xml:id="l-48"/>vraag. Van avond ga ik dineeren bij <lb n="49" xml:id="l-49"/>M. Hamman.─<anchor n="10" xml:id="note-o-10"/> à Dieu<c type="kk">/</c> schrijf weer <lb n="50" xml:id="l-50"/>spoedig. &amp; geloof mij</ab>
+<vg:whiteline/>
+                <lb n="51" xml:id="l-51"/>
+<ab>Uw liefh. broeder</ab>
+                <lb n="52" xml:id="l-52"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-1" targetEnd="l-7" n="1-7">
+                        <hi rend="ital">Printed letterhead.</hi>
+                    </note>
+<note target="l-36" n="36">Saint” &lt; Saint</note>
+<note target="l-36" n="36">“St &lt; St</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>[Letterhead: Goupil Paris]</ab>
+<vg:whiteline/>
+<ab>My dear Theo,</ab>
+<ab>Thanks for your last letter and for the poem by <rs type="pers" key="734">Rückert</rs>.</ab>
+<ab rend="indent">On Sunday I went again to <rs type="pers" key="266">Mr Bersier</rs>, his sermon was based on the text ‘It is not lawful for thee’,<anchor n="1" xml:id="note-t-1"/> he concluded with ‘Happy are they for whom life has all its thorns’.<anchor n="2" xml:id="note-t-2"/>
+                </ab>
+<ab rend="indent">Here are some words which I know <rs type="pers" key="423">Uncle Vincent</rs> is very fond of:</ab>
+<ab rend="indent">‘Rejoice, young man, in thy youth; and let thy heart cheer thee in the days of thy youth, and walk in the ways of thine heart, and in the sight of thine eyes: but know thou, that for all these things God will bring thee into judgement. Remove sorrow from thy heart, and put away evil from thy flesh: for childhood and youth are vanity.</ab>
+                <ab rend="indent">Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, 
+<pb f="1r" n="2" xml:id="pb-trans-1r-2" facs="#zone-pb-1r-2"/> when thou shalt say, I have no pleasure in them.’<anchor n="3" xml:id="note-t-3"/> Yet I find even more beautiful:</ab>
+<ab rend="indent">‘Fear God, and keep his commandments: for this is the whole duty of man.’<anchor n="4" xml:id="note-t-4"/> And ‘Thy will be done’<anchor n="5" xml:id="note-t-5"/> and ‘Lead us not into temptation, but deliver us from evil’.<anchor n="6" xml:id="note-t-6"/>
+                </ab>
+<ab rend="indent">Herewith a note for <rs type="pers" key="787">Mr Tersteeg</rs>, asking him if he would frame 2 engravings, ‘Good Friday’<anchor n="7" xml:id="note-t-7"/> and ‘St Augustine’,<anchor n="8" xml:id="note-t-8"/> which you’ll find in the next crate. And will you please be so kind as to send them to Helvoirt around 10 Sept.<anchor n="9" xml:id="note-t-9"/> I’d really like them to be from both of us, so that you pay 2.50 guilders towards the frames. I told Mr Tersteeg that you’d write and tell me what they cost and then I’d send him the money. You can give me the 2.50 guilders when we see each other. That probably won’t be before Christmas; I believe it’s better not to ask for any time off before then. This evening I’m going to dine with <rs type="pers" key="348">Mr Hamman</rs>.<anchor n="10" xml:id="note-t-10"/> Adieu, write again soon, and believe me</ab>
+<vg:whiteline/>
+<ab>Your loving brother</ab>
+<ab>Vincent</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>See <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Matt" chap="14" v="4">Matt. 14:4</bibleref> and <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Mark" chap="6" v="18">Mark 6:18</bibleref>.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>This utterance of <rs type="pers" key="266">Eugène Bersier</rs> could be based on <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Matt" chap="13" v="22">Matt. 13:22</bibleref> or <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Mark" chap="4" vr="18-19">Mark 4:18-19</bibleref>.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Eccl" chap="11" vr="9-10">Eccl. 11:9-10</bibleref> and <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Eccl" chap="12" vr="1">12:1.</bibleref>
+                    </ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Eccl" chap="12" v="13">Eccl. 12:13</bibleref>.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Matt" chap="6" v="10">Matt. 6:10</bibleref>, <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Matt" chap="26" v="42">Matt. 26:42</bibleref> and <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Luke" chap="11" v="2">Luke 11:2</bibleref>.</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Matt" chap="6" v="13">Matt. 6:13</bibleref>.</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>
+                        <rs type="pers" key="1542">Edouard Henri Girardet</rs>, <hi rend="ital">Le Vendredi-Saint</hi> (Good Friday), 1861, after the canvas of the same name by <rs type="pers" key="983">Paul Delaroche</rs> of 1856 (private collection). This print was published by Goupil (Bordeaux, Musée Goupil). <rs type="ill" key="1730">Ill. 1730</rs>. See Bann 1997, pp. 269-270, ills. 166-167.</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>It is not clear which reproduction after <rs type="pers" key="1339">Ary Scheffer</rs>’s <rs type="otherart" key="66">
+                            <hi rend="ital">Saint Augustine and Saint Monica</hi>
+                        </rs> Van Gogh was referring to. The painting exists in a number of versions, made between 1845 and 1855; prints by the following printmakers have survived: <rs type="pers" key="1530">George Thomas Doo</rs> (Dordrecht, Dordrechts Museum), <rs type="ill" key="1731">ill. 1731</rs>; <rs type="pers" key="1634">D.J. Sluyter</rs>, and <rs type="pers" key="1635">A. Beaugrand</rs>. There is also a lithograph by <rs type="pers" key="1637">Arnaud Gerkens</rs> (in <hi rend="ital">Scheffer-album</hi> (1859) and a woodcut by <rs type="pers" key="1636">Chevignard</rs>. See Ewals 1987, pp. 303-305 and ills. 77-78; exhib. cat. Dordrecht 1990, pp. 57-59, cat. no. 42.</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+  <ab>
+                        <rs type="pers" key="524">Mrs van Gogh</rs>’s birthday was 10 September. The birthday present had still not arrived at Helvoirt on 12 September. <rs type="pers" key="526">The Reverend Van Gogh</rs> told Theo that he had asked about it at the post office (FR b3572)</ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+  <ab>Since Van Gogh speaks of ‘Monsieur Hamman’, who was in contact with <rs type="pers" key="423">Uncle Vincent van Gogh</rs>, he must be referring to <rs type="pers" key="348">Edouard Jean Conrad Hamman</rs>, who had settled in Paris in 1846 (cf. FR b2566, 8 November 1877). Both Theo and Vincent knew the family. See also <ref target="let003.xml#n-10">letters 3, n. 10</ref> and <ref target="let189.xml#n-18">189, n. 18.</ref>
+                    </ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

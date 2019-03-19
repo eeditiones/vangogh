@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>Willemien van Gogh to Vincent and Theo van Gogh. Welwyn, Sunday, 19 December 1875.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let063"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">063</idno>
+<idno type="collectedletters">-</idno>
+<idno type="brieven1990">062</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Willemien van Gogh</author>
+                        <vg:addressee>Vincent van Gogh</vg:addressee>
+                        <vg:placeLet>Welwyn</vg:placeLet>
+                        <vg:dateLet>Sunday, 19 December 1875</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>Willemien van Gogh to Vincent and Theo van Gogh. Welwyn, Sunday, 19 December 1875.</p>
+<note type="ongoingTopic" n="1">
+<p>Theo’s leg injury <ref target="let060.xml">(60)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b2381 V/1982 </p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Letter headed: ‘Ivy - Cottage / Welwyn 19 Dec. 1875.’</p>
+                    </note>
+<note type="additionalDetail" xml:id="additionalDetail">
+<p>Willemien, who was 13 years old at the time, wrote in an unpractised hand and made several peculiar mistakes.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 2381" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001003512_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001003512_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001003512_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001003512_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 2381" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001003512_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001003512_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001003512_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001003512_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Ivy-Cottage</ab>
+                <lb n="2" xml:id="l-2"/>
+<ab>Welwyn<anchor n="1" xml:id="note-o-1"/> 19 Dec. 1875.</ab>
+<vg:whiteline/>
+                <lb n="3" xml:id="l-3"/>
+<ab>Beste Vincent en Theo,<anchor n="2" xml:id="note-o-2"/>
+                </ab>
+                <lb n="4" xml:id="l-4"/>
+<ab>Hartelijk <lb n="5" xml:id="l-5"/>bedank ik julie voor je <lb n="6" xml:id="l-6"/>laatste brieven waar wij <lb n="7" xml:id="l-7"/>erg blij meê waren.</ab>
+                <lb n="8" xml:id="l-8"/>
+<ab rend="indent">Wat zal ’t heerlijk t’huis <lb n="9" xml:id="l-9"/>zijn met Kerstmis. ’t Is <lb n="10" xml:id="l-10"/>hier erg koud geweest <lb n="11" xml:id="l-11"/>maar nu is ’t erg zacht. <lb n="12" xml:id="l-12"/>Theo wat was dat naar <lb n="13" xml:id="l-13"/>van je been, is ’t nu <lb n="14" xml:id="l-14"/>heelemaal beter? Wij 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                    <lb n="15" xml:id="l-15"/>gaan denkelijk eenen kerst<c type="shy">-</c>
+                    <lb n="16" xml:id="l-16"/>boom hebben. Donderdag <lb n="17" xml:id="l-17"/>begint onze vacantie. En <lb n="18" xml:id="l-18"/>nu<c type="kk">/</c> dag beste Vincent en <lb n="19" xml:id="l-19"/>Theo<c type="kk">/</c> een erg prettige Kerst<c type="shy">-</c>
+                    <lb n="20" xml:id="l-20"/>mis wordt julie toegewenscht doo<supplied>r</supplied>
+                </ab>
+<vg:whiteline/>
+                <lb n="21" xml:id="l-21"/>
+<ab>Je je liefh. zusje</ab>
+                <lb n="22" xml:id="l-22"/>
+<ab>Wil.</ab>
+<vg:whiteline/>
+                <lb n="23" xml:id="l-23"/>
+<ab>P.S. Ik bedank je wel voor <lb n="24" xml:id="l-24"/>wat je gestuurd heb, ik was er <lb n="25" xml:id="l-25"/>erg blij meê.</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-20" n="20">doo<supplied>r</supplied> &lt; <hi rend="ital">Text lost due to damaged edge of the paper</hi>.</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>Ivy-Cottage</ab>
+<ab>Welwyn,<anchor n="1" xml:id="note-t-1"/> 19 Dec. 1875.</ab>
+<vg:whiteline/>
+<ab>Dear Vincent and Theo,<anchor n="2" xml:id="note-t-2"/>
+                </ab>
+<ab>My heartfelt thanks to you both for your last letters, which we were very glad to receive.</ab>
+<ab rend="indent">How wonderful it will be at home at Christmas. It’s been very cold here, but now it’s very mild. Theo, how awful about your leg, is it now completely better? We’ll 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> probably have a Christmas tree. Our holiday begins on Thursday. And now, goodbye dear Vincent and Theo, I wish you both a very merry Christmas.</ab>
+<vg:whiteline/>
+<ab>Yours, your loving sister</ab>
+<ab>
+                    <rs type="pers" key="407">Wil</rs>.</ab>
+<vg:whiteline/>
+<ab>P.S. I thank you for what you sent, I was very glad to get it.</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>
+                        <rs type="pers" key="407">Willemien</rs> was staying with <rs type="pers" key="412">Anna</rs>.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>Vincent and Theo spent Christmas with their <rs type="pers" key="524 526">parents</rs> in Etten. Vincent arrived on Thursday, 23 or Friday, 24 December and left for Paris on Monday, 3 January 1876 (FR b2382 and b2225).</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

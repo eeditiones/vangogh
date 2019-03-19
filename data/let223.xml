@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. The Hague, Tuesday, 2 May 1882.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let223"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">223</idno>
+<idno type="collectedletters">196</idno>
+<idno type="brieven1990">222</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>The Hague</vg:placeLet>
+                        <vg:dateLet>Tuesday, 2 May 1882</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. The Hague, Tuesday, 2 May 1882.</p>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b218 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Postmarked: Tuesday, 2 May 1882; this concurs with the comment below the signature: ‘Tuesday evening’.</p>
+                    </note>
+<note type="additionalDetail" xml:id="additionalDetail">
+<p>Postcard (5 cents). Postmark: ‘’SGRAVENHAGE 7-8 N / 2 MEI 82’. It is addressed to ‘Monsieur Th. van Gogh./ 25 Rue de Laval./ <hi rend="ital">Paris.</hi>’ Van Gogh presumably wrote in English to make it difficult for others to read; cf. in this respect <ref target="let233.xml">letter 233</ref>.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <surface n="b 0218" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000255_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1r-1">
+                <graphic mimeType="image/tiff" url="VGM001000255_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000255_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000255_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+        </surface>
+        <surface n="b 0218 V/1962" xml:id="surf-extra-1v">
+            <graphic mimeType="image/tiff" url="VGM001000255_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1v-2">
+                <graphic mimeType="image/tiff" url="VGM001000255_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000255_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000255_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+        </surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>This day I have sent to you by bookpost 1 drawing<c type="kk">/</c> “<hi rend="ital">A Root in a dry ground</hi>”<c type="kp">_</c>
+                    <anchor n="1" xml:id="note-o-1"/> <lb n="2" xml:id="l-2"/>You just let me know what you think of it. <hi rend="ital">Les Racines</hi>
+                    <anchor n="2" xml:id="note-o-2"/> is very similar to this <lb n="3" xml:id="l-3"/>one but I can’t send<anchor n="a" xml:id="note-o-a"/> that one neither “Sorrow”<anchor n="3" xml:id="note-o-3"/> in this manner on a roller<c type="kk">/</c> <lb n="4" xml:id="l-4"/>the drawings being mounted on cardboard. With regard to this one I <lb n="5" xml:id="l-5"/>hammered it off in a single day<c type="kk">/</c> having studied the same spot and <lb n="6" xml:id="l-6"/>trees for Les racines. So it has been done “tout d’un trait” out of doors <lb n="7" xml:id="l-7"/>&amp; has not even been in my studio.</ab>
+                <lb n="8" xml:id="l-8"/>
+<ab rend="indent">But the paper has been slightly damaged in 2 or 3 places <lb n="9" xml:id="l-9"/>as I worked through it<c type="kk">/</c> please have this seen to at <lb n="10" xml:id="l-10"/>once<c type="kk">/</c> else it might get worse. I think it wants a grey <lb n="11" xml:id="l-11"/>mount.<anchor n="4" xml:id="note-o-4"/> Good bye, hope to hear of you at y<hi rend="ss">r</hi> early <lb n="12" xml:id="l-12"/>convenience.</ab>
+<vg:whiteline/>
+                <lb n="13" xml:id="l-13"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+                <lb n="14" xml:id="l-14"/>
+<ab>Tuesday evening</ab>
+      <vg:whiteline/>
+                <pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>This day I have sent to you by book-post 1 drawing, ‘<hi rend="ital">A root in a dry ground</hi>’.<anchor n="1" xml:id="note-t-1"/> You just let me know what you think of it. <hi rend="ital">Roots</hi>
+                    <anchor n="2" xml:id="note-t-2"/> is very similar to this one but I can’t sent that one neither ‘Sorrow’<anchor n="3" xml:id="note-t-3"/> in this manner on a roller, the drawings being mounted on cardboard. With regard to this one I hammered it off in a single day, having studied the same spot and trees for Roots. So it’s been done ‘in one go’ out of doors and hasn’t even been in my studio.</ab>
+<ab rend="indent">But the paper has been slightly damaged in 2 or 3 places as I worked through it, please have this seen to at once, else it might get worse. I think it wants a grey mount.<anchor n="4" xml:id="note-t-4"/> Good bye, hope to hear of you at y<hi rend="ss">r</hi> early convenience.</ab>
+<vg:whiteline/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+      <ab>Tuesday evening</ab>
+                <pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>This drawing is not known. With regard to the title, cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Isa" chap="53" v="2">Isa. 53:2</bibleref>: ‘As a root out of a dry ground’.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>
+      <hi rend="ital">Les racines</hi>.<hi rend="ital"> Study of a tree</hi> (<rs type="ill" key="2371">F 933r / JH 142</rs>).</ab>
+                </note>
+<note n="a" xml:id="n-a" target="#note-o-a">
+<ab>Read: ‘send’.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+      <ab>This large version of <hi rend="ital">Sorrow</hi> is not known; <ref target="let222.xml#n-1">see letter 222, n. 1.</ref>
+                    </ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>Regarding this advice, probably prompted by reading <rs type="pers" key="617 618">Edmond and Jules de Goncourt</rs>’s <rs type="lit" key="224">
+                            <hi rend="ital">Gavarni, l’homme et l’oeuvre</hi>
+                        </rs>, <ref target="let216.xml#n-4">see letter 216, n. 4.</ref>
+                    </ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

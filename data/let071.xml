@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Paris, Wednesday, 15 March 1876.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let071"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">071</idno>
+<idno type="collectedletters">56</idno>
+<idno type="brieven1990">070</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Paris</vg:placeLet>
+                        <vg:dateLet>Wednesday, 15 March 1876</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. Paris, Wednesday, 15 March 1876.</p>
+<note type="ongoingTopic" n="1">
+<p>Sending a work by Longfellow <ref target="let066.xml">(66)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b69 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Letter headed: ‘<hi rend="ital">[</hi>Paris, le<hi rend="ital">]</hi> 15 Maart <hi rend="ital">[</hi>187<hi rend="ital">]</hi>6’.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0069" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000072_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000072_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000072_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000072_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000072_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000072_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-2">
+<graphic mimeType="image/tiff" url="VGM001000072_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000072_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000072_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+        <surface n="b 0069 V/1962" xml:id="surf-extra-1v">
+            <graphic mimeType="image/tiff" url="VGM001000072_02.TIF" rend="norend"/>
+            <zone xml:id="zone-extra-1">
+<graphic mimeType="image/tiff" url="VGM001000072_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000072_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000072_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>
+                    <vg:suppliedMilestone type="open"/>Goupil &amp; C<hi rend="ss">ie</hi>
+                </ab>
+                <lb n="2" xml:id="l-2"/>
+<ab>Editeurs Imprimeurs</ab>
+                <lb n="3" xml:id="l-3"/>
+<ab>Estampes Françaises &amp; Étrangères</ab>
+                <lb n="4" xml:id="l-4"/>
+<ab>Tableaux Modernes</ab>
+                <lb n="5" xml:id="l-5"/>
+<ab>Rue Chaptal, 9, PARIS.</ab>
+                <lb n="6" xml:id="l-6"/>
+<ab>Succursales à la Haye, Londres, Berlin, New-York.</ab>
+<vg:whiteline/>
+                <lb n="7" xml:id="l-7"/>
+<ab>Paris, le<vg:suppliedMilestone type="close"/> 15 Maart <supplied>187</supplied>6</ab>
+<vg:whiteline/>
+                <lb n="8" xml:id="l-8"/>
+<ab>Waarde Theo,</ab>
+                <lb n="9" xml:id="l-9"/>
+<ab>Dank voor Uw laatsten brief; bedank ook als gij <lb n="10" xml:id="l-10"/>wilt Mauve en zijne Vrouw voor den hunnen waar <lb n="11" xml:id="l-11"/>ik blij mede was.─ Zeer verlangend ben ik om <lb n="12" xml:id="l-12"/>de beide sch<hi rend="ss">ijen</hi> van M. die voor den salon bestemd <lb n="13" xml:id="l-13"/>zijn te zien.<anchor n="1" xml:id="note-o-1"/>
+                </ab>
+                <lb n="14" xml:id="l-14"/>
+<ab rend="indent">Misschien komt Gladwell weer naar zijne oude <lb n="15" xml:id="l-15"/>kamer terug; hij krijgt mijne plaats hier in de <lb n="16" xml:id="l-16"/>galerij.─</ab>
+                <lb n="17" xml:id="l-17"/>
+<ab rend="indent">Stormt het in den Haag ook zoo, hier reeds sedert <lb n="18" xml:id="l-18"/>eenige dagen bijna voortdurend.─</ab>
+                <lb n="19" xml:id="l-19"/>
+<ab rend="indent">Weet gij ik als er niets tusschenbeide komt nog <lb n="20" xml:id="l-20"/>eerst naar Etten ga.─ 1 April of mogelijk 31 Maart <lb n="21" xml:id="l-21"/>denk ik van hier te vertrekken.</ab>
+<pb f="1r" n="2" xml:id="pb-orig-1r-2" facs="#zone-pb-1r-2"/>
+                <lb n="22" xml:id="l-22"/>
+<ab rend="indent">Van huis hoor ik dat gij op uwe reis ook nog <lb n="23" xml:id="l-23"/>even te Etten denkt aan te komen.<anchor n="2" xml:id="note-o-2"/> Wanneer <lb n="24" xml:id="l-24"/>vertrekt gij?</ab>
+                <lb n="25" xml:id="l-25"/>
+<ab rend="indent">Ik hoop er gelegenheid zal zijn U de Longfellow <lb n="26" xml:id="l-26"/>te sturen voor gij vertrekt, misschien is het wel <lb n="27" xml:id="l-27"/>een goed boek om mede te nemen.</ab>
+                <lb n="28" xml:id="l-28"/>
+<ab rend="indent">Mijn tijd hier schiet geducht op, geen drie <lb n="29" xml:id="l-29"/>weken meer: aan de zachtmoedigheid en lang<c type="shy">-</c>
+                    <lb n="30" xml:id="l-30"/>moedigheid<anchor n="3" xml:id="note-o-3"/> denk ik ook wel eens, zoo af en toe.─</ab>
+                <lb n="31" xml:id="l-31"/>
+<ab rend="indent">Tante Cornelie<anchor n="4" xml:id="note-o-4"/> bezorgde mij een mooi boek <lb n="32" xml:id="l-32"/>ter lezing<c type="kk">/</c> “Kenelm Chillingly” door Bulwer<c type="kp">_</c>
+                    <anchor n="5" xml:id="note-o-5"/> <lb n="33" xml:id="l-33"/>Daar is veel moois in. ’t Zijn de lotgevallen <lb n="34" xml:id="l-34"/>van een zoon van een rijk Engelschman die <lb n="35" xml:id="l-35"/>geen rust en vrede kan vinden in zijne omgeving <lb n="36" xml:id="l-36"/>en die in andere kringen gaat zoeken.</ab>
+                <lb n="37" xml:id="l-37"/>
+<ab rend="indent">Toch eindigt hij met in zijn eigen stand terug <lb n="38" xml:id="l-38"/>te keeren maar heeft geen spijt van wat <lb n="39" xml:id="l-39"/>hij deed.─</ab>
+                <lb n="40" xml:id="l-40"/>
+<ab rend="indent">En nu, à Dieu, goede reis en heb het goed en zie veel moois indien de dag van Uw <lb n="41" xml:id="l-41"/>vertrek voor mijn volgenden brief is. Steeds</ab>
+<vg:whiteline/>
+                <lb n="42" xml:id="l-42"/>
+<ab>Uw liefh. broeder.</ab>
+                <lb n="43" xml:id="l-43"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-1" targetEnd="l-7" n="1-7">
+                        <hi rend="ital">Printed letterhead.</hi>
+                    </note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>[Letterhead: Goupil Paris]</ab>
+<vg:whiteline/>
+<ab>Paris, 15 March 1876</ab>
+<vg:whiteline/>
+<ab>My dear Theo,</ab>
+<ab>Thanks for your last letter; thank <rs type="pers" key="321 323">Mauve and his wife</rs> for theirs, too, if you will, which I was glad to receive. I’m very eager to see the two paintings by M. that are going to the Salon.<anchor n="1" xml:id="note-t-1"/>
+                </ab>
+<ab rend="indent">
+                    <rs type="pers" key="394">Gladwell</rs> may be coming back to his old room; he’s taking my place here in the gallery.</ab>
+<ab rend="indent">Is it also blowing up a storm like this in The Hague? Here for a few days already, almost continuously.</ab>
+<ab rend="indent">You should know that if nothing unforeseen happens I’ll go to Etten first. I’m thinking of leaving here on 1 April or perhaps 31 March. 
+<pb f="1r" n="2" xml:id="pb-trans-1r-2" facs="#zone-pb-1r-2"/>
+                </ab>
+<ab rend="indent">I hear from home that you’re also thinking of stopping in Etten in the course of your trip.<anchor n="2" xml:id="note-t-2"/> When are you leaving?</ab>
+<ab rend="indent">I hope I’ll get the chance to send you the <rs type="pers" key="696">Longfellow</rs> before you leave. It might be a good book to take along.</ab>
+<ab rend="indent">My time here is running out awfully fast, less than three weeks to go now. Meekness and longsuffering<anchor n="3" xml:id="note-t-3"/> are also in my thoughts sometimes, every now and then.</ab>
+<ab rend="indent">
+                    <rs type="pers" key="853">Aunt Cornelie</rs>
+                    <anchor n="4" xml:id="note-t-4"/> gave me a nice book to read, ‘Kenelm Chillingly’ by <rs type="pers" key="702">Bulwer</rs>.<anchor n="5" xml:id="note-t-5"/> There’s much that’s beautiful in it. It’s about the fate of the son of a rich Englishman who can find no rest or peace among his peers and goes to seek it in other circles.</ab>
+<ab rend="indent">He nonetheless ends up returning to his own class, but doesn’t regret what he did.</ab>
+<ab rend="indent">And now, adieu, have a good trip, I wish you well and hope you see many beautiful things, in case you leave before my next letter arrives. Ever,</ab>
+<vg:whiteline/>
+<ab>Your loving brother.</ab>
+<ab>Vincent</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>Two paintings by <rs type="pers" key="323">Mauve</rs>, <rs type="otherart" key="75">
+                            <hi rend="ital">Vaches</hi>
+                        </rs> (Cows) and <rs type="otherart" key="76">
+                            <hi rend="ital">Vaches dans une lande</hi>
+                        </rs> (Cows on a moor), were to be exhibited at the Salon of 1876. See exhib. cat. Paris 1876, p. 177, cat. nos. 1426-1427. One of the two can be identified with the help of its illustration in <hi rend="ital">L’Art, Revue Hebdomadaire Illustrée</hi> 2-3 (1876), p. 78. <rs type="ill" key="1765">Ill. 1765</rs>.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>On Saturday, 8 April Theo’s sales trip took him to Breda; he probably visited his <rs type="pers" key="524 526">parents</rs> in Etten that weekend. The trip was to start on 29 March. Cf. <ref target="let070.xml#n-2">letter 70, n. 2.</ref>
+                    </ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Gal" chap="5" v="22">Gal. 5:22</bibleref>, <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Eph" chap="4" v="2">Eph. 4:2</bibleref> and <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Col" chap="3" v="12">Col. 3:12</bibleref>.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>
+                        <rs type="pers" key="853">Aunt Cornelie van Gogh-Carbentus</rs>, a sister of Mrs van Gogh, was married to <rs type="pers" key="423">Uncle Vincent</rs>, a brother of Mr van Gogh.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>
+                        <rs type="pers" key="702">Edward George Earle Bulwer-Lytton</rs>, <rs type="lit" key="67">
+                            <hi rend="ital">Kenelm Chillingly, his adventures and opinions</hi>
+                        </rs> (1873) was reprinted a number of times. In this popular novel’s year of publication a Dutch translation was already available: <hi rend="ital">Kenelm Chillingly, door E.G. Bulwer-Lytton</hi>. Translated from the English by <rs type="pers" key="1648">D. Beets</rs>. 3 vols. Haarlem (Bohn) 1873, and, without mention of the translator, in 3 vols. Leiden (De Breuk en Smits) 1873. <rs type="pers" key="524 526">The Van Gogh family</rs> was already familiar with the book. On 18 November 1874, Mr van Gogh wrote to Theo from Helvoirt: `We read aloud quite often in the evenings and are now reading Bulwer’s Chillingly, in which we find a lot that is beautiful. At first that young man couldn’t get along in real life’ (FR b2733).</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

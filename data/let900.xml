@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>Theo van Gogh to Vincent van Gogh. Paris, Monday, 14 July 1890.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let900"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">900</idno>
+<idno type="collectedletters">T41</idno>
+<idno type="brieven1990">905</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Theo van Gogh</author>
+                        <vg:addressee>Vincent van Gogh</vg:addressee>
+                        <vg:placeLet>Paris</vg:placeLet>
+                        <vg:dateLet>Monday, 14 July 1890</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>Theo van Gogh to Vincent van Gogh. Paris, Monday, 14 July 1890.</p>
+<note type="ongoingTopic" n="1">
+<p>Theo and Jo’s visit to the Netherlands <ref target="let898.xml">(898)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b768 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Letter headed: ‘Paris le 14 Juillet 1890’.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0768" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001001037_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001001037_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001001037_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001001037_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001037_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001037_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0768" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001001037_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001001037_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001001037_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001001037_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001037_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001037_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001001037_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001037_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001037_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>le 14 Juillet 1890</ab>
+<vg:whiteline/>
+                <lb n="2" xml:id="l-2"/>
+<ab>Mon cher Vincent,</ab>
+                <lb n="3" xml:id="l-3"/>
+<ab>Nous sommes très content <lb n="4" xml:id="l-4"/>que tu n’es plus autant sous <lb n="5" xml:id="l-5"/>l’impression des affaires en suspens <lb n="6" xml:id="l-6"/>que quand tu étais içi. Vraiment <lb n="7" xml:id="l-7"/>le danger n’est pas aussi grave <lb n="8" xml:id="l-8"/>que tu le croyais. Si nous pouvons tous <lb n="9" xml:id="l-9"/>avoir une bonne santé, qui nous permette <lb n="10" xml:id="l-10"/>d’entreprendre ce qui dans nôtre tête <lb n="11" xml:id="l-11"/>petit à petit devient une nécessité<c type="kk">/</c> tout <lb n="12" xml:id="l-12"/>ira bien. Déceptions certes mais nous ne <lb n="13" xml:id="l-13"/>sommes pas à nos débuts &amp; nous sommes 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                    <lb n="14" xml:id="l-14"/>comme les charretiers qui avec tous les efforts <lb n="15" xml:id="l-15"/>des chevaux ont atteints <hi rend="ital">presque</hi> le <lb n="16" xml:id="l-16"/>sommet de la colline, ils tournent bride <lb n="17" xml:id="l-17"/>&amp; souvent alors avec un nouvel effort <lb n="18" xml:id="l-18"/>ils atteignent le sommet.<anchor n="1" xml:id="note-o-1"/> Si seulement nous <lb n="19" xml:id="l-19"/>pensions toujours à cela! Nous sommes <lb n="20" xml:id="l-20"/>aujourd’hui en train de faire nos malles <lb n="21" xml:id="l-21"/>pour partir demain matin à Leyde. Je m’en vais <lb n="22" xml:id="l-22"/>de là Mercredi chez Mesdag pour lui parler du <lb n="23" xml:id="l-23"/>Corot<c type="kk">/</c>
+                    <anchor n="2" xml:id="note-o-2"/> ensuite à Anvers avec un tab. de Diaz.<anchor n="3" xml:id="note-o-3"/>
+                </ab>
+                <lb n="24" xml:id="l-24"/>
+<ab rend="indent">Quoique les huit jours soient écoulés ces messieurs <lb n="25" xml:id="l-25"/>n’ont rien dit à l’égard de ce qu’ils <lb n="26" xml:id="l-26"/>pensent faire avec moi.<anchor n="4" xml:id="note-o-4"/> Dries au contraire <lb n="27" xml:id="l-27"/>c’est montré bien lâche &amp; se trouve vraisemblablement <lb n="28" xml:id="l-28"/>sous la domination de sa femme.<anchor n="5" xml:id="note-o-5"/> Il a avoué <lb n="29" xml:id="l-29"/>bien franchement que tout ce que je faisais vis <lb n="30" xml:id="l-30"/>à vis de lui était de l’attirer dans l’appartement <lb n="31" xml:id="l-31"/>en dessous de nous pour avoir sa femme comme <lb n="32" xml:id="l-32"/>une espèce de bonne. Je ne puis pas croire que <lb n="33" xml:id="l-33"/>cela vient de lui. Cependant je ne pensais pas 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                    <lb n="34" xml:id="l-34"/>que sa femme était folle à ce point-là. <lb n="35" xml:id="l-35"/>C’est la seconde fois qu’il se retire au <lb n="36" xml:id="l-36"/>moment décisif &amp; cependant tu étais là <lb n="37" xml:id="l-37"/>quand nous en causions &amp; il me répondait <lb n="38" xml:id="l-38"/>carrément que je pouvais compter sur lui.<anchor n="6" xml:id="note-o-6"/> <lb n="39" xml:id="l-39"/>Je n’y comprends rien qu’en mettant<anchor n="a" xml:id="note-o-a"/> <lb n="40" xml:id="l-40"/>cette hesitation sur le compte de sa <lb n="41" xml:id="l-41"/>femme. Que bien lui fasse. Sous <lb n="42" xml:id="l-42"/>ce pli tu reçois f<hi rend="ss">r</hi> 50–<c type="kp">_</c> Si j’avais <lb n="43" xml:id="l-43"/>le bonheur de faire des affaires pendant <lb n="44" xml:id="l-44"/>mon voyage cela me mettrait encore <lb n="45" xml:id="l-45"/>plus à l’aise. Bien bonjour mon <lb n="46" xml:id="l-46"/>vieux, d’içi huit jours probablement <lb n="47" xml:id="l-47"/>je serai de retour. Bien bonjour de <lb n="48" xml:id="l-48"/>Jo &amp; crois moi ton frère qui t’aime<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="49" xml:id="l-49"/>
+<ab>Theo</ab>
+<vg:whiteline/>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>14 July 1890</ab>
+<vg:whiteline/>
+<ab>My dear Vincent,</ab>
+<ab>We’re very pleased that you’re no longer so much under the impression of matters being unresolved as when you were here. Really, the danger isn’t as grave as you believed. If we can all have good health, which may enable us to undertake what, in our heads, is little by little becoming a necessity, all will go well. Disappointments certainly, but we’re not beginners, and we’re 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> like carters who with all the horses’ efforts have <hi rend="ital">almost</hi> reached the top of the hill, they do an about-turn and often then, with a new effort, they reach the top.<anchor n="1" xml:id="note-t-1"/> If only we were always thinking of that! Today we’re in the middle of packing our trunks to leave tomorrow for Leiden. On Wednesday I’m going from there to <rs type="pers" key="1218">Mesdag</rs> to talk to him about the <rs type="pers" key="971">Corot</rs>,<anchor n="2" xml:id="note-t-2"/> then to Antwerp with a painting by <rs type="pers" key="992">Diaz</rs>.<anchor n="3" xml:id="note-t-3"/>
+                </ab>
+        <ab rend="indent">Although the week has now passed, those gentlemen have said nothing as regards what they’re thinking of doing with me.<anchor n="4" xml:id="note-t-4"/> <rs type="pers" key="282">Dries</rs>, on the contrary, has proved very cowardly, and seems to be dominated by his <rs type="pers" key="283">wife</rs>.<anchor n="5" xml:id="note-t-5"/> He declared quite openly that all I was doing as regards him was to lure him into the apartment below us so as to have his wife as a sort of maid. I cannot believe that that comes from him. However, I didn’t think 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> that his wife was that mad. It’s the second time he’s withdrawn at the decisive moment, and however you were there when we were talking, and he answered me squarely that I could count on him.<anchor n="6" xml:id="note-t-6"/> I can’t understand it except by attributing this hesitation to his wife. Much good may it do him. Enclosed with this letter you’ll receive 50 francs. If I had the good fortune to do business during my travels that would put me even more at ease. Warm regards, old fellow, I’ll probably be back in a week’s time. Warm regards from <rs type="pers" key="416">Jo</rs>, and believe me your brother who loves you.</ab>
+<vg:whiteline/>
+<ab>Theo</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>Theo had previously used the metaphor of horses toiling up a hill (<ref target="let770.xml">see letter 770</ref>).</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>This must refer to Theo’s lucrative sale the previous month of <rs type="pers" key="971">Corot</rs>’s <hi rend="ital">
+                            <rs type="ill" key="2319">Souvenir of Nemi</rs>
+                        </hi>. <rs type="pers" key="1218">Mesdag</rs> had let it be known that he wanted to buy more of such works (<ref target="let894.xml#n-9">see letter 894, n. 9</ref>).</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+                    <ab>It has not been determined which painting by <rs type="pers" key="992">Narcisse Virgile Diaz de la Peña</rs> is referred to here. Theo’s visit to Antwerp took place on 17 July 1890; it is possible that the art dealer Emile Clarembaux acted as a middleman. See FR b2056; <hi rend="ital">Brief happiness</hi> 1999, pp. 245, 247, 258.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+                    <ab>Around 8 July Theo had asked his employers, <rs type="pers" key="303">Léon</rs> and <rs type="pers" key="27">Etienne Boussod</rs>, for a rise, and they had agreed to give him an answer the following week. His threat to quit if they did not honour his request made little impression on Boussod and Valadon. Theo finally decided to stay with the firm for the time being (<ref target="let901.xml#n-5">see letter 901, n. 5</ref>).</ab>
+        <ab rend="indent">Boussod later said about Theo: ‘He has accumulated appalling things by modern painters which are the shame of the firm.’ See Hulsker 1990-1, p. 451.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>
+                        <rs type="pers" key="283">Annie Bonger-van der Linden</rs>.</ab>
+                </note>
+        <note n="6" xml:id="n-6" target="#note-t-6">
+<ab>
+                        <rs type="pers" key="283">Andries Bonger</rs> was also at Theo and <rs type="pers" key="416">Jo</rs>’s when Vincent visited them on Sunday, 6 July. ‘It’s the second time’ refers to the fact that Andries had again withdrawn his offer to start up a business with Theo. See <hi rend="ital">Brief happiness</hi> 1999, p. 249.</ab>
+                </note>
+<note n="a" xml:id="n-a" target="#note-o-a">
+<ab>Read: ‘à moins de mettre’.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

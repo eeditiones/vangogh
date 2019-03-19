@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Etten, Monday, 22 July 1878.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let145"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">145</idno>
+<idno type="collectedletters">123</idno>
+<idno type="brieven1990">144</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Etten</vg:placeLet>
+                        <vg:dateLet>Monday, 22 July 1878</vg:dateLet>
+                    </vg:letHeading>
+    <vg:physDesc>
+                        <vg:decoration>
+                            <vg:decoList xml:id="sketches">
+                                <vg:decoItem n="A" xml:id="sketch-1">
+                                    <vg:decoDesc>
+        <p>
+                                            <hi rend="ital">
+                                                <rs type="sketch" key="9">Map of Etten and environs</rs>
+                                            </hi> (F - / JH -). <ref target="#n-19">See also n. 19</ref>.</p>
+                                    </vg:decoDesc>
+                                </vg:decoItem>
+                            </vg:decoList>
+                        </vg:decoration>
+                    </vg:physDesc>
+    <vg:letContents>
+<p>To Theo van Gogh. Etten, Monday, 22 July 1878.</p>
+<note type="ongoingTopic" n="1">
+<p>Theo’s stay in Paris <ref target="let144.xml">(144)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b143 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Letter headed: ‘Etten 22 Julij 1878’.</p>
+                    </note>
+</vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0143" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000151_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000151_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000151_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000151_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000151_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000151_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="VGM001000151_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000151_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000151_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0143" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000151_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000151_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000151_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000151_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000151_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000151_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000151_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000151_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000151_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Etten 22 Julij 1878</ab>
+<vg:whiteline/>
+                <lb n="2" xml:id="l-2"/>
+<ab>Waarde Theo,</ab>
+                <lb n="3" xml:id="l-3"/>
+<ab>Een woordje voeg ik bij den brief van Pa en Moe;<anchor n="1" xml:id="note-o-1"/> was blij te hooren het U ginder <lb n="4" xml:id="l-4"/>goed blijft gaan en dat Gij ook schik houdt in uw leven, en wat graag zou ik <lb n="5" xml:id="l-5"/>ginder eens met U loopen.─</ab>
+                <lb n="6" xml:id="l-6"/>
+<ab rend="indent">Zoo als Pa U zeker ook reeds heeft geschreven gingen Pa en ik verl. week n. Brussel <lb n="7" xml:id="l-7"/>in gezelschap van D<hi rend="ss">s</hi> Jones v. Isleworth<anchor n="2" xml:id="note-o-2"/> die hier een Zondag overbleef.<anchor n="3" xml:id="note-o-3"/> <lb n="8" xml:id="l-8"/>De indruk dien wij van dien togt t’huis bragten was in zoover bevredigend <lb n="9" xml:id="l-9"/>dat wij meenen er aldaar met der tijd wel eene plaats en werkkring <lb n="10" xml:id="l-10"/>te vinden is ─ dat zeer zeker de weg er korter en ook minder <lb n="11" xml:id="l-11"/>kostbaar is dan in Holland en dat het dus zaak is het oog <lb n="12" xml:id="l-12"/>gevestigd te houden op België en daar te blijven zoeken totdat <lb n="13" xml:id="l-13"/>wij iets zullen vinden.─</ab>
+                <lb n="14" xml:id="l-14"/>
+<ab rend="indent">De Vlaamsche opleidingschool zagen wij, die heeft een 3jarigen cursus <lb n="15" xml:id="l-15"/>terwijl zooals gij weet in Holland op zijn allergunstigst de studien nu nog <lb n="16" xml:id="l-16"/>6 jaar zouden moeten duren. En zelfs eischt men niet eens dat men <lb n="17" xml:id="l-17"/>die school doorloopen hebbe voor &amp; aleer men kan dingen naar eene plaats <lb n="18" xml:id="l-18"/>en betrekking van Evangelist. Wat men eischt is de gaaf om gemakkelijk <lb n="19" xml:id="l-19"/>hartelijke en populaire voordragten of toespraken te kunnen houden tot het volk<c type="kk">/</c> liever <lb n="20" xml:id="l-20"/>kort en krachtig dan geleerd en lang.─ Zoo let men er minder op groote <lb n="21" xml:id="l-21"/>kennis der oude talen en veel theologische studie, alhoewel al wat men daarvan <lb n="22" xml:id="l-22"/>weet eene groote aanbeveling is, maar neemt meer in aanmerking de geschiktheid van <lb n="23" xml:id="l-23"/>het praktische werk en het natuurlijk geloof. Nu zijn wij er echter daarom <lb n="24" xml:id="l-24"/>nog niet, vooreerst heeft men niet op eens en krijgt men niet dan door veel oefening <lb n="25" xml:id="l-25"/>de gaaf om tot het volk te spreken met ernst en gevoel en <lb n="26" xml:id="l-26"/>zonder stijfheid en gedwongenheid, maar natuurlijk en als door liefde gedrongen<anchor n="4" xml:id="note-o-4"/> <lb n="27" xml:id="l-27"/>en als meester van zijne zaak en wetende duidelijk en verstaanbaar voor <lb n="28" xml:id="l-28"/>het volk datgene te zeggen wat men te zeggen heeft, terwijl in hetgeen men te <lb n="29" xml:id="l-29"/>zeggen heeft eene beteekenis moet zijn en strekking en eene drangreden<anchor n="a" xml:id="note-o-a"/> om <lb n="30" xml:id="l-30"/>zijne hoorders op te wekken hiertoe, dat zij ernaar trachten zullen hunne genegenheden te doen wortel schieten in de <lb n="31" xml:id="l-31"/>waarheid.─<anchor n="5" xml:id="note-o-5"/> <lb n="31a" xml:id="l-31a"/>In één woord men moet een volksprediker zijn om ginder te kunnen slagen.</ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="32" xml:id="l-32"/>
+<ab rend="indent">Ces Messieurs te Brussel verlangden dat ik voor den tijd van 3 maanden naar <lb n="33" xml:id="l-33"/>ginder zoude komen om nader kennis te maken, maar op den duur zoude <lb n="34" xml:id="l-34"/>dit wederom kostbaar worden en dat moet zooveel maar mogelijk is <lb n="35" xml:id="l-35"/>worden vermeden. Het is daarom dat ik op ’t oogenblik nog hier te Etten <lb n="36" xml:id="l-36"/>wat blijf werken tot voorbereiding<c type="kk">/</c> om dan van hier uit van tijd tot tijd <lb n="37" xml:id="l-37"/>een bezoek af te leggen hetzij bij D<hi rend="ss">s</hi> Pietersen te Mechelen<anchor n="6" xml:id="note-o-6"/> of bij D<hi rend="ss">s</hi> de Jonge te <lb n="38" xml:id="l-38"/>Brussel<anchor n="7" xml:id="note-o-7"/> om zoodoende wederkeerig nader bekend te worden<c type="kp">_</c>
+                </ab>
+                <lb n="39" xml:id="l-39"/>
+<ab rend="indent">Voor hoelang dit zal moeten zijn hangt er geheel van af wat men <lb n="40" xml:id="l-40"/>ginder verder zeggen zal. Beide Pa en ik hebben hun nog weer pas geschreven<c type="kp">_</c>
+                </ab>
+                <lb n="41" xml:id="l-41"/>
+<ab rend="indent">Pa wil dat ik zoo goed als ik kan een stuk of wat opstellen in <lb n="42" xml:id="l-42"/>voorraad zal maken (zoo ben ik nu bezig naar aanleiding van <lb n="43" xml:id="l-43"/>het sch<hi rend="ss">ij</hi> van Rembrandt “La maison du charpentier” op de Louvre).<anchor n="8" xml:id="note-o-8"/>
+                </ab>
+                <lb n="44" xml:id="l-44"/>
+<ab rend="indent">Gisteren moest Pa preeken te Zundert &amp; ging mede daarheen. Gij moet veel <lb n="45" xml:id="l-45"/>groeten hebben van de Tantes,<anchor n="9" xml:id="note-o-9"/> gingen ook nog naar Ch. v. Ginneken die zooals gij <lb n="46" xml:id="l-46"/>misschien reeds hebt gehoord gaat trouwen met Marie v. Mens<anchor n="10" xml:id="note-o-10"/> en <lb n="47" xml:id="l-47"/>de Ropsentuin heeft gekocht om daar eene looierij te zetten.<anchor n="11" xml:id="note-o-11"/>
+                </ab>
+                <lb n="48" xml:id="l-48"/>
+<ab rend="indent">Was ook nog bij Jan Doomen<anchor n="12" xml:id="note-o-12"/> die veel geleden heeft van rhumatiek <lb n="49" xml:id="l-49"/>in zijn been, en klaagt dat hij niet eens meer naar Breda zou kunnen <lb n="50" xml:id="l-50"/>loopen maar bij het werken op den akker of in den tuin hinderde <lb n="51" xml:id="l-51"/>het hem zoo erg niet<c type="kk">/</c> alleen s’morgens dwong de pijn hem om <lb n="52" xml:id="l-52"/>heel vroeg op te staan. De ouderdom komt met gebreken<c type="kk">/</c> zou <lb n="53" xml:id="l-53"/>de oude D<hi rend="ss">s</hi> Meyes<anchor n="13" xml:id="note-o-13"/> zeggen.</ab>
+                <lb n="54" xml:id="l-54"/>
+<ab rend="indent">Wat heeft er onlangs een uitmuntend mooie houtgravure in l’illustration <lb n="55" xml:id="l-55"/>gestaan van “Un jeune Citoyen de l’an V” v<c type="kp">_</c> Jules Goupil,<anchor n="14" xml:id="note-o-14"/> is U die onder de <lb n="56" xml:id="l-56"/>oogen gekomen, ben die magtig geworden &amp; die hangt op ’t oogenblik aan den muur <lb n="57" xml:id="l-57"/>hier van het kamertje waar ik mij mag vestigen<c type="kk">/</c> n.l. de leerkamer<anchor n="15" xml:id="note-o-15"/> die op den tuin <lb n="58" xml:id="l-58"/>uitziet &amp; waar de klimop tegenaan groeit. Maar dit werd in het blad aangaande <lb n="59" xml:id="l-59"/>’t bewuste Sch<hi rend="ss">ij</hi> gezegd: “Un regard qui a vu le spectacle de l’affreuse guillotine, une <lb n="60" xml:id="l-60"/>pensée qui a survécu à toutes les scènes de la révolution.─ Il est presque étonné <lb n="61" xml:id="l-61"/>de se trouver encore vivant après tant de catastrophes.”<anchor n="16" xml:id="note-o-16"/>
+                </ab>
+                <lb n="62" xml:id="l-62"/>
+<ab rend="indent">’t Is eene merkwaardige verschijning geweest in de kunst en zal eene dergelijke uitwerking <lb n="63" xml:id="l-63"/>op velen blijven uitoefenen en wie gevoel voor hooge kunst hebbe blijven aangrijpen<c type="kk">/</c> <lb n="64" xml:id="l-64"/>als een portret van Fabritius<anchor n="17" xml:id="note-o-17"/> of sommige andere min of meer mijstieke schilderijen <lb n="65" xml:id="l-65"/>uit de school van Rembrandt.</ab>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                <lb n="66" xml:id="l-66"/>
+<ab rend="indent">Toen wij des avonds terugreden van Zundert over de hei liepen Pa en ik een eind<c type="kk">/</c> <lb n="67" xml:id="l-67"/>de zon ging rood onder achter ’t masthout en de avondlucht weerkaatste <lb n="68" xml:id="l-68"/>in de moerassen, de hei en het geele en witte &amp; grijze zand waren zoo <lb n="69" xml:id="l-69"/>vol toon en stemming<c type="kp">_</c>─ Zie<c type="kk">/</c> er zijn sommige oogenblikken <lb n="70" xml:id="l-70"/>in het leven dat alles, ook binnen in ons, vrede en stemming is en het <lb n="71" xml:id="l-71"/>gansche leven ons voorkomt als een weg door de hei te zijn, maar <lb n="72" xml:id="l-72"/>dat is niet altijd zoo.</ab>
+                <lb n="73" xml:id="l-73"/>
+<ab rend="indent">En van morgen gingen Cor die vacantie heeft &amp; ik weer naar de hei en ’t mastbosch, een eind <lb n="74" xml:id="l-74"/>voorbij het Molenend<anchor n="18" xml:id="note-o-18"/> en gingen hei halen voor zijn konijnen <lb n="74a" xml:id="l-74a"/>die daar blijkbaar veel van houden <lb n="74b" xml:id="l-74b"/>want het is ook hun natuurlijk voedsel voor een goed deel<c type="kk">/</c> <lb n="75" xml:id="l-75"/>en het een &amp; ander om een bloemenmandje mede te vullen.─ Wij <lb n="76" xml:id="l-76"/>zaten eenigen tijd in ’t mastbosch en teekenden zamen een kaartje van <lb n="77" xml:id="l-77"/>Etten en omstreken met den Bremberg &amp; Haansberg &amp; t’Slagveld &amp; de Geestestraat <lb n="78" xml:id="l-78"/>en Sprundel &amp; t’Heike &amp; de Hoeve.<anchor n="19" xml:id="note-o-19"/>
+                </ab>
+                <lb n="79" xml:id="l-79"/>
+<ab rend="indent">Anna is maar min, zij is zoo stil en ziet er soms zoo erg zwak uit<anchor n="20" xml:id="note-o-20"/> ─ arme <lb n="80" xml:id="l-80"/>zuster ─ ’t komt mij voor dat het beter is om goed en wel getrouwd dan <lb n="81" xml:id="l-81"/>geëngageerd te zijn, en voor Haar zou ik van harte kunnen wenschen dat <lb n="82" xml:id="l-82"/>zij reeds behouden een jaar of drie verder op haren levensweg mogt <lb n="83" xml:id="l-83"/>zijn gevorderd ─ moge God Haar sparen en beschermen voor alle kwaad<c type="kk">/</c> <lb n="84" xml:id="l-84"/>Hij van Wien geschreven staat dat Hij is onze Bewaarder en als onze Schaduwe <lb n="85" xml:id="l-85"/>aan onze regterhand.─<anchor n="21" xml:id="note-o-21"/>
+                </ab>
+                <lb n="86" xml:id="l-86"/>
+<ab rend="indent">Zoudt Gij Soek en al de zijnen (als Gij er eens komt) hartelijk voor mij <lb n="87" xml:id="l-87"/>willen groeten<c type="kk">/</c> ook Frans Braat en Ernest<anchor n="22" xml:id="note-o-22"/> en de anderen als het zoo mogt <lb n="88" xml:id="l-88"/>te pas komen. Ik denk veel aan U en ben zoo blijde dat het U <lb n="89" xml:id="l-89"/>wel gaat en Gij ginder dingen vindt die U opwekken en als het ware <lb n="90" xml:id="l-90"/>goed voedsel zijn voor het ware leven. Want dat is ook de hooge <lb n="91" xml:id="l-91"/>kunst en dat zijn de werken dergenen die werken met hun hart en met hun <lb n="92" xml:id="l-92"/>geest en verstand gelijk Gij er zoo velen kent en welligt ook zult persoonlijk <lb n="93" xml:id="l-93"/>ontmoeten<c type="kk">/</c> wier woorden en werken zijn geest en leven.<anchor n="23" xml:id="note-o-23"/> Dat ook <lb n="94" xml:id="l-94"/>gij en mogt het zijn wij allen in dat zelfde beginsel meer en meer <lb n="95" xml:id="l-95"/>mogen geworteld en gegrond raken<c type="kk">/</c>
+                    <anchor n="24" xml:id="note-o-24"/> daardoor dat onze genegenheden <lb n="96" xml:id="l-96"/>wortel schieten in de waarheid<c type="kk">/</c> dat wenscht U toe met een hartelijken <lb n="97" xml:id="l-97"/>handdruk in gedachten</ab>
+<vg:whiteline/>
+                <lb n="97*" xml:id="l-97s"/>
+<ab>Uw zoo liefh<c type="kp">_</c> broer</ab>
+                <lb n="98" xml:id="l-98"/>
+                <ab>Vincent.</ab>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/> <figure facs="zone-sketch-1" n="A"/>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-29" n="29">drangreden &lt; drangrede</note>
+<note target="l-37" n="37">af te leggen &lt; ga afleggen</note>
+<note target="l-43" n="43">Louvre). &lt; Louvre.</note>
+<note target="l-55" n="55">l’an V” &lt; l’an V</note>
+<note target="l-57" n="57">leerkamer &lt; leerkame</note>
+<note target="l-87" n="87">groeten &lt; groeten)</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>Etten, 22 July 1878</ab>
+<vg:whiteline/>
+<ab>My dear Theo,</ab>
+<ab>I’m enclosing a note in the letter from <rs type="pers" key="526 524">Pa and Ma</rs>;<anchor n="1" xml:id="note-t-1"/> was glad to hear things are still going well for you there, and that you also continue to enjoy life. How much I’d like to walk with you there.</ab>
+<ab rend="indent">As <rs type="pers" key="526">Pa</rs> has certainly already written to you, Pa and I went to Brussels last week in the company of the <rs type="pers" key="682">Rev. Jones</rs> of Isleworth,<anchor n="2" xml:id="note-t-2"/> who stayed here over Sunday.<anchor n="3" xml:id="note-t-3"/> The impression we brought home from that journey was satisfactory inasmuch as we think that, with time, a place and position can be found there — that the road is most certainly shorter and less expensive than in Holland, and that it’s therefore best to fix our eyes on Belgium and to go on looking there until we find something.</ab>
+<ab rend="indent">We saw the Flemish training college, it has a 3-year course while, as you know, in Holland the study would take another 6 years at the very least. And one is not even required to complete the training before competing for a place and position as an Evangelist. What is required is the talent to give easy, warm-hearted and popular lectures or speeches to the people, better short and to the point than long and learned. So less attention is paid to great knowledge of ancient languages and much theological study, although everything one knows about such things is a great recommendation, and more consideration is given to one’s suitability for practical work and one’s natural faith. We aren’t there yet, though, first of all because one doesn’t suddenly possess, nor can one acquire it except by much practice, the gift of speaking to the people with earnestness and feeling and without stiffness and forcedness, but naturally and as though constrained by love<anchor n="4" xml:id="note-t-4"/> and as a master of his subject matter, knowing how to say what one has to say to the people clearly and understandably, while what one has to say must have meaning and import and strong grounds to whet his listeners’ interest in it, that they shall endeavour to let their affections take root in truth.<anchor n="5" xml:id="note-t-5"/> In a word, one must be a lay preacher to succeed over there.
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">Those gentlemen in Brussels wanted me to come there for a period of 3 months to make closer acquaintance, but in the long run this, too, would be costly, and that must be avoided as much as possible. It’s for this reason that at present I shall continue here in Etten to do some work as preparation, going from here from time to time to pay a visit to the <rs type="pers" key="605">Rev. Pieterszen</rs> in Mechelen<anchor n="6" xml:id="note-t-6"/> or the <rs type="pers" key="460">Rev. De Jonge</rs> in Brussels,<anchor n="7" xml:id="note-t-7"/> in so doing becoming more closely acquainted with one another.</ab>
+<ab rend="indent">How long things go on like this depends entirely on what else they’ll say over there. Both <rs type="pers" key="526">Pa</rs> and I have just written to them again.</ab>
+<ab rend="indent">
+                    <rs type="pers" key="526">Pa</rs> wants me to write, to the best of my ability, a theme or two to have on hand (I’m now busy, for instance, on <rs type="pers" key="1295">Rembrandt</rs>’s painting ‘The carpenter’s house’ in the Louvre).<anchor n="8" xml:id="note-t-8"/>
+                </ab>
+<ab rend="indent">Yesterday <rs type="pers" key="526">Pa</rs> had to preach at Zundert, and I went along. <rs type="pers" key="499 501">The Aunts</rs>
+                    <anchor n="9" xml:id="note-t-9"/> sent you their regards, we also went to <rs type="pers" key="380">C. van Ginneken</rs> who, as you’ve probably heard, is going to marry <rs type="pers" key="381">Marie van Mens</rs>
+                    <anchor n="10" xml:id="note-t-10"/> and has bought the Ropsentuin to put a tannery there.<anchor n="11" xml:id="note-t-11"/>
+                </ab>
+<ab rend="indent">Was also at <rs type="pers" key="337">Jan Doomen</rs>’s,<anchor n="12" xml:id="note-t-12"/> who has been suffering a lot from rheumatism in his leg, and complains that he wouldn’t even be able to walk to Breda any more, but it didn’t bother him so much working in the field or the garden, only in the morning the pain drove him to get up very early. Old age is accompanied by ailments, the old <rs type="pers" key="571">Rev. Meijjes</rs>
+                    <anchor n="13" xml:id="note-t-13"/> would say.</ab>
+<ab rend="indent">What an outstandingly beautiful wood engraving of ‘A young citizen of the year V’ by <rs type="pers" key="1050">Jules Goupil</rs>
+                    <anchor n="14" xml:id="note-t-14"/> was recently published in L’Illustration! Have you seen it? Have managed to get hold of one and it’s now hanging on the wall of the little room here where I’m allowed to take up residence, i.e. the classroom<anchor n="15" xml:id="note-t-15"/> that looks out on the garden and against which the ivy grows. But regarding that painting, the magazine said this: ‘Eyes that have seen the spectacle of the dreadful guillotine, a mind that has survived all the sights of the Revolution. He is almost surprised to find himself still alive after so many disasters’.<anchor n="16" xml:id="note-t-16"/>
+                </ab>
+<ab rend="indent">It was a remarkable presence in art and will continue to have a similar effect on many and continue to make a deep impression on those with a feeling for high art, like a portrait by <rs type="pers" key="1012">Fabritius</rs>
+                    <anchor n="17" xml:id="note-t-17"/> or some other rather mystical paintings from the school of Rembrandt.
+    <pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/>
+                </ab>
+<ab rend="indent">In the evening, when we rode back from Zundert over the heath, <rs type="pers" key="526">Pa</rs> and I walked a way, the sun set red behind the pines and the evening sky was reflected in the marshes, the heath and the yellow and white and grey sand were so resonant with tone and atmosphere. You see, there are moments in life when everything, within us too, is peace and atmosphere, and all of life seems to be like a path across the heath, though it isn’t always so.</ab>
+<ab rend="indent">And this morning <rs type="pers" key="420">Cor</rs>, who’s on holiday, and I went to the heath and the pine-wood again, a way past Molenend,<anchor n="18" xml:id="note-t-18"/> and went to fetch heather for his rabbits, which are apparently very fond of it, for it’s their natural food for a good part, as well as a thing or two to fill a flower basket. We sat for a while in the pine-wood, and together we drew a map of Etten and its surroundings with the Bremberg and Haansberg and ’t Slagveld and Geestestraat and Sprundel and Het Heike and Hoeven.<anchor n="19" xml:id="note-t-19"/>
+                </ab>
+<ab rend="indent">
+                    <rs type="pers" key="412">Anna</rs> is but poorly, she’s so quiet and sometimes looks so very weak<anchor n="20" xml:id="note-t-20"/> — poor sister — it seems to me that it’s better to be well and truly married than to be engaged, and I should sincerely wish for her sake that she were already safely three years or so further along in life — may God spare her and protect her from all evil, He about Whom it is written that He is our Keeper and our Shade upon our right hand.<anchor n="21" xml:id="note-t-21"/>
+                </ab>
+<ab rend="indent">Would you give my warm regards to <rs type="pers" key=" 758">Soek</rs> and all his family (if you happen to go there), also to <rs type="pers" key="305">Frans Braat</rs> and <rs type="pers" key="353">Ernest</rs>
+                    <anchor n="22" xml:id="note-t-22"/> and the others if the opportunity should arise? I think about you a lot and am so glad that things are going well for you and that you’re finding things over there that stimulate you and are, as it were, good food for the true life. That too is high art, as are the works of those who work with their heart and with their mind and spirit, just as so many you know and will perhaps meet personally, whose words and works are spirit and life.<anchor n="23" xml:id="note-t-23"/> That you too, and, if possible, all of us may become more and more rooted and grounded<anchor n="24" xml:id="note-t-24"/> in that same principle, so that our affections take root in truth, this is wished you with a hearty handshake in thought by</ab>
+<vg:whiteline/>
+<ab>Your most loving brother</ab>
+<ab>Vincent.</ab>
+<vg:whiteline/>
+<ab>
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/>
+                </ab>
+<ab>
+                    <figure facs="zone-sketch-1" n="A"/>
+                </ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>Vincent had meanwhile gone back to Etten to live with his parents. <rs type="pers" key="526">Mr van Gogh</rs> also wrote to Theo on 22 July (FR b985); <rs type="pers" key="524">Mrs van Gogh</rs>’s letter had already been written on Thursday, 18 July (FR b995).</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>During <rs type="pers" key="526">Mr van Gogh</rs>’s visit to Brussels on 16 and 17 July, the possibility of finding a place for Vincent at the Flemish training college for evangelists was discussed. This college, which had been founded in 1875, was located at Sint Katelijneplein 9. See Fagel, ‘Van Gogh in Brussel’, pp. 23-27; <hi rend="ital">Verzamelde brieven</hi> 1973, vol. 1, pp. 180-182 and Lutjeharms 1978. Mr van Gogh had, incidentally, done some preliminary spadework, having corresponded in June with the <rs type="pers" key="313">Rev. Hendrik van den Brink</rs> at Roeselare (FR b981, b982 and b997); this was the same Van den Brink in whose house Theo had been a lodger at the beginning of 1873 (<ref target="let003.xml">see letters 3</ref> and <ref target="let009.xml">9</ref>). Mr van Gogh’s letter, which was enclosed with Vincent’s, gave Theo a detailed and illuminating account of the visit: ‘I recently sent you a postcard saying that I would be going with Vincent to Brussels. We were there last Tuesday and Wednesday, and spoke to and visited a great many people. We have determined that, with payment from us for his keep, we shall embark on a trial period of three months to see if there is a chance of his succeeding. Vincent spoke perfectly well, and I believe he made a good impression. His stay abroad, and the last year in Amsterdam, have not been wholly fruitless, and he does manage, if he opens up, to give proof that he has already learned and observed much in the school of life. Meanwhile the matter of evangelization in Belgium cannot yet count on permanent funds, but is mostly begun and continued in faith. In general, however, when funds were necessary, they were not lacking.</ab>
+<ab rend="indent">The <rs type="pers" key="605">Rev. Pieterszen</rs> of Mechelen joined us there and took us to see the <rs type="pers" key="460">Rev. de Jonge</rs> in Brussels, who had invited us to stay with him. But because the annual fair was taking place in his neighbourhood and there was a chance that we wouldn’t be able to sleep at night because of the noise in the street, he found us accommodation with an elder of the congregation, a certain <rs type="pers" key="1712">Mr Geerling</rs>, Architect. A most delightful family who received us so cordially.</ab>
+<ab rend="indent">Evangelists in Belgium are not required to obtain a certain degree or qualification after earlier training, but can be appointed if they give proof of suitability. It was nice that we were accompanied by the <rs type="pers" key="682">Rev. Jones</rs>, for whom Vincent had worked in England. He came to visit us the previous Saturday and stayed until Tuesday, at which time he went with us to Brussels. He’s a kind man who made a good impression on all of us. In Brussels he also spoke well on Vincent’s behalf and his very presence meant that these matters were usually discussed in English, which gave Vincent the opportunity to show that he spoke it readily and correctly, for which he received a pat on the back. We are now waiting for a letter with details of when and how, after which he will begin.</ab>
+<ab rend="indent">May there be something for him. It seems, after all, that he has a certain vocation for this kind of work, though I pointed out all the dark sides to him. But he remains adamant’ (FR b985, 22 July). Cf. Hulsker 1974-1, pp. 31-32.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>That Sunday was therefore 14 July 1878.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="2 Cor" chap="5" v="14">2 Cor. 5:14</bibleref>.</ab>
+                </note>
+<note n="a" xml:id="n-a" target="#note-o-a">
+<ab>A strong motive, strong grounds.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>Probably an allusion to <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Eph" chap="3" v="17">Eph. 3:17</bibleref>, ‘That Christ may dwell in your hearts by faith; that ye, being rooted and grounded in love’ (see also <ref target="#l-95">ll. 95-96</ref>).</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>From 1870 to 1879 the <rs type="pers" key="605">Rev. Abraham van der Waeyen Pieterszen</rs> was a preacher-evangelist in Mechelen and Louvain; he was one of the founders of the training college and was a member of the Evangelisatie-Comité, as was the above-mentioned <rs type="pers" key="313">Rev. H. van den Brink</rs>.</ab>
+                </note>
+    <note n="7" xml:id="n-7" target="#note-t-7">
+<ab>The Dutch clergyman <rs type="pers" key="460">Nicolaas de Jonge</rs> was the head of the Flemish training college in Brussels. Since May 1874 he had been attached to the Vlaamsch-Hollandsch-Evangelische (Flemish-Dutch-Evangelical) Church in Brussels. See J.J.P. Valeton Jr, <hi rend="ital">N. de Jonge in zijn leven en werken. </hi>Brussels 1889; H.J. Lutjeharms, ‘Abraham van der Waeyen Pieterszen. Kunstschilder, evangelist, predikant’, <hi rend="ital">Vereniging voor de geschiedenis van het Belgisch protestantisme</hi> 5-4 (1969), pp. 131-144; and Lutjeharms 1978.</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>
+                        <rs type="pers" key="1295">Rembrandt</rs>, <hi rend="ital">The carpenter’s house</hi>, also known as <hi rend="ital">The holy family (The carpenter’s family)</hi>, 1640 (Paris, Musée du Louvre). <rs type="ill" key="354">Ill. 354</rs>. The estate contains a print after the painting (Amsterdam, Van Gogh Museum, t*734).</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>The ‘aunts’ at Zundert: <rs type="pers" key="501">Elisabeth Petronella</rs> and <rs type="pers" key="499">Louisa Christina van der Burg</rs>.</ab>
+                </note>
+    <note n="10" xml:id="n-10" target="#note-t-10">
+<ab>The tanner – later tree-nurseryman – <rs type="pers" key="380">Charles van Ginneken</rs> married <rs type="pers" key="381">Maria (Marie) Johanna Geertruida van Mens</rs> on 8 October 1879. Van Ginneken had been Vincent’s classmate at the village school in Zundert. The families of the doctor Cornelis van Ginneken and the notary Franciscus van Mens belonged to the best-placed families of Zundert. <hi rend="ital">RAW</hi> and Kools 1990, pp. 83, 99, 133-134.</ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>The ‘Ropsentuin’ was farmland on the present-day triangle formed by Bredaseweg, Meirseweg and Auvers-sur-Oisestraat. It was named after Hendrik Rops, its former owner. After his death, part of the land was sold to <rs type="pers" key="380">Charles van Ginneken</rs>, who – together with his brother Willem – operated a tannery located at Molenstraat 47. In 1878, Charles bought the rest of the land and had a private house, ‘Villa Wilhelmina’, built on it (now Markt 24 (formerly no. 23) in Zundert). See Janus Mertens and Jan Pinxteren, <hi rend="ital">Het Land aan de Breede AA</hi> 7 (April 1997), no. 12 (Heemkundekring Zundert-Rijsbergen), p. 31 (with ill.).</ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+<ab>For <rs type="pers" key="337">Jan Doomen</rs>, <ref target="let110.xml#n-17">see letter 110, n. 17.</ref>
+                    </ab>
+                </note>
+<note n="13" xml:id="n-13" target="#note-t-13">
+<ab>The <rs type="pers" key="571">Rev. Reinier Posthumus Meijjes</rs> in Amsterdam.</ab>
+                </note>
+    <note n="14" xml:id="n-14" target="#note-t-14">
+<ab>
+                        <rs type="pers" key="1050">Jules Goupil</rs>, <hi rend="ital">Un jeune citoyen de l’an <hi rend="sc">v</hi> </hi>(A young citizen of the year <hi rend="sc">v</hi>), engraved by <rs type="pers" key="1583">Stéphane Pannemaker</rs>, in <hi rend="ital">L’Illustration</hi> 71 (27 April 1878), p. 265. The estate contains a copy with thumb-tack holes. <rs type="ill" key="887">Ill. 887</rs>. (t* 708).</ab>
+                </note>
+<note n="15" xml:id="n-15" target="#note-t-15">
+<ab>Next to the parsonage was an annexe, which was called the ‘classroom’ because the Rev. Peaux (Mr van Gogh’s predecessor) had used it as a nursery. See FR b988 and Stokvis 1926, p. 21. According to <rs type="pers" key="524">Mrs van Gogh</rs>, Vincent was ‘very happily installed with prints on the wall, a cupboard, a bed and washbasin, and table and chairs’ (FR b995, 18 July 1878).</ab>
+                </note>
+<note n="16" xml:id="n-16" target="#note-t-16">
+    <ab>The quotation is based on the text in <hi rend="ital">L’Illustration</hi> (<ref target="#n-14">see n. 14 above</ref>): ‘Eyes that have not been moved by the spectacle of the fearful guillotine, a thought which, cold and listless, has survived all the scenes of the Revolution ... He is indeed one of those men depicted for us by contemporary memoirs, almost amazed at finding themselves alive on the morrow of so many catastrophes’. (Un regard que n’a pas ému le spectacle de l’affreuse guillotine, une pensée qui a survécu, froide et languissante, à toutes les scènes de la Révolution ... il est bien de ceux que nous peignent les mémoires contemporains, presque étonnés de se trouver encore vivants au lendemain de tant de catastrophes) (p. 271).</ab>
+                </note>
+<note n="17" xml:id="n-17" target="#note-t-17">
+    <ab>
+                        <rs type="pers" key="1012">Carel Fabritius</rs>. The brothers knew Fabritius’s self-portrait (<ref target="let155.xml#n-18">see letter 155, n. 18.</ref>)</ab>
+                </note>
+<note n="18" xml:id="n-18" target="#note-t-18">
+<ab>Moleneind is a street in Etten (in district C).</ab>
+                </note>
+<note n="19" xml:id="n-19" target="#note-t-19">
+<ab>See the letter sketch <hi rend="ital">
+                            <rs type="sketch" key="9">Map of Etten and environs</rs>
+                        </hi> (F - / JH -).</ab>
+    <ab rend="indent">The information given after the names on the map was taken from the civil registration records from 1870 to 1889, and from the district maps of Etten and Leur of the Regional Archives of West-Brabant (RAW). The persons mentioned belonged to the Protestant community of Etten. Four of them lived in houses belonging to the Maatschappij van Welstand (Welfare Society). Several of these people are to be seen in a photograph dating from 1915 (see Nico van Wageningen, <hi rend="ital">De Boerenhoek. Geschiedenis van het protestantisme in Etten</hi>. Etten-Leur 1985, pp. 62-63, 75). With thanks to Cor Kerstens at Etten-Leur for his help in identifying these people.</ab>
+    <vg:whiteline/>
+    <ab>The text Van Gogh wrote on it is <hi rend="ital">in italics</hi>.</ab>
+    <vg:whiteline/>
+        <ab>[1] <hi rend="ital">Schuitemaker</hi> / Schuitemaker / Cornelis Schuitemaker (1813-1884), married to Johanna van Peer (1812-1887), living at Luie Hoek A 274, next to Sprundel and Sint Willebrord.</ab>
+        <ab>[2]     <hi rend="ital">'t Heike</hi> /  Het Heike</ab>
+        <ab>[3]     <hi rend="ital">de Hoeve</hi> /  Hoeven</ab>
+        <ab>[4] <hi rend="ital">naar Oudenbosch</hi> /  to Oudenbosch</ab>
+        <ab>[5]  <hi rend="ital">De Jong (landmeter)</hi> / De Jong (surveyor) / The surveyor Cornelis de Jonge (1837-after 1881), married to Trijntje Poldermans (1838-?), living at Moleneind B 38 in Hoeven (on the municipality’s border with Etten).</ab>
+        <ab>[6] <hi rend="ital">Frans van Put</hi> /  Frans van Put / The farmer Frans Cornelis van der Put (1843-1906), Lage Donk K 51. On 9 May 1875 he married the farm-woman Anna Gelijns (1847-?). At the time this map was made, they had one son: Frans (1876). Frans Cornelis van der Put’s father was Frans van der Put <hi rend="ital">[43]</hi>.</ab>
+        <ab>[7] <hi rend="ital">Geleens</hi> /  Geleens /Frans Cornelis van der Put probably moved shortly after his marriage to the house of his parents-in-law at Lage Donk K 51. Johannes Gelijns (1820-1875) died on 7 April, one month before this marriage. His daughters Anna (1847), Maria (1848), Willemijna (1853), Johanna (1857) and Elisabeth (1858) were also registered as living at this address; the first three as ‘farm-women’. The farmer Lambregt Gelijns (1812-1885) lived at Lage Donk K 55.</ab>
+        <ab>[8] <hi rend="ital">Lage Donk naar Zevenbergen</hi> / Lage Donk to Zevenbergen</ab>
+        <ab>[9]  <hi rend="ital">Sprundel</hi> /  Sprundel</ab>
+        <ab>[10] <hi rend="ital">Marechaussées</hi> / Marechaussées (military police)</ab>
+        <ab>[11] <hi rend="ital">Binnenweg naar de Hoeve.</hi> / By-road to Hoeven</ab>
+        <ab>[12]  <hi rend="ital">Weg naar de Hoeve</hi> / Road to Hoeven</ab>
+        <ab>[13] <hi rend="ital">Nil [or Nel] v. Eekelen.</hi> /  Nil (or Nel) v. Eekelen / If the Christian name is in fact Nil, this person could be the farmer Jan Cornelis van Eekelen (1837-1918); in the case of Nel, it could be Cornelia van Eekelen (1850-1923). Both are recorded as farmers living at Bankenstraat I 104.</ab>
+        <ab>[14] <hi rend="ital">Bankenstraat.</hi> /  Bankenstraat</ab>
+        <ab>[15] <hi rend="ital">Lam v. Eekelen</hi> /  Lam v. Eekelen / Lambregt van Eekelen (1845-1912), Geerstraat I 83.</ab>
+        <ab>[16] <hi rend="ital">Kees v. Eekelen</hi> / Kees v. Eekelen / Cornelis van Eekelen (1833-1879), farmer, Geerstraat I 82.</ab>
+        <ab>[17] <hi rend="ital">naar de heide &amp; Zundert</hi> / to the heath and Zundert</ab>
+        <ab>[18] <hi rend="ital">naar Rijsbergen</hi> / to Rijsbergen</ab>
+        <ab>[19] <hi rend="ital">Döritz</hi> /  Döritz / The family of Karel Willem (Wilhelm) Doelitzsch (1830-1908), born in Saxony and without profession, married to Adelaida Paulina Ellinga (1832-?). They had two daughters and two sons. Dorp A 120.</ab>
+        <ab>[20] <hi rend="ital">School</hi> / School</ab>
+        <ab>[21] <hi rend="ital">Klaas</hi> / Klaas / The carpenter Johan Daniël Claas (1833-1906), married to Gerardine Catharina van Aken (1832-1888), living at Dorp A 187.</ab>
+        <ab>[22] <hi rend="ital">Raat</hi> /  Raat / Possibly Anna Cornelia Boot (1822-?), widow of Adriaan van Raak (1813-1873), Dorp A 65.</ab>
+        <ab>[23] <hi rend="ital">Jan Kerst</hi> / Jan Kerst / The farmer Joannes Kerstens (1840-1900), Haansberg I 74. He is the son of Cornelis <hi rend="ital">[26]</hi> and was married to Maria Cornelia van Uijthoven (1852-1911).</ab>
+        <ab>[24] <hi rend="ital">Slikgat</hi> / Slikgat</ab>
+        <ab>[25] <hi rend="ital">Haansberg</hi> / Haansberg</ab>
+        <ab>[26] <hi rend="ital">Kerst</hi> /  Kerst / The farmer Cornelis Kerstens (1806-1886), living at the corner of Goorstraat and Haansberg I 34, on a farm belonging to the Maatschappij van Welstand (Welfare Society). He was married to Joanna Maria Sagius (1819-1903).</ab>
+        <ab>[27] <hi rend="ital">Ko van Put</hi> / Ko van Put / The farmer Jacobus van der Put (1836-1911) was married to the farm-woman Cornelia Bakker (1834-?). They lived at Haansberg I 66 (now Haansberg 41) and had a daughter called Francijna Cornelia (1874) and a son named Jacobus (1877). Also living with them were several children from Cornelia Bakker’s previous marriage to Rombout van Eekelen. Jacobus’s father was Frans van der Put <hi rend="ital">[43]</hi>.</ab>
+        <ab>[28] <hi rend="ital">Willem v. Eekelen</hi> / Willem v. Eekelen / The farmer Willem van Eekelen (1808-1887), married to Maria van Eekelen (1806-1884) and living at Haansberg I 61.</ab>
+        <ab>[29] <hi rend="ital">Geestestraat</hi> / Geestestraat / Probably meant to be Geerstraat.</ab>
+        <ab>[30]  <hi rend="ital">Kerst</hi> / Kerst / Cornelis Kerstens (1806-1881), married to Maria Hendrikx (1804-?), living at Geerstraat I 86.</ab>
+        <ab>[31] <hi rend="ital">Dries Oostenrijk</hi> / Dries Oostenrijk / Driver and church organist Johannes Andries Oostrijck (1843-1888), widower since 28 February 1878 of Cornelia Verhoeven (1832-1878), lived with his father, Johannes Oostrijck (1804-1880), and his sisters Marie (1832) and Cornelia (1846) at Dorp, A 142. He remarried Cornelia Kaufmann (1850-?). It is not clear when his brother-in-law Arie Schuurwater <hi rend="ital">[48]</hi> came to live with them.</ab>
+        <ab>[32] <hi rend="ital">Johanna</hi> / Johanna / The farm-woman Johanna Claas (1827-1898) was married to the farmer, shopkeeper and elder Lambrecht Oostrijck (1836-1903); they lived with their sons Johannes Andries (1870-1944) and Jacob Benjamin (1875-1956) at Dorp A 141.</ab>
+    <ab>[33] <hi rend="ital">Dien Klaas</hi> / Dien Klaas / The seamstress and cap-maker Gerardina (Dien) Maria Claas (1840-1922), married to the carpenter Alexander de Graaf (1848-1938), who was the sexton of the Nederlands Hervormde (Dutch Reformed) Church. He stood model for <hi rend="ital">Man with a saw</hi> (<rs type="otherart" key="964">F 878 / JH 16</rs>). See Stokvis 1926, pp. 9, 19. They lived with her mother, Johanna Oostrijck (1798-1881), sextoness, and their two sons Reinier (1875) and Jacob (1876), at Dorp A 142.</ab>
+        <ab>[34] <hi rend="ital">Breda</hi> / Breda / This perhaps refers to the ‘maker of fretwork’ Jacobus van Breda (1801-1879), widower of Adriana Leeflang (1789-1874), at Dorp A 143. Living at this address later on were the carpenter Servaas van Breda (1810-1888), his wife Adriana de Visser (1809-?), their daughters Elisabeth (1847) and Maria Wilhelmina (1849) and their son Marinus Wilhelmus (1853), who was registered as living at Dorp A 150 before their move. Andries van Breda and his wife Anna Maria van Eekelen, Dorp A 153 had died by 1878.</ab>
+        <ab>[35] <hi rend="ital">Lips</hi> / Lips / The carpenter Marinus Lips (1848-1921), married to the farm-woman Cornelia Oostrijck (1846-?), living at Dorp A 173a. They had three children: Jacobus (1873), Johannes Cornelis (1875) and Maria Leentje (1877).</ab>
+        <ab>[36] <hi rend="ital">Kaufman.</hi> / Kaufman / The farmer Cornelis Kaufmann (1817-1902), married to Catharina Gelijns (1821-1906) and their son Piet Kaufmann (1864-1940), Leurse weg, Dorp A 102. For Piet Kaufmann, see also <ref target="let170.xml">letters 170</ref> and <ref target="let172.xml">172</ref>.</ab>
+        <ab>[37]  <hi rend="ital">Station</hi> / Station</ab>
+        <ab>[38]  <hi rend="ital">Hackstroo</hi> / Hackstroo / Stationmaster Marinus Hackstroh (1830-1901), married to Elisabeth Clara de Bock (1827-after 1895). They lived at Baai F 25. See also <ref target="let138.xml">letter 138</ref>.</ab>
+        <ab>[39] <hi rend="ital">Prins (Piet)</hi> / Prins (Piet) / The labourer – later railway employee – Pieter Prins (1851-1892), married to Tanneke van Eekelen (1854-?), living at Baai F 26. Brother of Adam Prins <hi rend="ital">[47]</hi>.</ab>
+        <ab>[40] <hi rend="ital">Slagveld</hi> / Slagveld</ab>
+        <ab>[41]  <hi rend="ital">Marinus v Eekelen</hi> / Marinus v Eekelen / The farmer Marijn van Eekelen (1821-1888), married to Francijna van Eekelen (1831-?), Slikgat I 64.</ab>
+        <ab>[42] <hi rend="ital">Zure of oude Lam v Eekelen</hi> / Sour or old Lam v. Eekelen / The farmer Lambregt van Eekelen (1809-1894), married to Willemijna Kerstens (1811-1894), Slikgat I 65.</ab>
+        <ab>[43] <hi rend="ital">Oude van Put</hi> / Old van Put / The farmer Frans Adriaan van der Put (1798-1882), who lived at Sander I 56. He was the widower of Cornelia Kerstens and had six sons: Hendrik (1831), Servaas (1834), Jacobus <hi rend="ital">[27]</hi>, Johannes (1838), Lambregt (1840) and Frans <hi rend="ital">[6]</hi>.</ab>
+        <ab>[44] <hi rend="ital">Dirk Kerst</hi> / Dirk Kerst / The farmer Dirk Kerstens (1834-1896), married to Catharina van Eekelen (1833-1913), Slagveld F 44.</ab>
+        <ab>[45] <hi rend="ital">Ko v. Eekelen</hi> / Ko v. Eekelen / The farmer Jacobus van Eekelen (1821-1895), married to Cornelia Brouwers (1834-1909), Slagveld F 43.</ab>
+        <ab>[46] <hi rend="ital">Willem de Bakker</hi> / Willem de Bakker / The veterinary Willem de Bakker (1822-1880), Slagveld F 49.</ab>
+        <ab>[47] <hi rend="ital">Prins (Adam)</hi> / Prins (Adam) / The labourer Adam Prins (1839-1892), married to Catharina Kaufman (1844-1927), Slagveld F 52. Brother of Piet Prins <hi rend="ital">[39]</hi>.</ab>
+        <ab>[48] <hi rend="ital">Schuurwater</hi> / Schuurwater / The farmer Arie Schuurwater (1822-1915), married to Maria Oostrijck (1832-1910), living since 27 November 1877 at Dorp A 154b.</ab>
+        <ab>[49] <hi rend="ital">naar de Leur</hi> / to Leur</ab>
+        <ab>[50]   <hi rend="ital">Lips</hi> / Lips / The farmer Willem Lips (1842-1907), married to Adriana Johanna Kerstens (1840-?), living at Bremberg, G 10, a farm belonging to the Maatschappij van Welstand (Welfare Society).</ab>
+        <ab>[51] <hi rend="ital">Bremberg</hi> / Bremberg</ab>
+        <ab>[52] <hi rend="ital">de Leur</hi> / Leur</ab>
+        <ab>[53] <hi rend="ital">naar Prinsenhage</hi> / to Princenhage</ab>
+    <vg:whiteline/>
+    <ab>Brother Cor wrote on it: ‘Dit hebben Vincent en ik in ’t mastbosch gemaakt / van <hi rend="ital">Cor</hi> / Ik moet naar bed, goeden nacht.’ (Vincent and I did this in the pine wood, from Cor. I must go to bed, good night.)</ab>
+</note>
+<note n="20" xml:id="n-20" target="#note-t-20">
+<ab>
+                        <rs type="pers" key="412">Anna</rs> had been ill for some time; she was listless and suffered from stomach pains. <rs type="pers" key="413">Joan van Houten</rs> had meanwhile consulted a professor (FR b982, 23 June). Anna remained in Etten until her marriage on 22 August.</ab>
+                </note>
+<note n="21" xml:id="n-21" target="#note-t-21">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Ps" chap="121" v="5">Ps. 121:5</bibleref>.</ab>
+                </note>
+<note n="22" xml:id="n-22" target="#note-t-22">
+<ab>This <rs type="pers" key="353">Ernest</rs> has not been identified; he was probably someone in Goupil’s circle.</ab>
+                </note>
+<note n="23" xml:id="n-23" target="#note-t-23">
+<ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="John" chap="6" v="63">John 6:63</bibleref>.</ab>
+                </note>
+<note n="24" xml:id="n-24" target="#note-t-24">
+<ab>
+                        <vg:bibleref book="Eph" chap="3" v="17">Eph. 3:17</vg:bibleref>.</ab>
+                </note>
+</div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Paris, Thursday, 30 September 1875.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let053"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">053</idno>
+<idno type="collectedletters">40</idno>
+<idno type="brieven1990">052</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Paris</vg:placeLet>
+                        <vg:dateLet>Thursday, 30 September 1875</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. Paris, Thursday, 30 September 1875.</p>
+<note type="ongoingTopic" n="1">
+<p>Theo’s depression <ref target="let052.xml">(52)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b53 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Letter headed: ‘<hi rend="ital">[</hi>Paris, le<hi rend="ital">]</hi> 30 Sept.– <hi rend="ital">[</hi>187<hi rend="ital">]</hi>5.’</p>
+                    </note>
+<note type="additionalDetail" xml:id="additionalDetail">
+<p>The nature and content of the letter indicate that it was enclosed in one of Goupil’s shipments.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0053" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000056_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000056_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000056_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000056_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000056_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000056_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+        <surface n="b 0053 V/1962" xml:id="surf-extra-1v">
+            <graphic mimeType="image/tiff" url="VGM001000056_02.TIF" rend="norend"/>
+            <zone xml:id="zone-extra-1">
+<graphic mimeType="image/tiff" url="VGM001000056_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000056_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000056_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>
+                    <vg:suppliedMilestone type="open"/>Goupil &amp; C<hi rend="ss">ie</hi>
+                </ab>
+                <lb n="2" xml:id="l-2"/>
+<ab>Editeurs Imprimeurs</ab>
+                <lb n="3" xml:id="l-3"/>
+<ab>Estampes Françaises &amp; Étrangères</ab>
+                <lb n="4" xml:id="l-4"/>
+<ab>Tableaux Modernes</ab>
+                <lb n="5" xml:id="l-5"/>
+<ab>Rue Chaptal, 9, PARIS.</ab>
+                <lb n="6" xml:id="l-6"/>
+<ab>Succursales à la Haye, Londres, Berlin, New-York.</ab>
+<vg:whiteline/>
+                <lb n="7" xml:id="l-7"/>
+<ab>Paris, le<vg:suppliedMilestone type="close"/> 30 Sept.─ <supplied>187</supplied>5.</ab>
+<vg:whiteline/>
+                <lb n="8" xml:id="l-8"/>
+<ab>Waarde Theo,</ab>
+                <lb n="9" xml:id="l-9"/>
+<ab>Hierbij het boek over Michel dat ik U beloofde,<anchor n="1" xml:id="note-o-1"/> ook eene ets <lb n="10" xml:id="l-10"/>naar de Marguerite van Scheffer<anchor n="2" xml:id="note-o-2"/> &amp; eene lith. naar Corot, <lb n="11" xml:id="l-11"/>&amp; een pakje chocolade.─</ab>
+                <lb n="12" xml:id="l-12"/>
+<ab rend="indent">Ik weet wel gij het op ’t oogenblik niet gemakkelijk hebt, <lb n="13" xml:id="l-13"/>kerel, maar houdt U maar ferm en moedig; “Niet te <lb n="14" xml:id="l-14"/>droomen, niet te zuchten”<anchor n="3" xml:id="note-o-3"/> is ook soms noodig.─</ab>
+                <lb n="15" xml:id="l-15"/>
+<ab rend="indent">Gij weet het “dat gij niet alleen zijt maar dat de Vader <lb n="16" xml:id="l-16"/>met U is”.─<anchor n="4" xml:id="note-o-4"/> Hartelijk druk ik U in gedachten de hand. <lb n="17" xml:id="l-17"/>Steeds</ab>
+<vg:whiteline/>
+                <lb n="18" xml:id="l-18"/>
+<ab>Uw liefh. broeder</ab>
+                <lb n="19" xml:id="l-19"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+                <lb n="20" xml:id="l-20"/>
+<ab>Bewaar s.v.p. de ets naar Rembrandt die hierbij gaat, met <lb n="21" xml:id="l-21"/>de vroeger gezonden phot. naar Corot &amp; Jules Breton<anchor n="5" xml:id="note-o-5"/> tot <lb n="22" xml:id="l-22"/>Pa en Moe goed en wel te Etten zijn, &amp; zend ze dan, b.v. in ’t <lb n="23" xml:id="l-23"/>eind van November, op.─</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-1" targetEnd="l-7" n="1-7">
+                        <hi rend="ital">Printed letterhead.</hi>
+                    </note>
+<note target="l-16" n="16">is”.─ &lt; is.─</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>[Letterhead: Goupil Paris]</ab>
+<vg:whiteline/>
+<ab>Paris, 30 Sept. 1875.</ab>
+<vg:whiteline/>
+<ab>My dear Theo,</ab>
+<ab>Herewith the book about <rs type="pers" key="1228">Michel</rs> that I promised you,<anchor n="1" xml:id="note-t-1"/> also an etching after the Margaret by <rs type="pers" key="1339">Scheffer</rs>
+                    <anchor n="2" xml:id="note-t-2"/> and a lithograph after <rs type="pers" key="971">Corot</rs>, and a package of chocolate.</ab>
+<ab rend="indent">I do know that things aren’t easy for you at the moment, old chap, but remain steadfast and be brave; ‘Not to dream, not to sigh’<anchor n="3" xml:id="note-t-3"/> is also necessary sometimes.</ab>
+<ab rend="indent">You know ‘that you are not alone but that the Father is with you’.<anchor n="4" xml:id="note-t-4"/> I shake your hand heartily in thought. Ever,</ab>
+<vg:whiteline/>
+<ab>Your loving brother</ab>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<ab>Please keep the enclosed etching after <rs type="pers" key="1295">Rembrandt</rs>, along with the photos of the <rs type="pers" key="971">Corot</rs> and the <rs type="pers" key="899">Jules Breton</rs>
+                    <anchor n="5" xml:id="note-t-5"/> sent previously, until <rs type="pers" key="524 526">Pa and Ma</rs> are comfortably settled in Etten, and send them then, at the end of November for example.</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>On <rs type="pers" key="737">Alfred Sensier</rs>, <rs type="lit" key="40">
+                            <hi rend="ital">Etude sur George Michel</hi>
+                        </rs>, <ref target="let044.xml#n-2">see letter 44, n. 2.</ref>
+                    </ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>
+                        <rs type="pers" key="1339">Scheffer</rs> made a number of paintings in which Margaret (from Goethe's Faust) figures (see Ewals 1987, p. 517). In <ref target="let028.xml">letter 28</ref> Van Gogh had already mentioned <rs type="ill" key="1663">
+                            <hi rend="ital">Margaret at the fountain</hi>
+                        </rs>, after which the engraving <hi rend="ital">Marguerite à la fontaine</hi>, made by <rs type="pers" key="1533">Léopold Flameng</rs>, was published in the <hi rend="ital">Gazette des Beaux-Arts</hi> of 1 March 1864 (vol. 16, facing p. 196). (Dordrecht, Dordrechts Museum). <rs type="ill" key="1739">Ill. 1739</rs>.</ab>
+<ab rend="indent">Other known engravings in which Margaret features are <hi rend="ital">Marguerite</hi> (Margaret) by Hermann Eichens of 1862 and <hi rend="ital">Marguerite à l’église</hi> (Margaret at church) by Alphonse François of 1864 (both in Bordeaux, Musée Goupil); for the reproductions after <hi rend="ital">Margaret at the spinning wheel</hi>, <hi rend="ital">Margaret at church</hi>, <hi rend="ital">Margaret leaving church</hi>, <hi rend="ital">Margaret on the sabbath</hi>, <hi rend="ital">Faust and Margaret in the garden</hi> and <hi rend="ital">Margaret at the fountain</hi>, see Ewals 1987, pp. 258, 262, 283, 296, 308, 339.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>From the poem ‘<rs type="lit" key="44">Jonge roeping</rs>’ (Youthful vocation) by <rs type="pers" key="615">P.A. de Génestet</rs>, included in the volume <rs type="lit" key="45">
+                            <hi rend="ital">Laatste der eerste</hi>
+                        </rs> (Last of the first). The opening lines read thus:</ab>
+<vg:whiteline/>
+<ab rend="indent">Not to dream, not to sigh,</ab>
+<ab rend="indent">Not to moan, according to my lights</ab>
+<ab rend="indent">Not to fear, not to fly</ab>
+<ab rend="indent">From life’s unallayed delights.</ab>
+<vg:whiteline/>
+<ab rend="indent">Niet te droomen, niet te zuchten,</ab>
+<ab rend="indent">Niet te klagen, naar ik meen</ab>
+<ab rend="indent">Niet te schuwen noch te vluchten</ab>
+<ab rend="indent">’s Levens reine lieflijkheên.</ab>
+<vg:whiteline/>
+<ab>See De Génestet 1869, vol. 2, pp. 18-19.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="John" chap="16" v="32">John 16:32</bibleref>.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>Regarding this shipment, <ref target="let042.xml">see letter 42</ref>.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

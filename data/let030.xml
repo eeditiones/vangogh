@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. London, Saturday, 6 March 1875.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let030"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">030</idno>
+<idno type="collectedletters">23</idno>
+<idno type="brieven1990">030</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>London</vg:placeLet>
+                        <vg:dateLet>Saturday, 6 March 1875</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. London, Saturday, 6 March 1875.</p>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b23 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Letter headed: ‘6 Maart 1875’.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0023" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000024_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000024_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000024_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000024_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000024_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000024_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-2">
+<graphic mimeType="image/tiff" url="VGM001000024_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000024_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000024_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+        <surface n="b 0023 V/1962" xml:id="surf-extra-1v">
+            <graphic mimeType="image/tiff" url="VGM001000024_02.TIF" rend="norend"/>
+            <zone xml:id="zone-extra-1">
+<graphic mimeType="image/tiff" url="VGM001000024_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000024_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000024_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>
+                    <vg:suppliedMilestone type="open"/>London:</ab>
+                <lb n="2" xml:id="l-2"/>
+<ab>25, Bedford Street, Strand.</ab>
+                <lb n="3" xml:id="l-3"/>
+<ab>w.c.<vg:suppliedMilestone type="close"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="4" xml:id="l-4"/>
+<ab>6 Maart 1875</ab>
+<vg:whiteline/>
+                <lb n="5" xml:id="l-5"/>
+<ab>Waarde Theo,</ab>
+                <lb n="6" xml:id="l-6"/>
+<ab>Bravo Theo ─ Dat meisje uit <lb n="7" xml:id="l-7"/>Adam Bede hebt ge goed gezien.<anchor n="1" xml:id="note-o-1"/> <lb n="8" xml:id="l-8"/>Dat landschap, waarin de vaalgeele <lb n="9" xml:id="l-9"/>zandweg, over den heuvel, naar <lb n="10" xml:id="l-10"/>het dorp, met de leemen of gewitte <lb n="11" xml:id="l-11"/>hutten met groen bemoste daken &amp; <lb n="12" xml:id="l-12"/>hier &amp; daar een zwart doornboschje, <lb n="13" xml:id="l-13"/>leidt, aan weerszijden de bruine <lb n="14" xml:id="l-14"/>hei &amp; bunt &amp; eene grauwe lucht, <lb n="15" xml:id="l-15"/>met eene smalle witte streep aan <lb n="16" xml:id="l-16"/>den horizon, er boven ─ is van Michel<c type="kp">_</c>
+                    <anchor n="2" xml:id="note-o-2"/> <lb n="17" xml:id="l-17"/>Alleen er is een nog reiner &amp; nobeler <lb n="18" xml:id="l-18"/>stemming in dan in Michel.</ab>
+                <lb n="19" xml:id="l-19"/>
+<ab rend="indent">Ik zend je vandaag in de kist die <lb n="20" xml:id="l-20"/>wij afzenden ’t bewuste boekje.<anchor n="3" xml:id="note-o-3"/> <lb n="21" xml:id="l-21"/>Ook Jesus van Renan<anchor n="4" xml:id="note-o-4"/> &amp; Jeanne D’arc <lb n="22" xml:id="l-22"/>van Michelet,<anchor n="5" xml:id="note-o-5"/> &amp; ook een portret van 
+<pb f="1r" n="2" xml:id="pb-orig-1r-2" facs="#zone-pb-1r-2"/>
+                    <lb n="23" xml:id="l-23"/>Corot, uit de London News, dat ik <lb n="24" xml:id="l-24"/>ook op mijn kamer heb hangen.<anchor n="6" xml:id="note-o-6"/>
+                </ab>
+                <lb n="25" xml:id="l-25"/>
+<ab rend="indent">Vooreerst geloof ik niet dat er kans <lb n="26" xml:id="l-26"/>is dat ge in de zaak te Londen <lb n="27" xml:id="l-27"/>geplaatst wordt<c type="kp">_</c>
+                </ab>
+                <lb n="28" xml:id="l-28"/>
+<ab rend="indent">Vindt het maar niet naar dat ge <lb n="29" xml:id="l-29"/>’t niet moeielijk hebt; ik heb ’t ook <lb n="30" xml:id="l-30"/>makkelijk, ik geloof dat het leven <lb n="31" xml:id="l-31"/>nog al vrij lang is, en de tijd waarin <lb n="32" xml:id="l-32"/>“een ander U gordt &amp; U leidt waar <lb n="33" xml:id="l-33"/>ge niet wilt”,<anchor n="7" xml:id="note-o-7"/> van zelf komt.─ <lb n="34" xml:id="l-34"/>à Dieu, groet alle bekenden.</ab>
+                <lb n="35" xml:id="l-35"/>
+<ab rend="indent">En te serrant la main<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="36" xml:id="l-36"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-1" targetEnd="l-3" n="1-3">
+                        <hi rend="ital">Printed letterhead.</hi>
+                    </note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>[Letterhead: Strand London]</ab>
+<vg:whiteline/>
+<ab>6 March 1875</ab>
+<vg:whiteline/>
+<ab>My dear Theo,</ab>
+<ab>Bravo Theo – You well understood that girl in Adam Bede.<anchor n="1" xml:id="note-t-1"/> That landscape – in which a dull yellow sandy road leads over the hill to the village, with mud or whitewashed huts with green, moss-covered roofs and here and there a blackthorn, on either side brown heather and bunt and a grey sky, with a narrow white strip above the horizon – is by <rs type="pers" key="1228">Michel</rs>.<anchor n="2" xml:id="note-t-2"/> Except that the atmosphere is purer and nobler than in Michel.</ab>
+<ab rend="indent">Today I’m enclosing that little book<anchor n="3" xml:id="note-t-3"/> for you in the crate to be sent. Also Jesus by <rs type="pers" key="729">Renan</rs>
+                    <anchor n="4" xml:id="note-t-4"/> and Jeanne d’Arc by <rs type="pers" key="707">Michelet</rs>,<anchor n="5" xml:id="note-t-5"/> and also a portrait of 
+<pb f="1r" n="2" xml:id="pb-trans-1r-2" facs="#zone-pb-1r-2"/> <rs type="pers" key="971">Corot</rs>, from the London News, which I also have hanging in my room.<anchor n="6" xml:id="note-t-6"/>
+                </ab>
+<ab rend="indent">I don’t believe there’s any chance that you’ll be transferred to the London branch for the time being.</ab>
+<ab rend="indent">Don’t feel bad because you’re not finding things difficult; I have it easy, too. I believe that life is quite long, and the time when ‘another shall gird thee, and carry thee whither thou wouldest not’<anchor n="7" xml:id="note-t-7"/> will come of its own accord. Adieu, give my regards to everyone I know.</ab>
+<ab rend="indent">With a handshake,</ab>
+<vg:whiteline/>
+<ab>Vincent</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>
+      <rs type="lit" key="20">
+                            <hi rend="ital">Adam Bede</hi>
+                        </rs> (1859) by <rs type="pers" key="590">George Eliot</rs> is a novel about an ambitious young carpenter. He falls in love with the farm labourer Hetty Sorrel, who becomes pregnant by Arthur Donnithorn, the son of the local squire. She murders her newborn child and is sentenced to death. Shortly before she is due to be executed, she confesses and her sentence is commuted from death to banishment. Adam marries Dinah Morris, the Methodist preacher who persuaded Hetty to repent.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+      <ab>This landscape, which Van Gogh describes as <rs type="pers" key="1228">Michel</rs>-like, occurs in a passage in which Hetty sets out on a desperate search for Arthur after he has broken off their relationship: ‘The next morning she ... set out to walk on the road towards Ashby, under a leaden-coloured sky, with a narrowing streak of yellow, like a departing hope on the edge of the horizon ... For the first few miles out of Stoniton she walked on bravely, always fixing on some tree or gate or projecting bush at the most distant visible point in the road as a goal, and feeling a faint joy when she had reached it.’ Later on, when Hetty looks for a pond in which to drown herself, <rs type="pers" key="590">Eliot</rs> writes: ‘At last she was among the fields she had been dreaming of, on a long narrow pathway leading towards a wood ... No, it was not a wood, only a wild brake, where there had once been gravel-pits, leaving mounds and hollows studded with brushwood and small trees ... The afternoon was far advanced, and the leaden sky was darkening, as if the sun were setting behind it.’ George Eliot, <rs type="lit" key="20">
+                            <hi rend="ital">Adam Bede</hi>
+                        </rs>. 2 vols. Edinburgh and London 1859, vol. 2, chapter 36 (pp. 125-126), chapter 37 (p. 145).</ab>
+<ab rend="indent">In <ref target="let044.xml">letter 44</ref> Van Gogh speaks again of ‘that landscape described in that passage in Adam Bede, which we both found so moving’.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>The notebook in which Vincent copied out poems for Theo; <ref target="let029.xml#n-1">see letter 29, n. 1.</ref>
+                    </ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>In 1863 <rs type="pers" key="729">Ernest Renan</rs> published in Paris his controversial book <rs type="lit" key="21">
+                            <hi rend="ital">Vie de Jésus</hi>
+                        </rs>, a monograph on Christ, as the first volume in <rs type="lit" key="22">
+                            <hi rend="ital">Histoire des origines du christianisme</hi>
+                        </rs>. The book presented a completely new – positivist – approach to the historical figure of Jesus. In addition to the original version, Renan published a less expensive, abridged version: <hi rend="ital">Jésus</hi> (Paris 1864). Both versions were reprinted many times; it is not clear which of the two Van Gogh was referring to.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>In <rs type="lit" key="23">
+                            <hi rend="ital">Jeanne d’Arc</hi>
+                        </rs> (1853), <rs type="pers" key="707">Jules Michelet</rs> described the eventful life of the fifteenth-century maid of Orléans.</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>
+                        <rs type="pers" key="1046">Achille Isidore Gilbert</rs>, <hi rend="ital">Corot</hi>, engraved by <rs type="pers" key="1371">Burn Smeeton</rs> and <rs type="pers" key="1372">Auguste Tilly</rs>, in <hi rend="ital">The Illustrated London News</hi> 66 (27 February 1875), p. 197. In Van Gogh’s estate there is a copy with thumbtack holes. <rs type="ill" key="1701">Ill. 1701</rs>. (t*172).</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="John" chap="21" v="18">John 21:18</bibleref>.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

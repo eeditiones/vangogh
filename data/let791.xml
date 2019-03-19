@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>Henriette Lamblot-Gaudin to Vincent van Gogh. Arles, Tuesday, 16 July 1889.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let791"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">791</idno>
+<idno type="collectedletters">-</idno>
+<idno type="brieven1990">-</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Henriette Lamblot-Gardin</author>
+                        <vg:addressee>Vincent van Gogh</vg:addressee>
+                        <vg:placeLet>Arles</vg:placeLet>
+                        <vg:dateLet>Tuesday, 16 July 1889</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>Henriette Lamblot-Gaudin to Vincent van Gogh. Arles, Tuesday, 16 July 1889.</p>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b3154 V/1966</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Letter headed: ‘Arles, le 16 juillet 1889’.</p>
+                    </note>
+<note type="additionalDetail" xml:id="additionalDetail">
+<p>The 10-centimes postcard has on the side with the message the postmark: ‘ST REMY DE PROVCE 17 / JUIL / 89’, and on the side bearing the address (twice): ‘ARLES BOUCHES DU RHONE 5e|16 / JUIL / <hi rend="ital">[</hi>89<hi rend="ital">]</hi>’. The address reads: ‘<hi rend="ital">[</hi>M<hi rend="ital">]</hi>r Vincent, chez Mr le docteur/ Peyron, à/ St Remy/ B du R’.</p>
+    <p>Jansen 1998.</p>
+                    </note>
+</vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <surface n="b 3154" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001004467_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1r-1">
+                <graphic mimeType="image/tiff" url="VGM001004467_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001004467_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001004467_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+        </surface>
+        <surface n="b 3154 - 0001 V/1962" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001004467_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1v-2">
+                <graphic mimeType="image/tiff" url="VGM001004467_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001004467_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001004467_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+        </surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Arles, le 16 juillet 1889</ab>
+<vg:whiteline/>
+                <lb n="2" xml:id="l-2"/>
+<ab>Monsieur,</ab>
+                <lb n="3" xml:id="l-3"/>
+<ab>J’ai demandé à Paris le livre que vous m’avez commandé<anchor n="1" xml:id="note-o-1"/> <lb n="4" xml:id="l-4"/>et on m’a répondu qu’ils étaient épuisés. Si vous voulez <lb n="5" xml:id="l-5"/>un autre volume; veuillez m’en donner le titre; et <lb n="6" xml:id="l-6"/>je vous l’expédierai aussitôt; si non je vous <lb n="7" xml:id="l-7"/>rembourserai votre argent à votre prochaine visite <lb n="8" xml:id="l-8"/>chez moi. Recevez, Monsieur, mes salutations<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="9" xml:id="l-9"/>
+<ab>H. Lamblot</ab>
+                <lb n="10" xml:id="l-10"/>
+<ab>successeur A. Jauffret<anchor n="2" xml:id="note-o-2"/> </ab>
+    <vg:whiteline/>
+                <pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>Arles, 16 July 1889.</ab>
+<vg:whiteline/>
+<ab>Sir,</ab>
+<ab>I have made enquiries in Paris about the book you ordered from me<anchor n="1" xml:id="note-t-1"/> and they replied that it was out of print. If you want another volume, please give me the title, and I shall send it to you forthwith; if not, I shall return your money on your next visit to me. Yours faithfully,</ab>
+<vg:whiteline/>
+    <ab>
+                    <rs type="pers" key="132">H. Lamblot</rs>
+                </ab>
+                <ab> successor to <rs type="pers" key="118">A. Jauffret</rs>.<anchor n="2" xml:id="note-t-2"/>
+                </ab>
+                <pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>On Sunday, 7 July 1889 Van Gogh undertook a supervised journey to Arles (see letters <ref target="let787.xml">787</ref> and <ref target="let789.xml">789</ref>). It is not known which book he ordered.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>The bookshop owned by <rs type="pers" key="118">Anaïs Jauffret</rs>, 12 rue de la Poissonnerie, was taken over in 1889 by <rs type="pers" key="132">Marie Henriette Pauline Lamblot-Gaudin</rs>.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

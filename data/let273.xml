@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Anthon van Rappard. The Hague, on or about Sunday, 22 October 1882.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let273"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">273</idno>
+<idno type="collectedletters">R15</idno>
+<idno type="brieven1990">277</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Anthon van Rappard</vg:addressee>
+                        <vg:placeLet>The Hague</vg:placeLet>
+                        <vg:dateLet>on or about Sunday, 22 October 1882</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Anthon van Rappard. The Hague, on or about Sunday, 22 October 1882.</p>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b8349 V/2006</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>In <hi rend="ital">De brieven</hi> 1990 this letter is dated on or about 29 October 1882, which results in a very high density of letters to Van Rappard in the last days of October. Moreover, it leads to the strange situation that, at a time when Van Gogh and Van Rappard are corresponding with great frequency about illustrations, for four weeks (roughly from the end of September to the end of October) no letters pass between them. This is why we have placed the letter a little earlier in October.</p>
+<p rend="indent">Van Gogh wrote on or about 23 September that within 14 days (‘perhaps even sooner’) he expected to have a collection of prints in his possession (<ref target="let268.xml#l-49">letter 268, ll. 49-50</ref>). The postscript in <ref target="let274.xml">letter 274</ref> of 22 October shows that by then he had received the new woodcuts, whereas in <ref target="let272.xml">letter 272</ref> of 15 October he doesn’t yet mention them, so we assume that the acquisition came into his hands in the intervening week. The obvious conclusion is that the list of monograms in the present letter was drawn up wholly or partly because of this acquisition. Whether this was done after Sunday, 22 October (and thus before or after <ref target="let274.xml">letter 274</ref>) is impossible to determine, but it must have been around then, so we date the letter to on or about Sunday, 22 October.</p>
+<p rend="indent">This earlier date helps to explain the sequence of several passages in the following letters. Van Rappard must have reacted (in a letter that has not survived) to this list and to a remark about the artist Wyllie (<ref target="#l-73">ll. 73-78</ref>), which Van Gogh in turn comes back to in <ref target="let275.xml">letter 275</ref> with his question about Wyllie (in <ref target="let275.xml#l-167">l. 167</ref>) and with the statement ‘I would have to see the monogram FD or whatever it is to see whether I could decipher it from the way it was done.’ Van Rappard had evidently written about that monogram after seeing the list in the present letter.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 8349" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001001595_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001001595_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001001595_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001001595_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001595_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001595_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 8349" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001001595_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001001595_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001001595_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001001595_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001595_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001595_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001001595_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001595_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001595_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Amice Rappard,</ab>
+                <lb n="2" xml:id="l-2"/>
+<ab>Toen ik houtsneden begon te verzamelen was het mij dikwijls <lb n="3" xml:id="l-3"/>een verdriet niet te weten door wie ze waren<c type="kk">/</c> als ik <lb n="4" xml:id="l-4"/>niet wijs kon worden uit de monogrammen die <lb n="5" xml:id="l-5"/>veel Engelsche teekenaars bezigen.</ab>
+                <lb n="6" xml:id="l-6"/>
+<ab rend="indent">Ook nu ben ik daarvan nog niet op de hoogte doch <lb n="7" xml:id="l-7"/>weet er toch eenigen en een lijstje daarvan <lb n="8" xml:id="l-8"/>kan mogelijk U van eenig nut zijn ofschoon <lb n="9" xml:id="l-9"/>ge ze misschien allen wel kent.</ab>
+<vg:whiteline/>
+                <lb n="10" xml:id="l-10"/>
+<ab rend="html" html="273_01_ol.html">WS – Small.   A<c type="kp">_</c>H. Hopkins</ab>
+                <lb n="11" xml:id="l-11"/>
+<ab rend="html" html="273_01_ol.html">cG – Charles Green  H.H. Herkomer.</ab>
+                <lb n="11a" xml:id="l-11a"/>
+<ab rend="html" html="273_01_ol.html">(er is ook een T<c type="kp">_</c> Green)<anchor n="1" xml:id="note-o-1"/>
+                </ab>
+                <lb n="12" xml:id="l-12"/>
+<ab rend="html" html="273_01_ol.html">MEE Miss Edwin Edwards.<anchor n="2" xml:id="note-o-2"/> GP Pin<supplied>well</supplied>.</ab>
+                <lb n="13" xml:id="l-13"/>
+<ab rend="html" html="273_01_ol.html">F.B<c type="kp">_</c> Buckman   W.B.M. Murray<anchor n="3" xml:id="note-o-3"/>
+                </ab>
+                <lb n="13a" xml:id="l-13a"/>
+<ab rend="html" html="273_01_ol.html">(ge hebt van hem de  F<c type="kp">_</c>W. Walker.<anchor n="4" xml:id="note-o-4"/>
+                </ab>
+                <lb n="13b" xml:id="l-13b"/>
+<ab rend="html" html="273_01_ol.html">London dustyard)<anchor n="5" xml:id="note-o-5"/>
+                </ab>
+                <lb n="14" xml:id="l-14"/>
+<ab rend="html" html="273_01_ol.html">F.W.L<c type="kp">_</c> Lawson.<anchor n="6" xml:id="note-o-6"/>  M<c type="kp">_</c>W<c type="kp">_</c>R. Ridley<anchor n="7" xml:id="note-o-7"/>
+                </ab>
+                <lb n="15" xml:id="l-15"/>
+<ab rend="html" html="273_01_ol.html">FH Frank Hol   J<c type="kp">_</c>G. Gilbert<anchor n="8" xml:id="note-o-8"/>
+                </ab>
+                <lb n="16" xml:id="l-16"/>
+<ab rend="html" html="273_01_ol.html">HF Henry French.<anchor n="9" xml:id="note-o-9"/>
+                </ab>
+                <lb n="17" xml:id="l-17"/>
+<ab rend="html" html="273_01_ol.html">L<c type="kp">_</c>F. Fildes<anchor n="10" xml:id="note-o-10"/>   IM (IM) Mahoney</ab>
+                <lb n="17a" xml:id="l-17a"/>
+<ab rend="html" html="273_01_ol.html">   (Household edition Dickens.</ab>
+                <lb n="17b" xml:id="l-17b"/>
+    <ab rend="html" html="273_01_ol.html">   zeer mooi)<anchor n="11" xml:id="note-o-11"/>
+                </ab>
+                <lb n="18" xml:id="l-18"/>
+<ab rend="html" html="273_01_ol.html">RC. Caldecot<anchor n="12" xml:id="note-o-12"/>   HF Henry Furniss<anchor n="13" xml:id="note-o-13"/>
+                </ab>
+                <lb n="19" xml:id="l-19"/>
+<ab rend="html" html="273_01_ol.html">EJG Gregory   SPH Sidney Hall.<anchor n="14" xml:id="note-o-14"/>
+                </ab>
+                <lb n="20" xml:id="l-20"/>
+<ab rend="html" html="273_01_ol.html">S<c type="kp">_</c>E<c type="kp">_</c>W. Waller.<anchor n="15" xml:id="note-o-15"/>  J<c type="kp">_</c>D<c type="kp">_</c>W. Watson.<anchor n="16" xml:id="note-o-16"/>
+                </ab>
+                <lb n="20*" xml:id="l-20s"/>
+<ab rend="html" html="273_01_ol.html">   JB Barnard.</ab>
+                <lb n="20a" xml:id="l-20a"/>
+<ab rend="html" html="273_01_ol.html">    JT Teniel</ab>
+                <lb n="21" xml:id="l-21"/>
+<ab rend="html" html="273_01_ol.html">AL Lançon   CK Charles Keene.</ab>
+                <lb n="22" xml:id="l-22"/>
+<ab rend="html" html="273_01_ol.html">EM Morin   D<c type="kp">_</c>M. Du Maurier.</ab>
+                <lb n="23" xml:id="l-23"/>
+<ab rend="html" html="273_01_ol.html">JF Jules Ferat<anchor n="17" xml:id="note-o-17"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="21*" xml:id="l-21s"/>
+<ab>Dikwijls vindt men <lb n="22*" xml:id="l-22s"/>echter de namen voluit<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="24" xml:id="l-24"/>
+<ab>Zeker sla ik er over, doch dit is wat me <lb n="25" xml:id="l-25"/>op ’t oogenblik in de gedachten is.</ab>
+                <lb n="26" xml:id="l-26"/>
+<ab rend="indent">In Harpers Weekly zijn mooie dingen van <lb n="27" xml:id="l-27"/>Howard Pyle<c type="kk">/</c> Harper<c type="kk">/</c>
+                    <anchor n="18" xml:id="note-o-18"/> Rogers<c type="kk">/</c>
+                    <anchor n="19" xml:id="note-o-19"/> Abbey<c type="kk">/</c>
+                    <anchor n="20" xml:id="note-o-20"/> Alexander<anchor n="21" xml:id="note-o-21"/> o.a.; <lb n="28" xml:id="l-28"/>
+Caton Woodville<c type="kk">/</c> Overend<c type="kk">/</c>
+                    <anchor n="22" xml:id="note-o-22"/> Nash<c type="kk">/</c>
+                    <anchor n="23" xml:id="note-o-23"/> Dadd<c type="kk">/</c> Gregory<c type="kk">/</c> <lb n="29" xml:id="l-29"/>Watson<c type="kk">/</c> Staniland<c type="kk">/</c> Smythe<c type="kk">/</c>
+                    <anchor n="24" xml:id="note-o-24"/> Henessy<c type="kk">/</c>
+                    <anchor n="25" xml:id="note-o-25"/> Emslie<anchor n="26" xml:id="note-o-26"/> <lb n="30" xml:id="l-30"/>kent ge zeker ook uit de groote teekeningen <lb n="31" xml:id="l-31"/>van Graphic en London News.</ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="32" xml:id="l-32"/>
+<ab rend="indent">Ik heb van Small nog een aardig ding voor U.<lb n="33" xml:id="l-33"/> hij is iemand die verbazend knap is.</ab>
+                <lb n="34" xml:id="l-34"/>
+<ab rend="indent">Ik weet niet of gij kent Scribners magazine <lb n="35" xml:id="l-35"/>en Harpers <hi rend="ital">Monthly</hi> review<c type="kk">/</c>
+                    <anchor n="27" xml:id="note-o-27"/> daar zijn altijd <lb n="36" xml:id="l-36"/>zeer gedistingueerde dingen in<c type="kp">_</c>
+                </ab>
+                <lb n="37" xml:id="l-37"/>
+<ab rend="indent">Ik heb daar voorloopig slechts weinig van daar ze <lb n="38" xml:id="l-38"/>nog al duur zijn, en men ze oud haast nooit vindt<c type="kp">_</c> <lb n="39" xml:id="l-39"/>In The Brittish workman en The Cottager &amp; artisan<c type="kk">/</c> <lb n="40" xml:id="l-40"/>beide pennypapers van het Londensch tractaatgenootschap<c type="kk">/</c> <lb n="41" xml:id="l-41"/>zijn soms zeer tamme maar soms toch flinke<c type="kk">/</c> <lb n="42" xml:id="l-42"/>mooie dingen.<anchor n="28" xml:id="note-o-28"/>
+                </ab>
+                <lb n="43" xml:id="l-43"/>
+<ab rend="indent">Ik verneem bij gelegenheid zeer graag eens <lb n="44" xml:id="l-44"/>nog meer bijzonderheden van wat gij hebt <lb n="45" xml:id="l-45"/>want gij zult er zeker hebben die ik niet bezit <lb n="46" xml:id="l-46"/>en alles dienaangaande interesseert me. Het portret <lb n="46a" xml:id="l-46a"/>van Shakespeare door Menzel<anchor n="29" xml:id="note-o-29"/> zou ik graag vroeger of later eens zien.</ab>
+                <lb n="47" xml:id="l-47"/>
+<ab rend="indent">Zeg eens<c type="kk">/</c> hoe gaat het met Uwe <hi rend="ital">aquarellen</hi>
+                    <c type="kp">_</c> <lb n="48" xml:id="l-48"/>de laatste paar weken ben ik daar weer druk <lb n="49" xml:id="l-49"/>aan doende. verder ook aan typen uit het volk.</ab>
+                <lb n="50" xml:id="l-50"/>
+<ab rend="indent">Wat is het mooi buiten – ik kan soms wel eens verlangen <lb n="51" xml:id="l-51"/>naar een land waar ’t altijd herfst zou wezen <lb n="52" xml:id="l-52"/>doch dan hadden we geen sneeuw en geen appelbloessem <lb n="53" xml:id="l-53"/>en geen koren- &amp; stoppelvelden.</ab>
+                <lb n="54" xml:id="l-54"/>
+<ab rend="indent">Wil eens nazien of gij in der tijd van mij gehad hebt <lb n="55" xml:id="l-55"/>eene groote houtgravure waar geen naam van teekenaar <lb n="56" xml:id="l-56"/>onder staat<c type="kk">/</c> voorstellende heeren &amp; dames te paard in <lb n="57" xml:id="l-57"/>een park<c type="kk">/</c> ik geloof dat het de keizerin van Oostenrijk <lb n="58" xml:id="l-58"/>is ter wier eere een jagtpartij of zoo gegeven wordt.<anchor n="30" xml:id="note-o-30"/>
+                </ab>
+                <lb n="59" xml:id="l-59"/>
+<ab rend="indent">Als ge die niet hebt – doch ik geloof dat ge ze reeds dezen <lb n="60" xml:id="l-60"/>zomer gehad hebt – dan is die nog dubbel bij mij, want <lb n="61" xml:id="l-61"/>ik vond er nog een dezer dagen.</ab>
+                <lb n="62" xml:id="l-62"/>
+<ab rend="indent">Zoo ook een <hi rend="ital">door Knaus</hi>
+                    <c type="kk">/</c> een jager, die zijn hond <lb n="63" xml:id="l-63"/>een stuk brood geeft.<anchor n="31" xml:id="note-o-31"/>
+                </ab>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                <lb n="64" xml:id="l-64"/>
+<ab rend="indent">Van landschappen gesproken<c type="kk">/</c> ik houd altijd <lb n="65" xml:id="l-65"/>veel van Birket Foster &amp; van Read al <lb n="66" xml:id="l-66"/>worden ze als ouderwetsch beschouwd.</ab>
+                <lb n="67" xml:id="l-67"/>
+<ab rend="indent">Van Read heb ik onder anderen een herfsteffekt <lb n="68" xml:id="l-68"/>en een maanlicht en een sneeuw die zeer <lb n="69" xml:id="l-69"/>mooi zijn.<anchor n="32" xml:id="note-o-32"/>
+                </ab>
+                <lb n="70" xml:id="l-70"/>
+<ab rend="indent">Het Engelsche landschap is zeer uiteenloopend <lb n="71" xml:id="l-71"/>van opvatting<c type="kp">_</c> Foster lijkt weinig op <lb n="72" xml:id="l-72"/>Edwin Edwards<anchor n="33" xml:id="note-o-33"/> maar ’t heeft beide zijn raison <lb n="73" xml:id="l-73"/>d’être. Wyllie en meer anderen met hem zijn <lb n="74" xml:id="l-74"/>meer coloristen<c type="kk">/</c> of liever zoeken meer den toon<c type="kp">_</c> <lb n="75" xml:id="l-75"/>Vooral in Scribners magazine &amp; Harpers monthly <lb n="76" xml:id="l-76"/>zijn zeer mooie dingen meer in Wyllies manier – <lb n="77" xml:id="l-77"/>kleine marines<c type="kk">/</c> sneeuweffekten &amp;c.<c type="kk">/</c> hoekjes <lb n="78" xml:id="l-78"/>tuin of straat.<anchor n="34" xml:id="note-o-34"/>
+                </ab>
+                <lb n="79" xml:id="l-79"/>
+<ab rend="indent">In <hi rend="ital">Routledges Sixpenny series</hi> is o.a. <lb n="80" xml:id="l-80"/>
+                    <hi rend="ital">Oliver Twist geillustreerd door J<c type="kp">_</c> Mahoney</hi>
+                    <c type="kk">/</c> dat <lb n="81" xml:id="l-81"/>ik U zeer recommandeer<c type="kk">/</c> en Story of a feather <lb n="82" xml:id="l-82"/>geillustreerd door Du Maurier en Curtain lectures <lb n="83" xml:id="l-83"/>door Ch<hi rend="ss">s</hi> Keene. doch in de Punch zijn mooiere van hen.<anchor n="35" xml:id="note-o-35"/> <lb n="84" xml:id="l-84"/>Du Maurier heeft wel veel van Menzel<c type="kk">/</c> vooral <lb n="85" xml:id="l-85"/>in eenige groote composities van hem.</ab>
+                <lb n="86" xml:id="l-86"/>
+<ab rend="indent">In Belgie hebben in der tijd Felicien Rops en de Groux <lb n="87" xml:id="l-87"/>onder anderen mooie types geteekend in een blad <lb n="88" xml:id="l-88"/>dat Uilenspiegel heette en dat ik in der tijd gehad heb<anchor n="36" xml:id="note-o-36"/> <lb n="89" xml:id="l-89"/>en ontzettend graag terug zou hebben doch helaas <lb n="90" xml:id="l-90"/>niet meer vinden kan. Van de Groux vooral waren <lb n="91" xml:id="l-91"/>er dingen in zoo mooi als Israels.<anchor n="37" xml:id="note-o-37"/>
+                </ab>
+                <lb n="92" xml:id="l-92"/>
+<ab rend="indent">Nu kerel<c type="kk">/</c> ik moet aan mijn werk<c type="kk">/</c> ik wilde het <lb n="93" xml:id="l-93"/>lijstje van de monogram’s U sturen voor ik <lb n="94" xml:id="l-94"/>het weer verlies. à dieu<c type="kk">/</c> schrijf eens spoedig<c type="kp">_</c> <lb n="95" xml:id="l-95"/>geloof me</ab>
+<vg:whiteline/>
+                <lb n="96" xml:id="l-96"/>
+<ab>t. à t.</ab>
+                <lb n="97" xml:id="l-97"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-11" n="11">a (er <supplied>
+                            <hi rend="ital">...</hi>
+                        </supplied> Green) &lt; <hi rend="ital">Added later; parentheses added by us.</hi>
+                    </note>
+<note target="l-12" n="12">Pin<supplied>well</supplied>. &lt; <hi rend="ital">Text lost due to a blot.</hi>
+                    </note>
+<note target="l-13" n="13">a-b (ge <supplied>
+                            <hi rend="ital">...</hi>
+                        </supplied> dustyard) &lt; <hi rend="ital">Added later; parentheses added by us.</hi>
+                    </note>
+<note target="l-17" n="17">a-b (Household <supplied>
+                            <hi rend="ital">...</hi>
+                        </supplied> mooi) &lt; <hi rend="ital">Added later; parentheses added by us.</hi>
+                    </note>
+<note target="l-21" targetEnd="l-22" n="21-22">
+                        <hi rend="ital">The names Keene and Du Maurier inserted later in the open space at the end of l. 23 have now been placed at the end of the second column.</hi>
+                    </note>
+<note target="l-27" n="27">o.a.; &lt; o.a.</note>
+<note target="l-53" n="53">koren- &lt; koren</note>
+<note target="l-65" n="65">Foster &lt; Forster</note>
+<note target="l-71" n="71">Foster &lt; Forster</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear friend <rs type="pers" key="1306">Rappard</rs>,</ab>
+<ab>When I began collecting woodcuts I often regretted that I didn’t know who they were by if I couldn’t make head or tail of the monograms many English draughtsmen use. </ab>
+<ab rend="indent">Even now I don’t know everything, but do know a few, and a list of these may be of some use to you, although you may know them all. </ab>
+<vg:whiteline/>
+<ab rend="html" html="273_01_tr.html">WS — <rs type="pers" key="1359">Small</rs>   <rs type="pers" key="1092"> A.H. Hopkins</rs>
+                </ab>
+      <ab rend="html" html="273_01_tr.html">cG — <rs type="pers" key="1058">Charles Green</rs>   <rs type="pers" key="1080">H.H. Herkomer</rs>
+                </ab>
+      <ab rend="html" html="273_01_tr.html">(there’s also a <rs type="pers" key="1059">T. Green</rs>)<anchor n="1" xml:id="note-t-1"/>
+                </ab>
+<ab rend="html" html="273_01_tr.html">MEE <rs type="pers" key="1000">Miss Edwin Edwards</rs>
+                    <anchor n="2" xml:id="note-t-2"/>  <rs type="pers" key="1269">GP Pinwell</rs>
+                </ab>
+      <ab rend="html" html="273_01_tr.html">
+                    <rs type="pers" key="907">F.B. Buckman</rs>    <rs type="pers" key="1254">W.B.M. Murray</rs>
+                    <anchor n="3" xml:id="note-t-3"/>
+                </ab>
+<ab rend="html" html="273_01_tr.html">(you have the London dustyard  <rs type="pers" key="1428">F.W. Walker</rs>
+                    <anchor n="4" xml:id="note-t-4"/>
+                </ab>
+<ab rend="html" html="273_01_tr.html">by him)<anchor n="5" xml:id="note-t-5"/>
+                </ab>
+<ab rend="html" html="273_01_tr.html">
+                    <rs type="pers" key="1154">F.W.L. Lawson</rs>
+                    <anchor n="6" xml:id="note-t-6"/>    <rs type="pers" key="1314">M.W.R. Ridley</rs>
+                    <anchor n="7" xml:id="note-t-7"/>
+                </ab>
+<ab rend="html" html="273_01_tr.html">FH <rs type="pers" key="1089">Frank Holl</rs>    <rs type="pers" key="1047">J.G. Gilbert</rs>
+                    <anchor n="8" xml:id="note-t-8"/>
+                </ab>
+<ab rend="html" html="273_01_tr.html">HF <rs type="pers" key="1024">Henry French</rs>
+                    <anchor n="9" xml:id="note-t-9"/>
+                </ab>
+<ab rend="html" html="273_01_tr.html">L.F. <rs type="pers" key="1026">Fildes</rs>
+                    <anchor n="10" xml:id="note-t-10"/>     IM (IM) <rs type="pers" key="1184">Mahoney</rs>
+                </ab>
+      <ab rend="html" html="273_01_tr.html">     (Household edition <rs type="pers" key="580">Dickens</rs>.</ab>
+<ab rend="html" html="273_01_tr.html">     Very beautiful)<anchor n="11" xml:id="note-t-11"/>
+                </ab>
+<ab rend="html" html="273_01_tr.html">RC. <rs type="pers" key="924">Caldecott</rs>
+                    <anchor n="12" xml:id="note-t-12"/>    HF <rs type="pers" key="1018">Henry Furniss</rs>
+                    <anchor n="13" xml:id="note-t-13"/>
+                </ab>
+<ab rend="html" html="273_01_tr.html">EJG <rs type="pers" key="1060">Gregory</rs>    SPH <rs type="pers" key="1076">Sidney Hall</rs>
+                    <anchor n="14" xml:id="note-t-14"/>
+                </ab>
+<ab rend="html" html="273_01_tr.html">S.E.W. <rs type="pers" key="1427">Waller</rs>
+                    <anchor n="15" xml:id="note-t-15"/>    J.D.W. <rs type="pers" key="1432">Watson</rs>
+                    <anchor n="16" xml:id="note-t-16"/>
+                </ab>
+<ab rend="html" html="273_01_tr.html">     JB <rs type="pers" key="210">Barnard</rs>
+                </ab>
+      <ab rend="html" html="273_01_tr.html">     JT <rs type="pers" key="1378">Tenniel</rs>
+                </ab>
+      <ab rend="html" html="273_01_tr.html">AL <rs type="pers" key="1146">Lançon</rs>     CK <rs type="pers" key="1137">Charles Keene</rs>
+                </ab>
+      <ab rend="html" html="273_01_tr.html">EM <rs type="pers" key="1236">Morin</rs>     D.M. <rs type="pers" key="1197">Du Maurier</rs>
+                </ab>
+      <ab rend="html" html="273_01_tr.html">JF <rs type="pers" key="1013">Jules Ferat</rs>
+                    <anchor n="17" xml:id="note-t-17"/>
+                </ab>
+<vg:whiteline/>
+<ab>But often you find the names in full. </ab>
+<vg:whiteline/>
+<ab>I’m sure I’ve left some out, but these are the ones that come to mind at the moment.</ab>
+<ab rend="indent">In Harper’s Weekly there are beautiful things by <rs type="pers" key="1285">Howard Pyle</rs>, <rs type="pers" key="1066">Harper</rs>,<anchor n="18" xml:id="note-t-18"/> <rs type="pers" key="1330">Rogers</rs>,<anchor n="19" xml:id="note-t-19"/> <rs type="pers" key="838">Abbey</rs>,<anchor n="20" xml:id="note-t-20"/> <rs type="pers" key="367">Alexander</rs>
+                    <anchor n="21" xml:id="note-t-21"/> among others; <rs type="pers" key="1454">Caton Woodville</rs>, <rs type="pers" key="1259">Overend</rs>,<anchor n="22" xml:id="note-t-22"/> <rs type="pers" key="1249">Nash</rs>,<anchor n="23" xml:id="note-t-23"/> <rs type="pers" key="963">Dadd</rs>, <rs type="pers" key="1060">Gregory</rs>, <rs type="pers" key="1432">Watson</rs>, <rs type="pers" key="1364">Staniland</rs>, <rs type="pers" key="1369">Smythe</rs>,<anchor n="24" xml:id="note-t-24"/> <rs type="pers" key="1081">Hennessy</rs>,<anchor n="25" xml:id="note-t-25"/> <rs type="pers" key="999">Emslie</rs>
+                    <anchor n="26" xml:id="note-t-26"/> you no doubt know from the large drawings in The Graphic and London News. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">I have a nice thing by <rs type="pers" key="1359">Small</rs> for you. He’s someone who’s astonishingly clever. </ab>
+<ab rend="indent">I don’t know whether you know Scribner’s Magazine and Harper’s <hi rend="ital">Monthly</hi> Review,<anchor n="27" xml:id="note-t-27"/> there are always highly distinguished things in them.</ab>
+<ab rend="indent">I have only a few of them at present since they’re quite expensive, and one hardly ever finds them second-hand. The British Workman and The Cottager and Artisan, both penny papers from the London Tract Society, sometimes have very tame things but sometimes strong, beautiful things.<anchor n="28" xml:id="note-t-28"/>
+                </ab>
+<ab rend="indent">I’d be very glad to hear more details about what you have, when the opportunity arises, for you’re bound to have some that I don’t have, and this whole subject interests me. I would like to see the portrait of <rs type="pers" key="735">Shakespeare</rs> by <rs type="pers" key="1214">Menzel</rs> sooner or later.<anchor n="29" xml:id="note-t-29"/>
+                </ab>
+<ab rend="indent">Tell me, how are you getting on with your <hi rend="ital">watercolours</hi>? I’ve again been very busy with that in the last few weeks, and also with types from the common people. </ab>
+<ab rend="indent">How beautiful it is outside – I sometimes yearn for a country where it would always be autumn, but then we’d have no snow and no apple blossom and no corn and stubble fields. </ab>
+<ab rend="indent">Please look and see whether you got a large wood engraving from me in the past, with no draughtsman’s name below it, depicting gentlemen and ladies riding in a park, I believe it’s the Empress of Austria in whose honour a hunting party or something is being given.<anchor n="30" xml:id="note-t-30"/>
+                </ab>
+<ab rend="indent">If you don’t have it — though I believe you already got it this summer — then I have it twice, for I found another one just a few days ago. </ab>
+      <ab rend="indent">There’s also one <hi rend="ital">by <rs type="pers" key="1131">Knaus</rs>
+                    </hi>, a hunter giving his dog a piece of bread.<anchor n="31" xml:id="note-t-31"/> 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/>
+                </ab>
+<ab rend="indent">Talking of landscapes, I’ve always liked <rs type="pers" key="1030">Birket Foster</rs> and <rs type="pers" key="1305">Read</rs> a lot, even if they’re regarded as old-fashioned.</ab>
+<ab rend="indent">Among other things by <rs type="pers" key="1305">Read</rs> I have an autumnal effect and a moonlight and a snow which are very beautiful.<anchor n="32" xml:id="note-t-32"/>
+                </ab>
+<ab rend="indent">There’s a wide range of approaches to the English landscape. <rs type="pers" key="1030">Foster</rs> bears little resemblance to <rs type="pers" key="1001">Edwin Edwards</rs>,<anchor n="33" xml:id="note-t-33"/> but both have their <hi rend="ital">raison d’être</hi>. <rs type="pers" key="1451">Wyllie</rs> and others with him are more colourists, or rather seek the tone more. Especially in Scribner’s Magazine and Harper’s Monthly there are very fine things more in Wyllie’s manner — small seascapes, snow effects &amp;c., corners of a garden or street.<anchor n="34" xml:id="note-t-34"/> </ab>
+<ab rend="indent">
+                    <hi rend="ital">Routledges Sixpenny series</hi> includes, among others, <hi rend="ital">Oliver Twist illustrated by <rs type="pers" key="1184">J. Mahoney</rs>
+                    </hi>, which I highly recommend to you, and Story of a feather illustrated by <rs type="pers" key="1197">Du Maurier</rs> and Curtain lectures by <rs type="pers" key="1137">C. Keene</rs>. But in Punch there are better ones by them.<anchor n="35" xml:id="note-t-35"/> Du Maurier is very reminiscent of <rs type="pers" key="1214">Menzel</rs>, especially in some of his large compositions.</ab>
+<ab rend="indent">In Belgium at one time, <rs type="pers" key="1326">Félicien Rops</rs> and <rs type="pers" key="1063">Degroux</rs>, among others, drew beautiful types in a magazine called Uylenspiegel which I once had and would dearly like to have again,<anchor n="36" xml:id="note-t-36"/> but alas can no longer find. There were things in it, by Degroux especially, that were as beautiful as <rs type="pers" key="1107">Israëls</rs>.<anchor n="37" xml:id="note-t-37"/>
+                </ab>
+<ab rend="indent">Well, old chap, I must get to work. I wanted to send you the list of monograms before I misplaced it again. Adieu, do write soon. Believe me</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>
+                        <rs type="pers" key="1059">Henry Towneley Green</rs>.</ab>
+                </note>
+      <note n="2" xml:id="n-2" target="#note-t-2">
+<ab>
+                        <rs type="pers" key="1000">Mary Ellen Edwards</rs>. On occasion Van Gogh mixed her up with the etcher mentioned later in the letter, <rs type="pers" key="1001">Edwin Edwards</rs> (<ref target="#n-33">see n. 33</ref> below); and indeed he does so here. He may have thought that her surname was ‘Edwin Edwards’ (cf. <ref target="let317.xml">letter 317</ref>).</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>The estate has 24 prints by <rs type="pers" key="1254">William Bazett Murray</rs>: 17 are from <hi rend="ital">The Graphic</hi> 1873-1876, six from <hi rend="ital">The Illustrated London News</hi> 1873-1881, and one from <hi rend="ital">L’Univers Illustré</hi> 1881.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>
+                        <rs type="pers" key="1428">Frederick Walker</rs>.</ab>
+                </note>
+      <note n="5" xml:id="n-5" target="#note-t-5">
+<ab>
+                        <rs type="pers" key="907">Edwin Buckman</rs>, <hi rend="ital">A London dustyard</hi>, in <hi rend="ital">The Illustrated London News</hi>, 62 (1 March 1873), p. 193. <rs type="ill" key="658">Ill. 658</rs>.</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>The estate has four prints after the work of <rs type="pers" key="1154">Francis Wilfred Lawson</rs>, all from <hi rend="ital">The Graphic</hi> (1870-1877).</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>The estate has 11 prints after the work of <rs type="pers" key="1314">Matthew White Ridley</rs>, ten from <hi rend="ital">The Graphic</hi> 1871-1876, and one from <hi rend="ital">The Illustrated London News</hi> 1872.</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+      <ab>The estate has one wood engraving after a painting by Sir <rs type="pers" key="1047">John Gilbert</rs>. It is an illustration to ‘<rs type="lit" key="8">Evangeline</rs>’ by <rs type="pers" key="696">H.W. Longfellow</rs>, with below it the text: ‘Father of twenty children was he, and more than a hundred / Children’s children rode on his knee, and heard his great watch tick’, in <hi rend="ital">The Graphic</hi> 11 (6 March 1875), p. 217.</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>
+                        <rs type="pers" key="1024">Henry French</rs> provided 20 illustrations for <rs type="pers" key="580">Dickens</rs>’s <rs type="lit" key="196">
+                            <hi rend="ital">Hard times</hi>
+                        </rs> in the <rs type="lit" key="242">Household Edition</rs>.</ab>
+                </note>
+      <note n="10" xml:id="n-10" target="#note-t-10">
+<ab>
+                        <rs type="pers" key="1026">Luke Fildes</rs> illustrated <rs type="pers" key="580">Dickens</rs>’s <rs type="lit" key="243">
+                            <hi rend="ital">The mystery of Edwin Drood</hi>
+                        </rs> in the <rs type="lit" key="242">Household Edition</rs>: <ref target="let235.xml#n-7">see letter 235, n. 7.</ref>
+                    </ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>
+                        <rs type="pers" key="1184">James Mahoney</rs> illustrated <rs type="pers" key="580">Dickens</rs>’s <hi rend="ital">
+                            <rs type="lit" key="107">Oliver Twist</rs>, <rs type="lit" key="199">Little Dorrit</rs>
+                        </hi> and <rs type="lit" key="257">
+                            <hi rend="ital">Our mutual friend</hi>
+                        </rs> in the <rs type="lit" key="242">Household Edition</rs>: <ref target="let261.xml#n-9">letter 261, n. 9.</ref> The estate has a sheet with four <hi rend="ital">Sketches in the West of Ireland</hi>, in <hi rend="ital">The Illustrated London News</hi> (20 February 1847), p. 116 (t*591).</ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+<ab>The estate has three prints after the work of <rs type="pers" key="924">Randolph Caldecott</rs>: <rs type="otherart" key="393">
+                            <hi rend="ital">What’s in a name?</hi>
+                        </rs> and <rs type="otherart" key="394">
+                            <hi rend="ital">If you don’t happen</hi>
+                        </rs> are from <hi rend="ital">Punch</hi> (12 December 1879); the source of <rs type="otherart" key="395">
+                            <hi rend="ital">An innocent offender</hi>
+                        </rs> has not been established. <rs type="pers" key="1382">Joseph Swain</rs> is named as the engraver on the last two. </ab>
+                </note>
+<note n="13" xml:id="n-13" target="#note-t-13">
+<ab>The estate has 26 prints by <rs type="pers" key="1018">Harry Furniss</rs>, all from <hi rend="ital">The Illustrated London News</hi> 1880-1882 and from <hi rend="ital">Punch </hi>1881.</ab>
+                </note>
+<note n="14" xml:id="n-14" target="#note-t-14">
+<ab>The estate has four prints after the work of <rs type="pers" key="1076">Sydney Prior Hall</rs>; two were engraved by <rs type="pers" key="1546">Horace Harral</rs>. They are all from <hi rend="ital">The Graphic</hi> 1871-1879.</ab>
+                </note>
+<note n="15" xml:id="n-15" target="#note-t-15">
+<ab>The estate has one print after the work of <rs type="pers" key="1427">Samuel Edmund Waller</rs> engraved by <rs type="pers" key="1546">Horace Harral</rs>, <rs type="otherart" key="396">
+                            <hi rend="ital">The last guest, the morning after the party</hi>
+                        </rs>, in <hi rend="ital">The Graphic</hi> 12 (25 December 1875), p. 19 (t*378).</ab>
+                </note>
+<note n="16" xml:id="n-16" target="#note-t-16">
+<ab> <rs type="pers" key="1432">John Dawson Watson</rs> worked for both <hi rend="ital">The Illustrated London News</hi> and <hi rend="ital">The Graphic</hi> in the 1870s. The estate has no prints after or by him. </ab>
+                </note>
+<note n="17" xml:id="n-17" target="#note-t-17">
+<ab>The estate has five prints after the work of <rs type="pers" key="1013">Jules Descartes Ferat</rs>: two from <hi rend="ital">L’Illustration </hi>(1875 and 1881), one from <hi rend="ital">L’Univers Illustré</hi> (1882) and two from a French magazine (source not traced).</ab>
+                </note>
+<note n="18" xml:id="n-18" target="#note-t-18">
+<ab>The fact that <rs type="pers" key="1066">William St John Harper</rs> did illustrations for <hi rend="ital">Harper’s Weekly</hi> is evident from among other things the prints <rs type="otherart" key="397">
+                            <hi rend="ital">Tenement-house life in New York – Mayor Grace’s tour of inspection</hi>
+                        </rs>, in <hi rend="ital">Harper’s Weekly</hi> 25 (15 October 1881), p. 696 and <rs type="otherart" key="398">
+                            <hi rend="ital">Shutting off the Croton at the Central Park reservoir</hi>
+                        </rs>, in <hi rend="ital">Harper’s Weekly</hi> 25 (12 November 1881) p. 761; the latter is the only print by Harper in the estate (t*412).</ab>
+                </note>
+<note n="19" xml:id="n-19" target="#note-t-19">
+<ab>Numerous illustrations by <rs type="pers" key="1330">William Allen Rogers</rs> may be found in the magazine, including <rs type="otherart" key="399">
+                            <hi rend="ital">The president’s room</hi>
+                        </rs>, in <hi rend="ital">Harper’s Weekly</hi> 25 (23 July 1881), no. 1283, pp. 504-505. The estate has two prints after Rogers: <hi rend="ital">Milk and its adulteration – An early morning inspection</hi>, in <hi rend="ital">Harper’s Weekly</hi> 26 (25 March 1882), p. 185. <rs type="ill" key="1984">Ill. 1984</rs> (t*362), and several illustrations for ‘“Lawing” in the North woods’, in <hi rend="ital">Harper’s Weekly</hi> 26 (18 November 1882), p. 725, but these are from a later date than the letter (t*249).</ab>
+                </note>
+<note n="20" xml:id="n-20" target="#note-t-20">
+<ab>
+                        <rs type="pers" key="838">Edwin Austin Abbey</rs> contributed from the 1870s; cf. for example <hi rend="ital">Harper’s Weekly</hi> 26 (7 January 1882) and <ref target="let295.xml">see letter 295</ref>. The estate has no prints after Abbey.</ab>
+                </note>
+<note n="21" xml:id="n-21" target="#note-t-21">
+      <ab>The estate has six prints after <rs type="pers" key="367">John White Alexander</rs> from <hi rend="ital">Harper’s Weekly</hi> 25 and 26 (1881-1882): <rs type="otherart" key="400">
+                            <hi rend="ital">Excursions of five points children and their mothers</hi>
+                        </rs>, <rs type="otherart" key="401">
+                            <hi rend="ital">Henry W. Longfellow</hi>
+                        </rs>, <rs type="otherart" key="402">
+                            <hi rend="ital">In the old French market</hi>
+                        </rs>, <rs type="otherart" key="403">
+                            <hi rend="ital">New Orleans</hi>
+                        </rs>, <rs type="otherart" key="404">
+                            <hi rend="ital">Peter Cooper</hi>
+                        </rs>, <rs type="otherart" key="405">
+                            <hi rend="ital">Ralph Waldo Emerson</hi>
+                        </rs> and <rs type="otherart" key="406">
+                            <hi rend="ital">Thurlow weed</hi>
+                        </rs> (t*320; t*695; t*319; t*700; t*699 and t*704).</ab>
+                </note>
+<note n="22" xml:id="n-22" target="#note-t-22">
+<ab>The estate has eight prints after <rs type="pers" key="1259">William H. Overend</rs>, six from <hi rend="ital">The Illustrated London News</hi> 1880, and one from 1883; one print, <rs type="otherart" key="407">
+                            <hi rend="ital">On the right course</hi>
+                        </rs>, is from <hi rend="ital">The Cottager and Artisan</hi> (t*366); cf. <ref target="#n-28">n. 28</ref> below.</ab>
+                </note>
+<note n="23" xml:id="n-23" target="#note-t-23">
+<ab>The estate has 13 engravings after the work of <rs type="pers" key="1249">Joseph Nash Jr</rs>, the son of <rs type="pers" key="1250">Joseph Nash</rs>; they are all from <hi rend="ital">The Graphic</hi> (1874-1878).</ab>
+                </note>
+<note n="24" xml:id="n-24" target="#note-t-24">
+<ab>
+                        <rs type="pers" key="1369">Lionel Percy Smythe</rs> contributed drawings which were wood engraved in <hi rend="ital">The</hi> <hi rend="ital">Illustrated London News</hi> and in <hi rend="ital">Harper’s Weekly</hi> in the 1870s. The estate has no prints after Smythe.</ab>
+                </note>
+<note n="25" xml:id="n-25" target="#note-t-25">
+<ab>The estate has 12 prints after the work of <rs type="pers" key="1081">William John Hennessy</rs>: 11 from <hi rend="ital">The Graphic</hi> (1872-1878) and one from <hi rend="ital">The Illustrated London News</hi> (1873).</ab>
+                </note>
+<note n="26" xml:id="n-26" target="#note-t-26">
+<ab>The estate has five prints after the work of <rs type="pers" key="999">Alfred Edward Emslie</rs>: two from <hi rend="ital">The Illustrated London News</hi> of 1881, and two from 1883; and an engraving from <hi rend="ital">L’Univers Illustré</hi> (1881).</ab>
+                </note>
+<note n="27" xml:id="n-27" target="#note-t-27">
+<ab>
+      <hi rend="ital">Scribner’s Monthly Magazine. An Illustrated Magazine for the People </hi>(1870-1881, subsequently <hi rend="ital">The</hi> <hi rend="ital">Century Illustrated Monthly Magazine</hi>) and <hi rend="ital">Harper’s New Monthly Magazine</hi> (1850-current) were leading American magazines, especially in the field of illustration. See <hi rend="ital">American literary magazines. The eighteenth and nineteenth centuries</hi>. Ed. E.E. Chielens. New York etc. 1984, pp. 364-369, 166-171.</ab>
+                </note>
+<note n="28" xml:id="n-28" target="#note-t-28">
+<ab>The Religious Tract Society (1799) was responsible for the distribution and publication of religious literature, including the monthly <hi rend="ital">The British Workman and the Friends of Toil </hi>(1855-1921), which was published by S.W. Partridge and Co<hi rend="ital">.</hi> The magazine, with social, moral and religious teachings, was aimed at the proletariat. <hi rend="ital">The</hi> <hi rend="ital">Cottager and Artisan</hi>, a related magazine containing instructive and useful reading for the working classes,<hi rend="ital"> </hi>was published by The Religious Tract Society. Both cost 1 penny in 1880-1882. See Peter Roger Mountjoy, ‘Thomas Bywater Smithies; editor of the British Workman’, <hi rend="ital">Victorian Periodicals Review </hi>18-2 (1985), pp. 46-56; and Gleeson White, <hi rend="ital">English illustration. ‘The sixties’: 1855-70</hi>. London 1906, p. 81.</ab>
+<ab rend="indent">The estate has one print from each magazine (the date has not been established): <rs type="otherart" key="408">
+                            <hi rend="ital">The man in the well</hi>
+                        </rs>, possibly by William Ralston (British Workman; t*331) and <rs type="otherart" key="409">
+                            <hi rend="ital">On the right course</hi>
+                        </rs> by <rs type="pers" key="1259">William H. Overend</rs> (The Cottager; t*366).</ab>
+                </note>
+<note n="29" xml:id="n-29" target="#note-t-29">
+      <ab>For <rs type="pers" key="1214">Menzel</rs>’s <rs type="ill" key="255">
+                            <hi rend="ital">Shakespeare</hi>
+                        </rs>, <ref target="let267.xml#n-13">see letter 267, n. 13.</ref>
+                    </ab>
+                </note>
+<note n="30" xml:id="n-30" target="#note-t-30">
+<ab>Van Gogh means a hunting scene with <rs type="pers" key="67">Elizabeth Amalie Eugenie Wittelsbach</rs>, Empress of Austria, who married Franz Joseph <hi rend="sc">i</hi> of Austria in 1854. The print in question has not been traced. </ab>
+                </note>
+<note n="31" xml:id="n-31" target="#note-t-31">
+<ab>A print after <rs type="pers" key="1131">Ludwig Knaus</rs>, <hi rend="ital">Jagdfrühstück</hi> (Hunter’s breakfast) 1867 (present whereabouts unknown). <rs type="pers" key="1521">Gustav Adolf Closs</rs> did an engraving after this work under the title <hi rend="ital">Un déjeuner d’amis</hi> (Friends at lunch) it was offered by the French newspaper <hi rend="ital">Le Citoyen</hi> (Paris, BNF, Cabinet des Estampes). <rs type="ill" key="1013">Ill. 1013</rs>.</ab>
+                </note>
+<note n="32" xml:id="n-32" target="#note-t-32">
+<ab>Van Gogh knew several engravings from <hi rend="ital">The Illustrated London News</hi> of 21 December 1872 (<ref target="let359.xml">see letter 359</ref>), so by ‘A moonlight’ he probably means <hi rend="ital">Deserted</hi> by <rs type="pers" key="1305">Samuel Read</rs>, in <hi rend="ital">The Illustrated London News</hi> 61 (21 December 1872), p. 604 (<rs type="ill" key="1243">Ill. 1243</rs>). Other examples include <hi rend="ital">Woodleigh Grange</hi>, in <hi rend="ital">The Illustrated London News</hi>, Christmas number 1880, p. 29 (<rs type="ill" key="1985">Ill. 1985</rs>) and <hi rend="ital">Christmas reflections</hi> in <hi rend="ital">The Illustrated London News</hi> (London, Witt Library; the source has not been traced).<hi rend="ital"> </hi>
+                        <rs type="ill" key="1986">Ill. 1986</rs>.</ab>
+<ab rend="indent">‘A snow’ could be Cold without – The passer-by, in The Illustrated London News 27 (22 December 1855), p. 744. (<rs type="ill" key="1244">Ill. 1244</rs>). Numerous landscapes by <rs type="pers" key=" 1304">David Charles Read</rs> are also known.</ab>
+                </note>
+<note n="33" xml:id="n-33" target="#note-t-33">
+<ab>The works by <rs type="pers" key="1001">Edwin Edwards</rs> in the estate are an engraving of a road in the woods and a view of a town on a river, both with the legend <hi rend="ital">Fac-simile d’une eau-forte d’Edwin Edwards </hi>(Facsimile of an etching by Edwin Edwards), (t*63 and t*634). <rs type="ill" key="1987">Ill. 1987</rs> and <rs type="ill" key="1988">Ill. 1988</rs>.</ab>
+                </note>
+<note n="34" xml:id="n-34" target="#note-t-34">
+<ab>The magazines mentioned contain other examples of the genres cited by Van Gogh which are sometimes also à la <rs type="pers" key="1451">William Lionel Wyllie</rs>. In <hi rend="ital">Scribner’s Monthly</hi> 20 (1880): a seascape (p. 568), a garden (p. 645) and street scenes (pp. 646-649).</ab>
+                </note>
+<note n="35" xml:id="n-35" target="#note-t-35">
+<ab>The <hi rend="ital">Sixpenny Series</hi>, a series of literary works published by George Routledge of London, began in February 1882 with <rs type="pers" key="581">Daniel Defoe</rs>’s <rs type="lit" key="186">
+                            <hi rend="ital">Robinson Crusoe</hi>
+                        </rs>. In 1882 28 volumes were added to the series; after that it was ended. The books have some 64 to 80 pages on average, which are closely printed, and each volume has between 40 and 300 illustrations. <rs type="pers" key="580">Dickens</rs>’s <rs type="lit" key="107">
+                            <hi rend="ital">Oliver Twist</hi>
+                        </rs> appeared between 1 and 15 June 1882 as number 11, with illustrations by <rs type="pers" key="1184">James Mahoney</rs>.</ab>
+      <ab rend="indent">Van Gogh’s list makes it seem as if the two works by <rs type="pers" key="676">Jerrold</rs> (<hi rend="ital">Curtain lectures</hi> and <hi rend="ital">Story of a feather</hi>) were also included in the ‘Sixpenny Series’, but this was not the case. They were put on the market by Bradbury &amp; Evans in 1882 priced at sixpence. Mrs. Caudle’s curtain lectures appeared between 16 and 28 February and contained 60 illustrations by <rs type="pers" key="1137">Charles Keene</rs> and a portrait by <rs type="pers" key="675">Douglas Jerrold</rs>. <hi rend="ital">Story of a feather</hi> was published between 1 and 15 March and had 70 illustrations by <rs type="pers" key="1197">George du Maurier</rs>. See T<hi rend="ital">he Publishers’ Circular and General Record of British and Foreign Literature</hi>. London 1882 (vol. 44), no. 1074, p. 537, with the addition: ‘Author’s copyright edition’; and nos. 1067-1068, pp. 199, 248; cf. Ch.W. Topp, <hi rend="ital">Victorian yellowbacks &amp; paperbacks 1849-1905</hi>. Denver 1993, vol. 1 ‘George Routledge’, pp. 321, 329.</ab>
+                </note>
+<note n="36" xml:id="n-36" target="#note-t-36">
+<ab>For <rs type="pers" key="1063">Charles Degroux</rs>, <rs type="pers" key="1326">Rops</rs> and <hi rend="ital">Uylenspiegel</hi>, <ref target="let277.xml">see letter 277</ref>.</ab>
+                </note>
+<note n="37" xml:id="n-37" target="#note-t-37">
+<ab>Cf. in this connection the lithographs <hi rend="ital">Sur le pavé</hi> (On the street) (<rs type="ill" key="1989">Ill. 1989</rs>) and <hi rend="ital">Les métiers désagréables</hi> (Unpleasant professions), (<rs type="ill" key="1990">Ill. 1990</rs>) in <hi rend="ital">Uylenspiegel</hi> 2 (8 February 1857), no. 2, p. 6 and <hi rend="ital">Uylenspiegel</hi> 2 (31 May 1857), no. 18, p. 5 (Brussels, Royal Library).</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

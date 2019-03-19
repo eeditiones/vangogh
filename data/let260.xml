@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. The Hague, Sunday, 3 September 1882.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let260"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">260</idno>
+<idno type="collectedletters">228</idno>
+<idno type="brieven1990">261</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>The Hague</vg:placeLet>
+                        <vg:dateLet>Sunday, 3 September 1882</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:physDesc>
+                        <vg:decoration>
+                            <vg:decoList xml:id="sketches">
+                                <vg:decoItem n="A" xml:id="sketch-1">
+                                    <vg:decoDesc>
+<p>
+      <hi rend="ital">View of the beach at Scheveningen</hi> (<rs type="sketch" key="60">F - / JH 227</rs>), enclosed sketch</p>
+                                    </vg:decoDesc>
+                                </vg:decoItem>
+                            </vg:decoList>
+                        </vg:decoration>
+                    </vg:physDesc>
+                    <vg:letContents>
+<p>To Theo van Gogh. The Hague, Sunday, 3 September 1882.</p>
+<note type="ongoingTopic" n="1">
+<p>Van Gogh is recovering from his illness <ref target="let241.xml">(241)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="2">
+<p>Theo’s indisposition <ref target="let258.xml">(258)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. nos. b250 V/1962 (sheet 1) and d315 V/1970 (sheet 2)</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Letter headed: ‘Zondag morgen’. Vincent thanks Theo ‘immediately’ <ref target="#l-3">(l. 3)</ref> for the enclosure. This would have been the allowance at the beginning of the month September. The sentence: ‘Now, if this month a little extra is possible, that would be wonderful’ <ref target="#l-176">(ll. 176-177)</ref> also points to the beginning of the month, another reason for the dating of Sunday, 3 September 1882.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0250" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000306_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000306_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000306_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000306_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000306_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000306_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="VGM001000306_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000306_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000306_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0250" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000306_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000306_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000306_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000306_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000306_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000306_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000306_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000306_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000306_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="d 0315" xml:id="surf-pb-2r">
+            <graphic mimeType="image/tiff" url="VGM001001669_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-2r-5">
+<graphic mimeType="image/tiff" url="VGM001001669_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001669_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001669_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+        <surface n="d 0315 V/1970" xml:id="surf-extra-2v">
+            <graphic mimeType="image/tiff" url="VGM001001669_02.TIF" rend="norend"/>
+            <zone xml:id="zone-extra-1">
+<graphic mimeType="image/tiff" url="VGM001001669_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001669_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001669_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Zondag morgen</ab>
+<vg:whiteline/>
+                <lb n="1*" xml:id="l-1s"/>
+<ab>Waarde Theo,</ab>
+                <lb n="2" xml:id="l-2"/>
+<ab>Zooeven ontvang ik Uw zeer welkomen brief en wil <lb n="3" xml:id="l-3"/>er daar ik toch van daag eens wat rust houd direkt <lb n="4" xml:id="l-4"/>op antwoorden. Ik dank U er wel voor en voor het <lb n="5" xml:id="l-5"/>ingeslotene en voor een &amp; ander wat ge er in zegt.</ab>
+                <lb n="6" xml:id="l-6"/>
+<ab rend="indent">En voor Uw beschrijving van die scene met de werklui te <lb n="7" xml:id="l-7"/>Montmartre die ik zeer interessant vond daar ge <lb n="8" xml:id="l-8"/>er de kleuren bijzegt zoodat ik het zien kan<c type="kk">/</c> wel bedankt er voor<c type="kp">_</c> </ab>
+                <lb n="9" xml:id="l-9"/>
+<ab rend="indent">Ik ben blij dat ge ’t boek over Gavarni leest, ik vond <lb n="10" xml:id="l-10"/>het erg interessant en heb er G. dubbel lief door gekregen<c type="kp">_</c>
+                    <anchor n="1" xml:id="note-o-1"/>
+                </ab>
+                <lb n="11" xml:id="l-11"/>
+<ab rend="indent">Is het dat Parijs mooi is &amp; zijn omstreken<c type="kk">/</c> we hebben <lb n="12" xml:id="l-12"/>toch hier ook geen klagen. Deze week heb ik iets geschilderd <lb n="13" xml:id="l-13"/>dat U geloof ik eenigzins de impressie zou weergeven van <lb n="14" xml:id="l-14"/>Schevening zooals we ’t zagen toen we er zamen wandelden<c type="kp">_</c> <lb n="15" xml:id="l-15"/>Een groote studie van Zand<c type="kk">/</c> zee<c type="kk">/</c> lucht – een groote lucht <lb n="16" xml:id="l-16"/>van fijn grijs &amp; warm wit waar een enkel plekje zacht blaauw door <lb n="17" xml:id="l-17"/>schemert – het zand &amp; de zee licht – zoodat ’t geheel <lb n="18" xml:id="l-18"/>blond wordt<c type="kk">/</c> geanimeerd evenwel door de <lb n="19" xml:id="l-19"/>brutaal en eigenaardig gekleurde figuurtjes en pinken <lb n="20" xml:id="l-20"/>die toonig worden.<anchor n="2" xml:id="note-o-2"/> Het motief van de schets die ik er <lb n="21" xml:id="l-21"/>van maakte is een pink waarvan ’t anker geligt wordt<c type="kp">_</c>
+                    <anchor n="3" xml:id="note-o-3"/> <lb n="22" xml:id="l-22"/>De paarden staan klaar om er voor gespannen te worden <lb n="23" xml:id="l-23"/>en dan de pink in zee te trekken. Ik stuur er U <lb n="24" xml:id="l-24"/>ingesloten een krabbeltje van.<anchor n="4" xml:id="note-o-4"/> Ik heb er veel sjouwerij <lb n="25" xml:id="l-25"/>aan gehad – ik wou dat ik ’t maar op paneel <lb n="26" xml:id="l-26"/>geschilderd had of op doek. Ik heb er in getracht meer <lb n="27" xml:id="l-27"/>kleur te brengen<c type="kk">/</c> nl. diepte<c type="kk">/</c> vastheid van kleur<c type="kp">_</c>
+                </ab>
+                <lb n="28" xml:id="l-28"/>
+<ab rend="indent">Het is wel curieus dat gij &amp; ik dikwijls dezelfde gedachten <lb n="29" xml:id="l-29"/>schijnen te hebben<c type="kp">_</c>– Gisterenavond kwam ik b.v. <lb n="30" xml:id="l-30"/>terug met een studie uit het bosch<anchor n="5" xml:id="note-o-5"/> en juist was ik <lb n="31" xml:id="l-31"/>deze week, vooral toen, zeer verdiept geweest in die <lb n="32" xml:id="l-32"/>kwestie van diepte van kleur<c type="kp">_</c>– En had er met <lb n="33" xml:id="l-33"/>U erg graag eens over gesproken juist naar aanleiding <lb n="34" xml:id="l-34"/>van de studie die ik maakte – en ziedaar<c type="kk">/</c> in Uw <lb n="35" xml:id="l-35"/>brief van heden morgen spreekt ge toevalligerwijs er <lb n="36" xml:id="l-36"/>net over dat ge op Montmartre getroffen waart door de <lb n="37" xml:id="l-37"/>sterk geprononceerde kleuren die toch harmonieus bleven. <lb n="38" xml:id="l-38"/>Ik weet niet of ’t precies ’t zelfde was wat ons trof <lb n="39" xml:id="l-39"/>maar wel dat gij datgene wat mij bijzonder trof zeer <lb n="40" xml:id="l-40"/>zeker ook gevoeld zoudt hebben en waarschijnlijk ook zoo <lb n="41" xml:id="l-41"/>gezien. Ik begin met U een krabbeltje te sturen <lb n="42" xml:id="l-42"/>van ’t motief en zal U zeggen wat de kwestie was.<anchor n="6" xml:id="note-o-6"/>
+                </ab>
+                <lb n="43" xml:id="l-43"/>
+<ab rend="indent">Het bosch wordt al terdeeg herfstachtig – er zijn effekten <lb n="44" xml:id="l-44"/>van kleur die ik niet dan zelden in de Hollandsche sch<hi rend="ss">ijen</hi> geschilderd <lb n="45" xml:id="l-45"/>zie<c type="kp">_</c>–</ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="46" xml:id="l-46"/>
+<ab rend="indent">Ik was gisteren avond bezig aan een ietwat oploopend <lb n="47" xml:id="l-47"/>terrein van boschgrond<c type="kk">/</c> bedekt met vermolmde en dorre <lb n="48" xml:id="l-48"/>beukenblaren<c type="kp">_</c> Die grond was lichter en donkerder <lb n="49" xml:id="l-49"/>roodbruin<c type="kk">/</c> te meer door slagschaduws van boomen <lb n="50" xml:id="l-50"/>die er strepen over wierpen<c type="kk">/</c> flaauwer of krachtiger<c type="kk">/</c> <lb n="51" xml:id="l-51"/>half uitgewischt. De kwestie was, en ik bevond het zeer <lb n="52" xml:id="l-52"/>moeielijk te zijn<c type="kk">/</c> de diepte van kleur te krijgen – de <lb n="53" xml:id="l-53"/>enorme kracht &amp; vastheid van dat terrein en toch <lb n="54" xml:id="l-54"/>bij ’t schilderen merkte ik pas hoe veel licht er nog <lb n="55" xml:id="l-55"/>in die donkerheid zat. Het licht te houden en toch den <lb n="56" xml:id="l-56"/>gloed<c type="kk">/</c> de diepte van die rijke kleur te houden<c type="kk">/</c> <lb n="57" xml:id="l-57"/>want er is geen tapijt denkbaar zoo prachtig als dat diepe <lb n="58" xml:id="l-58"/>bruinrood in den gloed van een door het hout <lb n="59" xml:id="l-59"/>echter getemperde herfstavondzon.</ab>
+                <lb n="60" xml:id="l-60"/>
+<ab rend="indent">Uit dien grond spruiten jonge beukenboomen die licht pakken <lb n="61" xml:id="l-61"/>aan den eenen kant – daar schitterend groen zijn – en <lb n="62" xml:id="l-62"/>de schaduwkant van die stammen<c type="kk">/</c> een warm sterk zwartgroen. <lb n="63" xml:id="l-63"/>Achter die stammetjes<c type="kk">/</c> achter dien bruinrooden grond <lb n="64" xml:id="l-64"/>is een lucht<c type="kk">/</c> heel fijn blaauwgrijs<c type="kk">/</c> warm – bijna niet blaauw – <lb n="65" xml:id="l-65"/>tintelend.– En daartegen is nog een wazigen rand van <lb n="66" xml:id="l-66"/>groenigheid en een netwerk van stammetjes en geelachtige <lb n="67" xml:id="l-67"/>blaren. Eenige figuren van houtzoekers scharrelen <lb n="68" xml:id="l-68"/>daar rond als donkere massas mysterieuse schaduwen<c type="kp">_</c> <lb n="69" xml:id="l-69"/>Een witte muts van een vrouw die bukt om een dorren tak <lb n="70" xml:id="l-70"/>te grijpen spreekt plotseling tegen het diepe roodbruin <lb n="71" xml:id="l-71"/>van den grond. Een rok pakt licht – een slagschaduw <lb n="72" xml:id="l-72"/>valt – een donker silhouet van een kerel verschijnt <lb n="73" xml:id="l-73"/>boven op den houtkant<c type="kp">_</c> Een witte muts<c type="kk">/</c> kap<c type="kk">/</c> <lb n="74" xml:id="l-74"/>schouder<c type="kk">/</c> buste van eene vrouw mouleert zich<anchor n="a" xml:id="note-o-a"/> tegen <lb n="75" xml:id="l-75"/>de lucht. Die figuren – ze zijn groot en vol poezij – <lb n="76" xml:id="l-76"/>doen zich voor in de schemering van den diepen <lb n="77" xml:id="l-77"/>schaduwtoon als enorme terre cuites<anchor n="7" xml:id="note-o-7"/> in wording <lb n="78" xml:id="l-78"/>op een atelier. Ik beschrijf U de natuur – in <lb n="79" xml:id="l-79"/>hoever ik die weergaf in mijne schets weet ik zelf <lb n="80" xml:id="l-80"/>niet – maar wel dat ik getroffen werd door <lb n="81" xml:id="l-81"/>de harmonie van groen<c type="kk">/</c> rood<c type="kk">/</c> zwart<c type="kk">/</c> geel<c type="kk">/</c> blaauw<c type="kk">/</c> <lb n="82" xml:id="l-82"/>bruin<c type="kk">/</c> grijs<c type="kp">_</c>– Het was zeer de Groux achtig<c type="kk">/</c> een <lb n="83" xml:id="l-83"/>effekt als b.v. die schets van le depart du conscrit vroeger op <lb n="84" xml:id="l-84"/>’t Palais Ducal.<anchor n="8" xml:id="note-o-8"/>
+                </ab>
+                <lb n="85" xml:id="l-85"/>
+<ab rend="indent">Om het te schilderen was een sjouwerij<c type="kp">_</c>– Er zit in den <lb n="86" xml:id="l-86"/>grond anderhalve groote tube wit – toch is die grond <lb n="87" xml:id="l-87"/>zeer donker – verder roode<c type="kk">/</c> geele<c type="kk">/</c> bruine oker<c type="kk">/</c> zwart<c type="kk">/</c> <lb n="88" xml:id="l-88"/>terre sienne<c type="kk">/</c> bistre<c type="kk">/</c> en ’t resultaat is een roodbruin <lb n="89" xml:id="l-89"/>doch dat varieert van bistre tot diep wijnrood en tot <lb n="90" xml:id="l-90"/>bleek<c type="kk">/</c> blond rosachtig toe. Er zijn dan nog mossen en een randje 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                    <lb n="91" xml:id="l-91"/>frisch gras dat licht pakt en sterk schittert en erg moeielijk <lb n="92" xml:id="l-92"/>te krijgen is. Ziedaar eindelijk een schets die<c type="kk">/</c> wat <lb n="93" xml:id="l-93"/>er ook van gezegd zou worden<c type="kk">/</c> ik zou volhouden eenige <lb n="94" xml:id="l-94"/>beteekenis te hebben<c type="kk">/</c> iets te zeggen<c type="kp">_</c>
+                </ab>
+                <lb n="95" xml:id="l-95"/>
+<ab rend="indent">Ik heb bij ’t maken gezegd tot mijzelf – laat ik niet weggaan <lb n="96" xml:id="l-96"/>voor er iets herfstavondachtigs in is<c type="kk">/</c> iets mysterieus<c type="kk">/</c> iets <lb n="97" xml:id="l-97"/>waar ernst in zit.</ab>
+                <lb n="98" xml:id="l-98"/>
+<ab rend="indent">Ik moest echter – daar dit effekt niet blijft – snel <lb n="99" xml:id="l-99"/>schilderen<c type="kk">/</c> de figuren zijn in <lb n="100" xml:id="l-100"/>eenige krachtige streken met een stevige kwast <lb n="101" xml:id="l-101"/>er op gezet – in eens. Het trof mij hoe stevig <lb n="102" xml:id="l-102"/>die stammetjes in den grond zaten – ik begon ze <lb n="103" xml:id="l-103"/>met ’t penseel – doch om reden van dien grond <lb n="104" xml:id="l-104"/>die reeds geëmpateerd was – zonk een penseelstreek <lb n="105" xml:id="l-105"/>weg als niets – toen kneep ik wortels en stammen <lb n="106" xml:id="l-106"/>er in uit de tube – en modeleerde die <lb n="107" xml:id="l-107"/>wat met ’t penseel<c type="kp">_</c>– Ja – nu staan ze er in, <lb n="108" xml:id="l-108"/>spruiten er uit – staan er in geworteld <lb n="109" xml:id="l-109"/>met kracht. In zekeren zin ben ik blij dat ik geen <lb n="110" xml:id="l-110"/>schilderen <hi rend="ital">geleerd</hi> heb. Alligt had ik dan <hi rend="sc">geleerd</hi> <lb n="111" xml:id="l-111"/>zulke effekten als dit voorbij te loopen – nu zeg ik<c type="kk">/</c> <lb n="112" xml:id="l-112"/>neen – maar juist dat moet ik hebben – <lb n="113" xml:id="l-113"/>is ’t niet mogelijk dan is ’t niet mogelijk – ik <lb n="114" xml:id="l-114"/>wil ’t beproeven ofschoon ik niet weet hoe het <lb n="115" xml:id="l-115"/>hoort. Hoe ik het schilder <hi rend="ital">weet ik zelf niet</hi>, ik <lb n="116" xml:id="l-116"/>kom met een witte plank<anchor n="9" xml:id="note-o-9"/> voor de plek te zitten <lb n="117" xml:id="l-117"/>die mij treft – ik kijk naar ’tgeen ik voor oogen <lb n="118" xml:id="l-118"/>heb – ik zeg tot me zelf<c type="kk">/</c> die witte plank moet iets <lb n="119" xml:id="l-119"/>worden – ik kom terug<c type="kk">/</c> ontevreden – ik <lb n="120" xml:id="l-120"/>zet het weg en als ik wat uitgerust ben ga ik <lb n="121" xml:id="l-121"/>er met een soort angst naar kijken – dan <lb n="122" xml:id="l-122"/>blijf ik nog ontevreden – omdat ik <lb n="123" xml:id="l-123"/>die prachtige natuur te veel in den geest heb dan <lb n="124" xml:id="l-124"/>dat ik er over tevreden zou zijn – maar toch<c type="kk">/</c> <lb n="125" xml:id="l-125"/>ik zie in mijn werk een terugklank van ’tgeen <lb n="126" xml:id="l-126"/>mij trof<c type="kk">/</c> ik zie dat de natuur mij iets verteld <lb n="127" xml:id="l-127"/>heeft, tot mij gesproken heeft en dat ik in snelschrift <lb n="128" xml:id="l-128"/>dat heb opgeschreven. In mijn snelschrift mogen <lb n="129" xml:id="l-129"/>woorden zijn die niet te ontcijferen zijn – fouten <lb n="130" xml:id="l-130"/>of leemtes – toch is er iets over van ’t geen het bosch <lb n="131" xml:id="l-131"/>of strand of figuur zeiden – en is het niet een <lb n="132" xml:id="l-132"/>tamme of conventioneele taal<c type="kk">/</c> die niet uit de <lb n="133" xml:id="l-133"/>natuur zelf voortkwam maar uit een geleerde manier van <lb n="134" xml:id="l-134"/>doen of een systeem.</ab>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                <lb n="135" xml:id="l-135"/>
+<ab rend="indent">Hierbij ook nog een krabbeltje uit de duinen.<anchor n="10" xml:id="note-o-10"/> Er <lb n="136" xml:id="l-136"/>stonden daar van die kleine struiken waarvan <lb n="137" xml:id="l-137"/>de blaren aan den eenen kant wit<c type="kk">/</c> aan den anderen <lb n="138" xml:id="l-138"/>kant donker groen zijn &amp; die altijd bewegen &amp; schitteren<c type="kp">_</c> <lb n="139" xml:id="l-139"/>Daarachter donker hout<c type="kp">_</c>
+                </ab>
+                <lb n="140" xml:id="l-140"/>
+<ab rend="indent">Gij ziet<c type="kk">/</c> ik verdiep mij met alle kracht in ’t schilderen – ik <lb n="141" xml:id="l-141"/>verdiep mij in de kleur – ik heb mij daarvan onthouden tot <lb n="142" xml:id="l-142"/>nu toe &amp; heb daar geen spijt van. Had ik niet geteekend <lb n="143" xml:id="l-143"/>zoo zou ik een figuur dat zich voordoet als een onafgewerkt <lb n="144" xml:id="l-144"/>terre cuite niet voelen &amp; niet aangrijpen. Maar nu<c type="kk">/</c> <lb n="145" xml:id="l-145"/>ik voel me in volle zee – het schilderen moet vooruit <lb n="146" xml:id="l-146"/>met alle kracht die we kunnen bijzetten.</ab>
+                <lb n="147" xml:id="l-147"/>
+<ab rend="indent">Als ik op paneel of op doek ga werken vermeerderen <lb n="148" xml:id="l-148"/>de kosten al weer – het is alles zoo duur – de verf <lb n="149" xml:id="l-149"/>is ook duur en is zoo spoedig op – enfin dat zijn <lb n="150" xml:id="l-150"/>bezwaren die alle schilders hebben – we moeten zien <lb n="151" xml:id="l-151"/>wat mogelijk is. Ik weet zeker dat ik gevoel voor kleur heb <lb n="152" xml:id="l-152"/>en meer &amp; meer krijgen zal<c type="kk">/</c> dat het schilderen mij in merg <lb n="153" xml:id="l-153"/>en been zit. Dubbel &amp; dubbel stel ik het op prijs dat gij mij <lb n="154" xml:id="l-154"/>zoo trouw en krachtig helpt. Ik denk zoo veel aan U – ik <lb n="155" xml:id="l-155"/>wou zoo graag dat mijn werk flink<c type="kk">/</c> ernstig<c type="kk">/</c> mannelijk werd <lb n="156" xml:id="l-156"/>en gij er ook pleizier van krijgen zult zoo spoedig mogelijk.</ab>
+                <lb n="157" xml:id="l-157"/>
+<ab rend="indent">Een ding wil ik onder Uw aandacht brengen als van belang. <lb n="158" xml:id="l-158"/>Zou ’t niet mogelijk zijn verf<c type="kk">/</c> paneelen<c type="kk">/</c> penseelen &amp;c<c type="kp">_</c> <lb n="159" xml:id="l-159"/>tegen den <hi rend="ital">netto</hi> prijs te krijgen<c type="kp">_</c>– Ik moet nu den <lb n="160" xml:id="l-160"/>
+                    <hi rend="ital">particulieren</hi> prijs geven. Zijt gij in relatie met Paillard <lb n="161" xml:id="l-161"/>of zoo iemand<c type="kp">_</c>– Indien ja<c type="kk">/</c> zoo zou het dunkt mij aanmerkelijk <lb n="162" xml:id="l-162"/>voordeeliger uitkomen de verf b.v. meer in ’t groot op te <lb n="163" xml:id="l-163"/>doen<c type="kk">/</c> wit<c type="kk">/</c> oker<c type="kk">/</c> terre sienne b.v.<c type="kk">/</c> en wij konden dan <lb n="164" xml:id="l-164"/>het schikken met het geld<c type="kp">_</c>– Het zou natuurlijk goedkooper <lb n="165" xml:id="l-165"/>zijn. Als ge wilt denk er eens over na. Het is niet <lb n="166" xml:id="l-166"/>in veel verf gebruiken gelegen dat men goed schildert – maar <lb n="167" xml:id="l-167"/>om een grond goed krachtig te maken – om een lucht blank <lb n="168" xml:id="l-168"/>te krijgen moet men soms niet op een tube zien.</ab>
+                <lb n="169" xml:id="l-169"/>
+<ab rend="indent">Soms brengt ’t motief mee dat men dun schildert<c type="kk">/</c> soms geeft <lb n="170" xml:id="l-170"/>de stof<c type="kk">/</c> de natuur der dingen van zelf aan dat zij geëmpateerd <lb n="171" xml:id="l-171"/>moeten worden. Bij Mauve – die toch in vergelijking van J. Maris – <lb n="172" xml:id="l-172"/>en nog meer in vergelijking van Millet of Jules Dupré – zeer sober <lb n="173" xml:id="l-173"/>schildert, staan toch in hoeken van ’t atelier sigarenkistjes met de <lb n="174" xml:id="l-174"/>overblijfsels van tubes die even talrijk zijn als de leege <lb n="175" xml:id="l-175"/>flesschen in de hoeken van de kamers op een soirée of maaltijd <lb n="176" xml:id="l-176"/>zooals b.v. Zola ze beschrijft.<anchor n="11" xml:id="note-o-11"/> Nu, is het dat er deze maand een <lb n="177" xml:id="l-177"/>extratje zijn kan<c type="kk">/</c> is dat heerlijk. Kan het niet dan kan het niet. <lb n="178" xml:id="l-178"/>Ik zal werken wat ik kan. Ge vraagt naar mijn gezondheid – maar hoe is <lb n="179" xml:id="l-179"/>het met de Uwe – ik zou gelooven dat mijn remedie de Uwe ook was. Buiten <lb n="180" xml:id="l-180"/>zijn – schilderen.– ’t Gaat mij goed – bij vermoeijenis blijf ik last hebben <lb n="181" xml:id="l-181"/>doch ’t wordt eer beter dan erger. Ik geloof dat het ook goed werkt dat ik <lb n="182" xml:id="l-182"/>zoo sober mogelijk leef – maar vooral het schilderen is mijn remedie<c type="kp">_</c> <lb n="183" xml:id="l-183"/>Ik hoop zoo van harte dat gij wat geluk hebt en nog veel meer vinden zult<c type="kp">_</c>
+                </ab>
+                <lb n="184" xml:id="l-184"/>
+<ab rend="indent">Ontvang een handdruk in gedachten en geloof me</ab>
+<vg:whiteline/>
+                <lb n="184*" xml:id="l-184s"/>
+<ab>t. à. t.</ab>
+                <lb n="185" xml:id="l-185"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+                <lb n="186" xml:id="l-186"/>
+<ab>Ge ziet<c type="kk">/</c> in ’t krabbeltje van de marine is een blond<c type="kk">/</c> zacht effekt. <lb n="187" xml:id="l-187"/>en in het bosch een meer sombere<c type="kk">/</c> ernstige stemming. Ik ben blij die beiden bestaan in ’t leven<c type="kp">_</c>
+                </ab>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/> <figure facs="zone-sketch-1" n="A"/>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-36" n="36">dat ge &lt; dat</note>
+<note target="l-61" n="61">zijn – &lt; zijn</note>
+<note target="l-75" n="75">– ze &lt; ze</note>
+<note target="l-90" n="90">rosachtig &lt; rosachig</note>
+<note target="l-92" n="92">die<c type="kk">/</c> &lt; waar</note>
+<note target="l-103" n="103">reden &lt; rede</note>
+<note target="l-104" n="104">geëmpateerd &lt; geempateerd</note>
+<note target="l-108" n="108">spruiten &lt; Spruiten</note>
+<note target="l-141" n="141">daarvan &lt; daavan</note>
+<note target="l-170" n="170">geëmpateerd &lt; geempateerd</note>
+<note target="l-180" n="180">schilderen.– &lt; schilderen–.</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>Sunday morning</ab>
+<vg:whiteline/>
+<ab>My dear Theo,</ab>
+<ab>I’ve just received your very welcome letter and want to reply immediately, since today I’m having a bit of a rest anyway. I thank you for it, and for the enclosure and for one or two things you say in it. </ab>
+<ab rend="indent">And for your description of the scene with the workmen in Montmartre, which I found most interesting, because you give the colours as well so that I can see it — many thanks. </ab>
+<ab rend="indent">I’m glad you’re reading the book about <rs type="pers" key="1043">Gavarni</rs>. I thought it very interesting, and have become doubly attached to <rs type="pers" key="617 618">G.</rs> because of it.<anchor n="1" xml:id="note-t-1"/>
+                </ab>
+<ab rend="indent">Paris and its surroundings may be beautiful, but we can’t complain here either. This week I painted something which I believe may give some idea of the impression of Scheveningen as we saw it when we walked there together. A large study of sand, sea, sky — a big sky of delicate grey and warm white through which an occasional spot of soft blue shines — the sand and the sea light — so that the whole becomes blond, though enlivened by the bold and distinctively coloured figures and pinks, which take on tone.<anchor n="2" xml:id="note-t-2"/> The subject of the sketch I made of it is a pink weighing anchor.<anchor n="3" xml:id="note-t-3"/> The horses stand ready to be hitched to the pink before pulling it into the sea. I enclose a scratch of it.<anchor n="4" xml:id="note-t-4"/> I really laboured over it — I wish I’d painted it on panel or canvas. I tried to get more colour into it, namely depth, firmness of colour.</ab>
+<ab rend="indent">It certainly is curious how you and I often seem to have the same thoughts. Yesterday evening, for example, I came back with a study of the woods,<anchor n="5" xml:id="note-t-5"/> and this week in particular, especially then, I was very absorbed in the question of depth of colour. And would have liked to discuss it with you, particularly in connection with the study I had made — and lo and behold, in your letter of this morning you happen to remark on how you were struck in Montmartre by the very pronounced colours, which nonetheless remained harmonious. I don’t know if it was exactly the same thing that struck us, but I’m absolutely sure you would also have felt what particularly struck me and probably seen it in the same way. I’ll begin by sending you a scratch of the subject and telling you what the problem was.<anchor n="6" xml:id="note-t-6"/>
+                </ab>
+<ab rend="indent">The woods are already getting really autumnal — there are colour effects which I only rarely see depicted in Dutch paintings. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> </ab>
+<ab rend="indent">Yesterday evening I was occupied with an area of woodland with a slight upward slope covered in rotting and dead beech leaves. The ground was lighter and darker red-brown, all the more so because of the cast shadows of trees that threw bands across, weaker or stronger, half blotted out. The problem, and I found it to be most difficult, was to get the depth of colour — the enormous strength and fixity of that area — and yet it was only while painting that I noticed how much light there still was in that darkness. To keep it light and yet keep the glow, the depth of that rich colour, for there’s no carpet imaginable as splendid as that deep brown-red in the glow of an autumnal evening sun, although tempered by the wood. </ab>
+<ab rend="indent">Out of the ground shoot young beech trees that catch the light on one side — are brilliantly green there — and the shaded side of those trunks a warm, strong black-green. Beyond these trunks, beyond the brown-red ground, is a sky, a very delicate blue-grey, warm — almost not blue — sparkling. And set against this is another hazy edge of greenness and a network of slender trunks and yellowish leaves. A few figures gathering wood move about like dark masses of mysterious shadows. The white cap of a woman who bends over to pick up a dry branch suddenly stands out against the deep red-brown of the ground. A skirt catches the light — a cast shadow falls — a dark silhouette of a fellow appears on top of the undergrowth against the brushwood fence. A white cap, bonnet, shoulder, bust of a woman set off against the sky. These figures — they’re large and full of poetry — appear in the half-light of the deep shadow tone like huge terracottas<anchor n="7" xml:id="note-t-7"/> being made in a studio. I’m describing nature to you — to what extent I conveyed it in my sketch I’m not sure myself — but I do know that I was struck by the harmony of green, red, black, yellow, blue, brown, grey. It was very <rs type="pers" key="1063">Degroux</rs>-like, an effect similar, for example, to that sketch of the conscript’s departure formerly in the Palais Ducal.<anchor n="8" xml:id="note-t-8"/>
+                </ab>
+<ab rend="indent">Painting it was hard graft. There are one and a half large tubes of white in the ground — yet that ground is very dark — in addition red, yellow, brown ochre, black, terra sienna, bistre, and the result is a red-brown that varies from bistre to deep wine-red and to pale, blond reddish. Then there are also mosses and an edge 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> of fresh grass that catches the light and sparkles brightly and is very difficult to get. There at last you have a sketch which — whatever may be said about it — I maintain has some meaning, says something. </ab>
+<ab rend="indent">While making it I said to myself: let me not leave before there’s something of an autumn evening in it, something mysterious, something with seriousness in it. </ab>
+<ab rend="indent">However, because this effect doesn’t last, I had to paint quickly. The figures were done with a few vigorous strokes with a firm brush — in one go. I was struck by how firmly the slender trunks stood in the ground — I began them using a brush, but because of the ground, which was already impasted, one brushstroke simply disappeared. Then I squeezed roots and trunks into it from the tube, and modelled them a little with the brush. Yes, now they stand in it — shoot up out of it — stand firmly rooted in it. In a sense I’m glad that I’ve never <hi rend="ital">learned</hi> how to paint. Probably then I would have <hi rend="sc">learned</hi> to ignore effects like this. Now I say, no, that’s exactly what I want — if it’s not possible then it’s not possible — I want to try it even though I don’t know how it’s supposed to be done. <hi rend="ital">I don’t know myself </hi>how I paint. I sit with a white board<anchor n="9" xml:id="note-t-9"/> before the spot that strikes me — I look at what’s before my eyes — I say to myself, this white board must become something — I come back, dissatisfied — I put it aside, and after I’ve rested a little, feeling a kind of fear, I take a look at it — then I’m still dissatisfied — because I have that marvellous nature too much in mind for me to be satisfied — but still, I see in my work an echo of what struck me, I see that nature has told me something, has spoken to me and that I’ve written it down in shorthand. In my shorthand there may be words that are indecipherable — errors or gaps — yet something remains of what the wood or the beach or the figure said — and it isn’t a tame or conventional language which doesn’t stem from nature itself but from a studied manner or a system. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> </ab>
+<ab rend="indent">Herewith also a scratch from the dunes.<anchor n="10" xml:id="note-t-10"/> Standing there were small bushes whose leaves are white on one side and dark green on the other, and which constantly move and sparkle. Behind them dark wood. </ab>
+<ab rend="indent">As you see, I’m immersing myself in painting with all my strength — I’m immersing myself in colour — I’ve held back from that until now, and don’t regret it. If I hadn’t drawn I would never have felt or tackled a figure that looks like an unfinished terracotta. But now, I feel I’m on the high seas — painting must proceed with all the strength that we can muster. </ab>
+<ab rend="indent">If I work on panel or canvas, the costs go up again — everything is so expensive — paint is expensive too, and is used up so quickly. Well, these are drawbacks that all painters face — we must see what’s possible. I know for sure that I have a feeling for colour that will develop more and more, that painting is in my very marrow. I appreciate it enormously that you support me so loyally and strongly. I think of you so often — I would so much like my work to be substantial, serious, manly, and for it to give you pleasure as soon as possible. </ab>
+<ab rend="indent">I want to bring one thing to your attention as important. Wouldn’t it be possible to get paint, panels, brushes, &amp;c. for the <hi rend="ital">net</hi> price? At present I have to pay the <hi rend="ital">retail</hi> price. Are you in touch with <rs type="pers" key="1581">Paillard</rs> or someone like that? If so, it seems to me it would work out considerably cheaper to buy paint, for example, in larger quantities, such as white, ochre, terra sienna, and we could come to an arrangement as to the money. It would of course be cheaper. Think about it, if you will. Good painting doesn’t consist in using a great deal of paint, but to give a ground true strength, to make a sky bright, sometimes one mustn’t worry about a tube more or less. </ab>
+<ab rend="indent">Sometimes the subject requires that one paints thinly, sometimes the material, the nature of the things, makes it self-evident that they must be impasted. At <rs type="pers" key="323">Mauve</rs>’s — who paints very soberly in comparison with <rs type="pers" key="1203">J. Maris</rs>, and even more so in comparison with <rs type="pers" key="1226">Millet</rs> or <rs type="pers" key="986">Jules Dupré</rs> — in the corners of the studio there are nevertheless cigar boxes with the remains of tubes as numerous as the empty bottles in the corners of rooms at a soirée or meal such as <rs type="pers" key="836">Zola</rs> describes, for example.<anchor n="11" xml:id="note-t-11"/> Now, if this month a little extra is possible, that would be wonderful. If not, then not. I’ll work as far as I can. You enquire after my health, but how’s yours? I believe that my remedy could also be yours. Being outdoors, painting. I’m well. I’m still troubled when I’m tired, but it’s getting better rather than worse. I believe that it’s also beneficial that I live as frugally as possible, but painting is my chief remedy. I hope with all my heart that you have some happiness and will find much more.</ab>
+<ab rend="indent">Accept a handshake in thought, and believe me</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<ab>As you see, in the scratch of the seascape there’s a blond, soft effect, and in the woods a more sombre, serious mood. I’m glad that both of these exist in life.</ab>
+<vg:whiteline/>
+<ab>
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/>
+                </ab>
+<ab>
+                    <figure facs="zone-sketch-1" n="A"/>
+                </ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>
+                        <rs type="pers" key="617 618">Edmond and Jules de Goncourt</rs>, <rs type="lit" key="224">
+                            <hi rend="ital">Gavarni, l’homme et l’oeuvre</hi>
+                        </rs>. Van Gogh read the book in October 1881: <ref target="let174.xml">see letter 174</ref>.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>This large study of the Scheveningen beach (later Van Gogh refers to a ‘seascape’), is not known.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>This sketch of a pink is not known.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>
+      <hi rend="ital">View of the beach at Scheveningen</hi> (<rs type="sketch" key="60">F - / JH 227</rs>).</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>It is not clear which painting of the woods this refers to. In <ref target="let261.xml">letter 261</ref> Vincent also sends Theo ‘a few scratches of studies’ he had done that week, including <hi rend="ital">A girl in a wood</hi> (<rs type="sketch" key="61">F - / JH 183</rs>), after <rs type="ill" key="2387">F 8 / JH 182</rs>. For other views of woods from this period, cf. <hi rend="ital">A girl in a wood</hi> (<rs type="otherart" key="247">F 8a / JH 180</rs>), <hi rend="ital">Two women in a wood</hi> (<rs type="otherart" key="333">F 1665 / JH 181</rs>) and <hi rend="ital">Edge of a wood</hi> (<rs type="otherart" key="340">F 192 / JH 184</rs>).</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>The enclosed ‘scratch’ after the study of the woods is not known. </ab>
+                </note>
+<note n="a" xml:id="n-a" target="#note-o-a">
+<ab>Means: ‘tekent zich af’ (stands out).</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>Objects of terracotta, brownish red earthenware.</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>For this unfinished painting, see <rs type="ill" key="138">
+                            <hi rend="ital">The conscript’s departure</hi>
+                        </rs> by <rs type="pers" key="1063">Charles Degroux</rs>: <ref target="let164.xml#n-5">letter 164, n. 5.</ref>
+                    </ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+   <ab>Earlier by ‘board’ (or ‘plank’) Van Gogh always meant a drawing board (<ref target="let202.xml">letters 202</ref>, <ref target="let216.xml">216</ref> and <ref target="let245.xml">245</ref>); here he means <hi rend="ital">painting paper</hi> that was pinned to a board. Later in the letter he talks about panel and canvas as supports he is <hi rend="ital">not</hi> yet using because they are too expensive. (Later in the correspondence there are two cases where the term ‘board’ refers to a panel: <ref target="let321.xml">letters 321</ref> and <ref target="let534.xml">534</ref>.)</ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>This scratch from the dunes is not known. </ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>In chapter 7 of <rs type="pers" key="836">Zola</rs>’s <rs type="lit" key="255">
+                            <hi rend="ital">L’assommoir</hi>
+                        </rs> (1877) there is the following description of the birthday party of Gervaise Macquart, the leading character: ‘Wine ... was running round about the table the way the water flows down to the Seine ... In a corner of the shop, the heap of dead soldiers grew larger, a graveyard of bottles on top of which the litter lying on the tablecloth was flung’. (Le vin ... coulait autour de la table comme l’eau coule à la Seine ... Dans un coin de la boutique, le tas des négresses mortes grandissait, un cimetière de bouteilles sur lequel on poussait les ordures de la nappe). See Zola 1960-1967, vol. 2, p. 579. This similarity seems to suggest that Van Gogh had read the book; the allusion in <ref target="let338.xml">letter 338</ref> also indicates that it had been read in the past. For the novel, <ref target="let338.xml#n-12">see letter 338, n. 12,</ref> and cf. also Sund 1992, p. 270 (n. 8).</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. The Hague, Monday, 11 September 1882.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let262"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">262</idno>
+<idno type="collectedletters">230</idno>
+<idno type="brieven1990">263</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>The Hague</vg:placeLet>
+                        <vg:dateLet>Monday, 11 September 1882</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:physDesc>
+                        <vg:decoration>
+                            <vg:decoList xml:id="sketches">
+                                <vg:decoItem n="a" xml:id="sketch-1">
+                                    <vg:decoDesc>
+<p>
+      <hi rend="ital">Four people on a bench</hi> (<rs type="sketch" key="63">F - / JH 195</rs>), enclosed watercolour </p>
+                                    </vg:decoDesc>
+                                </vg:decoItem>
+                                <vg:decoItem n="b" xml:id="sketch-2">
+                                    <vg:decoDesc>
+<p>
+      <hi rend="ital">Three people on a bench</hi> (<rs type="sketch" key="64">F 1039 / JH 196</rs>), enclosed watercolour (private collection)</p>
+                                    </vg:decoDesc>
+                                </vg:decoItem>
+                            </vg:decoList>
+                        </vg:decoration>
+                    </vg:physDesc>
+                    <vg:letContents>
+<p>To Theo van Gogh. The Hague, Monday, 11 September 1882.</p>
+<note type="ongoingTopic" n="1">
+<p>Theo’s visit early in August <ref target="let253.xml">(253)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="2">
+<p>Theo’s description of Montmartre <ref target="let260.xml">(260)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+      <p>Amsterdam, Van Gogh Museum, inv. nos. b252 V/1962, d321 V/1972, private collection, auction Monte Carlo, 18 July 2012</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Van Gogh writes: ‘Today I’ll go to the ordinary Monday market again’ <ref target="#l-90">(ll. 90-91)</ref>. He thanks Theo for sending the 50 francs and expects to be short of money again by 20 September because of the paint he wants to buy <ref target="#l-77">(l. 77)</ref>. The letter dates from after <ref target="let261.xml">letter 261</ref> of 9 September, because in the present letter he says he talked about the potato market in his last letter <ref target="#l-34">(ll. 34-35)</ref>. This means that <ref target="let262.xml">letter 262</ref> dates from Monday, 11 September 1882. </p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0252" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000309_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000309_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000309_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000309_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000309_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000309_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="VGM001000309_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000309_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000309_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0252" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000309_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000309_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000309_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000309_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000309_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000309_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000309_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000309_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000309_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+      <surface n="d 0321 V/1972" xml:id="surf-extra-2r">
+            <graphic mimeType="image/tiff" url="VGM001001675_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-2r-5">
+<graphic mimeType="image/tiff" url="VGM001001675_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001675_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001675_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+      <surface n="brief van elders" xml:id="surf-extra-3r">
+            <graphic mimeType="image/tiff" url="" rend="norend"/>
+            <zone xml:id="zone-pb-3r-6">
+<graphic mimeType="image/tiff" url="262_3r" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="262_3rt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="262_3rf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Waarde Theo,</ab>
+                <lb n="2" xml:id="l-2"/>
+<ab>Zooeven ontvang ik Uw schrijven &amp; ingesl. <lb n="3" xml:id="l-3"/>frs. 50 waarvoor hartelijk dank.</ab>
+                <lb n="4" xml:id="l-4"/>
+<ab rend="indent">Ingesloten twee kleine aquarellen.<anchor n="1" xml:id="note-o-1"/> <lb n="5" xml:id="l-5"/>Zooals ge weet spraakt ge er over bij gelegenheid <lb n="6" xml:id="l-6"/>van Uw hierzijn dat ik eens mijn best moest <lb n="7" xml:id="l-7"/>doen om U een teekeningetje te sturen <lb n="8" xml:id="l-8"/>van het genre dat men “het verkoopbare” <lb n="9" xml:id="l-9"/>noemt. Evenwel ge moet me niet kwalijk <lb n="10" xml:id="l-10"/>nemen dat ik voor mij niet precies weet wanneer <lb n="11" xml:id="l-11"/>een teekening <hi rend="ital">wel</hi> en wanneer <hi rend="ital">niet</hi> tot dit <lb n="12" xml:id="l-12"/>genre mag worden gerekend. Vroeger geloof ik <lb n="13" xml:id="l-13"/>kon ik het zien<c type="kk">/</c> nu werkelijk merk ik dagelijks <lb n="14" xml:id="l-14"/>dat ik mij vergis.</ab>
+                <lb n="15" xml:id="l-15"/>
+<ab rend="indent">Enfin – ik hoop dat het kleine bankje<c type="kk">/</c> <lb n="16" xml:id="l-16"/>indien ook nog niet verkoopbaar<c type="kk">/</c> U <lb n="17" xml:id="l-17"/>toch zal doen zien dat ik er niets op tegen <lb n="18" xml:id="l-18"/>heb eens motieven aan te grijpen die iets <lb n="19" xml:id="l-19"/>aardigs of gezelligs hebben, en als zoodanig <lb n="20" xml:id="l-20"/>ligt<anchor n="a" xml:id="note-o-a"/> eerder liefhebbers vinden dan dingen <lb n="21" xml:id="l-21"/>in een meer somber sentiment.</ab>
+                <lb n="22" xml:id="l-22"/>
+<ab rend="indent">Ik voeg bij het kleine bankje een ander als <lb n="23" xml:id="l-23"/>pendant; ook een brokje bosch<c type="kp">_</c>
+                </ab>
+                <lb n="24" xml:id="l-24"/>
+<ab rend="indent">Ik heb het bankje getekend naar eene grootere <lb n="25" xml:id="l-25"/>aquarel die onder handen is<c type="kk">/</c> waarin dieper <lb n="26" xml:id="l-26"/>toonen zijn doch waarvan ik niet weet of <lb n="27" xml:id="l-27"/>de uitvoering of voltooijing mij lukken zal, <lb n="28" xml:id="l-28"/>het andere naar eene geschilderde studie.<anchor n="2" xml:id="note-o-2"/>
+                </ab>
+                <lb n="29" xml:id="l-29"/>
+<ab rend="indent">Ik wilde nu wel gaarne eens van U vernemen <lb n="30" xml:id="l-30"/>of dit teekeningetje min of meer in den geest is van ’t geen <lb n="31" xml:id="l-31"/>we bespraken Uws inziens. Ik stuur het U omdat ik <lb n="32" xml:id="l-32"/>niet zou willen gij meendet ik er niet om dacht – maar <lb n="33" xml:id="l-33"/>later hoop ik U nog wel wat beters te zenden.</ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="34" xml:id="l-34"/>
+<ab rend="indent">Ge weet dat ik U in mijn laatsten brief schreef <lb n="35" xml:id="l-35"/>dat ik naar die bewuste aardappelmarkt ging. <lb n="36" xml:id="l-36"/>Ik heb toen veel croquis meegebragt,<anchor n="3" xml:id="note-o-3"/> het was <lb n="37" xml:id="l-37"/>buitengewoon aardig – als een staaltje echter <lb n="38" xml:id="l-38"/>van de beleefdheid van het Haagsche publiek <lb n="39" xml:id="l-39"/>jegens de schilders kan dienen dat onverwacht een <lb n="40" xml:id="l-40"/>kerel achter mij<c type="kk">/</c> of uit een raam waarschijnlijk<c type="kk">/</c> een pruim tabak op mijn papier <lb n="41" xml:id="l-41"/>spoog – men heeft soms wel veel last.</ab>
+                <lb n="42" xml:id="l-42"/>
+<ab rend="indent">Enfin – men hoeft het zich niet aan te trekken <lb n="43" xml:id="l-43"/>want die lui zijn toch niet kwaad maar <lb n="44" xml:id="l-44"/>zij begrijpen er niets van en denken dat iemand <lb n="45" xml:id="l-45"/>als ik gek is waarschijnlijk, als zij me een <lb n="46" xml:id="l-46"/>teekening zien maken met groote krassen &amp; strepen <lb n="47" xml:id="l-47"/>waar ze niet wijs uit kunnen worden.</ab>
+                <lb n="48" xml:id="l-48"/>
+<ab rend="indent">Ik ben ook druk bezig in den laatsten tijd <lb n="49" xml:id="l-49"/>om op straat paarden te teekenen<anchor n="4" xml:id="note-o-4"/> – ik zal <lb n="50" xml:id="l-50"/>graag eens een paard te poseeren hebben <lb n="51" xml:id="l-51"/>bij gelegenheid. Zoo hoorde ik gisteren achter mij <lb n="52" xml:id="l-52"/>zeggen – nou dat s’me ook een schilder<c type="kk">/</c> hij <lb n="53" xml:id="l-53"/>teekent het paard zijn kond in plaats van <lb n="54" xml:id="l-54"/>hem van voren te maken. Die observatie vond <lb n="55" xml:id="l-55"/>ik nog al leuk.</ab>
+                <lb n="56" xml:id="l-56"/>
+<ab rend="indent">Ik doe het zoo graag<c type="kk">/</c> dat schetsen maken op straat <lb n="57" xml:id="l-57"/>en zoo als ik reeds in <lb n="58" xml:id="l-58"/>mijn vorigen brief schreef<c type="kk">/</c> ik wil ’t bepaald daarin <lb n="59" xml:id="l-59"/>tot een zekere hoogte brengen.</ab>
+                <lb n="60" xml:id="l-60"/>
+<ab rend="indent">Kent gij een amerikaansch tijdschrift dat heet Harper’s Monthly <lb n="61" xml:id="l-61"/>Magazine – daar staan schetsjes in die <lb n="62" xml:id="l-62"/>fameus zijn – ik zelf ken het maar weinig<c type="kk">/</c> ik <lb n="63" xml:id="l-63"/>ken er slechts een half jaar van en heb zelf maar 3 afleveringen <lb n="64" xml:id="l-64"/>maar daar zijn dingen in waar ik verstomd van sta. <lb n="65" xml:id="l-65"/>Onder anderen een glasblazerij en ijzergieterij<c type="kk">/</c> allerlei <lb n="66" xml:id="l-66"/>scenes van het fabriekswerk.<anchor n="5" xml:id="note-o-5"/>
+                </ab>
+                <lb n="67" xml:id="l-67"/>
+<ab rend="indent">En verder schetsen uit een kwakerstad in den ouden tijd door Howard <lb n="68" xml:id="l-68"/>Pyle<c type="kp">_</c>
+                    <anchor n="6" xml:id="note-o-6"/>
+                </ab>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                <lb n="69" xml:id="l-69"/>
+<ab rend="indent">Ik ben vol van nieuw pleizier in de dingen <lb n="70" xml:id="l-70"/>om reden ik nieuwe hoop heb om ook <lb n="71" xml:id="l-71"/>zelf wat te maken waar eenige ziel <lb n="72" xml:id="l-72"/>in zit.</ab>
+                <lb n="73" xml:id="l-73"/>
+<ab rend="indent">Hetgeen ge schrijft over ’t geld dat gij <lb n="74" xml:id="l-74"/>geleend hebt &amp; niet terug ontvangen<c type="kk">/</c> is <lb n="75" xml:id="l-75"/>wel een ramp. Ik moet van dit nog <lb n="76" xml:id="l-76"/>verf betalen &amp; nog weer nieuwe koopen <lb n="77" xml:id="l-77"/>dus tegen 20 Sept<c type="kp">_</c> zal ik zeker à court <lb n="78" xml:id="l-78"/>zijn. Maar ik zal het werk wel <lb n="79" xml:id="l-79"/>wat varieeren en zien rond te scharrelen<c type="kp">_</c> <lb n="80" xml:id="l-80"/>Weet echter dat een extratje al ligt <lb n="81" xml:id="l-81"/>mij ook weer een extratje vooruit zal <lb n="82" xml:id="l-82"/>brengen – voorspoediger dan anders. <lb n="83" xml:id="l-83"/>Er is veel noodig en alle dingen zijn duur. <lb n="84" xml:id="l-84"/>Maar in elk geval<c type="kk">/</c> dubbel en dwars <lb n="85" xml:id="l-85"/>ben ik U dankbaar en voel ik mij <lb n="86" xml:id="l-86"/>gelukkig boven velen dat het is zoo als <lb n="87" xml:id="l-87"/>het is met het geld en dat ik mijn best doe <lb n="88" xml:id="l-88"/>om te zorgen ik er mee vooruitga<c type="kk">/</c> <lb n="89" xml:id="l-89"/>dat verzeker ik U.</ab>
+                <lb n="90" xml:id="l-90"/>
+<ab rend="indent">Ik ga heden nog eens naar de gewone <lb n="91" xml:id="l-91"/>Maandagsche markt tegen dat ze aan <lb n="92" xml:id="l-92"/>’t afbreken gaan van de kramen om te zien <lb n="93" xml:id="l-93"/>iets te schetsen.</ab>
+                <lb n="94" xml:id="l-94"/>
+<ab rend="indent">à dieu, heb voorspoed in alle dingen<c type="kp">_</c> Schrijf <lb n="95" xml:id="l-95"/>maar weer spoedig en weet dat ge mij <lb n="96" xml:id="l-96"/>altijd groot pleizier doet met zoo’n beschrijving <lb n="97" xml:id="l-97"/>als van Montmartre<c type="kp">_</c>
+                </ab>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                <lb n="98" xml:id="l-98"/>
+<ab rend="indent">Ik zit zoo in de verf dat er zelfs <lb n="99" xml:id="l-99"/>verf op dezen brief komt<anchor n="7" xml:id="note-o-7"/> – ik ben <lb n="100" xml:id="l-100"/>aan de groote aquarel van de bank bezig<c type="kp">_</c> <lb n="101" xml:id="l-101"/>Ik wou wel dat ze teregt kwam <lb n="102" xml:id="l-102"/>maar ’t is de groote kwestie bij diepte <lb n="103" xml:id="l-103"/>van toon teekening te houden<c type="kk">/</c> en <lb n="104" xml:id="l-104"/>duidelijkheid is enorm moeielijk. <lb n="105" xml:id="l-105"/>nogmaals à dieu<c type="kk">/</c> een handdruk <lb n="106" xml:id="l-106"/>in gedachten &amp; geloof me</ab>
+<vg:whiteline/>
+                <lb n="107" xml:id="l-107"/>
+<ab>t. à t.</ab>
+                <lb n="108" xml:id="l-108"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+                <lb n="109" xml:id="l-109"/>
+<ab>Ik dank U wel dat ge hebt gezonden terwijl <lb n="110" xml:id="l-110"/>Ge zelf zoo in ’t naauw zit.</ab>
+                <lb n="111" xml:id="l-111"/>
+<ab rend="indent">Ik heb het zoo dubbel noodig omdat <lb n="112" xml:id="l-112"/>de herfst zoo gaauw om is en het <lb n="113" xml:id="l-113"/>prachtigste saizoen om te werken.</ab>
+      <pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+      <ab>
+                    <figure facs="zone-sketch-1" n="A"/>
+                </ab>
+      <pb f="3r" n="6" xml:id="pb-orig-2r-6" facs="#zone-pb-3r-6"/>     
+      <ab>
+                    <figure facs="zone-sketch-2" n="B"/>
+                </ab>
+<div type="textualNotes">
+<note target="l-12" n="12">mag &lt; mg</note>
+<note target="l-24" n="24">getekend &lt; getekt</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo,</ab>
+<ab>I’ve just received your letter and the 50 francs enclosed, for which many thanks. </ab>
+<ab rend="indent">Enclosed are two small watercolours.<anchor n="1" xml:id="note-t-1"/> As you know, when you were here you said that I should do my best to send you a drawing in the genre known as ‘saleable’. You must forgive me, however, for not knowing exactly when a drawing <hi rend="ital">may</hi> or <hi rend="ital">may not</hi> be classed in this genre. I believe I used to be able to see this, but now I do realize daily that I get it wrong. </ab>
+<ab rend="indent">Well, I hope that the small bench, even if not yet saleable, will show you that I have nothing against tackling subjects with something agreeable or pleasant about them, which are thus more likely to find buyers than things with a more sombre sentiment. </ab>
+<ab rend="indent">I’m adding another to the small bench as a pendant, also a part of the woods.</ab>
+<ab rend="indent">I drew the bench after a larger watercolour that I’m working on in which the tones are deeper, but I don’t know whether I’ll succeed in carrying it out or completing it. The other was done after a painted study.<anchor n="2" xml:id="note-t-2"/>
+                </ab>
+<ab rend="indent">Now I’d very much like to hear from you whether in your view this little drawing is more or less in the spirit of what we discussed. I’m sending it to you because I wouldn’t like you to think that this wasn’t on my mind — but later I hope to send you something better. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> </ab>
+<ab rend="indent">You recall that in my last letter I wrote that I was going to that potato market. I brought back many croquis then,<anchor n="3" xml:id="note-t-3"/> it was extraordinarily interesting. The politeness of the populace of The Hague towards painters is, however, demonstrated by the fact that a fellow behind me, or probably at a window, suddenly spat a wad of tobacco onto my paper — life can be very trying at times. </ab>
+<ab rend="indent">Well, there’s no need to take it personally, because these people aren’t malicious, but they don’t understand anything about it, and probably think someone like me mad when they see me doing a drawing with great scratches and lines which they can make nothing of. </ab>
+<ab rend="indent">Recently I’ve also been busy drawing horses on the street<anchor n="4" xml:id="note-t-4"/> — I would like to have a horse pose sometime. Yesterday I heard someone behind me say: well, what kind of a painter is that? — he’s drawing the horse’s backside instead of doing him from the front. I rather enjoyed that comment. </ab>
+<ab rend="indent">I love it so much, sketching on the street, and, as I wrote in my last letter, I’m determined to achieve a certain standard in it. </ab>
+<ab rend="indent">Do you know an American periodical called Harper’s Monthly Magazine? – there are marvellous sketches in it. I don’t know it very well, I’ve only seen six months of it and have only 3 issues myself, but there are things in it I find astounding. Among them a glass-blower’s and an iron foundry, all kinds of scenes of factory work.<anchor n="5" xml:id="note-t-5"/>
+                </ab>
+<ab rend="indent">As well as sketches of a Quaker town in the old days by <rs type="pers" key="1285">Howard Pyle</rs>.<anchor n="6" xml:id="note-t-6"/> 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/>
+                </ab>
+<ab rend="indent">I’m full of new pleasure in things because I have fresh hope of myself being able to make something with some soul in it. </ab>
+<ab rend="indent">What you write about the money that you lent and didn’t get back is certainly a disaster. From this I still have to pay for paint and buy a new supply, so by 20 Sept. I’ll definitely be running short. But I’ll vary the work a little and manage to get by. But remember that something extra will of course help me make extra progress — more successfully than otherwise. A great deal is required and everything’s expensive. But in any event I’m doubly grateful to you, and count myself more fortunate than many that things are as they are with the money, and I assure you I’m doing my best to make sure I make progress with it. </ab>
+<ab rend="indent">Today I’ll go to the ordinary Monday market again about the time they’re taking down the stalls to see if there’s something to sketch. </ab>
+<ab rend="indent">Adieu, good luck with everything. Do write again soon, and remember that I always greatly enjoy descriptions like the one of Montmartre. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/>
+                </ab>
+<ab rend="indent">There’s so much paint around that it has even got onto this letter<anchor n="7" xml:id="note-t-7"/> — I’m working on the big watercolour of the bench. I hope it comes off, but the great problem is to retain detail with deep tone, and clarity is extremely difficult. Adieu again, a handshake in thought, and believe me</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<ab>I thank you for sending while you yourself are so hard pressed. </ab>
+<ab rend="indent">I need it twice as badly, because the autumn goes so quickly and it’s the finest season to work in. </ab>
+      <pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/>
+      <ab>
+                    <figure facs="zone-sketch-1" n="A"/>
+                </ab>
+      <pb f="3r" n="6" xml:id="pb-trans-2r-6" facs="#zone-pb-3r-6"/>     
+      <ab>
+                    <figure facs="zone-sketch-2" n="B"/>
+                </ab>
+      
+</div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>
+      <hi rend="ital">Four people on a bench </hi>(<rs type="sketch" key="63">F - / JH 195</rs>) and <hi rend="ital">Three people on a bench</hi> (<rs type="sketch" key="64">F 1039 / JH 196</rs>). There is also a drawing of the first subject with the inscription ‘Bezuidenhout’ (<rs type="otherart" key="342">F 952 / JH 194</rs>). For Bezuidenhout, <ref target="let269.xml#n-3">see letter 269, n. 3.</ref>
+                    </ab>
+                </note>
+<note n="a" xml:id="n-a" target="#note-o-a">
+<ab>Means: ‘allicht’ (most probably).</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>The large watercolour is probably <hi rend="ital">Four people and a baby on a bench</hi> (<rs type="ill" key="2395">F 951 / JH 197</rs>), which measures 25 x 37 cm. The painting on which Van Gogh based the second watercolour enclosed is not known. </ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>For the description of the potato market, <ref target="let261.xml">see letter 261</ref>. The only known depiction of this location is the watercolour <hi rend="ital">Potato market</hi> (<rs type="otherart" key="341">F 1091 / JH 252</rs>).</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>Studies of horses are not known, but cf. in this connection the hoofed animals in <hi rend="ital">Donkey cart with boy and Scheveningen woman</hi> (<rs type="otherart" key="343">F 1079 / JH 192</rs>) and <hi rend="ital">Study of donkey carts</hi> (<rs type="otherart" key="344">F 952 / JH 193</rs>).</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>It may be inferred from the examples Van Gogh gives that in any case he knew the December 1880 and January 1881 issues of <hi rend="ital">Harper’s New Monthly Magazine</hi>, both ‘The European edition’. There the article by G.F. Muller, ‘The city of Pittsburgh’, <hi rend="ital">Harper’s New Monthly Magazine</hi> 62 (December 1880), no. 367 pp. 49-68 was accompanied by the following engravings by <rs type="pers" key="1731">Walter Shirlaw</rs>: <rs type="otherart" key="345">
+                            <hi rend="ital">A night arrival</hi>
+                        </rs> (p. 49); <rs type="otherart" key="346">
+                            <hi rend="ital">View of Pittsburgh</hi>
+                        </rs> (p. 50); <rs type="otherart" key="347">
+                            <hi rend="ital">Block-house of Fort Duquesne</hi>
+                        </rs> (p. 51); <rs type="otherart" key="348">
+                            <hi rend="ital">From the Bell Tower</hi>
+                        </rs> (p. 52); <rs type="otherart" key="349">
+                            <hi rend="ital">View of Pittsburgh from the opposite heights</hi>
+                        </rs> (p. 53); <rs type="otherart" key="350">
+                            <hi rend="ital">From the hurricane deck</hi>
+                        </rs> (p. 54); <rs type="otherart" key="351">
+                            <hi rend="ital">At the lock</hi>
+                        </rs> (p. 55); <rs type="otherart" key="352">
+                            <hi rend="ital">Coke-burning</hi>
+                        </rs> (p. 56); <rs type="otherart" key="353">
+                            <hi rend="ital">A blast-furnace</hi>
+                        </rs> (p. 57); <hi rend="ital">Steel-works – Puddling</hi> (p. 58) <rs type="ill" key="1227">Ill. 1227</rs>; <hi rend="ital">Emptying the crucible</hi> (p. 59) <rs type="ill" key="1943">Ill. 1943</rs>; <hi rend="ital">From the pulpit</hi> (p. 60) <rs type="ill" key="1944">Ill. 1944</rs>; <hi rend="ital">Rolling steel plates</hi> (p. 61) <rs type="ill" key="1945">Ill. 1945</rs>; <rs type="otherart" key="365">
+                            <hi rend="ital">View corner of Fifth Avenue and Wood Street, Pittsburgh</hi>
+                        </rs> (p. 62); <hi rend="ital">Window-glass blowers</hi> (p. 63) <rs type="ill" key="1946">Ill. 1946</rs>; <hi rend="ital">Oil-refinery</hi> (p. 64); <hi rend="ital">Pipe-making</hi> (p. 65) <rs type="ill" key="1947">ill. 1947</rs>; <rs type="otherart" key="354">
+                            <hi rend="ital">Stephen C. Foster</hi>
+                        </rs> and <rs type="otherart" key="355">
+                            <hi rend="ital">Grave of Stephen C. Foster</hi>
+                        </rs> (p. 66); <rs type="otherart" key="356">
+                            <hi rend="ital">The arsenal</hi>
+                        </rs> (p. 67) and <rs type="otherart" key="357">
+                            <hi rend="ital">Saturday evening at the variety</hi>
+                        </rs> (p. 68).</ab>
+                </note>
+      <note n="6" xml:id="n-6" target="#note-t-6">
+<ab>The article by <rs type="pers" key="1285">Howard Pyle</rs>, ‘Old-time life in a Quaker town’, <hi rend="ital">Harper’s New Monthly Magazine</hi> 62 (January 1881), no. 368, pp. 178-190 is accompanied by the following prints by and after Pyle: <hi rend="ital">Old Swedes church, Wilmington</hi> (p. 180) <rs type="ill" key="1226">Ill. 1226</rs>; <rs type="otherart" key="358">
+                            <hi rend="ital">Going to church</hi>
+                        </rs> (p. 183); <rs type="otherart" key="359">
+                            <hi rend="ital">At evening</hi>
+                        </rs> (p. 184); <rs type="otherart" key="360">
+                            <hi rend="ital">The umbrella – A curious present</hi>
+                        </rs> (p. 185); <rs type="otherart" key="361">
+                            <hi rend="ital">William Cobbett’s school</hi>
+                        </rs> (p. 188); <hi rend="ital">The destruction of the sign</hi> (p. 189) <rs type="ill" key="1948">Ill. 1948</rs> and <rs type="otherart" key="362">
+                            <hi rend="ital">The British in Wilmington</hi>
+                        </rs> (p. 190). No clues have been found in the June-November 1880 or February-May 1881 issues, so it is impossible to establish which was the <hi rend="ital">third</hi> issue of <hi rend="ital">Harper’s New Monthly Magazine</hi> that Van Gogh had in his possession.</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>There are indeed smears of dark green paint on the sheet.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

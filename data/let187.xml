@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Etten, Saturday, 19 November 1881.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let187"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">187</idno>
+<idno type="collectedletters">160</idno>
+<idno type="brieven1990">185</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Etten</vg:placeLet>
+                        <vg:dateLet>Saturday, 19 November 1881</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. Etten, Saturday, 19 November 1881.</p>
+<note type="ongoingTopic" n="1">
+<p>Van Gogh’s love for Kee Vos <ref target="let179.xml">(179)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="2">
+<p>Mr van Gogh’s past plans to have Vincent committed to the asylum at Geel <ref target="let185.xml">(185)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. nos. b180 a-c V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Van Gogh talks about the curse of ‘yesterday’ <ref target="#l-323">(l. 323)</ref>, which was Friday, 18 November 1881 (<ref target="let185.xml">see letters 185</ref> and <ref target="let186.xml">186</ref>), which means that this letter was written on 19 November 1881.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0180 a" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000198_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000198_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000198_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000198_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000198_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000198_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="VGM001000198_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000198_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000198_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0180 a" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000198_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000198_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000198_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000198_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000198_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000198_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000198_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000198_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000198_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0180 b" xml:id="surf-pb-2r">
+            <graphic mimeType="image/tiff" url="VGM001000199_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-2r-5">
+<graphic mimeType="image/tiff" url="VGM001000199_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000199_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000199_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0180 b" xml:id="surf-pb-2v">
+            <graphic mimeType="image/tiff" url="VGM001000199_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-2v-6">
+<graphic mimeType="image/tiff" url="VGM001000199_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000199_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000199_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0180 c" xml:id="surf-pb-3r">
+            <graphic mimeType="image/tiff" url="VGM001000200_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000200_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000200_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-3r-7">
+<graphic mimeType="image/tiff" url="VGM001000200_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000200_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000200_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-3r-10">
+<graphic mimeType="image/tiff" url="VGM001000200_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000200_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000200_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0180 c" xml:id="surf-pb-3v">
+            <graphic mimeType="image/tiff" url="VGM001000200_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000200_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000200_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-3v-8">
+<graphic mimeType="image/tiff" url="VGM001000200_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000200_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000200_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-3v-9">
+<graphic mimeType="image/tiff" url="VGM001000200_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000200_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000200_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Beste broer,</ab>
+                <lb n="2" xml:id="l-2"/>
+<ab>Uwen brief ontvang ik daar even. Dank voor Uw sympathie<c type="kk">/</c> <lb n="3" xml:id="l-3"/>dank voor “het reisgeldje”<c type="kp">_</c>
+                    <anchor n="1" xml:id="note-o-1"/> <lb n="31" xml:id="l-31"/>Ik geloof dat ik nooit met meer dankbaarheid geld ontvangen heb dan het muntje van U <lb n="32" xml:id="l-32"/>want het was mij zoo ondragelijk te denken<c type="kk">/</c> als ik eens moest gaan dan zou ik <lb n="33" xml:id="l-33"/>niet kunnen<c type="kk">/</c> nu heb ik ten minste nog één slag die ik slaan zal verzekerd.</ab>
+                <lb n="3*" xml:id="l-3s"/>
+<ab>dank voor Uwe opinie omtrent <lb n="4" xml:id="l-4"/>mijn teekeningen al is die gunstiger dan ik verdien. <lb n="5" xml:id="l-5"/>Blijf mij schrijven over mijn werk<c type="kk">/</c> vrees niet me <lb n="6" xml:id="l-6"/>te kwetsen door aanmerkingen<c type="kk">/</c> ik zal dergelijke <lb n="7" xml:id="l-7"/>kwetsuren als bewijzen van sympathie opvatten<c type="kk">/</c> <lb n="8" xml:id="l-8"/>sympathie duizend maal meer waard dan <lb n="9" xml:id="l-9"/>vleijerij. Gij schrijft praktische dingen<c type="kk">/</c> ik moet van U <lb n="9a" xml:id="l-9a"/>praktisch leeren worden dus moet <hi rend="ital">gij maar veel voor me preeken want ik weiger niet mij te bekeeren en heb de bekeering zoo zeer van noode!</hi>
+                    <anchor n="2" xml:id="note-o-2"/>
+                </ab>
+                <lb n="10" xml:id="l-10"/>
+<ab rend="indent">Nu is er eene zinsnede in Uw schrijven die ik er <lb n="11" xml:id="l-11"/>uitpik en apart en onmiddelijk beantwoord. <lb n="12" xml:id="l-12"/>Ik copieer Uwe woorden. (Wijs me waaraan ik gelooven <lb n="13" xml:id="l-13"/>moet.– Zeg mij of het voldoende is te berusten wanneer <lb n="14" xml:id="l-14"/>dat wat men eens hoopte in plaats van te gebeuren <lb n="15" xml:id="l-15"/>niet gebeurde &amp; in plaats van verbetering verdorring <lb n="16" xml:id="l-16"/>van gevoel te weeg bragt).</ab>
+                <lb n="17" xml:id="l-17"/>
+<ab rend="indent">Berusten! à Dieu ne plaise! waarachtig <lb n="18" xml:id="l-18"/>niet. Kunt gij berusten in een soort verdoemenis<c type="kk">/</c> <lb n="19" xml:id="l-19"/>zoudt gij niet zeggen met mij, die veel grooter <lb n="20" xml:id="l-20"/>zondaar ben dan gij, “hoewel ik de verdoemenis <lb n="21" xml:id="l-21"/>moge verdiend hebben zoo resigneer ’k mij geenszins <lb n="22" xml:id="l-22"/>tot haar maar ik zal zoeken naar iets beters<c type="kk">/</c> <lb n="23" xml:id="l-23"/>naar Vrijheid en verlossing en genade!”</ab>
+                <lb n="24" xml:id="l-24"/>
+<ab rend="indent">
+                    <hi rend="ital">Ik zeg U, ik Vincent, gij Theo zijt</hi> <lb n="25" xml:id="l-25"/>
+                    <hi rend="ital">niet in de wieg gelegd voor dergelijke</hi> <lb n="26" xml:id="l-26"/>
+                    <hi rend="ital">resignatie doch tot energiek gelooven!</hi> <lb n="27" xml:id="l-27"/>
+                    <hi rend="ital">Heb lief en sta in de vrijheid waarmede</hi> <lb n="28" xml:id="l-28"/>
+                    <hi rend="ital">liefde</hi>
+                    <c type="kk">/</c>
+                    <hi rend="ital"> maar op één persoon geconcentreerde liefde! U zal vrijmaken</hi>
+                    <c type="kk">/</c>
+                    <hi rend="ital"> en wordt</hi> <lb n="29" xml:id="l-29"/>
+                    <hi rend="ital">door dat verdomde juk der</hi> <lb n="30" xml:id="l-30"/>
+                    <hi rend="ital">resignatie niet bevangen</hi>.</ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="34" xml:id="l-34"/>
+<ab rend="indent">Ik veronderstel zeker jong mensch<c type="kk">/</c> om maar <lb n="35" xml:id="l-35"/>iemand te noemen “Monsieur X”<c type="kk">/</c> heeft op zekeren <lb n="36" xml:id="l-36"/>dag eene dame ontmoet die ik zal noemen M<hi rend="ss">me</hi> Elle. <lb n="37" xml:id="l-37"/>X heeft iets voelen kloppen “sous le téton gauche”<c type="kk">/</c> <lb n="38" xml:id="l-38"/>Elle aussi “sous la mamelle gauche”<c type="kp">_</c>
+                    <anchor n="3" xml:id="note-o-3"/>
+                </ab>
+                <lb n="39" xml:id="l-39"/>
+<ab rend="indent">Zij hebben elkaar in de oogen gezien en <lb n="40" xml:id="l-40"/>een paar weifelende schreden gedaan<c type="kk">/</c> meer of minder <lb n="41" xml:id="l-41"/>gedecideerd. Toen heeft Monsieur X gezegd, <lb n="42" xml:id="l-42"/>erg energiek (?)<c type="kk">/</c> “’t Kan niet”<c type="kk">/</c> er niet onsentimenteel <lb n="43" xml:id="l-43"/>bijvoegende “wie ben ik om zoo iets te wagen”<c type="kp">_</c>
+                </ab>
+                <lb n="44" xml:id="l-44"/>
+<ab rend="indent">En <hi rend="ital">zij</hi> heeft gezegd “toi<c type="kk">/</c> ‘quelque chose’, c.à.d. ‘Coeur de femme’ qui bat sous <lb n="45" xml:id="l-45"/>ma mamelle gauche<c type="kk">/</c> pourquoi m’as tu trompé”<c type="kp">_</c> <lb n="46" xml:id="l-46"/>Toen Monsieur X haar zoo dapper en regtvaardig <lb n="47" xml:id="l-47"/>(c’etait “Monsieur le juste” selon lui) zijn rug toegedraaid had<c type="kk">/</c> <lb n="48" xml:id="l-48"/>meenende dat hij dat <hi rend="ital">kon</hi> doen<c type="kk">/</c> ontwaarde hij <lb n="49" xml:id="l-49"/>tot zijne groote consternatie dat er in de wereld iets scheen <lb n="50" xml:id="l-50"/>veranderd te zijn want ziet “<hi rend="ital">de hemel was als van</hi> <lb n="51" xml:id="l-51"/>
+                    <hi rend="ital">koper en de grond onder zijne voeten als van ijzer</hi>”<c type="kp">_</c>
+                    <anchor n="4" xml:id="note-o-4"/> <lb n="52" xml:id="l-52"/>Hij gevoelde een ondragelijken dorst en hij wist niet <lb n="53" xml:id="l-53"/>waar naar doch meende te weten “zeker niet naar <hi rend="ital">haar</hi>”<c type="kp">_</c> <lb n="54" xml:id="l-54"/>En wierp zich in zijn affaires met al zijn vuur<c type="kk">/</c> met <lb n="55" xml:id="l-55"/>al zijn scherpzinnigheid doch dat nam niet weg <lb n="56" xml:id="l-56"/>dat “de hemel bleef van koper en de grond <lb n="57" xml:id="l-57"/>van ijzer”<c type="kk">/</c> en zijn hart binnen in hem versteende <lb n="58" xml:id="l-58"/>en werd ongevoelig van namelooze spanning.</ab>
+                <lb n="59" xml:id="l-59"/>
+<ab rend="indent">En “elle”<c type="kk">/</c> qu’en sais je moi – forte ou faible, <lb n="60" xml:id="l-60"/>bruyante ou sérieuse, légère ou grave<c type="kk">/</c> <lb n="61" xml:id="l-61"/>désolée en tout cas.–</ab>
+                <lb n="62" xml:id="l-62"/>
+<ab rend="indent">Hij was in eene woestijn<c type="kp">_</c> Zij evenzeer. <lb n="63" xml:id="l-63"/>Hij voelde “ik verdor”<c type="kp">_</c> Zij vroeg “waarom <lb n="64" xml:id="l-64"/>verdor ik<c type="kk">/</c> ik wil bloeijen! uitspruiten! leven! o God! <lb n="65" xml:id="l-65"/>en ik arme<c type="kk">/</c> ik kan niet! ik mag niet!”</ab>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                <lb n="66" xml:id="l-66"/>
+<ab rend="indent">Keer om! Keer om! Keer om!<anchor n="5" xml:id="note-o-5"/> De woestijn <lb n="67" xml:id="l-67"/>is ’t graf van menig “al te sterke” <lb n="68" xml:id="l-68"/>die met zich mee sleept menige “trouwe”.– <lb n="69" xml:id="l-69"/>Zijn deze dingen alzoo?<anchor n="6" xml:id="note-o-6"/> vraagt iemand. <lb n="70" xml:id="l-70"/>Is de woestenij eene werkelijkheid ja <lb n="71" xml:id="l-71"/>dan neen. Indien ja – even <lb n="72" xml:id="l-72"/>waarachtig is het dat er een land van <lb n="73" xml:id="l-73"/>belofte<anchor n="7" xml:id="note-o-7"/> is waar men niet sterft doch <lb n="74" xml:id="l-74"/>“opstijft” zoo als Kee Vos zegt, gelijkerwijs <lb n="75" xml:id="l-75"/>de plante die ’t hoofd liet hangen in den <lb n="76" xml:id="l-76"/>fellen zonneschijn weer opstijft in den avonddaauw. <lb n="77" xml:id="l-77"/>Den uitweg van de woestijn is teruggaan <lb n="78" xml:id="l-78"/>naar haar. De woestijn is fataal <lb n="79" xml:id="l-79"/>en oneindig als men toch maar doormarcheert <lb n="80" xml:id="l-80"/>met den rug naar haar toe gekeerd<c type="kk">/</c> zeggende<c type="kk">/</c> <lb n="80a" xml:id="l-80a"/>ik heb <hi rend="ital">noch den daauw noch de opstijving</hi> van noode.</ab>
+                <lb n="81" xml:id="l-81"/>
+<ab rend="indent">Doch indien zij – niet trouw was – en <lb n="82" xml:id="l-82"/>een ander nam “intusschen”<c type="kk">/</c>
+                    <anchor n="8" xml:id="note-o-8"/> <lb n="83" xml:id="l-83"/>’t zij uit moedwil ’t zij omdat zij zich <lb n="84" xml:id="l-84"/>liet dwingen door “overheden en magten”<c type="kk">/</c>
+                    <anchor n="9" xml:id="note-o-9"/> <lb n="85" xml:id="l-85"/>Vaders<c type="kk">/</c> tantes<c type="kk">/</c> broers<c type="kk">/</c> vrienden die <lb n="86" xml:id="l-86"/>jesuitismes verkondigden. Ga dan kijken <lb n="86a" xml:id="l-86a"/>als ze nog niet getrouwd is of zij verlost wil wezen of niet<c type="kk">/</c> en kiest zij een ander <lb n="86b" xml:id="l-86b"/>boven Monsieur X <lb n="87" xml:id="l-87"/>zoo zij ze wat ze zij maar het <lb n="88" xml:id="l-88"/>mannenhart en de mannenliefde van X <lb n="89" xml:id="l-89"/>was ze niet waard. <lb n="89a" xml:id="l-89a"/>De man die haar liefhad heeft <lb n="89b" xml:id="l-89b"/>alsdan aan eene verblinding gelaboreerd <lb n="89c" xml:id="l-89c"/>die ik zou noemen een Brochart of iets dergelijks aanzien voor een Boughton<c type="kk">/</c> Millais <lb n="89d" xml:id="l-89d"/>of Tissot.–<anchor n="10" xml:id="note-o-10"/> Doch of ’t zulken als Theo &amp; Vincent dikwijls overkomt dat zij <lb n="89e" xml:id="l-89e"/>zoo’n enorme vergissing begaan<c type="kk">/</c> dat betwijfel ik<c type="kp">_</c> Onzen blik is vast<c type="kk">/</c> <lb n="89f" xml:id="l-89f"/>vooral dan wanneer we de figuur wat lang onder de oogen hebben <lb n="89g" xml:id="l-89g"/>gehad.</ab>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                <lb n="92" xml:id="l-92"/>
+<ab rend="indent">Tweede zinsnede in den brief van Th.v.G. die noodzakelijk <lb n="93" xml:id="l-93"/>beantwoord moet worden &amp; plus vite que ça<c type="kk">/</c>
+                </ab>
+                <lb n="94" xml:id="l-94"/>
+<ab rend="indent">“Juist daar ik weet wat ’t gevolg kan zijn van <lb n="95" xml:id="l-95"/>eene onherroepelijk verloren hoop durf ik niet zonder <lb n="96" xml:id="l-96"/>aarzelen (raden) geen slag om den arm (te) houden”.–</ab>
+                <lb n="97" xml:id="l-97"/>
+<ab rend="indent">Bah! Wie praat er al niet van een “onherroepelijk <lb n="98" xml:id="l-98"/>verloren hoop”! nonsens<c type="kk">/</c> <hi rend="ital">’t woord</hi> <lb n="99" xml:id="l-99"/>“<hi rend="sc">Onherroepelijk</hi>“ <hi rend="ital">bestaat niet voor den</hi> <lb n="100" xml:id="l-100"/>
+                    <hi rend="ital">voornoemde Th.v.G.</hi> <lb n="100a" xml:id="l-100a"/>die nog niet eens serieus genoeg gehoopt <lb n="100b" xml:id="l-100b"/>heeft<c type="kp">_</c> <lb n="100c" xml:id="l-100c"/>Espérer encore!!! dus<c type="kp">_</c>
+                </ab>
+                <lb n="101" xml:id="l-101"/>
+<ab rend="indent">Twijfel dus maar niet aan Uw naam “gelukskind”<anchor n="11" xml:id="note-o-11"/> <lb n="102" xml:id="l-102"/>want die is wel degelijk op U toepasselijk<c type="kk">/</c> hoewel zij die <lb n="103" xml:id="l-103"/>zoo erg druk U met dien naam gedoopt hebben mogelijk <lb n="104" xml:id="l-104"/>een klein mostaardzaadje<anchor n="12" xml:id="note-o-12"/> van jesuitisme hadden en een mogelijken <lb n="105" xml:id="l-105"/>val voorzagen. Ik echter zeg<c type="kk">/</c> gij zult niet vallen <lb n="106" xml:id="l-106"/>en indien ge valt, que soit, ’t zal alleen maar zijn om <lb n="107" xml:id="l-107"/>weer op te staan <hi rend="ital">met een veel solider positie van gelukskind</hi>. <lb n="108" xml:id="l-108"/>Doch die veel solider positie van gelukskind moet tot <lb n="109" xml:id="l-109"/>basis hebben “<hi rend="ital">le fond qui est bon</hi>”<anchor n="13" xml:id="note-o-13"/> en ge weet wat ik daarmee bedoel<c type="kp">_</c> Eene positie <lb n="110" xml:id="l-110"/>met “quelque chose de bon au fond” houdt het niet uit à la longue. <lb n="111" xml:id="l-111"/>Vertrap evenwel den “slag om den arm” onder de voeten. <lb n="112" xml:id="l-112"/>Weet evenwel dat wie een meisje aanspreekt zoodanig <lb n="113" xml:id="l-113"/>dat hij werkelijk en effektief iets nieuws<c type="kk">/</c> n.l. liefde<c type="kk">/</c> in haar <lb n="114" xml:id="l-114"/>wakker maakt en haar opwekt of terugbrengt tot <lb n="115" xml:id="l-115"/>het eigentlijk leven<c type="kk">/</c> steeds verdomd en gehaat zal worden <lb n="116" xml:id="l-116"/>door menigeen die op ’t oog er zachtzinnig uitziet.</ab>
+                <lb n="117" xml:id="l-117"/>
+<ab rend="indent">Wat betreft den WelEerw<c type="kp">_</c> ZGel. Heer J.P.S.<c type="kk">/</c> mijns inziens heeft hij <lb n="118" xml:id="l-118"/>wel <hi rend="ital">valsche</hi> schaamte doch ook<c type="kk">/</c> wat meer is<c type="kk">/</c> eene dosis werkelijke <lb n="119" xml:id="l-119"/>in zijn goede momenten. Er zijn (regel met uitzonderingen) geen ongelooviger en <lb n="120" xml:id="l-120"/>verstokter en wereldscher menschen dan dominés en bovenal dominésvrouwen doch <lb n="121" xml:id="l-121"/>zelfs dominés hebben soms onder eene wapenrusting <lb n="122" xml:id="l-122"/>van triple airain<anchor n="14" xml:id="note-o-14"/> een menschenhart.</ab>
+                <lb n="123" xml:id="l-123"/>
+<ab rend="indent">Wat betreft Pa en Moe. Een mensch heeft twee soorten <lb n="124" xml:id="l-124"/>van vijanden<c type="kk">/</c> primo zijn radicale vijanden<c type="kk">/</c> secundo <lb n="125" xml:id="l-125"/>zijn vrienden<c type="kp">_</c> Wijders heeft hij twee soorten van <lb n="126" xml:id="l-126"/>vrienden<c type="kk">/</c> primo zijn vrienden en secundo zijn vijanden<c type="kk">/</c> <lb n="127" xml:id="l-127"/>welke laatsten hem soms veel diensten bewijzen zonder <lb n="128" xml:id="l-128"/>dat dit bepaald hun intentie kan geacht worden te zijn. <lb n="129" xml:id="l-129"/>De “huissleutel” is een vijand die soms meer dan een ander helpt<c type="kk">/</c> <lb n="130" xml:id="l-130"/>fermez lui la porte au nez<c type="kk">/</c> il entrera par la fenêtre!<anchor n="15" xml:id="note-o-15"/> 
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+                    <lb n="131" xml:id="l-131"/>Kortom, Monsieur X zou alleen <hi rend="ital">dan</hi> ’t mijns <lb n="132" xml:id="l-132"/>inziens kwaad hebben indien <hi rend="ital">en zij</hi> <hi rend="ital">en hij</hi> <lb n="133" xml:id="l-133"/>’t gemeend hadden, zij ’t maar voor een moment – en <lb n="134" xml:id="l-134"/>
+                    <hi rend="ital">zij</hi> getrouwd was niettegenstaande dat.–</ab>
+                <lb n="135" xml:id="l-135"/>
+<ab rend="indent">Hebben en zij en hij gevoeld ’t kloppen van quelque chose d’extraordinaire <lb n="136" xml:id="l-136"/>sous le téton &amp; la mamelle gauche en hebben <lb n="137" xml:id="l-137"/>de “overheden en magten” ’t <hi rend="ital">doen voorkomen</hi> als <lb n="138" xml:id="l-138"/>had zij iemand anders geaccepteerd<c type="kk">/</c> dan is er <lb n="139" xml:id="l-139"/>althans nog een kans voor M. X. En M. X zou <lb n="140" xml:id="l-140"/>weldoen eens terdeeg kennis van zaken te <lb n="141" xml:id="l-141"/>gaan nemen en niet te rusten voor hij <hi rend="ital">haar</hi> eens <lb n="142" xml:id="l-142"/>tête à tête gesproken had.</ab>
+                <lb n="143" xml:id="l-143"/>
+<ab rend="indent">Is M. X. “in de woestijn” en <hi rend="ital">zij</hi> vrij <lb n="144" xml:id="l-144"/>zoo moet hij als de weerga naar haar terug<c type="kp">_</c> <lb n="145" xml:id="l-145"/>De woestijn is geloof ik alleen dan fataal <lb n="146" xml:id="l-146"/>wanneer hij uit moedwil en verstoktheid <lb n="147" xml:id="l-147"/>des harten zei “ik wil haar niet liefhebben. <lb n="148" xml:id="l-148"/>liever dan naar haar toe te gaan wil ik crepeeren <lb n="149" xml:id="l-149"/>en moet zij maar crepeeren”.</ab>
+                <lb n="150" xml:id="l-150"/>
+<ab rend="indent">Bevind <hi rend="ital">hij</hi> zich in de woestijn en is zij vrij <lb n="151" xml:id="l-151"/>dan zal de woestijn bloeien als een rozentuin<anchor n="16" xml:id="note-o-16"/> <lb n="152" xml:id="l-152"/>zeer kort nadat <hi rend="ital">hij</hi> zich omkeert. Want indien zij <lb n="152a" xml:id="l-152a"/>nog geen ander nam dan had ze hem lief<c type="kk">/</c> ’t zij ze dit wist of sans le savoir. <lb n="153" xml:id="l-153"/>Er is misschien iets inconsequents in de <lb n="154" xml:id="l-154"/>verschillende gevallen die ik daar opnoem <lb n="155" xml:id="l-155"/>doch ik laat liever die inconsequentie <lb n="156" xml:id="l-156"/>blijven dan dat ik door te zoeken naar <lb n="157" xml:id="l-157"/>juistheid van woorden ’t sentiment bederven <lb n="158" xml:id="l-158"/>zou. Hebt gij soms een liefdehistorie<c type="kk">/</c> <lb n="159" xml:id="l-159"/>spreek ze dan eens rondborstig uit en <lb n="160" xml:id="l-160"/>vertrouw mijn discretie. Ik weet eigentlijk <lb n="161" xml:id="l-161"/>niet regt hoe ik ’t met U heb.–</ab>
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>
+                <lb n="167" xml:id="l-167"/>
+<ab rend="indent">Ik voor mij heb veel aan Vader Michelet.</ab>
+                <lb n="168" xml:id="l-168"/>
+<ab rend="indent">Lees in elk geval eens l’amour en la femme <lb n="169" xml:id="l-169"/>en<c type="kk">/</c> kunt ge ’t krijgen<c type="kk">/</c> My wife &amp; I en Our neighbours <lb n="170" xml:id="l-170"/>van Beecher Stowe. of Jane Eyre en Shirley van <lb n="171" xml:id="l-171"/>Currer Bell. Veel meer en veel duidelijker <lb n="172" xml:id="l-172"/>dingen dan ik kunnen die lui U zeggen.</ab>
+                <lb n="173" xml:id="l-173"/>
+<ab rend="indent">Il faut avoir aimé<c type="kk">/</c> puis desaimé<c type="kk">/</c> puis aimer <lb n="174" xml:id="l-174"/>encore. Aimer encore quant même<c type="kk">/</c>
+                    <anchor n="17" xml:id="note-o-17"/> <lb n="175" xml:id="l-175"/>“onherroepelijk” is ons ongelijk voor zooveel wij <lb n="176" xml:id="l-176"/>zeggen<c type="kk">/</c> Je n’aimerai plus jamais. ’t Houdt <lb n="177" xml:id="l-177"/>op met ’t staken van onze ongenegenheid. <lb n="178" xml:id="l-178"/>Is er “désespoir” en “désolation irreparable”<c type="kp">_</c>
+                    <anchor n="18" xml:id="note-o-18"/> <lb n="179" xml:id="l-179"/>mogelijk wel doch ik geloof eigentlijk volstrekt <lb n="180" xml:id="l-180"/>niet dat gij of ik daarvoor in de wieg zijn gelegd<c type="kk">/</c> <lb n="181" xml:id="l-181"/>integendeel ons is geloof ik weggelegd un <lb n="182" xml:id="l-182"/>fond qui est bon<c type="kk">/</c> n.l. de verkrijging van onze <lb n="183" xml:id="l-183"/>respectieve “haar en geen ander”<c type="kp">_</c>
+                    <anchor n="19" xml:id="note-o-19"/>
+                </ab>
+                <lb n="184" xml:id="l-184"/>
+<ab rend="indent">Ware ik niet “one who has been down” <lb n="185" xml:id="l-185"/>maar integendeel iemand die altijd vast <lb n="186" xml:id="l-186"/>in zijn schoenen had gestaan<c type="kk">/</c> ge zoudt minder <lb n="187" xml:id="l-187"/>dan niets aan me hebben doch omdat <lb n="188" xml:id="l-188"/>ik in dien mysterieusen diepen put van misere <lb n="189" xml:id="l-189"/>des harten geweest ben zoo is er een schaduw van <lb n="190" xml:id="l-190"/>een kans dat ik U iets praktisch in een <lb n="191" xml:id="l-191"/>of andere zaak des harten kan zeggen.</ab>
+                <lb n="192" xml:id="l-192"/>
+<ab rend="indent">Met mijn teekeningen en praktische zaken kom ik bij U om genezing<c type="kk">/</c> <lb n="193" xml:id="l-193"/>wie weet of ik U van mijn kant niet tot iets nuttig <lb n="194" xml:id="l-194"/>kan zijn met betrekking tot moeielijkheden in <lb n="195" xml:id="l-195"/>liefde. Ge weet echter nog niet hoeveel kracht tot <lb n="196" xml:id="l-196"/>liefhebben er in U aanwezig is voor ge aangevangen <lb n="197" xml:id="l-197"/>hebt die naar buiten te openbaren. ’t Eerste <lb n="198" xml:id="l-198"/>evenwel is<c type="kk">/</c> we moeten zeggen<c type="kk">/</c> wat er ook <lb n="199" xml:id="l-199"/>van zij, gelukkig of ongelukkig, <hi rend="ital">je veux</hi> <lb n="200" xml:id="l-200"/>
+                    <hi rend="ital">aimer encore!</hi> Dank kerel<c type="kk">/</c> voor het reisgeldje <lb n="201" xml:id="l-201"/>hoor! Erg braaf! en erg humaan! Ontvang een handdruk <lb n="202" xml:id="l-202"/>in gedachte<c type="kk">/</c> geloof me steeds</ab>
+<vg:whiteline/>
+                <lb n="202*" xml:id="l-202s"/>
+<ab>t. à. t.</ab>
+                <lb n="202*"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+                <lb n="90 »" xml:id="l-90"/>
+<ab>Theo, oom Cent heeft werkelijk sympathie voor me doch dat neemt daarom <lb n="91" xml:id="l-91"/>niet weg dat ik geloof hij mij meer kwaad dan goed gedaan heeft tegenover J.P.S.</ab>
+                <vg:whiteline/> <lb n="162 »" xml:id="l-162"/>
+<ab>Ofschoon gij U zelven, zoo ten onregte, ongeloovig noemt en misschien denkt dat ge materialist zijt zoo zijt ge toch eigentlijk de eerste <lb n="163" xml:id="l-163"/>man die ’t goed opneemt als ik hem krachtig durfde aangrijpen en terugkomt zonder woede.</ab>
+<vg:whiteline/>
+                <lb n="164 »" xml:id="l-164"/>
+<ab>Hoewel ge nu misschien denkt dat ik in dit of dat meer of minder sterk ben zoo zult ge in duizend andere dingen mij <lb n="165" xml:id="l-165"/>erg dom en onontwikkeld vinden<c type="kp">_</c> helaas in dit snelle gejaagde moderne leven worden we <lb n="166" xml:id="l-166"/>zoo eenzijdig<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="203 »" xml:id="l-203"/>
+<ab>Read Michelet over again!</ab>
+<vg:whiteline/>
+                <lb n="204 »" xml:id="l-204"/>
+<ab>Pa en Moe ergeren zich telkens aan woorden en uitdrukkingen van mij of <hi rend="ital">den toon</hi> er van en zijn dikwijls de klus <lb n="205" xml:id="l-205"/>kwijt wat betreft mijn eigentlijke bedoeling en denken dat ik hen beleedigen wil of grieven.</ab>
+<vg:whiteline/>
+<pb f="3r" n="7" xml:id="pb-orig-3r-7" facs="#zone-pb-3r-7"/>
+                <lb n="206" xml:id="l-206"/>
+<ab>Hoor nog eens hier Theo, de zaak is gewigtig<c type="kp">_</c>
+                </ab>
+                <lb n="207" xml:id="l-207"/>
+<ab rend="indent">Mogen zulken als gij en ik twijfelen aan ons zelf. <lb n="208" xml:id="l-208"/>Neen<c type="kp">_</c> Voorwaar niet langer. We zouden toch niet <lb n="209" xml:id="l-209"/>graag aan ’t eind van ons leven ontwaren dat <lb n="210" xml:id="l-210"/>we als slaapwandelaars door de wereld hadden <lb n="211" xml:id="l-211"/>gemarcheerd<c type="kp">_</c> A Dieu ne plaise.</ab>
+                <lb n="212" xml:id="l-212"/>
+<ab rend="indent">Nu is ’t mij klaar als den dag dat ’t zoowel <lb n="213" xml:id="l-213"/>Uw pligt als mijn pligt is om te zorgen niet <lb n="214" xml:id="l-214"/>alleen dat we liefhebben maar ook dat we <lb n="215" xml:id="l-215"/>trouwen. Wij moeten een bewijs daardoor geven van <lb n="216" xml:id="l-216"/>partij kiezen en principes hebben en geloovig <lb n="217" xml:id="l-217"/>zijn. Gij noemt U zelven ongeloovig<c type="kp">_</c> Eh quoi<c type="kk">/</c> <lb n="218" xml:id="l-218"/>ge zijt het niet.– </ab>
+                <lb n="219" xml:id="l-219"/>
+<ab rend="indent">Wij staan nu als volwassen menschen<c type="kk">/</c> <lb n="220" xml:id="l-220"/>als soldaten in ’t gelid van ons geslacht. <lb n="221" xml:id="l-221"/>Wij hooren niet tot dat waar Pa en Moe en <lb n="222" xml:id="l-222"/>J<c type="kp">_</c>P.S. toe hoort<c type="kk">/</c> wij moeten meer <lb n="223" xml:id="l-223"/>getrouw zijn aan ’t moderne dan aan <lb n="224" xml:id="l-224"/>’t oude. Omzien naar dat oude is fataal<c type="kp">_</c> <lb n="225" xml:id="l-225"/>Begrijpen de ouden ons niet<c type="kk">/</c> dat mag <lb n="226" xml:id="l-226"/>ons niet van streek brengen <lb n="226a" xml:id="l-226a"/>en moeten wij onzen weg gaan ook tegen hun zin<c type="kk">/</c> later zullen zij zelf zeggen<c type="kk">/</c> ja ge hadt toch gelijk! <lb n="227" xml:id="l-227"/>Ik zeg U <lb n="228" xml:id="l-228"/>’t geen ik tot mij zelven zeg<c type="kk">/</c> de tijd van <lb n="229" xml:id="l-229"/>actie en energie is nu meer dan <lb n="230" xml:id="l-230"/>ooit gekomen<c type="kp">_</c> Sla dus de hand aan <lb n="231" xml:id="l-231"/>den ploeg!<anchor n="20" xml:id="note-o-20"/> Sterk zijnde wordt men <lb n="232" xml:id="l-232"/>sterk. Geloovende leert men gelooven<c type="kk">/</c> <lb n="233" xml:id="l-233"/>liefhebbende leert men liefhebben.</ab>
+                <lb n="234" xml:id="l-234"/>
+<ab rend="indent">Wij kunnen niet beter onzen <hi rend="ital">pligt</hi> <lb n="235" xml:id="l-235"/>doen dan door opregt lief te hebben <lb n="236" xml:id="l-236"/>(niet naïf of sentimenteel maar mannelijk) <lb n="237" xml:id="l-237"/>en slechts ééne bepaalde lief te hebben<c type="kp">_</c> <lb n="238" xml:id="l-238"/>Dan toonen we tegelijk daardoor hoe we denken <lb n="239" xml:id="l-239"/>over degenen die meer dan eene meenen te <lb n="240" xml:id="l-240"/>kunnen liefhebben. De mannen en vrouwen die 
+<pb f="3v" n="8" xml:id="pb-orig-3v-8" facs="#zone-pb-3v-8"/>
+                    <lb n="241" xml:id="l-241"/>mogen geacht worden te staan aan ’t hoofd der <lb n="242" xml:id="l-242"/>moderne beschaving<c type="kk">/</c> b.v. Michelet en Beecher Stowe<c type="kk">/</c> <lb n="243" xml:id="l-243"/>Carlyle en George Eliott en hoeveel anderen<c type="kk">/</c> zij <lb n="244" xml:id="l-244"/>roepen ’t ons toe<c type="kk">/</c> “O man<c type="kk">/</c> wie ge ook zijt<c type="kk">/</c> die <lb n="245" xml:id="l-245"/>een hart in ’t lijf hebt<c type="kk">/</c> help ons om iets werkelijks<c type="kk">/</c> <lb n="246" xml:id="l-246"/>iets blijvends<c type="kk">/</c> iets waarachtigs te stichten, bepaal U <lb n="247" xml:id="l-247"/>tot één vak en heb ééne vrouw lief.</ab>
+                <lb n="248" xml:id="l-248"/>
+<ab rend="indent">Laat Uw vak een modern vak zijn en schep in Uwe vrouw <lb n="249" xml:id="l-249"/>eene vrije moderne ziel<c type="kk">/</c> verlos haar van de <lb n="250" xml:id="l-250"/>afschuwelijke vooroordeelen die haar ketenen. <lb n="251" xml:id="l-251"/>Twijfel niet aan hulp van God als ge doet <lb n="252" xml:id="l-252"/>wat God wil dat ge doen zult<c type="kk">/</c> en God wil dat <lb n="253" xml:id="l-253"/>in dezen tijd de wereld hervormd worde door <lb n="254" xml:id="l-254"/>hervorming van zeden<c type="kk">/</c> door hernieuwing van <lb n="255" xml:id="l-255"/>’t licht en ’t vuur der eeuwige liefde.</ab>
+                <lb n="256" xml:id="l-256"/>
+<ab rend="indent">Door dat middel zult gij zelf slagen en tegelijk <lb n="257" xml:id="l-257"/>zult gij een goeden invloed uitoefenen in Uw kring<c type="kk">/</c> <lb n="258" xml:id="l-258"/>kleiner of grooter naarmate van Uw omstandigheden”. <lb n="258a" xml:id="l-258a"/>Zie<c type="kk">/</c> mijns inziens zijn dat de woorden die in ’t algemeen Michelet zegt tot ons.</ab>
+                <lb n="259" xml:id="l-259"/>
+<ab rend="indent">Wat donder zouden Gij en ik bang zijn voor den <lb n="260" xml:id="l-260"/>sleutel van de straatdeur? Zouden gij en ik twijfelen <lb n="261" xml:id="l-261"/>of we een meisje mogten vragen en zouden we <lb n="262" xml:id="l-262"/>twijfelen of we niet in ’t eind slagen zouden? <lb n="263" xml:id="l-263"/>Voorzeker ’t is presumptie om zich zeker te <lb n="264" xml:id="l-264"/>voelen van zijn zaak doch wel mag men <lb n="265" xml:id="l-265"/>gelooven: mijn zielsstrijd zal niet tevergeefs <lb n="266" xml:id="l-266"/>zijn en ik wil hem strijden; ondanks al <lb n="267" xml:id="l-267"/>mijn eigen zwakheid &amp; fouten wil ik hem <lb n="268" xml:id="l-268"/>strijden zoo goed en zoo kwaad als ik kan.</ab>
+                <lb n="269" xml:id="l-269"/>
+<ab rend="indent">Al val ik 99 keer<c type="kk">/</c> ook de honderste keer zal ik opstaan! <lb n="270" xml:id="l-270"/>En wat praat men van “een middel van bestaan” <lb n="271" xml:id="l-271"/>als had ik er geen. Welk artist is er die niet <lb n="272" xml:id="l-272"/>getobt heeft en gescharreld en welken anderen <lb n="273" xml:id="l-273"/>weg is er dan dien van tobben en scharrelen om <lb n="274" xml:id="l-274"/>te geraken tot vasten grond onder de voeten. <lb n="274a" xml:id="l-274a"/>En sedert wanneer is er niets meer te verdienen voor <lb n="274b" xml:id="l-274b"/>iemand met een teekenaarsknuist.</ab>
+<pb f="3v" n="9" xml:id="pb-orig-3v-9" facs="#zone-pb-3v-9"/>
+                <lb n="275" xml:id="l-275"/>
+<ab rend="indent">J.P.S. <hi rend="ital">heeft</hi> iets goeds – en ofschoon hij wel <lb n="276" xml:id="l-276"/>eens woedend zal worden en misschien ook wel <lb n="277" xml:id="l-277"/>eens me zal verdommen<c type="kk">/</c> Zijn toorn zal <lb n="278" xml:id="l-278"/>niet in eeuwigheid blijven branden.<anchor n="21" xml:id="note-o-21"/>
+                </ab>
+                <lb n="279" xml:id="l-279"/>
+<ab rend="indent">Doch ik zal ’t niet in ééns winnen, ook niet al <lb n="280" xml:id="l-280"/>win ik het in eens in ’t oog van sommigen. <lb n="281" xml:id="l-281"/>Entre nous soit dit – onmogelijk acht ik het <lb n="282" xml:id="l-282"/>lang niet dat ondanks hunne grande apparence <lb n="283" xml:id="l-283"/>de finantieele zaken van J<c type="kp">_</c>P<c type="kp">_</c>S<c type="kp">_</c> wrak staan.<anchor n="a" xml:id="note-o-a"/> <lb n="284" xml:id="l-284"/>Reden te meer om zijn dochter een mooie partij te <lb n="285" xml:id="l-285"/>laten doen als hij geheel en al wereldsch was <lb n="286" xml:id="l-286"/>doch J<c type="kp">_</c>P<c type="kp">_</c>S<c type="kp">_</c> en T<c type="kp">_</c>v.G. Etten zijn malgré hun <lb n="287" xml:id="l-287"/>dominéschap toch ook menschen en niet TEN EENEMALE WERELDSCH<c type="kp">_</c> <lb n="288" xml:id="l-288"/>Hoe weet ik dat – omdat ik in veel dingen <lb n="289" xml:id="l-289"/>dezelfde gedachten heb als J<c type="kp">_</c>P.S.<c type="kk">/</c> alleen omdat <lb n="290" xml:id="l-290"/>ik hoor tot een later geslacht ga ik iets verder en <lb n="291" xml:id="l-291"/>laat dingen los die ZEd<c type="kp">_</c> nog vasthoudt<c type="kp">_</c>
+                </ab>
+                <lb n="292" xml:id="l-292"/>
+<ab rend="indent">J.P.S. is in denkwijs liberaler dan Pa doch zij <lb n="293" xml:id="l-293"/>beiden blijven staan voor een muur dien <lb n="294" xml:id="l-294"/>Beecher Stowe en Michelet omgeworpen hebben op zekere <lb n="295" xml:id="l-295"/>plek en noch Pa noch J<c type="kp">_</c>P<c type="kp">_</c>S. kennen die plek omdat <lb n="296" xml:id="l-296"/>zij niet diep genoeg in de nieuwe gedachten zijn <lb n="297" xml:id="l-297"/>doorgedrongen<c type="kp">_</c> Ik ben dus niet bang voor J<c type="kp">_</c>P.S. <lb n="298" xml:id="l-298"/>hoewel ’k U toegeef dat er kans is ik met den sleutel van <lb n="299" xml:id="l-299"/>de straatdeur kennis maak en misschien met zijn <lb n="300" xml:id="l-300"/>G..<anchor n="22" xml:id="note-o-22"/> verdom je<c type="kp">_</c> Maar als dat gebeuren moet<c type="kk">/</c> <lb n="301" xml:id="l-301"/>hoe eer hoe beter.– ’t Kanon is geladen<c type="kk">/</c> er is <lb n="302" xml:id="l-302"/>een groote bom in<c type="kk">/</c> dat weet ik wel doch ik moet de redoute nu <lb n="303" xml:id="l-303"/>evenwel op. Zij denken misschien dat mijn vrees voor de bom zoo <lb n="304" xml:id="l-304"/>groot is dat ik niet durf naderen<c type="kp">_</c> Dus zijn zij niet altijd <lb n="305" xml:id="l-305"/>op hun qui vive en waag ik het om stilletjes nader te komen<c type="kk">/</c> <lb n="306" xml:id="l-306"/>dan zien ze me in eens onverwacht digt bij! In haast <lb n="307" xml:id="l-307"/>vuren ze den bom af doch ik werp me plat op den grond<c type="kk">/</c> <lb n="308" xml:id="l-308"/>op hen voor hebbende dat ik bedaard ben en zij verrast. <lb n="309" xml:id="l-309"/>Mogelijk vliegt alsdan de bom onschadelijk over mij heen <lb n="310" xml:id="l-310"/>en dan als den bliksem de schans op. Intusschen<c type="kk">/</c> ge ziet <lb n="311" xml:id="l-311"/>het liefhebben is in de praktijk niet <hi rend="ital">enkel</hi> aardbeijen eeten.<anchor n="23" xml:id="note-o-23"/> <lb n="312" xml:id="l-312"/>Ik had het al lang gedaan als ik maar een tientje rijk geweest was. 
+<pb f="3r" n="10" xml:id="pb-orig-3r-10" facs="#zone-pb-3r-10"/>
+                    <lb n="313" xml:id="l-313"/>Echter moet ik de zekerheid hebben dat <hi rend="ital">zij</hi> als ik ga t’huis is<c type="kp">_</c> Nu ben ik <lb n="314" xml:id="l-314"/>in voortdurende correspondentie met ons zusje Willemien die op schildwacht <lb n="315" xml:id="l-315"/>staat en mij waarschuwen zal<c type="kp">_</c>
+                    <anchor n="24" xml:id="note-o-24"/> Want <hi rend="ital">zij</hi> gaat naar Haarlem en <lb n="316" xml:id="l-316"/>ik zal hooren van Wil wanneer <hi rend="ital">zij</hi> naar Amsterdam terug keert. Good, dear, <lb n="317" xml:id="l-317"/>true, old girl our sister is.–</ab>
+                <lb n="318" xml:id="l-318"/>
+<ab rend="indent">O Theo, <hi rend="ital">zij</hi>, is zoo diep maar dat ziet men <lb n="319" xml:id="l-319"/>zoo maar op eens niet! Zij, gij, ik, wij hebben allen <lb n="320" xml:id="l-320"/>een schors van ligtzinnigheid doch van binnen <lb n="321" xml:id="l-321"/>zit er een stam van vaster hout. En ’t hare is fijn <lb n="322" xml:id="l-322"/>van grein!</ab>
+                <lb n="323" xml:id="l-323"/>
+<ab rend="indent">Sedert den vloek van gisteren is er wat kalmte gekomen<c type="kk">/</c> ik <lb n="324" xml:id="l-324"/>schreef op een briefje “de man die mij vloekt<c type="kk">/</c> die mij naar een <lb n="325" xml:id="l-325"/>gekkenhuis wilde sturen<c type="kk">/</c> die mijne liefde “onkiesch” noemt<c type="kk">/</c> heeft <lb n="326" xml:id="l-326"/>die mij lief of niet, heeft hij een vaderhart in ’t lijf. En waarop <lb n="327" xml:id="l-327"/>grondt zich zijne “overtuiging” dat dingen als bovenstaanden <lb n="328" xml:id="l-328"/>“pligt” zijn”. Toen lag<anchor n="b" xml:id="note-o-b"/> ik dat strookje papier op Pa’s lessenaar <lb n="329" xml:id="l-329"/>en later in den dag kwam er verandering<c type="kp">_</c> </ab>
+                <lb n="330" xml:id="l-330"/>
+<ab rend="indent">Ik zeide toen op nieuw wat ik reeds dikwijls gezegd heb<c type="kk">/</c> dat Pa en Moe <lb n="331" xml:id="l-331"/>toch wel begrijpen moeten dat ik hun vijand niet ben, en <lb n="332" xml:id="l-332"/>niet met opzet om hun te grieven of te beleedigen hun tegenspreek <lb n="333" xml:id="l-333"/>maar daarom omdat ’t soms dringend noodig is om te trachten <lb n="334" xml:id="l-334"/>hun ’t een of ander uit te leggen waaromtrent mijn zienswijs van de <lb n="335" xml:id="l-335"/>hunne verschilt.</ab>
+                <lb n="336" xml:id="l-336"/>
+<ab rend="indent">Nu we zullen zien hoe ’t verder gaat.</ab>
+                <lb n="337" xml:id="l-337"/>
+<ab rend="indent">Heb weer een spitter begonnen<c type="kk">/</c> bezig op ’t veld om <lb n="338" xml:id="l-338"/>aardappels uit te steken<c type="kp">_</c> En daar is de entourage <lb n="339" xml:id="l-339"/>wat meer geattaqueerd. Boschjes op den achtergrond en <lb n="340" xml:id="l-340"/>een streep lucht.<anchor n="25" xml:id="note-o-25"/>
+                </ab>
+                <lb n="341" xml:id="l-341"/>
+<ab rend="indent">Kerel wat is het veld mooi! Als ik meer verdienen <lb n="342" xml:id="l-342"/>zal en meer kan spendeeren aan modellen zal <lb n="343" xml:id="l-343"/>ik nog heel andere dingen maken hoor!</ab>
+                <lb n="344" xml:id="l-344"/>
+<ab rend="indent">Doch ’t is hard werk voor de modellen ook<c type="kk">/</c> <lb n="345" xml:id="l-345"/>geloof dat. Te meer omdat de genen van wie <lb n="346" xml:id="l-346"/>ik me bedien geen modellen van beroep zijn en misschien des te beter daarom! <lb n="347" xml:id="l-347"/>Komt ge ooit in de gelegenheid om den een of ander er <lb n="348" xml:id="l-348"/>voor op te warmen dan geloof ik gij langzamerhand <lb n="349" xml:id="l-349"/>met eenige vrijmoedigheid over me kunt spreken. Maar <lb n="350" xml:id="l-350"/>om beter werk te kunnen maken zal ik langzamerhand <lb n="351" xml:id="l-351"/>nog wat meer aan modellen moeten uitgeven. <lb n="352" xml:id="l-352"/>Nu spendeer ik 20<c type="kk">/</c> 25<c type="kk">/</c> 30 cent per dag doch niet <hi rend="ital">alle</hi> dagen <lb n="353" xml:id="l-353"/>kan ik dat doen en eigentlijk is ’t niet genoeg en kon ik <lb n="354" xml:id="l-354"/>door wat meer uit te geven sneller vorderingen maken. <lb n="355" xml:id="l-355"/>Nu in den winter zal ik weinig buiten met model kunnen werken <lb n="356" xml:id="l-356"/>doch wel binnen en dat is ook mooi. A Dieu<c type="kk">/</c> ontvang in <lb n="357" xml:id="l-357"/>gedachten een hartelijken handdruk en geloof me</ab>
+<vg:whiteline/>
+                <lb n="357*" xml:id="l-357s"/>
+<ab>t. à t.</ab>
+                <lb n="358" xml:id="l-358"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note n="-">
+                        <hi rend="ital">-</hi>  <hi rend="ital">The letter consists of two parts. Van Gogh added a new sheet after the first signature in l. 202. The marginalia (l. 90-205) are all in the first part of the letter, so we have placed them before the second part (which starts on l. 206). The words ‘sympathie’, ‘ongeloovig’ and ‘Michelet’ (in l. 90, 162 and 203 respectively) are associated with lines 2, 217 and 167-200. It is possible, though, that the marginalia were added while the second part of the letter was being written, or after it had been completed.</hi>
+                    </note>
+<note target="l-31" targetEnd="l-33" n="31-33">
+                        <hi rend="ital">In the left margin on p. 1,</hi> <hi rend="ital">l. 1-30 (</hi>‘Beste <supplied>...</supplied> bevangen’<hi rend="ital">); inserted by us.</hi>
+                    </note>
+<note target="l-13" n="13">voldoende &lt; voldoene</note>
+<note target="l-23" n="23">genade!” &lt; genade!</note>
+<note target="l-44" n="44">‘Coeur &lt; Coeur</note>
+<note target="l-47" n="47">“Monsieur &lt; Monsieur</note>
+<note target="l-64" n="64">ik wil &lt; “ik wil</note>
+<note target="l-65" n="65">niet!” &lt; niet!</note>
+<note target="l-87" n="87">zoo &lt; Zoo</note>
+<note target="l-96" n="96">houden”.– &lt; houden.–</note>
+<note target="l-98" n="98">hoop”! &lt; hoop!</note>
+<note target="l-119" n="119">ongelooviger &lt; ongeloover</note>
+<note target="l-131" n="131">X &lt; X,</note>
+<note target="l-147" n="147">liefhebben. &lt; liefhebben.”</note>
+<note target="l-149" n="149">crepeeren”. &lt; crepeeren.</note>
+<note target="l-162" targetEnd="l-163" n="162-163">
+                        <hi rend="ital">In the left margin on p. 5, (</hi>‘Kortom <supplied>...</supplied> met U heb.–’, l. 131-161.</note>
+<note target="l-164" targetEnd="l-166" n="164-166">
+                        <hi rend="ital">In the right margin on p. 5</hi>.</note>
+<note target="l-203" n="203">
+                        <hi rend="ital">In the left margin on p. 6, (</hi>‘Ik voor mij <supplied>...</supplied> t.a.t. Vincent’<hi rend="ital">)</hi>, l. 167-202.</note>
+<note target="l-204" targetEnd="l-205" n="204-205">
+                        <hi rend="ital">In the right margin on p. 6</hi>.</note>
+<note target="l-204" n="204">klus kwijt &lt; <hi rend="ital">Variant of ‘de kluts kwijt’.</hi>
+                    </note>
+<note target="l-258" n="258">omstandigheden”. &lt; omstandigheden.</note>
+<note target="l-265" n="265">gelooven: &lt; gelooven</note>
+<note target="l-269" n="269">honderste &lt; <hi rend="ital">Variant of ‘honderdste’</hi>.</note>
+<note target="l-328" n="328">zijn”. &lt; zijn.</note>
+<note target="l-90" targetEnd="l-91" n="90-91">
+                        <hi rend="ital">In the left margin on p. 3, (</hi>‘Keer om! <supplied>...</supplied> hebben gehad’<hi rend="ital">)</hi>, l. 66-89g.</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>Dear brother,</ab>
+<ab>I just received your letter. Thanks for your sympathy, thanks for ‘the travelling money’.<anchor n="1" xml:id="note-t-1"/> I don’t think I’ve ever received money with more gratitude than that money from you, because it was so unbearable for me to think that if I did have to go I wouldn’t be able to. Now at least I have the assurance of being able to strike one more blow. Thanks for your opinion of my drawings, though it’s better than I deserve. Keep on writing to me about my work, don’t be afraid of hurting me with your criticism, I’ll consider such injuries proof of your sympathy, sympathy a thousand times more valuable than flattery. You write practical things, I must learn from you how to be practical, so <hi rend="ital">you have to preach to me a lot, for I don’t refuse to repent and need repentance so very much!</hi>
+                    <anchor n="2" xml:id="note-t-2"/>
+                </ab>
+<ab rend="indent">There’s a phrase in your letter that I’ll pick out and answer separately and immediately. I’ll copy your words. (Show me what I should believe in. Tell me if it’s enough to resign oneself when what one hoped would happen doesn’t happen, and instead of bringing about improvement withers one’s feelings.)</ab>
+<ab rend="indent">Resign oneself! God forbid! Truly not. Can you resign yourself to a kind of damnation? Wouldn’t you say, as I do, I who am a much greater sinner than you, that ‘even though I might deserve damnation, I in no way resign myself to it but shall strive for something better, for freedom and deliverance and mercy!’</ab>
+<ab rend="indent">
+                    <hi rend="ital">I say to you, I, Vincent, you, Theo, were not born for such resignation but for vigorous faith! Love, and stand in the freedom that love — but love concentrated on one person! — will release in you, and do not submit to that damned yoke of resignation.</hi> 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">Suppose that one day a certain young person, let’s call him ‘Mister X’, met a lady whom I’ll call Mrs She. X felt something beating ‘below the left nipple’, she too ‘below the left breast’.<anchor n="3" xml:id="note-t-3"/>
+                </ab>
+<ab rend="indent">They looked each other in the eyes and took a few hesitant steps, more or less decided. Then Mister X said, very forcefully (?), ‘It’s not possible’, adding not unsentimentally, ‘who am I to hazard such a thing?’</ab>
+<ab rend="indent">And <hi rend="ital">she</hi> said ‘you, “something”, i.e. the “woman’s heart” that beats beneath my left breast, why have you deceived me?’ When Mister X had turned his back on her, so bravely and righteously (he thought he was being ‘Mister Righteous’), thinking that he <hi rend="ital">could</hi> do it, he discovered to his great consternation that something appeared to have changed in the world, for behold, ‘<hi rend="ital">the heaven was of brass and the ground beneath his feet as of iron</hi>’.<anchor n="4" xml:id="note-t-4"/> He felt an unbearable thirst and knew not for what but thought he knew it was ‘certainly not for <hi rend="ital">her</hi>’. And he threw himself into his business affairs with all his fervour, with all his shrewdness, but that didn’t alter the fact that ‘the heaven remained of brass and the ground of iron’, and his heart within him hardened and grew numb from unspeakable distress.</ab>
+<ab rend="indent">And ‘she’, what do I know? – strong or weak, boisterous or serious, flippant or solemn, wretched in any case.</ab>
+<ab rend="indent">He was in a desert. She as well. He felt, ‘I’m withering’. She asked, ‘Why am I withering? I want to blossom! Bud! Live! O God! And poor me, I can’t! I’m not allowed to!’ 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/>
+                </ab>
+<ab rend="indent">Turn! Turn! Turn!<anchor n="5" xml:id="note-t-5"/> The desert is the grave of many who are ‘all too strong’ who have many a ‘faithful one’ in tow. Are these things so?<anchor n="6" xml:id="note-t-6"/> someone asks. Is the desert a reality or not? If it is – then it’s just as true that there’s a land of promise<anchor n="7" xml:id="note-t-7"/> where one doesn’t die but ‘stiffens’ as <rs type="pers" key="776">Kee Vos</rs> says, just as the plant that lets its head droop in the bright sunshine stiffens again in the evening dew. The way out of the desert is to return to her. The desert is fatal and endless if one simply hikes across it with his back turned to her, saying, I don’t need <hi rend="ital">either the dew or the stiffening</hi>.</ab>
+<ab rend="indent">But if she – wasn’t faithful – and ‘meanwhile’<anchor n="8" xml:id="note-t-8"/> took another, whether out of spite or because she yielded to ‘principalities and powers’,<anchor n="9" xml:id="note-t-9"/> fathers, aunts, brothers, friends who preach Jesuitisms. Go and see, if she isn’t married yet, whether or not she wants to be rescued, and if she prefers another to Mister X then she is what she is, but she wasn’t worthy of the man’s heart and man’s love of X. The man who loved her had been labouring under a delusion which I’d call taking a Brochart or something similar to be a <rs type="pers" key="878">Boughton</rs>, <rs type="pers" key="1227">Millais</rs> or <rs type="pers" key="1394">Tissot</rs>.<anchor n="10" xml:id="note-t-10"/> But I doubt whether it often happens to such as Theo and Vincent that they make such a huge mistake. Our gaze is steady, especially when we’ve had the figure before our eyes for a rather long time. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/>
+                </ab>
+<ab rend="indent">Second phrase in the letter from T. v. G. that requires an urgent answer and not a moment to lose.</ab>
+<ab rend="indent">‘Precisely because I know what the consequences of an irrevocably lost hope can be, I don’t dare (guess) commit myself unhesitatingly’.</ab>
+<ab rend="indent">Ugh! Who’s talking about an ‘irrevocably lost hope’! Nonsense, <hi rend="ital">the word</hi> ‘<hi rend="sc">irrevocable</hi>’ <hi rend="ital">doesn’t exist for the aforementioned T. v. G.,</hi> who hasn’t yet hoped seriously enough. So keep on hoping!!!</ab>
+<ab rend="indent">So have no doubts about being called a ‘lucky dog’,<anchor n="11" xml:id="note-t-11"/> because it suits you very well indeed, although those who were so busy baptizing you with that name possibly had a small Jesuitical grain of mustard seed<anchor n="12" xml:id="note-t-12"/> in them and foresaw a possible downfall. But I say that you won’t fall, and if you do fall, so be it, it will only be in order to stand up again, <hi rend="ital">having consolidated your position as lucky dog</hi>. But that much more consolidated position as lucky dog must have as a basis ‘<hi rend="ital">the bottom that is good</hi>’,<anchor n="13" xml:id="note-t-13"/> and you know what I mean by that. A position with ‘something good at bottom’ cannot endure in the long run. Still, trample the not-committing-yourself underfoot. Be assured, though, that he who addresses a girl in such a way that he really and truly awakens something new in her, namely love, and awakens her or brings her back to real life, will always be damned and hated by many who are, on the face of it, kindly.</ab>
+<ab rend="indent">As far as the <rs type="pers" key="318">Rev. Dr J.P.S.</rs> is concerned, in my opinion he has <hi rend="ital">false</hi> shame but, what’s more, a measure of real shame in his good moments. There are (a rule with exceptions) no more faithless and hardened and worldly people than clergymen and, above all, clergymen’s wives, but even clergymen sometimes have a human heart beneath their armour of triple bronze.<anchor n="14" xml:id="note-t-14"/>
+                </ab>
+<ab rend="indent">Regarding <rs type="pers" key="524 526">Pa and Ma</rs>. A man has two kinds of enemies, firstly his entrenched enemies, secondly his friends. Furthermore, he has two kinds of friends, firstly his friends and secondly his enemies, the latter sometimes doing him many favours without this actually having been their intention. The ‘key to the front door’ is an enemy that sometimes helps more than anyone: close the door in his face and he’ll come in through the window!<anchor n="15" xml:id="note-t-15"/> 
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/> In short, only <hi rend="ital">then</hi>, in my opinion, would Mister X be in trouble, if <hi rend="ital">both she and he</hi> had intended it, if only for a moment – and <hi rend="ital">she</hi> being married, that notwithstanding.</ab>
+<ab rend="indent">If both she and he felt the beating of something extraordinary beneath the left nipple and the left breast, and if the ‘principalities and powers’ <hi rend="ital">make it appear</hi> as though she’s accepted someone else, then there’s still at least a chance for Mr X. And Mr X would do well to take thorough stock of the situation and not rest before speaking to <hi rend="ital">her</hi> face to face.</ab>
+<ab rend="indent">If Mr X is ‘in the desert’ and <hi rend="ital">she</hi> is free, he must return to her like a shot. The desert is only fatal, I think, if he has said from spite and obduracy of heart, ‘I don’t want to love her. Rather than go to her, I prefer to die and she must die too.’</ab>
+<ab rend="indent">If <hi rend="ital">he</hi> is in the desert and she is free, then the desert will blossom as the rose<anchor n="16" xml:id="note-t-16"/> very shortly after <hi rend="ital">he</hi> turns around. For if she still hadn’t taken another, then she loved him, whether she knew it or not. Perhaps there’s something inconsistent about the various cases I mentioned there, but I prefer to leave the inconsistency rather than spoil the sentiment by searching for the correct words. If you have a love story, speak about it openly and trust in my discretion. In fact I don’t rightly know how I stand with you. 
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/>
+                </ab>
+<ab rend="indent">For my part, <hi rend="ital">père</hi> <rs type="pers" key="707">Michelet</rs> does me a lot of good.</ab>
+<ab rend="indent">Read in any case L’amour and La femme and, if you can get hold of it, My wife and I and Our neighbours by <rs type="pers" key="1465">Beecher Stowe</rs>. Or Jane Eyre and Shirley by <rs type="pers" key="534">Currer Bell</rs>. Those people can tell you many more things much more clearly than I can.</ab>
+<ab rend="indent">One has to have loved, then fallen out of love, then love again! Go on loving all the same,<anchor n="17" xml:id="note-t-17"/> if we were to say ‘I’ll never love again’, this misconception would be ‘irrevocable’. It stops with the ceasing of our unwillingness. Is there ‘despair’ and ‘irreparable desolation’?<anchor n="18" xml:id="note-t-18"/> Possibly, but I actually don’t believe for a minute that you or I were born for that; on the contrary, I think we were born for a bottom that is good, namely that attainment of our respective ‘her and no other’.<anchor n="19" xml:id="note-t-19"/>
+                </ab>
+<ab rend="indent">Were I not ‘one who has been down’ but, on the contrary, one who had always stood firmly in his shoes, I’d be less than worthless to you, but because I’ve been in that mysterious, deep pit of heartache, there’s a slight chance that I can tell you something useful regarding some affair of the heart.</ab>
+<ab rend="indent">I come to you with my drawings and practical matters to be healed, and who knows whether for my part I can’t be of some use with respect to difficulties in love. However, you still don’t know how much power to love there is in you before you’ve started revealing it to the world. First of all, though, we must say, no matter what, happy or unhappy, <hi rend="ital">I want to go on loving! </hi>Thanks, old chap, for the travelling money! Very good of you! And very humane! Accept a handshake in thought, believe me always</ab>
+<vg:whiteline/>
+<ab>Ever yours</ab>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<ab>Theo, <rs type="pers" key="423">Uncle Cent</rs> really has sympathy for me, but that doesn’t alter the fact that I think he’s done me more harm than good with respect to <rs type="pers" key="318">J.P.S.</rs>
+                </ab>
+<vg:whiteline/>
+<ab>Even though you so mistakenly call yourself unbelieving, and perhaps think that you’re a materialist, even so you’re actually the first man who, if I dare to attack him forcefully, takes it well and comes back without anger.</ab>
+<vg:whiteline/>
+<ab>Although perhaps you now think that I’m rather strong in some ways, you’ll find me very ignorant and uneducated in a thousand other things. Alas, we become so one-sided in this fast-paced, hectic modern life.</ab>
+<vg:whiteline/>
+<ab>Read <rs type="pers" key="707">Michelet</rs> over again!</ab>
+<vg:whiteline/>
+<ab>
+                    <rs type="pers" key="524 526">Pa and Ma</rs> get annoyed again and again at words and expressions of mine or <hi rend="ital">their tone</hi>, and are often confused as to my actual meaning and think that I want to insult or distress them.</ab>
+<vg:whiteline/>
+<ab>
+<pb f="3r" n="7" xml:id="pb-trans-3r-7" facs="#zone-pb-3r-7"/>
+                </ab>
+<ab>Listen once more, Theo, it’s an important matter.</ab>
+<ab rend="indent">Should such as you and I doubt ourselves? No. Truly not any longer. We really wouldn’t want to discover at the end of our lives that we’d gone through the world like sleep-walkers. God forbid.</ab>
+<ab rend="indent">Now it’s as clear as day to me that it’s both your duty and mine to make sure that we not only love but also marry. For this we must give proof of choosing sides and having principles and believing. You call yourself unbelieving. I beg your pardon? That you aren’t.</ab>
+<ab rend="indent">We now stand as adults, as soldiers in the ranks of our generation. We don’t belong to the one <rs type="pers" key="524 526">Pa and Ma</rs> and <rs type="pers" key="318">J.P.S.</rs> belong to, we must be more faithful to the modern than to the old. Looking back at the old is fatal. We mustn’t get upset if the older generation doesn’t understand us, and we must go our own way, even going against their wishes. Later on they’ll say, yes, you were right after all! I tell you what I tell myself: the time for action and energy has come, now more than ever. So put your hand to the plough!<anchor n="20" xml:id="note-t-20"/> Being strong, one becomes strong. Believing, one learns to believe. Loving, one learns to love.</ab>
+<ab rend="indent">We can do our <hi rend="ital">duty</hi> no better than by loving sincerely (not naїvely or sentimentally, but manfully) and by loving only one in particular. In doing this we also show what we think of those who feel they can love more than one. The men and women who 
+<pb f="3v" n="8" xml:id="pb-trans-3v-8" facs="#zone-pb-3v-8"/> may be considered to stand at the forefront of modern civilization, for instance, <rs type="pers" key="707">Michelet</rs> and <rs type="pers" key="1465">Beecher Stowe</rs>, <rs type="pers" key="563">Carlyle</rs> and <rs type="pers" key="590">George Eliot</rs>, and how many others, they call to us, ‘O man, whoever you are, who has a heart in his body, help us to establish something real, something enduring, something true, concentrate on one occupation and love one woman.</ab>
+<ab rend="indent">Let your occupation be a modern one, and create in your wife a free, modern soul, free her of the terrible prejudices that restrain her. Do not doubt the help of God if you do what God wants you to do, and in this day and age God wants the world to be reformed by reforming morals, by renewing the light and the fire of eternal love.</ab>
+<ab rend="indent">By such means you will succeed, and you will also exert a good influence in your sphere, smaller or larger depending on your circumstances.’ You see, in my opinion those are the words that, by and large, <rs type="pers" key="707">Michelet</rs> says to us.</ab>
+<ab rend="indent">Why the hell should you and I be afraid of the key to the front door? Should you and I hesitate to propose to a girl, and should we doubt that in the end we’ll succeed? Certainly it’s presumptuous to feel sure of one’s success, and yet one may believe: my inner struggle will not be in vain, and I want to fight it; despite all my own weaknesses and faults I want to fight it as best I can.</ab>
+<ab rend="indent">Even if I fall down 99 times, the hundredth time, too, I’ll get up! And why does one talk about ‘a means of subsistence’ as though I had none? What artist hasn’t struggled and toiled, and what other way is there than struggling and toiling to find firm ground beneath one’s feet? And since when can someone with a draughtsman’s fist not earn anything? 
+<pb f="3v" n="9" xml:id="pb-trans-3v-9" facs="#zone-pb-3v-9"/>
+                </ab>
+<ab rend="indent">
+                    <rs type="pers" key="318">J.P.S.</rs> <hi rend="ital">has</hi> something good – and even though he’ll sometimes be furious at me and will perhaps curse me as well, his anger will not burn for ever.<anchor n="21" xml:id="note-t-21"/>
+                </ab>
+<ab rend="indent">Yet I won’t win it all at once, not even if I win it all at once in the eyes of some. Just between you and me — I don’t think it at all impossible that, despite their grand appearance, the financial position of<rs type="pers" key="318"> J.P.S.</rs> isn’t so very good after all. All the more reason, if he were completely worldly, to let his daughter make a good match, though J.P.S. and <rs type="pers" key="526">T. v. G.</rs> at Etten are, in spite of their position as clergymen, people as well and not UTTERLY WORLDLY. How do I know that? – because I think the same as J.P.S. about many things, but because I belong to a younger generation I go somewhat further and let go of things that His Honour still clings to.</ab>
+<ab rend="indent">
+                    <rs type="pers" key="318">J.P.S.</rs> is more liberal in his views than <rs type="pers" key="526">Pa</rs>, but both remain standing in front of a wall that <rs type="pers" key="1465">Beecher Stowe</rs> and <rs type="pers" key="707">Michelet</rs> have torn down in places, and neither Pa nor J.P.S. know those places because they haven’t delved deeply enough into new ideas. So I’m not afraid of J.P.S., though I admit there’s a chance I’ll make the acquaintance of the front-door key and perhaps of his G. damn you.<anchor n="22" xml:id="note-t-22"/> But if that must happen, the sooner the better. The cannon is loaded, there’s a large bombshell in it, I know that and yet I must man the redoubt nonetheless. Perhaps they think that my fear of the bombshell is so great that I don’t dare approach. So they’re not always on the <hi rend="ital">qui vive</hi>, and if I venture to go nearer quietly, then they unexpectedly see me close by! In haste they fire the bombshell, but I throw myself flat on the ground, being at an advantage because I’m calm and they’re surprised. Perhaps then the bombshell flies over me harmlessly, and then like lightning to the redoubt. Meanwhile, you see that loving is in practice not <hi rend="ital">only</hi> eating strawberries.<anchor n="23" xml:id="note-t-23"/> I’d have done it a long time ago if only I’d had ten guilders. 
+<pb f="3r" n="10" xml:id="pb-trans-3r-10" facs="#zone-pb-3r-10"/> I must be certain, though, that if I go <hi rend="ital">she</hi> will be at home. I’m now corresponding continuously with our sister <rs type="pers" key="407">Willemien</rs>, who’s on sentry duty and will warn me.<anchor n="24" xml:id="note-t-24"/> Because <hi rend="ital">she</hi> is going to Haarlem and I’ll hear from Wil when <hi rend="ital">she</hi> is returning to Amsterdam. Good, dear, true old girl our sister is.</ab>
+<ab rend="indent">Oh Theo, <hi rend="ital">she</hi> has such depth, but one doesn’t see it right away! She, you, I, we all have an outer layer, a bark of lightheartedness, but inside there’s a trunk of harder wood. And hers is fine-grained!</ab>
+<ab rend="indent">Since yesterday’s curse some calm has set in, I wrote on a piece of paper, ‘the man who curses me, who wanted to send me to a madhouse, who calls my love “indelicate”, does he love me or not, does he have a father’s heart in his body? And on what does he base his “conviction” that the above-mentioned things are his “duty”?’ I then laid that scrap of paper on <rs type="pers" key="526">Pa</rs>’s reading-desk and later in the day a change set in.</ab>
+<ab rend="indent">I then said again what I’ve already said many times, that <rs type="pers" key="526 524">Pa and Ma</rs> simply must understand that I’m not their enemy, and don’t contradict them with the intention of distressing or insulting them but because it’s sometimes urgently necessary to try and explain to them why my way of thinking differs from theirs.</ab>
+<ab rend="indent">Now we’ll see how things develop.</ab>
+<ab rend="indent">Have started another digger, busy digging up potatoes in the field. And there the surroundings are dealt with more thoroughly. Woods in the background and a strip of sky.<anchor n="25" xml:id="note-t-25"/>
+                </ab>
+<ab rend="indent">How beautiful the field is, old chap! When I earn more and can spend more on models, I’ll make entirely different things, you’ll see!</ab>
+<ab rend="indent">But it’s hard work for the models too, believe me. The more so because those I use aren’t professional models, and perhaps that’s all the better! If you ever have the chance to get someone interested, I believe you can gradually start talking about me forthrightly. But in order to make better work, I’ll eventually have to start spending more on models. Now I spend 20, 25, 30 cents a day, though I can’t do that <hi rend="ital">every</hi> day, but it’s actually not enough, and I could make more rapid progress by spending a little more. Now in the winter I won’t be able to work out of doors with a model very much, though I can indoors, and that’s also good. Adieu, accept a hearty handshake in thought, and believe me</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>Van Gogh had asked for this money in <ref target="let183.xml">letter 183</ref>.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Hos" chap="11" v="5">Hos. 11:5</bibleref> and <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Luke" chap="15" v="7">Luke 15:7</bibleref>.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>In <rs type="lit" key="12">
+                            <hi rend="ital">La femme</hi>
+                        </rs> <rs type="pers" key="707">Jules Michelet</rs> uses the phrase ‘something that beats under the left breast’ (quelque chose qui batte sous la mamelle gauche) (Michelet 1863, p. 13).</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Deut" chap="28" v="23">Deut. 28:23</bibleref>.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Song of Sol" chap="2" v="17">Song of Sol. 2:17</bibleref>.</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Acts" chap="7" v="1">Acts 7:1</bibleref>.</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Heb" chap="11" v="9">Heb. 11:9</bibleref>.</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>Ironical reference to a remark made by <rs type="pers" key="318">Uncle Stricker</rs>; <ref target="let180.xml">see letter 180</ref>.</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>Biblical. Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Col" chap="1" v="16">Col. 1:16</bibleref>.</ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>The same analogy occurs in <ref target="let183.xml">letter 183</ref>.</ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>Vincent calls Theo a ‘lucky dog’ in <ref target="let182.xml">letter 182</ref> as well.</ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+<ab>Biblical.</ab>
+                </note>
+<note n="13" xml:id="n-13" target="#note-t-13">
+<ab>This phrase also occurs in <ref target="let183.xml">letter 183</ref>.</ab>
+                </note>
+<note n="14" xml:id="n-14" target="#note-t-14">
+<ab>Possibly an allusion to the ‘armour of God’ in <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Eph" chap="6" vr="11-13">Eph. 6:11-13</bibleref>.</ab>
+                </note>
+<note n="15" xml:id="n-15" target="#note-t-15">
+<ab>Taken from <rs type="pers" key="602">La Fontaine</rs>, <rs type="lit" key="120">
+                            <hi rend="ital">Fables</hi>
+                        </rs> (<hi rend="sc">ii</hi>, 18): ‘If you shut the door in its face, it will come back through the windows’ (Qu’on lui ferme la porte au nez, il reviendra par les fenêtres).</ab>
+                </note>
+<note n="16" xml:id="n-16" target="#note-t-16">
+<ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Isa" chap="35" v="1">Isa. 35:1</bibleref>.</ab>
+                </note>
+<note n="17" xml:id="n-17" target="#note-t-17">
+  <ab>Taken from <rs type="pers" key="707">Michelet</rs>’s <rs type="lit" key="11">
+                            <hi rend="ital">L’amour</hi>
+                        </rs> and <rs type="lit" key="12">
+                            <hi rend="ital">La femme</hi>
+                        </rs>; <ref target="let180.xml#n-2">see letter 180, n. 2.</ref> In <hi rend="ital">
+                            <rs type="lit" key="592">My wife and I</rs>
+                        </hi>  (1872) and its sequel, <hi rend="ital">
+                            <rs type="lit" key="519">We and our neighbours</rs>
+                        </hi> (<ref target="RM12.xml#n-1">see RM12, n. 1</ref>), <rs type="pers" key="1465">Beecher-Stowe</rs> spoke up for women as a disadvantaged group in society. For <hi rend="ital">
+                            <rs type="lit" key="217">Jane Eyre</rs>
+                        </hi> and <hi rend="ital">
+                            <rs type="lit" key="216">Shirley</rs>
+                        </hi> by <rs type="pers" key="534">Currer Bell</rs> (pseudonym of Charlotte Brontë), <ref target="let170.xml#n-5">see letter 170, n. 5</ref>.</ab>
+                </note>
+  <note n="18" xml:id="n-18" target="#note-t-18">
+<ab>Cf. the ‘désolation’ passage quoted from <rs type="pers" key="707">Michelet</rs> in <ref target="let181.xml#n-8">letter 181, n. 8.</ref>
+                    </ab>
+                </note>
+<note n="19" xml:id="n-19" target="#note-t-19">
+  <ab>Taken from <rs type="pers" key="707">Michelet</rs>’s <rs type="lit" key="11">
+                            <hi rend="ital">L’amour</hi>
+                        </rs>; <ref target="let180.xml#n-5">see letter 180, n. 5.</ref>
+                    </ab>
+                </note>
+<note n="20" xml:id="n-20" target="#note-t-20">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Luke" chap="9" v="62">Luke 9:62</bibleref>.</ab>
+                </note>
+<note n="21" xml:id="n-21" target="#note-t-21">
+<ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Jer" chap="17" v="4">Jer. 17:4</bibleref> and <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Micah" chap="7" v="18">Micah 7:18</bibleref>.</ab>
+                </note>
+<note n="a" xml:id="n-a" target="#note-o-a">
+<ab>Meaning ‘er slecht voorstaan’ (to be in bad shape, to be in a bad way).</ab>
+                </note>
+<note n="22" xml:id="n-22" target="#note-t-22">
+<ab>Read: ‘God’.</ab>
+                </note>
+<note n="23" xml:id="n-23" target="#note-t-23">
+<ab>Comparing being in love to eating strawberries is something that originated with Theo (<ref target="let182.xml">see letter 182</ref>).</ab>
+                </note>
+<note n="24" xml:id="n-24" target="#note-t-24">
+<ab>On 15 November 1881 <rs type="pers" key="407">Willemien</rs> had moved to Haarlem with the family she worked for as a governess (<ref target="let168.xml">see letter 168</ref> and <hi rend="ital">GAW</hi>).</ab>
+                </note>
+<note n="b" xml:id="n-b" target="#note-o-b">
+<ab>Read: ‘legde’ (laid).</ab>
+                </note>
+<note n="25" xml:id="n-25" target="#note-t-25">
+<ab>This drawing has probably not been preserved. For the extant drawings of diggers made by Van Gogh in Etten, <ref target="let172.xml#n-2">see letter 172, n. 2.</ref>
+                    </ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

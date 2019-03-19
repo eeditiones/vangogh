@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Isleworth, Monday, 3 or Tuesday, 4 July 1876.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let085"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">085</idno>
+<idno type="collectedletters">70</idno>
+<idno type="brieven1990">083</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Isleworth</vg:placeLet>
+                        <vg:dateLet>Monday, 3 or Tuesday, 4 July 1876</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. Isleworth, Monday, 3 or Tuesday, 4 July 1876.</p>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b83 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Between writing this letter and <ref target="let084.xml">letter 84</ref> of 17 June, Van Gogh spent some time in Welwyn, travelled from there to his new address in Isleworth, and visited London ‘a couple of times’ <ref target="#l-38">(l. 38)</ref>. All this must have taken several days in the week from 18 to 24 June, which was ‘last week’ at the time this letter was written (<ref target="#l-38">l. 38</ref> and <ref target="#l-74">l. 74</ref>), which must therefore have been some time after c. 25 June. This letter also mentions the fact that Mr Stokes cannot offer Vincent a salary <ref target="#l-50">(l. 50)</ref>; on 5 July, however, Mr and Mrs van Gogh had received word that Stokes had meanwhile offered to pay Vincent 25 shillings a month (FR b2757). This offer was therefore made at the latest on 4 July 1876, before which date the present letter must have been written.</p>
+<p rend="indent">The date of 5 July that Jo van Gogh-Bonger gave in <hi rend="ital">Brieven</hi> 1914 cannot therefore be the date the letter was sent. If she was relying on a postmark it must have been the date of receipt. We have accordingly dated this letter to Monday, 3 or Tuesday, 4 July 1876.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0083" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000086_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000086_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000086_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000086_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000086_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000086_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="VGM001000086_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000086_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000086_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0083" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000086_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000086_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000086_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000086_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000086_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000086_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000086_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000086_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000086_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Isleworth.<anchor n="1" xml:id="note-o-1"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="2" xml:id="l-2"/>
+<ab>Waarde Theo,</ab>
+                <lb n="3" xml:id="l-3"/>
+<ab>Er zouden wel eens dagen kunnen komen <lb n="4" xml:id="l-4"/>waarin ik met een zekeren weemoed zal <lb n="5" xml:id="l-5"/>terugzien op de “vetpotten van Egypte”<anchor n="2" xml:id="note-o-2"/> verbonden <lb n="6" xml:id="l-6"/>aan andere betrekkingen<c type="kk">/</c> n.l. het meer geld <lb n="7" xml:id="l-7"/>verdienen en het in menig opzicht meer in <lb n="8" xml:id="l-8"/>aanzien zijn in de wereld,─ dat voorzie ik.─ <lb n="9" xml:id="l-9"/>Wel is er “overvloed van brood”<anchor n="3" xml:id="note-o-3"/> in de huizen <lb n="10" xml:id="l-10"/>waar ik voortgaande op den weg dien ik <lb n="11" xml:id="l-11"/>begon zal komen; maar geen overvloed <lb n="12" xml:id="l-12"/>van geld.─</ab>
+                <lb n="13" xml:id="l-13"/>
+<ab rend="indent">En toch zie ik zoo duidelijk licht in het <lb n="14" xml:id="l-14"/>verschiet en als dat licht nu en dan <lb n="15" xml:id="l-15"/>verdwijnt dan is dat meest door mijne <lb n="16" xml:id="l-16"/>eigene schuld.─</ab>
+                <lb n="17" xml:id="l-17"/>
+<ab rend="indent">Zeer de vraag is het of ik het ver zal brengen <lb n="18" xml:id="l-18"/>in dit vak, of die 6 jaren doorgebracht in <lb n="19" xml:id="l-19"/>het huis van Mess<hi rend="ss">rs</hi> Goupil &amp; C<hi rend="ss">o</hi> gedurende <lb n="20" xml:id="l-20"/>welke ik mij voor <hi rend="ital">deze</hi> betrekking had moeten <lb n="21" xml:id="l-21"/>bekwamen mij niet altijd als het ware zwaar <lb n="22" xml:id="l-22"/>in de maag zullen liggen.─</ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="23" xml:id="l-23"/>
+<ab rend="indent">Ik geloof echter ik in geen geval meer <lb n="24" xml:id="l-24"/>kan terugtreden, zelfs al zou een gedeelte van <lb n="25" xml:id="l-25"/>mij zelven, (<hi rend="ital">later</hi>
+                    <c type="kk">/</c>
+                    <hi rend="ital"> nu is dat het geval nog niet</hi>) <lb n="26" xml:id="l-26"/>dat willen.─ Het is mij dezer dagen als <lb n="27" xml:id="l-27"/>of er geen andere betrekkingen meer op de <lb n="28" xml:id="l-28"/>wereld waren dan die van schoolmeester <lb n="29" xml:id="l-29"/>tot predikant met al wat daar tusschenligt<c type="kk">/</c> <lb n="30" xml:id="l-30"/>zendeling<c type="kk">/</c> “London-missionary”<anchor n="4" xml:id="note-o-4"/> &amp;c<c type="kp">_</c> &amp;c.</ab>
+                <lb n="31" xml:id="l-31"/>
+<ab rend="indent">London missionary is wel eene eigenaardige<anchor n="a" xml:id="note-o-a"/> <lb n="32" xml:id="l-32"/>betrekking geloof ik, men moet rondgaan <lb n="33" xml:id="l-33"/>onder de arbeiders en armen om den Bijbel <lb n="34" xml:id="l-34"/>te verspreiden en als men wat ondervinding <lb n="35" xml:id="l-35"/>heeft met hen te spreken; vreemdelingen die <lb n="36" xml:id="l-36"/>werk zoeken of andere personen die in een of andere verlegenheid <lb n="37" xml:id="l-37"/>zijn<c type="kk">/</c> opsporen en zoeken te helpen enz<c type="kp">_</c> enz. <lb n="38" xml:id="l-38"/>Verl. week ben ik een paar keer naar <lb n="39" xml:id="l-39"/>London geweest om te onderzoeken of er <lb n="40" xml:id="l-40"/>mogelijkheid is om dat te worden.<anchor n="5" xml:id="note-o-5"/> Doordat <lb n="41" xml:id="l-41"/>ik verschillende talen spreek en nog al vooral <lb n="42" xml:id="l-42"/>te Parijs en Londen met menschen van de <lb n="43" xml:id="l-43"/>armere standen en vreemdelingen <lb n="44" xml:id="l-44"/>heb omgegaan, en ook zelf een vreemdeling <lb n="45" xml:id="l-45"/>was<c type="kk">/</c> zou ik daar wel voor geschikt kunnen 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                    <lb n="46" xml:id="l-46"/>zijn en dat meer en meer kunnen worden.─</ab>
+                <lb n="47" xml:id="l-47"/>
+<ab rend="indent">Men moet daarvoor echter minstens 24 jaar oud <lb n="48" xml:id="l-48"/>zijn en in elk geval heb ik dus nog een jaar <lb n="49" xml:id="l-49"/>vóór mij.</ab>
+                <lb n="50" xml:id="l-50"/>
+<ab rend="indent">Mr. Stokes zegt bepaald hij mij geen salaris kan geven <lb n="51" xml:id="l-51"/>daar hij genoeg anderen kan krijgen alleen <lb n="52" xml:id="l-52"/>tegen kost en inwoning, en dat is ook zoo.─ <lb n="53" xml:id="l-53"/>Maar zal dat vol te houden zijn? ik vrees <lb n="54" xml:id="l-54"/>van niet; het zal zich spoedig genoeg <lb n="55" xml:id="l-55"/>beslissen.─</ab>
+                <lb n="56" xml:id="l-56"/>
+<ab rend="indent">Maar jongen, hoe dit ook zij, dit meen <lb n="57" xml:id="l-57"/>ik U nog eens te kunnen zeggen<c type="kk">/</c> dat die paar <lb n="58" xml:id="l-58"/>maanden mij zoo hebben gebonden aan <lb n="59" xml:id="l-59"/>die levenssfeer die zich uitstrekt van schoolmeester tot predikant<c type="kk">/</c> <lb n="60" xml:id="l-60"/>zoowel door genoegens aan die betrekkingen <lb n="61" xml:id="l-61"/>verbonden als door doorns die mij geprikt <lb n="62" xml:id="l-62"/>hebben<c type="kk">/</c> dat ik niet meer terug kan.<anchor n="6" xml:id="note-o-6"/>
+                </ab>
+                <lb n="63" xml:id="l-63"/>
+<ab rend="indent">Dus vooruit! Dat zich zeer eigenaardige <lb n="64" xml:id="l-64"/>moeielijkheden reeds dadelijk vertoonen <lb n="65" xml:id="l-65"/>en men andere in ’t verschiet ziet en men <lb n="66" xml:id="l-66"/>als in een ander element is als de zaak <lb n="67" xml:id="l-67"/>van Mess<hi rend="ss">rs</hi> Goupil &amp; C<hi rend="ss">o</hi>
+                    <c type="kk">/</c> dat verzeker ik U.─</ab>
+                <lb n="68" xml:id="l-68"/>
+<ab rend="indent">Krijg ik die <hi rend="ital">kleine</hi> gravures (zoo als Pa en Moe ze hebben) Christus conso<c type="shy">-</c>
+                    <lb n="69" xml:id="l-69"/>lator en Remunerator<anchor n="7" xml:id="note-o-7"/> die Gij mij hebt beloofd? <lb n="70" xml:id="l-70"/>Schrijf eens spoedig als Gij een oogenblikje <lb n="71" xml:id="l-71"/>vinden kunt, maar stuur Uw brief aan Pa en Moe <lb n="72" xml:id="l-72"/>daar mijn adres mogelijk spoedig verandert en <lb n="73" xml:id="l-73"/>Pa en Moe het het eerste zal<anchor n="b" xml:id="note-o-b"/> weten.─</ab>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                <lb n="74" xml:id="l-74"/>
+<ab rend="indent">Verl. week ben ik te Hampton Court geweest om de <lb n="75" xml:id="l-75"/>prachtige tuinen en lange lanen van kastanje- <lb n="76" xml:id="l-76"/>en lindeboomen te zien waar eene massa <lb n="77" xml:id="l-77"/>kraaijen en roeken hunne nesten hebben en <lb n="78" xml:id="l-78"/>ook het paleis en de schilderijen te zien.─<anchor n="8" xml:id="note-o-8"/> Daar <lb n="79" xml:id="l-79"/>zijn o.a<c type="kp">_</c> veel portretten van Holbein die zeer <lb n="80" xml:id="l-80"/>mooi zijn,<anchor n="9" xml:id="note-o-9"/> en twee mooie Rembrandts <lb n="81" xml:id="l-81"/>(’t portret van zijne vrouw en dat van een Rabbi)<anchor n="10" xml:id="note-o-10"/> en <lb n="82" xml:id="l-82"/>ook mooie Italiaansche portretten van Bellini<c type="kk">/</c>
+                    <anchor n="11" xml:id="note-o-11"/> <lb n="83" xml:id="l-83"/>Titiaan<c type="kk">/</c>
+                    <anchor n="12" xml:id="note-o-12"/> een sch<hi rend="ss">ij</hi> van Leonard da Vinci,<anchor n="13" xml:id="note-o-13"/> kartons <lb n="84" xml:id="l-84"/>van Mantegna,<anchor n="14" xml:id="note-o-14"/> een mooi Sch<hi rend="ss">ij</hi> van S. Ruijsdael<c type="kk">/</c>
+                    <anchor n="15" xml:id="note-o-15"/> <lb n="85" xml:id="l-85"/>vruchten van Cuijp<anchor n="16" xml:id="note-o-16"/> enz. enz.</ab>
+                <lb n="86" xml:id="l-86"/>
+<ab rend="indent">Ik had wel gewild gij daar ook waart geweest<c type="kk">/</c> <lb n="87" xml:id="l-87"/>het was pleizierig om weer eens schilderijen <lb n="88" xml:id="l-88"/>te zien.─</ab>
+                <lb n="89" xml:id="l-89"/>
+<ab rend="indent">En onwillekeurig dacht ik levendig aan de personen die daar <lb n="90" xml:id="l-90"/>te Hampton Court geleefd hebben ook, aan Karel I en <lb n="91" xml:id="l-91"/>Zijne vrouw<anchor n="17" xml:id="note-o-17"/> (Dat was die die zei “je Te remercie mon Dieu <lb n="92" xml:id="l-92"/>de m’avoir fait Reine, mais Reine malheureuse”<anchor n="18" xml:id="note-o-18"/> en <lb n="93" xml:id="l-93"/>bij wier graf Bossuet sprak<anchor n="19" xml:id="note-o-19"/> uit den overvloed zijns <lb n="94" xml:id="l-94"/>harten<c type="kp">_</c>
+                    <anchor n="20" xml:id="note-o-20"/> Hebt gij “Bossuet<c type="kk">/</c> Oraisons funèbres”<c type="kk">/</c> daar vindt <lb n="95" xml:id="l-95"/>gij die lijkrede in, er is eene zeer goedkoope uitgave<c type="kk">/</c> <lb n="96" xml:id="l-96"/>ik meen 50 centimes)<anchor n="21" xml:id="note-o-21"/> en ook aan Lord en Lady <lb n="97" xml:id="l-97"/>Russell die daar zeker wel dikwijls geweest zullen <lb n="98" xml:id="l-98"/>zijn<c type="kp">_</c> (Guizot beschreef hun leven in L’amour dans le <lb n="99" xml:id="l-99"/>mariage<c type="kp">_</c>
+                    <anchor n="22" xml:id="note-o-22"/> Lees dat eens als Gij het machtig kunt worden<c type="kp">_</c>) <lb n="100" xml:id="l-100"/>Hierbij een veertje van een van de roeken daar.</ab>
+                <lb n="101" xml:id="l-101"/>
+<ab rend="indent">Schrijf eens spoedig als gij kunt, ik verlang er <lb n="102" xml:id="l-102"/>naar en geloof mij na een handdruk in <lb n="103" xml:id="l-103"/>gedachten</ab>
+<vg:whiteline/>
+                <lb n="103*" xml:id="l-103s"/>
+<ab>Uw liefh. broer</ab>
+                <lb n="104" xml:id="l-104"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+                <lb n="105" xml:id="l-105"/>
+<ab>Bij al mijn gevoel dat ik tekort kom en dat <lb n="106" xml:id="l-106"/>in veel opzichten mij het voor de betrekking die <lb n="107" xml:id="l-107"/>ik heb, en voor die daar mee in verband die ik <lb n="108" xml:id="l-108"/>op het oog heb, vereischte ontbreekt<c type="kk">/</c> heb ik toch ook tegelijk zoo’n <lb n="109" xml:id="l-109"/>gevoel van dankbaarheid<c type="kk">/</c> van hoop en als van ver<c type="shy">-</c>
+                    <lb n="110" xml:id="l-110"/>lossing! en: vrijheid! bij allerlei banden<c type="kk">/</c> en de gedachte aan <lb n="111" xml:id="l-111"/>God blijft mij ondanks nieuwe gebreken die bij mij opkomen <lb n="112" xml:id="l-112"/>sterker en blijft mij meer bij.─</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-30" n="30">“London-missionary” &lt; “London-missionary</note>
+<note target="l-50" n="50">bepaald &lt; bepaalt</note>
+<note target="l-64" n="64">vertonen &lt; zich vertonen</note>
+<note target="l-75" n="75">kastanje- &lt; kastanje</note>
+<note target="l-92" n="92">malheureuse” &lt; malheureuse</note>
+<note target="l-106" n="106">mij &lt; mij,</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>Isleworth.<anchor n="1" xml:id="note-t-1"/>
+                </ab>
+<vg:whiteline/>
+<ab>My dear Theo,</ab>
+<ab>There may well come a time when I look back with a certain nostalgia on the ‘excesses of Egypt’<anchor n="2" xml:id="note-t-2"/> connected with other situations, namely earning more money and being in many respects of more consequence in the world – this I foresee. There is however ‘bread enough and to spare’<anchor n="3" xml:id="note-t-3"/> in the houses I’ll be visiting as I continue down the road I’ve taken, but not money to spare.</ab>
+<ab rend="indent">And yet I so clearly see light in the distance, and if that light disappears now and then it’s mostly my own fault.</ab>
+<ab rend="indent">It’s very questionable whether I’ll go far in this profession, whether those 6 years spent in the firm of Messrs Goupil &amp; Co., during which I should have been training for <hi rend="ital">this</hi> situation, won’t always be a thorn in my flesh, as it were. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">I believe, however, that on no account can I turn back now, even if part of me should wish to (<hi rend="ital">later, this isn’t the case now</hi>). These days it seems to me that there are no situations in the world other than those ranging from schoolmaster to clergyman and everything in between: missionary, ‘London missionary’<anchor n="4" xml:id="note-t-4"/> &amp;c. &amp;c.</ab>
+<ab rend="indent">Being a London missionary is rather special, I believe; one has to go around among the workers and the poor spreading God’s word and, if one has some experience, speak to them, track down and seek to help foreigners looking for work, or other people who are in some sort of difficulty, etc. etc. Last week I was in London a couple of times to find out if there’s a possibility of my becoming one.<anchor n="5" xml:id="note-t-5"/> Because I speak various languages and have tended to associate, especially in Paris and London, with people from the poorer classes and foreigners, and being a foreigner myself, I may well be suited 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> to this, and could become so more and more.</ab>
+<ab rend="indent">To do this, however, one has to be at least 24 years old, and so in any case I still have a year to wait.</ab>
+<ab rend="indent">
+                    <rs type="pers" key="764">Mr Stokes</rs> says he definitely cannot give me a salary, for he can get plenty of people who’ll work for board and lodging alone, which is certainly true. But can that be kept up for long? I’m afraid not; it will be decided soon enough.</ab>
+<ab rend="indent">But, old boy, no matter what the case, I think I can tell you this again, that these couple of months have bound me so closely to the sphere ranging from schoolmaster to clergyman, both through satisfactions associated with those situations and through thorns that have pricked me, that I can no longer turn back.<anchor n="6" xml:id="note-t-6"/>
+                </ab>
+<ab rend="indent">Onward, then! But I can assure you that very distinct difficulties will present themselves very soon, and others are visible on the horizon, and as if one is in a different world from the firm of Messrs Goupil &amp; Co.</ab>
+<ab rend="indent">Will I be getting the <hi rend="ital">small</hi> engravings (like those <rs type="pers" key="524 526">Pa and Ma</rs> have) of Christus Consolator and Remunerator<anchor n="7" xml:id="note-t-7"/> that you promised me? Write soon if you can find a moment, but send your letter to Pa and Ma, because my address may change soon and Pa and Ma will be the first to know. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/>
+                </ab>
+<ab rend="indent">Last week I was at Hampton Court to see the splendid gardens and long avenues of chestnut and lime trees where masses of crows and rooks have their nests, and also to see the palace and the paintings.<anchor n="8" xml:id="note-t-8"/> There are, among other things, many portraits by <rs type="pers" key="1090">Holbein</rs> which are very beautiful,<anchor n="9" xml:id="note-t-9"/> and two beautiful <rs type="pers" key="1295">Rembrandt</rs>s (the portrait of his wife and one of a rabbi),<anchor n="10" xml:id="note-t-10"/> and also beautiful Italian portraits by <rs type="pers" key="860">Bellini</rs>,<anchor n="11" xml:id="note-t-11"/> <rs type="pers" key="1393">Titian</rs>,<anchor n="12" xml:id="note-t-12"/> a painting by <rs type="pers" key="1414">Leonardo da Vinci</rs>,<anchor n="13" xml:id="note-t-13"/> cartoons by <rs type="pers" key="1194">Mantegna</rs>,<anchor n="14" xml:id="note-t-14"/> a beautiful painting by <rs type="pers" key="1337">S. Ruysdael</rs>,<anchor n="15" xml:id="note-t-15"/> fruit by <rs type="pers" key="1654">Cuyp</rs>
+                    <anchor n="16" xml:id="note-t-16"/> and so on and so forth.</ab>
+<ab rend="indent">I rather wished that you could have been there too; it was a pleasure to see paintings again.</ab>
+<ab rend="indent">And I couldn’t help thinking vividly of the people who have lived at Hampton Court, of <rs type="pers" key="479">Charles i</rs> and <rs type="pers" key="1653">his wife</rs>
+                    <anchor n="17" xml:id="note-t-17"/> (she was the one who said ‘I thank Thee, God, for having made me Queen, though an unhappy Queen’,<anchor n="18" xml:id="note-t-18"/> and at whose graveside <rs type="pers" key="542">Bossuet</rs> spoke<anchor n="19" xml:id="note-t-19"/> from the abundance of his heart.<anchor n="20" xml:id="note-t-20"/> Do you have ‘Bossuet, Oraisons funèbres’, you’ll find that eulogy there, there’s a very cheap edition, 50 centimes, I think),<anchor n="21" xml:id="note-t-21"/> and also of <rs type="pers" key="638 639">Lord and Lady Russell</rs>, who would certainly have gone there often. (<rs type="pers" key="620">Guizot</rs> described their life in L’amour dans le mariage.<anchor n="22" xml:id="note-t-22"/> Read that sometime if you can get hold of it.) Herewith a feather from one of the rooks there.</ab>
+<ab rend="indent">Do write soon if you can, I’m longing to hear from you, and believe me, after a handshake in thought</ab>
+<vg:whiteline/>
+<ab>Your loving brother</ab>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<ab>Despite my feeling that I am inadequate and that in many respects I lack the qualifications necessary for the situation I have and for the related situation I have my eye on, I nevertheless have at the same time such a feeling of thankfulness, of hope and of something like deliverance! and freedom! despite all kinds of bonds, and the thought of God – despite new shortcomings that occur to me – stays with me more strongly and longer.</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>Since the last week of June, Van Gogh had been living at Linkfield House, 183 Twickenham Road, where <rs type="pers" key="764">William Port Stokes</rs> had set up his new school.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Exod" chap="16" v="3">Exod. 16:3</bibleref> talks of the ‘flesh pots’ of Egypt. Van Gogh’s mistake could have arisen through confusion of this biblical passage with Egypt’s seven years of great plenty, as described in <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Gen" chap="41" vr="29-30">Gen. 41:29-30</bibleref>, <vg:bibleref book="Gen" chap="41" v="34">34</vg:bibleref> and <vg:bibleref book="Gen" chap="41" v="53">53</vg:bibleref>. One of the meanings of the Dutch word ‘vetpot’ is ‘excess’.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Luke" chap="15" v="17">Luke 15:17</bibleref>; cf. also <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Exod" chap="16" v="3">Exod. 16:3</bibleref>.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>A missionary working in London. The London Missionary Society, which was founded in 1795, sent missionaries abroad to the British Empire.</ab>
+                </note>
+<note n="a" xml:id="n-a" target="#note-o-a">
+<ab>Meaning: ‘special’.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>Cf. <ref target="let084.xml#n-3">letter 84, n. 3.</ref> This letter prompted <rs type="pers" key="526">Mr van Gogh</rs> to remark in a letter to Theo: ‘In London he paid a visit to a minister whose services he used to attend, thereby attempting to secure a situation in the church (albeit <hi rend="ital">not</hi> as a preacher). There was talk of missionary work in London amongst the poor, but that fell through because he doesn’t meet the minimum age requirement. There was also talk of missionary work in South America. I cannot perceive from his letter any <hi rend="ital">true desire</hi> for it on his part. When this is not <hi rend="ital">paramount</hi>, I should call it great folly. And in the end a very costly undertaking, which would surely come to nothing for want of proper training, and mean returning home at great expense’ (FR b2756, 1 July).</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>Vincent’s <rs type="pers" key="524 526">parents</rs> were concerned about his future. On 1 July, Mrs van Gogh wrote to Theo: ‘if only he had the ambition to study to be a secondary school teacher of English or French, but Pa says that they give preference to those with a qualification as an assistant teacher. Would he be averse to all business or only to the <hi rend="ital">art</hi> business?’ (FR b2755).</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>
+                        <rs type="pers" key="1339">Ary Scheffer</rs>, <rs type="otherart" key="86">
+                            <hi rend="ital">Christus Consolator</hi>
+                        </rs> (Christ the consoler), 1837 (Amsterdam, Amsterdam Museum). There are various versions of and reproductions after this canvas, one of which was included in Goupil’s ‘Album de Photographies’, no. 62 (Paris, Bibliothèque Nationale). The engraving by <rs type="pers" key="1548">Louis Pierre Henriquel-Dupont</rs>, dating from 1857, has the following text inscribed above it: ‘Misit me sanare con tristos corde praedicare captivis remissionem. St. Luc. Ch. IV’ (<bibleref xmlns="http://www.vangoghletters.org/ns/" book="Luke" chap="4" vr="18-19">Luke 4:18-19</bibleref>), to which Van Gogh refers in <ref target="let086.xml">letter 86</ref> (Bordeaux, Musée Goupil). <rs type="ill" key="1771">Ill. 1771</rs>. See Ewals 1987, pp. 278-279; exhib. cat. Dordrecht 1990, p. 39; and exhib. cat. London 1992, p. 131, cat. no. 53.</ab>
+<ab rend="indent">Ary Scheffer’s <rs type="otherart" key="105">
+                            <hi rend="ital">Christus Remunerator</hi>
+                        </rs> (Christ the rewarder), 1848 (Dordrecht, Dordrechts Museum) also exists in various versions and reproductions, one of which was included in Goupil’s ‘Album de Photographies’, no. 63 (Paris, Bibliothèque Nationale). See exhib. cat. London 1992, p. 131, cat. no. 54. The engraving by <rs type="pers" key="1515">Auguste Blanchard</rs>, dating from 1851, has the following text inscribed above it: ‘Et statuet oves quidem a dextris suis hoedos autem a sinistris. St. Math. ch. XXV’ (<bibleref xmlns="http://www.vangoghletters.org/ns/" book="Matt" chap="25" v="33">Matt. 25:33</bibleref>) (Bordeaux, Musée Goupil). <rs type="ill" key="1772">Ill. 1772</rs>. See Ewals 1987, pp. 314-315; exhib. cat. Dordrecht 1990, pp. 18, 39.</ab>
+<ab rend="indent">Because Van Gogh makes specific mention of ‘small engravings’, he could be referring to <rs type="pers" key="1594">Ed. Schulder</rs>’s <hi rend="ital">Christus Consolator</hi> and <rs type="pers" key="1509">Julius Allgaijer</rs>’s <hi rend="ital">Christus Remunerator</hi>, both 9 x 12 cm. The inscriptions mentioned in <ref target="let086.xml">letter 86</ref> also appear on these prints (Dordrecht, Dordrechts Museum). <rs type="ill" key="1773">Ill. 1773</rs> and <rs type="ill" key="1774">Ill. 1774</rs>. See exhib. cat. Dordrecht 1990, p. 47, cat. nos. 25-26. For that matter, Van Gogh might even be referring to the smaller photographs of the prints in Goupil’s series, which were sometimes mistaken for engravings. (Goupil’s original engravings are actually c. 40 x 50 cm.)</ab>
+                </note>
+<note n="b" xml:id="n-b" target="#note-o-b">
+<ab>Read: ‘zullen’.</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>Regarding the paintings in the Royal Collection of Hampton Court Palace, see cat. London 1844; cat. London 1898, and Bourke 1909. See also Roy Nash, <hi rend="ital">Hampton Court. The palace and the people</hi>. London 1983. Many of the paintings referred to by Van Gogh have now been reattributed.</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>Hanging in Hampton Court Palace were a number of portraits by <rs type="pers" key="1090">Hans Holbein the Younger</rs>, including <rs type="otherart" key="87">
+                            <hi rend="ital">Lady Elizabeth Vaux</hi>
+                        </rs>, <rs type="otherart" key="88">
+                            <hi rend="ital">Erasmus</hi>
+                        </rs>, <rs type="otherart" key="89">
+                            <rs type="otherart" key="90">
+                                <hi rend="ital">Frobenius</hi>
+                            </rs>
+                        </rs>, <rs type="otherart" key="90">
+                            <hi rend="ital">John Reskemeer of Cornwall</hi>
+                        </rs> and <rs type="otherart" key="91">
+                            <hi rend="ital">Henry <hi rend="sc">viii</hi>
+                            </hi>
+                        </rs>. See cat. London 1844, pp. 7, 12-14, 17, 26-27, cat. nos. 33, 281, 300-301, 306, 314-315, 323-324, 337, 338-341, 347, 351, 511, 893, 928; see also cat. London 1898, pp. 213, 217-218, 220-225; cat. nos. 591, 597, 599, 603, 606, 608, 610.</ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>A panel of <hi rend="ital">A Jewish rabbi</hi> and a canvas of <hi rend="ital">A Dutch lady</hi> were both attributed to <rs type="pers" key="1295">Rembrandt</rs>. <rs type="ill" key="1775">Ill. 1775</rs> and <rs type="ill" key="1776">ill. 1776</rs>. See White 1982, p. 111, cat. no. 167 (as <hi rend="ital">A rabbi with a cap</hi>) and p. 110, cat. no. 165 (as <hi rend="ital">Portrait of a lady with hands folded (Hendrickje Stoffels?)</hi>. White classifies both works as ‘Style of Rembrandt’.</ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>
+  <hi rend="ital">Portrait of a man</hi>, attributed at the time to <rs type="pers" key="860">Giovanni Bellini</rs> and later to <rs type="pers" key="1860">Francesco Bissolo</rs>, who worked for years in Bellini’s studio. <rs type="ill" key="1777">Ill. 1777</rs>. See cat. London 1898, pp. 46-47, cat. no. 117. Marco Basaiti has also been suggested, though not without reservation, as the author of this portrait. See Bourke 1909, p. 11.</ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+<ab>The following portraits by <rs type="pers" key="1393">Titian</rs> have been named: <rs type="otherart" key="92">
+                            <hi rend="ital">A portrait</hi>
+                        </rs>, <rs type="otherart" key="93">
+                            <hi rend="ital">Alessandro de Medici</hi>
+                        </rs>, <rs type="otherart" key="94">
+                            <hi rend="ital">Ignatius Loyola</hi>
+                        </rs>, <rs type="otherart" key="95">
+                            <hi rend="ital">Titian’s uncle</hi>
+                        </rs>, <rs type="otherart" key="96">
+                            <hi rend="ital">The marquis del Guasto and his page</hi>
+                        </rs>, <rs type="otherart" key="92">
+                            <hi rend="ital">A portrait</hi>
+                        </rs> and <rs type="otherart" key="97">
+                            <hi rend="ital">A portrait of Titian, by himself</hi>
+                        </rs>. See cat. London 1844, pp. 7-9, 26-27, cat. nos. 42, 79, 113, 115, 888, 916, 919; see also cat. London 1898, pp. 46, 48, 57-58, cat. nos. 116, 122, 149; and Bourke 1909, pp. 20-21.</ab>
+                </note>
+<note n="13" xml:id="n-13" target="#note-t-13">
+  <ab>The following works by <rs type="pers" key="1414">Leonardo da Vinci</rs> have been named: <rs type="otherart" key="98">
+                            <hi rend="ital">A man taking a walk</hi>
+                        </rs>, <rs type="otherart" key="99">
+                            <hi rend="ital">Flora</hi>
+                        </rs>, <rs type="otherart" key="100">
+                            <hi rend="ital">Herod’s daughter with the head of John the Baptist</hi>
+                        </rs> and <rs type="otherart" key="101">
+                            <hi rend="ital">The Christ child and the infant Saint John</hi>
+                        </rs>. See cat. London 1844, pp. 7, 9, 12, 15, cat. nos. 44, 140, 264, 391. Law attributes <hi rend="ital">Flora</hi> – with reservations – to Luini. See cat. London 1898, p. 20, cat. no. 61.</ab>
+                </note>
+<note n="14" xml:id="n-14" target="#note-t-14">
+<ab>
+                        <rs type="pers" key="1194">Andrea Mantegna</rs>, <hi rend="ital">The triumphs of Julius Caesar</hi> (c. 1485-1494). At that time it was assumed that these nine canvases were cartoons: ‘The purpose for which these pictures were originally intended has been sometimes misconceived. They are not properly called cartoons at all, that is, they were not designed as models for frescoes or tapestries, but were painted in tempera on twilled linen.’ Cf. <hi rend="ital">The triumphs of Caesar: The elephants</hi>.<hi rend="ital"> </hi>
+                        <rs type="ill" key="1813">Ill. 1813</rs>. Cat. London 1898, pp. 274-281, cat. no. 797 (quotation on p. 276). See also Ronald Lightbown, <hi rend="ital">Mantegna. With a complete catalogue of the paintings, drawings and prints</hi>. Oxford 1986, pp. 424-433, cat. no. 28; and Christopher Lloyd, <hi rend="ital">Andrea Mantegna, The triumphs of Caesar. A sequence of nine paintings in the Royal Collection</hi>. London 1991.</ab>
+                </note>
+<note n="15" xml:id="n-15" target="#note-t-15">
+<ab>
+                        <rs type="pers" key="1337">Salomon van Ruysdael</rs>, <hi rend="ital">A river in Holland</hi>. <rs type="ill" key="1778">Ill. 1778</rs>. See White 1982, pp. 114-115, cat. no. 173 (as <hi rend="ital">A river landscape with sailing boats</hi>).</ab>
+                </note>
+<note n="16" xml:id="n-16" target="#note-t-16">
+<ab>
+      <hi rend="ital">Fruits, etc.</hi>, then attributed to <rs type="pers" key="1654">Jacob Gerritsz. Cuyp</rs>. Now this <hi rend="ital">Still life</hi> is described as ‘Anonymous: seventeenth century’, ‘more in style of Willem Kalf’. <rs type="ill" key="1814">Ill. 1814</rs>. See White 1982, p. 166, cat. no. 284.</ab>
+                </note>
+<note n="17" xml:id="n-17" target="#note-t-17">
+<ab>
+                        <rs type="pers" key="479">Charles <hi rend="sc">i</hi>
+                        </rs>, King of England, married <rs type="pers" key="1653">Henrietta-Maria of France</rs> in 1625.</ab>
+                </note>
+  <note n="18" xml:id="n-18" target="#note-t-18">
+    <ab>This statement made by the queen of England was taken from <rs type="lit" key="72">
+                            <hi rend="ital">Oraisons funèbres</hi>
+                        </rs> by <rs type="pers" key="542">Jacques-Bénigne Bossuet</rs>: ‘How often in this place did she humbly thank God for two great favours: the first, for having made her a Christian, the second – Gentlemen, what are you expecting? For having restored the position of her son the king, perhaps? No. It was for having made her an unhappy queen. Ah! I begin to regret the narrow confines of the place in which I speak.’ (Combien de fois a-t-elle en ce lieu remercié Dieu humblement de deux grandes grâces: l’une, de l’avoir fait chrétienne; l’autre, Messieurs, qu’attendez-vous? peut-être d’avoir rétabli les affaires du roi son fils? Non. C’est de l’avoir fait reine malheureuse. Ah! je commence à regretter les bornes étroites du lieu où je parle.) See J.B. Bossuet, <hi rend="ital">Oraisons funèbres</hi>. Paris 1998, p. 139. <hi rend="ital">Oraisons funèbres</hi> (Funeral Orations) is a collection of eulogies delivered by Bishop Bossuet on persons famous at the time. The book, which was compiled in 1689, was reprinted in various versions containing added sermons and panegyrics.</ab>
+                </note>
+<note n="19" xml:id="n-19" target="#note-t-19">
+<ab>The eulogy ‘Oraison funèbre de Henriette de France, reine de la Grande-Bretagne’ was delivered on 16 November 1669.</ab>
+                </note>
+<note n="20" xml:id="n-20" target="#note-t-20">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Matt" chap="12" v="34">Matt. 12:34</bibleref> and <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Luke" chap="6" v="45">Luke 6:45</bibleref>.</ab>
+                </note>
+<note n="21" xml:id="n-21" target="#note-t-21">
+<ab>The numerous editions and reprints of <rs type="pers" key="542">Bossuet</rs>’s work include inexpensive editions. A 50-centimes edition has not been found. <hi rend="ital">Oraisons funèbres</hi>. Bibliothèque d’éducation et de récréation. Paris n.d. (Collection des classiques français dédiée à la jeunesse), which sold for 3 francs, contained the eulogy on pp. 23-68.</ab>
+                </note>
+<note n="22" xml:id="n-22" target="#note-t-22">
+<ab>
+                        <rs type="pers" key="620">François Guizot</rs>, <rs type="lit" key="73">
+                            <hi rend="ital">L’amour dans le mariage. Etude historique</hi>
+                        </rs>, 1855 (Love in marriage. Historical study). This little book sketches the blissful relationship of the English politician <rs type="pers" key="638">Lord William Russell</rs> and his wife <rs type="pers" key="639">Rachel Wriothesley</rs>. Lady Russell demonstrated lifelong devotion to her husband, who was executed on 21 July 1683. Guizot pays particular attention to the constant, modest, virtuous and, above all, pious Lady Russell, a truly ‘great Christian lady’. He makes no mention whatsoever of Hampton Court. Guizot’s text first appeared in the <hi rend="ital">Revue des Deux Mondes</hi> (May 1855). See François Guizot, <hi rend="ital">L’amour dans le mariage. Etude historique</hi>. 6th ed. Paris 1858, quotation on p. 92.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

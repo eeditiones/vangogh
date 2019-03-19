@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<fileDesc>
+<titleStmt>
+  <title>To Theo van Gogh. London, between Tuesday, 13 and Sunday, 18 April 1875.</title>
+
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let032"/>
+            </publicationStmt>
+<sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">032</idno>
+<idno type="collectedletters">25</idno>
+<idno type="brieven1990">032</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>London</vg:placeLet>
+                        <vg:dateLet>between Tuesday, 13 and Sunday, 18 April 1875</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:physDesc>
+                        <vg:decoration>
+                            <vg:decoList xml:id="sketches">
+                                <vg:decoItem n="A" xml:id="sketch-1">
+                                    <vg:decoDesc>
+<p>
+      <hi rend="ital">Landscape at Ville-d’Avray</hi> (<rs type="sketch" key="4">F Juv. XX / JH Juv. 3</rs>), letter sketch</p>
+                                    </vg:decoDesc>
+                                </vg:decoItem>
+                            </vg:decoList>
+                        </vg:decoration>
+                    </vg:physDesc>
+                    <vg:letContents>
+<p>To Theo van Gogh. London, between Tuesday, 13 and Sunday, 18 April 1875.</p>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b25 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Letter headed: ‘Londen April 1875’. The fact that Van Gogh refers to ‘last Sunday’ <ref target="#l-5">(l. 5)</ref> means that the letter was written at least two days before, but less than a week after, the death of Elizabeth Parker on 11 April (cf. <ref target="#n-1">n. 1</ref>).</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+  <facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <surface n="b 0025" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000026_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000026_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000026_01_nt.jpg" height="50px" rend="thumbnail"/>
+      <zone xml:id="zone-pb-1r-1">
+        <graphic mimeType="image/tiff" url="VGM001000026_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000026_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000026_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+      
+      <zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="VGM001000026_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000026_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000026_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    <surface n="b 0025" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000026_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000026_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000026_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000026_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000026_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000026_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000026_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000026_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000026_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+  </facsimile>
+
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Londen April 1875</ab>
+<vg:whiteline/>
+                <lb n="2" xml:id="l-2"/>
+<ab>Waarde Theo,</ab>
+                <lb n="3" xml:id="l-3"/>
+<ab>Hierbij stuur ik U eene kleine <lb n="4" xml:id="l-4"/>teekening. Ik maakte die verl. <lb n="5" xml:id="l-5"/>Zondag, den morgen waarop <lb n="6" xml:id="l-6"/>een dochtertje (13 jaar) van mijne <lb n="7" xml:id="l-7"/>landlady stierf.<anchor n="1" xml:id="note-o-1"/>
+                </ab>
+                <lb n="8" xml:id="l-8"/>
+<ab rend="indent">’t Is een gezicht op Streatham <lb n="9" xml:id="l-9"/>Common,<anchor n="2" xml:id="note-o-2"/> een groote met gras begroeide vlakte <lb n="10" xml:id="l-10"/>met eikeboomen &amp; brem.</ab>
+                <lb n="11" xml:id="l-11"/>
+<ab rend="indent">’t Had s’nachts geregend &amp; de grond <lb n="12" xml:id="l-12"/>was hier &amp; daar drassig &amp; ’t jonge <lb n="13" xml:id="l-13"/>lentegras frisch &amp; groen.</ab>
+                <lb n="14" xml:id="l-14"/>
+<ab rend="indent">Zooals ge ziet is het gekrabbeld <lb n="15" xml:id="l-15"/>op het titelblad van de “Poesies <lb n="16" xml:id="l-16"/>d’Edmond Roche”.─<anchor n="3" xml:id="note-o-3"/>
+                </ab>
+                <lb n="17" xml:id="l-17"/>
+<ab rend="indent">Daar zijn mooie bij, ernstig &amp; 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                    <lb n="18" xml:id="l-18"/>droevig. o.a<c type="kp">_</c> één dat begint <lb n="19" xml:id="l-19"/>&amp; eindigt</ab>
+<vg:whiteline/>
+                <lb n="20" xml:id="l-20"/>
+<ab>J’ai gravi triste &amp; seul, la dune triste &amp; nue,</ab>
+                <lb n="21" xml:id="l-21"/>
+<ab>Où la mer fait gémir sa plainte continue,</ab>
+                <lb n="22" xml:id="l-22"/>
+<ab>La dune où vient mourir la vague aux larges plis</ab>
+                <lb n="23" xml:id="l-23"/>
+<ab>Monotone sentier aux tortueux replis.<anchor n="4" xml:id="note-o-4"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="24" xml:id="l-24"/>
+<ab>en een ander, “Calais”</ab>
+<vg:whiteline/>
+                <lb n="25" xml:id="l-25"/>
+<ab>Que j’aime à te revoir, o ma ville natale,</ab>
+                <lb n="26" xml:id="l-26"/>
+<ab>Chère nymphe marine assise au bord des eaux!</ab>
+                <lb n="27" xml:id="l-27"/>
+<ab>J’aime de ton beffroi la flèche qui s’élance,</ab>
+                <lb n="28" xml:id="l-28"/>
+<ab>Belle de hardiesse &amp; belle d’élégance,</ab>
+                <lb n="29" xml:id="l-29"/>
+<ab>Et sa coupole à jour qui laisse voir les cieux.<anchor n="5" xml:id="note-o-5"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="30" xml:id="l-30"/>
+<ab>Je zult waarschijnlijk nieuwsgierig <lb n="31" xml:id="l-31"/>zijn naar dat wat bij de ets van <lb n="32" xml:id="l-32"/>Corot hoort<anchor n="6" xml:id="note-o-6"/> &amp; daarom schrijf ik dat <lb n="33" xml:id="l-33"/>ook over.</ab>
+<vg:whiteline/>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                <lb n="34" xml:id="l-34"/>
+<ab>L’étang</ab>
+                <lb n="35" xml:id="l-35"/>
+<ab>à Corot</ab>
+<vg:whiteline/>
+                <lb n="36" xml:id="l-36"/>
+<ab>Nous regardions l’etang d’une eau morne &amp; plombée</ab>
+                <lb n="37" xml:id="l-37"/>
+<ab>Lentement sous la brise assembler pli sur pli,</ab>
+                <lb n="38" xml:id="l-38"/>
+<ab>Et la vase cerner d’un contour assoupli</ab>
+                <lb n="39" xml:id="l-39"/>
+<ab>La proue &amp; les flancs noirs d’une barque embourbée;</ab>
+<vg:whiteline/>
+                <lb n="40" xml:id="l-40"/>
+<ab>La couronne des bois, feuille à feuille tombée,</ab>
+                <lb n="41" xml:id="l-41"/>
+<ab>Jonchait le sol; le ciel de brume était rempli;</ab>
+                <lb n="42" xml:id="l-42"/>
+<ab>Tous deux, à demi voix, comme à la derobée</ab>
+                <lb n="43" xml:id="l-43"/>
+<ab>Nous disons tristement “L’été s’est accompli:</ab>
+<vg:whiteline/>
+                <lb n="44" xml:id="l-44"/>
+<ab>Ces coteaux ont perdu leur grâce coutumière</ab>
+                <lb n="45" xml:id="l-45"/>
+<ab>Plus de feuillage vert, plus de blonde lumière</ab>
+                <lb n="46" xml:id="l-46"/>
+<ab>Tremblant dans l’eau qui tremble ou dorant la hauteur!”</ab>
+<vg:whiteline/>
+                <lb n="47" xml:id="l-47"/>
+<ab>Cette idylle à nos yeux peut encore reparaître,</ab>
+                <lb n="48" xml:id="l-48"/>
+<ab>Si vous le voulez bien:─ n’êtes vous pas le maître</ab>
+                <lb n="49" xml:id="l-49"/>
+<ab>Qui l’avez recréée après le créateur?</ab>
+<vg:whiteline/>
+                <lb n="50" xml:id="l-50"/>
+<ab>Ville d’Avray<anchor n="7" xml:id="note-o-7"/>
+                </ab>
+<vg:whiteline/>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                <lb n="51" xml:id="l-51"/>
+<ab>Hartelijk gegroet &amp; het beste U <lb n="52" xml:id="l-52"/>toegewenscht. Adieu<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="53" xml:id="l-53"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+                <figure facs="zone-sketch-1" n="A"/>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-16" n="16">Roche”.─ &lt; Roche.─</note>
+<note target="l-17" targetEnd="l-18" n="17-18">&amp; droevig. &lt; &amp; en droevig.</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>London, April 1875</ab>
+<vg:whiteline/>
+<ab>My dear Theo,</ab>
+<ab>I’m sending you herewith a small drawing. I made it last Sunday, the morning a <rs type="pers" key="559">daughter</rs> (13 years old) of my <rs type="pers" key="560">landlady</rs> died.<anchor n="1" xml:id="note-t-1"/>
+                </ab>
+<ab rend="indent">It’s a view of Streatham Common,<anchor n="2" xml:id="note-t-2"/> a large, grass-covered area with oak trees and broom.</ab>
+<ab rend="indent">It had rained in the night, and the ground was soggy here and there and the young spring grass fresh and green.</ab>
+<ab rend="indent">As you see, it’s scribbled on the title page of the ‘Poesies d’Edmond Roche’.<anchor n="3" xml:id="note-t-3"/>
+                </ab>
+<ab rend="indent">There are beautiful ones among them, serious and 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> sad, including one that begins and ends</ab>
+<vg:whiteline/>
+<ab>Sad and alone, I climbed the sad, bare dune,</ab>
+<ab>Where the sea keens its ceaseless moaning plaint,</ab>
+<ab>The dune where dies the wide unfurling wave,</ab>
+<ab>Drab path that winds and winds upon itself again.<anchor n="4" xml:id="note-t-4"/>
+                </ab>
+<vg:whiteline/>
+<ab>and another, ‘Calais’</ab>
+<vg:whiteline/>
+<ab>How I love to see you once again, o my native town,</ab>
+<ab>Dear sea nymph seated at the waters’ edge!</ab>
+
+<ab>I love the soaring spire of your bell-tower,</ab>
+<ab>Lovely in its boldness and its elegance,</ab>
+<ab>Its fretted cupola, through which we see the sky.<anchor n="5" xml:id="note-t-5"/>
+                </ab>
+<vg:whiteline/>
+      <ab>You’ll probably be curious about what goes with the etching by <rs type="pers" key="971">Corot</rs>
+                    <anchor n="6" xml:id="note-t-6"/> and so I’ve copied that out as well. </ab>
+                <vg:whiteline/>
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/>
+<ab>The pond</ab>
+<ab>to Corot</ab>
+<vg:whiteline/>
+<ab>We watched the pond, its water leaden, drear,</ab>
+<ab>Form crease upon crease slowly in the breeze,</ab>
+<ab>And the mud, enfolding in a softened line</ab>
+<ab>The prow and black sides of a boat aground; </ab>
+<vg:whiteline/>
+<ab>The woods’ high crown, leaf by fallen leaf,</ab>
+<ab>Lay strewn upon the ground; the sky was filled with mist;</ab>
+<ab>We two, in whispers, almost furtively,</ab>
+                <ab> Were sadly saying, ‘Summer’s past:</ab>
+<vg:whiteline/>
+<ab>These slopes have lost their accustomed grace;</ab>
+<ab>No more green foliage, no more golden light</ab>
+<ab>Trembling in the trembling water or touching tops with gold!’</ab>
+<vg:whiteline/>
+<ab>This idyll may yet come before our eyes again,</ab>
+<ab>If you would have it so: are you not the master</ab>
+<ab>Who re-created it after its first creator’s hand?</ab>
+<vg:whiteline/>
+<ab>Ville-d’Avray<anchor n="7" xml:id="note-t-7"/>
+                </ab>
+<vg:whiteline/>
+<ab>
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/>
+                </ab>
+<ab>Warm regards, and I wish you the best. Adieu</ab>
+<vg:whiteline/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<ab>
+                    <figure facs="zone-sketch-1" n="A"/>
+                </ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>
+                        <rs type="pers" key="559">Elizabeth Parker</rs>, the daughter of <rs type="pers" key="560 561">Mr and Mrs John Parker</rs>, with whom Van Gogh boarded in Kennington, died on Sunday, 11 April of pneumonia. See Bailey 1990, p. 54.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>In south London.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>The poetry of <rs type="pers" key="730">Edmond Roche</rs> was published in <rs type="lit" key="27">
+                            <hi rend="ital">Poésies posthumes</hi>
+                        </rs>. Paris 1863 (with a preface by M. Victorien Sardou, and etchings). The copy containing Van Gogh’s little drawing is not known.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>The poem ‘<rs type="lit" key="32">La dune</rs>’ consists of two parts, both of which begin with the stanza quoted. Van Gogh says that the poem ‘begins and ends’ with this stanza, but he must have been misled by the page layout (see Roche 1863, pp. 48-50). Its first and last lines are conflated to form the last two lines of the poem’s final stanza.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>Van Gogh quotes lines 1-2 and 9-11 from the poem ‘<rs type="lit" key="33">Calais (fragment)</rs>’. See Roche 1863, pp. 67-68.</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>The etching <hi rend="ital">Ville-d’Avray: L’étang au batelier </hi>(Ville d’Avray: The pond with boatman), 1862, serves as an illustration to the poem ‘<rs type="lit" key="34">L’étang</rs>’ in <rs type="pers" key="730">Roche</rs>’s <rs type="lit" key="27">
+                            <hi rend="ital">Poésies posthumes</hi>
+                        </rs> (Amsterdam, Van Gogh Museum, inv. no. p290 M/1977). <rs type="ill" key="1704">Ill. 1704</rs>. See Robaut 1965, vol. 2, pp. 102-103, cat. no. 3125.</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>Roche 1863, p. 99 (with several small variations). Ville-d’Avray is where <rs type="pers" key="971">Corot</rs> painted in his younger years.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

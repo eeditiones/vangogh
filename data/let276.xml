@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Anthon van Rappard. The Hague, on or about Sunday, 29 October 1882.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let276"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">276</idno>
+<idno type="collectedletters">R16</idno>
+<idno type="brieven1990">278</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Anthon van Rappard</vg:addressee>
+                        <vg:placeLet>The Hague</vg:placeLet>
+                        <vg:dateLet>on or about Sunday, 29 October 1882</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:physDesc>
+                        <vg:decoration>
+                            <vg:decoList xml:id="sketches">
+                                <vg:decoItem n="A" xml:id="sketch-1">
+                                    <vg:decoDesc>
+<p>
+      <hi rend="ital">Coal sack</hi> (<rs type="sketch" key="75">F - / JH -</rs>), letter sketch. The figures ‘1’ and ‘2’ in the sketch relate to the remark in <ref target="#l-72">ll. 72a-b</ref>. </p>
+                                    </vg:decoDesc>
+                                </vg:decoItem>
+                            </vg:decoList>
+                        </vg:decoration>
+                    </vg:physDesc>
+                    <vg:letContents>
+<p>To Anthon van Rappard. The Hague, on or about Sunday, 29 October 1882.</p>
+<note type="ongoingTopic" n="1">
+<p>Arti refuses a painting by Van Rappard (<ref target="let268.xml">268</ref> and <ref target="let277.xml">277</ref>)</p>
+                        </note>
+<note type="ongoingTopic" n="2">
+<p>Van Rappard’s visit <ref target="let231.xml">(231)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b8350 V/2006</p>
+                    </note>
+<note type="additionalDetail" xml:id="additionalDetail">
+<p>The letter has no conclusion and is not signed, so in all probability it is incomplete. </p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 8350" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001001596_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001001596_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001001596_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001001596_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001596_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001596_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="VGM001001596_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001596_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001596_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 8350" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001001596_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001001596_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001001596_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001001596_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001596_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001596_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001001596_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001596_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001596_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Amice Rappard,</ab>
+                <lb n="1*" xml:id="l-1s"/>
+<ab>Uw schrijven ontving ik &amp; dank er U wel zeer voor<c type="kp">_</c> <lb n="2" xml:id="l-2"/>Wat kan ik er naar verlangen eens iets van Uw werk te zien<c type="kp">_</c> <lb n="3" xml:id="l-3"/>met betrekking tot Arti<c type="kk">/</c> zoo vindt ik dit wederom een der <lb n="4" xml:id="l-4"/>gewone streeken van die heeren<c type="kk">/</c> een van die dingen <lb n="5" xml:id="l-5"/>die niet veranderen<c type="kk">/</c> die waren &amp; blijven zullen wat ze zijn. Ik feliciteer U met hun refuus<c type="kp">_</c>
+                </ab>
+                <lb n="6" xml:id="l-6"/>
+<ab rend="indent">Ik kan U een dergelijke ervaring niet mededeelen <lb n="7" xml:id="l-7"/>om de eenvoudige reden dat ik er nooit zelfs maar aan <lb n="8" xml:id="l-8"/>denk te exposeeren<c type="kp">_</c> Zulks laat mij absoluut koel<c type="kp">_</c> <lb n="9" xml:id="l-9"/>Ik kan er wel eens naar verlangen de een of andere <lb n="10" xml:id="l-10"/>vriend op ’t atelier eens iets kwam kijken<c type="kk">/</c> wat zeer <lb n="11" xml:id="l-11"/>zeer zelden ’t geval is<c type="kk">/</c> doch nooit had ik het verlangen <lb n="12" xml:id="l-12"/>(’k geloof ook niet dat ik ’t krijgen zal) het publiek bij mijn <lb n="13" xml:id="l-13"/>werk te halen. Ik ben niet onverschillig omtrent <lb n="14" xml:id="l-14"/>appreciatie van mijn werk – doch ook dat moet in <lb n="15" xml:id="l-15"/>stilte zijn en ’t minst van alle dingen vind ik <lb n="16" xml:id="l-16"/>een zekere populariteit begeerlijk. Dezer dagen <lb n="17" xml:id="l-17"/>zocht ik mijn studies van ongeveer sedert Uw bezoek bij een. <lb n="18" xml:id="l-18"/>’k vond ± honderd figuren van mannen<c type="kk">/</c> vrouwen<c type="kk">/</c> kinderen<c type="kk">/</c> <lb n="19" xml:id="l-19"/>niet meegerekend wat ik in mijn schetsboek teekende. Ofschoon <lb n="20" xml:id="l-20"/>’t aantal er minder toe doet zoo noem ik het toch eens <lb n="21" xml:id="l-21"/>om er op te wijzen dat ik er kracht achter tracht te zetten <lb n="22" xml:id="l-22"/>en evenwel word ik door lui die zeker minder werken <lb n="23" xml:id="l-23"/>dan ik uit de hoogte als niets beschouwd<c type="kk">/</c> wat me ook <lb n="24" xml:id="l-24"/>al tamelijk koel laat, en niemand hier neemt de minste notitie <lb n="25" xml:id="l-25"/>van mijn werk<c type="kp">_</c>
+                </ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="27" xml:id="l-27"/>
+<ab rend="indent">En daaruit ziet ge dat<c type="kk">/</c> al overkomt mij niet precies ’t zelfde <lb n="28" xml:id="l-28"/>als U<c type="kk">/</c> het toch zusje &amp; broertje is.</ab>
+                <lb n="29" xml:id="l-29"/>
+<ab rend="indent">Intusschen<c type="kk">/</c> daartegenover staat dat zoo wie <lb n="30" xml:id="l-30"/>figuren maken wil mijns inziens primo moet <lb n="31" xml:id="l-31"/>hebben wat op een X<hi rend="ss">mas</hi> Number van <lb n="32" xml:id="l-32"/>Punch staat: <hi rend="ital">Good will to all</hi> – in <lb n="33" xml:id="l-33"/>hooge mate.<anchor n="1" xml:id="note-o-1"/> Men moet voor de menschen een warm <lb n="34" xml:id="l-34"/>gevoel van sympathie hebben en houden<c type="kk">/</c> eigentlijk voor allen<c type="kk">/</c> <lb n="35" xml:id="l-35"/>anders blijven de teekeningen koud en slap. En ik <lb n="36" xml:id="l-36"/>vind ’t zoo noodig dat men op zich zelve passe en <lb n="37" xml:id="l-37"/>zorge dat men niet gedesenchanteerd worde in <lb n="38" xml:id="l-38"/>dat opzigt en daarom vind ik ’t zoo weinig zaak zich <lb n="39" xml:id="l-39"/>te mengen in wat ik zoo maar eens noemen zal <lb n="40" xml:id="l-40"/>de schildersintrigues en daartegenover niet dan <lb n="41" xml:id="l-41"/>
+                    <hi rend="ital">défensief</hi> te blijven. En ik denk aan ’t oude spreekwoord<c type="kk">/</c> <lb n="42" xml:id="l-42"/>men oogst geen vijgen van distels<c type="kk">/</c>
+                    <anchor n="2" xml:id="note-o-2"/> als ik mij voorstel <lb n="43" xml:id="l-43"/>dat sommigen meenen animo op te doen in ’t veel <lb n="44" xml:id="l-44"/>zich ophouden met artisten. Thomas a Kempis<c type="kk">/</c> geloof ik<c type="kk">/</c> zegt ergens<c type="kk">/</c> <lb n="45" xml:id="l-45"/>ik heb mij nooit onder de menschen begeven <lb n="46" xml:id="l-46"/>zonder mij minder mensch te voelen<c type="kp">_</c>
+                    <anchor n="3" xml:id="note-o-3"/> Zoo ook <lb n="47" xml:id="l-47"/>vind ik dat men zich zwakker voelt<c type="kk">/</c> en teregt<c type="kk">/</c> als artist<c type="kk">/</c> hoe <lb n="48" xml:id="l-48"/>meer men met de artisten verkeert. Dan slechts <lb n="49" xml:id="l-49"/>wanneer men zich serieus combineert tot <lb n="50" xml:id="l-50"/>het zamen werken aan iets wat voor één mensch te <lb n="51" xml:id="l-51"/>veel is (b.v. Erckmann Chatrian in hun werken of 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                    <lb n="52" xml:id="l-52"/>de teekenaars van de Graphic voor de Graphic) <lb n="53" xml:id="l-53"/>vindt ik het iets uitstekends. Meestendeels loopt <lb n="54" xml:id="l-54"/>de rest uit op<c type="kk">/</c> ze dronken een glas &amp;c<c type="kp">_</c> en lieten <lb n="55" xml:id="l-55"/>de zaak zoo als ze was.<anchor n="4" xml:id="note-o-4"/>
+                </ab>
+                <lb n="56" xml:id="l-56"/>
+<ab rend="indent">Als ik zooeven gezegd heb dat ik er naar verlangen <lb n="57" xml:id="l-57"/>kan Uw werk eens te zien zoo verlang ik omgekeerd zeer <lb n="58" xml:id="l-58"/>dikwijls er naar gij ’t mijne ook weer eens zaagt. <lb n="59" xml:id="l-59"/>Juist omdat ik geloof ik aan U iets hebben zou en <lb n="60" xml:id="l-60"/>gij ook het geheel zoudt zien dat afzonderlijke teekeningen <lb n="61" xml:id="l-61"/>langzamerhand beginnen te vormen en we er eens over praten <lb n="62" xml:id="l-62"/>konden &amp; raadschaften of er niet iets uit te halen zou zijn.</ab>
+                <lb n="63" xml:id="l-63"/>
+<ab rend="indent">Ik heb niet zonder moeite eindelijk ontdekt hoe <lb n="64" xml:id="l-64"/>de mijnwerkersvrouwen in de Borinage hun zakken <lb n="65" xml:id="l-65"/>dragen. Ge herinnert U ik in der tijd daar iets van <lb n="66" xml:id="l-66"/>gemaakt heb<c type="kp">_</c>– Maar het was nog het echte niet<c type="kp">_</c>–</ab>
+                <lb n="67" xml:id="l-67"/>
+<ab rend="indent">Ik heb nu weder <hi rend="ital">12 studies</hi> voor datzelfde<c type="kp">_</c>
+                    <anchor n="5" xml:id="note-o-5"/>
+                </ab>
+<vg:whiteline/>
+                <figure facs="zone-sketch-1" n="A"/>
+<vg:whiteline/>
+                <lb n="68" xml:id="l-68"/>
+<ab>Zie<c type="kk">/</c> de <hi rend="ital">opening</hi> van den zak is digt gebonden <lb n="69" xml:id="l-69"/>en hangt naar <hi rend="ital">onder</hi>
+                    <c type="kp">_</c> De punten van <lb n="70" xml:id="l-70"/>den bodem worden in elkaar gestoken <lb n="71" xml:id="l-71"/>en zoo ontstaat die alleraardigste <lb n="72" xml:id="l-72"/>soort van monnikskap. <lb n="72a" xml:id="l-72a"/>(op 1 &amp; 2 grijpen de <lb n="72b" xml:id="l-72b"/>handen het vast<c type="kp">_</c>)<anchor n="6" xml:id="note-o-6"/> <lb n="72"/>Dikwijls <lb n="73" xml:id="l-73"/>liet ik eene vrouw met een zak poseeren en nooit kwam <lb n="74" xml:id="l-74"/>het goed uit. Ik heb het van een man die steenkolen laadde op <lb n="75" xml:id="l-75"/>’t terrein van de Rijnspoor geleerd.</ab>
+                <lb n="76" xml:id="l-76"/>
+<ab rend="indent">Ik vond deze week de Punch van 18<hi rend="ital">55</hi> en die van 18<hi rend="ital">62</hi>
+                    <c type="kp">_</c> <lb n="77" xml:id="l-77"/>In eerstgenoemde staat een blad – een van de oude Swains – dat <lb n="78" xml:id="l-78"/>onbeschrijfelijk groot van karakter is. De toenmalige keizer van Rusland <lb n="79" xml:id="l-79"/>had geloof ik in zijn troonrede<c type="kk">/</c> zinspelende op den Krimoorlog toen aan <lb n="80" xml:id="l-80"/>den gang<c type="kk">/</c> gezegd dat Rusland twee generaals had waarop ’t vertrouwen <lb n="81" xml:id="l-81"/>kon<c type="kk">/</c> n.l. de wintermaanden Januarij &amp; Februarij. In de maand <lb n="82" xml:id="l-82"/>Februarij van dat zelfde jaar geschiedde het echter dat Z.M. de keizer 
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                    <lb n="85" xml:id="l-85"/>ten gevolge van gevatte koude ziek werd en stierf<c type="kp">_</c>–</ab>
+                <lb n="86" xml:id="l-86"/>
+<ab rend="indent">Nu ziet men op dit blad<c type="kk">/</c> waarschijnlijk door Teniel geteekend<c type="kk">/</c> de <lb n="87" xml:id="l-87"/>oude keizer op zijn sterfbed en <hi rend="ital">general Fevrier turned a traitor</hi> <lb n="88" xml:id="l-88"/>staat bij dat sterfbed – in de gedaante van een geraamte in <lb n="89" xml:id="l-89"/>generaalsuniform – het sterfbed zoowel als het spooksel dat <lb n="90" xml:id="l-90"/>er bij staat zijn besneeuwd of beijzeld.<anchor n="7" xml:id="note-o-7"/> Het is prachtig en ik <lb n="91" xml:id="l-91"/>vindt het sentiment zoo mogelijk nog dieper en serieuser dan <lb n="92" xml:id="l-92"/>Holbeins Todten Tanz<c type="kp">_</c>
+                    <anchor n="8" xml:id="note-o-8"/>
+                </ab>
+                <lb n="93" xml:id="l-93"/>
+<ab rend="indent">C<c type="kp">_</c>R. (Robinson) van wien ik U een mijns inziens prachtig <lb n="94" xml:id="l-94"/>blad stuurde is nog al ongelijk<c type="kk">/</c> ten minste<c type="kk">/</c> ofschoon zijn figuren <lb n="95" xml:id="l-95"/>altijd goed geteekend zijn<c type="kk">/</c> het is niet altijd aangrijpend. Maar <lb n="96" xml:id="l-96"/>nu heb ik op nieuw een blad dat haast zoo mooi is als b.v. <lb n="97" xml:id="l-97"/>de afternoon in the Kingsroad van Caldecott.<anchor n="9" xml:id="note-o-9"/> Het zijn <lb n="98" xml:id="l-98"/>een lange rij figuren die over een balie kijken naar <lb n="99" xml:id="l-99"/>een ingestorte brug.<anchor n="10" xml:id="note-o-10"/>
+                </ab>
+                <lb n="100" xml:id="l-100"/>
+<ab rend="indent">Hebt gij de <hi rend="ital">Dagnan</hi>
+                    <c type="kk">/</c> Charmeur au jardin des Tuilleris en de <hi rend="ital">Montbard</hi>
+                    <c type="kk">/</c> mendiants arabes, waarover <lb n="101" xml:id="l-101"/>ik U schreef<anchor n="11" xml:id="note-o-11"/> – ge weet ze zijn tot uw dispositie<c type="kp">_</c>
+                </ab>
+                <lb n="102" xml:id="l-102"/>
+<ab rend="indent">Ik heb nog een mooi blad van Emslie gevonden, <hi rend="ital">The rising</hi> <lb n="103" xml:id="l-103"/>
+                    <hi rend="ital">of the waters</hi>, eene boerenvrouw met 2 kinderen op een <lb n="104" xml:id="l-104"/>half overstroomd weiland met knotwilgen.<anchor n="12" xml:id="note-o-12"/>
+                </ab>
+                <lb n="105" xml:id="l-105"/>
+<ab rend="indent">Ik verzeker U dat ik in mijn verzameling houtsneden <lb n="106" xml:id="l-106"/>telkens als ik eens minder opgewekt ben weer nieuwen <lb n="107" xml:id="l-107"/>lust om zelf aan ’t werk te tijgen vind. In al die <lb n="108" xml:id="l-108"/>lui zie ik een energie en een wilskracht en een <lb n="109" xml:id="l-109"/>vrijen<c type="kk">/</c> gezonden<c type="kk">/</c> opgewekten geest die mij animeeren<c type="kp">_</c> <lb n="110" xml:id="l-110"/>En in hun werk is iets hoogs en deftigs – al teekenen <lb n="111" xml:id="l-111"/>zij een mesthoop. Als men leest in ’t boek over Gavarni <lb n="112" xml:id="l-112"/>met betrekking tot zijn teekeningen “il en sabra jusqu’à 6 par <lb n="113" xml:id="l-113"/>jour”<anchor n="13" xml:id="note-o-13"/> en denkt aan de enorme productieviteit van de <lb n="114" xml:id="l-114"/>meesten dier mannen die de illustratietjes (ge weet wel<c type="kk">/</c> <lb n="115" xml:id="l-115"/>“<hi rend="ital">die dingen die in ’t zuid Hollandsch koffijhuis liggen</hi>”)<anchor n="14" xml:id="note-o-14"/> maken<c type="kk">/</c> <lb n="116" xml:id="l-116"/>dan denkt men wel eens dat er toch een bijzondere <lb n="117" xml:id="l-117"/>hoeveelheid ijver en vuur in hen zit. Iets van dat <lb n="118" xml:id="l-118"/>vuur in zich zelf te hebben &amp; te blijven aanstoken is <lb n="119" xml:id="l-119"/>m.i<c type="kp">_</c> beter dan de pedanterie van die artisten die <lb n="120" xml:id="l-120"/>’t beneden zich achten er naar te kijken. Ik vind de redenatie <lb n="121" xml:id="l-121"/>van Uw vriend of liever critikale bezoeker (hoe <lb n="122" xml:id="l-122"/>moet men dat zeggen) over de “ON<hi rend="ital">gepermitteerde</hi> lijn” zeer <lb n="123" xml:id="l-123"/>curieus en echt. Wil hem bij gelegenheid wel zeer mijn hoogachting <lb n="124" xml:id="l-124"/>voor zijne wijsheid &amp; competentie betuigen<c type="kk">/</c> ofschoon ik niet de eer en het <lb n="125" xml:id="l-125"/>genoegen heb ZEd<c type="kp">_</c> zelf te kennen zoo zijn me zijns gelijken niet ten eenemale <lb n="126" xml:id="l-126"/>vreemd en dus &amp;c. <lb n="127" xml:id="l-127"/>Vraag Uw vriend met zijn ongepermitteerde lijn eens of hij aanmerking heeft op de Bénédicité van de Groux<anchor n="15" xml:id="note-o-15"/> en de Ste Cène van L. daVinci<c type="kk">/</c>
+                    <anchor n="16" xml:id="note-o-16"/> <lb n="128" xml:id="l-128"/>op welker compositie ook de koppen op nagenoeg regte linie zijn geplaatst.</ab>
+<vg:whiteline/>
+                <lb n="26 »" xml:id="l-26"/>
+<ab>Vindt gij de sprookjes van Andersen niet erg mooi – dat is zeker ook een illustratiemaker.</ab>
+<vg:whiteline/>
+                <lb n="83 »" xml:id="l-83"/>
+<ab>Kent gij van Harry Furniss <hi rend="ital">A Midsummernight’s dream</hi>
+                    <c type="kk">/</c> voorstellende eenige lieden – een oud man<c type="kk">/</c> een straatjongen<c type="kk">/</c> een dronkaard &amp;c<c type="kp">_</c> –</ab>
+                <lb n="84" xml:id="l-84"/>
+<ab>die den nacht doorbrengen op een bank onder een kastanjeboom in ’t park.<anchor n="17" xml:id="note-o-17"/> Dat is een blad zoo mooi als de mooiste Daumier.</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-12" n="12">(’k <supplied>
+                            <hi rend="ital">...</hi>
+                        </supplied> zal) &lt; <hi rend="ital">Parentheses added by us.</hi>
+                    </note>
+<note target="l-51" targetEnd="l-52" n="51-52">werken of de &lt; werken) of (de</note>
+<note target="l-72" n="72">a-b  (op <supplied>
+                            <hi rend="ital">...</hi>
+                        </supplied> vast &lt; <hi rend="ital">Written under the sketch; Van Gogh put a frame around this passage; parentheses added by us.</hi>
+                    </note>
+<note target="l-77" n="77">Swains – &lt; Swains</note>
+<note target="l-89" n="89">generaalsuniform &lt; generaals uniform</note>
+<note target="l-114" targetEnd="l-115" n="114-115">(ge <supplied>
+                            <hi rend="ital">...</hi>
+                        </supplied> <hi rend="ital">liggen</hi>”) &lt; <hi rend="ital">Parentheses added by us.</hi>
+                    </note>
+<note target="l-127" targetEnd="l-128" n="127-128">
+                        <hi rend="ital">In the left margin on  p. [1r:4],</hi> ten gevolge <supplied>
+                            <hi rend="ital">...</hi>
+                        </supplied> dus &amp;c. <hi rend="ital">(l. 85-126)</hi>.</note>
+<note target="l-26" n="26">
+                        <hi rend="ital">In the left margin on p. [1r:1],</hi> Amice <supplied>
+                            <hi rend="ital">...</hi>
+                        </supplied> werk <hi rend="ital">(l. 1-25)</hi>.</note>
+<note target="l-83" targetEnd="l-84" n="83-84">
+                        <hi rend="ital">In the left margin on p. [1v:3],</hi> de teekenaars <supplied>
+                            <hi rend="ital">...</hi>
+                        </supplied> de keizer <hi rend="ital">(l. 52-82)</hi>.</note>
+<note target="l-83" n="83">&amp;c<c type="kp">_</c> – &lt; &amp;c</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear friend <rs type="pers" key="1306">Rappard</rs>,</ab>
+<ab>I received your letter and thank you very much for it. How I sometimes long to see something of your work. As for Arti, I think this is another of the usual tricks of those gentlemen, one of those things that do not change, that were and will remain what they are. I congratulate you on their refusal. </ab>
+<ab rend="indent">I can’t share a similar experience with you for the simple reason that I never even consider exhibiting. That sort of thing leaves me absolutely cold. I may occasionally long for one friend or another to come to the studio to look at something, which very rarely happens, but I’ve never felt a desire (and I don’t believe I ever shall) to bring the public to my work. I’m not indifferent as regards appreciation of my work — but that too should be quiet, and a certain popularity seems to me the least desirable of things. These past few days I’ve been gathering together the studies done since about the time of your visit. I found about one hundred figures of men, women, children, not counting what I drew in my sketchbook. Although the number isn’t that important, I mention it to show that I try to put some effort into it, and yet I’m looked down upon as nothing by people who certainly work less than I do, which also leaves me fairly cold, and no one here takes the slightest notice of my work. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">And from that you can see that, although not exactly the same has happened to me as to you, it’s a near thing.</ab>
+<ab rend="indent">Yet, on the other hand if one wants to do figures I believe that first of all one must have what’s on a Xmas Number of Punch: <hi rend="ital">Good will to all</hi> — to a high degree.<anchor n="1" xml:id="note-t-1"/> One must have and retain a warm feeling of sympathy for people, for all in fact, otherwise the drawings remain cold and feeble. And I think it so necessary that one keep an eye on oneself and take care that one doesn’t become disenchanted in that respect, and that’s why I think there’s so little point in becoming involved in what I’ll just call the painters’ intrigues and doing anything other than remaining <hi rend="ital">defensive</hi> towards them. And I think of the old saying, one gathers no figs of thistles,<anchor n="2" xml:id="note-t-2"/> when I think that some believe they’re stimulated by spending a lot of time with artists. I believe <rs type="pers" key="679">Thomas a Kempis</rs> says somewhere: I have never been among men without feeling less a man.<anchor n="3" xml:id="note-t-3"/> Similarly, I think one feels weaker, and rightly so, as an artist the more one mixes with artists. It’s only when people combine seriously to work together on something that’s too much for one person (such as <rs type="pers" key="594 591">Erckmann-Chatrian</rs> in their works or 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> The Graphic draughtsmen for The Graphic) that I think it an excellent thing. In most cases it comes down to: they drank a glass &amp;c. and left things as they were.<anchor n="4" xml:id="note-t-4"/> </ab>
+<ab rend="indent">Just as I said above that I long to see your work, so in turn I very often long for you to see mine again. Precisely because you would be of value to me, I believe, and you would see the whole that the individual drawings are gradually beginning to form, and we could talk about them and discuss whether something could be got out of them. </ab>
+<ab rend="indent">I’ve finally discovered, not without difficulty, how the women miners in the Borinage carry their sacks. You remember that I once did something with that – but it wasn’t yet right. </ab>
+<ab rend="indent">I now again have <hi rend="ital">12 studies</hi> for that same thing.<anchor n="5" xml:id="note-t-5"/>
+                </ab>
+<vg:whiteline/>
+<ab>
+                    <figure facs="zone-sketch-1" n="A"/>
+                </ab>
+<vg:whiteline/>
+<ab>You see, the <hi rend="ital">opening</hi> of the sack is tied shut and hangs <hi rend="ital">downwards</hi>. The corners at the bottom are tied together and this creates that charming sort of monk’s cowl. (The hands grasp it at 1 and 2.)<anchor n="6" xml:id="note-t-6"/> I often had a woman pose with a sack and it never came out well. I learned about it from a man who loaded coal at the Rijnspoor yard.</ab>
+<ab rend="indent">This week I found the Punch of 18<hi rend="ital">55</hi> and that of 18<hi rend="ital">62</hi>. In the first there’s a print — one of the old Swains — that is inexpressibly great in character. The then Emperor of Russia had said in his speech from the throne, I believe, alluding to the Crimean War then taking place, that Russia had two generals on whom it could rely, namely the winter months of January and February. In the month of February of that same year, however, it happened that H.M. the Emperor fell ill, 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> having caught a cold, and died. </ab>
+<ab rend="indent">Now in this print, probably drawn by <rs type="pers" key="1378">Tenniel</rs>, one sees the old Emperor on his deathbed and <hi rend="ital">General Fevrier turned a traitor</hi> stands beside that deathbed, in the form of a skeleton in a general’s uniform — both the deathbed and the phantom standing beside it are covered in snow or glazed frost.<anchor n="7" xml:id="note-t-7"/> It’s marvellous, and I find the sentiment if possible even more profound and more serious than <rs type="pers" key="1090">Holbein</rs>’s Dance of Death.<anchor n="8" xml:id="note-t-8"/> </ab>
+<ab rend="indent">C.R. (<rs type="pers" key="1311">Robinson</rs>) — I sent you what I consider a marvellous print by him — is rather uneven, that’s to say that, although his figures are always well drawn, it isn’t always gripping. But now I once more have a print that’s almost as beautiful as, for instance, the Afternoon in the King’s Road by <rs type="pers" key="924">Caldecott</rs>.<anchor n="9" xml:id="note-t-9"/> It’s a long row of figures looking over a railing at a collapsed bridge.<anchor n="10" xml:id="note-t-10"/>
+                </ab>
+<ab rend="indent">Do you have the <hi rend="ital">
+                        <rs type="pers" key="959">Dagnan</rs>
+                    </hi>, Bird charmer in the Tuileries Gardens and the <hi rend="ital">
+                        <rs type="pers" key="1170">Montbard</rs>
+                    </hi>, Arab beggars, I wrote to you about?<anchor n="11" xml:id="note-t-11"/> — you know that they’re at your disposal. </ab>
+<ab rend="indent">I found a beautiful print by <rs type="pers" key="999">Emslie</rs>, <hi rend="ital">The rising of the waters</hi>, a peasant woman with 2 children on a half-flooded pasture with pollard willows.<anchor n="12" xml:id="note-t-12"/> </ab>
+<ab rend="indent">I assure you that whenever I’m a little downhearted, my collection of woodcuts gives me fresh heart to set to work myself. In all these fellows I see an energy and a willpower and a free, healthy, lively mind that stimulate me. And their work has something lofty and dignified about it — even if they’re drawing a dung-heap. When one reads in the book on <rs type="pers" key="1043">Gavarni</rs>, about his drawings, that ‘he knocked off up to six a day’,<anchor n="13" xml:id="note-t-13"/> and thinks of the enormous productivity of most of the men who make those footling illustrations (you know, ‘<hi rend="ital">the things that lie in the Zuid-Hollandsch Koffiehuis</hi>’),<anchor n="14" xml:id="note-t-14"/> then it sometimes occurs to one that there is indeed a remarkable amount of zeal and fire in them. Having something of that fire in oneself and continuing to stoke it is better in my view than the pedantry of those artists who consider it beneath them to look at them. I find the reasoning of your friend, or rather critical visitor (how should one put that?), about the ‘DIS<hi rend="ital">graceful</hi> line’ very curious and typical. When the opportunity arises, please express my great respect for his wisdom and competence: although I don’t have the honour and pleasure of knowing His Hon. myself, the type isn’t entirely unknown to me and so &amp;c. Ask your friend with his disgraceful line whether he has criticisms of the Saying grace by <rs type="pers" key="1063">Degroux</rs>
+                    <anchor n="15" xml:id="note-t-15"/> and the Last Supper by <rs type="pers" key="1414">L. da Vinci</rs>,<anchor n="16" xml:id="note-t-16"/> in which composition the heads are also placed practically in a straight line.</ab>
+<vg:whiteline/>
+<ab>Don’t you find <rs type="pers" key="512">Andersen</rs>’s fairy tales very beautiful? — he must be another of those illustrators.</ab>
+<vg:whiteline/>
+<ab>Do you know <rs type="pers" key="1018">Harry Furniss</rs>, <hi rend="ital">A midsummer night’s dream</hi>, depicting various characters — an old man, a street urchin, a drunkard &amp;c. — who spend the night on a bench under a chestnut tree in the park?<anchor n="17" xml:id="note-t-17"/> That print is as beautiful as the most beautiful <rs type="pers" key="977">Daumier</rs>.</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>
+                        <rs type="pers" key="1378">John Tenniel</rs>, <hi rend="ital">Stirring the pudding</hi>, engraved by <rs type="pers" key="1382">Joseph Swain</rs>, in <hi rend="ital">Punch</hi> 77 (27 December 1879), Christmas number, p. 295. <rs type="ill" key="1369">Ill. 1369</rs>. (t*1281). The print shows Punch making a plum pudding that bears the words quoted, ‘Good will to all’. The politicians around it are all keen to stir the pudding, which symbolizes England.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>Saying, derived from <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Matt" chap="7" v="16">Matt. 7:16</bibleref>.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>
+                        <rs type="pers" key="679">Thomas a Kempis</rs>, <rs type="lit" key="35">
+                            <hi rend="ital">Imitation of Christ</hi>
+                        </rs>, book <hi rend="sc">i</hi>, chapter 20, 5: ‘As often as I have been among men, said one writer, I have returned less a man.’ Translation Aloysius Croft and Harold Bolton (Cyber Library of the International School of Theology). See Thomas a Kempis 1986, p. 24. The writer was in fact <rs type="pers" key="1826">Seneca</rs>, who made the remark in his <hi rend="ital">
+                            <rs type="lit" key="544">Epistulae morales</rs>
+                        </hi> <hi rend="sc">vii</hi>, 3.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>The complete saying ends as follows: ‘ze pisten een plas’ (<hi rend="ital">WNT</hi>) (they pissed a pee). Also cited in <ref target="let341.xml">letter 341</ref>.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>Which 12 studies these are is not known. The watercolour <hi rend="ital">Women miners</hi> (<rs type="ill" key="2406">F 994 / JH 253</rs>) probably belonged to this group.</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>A reference to the figures in the letter sketch. </ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>The illustration was in <hi rend="ital">Punch</hi> 28 (10 March 1855), p. 95, with the title <hi rend="ital">“General Février” turned traitor</hi> and the legend: ‘“Russia has Two Generals in whom she can confide – Generals Janvier and Février.” – <hi rend="ital">Speech of the late Emperor of Russia</hi>.’ The illustrator is <rs type="pers" key="1159">John Leech</rs> and not <rs type="pers" key="1378">Tenniel</rs>, as Van Gogh suggests. Whether <rs type="pers" key="1382">Joseph Swain</rs> engraved the sheet is not known. The estate has a copy (t*1195). <rs type="ill" key="1363">Ill. 1363</rs>.</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>
+      <rs type="otherart" key="420">
+                            <hi rend="ital">Dance of Death</hi>
+                        </rs> is a series of 41 woodcuts. <rs type="pers" key="1090">Holbein</rs>’s drawings probably date from 1524-1525; the woodcuts are by Hans Lützelburger, before 1526. Van Gogh could have known works from the series through the article ‘Simulachres de la mort’ in <hi rend="ital">Musée Universel</hi> 4 (1877), 2e semestre, pp. 180-181, in which <hi rend="ital">L’enfant</hi> (The child) and <hi rend="ital">Le pape</hi> (The pope) were included as examples (drawings E. Bocourt, engraving Auguste Louis Lepère). These are based on <hi rend="ital">Der Bapst</hi> and<hi rend="ital"> Daß Iungkint</hi> (Basel, Kupferstichkabinett). <rs type="ill" key="936">Ill. 936</rs> and <rs type="ill" key="1991">Ill. 1991</rs>. It is evident from <ref target="let157.xml">letter 157</ref> that he knew this volume of <hi rend="ital">Musée Universel</hi>. <rs type="pers" key="546">Charles Blanc</rs>, <rs type="lit" key="48">
+                            <hi rend="ital">Grammaire des arts du dessin</hi>
+                        </rs> also included two prints from the series: <hi rend="ital">Adam travaillant la terre</hi> (Adam working the earth) and <hi rend="ital">Le mercier</hi> (The haberdasher). Blanc 1870, p. 700. Cf. for the series O. Bätschmann and P. Griener, <hi rend="ital">Hans Holbein</hi>. Cologne 1977, pp. 53-58.</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>
+                        <rs type="pers" key="924">Randolph Caldecott</rs>, <hi rend="ital">Afternoon in King’s Road</hi>, in <hi rend="ital">The Graphic</hi> 20 (13 December 1879), pp. 588-589, as an illustration to the article entitled ‘Brighton’. <rs type="ill" key="669">Ill. 669</rs>.</ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>
+                        <rs type="pers" key="1311">C. Robinson</rs>, <hi rend="ital">The Tay bridge as it appeared on Monday, Dec. 29, at ten o’clock</hi>, in <hi rend="ital">The Illustrated London News</hi> 76 (3 January 1880), pp. 20-21. <rs type="ill" key="1284">Ill. 1284</rs>.</ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+      <ab>For <rs type="pers" key="959">Pascal Dagnan-Bouveret</rs>, <rs type="ill" key="736">
+                            <hi rend="ital">A bird charmer in the Jardin des Tuileries</hi>
+                        </rs> and <rs type="pers" key="1170">Montbard</rs>, <rs type="ill" key="1176">
+                            <hi rend="ital">Algerian beggars at the door of a mosque</hi>
+                        </rs>, <ref target="let275.xml#n-40">see letter 275, nn. 40</ref> and <ref target="let275.xml#n-41">41.</ref>
+                    </ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+<ab>
+                        <rs type="pers" key="999">Alfred Emslie</rs>, <hi rend="ital">The rising of the waters</hi>, engraved by <rs type="pers" key="1505">Richard</rs> and <rs type="pers" key="1506">Edward Taylor</rs> in <hi rend="ital">The Illustrated London News</hi> 79 (17 December 1881), Supplement, p. 597. <rs type="ill" key="814">Ill. 814</rs>.</ab>
+                </note>
+<note n="13" xml:id="n-13" target="#note-t-13">
+<ab>
+                        <rs type="pers" key="617 618">Edmond and Jules de Goncourt</rs> reveal in <rs type="lit" key="224">
+                            <hi rend="ital">Gavarni, l’homme et l’oeuvre</hi>
+                        </rs>: ‘He produced five of those watercolours in a day’ (Ces aquarelles, il enlevait cinq par jour). See Goncourt 1873, p. 326.</ab>
+                </note>
+<note n="14" xml:id="n-14" target="#note-t-14">
+<ab>For the ‘Zuid-Hollandsch Koffiehuis’, <ref target="let214.xml#n-9">see letter 214, n. 9.</ref>
+                    </ab>
+                </note>
+<note n="15" xml:id="n-15" target="#note-t-15">
+<ab>For <rs type="pers" key="1063">Charles Degroux</rs>, <hi rend="ital">
+                            <rs type="ill" key="135">Saying grace</rs>
+                        </hi>, <ref target="let143.xml#n-16">see letter 143, n. 16.</ref>
+                    </ab>
+                </note>
+<note n="16" xml:id="n-16" target="#note-t-16">
+<ab>
+                        <rs type="pers" key="1414">Leonardo da Vinci</rs>, <hi rend="ital">The Last Supper</hi>, 1496-1497 (Milan, Santa Maria delle Grazie). There were various prints after this, such as a burin engraving by Auguste Boucher-Desnoyers and an engraving by Rafaelle Morghen (<rs type="ill" key="1048">Ill. 1048</rs>).</ab>
+                </note>
+<note n="17" xml:id="n-17" target="#note-t-17">
+      <ab>
+                        <rs type="pers" key="1018">Harry Furniss</rs>,<hi rend="ital"> A midsummer night’s dream: A sketch in a London park</hi>, engraved by <rs type="pers" key="1382">Joseph Swain</rs>, in <hi rend="ital">The Illustrated London News</hi> 81 (8 July 1882), p. 37. <rs type="ill" key="863">Ill. 863</rs>.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Willemien van Gogh. Arles, on or about Friday, 24 February 1888.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let579"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">579</idno>
+<idno type="collectedletters">W2</idno>
+<idno type="brieven1990">582</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Willemien van Gogh</vg:addressee>
+                        <vg:placeLet>Arles</vg:placeLet>
+                        <vg:dateLet>on or about Friday, 24 February 1888</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Willemien van Gogh. Arles, on or about Friday, 24 February 1888.</p>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b702 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+    <p>Theo wrote Vincent’s address for Willemien at the bottom of the letter (see <hi rend="ital">Additional details</hi>), which means that it was sent to her by way of Theo. Theo most probably received the present letter enclosed with <ref target="let578.xml">letter 578</ref>, and sent it on to Willemien, accompanied by his letter to her of 24 and 26 February (FR b914), since in that he remarks: ‘Since I had put my letter to one side ... I can now tell you a little more about him and <hi rend="ital">also send you a letter from him</hi>’. (<ref target="documentation.xml#2426February1888">See <hi rend="ital">Documentation</hi>, 24 and 26 February 1888</ref>.)  He then quotes from <ref target="let578.xml">letter 578</ref> and concludes: ‘You mustn’t be angry if you don’t get any <hi rend="ital">more</hi> letters’ (our italics). The enclosed letter must be the present one. Given these facts, we have dated this letter, like <ref target="let578.xml">letter 578</ref>, on or about Friday, 24 February 1888.</p>
+                    </note>
+<note type="additionalDetail" xml:id="additionalDetail">
+<p>Under the signature Theo noted down Vincent’s address: ‘Restaurant Carrel / 30 Rue Cavalerie / Arles (Bouches du Rhône)’. This means that the letter must have been sent to Willemien by way of Theo, and also that she had sent her last letter to Vincent (cf. <ref target="#n-1">n. 1</ref>) via Theo.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0702" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000954_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000954_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000954_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000954_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000954_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000954_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0702" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000954_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000954_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000954_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000954_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000954_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000954_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000954_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000954_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000954_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Lieve zuster,</ab>
+                <lb n="1*" xml:id="l-1s"/>
+<ab>van mijn kant zou ik net zoo <lb n="2" xml:id="l-2"/>goed kunnen zeggen dat ik onmiddelijk <lb n="3" xml:id="l-3"/>op zal houden U te schrijven van ’t oogenblik <lb n="4" xml:id="l-4"/>dat ge me mogt antwoorden<c type="kk">/</c>
+                    <anchor n="1" xml:id="note-o-1"/> ’t eenvoudigst <lb n="5" xml:id="l-5"/>is niet te schrijven als men er te veel last <lb n="6" xml:id="l-6"/>mede heeft en niet altijd lust.</ab>
+                <lb n="7" xml:id="l-7"/>
+<ab rend="indent">Maar wat hiervan ook zij<c type="kk">/</c> het is erg best <lb n="8" xml:id="l-8"/>dat gij begint met U eens op de hoogte <lb n="9" xml:id="l-9"/>te stellen van wat die booswicht Voltaire <lb n="10" xml:id="l-10"/>al zoo voor kwaad heeft gesticht – en zeker <lb n="11" xml:id="l-11"/>zult ge in Candide al vast dit vinden<c type="kk">/</c> <lb n="12" xml:id="l-12"/>dat Voltaire heeft durven lagchen met het “zoo ernstige <lb n="13" xml:id="l-13"/>leven dat wij slechts tot de beste doeleinden <lb n="14" xml:id="l-14"/>behoorden te bezigen of te besteden”<c type="kp">_</c>
+                    <anchor n="2" xml:id="note-o-2"/>
+                </ab>
+                <lb n="15" xml:id="l-15"/>
+<ab rend="indent">En ’k behoef U niet te zeggen dat dit <lb n="16" xml:id="l-16"/>misdrijf op zich zelf reeds schrikkelijk is.</ab>
+                <lb n="17" xml:id="l-17"/>
+<ab rend="indent">Over Mauve kan ik niet goed schrijven<c type="kk">/</c> <lb n="18" xml:id="l-18"/>ik denk dagelijks aan hem en dat <lb n="19" xml:id="l-19"/>is ook al<c type="kp">_</c> Erg heeft het mij getroffen<anchor n="3" xml:id="note-o-3"/> <lb n="20" xml:id="l-20"/>maar hij was persoonlijk<c type="kk">/</c> als mensch<c type="kk">/</c> <lb n="21" xml:id="l-21"/>misschien heel iets anders dan men wel <lb n="22" xml:id="l-22"/>eens zeide<c type="kk">/</c> namelijk dieper in ’t leven <lb n="23" xml:id="l-23"/>zelf nog in dan in de kunst misschien <lb n="24" xml:id="l-24"/>en ik hield als mensch van hem – nu <lb n="25" xml:id="l-25"/>kan ik me zoo moeielijk verbeelden <lb n="26" xml:id="l-26"/>dat zij die tot de kern van t’leven doordringen<c type="kk">/</c> 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                    <lb n="27" xml:id="l-27"/>die zichzelf overigens beoordeelen als <lb n="28" xml:id="l-28"/>gold het een ander<c type="kk">/</c> en met anderen zoo <lb n="29" xml:id="l-29"/>ongegeneerd te werk gaan als hadden zij <lb n="30" xml:id="l-30"/>zich zelf onder handen<c type="kk">/</c> ik kan me zoo <lb n="31" xml:id="l-31"/>moeielijk verbeelden dat zulken ophouden <lb n="32" xml:id="l-32"/>te bestaan<c type="kp">_</c>
+                </ab>
+                <lb n="33" xml:id="l-33"/>
+<ab rend="indent">Nu weet ik wel dat het zoo tamelijk onmogelijk <lb n="34" xml:id="l-34"/>is dat de witte aardappel- of slawormen die <lb n="35" xml:id="l-35"/>later in meikevers veranderen omtrent hun <lb n="36" xml:id="l-36"/>toekomstig bovenaardsch bestaan in staat zijn zouden <lb n="37" xml:id="l-37"/>zich steekhoudende begrippen te vormen<c type="kp">_</c>
+                </ab>
+                <lb n="38" xml:id="l-38"/>
+<ab rend="indent">En dat het voorbarig van hen zou wezen <lb n="39" xml:id="l-39"/>bovenaardsche onderzoekingen te doen naar <lb n="40" xml:id="l-40"/>licht in deze kwestie aangezien de tuinman <lb n="41" xml:id="l-41"/>of andere geinteresseerden in sla en groenten hen <lb n="42" xml:id="l-42"/>als zijnde schadelijke insekten direct stuktrappen <lb n="43" xml:id="l-43"/>zou<c type="kp">_</c>–<anchor n="4" xml:id="note-o-4"/>
+                </ab>
+                <lb n="44" xml:id="l-44"/>
+<ab rend="indent">Maar om evenwijdige redenen geloof ik weinig <lb n="45" xml:id="l-45"/>aan onze menschelijke juiste begrippen ons <lb n="46" xml:id="l-46"/>toekomstig leven aangaande. Wij kunnen <lb n="47" xml:id="l-47"/>evenmin over onze eigene <lb n="48" xml:id="l-48"/>gedaanteverwisselingen onbevooroordeeld en onvoorbarig <lb n="49" xml:id="l-49"/>oordeelen dan de witte slawormen over de hunne<c type="kp">_</c>
+                </ab>
+                <lb n="50" xml:id="l-50"/>
+<ab rend="indent">om de zelfde reden dat een sla worm <lb n="51" xml:id="l-51"/>sla wortels dient te eten ten behoeve juist <lb n="52" xml:id="l-52"/>van zijn hoogere ontwikkeling<c type="kk">/</c>
+                </ab>
+                <lb n="53" xml:id="l-53"/>
+<ab rend="indent">zoo vind ik dat een schilder schilderijen <lb n="54" xml:id="l-54"/>dient te maken<c type="kk">/</c> misschien dat daarna <lb n="55" xml:id="l-55"/>er nog iets anders is.</ab>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                <lb n="56" xml:id="l-56"/>
+<ab rend="indent">Ge ziet dat ik nog wat verder het zuiden <lb n="57" xml:id="l-57"/>in ben gegaan – ik heb te zeer gemerkt <lb n="58" xml:id="l-58"/>dat ik s’winters noch met mijn werk noch <lb n="59" xml:id="l-59"/>met mijn gezondheid voort kan – verder<c type="kk">/</c> <lb n="60" xml:id="l-60"/>men vraagt tegenwoordig in de schilderijen <lb n="61" xml:id="l-61"/>veeleer tegenstelling van kleur <lb n="62" xml:id="l-62"/>en de kleuren hoog opgevoerd en geschakeerd <lb n="63" xml:id="l-63"/>dan wel een gedempte grijze kleur<c type="kp">_</c> <lb n="64" xml:id="l-64"/>Dus meende ik om een en andere reden <lb n="65" xml:id="l-65"/>er niemand schade mee te doen maar <lb n="66" xml:id="l-66"/>eens te gaan naar wat me aantrok<c type="kp">_</c>
+                </ab>
+                <lb n="67" xml:id="l-67"/>
+<ab rend="indent">Groet Moe hartelijk voor mij<c type="kk">/</c> <lb n="68" xml:id="l-68"/>er zal nu zeker vooreerst niet <lb n="69" xml:id="l-69"/>van kunnen komen dat ik naar <lb n="70" xml:id="l-70"/>Holland ligt terugkom. Gegroet<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="71" xml:id="l-71"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-34" n="34">aardappel- &lt; aardappel</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear <rs type="pers" key="407">sister</rs>,</ab>
+<ab>For my part, I could just as well say that I’ll stop writing to you immediately at the moment you reply to me;<anchor n="1" xml:id="note-t-1"/> the simplest thing is not to write if it’s too much trouble and one doesn’t always feel inclined.</ab>
+<ab rend="indent">But be this as it may, it’s very good that you’re starting by finding out what sort of harm that wretch <rs type="pers" key="844">Voltaire</rs> has done — and you’ll certainly find this in Candide, that Voltaire dared to laugh at the ‘highly serious life which we ought only to devote to or spend on the best ends’.<anchor n="2" xml:id="note-t-2"/>
+                </ab>
+<ab rend="indent">And I don’t have to tell you that this crime is terrible enough in itself.</ab>
+<ab rend="indent">I can’t really write about <rs type="pers" key="323">Mauve</rs>, I think about him every day, and that’s all there is to it. It has affected me very badly<anchor n="3" xml:id="note-t-3"/> but personally, as a human being, he was perhaps very different from what people sometimes said, that’s to say deeper in life itself than in art perhaps, and I loved him as a human being — now I find it so hard to imagine that those who penetrate to the heart of life, 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> who by the way judge themselves as if it were another, and deal with others with as little embarrassment as if they were dealing with themselves, I find it so hard to imagine that such people cease to exist.</ab>
+<ab rend="indent">Now I know that it’s fairly impossible for the white potato or salad grubs that turn into May bugs later to be capable of forming credible ideas about their future overground existence.</ab>
+<ab rend="indent">And that it would be rash of them to undertake overground studies to throw light on this question, since the gardener or others interested in salad and vegetables would immediately trample them underfoot as being harmful insects.<anchor n="4" xml:id="note-t-4"/>
+                </ab>
+<ab rend="indent">But for parallel reasons I have little faith in the rightness of our human ideas concerning our future life. We can no more judge our own metamorphoses impartially and sagely than the white salad grubs can theirs.</ab>
+<ab rend="indent">For the same reason that a salad grub has to eat salad roots for its higher development — </ab>
+<ab rend="indent">so I believe that a painter has to make paintings — perhaps that there’s something else after that.
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/>
+                </ab>
+<ab rend="indent">You see that I’ve gone somewhat further to the south — I’ve seen only too clearly that I cannot prosper with either my work or my health in the winter — moreover, nowadays people are demanding colour contrasts and highly intense and variegated colours in paintings rather than a subdued grey colour. So I thought for one reason and another that I wouldn’t do anyone any harm if I just went to what attracted me.</ab>
+<ab rend="indent">Give <rs type="pers" key="524">Ma</rs> my warmest regards; for the time being there will certainly not be any chance of my coming back to Holland. Regards.</ab>
+<vg:whiteline/>
+<ab>Vincent</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+    <ab>Vincent is replying here to an unknown letter from <rs type="pers" key="407">Willemien</rs>, in which she must have expressed her disappointment that he did not write often (cf. <ref target="let574.xml">letter 574</ref>). It is also clear from Theo’s letter to her that Vincent did not write much: ‘Vincent started writing to you ten times and I have read more letters to you than you have received from him, but sometimes one begins rattling away if one has finally got started, and then it is better to start afresh. But his letters are always interesting, which is why it’s a pity that he doesn’t write more’ (FR b914). See for the complete letter: <ref target="documentation.xml#2426February1888">
+                            <hi rend="ital">Documentation</hi>, 24 and 26 February 1888</ref>. </ab>
+                </note>
+    <note n="2" xml:id="n-2" target="#note-t-2">
+<ab>See for <rs type="pers" key="844">Voltaire</rs>’s <hi rend="ital">
+                            <rs type="lit" key="445">Candide</rs>
+                        </hi>: <ref target="let568.xml#n-3">letter 568, n. 3.</ref> Van Gogh is not quoting literally here; it may be that he is paraphrasing the theme of the book in Panglossian terms, but it is more likely that he is quoting from <rs type="pers" key="407">Willemien</rs>’s last letter: she must have read the book because of what Vincent said about it in his previous letter to her (<ref target="let574.xml">letter 574</ref>).</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+    <ab>
+                        <rs type="pers" key="323">Anton Mauve</rs>, Van Gogh’s first teacher, had suddenly died on 5 February 1888 (<hi rend="ital">Laren, Civil registration</hi>). He was 49 years old.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>This metaphor may derive from <rs type="pers" key="588">Frederik van Eeden</rs>’s <hi rend="ital">
+                            <rs type="lit" key="461">De kleine Johannes</rs>
+                        </hi> (1887), which Van Gogh undoubtedly chose in order to appeal to <rs type="pers" key="407">Willemien</rs>’s frame of reference. (Van Gogh was to refer to the book again later; <ref target="let626.xml">see letters 626</ref> and <ref target="let740.xml">740</ref>). <hi rend="ital">De kleine Johannes</hi> is a <hi rend="ital">Bildungsroman</hi> disguised as a fairy tale, in which Johannes tries to find ‘wisdom’ with the help of various allegorical fairy-tale figures. The contrast between idealized nature and man is the connecting thread throughout the book.</ab>
+<ab rend="indent">The metaphor in the letter possibly relates to an episode in chapter 3, which tells the story of a young maybug who, searching for a ‘serious calling’ for which he will be rewarded with eternal happiness, believes that he has to fly upwards to the light, whereas his real calling is to eat leaves. In his premature attempt to reach ‘the house with the bright light’, however, he is caught by humans and eventually trodden underfoot.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

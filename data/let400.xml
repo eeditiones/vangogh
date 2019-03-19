@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Nieuw-Amsterdam, Sunday, 28 October 1883.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let400"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">400</idno>
+<idno type="collectedletters">336</idno>
+<idno type="brieven1990">401</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Nieuw-Amsterdam</vg:placeLet>
+                        <vg:dateLet>Sunday, 28 October 1883</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:physDesc>
+                        <vg:decoration>
+                            <vg:decoList xml:id="sketches">
+                                <vg:decoItem n="A" xml:id="sketch-1">
+                                    <vg:decoDesc>
+<p>
+      <hi rend="ital">Man pulling a harrow</hi> (<rs type="sketch" key="124">F - / JH 420</rs>), letter sketch</p>
+                                    </vg:decoDesc>
+                                </vg:decoItem>
+                            </vg:decoList>
+                        </vg:decoration>
+                    </vg:physDesc>
+                    <vg:letContents>
+<p>To Theo van Gogh. Nieuw-Amsterdam, Sunday, 28 October 1883.</p>
+<note type="ongoingTopic" n="1">
+<p>Tensions between Theo and his employers <ref target="let392.xml">(392)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="2">
+<p>Theo’s love for the ailing Marie <ref target="let300.xml">(300)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. nos. b359 a-b V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Van Gogh writes ‘It is Sunday today’ (<ref target="#l-1*">l. 1*</ref>). The letter was written later than <ref target="let398.xml">letter 398</ref>, which dates from about 22 October 1883, as can be inferred from the reference back to it: ‘I said we should by all means take Tom, Dick and Harry as they are’ (ll. 7-8; <ref target="let398.xml#l-247">letter 398, l. 247</ref>), and precedes <ref target="let401.xml">letter 401</ref> because the contents of that must be a reaction to what Theo had written in response to <ref target="#l-269">ll. 269-270</ref> in the present letter. The only date that qualifies is consequently Sunday, 28 October 1883 (see also <hi rend="ital">Date</hi> in the notes to <ref target="let398.xml">letters 398</ref> and <ref target="let401.xml">401</ref>).</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0359 a" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000463_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000463_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000463_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000463_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000463_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000463_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="VGM001000463_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000463_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000463_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0359 a" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000463_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000463_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000463_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000463_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000463_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000463_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000463_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000463_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000463_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0359 b" xml:id="surf-pb-2r">
+            <graphic mimeType="image/tiff" url="VGM001000464_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000464_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000464_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-2r-5">
+<graphic mimeType="image/tiff" url="VGM001000464_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000464_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000464_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-2r-8">
+<graphic mimeType="image/tiff" url="VGM001000464_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000464_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000464_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0359 b" xml:id="surf-pb-2v">
+            <graphic mimeType="image/tiff" url="VGM001000464_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000464_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000464_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-2v-6">
+<graphic mimeType="image/tiff" url="VGM001000464_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000464_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000464_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-2v-7">
+<graphic mimeType="image/tiff" url="VGM001000464_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000464_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000464_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Beste broer</ab>
+                <lb n="1*" xml:id="l-1s"/>
+<ab>Het is Zondag van daag en gij zijt mij niet uit <lb n="2" xml:id="l-2"/>de gedachten. Op deze dingen zou ik heel <lb n="3" xml:id="l-3"/>toepasselijk vinden betreffende den handel “plus tu <lb n="4" xml:id="l-4"/>y resteras<c type="kk">/</c> plus ça t’embêtera”<c type="kk">/</c> op het schilderen <lb n="5" xml:id="l-5"/>“plus ça t’amusera” – hier <hi rend="ital">amusera</hi> in <lb n="6" xml:id="l-6"/>een serieusen zin van levenslust<c type="kk">/</c> opgewektheid<c type="kk">/</c> <lb n="7" xml:id="l-7"/>energie. O – ik zeide wij zouden jan<c type="kk">/</c> piet en <lb n="8" xml:id="l-8"/>klaas vooral in hun waarde laten<anchor n="1" xml:id="note-o-1"/> – by all means – <lb n="9" xml:id="l-9"/>laat ons dat doen<c type="kk">/</c> maar behoudens dat in hun waarde <lb n="10" xml:id="l-10"/>laten van een &amp; ander<c type="kk">/</c> is het niet iets absurds<c type="kk">/</c> die <lb n="11" xml:id="l-11"/>vormen en conventies<c type="kk">/</c> zijn zij niet waarachtig <hi rend="ital">slecht</hi>? <lb n="12" xml:id="l-12"/>Een zekeren stand ophouden vordert zekere laagheden<c type="kk">/</c> <lb n="13" xml:id="l-13"/>onopregtheden – willens &amp; wetens met voorbedachten rade <lb n="14" xml:id="l-14"/>te doen<c type="kp">_</c>– Dat noem ik den fatalen kant zelfs van <lb n="15" xml:id="l-15"/>le rayon noir<c type="kk">/</c>
+                    <anchor n="2" xml:id="note-o-2"/> laat staan daar waar van rayon geen <lb n="16" xml:id="l-16"/>sprake is<c type="kp">_</c>
+                </ab>
+                <lb n="17" xml:id="l-17"/>
+<ab rend="indent">Neem de schilders van Barbizon nu<c type="kk">/</c> als menschen <lb n="18" xml:id="l-18"/>begrijp ik hen niet alleen doch <hi rend="ital">alles</hi>
+                    <c type="kk">/</c> de allerkleinste<c type="kk">/</c> <lb n="19" xml:id="l-19"/>intime bijzonderheden zijn tintelend van geest en leven in mijn oog<c type="kp">_</c>– <lb n="20" xml:id="l-20"/>Het “schildershuishouden” met zijn grandes &amp; petites misères<c type="kk">/</c>
+                    <anchor n="3" xml:id="note-o-3"/> <lb n="21" xml:id="l-21"/>met zijn calamiteiten<c type="kk">/</c> met zijn <hi rend="ital">Sorrows</hi> &amp; griefs<anchor n="4" xml:id="note-o-4"/> – <lb n="22" xml:id="l-22"/>dit heeft het vóór een zekere bonne volonte<c type="kk">/</c> een zekere <lb n="23" xml:id="l-23"/>opregtheid<c type="kk">/</c> een zeker echt menschelijk iets<c type="kp">_</c>–</ab>
+                <lb n="24" xml:id="l-24"/>
+<ab rend="indent">Juist het <hi rend="ital">niet</hi> een zekeren stand op houden<c type="kk">/</c> niet eens <lb n="25" xml:id="l-25"/>daarover denken – als gij <hi rend="ital">amusera</hi> neemt in <lb n="26" xml:id="l-26"/>hoogst serieusen zin van “het interessant vinden” – ik <lb n="27" xml:id="l-27"/>voor mij zeg dan “amusera”<c type="kp">_</c>–<lb n="28" xml:id="l-28"/> En van den zekeren stand “embêtera<c type="kk">/</c> <lb n="29" xml:id="l-29"/>abrutira”<c type="kp">_</c>– Zeg ik dit omdat ik beschaving <lb n="30" xml:id="l-30"/>veracht of zoo – integendeel net precies<c type="kk">/</c> omdat ik <lb n="31" xml:id="l-31"/>het echt menschelijke, het leven met de natuur mee – <lb n="32" xml:id="l-32"/>niet tegen de natuur in – als beschaving beschouw <lb n="33" xml:id="l-33"/>en respecteer<c type="kp">_</c>– Ik vraag<c type="kk">/</c> wat maakt mij ’t meest <lb n="34" xml:id="l-34"/>tot mensch<c type="kp">_</c>– Zola zegt – moi artiste<c type="kk">/</c> je <lb n="35" xml:id="l-35"/>veux vivre tout haut<anchor n="5" xml:id="note-o-5"/> – <hi rend="ital">veut vivre</hi> zonder <lb n="36" xml:id="l-36"/>arriere pensee – als een kind naif<c type="kk">/</c> <lb n="37" xml:id="l-37"/>neen niet als een kind<c type="kk">/</c> als een <lb n="38" xml:id="l-38"/>artist – met goeden wil<c type="kk">/</c> zoo als ’t leven <lb n="39" xml:id="l-39"/>zich voor zal doen<c type="kk">/</c> zoo zal ik er iets in vinden<c type="kk">/</c> zoo zal <lb n="40" xml:id="l-40"/>ik er mijn best op doen<c type="kp">_</c>–</ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="41" xml:id="l-41"/>
+<ab rend="indent">Kom nu met alle vooruit afgesprokene maniertjes<c type="kk">/</c> <lb n="42" xml:id="l-42"/>met het conventioneele<c type="kk">/</c> wat is het fameus pedant eigentlijk<c type="kk">/</c> <lb n="43" xml:id="l-43"/>wat is ’t absurd<c type="kk">/</c> een mensch die denkt dat hij ’t weet <lb n="44" xml:id="l-44"/>en dat ’t gaat zoo als hij denkt – als of er <lb n="45" xml:id="l-45"/>niet altijd in alle dingen van ’t leven een je ne sais <lb n="46" xml:id="l-46"/>quoi van almagtig goed &amp; ook een element van slecht <lb n="47" xml:id="l-47"/>was<c type="kk">/</c> waarvan men voelt het iets oneindig <lb n="48" xml:id="l-48"/>boven ons<c type="kk">/</c> oneindig grooter<c type="kk">/</c> magtiger dan wij ware. <lb n="49" xml:id="l-49"/>Een mensch die zich niet klein voelt – die niet <lb n="50" xml:id="l-50"/>beseft hij een stipje is – au fond wat heeft hij ’t mis. <lb n="51" xml:id="l-51"/>Verliest men er iets bij te laten varen sommige <lb n="52" xml:id="l-52"/>begrippen<c type="kk">/</c> als kind ons ingeprent<c type="kk">/</c> van stand ophouden – <lb n="53" xml:id="l-53"/>of zekere vormen als N<hi rend="ss">o</hi> 1 beschouwen. Ik voor mij<c type="kk">/</c> <lb n="54" xml:id="l-54"/>of ik er bij verlies of niet verlies denk ik niet eens over<c type="kk">/</c> <lb n="55" xml:id="l-55"/>ik weet alleen dat mijn ervaring is die vormen <lb n="56" xml:id="l-56"/>en begrippen geen steek houden en zelfs menigmaal <lb n="57" xml:id="l-57"/>fataal<c type="kk">/</c> ja gedecideerd slecht zijn. Ik kom tot <lb n="58" xml:id="l-58"/>de conclusie dat ik niets weet doch tevens dat <lb n="59" xml:id="l-59"/>het leven waarin we zijn zoo’n mysterie is dat zeker <lb n="60" xml:id="l-60"/>het systeem “Fatsoenlijkheid” te bekrompen is<c type="kp">_</c>– <lb n="61" xml:id="l-61"/>Dus dat is voor mij zijn crediet kwijt<c type="kp">_</c>–</ab>
+                <lb n="62" xml:id="l-62"/>
+<ab rend="indent">Hoe zal ik nu doen<c type="kp">_</c> de geijkte term is “Wat is Uw doel, <lb n="63" xml:id="l-63"/>wat is Uw streven<c type="kp">_</c>” o ik zal doen wel zoo als ik doen <lb n="64" xml:id="l-64"/>zal – hoe? weet ik niet vooruit – weet gij het<c type="kk">/</c> die <lb n="65" xml:id="l-65"/>mij de pedante vraag doet<c type="kk">/</c> wat is uw doel<c type="kk">/</c> wat is uw streven? <lb n="66" xml:id="l-66"/>Nu zegt men “ge zijt karakterloos als ge geen doel<c type="kk">/</c> <lb n="67" xml:id="l-67"/>geen streven hebt”<c type="kp">_</c>– Mijn antwoord<c type="kk">/</c> Ik heb U <lb n="68" xml:id="l-68"/>niet gezegd ik <hi rend="ital">geen</hi> doel<c type="kk">/</c> <hi rend="ital">geen</hi> streven had<c type="kk">/</c> ik heb gezegd <lb n="69" xml:id="l-69"/>ik het onuitsprekelijk pedant vond iemand te willen <lb n="70" xml:id="l-70"/>forceeren te defineeren wat indéfinissable is.</ab>
+                <lb n="71" xml:id="l-71"/>
+<ab rend="indent">Ziehier mijn gedachten omtrent zekere levenskwesties – <lb n="72" xml:id="l-72"/>Het heele redeneeren er over is een van de dingen <lb n="73" xml:id="l-73"/>waarvan ik zeg “embêtera”<c type="kp">_</c>– Leef – doe iets – <lb n="74" xml:id="l-74"/>en dat is amusanter<c type="kk">/</c> dat is positiever<c type="kp">_</c>–</ab>
+                <lb n="75" xml:id="l-75"/>
+<ab rend="indent">Kort &amp; goed<c type="kp">_</c> Een zeker de maatschappij in <lb n="76" xml:id="l-76"/>haar waarde laten maar zelf zich volkomen vrij <lb n="77" xml:id="l-77"/>gevoelen<c type="kk">/</c> geloovende niet in eigen verstand <lb n="78" xml:id="l-78"/>maar wel in “<hi rend="ital">de</hi> rede”<c type="kk">/</c> geloovende mijn eigen <lb n="79" xml:id="l-79"/>verstand<c type="kk">/</c> al verwar ik dat niet met “de rede” – (mijn verstand <lb n="80" xml:id="l-80"/>is menschelijk<c type="kk">/</c> de rede goddelijk<c type="kk">/</c> maar er is een band tusschen ’t een en <lb n="81" xml:id="l-81"/>’t ander)<c type="kk">/</c> mijn eigen geweten het kompas is dat mij <lb n="82" xml:id="l-82"/>den weg wijst<c type="kk">/</c> al weet ik er van ’t niet precies zuiver werkt<c type="kp">_</c>–<anchor n="6" xml:id="note-o-6"/>
+                </ab>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                <lb n="83" xml:id="l-83"/>
+<ab rend="indent">Ik wou er op komen dat als ik terug denk in <lb n="84" xml:id="l-84"/>het vroegere schildersgeslacht<c type="kk">/</c> ik mij herinner <lb n="85" xml:id="l-85"/>een uitdrukking van U “zij waren VERBAZEND <lb n="86" xml:id="l-86"/>vroolijk”<c type="kp">_</c> Nu wou ik zeggen dat <hi rend="sc">als</hi> gij schilder <lb n="87" xml:id="l-87"/>werd gij dat moet doen met iets van die zelfde <lb n="88" xml:id="l-88"/>
+                    <hi rend="ital">verbazende</hi> vroolijkheid<c type="kp">_</c>– Die hebt ge noodig <lb n="89" xml:id="l-89"/>als contrepoids tegen het melankoliek aspect <lb n="90" xml:id="l-90"/>der omstandigheden<c type="kp">_</c>– Daar mee doet ge meer dan <lb n="91" xml:id="l-91"/>met wat dan ook<c type="kp">_</c>– Gij moet hebben een zeker genie<c type="kk">/</c> <lb n="92" xml:id="l-92"/>ik weet er geen ander woord voor<c type="kk">/</c> dat precies het tegenovergestelde <lb n="93" xml:id="l-93"/>is van wat men “zwaar op de hand” noemt. Praat mij er <lb n="94" xml:id="l-94"/>natuurlijk niet van dat ’t zij ik ’t zij gij zelf dat niet <lb n="95" xml:id="l-95"/>zouden kunnen hebben. Ik zeg het omdat ik vind <lb n="96" xml:id="l-96"/>dat wij ons best moeten doen zóó te worden<c type="kk">/</c> ik <lb n="97" xml:id="l-97"/>beweer niet dat hetzij ik of hetzij gij al voldoende zóó <lb n="98" xml:id="l-98"/>zijn – ik zeg<c type="kk">/</c> laat ons daar ons best op doen – <lb n="99" xml:id="l-99"/>wegens het mij in een &amp; ander schrijven te doen is <lb n="100" xml:id="l-100"/>U<c type="kk">/</c> al geloof ik dat gij van zelf U wel begrijpt hoe ik <lb n="101" xml:id="l-101"/>over een &amp; ander denk<c type="kk">/</c> te toonen gij U in mijn gedachten <lb n="102" xml:id="l-102"/>niet vergist<c type="kp">_</c>– Het heele plan zou in mijn oog nog <lb n="103" xml:id="l-103"/>ontzettend winnen als er aan te verbinden was <lb n="104" xml:id="l-104"/>dat gij bleeft met de vrouw met welke gij zijt<c type="kp">_</c>–<anchor n="7" xml:id="note-o-7"/>
+                </ab>
+                <lb n="105" xml:id="l-105"/>
+<ab rend="indent">En dat indien gij voelt dat het in de natuur van U en <lb n="106" xml:id="l-106"/>haar ligt om zelfs een zeker pleizier – een verbazende <lb n="107" xml:id="l-107"/>vroolijkheid – te hebben tegenover de omstandigheden – een <lb n="108" xml:id="l-108"/>je ne sais quelle verbazende <hi rend="ital">jeugd</hi> – en ik <lb n="109" xml:id="l-109"/>reken zulks niet onder de onmogelijkheden – gij zeidet zij <lb n="110" xml:id="l-110"/>was intelligent – welnu zamen kunt ge meer dan alleen<c type="kp">_</c> <lb n="111" xml:id="l-111"/>En in dit geval<c type="kk">/</c> waar personen van een <lb n="112" xml:id="l-112"/>zelfde sentiment<c type="kk">/</c> personen in een zelfde <lb n="113" xml:id="l-113"/>tamelijk serieuse misère zich zouden verbinden <lb n="114" xml:id="l-114"/>om zamen zich er door te slaan zeg ik<c type="kk">/</c> <lb n="115" xml:id="l-115"/>hoe meer luidjes hoe beter<c type="kp">_</c>–</ab>
+                <lb n="116" xml:id="l-116"/>
+<ab rend="indent">En ik zeg – als dat was of tot stand kwam<c type="kk">/</c> <lb n="117" xml:id="l-117"/>dat aaneensluiten om zich een weg te banen<c type="kk">/</c> is <lb n="118" xml:id="l-118"/>dat iets wat oneindig meer is dan alle vormen <lb n="119" xml:id="l-119"/>en verheven is boven qu’en dira-t-on<c type="kp">_</c>
+                </ab>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                <lb n="120" xml:id="l-120"/>
+<ab rend="indent">En wilde U zeggen <hi rend="ital">hier</hi> de menschen mij niet onaangenaam <lb n="121" xml:id="l-121"/>voorkomen of intrigant<c type="kp">_</c>– Er is hier iets welwillends en <lb n="122" xml:id="l-122"/>ge kunt geloof ik hier net precies doen wat U ’t best convenieert<c type="kp">_</c> <lb n="123" xml:id="l-123"/>Er is hier – een verbazend jeugdige atmosfeer<c type="kp">_</c>–</ab>
+                <lb n="124" xml:id="l-124"/>
+<ab rend="indent">Ik weet dat al deze dingen een fatalen geldkant hebben <lb n="125" xml:id="l-125"/>maar ik zeg<c type="kk">/</c> laat ons dien fatalen geldkant zoo veel <lb n="126" xml:id="l-126"/>mogelijk verzwakken door niet <hi rend="ital">al</hi> te bang voor hem te <lb n="127" xml:id="l-127"/>zijn primo<c type="kk">/</c> en door te voelen dat als men met liefde<c type="kk">/</c> <lb n="128" xml:id="l-128"/>met een eigenaardig elkaar begrijpen &amp; zamenwerken en <lb n="129" xml:id="l-129"/>elkander steunen te werk gaat<c type="kk">/</c> dit veel dingen die <lb n="130" xml:id="l-130"/>anders ondragelijk zouden zijn verzacht<c type="kk">/</c> ja soms geheel <lb n="131" xml:id="l-131"/>verandert. Ik voor mij<c type="kk">/</c> als er een paar lui waren met <lb n="132" xml:id="l-132"/>wie men over kunst zou kunnen spreken<c type="kk">/</c> die voelen <lb n="133" xml:id="l-133"/>zouden en willen – ik zou er enorm bij winnen voor <lb n="134" xml:id="l-134"/>eigen werk – ik zou meer mij zelf voelen<c type="kk">/</c> meer mij <lb n="135" xml:id="l-135"/>zelf zijn<c type="kp">_</c>– Als er voor een allereerste periode <lb n="136" xml:id="l-136"/>geld genoeg is om ons te bolwerken<c type="kk">/</c> tegen dat het op is <lb n="137" xml:id="l-137"/>zal ik verdienen<c type="kp">_</c> Hoe meer ik er over denk hoe meer <lb n="138" xml:id="l-138"/>’t mij voorkomt zoo als ik aanvankelijk reeds voelde<c type="kp">_</c>
+                </ab>
+                <lb n="139" xml:id="l-139"/>
+<ab rend="indent">Uw hart zit voor een deel in ’t huis G&amp;C<hi rend="ss">ie</hi> doch G&amp;C<hi rend="ss">ie</hi> vragen dat <lb n="140" xml:id="l-140"/>niet<c type="kk">/</c> vragen in overmoed onredelijke dingen<c type="kp">_</c>– Dit is primo een <lb n="141" xml:id="l-141"/>groote grief voor U<c type="kk">/</c> iets dat U veel inwendige smart geeft<c type="kp">_</c>– Het is hier <lb n="142" xml:id="l-142"/>niet alleen een geldkwestie<c type="kk">/</c> gij zijt er met Uw hart in<c type="kk">/</c> het is een <lb n="143" xml:id="l-143"/>harteleed. Met dat harteleed zult gij een dito carriere aanvangen <lb n="144" xml:id="l-144"/>met dito resultaat misschien weer<c type="kp">_</c>– Zie<c type="kk">/</c> is dat te doen<c type="kp">_</c>– <lb n="145" xml:id="l-145"/>Ik zeg dat ik het betwijfel<c type="kp">_</c>– Dat het mij voorkomt gij<c type="kk">/</c> die <lb n="146" xml:id="l-146"/>zeer jong zijt<c type="kk">/</c> <hi rend="ital">niet roekeloos</hi> doet als gij redeneert: ik heb <lb n="147" xml:id="l-147"/>van den kunsthandel ’t mijne maar niet van de kunst<c type="kk">/</c> <lb n="148" xml:id="l-148"/>het handelen laat ik daar en ik zoek het in ’t hart van ’t vak zelf. <lb n="149" xml:id="l-149"/>In der tijd had <hi rend="ital">ik</hi> <hi rend="ital">dat</hi> moeten doen<c type="kp">_</c>– Dat ik mij vergistte <lb n="150" xml:id="l-150"/>was een erreur de point de vue<c type="kk">/</c> begrijpelijk misschien <lb n="151" xml:id="l-151"/>uit dat ik toen nog niet wist hoe het in zake onderwijs of <lb n="152" xml:id="l-152"/>evangelie gesteld was – niets daar van wist – en idealen had erover<c type="kp">_</c>
+                    <anchor n="8" xml:id="note-o-8"/> <lb n="153" xml:id="l-153"/>Gij zult zeggen<c type="kk">/</c> kan men in zake kunst ook geen idealen <lb n="154" xml:id="l-154"/>zich vormen die geen steek houden met bestaande toestanden. <lb n="155" xml:id="l-155"/>Wel<c type="kk">/</c> beantwoord dat voor U zelf<c type="kk">/</c> ik beantwoord het ook voor me <lb n="156" xml:id="l-156"/>zelf met te vragen<c type="kk">/</c> is Barbizon<c type="kk">/</c> is de Hollandsche <lb n="157" xml:id="l-157"/>schilderschool<anchor n="9" xml:id="note-o-9"/> een daadzaak of geen daadzaak?</ab>
+                <lb n="158" xml:id="l-158"/>
+<ab rend="indent">Wat er ook zij van de kunstwereld<c type="kk">/</c> het is geen rotten boel<c type="kp">_</c> <lb n="159" xml:id="l-159"/>Integendeel het is beter &amp; beter geworden – <lb n="160" xml:id="l-160"/>en misschien is wel reeds het hoogste toppunt bereikt maar <lb n="161" xml:id="l-161"/>wij zijn daar nog in elk geval heel digt bij en zoolang gij en <lb n="162" xml:id="l-162"/>ik leven<c type="kk">/</c> al werden we 100 jaar oud<c type="kk">/</c> zal er een zekere animo <lb n="163" xml:id="l-163"/>van ’t echte soort zijn<c type="kp">_</c>– Dus wil men schilderen – handen <lb n="164" xml:id="l-164"/>uit de mouwen gestoken<c type="kp">_</c>– Als de vrouw kwam <lb n="165" xml:id="l-165"/>zou zij ook moeten schilderen natuurlijk.</ab>
+                <lb n="166" xml:id="l-166"/>
+<ab rend="indent">Iedereen zou hier moeten schilderen<c type="kp">_</c>– De vrouw van <lb n="167" xml:id="l-167"/>een van de v. Eijcks moest het ook<c type="kp">_</c>–<anchor n="10" xml:id="note-o-10"/>
+                </ab>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+                <lb n="168" xml:id="l-168"/>
+<ab rend="indent">Met de meest mogelijken goeden moed<c type="kk">/</c> <lb n="169" xml:id="l-169"/>vroolijkheid<c type="kk">/</c> enthousiasme zou <lb n="170" xml:id="l-170"/>men moeten beginnen te zeggen<c type="kk">/</c> <lb n="171" xml:id="l-171"/>wij kunnen geen van allen iets en toch <lb n="172" xml:id="l-172"/>wij zijn schilders<c type="kp">_</c>– Ons <hi rend="ital">willen</hi> is een <hi rend="ital">actie</hi>
+                    <c type="kp">_</c>–<anchor n="11" xml:id="note-o-11"/> <lb n="173" xml:id="l-173"/>Ziedaar wat mij de opvatting zou voorkomen te moeten <lb n="174" xml:id="l-174"/>wezen. Wij leven au jour le jour – als wij niet <lb n="175" xml:id="l-175"/>werken “comme plusieurs nègres”<anchor n="12" xml:id="note-o-12"/> dan moeten we <lb n="176" xml:id="l-176"/>van honger sterven en het meest bespottelijke figuur <lb n="177" xml:id="l-177"/>maken<c type="kp">_</c>– Daar hebben we nu eenmaal een <lb n="178" xml:id="l-178"/>fameuzen afschuw van en dus wij moeten en wij zullen<c type="kp">_</c> <lb n="179" xml:id="l-179"/>Het zou niet te doen zijn door lui die niet <lb n="180" xml:id="l-180"/>iets hadden van dat wat ik dan maar verbazende <lb n="181" xml:id="l-181"/>jeugd zal noemen – en tegelijk een ernst die <lb n="182" xml:id="l-182"/>verdomd ernstig was<c type="kp">_</c>–</ab>
+                <lb n="183" xml:id="l-183"/>
+<ab rend="indent">Het – <hi rend="ital">y mettre sa peau</hi>
+                    <c type="kp">_</c>–<anchor n="13" xml:id="note-o-13"/>
+                </ab>
+                <lb n="184" xml:id="l-184"/>
+<ab rend="indent">Nu – als ’t een speculatie was zou ik er niet zóó over <lb n="185" xml:id="l-185"/>kunnen denken – maar hier is het een strijd om <lb n="186" xml:id="l-186"/>uit de wereld van conventie en speculatie uit te komen<c type="kp">_</c> <lb n="187" xml:id="l-187"/>Het is iets goeds<c type="kk">/</c> iets vreedzaams<c type="kk">/</c> een regtvaardige <lb n="188" xml:id="l-188"/>zaak. Wij zullen wel degelijk zoeken brood te verdienen <lb n="189" xml:id="l-189"/>doch bepaald in den letterlijken zin<c type="kp">_</c> Het geld voor zoover <lb n="190" xml:id="l-190"/>het niet voor absolute levensbehoeften noodig is<c type="kk">/</c> laat ons <lb n="191" xml:id="l-191"/>koel<c type="kp">_</c>– Wij doen niets waar wij ons voor behoeven te schamen<c type="kp">_</c> <lb n="192" xml:id="l-192"/>Wij kunnen rondborstig met wat Carlyle noemt <lb n="193" xml:id="l-193"/>quite a royal feeling<anchor n="14" xml:id="note-o-14"/> rondwandelen in de natuur <lb n="194" xml:id="l-194"/>en werken<c type="kp">_</c>– Wij kunnen werken omdat wij eerlijk zijn<c type="kp">_</c> <lb n="195" xml:id="l-195"/>Wij zeggen<c type="kk">/</c> we hebben toen we kinderen waren ons <lb n="196" xml:id="l-196"/>vergist<c type="kk">/</c> of liever we moesten toen volgen en doen waar <lb n="197" xml:id="l-197"/>wij ons brood mee verdienden<c type="kp">_</c>– Later is er dit en dat <lb n="198" xml:id="l-198"/>gebeurd en toen hebben wij het raadzaam geacht <lb n="199" xml:id="l-199"/>handwerkslui te worden<c type="kp">_</c>– Omdat zekere toestanden <lb n="200" xml:id="l-200"/>ons te opgeschroefd waren<c type="kp">_</c>
+                </ab>
+                <lb n="201" xml:id="l-201"/>
+<ab rend="indent">Als ge er lui over spreken zoudt<c type="kk">/</c> ik denk allen zouden <lb n="202" xml:id="l-202"/>het afraden &amp;c<c type="kp">_</c>– Misschien alleen de vrouw met wie <lb n="203" xml:id="l-203"/>ge zijt niet<c type="kp">_</c>– Indien gij voor Uw zelf eene beslissing <lb n="204" xml:id="l-204"/>hebt<c type="kk">/</c> vermijd de lui wegens ze U niet dan verzwakken <lb n="205" xml:id="l-205"/>kunnen in wilskracht. Juist op ’t moment dat men nog <lb n="206" xml:id="l-206"/>niet zijn oppervlakkige onhandigheid verloren heeft<c type="kk">/</c> <lb n="207" xml:id="l-207"/>nog niet ontbolsterd is<c type="kk">/</c> is een “ni fait ni à faire”<anchor n="15" xml:id="note-o-15"/> genoeg 
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>
+                    <lb n="208" xml:id="l-208"/>om een half jaar moedeloosheid te veroorzaken<c type="kk">/</c> <lb n="209" xml:id="l-209"/>waarna men toch eindelijk ziet dat men niet zich <lb n="210" xml:id="l-210"/>had moeten laten desorienteeren<c type="kp">_</c>–</ab>
+                <lb n="211" xml:id="l-211"/>
+<ab rend="indent">Van twee personen ken ik den zielstrijd tusschen <lb n="212" xml:id="l-212"/>het ik ben schilder en ik ben geen schilder.<anchor n="16" xml:id="note-o-16"/>
+                </ab>
+                <lb n="213" xml:id="l-213"/>
+<ab rend="indent">Van Rappard en van mij zelf – een strijd soms bang<c type="kk">/</c> <lb n="214" xml:id="l-214"/>een strijd die juist is dat wat het onderscheid is tusschen <lb n="215" xml:id="l-215"/>ons en zekere anderen die minder serieus het opnemen<c type="kp">_</c> <lb n="216" xml:id="l-216"/>Voor ons zelf hebben wij het soms beroerd<c type="kk">/</c> aan ’t eind <lb n="217" xml:id="l-217"/>eener melankolie een beetje licht<c type="kk">/</c> een beetje vooruitgang<c type="kk">/</c> <lb n="218" xml:id="l-218"/>zekere anderen hebben minder strijd<c type="kk">/</c> werken <lb n="219" xml:id="l-219"/>misschien makkelijker doch het persoonlijk <lb n="220" xml:id="l-220"/>karakter ontwikkelt zich ook minder. Gij zoudt ook <lb n="221" xml:id="l-221"/>dien strijd hebben en ik zeg<c type="kk">/</c> weet van Uw zelf dat gij <lb n="222" xml:id="l-222"/>het gevaar loopt om door lui die zonder twijfel magtig beste <lb n="223" xml:id="l-223"/>intenties hebben<c type="kk">/</c> van streek te worden gebragt<c type="kp">_</c>–</ab>
+                <lb n="224" xml:id="l-224"/>
+<ab rend="indent">Als iets in U zelf zegt “gij zijt geen schilder” – SCHILDER <lb n="225" xml:id="l-225"/>DAN JUIST kerel<c type="kk">/</c> en die stem bedaart ook<c type="kk">/</c> maar <lb n="226" xml:id="l-226"/>slechts daardoor<c type="kp">_</c>– Wie als hij dat voelt gaat naar <lb n="227" xml:id="l-227"/>vrienden en zijn nood klaagt<c type="kk">/</c> verliest iets van <lb n="228" xml:id="l-228"/>zijn mannelijkheid<c type="kk">/</c> iets van het beste wat in hem is<c type="kp">_</c>– <lb n="229" xml:id="l-229"/>Uw vrienden kunnen slechts zijn dezulken die <lb n="230" xml:id="l-230"/>zelf daartegen vechten<c type="kk">/</c> door eigen voorbeeld van <lb n="231" xml:id="l-231"/>actie het active in U opwekken.</ab>
+<vg:whiteline/>
+                <figure facs="zone-sketch-1" n="A"/>
+<pb f="2v" n="7" xml:id="pb-orig-2v-7" facs="#zone-pb-2v-7"/>
+                <lb n="232" xml:id="l-232"/>
+<ab>Men moet het opvatten met een aplomb<c type="kk">/</c> met <lb n="233" xml:id="l-233"/>een zeker weten dat men iets redelijks doet<c type="kk">/</c> <lb n="234" xml:id="l-234"/>als de boer zijn ploeg stuurt of als <lb n="235" xml:id="l-235"/>onze vriend in het krabbeltje aan het <lb n="236" xml:id="l-236"/>eggen is<c type="kk">/</c> nog wel zelf<c type="kp">_</c>
+                    <anchor n="17" xml:id="note-o-17"/> Heeft men geen paard<c type="kk">/</c> is men <lb n="237" xml:id="l-237"/>zijn eigen paard – dat doen een massa lui <lb n="238" xml:id="l-238"/>hier. <hi rend="ital">Gij moet het beschouwen niet eens als een</hi> <lb n="239" xml:id="l-239"/>
+                    <hi rend="ital">veranderen – als een dieper doordringen</hi>
+                    <c type="kp">_</c>–</ab>
+                <lb n="240" xml:id="l-240"/>
+<ab rend="indent">Gij hebt gedurende eene reeks van jaren de kunst leeren <lb n="241" xml:id="l-241"/>zien – nu met een reeds weten <hi rend="ital">wat</hi> ge wilt maken<c type="kk">/</c> <lb n="242" xml:id="l-242"/>gaat gij verder<c type="kp">_</c>– Denk niet dat dit weinig is<c type="kp">_</c>
+                </ab>
+                <lb n="243" xml:id="l-243"/>
+<ab rend="indent">Gij kunt beslist zijn<c type="kk">/</c> Gij weet <hi rend="ital">wat</hi> ge wilt<c type="kp">_</c>–</ab>
+                <lb n="244" xml:id="l-244"/>
+<ab rend="indent">Een woord van Gustave Doré heb ik altijd magtig mooi <lb n="245" xml:id="l-245"/>gevonden – j’ai la patience d’un boeuf<anchor n="18" xml:id="note-o-18"/> – ik <lb n="246" xml:id="l-246"/>zie daar meteen in iets goeds<c type="kk">/</c> een <lb n="247" xml:id="l-247"/>zekere resolute eerlijkheid<c type="kk">/</c> enfin er is veel in dat <lb n="248" xml:id="l-248"/>woord<c type="kk">/</c> het is een echt artistenwoord<c type="kp">_</c> Als men <lb n="249" xml:id="l-249"/>aan lui uit wier gemoed zoo iets voortkomt denkt<c type="kk">/</c> mij <lb n="250" xml:id="l-250"/>dunkt redenaties zòò als men in den kunsthandel maar <lb n="251" xml:id="l-251"/>al te veel hoort over “gave” worden zoo’n ijsselijk <lb n="252" xml:id="l-252"/>ravengekras<c type="kp">_</c>– “j’ai la patience”<c type="kk">/</c> <lb n="253" xml:id="l-253"/>wat is dat stil<c type="kk">/</c> wat is dat deftig<c type="kp">_</c>– Ze zouden dat <lb n="254" xml:id="l-254"/>niet eens zeggen als ’t niet ware juist van wege <lb n="255" xml:id="l-255"/>al dat ravengekras<c type="kp">_</c>– Ik ben geen artist – wat is <lb n="256" xml:id="l-256"/>dat grof – zelfs om ’t van zich zelf te denken<c type="kp">_</c>– <lb n="257" xml:id="l-257"/>zou men geen geduld hebben<c type="kk">/</c> geen geduld <lb n="258" xml:id="l-258"/>leeren van de natuur<c type="kk">/</c> geduld leeren van het <lb n="259" xml:id="l-259"/>zien zachtjes opkomen van t’koren<c type="kk">/</c> het groeijen <lb n="260" xml:id="l-260"/>van de dingen – zou men zich zelf zoo’n fameus <lb n="261" xml:id="l-261"/>dood ding vinden dat men meende zelf niet <lb n="262" xml:id="l-262"/>te zullen groeijen<c type="kp">_</c>– Zou men expres zijn ontwikkeling <lb n="263" xml:id="l-263"/>tegengaan. Ik zeg dit om te wijzen <hi rend="ital">waarom</hi> ik het zoo <lb n="264" xml:id="l-264"/>mal vind om over gaven en geen gaven te spreken.</ab>
+                <lb n="265" xml:id="l-265"/>
+<ab rend="indent">Maar wil men groeijen<c type="kk">/</c> men moet in de aarde <lb n="266" xml:id="l-266"/>vallen<c type="kp">_</c>– Dus zeg ik tot U<c type="kk">/</c> plant U in den <lb n="267" xml:id="l-267"/>grond van Drenthe – gij zult er kiemen<c type="kp">_</c>– <lb n="268" xml:id="l-268"/>Verdroog niet op ’t trottoir<c type="kp">_</c>– Er zijn stadsplanten <lb n="269" xml:id="l-269"/>zult ge zeggen – nu ja<c type="kk">/</c> maar gij zijt koren en hoort <lb n="270" xml:id="l-270"/>op den korenakker<c type="kp">_</c>–</ab>
+<pb f="2r" n="8" xml:id="pb-orig-2r-8" facs="#zone-pb-2r-8"/>
+                <lb n="271" xml:id="l-271"/>
+<ab rend="indent">Nu<c type="kk">/</c> ook ik voorzie dat misschien om finantieele redenen <lb n="272" xml:id="l-272"/>het nu ’t moment niet <hi rend="ital">kan</hi> zijn doch tevens dat misschien ook <lb n="273" xml:id="l-273"/>de omstandigheden net eventjes het mogelijk zouden <lb n="274" xml:id="l-274"/>maken<c type="kp">_</c> En als er een halve mogelijkheid slechts ware<c type="kk">/</c> zoo <lb n="275" xml:id="l-275"/>is het mijn meening gij wel zoudt doen het te wagen<c type="kp">_</c>– <lb n="276" xml:id="l-276"/>Ik geloof niet dat gij ooit het U zoudt beklagen<c type="kp">_</c> Gij zoudt <lb n="277" xml:id="l-277"/>het best wat in U is ontwikkelen<c type="kk">/</c> een meer vreedzaam <lb n="278" xml:id="l-278"/>leven hebben. Wij zouden geen van beiden alleen zijn<c type="kk">/</c> <lb n="279" xml:id="l-279"/>ons werk zou in elkaar vloeijen<c type="kp">_</c>– Wij zouden in ’t begin <lb n="280" xml:id="l-280"/>bange momenten kunnen hebben<c type="kk">/</c> wij zouden daarop <lb n="281" xml:id="l-281"/>ons prepareeren en het zelf zoo inrigten dat wij die <lb n="282" xml:id="l-282"/>moesten doorstaan<c type="kk">/</c> niet terug konden<c type="kp">_</c> Achter ons <lb n="283" xml:id="l-283"/>niet om zien noch kunnen zien<c type="kk">/</c> vooruit onszelf <lb n="284" xml:id="l-284"/>dwingen te kijken zelfs. Maar juist in dien tijd <lb n="285" xml:id="l-285"/>zijn wij ver weg van alle vrienden &amp; bekenden<c type="kk">/</c> wij strijden <lb n="286" xml:id="l-286"/>dien strijd zonder dat iemand ons ziet en dat is het beste<c type="kk">/</c> <lb n="287" xml:id="l-287"/>anderen kunnen slechts hinderen. Wij zien de victorie <lb n="288" xml:id="l-288"/>vooruit – wij voelen haar in ons. Wij zullen zoo druk <lb n="289" xml:id="l-289"/>te werken hebben wij aan niets anders dan positief <lb n="290" xml:id="l-290"/>het werk denken kunnen<c type="kp">_</c>–</ab>
+                <lb n="291" xml:id="l-291"/>
+<ab rend="indent">Ik meen niet U iets nieuws te zeggen in ’t minst<c type="kk">/</c> <lb n="292" xml:id="l-292"/>ik vraag alleen<c type="kk">/</c> werk Uw eigen beste gedachten niet <lb n="293" xml:id="l-293"/>tegen. Denk over dat idee van liever met <lb n="294" xml:id="l-294"/>een zekeren leuken<c type="kk">/</c> goeden moed dan met <lb n="295" xml:id="l-295"/>zwaartillendheid de zaken aan te zien<c type="kp">_</c>– Ik <lb n="296" xml:id="l-296"/>zie dat zelfs in Millet<c type="kk">/</c> juist omdat hij zóó serieus <lb n="297" xml:id="l-297"/>was kon hij niet laten goeden moed te hebben. <lb n="298" xml:id="l-298"/>Dat is iets eigenaardigs<c type="kk">/</c> niet van alle rigtingen van het <lb n="299" xml:id="l-299"/>schilderen maar van de rigting Millet<c type="kk">/</c> Israels<c type="kk">/</c> <lb n="300" xml:id="l-300"/>Breton<c type="kk">/</c>
+                    <anchor n="19" xml:id="note-o-19"/> Boughton<c type="kk">/</c> Herkomer<c type="kk">/</c> meer anderen<c type="kp">_</c>– <lb n="301" xml:id="l-301"/>Die het echt eenvoudige zoeken enfin zijn zelf <lb n="302" xml:id="l-302"/>zoo eenvoudig en hun levensopvatting is zoo <lb n="303" xml:id="l-303"/>vol goeden wil en goeden moed<c type="kk">/</c> zelfs bij misères<c type="kp">_</c>
+                </ab>
+                <lb n="304" xml:id="l-304"/>
+<ab rend="indent">Denk gij over een &amp; ander<c type="kk">/</c> schrijf over <lb n="305" xml:id="l-305"/>een &amp; ander<c type="kp">_</c>– Het moet zijn une revolution <lb n="306" xml:id="l-306"/>qui est puisqu’il faut qu’elle soit<anchor n="20" xml:id="note-o-20"/> – de meest <lb n="307" xml:id="l-307"/>van zelf sprekende zaak van de wereld voor U zelf en voor mij zelf<c type="kk">/</c> dus <lb n="308" xml:id="l-308"/>ik schrijf er over met kalmte en gij zult ook er <lb n="309" xml:id="l-309"/>kalm over denken<c type="kk">/</c> daar twijfel ik niet aan<c type="kp">_</c> Met <lb n="310" xml:id="l-310"/>een handdruk<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="310*" xml:id="l-310s"/>
+<ab>t. à t.</ab>
+                <lb n="311" xml:id="l-311"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-5" n="5">“plus ça t’amusera” &lt; <hi rend="ital">Quotation marks added by us.</hi>
+                    </note>
+<note target="l-11" n="11">
+                        <hi rend="ital">slecht</hi>? &lt; <hi rend="ital">slecht</hi>
+                    </note>
+<note target="l-25" n="25">als &lt; Als</note>
+<note target="l-26" n="26">vinden” &lt; vinden</note>
+<note target="l-27" n="27">“amusera”<c type="kp">_</c>– &lt; “amusera –</note>
+<note target="l-28" targetEnd="l-29" n="28-29">“embêtera<c type="kk">/</c> abrutira”<c type="kp">_</c>– &lt; <hi rend="ital">Quotation marks added by us.</hi>
+                    </note>
+<note target="l-30" n="30">zoo – &lt; zoo</note>
+<note target="l-67" n="67">hebt”<c type="kp">_</c>– &lt; hebt –</note>
+<note target="l-90" n="90">meer dan &lt; meer dat</note>
+<note target="l-146" n="146">redeneert: &lt; redeneert</note>
+<note target="l-222" n="222">gevaar loopt &lt; gevaar</note>
+<note target="l-224" n="224">schilder” &lt; schilder</note>
+<note target="l-249" n="249">voortkomt &lt; voorkomt</note>
+<note target="l-252" n="252">“j’ai la patience” &lt; <hi rend="ital">Possibly inserted later; it is uncertain whether the quotation should be placed here, or at the end of the sentence.</hi>
+                    </note>
+<note target="l-282" n="282">Achter &lt; Acher  <hi rend="ital">Reading uncertain.</hi>
+                    </note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear brother,</ab>
+<ab>It’s Sunday today and you’re never out of my thoughts. As to these things, I’d find ‘the longer you stay there, the more bored you’ll be’ very applicable to business; ‘the more you’ll enjoy yourself’ to painting — <hi rend="ital">enjoy</hi> here in a serious sense of a zest for life, good spirits, energy. Oh — I said we should by all means take Tom, Dick and Harry as they are<anchor n="1" xml:id="note-t-1"/> — by all means — let’s do that, but apart from taking one thing and another as it is, isn’t there something absurd about these forms and conventions, aren’t they truly <hi rend="ital">bad</hi>? Maintaining a certain status fosters certain base acts, insincerities — to be done willingly and knowingly with premeditation. That’s what I call the fatal side, even of the black ray,<anchor n="2" xml:id="note-t-2"/> let alone where there’s no question of any ray at all.</ab>
+<ab rend="indent">Now take the Barbizon painters, not only do I understand them as people, but in my view<hi rend="ital"> everything, </hi>the tiniest, most intimate particulars, sparkles with spirit and life. The ‘painters’ household’ with its great and petty vexations,<anchor n="3" xml:id="note-t-3"/> with its calamities, with its <hi rend="ital">Sorrows</hi> and griefs<anchor n="4" xml:id="note-t-4"/> — it has a certain good will in its favour, a certain sincerity, a certain genuinely human quality.</ab>
+      <ab rend="indent">Precisely by <hi rend="ital">not</hi> maintaining a certain status, not even thinking about it — if you take <hi rend="ital">enjoying</hi> in the most serious sense of ‘finding it interesting’ — for my part I call that ‘enjoying’. And then about that certain status ‘boring, stupefying’. Do I say this because I despise refinement or something? — just the very opposite, because I regard and respect the genuinely human, living with nature — not going against nature — as refinement. I ask, what most makes me a human being. <rs type="pers" key="836">Zola</rs> says — I, an artist, I want to live life to the full<anchor n="5" xml:id="note-t-5"/> — <hi rend="ital">want to live</hi> without ulterior motive — naive as a child, no not as a child, as an artist — with good will, just as life unfolds, so I’ll find something in it, so I’ll do my best in it. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">Now take all the prearranged airs, the conventional, how hugely priggish it actually is, how absurd it is, a person who thinks that he knows it all and that things go as he thinks — as if there wasn’t always a <hi rend="ital">je ne sais quoi</hi> of almighty good and also an element of evil in all things in life, which one feels as something infinite above us, infinitely bigger, more powerful than us. A person who doesn’t feel small — who doesn’t realize that he’s a speck — what a fundamental mistake he makes. Does one lose something by abandoning some notions, drummed into us as children, of preserving status — of regarding certain manners as No. 1? For myself, I don’t even think about whether I lose or don’t lose by it, I only know that my experience is that these forms and notions don’t hold water and are often even fatal, yes are decidedly bad. I come to the conclusion that I don’t know anything, but at the same time that the life we are in is such a mystery that the system of ‘Respectability’ is certainly too narrow — so, for me, that has lost its credit.</ab>
+      <ab rend="indent">What shall I do now? — the customary term is ‘What is your aim, what is your aspiration?’ — oh, I shall do what I shall do — how? I don’t know beforehand — do you, who ask me this priggish question: what is your aim, what is your aspiration? Now people say ‘you lack character if you have no aim, no aspiration’. My answer: I didn’t tell you that I had <hi rend="ital">no</hi> aim, <hi rend="ital">no</hi> aspiration; I said that I found it unspeakably priggish to want to force someone to define what is indefinable.</ab>
+      <ab rend="indent">So these are my thoughts on certain questions about life. The whole discussion about them is one of the things that I describe as ‘boring’. Live — do something — and that’s more enjoyable, that’s more positive.</ab>
+<ab rend="indent">In short. A kind of taking society as it is but feeling oneself completely free, not believing in one’s own intellect but in ‘<hi rend="ital">reason</hi>’; believing my own intellect, although I don’t confuse that with ‘reason’ — (my intellect is human, reason is divine, but there’s a link between the one and the other), my own conscience is the compass that shows me the way, although I know that it doesn’t work exactly accurately.<anchor n="6" xml:id="note-t-6"/> 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/>
+                </ab>
+<ab rend="indent">What I wanted to say is that when I look back at the past generation of painters, I remember an expression you used, ‘they were SURPRISINGLY cheerful’. I now want to say that <hi rend="sc">if</hi> you were to become a painter, you would have to do it with something of that same <hi rend="ital">surprising</hi> cheerfulness. You need it as a counterweight against the melancholy aspect of the situation. You do more with that than with anything else. You must have a certain genius, I don’t know another word for it, which is the exact opposite of what people call ‘ponderous’. Do not, of course, tell me that neither you nor I could have that ourselves. I say it because I believe that we must do our best to become thus, I don’t claim that either you or I are already sufficiently thus — I say, let’s do our best in that regard — because I want to show you in these letters that in my opinion you aren’t mistaken, although I believe that you understand what I think about one thing and another anyway. In my view, the whole plan would gain immeasurably if it could be linked to your remaining with the <rs type="pers" key="508">woman</rs> you’re with.<anchor n="7" xml:id="note-t-7"/>
+                </ab>
+<ab rend="indent">And that if you feel that it’s in your nature and <rs type="pers" key="508">her</rs>s even to have a degree of pleasure — a surprising cheerfulness — in the face of the situation — a <hi rend="ital">je ne sais quelle</hi> surprising <hi rend="ital">youthfulness</hi> — and I don’t reckon that among the impossibilities — you said she was intelligent — well then, you can do more together than alone. And in this case, if people of the same sentiment, people in the same rather serious misfortune, should join forces to see it through together, I say the more the merrier.</ab>
+<ab rend="indent">And I say — if this was so or came to pass, this joining together to work one’s way through, this is something that’s infinitely more than all the forms, and rises above ‘what will they say’. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/>
+                </ab>
+<ab rend="indent">And wanted to tell you the people <hi rend="ital">here</hi> don’t seem to me to be unpleasant or scheming. There’s something benevolent here, and I believe that you could do exactly what suits you best here. There is here — a surprisingly youthful atmosphere.</ab>
+<ab rend="indent">I know that all these things have an inevitable financial aspect, but I say, let’s weaken this inevitable money side as much as possible, in the first place by not being <hi rend="ital">too</hi> afraid of it, and by feeling that if one sets to work with love, with a singular understanding of one another and working together and supporting one another, this would alleviate many things that would otherwise be unbearable, indeed sometimes change them utterly. For myself, if there were a few people with whom one could talk about art, who would, and would want to, feel — I would gain immensely for my own work — I would feel myself more, be myself more. If there’s enough money for us to hold out for an initial period, I’ll be earning by the time it runs out. The more I think about it, the more it seems to me to be as I originally felt it.</ab>
+<ab rend="indent">Your heart is partly in the house of G&amp;Cie, but G&amp;Cie don’t ask for that, demand unreasonable things in their overconfidence. In the first place this is a great blow for you, something that causes you much inner pain. This isn’t just a question of money, you have your heart in it, it’s a heartache. You’ll embark on a similar career with that heartache, perhaps with a similar result again. Look, can this be done? I tell you that I doubt it — that it seems to me that you, who are very young, would <hi rend="ital">not be reckless</hi> if you were to argue: I’ve had enough of the art trade but not of art, I’ll abandon the trade and I’ll look to the heart of the profession itself. <hi rend="ital">I</hi> should have done <hi rend="ital">that</hi> at the time. The fact that I made a mistake was an error in point of view, understandable, perhaps, because I didn’t know then how things were regarding teaching or evangelism — knew nothing about them — and had ideals about them.<anchor n="8" xml:id="note-t-8"/> You’ll say, can’t one also develop ideals about art that don’t hold water in existing situations? Well, answer that for yourself; I also answer it for myself by asking, is Barbizon, is the Dutch school of painters,<anchor n="9" xml:id="note-t-9"/> a fact or not a fact?</ab>
+<ab rend="indent">Whatever else the art world may be, it isn’t rotten. On the contrary, it has got better and better — and perhaps it has already reached the highest peak, but we’re still very close to it in any event, and as long as you and I live, even if we were to live to 100, there will be a certain gusto of a real kind. So if people want to paint — buckle down to it. If the <rs type="pers" key="463">woman</rs> came, of course she’d have to paint too.</ab>
+<ab rend="indent">Everyone should paint here. The <rs type="pers" key="71">wife</rs> of one of the Van Eycks had to do it too.<anchor n="10" xml:id="note-t-10"/> 
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/>
+                </ab>
+<ab rend="indent"> With the greatest possible good heart, cheerfulness, enthusiasm, one would have to begin by saying, none of us can do anything and yet we are painters. <hi rend="ital">Action</hi> follows from our <hi rend="ital">intent</hi>.<anchor n="11" xml:id="note-t-11"/> That’s what the idea has to be, it seems to me. We live from day to day — if we don’t work ‘like a bunch of negroes’<anchor n="12" xml:id="note-t-12"/> then we’ll have to die of hunger and cut the most ridiculous figures. We simply have a tremendous aversion to that, and so we have to and we shall. It couldn’t be done by people who didn’t have something of what I’ll simply call surprising youthfulness — and at the same time a seriousness that was damned serious.</ab>
+<ab rend="indent">The — <hi rend="ital">putting your heart and soul into it</hi>.<anchor n="13" xml:id="note-t-13"/>
+                </ab>
+<ab rend="indent">Now — if it were a speculation I wouldn’t be able to think about it like <hi rend="ital">this</hi> — but here it’s a battle to escape from the world of convention and speculation. It’s something good, something peaceful, a just enterprise. We’ll certainly endeavour to earn our bread, but then definitely in the literal sense. Money leaves us cold except as far as it’s needed for the absolute essentials of life. We do nothing of which we have to be ashamed. We can openly stroll about the countryside and work, with what <rs type="pers" key="563">Carlyle</rs> calls quite a royal feeling.<anchor n="14" xml:id="note-t-14"/> We can work because we’re honest. We say, we made a mistake when we were children, or rather we had to do what we were told then, and do what we did to earn our living. Later, this and that happened, and then we deemed it advisable to become artisans. Because certain situations were too pretentious for us.</ab>
+<ab rend="indent">If you were to talk to people about it, I think they’d all advise against it &amp;c. Perhaps only the woman you’re with wouldn’t. If you’ve made a decision for yourself, avoid people so that they can’t sap your willpower. At the very moment when one hasn’t yet shed one’s superficial awkwardness, isn’t yet polished, a ‘good for nothing’<anchor n="15" xml:id="note-t-15"/> is enough 
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/> to cause despondency for six months, until one eventually sees after all that one shouldn’t have let oneself be disoriented.</ab>
+<ab rend="indent">There are two people whose intense struggle between ‘I’m a painter’ and ‘I’m not a painter’ I know.<anchor n="16" xml:id="note-t-16"/>
+                </ab>
+<ab rend="indent">
+                    <rs type="pers" key="1306">Rappard</rs>’s and my own — sometimes a frightening struggle, a struggle that’s precisely the distinction between us and some others who take it less seriously. For ourselves, we sometimes feel wretched, at the end of a spell of melancholy there’s a little light, a little progress; some others have less of a struggle, perhaps work more easily, yet their personal character also develops less. You would also have this struggle, and I say you must be aware that you run the risk of being put off by people who doubtless have the very best of intentions.</ab>
+<ab rend="indent">If something in you yourself says ‘you aren’t a painter’ — IT’S THEN THAT YOU SHOULD PAINT, old chap, and that voice will be silenced too, but precisely because of that. Anyone who goes to his friends and complains about his troubles when he feels like that loses something of his manliness, something of the best that’s in him. Your friends can only be those who fight against it themselves, rouse the active in you through their own example of action.</ab>
+<vg:whiteline/>
+<ab>
+                    <figure facs="zone-sketch-1" n="A"/>
+                </ab>
+<vg:whiteline/>
+<ab>
+<pb f="2v" n="7" xml:id="pb-trans-2v-7" facs="#zone-pb-2v-7"/>
+                </ab>
+<ab>One must take it up with assurance, with a conviction that one is doing something reasonable, like the peasant guiding his plough or like our friend in the scratch, who is doing his own harrowing.<anchor n="17" xml:id="note-t-17"/> If one has no horse, one is one’s own horse — a lot of people do that here. <hi rend="ital">You must regard it not as a change </hi>— <hi rend="ital">as a deeper penetration</hi>.</ab>
+<ab rend="indent">You’ve learned to see art over the years — now you go on, already knowing <hi rend="ital">what</hi> you want to make. Don’t think that this is a little thing.</ab>
+<ab rend="indent">You can be decisive, you know <hi rend="ital">what</hi> you want.</ab>
+      <ab rend="indent">There’s a saying of <rs type="pers" key="998">Gustave Doré</rs>’s that I’ve always found exceedingly beautiful — I have the patience of an ox<anchor n="18" xml:id="note-t-18"/> — right away I see something good in it, a certain resolute honesty; in short there’s a lot in that saying, it’s a real artist’s saying. When one thinks about people from whose mind something like this springs, it seems to me that the sort of arguments one all too often hears in the art trade about ‘gift’ is such a hideous croaking of ravens. ‘I have the patience’, how calm that is, how dignified that is. They wouldn’t even say that if it weren’t precisely because of all that croaking of ravens. I’m not an artist — how coarse that is — even to think it of oneself — should one not have patience, not learn patience from nature, learn patience from seeing the wheat slowly come up, the growing of things — should one think oneself such a hugely dead thing that one believed one wouldn’t grow? Should one deliberately discourage one’s development? I say this to show <hi rend="ital">why</hi> I find it so silly to talk about gifts and no gifts.</ab>
+<ab rend="indent">But if one wants to grow, one must fall into the earth. So I say to you, plant yourself in the soil of Drenthe — you will sprout there. Don’t shrivel up on the pavement. You’ll say that there are city plants — well yes, but you are wheat and belong in the wheatfield.
+<pb f="2r" n="8" xml:id="pb-trans-2r-8" facs="#zone-pb-2r-8"/>
+                </ab>
+<ab rend="indent">Well, I too foresee that, perhaps for financial reasons, now <hi rend="ital">cannot</hi> be the moment, but at the same time that perhaps the circumstances would just make it possible. And if there were only half a possibility, it’s my opinion that you would do well to risk it. I don’t believe that you would ever regret it. You would develop the best that is in you, have a more peaceful life. Neither of us would be alone, our work would flow together. We might have frightening moments at the outset, we’d prepare ourselves for them and arrange things in such a way that we had to withstand them, couldn’t turn back. Not look behind us nor be able to look behind us, actually force ourselves to look forward. But it’s precisely then that we’re far away from all friends and acquaintances, we fight the fight without anyone seeing us, and that’s best, other people can only hinder us. We see victory ahead — we feel it in us. We’ll be so busy working that we won’t be able to do anything but think positively about the work.</ab>
+<ab rend="indent">I don’t suppose in the least that I’m telling you anything new, I just ask, don’t go against your own best thoughts. Think about that idea of looking at things with a certain cool, good heart rather than with gloominess. I see that even in <rs type="pers" key="1226">Millet</rs>; he couldn’t help being of good heart, precisely because he was so serious. This is something specific, not to all schools of painting, but to the school of Millet, <rs type="pers" key="1107">Israëls</rs>, <rs type="pers" key="899">Breton</rs>,<anchor n="19" xml:id="note-t-19"/> <rs type="pers" key="878">Boughton</rs>, <rs type="pers" key="1080">Herkomer</rs>, several others. In short, those who seek the really simple are themselves so simple, and their view of life is so full of good will and good heart, even in misfortune.</ab>
+<ab rend="indent">Think about these things, write about these things. It must be a revolution that is, because it’s necessary that it should be<anchor n="20" xml:id="note-t-20"/> — the most self-evident thing in the world for you and for me, so I write about it calmly and I have no doubt you’ll also think about it calmly. With a handshake.</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>Van Gogh wrote this ‘take [them] as they are’ in <ref target="let398.xml">letter 398</ref>.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>See for this term, taken from <rs type="pers" key="666">Victor Hugo</rs>’s <hi rend="ital">
+                            <rs type="lit" key="278">Quatre-vingt-treize</rs>
+                        </hi>: <ref target="let388.xml#n-22">letter 388, n. 22.</ref>
+                    </ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+      <ab>See for this derivation from the book <rs type="lit" key="222">
+                            <hi rend="ital">Petites misères de la vie humaine</hi>
+                        </rs> by <rs type="pers" key="748">Old Nick</rs> and <rs type="pers" key="745">Grandville</rs>: <ref target="let178.xml#n-6">letter 178, n. 6.</ref>
+                    </ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Isa" chap="53" v="3">Isa. 53:3</bibleref>.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>This expression is taken from <rs type="pers" key="836">Zola</rs>’s essay ‘<rs type="lit" key="363">Proudhon et Courbet</rs>’, in which he observes: ‘If you [= Proudhon] ask me what I’ve come to do in this world, I, as an artist, will reply: “I am going to live life to the full”.’ (Si vous [= Proudhon] me demandez ce que je viens faire en ce monde, moi artiste, je vous répondrai: “Je viens vivre tout haut”.) See Zola 1966-1970, vol. 10, p. 39. Van Gogh quotes ‘vivre tout haut’ (‘Live life to the full’) again in <ref target="let415.xml">letter 415</ref>.</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>See for the conscience as a compass: <ref target="let133.xml#n-12">letter 133, n. 12.</ref>
+                    </ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>The form of words that Van Gogh uses strongly suggests that Theo was living with <rs type="pers" key="508">Marie</rs>; cf. for example the same expression in <ref target="let348.xml">letter 348</ref>, where Vincent writes that <rs type="pers" key="526">Mr van Gogh</rs> disapproved of Vincent’s ‘being with the woman’ (in other words with <rs type="pers" key="463">Sien</rs>).</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>Van Gogh is referring to his (failed) attempts – in the period between April 1876 and c. 1879 – to became a teacher and minister.</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>He means the Hague School.</ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>Van Gogh probably means <rs type="pers" key="71">Margaretha van Eyck</rs>, presumed <hi rend="ital">sister</hi> of the Flemish painters <rs type="pers" key="1016 1017">Jan and Hubert van Eyck</rs>, who according to tradition was a miniaturist. Jan van Eyck’s wife had the same forename, but she is not known to have been an artist. See <hi rend="ital">Ter liefde der const. Uit het Schilder-Boeck (1604) van Karel van Mander</hi>. Ed. W. Waterschoot. Leiden 1983, pp. 44, 55, 66.</ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+      <ab>This idea, that a thought alone is not enough but has to lead to ‘action’, could be derived from <rs type="pers" key="563">Carlyle</rs>’s <hi rend="ital">
+                            <rs type="lit" key="197">Sartor resartus</rs>
+                        </hi>: <ref target="let274.xml#n-11">see letter 274, n. 11.</ref>
+                    </ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+<ab>See for this expression of <rs type="pers" key="1226">Millet</rs>’s: <ref target="let210.xml#n-6">letter 210, n. 6.</ref>
+                    </ab>
+                </note>
+<note n="13" xml:id="n-13" target="#note-t-13">
+      <ab>For this quotation from <rs type="pers" key="1226">Millet</rs> in <rs type="pers" key="737">Sensier</rs>, <hi rend="ital">
+                            <rs type="lit" key="238">La vie et l’oeuvre de J.F. Millet</rs>
+                        </hi> <ref target="let210.xml#n-5">see letter 210, n. 5.</ref>
+                    </ab>
+                </note>
+<note n="14" xml:id="n-14" target="#note-t-14">
+<ab>We have not discovered the actual phrase ‘quite a royal feeling’ in the work of <rs type="pers" key="563">Thomas Carlyle</rs>, including <hi rend="ital">
+                            <rs type="lit" key="364">On heroes, hero-worship and the heroic in history</rs>
+                        </hi>, which Van Gogh says he is reading this month (<ref target="let395.xml">see letter 395</ref>). In the first chapter, ‘The hero as divinity’, however, there are numerous references to a ‘noble feeling’ (Carlyle 1993, pp. 11, 14, 26). Moreover, in <hi rend="ital">
+                            <rs type="lit" key="239">Oliver Cromwell’s letters and speeches</rs> </hi>expressions very similar to this occur frequently in the commentaries to the letters and speeches, for example ‘in very royal style’ and ‘right royal in spirit’ (Carlyle 1846, vol. 1, p. 315 and vol. 3, p. 239).</ab>
+                </note>
+<note n="15" xml:id="n-15" target="#note-t-15">
+<ab>From <ref target="let406.xml">letter 406</ref> it emerges that Van Gogh’s <rs type="pers" key="423">Uncle Vincent</rs> had insulted him in these words.</ab>
+                </note>
+<note n="16" xml:id="n-16" target="#note-t-16">
+<ab>Cf. <rs type="pers" key="961">Correggio</rs>’s expression ‘anche io’ referred to in <ref target="let214.xml#n-3">letter 214, n. 3.</ref>
+                    </ab>
+                </note>
+<note n="17" xml:id="n-17" target="#note-t-17">
+      <ab>We do not know whether the letter sketch <hi rend="ital">Man pulling a harrow</hi> (<rs type="sketch" key="124">F - / JH 420</rs>) to which Van Gogh refers here derives from another work.</ab>
+                </note>
+<note n="18" xml:id="n-18" target="#note-t-18">
+<ab>This saying by <rs type="pers" key="998">Gustave Doré</rs> has not been identified.</ab>
+                </note>
+<note n="19" xml:id="n-19" target="#note-t-19">
+<ab>Probably <rs type="pers" key="899">Jules Breton</rs>.</ab>
+                </note>
+<note n="20" xml:id="n-20" target="#note-t-20">
+<ab>This phrase is taken from <rs type="pers" key="666">Hugo</rs>’s <hi rend="ital">
+                            <rs type="lit" key="310">Les misérables</rs>
+                        </hi>: <ref target="let397.xml#n-4">see letter 397, n. 4.</ref>
+                    </ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Amsterdam, Saturday, 18 August 1877.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let127"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">127</idno>
+<idno type="collectedletters">106</idno>
+<idno type="brieven1990">126</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Amsterdam</vg:placeLet>
+                        <vg:dateLet>Saturday, 18 August 1877</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. Amsterdam, Saturday, 18 August 1877.</p>
+<note type="ongoingTopic" n="1">
+<p>Caroline van Stockum-Haanebeek’s illness <ref target="let126.xml">(126)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b125 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Letter headed: ‘Amsterdam 18 Aug 1877.’</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0125" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000134_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000134_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000134_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000134_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0125" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000134_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000134_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000134_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000134_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Amsterdam 18 Aug<c type="kp">_</c> 1877.</ab>
+<vg:whiteline/>
+                <lb n="2" xml:id="l-2"/>
+<ab>Waarde Theo,</ab>
+                <lb n="3" xml:id="l-3"/>
+<ab>Het is mij behoefte om U weder eens te schrijven, misschien duurt het nog een betrekkelijk <lb n="4" xml:id="l-4"/>langen tijd eer wij elkander weerzien, hoewel toch in elk geval ik hoop <lb n="5" xml:id="l-5"/>dat wij met kersmis zamen te Etten zullen zijn. Tante Mina was ll<c type="kp">_</c> zondag <lb n="6" xml:id="l-6"/>jarig<anchor n="1" xml:id="note-o-1"/> en daar dien avond zijnde vroeg Oom Stricker mij het een en ander en <lb n="7" xml:id="l-7"/>scheen niet ontevreden. Bij alle dingen denk ik dikwijls aan het woord in <lb n="8" xml:id="l-8"/>de Handelingen “wij liepen”,<anchor n="2" xml:id="note-o-2"/> zoo moeten wij ook maar steeds loopen, trachten <lb n="9" xml:id="l-9"/>vooruit te komen, stap voor stap steeds vooruitziende naar het doel en dat <lb n="10" xml:id="l-10"/>in het oog houdende, en als wij dan eenigen tijd ons op die wijze hebben <lb n="11" xml:id="l-11"/>ingespannen, zoo als Oom Jan het zegt hebben “voortgestreefd”, dan merken <lb n="12" xml:id="l-12"/>wij ook wel door het een of ander, dat wij een eind zijn gevorderd.─</ab>
+                <lb n="13" xml:id="l-13"/>
+<ab rend="indent">Tegenwoordig ziet men hier in alle boek- en prentenwinkels zeer goede portretten <lb n="14" xml:id="l-14"/>van Uhland<c type="kk">/</c>
+                    <anchor n="3" xml:id="note-o-3"/> Anderssen<c type="kk">/</c>
+                    <anchor n="4" xml:id="note-o-4"/> Dickens<anchor n="5" xml:id="note-o-5"/> en vele anderen, ook van predikanten zooals <lb n="15" xml:id="l-15"/>ten Kate<c type="kk">/</c>
+                    <anchor n="6" xml:id="note-o-6"/> het is wel goed die dikwijls te bezien, of men <hi rend="ital">het</hi> misschien ook vinden <lb n="16" xml:id="l-16"/>mogt of iets <hi rend="ital">er</hi> van. Schreef ik U reeds ll. Zondag voor 8 dagen D<hi rend="ss">s</hi> ten Kate <lb n="17" xml:id="l-17"/>in het kleine kerkje op Bickers eiland gehoord te hebben<c type="kp">_</c>
+                    <anchor n="7" xml:id="note-o-7"/> Zijne stem en vele eigen<c type="shy">-</c>
+                    <lb n="18" xml:id="l-18"/>aardige uitdrukkingen herinnerden mij aan Pa<c type="kp">_</c> De kerk was stampvol en <lb n="19" xml:id="l-19"/>het plein om het kerkje vol rijtuigen<c type="kp">_</c> Het was een goed en schoon woord waarover <lb n="20" xml:id="l-20"/>hij sprak<c type="kk">/</c> n.l. Rom<c type="kp">_</c> I:15-17<c type="kk">/</c> Alzoo hetgeen in mij is<c type="kk">/</c> dat is volvaardig het Evangelie <lb n="21" xml:id="l-21"/>te verkondigen<c type="kp">_</c> Want ik schaam mij het Evangelie van Christus niet want <lb n="22" xml:id="l-22"/>het is eene kracht Gods tot zaligheid een iegelijk die gelooft<c type="kp">_</c> Want de regtvaar<c type="shy">-</c>
+                    <lb n="23" xml:id="l-23"/>digheid Gods wordt in hetzelve geopenbaard uit geloof tot geloof, gelijk geschreven is: <lb n="24" xml:id="l-24"/>Maar de regtvaardige zal door het geloof leven.─</ab>
+                <lb n="25" xml:id="l-25"/>
+<ab rend="indent">Het was een aardigen avond bij Oom Stricker op Tantes verjaardag, des morgens <lb n="26" xml:id="l-26"/>bragt Oom in Zijne preek<anchor n="8" xml:id="note-o-8"/> de fabel van La Mort et le Bucheron<anchor n="9" xml:id="note-o-9"/>
+                </ab>
+                <lb n="26a" xml:id="l-26a"/>
+<ab>(de tekst was Spreuken XV:24 De weg des levens <lb n="26b" xml:id="l-26b"/>is den verstandige naar boven):</ab>
+<vg:whiteline/>
+                <lb n="27" xml:id="l-27"/>
+<ab>Un pauvre bucheron, tout couvert de ramée,</ab>
+                <lb n="28" xml:id="l-28"/>
+<ab>Sous le faix du fagot aussi bien que les ans,</ab>
+                <lb n="29" xml:id="l-29"/>
+<ab>Gemissant et courbé, marchait à pas pesants,</ab>
+                <lb n="30" xml:id="l-30"/>
+<ab>Et tâchait de gagner sa chaumière enfumée.─</ab>
+                <lb n="31" xml:id="l-31"/>
+<ab>Enfin n’en pouvant plus d’effort et de douleur</ab>
+                <lb n="32" xml:id="l-32"/>
+<ab>Il met bas son fagot, il songe à son malheur.─</ab>
+                <lb n="33" xml:id="l-33"/>
+<ab>Quel plaisir a-t-il eu depuis qu’il est au monde,</ab>
+                <lb n="34" xml:id="l-34"/>
+<ab>En est-il un plus pauvre en la machine ronde</ab>
+                <lb n="35" xml:id="l-35"/>
+<ab>Point de pain quelque fois, et jamais de repos,</ab>
+                <lb n="36" xml:id="l-36"/>
+<ab>Sa femme, ses enfants, les soldats, les impôts,</ab>
+                <lb n="37" xml:id="l-37"/>
+<ab>Le créancier et la corvée,</ab>
+                <lb n="38" xml:id="l-38"/>
+<ab>Lui font d’un malheureux la peinture achevée</ab>
+                <lb n="39" xml:id="l-39"/>
+<ab>Il appelle la Mort. Elle vient sans tarder</ab>
+                <lb n="40" xml:id="l-40"/>
+<ab>Lui demande ce qu’il faut faire</ab>
+                <lb n="41" xml:id="l-41"/>
+<ab>C’est dit-il, afin de m’aider</ab>
+                <lb n="42" xml:id="l-42"/>
+<ab>A recharger ce bois; ─ tu ne tarderas guère</ab>
+<vg:whiteline/>
+                <lb n="43" xml:id="l-43"/>
+<ab>Le trépas vient tout guérir</ab>
+                <lb n="44" xml:id="l-44"/>
+<ab>Mais ne bougeons d’où nous sommes</ab>
+                <lb n="45" xml:id="l-45"/>
+<ab>Plutôt souffrir que mourir</ab>
+                <lb n="46" xml:id="l-46"/>
+<ab>C’est la devise des hommes.─<anchor n="10" xml:id="note-o-10"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="47" xml:id="l-47"/>
+<ab>Donderdag morgen had ik het wel aardig; <lb n="48" xml:id="l-48"/>Oom was uit de stad naar Utrecht en om <lb n="49" xml:id="l-49"/>7 uur moest ik bij Stricker zijn omdat <lb n="50" xml:id="l-50"/>Jan naar Parijs ging en ik beloofd had <lb n="51" xml:id="l-51"/>hem uitgeleide te doen tot aan het station van <lb n="52" xml:id="l-52"/>de Holl<c type="kp">_</c> spoor. Was dus vroeg opgestaan <lb n="53" xml:id="l-53"/>en zag de werklieden op de werf komen <lb n="54" xml:id="l-54"/>terwijl de zon heerlijk scheen<c type="kp">_</c> “het is goed <lb n="55" xml:id="l-55"/>om God den Heer te loven in den <lb n="56" xml:id="l-56"/>morgenstond”<c type="kk">/</c>
+                    <anchor n="11" xml:id="note-o-11"/> dat denkt men op zoo’n <lb n="57" xml:id="l-57"/>oogenblik. Gij zoudt schik hebben in <lb n="58" xml:id="l-58"/>dat eigenaardig gezigt van dien <lb n="59" xml:id="l-59"/>stroom zwarte figuren groot en klein<c type="kk">/</c> <lb n="60" xml:id="l-60"/>eerst in de naauwe straat waar de <lb n="61" xml:id="l-61"/>zon maar even in schijnt en dan <lb n="62" xml:id="l-62"/>later op de werf. Heb daarna ontbeten <lb n="63" xml:id="l-63"/>met een stuk droog brood en een <lb n="64" xml:id="l-64"/>glas bier ─ dat is een middel dat <lb n="65" xml:id="l-65"/>Dickens aanraadt aan hen die op het <lb n="66" xml:id="l-66"/>punt zijn van zelfmoord te begaan <lb n="67" xml:id="l-67"/>als zijnde zeer geschikt om hen althans <lb n="68" xml:id="l-68"/>nog voor eenigen tijd, van dat voornemen <lb n="69" xml:id="l-69"/>te doen af zien.<anchor n="12" xml:id="note-o-12"/> En ook al is men nu niet <lb n="70" xml:id="l-70"/>juist in zoo’n stemming<c type="kk">/</c> is het wel <lb n="71" xml:id="l-71"/>goed dat toch nu en dan eens te <lb n="72" xml:id="l-72"/>doen, en er b.v. aan Rembrandts Sch<hi rend="ss">ij</hi> <lb n="73" xml:id="l-73"/>de Emmausgangers<anchor n="13" xml:id="note-o-13"/> bij te denken.─</ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="75" xml:id="l-75"/>
+<ab rend="indent">Wandelde voor ik naar Stricker ging nog door de Jodenbuurt<anchor n="14" xml:id="note-o-14"/> en op den</ab>
+                <lb n="76" xml:id="l-76"/>
+<ab>Buitenkant<c type="kk">/</c> Oude Teertuinen<c type="kk">/</c> Zeedijk<c type="kk">/</c> Warmoesstraat en langs de Oude zijds kapel <lb n="77" xml:id="l-77"/>en de Oude en Zuiderkerk<anchor n="15" xml:id="note-o-15"/> door allerlei oude straten met smederijen <lb n="78" xml:id="l-78"/>en kuiperijen enz<c type="kp">_</c> en door naauwe stegen zoo als de Niezel<anchor n="16" xml:id="note-o-16"/> en grachten <lb n="79" xml:id="l-79"/>met oude smalle bruggen zoo als die waar wij dien avond te Dordt stonden<c type="kp">_</c>
+                    <anchor n="17" xml:id="note-o-17"/> <lb n="80" xml:id="l-80"/>Het was aardig om daar in de vroegte de beweging te zien beginnen.</ab>
+                <lb n="81" xml:id="l-81"/>
+<ab rend="indent">Heb een geschrift gemaakt waarin al de gelijkenissen in orde gerangschikt <lb n="82" xml:id="l-82"/>en de wonderen<anchor n="18" xml:id="note-o-18"/> enz<c type="kp">_</c> en ben ook bezig dit zelfde in het Engelsch en Fransch te doen, <lb n="83" xml:id="l-83"/>in afwachting er later ook Latijn en Grieksch bijkomt<c type="kk">/</c> moge dat zoo zijn! Overdag heb <lb n="84" xml:id="l-84"/>ik het druk voor Mendes en doe het dus s’avonds laat of b.v. heden tot diep in <lb n="85" xml:id="l-85"/>den nacht en s’morgens.─ Zoo lang in Engeland en Frankrijk geweest zijnde <lb n="86" xml:id="l-86"/>zou het niet goed zijn indien ik de talen niet langzamerhand grondiger <lb n="87" xml:id="l-87"/>magtig werd en ze ten minste onderhield<c type="kk">/</c> er staat: polissez le sans cesse <lb n="88" xml:id="l-88"/>et le repolissez<c type="kk">/</c>
+                    <anchor n="19" xml:id="note-o-19"/> en ook<c type="kk">/</c> Travaillez, prenez de la peine, creusez, fouillez, <lb n="89" xml:id="l-89"/>bêchez, ne laissez nulle place où la main ne passe et repasse,<anchor n="20" xml:id="note-o-20"/> en er staat <lb n="90" xml:id="l-90"/>ook “opdat het geheel doorzuurd worde”.─<anchor n="21" xml:id="note-o-21"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="91" xml:id="l-91"/>
+<ab>
+                    <hi rend="ital">Le laboureur et ses enfants</hi>
+                    <anchor n="22" xml:id="note-o-22"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="92" xml:id="l-92"/>
+<ab>Travaillez, prenez de la peine</ab>
+                <lb n="93" xml:id="l-93"/>
+<ab>c’est le fonds qui manque le moins</ab>
+                <lb n="94" xml:id="l-94"/>
+<ab>Un riche laboureur sentant sa mort prochaine</ab>
+                <lb n="95" xml:id="l-95"/>
+<ab>Fit venir ses enfants, leur parla sans témoins</ab>
+                <lb n="96" xml:id="l-96"/>
+<ab>Gardez vous, leur dit-il<c type="kk">/</c> de vendre l’héritage</ab>
+                <lb n="97" xml:id="l-97"/>
+<ab>Que nous ont laissé nos parents</ab>
+                <lb n="98" xml:id="l-98"/>
+<ab>Un trésor est caché dedans.─</ab>
+                <lb n="99" xml:id="l-99"/>
+<ab>Je ne sais pas l’endroit, mais un peu de courage</ab>
+                <lb n="100" xml:id="l-100"/>
+<ab>Vous le fera trouver, vous en viendrez à bout</ab>
+                <lb n="101" xml:id="l-101"/>
+<ab>Remuez votre champ dès qu’on aura fait l’août<anchor n="a" xml:id="note-o-a"/>
+                </ab>
+                <lb n="102" xml:id="l-102"/>
+<ab>Creusez, fouillez, bêchez, ne laissez nulle place</ab>
+                <lb n="103" xml:id="l-103"/>
+<ab>Où la main ne passe et repasse</ab>
+                <lb n="104" xml:id="l-104"/>
+<ab>Le père mort, les fils vous retournent le champ</ab>
+                <lb n="105" xml:id="l-105"/>
+<ab>Deça délà partout, si bien qu’au bout de l’an</ab>
+                <lb n="106" xml:id="l-106"/>
+<ab>Il en rapporta davantage</ab>
+                <lb n="107" xml:id="l-107"/>
+<ab>D’argent point de caché, mais le Père fut sage</ab>
+                <lb n="108" xml:id="l-108"/>
+<ab>De leur montrer avant sa mort</ab>
+                <lb n="109" xml:id="l-109"/>
+<ab>Que le travail est un trésor. </ab>
+<vg:whiteline/>
+                <lb n="110" xml:id="l-110"/>
+<ab>
+                    <hi rend="ital">Le chêne et le roseau</hi>
+                    <anchor n="23" xml:id="note-o-23"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="111" xml:id="l-111"/>
+<ab>Le chêne un jour dit au roseau</ab>
+                <lb n="112" xml:id="l-112"/>
+<ab>Vous avez bien sujet d’accuser la nature:</ab>
+                <lb n="113" xml:id="l-113"/>
+<ab>Un roitelet pour vous est un pesant fardeau;</ab>
+                <lb n="114" xml:id="l-114"/>
+<ab>Le moindre vent qui d’aventure</ab>
+                <lb n="115" xml:id="l-115"/>
+<ab>Fait rider la face de l’eau</ab>
+                <lb n="116" xml:id="l-116"/>
+<ab>Vous oblige de baisser la tête</ab>
+                <lb n="117" xml:id="l-117"/>
+<ab>Cependant que mon front au Caucase pareil</ab>
+                <lb n="118" xml:id="l-118"/>
+<ab>Non content d’arrêter les rayons du soleil</ab>
+                <lb n="119" xml:id="l-119"/>
+<ab>Brave l’effort de la tempête.─</ab>
+                <lb n="120" xml:id="l-120"/>
+<ab>Tout vous est aquilon, tout me semble zéphyr.</ab>
+                <lb n="121" xml:id="l-121"/>
+<ab>Encore si vous naissiez à l’abri du feuillage</ab>
+                <lb n="122" xml:id="l-122"/>
+<ab>Dont je couvre le voisinage</ab>
+                <lb n="123" xml:id="l-123"/>
+<ab>Vous n’auriez pas tant à souffrir;</ab>
+                <lb n="124" xml:id="l-124"/>
+<ab>Je vous défendrais de l’orage</ab>
+                <lb n="125" xml:id="l-125"/>
+<ab>Mais vous naissez le plus souvent</ab>
+                <lb n="126" xml:id="l-126"/>
+<ab>Sur les humides bords des royaumes du vent</ab>
+                <lb n="127" xml:id="l-127"/>
+<ab>La nature envers vous me semble bien injuste</ab>
+                <lb n="128" xml:id="l-128"/>
+<ab>Votre compassion, lui répondit l’arbuste</ab>
+                <lb n="129" xml:id="l-129"/>
+<ab>Part d’un bon naturel, mais quittez ce souci</ab>
+                <lb n="130" xml:id="l-130"/>
+<ab>Les vents me sont moins qu’à vous redoutables</ab>
+                <lb n="131" xml:id="l-131"/>
+<ab>
+                    <hi rend="ital">Je plie, je ne romps pas</hi>, vous avez jusqu’ici</ab>
+                <lb n="132" xml:id="l-132"/>
+<ab>Contre leurs coups épouvantables</ab>
+                <lb n="133" xml:id="l-133"/>
+<ab>Resisté sans courber le dos</ab>
+                <lb n="134" xml:id="l-134"/>
+<ab>Mais attendons la fin, comme il disait ces mots</ab>
+                <lb n="135" xml:id="l-135"/>
+<ab>Du bout de l’horizon accourt avec furie</ab>
+                <lb n="136" xml:id="l-136"/>
+<ab>Le plus terrible des enfants</ab>
+                <lb n="137" xml:id="l-137"/>
+<ab>Que le Nord eût portés jusque là dans ses flancs</ab>
+                <lb n="138" xml:id="l-138"/>
+<ab>L’arbre tient bon, le roseau plie.</ab>
+                <lb n="139" xml:id="l-139"/>
+<ab>Le vent redouble ses efforts <lb n="140" xml:id="l-140"/>Et fait si bien qu’il déracine</ab>
+                <lb n="141" xml:id="l-141"/>
+<ab>Celui de qui la tête était au ciel voisine</ab>
+                <lb n="142" xml:id="l-142"/>
+<ab>Et dont les pieds touchaient à l’empire des morts.</ab>
+<vg:whiteline/>
+                <lb n="143" xml:id="l-143"/>
+<ab>He stoops<lb n="144" xml:id="l-144"/> to<lb n="145" xml:id="l-145"/> conquer<c type="kp">_</c>
+                    <anchor n="24" xml:id="note-o-24"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="146" xml:id="l-146"/>
+<ab>Hoe hebt Gij het, kerel, schrijf weer een <lb n="147" xml:id="l-147"/>woordje als Gij kunt, Gij vindt het immers goed <lb n="148" xml:id="l-148"/>dat ik U het geld terugzond,<anchor n="25" xml:id="note-o-25"/> en weet immers ik <lb n="149" xml:id="l-149"/>ZOO HEEL GRAAG komen zou vooreerst om U eens <lb n="150" xml:id="l-150"/>weer de hand te drukken en ook om <lb n="151" xml:id="l-151"/>de tentoonstelling.<anchor n="26" xml:id="note-o-26"/> Maar voorloopig ga ik <lb n="152" xml:id="l-152"/>zondags de stad niet uit, het mag niet.</ab>
+                <lb n="153" xml:id="l-153"/>
+<ab rend="indent">Had dezen morgen nog een gesprek <lb n="154" xml:id="l-154"/>met Mendes over M<c type="kp">_</c> Maris en liet hem <lb n="155" xml:id="l-155"/>die lithographie van die 3 kinderen<anchor n="27" xml:id="note-o-27"/> en ook Un baptême<anchor n="28" xml:id="note-o-28"/> zien en hij begreep het zeer goed. <lb n="156" xml:id="l-156"/>Mendes doet mij weleens denken aan L’imitation de Jesus Christ van Ruyperez<c type="kp">_</c>
+                    <anchor n="29" xml:id="note-o-29"/>
+                </ab>
+                <lb n="157" xml:id="l-157"/>
+<ab rend="indent">Weet Gij iets naders aangaande Caroline? Ben nog even heen en weer naar Utrecht geweest <lb n="158" xml:id="l-158"/>op den dag van de receptie van Hendrik<c type="kk">/</c> heb ook voor U gelukgewenscht<c type="kp">_</c> Het was er <lb n="159" xml:id="l-159"/>zeer deftig<c type="kk">/</c> veel mooi groen in de kamer, de bruid zag er lief genoeg uit.<anchor n="30" xml:id="note-o-30"/> Oom Jan <lb n="160" xml:id="l-160"/>scheen gelukkig<c type="kp">_</c> Te Utrecht zag ik den Dom<c type="kk">/</c> nog eene andere oude kerk<anchor n="31" xml:id="note-o-31"/> en het Academie <lb n="161" xml:id="l-161"/>gebouw, dat heeft zeer veel van The Cloisters bij Westminster Abbey.<anchor n="32" xml:id="note-o-32"/> Dag <lb n="162" xml:id="l-162"/>Theo, heb het zoo goed mogelijk<c type="kk">/</c> groet Uwe huisgenooten<c type="kk">/</c> heb het goed als het <lb n="163" xml:id="l-163"/>mogelijk is<c type="kp">_</c> Ontvang de groete van Oom Jan en van Anna Tak<c type="kk">/</c>
+                    <anchor n="33" xml:id="note-o-33"/> à Dieu<c type="kk">/</c> een handdruk <lb n="164" xml:id="l-164"/>in gedachten van</ab>
+<vg:whiteline/>
+                <lb n="164*" xml:id="l-164s"/>
+<ab>Uw zoo liefh. broer</ab>
+                <lb n="165" xml:id="l-165"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+                <lb n="166" xml:id="l-166"/>
+<ab>Morgen 10 uur preekt D<hi rend="ss">s</hi> Laurillard in de Oude <lb n="167" xml:id="l-167"/>Zijds kapel.</ab>
+<vg:whiteline/>
+                <lb n="168" xml:id="l-168"/>
+<ab>Jongen het was zoo’n goede preek van oom Stricker over dat De weg des levens is den verstandige naar boven<c type="kk">/</c> om af te wijken van de hel beneden,<anchor n="34" xml:id="note-o-34"/> <lb n="168a" xml:id="l-168a"/>en dat La Mort et le Bucheron bragt hij er zoo hartelijk in.─</ab>
+<vg:whiteline/>
+                <lb n="74" xml:id="l-74"/>
+<ab>Nog iets<c type="kk">/</c> het engagement van Paul Stricker met Mej<c type="kp">_</c> Margreet Meyboom is af<c type="kk">/</c> mij dunkt het is <lb n="74a" xml:id="l-74a"/>jammer.<anchor n="35" xml:id="note-o-35"/>
+                </ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-11" n="11">“voortgestreefd”, &lt; “voortgestreefd,</note>
+<note target="l-13" n="13">boek- &lt; boek</note>
+<note target="l-23" n="23">is: &lt; is  <hi rend="ital">Corresponding the original text.</hi>
+                    </note>
+<note target="l-26" n="26">a-b (de tekst <supplied>
+                            <hi rend="ital">...</hi>
+                        </supplied> boven) &lt; <hi rend="ital">Added later; parentheses added by us.</hi>
+                    </note>
+<note target="l-86" n="86">indien &lt; in dien</note>
+<note target="l-90" n="90">worde”.─ &lt; worde.─</note>
+<note target="l-101" n="101">l’août &lt; l’oût</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>Amsterdam, 18 Aug. 1877.</ab>
+<vg:whiteline/>
+<ab>My dear Theo,</ab>
+<ab>I feel the need to write to you again, it might be rather a long time before we see each other again, although I hope that in any case we’ll be together in Etten for Christmas. <rs type="pers" key="317">Aunt Mina</rs>’s birthday was last Sunday<anchor n="1" xml:id="note-t-1"/> and, as I was there that evening, <rs type="pers" key="318">Uncle Stricker</rs> asked me a thing or two and didn’t seem dissatisfied. In everything I often think of the words in Acts, ‘we came’,<anchor n="2" xml:id="note-t-2"/> we too must simply go on walking, try to get ahead, looking forward step by step to the goal and keeping it in sight, and when we have made an effort for a while in that way, ‘striving on’, as <rs type="pers" key="410">Uncle Jan</rs> says, then we notice through one thing or another that we’ve come a long way.</ab>
+<ab rend="indent">Nowadays one sees here in all the book and print shops very good portraits of <rs type="pers" key="841">Uhland</rs>,<anchor n="3" xml:id="note-t-3"/> <rs type="pers" key="512">Andersen</rs>,<anchor n="4" xml:id="note-t-4"/> <rs type="pers" key="580">Dickens</rs>
+                    <anchor n="5" xml:id="note-t-5"/> and many others, also of clergymen such as <rs type="pers" key="681">Ten Kate</rs>,<anchor n="6" xml:id="note-t-6"/> it’s good to look at them often, to see whether one might find <hi rend="ital">it</hi> or <hi rend="ital">something</hi> of it. Did I write to you that I heard the Rev. Ten Kate in the little church on Bickerseiland last Sunday week?<anchor n="7" xml:id="note-t-7"/> His voice and many curious expressions reminded me of <rs type="pers" key="526">Pa</rs>. The church was full to overflowing, and the square around the little church was full of carriages. It was a good and beautiful passage he talked about, namely, Rom. I:15-17, So, as much as in me is, I am ready to preach the gospel to you. For I am not ashamed of the gospel of Christ: for it is the power of God unto salvation to every one that believeth. For therein is the righteousness of God revealed from faith to faith: as it is written, The just shall live by faith.</ab>
+<ab rend="indent">It was a pleasant evening at <rs type="pers" key="318">Uncle Stricker</rs>’s on <rs type="pers" key="317">Aunt</rs>’s birthday, that morning Uncle had worked into his sermon<anchor n="8" xml:id="note-t-8"/> the fable of La mort et le bucheron<anchor n="9" xml:id="note-t-9"/> (the text was Proverbs XV:24, The way of life is above to the wise):</ab>
+<vg:whiteline/>
+<ab>A poor woodcutter, faggots piled upon his back</ab>
+<ab>And burdened by his load and sum of years,</ab>
+<ab>Groaning and bent low, made way with heavy tread</ab>
+<ab>And tried to reach his smoky cot.</ab>
+<ab>At last, by effort and by pain o’ercome</ab>
+<ab>He lays his burden down and dwells upon his sorry state.</ab>
+<ab>What pleasure has he known in all his days?</ab>
+<ab>Is there a poorer man in all this turning world?</ab>
+<ab>Hungry sometimes, and never knowing rest;</ab>
+<ab>His wife, his children, soldiery, taxation’s cut, Creditors and forced servitude Make of him misfortune’s very mould.</ab>
+<ab>He calls on Death. Death promptly comes, Asks what’s to be done.</ab>
+<ab>He says, to help me load this wood upon my back again</ab>
+<ab>You will not tarry long.</ab>
+<vg:whiteline/>
+<ab>Our passing comes, the cure for every ill,</ab>
+<ab>But let’s not shift from where we stand.</ab>
+<ab>Suffer sooner than die,</ab>
+<ab>That’s man’s maxim.<anchor n="10" xml:id="note-t-10"/>
+                </ab>
+<vg:whiteline/>
+<ab>I had quite a time on Thursday morning; <rs type="pers" key="410">Uncle</rs> had left town to go to Utrecht, and at 7 o’clock I had to be at the <rs type="pers" key="317 318">Strickers</rs>’, because <rs type="pers" key="778">Jan</rs> was leaving for Paris and I’d promised to accompany him to the station of the Hollandsche Spoor. So had got up early and seen the workers arriving at the dockyard with the sun shining wonderfully. ‘It is a good thing to praise the Lord God in the morning’,<anchor n="11" xml:id="note-t-11"/> that’s what one thinks at such times. You would like the curious sight of that stream of black figures, large and small, first in the narrow street into which the sun shines only briefly and later at the yard. Had breakfast afterwards, a piece of dry bread and a glass of beer – that is a remedy <rs type="pers" key="580">Dickens</rs> recommends to those on the verge of committing suicide as being very efficacious in ridding them of that intention, for a while at least.<anchor n="12" xml:id="note-t-12"/> And even if one isn’t exactly in such a mood, it’s nevertheless good to do it now and then, and to think at the same time of, for example, <rs type="pers" key="1295">Rembrandt</rs>’s painting of the supper at Emmaus.<anchor n="13" xml:id="note-t-13"/>
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">Before going to <rs type="pers" key="317 318">the Strickers</rs>’ I walked through the Jewish quarter<anchor n="14" xml:id="note-t-14"/> and on Buitenkant, Oude Teertuinen, Zeedijk, Warmoesstraat and past the Oudezijdskapel and the Oude and Zuiderkerk,<anchor n="15" xml:id="note-t-15"/> through all kinds of old streets with smithies and cooperages and so on, and through narrow alleys such as Niezel,<anchor n="16" xml:id="note-t-16"/> and canals with old narrow bridges such as the one we stood on that evening in Dordrecht.<anchor n="17" xml:id="note-t-17"/> It was nice to see activity beginning at that early hour.</ab>
+<ab rend="indent">Wrote a text in which all the parables are listed in order and the miracles and so on,<anchor n="18" xml:id="note-t-18"/> and am also doing the same in English and French, expecting Latin and Greek to be added later on, may it come to pass! During the day I’m busy studying for <rs type="pers" key="520">Mendes</rs>, and so work on it late in the evening or, for example, today until late at night and in the morning. Having been in England and France for so long, it wouldn’t be right if I didn’t gradually master the languages more thoroughly and at least keep them up, it is written: polish it ceaselessly and polish it again,<anchor n="19" xml:id="note-t-19"/> and also, Work, take pains, dig, delve, turn up the earth, leave not a spot where the hand pass not and pass again,<anchor n="20" xml:id="note-t-20"/> and it is also written ‘so that it be fully leavened’.<anchor n="21" xml:id="note-t-21"/>
+                </ab>
+<vg:whiteline/>
+<ab>
+                    <hi rend="ital">The farmer and his children</hi>
+                    <anchor n="22" xml:id="note-t-22"/>
+                </ab>
+<vg:whiteline/>
+<ab>Work, take pains,</ab>
+<ab>That’s the resource that fails the least.</ab>
+<ab>A wealthy farmer, feeling death was nigh,</ab>
+<ab>Summoned his children, spoke to them privily.</ab>
+<ab>Take care, he told them, and do not sell</ab>
+<ab>The inheritance our forebears handed down.</ab>
+<ab>A treasure is concealed therein.</ab>
+<ab>I know not the place, but some courage will suffice</ab>
+<ab>To bring you to it, and you’ll find it out.</ab>
+<ab>Plough your field as soon as the harvest is in.</ab>
+<ab>Dig, delve, turn up the earth, leave not a spot Where the hand pass not and pass again.</ab>
+<ab>Their father dead, the sons ploughed well the field,</ab>
+<ab>This way and that, in such a way that one year thence</ab>
+<ab>It brought back more In coin that was in no way hid. But the man was wise,</ab>
+<ab>In showing them, before his death,</ab>
+<ab>That work is wealth.</ab>
+<vg:whiteline/>
+<ab>
+                    <hi rend="ital">The oak and the reed</hi>
+                    <anchor n="23" xml:id="note-t-23"/>
+                </ab>
+<vg:whiteline/>
+<ab>The oak one day said unto the reed,</ab>
+<ab>You have good cause ’gainst nature to complain:</ab>
+<ab>To you a goldcrest is a heavy weight,</ab>
+<ab>The slightest wind that may perchance</ab>
+<ab>Make ripples on the water’s face</ab>
+<ab>Forces you to bow your head.</ab>
+<ab>Whereas my brow, just as the mighty Caucasus,</ab>
+<ab>Not only stops the sun’s hot rays</ab>
+<ab>But bids the storm do what it may.</ab>
+<ab>To you, each wind’s a northern blast, to me a gentle breeze.</ab>
+<ab>Had you but grown within the shelter of the leaves</ab>
+<ab>With which I cover all this place about</ab>
+<ab>Your suffering would be less;</ab>
+<ab>I would defend you ’gainst the tempest’s rage.</ab>
+<ab>But you most frequently are found</ab>
+<ab>On the damp edges of the windy realms,</ab>
+<ab>And nature seems to treat you ill indeed.</ab>
+<ab>Your pity, answered him the pliant shrub,</ab>
+<ab>Springs from your kindly heart, but have no care for me.</ab>
+<ab>To me, winds are less fearsome than they are to you,</ab>
+<ab>
+                    <hi rend="ital">I bend, I do not break</hi>; till now</ab>
+<ab>Against their dreadful buffetings</ab>
+<ab>You have held out; your back’s not bent,</ab>
+<ab>But let’s see how it ends; and as he spoke,</ab>
+<ab>From the far horizon furiously there came</ab>
+<ab>The fearfullest of all the brood</ab>
+<ab>The north had yet unleashed upon his flanks.</ab>
+<ab>The oak stood firm, the reed bent low.</ab>
+<ab>The wind blew harder and then harder still</ab>
+<ab>Until it pulled up by the very roots</ab>
+<ab>The one whose head reached heavenward,</ab>
+<ab>Whose feet stood near the kingdom of the dead.</ab>
+<vg:whiteline/>
+<ab>He stoops to conquer.<anchor n="24" xml:id="note-t-24"/>
+                </ab>
+<vg:whiteline/>
+<ab>How are you doing, old chap? Write a few words again when you can, you didn’t mind my sending the money back to you, did you,<anchor n="25" xml:id="note-t-25"/> and you do know that I’d like SO VERY MUCH to come, first of all to shake your hand again, and also for the exhibition?<anchor n="26" xml:id="note-t-26"/> But for the time being I’m not leaving town on Sundays, I simply may not.</ab>
+<ab rend="indent">Had another talk this morning with <rs type="pers" key="520">Mendes</rs> about <rs type="pers" key="1202">M. Maris</rs>, and showed him that lithograph of those 3 children,<anchor n="27" xml:id="note-t-27"/> and also A baptism,<anchor n="28" xml:id="note-t-28"/> and he understood it very well. Mendes sometimes reminds me of The imitation of Jesus Christ by <rs type="pers" key="1335">Ruipérez</rs>.<anchor n="29" xml:id="note-t-29"/>
+                </ab>
+<ab rend="indent">Do you know anything more about <rs type="pers" key="761">Caroline</rs>? Went to Utrecht and back on the day of <rs type="pers" key="404">Hendrik</rs>’s reception, I also congratulated them for you. It was very elegant, a lot of beautiful greenery in the room, the bride looked sweet enough.<anchor n="30" xml:id="note-t-30"/> <rs type="pers" key="410">Uncle Jan</rs> seemed happy. In Utrecht I saw the cathedral, another old church<anchor n="31" xml:id="note-t-31"/> and the Academy building, it’s very like the Cloisters by Westminster Abbey.<anchor n="32" xml:id="note-t-32"/> Goodbye, Theo, I wish you the very best, give my regards to your housemates, I wish you well, if that is possible. Uncle Jan and <rs type="pers" key="770">Anna Tak</rs>
+                    <anchor n="33" xml:id="note-t-33"/> send their regards, adieu, a handshake in thought from</ab>
+<vg:whiteline/>
+<ab>Your most loving brother,</ab>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<ab>Tomorrow at 10 o’clock the <rs type="pers" key="53">Rev. Laurillard</rs> will preach a sermon in the Oudezijdskapel.</ab>
+<vg:whiteline/>
+<ab>It was such a good sermon, old boy, that <rs type="pers" key="318">Uncle Stricker</rs> gave on The way of life is above to the wise, That he may depart from hell beneath,<anchor n="34" xml:id="note-t-34"/> and he worked that La mort et le bucheron into it with such feeling.</ab>
+<vg:whiteline/>
+<ab>Something else, <rs type="pers" key="775">Paul Stricker</rs>’s engagement to Miss <rs type="pers" key="516">Margreet Meyboom</rs> has been broken off, I think it’s a pity.<anchor n="35" xml:id="note-t-35"/>
+                </ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>
+                        <rs type="pers" key="317">W.C.G. Carbentus</rs> turned 61 on 12 August.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Acts" chap="21" v="1">Acts 21:1</bibleref>.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>A number of portraits of <rs type="pers" key="841">Ludwig Uhland</rs> are known, including the one by <rs type="pers" key="1691">C. Schuler</rs> in <hi rend="ital">Gedichte</hi> (1842) and a youthful likeness of 1818, made by ‘Worff’, which appeared in the front of <hi rend="ital">Uhlands Tagebuch</hi> of 1898, after which engravings or etchings had no doubt previously been made.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>A portrait of <rs type="pers" key="512">H.C. Andersen</rs> had been published in, for example, <hi rend="ital">Sprookjens en verhalen van H.C. Andersen in dichtmaat naverteld door J.J.L. ten Kate</hi> (1868) and in <hi rend="ital">De Tijd</hi> of 15 October 1846. In March 1866, Andersen had portrait photographs made by the Amsterdam photographers Wegner and Mottu, two of which were intended for sale. See Hans Reeser, <hi rend="ital">Andersen op reis door Nederland</hi>. Zutphen 1976, pp. 20, 44, 97, 107, 120 (facing p. 64 is the earliest daguerreotype portrait of him, dating from c. 1850); and Bjørn Ochsner, <hi rend="ital">Fotografier af H.C. Andersen</hi>. Odense 1957.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>There were a number of portrait prints of <rs type="pers" key="580">Dickens</rs> in circulation, including the etching made by H.K. Browne for <hi rend="ital">Court Magazine</hi> (1837); the stipple engraving by J.C. Armytage (1844), after M. Gillies of c. 1843; the lithograph by C. Baugniet (1858), and various other prints, some made after photographs. See <hi rend="ital">Dictionary of British portraiture</hi>. Ed. Richard Ormond and Malcolm Rogers. 4 vols. London 1981, vol. 3, pp. 55-56, and <hi rend="ital">Everyone in Dickens</hi>. Ed. George Newlin. 3 vols. Westport (Connecticut) 1995.</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>A number of portraits of <rs type="pers" key="681">J.J.L. ten Kate</rs> were known, including engravings by J.P. de Lange and D.J. Sluyter, as well as lithographs by A.J. Ehnle, J.P. Berghaus, H. Dilcher and ‘F.W.S.’. The last two lithographs were printed in Amsterdam (The Hague, Iconografisch Bureau).</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>Regarding <rs type="pers" key="681">Ten Kate</rs>’s sermon at the Eilandskerk, <ref target="let126.xml#n-30">see letter 126, n. 30.</ref>
+                    </ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>On Sunday, 12 August, <rs type="pers" key="318">J.P. Stricker</rs> preached at the 10 a.m. service in the Oudezijdskapel.</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>‘<rs type="lit" key="150">La mort et le bûcheron</rs>’, <rs type="pers" key="602">Jean de la Fontaine</rs>, <rs type="lit" key="120">
+                            <hi rend="ital">Fables</hi>
+                        </rs>, <hi rend="sc">i</hi>, 16.</ab>
+                </note>
+  <note n="10" xml:id="n-10" target="#note-t-10">
+<ab>Fontaine 1974, vol. 1, pp. 72-73.</ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Ps" chap="92" vr="2-3">Ps. 92:2-3</bibleref> and cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="1 Chron" chap="23" v="30">1 Chron. 23:30</bibleref>.</ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+<ab>Although there is no explicit mention of suicide, dry bread or beer in <rs type="pers" key="580">Charles Dickens</rs>’s <rs type="lit" key="151">
+                            <hi rend="ital">Nicholas Nickleby</hi>
+                        </rs>, ‘The story of the Baron of Grogzwig’ (chapter 6), Van Gogh is probably referring here to the following passage (headed ‘The genius of despair and suicide’): ‘And my advice to all men is, that if ever they become hipped and melancholy from similar causes (as very many men do), they look at both sides of the question, applying a magnifying glass to the best one; and if they still feel tempted to retire without leave, that they smoke a large pipe and drink a full bottle first, and profit by the laudable example of the Baron of Grogzwig.’ See <hi rend="ital">The life and adventures of Nicholas Nickleby</hi>. Introduction by Dame Sybil Thorndike. Oxford etc. 1981, pp. 74-75. Cf. also <ref target="let764.xml">letter 764</ref>.</ab>
+                </note>
+<note n="13" xml:id="n-13" target="#note-t-13">
+<ab>With regard to <rs type="pers" key="1295">Rembrandt</rs>’s <rs type="ill" key="1710">
+                            <hi rend="ital">Pilgrims at Emmaus</hi>
+                        </rs>, <ref target="let034.xml#n-5">see letter 34, n. 5.</ref>
+                    </ab>
+                </note>
+<note n="14" xml:id="n-14" target="#note-t-14">
+<ab>For the Jewish quarter, <ref target="let120.xml#n-37">see letter 120, n. 37.</ref>
+                    </ab>
+                </note>
+<note n="15" xml:id="n-15" target="#note-t-15">
+<ab>The Oude Kerk in Oude Kerksplein and the Zuiderkerk in Zanddwarsstraat, both situated in the heart of the city.</ab>
+                </note>
+<note n="16" xml:id="n-16" target="#note-t-16">
+<ab>Lange and Korte Niezel connect Warmoesstraat and Oudezijds Voor- en Achterburgwal.</ab>
+                </note>
+<note n="17" xml:id="n-17" target="#note-t-17">
+<ab>Regarding this meeting with Theo, <ref target="let103.xml">see letter 103</ref>.</ab>
+                </note>
+<note n="18" xml:id="n-18" target="#note-t-18">
+<ab>The parables and miracles told of in the Gospels.</ab>
+                </note>
+<note n="19" xml:id="n-19" target="#note-t-19">
+<ab>Taken from <rs type="pers" key="21">Nicolas Boileau Despréaux</rs>, <rs type="lit" key="152">
+                            <hi rend="ital">L’art poétique</hi>
+                        </rs>, Chant 1, 173. The line was derived from Horace, <rs type="lit" key="153">
+                            <hi rend="ital">Ars poetica</hi>
+                        </rs>, 292-294. See <hi rend="ital">L’art poétique de Boileau</hi>. Ed. Henri Bénac. Paris 1946, pp. 22-23.</ab>
+                </note>
+<note n="20" xml:id="n-20" target="#note-t-20">
+<ab>Taken from the fable ‘<rs type="lit" key="154">Le laboureur et ses enfants</rs>’ by <rs type="pers" key="602">Jean de la Fontaine</rs>, which Van Gogh quotes immediately after this; he quotes the opening lines again in <ref target="let189.xml">letter 189</ref>.</ab>
+                </note>
+<note n="21" xml:id="n-21" target="#note-t-21">
+<ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Hos" chap="7" v="4">Hos. 7:4</bibleref>.</ab>
+                </note>
+<note n="22" xml:id="n-22" target="#note-t-22">
+<ab>
+                        <rs type="pers" key="602">Jean de la Fontaine</rs>, <rs type="lit" key="120">
+                            <hi rend="ital">Fables</hi>
+                        </rs>, <hi rend="sc">v</hi>, 9. Fontaine 1974, vol. 1, pp. 174-175; this fable stems from Aesop.</ab>
+                </note>
+<note n="a" xml:id="n-a" target="#note-o-a">
+<ab>‘Faire l’août’ means ‘rentrer la moisson’, meaning ‘to harvest’, ‘to bring in the harvest’ (note to this fable).</ab>
+                </note>
+<note n="23" xml:id="n-23" target="#note-t-23">
+  <ab>Jean de la Fontaine, <rs type="lit" key="120">
+                            <hi rend="ital">Fables</hi>
+                        </rs>, <hi rend="sc">i</hi>, 22. Fontaine 1974, vol. 1, pp. 78-79; the fable ‘<rs type="lit" key="576">Le chêne et le roseau</rs>’ stems from Aesop.</ab>
+                </note>
+<note n="24" xml:id="n-24" target="#note-t-24">
+<ab>A saying possibly derived from <rs type="pers" key="1668">Oliver Goldsmith</rs>, <rs type="lit" key="155">
+                            <hi rend="ital">She stoops to conquer, or the mistakes of a night</hi>
+                        </rs> (London 1773), one of England’s most popular comedies, which was often performed and reprinted in the nineteenth century. See Oliver Goldsmith, <hi rend="ital">She stoops to conquer</hi>. Ed. Tom Davis. London and New York 1979, p. <hi rend="sc">xv</hi>. <hi rend="ital">The Illustrated London News</hi> 61 (28 December 1872) contained on p. 625 an engraving after <rs type="pers" key="1314">Matthew White Ridley</rs>, ‘She stoops to conquer’.</ab>
+                </note>
+<note n="25" xml:id="n-25" target="#note-t-25">
+<ab>Regarding this money, <ref target="let126.xml">see letter 126</ref>.</ab>
+                </note>
+<note n="26" xml:id="n-26" target="#note-t-26">
+<ab>For this exhibition, <ref target="let125.xml#n-3">see letter 125, n. 3.</ref>
+                    </ab>
+                </note>
+<note n="27" xml:id="n-27" target="#note-t-27">
+<ab>Regarding <rs type="pers" key="1202">Matthijs Maris</rs>, <rs type="ill" key="1807">
+                            <hi rend="ital">Before going to school</hi>
+                        </rs>, <ref target="let114.xml#n-7">see letter 114, n. 7.</ref>
+                    </ab>
+                </note>
+<note n="28" xml:id="n-28" target="#note-t-28">
+<ab>For <rs type="pers" key="1202">Matthijs Maris</rs>, <rs type="ill" key="1678">
+                            <hi rend="ital">A baptism</hi>
+                        </rs>, <ref target="let037.xml#n-15">see letter 37, n. 15.</ref>
+                    </ab>
+                </note>
+<note n="29" xml:id="n-29" target="#note-t-29">
+<ab>For <rs type="pers" key="1335">Luis Ruipérez</rs>, <rs type="ill" key="1689">
+                            <hi rend="ital">The imitation of Jesus Christ</hi>
+                        </rs>, <ref target="let040.xml#n-16">see letter 40, n. 16.</ref>
+                    </ab>
+                </note>
+<note n="30" xml:id="n-30" target="#note-t-30">
+<ab>On Thursday, 16 August 1877, <rs type="pers" key="404">Hendrik Jacob Eerligh van Gogh</rs> (the son of <rs type="pers" key="410">Uncle Jan</rs>) married <rs type="pers" key="233">Maria (Marie) Elisabeth Vos</rs>.</ab>
+                </note>
+  <note n="31" xml:id="n-31" target="#note-t-31">
+<ab>Most likely the Pieterskerk, located behind the cathedral.</ab>
+                </note>
+<note n="32" xml:id="n-32" target="#note-t-32">
+<ab>The canons’ house near the cathedral was used as the Academiegebouw (Academy building) from 1867 onwards (the current building dates from 1891-1894). Between the cathedral and this group of buildings, which included the Groot Auditorium, the Oude Kapittelzaal, the Senaatszaal and smaller auditorium and rooms, lay a medieval cloister garden, which explains why Van Gogh was prompted to compare it to the cloisters of Westminster Abbey in London. Cf. G.W. Kernkamp, <hi rend="ital">De Utrechtse Universiteit 1636-1936</hi>. 2 vols. Utrecht 1936, vol. 1, pp. 29-32, 95.</ab>
+                </note>
+<note n="33" xml:id="n-33" target="#note-t-33">
+<ab>
+                        <rs type="pers" key="770">Johanna (Anna) Elisabeth van Gogh</rs>, who married <rs type="pers" key="771">Johannes Adriaan Tak</rs> in 1867, was Vincent’s cousin and the groom’s eldest sister.</ab>
+                </note>
+<note n="34" xml:id="n-34" target="#note-t-34">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Prov" chap="15" v="24">Prov. 15:24</bibleref>.</ab>
+                </note>
+<note n="35" xml:id="n-35" target="#note-t-35">
+<ab>On 22 August, <rs type="pers" key="524">Mrs van Gogh</rs> told Theo of <rs type="pers" key="317 318">the Strickers</rs>’ dismay. For <rs type="pers" key="407">Willemien</rs>, too, ‘who simply adored <rs type="pers" key="516">Margreet</rs> and had such feelings of friendship for her’, it was, according to Mrs van Gogh, a ‘terrible disappointment’ (FR b2552).</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

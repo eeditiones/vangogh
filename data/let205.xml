@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. The Hague, Saturday, 18 February 1882.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let205"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">205</idno>
+<idno type="collectedletters">176</idno>
+<idno type="brieven1990">205</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>The Hague</vg:placeLet>
+                        <vg:dateLet>Saturday, 18 February 1882</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. The Hague, Saturday, 18 February 1882.</p>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b197 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Van Gogh writes: ‘It is now 18 February’ <ref target="#l-2">(l. 2)</ref>.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0197" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000224_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000224_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000224_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000224_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0197" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000224_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000224_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000224_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000224_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Waarde Theo,</ab>
+                <lb n="2" xml:id="l-2"/>
+<ab>Het is nu 18 Februarij &amp; ik heb <lb n="3" xml:id="l-3"/>nog niets van U gehoord deze maand. Omdat <lb n="4" xml:id="l-4"/>gij in Uw vorigen iets schrijft over niet <lb n="5" xml:id="l-5"/>wel U gevoelen dacht ik er aan of <lb n="6" xml:id="l-6"/>gij soms ziek waart. Doch de Hr Tersteeg <lb n="7" xml:id="l-7"/>zei me dat gij weer hersteld waart<c type="kk">/</c> ten <lb n="8" xml:id="l-8"/>minste dat hij niets aan U gemerkt had.<anchor n="1" xml:id="note-o-1"/> <lb n="9" xml:id="l-9"/>Gij begrijpt dat ik nog al erg om geld <lb n="10" xml:id="l-10"/>verlegen ben. De Hr. Tersteeg heeft <lb n="11" xml:id="l-11"/>een teekeningetje van me genomen <lb n="12" xml:id="l-12"/>voor f<c type="kp">_</c> 10.-<c type="kk">/</c>
+                    <anchor n="2" xml:id="note-o-2"/> daardoor heb ik ’t deze <lb n="13" xml:id="l-13"/>week uitgehouden.</ab>
+                <lb n="14" xml:id="l-14"/>
+<ab rend="indent">Doch hij moet ze hebben klein en enkel <lb n="15" xml:id="l-15"/>met waterverf en dat lukt me nog niet<c type="kp">_</c> <lb n="16" xml:id="l-16"/>Evenwel er is een schaapje over de brug<c type="kp">_</c> <lb n="17" xml:id="l-17"/>Ik werk wat ik kan doch vergeet niet <lb n="18" xml:id="l-18"/>dat ik er onder door ga als ik al <lb n="19" xml:id="l-19"/>te veel zorg en spanning heb.–</ab>
+                <lb n="20" xml:id="l-20"/>
+<ab rend="indent">Schrijf dus per ommegaande als gij kunt<c type="kk">/</c> <lb n="21" xml:id="l-21"/>stuur mij wat &amp; geloof me<c type="kk">/</c> met een <lb n="22" xml:id="l-22"/>handdruk</ab>
+<vg:whiteline/>
+                <lb n="22*" xml:id="l-22s"/>
+<ab>t. à t.</ab>
+                <lb n="23" xml:id="l-23"/>
+                <ab>Vincent</ab>
+<vg:whiteline/>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="25" xml:id="l-25"/>
+<ab>Deze week heb ik behalve die de Hr Tersteeg <lb n="26" xml:id="l-26"/>genomen heeft ook nog een stuk of 3 <lb n="27" xml:id="l-27"/>studies gemaakt die van uitvoering nog <lb n="28" xml:id="l-28"/>niet deugen doch waarvan goddank <lb n="29" xml:id="l-29"/>de teekening beter is.</ab>
+                <lb n="30" xml:id="l-30"/>
+<ab rend="indent">Ik geef er veel om dat ik voel dat ik <lb n="31" xml:id="l-31"/>beter begin te teekenen en dat maakt <lb n="32" xml:id="l-32"/>dat ik courage houd<c type="kp">_</c>
+                </ab>
+                <lb n="33" xml:id="l-33"/>
+<ab rend="indent">Het teekenen is ’t voornaamste<c type="kk">/</c> wat men <lb n="34" xml:id="l-34"/>er van zeggen moge<c type="kk">/</c> en verreweg ’t moeielijkste <lb n="35" xml:id="l-35"/>ook.</ab>
+                <lb n="36" xml:id="l-36"/>
+<ab rend="indent">Het is daarom dat ik durf zeggen dat <lb n="37" xml:id="l-37"/>ik binnen ’t jaar al iets verkoopbaars <lb n="38" xml:id="l-38"/>maken zal. Want die de Hr Tersteeg nu <lb n="39" xml:id="l-39"/>nam die tel ik niet<c type="kk">/</c> ik zal ’t veel <lb n="40" xml:id="l-40"/>beter doen als ik mij in ’t teekenen nog <lb n="41" xml:id="l-41"/>versterkt heb zoo dat het mij niet zooveel <lb n="42" xml:id="l-42"/>tobberij meer kost. à dieu kerel<c type="kk">/</c> <lb n="43" xml:id="l-43"/>schrijf toch vooral spoedig!</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note n="-">
+                        <hi rend="ital">Van Gogh wrote below the signature (l. 23):</hi> ‘t.s.v.p.’ <hi rend="ital">(tournez s’il vous plaît)</hi>.</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo,</ab>
+<ab>It’s now 18 February and I still haven’t heard anything from you this month. Because you wrote something in your last letter about not feeling well, I thought you might perhaps be ill. But <rs type="pers" key="787">Mr Tersteeg</rs> told me you’d recovered, at least he hadn’t noticed anything wrong with you.<anchor n="1" xml:id="note-t-1"/> You understand that I’m extremely short of money. Mr Tersteeg bought a little drawing from me for 10 guilders,<anchor n="2" xml:id="note-t-2"/> which helped me to get through the week.</ab>
+<ab rend="indent">But he wants them small and only in watercolour and I can’t do that yet. One milestone has been passed, however. I work as hard as I can, but don’t forget that I’ll go under if I have too much worry and strain.</ab>
+<ab rend="indent">So write by return of post if you can, send me something, and believe me, with a handshake,</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<ab>
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab>This week, in addition to the one <rs type="pers" key="787">Mr Tersteeg</rs> bought, I’ve made around 3 studies that are still not right in execution, though the drawing is better, thank goodness.</ab>
+<ab rend="indent">It means a great deal to me to feel that I’m beginning to draw better, and that keeps my spirits up.</ab>
+<ab rend="indent">Drawing is the most important thing, no matter what they say, and far and away the most difficult as well.</ab>
+<ab rend="indent">This is why I dare to say that I’ll make something saleable within the year. Because I don’t count the one <rs type="pers" key="787">Mr Tersteeg</rs> bought, I’ll be much better at it when I’ve improved my drawing so that it no longer causes me such trouble. Adieu, old chap, be sure to write soon!</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>
+                        <rs type="pers" key="787">Tersteeg</rs> had visited Theo in Paris (<ref target="let204.xml">see letter 204</ref>).</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>Van Gogh is not necessarily referring to size when he calls this a ‘little drawing’; he could be alluding to the fact that it is not very elaborate (cf. <ref target="let237.xml#n-10">letter 237, n. 10</ref>). It is possible that he is referring to <hi rend="ital">Woman at the window, knitting</hi> (<rs type="otherart" key="687">F 910a / JH 90</rs>), which <rs type="pers" key="787">Tersteeg</rs> owned; it measures 33 x 26 cm. (The drawings he made for <rs type="pers" key="422">Uncle Cor</rs>, which are comparable in format, were also referred to by Van Gogh as little.)</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+  <teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <fileDesc>
+      <titleStmt>
+        <title>To Theo van Gogh. Amsterdam, Wednesday, 30 May 1877.</title>
+      
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+      <publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let117"/>
+            </publicationStmt>
+      <sourceDesc>
+        <vg:letDesc>
+          <vg:letIdentifier>
+            <idno type="jlb">117</idno>
+            <idno type="collectedletters">98</idno>
+            <idno type="brieven1990">117</idno>
+          </vg:letIdentifier>
+          <vg:letHeading>
+            <author>Vincent van Gogh</author>
+            <vg:addressee>Theo van Gogh</vg:addressee>
+            <vg:placeLet>Amsterdam</vg:placeLet>
+            <vg:dateLet>Wednesday, 30 May 1877</vg:dateLet>
+          </vg:letHeading>
+          <vg:letContents>
+            <p>To Theo van Gogh. Amsterdam, Wednesday, 30 May 1877.</p>
+            <note type="ongoingTopic" n="1">
+              <p>Theo’s infatuation <ref target="let103.xml">(103)</ref>
+                            </p>
+            </note>
+          </vg:letContents>
+          <note type="sourceStatus" xml:id="sourceStatus">
+            <p>Original manuscript</p>
+          </note>
+          <note type="location" xml:id="location">
+            <p>Amsterdam, Van Gogh Museum, inv. no. b116 V/1962</p>
+          </note>
+          <note type="date" xml:id="date">
+            <p>Letter headed: ‘Amsterdam 30 Mei 1877’.</p>
+          </note>
+        </vg:letDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <surface n="b 0116" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000125_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000125_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000125_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000125_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    <surface n="b 0116" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000125_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000125_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000125_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000125_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+  </facsimile>
+  <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <body>
+      <div type="original">
+        <pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+        <lb n="1" xml:id="l-1"/>
+        <ab>Amsterdam 30 Mei 1877</ab>
+        <vg:whiteline/>
+        <lb n="2" xml:id="l-2"/>
+        <ab>Waarde Theo,</ab>
+        <lb n="3" xml:id="l-3"/>
+        <ab>Dank voor Uw brief van heden, ik heb nog een en ander te doen en <lb n="4" xml:id="l-4"/>schrijf dus in haast<c type="kp">_</c> Heb Oom Jan Uw brief gegeven, ontvang Zijne <lb n="5" xml:id="l-5"/>hartelijke groeten en Hij dankt U voor Uw schrijven.</ab>
+        <lb n="6" xml:id="l-6"/>
+        <ab rend="indent">Er was een woord dat mij trof in Uwen brief<c type="kk">/</c> “ik zou wel
+          van alles weg <lb n="7" xml:id="l-7"/>willen, ik ben de oorzaak van alles en doe anderen
+          slechts verdriet<c type="kk">/</c>
+          <lb n="8" xml:id="l-8"/>ik alleen heb deze ellende over mij zelven en anderen gebragt”<c type="kp">_</c>
+                    <anchor n="1" xml:id="note-o-1"/>
+          <lb n="9" xml:id="l-9"/>Het was een woord dat mij trof ─ omdat dat zelfde gevoel<c type="kk">/</c> juist hetzelfde<c type="kk">/</c>
+          <lb n="10" xml:id="l-10"/>niet meer en niet minder ook in mijn geweten is<c type="kp">_</c>─</ab>
+        <lb n="11" xml:id="l-11"/>
+        <ab rend="indent">Wanneer ik denk aan het verledene ─ wanneer ik denk aan de toekomst<c type="kk">/</c>
+          <lb n="12" xml:id="l-12"/>aan bijna onoverwinnelijke moeielijkheden, aan veel en moeielijk
+          werk <lb n="13" xml:id="l-13"/>waar ik geen lust in heb, dat ik, nl. het booze ik, gaarne
+          zou willen ontduiken<c type="kk">/</c>
+          <lb n="14" xml:id="l-14"/>wanneer ik denk aan de oogen van zoo velen die op mij gevestigd
+          zijn ─ die <lb n="15" xml:id="l-15"/>weten zullen waaraan het ligt indien ik niet slaag ─
+          die mij geen alle<c type="shy">-</c>
+                    <lb n="16" xml:id="l-16"/>daagsche verwijtingen zullen
+          doen maar die, omdat zij beproefd en geoefend <lb n="17" xml:id="l-17"/>zijn in wat goed
+          en braaf en fijn goud<anchor n="2" xml:id="note-o-2"/> is<c type="kk">/</c> als het ware
+          zullen zeggen door de uitdrukking <lb n="18" xml:id="l-18"/>van hun gelaat: wij hebben u
+          geholpen en zijn u een licht geweest ─ wij <lb n="19" xml:id="l-19"/>hebben aan U gedaan
+          wat wij konden<c type="kk">/</c> hebt gij opregt gewild<c type="kk">/</c> wat is nu <lb n="20" xml:id="l-20"/>ons loon en de vrucht van ons werk?<anchor n="3" xml:id="note-o-3"/> Zie<c type="kk">/</c> als ik aan dat alles denk <lb n="21" xml:id="l-21"/>en aan nog
+          zooveel meer van allerlei aard ─ te veel om op te noemen<c type="kk">/</c>
+          <lb n="22" xml:id="l-22"/>aan al de moeielijkheden en zorgen die niet minder worden <lb n="23" xml:id="l-23"/>al voortgaande in het leven, aan lijden<c type="kk">/</c> aan
+          teleurstelling, aan <lb n="24" xml:id="l-24"/>het gevaar van mislukking tot schande toe,
+          dan is ook mij het <lb n="25" xml:id="l-25"/>verlangen niet vreemd ─ ik zou wel van alles
+          weg willen!</ab>
+        <lb n="26" xml:id="l-26"/>
+        <ab rend="indent">En toch ─ ik ga voort ─ maar met voorzigtigheid en in de hoop dat <lb n="27" xml:id="l-27"/>het mij gelukken zal al deze dingen te bestrijden zoo dat ik wat
+          te <lb n="28" xml:id="l-28"/>antwoorden zal hebben op de verwijtingen die dreigen<c type="kk">/</c> in het vertrouwen <lb n="29" xml:id="l-29"/>dat ondanks alle dingen die
+          tegen mij schijnen ik de zaak die ik begeer <lb n="30" xml:id="l-30"/>zal bereiken, en als
+          God wil genade zal vinden in de oogen<anchor n="4" xml:id="note-o-4"/> van som<c type="shy">-</c>
+                    <lb n="31" xml:id="l-31"/>migen die ik lief heb en in de oogen van hen
+          die na mij zullen komen.─</ab>
+        <lb n="32" xml:id="l-32"/>
+        <ab rend="indent">Daar staat<c type="kk">/</c> rigt op de slappe handen en de trage knieen<c type="kk">/</c>
+                    <anchor n="5" xml:id="note-o-5"/> en toen <lb n="33" xml:id="l-33"/>de
+          discipelen den geheelen nacht hadden gearbeid en niets gevangen <lb n="34" xml:id="l-34"/>toen werd hun gezegd<c type="kk">/</c> Steek af in de diepte! Werp het net nog eens <lb n="35" xml:id="l-35"/>uit!<anchor n="6" xml:id="note-o-6"/>
+                </ab>
+        <lb n="36" xml:id="l-36"/>
+        <ab rend="indent">Mijn hoofd is soms dof en dikwijls gloeit het en is mijne gedachte <lb n="37" xml:id="l-37"/>verward ─ hoe ik al die moeielijke en uitvoerige studie er in moet
+            <lb n="38" xml:id="l-38"/>krijgen ─ ik weet het niet ─ om na die veelbewogen jaren mij
+          aan een<c type="shy">-</c>
+                    <lb n="39" xml:id="l-39"/>voudig geregeld werken te wennen en er
+          in te volharden is niet altijd <lb n="40" xml:id="l-40"/>gemakkelijk<c type="kp">_</c> En
+          toch ga ik voort, als wij vermoeid zijn is het dan niet <lb n="41" xml:id="l-41"/>omdat
+          wij reeds een eind geloopen hebben en als het waar is dat <lb n="42" xml:id="l-42"/>de
+          mensch een strijd heeft op aarde is dan niet het gevoel van <lb n="43" xml:id="l-43"/>vermoeidheid en het gloeijen van het hoofd het teeken dat wij gestreden <lb n="44" xml:id="l-44"/>hebben. Wanneer men aan moeielijk werk arbeidt en tracht naar <lb n="45" xml:id="l-45"/>eene goede zaak dan strijd men een goeden strijd<anchor n="7" xml:id="note-o-7"/> waarvan zeker reeds <lb n="46" xml:id="l-46"/>dit dadelijk het loon
+          is dat men voor veel wat kwaad is wordt bewaard. <lb n="47" xml:id="l-47"/>En God ziet de
+          moeite en het verdriet<anchor n="8" xml:id="note-o-8"/> aan en kan helpen ondanks alles.</ab>
+        <pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+        <lb n="48" xml:id="l-48"/>
+        <ab rend="indent">Het geloof aan God staat bij mij vast ─ geen denkbeeld is dat, geen ijdel
+            <lb n="49" xml:id="l-49"/>geloof, maar het is zoo, het is waarachtig ─ daar is een God
+          die leeft<anchor n="9" xml:id="note-o-9"/> ─ <lb n="50" xml:id="l-50"/>en Hij is met onze
+          Ouders, <hi rend="ital">en zijn oog is ook op ons</hi>
+                    <anchor n="10" xml:id="note-o-10"/>
+          en ik ben zeker <lb n="51" xml:id="l-51"/>dat Hij Zijn oogmerk met ons ook heeft en wij
+          als het ware niet aan <lb n="52" xml:id="l-52"/>ons zelven geheel toebehooren ─ en die God
+          is geen ander dan Christus <lb n="53" xml:id="l-53"/>van Wien wij in onzen Bijbel lezen<c type="kk">/</c> wiens woord en geschiedenis ook diep <lb n="54" xml:id="l-54"/>in Uw
+          hart is.─ Had ik maar vroeger met al mijne kracht er op ge<c type="shy">-</c>
+                    <lb n="55" xml:id="l-55"/>werkt, ja dan zou het mij nu beter geweest zijn ─ maar ook nu zal <lb n="56" xml:id="l-56"/>Hij een krachtige hulp zijn en het is in Zijne magt om ons het
+          leven <lb n="57" xml:id="l-57"/>dragelijk te maken, om ons te bewaren voor den booze<c type="kk">/</c>
+                    <anchor n="11" xml:id="note-o-11"/> om alle dingen <lb n="58" xml:id="l-58"/>te laten medewerken ten goede,<anchor n="12" xml:id="note-o-12"/> om ons
+          einde vrede te maken.<anchor n="13" xml:id="note-o-13"/> Er is <lb n="59" xml:id="l-59"/>kwaad in de wereld en in ons zelven<c type="kk">/</c> verschrikkelijke dingen<c type="kk">/</c> en men <lb n="60" xml:id="l-60"/>hoeft niet ver in het leven te zijn om
+          tegen veel op te zien en om behoefte <lb n="61" xml:id="l-61"/>te gevoelen aan eene vaste
+            hoop<anchor n="14" xml:id="note-o-14"/> op een leven na dit leven en om te <lb n="62" xml:id="l-62"/>weten dat men zonder het geloof in een God niet kan leven ─ het niet <lb n="63" xml:id="l-63"/>uithouden kan<c type="kp">_</c>─ Maar met dat geloof kan men het
+          lang vol<c type="shy">-</c>
+                    <lb n="64" xml:id="l-64"/>houden. En nu, er is in onzen Bijbel
+          een woord dat er telkens <lb n="65" xml:id="l-65"/>met nadruk in wordt herhaald op
+          verschillende plaatsen<c type="kk">/</c> bij <lb n="66" xml:id="l-66"/>verschillende
+            gelegenheden<c type="kk">/</c> onder verschillende omstandigheden<c type="kk">/</c>
+          <lb n="67" xml:id="l-67"/>
+                    <hi rend="ital">Vreest niet</hi>
+                    <c type="kk">/</c>
+                    <anchor n="15" xml:id="note-o-15"/> dat heeft onzen Vader zich aangetrokken en Hij <lb n="68" xml:id="l-68"/>zegt “ik wanhoop nooit”<c type="kk">/</c>
+                    <anchor n="16" xml:id="note-o-16"/> laat ons het hem nazeggen. Is <lb n="69" xml:id="l-69"/>het ook
+          niet Uwe ervaring dat wanneer Gij iets hebt willen <lb n="70" xml:id="l-70"/>doen dat
+          kwaad was<c type="kk">/</c> Gij werdt teruggehouden ─ dat wanneer er <lb n="71" xml:id="l-71"/>iets was dat U verontrustte en gij geen uitkomst zaagt<c type="kk">/</c>
+          Gij er <lb n="72" xml:id="l-72"/>zijt door heen gegaan zonder dat het U heeft geschaad.
+            <lb n="73" xml:id="l-73"/>Er staat in een boek van Bunyan hoe een reiziger <lb n="74" xml:id="l-74"/>een leeuw ziet liggen aan den kant van den weg dien hij gaan <lb n="75" xml:id="l-75"/>moet ─ en hij gaat toch door ─ hij moet en kan niet anders ─ <lb n="76" xml:id="l-76"/>en als hij op de plaats komt dan bemerkt hij dat de leeuw aan <lb n="77" xml:id="l-77"/>een keten vast ligt en daar alleen is om den moed van de <lb n="78" xml:id="l-78"/>reizigers te beproeven<c type="kp">_</c>─<anchor n="17" xml:id="note-o-17"/> Zoo is het in het leven meer dan eens<c type="kp">_</c>
+          <lb n="79" xml:id="l-79"/>Veel staat ons te wachten, maar anderen hebben geleefd, en zoo
+          wie zijne <lb n="80" xml:id="l-80"/>Ouders liefheeft moet hen achterna het leven door.─
+          Als gij prijsstelt op <lb n="81" xml:id="l-81"/>de liefde en achting van jongeren kom dan
+          openlijk wanneer het te pas komt uit <lb n="82" xml:id="l-82"/>voor uw geloof en beken dat
+          Gij Christus liefhebt en den Bijbel, heeft niet een <lb n="83" xml:id="l-83"/>zoon zijn
+          Vader hierom liever dan om iets anders, de vrouwen en <lb n="84" xml:id="l-84"/>kinderen
+          en eenvoudigen voelen en weten deze dingen dikwijls zoo diep<anchor n="18" xml:id="note-o-18"/>
+          <lb n="85" xml:id="l-85"/>en in zoo menig hart is in het verborgen een groot en levendig
+          geloof. <lb n="86" xml:id="l-86"/>Dat hebben ook wij noodig als wij denken aan nog veel
+          dat ons wacht<c type="kk">/</c>
+          <lb n="87" xml:id="l-87"/>van alle levenservaring heeft Hij het woord gezegd en wij weten
+          het hoe <lb n="88" xml:id="l-88"/>er veel moet zijn omgegaan in het hart uit welks
+          overvloed Zijn mond <lb n="89" xml:id="l-89"/>sprak “in het Koninkrijk der Hemelen trouwen
+          zij niet en worden zij <lb n="90" xml:id="l-90"/>niet ten huwelijk gegeven”,<anchor n="19" xml:id="note-o-19"/> en die zeide<c type="kk">/</c> Zoo wie niet haat ook <lb n="91" xml:id="l-91"/>zelfs zijn eigen leven die kan Mijn discipel niet zijn.<anchor n="20" xml:id="note-o-20"/> Ja dat <lb n="92" xml:id="l-92"/>woord van den Heer<c type="kk">/</c> wel is het het woord dat uit den mond Gods <lb n="93" xml:id="l-93"/>uitging
+          waarbij de mensch zal leven ─ en niet bij brood alleen<anchor n="21" xml:id="note-o-21"/>
+          <lb n="94" xml:id="l-94"/>en hoe meer men er in zoekt hoe meer men er in vindt.<anchor n="22" xml:id="note-o-22"/> Toen ik stond bij het <lb n="95" xml:id="l-95"/>lijk van
+            Aertsen<anchor n="23" xml:id="note-o-23"/> toen stak de kalmte en ernst en plechtige
+          stilte van den dood zoo af bij <lb n="96" xml:id="l-96"/>ons die leefden dat allen voelden
+          wat zijne dochter<anchor n="24" xml:id="note-o-24"/> zeide in hare eenvoudigheid: <lb n="97" xml:id="l-97"/>hij is verlost van den last van het leven dien wij nog dragen
+          moeten. En toch zijn wij <lb n="98" xml:id="l-98"/>aan dat oude leven zoo gehecht omdat er
+          tegenover moedelooze stemming opgewekt<c type="shy">-</c>
+                    <lb n="99" xml:id="l-99"/>heid
+          staat en ons hart en onze ziel zich verheugt als de leeuwerik die het zingen <lb n="100" xml:id="l-100"/>s’morgens niet laten kan ook al buigt zich onze ziel soms neder in ons
+            <lb n="101" xml:id="l-101"/>en verontrust zich in ons.<anchor n="25" xml:id="note-o-25"/> En de herinnering aan al wat wij hebben liefgehad <lb n="102" xml:id="l-102"/>blijft en
+          komt terug aan den avond van ons leven<c type="kp">_</c>
+                    <anchor n="26" xml:id="note-o-26"/>
+          <hi rend="ital">Het</hi> is niet gestorven <lb n="103" xml:id="l-103"/>maar het
+            slaapt<anchor n="27" xml:id="note-o-27"/> en zich daarvan een schat te verzamelen is
+          goed. Ontvang <lb n="104" xml:id="l-104"/>een handdruk in gedachten en heb het zoo goed
+          mogelijk <lb n="105" xml:id="l-105"/>en schrijf weer eens spoedig aan</ab>
+        <vg:whiteline/>
+        <lb n="106" xml:id="l-106"/>
+        <ab>Uw zoo liefh<c type="kp">_</c> broer</ab>
+        <lb n="107" xml:id="l-107"/>
+        <ab>Vincent</ab>
+        <vg:whiteline/>
+        <div type="textualNotes">
+          <note target="l-45" n="45">waarvan &lt; waavan</note>
+          <note target="l-90" n="90">gegeven”, &lt; gegeven,</note>
+          <note target="l-99" n="99">staat &lt; over staat</note>
+        </div>
+      </div>
+      <div type="translation">
+        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+        <ab>Amsterdam, 30 May 1877</ab>
+        <vg:whiteline/>
+        <ab>My dear Theo,</ab>
+        <ab>Thanks for your letter of today, I have to do a few things and so am writing in haste.
+          Gave your letter to <rs type="pers" key="410">Uncle Jan</rs>, accept his warm regards and he thanks you for writing.</ab>
+        <ab rend="indent">There were some words in your letter that touched me, ‘I should really
+          like to get away from everything, I’m the cause of everything and only make others sad, I
+          alone have caused all this misery to myself and others’.<anchor n="1" xml:id="note-t-1"/>
+          Those were words that touched me – because that same feeling, exactly the same, nothing
+          more and nothing less, is also on my conscience.</ab>
+        <ab rend="indent">When I think of the past – when I think of the future, of nearly
+          insurmountable difficulties, of much and difficult work which I have no passion for, which
+          I – the evil part of me, that is – would prefer to avoid, when I think of the eyes of so
+          many that are fixed upon me – who, if I do not succeed, will know the reason why – who
+          will not utter any ordinary reproaches but who, because they have been tried and are well
+          versed in what is good and proper and fine gold,<anchor n="2" xml:id="note-t-2"/> as it
+          were, will say it by the expression on their faces: we helped you and have been a light
+          unto you – we did for you what we could. Did you sincerely desire it? What are our wages
+          and the fruits of our labours?<anchor n="3" xml:id="note-t-3"/> You see, when I think of
+          all that and of so much else, all manner of things – too many to mention, of all the
+          troubles and worries which do not become less as one progresses through life, of
+          suffering, of disappointment, of the danger of failing to a scandalous extent, then that
+          desire is no stranger to me either – I would really like to get away from everything!</ab>
+        <ab rend="indent">And yet – I go on – but with caution and in the hope that I’ll succeed in
+          warding off all these things, so that I can somehow answer all the reproaches that
+          threaten, trusting that in spite of everything that seems to be against me I shall attain
+          that thing that I desire, and, God willing, shall find grace in the eyes<anchor n="4" xml:id="note-t-4"/> of some whom I love, and in the eyes of those who shall come after
+          me.</ab>
+        <ab rend="indent">It is written, lift up the feeble hands, and the knees which hang
+            down,<anchor n="5" xml:id="note-t-5"/> and when the disciples had toiled all night and
+          had taken nothing, it was said unto them, Launch out into the deep, and let down your nets
+            again.<anchor n="6" xml:id="note-t-6"/>
+                </ab>
+        <ab rend="indent">My head is sometimes numb and is often burning hot, and my thoughts are
+          confused – how shall I ever get all that difficult and detailed study into it? – I don’t
+          know – after those turbulent years, becoming accustomed to plain, well-ordered work and
+          persevering in it isn’t always easy. And yet I go on, if we’re tired, isn’t it because
+          we’ve already gone a long way, and if it’s true that man’s life on earth is a struggle,
+          isn’t feeling tired and having a burning head a sign that we have struggled? When one
+          labours at difficult work and strives for good results, one fights the good fight,<anchor n="7" xml:id="note-t-7"/> the reward of which, surely, is already this: that one is
+          preserved from much that is evil. And God beholds the labour and the sorrow,<anchor n="8" xml:id="note-t-8"/> and can help in spite of everything. <pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+        <ab rend="indent">Faith in God is for me a certainty – not some notion, not an idle belief,
+          it is so, it is true – there is a God that lives<anchor n="9" xml:id="note-t-9"/> – and He
+          is with our parents, <hi rend="ital">and his eye is also upon us</hi>,<anchor n="10" xml:id="note-t-10"/> and I am certain that He intends us for something, and that we do
+          not belong entirely to ourselves, as it were – and that God is none other than Christ of
+          Whom we read in our Bible, whose word and story are also deep in your heart. If only I had
+          worked at it sooner with all my might, yes, it would be better for me now – but even now
+          He will be a mighty help, and it is in His power to make our life bearable, to keep us
+          from evil,<anchor n="11" xml:id="note-t-11"/> to let all things work together for
+            good,<anchor n="12" xml:id="note-t-12"/> to make the end of us peace.<anchor n="13" xml:id="note-t-13"/> There is evil in the world and in ourselves, terrible things, and
+          one doesn’t have to have gone far in life to dread much and to feel the need for
+          unfaltering hope<anchor n="14" xml:id="note-t-14"/> in a life after this one, and to know
+          that without faith in a God one cannot live – cannot endure. But with that faith one can
+          long endure. And now, there are words in our Bible that are emphatically repeated in
+          various places, on various occasions, under various circumstances, <hi rend="ital">Fear
+            not</hi>,<anchor n="15" xml:id="note-t-15"/> our Father took that to heart and he says
+          ‘I never despair’,<anchor n="16" xml:id="note-t-16"/> let us repeat it after him. Isn’t it
+          your experience, too, that whenever you wanted to do something bad, you were held back –
+          that whenever there was something upsetting you and you saw no way out, you came through
+          it all unharmed? A book by <rs type="pers" key="558">Bunyan</rs> tells of a traveller who sees a lion lying at the side
+          of the road he must traverse – and yet he continues on his way – there is nothing else he
+          may or can do – and when he arrives at the place he notices that the lion is chained up
+          and is only there to test the travellers’ courage.<anchor n="17" xml:id="note-t-17"/> Thus
+          it is in life more than once. There is much in store for us, but others have lived, and so
+          whosoever loves his parents must follow them on life’s path. If you value the love and
+          esteem of young people, declare your beliefs openly whenever suitable, and admit that you
+          love Christ and the Bible, doesn’t a son love his Father better for this reason than for
+          any other? Women and children and the simple often feel and know these things so
+            deeply,<anchor n="18" xml:id="note-t-18"/> and there is hidden in so many a heart a
+          great and vigorous faith. We, too, are in need of this when we think of much that is in
+          store for us, He spoke from all His experience of life, and we know how much must have
+          been going on in the heart whose plenitude made His mouth utter the words ‘in the Heavenly
+          Kingdom they do not marry, and are not given in marriage’,<anchor n="19" xml:id="note-t-19"/> and who said, he who hate not, even his own life also, he cannot be
+          My disciple.<anchor n="20" xml:id="note-t-20"/> Yes, those words of the Lord, surely they
+          are the words issuing from the mouth of God whereby man shall live – and not by bread
+            alone<anchor n="21" xml:id="note-t-21"/> and the more one seeks in those words, the more
+          one shall find therein.<anchor n="22" xml:id="note-t-22"/> When I was standing next to
+          <rs type="pers" key="246">Aertsen</rs>’s body,<anchor n="23" xml:id="note-t-23"/> the calm and seriousness and solemn
+          stillness of death contrasted so greatly with us who were living, that everyone felt what
+          <rs type="pers" key="248 249">his daughter</rs>
+                    <anchor n="24" xml:id="note-t-24"/> said in her simplicity: he is delivered
+          from the burden of life which we must still bear. And yet we are so attached to that old
+          life because there is cheerfulness to counter despondency, and our heart and our soul are
+          gladdened, just as the lark who cannot help singing in the morning, even if our soul is
+          sometimes cast down within us and is disquieted in us.<anchor n="25" xml:id="note-t-25"/>
+          And the memory of everything we have loved remains and returns in the evening of our
+            life.<anchor n="26" xml:id="note-t-26"/>
+          <hi rend="ital">It</hi> is not dead, but sleepeth<anchor n="27" xml:id="note-t-27"/> and
+          it is good to collect a great store of it. Accept a handshake in thought, and I wish you
+          the very best, and write again soon to</ab>
+        <vg:whiteline/>
+        <ab>Your most loving brother</ab>
+        <ab>Vincent</ab>
+      </div>
+      <div type="notes">
+        <note n="1" xml:id="n-1" target="#note-t-1">
+          <ab>Theo appears to have had renewed contact with the woman he was in love with. Several
+            remarks made by his <rs type="pers" key="524 526">parents</rs> reveal the consternation this caused and show how they
+            attempted to impose their standards on their children. Mrs van Gogh wrote: ‘still, it
+            was disappointing to notice that you are not yet strong, and if you don’t yet feel
+            strong, you don’t avoid the dangerous places and risk temptation ... It seems to me,
+            Theo, that the girl does not respect the promise she knew you made to your parents. And
+            if she truly wanted to act sensibly, she would not have spoken to you first. Don’t make
+            yourself and us unhappy; it may be difficult to make a sacrifice, but your love is based
+            on sensuality, and you must open your eyes to the danger in order to flee it all the
+            more forcefully’ (FR b2533, 21 May 1877).</ab>
+          <ab rend="indent">Mr van Gogh issued Theo a stern warning the same day. His reaction is
+            especially revealing as regards their view of the matter: ‘Haven’t you heard enough from
+            <rs type="pers" key="324">Jan Carbentus</rs>? I’ve seen so much of it. That is why such a relationship is so wretched
+            and loathsome, because it lacks any moral foundation and is based on material interest,
+            combined with sensual desire.</ab>
+          <ab rend="indent">A man, a young man, a young man of good family as you are, you would be
+            throwing yourself away if you let yourself be tempted again to enter into a relationship
+            that you cannot expect to be a happy one.</ab>
+          <ab rend="indent">I appreciate your having written to us. I am not saying that you acted
+            wrongly in your demeanour towards her. But Theo! I beg you, do not let her be deluded
+            into thinking that you are a young man of common character. Do not let her find you in
+            places and streets where others promenade, and if you must pass by such a street –
+            remember – to avoid any appearance of being stuck on someone, etc., which one finds
+            among the young people who promenade there.</ab>
+          <ab rend="indent">Tell yourself that you will not let your life take that pitiful course.
+            Sacrifice pleasure – if it is pleasure, but console yourself that it is better to be
+            very reserved than too abandoned.</ab>
+          <ab rend="indent">But you can and must have pleasure and diversion, only I beg you, do not
+            seek it in people of that kind. Your whole future depends on it. Jan Carbentus said it
+            himself. I was made unhappy by such a meeting in the street’ (FR b2532, 21 May 1877).</ab>
+          <ab rend="indent">After this Theo told his parents that he wanted to change his situation
+            (FR b2534, 31 May 1877). To steer this plan in the right direction – a plan his parents
+            strongly disapproved of – Mr van Gogh spoke to <rs type="pers" key="423">Uncle Vincent</rs> on 8 June about the
+            possibility of Theo’s being given a position abroad (FR b2535).</ab>
+        </note>
+        <note n="2" xml:id="n-2" target="#note-t-2">
+          <ab>Biblical, see, for instance, <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Ps" chap="19" v="11">Ps. 19:11</bibleref> (in <hi rend="ital">KJ</hi>
+            <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Ps" chap="19" v="10">Ps.
+            19:10</bibleref>) and <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Isa" chap="13" v="12">Isa. 13:12</bibleref>.</ab>
+        </note>
+        <note n="3" xml:id="n-3" target="#note-t-3">
+          <ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="2 Chron" chap="15" v="7">2 Chron. 15:7</bibleref>.</ab>
+        </note>
+        <note n="4" xml:id="n-4" target="#note-t-4">
+          <ab>Biblical.</ab>
+        </note>
+        <note n="5" xml:id="n-5" target="#note-t-5">
+          <ab>
+            <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Heb" chap="12" v="12">Heb.
+              12:12</bibleref>. Van Gogh confused the adjectives in this passage.</ab>
+        </note>
+        <note n="6" xml:id="n-6" target="#note-t-6">
+          <ab>
+            <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Luke" chap="5" vr="4-5">Luke
+              5:4-5</bibleref>.</ab>
+        </note>
+        <note n="7" xml:id="n-7" target="#note-t-7">
+          <ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="1 Tim" chap="6" v="12">1
+              Tim. 6:12</bibleref>.</ab>
+        </note>
+        <note n="8" xml:id="n-8" target="#note-t-8">
+          <ab>
+            <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Ps" chap="90" v="10">Ps.
+            90:10</bibleref>.</ab>
+        </note>
+        <note n="9" xml:id="n-9" target="#note-t-9">
+          <ab>Biblical, see, for example, <bibleref xmlns="http://www.vangoghletters.org/ns/" book="1 Sam" chap="25" v="34">1 Sam. 25:34</bibleref>, <bibleref xmlns="http://www.vangoghletters.org/ns/" book="2 Sam" chap="22" v="47">2 Sam.
+            22:47</bibleref> and <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Ps" chap="18" v="47">Ps. 18:47</bibleref> (in <hi rend="ital">KJ</hi>
+            <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Ps" chap="18" v="46">Ps.
+            18:46</bibleref>).</ab>
+        </note>
+        <note n="10" xml:id="n-10" target="#note-t-10">
+          <ab>
+            <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Ps" chap="32" v="8">Ps.
+            32:8</bibleref> and <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Ps" chap="33" v="18">Ps. 33:18</bibleref>.</ab>
+        </note>
+        <note n="11" xml:id="n-11" target="#note-t-11">
+          <ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="2 Thess" chap="3" v="3">2 Thess. 3:3</bibleref>.</ab>
+        </note>
+        <note n="12" xml:id="n-12" target="#note-t-12">
+          <ab>
+            <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Rom" chap="8" v="28">Rom.
+            8:28</bibleref>.</ab>
+        </note>
+        <note n="13" xml:id="n-13" target="#note-t-13">
+          <ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Ps" chap="37" v="37">Ps.
+              37:37</bibleref>.</ab>
+        </note>
+        <note n="14" xml:id="n-14" target="#note-t-14">
+          <ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Rhy. ps" chap="119" v="57">Rhy. ps. 119:57</bibleref> and <bibleref xmlns="http://www.vangoghletters.org/ns/" book="hymn" chap="55" v="3">hymn
+            55:3</bibleref>.</ab>
+        </note>
+        <note n="15" xml:id="n-15" target="#note-t-15">
+          <ab>Biblical.</ab>
+        </note>
+        <note n="16" xml:id="n-16" target="#note-t-16">
+          <ab>For the expression ‘I never despair’, <ref target="let113.xml#n-15">see letter 113, n.
+            15.</ref> Possibly derived from <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Hymn" chap="56" v="1">hymn 56:1</bibleref> and <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Hymn" chap="56" v="9">hymn 56:9</bibleref>.</ab>
+        </note>
+        <note n="17" xml:id="n-17" target="#note-t-17">
+          <ab>This particular passage in <rs type="pers" key="558">Bunyan</rs>’s <rs type="lit" key="103">
+                            <hi rend="ital">The pilgrim’s progress</hi>
+                        </rs> ends
+            with the words of the gatekeeper Watchful, directed at Christian, the protagonist: ‘Is
+            thy strength so small? fear not the Lions, for they are Chained; and are placed there
+            for trial of faith where it is; and for discovery of those that have none: keep in the
+            midst of the Path, and no hurt shall come unto thee.’ See ed. N.H. Keeble. Oxford and
+            New York 1984, pp. 35-38 (quotation on p. 38). For the closing line, see <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Mark" chap="4" v="40">Mark
+            4:40</bibleref>. This scene was illustrated in various contemporary editions, such as
+            London 1870, facing p. 32. <rs type="ill" key="1829">Ill. 1829</rs>.</ab>
+        </note>
+        <note n="18" xml:id="n-18" target="#note-t-18">
+          <ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Matt" chap="11" v="25">Matt. 11:25</bibleref>.</ab>
+        </note>
+        <note n="19" xml:id="n-19" target="#note-t-19">
+          <ab>
+                        <vg:bibleref book="Mark" chap="12" v="25">Mark 12:25</vg:bibleref>.</ab>
+        </note>
+        <note n="20" xml:id="n-20" target="#note-t-20">
+          <ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Luke" chap="14" v="26">Luke 14:26</bibleref>.</ab>
+        </note>
+        <note n="21" xml:id="n-21" target="#note-t-21">
+          <ab>
+            <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Matt" chap="4" v="4">Matt.
+            4:4</bibleref> and <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Luke" chap="4" v="4">Luke 4:4</bibleref>.</ab>
+        </note>
+        <note n="22" xml:id="n-22" target="#note-t-22">
+          <ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Matt" chap="7" v="8">Matt. 7:8</bibleref> and <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Luke" chap="11" v="10">Luke 11:10</bibleref>.</ab>
+        </note>
+        <note n="23" xml:id="n-23" target="#note-t-23">
+          <ab>Van Gogh had gone to Etten on 8 April to visit <rs type="pers" key="246">Jan Aertsen</rs>, who was dying; <ref target="let110.xml">see letter 110</ref>.</ab>
+        </note>
+        <note n="24" xml:id="n-24" target="#note-t-24">
+          <ab>This was either <rs type="pers" key="248">Cornelia Aertsen</rs>, born on 15 April 1837, or <rs type="pers" key="249">Adriana Aertsen</rs>, born on 3 March
+            1851 (<hi rend="ital">RAW</hi>).</ab>
+        </note>
+        <note n="25" xml:id="n-25" target="#note-t-25">
+          <ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Ps" chap="42" vr="6-7">Ps. 42:6-7</bibleref>.</ab>
+        </note>
+        <note n="26" xml:id="n-26" target="#note-t-26">
+          <ab>
+            <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Hymn" chap="180" v="5">hymn
+              180:5</bibleref>.</ab>
+        </note>
+        <note n="27" xml:id="n-27" target="#note-t-27">
+          <ab>
+            <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Mark" chap="5" v="39">Mark
+              5:39</bibleref> and <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Luke" chap="8" v="52">Luke 8:52</bibleref>.</ab>
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

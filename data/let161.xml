@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Brussels, end of December 1880 - beginning of January 1881.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let161"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">161</idno>
+<idno type="collectedletters">139</idno>
+<idno type="brieven1990">160</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Brussels</vg:placeLet>
+                        <vg:dateLet>end of December 1880 - beginning of January 1881</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. Brussels, end of December 1880 - beginning of January 1881.</p>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b159 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>The last letter from Theo dates from shortly before 1 November 1880 (<ref target="let160.xml">see letter 160</ref>). Now it is ‘several months’ later <ref target="#l-2">(l. 2)</ref> and Vincent says that he has been drawing ‘this winter’ <ref target="#l-29">(l. 29)</ref>, which suggests that the letter was written around the end of December 1880 or the beginning of January 1881. In January 1881 he would send <ref target="let162.xml">letter 162</ref>, which was certainly written after this one.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0159" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000169_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000169_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000169_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000169_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000169_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000169_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+        <surface n="b 0159 V/1962" xml:id="surf-extra-1v">
+            <graphic mimeType="image/tiff" url="VGM001000169_02.TIF" rend="norend"/>
+            <zone xml:id="zone-extra-1">
+<graphic mimeType="image/tiff" url="VGM001000169_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000169_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000169_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Mon très-cher,</ab>
+                <lb n="2" xml:id="l-2"/>
+<ab>Puisqu’il y a si longtemps, soit plusieurs mois, que je n’ai point eu de tes nouvelles<c type="kk">/</c> <lb n="3" xml:id="l-3"/>pas même la moindre réponse à ma dernière lettre, peut être ne sera-t-il pas <lb n="4" xml:id="l-4"/>hors de saison de te demander quelque signe de vie.</ab>
+                <lb n="5" xml:id="l-5"/>
+<ab rend="indent">Je dois bien te dire, quoique je sache apprécier tes diverses occupations &amp;c<c type="kp">_</c>, qu’il <lb n="6" xml:id="l-6"/>me parait au moins quelque peu étrange, et un peu inexplicable que tu n’aies <lb n="7" xml:id="l-7"/>jamais écrit depuis une lettre unique que j’ai recue lors de mon arrivée ici.<anchor n="1" xml:id="note-o-1"/> <lb n="8" xml:id="l-8"/>Que soit<c type="kp">_</c>– Reste à savoir<c type="kk">/</c> n’aurais tu pas pu faire un peu autrement<c type="kp">_</c> <lb n="9" xml:id="l-9"/>Ne pas écrire est bien, mais toutefois écrire à propos n’est pas toujours <lb n="10" xml:id="l-10"/>mal non plus, même dans certains cas c’est chose très désirable.</ab>
+                <lb n="11" xml:id="l-11"/>
+<ab rend="indent">Car, mon très-cher, prenons y garde, ne filons pas notre coton trop fin<c type="kk">/</c> <lb n="12" xml:id="l-12"/>tu sais, cela pourrait devenir par trop fragile.</ab>
+                <lb n="13" xml:id="l-13"/>
+<ab rend="indent">Involontairement en pensant à toi je me dis:</ab>
+                <lb n="14" xml:id="l-14"/>
+<ab rend="indent">Pourquoi n’écrit-il point. S’il craint de se compromettre vis à vis de ces <lb n="15" xml:id="l-15"/>Messieurs G&amp;C<hi rend="ss">ie</hi> en ayant des rapports avec moi<c type="kk">/</c> sa position à l’égard <lb n="16" xml:id="l-16"/>des sieurs susmentionnés est elle donc si chancelante &amp; ébranlable <lb n="17" xml:id="l-17"/>qu’il serait tenu à se ménager à tel point? Et s’il craindrait <lb n="18" xml:id="l-18"/>de se compromettre de maniere ou autre pourquoi ne pas m’avertir <lb n="19" xml:id="l-19"/>par un petit mot &amp; je ne lui écrirais point, mais maintenant <lb n="20" xml:id="l-20"/>je ne sais à quoi m’en tenir.</ab>
+                <lb n="21" xml:id="l-21"/>
+<ab rend="indent">Ou bien est ce parce qu’il craint que je lui demanderais de <lb n="22" xml:id="l-22"/>l’argent. Mais alors si tel fut le motif de ton silence<c type="kk">/</c> au moins <lb n="23" xml:id="l-23"/>pourrais tu avoir attendu pour te taire le moment où on essayerait <lb n="24" xml:id="l-24"/>de te tirer une carotte<c type="kk">/</c> comme on dit.</ab>
+                <lb n="25" xml:id="l-25"/>
+<ab rend="indent">Je ne veux cependant pas innécessairement allonger cette <lb n="26" xml:id="l-26"/>lettre en t’énumerant un tas de choses qui par moments me <lb n="27" xml:id="l-27"/>passent dans la tête lorsque je réflechis aux motifs que <lb n="28" xml:id="l-28"/>tu pourrais avoir eu pour ne pas écrire.</ab>
+                <lb n="29" xml:id="l-29"/>
+<ab rend="indent">J’ai dessiné cet hiver jusqu’ici &amp; ai encore beaucoup lu <lb n="30" xml:id="l-30"/>car indirectement cela m’est très-nécessaire. Je crois <lb n="31" xml:id="l-31"/>en général avoir fait du progrès mais il faudrait pouvoir <lb n="32" xml:id="l-32"/>y aller plus vite que ça.</ab>
+                <lb n="33" xml:id="l-33"/>
+<ab rend="indent">La principale raison pourquoi j’écris la présente est pour <lb n="34" xml:id="l-34"/>te démander si tu saurais une raison pourquoi je n’irais pas <lb n="35" xml:id="l-35"/>voir M. Tersteeg &amp; Mauve. Je pense qu’il serait dans mon avantage <lb n="36" xml:id="l-36"/>d’aller pour quelque temps à la Haye. Mais si je savais pour sûr que <lb n="37" xml:id="l-37"/>M<c type="kp">_</c> Tersteeg préférerait que je n’y vinse pas<c type="kk">/</c> cela pourrait me <lb n="38" xml:id="l-38"/>faire changer d’idee<c type="kp">_</c> Qu’en penses tu.</ab>
+                <lb n="39" xml:id="l-39"/>
+<ab rend="indent">J’ai très peu vu M. van Rappard parce que j’avais cru apercevoir <lb n="40" xml:id="l-40"/>qu’il n’aimait pas à être dérangé. Tant que je ne sois pas plus avancé <lb n="41" xml:id="l-41"/>je dois éviter les jeunes artistes qui ne réflechissent pas <lb n="42" xml:id="l-42"/>toujours à ce qu’ils font &amp; disent<c type="kp">_</c>
+                </ab>
+                <lb n="43" xml:id="l-43"/>
+<ab rend="indent">Et pourtant je désire beaucoup en trouver un qui<c type="kk">/</c> en sachant plus long <lb n="44" xml:id="l-44"/>que moi<c type="kk">/</c> pourrait m’aider à mieux faire<c type="kp">_</c>
+                </ab>
+                <lb n="45" xml:id="l-45"/>
+<ab rend="indent">Enfin dis moi si tu y verrais obstacle infranchissable à ce <lb n="46" xml:id="l-46"/>que j’aille pour quelque temps à la Haye et si tu saurais <lb n="47" xml:id="l-47"/>peutêtre un autre chemin en cas qu’il y aurait empêchement<c type="kp">_</c> <lb n="48" xml:id="l-48"/>Je te serre la main en attendant que tu m’ecrives plus vite <lb n="49" xml:id="l-49"/>que ça<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="50" xml:id="l-50"/>
+<ab>Vincent</ab>
+                <lb n="51" xml:id="l-51"/>
+<ab>
+                    <hi rend="ital">72. Boulevard du Midi</hi>
+                </ab>
+<vg:whiteline/>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear fellow,</ab>
+<ab>Since for so long, several months in fact, I’ve had no news from you, not even the smallest response to my last letter, perhaps it won’t be an inappropriate moment to ask you for some sign of life. </ab>
+<ab rend="indent">I really must tell you, although I can appreciate your various activities, &amp;c., that it seems at least a little strange to me and a little inexplicable that you’ve never written, after a single letter that I received on my arrival here.<anchor n="1" xml:id="note-t-1"/> So be it. The question remains, could you not have acted a little differently? Not to write is good, but all the same, to write at the appropriate time isn’t always bad either; in certain cases it’s even a very desirable thing.</ab>
+<ab rend="indent">Because, my very dear, let’s be careful, let’s not spin our thread too fine; you know, it could become too fragile.</ab>
+<ab rend="indent">When thinking of you, I can’t help saying to myself:</ab>
+<ab rend="indent">Why doesn’t he write? If he’s afraid of compromising himself vis à vis those Messrs G&amp;Cie by keeping in touch with me, is his position in regard to the aforementioned gents so unsteady and shaky that he would be obliged to be as chary of himself as that? And if he was afraid of compromising himself in one way or another, why not warn me with a brief line and I wouldn’t write to him, but now I don’t know where I stand.</ab>
+<ab rend="indent">Or is it because he’s afraid that I would ask him for money? But then, if that was the reason for your silence, you could at least have waited to be silent at the time when somebody tried to squeeze something out of you, as the saying goes.</ab>
+<ab rend="indent">However, I don’t wish to lengthen this letter unnecessarily by making you a list of heaps of things that come into my head at times when I think about the reasons you could have had for not writing.</ab>
+<ab rend="indent">I’ve been drawing this winter until now, and have also read a great deal, because indirectly that’s very necessary for me. In general I believe that I’ve made progress, but it ought to be possible to get on faster than that.</ab>
+<ab rend="indent">The main reason I’m writing this is to ask you if you might know of any reason why I shouldn’t go to see <rs type="pers" key="787">Mr Tersteeg</rs> and <rs type="pers" key="323">Mauve</rs>. I think it would be of benefit to me to go to The Hague for a while. But if I knew for sure that Mr Tersteeg would prefer that I didn’t go there, that could make me change my mind. What do you think?</ab>
+<ab rend="indent">I’ve seen very little of <rs type="pers" key="1306">Mr Van Rappard</rs> because I believed I had noticed that he didn’t like to be disturbed. As long as I’m not further ahead I should avoid young artists who don’t always think about what they’re doing and saying.</ab>
+<ab rend="indent">And yet I very much wish to find one who, knowing more than me, could help me to do better.</ab>
+<ab rend="indent">So tell me if you saw an insuperable obstacle in the way of my going to The Hague for a while, and if you perhaps knew of another way, if something crops up. I shake your hand, in the expectation that you’ll write to me sooner rather than later.</ab>
+<vg:whiteline/>
+<ab>Vincent</ab>
+<ab>
+                    <hi rend="ital">72. boulevard du Midi</hi>
+                </ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>
+  <ref target="let160.xml">Letter 160</ref> confirms the receipt of that letter.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. The Hague, between Monday, 4 and Saturday, 9 December 1882.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let291"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">291</idno>
+<idno type="collectedletters">251</idno>
+<idno type="brieven1990">293</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>The Hague</vg:placeLet>
+                        <vg:dateLet>between Monday, 4 and Saturday, 9 December 1882</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. The Hague, between Monday, 4 and Saturday, 9 December 1882.</p>
+<note type="ongoingTopic" n="1">
+<p>Van Rappard’s illness <ref target="let290.xml">(290)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. nos. b273 a-b V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>The letter is a direct continuation of Van Gogh’s plan to make designs for types of workmen, as discussed in <ref target="let289.xml">letters 289</ref> and <ref target="let290.xml">290</ref> (the latter dates from on or about 3 December). Moreover, it precedes <ref target="let292.xml">letter 292</ref> of 10 December 1882, which is why we date it to between Monday, 4 and Saturday, 9 December 1882. </p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0273 a" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000337_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000337_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000337_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000337_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000337_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000337_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="VGM001000337_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000337_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000337_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0273 a" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000337_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000337_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000337_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000337_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000337_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000337_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000337_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000337_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000337_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0273 b" xml:id="surf-pb-2r">
+            <graphic mimeType="image/tiff" url="VGM001000338_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000338_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000338_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-2r-5">
+<graphic mimeType="image/tiff" url="VGM001000338_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000338_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000338_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-2r-8">
+<graphic mimeType="image/tiff" url="VGM001000338_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000338_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000338_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0273 b" xml:id="surf-pb-2v">
+            <graphic mimeType="image/tiff" url="VGM001000338_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000338_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000338_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-2v-6">
+<graphic mimeType="image/tiff" url="VGM001000338_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000338_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000338_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-2v-7">
+<graphic mimeType="image/tiff" url="VGM001000338_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000338_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000338_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Waarde Theo,</ab>
+                <lb n="1*" xml:id="l-1s"/>
+<ab>Gij hebt mijn brief ontvangen waarin <lb n="2" xml:id="l-2"/>ik U schreef hoe onder het werk bij mij zich eene <lb n="3" xml:id="l-3"/>gedachte ontwikkelde over het maken van figuren <lb n="4" xml:id="l-4"/>
+                    <hi rend="ital">uit het volk voor het volk</hi>
+                    <c type="kp">_</c>
+                    <anchor n="1" xml:id="note-o-1"/> Hoe ’t mij voorkwam <lb n="5" xml:id="l-5"/>dat het eene goede zaak zou zijn<c type="kk">/</c> niet <lb n="6" xml:id="l-6"/>de librairie maar de charité &amp; de devoir<c type="kk">/</c> <lb n="7" xml:id="l-7"/>als eenige personen zich vereenigden daartoe. <lb n="8" xml:id="l-8"/>Sedert ik U dat schreef heb ik natuurlijkerwijs <lb n="9" xml:id="l-9"/>niet zoo zeer bedacht: Wie zal dit doen of dat? <lb n="10" xml:id="l-10"/>dan wel: Wat doe ik er voor? om reden <lb n="11" xml:id="l-11"/>dat voor het eene ik niet verantwoordelijk ben<c type="kk">/</c> voor <lb n="12" xml:id="l-12"/>’t laatste wel.</ab>
+                <lb n="13" xml:id="l-13"/>
+<ab rend="indent">Doch dit kan ik U zeggen<c type="kk">/</c> juist terwijl ik <lb n="14" xml:id="l-14"/>met het oog daarop zat te teekenen is het idee <lb n="15" xml:id="l-15"/>bij mij vaster geworden, dat het totstand brengen <lb n="16" xml:id="l-16"/>van zoo iets nuttig zou zijn, en men volstrekt niet <lb n="17" xml:id="l-17"/>zou behoeven te vervallen in een soort <lb n="18" xml:id="l-18"/>naäaperij van andere volksuitgaven<c type="kk">/</c> doch <lb n="19" xml:id="l-19"/>integendeel het bestaan van soortgelijke bladen <lb n="20" xml:id="l-20"/>als b.v<c type="kp">_</c> is <hi rend="ital">Brittish workman</hi>
+                    <c type="kk">/</c>
+                    <anchor n="2" xml:id="note-o-2"/> een leiddraad <lb n="21" xml:id="l-21"/>is betreffende How to do it en How not to do it<c type="kp">_</c>
+                    <anchor n="3" xml:id="note-o-3"/> <lb n="22" xml:id="l-22"/>Ik weet niet of gij Little Dorrit van Dickens kent <lb n="23" xml:id="l-23"/>en daarin het figuur van <hi rend="ital">Doyce</hi>
+                    <c type="kk">/</c> de man <lb n="24" xml:id="l-24"/>die men als type zou kunnen nemen van hen <lb n="25" xml:id="l-25"/>die How to do it tot principe hebben.</ab>
+                <lb n="26" xml:id="l-26"/>
+<ab rend="indent">Al kent ge die prachtige werkmansfiguur uit <lb n="27" xml:id="l-27"/>het boek niet<c type="kk">/</c> toch zult ge het karakter <lb n="28" xml:id="l-28"/>van den kerel begrijpen uit dit eene woord<c type="kp">_</c> <lb n="29" xml:id="l-29"/>Toen wat hij wilde niet tot stand kwam<c type="kk">/</c> <lb n="30" xml:id="l-30"/>stuitte op onverschilligheid en nog erger dingen<c type="kk">/</c> <lb n="31" xml:id="l-31"/>en hij niet voort kon zeide hij eenvoudig<c type="kk">/</c> <lb n="32" xml:id="l-32"/>This misfortune alters nothing – the thing is <lb n="33" xml:id="l-33"/>just as true <hi rend="ital">now</hi> (after the failure) as it was <hi rend="ital">then</hi> <lb n="34" xml:id="l-34"/>(before the failure)<c type="kp">_</c>
+                </ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="35" xml:id="l-35"/>
+<ab rend="indent">En begon ’t zelfde wat hem in Engeland <lb n="36" xml:id="l-36"/>mislukt was op nieuw op ’t vaste land en <lb n="37" xml:id="l-37"/>zette het daar op zijn pooten.<anchor n="4" xml:id="note-o-4"/>
+                </ab>
+                <lb n="38" xml:id="l-38"/>
+<ab rend="indent">Wat ik zeggen wilde is dit<c type="kp">_</c> De gedachte <lb n="39" xml:id="l-39"/>om uit het volk voor het volk werkmanstypen <lb n="40" xml:id="l-40"/>te teekenen<c type="kk">/</c> die te verspreiden als volksuitgaaf<c type="kk">/</c> <lb n="41" xml:id="l-41"/>’t geheel opvattende als moetende zijn <lb n="42" xml:id="l-42"/>affaire de devoir &amp; de charité – dat <lb n="43" xml:id="l-43"/>en niets anders dan dat – zie<c type="kk">/</c> <lb n="44" xml:id="l-44"/>die gedachte is eene zoodanige dat ik geloof <lb n="45" xml:id="l-45"/>men er<c type="kk">/</c> ook al lukte het niet direkt of <lb n="46" xml:id="l-46"/>op eens<c type="kk">/</c> van zou mogen aannemen: <lb n="47" xml:id="l-47"/>The thing is as true today as it was yesterday <lb n="48" xml:id="l-48"/>and will be as true tomorrow<c type="kp">_</c>
+                    <anchor n="5" xml:id="note-o-5"/> <lb n="49" xml:id="l-49"/>En dus het iets is waaraan men met sereniteit <lb n="50" xml:id="l-50"/>kan beginnen en voortwerken, iets aan <lb n="51" xml:id="l-51"/>welks goeden uitslag – mits men niet verslappe <lb n="52" xml:id="l-52"/>of den moed opgeve – men ook niet behoeft te <lb n="53" xml:id="l-53"/>twijfelen of te wanhopen.</ab>
+                <lb n="54" xml:id="l-54"/>
+<ab rend="indent">Tot mij zelf heb ik gezegd dat wat mij te doen <lb n="55" xml:id="l-55"/>stond voor de hand lag – mijn uiterste best <lb n="56" xml:id="l-56"/>te doen op de teekeningen.– Zoodat sedert <lb n="57" xml:id="l-57"/>mijn brief over dit onderwerp en nu ik er eenige <lb n="58" xml:id="l-58"/>nieuwen heb<c type="kp">_</c>
+                </ab>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                <lb n="59" xml:id="l-59"/>
+<ab rend="indent">Vooreerst een Zaaier<c type="kp">_</c> Een groote oude kerel<c type="kk">/</c> een lang <lb n="60" xml:id="l-60"/>donker silhouet tegen een donkeren grond<c type="kp">_</c>
+                </ab>
+                <lb n="61" xml:id="l-61"/>
+<ab rend="indent">Wijd weg een heihutje met mosdak en een stukje <lb n="62" xml:id="l-62"/>lucht met een leeuwrik.<anchor n="6" xml:id="note-o-6"/> Dit is een soort van <lb n="63" xml:id="l-63"/>hanetype<c type="kk">/</c>
+                    <anchor n="7" xml:id="note-o-7"/> een geschoren gezigt<c type="kk">/</c> tamelijk scherpen <lb n="64" xml:id="l-64"/>neus &amp; kin<c type="kk">/</c> het oog klein<c type="kk">/</c> mond ingevallen<c type="kp">_</c> <lb n="65" xml:id="l-65"/>Lange beenen met laarzen<c type="kp">_</c>
+                </ab>
+                <lb n="66" xml:id="l-66"/>
+<ab rend="indent">Dan een tweede zaaier met een lichtbruin <lb n="67" xml:id="l-67"/>bombazijnen buis &amp; broek<c type="kk">/</c> dus komt dit <lb n="68" xml:id="l-68"/>figuur licht af tegen den zwarten akker<c type="kk">/</c> <lb n="69" xml:id="l-69"/>aan ’t eind begrensd door een reitje knotwilgen<c type="kp">_</c>
+                    <anchor n="8" xml:id="note-o-8"/> <lb n="70" xml:id="l-70"/>Dit is een heel ander type<c type="kk">/</c> met ringbaard<c type="kk">/</c> breede <lb n="71" xml:id="l-71"/>schoften<c type="kk">/</c> iets gedrongens, iets van een os in <lb n="72" xml:id="l-72"/>dit opzigt dat zijn heele tournure naar ’t landwerk <lb n="73" xml:id="l-73"/>staat. Als ge wilt meer het type van een Esquimaux<c type="kk">/</c> <lb n="74" xml:id="l-74"/>dikke lippen<c type="kk">/</c> breeden neus<c type="kp">_</c>
+                    <anchor n="9" xml:id="note-o-9"/>
+                </ab>
+                <lb n="75" xml:id="l-75"/>
+<ab rend="indent">Dan een maaier met groote zeis op <lb n="76" xml:id="l-76"/>een weiland<c type="kp">_</c>
+                    <anchor n="10" xml:id="note-o-10"/> De kop met bruine wollen <lb n="77" xml:id="l-77"/>muts mouleert zich<anchor n="a" xml:id="note-o-a"/> tegen de lichte lucht.</ab>
+                <lb n="78" xml:id="l-78"/>
+<ab rend="indent">Dan een van die oude kereltjes met <lb n="79" xml:id="l-79"/>kort buis en grooten<c type="kk">/</c> ouden<c type="kk">/</c> hoogen hoed<c type="kk">/</c> <lb n="80" xml:id="l-80"/>die men wel in de duinen ontmoet<c type="kp">_</c>
+                </ab>
+                <lb n="81" xml:id="l-81"/>
+<ab rend="indent">Hij draagt een mand turf naar huis<c type="kp">_</c>
+                    <anchor n="11" xml:id="note-o-11"/>
+                </ab>
+                <lb n="82" xml:id="l-82"/>
+<ab rend="indent">Nu heb ik getracht in deze teekeningen nog duidelijker <lb n="83" xml:id="l-83"/>mijn bedoeling te zeggen dan in het oude mannetje <lb n="84" xml:id="l-84"/>met ’t hoofd in de handen<c type="kp">_</c>
+                    <anchor n="12" xml:id="note-o-12"/> Deze kerels doen <lb n="85" xml:id="l-85"/>allen iets en dat vooral moet in ’t algemeen <lb n="86" xml:id="l-86"/>volgehouden worden bij de keus der motieven dunkt mij<c type="kp">_</c> Ge weet zelf hoe <lb n="87" xml:id="l-87"/>mooi de talrijke rustende figuren zijn die <lb n="88" xml:id="l-88"/>zoo heel<c type="kk">/</c> heel dikwijls gemaakt worden. Deze worden <lb n="89" xml:id="l-89"/>meer gemaakt dan werkende figuren.</ab>
+                <lb n="90" xml:id="l-90"/>
+<ab rend="indent">Het is steeds erg verleidelijk om een figuur in rust te teekenen<c type="kk">/</c> <lb n="91" xml:id="l-91"/>de actie uit te drukken is zeer moeielijk en het effekt <lb n="92" xml:id="l-92"/>is in ’t oog van velen “aangenamer” dan iets anders.</ab>
+                <lb n="93" xml:id="l-93"/>
+<ab rend="indent">Doch dit aangename mag waarheid niet uit ’t oog verliezen <lb n="94" xml:id="l-94"/>en de waarheid is dat er meer sjouwerij dan rusten in ’t leven is<c type="kp">_</c>
+                </ab>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                <lb n="95" xml:id="l-95"/>
+<ab rend="indent">Ge ziet dus mijn opvatting betreffende het alles vooral <lb n="96" xml:id="l-96"/>dit is<c type="kk">/</c> dat ik voor mij tracht te werken er aan<c type="kp">_</c>
+                    <lb n="97" xml:id="l-97"/> Het komt mij voor dat de teekeningen zelf nog van <lb n="98" xml:id="l-98"/>meer urgentie zijn dan zelfs de reproductie<c type="kp">_</c>
+                </ab>
+                <lb n="99" xml:id="l-99"/>
+<ab rend="indent">Ook zal ik zuinig zijn met over de <lb n="100" xml:id="l-100"/>zaak te spreken omdat ik geloof dat in een klein <lb n="101" xml:id="l-101"/>kringetje van personen dikwijls meer praktisch <lb n="102" xml:id="l-102"/>gehandeld wordt dan als er veel bij komen.</ab>
+                <lb n="103" xml:id="l-103"/>
+<ab rend="indent">Too many cooks spoil the broth.</ab>
+                <lb n="104" xml:id="l-104"/>
+<ab rend="indent">Wat wou ik we wat meer zamen waren.</ab>
+                <lb n="105" xml:id="l-105"/>
+<ab rend="indent">Weet ge waarom ik voor mij zelf niet twijfel <lb n="106" xml:id="l-106"/>of ik het zou kunnen doen? Gij weet uit de natuurkunde dat <lb n="107" xml:id="l-107"/>een voorwerp in eene vloeistof gedompeld zooveel <lb n="108" xml:id="l-108"/>verliest aan gewigt als het specifiek gewigt der hoeveelheid vloeistof <lb n="109" xml:id="l-109"/>die het ligchaam verplaatst<c type="kk">/</c> bedraagt. Daardoor <lb n="110" xml:id="l-110"/>komt het dat sommige dingen drijven en ook die <lb n="111" xml:id="l-111"/>welke zinken onder water ligter zijn dan in de lucht<c type="kp">_</c> <lb n="112" xml:id="l-112"/>Iets dergelijks – een soort vaste natuurwet – <lb n="113" xml:id="l-113"/>schijnt te bestaan met betrekking tot het werken<c type="kk">/</c> <lb n="114" xml:id="l-114"/>in dit opzigt dat als men er in is men <lb n="115" xml:id="l-115"/>meer werkkracht voelt dan men wist <lb n="116" xml:id="l-116"/>te bezitten<c type="kk">/</c> of liever in der daad bezat. Dat zoudt gij ook ondervinden <lb n="117" xml:id="l-117"/>als gij U eens tot het schilderen zoudt <lb n="118" xml:id="l-118"/>zetten. Eerst schijnt het iets onbereikbaars<c type="kk">/</c> iets wan<c type="shy">-</c>
+                    <lb n="119" xml:id="l-119"/>hopigs<c type="kk">/</c> later verklaart het zich en ik geloof dat <lb n="120" xml:id="l-120"/>gij dit in mijn werk zoudt zien ook.</ab>
+                <lb n="121" xml:id="l-121"/>
+<ab rend="indent">Doch iets wat ik U reeds schreef heeft zich bevestigd<c type="kk">/</c> <lb n="122" xml:id="l-122"/>n.l. dat Rappard ernstig ongesteld is. Ik heb opnieuw <lb n="123" xml:id="l-123"/>berigt van zijn vader die zich niet uitlaat over <lb n="124" xml:id="l-124"/>wat het eigentlijk is. Tegen dat hij beter wordt wil <lb n="125" xml:id="l-125"/>ik zooveel teekeningen klaarmaken als ik kan <lb n="126" xml:id="l-126"/>want ik wou wel dat R. zoodra hij weer aan den <lb n="127" xml:id="l-127"/>gang gaat ’t zelfde deed. R. heeft wat <lb n="128" xml:id="l-128"/>niet iedereen heeft<c type="kk">/</c> n.l. hij denkt na en zijn gevoel <lb n="129" xml:id="l-129"/>is iets dat hij cultiveert. Hij kan een plan maken<c type="kk">/</c> <lb n="130" xml:id="l-130"/>een geheel overzien<c type="kk">/</c> eene gedachte vasthouden.</ab>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+                <lb n="131" xml:id="l-131"/>
+<ab rend="indent">Met veel anderen is het zoo dat zij het nadenken <lb n="132" xml:id="l-132"/>en het willen voor iets onartistieks houden<c type="kk">/</c> <lb n="133" xml:id="l-133"/>althans niet geschikt zijn voor <hi rend="ital">travaux de</hi> <lb n="134" xml:id="l-134"/>
+                    <hi rend="ital">longue haleine</hi>. De zaak in kwestie nu <lb n="135" xml:id="l-135"/>is er een <hi rend="ital">en</hi> van handigheid en aanpakken<c type="kk">/</c> <lb n="136" xml:id="l-136"/>
+                    <hi rend="ital">en</hi> van volhouden en kalm geduld houden <lb n="137" xml:id="l-137"/>bovendien. Dan heeft Rappard <lb n="138" xml:id="l-138"/>nog iets dat maakt dat naar ik denk voor zoo iets <lb n="139" xml:id="l-139"/>als dit hij veel waard kan zijn. Hij bestudeerd <lb n="140" xml:id="l-140"/>bepaald het figuur<c type="kk">/</c> niet maar als kleurnoot in <lb n="141" xml:id="l-141"/>een aquarel maar meer streng in zijn <lb n="142" xml:id="l-142"/>vorm en structuur.</ab>
+                <lb n="143" xml:id="l-143"/>
+<ab rend="indent">Ik denk dikwijls dat ik wel wenschte meer tijd <lb n="144" xml:id="l-144"/>op het eigentlijke landschap te kunnen spendeeren<c type="kp">_</c> <lb n="145" xml:id="l-145"/>Ik zie dikwijls dingen die ik verbazend mooi vind<c type="kk">/</c> <lb n="146" xml:id="l-146"/>die bovendien me onwillekeurig doen zeggen<c type="kk">/</c> dit of dat <lb n="147" xml:id="l-147"/>heb ik nog nooit zòò geschilderd gezien<c type="kp">_</c>
+                </ab>
+                <lb n="148" xml:id="l-148"/>
+<ab rend="indent">Om het te schilderen – how to do it – zou ik <lb n="149" xml:id="l-149"/>weer andere dingen moeten daarlaten. Ik wou <lb n="150" xml:id="l-150"/>wel eens weten of gij dat met me eens zijt<c type="kk">/</c> dat <lb n="151" xml:id="l-151"/>in landschap er nog dingen ongedaan zijn<c type="kk">/</c> <lb n="152" xml:id="l-152"/>dat b.v. <hi rend="ital">Emile Breton</hi> effekten gegeven <lb n="153" xml:id="l-153"/>heeft (zelf volhoudt<anchor n="b" xml:id="note-o-b"/> in die rigting te werken) <lb n="154" xml:id="l-154"/>die een begin zijn van iets nieuws dat naar <lb n="155" xml:id="l-155"/>’t mij voorkomt nog niet zijn volle kracht bereikt <lb n="156" xml:id="l-156"/>heeft<c type="kk">/</c> door weinigen begrepen<c type="kk">/</c> door nog minder <lb n="157" xml:id="l-157"/>gedaan wordt. Veel landschapschilders hebben niet <lb n="158" xml:id="l-158"/>die intieme natuurkennis welke zij hebben die van <lb n="159" xml:id="l-159"/>hun kinderjaren af gekeken hebben met gevoel <lb n="160" xml:id="l-160"/>op de akkers. Veel landschapschilders geven iets <lb n="161" xml:id="l-161"/>dat U noch mij b.v. (ook al apprecieeren wij hen als artisten) <lb n="162" xml:id="l-162"/>als menschen voldoet. Men noemt het werk van Emile Breton <lb n="163" xml:id="l-163"/>oppervlakkig<c type="kk">/</c> het is zulks niet<c type="kk">/</c> hij staat in sentiment veel <lb n="164" xml:id="l-164"/>hooger dan menig ander en weet veel meer en zijn werk houdt steek.</ab>
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>
+                <lb n="165" xml:id="l-165"/>
+<ab rend="indent">Werkelijk<c type="kk">/</c> op ’t gebied van landschap beginnen ook <lb n="166" xml:id="l-166"/>enorme leegtes te komen en ik zou er ’t woord van <lb n="167" xml:id="l-167"/>Herkomer op willen toepassen<c type="kk">/</c> the interpreters <lb n="168" xml:id="l-168"/>allow their cleverness to mar the dignity of their <lb n="169" xml:id="l-169"/>calling.<anchor n="13" xml:id="note-o-13"/> En ik geloof dat het publiek zal <lb n="170" xml:id="l-170"/>beginnen te zeggen<c type="kk">/</c> verlos ons van artistieke <lb n="171" xml:id="l-171"/>combinaties<c type="kk">/</c> geef ons het eenvoudige veld terug<c type="kp">_</c> <lb n="172" xml:id="l-172"/>Wat doet het goed eens een mooie Rousseau <lb n="173" xml:id="l-173"/>te zien waar op gesjouwd is om trouw en <lb n="174" xml:id="l-174"/>eerlijk te zijn. Wat doet het goed te denken <lb n="175" xml:id="l-175"/>aan lui als v<c type="kp">_</c> Goyen<c type="kk">/</c> Old Crome en Michel<c type="kp">_</c>
+                    <anchor n="14" xml:id="note-o-14"/> <lb n="176" xml:id="l-176"/>Wat is een Isaac Ostade of een Ruysdael mooi<c type="kp">_</c> <lb n="177" xml:id="l-177"/>Wil ik die terug hebben of wil ik men hen <lb n="178" xml:id="l-178"/>imiteeren zal. Neen<c type="kk">/</c> maar wel dat <lb n="179" xml:id="l-179"/>het eerlijke<c type="kk">/</c> het naive<c type="kk">/</c> het trouwe blijven zal<c type="kp">_</c> <lb n="180" xml:id="l-180"/>Ik ken oude lithographies van Jules Dupré<c type="kk">/</c> of <lb n="181" xml:id="l-181"/>van hem zelf of facsimilés van zijn croquis<c type="kp">_</c>
+                </ab>
+                <lb n="182" xml:id="l-182"/>
+<ab rend="indent">Maar wat een pit en wat een liefde zit daarin, <lb n="183" xml:id="l-183"/>en toch<c type="kk">/</c> wat zijn ze vrij en vrolijk gedaan<c type="kp">_</c>
+                </ab>
+                <lb n="184" xml:id="l-184"/>
+<ab rend="indent">Een absoluut copieeren van de natuur<c type="kk">/</c> dat is ook het <lb n="185" xml:id="l-185"/>ware niet maar de natuur zoo kennen dat wat men <lb n="186" xml:id="l-186"/>maakt frisch en waar is<c type="kk">/</c> ziedaar wat velen nu missen. <lb n="187" xml:id="l-187"/>Denkt ge b.v. dat de Bock weet wat gij weet<c type="kp">_</c> <lb n="188" xml:id="l-188"/>neen<c type="kk">/</c> zeer bepaald neen. Ge zult zeggen<c type="kk">/</c> <lb n="189" xml:id="l-189"/>maar iedereen heeft toch van jongs af aan <lb n="190" xml:id="l-190"/>landschappen en figuren gezien. Vrage<c type="kk">/</c> is ook <lb n="191" xml:id="l-191"/>iedereen als kind nadenkend geweest; vrage<c type="kk">/</c> <lb n="192" xml:id="l-192"/>heeft ook iedereen die ze gezien heeft<c type="kk">/</c> hei<c type="kk">/</c> velden<c type="kk">/</c> <lb n="193" xml:id="l-193"/>akkers<c type="kk">/</c> bosch liefgehad en de sneeuw en den <lb n="194" xml:id="l-194"/>regen en den storm. Dat heeft niet iedereen <lb n="195" xml:id="l-195"/>zooals gij en zooals ik<c type="kk">/</c> het is een bijzonder soort <lb n="196" xml:id="l-196"/>entourage en omstandigheden die er toe moeten <lb n="197" xml:id="l-197"/>meewerken<c type="kk">/</c> het is een bijzonder soort temperament <lb n="198" xml:id="l-198"/>en karakter ook die er bij moeten komen om het <lb n="199" xml:id="l-199"/>wortel te doen vatten.</ab>
+<pb f="2v" n="7" xml:id="pb-orig-2v-7" facs="#zone-pb-2v-7"/>
+                <lb n="200" xml:id="l-200"/>
+<ab rend="indent">Ik herinner mij brieven van U van toen ge <lb n="201" xml:id="l-201"/>nog in Brussel waart<anchor n="15" xml:id="note-o-15"/> met dergelijke beschrijvingen <lb n="202" xml:id="l-202"/>van landschappen als in Uw laatsten.</ab>
+                <lb n="203" xml:id="l-203"/>
+<ab rend="indent">
+                    <hi rend="ital">Weet gij wel dat het zoo hoog</hi>
+                    <c type="kk">/</c>
+                    <hi rend="ital"> hoog</hi> <lb n="204" xml:id="l-204"/>
+                    <hi rend="ital">noodig is dat er eerlijke lui in de</hi> <lb n="205" xml:id="l-205"/>
+                    <hi rend="ital">kunst blijven</hi>. ’k wil niet zeggen dat er geen <lb n="206" xml:id="l-206"/>in zijn maar gij zelf voelt wat ik bedoel <lb n="207" xml:id="l-207"/>en weet even goed als ik hoe een massa <lb n="208" xml:id="l-208"/>lui die schilderen fameuse leugenaars zijn<c type="kp">_</c> <lb n="209" xml:id="l-209"/>
+                    <hi rend="ital">Eerlijk duurt het langst</hi>
+                    <anchor n="16" xml:id="note-o-16"/> is ook hier van toepassing<c type="kk">/</c> <lb n="210" xml:id="l-210"/>als mede de fabel van den haas en de schildpad<c type="kk">/</c>
+                    <anchor n="17" xml:id="note-o-17"/> <lb n="211" xml:id="l-211"/>als mede het leelijke jonge eendje van Anderssen<c type="kp">_</c>
+                    <anchor n="18" xml:id="note-o-18"/> <lb n="212" xml:id="l-212"/>Edwin Edwards de etser b.v.<c type="kk">/</c> waarom is zijn werk <lb n="213" xml:id="l-213"/>zoo prachtig mooi<c type="kk">/</c> waarom kreeg hij te regt een <lb n="214" xml:id="l-214"/>positie onder de besten in Engeland. Omdat wat hij <lb n="215" xml:id="l-215"/>wilde was eerlijkheid en trouw. Liever was ik Jules <lb n="216" xml:id="l-216"/>Dupré dan Edwin Edwards doch zie<c type="kk">/</c> voor opregtheid <lb n="217" xml:id="l-217"/>moet men hoog respect hebben en ’t houd stand <lb n="218" xml:id="l-218"/>waar andere dingen kaf blijken.</ab>
+                <lb n="219" xml:id="l-219"/>
+<ab rend="indent">Voor mij is de <hi rend="ital">Bernier</hi>
+                    <c type="kk">/</c> <hi rend="ital">Les champs en hiver</hi> van <lb n="220" xml:id="l-220"/>de Luxembourg een ideaal<c type="kp">_</c>
+                    <anchor n="19" xml:id="note-o-19"/>
+                </ab>
+                <lb n="221" xml:id="l-221"/>
+<ab rend="indent">Daar hebt ge <hi rend="ital">Lavieille</hi>
+                    <c type="kk">/</c> de houtgraveur en <lb n="222" xml:id="l-222"/>schilder – ik zag een winternacht met een <lb n="223" xml:id="l-223"/>Kerstmissentiment van hem<anchor n="20" xml:id="note-o-20"/> dat me daar in de <lb n="224" xml:id="l-224"/>gedachten komt.</ab>
+                <lb n="225" xml:id="l-225"/>
+<ab rend="indent">Daar hebt ge <hi rend="ital">M</hi>
+                    <hi rend="ss">
+                        <hi rend="ital">me</hi>
+                    </hi>
+                    <hi rend="ital"> Collart</hi> – b.v. dat schilderij <lb n="226" xml:id="l-226"/>van een appelboomgaard met een oud wit paard<c type="kp">_</c>
+                    <anchor n="21" xml:id="note-o-21"/>
+                </ab>
+                <lb n="227" xml:id="l-227"/>
+<ab rend="indent">Daar hebt ge <hi rend="ital">Chintreuil</hi> en <hi rend="ital">Goethals</hi>. <lb n="228" xml:id="l-228"/>(ik heb dikwijls iemand gezocht om ’t U te expliceeren bij wie <lb n="229" xml:id="l-229"/>de mooie dingen van Goethals te vergelijken zijn – ik geloof <lb n="230" xml:id="l-230"/>Chintreuil<c type="kp">_</c>) Maar ik ken anders niet veel van Chintreuil<c type="kk">/</c> trouwens <lb n="231" xml:id="l-231"/>van Goethals ook niet.–</ab>
+<pb f="2r" n="8" xml:id="pb-orig-2r-8" facs="#zone-pb-2r-8"/>
+                <lb n="232" xml:id="l-232"/>
+<ab rend="indent">Verkeerde opvatting van de bedoelingen der <lb n="233" xml:id="l-233"/>groote landschapschilders is voor een groot deel <lb n="234" xml:id="l-234"/>oorzaak van het kwaad. Bijna niemand weet <lb n="235" xml:id="l-235"/>dat het geheim van mooi werk voor een <lb n="236" xml:id="l-236"/>groot deel goede trouw en opregt gevoel is.</ab>
+                <lb n="237" xml:id="l-237"/>
+<ab rend="indent">Velen kunnen het niet helpen dat zij niet diep genoeg zijn <lb n="238" xml:id="l-238"/>en handelen te goeder trouw voor zoover ze goede trouw <lb n="239" xml:id="l-239"/>hebben.</ab>
+                <lb n="240" xml:id="l-240"/>
+<ab rend="indent">Doch ’k geloof ge me wel als eene daadzaak zult willen <lb n="241" xml:id="l-241"/>toegeven (te meer daar hier <lb n="242" xml:id="l-242"/>kwestie is van iets dat ofschoon ’t U aangaat betrekkelijk <lb n="243" xml:id="l-243"/>niet Uw eigen doen is) dat indien menig landschapschilder <lb n="244" xml:id="l-244"/>die nu heel wat geteld wordt de helft wist van wat gij weet van de <lb n="245" xml:id="l-245"/>gezonde denkbeelden omtrent het veld die U als natuurlijk <lb n="246" xml:id="l-246"/>eigen zijn<c type="kk">/</c> hij heel wat beter en degelijker werk <lb n="247" xml:id="l-247"/>zou leveren. Denk hier eens over na en <lb n="248" xml:id="l-248"/>leg dit en bovendien veel meer zaken in de <lb n="249" xml:id="l-249"/>weegschaal als gij<c type="kk">/</c> U zelven wegende<c type="kk">/</c> zulke <lb n="250" xml:id="l-250"/>dingen zegt als – “ik zou maar iets mediocres zijn”<c type="kp">_</c> <lb n="251" xml:id="l-251"/>Tenzij ge mediocre in zijn goede<c type="kk">/</c> nobele beteekenis <lb n="252" xml:id="l-252"/>bedoelt. <hi rend="sc">Kranigheid</hi>
+                    <c type="kk">/</c> zoo als men hier zegt, men schermt veel <lb n="253" xml:id="l-253"/>met dit woord – ik voor mij weet er de regte beteekenis niet van en <lb n="254" xml:id="l-254"/>heb het wel eens op zeer onbeteekenende dingen hooren toepassen – kranigheid<c type="kk">/</c> <lb n="255" xml:id="l-255"/>is dat wat de kunst redden moet?– Ik zou meer hoop <lb n="256" xml:id="l-256"/>hebben dat de boel goed ging als er meer lui waren zooals b.v. <lb n="257" xml:id="l-257"/>Ed. Frere of Emile Breton dan dat er <hi rend="ital">kranen</hi> kwamen <lb n="258" xml:id="l-258"/>als Boldini of Fortuny – Frère<c type="kk">/</c> Breton zullen gemist <lb n="259" xml:id="l-259"/>worden en betreurd; Boldini<c type="kk">/</c> Fortuny<c type="kk">/</c> men moge <hi rend="ital">hen zelf</hi> respecteeren <lb n="260" xml:id="l-260"/>maar den invloed die ze hebben uitgeoefend is fataal.</ab>
+                <lb n="261" xml:id="l-261"/>
+<ab rend="indent">Een kerel als Gustave Brion heeft iets goeds nagelaten<c type="kk">/</c> <lb n="262" xml:id="l-262"/>de Groux b.v. ook – waren er veel zoo<c type="kk">/</c> de wereld zou er bij <lb n="263" xml:id="l-263"/>vooruitgaan<c type="kk">/</c> de kunst zou een zegen zijn – doch Boldini<c type="kk">/</c> doch <lb n="264" xml:id="l-264"/>Fortuny<c type="kk">/</c> doch Regnault zelfs<c type="kk">/</c> wat baat het ons<c type="kk">/</c> wat zijn we er bij <lb n="265" xml:id="l-265"/>gevorderd. Wat ge zegt is volkomen waar<c type="kk">/</c> “Ernst is beter dan raillerie<c type="kk">/</c> al is ze <lb n="266" xml:id="l-266"/>nog zoo scherp en geestig”; in andere woorden zou ik zeggen<c type="kk">/</c> bonté <lb n="267" xml:id="l-267"/>vaut mieux que malice<c type="kk">/</c> dat spreekt vanzelf, doch velen zeggen<c type="kk">/</c> <lb n="268" xml:id="l-268"/>neen<c type="kk">/</c> maar in het malicieuse daar zit heil in. Enfin die moeten <lb n="269" xml:id="l-269"/>maar maaien wat ze zaaien. Adieu kerel, ik wou U eens schrijven van die <lb n="270" xml:id="l-270"/>teekeningen<c type="kk">/</c> dat ik n.l<c type="kp">_</c> hoop deze gedachte over bladen voor het volk mij er toe brengen <lb n="271" xml:id="l-271"/>zal een eindje vooruit te komen. Terwijl ik U schrijf berigt van Rappard dat er <lb n="272" xml:id="l-272"/>ietwat verandering ten goede is maar hij schijnt erg ziek te zijn. Ik weet zeker dat zoowel <lb n="273" xml:id="l-273"/>hij als zijn vader zich interesseeren voor die volkstypen. Zoodra Rappard weer op de <lb n="274" xml:id="l-274"/>been is of weer normale oogen ten minste<c type="kk">/</c> hoop ik er eens heen te gaan.</ab>
+                <lb n="275" xml:id="l-275"/>
+<ab rend="indent">Schrijf weer eens spoedig en geloof me</ab>
+<vg:whiteline/>
+                <lb n="275*" xml:id="l-275s"/>
+<ab>t. à t.</ab>
+                <lb n="276" xml:id="l-276"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-46" n="46">van &lt; er van</note>
+<note target="l-86" n="86">bij <supplied>
+                            <hi rend="ital">...</hi>
+                        </supplied> motieven &lt; <hi rend="ital">Added later; possibly intended to be read after </hi>‘dunkt mij’.</note>
+<note target="l-153" n="153">(zelf <supplied>
+                            <hi rend="ital">...</hi>
+                        </supplied> werken) &lt; <hi rend="ital">Parentheses added by us.</hi>
+                    </note>
+<note target="l-191" n="191">geweest; &lt; geweest</note>
+<note target="l-259" n="259">betreurd; &lt; betreurd</note>
+<note target="l-266" n="266">geestig”; &lt; geestig</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo,</ab>
+<ab>You’ve received my letter in which I wrote about how, while I was working, an idea came to me for making figures <hi rend="ital">from the people for the people</hi>.<anchor n="1" xml:id="note-t-1"/> How it seemed to me that it would be a good thing if several individuals joined together for this purpose, not for the bookshops but out of charity and duty. Since I wrote that to you, I’ve naturally thought not so much ‘Who will do this or that?’ as ‘What shall I do for it?’ on the grounds that I’m not responsible for the one, but I am for the latter. </ab>
+<ab rend="indent">But I can tell you this, just when I was drawing for this purpose the idea took shape more firmly in my mind that setting up such a thing would be useful, and that there would be absolutely no need to resort to aping other popular publications, that on the contrary, the existence of similar magazines like <hi rend="ital">British Workman</hi>,<anchor n="2" xml:id="note-t-2"/> for instance, is a guide as to How to do it and How not to do it.<anchor n="3" xml:id="note-t-3"/> I don’t know whether you know Little Dorrit by <rs type="pers" key="580">Dickens</rs> and the character <hi rend="ital">Doyce </hi>in it, the man who could be taken as typical of those who have as their principle: How to do it. </ab>
+<ab rend="indent">Even if you don’t know this wonderful figure of a working man from the book, you will understand the chap’s character from this one quotation. When what he wanted didn’t come about, encountering indifference and even worse, and he couldn’t carry on, he simply said: This misfortune alters nothing — the thing is just as true <hi rend="ital">now</hi> (after the failure) as it was <hi rend="ital">then</hi> (before the failure). 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">And began again on the continent with what hadn’t succeeded in England, and launched it there.<anchor n="4" xml:id="note-t-4"/> </ab>
+<ab rend="indent">What I wanted to say is this. The idea of drawing types of working man from the people for the people, and circulating them as a popular publication, seeing the whole thing as necessarily being an affair of duty and charity — that and nothing else than that — see, that idea is such that I believe one is entitled to assume, even if it isn’t successful immediately or at once: The thing is as true today as it was yesterday, and will be as true tomorrow.<anchor n="5" xml:id="note-t-5"/> And that it’s thus something that one can begin and pursue with serenity, something whose good outcome one also needn’t doubt or despair of — provided one doesn’t weaken or lose heart. </ab>
+<ab rend="indent">I said to myself that what I should do was obvious — do my very best with the drawings. So since my letter on this subject I now have some new ones. 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/>
+                </ab>
+<ab rend="indent">First of all a Sower. A big old chap, a tall dark silhouette against a dark ground.</ab>
+<ab rend="indent">Far off a heath cottage with a mossy roof and a bit of sky with a lark.<anchor n="6" xml:id="note-t-6"/> This is a sort of cockerel type:<anchor n="7" xml:id="note-t-7"/> a shaven face, fairly sharp nose and chin, the eye small, mouth sunken. Long legs with boots. </ab>
+<ab rend="indent">Then a second sower with a light brown bombazine jacket and trousers, so this figure comes out light against the black field bounded at the end by a row of pollard willows.<anchor n="8" xml:id="note-t-8"/> This is a very different type, with a fringe of beard, broad shoulders, a little stocky, a little like an ox in the sense that his whole appearance has been shaped by working on the land. If you like, more the type of an Eskimo, thick lips, broad nose.<anchor n="9" xml:id="note-t-9"/> </ab>
+<ab rend="indent">Then a reaper with a big scythe in a pasture.<anchor n="10" xml:id="note-t-10"/> The head with a brown woollen cap stands out against the light sky.</ab>
+<ab rend="indent">Then one of the old boys with short jackets and big, old top hats one meets sometimes in the dunes. </ab>
+<ab rend="indent">He’s carrying home a basket of peat.<anchor n="11" xml:id="note-t-11"/> </ab>
+<ab rend="indent">Now in these drawings I’ve tried to express my intention even more clearly than in the old man with his head in his hands.<anchor n="12" xml:id="note-t-12"/> All these chaps are doing something, and I think that in general that, above all, should be adhered to in the choice of subjects. You yourself know how fine the numerous resting figures are, which are made so very, very often. They’re done more often than working figures.</ab>
+<ab rend="indent">It’s always very tempting to draw a figure at rest — expressing action is very difficult, and in the eyes of many the effect is ‘more pleasing’ than anything else.</ab>
+<ab rend="indent">But this pleasing aspect mustn’t lose sight of truth, and the truth is that there’s more toil than rest in life. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/>
+                </ab>
+<ab rend="indent">So you see that my attitude to it all is chiefly this, that for my part I’m trying to work on it. It seems to me that the drawings themselves have greater urgency than even the reproduction. </ab>
+<ab rend="indent">I’ll also be careful about talking about the matter, because I believe that people generally act more practically in a small group than when many are involved. </ab>
+<ab rend="indent">Too many cooks spoil the broth.</ab>
+<ab rend="indent">How I wish we were together a little more.</ab>
+<ab rend="indent">Do you know why I, for my part, don’t doubt that I could do it? You know from physics that an object immersed in a fluid loses as much weight as the specific gravity of the amount of fluid that the body displaces. This is why some things float, and why even those that sink are lighter under water than in the air. Something similar — a kind of fixed law of nature — seems to exist as regards working, in the sense that when one is engaged in it, one feels more capacity for work than one knew one had, or rather actually did have. You would experience that too if you set yourself to painting sometime. At first it seems something unattainable, a hopeless thing, later it becomes clear, and I believe that you would see this in my work too. </ab>
+<ab rend="indent">But something I’ve already written to you has been confirmed, namely that <rs type="pers" key="1306">Rappard</rs> is seriously ill. I’ve again had news from his father, who doesn’t say what it is exactly. By the time he’s better I want to have as many drawings as possible finished, because I’d like R. to do the same as soon as he’s up and about. R. has what not everyone has, namely he ponders, and his feeling is something he cultivates. He can make a plan, take stock of something, keep hold of an idea.
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/>
+                </ab>
+<ab rend="indent"> Many others regard the pondering and the willing as unartistic, are at least not equipped for <hi rend="ital">long-term labours</hi>. The matter in question now involves <hi rend="ital">both</hi> skill and action <hi rend="ital">and</hi> perseverance, and furthermore being calmly patient. Then <rs type="pers" key="1306">Rappard</rs> has another thing that in my view means he can be of great value for something like this. He really studies the figure, not just as a note of colour in a watercolour, but more strictly as to its form and structure. </ab>
+<ab rend="indent">I often think I’d like to be able to spend more time on landscape proper. I often see things that I find remarkably beautiful, which moreover make me say instinctively, I’ve never seen this or that painted like that. </ab>
+<ab rend="indent">In order to paint it — how to do it — I would have to give up other things. I would like to know whether you agree with me that in landscape there are things that have still not been done, that, for example, <hi rend="ital">
+                        <rs type="pers" key="905">Emile Breton</rs>
+                    </hi> has imparted effects (himself continues to work in that direction) that are a beginning of something new which it seems to me hasn’t yet reached its full force, understood by few, practised by even fewer. Many landscape painters don’t have that intimate knowledge of nature possessed by those who have looked at the fields with feeling from childhood. Many landscape painters give something that satisfies neither you nor me, for example, as people (even if we appreciate them as artists). People call Emile Breton’s work superficial, which it isn’t, he ranks much higher in sentiment than many others, and knows much more and his work holds up. 
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/>
+                </ab>
+<ab rend="indent">Truly, huge voids are also beginning to come in the sphere of landscape, and I’d like to apply a remark by <rs type="pers" key="1080">Herkomer</rs>: the interpreters allow their cleverness to mar the dignity of their calling.<anchor n="13" xml:id="note-t-13"/> And I believe that the public will begin to say, deliver us from artistic combinations, give us back the simple field. How good it feels to see a fine <rs type="pers" key="1332">Rousseau</rs> that has been laboured over in order to be faithful and honest. How good it feels to think of people like <rs type="pers" key="1056">Van Goyen</rs>, <rs type="pers" key="960">Old Crome</rs> and <rs type="pers" key="1228">Michel</rs>.<anchor n="14" xml:id="note-t-14"/> How beautiful an <rs type="pers" key="1260">Isaac Ostade</rs> or a <rs type="pers" key="1333">Ruisdael</rs> is. Do I want them back, or do I want them to be imitated? No, but I do want the honesty, the naivety, the faithfulness to remain. I know old lithographs by <rs type="pers" key="986">Jules Dupré</rs>, either by himself or facsimiles of his croquis.</ab>
+<ab rend="indent">But what spirit and what love is in them, and yet how freely and gaily they are done.</ab>
+<ab rend="indent">Copying nature absolutely isn’t the ideal either, but knowing nature in such a way that what one does is fresh and true — that’s what many now lack. Do you think, for instance, that <rs type="pers" key="868">De Bock</rs> knows what you know? No, most definitely not. You will say, but everyone has surely seen landscapes and figures from childhood. Question: was everyone also thoughtful as a child? Question: did everyone who saw them — heath, grassland, fields, woods — also love them, and the snow and the rain and the storm? Not everyone has that the way you and I do; it takes a special kind of setting and circumstances to contribute to it, and a special kind of temperament and character as well to make it take root. 
+<pb f="2v" n="7" xml:id="pb-trans-2v-7" facs="#zone-pb-2v-7"/>
+                </ab>
+<ab rend="indent">I remember letters from you from when you were still in Brussels<anchor n="15" xml:id="note-t-15"/> with descriptions of landscapes like those in your last letters. </ab>
+<ab rend="indent">
+                    <hi rend="ital">Do you realize that it’s so very, very necessary that honest people should remain in art</hi>? I’m not saying that there are none, but you yourself feel what I mean, and know as well as I how a host of people who paint are enormous liars. <hi rend="ital">Honesty is the best policy</hi>
+                    <anchor n="16" xml:id="note-t-16"/> applies here too, as does the fable of the hare and the tortoise,<anchor n="17" xml:id="note-t-17"/> and the ugly duckling by <rs type="pers" key="512">Andersen</rs>.<anchor n="18" xml:id="note-t-18"/> <rs type="pers" key="1001">Edwin Edwards</rs> the etcher, for example — why is his work so absolutely beautiful, why did he rightly gain a position among the best in England? Because what he wanted was honesty and faithfulness. I would rather be <rs type="pers" key="986">Jules Dupré</rs> than Edwin Edwards, but, you see, one must have great respect for sincerity, and it holds up when other things turn out to be chaff. </ab>
+<ab rend="indent">To me the <hi rend="ital">
+                        <rs type="pers" key="198">Bernier</rs>, The fields in winter </hi>in the Luxembourg is an ideal.<anchor n="19" xml:id="note-t-19"/> </ab>
+<ab rend="indent">Then you have <hi rend="ital">
+                        <rs type="pers" key="1156 1155">Lavieille</rs>
+                    </hi>, the wood engraver and painter — I saw a winter night with a Christmas sentiment by him<anchor n="20" xml:id="note-t-20"/> that now comes to mind.</ab>
+<ab rend="indent">Then you have <hi rend="ital">
+                        <rs type="pers" key="954">Mme Collart</rs>
+                    </hi> — for instance that painting of an apple orchard with an old white horse.<anchor n="21" xml:id="note-t-21"/> </ab>
+<ab rend="indent">Then you have <hi rend="ital">
+                        <rs type="pers" key="931">Chintreuil</rs>
+                    </hi> and <hi rend="ital">
+                        <rs type="pers" key="1051">Goethals</rs>.</hi> (I’ve often sought someone in order to explain to you with whom the beautiful things by Goethals could be compared — I believe Chintreuil.) But then I don’t know much of Chintreuil’s work, or of Goethals’s either, for that matter. 
+<pb f="2r" n="8" xml:id="pb-trans-2r-8" facs="#zone-pb-2r-8"/>
+                </ab>
+<ab rend="indent">Misconceptions as to the intentions of the great landscape painters are to a large extent the cause of the trouble. Almost no one knows that the secret of beautiful work is to a large extent good faith and sincere feeling. </ab>
+<ab rend="indent">Many can’t help it that they aren’t deep enough, and act in good faith, in so far as they have good faith. </ab>
+<ab rend="indent">Yet I believe you’ll admit (the more so since it’s a question here of something that isn’t your own sphere, although it does concern you somewhat) that it’s a fact that if many a landscape painter who is now highly rated knew half what you know of sound ideas about the outdoors, with which you’re naturally familiar, he would produce much better and sounder work. Think this over, and put this and many more things besides in the balance when, weighing yourself, you say things like, ‘I would only be something mediocre’. Unless you mean mediocre in its good, noble sense. <hi rend="sc">Stalwartness</hi>, as people say here, they make great play of this word – for my part I don’t know the true meaning of it, and have heard it applied to very insignificant things – stalwartness, is that what must save art? I would be more hopeful that things were going well if there were more people like <rs type="pers" key="1023">E. Frère</rs> or <rs type="pers" key="905">Emile Breton</rs>, for example, rather than <hi rend="ital">stalwarts</hi> like <rs type="pers" key="887">Boldini</rs> or <rs type="pers" key="1029">Fortuny</rs> coming. Frère, Breton, will be missed and mourned; Boldini, Fortuny, one may respect them <hi rend="ital">in themselves</hi>, but the influence they exercised is fatal. </ab>
+<ab rend="indent">A chap like <rs type="pers" key="891">Gustave Brion</rs> has left something good, <rs type="pers" key="1063">Degroux</rs>, for instance, too. If there were many more like them the world would be a better place; art would be a blessing. But <rs type="pers" key="887">Boldini</rs>, but <rs type="pers" key="1029">Fortuny</rs>, but <rs type="pers" key="1300">Regnault</rs> even, what good does it do us, what progress have we made? What you say is absolutely true, ‘Seriousness is better than raillery, however sharp and witty it is’. In other words, I would say, loving-kindness is better than mockery, that goes without saying, but many say, no, there’s good in that mocking. Well, they must reap as they sow. Adieu, old chap, I wanted to write to you about the drawings, namely that I hope this idea of prints for the people will induce me to make some progress. As I write to you, news of <rs type="pers" key="1306">Rappard</rs> that there’s some change for the better, but he seems to be very ill. I know for sure that both he and his <rs type="pers" key="183">father</rs> are interested in the types from the people. I hope to go over there as soon as Rappard is back on his feet, or at least when his eyes are normal again.</ab>
+<ab rend="indent">Write again soon, and believe me</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+                <ab> Vincent</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>This is <ref target="let289.xml">letter 289</ref>.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>For the <rs type="otherart" key="408">
+                            <hi rend="ital">British Workman</hi>
+                        </rs>, <ref target="let273.xml#n-28">see letter 273, n. 28.</ref>
+                    </ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+      <ab>For the expression ‘How (not) to do it’, which Van Gogh borrowed from <rs type="pers" key="580">Charles Dickens</rs>’s <rs type="lit" key="199">
+                            <hi rend="ital">Little Dorrit</hi>
+                        </rs>, <ref target="let179.xml#n-3">see letter 179, n. 3.</ref>
+                    </ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>When the mechanical engineer Daniel Doyce in <rs type="lit" key="199">
+                            <hi rend="ital">Little Dorrit</hi>
+                        </rs> wants to apply for a patent on his invention, he ends up in the slowly grinding wheels of the Circumlocution Office and is labelled a ‘public offender’. Asked by Arthur Clenham whether it is regrettable that he ever started on it, he replies: ‘But what is a man to do? If he has the misfortune to strike out something serviceable to the nation, he must follow where it leads him.’ He is not discouraged: ‘I have no right to be, if I am ... The thing is as true as it ever was’.</ab>
+<ab rend="indent">Doyce then starts up a business with Clenham, but he cannot forget his invention. Clenham sees that ‘the thing was as true as it ever was’ and in the name of Doyce he resumes the battle – unsuccessfully – with the Circumlocution Office. Clenham makes a bad investment with their joint capital and ends up in jail. On Clenham’s release, Doyce forgives him for everything that has happened: ‘First, not a word more from you about the past ... I have done a similar thing myself, in construction, often. Every failure teaches a man something, if he will learn’ (See Dickens 1979, book 1, chapter 10, p. 114; book 1, chapter 16, p. 185; book 2, chapter 8, p. 500; book 2, chapter 34, p. 797). Van Gogh says that Doyce speaks these words on his departure from England, but that does not fit with the course of the story.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+      <ab>Van Gogh based this expression on <rs type="pers" key="580">Dickens</rs>’s <rs type="lit" key="199">
+                            <hi rend="ital">Little Dorrit</hi>
+                        </rs> (<ref target="#n-4">see n. 4</ref>).</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>It is not known which drawing of a sower this is. It may be a variant of <hi rend="ital">Two sowers </hi>(<rs type="otherart" key="441">F 853 / JH 274</rs>). See cat. Amsterdam 1996, pp. 173-175, cat. no. 46.</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>For the comparison of the appearance of sowers with animals, such as a cockerel and an ox, cf. <rs type="pers" key="737">Sensier</rs>’s remark in his biography of <rs type="pers" key="1226">Millet</rs> about his attempts to give the farm workers ‘an expression that seems to admit that the human being is not always extraordinarily far above the animal’ (une expression qui semble avouer que l’être humain n’est pas toujours prodigieusement au-dessus de l’animal). <rs type="lit" key="238">Sensier 1881</rs>, p. 355. Van Gogh knew the theories of <rs type="pers" key="489">Lavater</rs> and <rs type="pers" key="384">Gall</rs> about physiognomy via <rs type="pers" key="1713">Alexandre Ysabeau</rs>, <rs type="lit" key="206">
+                            <hi rend="ital">Lavater et Gall. Physiognomonie et phrénologie rendues intelligibles pour tout le monde</hi>
+                        </rs> (Paris 1862). They also deal at length with the comparison of human heads with those of animals (‘Analogie de figures humaines avec divers animaux’, pp. 108 ff). Cf. also <ref target="let160.xml#n-8">letter 160, n. 8.</ref>
+                    </ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>This is probably <hi rend="ital">Sower</hi> (<rs type="ill" key="2420">F 852 / JH 275</rs>).</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>
+                        <rs type="pers" key="1713">Ysabeau</rs> (<ref target="#n-7">see n. 7</ref> above) also mentions the Eskimo race on p. 100.</ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>This drawing of a reaper is not known. </ab>
+                </note>
+<note n="a" xml:id="n-a" target="#note-o-a">
+<ab>Means: ‘tekent zich af’ (stands out).</ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>
+      <hi rend="ital">Man carrying peat </hi>(<rs type="ill" key="2419">F 964 / JH 273</rs>).</ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+<ab>‘<hi rend="ital">Worn out’</hi> (<rs type="ill" key="2416">F 997 / JH 267</rs>).</ab>
+                </note>
+<note n="b" xml:id="n-b" target="#note-o-b">
+<ab>Means: ‘doorgaat met’ (continues).</ab>
+                </note>
+<note n="13" xml:id="n-13" target="#note-t-13">
+<ab>A reference to <rs type="pers" key="1080">Herkomer</rs>’s observation: ‘Accepting the engraver as an interpreter, we have only to look back in order to see that all interpreters, no matter what their art, have at times allowed their cleverness to mar the dignity of their mission.’ See Herkomer 1882, p. 167, col. 2.</ab>
+                </note>
+<note n="14" xml:id="n-14" target="#note-t-14">
+<ab>
+                        <rs type="pers" key="960">John Crome</rs> came to know the seventeenth-century landscape art of <rs type="pers" key="964">Aelbert Cuyp</rs>, <rs type="pers" key="1056">Jan van Goyen</rs>, <rs type="pers" key="1333">Jacob van Ruisdael</rs> and <rs type="pers" key="1096">Meindert Hobbema</rs> among others. Inspired by Van Goyen, Crome painted like <rs type="pers" key="1228">Michel</rs> (one of the forerunners of the Barbizon School who was also influenced by Dutch landscape painting) with an almost monochrome palette made up of neutral colours. Cf. Josephine Walpole,<hi rend="ital"> Art and artists of the Norwich School</hi>. Woodbridge and Aberdeen 1997, pp. 15-22 and <hi rend="ital">DoA</hi>. Van Gogh may have linked Old Crome to Michel here because of his visit to Burlington House in 1875 (<ref target="let029.xml">see letter 29</ref>). Cf. exhib. cat. Nottingham 1974, p. 14.</ab>
+                </note>
+<note n="15" xml:id="n-15" target="#note-t-15">
+<ab>Theo worked for Goupil in Brussels from January to the beginning of November 1873. </ab>
+                </note>
+<note n="16" xml:id="n-16" target="#note-t-16">
+<ab>In view of the rest of the sentence, in which he lists several stories adapted by <rs type="pers" key="1624">Ten Kate</rs>, Van Gogh may be referring to the book <rs type="lit" key="300">
+                            <hi rend="ital">Eerlijk duurt het langst</hi>
+                        </rs> (Honesty is the best policy) from the series <hi rend="ital">Vertellingen voor de jeugd</hi> after <rs type="pers" key="1655">César Malan</rs>, by J.J.L. ten Kate. It was published by J.J. van Brederode of Haarlem [1880].</ab>
+                </note>
+<note n="17" xml:id="n-17" target="#note-t-17">
+      <ab>‘<rs type="lit" key="302">The fable of the hare and the tortoise</rs>’ in <rs type="lit" key="303">
+                            <hi rend="ital">De fabelen van La Fontaine nagevolgd door J.J.L. ten Kate</hi>
+                        </rs> (The fables of La Fontaine imitated by J.J.L. ten Kate). Illustrated with plates and vignettes by <rs type="pers" key="998">Gustave Doré</rs>. Amsterdam 1875, pp. 359-361. Originally ‘Le lièvre et la tortue’ (<hi rend="ital">Fables</hi>, <hi rend="sc">vi</hi>, 10). See Fontaine 1974, vol. 1, pp. 196-197; in this fable an overconfident hare loses a race against a tortoise, who does what he must and does not fail in his duty. </ab>
+                </note>
+<note n="18" xml:id="n-18" target="#note-t-18">
+<ab>‘<rs type="lit" key="304">Het lelijke jonge eendtjen</rs>’ (The ugly duckling) in <rs type="lit" key="305">
+                            <hi rend="ital">Sprookjens en verhalen van H.C. Andersen</hi>
+                        </rs>. Ed. J.J.L. ten Kate. Leiden 1868, pp. 3-24. In this fairy tale a duckling that is late in hatching from its egg is humiliated, teased and chased by those around him, until he turns out to have grown into a beautiful, happy swan</ab>
+                </note>
+<note n="19" xml:id="n-19" target="#note-t-19">
+<ab>For <rs type="pers" key="198">Camille Bernier</rs>, <rs type="ill" key="1749">
+                            <hi rend="ital">Winter labours</hi>
+                        </rs>, <ref target="let055.xml#n-8">see letter 55, n. 8.</ref>
+                    </ab>
+                </note>
+<note n="20" xml:id="n-20" target="#note-t-20">
+<ab>‘Winter night’ may refer to the print <hi rend="ital">Crépuscule en hiver, à Arsy (Oise)</hi> (Dusk in Winter, Arsy (Oise)), after the painting by <rs type="pers" key="1156">Eugène Antoine Samuel Lavieille</rs> that was exhibited at the Salon of 1873. The wood engraving by <rs type="pers" key="1520">Léon Louis Chapon</rs> was in <hi rend="ital">Gazette des Beaux-Arts</hi> 15 (1873), 2nd series, vol. 8, p. 55. <rs type="ill" key="1037">Ill. 1037</rs>. Van Gogh may have been thinking, however, of a work by <rs type="pers" key="1155">Adrien Lavieille</rs>.</ab>
+                </note>
+      <note n="21" xml:id="n-21" target="#note-t-21">
+<ab>It is not known which painting by <rs type="pers" key="954">Marie Collart</rs> is meant.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

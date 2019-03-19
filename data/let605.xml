@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Arles, Monday, 7 May 1888.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let605"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">605</idno>
+<idno type="collectedletters">483</idno>
+<idno type="brieven1990">607</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Arles</vg:placeLet>
+                        <vg:dateLet>Monday, 7 May 1888</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. Arles, Monday, 7 May 1888.</p>
+<note type="ongoingTopic" n="1">
+<p>Koning’s stay with Theo <ref target="let578.xml">(578)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="2">
+<p>Entry for the 1888 Indépendants exhibition <ref target="let582.xml">(582)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="3">
+<p>Theo’s trip to Belgium and the Netherlands <ref target="let600.xml">(600)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b523 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Van Gogh thanks Theo for the weekly allowance; as a rule we would date this on or about Sunday, but because he writes that the weather had turned fine after a period of the mistral <ref target="#l-48">(ll. 48-52)</ref> and this improvement in the weather set in on Monday, 7 May 1888, we have dated the letter that day (<hi rend="ital">Météo-France</hi>).</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0523" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000704_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000704_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000704_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000704_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000704_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000704_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="VGM001000704_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000704_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000704_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0523" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000704_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000704_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000704_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000704_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000704_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000704_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000704_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000704_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000704_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Mon cher Theo,</ab>
+                <lb n="1*" xml:id="l-1s"/>
+<ab>Je viens de recevoir <lb n="2" xml:id="l-2"/>ta lettre contenant 100 fr.<c type="kk">/</c> je <lb n="3" xml:id="l-3"/>t’en remercie bien – ainsi que <lb n="4" xml:id="l-4"/>de la précédente (datée de Bruxelles egalement) <lb n="5" xml:id="l-5"/>contenant 50 fr.<anchor n="1" xml:id="note-o-1"/> Ceci pour te <lb n="6" xml:id="l-6"/>dire que je les ai reçues en bon ordre<c type="kp">_</c> <lb n="7" xml:id="l-7"/>Seulement il doit y avoir au moins <lb n="8" xml:id="l-8"/>2 lettres que je t’ai écrites à Paris<anchor n="2" xml:id="note-o-2"/> <lb n="9" xml:id="l-9"/>et un rouleau de dessins<c type="kk">/</c> que <lb n="10" xml:id="l-10"/>comme tu pensais Koning ne <lb n="11" xml:id="l-11"/>t’aura pas envoyé. Koning m’a <lb n="12" xml:id="l-12"/>écrit une carte postale disant avoir <lb n="13" xml:id="l-13"/>recu un billet des Independants, <lb n="14" xml:id="l-14"/>disant que si les tableaux n’étaient <lb n="15" xml:id="l-15"/>pas retirés entre le 5 &amp; 6 <hi rend="ital">Avril</hi> ils <lb n="16" xml:id="l-16"/>seraient déposés ailleurs<c type="kk">/</c> au gardemeuble.<anchor n="3" xml:id="note-o-3"/> <lb n="17" xml:id="l-17"/>Il n’avait qu’à les prendre si c’était <lb n="18" xml:id="l-18"/>entre le 5 &amp; 6 <hi rend="ital">Mai</hi> qu’il a voulu dire<c type="kp">_</c> <lb n="19" xml:id="l-19"/>Il est probable que cet excellent jeune <lb n="20" xml:id="l-20"/>homme aie un peu perdu la tête <lb n="21" xml:id="l-21"/>toi absent<c type="kp">_</c>
+                </ab>
+                <lb n="22" xml:id="l-22"/>
+    <ab rend="indent">Cela me fait plaisir que tu aies vendu <lb n="23" xml:id="l-23"/>un deGas et ce que tu écris de l’acheteur.<anchor n="4" xml:id="note-o-4"/> <lb n="24" xml:id="l-24"/>Meunier – j’ai vu moi aussi de <lb n="25" xml:id="l-25"/>bien belles choses de lui – et de Henri <lb n="26" xml:id="l-26"/>de Braeckeleer aussi naturellement<c type="kp">_</c> <lb n="27" xml:id="l-27"/>Le coco qui est venu à Paris de la part <lb n="28" xml:id="l-28"/>des vingtistes<c type="kk">/</c> tu sais<c type="kk">/</c> <rs type="pers" key="1298">Los Rios de Guadalquivir</rs> <lb n="29" xml:id="l-29"/>ou un nom encore plus sonore que ça<c type="kk">/</c>
+                    <anchor n="5" xml:id="note-o-5"/> <lb n="30" xml:id="l-30"/>prétendait que de Braekeleer était reduit <lb n="31" xml:id="l-31"/>à l’impuissance par une maladie cérébrale <lb n="32" xml:id="l-32"/>qui l’avait complètement abruti<c type="kp">_</c>
+                    <anchor n="6" xml:id="note-o-6"/>
+                </ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="33" xml:id="l-33"/>
+<ab rend="indent">j’aime à croire que ce n’est pas vrai<c type="kp">_</c> <lb n="34" xml:id="l-34"/>En as tu entendu parler?</ab>
+                <lb n="35" xml:id="l-35"/>
+<ab rend="indent">Tu verras par les lettres en question <lb n="36" xml:id="l-36"/>que j’ai loué un atelier<c type="kk">/</c> maison entiere à 4 pièces (<hi rend="ital">fr<c type="kp">_</c>
+                    </hi> <hi rend="ital">180 par an</hi>)<c type="kp">_</c> <lb n="37" xml:id="l-37"/>Il s’agit maintenant d’aller y coucher<c type="kk">/</c> <lb n="38" xml:id="l-38"/>j’acheterai aujourd’hui une natte <lb n="39" xml:id="l-39"/>et un matelas &amp; couverture<c type="kp">_</c>
+                </ab>
+                <lb n="40" xml:id="l-40"/>
+<ab rend="indent">J’ai aussi 40 francs à payer à l’hotêl<anchor n="7" xml:id="note-o-7"/> <lb n="41" xml:id="l-41"/>donc il ne me restera pas grand chôse<c type="kp">_</c> <lb n="42" xml:id="l-42"/>Mais dès lors je serai délivré de <lb n="43" xml:id="l-43"/>cet hôtellerie où on paye trop <lb n="44" xml:id="l-44"/>et où je n’étais pas bien. Et je <lb n="45" xml:id="l-45"/>commencerai à avoir un chez <lb n="46" xml:id="l-46"/>moi. Tu trouveras détails dans <lb n="47" xml:id="l-47"/>les lettres que je t’ai déjà écrites<c type="kp">_</c>
+                </ab>
+                <lb n="48" xml:id="l-48"/>
+<ab rend="indent">Il a fait beaucoup de mistral ici<c type="kk">/</c> <lb n="49" xml:id="l-49"/>alors j’ai fait la douzaine de petits <lb n="50" xml:id="l-50"/>dessins que j’ai envoyés<c type="kp">_</c>
+                    <anchor n="8" xml:id="note-o-8"/>
+                </ab>
+                <lb n="51" xml:id="l-51"/>
+<ab rend="indent">Maintenant il fait un temps <lb n="52" xml:id="l-52"/>splendide<c type="kk">/</c> j’ai encore fait deux <lb n="53" xml:id="l-53"/>grands dessins et 5 petits.<anchor n="9" xml:id="note-o-9"/>
+                </ab>
+                <lb n="54" xml:id="l-54"/>
+<ab rend="indent">J’ai trouvé une caisse pour <lb n="55" xml:id="l-55"/>mon envoi qui part demain <lb n="56" xml:id="l-56"/>j’espère.</ab>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                <lb n="57" xml:id="l-57"/>
+<ab rend="indent">je t’envoie à Bruxelles ces 5 petits <lb n="58" xml:id="l-58"/>dessins aujourd’hui<c type="kp">_</c>
+                </ab>
+                <lb n="59" xml:id="l-59"/>
+<ab rend="indent">Tu verras de belles choses chez Claude <lb n="60" xml:id="l-60"/>Monet.<anchor n="10" xml:id="note-o-10"/> Et tu trouveras bien <lb n="61" xml:id="l-61"/>mauvais ce que j’envoie<c type="kk">/</c> en <lb n="62" xml:id="l-62"/>comparaison. Je suis actuellement <lb n="63" xml:id="l-63"/>mécontent de moi et mécontent de <lb n="64" xml:id="l-64"/>ce que je fais mais j’entrevois la <lb n="65" xml:id="l-65"/>possibilité de faire mieux dans <lb n="66" xml:id="l-66"/>la suite.</ab>
+                <lb n="67" xml:id="l-67"/>
+<ab rend="indent">Et puis j’espère que plus tard <lb n="68" xml:id="l-68"/>d’autres artistes surgiront dans <lb n="69" xml:id="l-69"/>ce beau pays. pour faire ici ce <lb n="70" xml:id="l-70"/>que les japonais ont fait chez eux<c type="kp">_</c> <lb n="71" xml:id="l-71"/>Et travailler à cela c’est pas si <lb n="72" xml:id="l-72"/>mauvais<c type="kp">_</c>–</ab>
+                <lb n="73" xml:id="l-73"/>
+<ab rend="indent">J’ai fait souvent des promenades <lb n="74" xml:id="l-74"/>avec Rappard là que tu dis<c type="kp">_</c> <lb n="75" xml:id="l-75"/>Est ce que le faubourg et la campagne <lb n="76" xml:id="l-76"/>plus loin que la colonne du congrès <lb n="77" xml:id="l-77"/>s’appelle Schaerbeek.<anchor n="11" xml:id="note-o-11"/> je me rappelle <lb n="78" xml:id="l-78"/>d’un endroit qu’on appelle je crois <lb n="79" xml:id="l-79"/>la vallée de Josafat où il y a des <lb n="80" xml:id="l-80"/>peupliers et où Hypolyte Boulanger<c type="kk">/</c> <lb n="81" xml:id="l-81"/>le paysagiste<c type="kk">/</c> a fait de belles choses.<anchor n="12" xml:id="note-o-12"/> <lb n="82" xml:id="l-82"/>Je me souviens de couchers de soleil <lb n="83" xml:id="l-83"/>dans le Jardin des plantes vu du <lb n="84" xml:id="l-84"/>Boulevard qui le longe.</ab>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                <lb n="85" xml:id="l-85"/>
+<ab rend="indent">Tu trouveras dans la caisse <lb n="86" xml:id="l-86"/>que j’envoie des roseaux pour <lb n="87" xml:id="l-87"/>Koning.</ab>
+                <lb n="88" xml:id="l-88"/>
+<ab rend="indent">Maintenant l’adresse sera dorénavant</ab>
+<vg:whiteline/>
+                <lb n="89" xml:id="l-89"/>
+<ab>
+                    <hi rend="ital">Place Lamartine 2</hi>
+                </ab>
+<vg:whiteline/>
+                <lb n="90" xml:id="l-90"/>
+<ab>J’espère – et je ne doute pas – qu’à ton <lb n="91" xml:id="l-91"/>retour à Paris ce sera enfin le printemps<c type="kp">_</c> <lb n="92" xml:id="l-92"/>Ce sera pas trop tôt ma foi.</ab>
+                <lb n="93" xml:id="l-93"/>
+<ab rend="indent">En vivant à l’hôtel on n’avance jamais <lb n="94" xml:id="l-94"/>et maintenant au bout d’un an <lb n="95" xml:id="l-95"/>j’aurai des meubles &amp;c. qui m’apartiendront<c type="kk">/</c> <lb n="96" xml:id="l-96"/>et si cela ne vaudrait rien si j’etais <lb n="97" xml:id="l-97"/>dans le midi pour quelques mois seulement<c type="kk">/</c> <lb n="98" xml:id="l-98"/>la question devient tout autre dès qu’il <lb n="99" xml:id="l-99"/>s’agit d’un long séjour<c type="kp">_</c>
+                </ab>
+                <lb n="100" xml:id="l-100"/>
+<ab rend="indent">Et je n’en doute pas que j’aimerai toujours <lb n="101" xml:id="l-101"/>la nature d’ici<c type="kk">/</c> c’est quelque chôse comme <lb n="102" xml:id="l-102"/>les japonaiseries<c type="kk">/</c> une fois qu’on aime <lb n="103" xml:id="l-103"/>cela on ne s’en repent pas.</ab>
+                <lb n="104" xml:id="l-104"/>
+<ab rend="indent">Poignée de main<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="105" xml:id="l-105"/>
+<ab>t<c type="kp">_</c> à t<c type="kp">_</c>
+                </ab>
+                <lb n="106" xml:id="l-106"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-30" n="30">était &lt; été</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo,</ab>
+<ab>I’ve just received your letter containing 100 francs, I really thank you for it — and for the previous one (also dated Brussels) containing 50 francs.<anchor n="1" xml:id="note-t-1"/> This to tell you that I received them safely. But there should be at least 2 letters that I wrote to you in Paris<anchor n="2" xml:id="note-t-2"/> and a roll of drawings, which, as you thought, <rs type="pers" key="1145">Koning</rs> won’t have sent you. Koning sent me a postcard saying he’d received a note from the Independents, saying that if the paintings weren’t collected between <hi rend="ital">April </hi>5 and 6 they’d be put somewhere else, in storage.<anchor n="3" xml:id="note-t-3"/> He just had to pick them up, if it was between <hi rend="ital">May </hi>5 and 6 that he meant. It’s likely that this excellent young man has somewhat lost his wits in your absence.</ab>
+<ab rend="indent">I’m pleased to hear you’ve sold a <rs type="pers" key="981">Degas</rs> and what you write about the purchaser.<anchor n="4" xml:id="note-t-4"/> <rs type="pers" key="1209">Meunier</rs> — I’ve also seen some very fine things by him myself — and by <rs type="pers" key="902">Henri de Braekeleer</rs> too, of course. The chap who came to Paris on behalf of Les Vingt, you know, Los Rios de Guadalquivir or an even more sonorous name than that,<anchor n="5" xml:id="note-t-5"/> made out that De Braekeleer was reduced to helplessness by a brain disease that had completely stupefied him.<anchor n="6" xml:id="note-t-6"/> 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">I like to think it’s not true. Have you heard about it?</ab>
+<ab rend="indent">You’ll see from the letters in question that I’ve rented a studio, a whole house with 4 rooms (<hi rend="ital">180 francs per year</hi>). Now it’s a matter of going there to sleep, today I’ll buy a mat and a mattress and blanket.</ab>
+<ab rend="indent">I also have 40 francs to pay at the hotel,<anchor n="7" xml:id="note-t-7"/> so I won’t have much left over. But then I’ll be free of this guest-house where you pay too much and where I wasn’t happy. And I’ll begin to have a home of my own. You’ll find details in the letters I’ve already written to you.</ab>
+<ab rend="indent">The mistral’s been blowing hard here, so I’ve done a dozen small drawings which I’ve sent you.<anchor n="8" xml:id="note-t-8"/>
+                </ab>
+<ab rend="indent">The weather’s splendid now, I’ve done another two large drawings and 5 small ones.<anchor n="9" xml:id="note-t-9"/>
+                </ab>
+<ab rend="indent">I’ve found a crate for my consignment, which will go off tomorrow, I hope. 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/>
+                </ab>
+<ab rend="indent">I’ll send you those 5 small drawings today, to Brussels.</ab>
+<ab rend="indent">You’ll see beautiful things at <rs type="pers" key="1222">Claude Monet</rs>’s.<anchor n="10" xml:id="note-t-10"/> And you’ll think what I send you is pretty poor, in comparison. At present I’m unhappy with myself and unhappy with what I’m doing, but I can glimpse some possibility of doing better in future.</ab>
+<ab rend="indent">And I hope that later on, other artists will emerge in this beautiful part of the country. To do here what the Japanese have done in their country. And working at that isn’t so bad.</ab>
+<ab rend="indent">I often took walks with <rs type="pers" key="1306">Rappard</rs> in the place you mention. Is the suburb and the countryside beyond the Colonne du Congrès called Schaarbeek?<anchor n="11" xml:id="note-t-11"/> I recall a place called, I think, La Vallée de Josaphat, where there are poplars and where <rs type="pers" key="893">Hippolyte Boulenger</rs>, the landscape artist, did some fine things.<anchor n="12" xml:id="note-t-12"/> I remember sunsets in the Botanical Garden, seen from the boulevard that runs alongside it. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/>
+                </ab>
+<ab rend="indent">In the crate I’m sending you you’ll find some reeds for <rs type="pers" key="1145">Koning</rs>.</ab>
+<ab rend="indent">And the address from now on will be</ab>
+<vg:whiteline/>
+<ab>
+                    <hi rend="ital">place Lamartine 2</hi>
+                </ab>
+<vg:whiteline/>
+<ab>I hope — and I have no doubts — that when you get back to Paris it will finally be spring. And not before time, for Heaven’s sake.</ab>
+<ab rend="indent">Living at the hotel you never make progress, and now at the end of a year I’ll have furniture &amp;c. that will belong to me, and while that wouldn’t be worthwhile if I was in the south for only a few months, it’s quite another matter once it’s a question of a long stay.</ab>
+<ab rend="indent">And I have no doubts that I’ll always love nature here, it’s something like Japanese art, once you love that you don’t have second thoughts about it.</ab>
+<ab rend="indent">Handshake.</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>Van Gogh confirmed receipt of Theo’s letter and the money in <ref target="let602.xml">letter 602</ref>.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>These were <ref target="let602.xml">letters 602</ref>, <ref target="let603.xml">603</ref> and <ref target="let604.xml">604</ref>, the latter two of which may have been sent together.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>See for the exhibited works: <ref target="let582.xml#n-9">letter 582, n. 9.</ref>
+                    </ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>We do not know which of <rs type="pers" key="981">Degas</rs>’s works Theo sold in Brussels, nor who the buyer was.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>See for the society of artists Les Vingt: <ref target="let580.xml#n-6">letter 580, n. 6.</ref> Van Gogh meant the Spanish artist <rs type="pers" key="1298">Dario de Regoyos</rs> (y Valdés), who was one of the founders of Les Vingt and showed at the society’s annual exhibitions. See Delevoy<hi rend="ital"> </hi>1981, and exhib. cat. Brussels 1993.</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>See for <rs type="pers" key="902">De Braekeleer</rs>’s illness: <ref target="let604.xml#n-15">letter 604, n. 15.</ref>
+                    </ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>Van Gogh was staying at Hotel-Restaurant <rs type="pers" key="42 43">Carrel</rs>; <ref target="let577.xml#n-4">see letter 577, n. 4.</ref>
+                    </ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>See for this first shipment of drawings from Arles: <ref target="let602.xml#n-1">letter 602, n. 1.</ref>
+                    </ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>In view of their size, 43 x 55 cm and 39 x 61 cm respectively, <hi rend="ital">View of Arles with irises in the foreground </hi>(<rs type="ill" key="3056">F 1416r / JH 1415</rs>) and <hi rend="ital">Bank of the Rhône at Arles </hi>(<rs type="ill" key="3057">F 1472a / JH 1497a</rs>) are the most likely candidates; cf. also the inscription at lower left on both drawings.</ab>
+<ab rend="indent">It is not possible to say for certain which small drawings were in the respective consignments. Altogether we know of 18 sheets measuring approx. 25 x 35 cm and dating from this period. <ref target="let602.xml#n-1">See letter 602, n. 1.</ref>
+                    </ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>
+                        <rs type="pers" key="1222">Monet</rs>, who had worked in Antibes in the spring, had been back in Giverny since 6 May. See Wildenstein and Walter 1974-1991, vol. 3, p. 9. Theo mounted a small exhibition of Monets (<ref target="let625.xml#n-5">see letter 625, n. 5</ref>). His visit to Monet must have taken place in May, given that the exhibition opened at the beginning of June. See exhib. cat. Amsterdam 1999, pp. 111, 187.</ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>The ‘Colonne de la Constitution’ (or ‘Colonne du Congrès’) erected in 1859 on the place du Congrès on rue Royale, which in turn opens into the said boulevard du Jardin Botanique.</ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+    <ab>See for ‘La Vallée de Josaphat’ in Schaarbeek: <ref target="let293.xml#n-11">letter 293, n. 11</ref> and for <hi rend="ital">
+                            <rs type="ill" key="623">The Josaphat brook in Schaarbeek</rs>
+                        </hi> by <rs type="pers" key="893">Boulenger</rs>: <ref target="let433.xml#n-3">433, n. 3.</ref>
+                    </ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

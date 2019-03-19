@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. The Hague, on or about Sunday, 7 May 1882.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let224"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">224</idno>
+<idno type="collectedletters">192</idno>
+<idno type="brieven1990">223</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>The Hague</vg:placeLet>
+                        <vg:dateLet>on or about Sunday, 7 May 1882</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. The Hague, on or about Sunday, 7 May 1882.</p>
+<note type="ongoingTopic" n="1">
+<p>Strained relations with Mauve and Tersteeg (<ref target="let209.xml">209</ref> and <ref target="let208.xml">208</ref>)</p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. nos. b213 a-b V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>In this letter Van Gogh reveals his relationship with Sien for the first time, having kept it secret until 2 May (<ref target="let223.xml">letter 223</ref>). Even though <ref target="let225.xml">letters 225</ref> and <ref target="let226.xml">226</ref> cannot be assigned exact dates, they certainly follow the present letter, because in those letters Van Gogh refers more specifically to several topics mentioned in this letter. <ref target="let226.xml">Letter 226</ref> was written on 12 or 13 May, so <ref target="let224.xml">letters 224</ref> and <ref target="let225.xml">225</ref> (in this order) must have been written in the intervening period. Because Van Gogh says in <ref target="let226.xml">letter 226</ref> that he has written ‘so often these last few days’ <ref target="#l-27">(ll. 27-28)</ref>, we have decided to date <ref target="let224.xml">letter 224</ref> to on or about Sunday, 7 May 1882 and <ref target="let225.xml">letter 225</ref> to on or about Wednesday, 10 May 1882.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0213 a" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000244_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000244_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000244_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000244_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000244_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000244_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="VGM001000244_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000244_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000244_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0213 a" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000244_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000244_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000244_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000244_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000244_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000244_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000244_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000244_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000244_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0213 b" xml:id="surf-pb-2r">
+            <graphic mimeType="image/tiff" url="VGM001000245_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-2r-5">
+<graphic mimeType="image/tiff" url="VGM001000245_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000245_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000245_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+        <surface n="b 0213b V/1962" xml:id="surf-extra-2v">
+            <graphic mimeType="image/tiff" url="VGM001000245_02.TIF" rend="norend"/>
+            <zone xml:id="zone-extra-1">
+<graphic mimeType="image/tiff" url="VGM001000245_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000245_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000245_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1a" xml:id="l-1a"/>
+<ab>Ik geef U de vrijheid om aan <lb n="1b" xml:id="l-1b"/>Mauve omtrent den inhoud van dezen <lb n="1c" xml:id="l-1c"/>brief te zeggen wat gij wilt, doch verder <lb n="1d" xml:id="l-1d"/>hoeft het niet te gaan.</ab>
+<vg:whiteline/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Waarde Theo,</ab>
+                <lb n="2" xml:id="l-2"/>
+<ab>Heden ben ik Mauve tegengekomen en heb <lb n="3" xml:id="l-3"/>een zeer betreurenswaardig gesprek met <lb n="4" xml:id="l-4"/>hem gehad waarbij het mij duidelijk <lb n="5" xml:id="l-5"/>is geworden dat Mauve &amp; ik voor altijd <lb n="6" xml:id="l-6"/>gescheiden zijn. Mauve is zoo ver gegaan <lb n="7" xml:id="l-7"/>dat hij het niet kan terugnemen<c type="kk">/</c> althans <lb n="8" xml:id="l-8"/>zeker niet zou willen. Mijn verzoek <lb n="9" xml:id="l-9"/>aan hem was dat hij mijn werk zou <lb n="10" xml:id="l-10"/>komen zien en daarna spreken over <lb n="11" xml:id="l-11"/>de zaken. Mauve weigerde dat volstrekt<c type="kk">/</c> <lb n="12" xml:id="l-12"/>“Naar U toekomen doe ik zeker niet<c type="kk">/</c> <lb n="13" xml:id="l-13"/>het is glad uit”.–</ab>
+                <lb n="14" xml:id="l-14"/>
+<ab rend="indent">Eindelijk zeide hij “gij hebt een <lb n="15" xml:id="l-15"/>venijnig karakter”. Toen draaide <lb n="16" xml:id="l-16"/>ik mij om – het was in de duinen <lb n="17" xml:id="l-17"/>en ik ben alleen naar huis <lb n="18" xml:id="l-18"/>gewandeld.</ab>
+                <lb n="19" xml:id="l-19"/>
+<ab rend="indent">Mauve neemt het mij kwalijk dat ik <lb n="20" xml:id="l-20"/>gezegd heb<c type="kk">/</c> ik ben artist<anchor n="1" xml:id="note-o-1"/> – ’t welk ik <lb n="21" xml:id="l-21"/>niet terug neem omdat het van zelf <lb n="22" xml:id="l-22"/>spreekt dat dat woord in zich sluit de <lb n="23" xml:id="l-23"/>beteekenis van altijd zoeken zonder <lb n="24" xml:id="l-24"/>ooit volmaakt te vinden. Het is juist het tegenovergestelde <lb n="25" xml:id="l-25"/>van te zeggen “ik weet het al<c type="kk">/</c> ik heb het al gevonden”<c type="kp">_</c> 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                    <lb n="26" xml:id="l-26"/>Dat woord beteekent voor zoover ik weet “ik zoek<c type="kk">/</c> <lb n="27" xml:id="l-27"/>ik jaag er naar<c type="kk">/</c> ik ben er met mijn hart bij”.– <lb n="28" xml:id="l-28"/>Ik heb toch ooren aan het hoofd Theo – <lb n="29" xml:id="l-29"/>als iemand zegt “gij hebt een venijnig <lb n="30" xml:id="l-30"/>karakter”<c type="kk">/</c> wat moet ik dan doen. <lb n="31" xml:id="l-31"/>Ik keerde mij om en ging alleen <lb n="32" xml:id="l-32"/>terug maar met veel droefheid in het <lb n="33" xml:id="l-33"/>hart dat Mauve mij dat heeft durven <lb n="34" xml:id="l-34"/>zeggen. <hi rend="sc">Ik </hi>zal hem niet vragen <lb n="35" xml:id="l-35"/>mij zulks te verklaren<c type="kk">/</c> ik zal <lb n="36" xml:id="l-36"/>mij niet verontschuldigen evenmin.</ab>
+                <lb n="37" xml:id="l-37"/>
+<ab rend="indent">En toch – en toch – en toch<c type="kp">_</c>– <lb n="38" xml:id="l-38"/>Ik wenschte dat Mauve berouw had daarover. <lb n="39" xml:id="l-39"/>Men verdenkt mij van iets... het is <lb n="40" xml:id="l-40"/>in de lucht... er steekt iets achter mij.. <lb n="41" xml:id="l-41"/>Vincent houdt iets achterbaks dat het <lb n="42" xml:id="l-42"/>licht niet zien mag.. Welnu <lb n="43" xml:id="l-43"/>heeren<c type="kk">/</c> ik zal het U zeggen, gij lieden <lb n="44" xml:id="l-44"/>die dan prijs stelt op vormen en beschaving <lb n="45" xml:id="l-45"/>en dat teregt mits het echt spul zij<c type="kk">/</c> <lb n="46" xml:id="l-46"/>wat is beschaafder<c type="kk">/</c> fijngevoeliger<c type="kk">/</c> mannelijker<c type="kk">/</c> <lb n="47" xml:id="l-47"/>eene vrouw te verlaten of eene verlatene <lb n="48" xml:id="l-48"/>zich aan te trekken.–<anchor n="2" xml:id="note-o-2"/>
+                </ab>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                <lb n="49" xml:id="l-49"/>
+<ab rend="indent">Ik heb dezen winter ontmoet eene zwangere <lb n="50" xml:id="l-50"/>vrouw<c type="kk">/</c> verlaten door den man wiens kind <lb n="51" xml:id="l-51"/>zij in t’lijf droeg.<anchor n="3" xml:id="note-o-3"/>
+                </ab>
+                <lb n="52" xml:id="l-52"/>
+<ab rend="indent">Eene zwangere vrouw die in den winter <lb n="53" xml:id="l-53"/>op straat zwierf – haar brood moest <lb n="54" xml:id="l-54"/>verdienen<c type="kk">/</c> gij weet wel hoe.–</ab>
+                <lb n="55" xml:id="l-55"/>
+<ab rend="indent">Ik heb die vrouw genomen voor model <lb n="56" xml:id="l-56"/>en met haar gewerkt den heelen winter<c type="kp">_</c> <lb n="57" xml:id="l-57"/>Ik kon haar het volle daggeld van een <lb n="58" xml:id="l-58"/>model niet geven maar dat neemt <lb n="59" xml:id="l-59"/>niet weg dat ik haar huur betaald heb <lb n="60" xml:id="l-60"/>en dat ik haar en haar kind voor honger en koude <lb n="61" xml:id="l-61"/>goddank heb kunnen bewaren tot dusverre <lb n="61a" xml:id="l-61a"/>door mijn eigen brood met haar te deelen. <lb n="62" xml:id="l-62"/>Toen ik die vrouw ontmoette viel mijn oog <lb n="63" xml:id="l-63"/>op haar omdat zij er ziek uitzag<c type="kp">_</c>
+                </ab>
+                <lb n="64" xml:id="l-64"/>
+<ab rend="indent">Ik heb haar baden laten gebruiken en versterkende <lb n="65" xml:id="l-65"/>middelen zooveel ik vermogt<c type="kk">/</c> zij is veel <lb n="66" xml:id="l-66"/>gezonder geworden. Ik ben met <lb n="67" xml:id="l-67"/>haar naar Leiden geweest alwaar een <lb n="68" xml:id="l-68"/>gesticht is voor kraamvrouwen<anchor n="4" xml:id="note-o-4"/> waar zij <lb n="69" xml:id="l-69"/>haar kraam zal uitleggen<c type="kp">_</c>
+                    <anchor n="a" xml:id="note-o-a"/> <lb n="69a" xml:id="l-69a"/>’t was geen wonder zij ziekelijk was<c type="kk">/</c> ’t kind zat verkeerd en zij heeft eene <lb n="69b" xml:id="l-69b"/>operatie moeten ondergaan<c type="kk">/</c> n.l. dat het kind met den forceps is moeten gekeerd <lb n="69c" xml:id="l-69c"/>worden. Er is evenwel veel kans zij er toch nog goed doorkomt<c type="kp">_</c> <hi rend="ital">In Junij moet</hi> <lb n="69d" xml:id="l-69d"/>
+                    <hi rend="ital">zij bevallen</hi>.</ab>
+                <lb n="70" xml:id="l-70"/>
+<ab rend="indent">Het komt mij voor dat <lb n="71" xml:id="l-71"/>ieder man die het leer van zijn schoenen <lb n="72" xml:id="l-72"/>waard is wanneer hij voor zoo’n geval <lb n="73" xml:id="l-73"/>stond hetzelfde zou hebben gedaan. 
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                    <lb n="74" xml:id="l-74"/>Ik vind hetgeen ik deed zoo eenvoudig en van zelf <lb n="75" xml:id="l-75"/>sprekend dat ik meende zulks voor mij zelven te kunnen <lb n="76" xml:id="l-76"/>houden. Het poseeren viel haar moeielijk<c type="kk">/</c> <lb n="77" xml:id="l-77"/>evenwel zij heeft het geleerd, ik ben gevorderd <lb n="78" xml:id="l-78"/>in mijn teekenen door dat ik goed model gehad heb. <lb n="79" xml:id="l-79"/>Die vrouw is nu aan mij gehecht als een tamme <lb n="80" xml:id="l-80"/>duif – ik voor mij kan maar eens <lb n="81" xml:id="l-81"/>trouwen en wanneer zal ik het beter kunnen <lb n="82" xml:id="l-82"/>doen dan met haar omdat ik daardoor <lb n="83" xml:id="l-83"/>alleen haar verder helpen kan en anders <lb n="84" xml:id="l-84"/>zij door gebrek weer den zelfden weg zou uitmoeten <lb n="85" xml:id="l-85"/>die uitkomt op een afgrond. Zij heeft geen geld <lb n="86" xml:id="l-86"/>doch zij helpt mij geld verdienen in mijn werk. <lb n="87" xml:id="l-87"/>Ik ben vol lust en ambitie voor mijn vak <lb n="88" xml:id="l-88"/>en werk<c type="kk">/</c> is het dat ik schilderen en aquarelleeren <lb n="89" xml:id="l-89"/>voor een tijd daarliet<c type="kk">/</c> ’t is omdat ik te zeer geschokt <lb n="90" xml:id="l-90"/>ben door dat Mauve mij verliet<c type="kk">/</c> en kwam hij <lb n="91" xml:id="l-91"/>waarachtig daarop terug ik zou op nieuw met <lb n="92" xml:id="l-92"/>courage beginnen. Nu kan ik geen penseel zien<c type="kk">/</c> het maakt mij zenuwachtig.<anchor n="5" xml:id="note-o-5"/>
+                </ab>
+                <lb n="93" xml:id="l-93"/>
+<ab rend="indent">Ik heb geschreven: Theo kunt gij mij <lb n="94" xml:id="l-94"/>inlichting geven omtrent de houding van <lb n="95" xml:id="l-95"/>Mauve<anchor n="6" xml:id="note-o-6"/> – misschien geeft dezen brief <lb n="96" xml:id="l-96"/>U licht. Gij zijt mijn broer<c type="kk">/</c> het is natuurlijk <lb n="97" xml:id="l-97"/>ik met U over privé dingen spreek maar iemand die <lb n="97a" xml:id="l-97a"/>mij zegt<c type="kk">/</c> ge hebt een venijnig karakter<c type="kk">/</c> met dien spreek ik dan op dat moment niet verder.</ab>
+                <lb n="98" xml:id="l-98"/>
+<ab rend="indent">Ik kon niet anders<c type="kk">/</c> ik deed wat de hand <lb n="99" xml:id="l-99"/>vond om te doen,<anchor n="7" xml:id="note-o-7"/> ik werkte<c type="kp">_</c> <lb n="100" xml:id="l-100"/>Ik meende men zou mij begrepen hebben zonder <lb n="101" xml:id="l-101"/>woorden. Ik dacht wel aan eene andere vrouw voor <lb n="102" xml:id="l-102"/>wie mijn hart klopte – doch die was van verre en wilde mij <lb n="103" xml:id="l-103"/>niet zien<anchor n="8" xml:id="note-o-8"/> en deze – zij liep daar ziek<c type="kk">/</c> zwanger<c type="kk">/</c> <lb n="104" xml:id="l-104"/>hongerig – in den winter. Ik kon niet anders<c type="kp">_</c> <lb n="105" xml:id="l-105"/>Mauve, Theo, Tersteeg, gij lieden hebt mijn brood <lb n="106" xml:id="l-106"/>in handen<c type="kk">/</c> zult ge mij broodeloos maken of mij <lb n="107" xml:id="l-107"/>den rug toedraaien – ik heb nu gesproken en wacht af ’t geen <lb n="108" xml:id="l-108"/>mij verder gezegd zal worden<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="108*" xml:id="l-108s"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+                <lb n="109" xml:id="l-109"/>
+<ab>Ik stuur U een paar studies omdat gij misschien daaruit <lb n="110" xml:id="l-110"/>zien zult dat zij mij door te poseeren terdeeg helpt.<anchor n="9" xml:id="note-o-9"/>
+                </ab>
+                <lb n="111" xml:id="l-111"/>
+<ab rend="indent">Mijn teekeningen zijn “van mijn model &amp; mij”<c type="kp">_</c>
+                </ab>
+                <lb n="112" xml:id="l-112"/>
+<ab rend="indent">Die met de witte muts is haar moeder<c type="kp">_</c>
+                    <anchor n="10" xml:id="note-o-10"/>
+                </ab>
+                <lb n="113" xml:id="l-113"/>
+<ab rend="indent">Aangezien ik echter over een jaar, als ik waarschijnlijk heel anders <lb n="114" xml:id="l-114"/>zal werken<c type="kk">/</c> op de studies welke ik <hi rend="ital">nu</hi> maak zoo conscientieus als ik maar <lb n="115" xml:id="l-115"/>kan mij moet baseeren<c type="kk">/</c> zou ik deze drie althans wel weer terug willen hebben. <lb n="116" xml:id="l-116"/>Gij ziet dat ze met zorg gemaakt zijn. Heb ik later een interieur of een wachtkamer of <lb n="117" xml:id="l-117"/>zooiets dan komen deze mij te pas omdat ik alsdan ze moet raadplegen voor de details<c type="kp">_</c>
+                </ab>
+                <lb n="118" xml:id="l-118"/>
+<ab rend="indent">Doch ik dacht dat het misschien goed was gij op de hoogte waart van hoe <lb n="119" xml:id="l-119"/>ik mijn tijd besteed. Die studies brengen mee dat zij ietwat droog gedaan <lb n="120" xml:id="l-120"/>zijn, had ik hier op effekt gewerkt zij zouden mij later minder nuttig zijn.</ab>
+                <lb n="121" xml:id="l-121"/>
+<ab rend="indent">Doch ik denk gij zult dit zelf wel vatten<c type="kp">_</c> Het papier dat ik eigentlijk t’liefst <lb n="122" xml:id="l-122"/>zou hebben is hetgeen waarop dat voorovergebogene vrouwenfiguur<anchor n="11" xml:id="note-o-11"/> geteekend is doch <lb n="123" xml:id="l-123"/>indien mogelijk van de kleur van ongebleekt linnen. Ik heb er niets meer van <hi rend="ital">van die dikte</hi>
+                    <c type="kk">/</c> <lb n="124" xml:id="l-124"/>ik geloof men noemt het <hi rend="ital">dubbel</hi> Ingres. Ik kan er hier niets meer van krijgen. Als gij ziet hoe die <lb n="125" xml:id="l-125"/>teekening gedaan is begrijpt gij dat het dunne ’t moeielijk kan doorstaan. Ik had er nog een klein figuurtje <lb n="126" xml:id="l-126"/>in zwart merinos willen bijdoen doch kan ’t niet rollen.<anchor n="12" xml:id="note-o-12"/> De stoel bij het groote figuur is niet afgewerkt omdat ik daar een ouden eikenhouten stoel op wil <lb n="127" xml:id="l-127"/>brengen.</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-25" n="25">gevonden”<c type="kp">_</c> &lt; gevonden</note>
+<note target="l-27" n="27">bij”.– &lt; bij.–</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>I give you leave to say what you like to <rs type="pers" key="323">Mauve</rs> about the contents of this letter, but it doesn’t have to go any further.</ab>
+<vg:whiteline/>
+<ab>My dear Theo,</ab>
+<ab>Today I met <rs type="pers" key="323">Mauve</rs> and had a very regrettable conversation with him which made it clear to me that Mauve and I have parted ways for ever. Mauve has gone so far that he can’t retract it, or at least certainly wouldn’t want to. I asked him to come and see my work and talk things over afterwards. Mauve refused outright, ‘I certainly won’t come to see you, it’s over and done with’.</ab>
+<ab rend="indent">In the end he said, ‘you have a vicious character’. At that point I turned around – it was in the dunes – and walked home alone.</ab>
+  <ab rend="indent">
+                    <rs type="pers" key="323">Mauve</rs> blames me for saying, I’m an artist<anchor n="1" xml:id="note-t-1"/> – which I won’t take back, because those words naturally imply always seeking without ever fully finding. It’s the exact opposite of saying, ‘I know it already, I’ve already found it’. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> To the best of my knowledge, those words mean ‘I seek, I pursue, my heart is in it’. I do have ears, Theo – if someone says ‘you have a vicious character’, what should I do? I turned around and went back alone, but with great sorrow in my heart because Mauve dared to say that to me. <hi rend="ital">I</hi> won’t ask him to explain such a thing to me, nor will I apologize.</ab>
+  <ab rend="indent">And yet – and yet – and yet. I wish that <rs type="pers" key="323">Mauve</rs> regretted it. People suspect me of something... it’s in the air... I must be hiding something... Vincent is keeping something back that may not be divulged.. Well, gentlemen, I’ll tell you – you who set great store by manners and culture, and rightly so, provided it’s the real thing – what is more cultured, more sensitive, more manly: to forsake a woman or to take on a forsaken one?<anchor n="2" xml:id="note-t-2"/> 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/>
+                </ab>
+<ab rend="indent">This winter I met a <rs type="pers" key="463">pregnant woman</rs>, abandoned by the man whose child she was carrying.<anchor n="3" xml:id="note-t-3"/>
+                </ab>
+<ab rend="indent">A pregnant woman who roamed the streets in winter – who had to earn her bread, you can imagine how.</ab>
+<ab rend="indent">I took that woman as a model and worked with her the whole winter. I couldn’t give her a model’s full daily wage, but all the same, I paid her rent and have until now been able, thank God, to preserve her and her <rs type="pers" key="467">child</rs> from hunger and cold by sharing my own bread with her. When I met this woman, she caught my eye because she looked ill.</ab>
+<ab rend="indent">I made her take baths and as much fortifying remedies as I could afford, she’s become much healthier. I went with her to Leiden, where there’s a maternity hospital<anchor n="4" xml:id="note-t-4"/> she’ll go to for her confinement. No wonder she was ill, the <rs type="pers" key="467">child</rs> was the wrong way round and she had to have an operation, which entailed turning the child with forceps. Still, there’s a good chance that she’ll come through it all right. <hi rend="ital">She’ll have the baby in June</hi>.</ab>
+<ab rend="indent">It seems to me that any man worth the leather his shoes are made of would have done the same in such circumstances. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> I find what I did so simple and natural that I thought I could keep it to myself. She found posing difficult, but she learned it anyway. I’ve progressed with my drawing by having a good model. This woman is now attached to me like a tame dove – for my part, I can marry only once, and when would be a better time to do it than with her, because only by doing so can I continue to help her, and otherwise hardship will make her take the same road that ends in the abyss. She has no money, but she helps me to earn money in my work. I’m full of enthusiasm and ambition for my profession and work, if I left off painting and making watercolours for a while, it’s because I was so shaken by <rs type="pers" key="323">Mauve</rs>’s forsaking me, and if he really were to reconsider, I’d begin again with courage. As it is, I can’t even look at a brush, it makes me nervous.<anchor n="5" xml:id="note-t-5"/>
+                </ab>
+  <ab rend="indent">I wrote: Theo, can you enlighten me as to <rs type="pers" key="323">Mauve</rs>’s attitude<anchor n="6" xml:id="note-t-6"/> – perhaps this letter will enlighten you. You’re my brother, it’s natural that I speak to you about private matters, but someone who says to me, you have a vicious character, I stop speaking to him from that very moment.</ab>
+<ab rend="indent">I couldn’t do otherwise, I did what the hand found to do,<anchor n="7" xml:id="note-t-7"/> I worked. I thought I would be understood without words. I was in fact thinking of another woman for whom my heart beats – but she was far away and didn’t want to see me,<anchor n="8" xml:id="note-t-8"/> and this one – there she was, ill, pregnant, hungry – in the winter. I couldn’t do otherwise. <rs type="pers" key="323">Mauve</rs>, Theo, <rs type="pers" key="787">Tersteeg</rs>, you all have my livelihood in your hands, will you leave me penniless or turn your backs on me – now I’ve spoken and shall wait to hear what's said to me.</ab>
+<vg:whiteline/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<ab>
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/>
+                </ab>
+<ab>I’m sending you a couple of studies, because perhaps you’ll see from them that she helps me greatly by posing.<anchor n="9" xml:id="note-t-9"/>
+                </ab>
+<ab rend="indent">My drawings are ‘by my model and me’.</ab>
+<ab rend="indent">The one with the white cap is her <rs type="pers" key="464">mother</rs>.<anchor n="10" xml:id="note-t-10"/>
+                </ab>
+<ab rend="indent">Considering, however, that in a year, when I’ll probably be working very differently, I’ll have to base myself on the studies I’m making <hi rend="ital">now</hi> as conscientiously as I possibly can, I’d like to have these three back in any case. You see that they’ve been made with care. If I later have an interior or a waiting room or some such thing, these will be of use to me because I’ll have to consult them for the details.</ab>
+<ab rend="indent">But I thought it might be good for you to know how I spend my time. These studies demand a rather dry technique, if I’d concentrated here on the effect they’d be less useful to me later on.</ab>
+<ab rend="indent">But I think you’ll understand this yourself. The paper I’d actually like to have most is the kind on which the female figure is drawn bending forwards,<anchor n="11" xml:id="note-t-11"/> but if possible of the colour of unbleached linen. I have no more of it <hi rend="ital">in that thickness</hi>, I believe one calls it <hi rend="ital">double</hi> Ingres. I can’t get any more of it here. When you see how that drawing is done, you’ll understand that the thin kind can barely take it. I wanted to include a small figure in black merino, but I can’t roll it.<anchor n="12" xml:id="note-t-12"/> The chair by the large figure isn’t finished because I’d like to put an old oak chair there.</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>This could be an allusion to <rs type="pers" key="961">Correggio</rs>’s utterance ‘anch’io sono pittore’ (I, too, am a painter), which Van Gogh quoted in a recent letter (<ref target="let214.xml#n-3">see letter 214, n. 3</ref>).</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>Van Gogh quotes an analogous line of reasoning used by <rs type="pers" key="868">Theophile de Bock</rs> in <ref target="let175.xml">letters 175</ref> and <ref target="let176.xml">176</ref>.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>This is the first time that Van Gogh reveals the identity of his model, <rs type="pers" key="463">Clasina (Sien, Christien) Maria Hoornik</rs>; for what is possibly the first reference to her, <ref target="let207.xml">see letter 207</ref>. His attitude towards fallen women and his ideas about domestic and social issues and the sanctity of the nuclear family, concur with what he had read in <rs type="pers" key="707">Michelet</rs> (particularly <rs type="lit" key="12">
+                            <hi rend="ital">La femme</hi>
+                        </rs>) and gleaned from English magazines. See Zemel 1987.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>
+                        <rs type="pers" key="463">Sien</rs> eventually had her baby in the Academisch Ziekenhuis (teaching hospital) in Leiden, a town c. 10 miles north-west of The Hague. There she was treated by the director of the clinic, the professor of obstetrics Abraham Everard Simon Thomas (Van Gogh Museum, Documentation).</ab>
+                </note>
+<note n="a" xml:id="n-a" target="#note-o-a">
+<ab>Meaning: ‘uiteindelijk zal gaan bevallen’ (will eventually give birth).</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>Van Gogh later added the sentence ‘As it is... nervous’.</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>
+  <ref target="let219.xml">See letter 219</ref> for an earlier mention of <rs type="pers" key="323">Mauve</rs>’s changed attitude. </ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Eccl" chap="9" v="10">Eccl. 9:10</bibleref>.</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>This is a reference to <rs type="pers" key="776">Kee Vos</rs>.</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>The ‘couple of studies’ (a bit further on Van Gogh says <hi rend="ital">three</hi>) are probably: 1. <hi rend="ital">Seated woman </hi>(<rs type="ill" key="3033">F 935 / JH 143</rs>) or <hi rend="ital">Seated woman </hi>(<rs type="ill" key="3034">F 937 / JH 144</rs>); 2. <hi rend="ital">Woman sewing</hi> (<rs type="ill" key="2372">F 932 / JH 145</rs>) – Van Gogh goes on to say that ‘the chair by the large figure isn’t finished’, which clearly refers to this drawing – and 3. the portrait of <rs type="pers" key="464">Sien’s mother</rs> (<ref target="#n-10">see n. 10</ref>). The drawings are ‘all on rather heavy Ingres paper’ and ‘the paper used is of the same quality as the other drawings of this group’. See cat. Otterlo 2007, pp. 120, 124-126, and exhib. cat. The Hague 2005, pp. 172-174.</ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>Sien’s mother was <rs type="pers" key="464">Maria Wilhelmina Hoornik-Pellers</rs>. The drawing <hi rend="ital">Woman with a white bonnet</hi> (<rs type="ill" key="2355">F 1009a / JH 106</rs>), which could be a portrait of her, is dated by Hulsker to March 1882. Vincent might have sent the drawing to Theo to prove that Sien’s family were useful as models. Cf. <ref target="let212.xml#n-4">letter 212, n. 4.</ref>
+                    </ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>Because Van Gogh sent <hi rend="ital">three</hi> studies, this figure must have been one of the two called <hi rend="ital">Seated woman</hi> (<ref target="#n-9">see n. 9</ref>).</ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+<ab>For female figures in black merino, cf. <ref target="let222.xml#n-24">letter 222, n. 24.</ref>
+                    </ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

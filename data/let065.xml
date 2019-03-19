@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Paris, Monday, 10 January 1876.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let065"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">065</idno>
+<idno type="collectedletters">50</idno>
+<idno type="brieven1990">064</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Paris</vg:placeLet>
+                        <vg:dateLet>Monday, 10 January 1876</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. Paris, Monday, 10 January 1876.</p>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b63 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Letter headed: ‘<hi rend="ital">[</hi>Paris, le<hi rend="ital">]</hi> 10 Januarij <hi rend="ital">[</hi>187<hi rend="ital">]</hi>5.’ Van Gogh mistakenly wrote ‘1875’ instead of ‘1876’ at the beginning of the new year.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0063" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000066_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000066_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000066_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+    <graphic mimeType="image/tiff" url="VGM001000066_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000066_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000066_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+            <zone xml:id="zone-pb-1r-2">
+        <graphic mimeType="image/tiff" url="VGM001000066_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000066_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000066_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0063" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000066_02.TIF" rend="norend"/>
+    <graphic mimeType="image/tiff" url="VGM001000066_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000066_02_nt.jpg" height="50px" rend="thumbnail"/>
+        </surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>
+                    <vg:suppliedMilestone type="open"/>Goupil &amp; C<hi rend="ss">ie</hi>
+                </ab>
+                <lb n="2" xml:id="l-2"/>
+<ab>Editeurs Imprimeurs</ab>
+                <lb n="3" xml:id="l-3"/>
+<ab>Estampes Françaises &amp; Étrangères</ab>
+                <lb n="4" xml:id="l-4"/>
+<ab>Tableaux Modernes</ab>
+                <lb n="5" xml:id="l-5"/>
+<ab>Rue Chaptal, 9, PARIS.</ab>
+                <lb n="6" xml:id="l-6"/>
+<ab>Succursales à la Haye, Londres, Berlin, New-York.</ab>
+<vg:whiteline/>
+                <lb n="7" xml:id="l-7"/>
+<ab>Paris, le<vg:suppliedMilestone type="close"/> 10 Januarij <supplied>187</supplied>5.<anchor n="1" xml:id="note-o-1"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="8" xml:id="l-8"/>
+<ab>Waarde Theo,</ab>
+                <lb n="9" xml:id="l-9"/>
+<ab>Sedert wij elkander zagen schreef ik U nog niet; <lb n="10" xml:id="l-10"/>er viel in dien tijd iets voor wat mij niet geheel on<c type="shy">-</c>
+                    <lb n="11" xml:id="l-11"/>verwacht overkwam.─</ab>
+                <lb n="12" xml:id="l-12"/>
+<ab rend="indent">Toen ik de H<hi rend="ss">r</hi> Boussod weer zag vroeg ik of ZEd. ’t immers <lb n="13" xml:id="l-13"/>goed vond ik ook dit jaar weder in het huis zou werkzaam <lb n="14" xml:id="l-14"/>zijn en dat ZEd<c type="kp">_</c> immers niets zoo heel ernstigs op <lb n="15" xml:id="l-15"/>mij te zeggen had.─</ab>
+                <lb n="16" xml:id="l-16"/>
+<ab rend="indent">’t Laatste was echter wel het geval en ZEd. haalde mij <lb n="17" xml:id="l-17"/>als het ware de woorden uit den mond dat ik dan <lb n="18" xml:id="l-18"/>met 1<hi rend="ss">0</hi> April zou heengaan, de Heeren dankende voor <lb n="19" xml:id="l-19"/>wat ik in Hun huis mocht geleerd hebben.<anchor n="2" xml:id="note-o-2"/>
+                </ab>
+                <lb n="20" xml:id="l-20"/>
+<ab rend="indent">Wanneer de appel rijp is doet een zacht windje dien <lb n="21" xml:id="l-21"/>van den boom vallen, zoo is het ook hier; ik heb <lb n="22" xml:id="l-22"/>wel dingen gedaan die in zekeren zin zeer ver<c type="shy">-</c>
+                    <lb n="23" xml:id="l-23"/>keerd waren en heb daarom maar weinig <lb n="24" xml:id="l-24"/>te zeggen.─</ab>
+<pb f="1r" n="2" xml:id="pb-orig-1r-2" facs="#zone-pb-1r-2"/>
+                <lb n="25" xml:id="l-25"/>
+<ab rend="indent">En nu jongen, wat ik beginnen moet is mij betrek<c type="shy">-</c>
+                    <lb n="26" xml:id="l-26"/>kelijk zeer duister, tot nog toe, maar wij willen <lb n="27" xml:id="l-27"/>hoop en moed zien te behouden.</ab>
+                <lb n="28" xml:id="l-28"/>
+<ab rend="indent">Wees zoo goed dit briefje aan den Hr. Tersteeg <lb n="29" xml:id="l-29"/>te laten lezen, ZEd<c type="kp">_</c> mag het wel weten, maar <lb n="30" xml:id="l-30"/>het is, geloof ik, beter gij er voor ’t oogenblik tegen <lb n="31" xml:id="l-31"/>geen mensch anders er over spreekt, en maar <lb n="32" xml:id="l-32"/>doet als of er niets gaande was.─</ab>
+                <lb n="33" xml:id="l-33"/>
+<ab rend="indent">Schrijf maar eens spoedig weer en geloof mij <lb n="34" xml:id="l-34"/>steeds,</ab>
+<vg:whiteline/>
+                <lb n="35" xml:id="l-35"/>
+<ab>Uw liefh. broeder</ab>
+                <lb n="36" xml:id="l-36"/>
+<ab>Vincent.</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-1" targetEnd="l-7" n="1-7">
+                        <hi rend="ital">Printed letterhead.</hi>
+                    </note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>[Letterhead: Goupil Paris]</ab>
+<vg:whiteline/>
+<ab>Paris, 10 January 1875.<anchor n="1" xml:id="note-t-1"/>
+                </ab>
+<vg:whiteline/>
+<ab>My dear Theo,</ab>
+<ab>I haven’t written to you since we saw each other; in the meantime something has happened that didn’t come as a total surprise to me.</ab>
+<ab rend="indent">When I saw <rs type="pers" key="303">Mr Boussod</rs> again I asked if His Hon. indeed thought it a good thing for me to go on working in the firm this year, since His Hon. had never had any very serious complaints against me.</ab>
+<ab rend="indent">The latter was indeed the case, though, and His Hon. took the words out of my mouth, so to speak, saying that I would leave on 1 April, thanking the gentlemen for anything I might have learned in their firm.<anchor n="2" xml:id="note-t-2"/>
+                </ab>
+<ab rend="indent">When an apple is ripe, all it takes is a gentle breeze to make it fall from the tree, it’s also like that here. I’ve certainly done things that were in some way very wrong, and so have little to say. 
+<pb f="1r" n="2" xml:id="pb-trans-1r-2" facs="#zone-pb-1r-2"/>
+                </ab>
+<ab rend="indent">And now, old boy, so far I’m really rather in the dark about what I should do, but we must try and keep hope and courage alive.</ab>
+<ab rend="indent">Be so good as to let <rs type="pers" key="787">Mr Tersteeg</rs> read this letter, His Hon. may know it, but I believe it’s better that you speak to no one else of it for the time being, and behave as if nothing is going on.</ab>
+<ab rend="indent">Do write again soon, and believe me ever,</ab>
+<vg:whiteline/>
+<ab>Your loving brother</ab>
+<ab>Vincent. </ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>The year should read 1876; see <hi rend="ital">Date</hi>.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>Van Gogh’s future had been a subject of discussion during his stay with his <rs type="pers" key="524 526">parents</rs> in December. This prompted Mr van Gogh to write on 31 December 1875 to Theo: ‘What will happen to Vincent, we do not know yet. He is certainly <hi rend="ital">not</hi> happy. I believe it is not the right place for him there. We had a private chat to discuss matters. Yesterday he went to <rs type="pers" key="422">Uncle Cor</rs> to talk things over with him as well, he is after all a businessman. I almost think I will have to advise Vincent to hand in his resignation in about 2 or 3 months (this in confidence!). ... There is so much good in Vincent. For that reason, though, it might be better to make a change in his position.’ The letter closes with a postscript: ‘Vincent is back. Uncle Cor advised against it. We shan’t hurry things – all of this in complete confidence between the two of us!’ (FR b2385).</ab>
+<ab rend="indent">Vincent returned to Paris on Monday, 3 January, and the next day Mr van Gogh wrote to Theo: ‘But how happy and grateful we are that you take pleasure in your work. If only V. had that too! His outlook on life does tend to be a bit too morbid.</ab>
+<ab rend="indent">When he enthuses so much about the pale hues of <rs type="pers" key="1202 1203">Maris</rs>’s paintings, I wish his taste would incline more towards the expression of more vigorous life, of stronger or more vivid colours, even if it were below the norm.</ab>
+<ab rend="indent">He left yesterday morning at half past eight, and thought it better not to decide straightaway about changing jobs. He has promised, however, to keep a close eye on what awaits him there, and to try and act wisely. We hope for the best, but are not without worry. There is a lot of eccentricity in him, but much good as well. We keep our sights fixed on God. He can put worries and troubles to shame’ (FR b2225, 4 January 1876).</ab>
+<ab rend="indent">Mr van Gogh also wrote about this matter to <rs type="pers" key="401">Lies</rs>, who then told Theo: ‘Pa says that although he is irreproachable, he lacks the strength to get ahead on his own and to get a grip on himself’ (9 January 1876, FR b2226).</ab>
+<ab rend="indent">When Vincent had had his talk with <rs type="pers" key="303">Boussod</rs> and had told his parents of his dismissal, Mr van Gogh again poured his heart out to Theo: ‘This business with Vincent continues to worry us terribly. On the 4th of this month he wrote to say that when he went to wish Mr Boussod a happy new year, the meeting turned very unpleasant. For one thing, his going home at the end of the year had been very much resented. Indeed, he should not have done so, but it seems he was very determined. After that meeting, according to him, he had no choice but to resign as from April 1st. ... Though we do not forget that God can be our support and help even now, we are terribly grieved about everything. How much he has spurned! What bitter sorrow for <rs type="pers" key="423">Uncle Cent</rs>. What a bitter experience. We are glad that we live in relative isolation here and would really like to shut ourselves in. It is an unspeakable sorrow. I advised him today – after making it clear to him that he should not have left his work for any reason whatsoever at the end of the year, when it became apparent to him that he was needed – that he should tell Mr Boussod frankly that he regretted his error.’</ab>
+<ab rend="indent">Later in the letter Mrs van Gogh takes the pen: after first expressing her disappointment, she writes: ‘what a disappointment for you too, dear Theo, we can understand you commiserate with us, we see no light, but know that the good Lord has so often given it, when things were very bleak. We will hope for it; Uncle Cor, to whom Vincent also wrote, sent us a very sympathetic answer, but could offer no help either, certainly not in his firm’ (FR b2227). The close of the letter seems to indicate that Uncle Cor had said he had no place for Vincent in his own art dealership in Amsterdam.</ab>
+<ab rend="indent">Four days later it became apparent that Vincent had had another talk with Boussod, about which Mr van Gogh wrote: ‘I had advised him to speak to Mr Boussod, and he did so, and was not received unfavourably ... There is certainly a lot of good in him. If only he could acquire a bit more tact to make an agreeable impression’ (FR b2228). Vincent had not intended to resign, as emerges from a remark made by Mr van Gogh on 3 January 1876 in a letter to Theo: ‘he means to stay there, but will decide later what seems best’ (FR b2224). His dismissal was not rescinded, however.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

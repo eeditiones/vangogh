@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>Paul Gauguin to Vincent van Gogh. Pont-Aven, between about Saturday, 17 and about Monday, 19 March 1888.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let586"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">586</idno>
+<idno type="collectedletters">GAC 29</idno>
+<idno type="brieven1990">588</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Paul Gauguin</author>
+                        <vg:addressee>Vincent van Gogh</vg:addressee>
+                        <vg:placeLet>Pont-Aven</vg:placeLet>
+                        <vg:dateLet>between about Saturday, 17 and about Monday, 19 March 1888</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>Paul Gauguin to Vincent van Gogh. Pont-Aven, between about Saturday, 17 and about Monday, 19 March 1888.</p>
+<note type="ongoingTopic" n="1">
+<p>Gauguin’s illness <ref target="let581.xml">(581)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b840 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Gauguin thanks Van Gogh for his reply to <ref target="let581.xml">letter 581</ref> of about 29 February 1888. Cooper dated the present letter to about 19 March 1888; Merlhès to about 14-16 March; but neither put forward any arguments for this. In any event the letter dates from before about 21 March since this is when Vincent sent it on to Theo, enclosed with <ref target="let588.xml">letter 588</ref>. Since Gauguin complains of the ‘continual wind and rain’ <ref target="#l-19">(l. 19)</ref> and the wind began to strengthen in the west in the evening of the 16th, we have dated the letter between about Saturday, 17 and about Monday, 19 March 1888. See <hi rend="ital">Gauguin lettres</hi> 1983, p. 209, <hi rend="ital">Correspondance Gauguin</hi> 1984, p. 174 and <hi rend="ital">Météo-France</hi>.</p>
+                    </note>
+<note type="additionalDetail" xml:id="additionalDetail">
+<p>The letter was sent on to Theo with <ref target="let588.xml">letter 588</ref>.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0840" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001001126_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001001126_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001126_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001126_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0840" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001001126_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001001126_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001126_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001126_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Mon cher Vincent </ab>
+                <lb n="2" xml:id="l-2"/>
+                <ab>Merci de m’avoir répondu;<anchor n="1" xml:id="note-o-1"/> <lb n="3" xml:id="l-3"/>je vois que vous êtes en bon <lb n="4" xml:id="l-4"/>endroit pour étudier le soleil <lb n="5" xml:id="l-5"/>qui vous charme et vous <lb n="6" xml:id="l-6"/>travaillez d’autant mieux que <lb n="7" xml:id="l-7"/>le sujet vous empoigne<c type="kp">_</c>– Merci <lb n="8" xml:id="l-8"/>encore de vos bonnes intentions <lb n="9" xml:id="l-9"/>à mon égard;<anchor n="2" xml:id="note-o-2"/> le commerce de <lb n="10" xml:id="l-10"/>tableaux est si dur à notre époque<c type="kp">_</c>– <lb n="11" xml:id="l-11"/>Quoique cela je suis ici dans <lb n="12" xml:id="l-12"/>les transes perpetuelles; les ennuis <lb n="13" xml:id="l-13"/>d’argent sont les seuls qui ont <lb n="14" xml:id="l-14"/>de l’action sur moi et malheu<c type="shy">-</c>
+                    <lb n="15" xml:id="l-15"/>reusement je me crois destiné à 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                    <lb n="16" xml:id="l-16"/>toujours les subir<c type="kp">_</c>–</ab>
+                <lb n="17" xml:id="l-17"/>
+<ab rend="indent">Pont Aven est en ce moment <lb n="18" xml:id="l-18"/>très triste par suite du mauvais <lb n="19" xml:id="l-19"/>temps<c type="kk">/</c> vents et pluies continuelles<c type="kk">/</c> <lb n="20" xml:id="l-20"/>et j’attends les beaux jours pour <lb n="21" xml:id="l-21"/>me remettre au travail que j’ai <lb n="22" xml:id="l-22"/>un peu abandonné par suite <lb n="23" xml:id="l-23"/>de maladie<c type="kp">_</c>–</ab>
+                <lb n="24" xml:id="l-24"/>
+<ab rend="indent">Cordialement la main<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="25" xml:id="l-25"/>
+<ab>Paul Gauguin</ab> <vg:whiteline/>
+                <lb n="26" xml:id="l-26"/>
+<ab>Pont Aven – pension Gloanec</ab>
+<vg:whiteline/>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Vincent</ab>
+<ab>Thank you for replying;<anchor n="1" xml:id="note-t-1"/> I see that you’re in a good spot to study the sun that enchants you, and you’re working all the better because the subject grips you.  Thank you again for your good will towards me;<anchor n="2" xml:id="note-t-2"/> the trade in paintings is so hard in our day and age. Despite that, I’m in a state of constant agony here; money worries are the only ones that have an effect on me, and unfortunately 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> I believe I’m fated always to suffer from them. </ab>
+<ab rend="indent">Pont-Aven is very dreary at the moment because of the bad weather, continual wind and rain, and I’m waiting for the fine days to get back to work, which I’ve neglected a bit owing to illness.</ab>
+<ab rend="indent">A cordial handshake.</ab>
+<vg:whiteline/>
+<ab>
+                    <rs type="pers" key="1039">Paul Gauguin</rs>
+                </ab>
+    <vg:whiteline/>
+<ab>Pont-Aven — Pension Gloanec</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>This letter – Van Gogh’s reply to <rs type="pers" key="1039">Gauguin</rs>’s <ref target="let581.xml">letter 581</ref> – has not survived.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>Vincent had urged Theo to do his best to sell <rs type="pers" key="1039">Gauguin</rs>’s work, and had given <rs type="pers" key="1334">Russell</rs> and Gauguin each other’s addresses in the hope that Russell might buy a painting from Gauguin. <ref target="let582.xml">See letter 582</ref> and <ref target="let583.xml">583</ref>.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

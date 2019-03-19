@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Amsterdam, Friday, 3 August 1877.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let125"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">125</idno>
+<idno type="collectedletters">104</idno>
+<idno type="brieven1990">124</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Amsterdam</vg:placeLet>
+                        <vg:dateLet>Friday, 3 August 1877</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. Amsterdam, Friday, 3 August 1877.</p>
+<note type="ongoingTopic" n="1">
+<p>Anna van Gogh and Joan van Houten’s visit to Amsterdam <ref target="let123.xml">(123)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="2">
+<p>Visit paid by family members to Uncle Jan <ref target="let123.xml">(123)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b123 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Letter headed: ‘Amsterdam 3 Aug. 1877’.</p>
+                    </note>
+<note type="additionalDetail" xml:id="additionalDetail">
+<p>This letter was sent, together with the letter of condolence <ref target="let124.xml">124</ref> , to H.G. Tersteeg, who handed it over to Theo; see the letter’s postscript.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0123" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000132_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000132_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000132_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000132_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0123" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000132_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000132_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000132_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000132_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Amsterdam 3 Aug. 1877</ab>
+<vg:whiteline/>
+                <lb n="2" xml:id="l-2"/>
+<ab>Waarde Theo,</ab>
+                <lb n="3" xml:id="l-3"/>
+<ab>Dank voor Uw laatste schrijven, waar ik blijde mede was en waarvoor hartelijk dank<c type="kp">_</c> <lb n="4" xml:id="l-4"/>Wat Gij schrijft over het verlies van den Heer Tersteeg, dat namelijk zijn <lb n="5" xml:id="l-5"/>jongste kindje is gestorven,<anchor n="1" xml:id="note-o-1"/> heeft mij getroffen en het was mij behoefte hem eens <lb n="6" xml:id="l-6"/>weder te schrijven.</ab>
+                <lb n="7" xml:id="l-7"/>
+<ab rend="indent">Gisteren een brief van Anna die heden 12.45 komt met van Houten, ben <lb n="8" xml:id="l-8"/>zeer verlangend hen te ontmoeten, op U schijnt hij even als op allen te huis <lb n="9" xml:id="l-9"/>een goeden indruk te hebben gemaakt, wij moeten het maar als eene goede <lb n="10" xml:id="l-10"/>aanwinst beschouwen.</ab>
+                <lb n="11" xml:id="l-11"/>
+<ab rend="indent">Gij zijt dus bij Mauve geweest en hebt het er goed gehad<c type="kk">/</c> <hi rend="ital">hebt gij nog bij hen zijnde</hi> <lb n="12" xml:id="l-12"/>
+                    <hi rend="ital">geteekend?</hi> Bij Weissenbruch was ik ook eens op het atelier, een paar dagen <lb n="13" xml:id="l-13"/>voor mijn eerste vertrek naar Londen en de herinnering aan wat ik daar <lb n="14" xml:id="l-14"/>zag van studies en schilderijen is mij nog zeer duidelijk even als die aan den <lb n="15" xml:id="l-15"/>man zelven.─<anchor n="2" xml:id="note-o-2"/> Vertel eens iets van de tentoonstelling die gisteren <lb n="16" xml:id="l-16"/>zal zijn geopend<anchor n="3" xml:id="note-o-3"/> als gij weer schrijft, wat zouden de artisten hier op de werf veel <lb n="17" xml:id="l-17"/>dat geschikt is om geschilderd te worden kunnen vinden. D<hi rend="ss">s</hi> Meyes was eenige dagen <lb n="18" xml:id="l-18"/>geleden hier met 2 zijner zoons<anchor n="4" xml:id="note-o-4"/> en Oom gaf ons permissie om de werf en de werkplaatsen te gaan zien, de <lb n="19" xml:id="l-19"/>smederijen enz<c type="kp">_</c> waren nu natuurlijk aan den gang, dien zondag dat wij er zamen waren stond alles <lb n="20" xml:id="l-20"/>daar stil, was ook met Oom Pompe en Jan<anchor n="5" xml:id="note-o-5"/> op het wachtschip de Wassenaar<anchor n="6" xml:id="note-o-6"/> dat ook zeer <lb n="21" xml:id="l-21"/>interessant is. Deze week was het huis hier vol volk<c type="kk">/</c> Oom en Tante Pompe en Jan<c type="kk">/</c> Oom Cor en Vincent<c type="kk">/</c>
+                    <anchor n="7" xml:id="note-o-7"/> <lb n="22" xml:id="l-22"/>Fanny en Bet s’Graeuwen en Bertha van Gogh<anchor n="8" xml:id="note-o-8"/> uit Haarlem, laatstgenoemde is een zeer lief meiske<c type="kp">_</c> </ab>
+                <lb n="23" xml:id="l-23"/>
+<ab rend="indent">Was ll. Zondag in de vroegkerk bij D<hi rend="ss">s</hi> Hazebroek<anchor n="9" xml:id="note-o-9"/> en des morgens weer in die Oude zijds kapel <lb n="24" xml:id="l-24"/>waarvan ik U reeds vertelde<c type="kp">_</c> D<hi rend="ss">s</hi> v<c type="kp">_</c> Marken<anchor n="10" xml:id="note-o-10"/> preekte er zeer mooi over Matth. IX:9 &amp;c<c type="kp">_</c> Jezus <lb n="25" xml:id="l-25"/>zag eenen mensch in het tolhuis zitten genaamd Mattheus en zeide tot hem: Volg Mij<c type="kk">/</c> en <lb n="26" xml:id="l-26"/>over het volgende gedeelte van dat hoofdstuk: Jezus at met tollenaren en zondaren<c type="kp">_</c>─ Die gezond <lb n="27" xml:id="l-27"/>zijn hebben den medicijnmeester niet van noode maar die ziek zijn<c type="kp">_</c>─ Ik ben niet <lb n="28" xml:id="l-28"/>gekomen om te roepen regtvaardigen maar zondaars tot bekeering.─<anchor n="11" xml:id="note-o-11"/>
+                </ab>
+                <lb n="29" xml:id="l-29"/>
+<ab rend="indent">Zoo dag bij dag doe ik mijn best er mij in te werken en in het Latijn en Grieksch vooral en heb reeds heel wat themas <lb n="30" xml:id="l-30"/>gemaakt<c type="kk">/</c> zamengesteld uit zinnen die mij aan de oude schooldagen herinneren als bv. “Welken zeer uitstekenden <lb n="31" xml:id="l-31"/>wijsgeer hebben de Atheners ter dood veroordeeld? Den zeer braven en wijzen Socrates.─ Ons leven is zeer gelijk aan <lb n="32" xml:id="l-32"/>eene reis en blootgesteld aan zeer vele en zeer groote rampen en ongelukken. De natuur van <lb n="33" xml:id="l-33"/>Odysseus<c type="kk">/</c> en de druiven van den wijngaard”<c type="kp">_</c>
+                    <anchor n="12" xml:id="note-o-12"/> Dezen morgen was ik vroeg op<c type="kk">/</c> het had des nachts <lb n="34" xml:id="l-34"/>veel geregend maar zeer vroeg brak de zon door de wolken heen<c type="kk">/</c> de grond en de stapels hout en balken <lb n="35" xml:id="l-35"/>op de werf waren doornat en in de plassen weerkaatste de lucht geheel goud door de opkomende <lb n="36" xml:id="l-36"/>zon en om 5 uur zag men al die honderden werklieden als kleine zwarte figuurtjes overal heen <lb n="37" xml:id="l-37"/>zich verspreiden<c type="kp">_</c> Nog al dikwijls kom ik op de studeerkamer van Oom Stricker. Hij is <lb n="38" xml:id="l-38"/>zeer knap en bezit heel wat mooie boeken en heeft eene groote liefde voor <lb n="39" xml:id="l-39"/>zijn werk en betrekking. Had ll. Maandag een zeer opgewekten brief <lb n="40" xml:id="l-40"/>van Pa uit Helvoirt.<anchor n="13" xml:id="note-o-13"/>
+                </ab>
+                <lb n="41" xml:id="l-41"/>
+<ab rend="indent">Van huis hoorde ik dat Gij eene rekening van D<hi rend="ss">r</hi> Coster<anchor n="14" xml:id="note-o-14"/> hebt gekregen groot f<c type="kp">_</c> 40.─<c type="kk">/</c> dat <lb n="42" xml:id="l-42"/>is nog al een kruis en het betalen daarvan zal U herinneren aan <lb n="43" xml:id="l-43"/>het gevoel dat men heeft wanneer een kies getrokken wordt,<anchor n="15" xml:id="note-o-15"/> kon ik <lb n="44" xml:id="l-44"/>U maar wat bijstaan, maar dat ik goud noch zilver<anchor n="16" xml:id="note-o-16"/> heb dat weet gij wel. <lb n="45" xml:id="l-45"/>Door list moet ik aan geld voor de zakjes in de kerk komen dikwijls, b.v. door het <lb n="46" xml:id="l-46"/>in een tabakswinkel voor centen wisselen van postzegels, maar jongen<c type="kk">/</c> al worstelende <lb n="47" xml:id="l-47"/>blijven wij boven<anchor n="17" xml:id="note-o-17"/> en Gij weet dat van de armen in het koningrijk Gods wordt gezegd dat zij zalig zijn.─<anchor n="18" xml:id="note-o-18"/>
+                </ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="48" xml:id="l-48"/>
+<ab rend="indent">Telkens als ik oom Vincent weer zie<anchor n="19" xml:id="note-o-19"/> treft mij opnieuw iets onbeschrijfelijk liefs en <lb n="49" xml:id="l-49"/>ik zou zeggen goeds en geestigs dat in Hem is<c type="kk">/</c> wat het is weet ik niet<c type="kk">/</c> Pa heeft het <lb n="50" xml:id="l-50"/>nog veel meer en Oom Jan heeft het in een anderen vorm en in Oom Cor is het ook<c type="kk">/</c> <lb n="51" xml:id="l-51"/>onder honderd menschen zal men er niet altijd één vinden die aan hen herinnert<c type="kk">/</c> <lb n="52" xml:id="l-52"/>laat ons hun beeld en hunne gedachtenis maar bewaren. Zou het dat zijn wat Fenelon <lb n="53" xml:id="l-53"/>in zijn Telemaque als volgt beschrijft?<anchor n="20" xml:id="note-o-20"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="54" xml:id="l-54"/>
+<ab>Celui auquel il s’était adressé par hasard était un étranger qui avait un air majestueux <lb n="55" xml:id="l-55"/>mais cependant quelque chose de triste et d’abattu, il paraissait rêveur quelque fois<c type="kk">/</c> à d’autre temps <lb n="56" xml:id="l-56"/>il avait quelque chose soit de très décidé ou d’ému et d’agité. A peine écouta-t-il d’abord la <lb n="57" xml:id="l-57"/>question de Télémaque, mais enfin il répondit: Ulysse<c type="kk">/</c> vous ne vous trompez pas, a été reçu <lb n="58" xml:id="l-58"/>chez le roi Alcinous, comme en un lieu où l’on craint Dieu et où l’on exerce l’hospitalité <lb n="59" xml:id="l-59"/>mais il n’y est plus et vous le chercheriez inutilement, il est parti pour Ithaque, si les Dieux <lb n="60" xml:id="l-60"/>irrités<anchor n="21" xml:id="note-o-21"/> souffrent enfin qu’il puisse revoir ses Dieux pénates.─ Télémaque le regardait fixement<c type="kk">/</c> <lb n="61" xml:id="l-61"/>plus il le regardait<c type="kk">/</c> plus il était ému et étonné<c type="kp">_</c>─ Cet inconnu<c type="kk">/</c> disait-il à Mentor, m’a répondu comme <lb n="62" xml:id="l-62"/>un homme qui écoute à peine ce qu’on lui dit, et qui est plein d’amertume<c type="kp">_</c> Je plains les <lb n="63" xml:id="l-63"/>malheureux depuis que je le suis et je sens que mon coeur s’intéresse pour cet homme sans <lb n="64" xml:id="l-64"/>savoir pourquoi<c type="kp">_</c> Il m’a assez mal reçu, à peine a-t-il daigné m’écouter et me répondre<c type="kp">_</c> <lb n="65" xml:id="l-65"/>Alors Mentor lui dit<c type="kk">/</c> Je ne m’étonne point<c type="kk">/</c> mon cher Télémaque, de vous voir ému ainsi, la cause de <lb n="66" xml:id="l-66"/>votre douleur, qui vous est inconnue, ne l’est pas à Mentor, c’est la nature qui parle et qui se fait <lb n="67" xml:id="l-67"/>sentir, c’est elle qui attendrit votre coeur. L’inconnu qui vous a donné une si vive émotion est le <lb n="68" xml:id="l-68"/>grand Ulysse<c type="kp">_</c>─ Il s’en va tout droit à Ithaque, déjà il est bien près du port et il revoit enfin ces lieux <lb n="69" xml:id="l-69"/>si longtemps desirés<c type="kp">_</c> Vos yeux l’ont vu mais sans le connaître, bientôt vous le verrez et vous le <lb n="70" xml:id="l-70"/>connaîtrez ─ et il vous connaîtra mais maintenant les Dieux ne pouvaient permettre votre <lb n="71" xml:id="l-71"/>reconnaissance, hors d’Ithaque. Son coeur n’a pas été moins ému que le vôtre, il est trop sage pour <lb n="72" xml:id="l-72"/>se découvrir à nul mortel, dans un lieu où il pourrait être exposé à des trahisons. <lb n="73" xml:id="l-73"/>Ulysse<c type="kk">/</c> votre père<c type="kk">/</c> est le plus sage de tous les hommes, son coeur est comme un puits profond, on ne <lb n="74" xml:id="l-74"/>saurait y puiser son secret. Il aime la vérité, et ne dit jamais rien qui la blesse, mais il ne la dit <lb n="75" xml:id="l-75"/>que pour le besoin et la sagesse comme un sceau tient toujours ses lèvres fermées à toutes <lb n="76" xml:id="l-76"/>paroles inutiles<c type="kp">_</c> Combien a-t-il été emu en vous parlant! combien s’est il fait de violence <lb n="77" xml:id="l-77"/>pour ne point se decouvrir! que n’a-t-il point souffert en vous voyant<c type="kp">_</c> Voilà ce qui <lb n="78" xml:id="l-78"/>le rendit triste et abattu.─</ab>
+<vg:whiteline/>
+                <lb n="79" xml:id="l-79"/>
+<ab>En nu kerel, een hartelijken handdruk in gedachten<c type="kk">/</c> laat ons maar geloof blijven <lb n="80" xml:id="l-80"/>hebben in God en blijven aanbidden wat wij weten<c type="kk">/</c>
+                    <anchor n="22" xml:id="note-o-22"/> groet hen bij Mauve en als <lb n="81" xml:id="l-81"/>Gij anderen ziet<c type="kk">/</c> vooral ook Uwe huisgenooten<c type="kk">/</c> heb het zoo goed mogelijk<c type="kk">/</c> van harte wensch ik <lb n="82" xml:id="l-82"/>toe uitkomst te vinden voor de betaling van die rekening<c type="kk">/</c> à Dieu en geloof mij</ab>
+<vg:whiteline/>
+                <lb n="83" xml:id="l-83"/>
+<ab>Uw zoo liefh. broer</ab>
+                <lb n="84" xml:id="l-84"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-5" n="5">behoefte &lt; behoefe</note>
+<note target="l-42" n="42">het betalen &lt; die het betalen</note>
+<note target="l-76" n="76">Combien &lt; Combien,</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>Amsterdam, 3 Aug. 1877</ab>
+<vg:whiteline/>
+<ab>My dear Theo,</ab>
+<ab>Thanks for your last letter, which I was happy to receive and for which I heartily thank you. What you write about <rs type="pers" key="787">Mr Tersteeg</rs>’s loss, that his youngest child has died,<anchor n="1" xml:id="note-t-1"/> moved me, and I felt the need to start corresponding with him again.</ab>
+<ab rend="indent">Yesterday a letter from <rs type="pers" key="412">Anna</rs>, who arrives today at 12:45 with <rs type="pers" key="413">Van Houten</rs>, am very much looking forward to meeting them, he seems to have made a good impression on you, as he did on everyone at home, we must simply consider it an asset.</ab>
+<ab rend="indent">So you were at <rs type="pers" key="323">Mauve</rs>’s and had a good time there, <hi rend="ital">did you draw anything while you were there?</hi> I was also in <rs type="pers" key="1443">Weissenbruch</rs>’s studio once, a couple of days before my first trip to London, and the recollection of what I saw there in the way of studies and paintings is still very clear, as is that of the man himself.<anchor n="2" xml:id="note-t-2"/> When next you write, tell me something about the exhibition that will have opened yesterday,<anchor n="3" xml:id="note-t-3"/> how much the artists would be able to find here at the dockyard that’s fit to be painted. The <rs type="pers" key="575">Rev. Meijjes</rs> was here a few days ago with 2 of his sons,<anchor n="4" xml:id="note-t-4"/> and <rs type="pers" key="410">Uncle</rs> gave us permission to go and see the yard and the workshops, the forges and so on were of course in use, everything was standing still that Sunday we were there together. Was also with <rs type="pers" key="579">Uncle Pompe</rs> and <rs type="pers" key="177">Jan</rs>
+                    <anchor n="5" xml:id="note-t-5"/> on the guard-ship the Wassenaar,<anchor n="6" xml:id="note-t-6"/> which is also very interesting. This week the house here was full of people, <rs type="pers" key="579 502">Uncle and Aunt Pompe</rs> and <rs type="pers" key="177">Jan</rs>, <rs type="pers" key="422">Uncle Cor</rs> and <rs type="pers" key="400">Vincent</rs>,<anchor n="7" xml:id="note-t-7"/> <rs type="pers" key="438 439">Fanny and Bet ’s Graeuwen</rs> and <rs type="pers" key="419">Bertha van Gogh</rs>
+                    <anchor n="8" xml:id="note-t-8"/> from Haarlem, the last is a very sweet girl.</ab>
+<ab rend="indent">Went last Sunday to the early sermon given by the <rs type="pers" key="455">Rev. Hasebroek</rs>,<anchor n="9" xml:id="note-t-9"/> and again in the morning to that Oudezijdskapel I already told you about. The <rs type="pers" key="506">Rev. Van Marken</rs>
+                    <anchor n="10" xml:id="note-t-10"/> preached very beautifully on <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Matt" chap="9" v="9">Matth. IX:9</bibleref> &amp;c. Jesus saw a man, named Matthew, sitting at the receipt of custom: and he saith unto him, Follow Me, and in the next part of that chapter: Jesus ate with publicans and sinners. They that be whole need not a physician, but they that are sick. I am not come to call the righteous, but sinners to repentance.<anchor n="11" xml:id="note-t-11"/>
+                </ab>
+<ab rend="indent">So day by day I do my best to settle in, especially in Latin and Greek, and have already written quite a few themes, composed of phrases that remind me of the old school-days, such as ‘Which eminent philosopher was sentenced to death by the Athenians? The very good and wise <rs type="pers" key="754">Socrates</rs>. Our life is very similar to a journey, and open to very many and very great catastrophes and accidents. The nature of Odysseus, and the grapes of the vineyard’.<anchor n="12" xml:id="note-t-12"/> I was up early this morning, it had rained a lot during the night, but the sun broke through the clouds very early, the ground and the piles of timber and beams in the yard were drenched, and the sky reflected in the puddles was completely golden due to the rising sun, and at 5 o’clock one saw all those hundreds of workers looking like little black figures fanning out on all sides. I go to <rs type="pers" key="318">Uncle Stricker</rs>’s study quite a lot. He’s very clever and has lots of beautiful books, and he has a great love for his work and his position. Got a very cheerful letter last Monday from <rs type="pers" key="526">Pa</rs> in Helvoirt.<anchor n="13" xml:id="note-t-13"/>
+                </ab>
+<ab rend="indent">I heard from home that you got a bill from <rs type="pers" key="289">Dr Coster</rs>
+                    <anchor n="14" xml:id="note-t-14"/> for 40 guilders, that’s rather a burden, and paying it will remind you of the feeling one has when a tooth is pulled,<anchor n="15" xml:id="note-t-15"/> if only I could help you, but you know that I have neither gold nor silver.<anchor n="16" xml:id="note-t-16"/> I often have to use my cunning to get money for the collection at church, for example by exchanging stamps for cents at a tobacconist’s, but old boy, struggling we stay on top,<anchor n="17" xml:id="note-t-17"/> and you know that it is said of the poor in the kingdom of heaven that they are blessed.<anchor n="18" xml:id="note-t-18"/> 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">Every time I see <rs type="pers" key="423">Uncle Vincent</rs>
+                    <anchor n="19" xml:id="note-t-19"/> I’m moved by something indescribably kind and, I might say, something good and spirited in him, I don’t know what it is, <rs type="pers" key="526">Pa</rs> has much more of it still, and <rs type="pers" key="410">Uncle Jan</rs> has it in another form, and it’s in <rs type="pers" key="422">Uncle Cor</rs> as well, among a hundred people one wouldn’t always find even one who calls them to mind, do let us preserve their image and their memory. Could it be that which <rs type="pers" key="597">Fénelon</rs> describes as follows in his Télémaque?<anchor n="20" xml:id="note-t-20"/>
+                </ab>
+<vg:whiteline/>
+<ab>The man to whom he had by chance presented himself was a stranger, who had an air of majesty, and yet something that was sad and downcast; at times he appeared dreamy, at others he had something that was either very determined or excited and agitated. At first he hardly listened to Telemachus’s question, but at last he replied: You are not mistaken, Ulysses was received at the home of King Alcinous, as in a place where God is feared and hospitality is practised, but he is no longer there, and you would search for him in vain; he has departed for Ithaca, if indeed the angry Gods21 eventually permit him to see his household deities again. Telemachus looked at him intently; the longer he looked, the more moved and astonished he was. This stranger, he said to Mentor, answered me like a man who scarcely listens to what is said to him, and who is full of bitterness. I pity the unfortunate since I have become one of them, and I feel that my heart is drawn toward this man, without knowing why. He did not receive me well; he hardly deigned to listen to me, or to reply. And so Mentor said to him, I am not at all astonished, my dear Telemachus, to see you thus moved; the cause of your pain, who is a stranger to you, is not so to Mentor, it is nature that speaks and makes itself felt, it is nature that softens your heart. The stranger who caused you such strong emotion is the great Ulysses. He is sailing straight to Ithaca, he is already very close to port, and at last he sees again those places so long yearned for. Your eyes saw him, but without knowing him; soon you will see him and you will know him — and he will know you, but now the Gods could not allow you to acknowledge each other, away from Ithaca. His heart was no less moved than yours; he is too wise to reveal himself to any mortal, in a place where he could be exposed to treachery. Ulysses, your father, is the wisest of all men; his heart is like a deep well, its secret could not be drawn from it. He loves truth, and never says aught that might wound it, but he speaks it only out of necessity, and wisdom, like a seal, ever keeps his lips closed to needless words. How moved he was when speaking to you! What violence did he do himself, so as in no wise to disclose himself! What did he not suffer, seeing you? That is what made him sad and downcast.<anchor n="21" xml:id="note-t-21"/>
+                </ab>
+<vg:whiteline/>
+<ab>And now, old chap, a hearty handshake in thought, let us but keep our faith in God and continue to worship what we know,<anchor n="22" xml:id="note-t-22"/> give my regards to those at <rs type="pers" key="323">Mauve</rs>’s and anyone else you might see, especially your housemates, I wish you the very best, I sincerely hope you find a way of paying that bill, adieu and believe me</ab>
+<vg:whiteline/>
+<ab>Your most loving brother,</ab>
+<ab>Vincent</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>
+                        <rs type="pers" key="1682">Marie Tersteeg</rs>, the third child of <rs type="pers" key="787 788">Mr and Mrs Tersteeg</rs>, died on 24 July 1877; <ref target="let124.xml">see letter 124</ref>.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>The studio was in <rs type="pers" key="1443">Weissenbruch</rs>’s birthplace at Haagse Kazernestraat 112, where the painter – together with his sisters – spent his whole life. For the house’s interior, see the watercolour <hi rend="ital">Weissenbruch’s studio</hi> and a photograph from c. 1899: exhib. cat. Oss 1999-2000, pp. 34 (ill. 3), 65, cat. no. 20; and Laanstra and Ooms 1992, p. 21.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>The exhibition was the <hi rend="ital">Tweede tentoonstelling van teekeningen door de gewone en eere-leden der Hollandsche Teeken-Maatschappij in het gebouw der Akademie van Beeldende Kunsten Princessegracht te ’s Gravenhage</hi> (Second exhibition of drawings by the regular and honorary members of the Dutch Drawing Society in the building of the Academy of Arts in The Hague). At this exhibition, held in the month of August, 112 works were on display.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>Regarding the <rs type="pers" key="575">Rev. Jeremias Posthumus Meijjes</rs> and his sons, <ref target="let122.xml#n-7">see letter 122, n. 7</ref>
+                    </ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>
+                        <rs type="pers" key="177">Jan Pompe</rs>, the son of <rs type="pers" key="579">Uncle Abraham Pompe</rs> and <rs type="pers" key="502">Aunt Bertha (Elisabeth Hubertha Pompe-Van Gogh)</rs>. Jan had probably visited Vincent in London in the summer of 1873 (cf. FR b2638).</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>The <hi rend="ital">Admiraal Van Wassenaer</hi>, the first frigate with steam capacity of the Koninklijke Marine (Royal Navy), was converted in 1875 at the Rijkswerf (national dockyards) into a lodging-ship. On 11 April 1876 the ship was put at the disposal of those training to be ship’s boys and ordinary seamen; it was moored in front of the shipping warehouse (The Hague, Collectie Instituut voor Maritieme Historie, Marinestaf). <rs type="ill" key="1843">Ill. 1843</rs>. See also Groot and De Vries 1990, pp. 58-59.</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>
+                        <rs type="pers" key="400">Vincent van Gogh</rs>, the son of Uncle Cor.</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>
+                        <rs type="pers" key="419">Elisabeth Hubertha (Bertha) Vincentia van Gogh</rs>, daughter of <rs type="pers" key="1493">Willem Daniel van Gogh</rs> (a brother of Mr van Gogh) and <rs type="pers" key="1683">Magdalena van Stockum</rs>.</ab>
+                </note>
+  <note n="9" xml:id="n-9" target="#note-t-9">
+<ab>
+                        <rs type="pers" key="455">Rev. Johannes Petrus Hasebroek</rs>, an adherent of the Réveil, was scheduled to conduct the early service held at 7 a.m. on 29 July 1877 in the Zuiderkerk.</ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>The Reformed minister <rs type="pers" key="506">Jacob Cornelis van Marken</rs> preached at the 10 a.m. service in the Oudezijdskapel. </ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Matt" chap="9" vr="11-13">Matt. 9:11-13</bibleref>.</ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+<ab>Here Van Gogh is referring to the death sentence given to <rs type="pers" key="754">Socrates</rs>, to the story and the character of Odysseus and also presumably to <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Deut" chap="23" v="24">Deut. 23:24</bibleref>, <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Deut" chap="24" v="21">Deut. 24:21</bibleref>, <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Isa" chap="5" v="4">Isa. 5:4</bibleref> or <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Rev" chap="14" vr="18-19">Rev. 14:18-19</bibleref>. He could have become familiar with such themes from a schoolbook with question-and-answer games such as <hi rend="ital">Zedekundig leesboek, in den vorm van geschiedenissen ten dienste der scholen. Uitgegeven door de Maatschappij tot nut van ’t algemeen</hi>, in which Theme 42 reads: ‘Eenige trekken van zelfbeheersching in het voorbeeld van Socrates’ (Some traits of self-control in the example of Socrates) which concludes with several questions, including: ‘Waarin muntte Socrates bijzonder uit?’ (At what did Socrates particularly excel?) and ‘Hoe gedroeg hij zich in de laatste dagen van zijn leven?’ (How did he conduct himself in the last days of his life?) In the story, Socrates is called such things as ‘de wijste en braafste mensch van zijnen tijd’ (the wisest and most decent man of his time). See 14th ed. Amsterdam, Deventer and Leiden 1861, pp. 91-93 (copy in Rotterdam, Nationaal Schoolmuseum).</ab>
+                </note>
+<note n="13" xml:id="n-13" target="#note-t-13">
+<ab>The letter came from Helvoirt because <rs type="pers" key="526">Mr van Gogh</rs> had preached the previous Sunday at his former parish (FR b2547).</ab>
+                </note>
+<note n="14" xml:id="n-14" target="#note-t-14">
+<ab>
+                        <rs type="pers" key="289">Tuimen Hendrik Blom Coster</rs>, a ‘physician of high standing’ and art collector, lived at Plaats 14, next to the building which housed Goupil’s art gallery, where he also bought works for his collection. Theo, who must have known Blom Coster through his work at Goupil’s, could report to his parents at the beginning of November that the bill had been paid. See Stolwijk 1998, p. 337 and FR b2566. The bill was presumably for the doctor’s expenses incurred during Theo’s illness in October and November 1876. <rs type="pers" key="526">Mr van Gogh</rs> had asked about it on 19 January 1877: ‘Have you already paid Dr. Coster’s bill ...? I still have money of yours, which is at your disposal, old boy!’ (FR b2502).</ab>
+                </note>
+<note n="15" xml:id="n-15" target="#note-t-15">
+<ab>
+                        <rs type="pers" key="524 526">Mr and Mrs van Gogh</rs> worried about the high amount of the bill, the more so because they themselves could not offer Theo any financial assistance (FR b2541 and b2542).</ab>
+                </note>
+<note n="16" xml:id="n-16" target="#note-t-16">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Matt" chap="10" v="9">Matt. 10:9</bibleref>.</ab>
+                </note>
+<note n="17" xml:id="n-17" target="#note-t-17">
+<ab>For this saying, <ref target="let123.xml#n-12">see letter 123, n. 12.</ref>
+                    </ab>
+                </note>
+<note n="18" xml:id="n-18" target="#note-t-18">
+<ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Matt" chap="5" v="3">Matt. 5:3</bibleref> and <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Luke" chap="6" v="20">Luke 6:20</bibleref>.</ab>
+                </note>
+<note n="19" xml:id="n-19" target="#note-t-19">
+<ab>
+                        <rs type="pers" key="423">Uncle Vincent</rs> had been in Amsterdam at the beginning of August; from there he went with <rs type="pers" key="422">Uncle Cor</rs> to an exhibition in Leeuwarden (FR b2547, 1 August 1877).</ab>
+                </note>
+<note n="20" xml:id="n-20" target="#note-t-20">
+<ab>
+      <rs type="lit" key="143">
+                            <hi rend="ital">Les aventures de Télémaque</hi>
+                        </rs> (The adventures of Telemachus) (1699) by <rs type="pers" key="597">François de Salignac de la Mothe Fénelon</rs>, a narrative in the form of a heroic poem, is the story of a wise tutor and his obedient pupil. It is, in the words of Fénelon, ‘a useful teacher of morals’. The adventure story, which went through numerous editions and translations, was a sequel to the fourth book of Homer’s <rs type="lit" key="144">
+                            <hi rend="ital">Odyssey</hi>
+                        </rs> and can be seen as one long moral and spiritual odyssey: Mentor guides and directs Telemachus towards a moral victory, whereby Simplicity and Naturalness are the most important virtues, the message being that through suffering one learns to be compassionate. See James Herbert Davis, <hi rend="ital">Fénelon</hi>. Boston 1979, pp. 90-111.</ab>
+<ab rend="indent">In the passage from <hi rend="ital">Les aventures de Télémaque</hi> that Van Gogh quotes –with a few adaptations and modifications, such as changing the heathen ‘Jupiter’ into ‘Dieu’), Mentor draws Telemachus’ attention to the wisdom of his father, Odysseus, and explains to him Odysseus’ taciturn and despondent nature. See Fénelon 1995, pp. 399, 405-406 (book 18).</ab>
+                </note>
+<note n="21" xml:id="n-21" target="#note-t-21">
+<ab>The source text has ‘apaisés’ (reassured).</ab>
+                </note>
+<note n="22" xml:id="n-22" target="#note-t-22">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="John" chap="4" v="22">John 4:22</bibleref> (in <hi rend="ital">KJ</hi>: ‘we know what we worship’).</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

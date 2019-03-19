@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. The Hague, Monday, 12 February 1883.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let313"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">313</idno>
+<idno type="collectedletters">268a</idno>
+<idno type="brieven1990">315</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>The Hague</vg:placeLet>
+                        <vg:dateLet>Monday, 12 February 1883</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. The Hague, Monday, 12 February 1883.</p>
+<note type="ongoingTopic" n="1">
+<p>Theo’s love for the ailing Marie <ref target="let300.xml">(300)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>
+      <hi rend="ital"> </hi>Amsterdam, Van Gogh Museum, inv. nos. b291 a-b V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>This letter must date from after <ref target="let308.xml">letter 308</ref>, of 5 February, to which Van Gogh refers in <ref target="#l-239">l. 239</ref>. Since he says thank you for the money for which he had asked ‘yesterday’ <ref target="#l-2">(l. 2)</ref>, that is, on 11 February (in <ref target="let312.xml">letter 312</ref>), the present letter dates from Monday, 12 February 1883.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0291 a" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000363_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000363_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000363_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000363_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000363_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000363_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="VGM001000363_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000363_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000363_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0291 a" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000363_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000363_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000363_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000363_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000363_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000363_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000363_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000363_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000363_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0291 b" xml:id="surf-pb-2r">
+            <graphic mimeType="image/tiff" url="VGM001000364_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000364_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000364_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-2r-5">
+<graphic mimeType="image/tiff" url="VGM001000364_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000364_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000364_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0291 b" xml:id="surf-pb-2v">
+            <graphic mimeType="image/tiff" url="VGM001000364_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000364_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000364_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-2v-6">
+<graphic mimeType="image/tiff" url="VGM001000364_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000364_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000364_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Beste broer,</ab>
+                <lb n="2" xml:id="l-2"/>
+<ab>Ofschoon ik pas gisteren schreef toch vandaag <lb n="3" xml:id="l-3"/>nog een woordje<c type="kk">/</c> vooreerst om U voor Uw <lb n="4" xml:id="l-4"/>brief en voor het geld te bedanken.</ab>
+                <lb n="5" xml:id="l-5"/>
+<ab rend="indent">Maar tevens ook omdat het verschijnsel <lb n="6" xml:id="l-6"/>van “nog al neerslagtig” bij Uw zieke mij <lb n="7" xml:id="l-7"/>verontrust.–</ab>
+                <lb n="8" xml:id="l-8"/>
+<ab rend="indent">Misschien is ’t verbeelding van me<c type="kk">/</c> indien zoo <lb n="9" xml:id="l-9"/>tant mieux<c type="kk">/</c> niets zal mij aangenamer zijn <lb n="10" xml:id="l-10"/>want als er geen melankolie is van belang en ’t van zelf verdwijnt dan is ’t zooveel te <lb n="11" xml:id="l-11"/>beter.</ab>
+                <lb n="12" xml:id="l-12"/>
+<ab rend="indent">Maar als het blijft en gij ziet dat er iets <lb n="13" xml:id="l-13"/>hapert – en ik voor mij denk dat het zóó <lb n="14" xml:id="l-14"/>zal gaan – pas dan op want dan is de <lb n="15" xml:id="l-15"/>zaak mijns inziens serieuser en is de <lb n="16" xml:id="l-16"/>eenige geneesheer daarvoor niet de dokter <lb n="17" xml:id="l-17"/>maar gij<c type="kp">_</c>–</ab>
+                <lb n="18" xml:id="l-18"/>
+<ab rend="indent">Indien de neerslagtigheid of onrust <lb n="19" xml:id="l-19"/>blijft<c type="kk">/</c> heeft ze vrees ik tot oorzaak dat <lb n="20" xml:id="l-20"/>de zieke – niettegenstaande alle bewijzen van <lb n="21" xml:id="l-21"/>opregte trouw en juist om reden van alles <lb n="22" xml:id="l-22"/>wat gij voor haar gedaan hebt – door de gedachte <lb n="23" xml:id="l-23"/>gekweld wordt dat vroeger of later zij van <lb n="24" xml:id="l-24"/>U zal moeten scheiden.</ab>
+                <lb n="25" xml:id="l-25"/>
+<ab rend="indent">Wij zijn broers, niet waar, en vrienden – <lb n="26" xml:id="l-26"/>en we mogen wel rondborstig zeggen <lb n="27" xml:id="l-27"/>wat we denken<c type="kk">/</c> en als ik indiscreet <lb n="28" xml:id="l-28"/>handel door te zeggen wat <lb n="29" xml:id="l-29"/>ik denk<c type="kk">/</c> vergeef mij mijn indiscretie. <lb n="30" xml:id="l-30"/>Maar zulke zaken kunnen – en dat <lb n="31" xml:id="l-31"/>in zeer korten tijd – een zeer somberen <lb n="32" xml:id="l-32"/>keer nemen indien men er niet <lb n="33" xml:id="l-33"/>tijdig bij is. De zieke is vooral in ’t <lb n="34" xml:id="l-34"/>moreele zóó zwak en overspannen en <lb n="35" xml:id="l-35"/>uitgeput – zij ’t ook uitwendig kalm – dat het <lb n="36" xml:id="l-36"/>een crisis is die ze nu doormaakt naar den geest<c type="kk">/</c> m.i<c type="kp">_</c> <lb n="37" xml:id="l-37"/>nog veel serieuser dan voor zoover ’t ligchaam er in betrokken is. 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                    <lb n="43" xml:id="l-43"/>
+                    <hi rend="ital">Als</hi> dus dat wolkje van melankolie blijft, <lb n="44" xml:id="l-44"/>
+                    <hi rend="ital">als</hi> er een je ne sais quoi in den weg staat van <lb n="45" xml:id="l-45"/>de rust die tot herstel absoluut noodig is<c type="kk">/</c> <lb n="46" xml:id="l-46"/>
+                    <hi rend="ital">als</hi> het blijkt zij denkt aan iets wat ze <lb n="47" xml:id="l-47"/>niet uitspreekt – dan is er mijns inziens <lb n="48" xml:id="l-48"/>geen twijfel of zij is, juist door haar <lb n="49" xml:id="l-49"/>zwakken en overspannen toestand – in doodsangst<c type="kk">/</c> <lb n="50" xml:id="l-50"/>zegge in doodsangst – over de kwestie of <lb n="51" xml:id="l-51"/>gij haar liefhebt of wel niet.</ab>
+                <lb n="52" xml:id="l-52"/>
+<ab rend="indent">Heeft eene zee van liefde die bruischt en <lb n="53" xml:id="l-53"/>geagiteerd is in haar binnenste en uit dat <lb n="54" xml:id="l-54"/>niet juist omdat zij<c type="kk">/</c> tenzij gij ronduit en <lb n="55" xml:id="l-55"/>ten volle ’t haar zegt<c type="kk">/</c> twijfelt of gij haar liefhebt <lb n="56" xml:id="l-56"/>of niet.</ab>
+                <lb n="57" xml:id="l-57"/>
+<ab rend="indent">Die inwendige onrust kan zóó sterk zijn <lb n="58" xml:id="l-58"/>(al is het wolkje uitwendige melankolie maar bitter klein <lb n="59" xml:id="l-59"/>en ter naauwernood merkbaar voor U en voor vreemden <lb n="60" xml:id="l-60"/>nog minder) – die onrust kan zoo sterk zijn <lb n="61" xml:id="l-61"/>dat herstel niet <hi rend="ital">mogelijk</hi> is en erge <lb n="62" xml:id="l-62"/>gevolgen te voorzien als niet <hi rend="ital">à tout prix</hi> <lb n="63" xml:id="l-63"/>zij op dat punt wordt gerustgesteld.</ab>
+                <lb n="64" xml:id="l-64"/>
+<ab rend="indent">Nu weet ik wel dat juist uit discretie <lb n="65" xml:id="l-65"/>men niet <hi rend="ital">nu</hi> zou willen spreken <lb n="66" xml:id="l-66"/>maar eerst dan als de herstelling volkomen is <lb n="67" xml:id="l-67"/>en zij vrij en geheel zich zelf.</ab>
+                <lb n="68" xml:id="l-68"/>
+<ab rend="indent">Of niet in herhaling zou willen vervallen en <lb n="69" xml:id="l-69"/>denkt<c type="kk">/</c> ik heb genoeg gedaan dan dat zij <lb n="70" xml:id="l-70"/>begrijpen kan dat ik haar vriend ben en <lb n="71" xml:id="l-71"/>zij op al wat in mij is om haar te helpen <lb n="72" xml:id="l-72"/>rekenen kan.</ab>
+                <lb n="73" xml:id="l-73"/>
+<ab rend="indent">Toch<c type="kk">/</c> ik herhaal het<c type="kk">/</c> als de <lb n="74" xml:id="l-74"/>neerslagtigheid blijft – en meer dan iets <lb n="75" xml:id="l-75"/>anders maakt dat ten eenemale <hi rend="ital">rust</hi> onmogelijk<c type="kk">/</c> <lb n="76" xml:id="l-76"/>en zonder rust geen beterschap – spreek <lb n="77" xml:id="l-77"/>dan op nieuw tot haar zoo als Uw hart ’t U <lb n="78" xml:id="l-78"/>ingeeft.</ab>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                <lb n="79" xml:id="l-79"/>
+<ab rend="indent">Beste broer<c type="kk">/</c> ik spreek niet in ’t wilde doch <lb n="80" xml:id="l-80"/>uit mijn eigen ziel en eigen ervaring. <lb n="81" xml:id="l-81"/>Dit kan ik U omtrent ’t geval waarin ik zelf <lb n="82" xml:id="l-82"/>was vertellen. Toen de vrouw bevallen was <lb n="83" xml:id="l-83"/>en de zeer moeielijke verlossing doorstaan<c type="kk">/</c> was zij <lb n="84" xml:id="l-84"/>doodzwak maar toch aanvankelijk behouden <lb n="85" xml:id="l-85"/>en ’t kindje levend en rustig.<anchor n="1" xml:id="note-o-1"/>
+                </ab>
+                <lb n="86" xml:id="l-86"/>
+<ab rend="indent">12 uren na haar bevalling was ik bij haar en vond haar <lb n="87" xml:id="l-87"/>geheel uitgeput. Toen ze mij zag rigtte zij zich op en <lb n="88" xml:id="l-88"/>werd zóó opgewekt en levendig als of er niets gebeurd <lb n="89" xml:id="l-89"/>was<c type="kk">/</c> en het pleizier in ’t leven en de dankbaarheid <lb n="90" xml:id="l-90"/>straalden uit haar oogen. En zij wou beter worden <lb n="91" xml:id="l-91"/>en beloofde mij dat.</ab>
+                <lb n="92" xml:id="l-92"/>
+<ab rend="indent">(Hoe ’t soms noodig is zooiets <hi rend="ital">te laten beloven</hi> en hoe <lb n="93" xml:id="l-93"/>het noodig is <hi rend="ital">te willen</hi> beter worden – gij hebt het <lb n="94" xml:id="l-94"/>reeds zelf begrepen want ik zie het in een vorig schrijven<c type="kp">_</c> <lb n="95" xml:id="l-95"/>Dat hebt gij juist gezien<c type="kp">_</c>)</ab>
+                <lb n="96" xml:id="l-96"/>
+<ab rend="indent">Maar – een paar dagen later kreeg ik een briefje <lb n="97" xml:id="l-97"/>van haar dat ik niet regt begreep en mij teleurstelde<c type="kk">/</c> <lb n="98" xml:id="l-98"/>er stond iets in van “dat ik zou nu zeker wel met eene <lb n="99" xml:id="l-99"/>andere vrouw zou zijn” &amp;c.<c type="kk">/</c> enfin zeer vreemd en absurd <lb n="100" xml:id="l-100"/>zelfs daar ik<c type="kk">/</c> zelf nog niet eens geheel beter<c type="kk">/</c> zóó pas uit <lb n="101" xml:id="l-101"/>’t gasthuis was.–<anchor n="2" xml:id="note-o-2"/> Ik zag er evenwel zooveel uit <lb n="102" xml:id="l-102"/>dat ik begreep zij aan ’t malen was en van streek. <lb n="103" xml:id="l-103"/>Direkt ging ik er weer naar toe<c type="kk">/</c> d.i<c type="kp">_</c> zoo spoedig <lb n="104" xml:id="l-104"/>ik <hi rend="ital">kon</hi>
+                    <c type="kk">/</c> door de week mogt ik niet bezoeken dus <lb n="105" xml:id="l-105"/>den eerstvolgenden zondag<c type="kk">/</c> zegge 8 dagen later. <lb n="106" xml:id="l-106"/>Ik vond haar als <hi rend="ital">verdord</hi> – letterlijk als een <lb n="107" xml:id="l-107"/>boom met jong groen waar een drooge<c type="kk">/</c> koude wind <lb n="108" xml:id="l-108"/>is overgegaan die de knoppen verflenst heeft.</ab>
+                <lb n="109" xml:id="l-109"/>
+<ab rend="indent">en van de weeromstuit het kindje ook ziek en <lb n="110" xml:id="l-110"/>als verschrompeld. Bij ’t kindje was het geelzucht <lb n="111" xml:id="l-111"/>volgens den dokter maar ook de oogjes waren door iets <lb n="112" xml:id="l-112"/>aparts weer aangedaan en als blind<c type="kk">/</c> en de vrouw<c type="kk">/</c> <lb n="113" xml:id="l-113"/>die <hi rend="ital">geen</hi> geelzucht had<c type="kk">/</c> zag dor<c type="kk">/</c> geel<c type="kk">/</c> graauw<c type="kk">/</c> ’k weet <lb n="114" xml:id="l-114"/>niet hoe. Enfin ’t geheel in die 8 dagen tijd blijkbaar<c type="kk">/</c> <lb n="115" xml:id="l-115"/>ik kan ’t niet anders zeggen<c type="kk">/</c> verdord en verlept. <lb n="116" xml:id="l-116"/>Zóó dat ik er een schok van kreeg.</ab>
+                <lb n="117" xml:id="l-117"/>
+<ab rend="indent">Wat te doen? hoe kwam dat en wat er van te zeggen. <lb n="118" xml:id="l-118"/>Zij zelf vertelde mij zij niet rusten <hi rend="ital">kon</hi> en was blijkbaar <lb n="119" xml:id="l-119"/>door en door melankoliek geworden – zonder de minste <lb n="120" xml:id="l-120"/>raison d’être<c type="kk">/</c> zonder dat er iets voorgevallen <lb n="121" xml:id="l-121"/>was sedert dien eersten zondag.</ab>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                <lb n="122" xml:id="l-122"/>
+<ab rend="indent">Wel<c type="kk">/</c> ik dacht<c type="kk">/</c> hier moet toch iets gedaan <lb n="123" xml:id="l-123"/>worden en ofschoon ik niet <hi rend="ital">zeker</hi> wist hoe ’t in elkaar zat<c type="kk">/</c> </ab>
+                <lb n="124" xml:id="l-124"/>
+<ab>sloeg ik er een slag in.</ab>
+                <lb n="125" xml:id="l-125"/>
+<ab rend="indent">Ik hield mij boos en zei<c type="kk">/</c> zóó<c type="kk">/</c> is dat nu je <lb n="126" xml:id="l-126"/>belofte houden! en ik herhaalde die belofte <lb n="127" xml:id="l-127"/>van dat ze zou beter worden en ik toonde <lb n="128" xml:id="l-128"/>mij zeer ontevreden dat het kindje ziek was <lb n="129" xml:id="l-129"/>en zei dat dit haar schuld was en ik vroeg wat <lb n="130" xml:id="l-130"/>die brief te beduiden had en in een woord<c type="kk">/</c> daar ik <lb n="131" xml:id="l-131"/>begreep dit een <hi rend="ital">abnormalen</hi> toestand was<c type="kk">/</c> sprak ik <lb n="132" xml:id="l-132"/>ook <hi rend="ital">abnormaal</hi>
+                    <c type="kk">/</c> nl. betrekkelijk hard<c type="kk">/</c> terwijl ik toch niets anders <lb n="133" xml:id="l-133"/>voelde dan innig medelijden. Het resultaat was een <lb n="134" xml:id="l-134"/>soort ontwaken als van een sonnambule en <lb n="135" xml:id="l-135"/>vóór ik wegging<c type="kk">/</c> niet zonder dat ik natuurlijk ook <lb n="136" xml:id="l-136"/>van zelf van toon veranderd was<c type="kk">/</c> liet ik haar <lb n="137" xml:id="l-137"/>nog eens die belofte hernieuwen van beter te willen <lb n="138" xml:id="l-138"/>worden en plus vite que ça<c type="kp">_</c>–</ab>
+                <lb n="139" xml:id="l-139"/>
+<ab rend="indent">Beste broer<c type="kk">/</c> van dat moment aan is <lb n="140" xml:id="l-140"/>zij grif hersteld en spoedig daarna heb ik haar <lb n="141" xml:id="l-141"/>en ’t kind uit ’t gasthuis gehaald. het kind heeft <lb n="142" xml:id="l-142"/>er lang door gesukkeld – misschien omdat de moeder meer <lb n="143" xml:id="l-143"/>dacht om mij dan om ’t kind in die eerste dagen – maar <lb n="144" xml:id="l-144"/>nu is het kind natuurlijkerwijs zoo gezond als een jong <lb n="145" xml:id="l-145"/>konijn en kijkt even helder als zoo’n jong konijntje uit zijn <lb n="146" xml:id="l-146"/>aanvankelijk geheel gesloten oogjes. Toen de vrouw<c type="kk">/</c> <lb n="147" xml:id="l-147"/>toen ik haar kwam afhalen en ik haar wachtte in een wachtkamertje in <lb n="148" xml:id="l-148"/>’t hospitaal<c type="kk">/</c> met haar kindje op den arm binnenkwam<c type="kk">/</c> kwam er opeens <lb n="149" xml:id="l-149"/>weer dat bewuste navrante<anchor n="a" xml:id="note-o-a"/> als Ary Scheffer ’t schildert of Correggio over <lb n="150" xml:id="l-150"/>haar. </ab>
+                <lb n="151" xml:id="l-151"/>
+<ab rend="indent">Nogmaals<c type="kk">/</c> als ik mij vergis dat bij Uw zieke <lb n="152" xml:id="l-152"/>ook een soort malen of inwendigen tweestrijd is (natuurlijk ongemotiveerd) <lb n="153" xml:id="l-153"/>zoo is het des te beter<c type="kp">_</c> Maar ingeval er verschijnsels van <lb n="154" xml:id="l-154"/>melankolie blijven – laat haar eens op nieuw beloven <lb n="155" xml:id="l-155"/>dat zij wil beter worden en toon haar ronduit dat <lb n="156" xml:id="l-156"/>
+                    <hi rend="ital">gij</hi> verlangt dat zij beter zal worden en dat <hi rend="ital">gij</hi> haar <lb n="157" xml:id="l-157"/>nu eenmaal niet meer missen wilt. Zie<c type="kk">/</c> er is soms <lb n="158" xml:id="l-158"/>een zekere discretie in ons om dat zoo te zeggen omdat <lb n="159" xml:id="l-159"/>het egoist schijnt maar geneer U daarin nu niet <lb n="160" xml:id="l-160"/>omdat het haar behoud is en in zoo’n geval <lb n="161" xml:id="l-161"/>geen egoisme. Want als twee personen zóó zeer <lb n="162" xml:id="l-162"/>elkaar voelen dat zij niet meer <lb n="163" xml:id="l-163"/>alleen <hi rend="ital">kunnen</hi> gerust en kalm zijn<c type="kk">/</c> dan is <lb n="164" xml:id="l-164"/>er van egoisme geen sprake meer want <lb n="165" xml:id="l-165"/>dan hoeven die twee niet meer één te worden doch <lb n="166" xml:id="l-166"/>
+                    <hi rend="ital">ze zijn het al</hi>. Alleen – dat moet zich uiten en <lb n="167" xml:id="l-167"/>bij eene zieke kan die behoefte aan uitstorting des harten zoo absoluut <lb n="168" xml:id="l-168"/>
+                    <hi rend="ital">behoefte</hi> zijn dat de herstelling er van afhangt.–</ab>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+                <lb n="169" xml:id="l-169"/>
+<ab rend="indent">En zelfs nu ik er over aan ’t doorpraten <lb n="170" xml:id="l-170"/>ben – (houd mij dat doorpraten ten <lb n="171" xml:id="l-171"/>goede – want ik kan niet anders dan <lb n="172" xml:id="l-172"/>ten volle zeggen wat ik meen in dezen) – <lb n="173" xml:id="l-173"/>ik heb al sedert dagen in mijn verbeelding <lb n="174" xml:id="l-174"/>mij Uw patient voorgesteld (misschien echter ten <lb n="175" xml:id="l-175"/>onregte – ’k weet het natuurlijk niet precies en zijn het <lb n="176" xml:id="l-176"/>van die dingen die men onwillekeurig met <lb n="177" xml:id="l-177"/>elkaar in verband brengt) als moetende <lb n="178" xml:id="l-178"/>verkeeren in een soortgelijken toestand als <lb n="179" xml:id="l-179"/>de vrouw van mij toen in de dagen na dat <lb n="180" xml:id="l-180"/>haar bevalling achter den rug was.</ab>
+                <lb n="181" xml:id="l-181"/>
+<ab rend="indent">Ik heb mij dat voorgesteld sedert het ontvangen <lb n="182" xml:id="l-182"/>van Uw brief waarin ge de operatie beschrijft en <lb n="183" xml:id="l-183"/>heeft het mij om zoo te zeggen <lb n="184" xml:id="l-184"/>geen rust gelaten. En toen ik nu las van “nog al <lb n="185" xml:id="l-185"/>neerslagtig” kon ik niet laten er eens over te schrijven<c type="kp">_</c> <lb n="186" xml:id="l-186"/>Zelfs reeds haast van ’t begin af aan<c type="kk">/</c> telkens <lb n="187" xml:id="l-187"/>als ik getracht heb mij in te denken in den gemoeds<c type="shy">-</c>
+                    <lb n="188" xml:id="l-188"/>toestand van Uw patient – als ik naga hoe de <lb n="189" xml:id="l-189"/>reeks van calamiteiten die haar getroffen <lb n="190" xml:id="l-190"/>hebben haar als verbijsterd moeten hebben, <lb n="191" xml:id="l-191"/>vind ik haar toestand buiten ’t bereik van <lb n="192" xml:id="l-192"/>andere redmiddelen dan die van liefde <lb n="193" xml:id="l-193"/>in den volsten zin van ’t woord.</ab>
+                <lb n="194" xml:id="l-194"/>
+<ab rend="indent">
+                    <hi rend="sc">Zonder U</hi> reken ik haar verloren<c type="kk">/</c> <lb n="195" xml:id="l-195"/>ik kan mij geen redding denken<c type="kk">/</c> geen <lb n="196" xml:id="l-196"/>hernieuwing der toekomst voor haar<c type="kk">/</c> zonder <lb n="197" xml:id="l-197"/>U.– En ofschoon ik eenige uitdrukkingen in Uwe <lb n="198" xml:id="l-198"/>brieven vind waaruit ik zie of althans meen te zien <lb n="199" xml:id="l-199"/>dat gij met betrekking tot de toekomst in twijfel zijt <lb n="200" xml:id="l-200"/>over de vraag of zij U al dan niet eens en voor altijd lief zal <lb n="201" xml:id="l-201"/>hebben – ik voor mij heb daaromtrent slechts eene <lb n="202" xml:id="l-202"/>enkele gedachte – n.l. deze<c type="kk">/</c> zij heeft U lief<c type="kk">/</c> en <lb n="203" xml:id="l-203"/>met betrekking tot U heb ik maar één vraag<c type="kk">/</c> hebt <lb n="204" xml:id="l-204"/>gij haar reeds gezegd dat gij eens en voor altijd haar <lb n="205" xml:id="l-205"/>lief hebt, of wel hebt gij betrekkelijk daarover<c type="kk">/</c> ’t zij uit discretie <lb n="206" xml:id="l-206"/>’t zij omdat gij vreesdet haar te kwetsen<c type="kk">/</c> gezwegen.</ab>
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>
+                <lb n="207" xml:id="l-207"/>
+<ab rend="indent">Ik spreek natuurlijkerwijs over deze intieme zaken <lb n="208" xml:id="l-208"/>(die ik overigens als zóó intiem beschouw dat ik er zonder bepaalde <lb n="209" xml:id="l-209"/>aanleiding <hi rend="ital">niet</hi> over zou spreken) slechs van wege ik tusschen Uw <lb n="210" xml:id="l-210"/>zieke en de mijne van toen deze overeenkomst zie<c type="kk">/</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="211" xml:id="l-211"/>
+<ab>1) beiden hebben eene moeielijke operatie ondergaan en waren <lb n="212" xml:id="l-212"/>gedurende die operatie niettegenstaande den chloroform niet geheel rustig geweest<c type="kp">_</c>
+                </ab> <lb n="213" xml:id="l-213"/>
+                <ab>2) beiden waren kort voor die operatie naar den geest <lb n="214" xml:id="l-214"/>door angst en spanning en onrust enorm geschokt en <lb n="215" xml:id="l-215"/>hebben in ’t moreele geleden haast meer dan een zenuwstel verdragen kan<c type="kp">_</c> </ab>
+                <lb n="216" xml:id="l-216"/>
+                <ab>3) <hi rend="ital">Rust voor ziel en</hi> <lb n="217" xml:id="l-217"/>
+                    <hi rend="ital">ligchaam zijn voor beiden absoluut noodig tot</hi> <lb n="218" xml:id="l-218"/>
+                    <hi rend="ital">herstel en redresseering.</hi>
+                </ab>
+<vg:whiteline/>
+                <lb n="219" xml:id="l-219"/>
+<ab>Me dunkt deze overeenkomsten zijn aanmerkelijk.</ab>
+                <lb n="220" xml:id="l-220"/>
+<ab rend="indent">En nu spreekt gij over een verschijnsel van <lb n="221" xml:id="l-221"/>melankolie. en acht ik het U misschien <lb n="222" xml:id="l-222"/>te pas kan komen gij eens hoordet hoe dat <lb n="223" xml:id="l-223"/>bij mijn patient zeer ernstig werd en zeer <lb n="224" xml:id="l-224"/>dreigend en gevaarlijk <hi rend="ital">in eenige dagen zelfs</hi> en <lb n="225" xml:id="l-225"/>hoe – toen naar den geest zij gerustgesteld <lb n="226" xml:id="l-226"/>werd juist door de zekerheid van eene nieuwe <lb n="227" xml:id="l-227"/>liefde en zoodoende hoop en lust in de toekomst <lb n="228" xml:id="l-228"/>kreeg – zij weldra naar het ligchaam <lb n="229" xml:id="l-229"/>herstelde<c type="kk">/</c> althans met betrekking tot <lb n="230" xml:id="l-230"/>de operatie.</ab>
+                <lb n="231" xml:id="l-231"/>
+<ab rend="indent">Ik voor mij had reeds voor dien tijd haar met alle kracht <lb n="232" xml:id="l-232"/>die in mij was verzekerd ik haar niet verlaten zou<c type="kk">/</c> minder <lb n="233" xml:id="l-233"/>echter door woorden dan wel door een en ander dat ik <lb n="234" xml:id="l-234"/>zoo goed ik kon voor haar gedaan had en toch door <lb n="235" xml:id="l-235"/>woorden ook<c type="kp">_</c>– Ondanks dat kwam plotseling <lb n="236" xml:id="l-236"/>op in haar twijfel en onrust – maar verdwenen <lb n="237" xml:id="l-237"/>toen ik op nieuw mijn best deed haar tot <lb n="238" xml:id="l-238"/>rust te brengen.</ab>
+                <lb n="239" xml:id="l-239"/>
+<ab rend="indent">Herinner U nu nog hoe in vorig schrijven ik <lb n="240" xml:id="l-240"/>zeker bezwaar meende te zien in dat ge gesproken <lb n="241" xml:id="l-241"/>had van eene betrekking<anchor n="3" xml:id="note-o-3"/> – er schemerde mij reeds <lb n="242" xml:id="l-242"/>toen iets in ’t hoofd – nu schrijft ge over beginsels <lb n="243" xml:id="l-243"/>van melankolie – welnu ik had ze gevreesd<c type="kp">_</c> <lb n="244" xml:id="l-244"/>Ik hoop geheel ten onregte – maar als <lb n="245" xml:id="l-245"/>de melankolie blijft en de onrust <lb n="246" xml:id="l-246"/>en ’t je ne sais quoi dat de herstelling <lb n="247" xml:id="l-247"/>contrarieert – dan is m.i<c type="kp">_</c> het eene nieuwe <lb n="248" xml:id="l-248"/>verzekering van Uw liefde en trouw die <lb n="249" xml:id="l-249"/>haar geruststellen zal en vatbaar maken voor herstel. <lb n="250" xml:id="l-250"/>Ja – m.i. kan haar leven daarvan afhangen. adieu kerel. <lb n="251" xml:id="l-251"/>ik schrijf U naar mijn beste weten en uit ongeveinsde sympathie en ernstige <lb n="252" xml:id="l-252"/>belangstelling – dat weet ge trouwens en dat het mijn hartelijk verlangen <lb n="253" xml:id="l-253"/>is het alles voorspoedig moge gaan. Nogmaals dank voor Uw brief en ’t gezondene. <lb n="254" xml:id="l-254"/>Mijn brief over “nog al melankoliek” is onwillekeurig zoo lang geworden er geen plaats is over iets <lb n="255" xml:id="l-255"/>anders te schrijven. geloof me<c type="kk">/</c> met een handdruk en de beste wenschen</ab>
+<vg:whiteline/>
+                <lb n="255*" xml:id="l-255s"/>
+<ab>t. à t.</ab>
+                <lb n="256" xml:id="l-256"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+                <lb n="38" xml:id="l-38"/>
+<ab>Tot heden waren iederen nacht of morgen als ik wakker <lb n="39" xml:id="l-39"/>werd mijn oogen digt door het vocht – maar van nacht voor ’t eerst geen <lb n="40" xml:id="l-40"/>van beiden meer. Er is anders niets aan te zien dan dat het <lb n="41" xml:id="l-41"/>wit wat troebel &amp; rood was en wat men noemt balken onder <lb n="42" xml:id="l-42"/>de oogen<anchor n="b" xml:id="note-o-b"/> en dit is ook haast verdwenen.</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-21" n="21">reden &lt; rede</note>
+<note target="l-31" n="31">tijd – &lt; tijd</note>
+<note target="l-35" n="35">kalm – &lt; kalm</note>
+<note target="l-60" n="60">minder) &lt; minder</note>
+<note target="l-99" n="99">zijn” &lt; zijn</note>
+<note target="l-152" n="152">tweestrijd is &lt; tweestrijd</note>
+<note target="l-167" n="167">behoefte &lt; behoefe</note>
+<note target="l-185" n="185">neerslagtig”<c type="kk">/</c> &lt; neerslagtig</note>
+<note target="l-228" n="228">kreeg – &lt; kreeg</note>
+<note target="l-38" targetEnd="l-42" n="38-42">Tot heden <supplied>
+                            <hi rend="ital">...</hi>
+                        </supplied> verdwenen &lt; <hi rend="ital">Added later next to the salutation.</hi>
+                    </note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>Dear brother,</ab>
+<ab>Although I wrote only yesterday, another word today after all, firstly to thank you for your letter and for the money.</ab>
+<ab rend="indent">But also because the symptom of ‘rather depressed’ in your <rs type="pers" key="508">patient</rs> worries me.</ab>
+<ab rend="indent">It may be my imagination, if so all the better, nothing would please me more, for if there’s no significant melancholy and it disappears of its own accord that is so much the better. </ab>
+<ab rend="indent">But if it persists and you see that something is wrong — and I for one think that’s the course it will take — be careful, for then the situation will be more serious and the only physician for that won’t be the doctor but you. </ab>
+<ab rend="indent">If the depression or anxiety persists, the cause, I fear, is that the <rs type="pers" key="508">patient</rs> — notwithstanding all the proofs of sincere loyalty, and precisely because of everything you’ve done for her — is tormented by the thought that sooner or later she’ll be parted from you. </ab>
+<ab rend="indent">We are brothers, are we not?, and friends — and we may say candidly what we think, and if I act indiscreetly by saying what I think, forgive me my indiscretion. But such cases can take — and very rapidly — a very sombre turn if one doesn’t act in good time. Especially as to morale, the <rs type="pers" key="508">patient</rs> is so weak and stressful and exhausted — though outwardly calm — that she’s now going through a crisis of the mind, much more serious in my view than any effect on the body. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> So <hi rend="ital">if</hi> that small cloud of melancholy persists, <hi rend="ital">if</hi> a <hi rend="ital">je ne sais quoi</hi> stands in the way of the rest that’s absolutely necessary for recovery, <hi rend="ital">if</hi> it turns out that <rs type="pers" key="508">she</rs>’s thinking of something that she doesn’t say aloud — then in my view there’s no doubt, precisely because of her weak and stressful condition, that she’s in mortal fear, I repeat mortal fear, over the question of whether you love her or not. </ab>
+<ab rend="indent">Has deep inside <rs type="pers" key="508">her</rs> a sea of love that seethes and is agitated and doesn’t express that precisely because she doubts whether you love her unless you tell her so, freely and frankly. </ab>
+<ab rend="indent">This inner turmoil can be <hi rend="ital">so</hi> strong (even though the cloud of outward melancholy is terribly small and scarcely apparent to you, and even less so to strangers) — this turmoil can be so strong that recovery isn’t <hi rend="ital">possible</hi>, and severe consequences are to be expected if she isn’t reassured on that point <hi rend="ital">at all costs</hi>.</ab>
+<ab rend="indent">Now I know that, out of discretion, one doesn’t want to speak <hi rend="ital">now</hi>, but only after the recovery is complete and she’s freely and completely herself. </ab>
+<ab rend="indent">Or doesn’t want to repeat oneself and thinks, I’ve done enough for <rs type="pers" key="508">her</rs> to understand that I’m her friend and that she can count on everything that’s in me to help her. </ab>
+<ab rend="indent">Yet, I repeat, if the depression persists — and more than anything else that makes <hi rend="ital">rest</hi> simply impossible, and without rest there can be no improvement — then speak to her again as your heart dictates. 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/>
+                </ab>
+<ab rend="indent">Dear brother, I speak not wildly but from my own soul and my own experience. I can tell you this about the case I was involved in. When the <rs type="pers" key="463">woman</rs> had given birth and had survived the extremely difficult delivery, she was terribly weak but still safe at first, and the <rs type="pers" key="466">child</rs> alive and peaceful.<anchor n="1" xml:id="note-t-1"/>
+                </ab>
+<ab rend="indent">12 hours after the birth I was with <rs type="pers" key="463">her</rs> and found her utterly exhausted. When she saw me she sat up and became as cheerful and lively as if nothing had happened, and her pleasure in life and thankfulness radiated from her eyes. And she wanted to get better and promised me that. </ab>
+<ab rend="indent">(How it’s sometimes necessary to <hi rend="ital">have</hi> such a thing <hi rend="ital">promised</hi> and how it’s necessary <hi rend="ital">to want</hi> to get better — you’ve already realized that yourself, for I see it in a previous letter. You saw that correctly.) </ab>
+<ab rend="indent">But — a few days later I had a letter from <rs type="pers" key="463">her</rs> that I didn’t rightly understand and that disappointed me. It said something along the lines of ‘that now I would no doubt be with another woman’ &amp;c. In short, very strange and even absurd since, not yet fully recovered, I’d only just come out of hospital myself.<anchor n="2" xml:id="note-t-2"/> I understood enough, though, to realize that she was delirious and upset. I went back to see her immediately, that is as soon as I <hi rend="ital">could</hi>; I wasn’t allowed to visit during the week, so the next Sunday, a week later to be precise. I found her looking <hi rend="ital">withered</hi> — literally like a tree with fresh greenery that a dry, cold wind has swept over, making the buds shrivel. </ab>
+<ab rend="indent">And in reaction the <rs type="pers" key="466">child</rs> ill as well and looking wizened. In the child’s case it was jaundice, according to the doctor, but the little eyes were also affected by something else and as if blind, and the <rs type="pers" key="463">woman</rs>, who did <hi rend="ital">not</hi> have jaundice, looked withered, yellow, grey, I don’t know what else. In short, evidently in that week, everything had, I can’t put it any other way, withered and wilted. So much so that I was shocked. </ab>
+<ab rend="indent">What to do? How did it happen and what to say? <rs type="pers" key="463">She</rs> herself told me she <hi rend="ital">could</hi> not rest and was evidently thoroughly melancholic — without the slightest reason, without anything having happened since the first Sunday. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> </ab>
+<ab rend="indent">Well, I thought, something must be done here, and although I didn’t know <hi rend="ital">for sure</hi> what was going on I gave it a try. </ab>
+<ab rend="indent">I pretended to be angry and said, well, is this how you keep your promise!, and I repeated the promise that she’d get better, and I showed I was very displeased that the <rs type="pers" key="466">child</rs> was ill and said that it was her fault, and I asked what that letter meant and, in a word, since I understood that this was an <hi rend="ital">abnormal</hi> situation, I spoke <hi rend="ital">abnormally</hi>, that is fairly sharply, although I felt nothing other than deep compassion. The result was a sort of awakening like that of a sleep-walker, and before I left, of course not without adjusting my tone, I had her repeat the promise to get better, and as quickly as possible. </ab>
+<ab rend="indent">Dear brother, from that moment on she recovered rapidly, and soon afterwards I collected <rs type="pers" key="463">her</rs> and the <rs type="pers" key="466">child</rs> from the hospital. The child continued ailing for a long time — perhaps because in the first days the mother thought more about me than about the child — but now of course it’s as healthy as a young rabbit and looks as clearly as a young rabbit from eyes that were originally shut tight. When I came to collect her and was waiting for her in a small waiting room in the hospital, as the woman came in with the child on her arm, all at once there again came over her that heart-rending quality that <rs type="pers" key="1339">Ary Scheffer</rs> paints or <rs type="pers" key="961">Correggio</rs>.</ab>
+      <ab rend="indent">Again, if I’m mistaken in thinking that there’s a kind of delirium or inner conflict (unfounded naturally) in your <rs type="pers" key="508">patient</rs> too, so much the better. But should symptoms of melancholia persist, have her promise again that she’ll get better, and show her plainly that <hi rend="ital">you</hi> want her to get better and that <hi rend="ital">you</hi> simply can’t do without her. You see, we sometimes feel a certain delicacy about saying it like that because it appears selfish, but don’t feel embarrassed about it now, because it’s her salvation, and not selfish in such a case. For when two people are so attuned to each other that they <hi rend="ital">can</hi> no longer be at ease and calm alone, then there’s no question of egoism any more, for the two no longer need to become one since <hi rend="ital">they are that already</hi>. That must express itself, however, and with a sick person this need for an outpouring of the heart can be such an absolute <hi rend="ital">need</hi> that recovery depends upon it. 
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/> </ab>
+<ab rend="indent">And even now that I’m continuing to talk about it (forgive me for going on, for I can’t help but say fully what I think in this matter), for days I’ve pictured your <rs type="pers" key="508">patient</rs> in my imagination (perhaps mistakenly, though — I don’t know for sure of course, and these are the kinds of thing one can’t help linking together) as being in the same sort of condition as my woman in the days after her confinement was over. </ab>
+<ab rend="indent">I’ve been imagining that since receiving your letter in which you describe the operation, and it has left me no peace, so to speak. And when I now read ‘rather depressed’ I couldn’t help writing about it. Almost from the beginning even, each time I tried to imagine your <rs type="pers" key="508">patient</rs>’s state of mind — when I think how the series of calamities that have struck her must have bewildered her — I believe her condition to be beyond the reach of any remedy except that of love in the fullest sense of the word. </ab>
+<ab rend="indent">
+                    <hi rend="sc">Without you</hi> regard <rs type="pers" key="508">her</rs> as lost, I can think of no rescue, no renewal of the future for her, without you. And although I find some expressions in your letters from which I see, or at least believe I see, that as regards the future you’re in doubt as to the question of whether or not she will love you now and for ever — for my part I have only a single thought on that point, namely this, she loves you, and as to you I have only one question: have you already told her that you love her now and for ever, or have you said nothing about that, either out of discretion or because you were afraid to hurt her? 
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/> </ab>
+<ab rend="indent">Of course I speak of these intimate matters (which incidentally I regard as <hi rend="ital">so </hi>intimate that I would <hi rend="ital">not</hi> speak of them without a special reason) only because I see this resemblance between your <rs type="pers" key="508">patient</rs> and <rs type="pers" key="463">mine</rs> then:</ab>
+<vg:whiteline/>
+<ab>1) both have undergone a difficult operation and weren’t entirely calm throughout that operation, despite the chloroform;</ab>
+<ab>2) shortly before the operation both had huge shocks to the mind through anxiety and tension and unrest, and their morale suffered almost more than a nervous system can bear;</ab>
+<ab>3) <hi rend="ital">for both, rest for the soul and body is absolutely necessary for recovery and recuperation</hi>.</ab>
+<vg:whiteline/>
+<ab>It seems to me that these resemblances are worth noting.</ab>
+<ab rend="indent">And now you speak of a symptom of melancholy. And I thought it might be of use to you to hear how that became very serious in my <rs type="pers" key="463">patient</rs>, and very threatening and dangerous <hi rend="ital">within a few days even</hi>, and how — when her mind was put at rest, she was reassured precisely through the certainty of a new love, and thus felt hope and appetite for the future — she soon recovered in body, at any rate from the operation. </ab>
+<ab rend="indent">Before that time I, for my part, had already assured <rs type="pers" key="463">her</rs> with all the strength in me that I wouldn’t abandon her, less through words, though, than through one or two things that I did for her as best I could, but through words as well. Despite that, doubt and unease suddenly arose in her, but they disappeared when I again did my best to calm her down. </ab>
+<ab rend="indent">Do you still remember how I took the view in a previous letter that there were objections to your having mentioned a job?<anchor n="3" xml:id="note-t-3"/> — I had already glimpsed something dimly in my mind — now you write about the beginnings of melancholy — well, I was afraid of that. I hope quite wrongly, but if the melancholy persists and the unrest and the <hi rend="ital">je ne sais quoi</hi> that blocks recovery, then in my view it’s a new assurance of your love and faithfulness that will reassure <rs type="pers" key="508">her</rs> and prepare her for recovery. Yes, in my view her life may depend on it. Adieu, old chap. I write to you to the best of my knowledge and out of unfeigned sympathy and serious interest — indeed you know that, and that it’s my deepest desire that everything may go well. Thanks again for your letter and the enclosure. My letter about ‘rather depressed’ has unintentionally become so long that there’s no room to write about anything else. Believe me, with a handshake and best wishes,</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<ab>Up to today my eyes were closed by fluid each night or morning when I awoke, but last night nothing in either for the first time. There’s nothing to be seen other than that the white was a little cloudy and red, and what they call blue bags under the eyes, and that’s nearly gone too. </ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>
+                        <rs type="pers" key="463">Sien</rs> had given birth to a <rs type="pers" key="466">son</rs> on 2 July 1882; <ref target="let242.xml">see letter 242</ref>.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>Van Gogh had been treated for gonorrhoea in the hospital in June 1882; <ref target="let237.xml">see letters 237</ref> ff.</ab>
+                </note>
+<note n="a" xml:id="n-a" target="#note-o-a">
+<ab>Here means: ‘hartverscheurende’ (heart-rending).</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>Van Gogh had written about the disadvantages of a job for <rs type="pers" key="508">Marie</rs> in <ref target="let308.xml">letter 308</ref>. His words ‘previous letter’ should be read as ‘<hi rend="ital">a</hi> previous letter’, not ‘<hi rend="ital">the</hi> previous letter’. </ab>
+                </note>
+<note n="b" xml:id="n-b" target="#note-o-b">
+<ab>Means: ‘blauwe kringen’ (blue bags).</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

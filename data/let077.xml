@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Ramsgate, Monday, 17 April 1876.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let077"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">077</idno>
+<idno type="collectedletters">61</idno>
+<idno type="brieven1990">075</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Ramsgate</vg:placeLet>
+                        <vg:dateLet>Monday, 17 April 1876</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. Ramsgate, Monday, 17 April 1876.</p>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b74 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+    <p>Letter headed: ‘Ramsgate 17 April 1876’. The letter has the same date as <ref target="let076.xml">letter 76</ref>; for the correct order, see <hi rend="ital">Date</hi> of that letter.</p>
+                    </note>
+                    <note type="ongoingTopic" n="1">
+        <p>Van Gogh enters the service of William Port Stokes <ref target="let074.xml">(74)</ref>
+                        </p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0074" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000077_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000077_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000077_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000077_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000077_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000077_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0074" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000077_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000077_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000077_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000077_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000077_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000077_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+        <surface n="b 0074 V/1962" xml:id="surf-extra-1">
+            <graphic mimeType="image/tiff" url="VGM001000077_03.TIF" rend="norend"/>
+            <zone xml:id="zone-extra-2">
+<graphic mimeType="image/tiff" url="VGM001000077_03_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000077_03_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000077_03_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+        <surface n="b 0074 V/1962" xml:id="surf-extra-2">
+            <graphic mimeType="image/tiff" url="VGM001000077_04.TIF" rend="norend"/>
+            <zone xml:id="zone-extra-4">
+<graphic mimeType="image/tiff" url="VGM001000077_04_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000077_04_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000077_04_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Ramsgate 17 April 1876.</ab>
+<vg:whiteline/>
+                <lb n="2" xml:id="l-2"/>
+<ab>Waarde Theo,</ab>
+                <lb n="3" xml:id="l-3"/>
+<ab>Gisteren middag om 1 uur ben ik goed en wel <lb n="4" xml:id="l-4"/>hier aangekomen, en een van mijne eerste im<c type="shy">-</c>
+                    <lb n="5" xml:id="l-5"/>pressies was dat het raam van de niet zeer groote <lb n="6" xml:id="l-6"/>school op de zee uitziet.─</ab>
+                <lb n="7" xml:id="l-7"/>
+<ab rend="indent">Het is eene kostschool en er zijn 24 jongens van <lb n="8" xml:id="l-8"/>10-14 jaar<c type="kp">_</c>
+                </ab>
+                <lb n="9" xml:id="l-9"/>
+<ab rend="indent">Mr. Stokes is uit de stad voor een paar dagen en <lb n="10" xml:id="l-10"/>dus heb ik ZEd<c type="kp">_</c> nog niet gezien, maar dezen <lb n="11" xml:id="l-11"/>avond wordt hij terugverwacht.─</ab>
+                <lb n="12" xml:id="l-12"/>
+<ab rend="indent">Er is nog een ondermeester van 17 jaar.─</ab>
+                <lb n="13" xml:id="l-13"/>
+<ab rend="indent">Gisteren avond en dezen morgen deden wij allen <lb n="14" xml:id="l-14"/>eene wandeling aan den zeekant. Hierbij een <lb n="15" xml:id="l-15"/>takje zeewier.─<anchor n="1" xml:id="note-o-1"/>
+                </ab>
+                <lb n="16" xml:id="l-16"/>
+<ab rend="indent">De huizen aan zee zijn meest van geelen steen <lb n="17" xml:id="l-17"/>gebouwd, in den trant van die in de Nassaulaan <lb n="18" xml:id="l-18"/>te s’Hage, (maar hooger), en hebben tuinen vol <lb n="19" xml:id="l-19"/>ceders en andere donkere<c type="kk">/</c> altijd groen blijvende heesters. <lb n="20" xml:id="l-20"/>Er is eene haven vol allerlei schepen<c type="kk">/</c> ingesloten <lb n="21" xml:id="l-21"/>door in zee uitstekende steenen dijken waarop <lb n="22" xml:id="l-22"/>men wandelen kan. En verder ziet men de <lb n="23" xml:id="l-23"/>zee in haar natuurlijken staat en dat is mooi. <lb n="24" xml:id="l-24"/>Gisteren was alles grijs.</ab>
+                <lb n="25" xml:id="l-25"/>
+<ab rend="indent">Strak ga ik mijne koffers die daar juist bezorgd zijn <lb n="26" xml:id="l-26"/>uitpakken, en wat prenten op mijn kamer hangen. <lb n="27" xml:id="l-27"/>(De ondermeester, 4 jongens en ik slapen in een <lb n="28" xml:id="l-28"/>ander huis dicht bij<c type="kp">_</c>)</ab>
+                <lb n="29" xml:id="l-29"/>
+<ab rend="indent">Dezer dagen is het vacantie<anchor n="2" xml:id="note-o-2"/> en dus heb ik nog geen <lb n="30" xml:id="l-30"/>les behoeven te geven. Ik ben verlangend om 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                    <lb n="31" xml:id="l-31"/>Mr Stokes te zien.─ Ik moet weg met de <lb n="32" xml:id="l-32"/>jongens<c type="kk">/</c> à Dieu. Steeds</ab>
+<vg:whiteline/>
+                <lb n="33" xml:id="l-33"/>
+<ab>Uw zoo liefh. broêr</ab>
+                <lb n="34" xml:id="l-34"/>
+<ab>Vincent.</ab>
+<vg:whiteline/>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>Ramsgate, 17 April 1876.</ab>
+<vg:whiteline/>
+<ab>My dear Theo,</ab>
+<ab>I arrived here safe and sound yesterday afternoon at 1 o’clock, and one of my first impressions was that the window of the not-very-large school looks out over the sea.</ab>
+<ab rend="indent">It’s a boarding school and there are 24 boys between the ages of 10 and 14.</ab>
+<ab rend="indent">
+                    <rs type="pers" key="764">Mr Stokes</rs> is out of town for a couple of days and so I haven’t seen His Honour yet, but he’s expected back this evening.</ab>
+<ab rend="indent">There’s another assistant teacher, 17 years old.</ab>
+<ab rend="indent">Yesterday evening and this morning we all took a walk by the sea. Herewith a bit of seaweed.<anchor n="1" xml:id="note-t-1"/>
+                </ab>
+<ab rend="indent">The houses on the sea-front are mostly built of yellow brick in the style of those in Nassaulaan in The Hague (but taller), and have gardens full of cedars and other dark evergreen shrubs. There’s a harbour full of all kinds of ships, closed in by stone jetties running into the sea on which one can walk. And further out one sees the sea in its natural state, and that’s beautiful. Yesterday everything was grey.</ab>
+<ab rend="indent">I’m shortly going to unpack my trunks which have just been brought, and hang up some prints in my room. (The assistant teacher, 4 boys and I sleep in another house close by.)</ab>
+<ab rend="indent">It’s the holidays<anchor n="2" xml:id="note-t-2"/> just now, so I haven’t had to give any lessons yet. I’m anxious to 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> see <rs type="pers" key="764">Mr Stokes</rs>. I must go out with the boys, adieu. Ever</ab>
+<vg:whiteline/>
+<ab>Your most loving brother</ab>
+<ab>Vincent.</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>Two sprigs of something looking like seaweed have survived; they are preserved with this letter (inv. no. b76 V/1962). In fact they are not seaweed. The larger is a moss animal, a bryozoan: <hi rend="ital">Flustra foliacea</hi> (hornwrack); the smaller is a hydroid: <hi rend="ital">Hydrallmania falcata</hi>, to which three minuscule mussels adhere. <rs type="ill" key="1918">Ill. 1918</rs>. Both were formerly considered zoophytes. See Gerhard C. Cadée, ‘De doos van Pandora. De zee(w)(d)ieren van Vincent van Gogh’, <hi rend="ital">Gewina. Tijdschrift voor de Geschiedenis der Geneeskunde, Natuurwetenschappen, Wiskunde en Techniek</hi> 30 (2007), pp. 75-76.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>The Easter break.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

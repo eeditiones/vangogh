@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Paris, Friday, 10 December 1875.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let061"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">061</idno>
+<idno type="collectedletters">48</idno>
+<idno type="brieven1990">060</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Paris</vg:placeLet>
+                        <vg:dateLet>Friday, 10 December 1875</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. Paris, Friday, 10 December 1875.</p>
+<note type="ongoingTopic" n="1">
+<p>Theo’s leg injury <ref target="let060.xml">(60)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b61 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Letter headed: ‘<hi rend="ital">[</hi>Paris, le<hi rend="ital">]</hi> 10 Dec_ <hi rend="ital">[</hi>187<hi rend="ital">]</hi>5’.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0061" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000064_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000064_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000064_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000064_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000064_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000064_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0061" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000064_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000064_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000064_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000064_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000064_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000064_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>
+                    <vg:suppliedMilestone type="open"/>Goupil &amp; C<hi rend="ss">ie</hi>
+                </ab>
+                <lb n="2" xml:id="l-2"/>
+<ab>Editeurs Imprimeurs</ab>
+                <lb n="3" xml:id="l-3"/>
+<ab>Estampes Françaises &amp; Étrangères</ab>
+                <lb n="4" xml:id="l-4"/>
+<ab>Tableaux Modernes</ab>
+                <lb n="5" xml:id="l-5"/>
+<ab>Rue Chaptal, 9, PARIS.</ab>
+                <lb n="6" xml:id="l-6"/>
+<ab>Succursales à la Haye, Londres, Berlin, New-York.</ab>
+<vg:whiteline/>
+                <lb n="7" xml:id="l-7"/>
+<ab>Paris, le<vg:suppliedMilestone type="close"/> 10 Dec<c type="kp">_</c> <supplied>187</supplied>5</ab>
+<vg:whiteline/>
+                <lb n="8" xml:id="l-8"/>
+<ab>Waarde Theo,</ab>
+                <lb n="9" xml:id="l-9"/>
+<ab>Hierbij het beloofde.─ Het boek van Jules Breton zult <lb n="10" xml:id="l-10"/>gij wel mooi vinden. Er is één van zijne gedichten dat mij <lb n="11" xml:id="l-11"/>bizonder trof<c type="kk">/</c> het is “Illusions”.<anchor n="1" xml:id="note-o-1"/> Gelukkig zij wier hart <lb n="12" xml:id="l-12"/>zoo gestemd is.</ab>
+                <lb n="13" xml:id="l-13"/>
+<ab rend="indent">Hun die God lief hebben zullen alle dingen medewerken <lb n="14" xml:id="l-14"/>ten goede,<anchor n="2" xml:id="note-o-2"/> is een schoon woord. Zoo zal het ook U wel <lb n="15" xml:id="l-15"/>gaan; en den nasmaak van deze moeielijke dagen <lb n="16" xml:id="l-16"/>zal wel goed zijn.─</ab>
+                <lb n="17" xml:id="l-17"/>
+<ab rend="indent">Maar schrijf toch maar eens spoedig hoe het gaat en <lb n="18" xml:id="l-18"/>wanneer de dokter zegt gij beter zult zijn, als gij dit <lb n="19" xml:id="l-19"/>tenminste nog niet reeds gedaan hebt.─</ab>
+                <lb n="20" xml:id="l-20"/>
+<ab rend="indent">Vandaag 14 dagen hoop ik te Etten te zijn, hoe ik <lb n="21" xml:id="l-21"/>er naar verlang kunt gij wel denken<c type="kp">_</c>
+                </ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="22" xml:id="l-22"/>
+<ab rend="indent">Heb ik U reeds verteld ik weer in ’t pijpen rooken &amp;c<c type="kp">_</c> <lb n="23" xml:id="l-23"/>ben vervallen. Ik heb in mijn pijp een oud <lb n="24" xml:id="l-24"/>trouw vriend terug gevonden en nu zullen wij <lb n="25" xml:id="l-25"/>wel niet meer scheiden denk ik.─</ab>
+                <lb n="26" xml:id="l-26"/>
+<ab rend="indent">Van Oom Vincent hoorde ik dat gij ook rookt.</ab>
+                <lb n="27" xml:id="l-27"/>
+<ab rend="indent">Zeg allen bij Roos toch vooral goeden dag voor mij<c type="kk">/</c> <lb n="28" xml:id="l-28"/>wij beiden hebben veel goeds daar in huis beleefd <lb n="29" xml:id="l-29"/>en veel trouw ondervonden.</ab>
+                <lb n="30" xml:id="l-30"/>
+<ab rend="indent">Wij hebben op ’t oogenblik “Le dimanche matin” van <lb n="31" xml:id="l-31"/>Emile Breton hier.<anchor n="3" xml:id="note-o-3"/> Dat kent gij immers? ’t Is eene <lb n="32" xml:id="l-32"/>dorpsstraat van boerenhuizen en schuren en aan ’t eind <lb n="33" xml:id="l-33"/>de kerk met populieren omgeven. Alles besneeuwd en <lb n="34" xml:id="l-34"/>zwarte figuurtjes die naar de kerk gaan. ’t Zegt ons <lb n="35" xml:id="l-35"/>dat den winter koud is maar dat er warme menschen<c type="shy">-</c>
+                    <lb n="36" xml:id="l-36"/>harten zijn.</ab>
+                <lb n="37" xml:id="l-37"/>
+<ab rend="indent">Heb het zoo goed mogelijk jongen en geloof mij steeds</ab>
+<vg:whiteline/>
+                <lb n="38" xml:id="l-38"/>
+<ab>Uw liefh. broeder</ab>
+                <lb n="39" xml:id="l-39"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+                <lb n="40" xml:id="l-40"/>
+<ab>de pakjes chocolade gemerkt X zijn voor U<c type="kk">/</c> de 2 anderen <lb n="41" xml:id="l-41"/>voor jufvrouw Roos. Rook de cigaretten met de huisgenooten op<c type="kp">_</c> <lb n="42" xml:id="l-42"/>à Dieu.─</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-1" targetEnd="l-7" n="1-7">
+                        <hi rend="ital">Printed letterhead.</hi>
+                    </note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>[Letterhead: Goupil Paris]</ab>
+<vg:whiteline/>
+<ab>Paris, 10 Dec. 1875</ab>
+<vg:whiteline/>
+<ab>My dear Theo,</ab>
+<ab>Herewith what I promised. You’ll like the book by <rs type="pers" key="899">Jules Breton</rs>. There’s one poem of his that I found especially moving: ‘Illusions’.<anchor n="1" xml:id="note-t-1"/> Blessed are those whose hearts are thus attuned.</ab>
+<ab rend="indent">All things work together for good to them that love God<anchor n="2" xml:id="note-t-2"/> is a beautiful saying. It will be so for you, too; and the aftertaste of these difficult days will be good.</ab>
+<ab rend="indent">But write and tell me soon how things are and when the doctor says you’ll be better, if you haven’t done so already, that is.</ab>
+<ab rend="indent">In a fortnight I hope to be in Etten, you can imagine how much I’m looking forward to it. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">Have I already told you that I’ve taken up pipe-smoking &amp;c. again? I’ve rediscovered in my pipe an old, trusty friend, and I imagine we’ll never part again.</ab>
+<ab rend="indent">I heard from <rs type="pers" key="423">Uncle Vincent</rs> that you smoke too.</ab>
+<ab rend="indent">Tell everyone at the <rs type="pers" key="642 643">Rooses</rs>’ especially that I bid them good-day; you and I have had a lot of good times in their house, and have met with much loyalty.</ab>
+<ab rend="indent">We have ‘Sunday morning’ by <rs type="pers" key="905">Emile Breton</rs> here at present.<anchor n="3" xml:id="note-t-3"/> You know it, don’t you? It’s a village street with farmhouses and sheds, and at the end the church surrounded by poplars. Everything covered with snow and little black figures going to church. It tells us that winter is cold but that there are warm human hearts.</ab>
+<ab rend="indent">I wish you the very best, old boy, and believe me ever</ab>
+<vg:whiteline/>
+<ab>Your loving brother</ab>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<ab>The packages of chocolate marked X are for you, the other two are for <rs type="pers" key="643">Mrs Roos</rs>. Smoke the cigarettes with your housemates. Adieu.</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>Vincent had promised to send Theo <rs type="lit" key="29">
+                            <hi rend="ital">Les champs et la mer</hi>
+                        </rs> by <rs type="pers" key="899">Jules Breton</rs> (<ref target="let060.xml">see letter 60</ref>). The poem ‘<rs type="lit" key="56">Illusions</rs>’, dedicated to Anatole France and dated ‘Courrières, 1873’, reads:</ab>
+<vg:whiteline/>
+<ab>‘How rashly leaps the wounded heart,</ab>
+<ab>When in the grip of winter’s heavy shroud,</ab>
+<ab>To that first refuge where, young and at peace, </ab>
+<ab>It heard itself amid the silence sing.</ab>
+<vg:whiteline/>
+<ab>How bitter the delight, my soul, with which you revel in</ab>
+<ab>Your childhood home, the fields and flowers round the lake’s</ab>
+<ab>Inlet, where on the reeds the bird sways back and forth;</ab>
+<ab>And yet, Chimaera, you deceived us then!</ab>
+<vg:whiteline/>
+<ab>For in your fair mirage a splendid future time</ab>
+<ab>Like a glorious summer unfurled its ripened sheaf </ab>
+<ab>Whose drifting ears of corn were veritable suns.</ab>
+<vg:whiteline/>
+<ab>You lied.– And yet how irresistible their charms,</ab>
+<ab>Those phantoms that we see in crimson distances,</ab>
+<ab>Through our tears’ great prism shimmering!’</ab>
+<vg:whiteline/>
+<ab>(Qu’impétueusement un coeur blessé s’élance,</ab>
+<ab>Lorsque l’hiver l’étreint sous son linceul épais,</ab>
+<ab>Vers le premier asile où, jeune et dans la paix,</ab>
+<ab>Il s’écoutait chanter au milieu du silence.</ab>
+<vg:whiteline/>
+<ab>Avec quelle âpre ardeur, âme, tu te repais</ab>
+<ab>Du toit natal, des prés et des fleurs bordant l’anse</ab>
+<ab>De l’étang où l’oiseau sur les joncs se balance;</ab>
+<ab>Et pourtant, ô Chimère, alors tu nous trompais!</ab>
+<vg:whiteline/>
+<ab>Car dans ton beau mirage un avenir superbe,</ab>
+<ab>Comme un été splendide ouvrait sa riche gerbe</ab>
+<ab>Dont les épis flottants étaitent de vrais soleils.</ab>
+<vg:whiteline/>
+<ab>Tu mentais.– Mais qu’ils ont d’irrésistibles charmes</ab>
+<ab>Ces fantômes qu’on voit dans les lointains vermeils</ab>
+<ab>S’iriser à travers le grand prisme des larmes!)</ab>
+<ab>See Breton 1875, pp. 75-76.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Rom" chap="8" v="28">Rom. 8:28</bibleref>.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>
+                        <rs type="pers" key="905">Emile Adélard Breton</rs>, <hi rend="ital">Sunday morning in winter</hi> (present whereabouts unknown); the painting was exhibited at the Salon of 1873 (no. 180). <rs type="pers" key="1585">Eugène Louis Pirodon</rs> and <rs type="pers" key="1586">P. de Comte (?)</rs> made a print of it, which appeared in <hi rend="ital">L’Illustration</hi> 61 (10 May 1873), p. 320. This print, <hi rend="ital">Un</hi> <hi rend="ital">dimanche matin en hiver</hi>, is to be found in Van Gogh’s estate (Amsterdam, Van Gogh Museum, t*637). <rs type="ill" key="1762">Ill. 1762</rs>. A reproduction of it also appeared in the <hi rend="ital">Gazette des Beaux-Arts</hi> 15 (1873), 2nd series, vol. 8, p. 51.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

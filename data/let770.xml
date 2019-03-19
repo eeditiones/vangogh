@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>Theo van Gogh to Vincent van Gogh. Paris, Wednesday, 8 May 1889.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let770"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">770</idno>
+<idno type="collectedletters">T7</idno>
+<idno type="brieven1990">773</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Theo van Gogh</author>
+                        <vg:addressee>Vincent van Gogh</vg:addressee>
+                        <vg:placeLet>Paris</vg:placeLet>
+                        <vg:dateLet>Wednesday, 8 May 1889</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>Theo van Gogh to Vincent van Gogh. Paris, Wednesday, 8 May 1889.</p>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b734 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>We assume that the letter from Jo to Vincent, dated 8 May 1889 (<ref target="let771.xml">letter 771</ref>), was enclosed with the present letter. In <ref target="let772.xml">letter 772</ref> Vincent thanks them for both letters, which prompts us to date the present letter as well to Wednesday, 8 May 1889.</p>
+                    </note>
+<note type="additionalDetail" xml:id="additionalDetail">
+<p>Most likely enclosed with <ref target="let771.xml">letter 771</ref>.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0734" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000993_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000993_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000993_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000993_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0734" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000993_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000993_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000993_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000993_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Mon cher Vincent,</ab>
+                <lb n="2" xml:id="l-2"/>
+<ab>Deux mots à la hate pour <lb n="3" xml:id="l-3"/>te remercier de ta dernière lettre <lb n="4" xml:id="l-4"/>et te dire, que je ne considère pas <lb n="5" xml:id="l-5"/>ton aller à S<hi rend="ss">t</hi> Remy comme une <lb n="6" xml:id="l-6"/>retraite comme tu dis,<anchor n="1" xml:id="note-o-1"/> mais simplement <lb n="7" xml:id="l-7"/>comme un repos d’un moment pour <lb n="8" xml:id="l-8"/>revenir bientôt avec de nouvelles forces.</ab>
+                <lb n="9" xml:id="l-9"/>
+<ab rend="indent">Je me rappèle avoir vu il y a longtemps <lb n="10" xml:id="l-10"/>une chose qui m’a frappé beaucoup. <lb n="11" xml:id="l-11"/>Dans la Rue des petits caraux<anchor n="2" xml:id="note-o-2"/> je <lb n="12" xml:id="l-12"/>voyais un attelage très lourd qui <lb n="13" xml:id="l-13"/>devait monter cette rue. Le cocher <lb n="14" xml:id="l-14"/>tapait à coup redoublés sur ses <lb n="15" xml:id="l-15"/>quatre chevaux, mais au beau milieu <lb n="16" xml:id="l-16"/>les chevaux éreintés refusaient d’aller <lb n="17" xml:id="l-17"/>un pas en avant. Il les fit donc retourner <lb n="18" xml:id="l-18"/>et revenu en bas de la rue, presque sans <lb n="19" xml:id="l-19"/>les faire reposer<c type="kk">/</c> il retourna 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                    <lb n="20" xml:id="l-20"/>de nouveau et parvint sans difficulté <lb n="21" xml:id="l-21"/>en haut de la rue.<anchor n="3" xml:id="note-o-3"/> J’aimerais bien que <lb n="22" xml:id="l-22"/>tu me dises un peu comment tu es <lb n="23" xml:id="l-23"/>traité dans la maison &amp; comment est <lb n="24" xml:id="l-24"/>la nouriture etc. M<hi rend="ss">r</hi> Salles disait <lb n="25" xml:id="l-25"/>beaucoup de bien de ce qu’il avait vu. <lb n="26" xml:id="l-26"/>Celui là a été parfait, il m’a écrit une <lb n="27" xml:id="l-27"/>longue lettre pour me rendre conpte de <lb n="28" xml:id="l-28"/>sa visite. Comme je ne sais que par ta dépêche <lb n="29" xml:id="l-29"/>que tu es parti j’ignore s’il t’a accompagné <lb n="30" xml:id="l-30"/>comme il se le proposait.–<anchor n="4" xml:id="note-o-4"/> Il y a au Salon <lb n="31" xml:id="l-31"/>un très beau tableau de Raphaelli, deux <lb n="32" xml:id="l-32"/>buveurs d’absinthe.<anchor n="5" xml:id="note-o-5"/> Je le trouve le plus fort <lb n="33" xml:id="l-33"/>quand il peint ces déclassés quoique le <lb n="34" xml:id="l-34"/>portrait de deux jeunes filles en blanc soit <lb n="35" xml:id="l-35"/>peut être le meilleur portrait du Salon.<anchor n="6" xml:id="note-o-6"/> <lb n="36" xml:id="l-36"/>Zorn a des baigneuses au bord de la mer,<anchor n="7" xml:id="note-o-7"/> un <lb n="37" xml:id="l-37"/>peu dans le genre d’en Arcadie de Harrison <lb n="38" xml:id="l-38"/>que tu te rappèles peut être.<anchor n="8" xml:id="note-o-8"/> Il y a une naissance <lb n="39" xml:id="l-39"/>du Christ d’Uhde, tryptique,<anchor n="9" xml:id="note-o-9"/> où il y a un <lb n="40" xml:id="l-40"/>joli sentiment. Dans tout ce bazar il y a bien <lb n="41" xml:id="l-41"/>peu de chose d’intéressant. Je suis tout de ton avis <lb n="42" xml:id="l-42"/>qu’il ne faut pas croire uniquement à l’impressionisme<anchor n="10" xml:id="note-o-10"/> <lb n="43" xml:id="l-43"/>mais encore faut il qu’il y ait ce côté individuel <lb n="44" xml:id="l-44"/>qui manque à presque tout ce qu’il y a au Salon<c type="kp">_</c>
+                </ab>
+                <lb n="45" xml:id="l-45"/>
+<ab rend="indent">à bientôt &amp; porte toi bien. Bonne poigné de main<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="46" xml:id="l-46"/>
+<ab>Theo</ab>
+<vg:whiteline/>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Vincent,</ab>
+<ab>A few words in haste to thank you for your last letter and to tell you that I don’t consider your going to St-Rémy as a retreat, as you say,<anchor n="1" xml:id="note-t-1"/> but simply as a momentary rest so as to come back soon with new strength.</ab>
+<ab rend="indent">I remember seeing something that struck me greatly a long time ago. In rue des Petits-Carreaux<anchor n="2" xml:id="note-t-2"/> I saw a very heavy dray which had to climb that street. The driver struck his four horses harder and harder, but right in the middle the worn-out horses refused to go a step further. So he made them turn round and, when they were back at the bottom of the street, almost without resting them, he turned round 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> again and arrived at the top of the street without difficulty.<anchor n="3" xml:id="note-t-3"/> I’d very much like you to tell me how you’re treated in the establishment and what the food is like etc. <rs type="pers" key="663">Mr Salles</rs> said many good things about what he had seen. He has been perfect, he wrote me a long letter to give me an account of his visit. As I only know from your telegram that you have gone, I don’t know if he accompanied you as he proposed to do.<anchor n="4" xml:id="note-t-4"/> In the Salon there’s a very fine painting by <rs type="pers" key="1279">Raffaëlli</rs>, two absinthe drinkers.<anchor n="5" xml:id="note-t-5"/> I find him strongest when he paints these people who have come down in the world, although the portrait of two young girls in white may perhaps be the best portrait in the Salon.<anchor n="6" xml:id="note-t-6"/> <rs type="pers" key="1447">Zorn</rs> has female bathers at the seaside,<anchor n="7" xml:id="note-t-7"/> somewhat in the genre of In Arcady by Harrison, which you remember perhaps.<anchor n="8" xml:id="note-t-8"/> There’s a Birth of Christ by <rs type="pers" key="1387">Uhde</rs>, triptych,<anchor n="9" xml:id="note-t-9"/> in which there’s a pretty sentiment. There’s very little of interest in all of this penny bazaar. I’m entirely of your opinion that one mustn’t believe solely in Impressionism,<anchor n="10" xml:id="note-t-10"/> but still there must be that individual aspect which is lacking in almost everything there is in the Salon.</ab>
+<ab rend="indent">More soon and look after yourself. Good handshake.</ab>
+<vg:whiteline/>
+<ab>Theo</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>Vincent wrote this in <ref target="let768.xml">letter 768</ref> of 3 May 1889. On 8 May he travelled with the <rs type="pers" key="663">Rev. Salles</rs> by train to Saint-Rémy, and was admitted that same day to the asylum.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>Rue des Petits-Carreaux, a street off rue Réaumur, to the north of Les Halles.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>Theo repeats this story about the horses in <ref target="let900.xml">letter 900</ref>.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>
+                        <rs type="pers" key="663">Salles</rs>’s letter about his preparatory visit to the asylum and Vincent’s telegram have not survived. In a letter dated 10 May 1889, Salles informed Theo about the trip and Vincent’s admission: ‘Our journey to Saint-Rémy was completed under excellent circumstances. Mr Vincent was perfectly calm and explained his case to the director in person, like a man who is fully aware of his situation. He stayed with me until I left, and when I took leave of him, he thanked me warmly, and seemed somewhat moved at the thought of the entirely new life he was about to lead in this establishment’ (Notre voyage à St. Rémy s’est effectué dans d’excellentes conditions. M. Vincent était parfaitement calme et a expliqué lui-même son cas au directeur, comme un homme qui a pleine conscience de sa situation. Il est resté avec moi jusqu’à mon départ et quand j’ai pris congé de lui, il m’a chaleureusement remercié et a paru quelque peu ému à la pensée de la vie toute nouvelle qu’il allait mener dans cette maison). (FR b1052).</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>
+                        <rs type="pers" key="1279">Jean-François Raffaëlli</rs>, <hi rend="ital">The absinthe drinkers</hi>, c. 1880-1881 (private collection). <rs type="ill" key="1230">Ill. 1230</rs>. See exhib. cat. Paris 1889-2, p. 169, no. 2231. <rs type="pers" key="416">Jo</rs> had gone with Theo to see the exhibition, which she described in detail in a letter to her sister <rs type="pers" key="24">Mien</rs> (FR b4287, 11 May 1889).</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>
+      <hi rend="ital">Portraits of Judith and of Gabrielle</hi>, 1889 (Lyon, Musée des Beaux-Arts). <rs type="ill" key="1233">Ill. 1233</rs>. See exhib. cat. Paris 1889-2, p. 169, no. 2230.</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>
+                        <rs type="pers" key="1447">Zorn</rs>’s painting <hi rend="ital">Ute</hi>, 1888 (Göteborgs Konstmuseum) was exhibited at the Salon under the title <hi rend="ital">A l’air;</hi> <hi rend="ital">– Suède</hi> (<hi rend="ital">Out of doors – Sweden</hi>). <rs type="ill" key="1448">Ill. 1448</rs>. See exhib. cat. Paris 1889-2, p. 210, no. 2765. This is Theo’s response to Vincent’s question about which of Zorn’s works were exhibited at the Salon (<ref target="let768.xml">letter 768</ref>).</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>
+                        <rs type="pers" key="1071">Thomas Alexander Harrison</rs>, <hi rend="ital">In Arcady</hi>, c. 1886 (Paris, Musée d’Orsay). <rs type="ill" key="922">Ill. 922</rs>. It was shown at the 1886 Salon. See exhib. cat. Paris 1886-1, p. 96, no. 1168.</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>The triptych <hi rend="ital">Nativity of Christ</hi> by <rs type="pers" key="1387">Friedrich von Uhde</rs>, which Theo mentions, is actually <hi rend="ital">Holy night </hi>(central panel:<hi rend="ital"> The nativity of Christ</hi>), 1888-1889 (Dresden, Gemäldegalerie Neue Meister). <rs type="ill" key="438">Ill. 438</rs>. See exhib. cat. Paris 1889-2, p. 198, no. 2595.</ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>Vincent wrote this in <ref target="let768.xml">letter 768</ref>.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

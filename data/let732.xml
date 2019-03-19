@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Arles, Monday, 7 January 1889.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let732"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">732</idno>
+<idno type="collectedletters">568</idno>
+<idno type="brieven1990">735</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Arles</vg:placeLet>
+                        <vg:dateLet>Monday, 7 January 1889</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. Arles, Monday, 7 January 1889.</p>
+<note type="ongoingTopic" n="1">
+<p>Vincent’s first crisis and hospitalization <ref target="let728.xml">(728)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="2">
+<p>Theo’s journey to Arles <ref target="let728.xml">(728)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="3">
+<p>Theo’s engagement and marriage to Jo Bonger <ref target="let728.xml">(728)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="4">
+<p>Gauguin’s departure from Arles <ref target="let728.xml">(728)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="5">
+<p>De Haan’s stay with Theo <ref target="let711.xml">(711)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. nos. b615 V/1962 (sheet 1) and b616 V/1962 (sheet 2)</p>
+                    </note>
+<note type="date" xml:id="date">
+    <p>Van Gogh says that he has returned home ‘today’ <ref target="#l-5">(l. 5)</ref>. We know from a letter dated 7 January 1889 which Joseph Roulin wrote to Theo (FR b1069), as well as from Roulin’s letter of 8 January 1889 to Willemien (FR b710), that Vincent was released from hospital on 7 January 1889. For this last letter, <ref target="documentation.xml#id8January1889">see <hi rend="ital">Documentation</hi>, 8 January 1889.</ref> </p>
+                    </note>
+    <note type="arrangement" xml:id="arrangement">
+<p>Vincent wrote to Theo again later the same day. The phrase ‘I’m adding a few words this same evening’ <ref target="#l-99">(ll. 99-100)</ref> leads us to assume that the sheets were sent at the same time, which is why we consider them part of one letter (formerly <ref target="let737.xml">letter 737</ref> [569]). The letter from Roulin to Theo, likewise dated 7 January 1889, must have been enclosed with the present letter. Roulin writes, after all: ‘Excuse me if I add my letter to this one from my friend Vincent’ (Excusez-moi si je joins ma lettre à celle de mon ami Vincent) (FR b1069).</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0615" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000836_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000836_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000836_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000836_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000836_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000836_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="VGM001000836_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000836_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000836_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0615" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000836_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000836_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000836_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000836_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000836_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000836_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000836_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000836_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000836_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0616" xml:id="surf-pb-2r">
+            <graphic mimeType="image/tiff" url="VGM001000837_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000837_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000837_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-2r-5">
+<graphic mimeType="image/tiff" url="VGM001000837_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000837_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000837_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-2r-8">
+<graphic mimeType="image/tiff" url="VGM001000837_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000837_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000837_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0616" xml:id="surf-pb-2v">
+            <graphic mimeType="image/tiff" url="VGM001000837_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000837_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000837_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-2v-6">
+<graphic mimeType="image/tiff" url="VGM001000837_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000837_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000837_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-2v-7">
+<graphic mimeType="image/tiff" url="VGM001000837_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000837_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000837_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Mon cher Theo,</ab>
+                <lb n="1*" xml:id="l-1s"/>
+<ab>Peutêtre je ne t’ecrirai pas <lb n="2" xml:id="l-2"/>une bien longue lettre aujourd’hui mais <lb n="3" xml:id="l-3"/>dans tous les cas un mot pour te <lb n="4" xml:id="l-4"/>faire savoir que je suis rentré chez <lb n="5" xml:id="l-5"/>moi aujourd’hui<c type="kp">_</c> Combien je <lb n="6" xml:id="l-6"/>regrette que tu te sois dérangé pour <lb n="7" xml:id="l-7"/>si peu de chôse<c type="kk">/</c> pardonnez le moi <lb n="8" xml:id="l-8"/>qui en somme en suis probablement <lb n="9" xml:id="l-9"/>la cause première<c type="kp">_</c> J’ai pas prévu <lb n="10" xml:id="l-10"/>que cela aurait la conséquence <lb n="11" xml:id="l-11"/>qu’on t’en parlerait. Suffit.</ab>
+                <lb n="12" xml:id="l-12"/>
+<ab rend="indent">Monsieur Rey est venu voir la <lb n="13" xml:id="l-13"/>peinture avec deux de ses amis <lb n="14" xml:id="l-14"/>médecins<anchor n="1" xml:id="note-o-1"/> et eux comprennent <lb n="15" xml:id="l-15"/>au moins bigrement vite ce <lb n="16" xml:id="l-16"/>que c’est que des complémentaires. <lb n="17" xml:id="l-17"/>Maintenant je compte faire le <lb n="18" xml:id="l-18"/>portrait de M. Rey et possible d’autres <lb n="19" xml:id="l-19"/>portraits dès que je me serai un <lb n="20" xml:id="l-20"/>peu réhabitué à la peinture.<anchor n="2" xml:id="note-o-2"/>
+                </ab>
+                <lb n="21" xml:id="l-21"/>
+<ab rend="indent">Merci de ta dernière lettre<c type="kk">/</c> <lb n="22" xml:id="l-22"/>certes je te sens toujours présent <lb n="23" xml:id="l-23"/>mais de ton côté saches aussi que <lb n="24" xml:id="l-24"/>je travaille à la même chôse que toi-même<c type="kp">_</c>
+                </ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="25" xml:id="l-25"/>
+<ab rend="indent">Ah comme je désirerais que tu <lb n="26" xml:id="l-26"/>eusses vu le portrait de Brias par <lb n="27" xml:id="l-27"/>Delacroix et tout le musée de <lb n="28" xml:id="l-28"/>Montpellier où Gauguin m’a <lb n="29" xml:id="l-29"/>mené.<anchor n="3" xml:id="note-o-3"/> Comme on a déjà <lb n="30" xml:id="l-30"/>travaillé dans le midi avant nous<c type="kp">_</c> <lb n="31" xml:id="l-31"/>Vrai<c type="kk">/</c> il m’est assez difficile de <lb n="32" xml:id="l-32"/>croire que nous nous soyons <lb n="33" xml:id="l-33"/>devoyés tant que ça.</ab>
+                <lb n="34" xml:id="l-34"/>
+<ab rend="indent">Pour ce qui est du pays chaud – <lb n="35" xml:id="l-35"/>ma foi involontairement je songe <lb n="36" xml:id="l-36"/>à un certain pays dont parle <lb n="37" xml:id="l-37"/>Voltaire – et sans compter même <lb n="38" xml:id="l-38"/>les simples chateaux en Espagne<c type="kp">_</c>
+                    <anchor n="4" xml:id="note-o-4"/> <lb n="39" xml:id="l-39"/>Ce sont là les pensées qui me <lb n="40" xml:id="l-40"/>viennent en rentrant chez moi<c type="kp">_</c>
+                </ab>
+                <lb n="41" xml:id="l-41"/>
+<ab rend="indent">Je suis très desireux de savoir <lb n="42" xml:id="l-42"/>comment vont les Bonger et <lb n="43" xml:id="l-43"/>si les rapports avec eux se maintiennent<c type="kk">/</c> <lb n="44" xml:id="l-44"/>ce que j’espère<c type="kp">_</c>
+                </ab>
+                <lb n="45" xml:id="l-45"/>
+<ab rend="indent">Si tu le trouves bien – Gauguin <lb n="46" xml:id="l-46"/>parti – nous remettrons le mois <lb n="47" xml:id="l-47"/>à 150 fr. je crois que je verrai 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                    <lb n="48" xml:id="l-48"/>encore ici des jours plus calmes <lb n="49" xml:id="l-49"/>que ne l’était l’annee écoulée<c type="kp">_</c> <lb n="50" xml:id="l-50"/>Ce dont j’aurai grand besoin pour <lb n="51" xml:id="l-51"/>mon instruction c’est de toutes <lb n="52" xml:id="l-52"/>les reproductions des tableaux de Delacroix <lb n="53" xml:id="l-53"/>que l’on peut encore avoir <lb n="54" xml:id="l-54"/>dans cette maison où l’on vend à <lb n="55" xml:id="l-55"/>je crois 1 franc les lithographies artistes <lb n="56" xml:id="l-56"/>anciens &amp; modernes &amp;c.<anchor n="5" xml:id="note-o-5"/> Je ne veux <lb n="57" xml:id="l-57"/>pas les plus chères <hi rend="ital">décidemment</hi>
+                    <c type="kp">_</c>
+                </ab>
+                <lb n="58" xml:id="l-58"/>
+<ab rend="indent">Comment vont nos amis Hollandais <lb n="59" xml:id="l-59"/>de Haan et Isaacson? Dis leur bien <lb n="60" xml:id="l-60"/>le bonjour de ma part.</ab>
+                <lb n="61" xml:id="l-61"/>
+<ab rend="indent">Je crois seulement que nous devons <lb n="62" xml:id="l-62"/>encore nous tenir tranquille pour <lb n="63" xml:id="l-63"/>ma peinture à moi<c type="kp">_</c> Si tu en veux <lb n="64" xml:id="l-64"/>certes je peux déjà t’en envoyer <lb n="65" xml:id="l-65"/>mais lorsque le calme me reviendra <lb n="66" xml:id="l-66"/>j’espère faire autre chôse<c type="kp">_</c>
+                </ab>
+                <lb n="67" xml:id="l-67"/>
+<ab rend="indent">Toutefois pour les Indépendants<anchor n="6" xml:id="note-o-6"/> <lb n="68" xml:id="l-68"/>fais comme bon te semblera et <lb n="69" xml:id="l-69"/>comme feront les autres<c type="kp">_</c>
+                </ab>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                <lb n="70" xml:id="l-70"/>
+    <ab rend="indent">Mais tu n’as pas d’idée combien <lb n="71" xml:id="l-71"/>je regrette que ton voyage en <lb n="72" xml:id="l-72"/>Hollande ne se soit pas encore fait<c type="kp">_</c>
+                    <anchor n="7" xml:id="note-o-7"/> <lb n="73" xml:id="l-73"/>Enfin nous ne pouvons rien changer <lb n="74" xml:id="l-74"/>aux faits mais ratrappe toi par <lb n="75" xml:id="l-75"/>la correspondance ou comme tu <lb n="76" xml:id="l-76"/>pourras autant que possible et <lb n="77" xml:id="l-77"/>dites aux Bonger combien je <lb n="78" xml:id="l-78"/>regrette d’avoir peutêtre involontairement <lb n="79" xml:id="l-79"/>causé du retard. J’ecris à la mère <lb n="80" xml:id="l-80"/>et à Wil de ces jours ci<c type="kk">/</c> je dois <lb n="81" xml:id="l-81"/>également écrire à Jet Mauve.<anchor n="8" xml:id="note-o-8"/>
+                </ab>
+                <lb n="82" xml:id="l-82"/>
+<ab rend="indent">Ecris moi bientôt et sois tout <lb n="83" xml:id="l-83"/>à fait rassuré sur ma santé<c type="kk">/</c> <lb n="84" xml:id="l-84"/>cela me guérira complètement <lb n="85" xml:id="l-85"/>de savoir que cela marche bien <lb n="86" xml:id="l-86"/>pour toi. Que fait Gauguin? <lb n="87" xml:id="l-87"/>Sa famille etant dans le nord<c type="kk">/</c>
+                    <anchor n="9" xml:id="note-o-9"/> lui <lb n="88" xml:id="l-88"/>ayant été invité d’exposer en Belgique <lb n="89" xml:id="l-89"/>et ayant présentement du succes à <lb n="90" xml:id="l-90"/>Paris<c type="kk">/</c>
+                    <anchor n="10" xml:id="note-o-10"/> j’aime à croire qu’il a trouvé <lb n="91" xml:id="l-91"/>sa voie. Bonne poignée de <lb n="92" xml:id="l-92"/>main<c type="kk">/</c> je suis quand même <lb n="93" xml:id="l-93"/>passablement heureux que cela <lb n="94" xml:id="l-94"/>soit<hi rend="ital"> </hi>une chôse <hi rend="ital">passée</hi>. Encore <lb n="95" xml:id="l-95"/>une fois vigoureuse poignee de main<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="95*" xml:id="l-95s"/>
+<ab>t<c type="kp">_</c> à t<c type="kp">_</c>
+                </ab>
+                <lb n="96" xml:id="l-96"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+                <lb n="97" xml:id="l-97"/>
+<ab>Mon cher frère, j’espère que cela <lb n="98" xml:id="l-98"/>ne t’épatera pas trop que tout en <lb n="99" xml:id="l-99"/>t’ayant écrit ce matin j’y ajoute <lb n="100" xml:id="l-100"/>encore quelques mots ce soir même<c type="kp">_</c> <lb n="101" xml:id="l-101"/>Car il y a eu plusieurs jours que <lb n="102" xml:id="l-102"/>je n’ai pas pu écrire mais tu <lb n="103" xml:id="l-103"/>vois bien que cela est <hi rend="ital">passé</hi> <lb n="104" xml:id="l-104"/>maintenant.</ab>
+                <lb n="105" xml:id="l-105"/>
+<ab rend="indent">J’ai écrit un mot à la mère et à <lb n="106" xml:id="l-106"/>Wil <hi rend="ital">que j’ai adressé à la soeur</hi> <lb n="107" xml:id="l-107"/>dans le seul but de les tranquiliser <lb n="108" xml:id="l-108"/>pour le cas où tu aurais dit un <lb n="109" xml:id="l-109"/>mot de ce que j’avais été malade<c type="kp">_</c>
+                    <anchor n="11" xml:id="note-o-11"/> <lb n="110" xml:id="l-110"/>Dis leur de ton côté simplement <lb n="111" xml:id="l-111"/>que j’ai été un peu malade <lb n="112" xml:id="l-112"/>comme dans le temps lorsque j’ai eu la chaude pisse à la Haye <lb n="113" xml:id="l-113"/>et que je me suis fait soigner <lb n="114" xml:id="l-114"/>à l’hospice<c type="kp">_</c>
+                    <anchor n="12" xml:id="note-o-12"/> Seulement que cela <lb n="115" xml:id="l-115"/>ne vaut pas la peine d’en parler <lb n="116" xml:id="l-116"/>puisque j’en ai été quitte pour <lb n="117" xml:id="l-117"/>la peur et que je n’ai été à l’hospice <lb n="118" xml:id="l-118"/>susdit ou susmentionné que <lb n="119" xml:id="l-119"/>quelques jours. De cette façon <lb n="120" xml:id="l-120"/>tu te trouveras sans doute d’accord <lb n="121" xml:id="l-121"/>avec le petit mot que je leur <lb n="122" xml:id="l-122"/>ai fait avaler là-bas à la maison en <lb n="123" xml:id="l-123"/>Hollande.</ab>
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>
+                <lb n="124" xml:id="l-124"/>
+<ab rend="indent">Et ainsi faisant il leur sera passablement <lb n="125" xml:id="l-125"/>difficile de se faire du mauvais sang <lb n="126" xml:id="l-126"/>pour cela<c type="kp">_</c>– Enfin ils s’imagineront <lb n="127" xml:id="l-127"/>que j’ai <hi rend="sc">presque</hi> eu la <lb n="128" xml:id="l-128"/>chaude pisse. J’espère que <lb n="129" xml:id="l-129"/>tu trouveras cet arrangement-là <lb n="130" xml:id="l-130"/>innocent assez.–</ab>
+                <lb n="131" xml:id="l-131"/>
+<ab rend="indent">Egalement tu pourras voir par là <lb n="132" xml:id="l-132"/>que je n’ai pas encore oublié <lb n="133" xml:id="l-133"/>de blaguer quelquefois<c type="kp">_</c>
+                </ab>
+                <lb n="134" xml:id="l-134"/>
+<ab rend="indent">Je vais me remettre au travail <lb n="135" xml:id="l-135"/>demain<c type="kk">/</c> je commencerai à faire <lb n="136" xml:id="l-136"/>une ou deux natures mortes pour <lb n="137" xml:id="l-137"/>retrouver l’habitude de peindre. </ab>
+                <lb n="138" xml:id="l-138"/>
+<ab rend="indent">Roulin a été excellent pour <lb n="139" xml:id="l-139"/>nous et j’ose croire que cela <lb n="140" xml:id="l-140"/>restera un ami solide dont <lb n="141" xml:id="l-141"/>j’aurai encore assez souvent besoin <lb n="142" xml:id="l-142"/>car il connait bien le pays.</ab>
+                <lb n="143" xml:id="l-143"/>
+<ab rend="indent">Nous avons diné ensemble <lb n="144" xml:id="l-144"/>aujourd’hui.<anchor n="13" xml:id="note-o-13"/>
+                </ab>
+                <lb n="145" xml:id="l-145"/>
+<ab rend="indent">Si jamais tu veux rendre l’interne <lb n="146" xml:id="l-146"/>Rey <hi rend="ital">très heureux</hi> voici ce <lb n="147" xml:id="l-147"/>qui lui ferait bien plaisir: 
+<pb f="2v" n="7" xml:id="pb-orig-2v-7" facs="#zone-pb-2v-7"/>
+                    <lb n="148" xml:id="l-148"/>il a entendu parler d’un tableau <lb n="149" xml:id="l-149"/>de Rembrandt<c type="kk">/</c> la lecon d’anatomie<c type="kp">_</c> <lb n="150" xml:id="l-150"/>Je lui ai dit que nous lui en <lb n="151" xml:id="l-151"/>procurerions la gravure <lb n="152" xml:id="l-152"/>pour son cabinet de travail<c type="kp">_</c>
+                    <anchor n="14" xml:id="note-o-14"/> <lb n="153" xml:id="l-153"/>Aussitot que je me sentirai un <lb n="154" xml:id="l-154"/>peu en force j’espère faire son <lb n="155" xml:id="l-155"/>portrait.</ab>
+                <lb n="156" xml:id="l-156"/>
+<ab rend="indent">Dimanche dernier j’ai rencontré <lb n="157" xml:id="l-157"/>un autre médecin qui au moins <lb n="158" xml:id="l-158"/>theoriquement est au courant de <lb n="159" xml:id="l-159"/>ce qu’est Delacroix<c type="kk">/</c> Puvis de Chavannes <lb n="160" xml:id="l-160"/>et qui est très curieux pour connaitre <lb n="161" xml:id="l-161"/>l’impressionisme.</ab>
+                <lb n="162" xml:id="l-162"/>
+<ab rend="indent">J’ose espérer de faire plus amplement <lb n="163" xml:id="l-163"/>connaissance.<anchor n="15" xml:id="note-o-15"/>
+                </ab>
+                <lb n="164" xml:id="l-164"/>
+<ab rend="indent">Je crois que cette gravure de <lb n="165" xml:id="l-165"/>la lecon d’anatomie est du fonds <lb n="166" xml:id="l-166"/>de François Buffa &amp; fils et que le <lb n="167" xml:id="l-167"/>prix net doit etre de 12 à 15 francs. <lb n="168" xml:id="l-168"/>il faudrait la faire encadrer <hi rend="sc">ici</hi> <lb n="169" xml:id="l-169"/>pour éviter frais de transport.</ab>
+                <lb n="170" xml:id="l-170"/>
+<ab rend="indent">Je t’assure que quelques jours à l’hopital <lb n="171" xml:id="l-171"/>étaient tres intéressants et on apprend <lb n="172" xml:id="l-172"/>peutêtre à vivre des malades<c type="kp">_</c>
+                </ab>
+                <lb n="173" xml:id="l-173"/>
+<ab rend="indent">J’espère que je n’ai eu qu’une <lb n="174" xml:id="l-174"/>simple toquade d’artiste et puis <lb n="175" xml:id="l-175"/>beaucoup de fievre à la suite d’une <lb n="176" xml:id="l-176"/>perte de sang <hi rend="ital">tres</hi> considérable<c type="kk">/</c> <lb n="177" xml:id="l-177"/>une artère ayant été coupée<c type="kp">_</c>
+                    <anchor n="16" xml:id="note-o-16"/>
+                </ab>
+<pb f="2r" n="8" xml:id="pb-orig-2r-8" facs="#zone-pb-2r-8"/>
+                <lb n="178" xml:id="l-178"/>
+<ab rend="indent">mais l’apetit m’est revenu immediatement<c type="kk">/</c> <lb n="179" xml:id="l-179"/>la digestion va bien et le sang se refait <lb n="180" xml:id="l-180"/>de jour en jour et ainsi de jour <lb n="181" xml:id="l-181"/>en jour la serenité me revient <lb n="182" xml:id="l-182"/>pour la tête<c type="kp">_</c>
+                </ab>
+                <lb n="183" xml:id="l-183"/>
+<ab rend="indent">Je te prie donc d’oublier de parti <lb n="184" xml:id="l-184"/>pris deliberé ton triste voyage <lb n="185" xml:id="l-185"/>et ma maladie<c type="kp">_</c>
+                </ab>
+                <lb n="186" xml:id="l-186"/>
+<ab rend="indent">La peinture est le métier que <lb n="187" xml:id="l-187"/>tu sais et bigre nous n’avons <lb n="188" xml:id="l-188"/>peutêtre pas tort de chercher <lb n="189" xml:id="l-189"/>à garder notre coeur <lb n="190" xml:id="l-190"/>humain<c type="kp">_</c>
+                </ab>
+                <lb n="191" xml:id="l-191"/>
+<ab rend="indent">Tu vois que je fais ce que tu <lb n="192" xml:id="l-192"/>m’as demandé<c type="kk">/</c> que je t’ecris ce <lb n="193" xml:id="l-193"/>que je sens et ce que je pense<c type="kp">_</c> <lb n="194" xml:id="l-194"/>De ton côté poursuis avec calme <lb n="195" xml:id="l-195"/>cette rencontre avec les Bonger<c type="kk">/</c> <lb n="196" xml:id="l-196"/>j’espère que cela se maintiendra <lb n="197" xml:id="l-197"/>comme amitie solide et que <lb n="198" xml:id="l-198"/>peutetre c’est même plus.</ab>
+                <lb n="199" xml:id="l-199"/>
+<ab rend="indent">Si je reste ici c’est parceque pour <lb n="200" xml:id="l-200"/>le moment je ne saurais peutêtre <lb n="201" xml:id="l-201"/>pas me transplanter<c type="kp">_</c> Au bout de <lb n="202" xml:id="l-202"/>quelque temps nous pouvons <lb n="203" xml:id="l-203"/>revoir le pour et le contre de la situation <lb n="204" xml:id="l-204"/>et refaire les calculs.</ab>
+                <lb n="205" xml:id="l-205"/>
+<ab rend="indent">Je te serre bien la main<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="206" xml:id="l-206"/>
+<ab>t<c type="kp">_</c> à t<c type="kp">_</c>
+                </ab>
+                <lb n="207" xml:id="l-207"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-147" n="147">plaisir: &lt; plaisir</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo,</ab>
+<ab>Perhaps I won’t write you a really long letter today, but anyhow a line to let you know that I returned home today. How I regret that you were troubled for such a little thing, forgive me, for I am after all probably the primary cause of it. I hadn’t foreseen that it would lead to you being told about it. Enough.</ab>
+<ab rend="indent">
+                    <rs type="pers" key="637">Mr Rey</rs> came to see the painting with two of his doctor friends,<anchor n="1" xml:id="note-t-1"/> and they at least understand darned quickly what complementaries are. Now I’m planning to do Mr Rey’s portrait and possibly other portraits as soon as I’ve accustomed myself a little to painting once again.<anchor n="2" xml:id="note-t-2"/>
+                </ab>
+<ab rend="indent">Thank you for your last letter, I do indeed always feel your presence, but on your side you should also know that I’m working on the same thing as yourself. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">Ah, how I wish that you’d seen the portrait of <rs type="pers" key="312">Bruyas</rs> by <rs type="pers" key="982">Delacroix</rs> and the whole museum at Montpellier where <rs type="pers" key="1039">Gauguin</rs> took me.<anchor n="3" xml:id="note-t-3"/> How people have already worked in the south before us! In truth, it’s quite difficult for me to believe that we’ve gone so far astray as that.</ab>
+<ab rend="indent">As to it being a hot country — my word, I can’t help but think of a certain country <rs type="pers" key="844">Voltaire</rs> speaks of — and without even counting the simple castles in the air.<anchor n="4" xml:id="note-t-4"/> Those are the thoughts that come to me as I return home.</ab>
+<ab rend="indent">I’m very eager to know how <rs type="pers" key="282 283">the Bongers</rs> are, and if relations with them continue to be good, which I hope they do.</ab>
+<ab rend="indent">If you think it all right — now that <rs type="pers" key="1039">Gauguin</rs> has left — we’ll go back to 150 francs a month. 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> I think I’ll see calmer days here again than in the course of the past year. What I’ll need very much for my instruction are all the reproductions of <rs type="pers" key="982">Delacroix</rs>’s paintings that one can still get in that shop where they sell lithographs of ancient and modern artists &amp;c. for 1 franc, I think.<anchor n="5" xml:id="note-t-5"/> I <hi rend="ital">definitely</hi> don’t want the most expensive ones.</ab>
+<ab rend="indent">How are our Dutch friends <rs type="pers" key="1075">De Haan</rs> and <rs type="pers" key="1103">Isaäcson</rs>? Give them my warm regards.</ab>
+<ab rend="indent">I just think that we must still keep calm regarding my own painting. If you want some I can certainly send them to you now, but when calm returns to me I hope to do something else.</ab>
+<ab rend="indent">In any case, as regards the Independents,<anchor n="6" xml:id="note-t-6"/> do what seems best to you and what the others will do. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/>
+                </ab>
+    <ab rend="indent">But you’ve no idea how much I regret that your journey to Holland hasn’t already been made.<anchor n="7" xml:id="note-t-7"/> Ah well, we can’t change any of the facts, but make up for it as far as possible by correspondence or however you can, and tell the <rs type="pers" key="22 23 24 25 416">Bongers</rs> how much I regret having, perhaps unwittingly, caused a delay. I’ll write to <rs type="pers" key="524">Mother</rs> and <rs type="pers" key="407">Wil</rs> one of these days, I must also write to <rs type="pers" key="321">Jet Mauve</rs>.<anchor n="8" xml:id="note-t-8"/>
+                </ab>
+<ab rend="indent">Write to me soon, and be completely reassured as to my health, it will cure me completely to know that things are going well for you. What is <rs type="pers" key="1039">Gauguin</rs> doing? As his family are in the north,<anchor n="9" xml:id="note-t-9"/> and as he’s been invited to exhibit in Belgium and has some success in Paris at the moment,<anchor n="10" xml:id="note-t-10"/> I like to think that he’s found his way. Good handshake, I’m quite happy all the same that this is a thing of the <hi rend="ital">past</hi>. Another vigorous handshake.</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<ab>
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/>
+                </ab>
+                <ab> My dear brother,</ab>
+                <ab> I hope that it won’t amaze you too much that although I wrote to you this morning I’m adding a few words this same evening. For I’ve been unable to write for several days, but you can clearly see that that’s <hi rend="ital">over</hi> now.</ab>
+<ab rend="indent">I’ve written a line to <rs type="pers" key="524">Mother</rs> and to <rs type="pers" key="407">Wil</rs>, <hi rend="ital">which I addressed to our sister </hi>with the sole aim of reassuring them, should you have happened to mention to them that I had been ill.<anchor n="11" xml:id="note-t-11"/> For your part, simply tell them that I’ve been a bit ill like the time when I had the clap in The Hague, and that I got myself treated at the hospital.<anchor n="12" xml:id="note-t-12"/> But that it’s not worth the trouble of mentioning, since I got off with a fright and that I was only in the aforesaid or mentioned hospital for a few days. Thus you’ll doubtless find yourself in agreement with the short note that I’ve made them swallow down there at home in Holland. 
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/>
+                </ab>
+<ab rend="indent">And by so doing it will be pretty difficult for them to get worked up about it. In fact, they’ll imagine that I <hi rend="sc">almost</hi> had the clap. I hope that you’ll find this stratagem innocent enough.</ab>
+<ab rend="indent">Also you’ll see from this that I haven’t yet forgotten how to jest sometimes.</ab>
+<ab rend="indent">I’m going to get back to work tomorrow, I’ll begin by doing one or two still lifes to get back into the way of painting.</ab>
+<ab rend="indent">
+                    <rs type="pers" key="647">Roulin</rs> has been excellent to us, and I dare believe that he’ll remain a staunch friend whom I’ll still need quite often, for he knows the country well.</ab>
+<ab rend="indent">We dined together today.<anchor n="13" xml:id="note-t-13"/>
+                </ab>
+<ab rend="indent">If ever you want to make the house physician <rs type="pers" key="637">Rey</rs> <hi rend="ital">very happy</hi>, this is what would give him great pleasure:
+<pb f="2v" n="7" xml:id="pb-trans-2v-7" facs="#zone-pb-2v-7"/> he has heard about a painting by <rs type="pers" key="1295">Rembrandt</rs>, The anatomy lesson. I told him that we’d get an engraving of it for his study.<anchor n="14" xml:id="note-t-14"/> I hope to do his portrait as soon as I feel a little stronger.</ab>
+<ab rend="indent">Last Sunday I met another doctor who, in theory at least, knows what <rs type="pers" key="982">Delacroix</rs> and <rs type="pers" key="1286">Puvis de Chavannes</rs> are all about, and who’s very curious to know about Impressionism.</ab>
+<ab rend="indent">I dare hope to get to know him better.<anchor n="15" xml:id="note-t-15"/>
+                </ab>
+<ab rend="indent">I think that this engraving of The anatomy lesson is published by <rs type="pers" key="308">François Buffa and Sons</rs>, and that the net price should be between 12 and 15 francs. It would be best to frame it <hi rend="sc">here</hi> to avoid transportation costs.</ab>
+<ab rend="indent">I can assure you that a few days in the hospital were very interesting, and that one perhaps learns how to live from the sick.</ab>
+<ab rend="indent">I hope that I’ve just had a simple artist’s bout of craziness and then a lot of fever following a <hi rend="ital">very</hi> considerable loss of blood, as an artery was severed.<anchor n="16" xml:id="note-t-16"/>
+<pb f="2r" n="8" xml:id="pb-trans-2r-8" facs="#zone-pb-2r-8"/>
+                </ab>
+<ab rend="indent">But my appetite came back immediately, my digestion is good, and the blood is recovering day by day, and likewise serenity is returning to my mind day by day.</ab>
+<ab rend="indent">So please deliberately forget your sad journey and my illness.</ab>
+<ab rend="indent">Painting is the profession you know, and my goodness we’re perhaps not wrong to try to keep our hearts human.</ab>
+<ab rend="indent">You can see that I’m doing what you asked me to, that I’m writing what I feel and what I think. For your part, follow up this meeting with the <rs type="pers" key="22 23 24 25 416">Bongers</rs> calmly, I hope that it will continue as a solid friendship, and that perhaps it’s even more.</ab>
+<ab rend="indent">If I remain here it’s because I might not be able to transplant myself for the moment. After a little while we can review the pros and cons of the situation and do the calculations again.</ab>
+<ab rend="indent">I shake your hand firmly. </ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>It is not known which two doctors of <rs type="pers" key="637">Rey</rs>’s acquaintance Vincent is referring to. Two chief surgeons (Gay and Duffaut), an assistant surgeon (Talon), two chief physicians (Arnaud and Urpar), an assistant physician (Béraud) and a house physician (Félix Rey) were employed by the hospital. There were also five doctors serving the various parishes, who were connected with the Arles <hi rend="ital">Bureau de bienfaisance</hi>: in addition to the previously mentioned Duffaut, Talon and Arnaud, these included Delon and Martin-Raget (<hi rend="ital">L’indicateur marseillais </hi>1889). Cf. also <ref target="#n-15">n. 15</ref> below.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>Van Gogh painted a portrait of <rs type="pers" key="637">Rey</rs> in mid-January (<rs type="ill" key="2766">F 500 / JH 1659</rs>); he did not paint any other portraits during this period, apart from self-portraits.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>Van Gogh and <rs type="pers" key="1039">Gauguin</rs> had visited the Musée Fabre in Montpellier in mid-December. For <rs type="pers" key="982">Delacroix</rs>’s <hi rend="ital">
+                            <rs type="ill" key="76">Alfred Bruyas</rs>
+                        </hi> in that museum, in which Vincent saw a resemblance to Theo, <ref target="let726.xml#n-2">see letter 726, n. 2.</ref>
+                    </ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>The land Van Gogh is talking about is ‘El Dorado’, described in <hi rend="ital">
+                            <rs type="lit" key="445">Candide</rs>
+                        </hi>. Regarding this novel, <ref target="let568.xml#n-3">see letter 568, n. 3.</ref>
+                    </ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>In <ref target="let726.xml">letter 726</ref> Van Gogh mentioned a ‘bookshop’ where lithographs were sold; it is not known which shop he was referring to.</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+    <ab>Evidently Theo had been asked to submit works by Vincent to the fifth exhibition of the <hi rend="ital">Société des Artistes Indépendants</hi>, to be held in Paris from 3 September to 4 October 1889. At their 1888 exhibition Van Gogh had exhibited three works; <ref target="let582.xml#n-8">see letter 582, nn. 8</ref> and <ref target="let582.xml#n-9">9.</ref> It is possible that the exhibition, which was usually held in the spring, was postponed to coincide with the World Exhibition (5 May - 5 November). Theo mentioned the exhibition again in May 1889 (<ref target="let774.xml">see letter 774</ref>), and eventually submitted two of Vincent’s works: <hi rend="ital">Starry night over the Rhône </hi>(<rs type="ill" key="2723">F 474 / JH 1592</rs>) and <hi rend="ital">Irises </hi>(<rs type="ill" key="2787">F 608 / JH 1691</rs>), recorded in the catalogue as ‘Nuit étoilée’ (Starry night) and ‘Étude d’oies’ (Study of geese) [<hi rend="ital">sic</hi>]. See exhib. cat. Paris 1889-1, p. 20, cat. nos. 272-273, and cf. <ref target="let799.xml">letter 799</ref>.</ab>
+                </note>
+    <note n="7" xml:id="n-7" target="#note-t-7">
+                    <ab>In contrast to what Vincent assumed, Theo had meanwhile been in the Netherlands to make his engagement to <rs type="pers" key="416">Jo Bonger</rs> official. He left on 5 January and returned to Paris on 13 January. See <hi rend="ital">Brief happiness </hi>1999, pp. 83-84.</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+    <ab>This was <ref target="let733.xml">letter 733</ref>, which was written the same day (<ref target="#l-105">see l. 105</ref>); Van Gogh had received a letter from <rs type="pers" key="321">Jet Mauve</rs>, in which she thanked him for the painting <hi rend="ital">Pink peach trees</hi> <hi rend="ital">(‘Souvenir de Mauve’) </hi>(<rs type="ill" key="2577">F 394 / JH 1379</rs>). <ref target="let719.xml#n-1">See letter 719, n. 1.</ref>
+                    </ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>
+                        <rs type="pers" key="1039">Gauguin</rs> was planning to visit his <rs type="pers" key="1040">wife</rs> and children in Copenhagen; <ref target="let723.xml#n-13">see letter 723, n. 13.</ref>
+                    </ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>
+                        <rs type="pers" key="1039">Gauguin</rs> had been invited to display his work at the sixth exhibition of the artists’ society Les Vingt in Brussels; <ref target="let723.xml#n-12">see letter 723, n. 12.</ref> By Gauguin’s success in Paris Vincent is referring to the fact that between 10 November and 4 December Theo had sold works by Gauguin for a total of 1,700 francs. <ref target="let722.xml#n-1">See letter 722, n. 1.</ref>
+                    </ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>Theo had already written in detail about Vincent’s condition to his <rs type="pers" key="524">mother</rs> and <rs type="pers" key="407">Willemien</rs>; their letters to Theo of 29 and 30 December 1888 reveal their concern. <ref target="documentation.xml#id29December1888-2">See <hi rend="ital">Documentation</hi>, 29</ref> and <ref target="documentation.xml#id30December1888-1">30 December 1888</ref>,  and Jansen <hi rend="ital">et al</hi>. 2003-2.</ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+<ab>Regarding Van Gogh’s spell in hospital in The Hague in June 1882, <ref target="let237.xml">see letter 237</ref>.</ab>
+                </note>
+<note n="13" xml:id="n-13" target="#note-t-13">
+<ab>
+                        <rs type="pers" key="647">Roulin</rs> had accompanied Van Gogh the first time he was allowed to leave the hospital, on 4 January, and had arranged some practical matters for him, such as paying the rent and cleaning out the house. <ref target="let730.xml">See letter 730</ref>. When Van Gogh was released from hospital, Roulin stayed with him the whole day. See Joseph Roulin to <rs type="pers" key="407">Willemien van Gogh</rs>, <ref target="documentation.xml#id8January1889">
+                            <hi rend="ital">Documentation</hi>, 8 January 1889.</ref> </ab>
+                </note>
+    <note n="14" xml:id="n-14" target="#note-t-14">
+<ab>A bit further on in the letter Van Gogh mentions the publisher <rs type="pers" key="308">François Buffa</rs>. An undated publisher’s catalogue of Buffa lists the etching that <rs type="pers" key="1858">C.L. Dake</rs> made after <rs type="pers" key="1295">Rembrandt</rs>’s <hi rend="ital">Anatomy lesson</hi>. The large print (64 x 84 cm) was available on various kinds of paper, the most expensive costing 60 guilders (c. 120 francs). See <hi rend="ital">Catalogue des éditions de François Buffa &amp; fils. Fournisseurs de la cour, éditeurs, marchands de Beaux-arts, tableaux, aquarelles, gravures, eau-fortes, encadrements, ouvrages illustrés, restauration et vernissage de tableaux, etc. etc. Exposition permanente</hi>. Amsterdam, Kalverstraat 39. The Hague, Noordeinde. n.d. Theo must have sent the print shortly afterwards, since <rs type="pers" key="637">Félix Rey</rs> already thanked him on 12 February 1889: ‘I have received the print which you so kindly sent me’ (J’ai reçu la gravure que vous avez eu la bonté de m’envoyer) (FR b1057).</ab>
+                </note>
+<note n="15" xml:id="n-15" target="#note-t-15">
+<ab>In <ref target="let735.xml">letter 735</ref> Van Gogh reports that this doctor came from Paris, but it is not known to whom he is referring. In any case, it is certain that <rs type="pers" key="58">Albert Delon</rs> had worked as a house physician in Paris (below his contributions to <hi rend="ital">L’Homme de Bronze</hi> is written<hi rend="ital"> </hi>‘former house physician of the hospital in Paris’ (ancien interne des hospices de Paris)). He treated Van Gogh in February 1889. <ref target="let747.xml#n-1">See letter 747, n. 1.</ref> Dr Auriol, who had also been trained in Paris, also worked at the hospital as a surgeon (<hi rend="ital">ACA</hi>).</ab>
+                </note>
+<note n="16" xml:id="n-16" target="#note-t-16">
+<ab>Particulars regarding Van Gogh’s injury are to be found in Doiteau and Leroy<hi rend="ital"> </hi>1939, pp. 8-11.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

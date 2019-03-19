@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. The Hague, Friday, 3 March 1882.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let207"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">207</idno>
+<idno type="collectedletters">178</idno>
+<idno type="brieven1990">207</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>The Hague</vg:placeLet>
+                        <vg:dateLet>Friday, 3 March 1882</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:physDesc>
+                        <vg:decoration>
+                            <vg:decoList xml:id="sketches">
+                                <vg:decoItem n="A" xml:id="sketch-1">
+                                    <vg:decoDesc>
+<p>
+      <hi rend="ital">Old woman with a shawl and a walking-stick</hi> (<rs type="sketch" key="43">F - / JH 110</rs>), letter sketch</p>
+                                    </vg:decoDesc>
+                                </vg:decoItem>
+                            </vg:decoList>
+                        </vg:decoration>
+                    </vg:physDesc>
+                    <vg:letContents>
+<p>To Theo van Gogh. The Hague, Friday, 3 March 1882.</p>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b199 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Letter headed: ‘Vrijdag 3 Maart’.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0199" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000226_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000226_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000226_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000226_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000226_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000226_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="VGM001000226_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000226_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000226_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0199" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000226_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000226_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000226_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000226_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000226_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000226_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000226_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000226_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000226_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Vrijdag 3 Maart</ab>
+<vg:whiteline/>
+                <lb n="2" xml:id="l-2"/>
+<ab>Waarde Theo,</ab>
+                <lb n="3" xml:id="l-3"/>
+<ab>Sedert ik Uw brief ontving &amp; het geld,<anchor n="1" xml:id="note-o-1"/> heb <lb n="4" xml:id="l-4"/>ik dag aan dag model genomen en ik <lb n="5" xml:id="l-5"/>zit tot over de ooren in het werk.</ab>
+                <lb n="6" xml:id="l-6"/>
+<ab rend="indent">Het is een nieuw model dat ik heb ofschoon <lb n="7" xml:id="l-7"/>ik ze al eens vroeger oppervlakkig geteekend <lb n="8" xml:id="l-8"/>had. Of liever het is meer dan een model <lb n="9" xml:id="l-9"/>want uit hetzelfde huis heb ik al 3 personen <lb n="10" xml:id="l-10"/>gehad<c type="kk">/</c> eene vrouw van een jaar of 45 die <lb n="11" xml:id="l-11"/>net een figuur van Ed<c type="kp">_</c> Frère is en dan <lb n="12" xml:id="l-12"/>haar dochter<c type="kk">/</c> een jaar of 30<c type="kk">/</c> en een jonger <lb n="13" xml:id="l-13"/>kind van 10 of 12.<anchor n="2" xml:id="note-o-2"/>
+                </ab>
+                <lb n="14" xml:id="l-14"/>
+<ab rend="indent">Het zijn arme menschen en die ik moet <lb n="15" xml:id="l-15"/>zeggen onbetaalbaar gewillig zijn. <lb n="16" xml:id="l-16"/>Ik heb het gedaan gekregen dat zij poseeren <lb n="17" xml:id="l-17"/>wilden<c type="kk">/</c> niet zonder moeite en op conditie <lb n="18" xml:id="l-18"/>dat ik hen vast werk beloven zou. Nu dat <lb n="19" xml:id="l-19"/>was net precies hetgeen ik zelf zoo erg <lb n="20" xml:id="l-20"/>graag wilde en ik reken het eene goede zaak. <lb n="21" xml:id="l-21"/>De jongere vrouw is niet mooi in haar gezigt <lb n="22" xml:id="l-22"/>omdat zij de pokken gehad heeft doch het figuurtje <lb n="23" xml:id="l-23"/>is zeer gracieus en heeft wel charme voor mij<c type="kp">_</c> <lb n="24" xml:id="l-24"/>Zij hebben ook goede kleeren. Zwart merinos<anchor n="3" xml:id="note-o-3"/> <lb n="25" xml:id="l-25"/>en aardig fatsoen<anchor n="a" xml:id="note-o-a"/> van mutsen, en een mooien <lb n="26" xml:id="l-26"/>omslagdoek &amp;c.</ab>
+                <lb n="27" xml:id="l-27"/>
+<ab rend="indent">Gij behoeft U niet al te ongerust te maken <lb n="28" xml:id="l-28"/>over het geld want ik schipper het met hen in <lb n="29" xml:id="l-29"/>den beginne<c type="kk">/</c> ik heb hun beloofd dat ik hun een <lb n="30" xml:id="l-30"/>gulden per dag zal geven zoodra ik er van verkoop. 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                    <lb n="31" xml:id="l-31"/>En dat ik dan bij zal passen wat ik <lb n="32" xml:id="l-32"/>nu te weinig geef.</ab>
+                <lb n="33" xml:id="l-33"/>
+<ab rend="indent">Doch ik moet zien dat ik er wat van aan <lb n="34" xml:id="l-34"/>den man breng.–</ab>
+                <lb n="35" xml:id="l-35"/>
+<ab rend="indent">Als ik ’t kon doen hield ik alles wat ik nu <lb n="36" xml:id="l-36"/>van hen maak voor me zelf want als ik ze <lb n="37" xml:id="l-37"/>maar een jaar bewaarde dan geloof ik zeker <lb n="38" xml:id="l-38"/>ik er meer voor krijgen zou dan nu.</ab>
+                <lb n="39" xml:id="l-39"/>
+<ab rend="indent">Doch enfin, in de gegevenen zou ik het al <lb n="40" xml:id="l-40"/>erg prettig vinden als de Hr Tersteeg ’t een of <lb n="41" xml:id="l-41"/>ander nam nu en dan<c type="kk">/</c> desnoods op conditie <lb n="42" xml:id="l-42"/>van ruil in geval hij ze niet verkoopt.– <lb n="43" xml:id="l-43"/>De Hr Tersteeg heeft mij beloofd dat hij <lb n="44" xml:id="l-44"/>eens bij me komt zoodra hij er den tijd <lb n="45" xml:id="l-45"/>voor vinden kan.</ab>
+                <lb n="46" xml:id="l-46"/>
+<ab rend="indent">De reden waarom ik ze graag hield is <lb n="47" xml:id="l-47"/>eenvoudig deze. Als ik afzonderlijke figuren teeken <lb n="48" xml:id="l-48"/>dan is het toch altijd met het oog op een <lb n="49" xml:id="l-49"/>compositie van meer figuren<c type="kk">/</c> b.v. een <lb n="50" xml:id="l-50"/>wachtkamer 3<hi rend="ss">e</hi> klasse of een bank van <lb n="51" xml:id="l-51"/>leening of een interieur. Doch die grootere <lb n="52" xml:id="l-52"/>composities moeten langzamerhand rijpen en <lb n="53" xml:id="l-53"/>
+                    <hi rend="ital">voor een teekening met b.v. 3 naaisters</hi> <lb n="54" xml:id="l-54"/>
+                    <hi rend="ital">moet men misschien 90 naaisters teekenen.</hi> <lb n="55" xml:id="l-55"/>Voilà l’affaire.–</ab>
+                <lb n="56" xml:id="l-56"/>
+<ab rend="indent">Van C.M<c type="kp">_</c> heb ik een vriendelijk briefje gehad <lb n="57" xml:id="l-57"/>met belofte dat hij spoedig te s’Hage komt <lb n="58" xml:id="l-58"/>en dan ook bij mij<c type="kp">_</c>– Nu dat is ook alweer <lb n="59" xml:id="l-59"/>maar een belofte maar misschien toch iets. <lb n="60" xml:id="l-60"/>Enfin<c type="kp">_</c>–</ab>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                <lb n="61" xml:id="l-61"/>
+<ab rend="indent">Overigens zal ik hoe langer hoe minder <lb n="62" xml:id="l-62"/>de menschen naloopen<c type="kk">/</c> wie het ook zijn <lb n="63" xml:id="l-63"/>mogen<c type="kk">/</c> noch kunstkoopers noch schilders<c type="kk">/</c> <lb n="64" xml:id="l-64"/>de eenigen die ik achter na zal loopen zijn <lb n="65" xml:id="l-65"/>modellen want zonder model werken <lb n="66" xml:id="l-66"/>dat vind ik althans voor mijzelf bepaald verkeerd.</ab>
+                <lb n="67" xml:id="l-67"/>
+<ab rend="indent">Zeg Theo het is toch iets prettigs als <lb n="68" xml:id="l-68"/>er een klein beetje licht <lb n="69" xml:id="l-69"/>komt en ik krijg een beetje licht. Het <lb n="70" xml:id="l-70"/>is iets prettigs een mensch te teekenen<c type="kk">/</c> <lb n="71" xml:id="l-71"/>iets dat leeft<c type="kk">/</c> ’t is verdomd moeielijk maar <lb n="72" xml:id="l-72"/>enfin het is heerlijk.</ab>
+                <lb n="73" xml:id="l-73"/>
+<ab rend="indent">Ik krijg morgen kindervisite<c type="kk">/</c> twee kinderen <lb n="74" xml:id="l-74"/>die ik amuseeren moet en teekenen tegelijk. <lb n="75" xml:id="l-75"/>ik wil dat er leven op mijn atelier komt, <lb n="76" xml:id="l-76"/>en heb al allerlei kennissen in de buurt. <lb n="77" xml:id="l-77"/>Zondag krijg ik een weesjongen<c type="kk">/</c> fameus typig <lb n="78" xml:id="l-78"/>doch ik kan hem helaas maar kort krijgen.</ab>
+                <lb n="79" xml:id="l-79"/>
+<ab rend="indent">Het is misschien wel waar dat ik den slag niet heb <lb n="80" xml:id="l-80"/>om met menschen om te gaan die erg op vormen <lb n="81" xml:id="l-81"/>gesteld zijn doch van den anderen kant heb ik <lb n="82" xml:id="l-82"/>misschien meer vat op arme of burgerluidjes<c type="kk">/</c> en <lb n="83" xml:id="l-83"/>verlies ik aan den eenen kant<c type="kk">/</c> ik win aan den anderen <lb n="84" xml:id="l-84"/>kant en ik geef het dan soms maar over en denk<c type="kk">/</c> <lb n="85" xml:id="l-85"/>after all is het regt en billijk dat ik als artist leef <lb n="86" xml:id="l-86"/>in ’t geen ik voel en zoek uit te drukken. honni <lb n="87" xml:id="l-87"/>soit qui mal y pense.–<anchor n="4" xml:id="note-o-4"/>
+                </ab>
+                <lb n="88" xml:id="l-88"/>
+<ab rend="indent">Nu zijn wij weer in ’t begin van de maand<c type="kk">/</c> <lb n="89" xml:id="l-89"/>ofschoon het nog niet een volle maand geleden <lb n="90" xml:id="l-90"/>is dat gij mij gezonden hebt zoo zou ik U <lb n="91" xml:id="l-91"/>wel vriendelijk willen verzoeken mij als <lb n="92" xml:id="l-92"/>het U mogelijk is dezer dagen nog wat te sturen. 
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                    <lb n="93" xml:id="l-93"/>Het hoeft des noods niet de frs 100 op eens <lb n="94" xml:id="l-94"/>te zijn maar als het maar wat is om voort te <lb n="95" xml:id="l-95"/>gaan tusschen nu en den tijd dat gij zenden <lb n="96" xml:id="l-96"/>kunt. Ik zeg dit omdat in een vorig schrijven <lb n="97" xml:id="l-97"/>Gij er van spraakt dat gij eerst nadat de <lb n="98" xml:id="l-98"/>inventaris klaar zou wezen geld kondt <lb n="99" xml:id="l-99"/>los krijgen.</ab>
+                <lb n="100" xml:id="l-100"/>
+<ab rend="indent">Het gaat mij soms aan het hart als ik denk <lb n="101" xml:id="l-101"/>dat ik ’t model zou moeten laten wachten<c type="kk">/</c> omdat <lb n="102" xml:id="l-102"/>zij het erg hard noodig hebben. Tot op heden <lb n="103" xml:id="l-103"/>heb ik hen betaald doch de volgende week <lb n="104" xml:id="l-104"/>zou ik het niet kunnen doen. Doch ik <lb n="105" xml:id="l-105"/>kan het model toch krijgen, hetzij de oude <lb n="106" xml:id="l-106"/>vrouw hetzij de jongere hetzij het kind.</ab>
+                <lb n="107" xml:id="l-107"/>
+<ab rend="indent">à propos<c type="kk">/</c> Breitner heeft mij onlangs eens over U <lb n="108" xml:id="l-108"/>gesproken<c type="kk">/</c> dat er iets was dat hem zoo gespeten had <lb n="109" xml:id="l-109"/>en waarom hij dacht gij nog boos kondt zijn op hem<c type="kp">_</c> <lb n="110" xml:id="l-110"/>Hij heeft n.l. nog een teekening die van U hoort <lb n="111" xml:id="l-111"/>geloof ik<c type="kk">/</c> ik heb echter ’t regte van de zaak niet begrepen<c type="kp">_</c> <lb n="112" xml:id="l-112"/>Hij heeft een groot ding onder handen<c type="kk">/</c> eene markt <lb n="113" xml:id="l-113"/>waar veel figuren op moeten komen.<anchor n="5" xml:id="note-o-5"/> Gisteren avond <lb n="114" xml:id="l-114"/>ben ik nog met hem uit geweest om op straat typen <lb n="115" xml:id="l-115"/>van figuren te zoeken om ze dan later op ’t atelier <lb n="116" xml:id="l-116"/>met model te bestudeeren. Zoo op die manier <lb n="117" xml:id="l-117"/>heb ik een oud wijf<c type="kk">/</c> dat ik op de Geest waar het <lb n="118" xml:id="l-118"/>dolhuis staat gezien had<c type="kk">/</c> geteekend – zoo op deze manier:<anchor n="6" xml:id="note-o-6"/>
+                </ab>
+<vg:whiteline/>
+                <figure facs="zone-sketch-1" n="A"/>
+<vg:whiteline/>
+                <lb n="119" xml:id="l-119"/>
+<ab>Nu bonsoir<c type="kk">/</c> ik hoop spoedig iets van U te hooren.</ab>
+<vg:whiteline/>
+                <lb n="119*" xml:id="l-119s"/>
+<ab>t. à t.</ab>
+                <lb n="120" xml:id="l-120"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+                <lb n="121" xml:id="l-121"/>
+<ab>’k heb de huishuur ook deze week moeten betalen. Wel te rusten<c type="kk">/</c> ’t is al twee <lb n="122" xml:id="l-122"/>uur en ik ben nog niet klaar.</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-118" n="118">geteekend – zoo &lt; geteekend zoo</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>Friday, 3 March</ab>
+<vg:whiteline/>
+<ab>My dear Theo,</ab>
+<ab>Since receiving your letter and the money<anchor n="1" xml:id="note-t-1"/> I’ve taken a model every day and I’m up to my ears in work.</ab>
+<ab rend="indent">It’s a new model I have, although I’d drawn her before superficially. Or rather it’s more than one model, because I’ve already had 3 people from the same family, a woman of about 45 who’s just like a figure by <rs type="pers" key="1023">E. Frère</rs>, and her daughter, 30 or so, and a younger <rs type="pers" key="467">child</rs> of 10 or 12.<anchor n="2" xml:id="note-t-2"/>
+                </ab>
+<ab rend="indent">They’re poor people and, I must say, invaluably willing. I got them to pose for me, though not without difficulty and on the condition that I’d promise them steady work. Well, that was exactly what I wanted so very much, and I consider it a good arrangement. The younger woman doesn’t have a pretty face because she had smallpox, but her figure is very graceful and I find it charming. They also have good clothes. Black woollens<anchor n="3" xml:id="note-t-3"/> and nicely shaped caps, and a pretty shawl &amp;c.</ab>
+<ab rend="indent">You needn’t worry too much about the money, because we’ve agreed to compromise in the beginning. I’ve promised them a guilder a day as soon as I sell one. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> And that I’ll make it up to them later for giving them too little now.</ab>
+<ab rend="indent">But I must manage to sell something.</ab>
+<ab rend="indent">If I could do so, I’d keep everything I’m now making of them for myself, because if I only kept them for a year I’m sure I could get more for them then than now.</ab>
+<ab rend="indent">But anyway, in the circumstances, it would be very nice if <rs type="pers" key="787">Mr Tersteeg</rs> bought a thing or two now and then, if necessary on the condition that he can exchange them if they don’t sell. Mr Tersteeg promised to come and see me as soon as he can find the time.</ab>
+<ab rend="indent">The reason I’d like to keep them is simply this: when I draw individual figures it’s always with an eye to making a composition with a number of figures, for instance, a 3rd-class waiting room or a pawnshop or an interior. But those larger compositions must ripen gradually, and <hi rend="ital">for a drawing with 3 seamstresses, for example, one must draw at least 90 seamstresses.</hi> That’s how it works.</ab>
+<ab rend="indent">I had a friendly letter from <rs type="pers" key="422">C.M.</rs> promising to come to The Hague soon and to visit me too. Well, that’s just a promise, yet again, but perhaps something after all. Oh well.
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/>
+                </ab>
+<ab rend="indent">For the rest I’ll run after people less and less as time goes on, whoever they may be, neither art dealers nor painters, the only ones I’ll run after are models, because I find working without a model totally wrong, at least as far as I’m concerned.</ab>
+<ab rend="indent">I say, Theo, it really is nice to see a tiny bit of light, and I do see a bit of light. It’s nice to draw a person, something that lives, it’s damned difficult but wonderful anyhow.</ab>
+<ab rend="indent">Tomorrow two children are coming to visit whom I must amuse and draw at the same time. I want some life in my studio, and already have all kinds of acquaintances in the neighbourhood. On Sunday an orphan boy is coming, a perfect type, but unfortunately I can have him only for a short time.</ab>
+<ab rend="indent">Perhaps it’s true that I don’t have the ability to mix with people who are keen on etiquette, but on the other hand I perhaps have more feeling for poor or simple folk, and if I lose on the one hand I win on the other hand, and sometimes I simply give up and think, after all it’s right and reasonable that I, as an artist, live in what I feel and try to express. Evil be to him who evil thinks.<anchor n="4" xml:id="note-t-4"/>
+                </ab>
+<ab rend="indent">Now it’s the beginning of the month again. Even though it hasn’t been a full month since you sent me something, all the same, I’d like to ask you kindly to send me something if you can one of these days. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> It needn’t be the 100 francs all at once, just as long as it’s something to be getting along with between now and the time when you can send something. I say this because in a previous letter you mentioned that you couldn’t get any money until the inventory had been finished.</ab>
+<ab rend="indent">Sometimes it grieves me to think that I might have to let the model wait, because they need it so much. I’ve paid them up to today, but next week I wouldn’t be able to do it. But I can in fact have the model, be it the older woman or the younger or the child.</ab>
+      <ab rend="indent">By the way, <rs type="pers" key="903">Breitner</rs> spoke to me about you recently, that there was something he very much regretted, for which he thought you might still be angry at him. For he still has a drawing that belongs to you, I believe, though I didn’t rightly understand the matter. He’s working on a large thing, a market scene which must accommodate a lot of figures.<anchor n="5" xml:id="note-t-5"/> Yesterday evening I went out with him to look for figure types in the street in order to study them later in the studio with a model. In that way I drew an old woman I’d seen in the Geest district where the madhouse is – like this:<anchor n="6" xml:id="note-t-6"/>
+                </ab>
+<vg:whiteline/>
+<ab>
+                    <figure facs="zone-sketch-1" n="A"/>
+                </ab>
+<vg:whiteline/>
+<ab>Well, good evening, I hope to hear something from you soon.</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<ab>I also had to pay the rent this week. Good-night. It’s already two o’clock and I’m not finished yet.</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>This is the same money mentioned in <ref target="let206.xml">letter 206</ref>.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+      <ab>
+                        <rs type="pers" key="463">Christien (Sien)</rs>, her mother <rs type="pers" key="464">Maria Wilhelmina Hoornik-Pellers</rs> and her younger sister <rs type="pers" key="468">Maria Wilhelmina</rs>. Van Gogh’s estimate of their ages was slightly off; they were in fact 32, 53 and 10, respectively. Regarding Christien, see also <ref target="let200.xml#n-6;">letter 200, n. 6;</ref> for her children, <ref target="let227.xml#n-5">see letter 227, n. 5.</ref>
+                    </ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>A woollen fabric produced from the combing wool of merino sheep.</ab>
+                </note>
+<note n="a" xml:id="n-a" target="#note-o-a">
+<ab>Meaning: ‘snit’, ‘vorm’ (cut, form, shape).</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>The motto of the Order of the Garter and many other institutions and organizations.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>At the time <rs type="pers" key="903">Breitner</rs> was working on a painting of a flower market, which he never finished. See Hefting 1970, p. 136 and cat. no. 132.</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>
+      <hi rend="ital">Old woman with a shawl and a walking-stick</hi> (<rs type="ill" key="2358">F 913 / JH 109</rs>), after which he made the letter sketch of the same name (<rs type="sketch" key="43">F - / JH 110</rs>). See cat. Amsterdam 1996, pp. 102-104, cat. no. 23. The ‘Dolhuis’ (madhouse) (since 1844, Het Geneeskundig Gesticht voor Krankzinnigen) was at the corner of Slijkeinde (also called Geest in those days) and Vliersteeg (present-day Vleerstraat).</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

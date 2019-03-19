@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Egbert Borchers. Paris, Thursday, 2 September 1875.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let043"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">043</idno>
+<idno type="collectedletters">-</idno>
+<idno type="brieven1990">043</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Egbert Borchers</vg:addressee>
+                        <vg:placeLet>Paris</vg:placeLet>
+                        <vg:dateLet>Thursday, 2 September 1875</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Egbert Borchers. Paris, Thursday, 2 September 1875.</p>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Reproduction</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Private Collection / Musée des Lettres et Manuscrits, Brussels</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Letter headed: ‘Parijs 2 sept. 75’.</p>
+                    </note>
+<note type="additionalDetail" xml:id="additionalDetail">
+<p>The address ‘Den Heer E.H. Borchers <hi rend="ital">s’Hage</hi>’ written on the letter itself confirms that it was sent together with <ref target="let042.xml">letter 42</ref>. Van Gogh probably assumed that Borchers’s second Christian name was Hubertus, which is more usual than Rubertus.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+  <facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <surface n="Sheet number 1 not found." xml:id="surf-pb-1r">
+      <graphic mimeType="image/jpeg" url="brief43-1r.jpg" rend="norend"/>
+      <graphic mimeType="image/jpeg" url="brief43-1rt.jpg" height="50px" rend="thumbnail"/>
+      <zone xml:id="zone-pb-1r-1">
+        <graphic mimeType="image/jpeg" url="brief43-1r-rt.jpg" height="50px" rend="thumbnail"/>
+        <graphic mimeType="image/png" url="brief43-1r-rf.png" width="380px" rend="facstab"/>
+      </zone>
+    </surface>
+    <surface n="Sheet number 1 not found." xml:id="surf-pb-1v">
+      <graphic mimeType="image/jpeg" url="brief43-1v-l.jpg" rend="norend"/>
+      <graphic mimeType="image/jpeg" url="brief43-1v-lt.jpg" height="50px" rend="thumbnail"/>
+      <zone xml:id="zone-pb-1v-2">
+        <graphic mimeType="image/jpeg" url="brief43-1v-lt.jpg" height="50px" rend="thumbnail"/>
+        <graphic mimeType="image/png" url="brief43-1v-lf.png" width="380px" rend="facstab"/>
+      </zone>
+    </surface>
+  </facsimile>
+
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Parijs 2 sept. 75</ab>
+                <vg:whiteline/>
+                <lb n="2" xml:id="l-2"/>
+<ab>Waarde Borchers,</ab>
+                <lb n="3" xml:id="l-3"/>
+<ab>Dank voor Uw schrijven dat ik dezen <lb n="4" xml:id="l-4"/>morgen ontving &amp; dat mij genoegen deed. <lb n="5" xml:id="l-5"/>Met Kersmis hoop ik naar Holland te ko<c type="shy">-</c>
+                    <lb n="6" xml:id="l-6"/>men &amp; als ik kan, meteen naar den Haag <lb n="7" xml:id="l-7"/>&amp; wij moeten zorgen wij elkaar dan niet <lb n="8" xml:id="l-8"/>misloopen.</ab>
+                <lb n="9" xml:id="l-9"/>
+      <ab rend="indent">Het doet mij genoegen gij nog steeds lust <lb n="10" xml:id="l-10"/>in lectuur hebt, dat is altijd goed, ten <lb n="11" xml:id="l-11"/>minste lectuur zooals die gij leest.─ Ik <lb n="12" xml:id="l-12"/>doe er ook nog al wat aan; een bediende <lb n="13" xml:id="l-13"/>in onze zaak<anchor n="1" xml:id="note-o-1"/> die op ’t oogenblik met vacantie 
+      <pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                    <lb n="14" xml:id="l-14"/>naar Holland is heeft mij juist beloofd <lb n="15" xml:id="l-15"/>een “Motley<c type="kk">/</c> Geschiedenis der 17 Provinciën”<anchor n="2" xml:id="note-o-2"/> <lb n="16" xml:id="l-16"/>mede te brengen.</ab>
+                <lb n="17" xml:id="l-17"/>
+<ab rend="indent">Zooals gij weet ben ik nu te Parijs, ik heb <lb n="18" xml:id="l-18"/>dus, sedert wij elkaar den laatsten dag <lb n="19" xml:id="l-19"/>dat ik in den Haag was zagen, <lb n="20" xml:id="l-20"/>nog al gezworven &amp; ’t is mij of dat al heel <lb n="21" xml:id="l-21"/>wat meer dan 2 jaar geleden was.<anchor n="3" xml:id="note-o-3"/>
+                </ab>
+                <lb n="22" xml:id="l-22"/>
+<ab rend="indent">Hartelijk gegroet, groet ook Uwe Moeder &amp; <lb n="23" xml:id="l-23"/>zusters<anchor n="4" xml:id="note-o-4"/> voor mij &amp; geloof mij</ab>
+<vg:whiteline/>
+                <lb n="24" xml:id="l-24"/>
+<ab>t. à v.</ab>
+                <lb n="25" xml:id="l-25"/>
+<ab>V.W. van Gogh</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note n="-">
+                        <hi rend="ital">On the last blank page: </hi>‘Den Heer E.H. Borchers s’Hage.’</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>Paris, 2 Sept. 1875</ab>
+<vg:whiteline/>
+<ab>My dear <rs type="pers" key="298">Borchers</rs>,</ab>
+      <ab>Thanks for your letter, which I received this morning and which gave me pleasure. I hope to come to Holland at Christmas and, if I can, immediately to The Hague, and we must then make sure not to miss each other.</ab>
+      <ab rend="indent">I’m glad that you still have a passion for reading, that’s always good, at least such books as you read. I still keep it up, too; an employee in our office<anchor n="1" xml:id="note-t-1"/> who has gone on holiday 
+      <pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> to Holland has just promised to bring me a copy of ‘<rs type="pers" key="714">Motley</rs>, Geschiedenis der 17 provinciën’.<anchor n="2" xml:id="note-t-2"/>
+                </ab>
+<ab rend="indent">As you know, I’m now in Paris; so I’ve wandered rather a lot since we saw each other on my last day in The Hague,<anchor n="3" xml:id="note-t-3"/> and it seems to me that it was a great deal longer than 2 years ago.</ab>
+<ab rend="indent">Warm regards, give my regards to your <rs type="pers" key="299">Mother</rs> and <rs type="pers" key="300">sister</rs>s as well,<anchor n="4" xml:id="note-t-4"/> and believe me</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>V.W. van Gogh</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>It is not known who this employee of Goupil at Paris was, though possibly it is the same person mentioned in <ref target="let069.xml#l-23">letter 69, ll. 23-24</ref>.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>
+      <hi rend="ital">De opkomst van de Nederlandsche Republiek</hi>. The Hague 1859, a translation of <rs type="lit" key="39">
+                            <hi rend="ital">The rise of the Dutch Republic. A history</hi>
+                        </rs>. London 1856 by <rs type="pers" key="714">John Lothrop Motley</rs>.</ab>
+                </note>
+      <note n="3" xml:id="n-3" target="#note-t-3">
+<ab>Van Gogh had left The Hague on 10 May 1873 in connection with his transfer to London.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>Regarding <rs type="pers" key="299">Borchers’s mother</rs> and his sister <rs type="pers" key="300">Boukje</rs>, <ref target="let042.xml#n-10">see letter 42, n. 10.</ref>
+                    </ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

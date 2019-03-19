@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. The Hague, Friday, 1 December 1882.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let289"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">289</idno>
+<idno type="collectedletters">249</idno>
+<idno type="brieven1990">291</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>The Hague</vg:placeLet>
+                        <vg:dateLet>Friday, 1 December 1882</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. The Hague, Friday, 1 December 1882.</p>
+<note type="ongoingTopic" n="1">
+<p>Missing letter with money from Theo <ref target="let283.xml">(283)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. nos. b271 a-c V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Vincent writes ‘In the meantime it’s now 1 Nov.’ <ref target="#l-215">(l. 215)</ref> – and he asks Theo to send money again as soon as he can (as he had already asked in <ref target="let288.xml">letter 288</ref>) – </p>
+<p>but he must have got the month wrong, as is shown by the remark about Van Rappard’s financial support, mentioned in <ref target="let287.xml">letters 287</ref> and <ref target="let288.xml">288</ref> of 24 and 26-27 November 1882 respectively. Accordingly, we date the letter to Friday, 1 December 1882.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0271 a" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000332_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000332_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000332_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000332_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000332_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000332_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="VGM001000332_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000332_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000332_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0271 a" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000332_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000332_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000332_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000332_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000332_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000332_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000332_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000332_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000332_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0271 b" xml:id="surf-pb-2r">
+            <graphic mimeType="image/tiff" url="VGM001000333_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000333_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000333_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-2r-5">
+<graphic mimeType="image/tiff" url="VGM001000333_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000333_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000333_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-2r-8">
+<graphic mimeType="image/tiff" url="VGM001000333_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000333_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000333_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0271 b" xml:id="surf-pb-2v">
+            <graphic mimeType="image/tiff" url="VGM001000333_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000333_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000333_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-2v-6">
+<graphic mimeType="image/tiff" url="VGM001000333_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000333_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000333_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-2v-7">
+<graphic mimeType="image/tiff" url="VGM001000333_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000333_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000333_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0271 c" xml:id="surf-pb-3r">
+            <graphic mimeType="image/tiff" url="VGM001000334_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-3r-9">
+<graphic mimeType="image/tiff" url="VGM001000334_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000334_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000334_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+        <surface n="b 0271c V/1962" xml:id="surf-extra-3v">
+            <graphic mimeType="image/tiff" url="VGM001000334_02.TIF" rend="norend"/>
+            <zone xml:id="zone-extra-1">
+<graphic mimeType="image/tiff" url="VGM001000334_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000334_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000334_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Waarde Theo,</ab>
+                <lb n="1*" xml:id="l-1s"/>
+<ab>Van Rappard<c type="kk">/</c> met wien ik in correspondentie <lb n="2" xml:id="l-2"/>ben omtrent de proeven met de lithographie en die zelf ook <lb n="3" xml:id="l-3"/>iets er mee gedaan heeft<c type="kk">/</c> ontving ik dezer dagen een brief. <lb n="4" xml:id="l-4"/>Ik had hem ter loops geschreven: ik heb alweer <lb n="5" xml:id="l-5"/>een obstacle gehad<c type="kk">/</c> er is een brief met geld dat ik er <lb n="6" xml:id="l-6"/>grootendeels voor gedestineerd had<c type="kk">/</c> weggeraakt<c type="kp">_</c>– <lb n="7" xml:id="l-7"/>Hij schrijft me daarop<c type="kk">/</c> laat dat je niet hinderen <lb n="8" xml:id="l-8"/>en reken op mij als je niet voort kunt of iets <lb n="9" xml:id="l-9"/>noodig hebt<c type="kp">_</c>– Ik had het hem niet geschreven <lb n="10" xml:id="l-10"/>omdat hij iets dergelijks zou zeggen<c type="kk">/</c> wel omdat <lb n="11" xml:id="l-11"/>ik wou hij van zijn kant eens een paar nieuwe proeven <lb n="12" xml:id="l-12"/>zou nemen. Toch deed het mij pleizier <lb n="13" xml:id="l-13"/>omdat zulke bewijzen van belangstelling <lb n="14" xml:id="l-14"/>zeldzaam zijn. Ik heb hem teruggeschreven<c type="kk">/</c>
+                    <anchor n="1" xml:id="note-o-1"/> <lb n="15" xml:id="l-15"/>Voorloopig bedank ik er voor maar zou er <lb n="16" xml:id="l-16"/>werkelijk kwestie komen van dat ik in ’t <lb n="17" xml:id="l-17"/>geheel niet voort kon zoo zullen we er <lb n="18" xml:id="l-18"/>nader over spreken. En heb hem gezegd hoezeer ik <lb n="19" xml:id="l-19"/>het op prijs stelde. Zie<c type="kk">/</c> dat is nu een van <lb n="20" xml:id="l-20"/>de gevallen waarover ik U in mijn vorigen <lb n="21" xml:id="l-21"/>brief schreef.</ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="22" xml:id="l-22"/>
+<ab rend="indent">Natuurlijkerwijs zijn aan het teekenen<c type="kk">/</c> aan <lb n="23" xml:id="l-23"/>den steen<c type="kk">/</c> aan het drukken<c type="kk">/</c> aan het papier <lb n="24" xml:id="l-24"/>kosten verbonden. Betrekkelijk zijn die <lb n="25" xml:id="l-25"/>gering. Zulke bladen als het laatste dat <lb n="26" xml:id="l-26"/>ik U zond<anchor n="2" xml:id="note-o-2"/> b.v.<c type="kk">/</c> als een nieuw dat ik gisteren <lb n="27" xml:id="l-27"/>avond afmaakte en dat klaar staat<c type="kk">/</c>
+                    <anchor n="3" xml:id="note-o-3"/> <lb n="28" xml:id="l-28"/>zouden dunkt mij b.v. geschikt zijn voor een <lb n="29" xml:id="l-29"/>volksuitgaaf die juist zoo hoog<c type="kk">/</c> hoog noodig zijn<c type="kk">/</c> <lb n="30" xml:id="l-30"/>hier in Holland meer dan elders.</ab>
+                <lb n="31" xml:id="l-31"/>
+<ab rend="indent">Zulk eene entreprise nu als zijn zoude <lb n="32" xml:id="l-32"/>het maken en drukken eener serie van <lb n="33" xml:id="l-33"/>b.v. 30 bladen Werkmanstypen – Zaaier<c type="kk">/</c> <lb n="34" xml:id="l-34"/>Spitter<c type="kk">/</c> houthakker<c type="kk">/</c> ploeger<c type="kk">/</c> waschvrouw<c type="kk">/</c> <lb n="35" xml:id="l-35"/>verder ook eens een kinderwieg of een <lb n="36" xml:id="l-36"/>weesman – enfin het heele onafzienbare veld <lb n="37" xml:id="l-37"/>staat open<c type="kk">/</c> er is mooie stof in overvloed – zulk <lb n="38" xml:id="l-38"/>eene zaak<c type="kk">/</c> mag men ze ondernemen <lb n="39" xml:id="l-39"/>of mag men dat niet<c type="kp">_</c>– Zelfs is het <lb n="40" xml:id="l-40"/>nog dieper – is het pligt en regt <lb n="41" xml:id="l-41"/>of is het verkeerd<c type="kp">_</c>– Dat is de vraag.</ab>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                <lb n="42" xml:id="l-42"/>
+<ab rend="indent">Was ik een man van middelen<c type="kk">/</c> ik <lb n="43" xml:id="l-43"/>zou niet aarzelen te beslissen<c type="kk">/</c> ik zou zeggen<c type="kk">/</c> <lb n="44" xml:id="l-44"/>En avant et plus vite que ça<c type="kp">_</c>
+                </ab>
+                <lb n="45" xml:id="l-45"/>
+<ab rend="indent">Doch hier is ’t iets anders – mag men<c type="kk">/</c> <lb n="46" xml:id="l-46"/>moet men<c type="kk">/</c> kan men er anderen <lb n="47" xml:id="l-47"/>die men noodig heeft<c type="kk">/</c> zonder wie <lb n="48" xml:id="l-48"/>men ’t niet volvoeren kan<c type="kk">/</c> in mengen <lb n="49" xml:id="l-49"/>en meesleepen in eene zaak waarvan <lb n="50" xml:id="l-50"/>het twijfelachtig is of zij rendeeren zal<c type="kp">_</c> <lb n="51" xml:id="l-51"/>Mij zelf zou ik niet sparen. Gij <lb n="52" xml:id="l-52"/>hebt getoond doordat gij mij geholpen <lb n="53" xml:id="l-53"/>hebt dat gij U zelf ook niet spaart<c type="kp">_</c> <lb n="54" xml:id="l-54"/>Doch anderen vinden het <hi rend="ital">en</hi> verkeerd van <lb n="55" xml:id="l-55"/>U en dwaas dat gij U met mij bemoeidet <lb n="56" xml:id="l-56"/>
+                    <hi rend="ital">en</hi> veel meer nog vinden ze mijn doen &amp; laten <lb n="57" xml:id="l-57"/>onzinnig<c type="kk">/</c> en velen die aanvankelijk vol animo zijn draaijen <lb n="57a" xml:id="l-57a"/>daar toch op uit en zijn kort en als een stroovuurtje slechts moedig en <lb n="57b" xml:id="l-57b"/>vurig<c type="kp">_</c>
+                </ab>
+                <lb n="58" xml:id="l-58"/>
+<ab rend="indent">Mijns inziens zeer ten onregte werkelijk<c type="kk">/</c> <lb n="59" xml:id="l-59"/>want noch gij noch ik doen dwaas in dezen<c type="kp">_</c> <lb n="60" xml:id="l-60"/>Deze zaak die eerst kort geleden <lb n="61" xml:id="l-61"/>slechts was een woord van U<c type="kk">/</c> n.l. “ik heb gesproken met <lb n="62" xml:id="l-62"/>Buhot<c type="kk">/</c> die weet een zekere wijze van lithographieeren waarvan <lb n="63" xml:id="l-63"/>later meer<c type="kk">/</c> ge moest eens iets probeeren op papier dat hij U zenden zal”<c type="kk">/</c> 
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                    <lb n="64" xml:id="l-64"/>heeft van uit dit aanvankelijk betrekkelijk onbeteekenende begin <lb n="65" xml:id="l-65"/>in korten tijd voor mij de proporties van eene <lb n="66" xml:id="l-66"/>zaak van meer belang gekregen<c type="kp">_</c>
+                </ab>
+                <lb n="67" xml:id="l-67"/>
+<ab rend="indent">Ik zie er in dat met volhouden en doorzetten <lb n="68" xml:id="l-68"/>het iets zou kunnen worden <lb n="69" xml:id="l-69"/>dat ik geloof volstrekt niet overbodig maar bepaald <lb n="70" xml:id="l-70"/>goed &amp; nuttig zou kunnen zijn.</ab>
+                <lb n="71" xml:id="l-71"/>
+<ab rend="indent">Men heeft altijd gezegd<c type="kk">/</c> we kunnen in Holland geen <lb n="72" xml:id="l-72"/>bladen voor het volk maken – ik heb het nooit geheel <lb n="73" xml:id="l-73"/>kunnen gelooven – ik zie nu: het kan WEL<c type="kk">/</c> <lb n="74" xml:id="l-74"/>de Maatschappij van ’t Nut heeft Elzevier in Rotterdam met <lb n="75" xml:id="l-75"/>duizenden gesteund voor de uitgaaf van de Zwaluw.<anchor n="4" xml:id="note-o-4"/> <lb n="76" xml:id="l-76"/>Is nu de Zwaluw goed geworden<c type="kp">_</c>– NEEN<c type="kp">_</c> <lb n="77" xml:id="l-77"/>ofschoon er een paar mooie bladen in stonden<c type="kk">/</c> het was <lb n="78" xml:id="l-78"/>te dun<c type="kk">/</c> niet flink<c type="kk">/</c> niet ernstig<c type="kk">/</c> niet krachtig <lb n="79" xml:id="l-79"/>genoeg. Een imitatie van de Engelschen<c type="kk">/</c> niet genoeg <lb n="80" xml:id="l-80"/>oorspronkelijk. Er zijn twee systeemen<c type="kk">/</c> <lb n="81" xml:id="l-81"/>
+                    <hi rend="ital">How not to do it</hi> en How to do it<c type="kp">_</c>
+                    <anchor n="5" xml:id="note-o-5"/>
+                </ab>
+                <lb n="82" xml:id="l-82"/>
+<ab rend="indent">
+                    <hi rend="ital">How not to do it</hi>
+                    <c type="kk">/</c> vrees ik<c type="kk">/</c> was de arriere pensee van <lb n="83" xml:id="l-83"/>Elsevier geweest<c type="kk">/</c> ANDERS HAD HIJ HET GEDAAN al had hij er <lb n="84" xml:id="l-84"/>zelf op toegelegd<c type="kp">_</c> How not to do it redeneert dus: – – <lb n="85" xml:id="l-85"/>ik heb zooveel &amp; zooveel er voor van ’t Nut<c type="kk">/</c> ik heb <lb n="86" xml:id="l-86"/>zooveel en zooveel van ’t debiet – <hi rend="ital">ik moet daarvan</hi> <lb n="87" xml:id="l-87"/>
+                    <hi rend="ital">hebben voor mijn zak</hi> eerst dit en dat – ik <lb n="88" xml:id="l-88"/>moet het doen net als mijn collega’s<c type="kk">/</c> anders noemen <lb n="89" xml:id="l-89"/>ze me mauvais coucheur<anchor n="6" xml:id="note-o-6"/> of bonten hond<anchor n="a" xml:id="note-o-a"/> &amp;c. <lb n="90" xml:id="l-90"/>Dus geschiedt het dat in plaats van te <lb n="91" xml:id="l-91"/>zeggen wat onder een schij van Millais stond<c type="kk">/</c> “IT MIGHT <lb n="92" xml:id="l-92"/>BE DONE AND IF SO WE SHOULD DO IT”<c type="kk">/</c>
+                    <anchor n="7" xml:id="note-o-7"/> Elsevier <lb n="93" xml:id="l-93"/>en duizend van zijns gelijken zeggen <hi rend="ital">it can’t</hi> <lb n="94" xml:id="l-94"/>
+                    <hi rend="ital">be done</hi>
+                    <c type="kk">/</c> <lb n="94a" xml:id="l-94a"/>of het met een te slappe hand en zonder genoeg energie doen. <lb n="94"/>Ik ken de directie van de Zwaluw niet genoeg om <lb n="95" xml:id="l-95"/>precies te kunnen zeggen wie schuld heeft – ik ken <hi rend="ital">hun blad</hi> evenwel <lb n="96" xml:id="l-96"/>genoeg om op mij te durven nemen te zeggen “ge hebt er niet van gemaakt wat <lb n="97" xml:id="l-97"/>ge er van hadt kunnen maken<c type="kk">/</c> het had beter kunnen en moeten zijn”.</ab>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+                <lb n="98" xml:id="l-98"/>
+<ab rend="indent">Nu zeg ik evenwel bovendien<c type="kk">/</c> Wat er ook <lb n="99" xml:id="l-99"/>van zij<c type="kk">/</c> ten allen tijde zijn er ook flinke<c type="kk">/</c> <lb n="100" xml:id="l-100"/>opregte<c type="kk">/</c> dappere<c type="kk">/</c> eerlijke Hollanders geweest<c type="kk">/</c> <lb n="101" xml:id="l-101"/>ook in tijden waarin <lb n="102" xml:id="l-102"/>het in ’t algemeen slap &amp; ontzenuwd en verkeerd <lb n="103" xml:id="l-103"/>was vond men hier &amp; daar in verborgen <lb n="104" xml:id="l-104"/>hoeken het vuur nog brandende.<anchor n="8" xml:id="note-o-8"/> Hoeveel <lb n="105" xml:id="l-105"/>te meer in die periodes waarin de Hollanders onder <lb n="106" xml:id="l-106"/>de eersten en besten mogten gerekend worden.<anchor n="9" xml:id="note-o-9"/>
+                </ab>
+                <lb n="107" xml:id="l-107"/>
+<ab rend="indent">Dus waar het aankomt op durven en zelf<c type="shy">-</c>
+                    <lb n="108" xml:id="l-108"/>opoffering en wagen van iets dat niet moet <lb n="109" xml:id="l-109"/>gedaan worden om er mee te winnen doch <lb n="110" xml:id="l-110"/>om dat het nuttig &amp; goed is: men moet <lb n="111" xml:id="l-111"/>goed vertrouwen behouden van medemenschen <lb n="112" xml:id="l-112"/>en landgenooten in ’t algemeen<c type="kp">_</c>
+                </ab>
+                <lb n="113" xml:id="l-113"/>
+<ab rend="indent">Voor ik verder ga dit evenwel – ik persoonlijk <lb n="114" xml:id="l-114"/>wil niet verder met de zaak van bladen voor het volk <lb n="115" xml:id="l-115"/>te doen hebben dan wat het maken er van <lb n="116" xml:id="l-116"/>betreft<c type="kk">/</c> in geval zoo iets op touw gezet zou worden<c type="kp">_</c> <lb n="117" xml:id="l-117"/>Het moet zijn une <lb n="118" xml:id="l-118"/>affaire de charité<c type="kk">/</c> niet de librairie.</ab>
+                <lb n="119" xml:id="l-119"/>
+<ab rend="indent">En overmits het toch noodig is <lb n="120" xml:id="l-120"/>met de librairie in eenig contact te komen<c type="kk">/</c> <lb n="121" xml:id="l-121"/>al was ’t alleen wat het drukken aangaat of zoo<c type="kk">/</c> <lb n="122" xml:id="l-122"/>spreek ik er ditmaal eens tot U over<c type="kk">/</c> <lb n="123" xml:id="l-123"/>niet om U te vragen “gelooft ge dat het gaan zou?” <lb n="123a" xml:id="l-123a"/>uit een oogpunt van librairie<c type="kk">/</c> <lb n="124" xml:id="l-124"/>maar alleen met de vraag <hi rend="ital">How to do it?</hi>
+                </ab>
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>
+                <lb n="123b" xml:id="l-123b"/>
+<ab>uit een oogpunt van dat het een daad van liefde <lb n="123c" xml:id="l-123c"/>voor de zaak zou zijn<c type="kp">_</c>
+                </ab>
+                <lb n="125" xml:id="l-125"/>
+<ab rend="indent">Ik zou meenen er ’t volgende zou <lb n="126" xml:id="l-126"/>moeten vastgesteld worden:</ab>
+                <lb n="127" xml:id="l-127"/>
+<ab rend="indent">Aangezien het nuttig en noodig is er <lb n="128" xml:id="l-128"/>Hollandsche teekeningen gemaakt<c type="kk">/</c> <lb n="129" xml:id="l-129"/>gedrukt<c type="kk">/</c> verspreid worden<c type="kk">/</c> bestemd voor de <lb n="130" xml:id="l-130"/>arbeiderswoningen<c type="kk">/</c> boerderijen<c type="kk">/</c> in <lb n="131" xml:id="l-131"/>een woord voor ieder werkman<c type="kk">/</c> zoo <lb n="132" xml:id="l-132"/>verbinden zich eenige personen hun <lb n="133" xml:id="l-133"/>uiterste best te doen<c type="kk">/</c> hun beste krachten <lb n="134" xml:id="l-134"/>in te spannen voor dit doel<c type="kp">_</c>
+                </ab>
+                <lb n="135" xml:id="l-135"/>
+<ab rend="indent">Zullende deze vereeniging niet uiteengaan vóór de zaak <lb n="136" xml:id="l-136"/>gedaan is, trachtende haar te doen <lb n="137" xml:id="l-137"/>zoo praktisch en goed mogelijk.</ab>
+                <lb n="138" xml:id="l-138"/>
+<ab rend="indent">De prijs der bladen moet 10<c type="kk">/</c> hoogstens 15 cents <lb n="139" xml:id="l-139"/>niet te boven gaan.</ab>
+                <lb n="140" xml:id="l-140"/>
+<ab rend="indent">De uitgaaf zal dan beginnen wanneer <lb n="141" xml:id="l-141"/>eene serie van 30 is gemaakt en gedrukt<c type="kk">/</c> <lb n="142" xml:id="l-142"/>en de kosten (voor steenen<c type="kk">/</c> drukloon<c type="kk">/</c> papier) daaraan verbonden afgerekend<c type="kp">_</c> <lb n="143" xml:id="l-143"/>Die dertig bladen zullen te gelijk verschijnen<c type="kk">/</c> <lb n="144" xml:id="l-144"/>afzonderlijk evenwel verkrijgbaar zijn – <lb n="145" xml:id="l-145"/>gezamentlijk een geheel vormen in <lb n="146" xml:id="l-146"/>linnen omslag met korten tekst<c type="kk">/</c> niet bij <lb n="147" xml:id="l-147"/>de platen – die voor zich zelven spreken – <lb n="148" xml:id="l-148"/>doch om kort en krachtig te verklaren hoe en 
+<pb f="2v" n="7" xml:id="pb-orig-2v-7" facs="#zone-pb-2v-7"/>
+                    <lb n="152" xml:id="l-152"/>waartoe zij gemaakt zijn &amp;c.</ab>
+                <lb n="149" xml:id="l-149"/>
+<ab rend="indent">De raison d’être der vereeniging is deze. Indien de teekenaars alleen <lb n="150" xml:id="l-150"/>er voor staan zoo drukt op hen en de moeite en de kosten – de zaak gaat te gronde voor ze halverweg is – dus moeten <lb n="151" xml:id="l-151"/>de lasten verdeeld worden zoodat elk zijn deel krijgt wat hij dragen kan en de zaak kunne voleindigd worden.</ab>
+                <lb n="153" xml:id="l-153"/>
+<ab rend="indent">Hetgeen de verkoop opbrengt zal primo dienen <lb n="154" xml:id="l-154"/>om hen te rembourseeren die geld voorgeschoten <lb n="155" xml:id="l-155"/>hebben<c type="kk">/</c> secundo om ieder die er een <lb n="156" xml:id="l-156"/>teekening voor geleverd heeft een nader te bepalen<c type="kk">/</c> voor elk teekenaar gelijk <lb n="157" xml:id="l-157"/>remboursement te geven<c type="kp">_</c>
+                </ab>
+                <lb n="158" xml:id="l-158"/>
+<ab rend="indent">Is dit een en ander afgelost dan blijft het resteerende <lb n="159" xml:id="l-159"/>voor nieuwe uitgaven tot voortzetting <lb n="160" xml:id="l-160"/>van het werk.</ab>
+                <lb n="161" xml:id="l-161"/>
+<ab rend="indent">Zij die deze zaak beginnen beschouwen <lb n="162" xml:id="l-162"/>haar als een pligt. Eigenbelang <hi rend="ital">niet</hi> <lb n="163" xml:id="l-163"/>hun oogmerk zijnde<c type="kk">/</c> zullen noch geldvoorschieters<c type="kk">/</c> <lb n="164" xml:id="l-164"/>noch teekenaars<c type="kk">/</c> noch wie op andere wijs <lb n="165" xml:id="l-165"/>er aan meewerkt mogen terugvorderen <lb n="166" xml:id="l-166"/>wat zij ingelegd hebben indien de zaak niet <lb n="167" xml:id="l-167"/>rendeert<c type="kk">/</c> zoodat de inleg verloren raakt<c type="kk">/</c> noch ook meer mogen terugvorderen <lb n="168" xml:id="l-168"/>dan zij ingelegd hebben indien de zaak <lb n="169" xml:id="l-169"/>boven verwachting reusseeren mogt.</ab>
+                <lb n="170" xml:id="l-170"/>
+<ab rend="indent">In ’t laatste geval is het surplus tot voortzetting <lb n="171" xml:id="l-171"/>van ’t werk<c type="kk">/</c> in ’t eerste geval blijven evenwel <lb n="172" xml:id="l-172"/>aan ondernemers de steenen van welke echter <hi rend="ital">in elk</hi> <lb n="173" xml:id="l-173"/>
+                    <hi rend="ital">geval</hi> de eerste 700 afdrukken van elken steen <lb n="174" xml:id="l-174"/>niet voor de vereeniging doch voor het volk zijn<c type="kp">_</c> <lb n="174a" xml:id="l-174a"/>gaat de vereeniging te niet zoo worden die bladen kosteloos verspreid.</ab>
+                <lb n="181" xml:id="l-181"/>
+<ab rend="indent">Dadelijk na uitgaaf der eerste serie van 30 moet <lb n="182" xml:id="l-182"/>er gedelibereerd &amp; beslist worden omtrent het al of niet voortzetten <lb n="183" xml:id="l-183"/>en dan<c type="kk">/</c> maar niet eer<c type="kk">/</c> mag zich uit de vereeniging retireeren wie wil.</ab>
+                <lb n="175" xml:id="l-175"/>
+<ab rend="indent">Dit is de gedachte die zich in mij <lb n="176" xml:id="l-176"/>vormde – nu zeg ik tot U How to do it<c type="kp">_</c> <lb n="177" xml:id="l-177"/>Zijt gij van de partij.</ab>
+                <lb n="178" xml:id="l-178"/>
+<ab rend="indent">Met anderen heb ik er niet over gesproken<c type="kk">/</c> bij <lb n="179" xml:id="l-179"/>mij zelf het eerst onder het werk zelf de gedachte <lb n="180" xml:id="l-180"/>duidelijk geworden zijnde. Doch alleen 
+<pb f="2r" n="8" xml:id="pb-orig-2r-8" facs="#zone-pb-2r-8"/>
+                    <lb n="184" xml:id="l-184"/>ben ik over de kwestie van bladen <lb n="185" xml:id="l-185"/>voor het volk reeds sedert lang in relatie met Rappard <lb n="186" xml:id="l-186"/>in zoover dat zoowel hij als ik er belang in stellen<c type="kk">/</c> <lb n="187" xml:id="l-187"/>zoo dat hij zelf<c type="kk">/</c> zooals ik U schreef<c type="kk">/</c> uit zich zelf tot <lb n="188" xml:id="l-188"/>mij zegt<c type="kk">/</c> ik wil je wel een handje helpen.</ab>
+                <lb n="189" xml:id="l-189"/>
+<ab rend="indent">Rappard denkt evenwel nog niet over de zaak zóó <lb n="190" xml:id="l-190"/>als ik wou dat hij er over dacht – hij is n.l. het niet <lb n="191" xml:id="l-191"/>met me eens over kwesties van techniek<c type="kp">_</c>
+                    <anchor n="10" xml:id="note-o-10"/> <lb n="192" xml:id="l-192"/>Zijn voorstel aangaande<c type="kk">/</c> om mij geld voor te schieten<c type="kk">/</c> <lb n="193" xml:id="l-193"/>zoo heb ik besloten dit te doen.</ab>
+                <lb n="194" xml:id="l-194"/>
+<ab rend="indent">Ik weiger het voor mij persoonlijk omdat ik <lb n="196" xml:id="l-196"/>slechts dan alleen er mee zou doorzetten indien <lb n="197" xml:id="l-197"/>zoodanige vereeniging als <lb n="198" xml:id="l-198"/>waarover ik U schrijf niet tot stand mogt komen. Zijn <lb n="199" xml:id="l-199"/>we zoover dan resteert mij te zien wat ik <lb n="200" xml:id="l-200"/>verder doen zou kunnen<c type="kp">_</c> Voorloopig deel ik hem mijn <lb n="201" xml:id="l-201"/>gedachte mede omtrent de zaak en vraag <lb n="202" xml:id="l-202"/>hem zoo als ik het U vraag<c type="kk">/</c> zouden we zoo iets <lb n="203" xml:id="l-203"/>niet op touw kunnen zetten<c type="kp">_</c>
+                </ab>
+                <lb n="204" xml:id="l-204"/>
+<ab rend="indent">En ik voor mij zou willen <lb n="205" xml:id="l-205"/>dat in die vereeniging allen geheel gelijk <lb n="206" xml:id="l-206"/>waren – er geen reglement was of president of <lb n="207" xml:id="l-207"/>dit of dat – alleen een nota vaststellende de <lb n="208" xml:id="l-208"/>zaak aan welke<c type="kk">/</c> <lb n="208a" xml:id="l-208a"/>nadat zij definitief opgemaakt en geteekend is door de ondernemers<c type="kk">/</c> <lb n="208"/>niet veranderd kan worden dan met <lb n="209" xml:id="l-209"/>algemeene stemmen – verder de namen van wie zich <lb n="210" xml:id="l-210"/>verbonden (<hi rend="ital">doch dezen niet publiek te maken</hi>
+                    <c type="kk">/</c> <hi rend="ital">de zaak</hi> <lb n="211" xml:id="l-211"/>
+                    <hi rend="ital">moet een artistieke</hi>
+                    <c type="kk">/</c> <hi rend="ital">een privé onderneming zijn</hi>) met <lb n="212" xml:id="l-212"/>bijvoeging van wat ze voor het doel doen: A <lb n="213" xml:id="l-213"/>verbind zich voor ’t maken van dit of van dat<c type="kk">/</c> B geeft <lb n="214" xml:id="l-214"/>er dit of dat voor &amp;c.<c type="kk">/</c> meer niet.–</ab>
+                <lb n="215" xml:id="l-215"/>
+<ab rend="indent">Intusschen is het 1 Nov.<anchor n="11" xml:id="note-o-11"/> Als ge nog niet geschreven <lb n="216" xml:id="l-216"/>hebt<c type="kk">/</c> doe het zoo mogelijk zoo dra ge kunt<c type="kk">/</c> ik heb <lb n="217" xml:id="l-217"/>niets meer. à dieu<c type="kk">/</c> geloof me<c type="kk">/</c> met een hartelijken <lb n="218" xml:id="l-218"/>handdruk</ab>
+<vg:whiteline/>
+                <lb n="218*" xml:id="l-218s"/>
+<ab>t. à t.</ab>
+                <lb n="219" xml:id="l-219"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+                <lb n="220" xml:id="l-220"/>
+<ab>Het zou eene vereeniging moeten zijn om <lb n="221" xml:id="l-221"/>te <hi rend="ital">doen</hi>
+                    <c type="kk">/</c> niet om te delibereeren – kort en <lb n="222" xml:id="l-222"/>krachtig en zonder tijdsverlies te handelen<c type="kk">/</c> de heele zaak beschouwende als “de charité”<c type="kk">/</c> <lb n="223" xml:id="l-223"/>niet “de librairie”<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+<pb f="3r" n="9" xml:id="pb-orig-3r-9" facs="#zone-pb-3r-9"/>
+                <lb n="224" xml:id="l-224"/>
+<ab>Nu nog iets anders,– men moet er vooruit <lb n="225" xml:id="l-225"/>op bedacht zijn wat er komt kijken.</ab>
+                <lb n="226" xml:id="l-226"/>
+<ab rend="indent">30 steenen<c type="kk">/</c> drukloon<c type="kk">/</c> papier<c type="kp">_</c>
+                </ab>
+                <lb n="227" xml:id="l-227"/>
+<ab rend="indent">Wat kosten die – ik weet het niet precies <lb n="228" xml:id="l-228"/>doch mij dunkt dat men met 300 gulden <lb n="229" xml:id="l-229"/>een heel eind zou komen<c type="kp">_</c> De teekeningen <lb n="230" xml:id="l-230"/>zijn den inleg der leden <lb n="231" xml:id="l-231"/>van de vereeniging die geen geld geven kunnen<c type="kp">_</c> </ab>
+                <lb n="232" xml:id="l-232"/>
+<ab rend="indent">Ik wil ze allen op mij nemen als niemand <lb n="233" xml:id="l-233"/>anders zich presenteerd doch liever had ik beteren <lb n="234" xml:id="l-234"/>dan ik ’t op zich namen<c type="kp">_</c>
+                </ab>
+                <lb n="235" xml:id="l-235"/>
+<ab rend="indent">De eerste 30 in de wereld te sturen vind ik in <lb n="236" xml:id="l-236"/>elk geval wenschelijk en zou ’t gaarne doorzetten <lb n="237" xml:id="l-237"/>ook al deden zich voorloopig geen liefhebbers op om <lb n="238" xml:id="l-238"/>teekeningen te maken, omdat door die serie <lb n="239" xml:id="l-239"/>te laten kijken aan artisten die het beter zouden <lb n="240" xml:id="l-240"/>kunnen dan ik welligt die er toe te brengen <lb n="241" xml:id="l-241"/>waren er aan mee te doen. Velen <lb n="242" xml:id="l-242"/>willen pas dan beginnen als zij zeker weten dat <lb n="243" xml:id="l-243"/>het meenens is en weigeren zich er mee te bemoeien <lb n="244" xml:id="l-244"/>zoolang de eerste stappen niet gedaan zijn.</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-48" n="48">in mengen &lt; er in mengen</note>
+<note target="l-56" n="56">veel &lt; Veel</note>
+<note target="l-73" n="73">gelooven – &lt; gelooven</note>
+<note target="l-85" n="85">Nut &lt; nut</note>
+<note target="l-92" n="92">DO IT”<c type="kk">/</c> &lt; do it</note>
+<note target="l-97" n="97">zijn”. &lt; zijn.</note>
+<note target="l-110" n="110">is: &lt; is</note>
+<note target="l-123" n="123">zou?” &lt; zou”?</note>
+<note target="l-142" n="142">(voor <supplied>
+                            <hi rend="ital">...</hi>
+                        </supplied> papier) &lt; <hi rend="ital">Added later; parentheses added by us.</hi>
+                    </note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo,</ab>
+<ab>In the last few days I had a letter from <rs type="pers" key="1306">Rappard</rs>, with whom I’m in correspondence about the trials with lithography and who has himself done a little with it. I wrote to him in passing: I’ve run into another obstacle; a letter with money that I had largely earmarked for them has been lost. He wrote in reply, don’t let that hold you back, and count on me if you can’t carry on or need something. I didn’t tell him so that he would say something like that, but because I wanted him to make some new trials himself. But it gave me pleasure because such signs of interest are rare. I wrote back to him:<anchor n="1" xml:id="note-t-1"/> for the present I’m declining the offer, but we’ll return to the subject if it really does become a question of not being able to continue at all. And I told him how much I appreciated it. See, that’s one of the cases I wrote to you about in my last letter. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> </ab>
+<ab rend="indent">Of course there are costs involved in the drawing, the stone, the printing, the paper. These are relatively low. Prints like the last one I sent you,<anchor n="2" xml:id="note-t-2"/> say, like a new one that I finished yesterday evening and is now ready,<anchor n="3" xml:id="note-t-3"/> would I believe be suitable for a popular edition, for instance, which is so desperately, desperately needed here in Holland, more than elsewhere. </ab>
+<ab rend="indent">Now such an undertaking like making and printing a series of 30 with Working types, say — sower, digger, woodcutter, ploughman, washerwoman, plus on occasion a cradle or orphan man, in short, the whole vast field lies open, there’s an abundance of fine material — an enterprise like that — may one undertake it or may one not? It goes even deeper: is it a duty and just, or is it wrong? That is the question. 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/>
+                </ab>
+<ab rend="indent">If I were a man of means, I wouldn’t hesitate to decide, I would say, Onward, and be quick about it. </ab>
+<ab rend="indent">But in this case it’s different. May one, must one, can one involve others whom one needs, without whom one can’t carry it out, and drag them into an affair of which it’s doubtful whether it will be profitable? I wouldn’t spare myself. You’ve shown through your help to me that you don’t spare yourself either. Yet others think it <hi rend="ital">both</hi> wrong of you and foolish that you took an interest in me, <hi rend="ital">and</hi> they believe even more strongly that what I do is absurd, and many who were full of enthusiasm at first end up thinking that too, and are only briefly brave and fiery, like a straw fire. </ab>
+<ab rend="indent">Really very unfairly in my view, for neither you nor I are acting foolishly in this. This matter, which not long ago was no more than a few words from you, namely ‘I’ve spoken to <rs type="pers" key="910">Buhot</rs>, who knows of a certain way of lithographing, of which more later, you ought to try something on paper that he’ll send you’, 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> has in a short time taken on the proportions of a more important matter for me from this initially rather insignificant start. </ab>
+<ab rend="indent">I see that with persistence and perseverance it could become something which I believe could be absolutely not superfluous but decidedly good and useful. </ab>
+<ab rend="indent">It has always been said: in Holland we can’t make magazines for the people. I’ve never been entirely able to believe this. I see now: it CAN be done. The Society for General Welfare has given thousands to Elsevier in Rotterdam to support the publishing of De Zwaluw.<anchor n="4" xml:id="note-t-4"/> Now has De Zwaluw turned out to be good? NO. While there were a few fine prints in it, it was too feeble, too insubstantial, not serious, not vigorous enough. An imitation of the English, not original enough. There are two systems, <hi rend="ital">How not to do it</hi> and How to do it.<anchor n="5" xml:id="note-t-5"/> </ab>
+<ab rend="indent">
+                    <hi rend="ital">How not to do it </hi>was, I fear, Elsevier’s ulterior motive, OTHERWISE HE WOULD HAVE DONE IT even if it had cost him his own money. How not to do it reasons as follows: I have so much and so much for it from the Welfare, I have so much and so much from sales — <hi rend="ital">of that, I must put</hi> <hi rend="ital">so and so much in my pocket first </hi>— I must do just as my colleagues do or they’ll call me an awkward customer<anchor n="6" xml:id="note-t-6"/> or a man with a reputation &amp;c. So it comes about that instead of saying what was written beneath a painting by <rs type="pers" key="1227">Millais</rs>, ‘IT MIGHT BE DONE AND IF SO WE SHOULD DO IT’,<anchor n="7" xml:id="note-t-7"/> Elsevier and a thousand like him say, <hi rend="ital">it can’t be done</hi>, or do it too feebly and without enough energy. I don’t know the management of De Zwaluw well enough to say exactly who’s to blame, but I know <hi rend="ital">their magazine</hi> well enough to dare take upon myself to say, ‘you haven’t made of it what you could have made of it, it could and should have been better’. 
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/>
+                </ab>
+<ab rend="indent">Now, moreover, I say all the same: be that as it may, in every age there have also been resolute, sincere, brave, honest Dutchmen; even in times when things in general were feeble and enervated and wrong, here and there one found the fire still burning in hidden corners.<anchor n="8" xml:id="note-t-8"/> How much more so in those periods in which the Dutch could be counted among the first and the best.<anchor n="9" xml:id="note-t-9"/>
+                </ab>
+<ab rend="indent">So when it comes down to daring and self-sacrifice and venturing on something that doesn’t have to be done for gain but because it’s useful and good: one must keep one’s trust in one’s fellow man and fellow countrymen in general.</ab>
+<ab rend="indent">Before I go any further, though, this — I personally don’t want to have any more to do with the business of prints for the people beyond the making of them, in the event that some such venture is started. It must be a matter of charity, not of bookshops.</ab>
+<ab rend="indent">And as it will be necessary to have some contact with the bookshops, if only as regards printing and so on, I mention it to you now, not to ask you, ‘do you think it will succeed?’ from the bookshop’s point of view, but just with the question <hi rend="ital">How to do it?</hi> 
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/> from the point of view that it would be out of love for the cause.</ab>
+<ab rend="indent">In my opinion the following would have to be laid down:</ab>
+<ab rend="indent">Given that it’s useful and needful for Dutch drawings to be made, printed and circulated, intended for workers’ dwellings, farmhouses, in a word, for every working man, several parties undertake to do their utmost, to exert their best efforts for this goal.</ab>
+<ab rend="indent">This association not to be dissolved before the venture is completed, and endeavouring to carry it out as practically and as well as possible. </ab>
+<ab rend="indent">The price of the prints is not to exceed 10 or at the most 15 cents.</ab>
+<ab rend="indent">Publication shall begin when a series of 30 has been made and printed, and the costs involved (for stones, printing wages, paper) have been paid. These thirty prints will appear simultaneously, although available separately, together forming a set in linen cover with a short text, not to go with the prints — which speak for themselves — but to explain pithily how and 
+<pb f="2v" n="7" xml:id="pb-trans-2v-7" facs="#zone-pb-2v-7"/> for what purpose they were made &amp;c.</ab>
+<ab rend="indent">The <hi rend="ital">raison d’être</hi> of the association is this. If the draughtsmen stand alone they’ll have to bear both the effort and the costs — the venture would founder before it was half way — so the burden must be shared so that each gets the part that he can bear and so that the venture can be accomplished.</ab>
+<ab rend="indent">The amount raised by sales will be used first to reimburse those who advanced money, second to give everyone who has supplied a drawing an amount to be determined later that is the same for each draughtsman. </ab>
+<ab rend="indent">When these payments have been made, what remains will be used for new publications to carry on the work. </ab>
+<ab rend="indent">Those who begin this venture regard it as a duty. Self-interest <hi rend="ital">not</hi> being their aim, neither those who advance money nor draughtsmen nor those who participate in other ways may claim back what they have contributed in the event that the venture yields no profit, so that their contribution is lost; nor may they claim back more than they have put in should the venture be successful beyond expectation. </ab>
+<ab rend="indent">In the latter case the surplus will be used to carry on the work, in the former case, however, the stones remain the property of the entrepreneurs; <hi rend="ital">in any event</hi> though, the first 700 impressions from each stone are intended not for the association but for the people. If the association founders, those prints will be distributed free of charge.</ab>
+<ab rend="indent">Immediately after the publication of the first series of 30 there must be a debate and decision on whether or not to continue, and at that point, but not before, whoever so wishes may withdraw from the association. </ab>
+<ab rend="indent">This is the idea that took shape in my mind — now I say to you: How to do it? Will you take part? </ab>
+<ab rend="indent">I haven’t spoken to others about this, the idea first having become clear to me while I was at work. But 
+<pb f="2r" n="8" xml:id="pb-trans-2r-8" facs="#zone-pb-2r-8"/> I’ve long been in touch with <rs type="pers" key="1306">Rappard</rs> on the question of prints for the people, since both he and I attach importance to it, so that he himself, as I wrote to you, said to me of his own accord, I want to give you a helping hand. </ab>
+<ab rend="indent">
+                    <rs type="pers" key="1306">Rappard</rs> doesn’t, however, view the matter in the way that I would like him to: the thing is, he doesn’t agree with me on questions of technique.<anchor n="10" xml:id="note-t-10"/> As to his proposal about advancing me money, I’ve decided to agree to it. </ab>
+<ab rend="indent">I refuse it for myself personally, because I would only pursue it alone if the kind of association I’ve described to you couldn’t be established. At that point I would have to see what more I could do. For the present I share my thoughts about the matter with him, and ask him as I ask you, couldn’t we start something of that kind?</ab>
+<ab rend="indent">And for my part I would wish everyone in the association to be completely equal — with no regulations or president or this or that — just a memorandum laying down the venture which, after it had been finally drawn up and signed by the entrepreneurs, couldn’t be altered other than by a unanimous vote — also the names of those who committed themselves (<hi rend="ital">but not to make them public; the matter must be an artistic, a private venture</hi>), together with what they are doing for the cause: A undertakes to make this or that, B gives this or that for it &amp;c., nothing more.</ab>
+<ab rend="indent">In the meantime it’s now 1 Nov.<anchor n="11" xml:id="note-t-11"/> If you haven’t yet written, do so as soon as you possibly can. I have nothing left. Adieu, believe me, with a hearty handshake,</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+                <ab> Vincent</ab>
+<vg:whiteline/>
+<ab>It should be an association for <hi rend="ital">doing</hi>, not for debating — for acting decisively and without losing time, seeing the whole venture as ‘for charity’, not ‘for bookshops’.</ab>
+<vg:whiteline/>
+<ab>
+<pb f="3r" n="9" xml:id="pb-trans-3r-9" facs="#zone-pb-3r-9"/>
+                </ab>
+<ab>Now something else. One must be prepared for what it entails. </ab>
+<ab rend="indent">30 stones, printing wages, paper.</ab>
+<ab rend="indent">What do they cost? I don’t know exactly, but I think 300 guilders would go a long way. The drawings are the contributions by the members of the association who cannot give any money.</ab>
+<ab rend="indent">I’m ready to take on all of them if no one else presents himself, but I would rather that better people than I took it on. </ab>
+<ab rend="indent">Sending the first 30 into the world seems to be desirable in any event, and I would be glad to carry on with it even if no enthusiasts came forward to make drawings for the time being, because showing that series to artists who could do it better than I might persuade them to take part. Many only want to start when they know for sure that it’s serious, and refuse to become involved as long as the first steps haven’t been taken. </ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>This is <ref target="let287.xml">letter 287</ref>.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>The lithograph <hi rend="ital">‘At eternity’s gate’</hi> (<rs type="ill" key="2417">F 1662 / JH 268</rs>) sent with <ref target="let288.xml">letter 288</ref>.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>
+      <hi rend="ital">Workman sitting on a basket, cutting bread</hi> (<rs type="ill" key="2418">F 1663 / JH 272</rs>). This is evident from <ref target="let290.xml">letter 290</ref>, in which Van Gogh speaks of ‘the left leg with the muddy boot’ <ref target="#l-16">(l. 16)</ref>.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>The ‘income and expenditure account’ of the Society for General Welfare confirms that the magazine <hi rend="ital">De Zwaluw</hi> received 3417.01 guilders  in support in the year 1882-1883, and 4128.51 guilders in 1883-1884 (<hi rend="ital">SAAm</hi>, archiefstuk 211-1238).</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+  <ab>For the expression ‘How (not) to do it’, which Van Gogh borrowed from <rs type="pers" key="580">Charles Dickens</rs>’s <rs type="lit" key="199">
+                            <hi rend="ital">Little Dorrit</hi>
+                        </rs>, <ref target="let179.xml#n-3">see letter 179, n. 3.</ref>
+                    </ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>For this expression, <ref target="let234.xml#n-4">see letter 234, n. 4.</ref>
+                    </ab>
+                </note>
+<note n="a" xml:id="n-a" target="#note-o-a">
+<ab>Said of someone who has a bad reputation everywhere.</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>Sir <rs type="pers" key="1227">John Everett Millais</rs>’s painting <hi rend="ital">The North-West passage</hi> (London, Tate) was exhibited at the Royal Academy in 1874. ‘Millais accompanied the painting with the Captain’s thoughts about the search for the North-west passage: “It might be done, and England should do it”.’ <rs type="ill" key="263">Ill. 263</rs>. See exhib. cat. London<hi rend="ital"> </hi>1992, pp. 136-137, cat. no. 77.</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Lev" chap="6" vr="9-13">Lev. 6:9-13</bibleref>.</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>A reference to the Dutch Golden Age in the seventeenth century. </ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>‘Technique’ is a euphemism here: <rs type="pers" key="1306">Van Rappard</rs> had spoken of ‘drawing mistakes’ (<ref target="let284.xml">see letter 284</ref>).</ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>Van Gogh means 1 December; see <hi rend="ital">Date</hi>. </ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

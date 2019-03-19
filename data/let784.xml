@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Saint-Rémy-de-Provence, Tuesday, 2 July 1889.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let784"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">784</idno>
+<idno type="collectedletters">597</idno>
+<idno type="brieven1990">786</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Saint-Rémy-de-Provence</vg:placeLet>
+                        <vg:dateLet>Tuesday, 2 July 1889</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. Saint-Rémy-de-Provence, Tuesday, 2 July 1889.</p>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b645 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>The letter was written the day Vincent sent the drawings to Theo <ref target="#l-106">(ll. 106-107)</ref>. Since we know from the letter Vincent wrote to Willemien on 2 July (<ref target="let785.xml">letter 785</ref>) that this happened on the same day, the present letter must also date from Tuesday, 2 July 1889. </p>
+<p rend="indent">That this letter was the first of the two can be deduced from what Van Gogh writes about reading Shakespeare: here he says he is reading <hi rend="ital">Henry <hi rend="sc">v</hi>
+                            </hi>, whereas in the letter to Willemien he has finished that play and begun reading <hi rend="ital">Henry <hi rend="sc">vi</hi>
+                            </hi>. On 5 July Jo quoted from the present letter in a letter to her sister Mien (FR b4291).</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0645" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000881_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000881_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000881_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000881_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000881_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000881_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="VGM001000881_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000881_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000881_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0645" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000881_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000881_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000881_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000881_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000881_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000881_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000881_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000881_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000881_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Mon cher Theo,</ab>
+                <lb n="1*" xml:id="l-1s"/>
+<ab>Ci-inclus je t’envoie une lettre de la mère<c type="kk">/</c>
+                    <anchor n="1" xml:id="note-o-1"/> <lb n="2" xml:id="l-2"/>naturellement tu sais toutes les nouvelles y contenues<c type="kp">_</c> Je trouve <lb n="3" xml:id="l-3"/>que Cor est très consequent en allant là<c type="kp">_</c>–<anchor n="2" xml:id="note-o-2"/> Ce que cela a de <lb n="4" xml:id="l-4"/>différent avec rester en Europe c’est que là-bas on ne saurait <lb n="5" xml:id="l-5"/>comme ici etre obligé de subir l’influence de nos grandes villes <lb n="6" xml:id="l-6"/>si vieilles que tout y semble radoter et à l’etat vaccillant<c type="kp">_</c> <lb n="7" xml:id="l-7"/>Alors au lieu de voir ses forces vitales et l’energie native et <lb n="8" xml:id="l-8"/>naturelle s’évaporer dans la circumlocution<c type="kk">/</c> possible que loin <lb n="9" xml:id="l-9"/>de notre société on soit davantage heureux<c type="kp">_</c> Il en serait autrement <lb n="10" xml:id="l-10"/>que cela n’empêcherait pas que ce soit agir avec droiture et <lb n="11" xml:id="l-11"/>conséquent à son education pour lui de ne pas hésiter à accepter <lb n="12" xml:id="l-12"/>cette situation. Maintenant ce n’est donc pas pour te faire <lb n="13" xml:id="l-13"/>part de toute ces nouvelles que tu sais<c type="kk">/</c> que je t’envoie la lettre<c type="kp">_</c> <lb n="14" xml:id="l-14"/>Mais c’est pour que tu en observes un peu combien l’écriture <lb n="15" xml:id="l-15"/>en est d’un ferme et d’une régularité assez remarquable <lb n="16" xml:id="l-16"/>lorsqu’on y songerait que ce soit vrai ce qu’elle dit<c type="kk">/</c> qu’elle est “une <lb n="17" xml:id="l-17"/>mère de presque 70 ans”. Et ainsi que tu me l’as déjà <lb n="18" xml:id="l-18"/>écrit et la soeur aussi<c type="kk">/</c> qu’elle semblait rajeunie<c type="kk">/</c>
+                    <anchor n="3" xml:id="note-o-3"/> je <lb n="19" xml:id="l-19"/>le vois moi-même à cette ecriture si claire et à sa <lb n="20" xml:id="l-20"/>logique plus serrée dans ce qu’elle ecrit et la <lb n="21" xml:id="l-21"/>simplicité avec laquelle elle apprecie les faits<c type="kp">_</c> <lb n="22" xml:id="l-22"/>Je crois maintenant que ce rajeunissement lui vient <lb n="23" xml:id="l-23"/>decidemment de ce qu’elle est contente que tu <lb n="24" xml:id="l-24"/>te sois marié<c type="kk">/</c> ce qu’elle avait depuis si longtemps <lb n="25" xml:id="l-25"/>désiré; et moi je t’en félicite de ce que ton <lb n="26" xml:id="l-26"/>mariage peut vous donner à toi et à Jo le plaisir <lb n="27" xml:id="l-27"/>assez rare de voir rajeunir votre mère. C’est bien <lb n="28" xml:id="l-28"/>pour cela que je t’envoie cette lettre. Car <lb n="29" xml:id="l-29"/>mon cher frère il est quelquefois nécessaire <lb n="30" xml:id="l-30"/>plus tard de se souvenir – et cela tombe si bien <lb n="31" xml:id="l-31"/>que juste au moment où elle aura la grosse douleur <lb n="32" xml:id="l-32"/>de se séparer de Cor – et ce sera raide cela – elle <lb n="33" xml:id="l-33"/>soit consolée en te sachant marié. Si la chôse <lb n="34" xml:id="l-34"/>etait possible il ne faudrait pas attendre tout à fait <lb n="35" xml:id="l-35"/>un an entier avant de retourner en Hollande car <lb n="36" xml:id="l-36"/>elle languira de te revoir<c type="kk">/</c> toi et ta femme.</ab>
+                <lb n="37" xml:id="l-37"/>
+<ab rend="indent">En même temps<c type="kk">/</c> ayant marié une Hollandaise <lb n="38" xml:id="l-38"/>cela pourrait dans quelques années<c type="kk">/</c> plus tôt ou plus <lb n="39" xml:id="l-39"/>tard<c type="kk">/</c> rechauffer les relations d’affaires avec Amsterdam <lb n="40" xml:id="l-40"/>ou la Haye.</ab>
+                <lb n="41" xml:id="l-41"/>
+<ab rend="indent">Enfin encore une fois je n’ai pas vu moi une lettre de la <lb n="42" xml:id="l-42"/>mère dénotant autant de serenité intérieure et de <lb n="43" xml:id="l-43"/>calme contentement que celle ci – pas depuis bien <lb n="44" xml:id="l-44"/>des années. Et je suis sûr que cela vient de ton <lb n="45" xml:id="l-45"/>mariage. On dit que cela porte longue vie <lb n="46" xml:id="l-46"/>de contenter ses parents<c type="kp">_</c>
+                </ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="47" xml:id="l-47"/>
+<ab rend="indent">Je te remercie maintenant beaucoup de l’envoi de couleurs<c type="kk">/</c> <lb n="48" xml:id="l-48"/>deduis les de la commande faite depuis mais <lb n="49" xml:id="l-49"/>si toutefois cela se peut, <hi rend="ital">pas</hi> pour la quantité de <lb n="50" xml:id="l-50"/>blanc.<anchor n="4" xml:id="note-o-4"/> Je te remercie egalement <lb n="51" xml:id="l-51"/>bien cordialement du Shakespeare.<anchor n="5" xml:id="note-o-5"/> Cela va <lb n="52" xml:id="l-52"/>m’aider à ne pas oublier le peu d’anglais que <lb n="53" xml:id="l-53"/>je sais – mais surtout c’est si beau.</ab>
+                <lb n="54" xml:id="l-54"/>
+<ab rend="indent">j’ai commencé à lire la serie que j’ignore le plus<c type="kk">/</c> <lb n="55" xml:id="l-55"/>qu’autrefois etant distrait par autre chose <lb n="56" xml:id="l-56"/>ou n’ayant pas le temps il m’etait impossible de <lb n="57" xml:id="l-57"/>lire<c type="kk">/</c> la serie des rois<c type="kp">_</c> j’ai déjà lu Richard II<c type="kk">/</c> <lb n="58" xml:id="l-58"/>Henry IV et la moitié de Henry V<c type="kp">_</c>
+                    <anchor n="6" xml:id="note-o-6"/> Je lis sans <lb n="59" xml:id="l-59"/>réflechir si les idees des gens de ce temps-là <lb n="60" xml:id="l-60"/>sont les memes que les notres ou ce qui en devient <lb n="61" xml:id="l-61"/>lorsqu’on les met face en face avec des croyances <lb n="62" xml:id="l-62"/>republicaines<c type="kk">/</c> socialistes &amp;c. Mais ce qui m’y touche <lb n="63" xml:id="l-63"/>comme dans de certains romanciers de notre <lb n="64" xml:id="l-64"/>temps c’est que les voix de ces gens<c type="kk">/</c> qui dans <lb n="65" xml:id="l-65"/>ce cas de Shakespeare nous parviennent d’une distance <lb n="66" xml:id="l-66"/>de plusieurs siecles<c type="kk">/</c> ne nous paraissent pas <lb n="67" xml:id="l-67"/>inconnues<c type="kp">_</c> C’est tellement vivant qu’on <lb n="68" xml:id="l-68"/>croit les connaitre et voir cela<c type="kp">_</c>
+                </ab>
+                <lb n="69" xml:id="l-69"/>
+<ab rend="indent">Ainsi ce que seul ou presque seul Rembrandt a parmi <lb n="70" xml:id="l-70"/>les peintres<c type="kk">/</c> cette tendresse dans des regards d’etres <lb n="71" xml:id="l-71"/>que nous voyons soit dans les pèlerins d’Emmaus<c type="kk">/</c>
+                    <anchor n="7" xml:id="note-o-7"/> <lb n="72" xml:id="l-72"/>soit dans la fiancée juive<c type="kk">/</c>
+                    <anchor n="8" xml:id="note-o-8"/> soit dans telle figure <lb n="73" xml:id="l-73"/>etrange d’ange ainsi que le tableau que tu as eu la <lb n="74" xml:id="l-74"/>chance de voir<anchor n="9" xml:id="note-o-9"/> – cette tendresse navrée<c type="kk">/</c> cet infini <lb n="75" xml:id="l-75"/>surhumain entreouvert et qui alors parait si nature<c type="kk">/</c> <lb n="76" xml:id="l-76"/>à maint endroit on le rencontre dans Shakespeare<c type="kp">_</c> <lb n="77" xml:id="l-77"/>Et puis des portraits graves ou gai tel le Six<c type="kk">/</c>
+                    <anchor n="10" xml:id="note-o-10"/> tel <lb n="78" xml:id="l-78"/>le voyageur<c type="kk">/</c>
+                    <anchor n="11" xml:id="note-o-11"/> tel la Saskia<c type="kk">/</c>
+                    <anchor n="12" xml:id="note-o-12"/> c’est surtout cela dont <lb n="79" xml:id="l-79"/>c’est plein. Quelle bonne idée le fils de Victor <lb n="80" xml:id="l-80"/>Hugo a eu de traduire tout cela en Français <lb n="81" xml:id="l-81"/>de façon à ce que cela soit ainsi à la portee de tous<c type="kp">_</c>
+                    <anchor n="13" xml:id="note-o-13"/> <lb n="82" xml:id="l-82"/>Lorsque je songe aux impressionistes et à toutes <lb n="83" xml:id="l-83"/>ces questions d’art d’à présent<c type="kk">/</c> comme il y a justement <lb n="84" xml:id="l-84"/>pour nous autres des lecons là-dedans<c type="kp">_</c>
+                </ab>
+                <lb n="85" xml:id="l-85"/>
+<ab rend="indent">Ainsi de ce que je viens de lire l’idée me vient <lb n="86" xml:id="l-86"/>que les impressionistes aient mille fois raison<c type="kp">_</c> <lb n="87" xml:id="l-87"/>alors même ils doivent y réflechir longtemps <lb n="88" xml:id="l-88"/>et toujours<c type="kp">_</c> s’il suit de là qu’ils aient le droit <lb n="89" xml:id="l-89"/>ou le devoir de se faire justice à eux mêmes 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                    <lb n="90" xml:id="l-90"/>et s’ils osent se dire primitifs<c type="kk">/</c> certes ils <lb n="91" xml:id="l-91"/>feraient bien d’apprendre à être primitifs <lb n="92" xml:id="l-92"/>comme <hi rend="ital">gens</hi> un peu aussi avant de <lb n="93" xml:id="l-93"/>prononcer le mot primitif comme un <lb n="94" xml:id="l-94"/>titre qui leur donnerait des droits à quoi que ce <lb n="95" xml:id="l-95"/>soit<c type="kp">_</c>
+                    <anchor n="14" xml:id="note-o-14"/> Mais ceux qui seraient cause de <lb n="96" xml:id="l-96"/>ce que les impressionistes soient malheureux<c type="kk">/</c> <lb n="97" xml:id="l-97"/>eh bien naturellement le cas pour eux est grave<c type="kk">/</c> <lb n="98" xml:id="l-98"/>aussi lorsqu’ils s’en moquent.</ab>
+                <lb n="99" xml:id="l-99"/>
+<ab rend="indent">Et puis livrer une bataille sept fois par semaine <lb n="100" xml:id="l-100"/>paraitrait ne pas devoir pouvoir durer.</ab>
+                <lb n="101" xml:id="l-101"/>
+<ab rend="indent">C’est épatant comme l’abbesse de Jouarre<c type="kk">/</c> lorsqu’on y songe<c type="kk">/</c> <lb n="102" xml:id="l-102"/>se tient cependant même à côté de Shakespeare.<anchor n="15" xml:id="note-o-15"/>
+                </ab>
+                <lb n="103" xml:id="l-103"/>
+<ab rend="indent">Je crois que Renan s’est payé cela afin de pouvoir <lb n="104" xml:id="l-104"/>une fois dire de <hi rend="ital">belles</hi> paroles en plein et à son aise parceque <lb n="105" xml:id="l-105"/>c’est des belles paroles.</ab>
+                <lb n="106" xml:id="l-106"/>
+<ab rend="indent">Afin que tu aies une idée de ce que j’ai en train je t’envoie <lb n="107" xml:id="l-107"/>aujourd’hui une dizaine de dessins<c type="kk">/</c> tous d’après des <lb n="108" xml:id="l-108"/>toiles en train<c type="kp">_</c>
+                    <anchor n="16" xml:id="note-o-16"/>
+                </ab>
+                <lb n="109" xml:id="l-109"/>
+<ab rend="indent">La dernière commencée est le champ de blé où il <lb n="110" xml:id="l-110"/>y a un petit moissonneur et un grand soleil<c type="kp">_</c> La toile <lb n="111" xml:id="l-111"/>est toute jaune à l’exception du mur et du <lb n="112" xml:id="l-112"/>fond de collines violacés<c type="kp">_</c>
+                    <anchor n="17" xml:id="note-o-17"/> La toile qui comme <lb n="113" xml:id="l-113"/>motif est presque pareille est différente comme <lb n="114" xml:id="l-114"/>coloration étant d’un vert grisâtre et un ciel <lb n="115" xml:id="l-115"/>blanc &amp; bleu<c type="kp">_</c>
+                    <anchor n="18" xml:id="note-o-18"/>
+                </ab>
+                <lb n="116" xml:id="l-116"/>
+<ab rend="indent">Que je songe à Reid en lisant Shakespeare et comme <lb n="117" xml:id="l-117"/>j’ai plusieurs fois songé à lui étant plus malade <lb n="118" xml:id="l-118"/>qu’à présent. Trouvant que j’avais été infiniment <lb n="119" xml:id="l-119"/>trop dur et peutêtre décourageant pour lui avec <lb n="120" xml:id="l-120"/>ce que je prétendais qu’il valait mieux aimer les <lb n="121" xml:id="l-121"/>peintres que les tableaux.<anchor n="19" xml:id="note-o-19"/> Il n’est pas de ma <lb n="122" xml:id="l-122"/>compétence de faire ainsi des distinctions<c type="kk">/</c> même <lb n="123" xml:id="l-123"/>pas devant le problème que nous voyons nos amis vivants <lb n="124" xml:id="l-124"/>tant souffrir du manque d’argent assez pour <lb n="125" xml:id="l-125"/>se nourrir et payer leur couleur<c type="kk">/</c> et d’autre part <lb n="126" xml:id="l-126"/>les grands prix qu’on paye les toiles de peintres <lb n="127" xml:id="l-127"/>morts. Dans un journal je lisais une lettre <lb n="128" xml:id="l-128"/>d’un amateur de chôses grecques à un de ses <lb n="129" xml:id="l-129"/>amis<c type="kk">/</c> où se trouvait cette phrase “toi qui <lb n="130" xml:id="l-130"/>aimes la nature<c type="kk">/</c> moi qui aime tout ce qu’a <lb n="131" xml:id="l-131"/>fait la main de l’homme<c type="kk">/</c> cette difference <lb n="132" xml:id="l-132"/>dans nos gouts au fond en fait l’unité<c type="kp">_</c>”<anchor n="20" xml:id="note-o-20"/> <lb n="133" xml:id="l-133"/>Et je trouvais cela mieux que mon raisonnement.</ab>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                <lb n="134" xml:id="l-134"/>
+<ab rend="indent">J’ai une toile de cyprès avec quelques épis de <lb n="135" xml:id="l-135"/>blé<c type="kk">/</c> des coquelicots<c type="kk">/</c> un ciel bleu<c type="kk">/</c> qui est comme <lb n="136" xml:id="l-136"/>une étoffe bariolée écossaise<c type="kp">_</c>
+                    <anchor n="21" xml:id="note-o-21"/> celle là qui est empâtée <lb n="137" xml:id="l-137"/>comme les Monticelli et le champ de blé avec le soleil <lb n="138" xml:id="l-138"/>qui représente l’extrême chaleur<c type="kk">/</c>
+                    <anchor n="22" xml:id="note-o-22"/> très empatée aussi<c type="kk">/</c> <lb n="139" xml:id="l-139"/>je crois que cela lui expliquerait plus ou moins <lb n="140" xml:id="l-140"/>cependant qu’en étant amis avec nous il ne <lb n="141" xml:id="l-141"/>pouvait pas y perdre beaucoup<c type="kp">_</c> Mais cela est <lb n="142" xml:id="l-142"/>vrai de notre côté aussi et justement <hi rend="ital">parcequ’on</hi> <lb n="143" xml:id="l-143"/>
+                    <hi rend="ital">avait peutetre raison</hi> de desapprouver son procès<anchor n="a" xml:id="note-o-a"/> il faudrait <lb n="144" xml:id="l-144"/>de <hi rend="ital">notre</hi> côté faire une démarche de rapprochement.<anchor n="23" xml:id="note-o-23"/> <lb n="145" xml:id="l-145"/>Enfin je n’ose pas encore ecrire maintenant de peur <lb n="146" xml:id="l-146"/>de dire trop de bêtises mais plus sûr de ma plume <lb n="147" xml:id="l-147"/>j’aurais grande envie de lui ecrire un jour. <lb n="148" xml:id="l-148"/>Il en est de même pour d’autres amis mais <lb n="149" xml:id="l-149"/>je me suis bien dit qu’avant de <hi rend="ital">pouvoir</hi>
+                    <c type="kk">/</c> même <lb n="150" xml:id="l-150"/>dans les meilleures circonstances<c type="kk">/</c> arriver à ce “être un peu plus <lb n="151" xml:id="l-151"/>sûr de moi”<c type="kk">/</c> il fallait attendre le plus longtemps possible.</ab>
+                <lb n="152" xml:id="l-152"/>
+<ab rend="indent">J’ai encore à Arles des toiles qui n’étaient pas <lb n="153" xml:id="l-153"/>sèches lorsque je partis<c type="kk">/</c> j’ai grande envie d’aller <lb n="154" xml:id="l-154"/>les prendre de ces jours ci pour te les envoyer. il <lb n="155" xml:id="l-155"/>y en a une demi douzaine.<anchor n="24" xml:id="note-o-24"/> Les dessins me <lb n="156" xml:id="l-156"/>paraissent avoir peu de couleur cette fois ci et pour <lb n="157" xml:id="l-157"/>un peu le papier trop lisse en est bien cause<c type="kp">_</c>
+                </ab>
+                <lb n="158" xml:id="l-158"/>
+<ab rend="indent">Enfin l’arbre pleureur<anchor n="25" xml:id="note-o-25"/> et la cour de l’hospice d’Arles<anchor n="26" xml:id="note-o-26"/> <lb n="159" xml:id="l-159"/>sont plus colorés mais cela te donnera pourtant une <lb n="160" xml:id="l-160"/>idée de ce que j’ai en train<c type="kp">_</c>
+                    <anchor n="27" xml:id="note-o-27"/> La toile du faucheur deviendra <lb n="161" xml:id="l-161"/>quelque chose comme le semeur de l’autre année<c type="kp">_</c>
+                    <anchor n="28" xml:id="note-o-28"/>
+                </ab>
+                <lb n="162" xml:id="l-162"/>
+<ab rend="indent">Comme plus tard les livres de Zola demeureront beau <lb n="163" xml:id="l-163"/>justement parceque cela a de la vie<c type="kp">_</c>
+                </ab>
+                <lb n="164" xml:id="l-164"/>
+<ab rend="indent">Ce qui a vie aussi c’est que la mère est contente que <lb n="165" xml:id="l-165"/>tu sois marié et je trouve que cela à vous memes<c type="kk">/</c> <lb n="166" xml:id="l-166"/>toi et Jo<c type="kk">/</c> ne saurait être désagreable<c type="kp">_</c> Mais la séparation <lb n="167" xml:id="l-167"/>de Cor sera pour elle d’un dur difficile à concevoir<c type="kp">_</c> Apprendre <lb n="168" xml:id="l-168"/>à souffrir sans se plaindre<c type="kk">/</c>
+                    <anchor n="29" xml:id="note-o-29"/> apprendre à considérer la <lb n="169" xml:id="l-169"/>douleur sans repugnance c’est justement un <lb n="170" xml:id="l-170"/>peu là qu’on risque le vertige; et cependant se <lb n="171" xml:id="l-171"/>pourrait-il<c type="kk">/</c> cependant entrevoit on même une vague <lb n="172" xml:id="l-172"/>probabilité que dans l’autre côté de la vie <lb n="173" xml:id="l-173"/>nous nous apercevrons des bonnes raisons d’être <lb n="174" xml:id="l-174"/>de la douleur<c type="kk">/</c> qui vu d’ici occupe parfois <lb n="175" xml:id="l-175"/>tellement tout l’horizon qu’elle prend des proportions de <lb n="176" xml:id="l-176"/>deluge désesperantes<c type="kp">_</c> De cela nous en savons fort <lb n="177" xml:id="l-177"/>peu<c type="kk">/</c> des proportions<c type="kk">/</c> et mieux vaut regarder un <lb n="178" xml:id="l-178"/>champ de blé<c type="kk">/</c> même à l’état <lb n="179" xml:id="l-179"/>de tableau<c type="kp">_</c> Je vous serre bien les mains et à bientôt <lb n="180" xml:id="l-180"/>de vos nouvelles j’espere. Bonne santé tous deux<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="180*" xml:id="l-180s"/>
+<ab>t. à t.</ab>
+                <lb n="181" xml:id="l-181"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-74" n="74">cette &lt; Cette</note>
+<note target="l-79" n="79">fils &lt; fis</note>
+<note target="l-86" n="86">raison &lt; raisons</note>
+<note target="l-90" n="90">et &lt; Et</note>
+<note target="l-132" n="132">l’unité<c type="kp">_</c>” &lt; l’unité</note>
+<note target="l-150" n="150">“être &lt; être</note>
+<note target="l-151" n="151">moi”<c type="kk">/</c> &lt; moi</note>
+<note target="l-170" n="170">vertige; &lt; vertige</note>
+<note target="l-171" n="171">cependant &lt; cependant;</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo,</ab>
+<ab>Enclosed I’m sending you a letter from <rs type="pers" key="524">Mother</rs>,<anchor n="1" xml:id="note-t-1"/> naturally you know all the news it contains. I think it’s very logical of <rs type="pers" key="422">Cor</rs> to go there.<anchor n="2" xml:id="note-t-2"/> What is different there from staying in Europe is that down there one doesn’t have to undergo the influence of our large cities, as one does here, so old that everything in them seems to be in its dotage and tottering. So instead of seeing one’s vital forces and natural, native energy evaporate in circumlocution, it’s possible that one might be happier far from our society. Even if it were otherwise, the fact remains that it’s to act uprightly and in accordance with his upbringing for him not to hesitate to accept this position. So now it isn’t to tell you all this news that you know that I’m sending you the letter. But it’s for you to observe in it a little how remarkably firm and regular the writing is when one thinks that it’s true what she says, that she’s ‘a mother approaching 70’. And as you’ve already written to me, and our <rs type="pers" key="407">sister</rs> has too, that she seems to have got younger,<anchor n="3" xml:id="note-t-3"/> I see it myself from this very clear writing and in her tighter logic in what she writes, and the simplicity with which she appreciates facts. I believe now that this rejuvenation has obviously come to her from the fact that she’s happy that you’ve got married, which she’d wanted for so long; and I congratulate you that your marriage can give you and <rs type="pers" key="416">Jo</rs> the rather rare pleasure of seeing your mother growing young again. It’s really for that that I’m sending you this letter. Because, my dear brother, it’s sometimes necessary later to remember – and it’s so timely that, at the very moment when she’ll have the great pain of being separated from Cor – and it will be hard on her, that – she should be consoled by knowing that you’re married. If the thing were possible you shouldn’t wait fully a whole year before returning to Holland, for she’ll be longing to see you again, you and your wife.</ab>
+<ab rend="indent">At the same time, having married a Dutchwoman, that could in a few years, sooner or later, warm up business relations with Amsterdam or The Hague again.</ab>
+<ab rend="indent">Anyway, once again I haven’t seen a letter from <rs type="pers" key="524">Mother</rs> indicating so much inner serenity and calm contentment as this one – not for many years. And I’m sure that this comes from your marriage. It’s said that pleasing one’s parents brings a long life.
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">I now thank you very much for the consignment of colours, deduct them from the order placed since, but if it’s at all possible, <hi rend="ital">not</hi> for the quantity of white.<anchor n="4" xml:id="note-t-4"/> I thank you also very cordially for the <rs type="pers" key="735">Shakespeare</rs>.<anchor n="5" xml:id="note-t-5"/> It will help me not to forget the little English I know – but above all it’s so beautiful.</ab>
+<ab rend="indent">I’ve begun to read the series I know the least well, which before, being distracted by something else or not having the time it was impossible for me to read, the series of the kings. I’ve already read Richard II, Henry IV and half of Henry V.<anchor n="6" xml:id="note-t-6"/> I read without reflecting on whether the ideas of the people of that time are the same as ours, or what becomes of them when one places them face to face with republican or socialist beliefs &amp;c. But what touches me in it, as in the work of certain novelists of our time, is that the voices of these people, which in <rs type="pers" key="735">Shakespeare</rs>’s case reach us from a distance of several centuries, don’t appear unknown to us. It’s so alive that one thinks one knows them and sees it.</ab>
+<ab rend="indent">So what <rs type="pers" key="1295">Rembrandt</rs> alone, or almost alone, has among painters, that tenderness in the gazes of human beings we see either in the Pilgrims at Emmaus,<anchor n="7" xml:id="note-t-7"/> or in the Jewish bride,<anchor n="8" xml:id="note-t-8"/> or in some strange figure of an angel as in the painting you had the good fortune to see<anchor n="9" xml:id="note-t-9"/> – that heartbroken tenderness, that glimpse of a superhuman infinite which appears so natural then, one encounters it in many places in <rs type="pers" key="735">Shakespeare</rs>. And then serious or gay portraits like the <rs type="pers" key="1481">Six</rs>,<anchor n="10" xml:id="note-t-10"/> like the traveller,<anchor n="11" xml:id="note-t-11"/> like the Saskia,<anchor n="12" xml:id="note-t-12"/> it’s above all full of that. What a good idea Victor Hugo’s <rs type="pers" key="1829">son</rs> had of translating all of it into French so that it’s thus within the reach of all.<anchor n="13" xml:id="note-t-13"/> When I think of the Impressionists and of all these present-day questions of art, how many lessons there are precisely for us in there.</ab>
+<ab rend="indent">So from what I’ve just read the idea comes to me that the Impressionists are right a thousand times over. Yet even they must think about it for a long time and always. If it follows from that that they have the right or the duty to do themselves justice, 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> and if they dare call themselves primitives, certainly they’d do well to learn to be primitive as <hi rend="ital">people</hi> a little, too, before pronouncing the word primitive like a title that would give them rights to whatsoever.<anchor n="14" xml:id="note-t-14"/> But those who would be the cause of the Impressionists being unhappy, well naturally the case for them is serious, also when they make light of it.</ab>
+<ab rend="indent">And then it would appear that waging a battle seven times a week couldn’t go on.</ab>
+<ab rend="indent">It’s amazing, though, how L’abbesse de Jouarre,<anchor n="15" xml:id="note-t-15"/> when you think of it, holds its own even beside <rs type="pers" key="735">Shakespeare</rs>.</ab>
+      <ab rend="indent">I think that <rs type="pers" key="729">Renan</rs> treated himself to that in order to be able to say <hi rend="ital">beautiful</hi> words for once in full and at his ease, because these are beautiful words.</ab>
+<ab rend="indent">So that you may have an idea of what I have on the go I’m sending you ten or so drawings today, all after canvases on the go.<anchor n="16" xml:id="note-t-16"/>
+                </ab>
+<ab rend="indent">The latest one begun is the wheatfield where there’s a little reaper and a big sun. The canvas is all yellow with the exception of the wall and the bottom of purplish hills.<anchor n="17" xml:id="note-t-17"/> The canvas with almost the same subject differs in coloration, being a greyish green and a white and blue sky.<anchor n="18" xml:id="note-t-18"/>
+                </ab>
+<ab rend="indent">How I think of <rs type="pers" key="623">Reid</rs> as I read <rs type="pers" key="735">Shakespeare</rs>, and how I’ve thought of him several times when I was iller than at present. Finding that I’d been infinitely too harsh and perhaps discouraging towards him in claiming that it was better to love painters than paintings.<anchor n="19" xml:id="note-t-19"/> It isn’t up to me to make distinctions like that, not even when faced with the problem that we see our living friends suffering so much from the lack of enough money to feed themselves and pay for their colours, and on the other hand the high prices that are paid for the canvases of dead painters. In a newspaper I was reading a letter from a collector of Greek objects to one of his friends, which contained this phrase ‘you who love nature, I who love all that the hand of man has made, this difference in our tastes deep down creates the unity in it’.<anchor n="20" xml:id="note-t-20"/> And I found that better than my reasoning.
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/>
+                </ab>
+<ab rend="indent">I have a canvas of cypresses with a few ears of wheat, poppies, a blue sky, which is like a multicoloured Scottish plaid.<anchor n="21" xml:id="note-t-21"/> This one, which is impasted like the <rs type="pers" key="1240">Monticelli</rs>s, and the wheatfield with the sun that represents extreme heat,<anchor n="22" xml:id="note-t-22"/> also thickly impasted, I think that this would explain to him more or less, however, that he couldn’t lose much by being our friend. But that’s true on our side too, and precisely <hi rend="ital">because we were perhaps right</hi> to disapprove of his method we ought on <hi rend="ital">our</hi> side to take a step towards reconciliation.<anchor n="23" xml:id="note-t-23"/> Anyway, I daren’t yet write now for fear of saying too many foolish things, but when I’m more certain of my pen I’d very much like to write to him one day. It’s the same for other friends, but I really have told myself that I should wait as long as possible before <hi rend="ital">being able</hi>, even in the best of circumstances, to arrive at this ‘being a little more certain of myself’.</ab>
+<ab rend="indent">I still have canvases in Arles that weren’t dry when I left, I very much want to go and get them one of these days in order to send them to you. There are half a dozen of them.<anchor n="24" xml:id="note-t-24"/> The drawings appear to me to have little colour this time, and this is very probably due to the over-smooth paper.</ab>
+<ab rend="indent">Anyway, the Weeping tree<anchor n="25" xml:id="note-t-25"/> and the Courtyard of the hospital at Arles<anchor n="26" xml:id="note-t-26"/> are more coloured, but that though will give you an idea of what I have on the go.<anchor n="27" xml:id="note-t-27"/> The canvas of the reaper will become something like the Sower of the other year.<anchor n="28" xml:id="note-t-28"/>
+                </ab>
+<ab rend="indent">As later the books of <rs type="pers" key="836">Zola</rs> will remain beautiful precisely because they have life.</ab>
+<ab rend="indent">What also has life is the fact that <rs type="pers" key="524">Mother</rs> is happy that you’re married, and I think that this cannot be disagreeable to yourselves, you and <rs type="pers" key="416">Jo</rs>. But the separation from <rs type="pers" key="420">Cor</rs> will be so hard for her that it’s difficult to imagine. It is precisely in learning to suffer without complaining,<anchor n="29" xml:id="note-t-29"/> learning to consider pain without repugnance, that one risks vertigo a little; and yet it might be possible, yet one glimpses even a vague probability that on the other side of life we’ll glimpse justifications for pain, which seen from here sometimes takes up the whole horizon so much that it takes on the despairing proportions of a deluge. Of that we know very little, of proportions, and it’s better to look at a wheatfield, even in the state of a painting. I shake your hands firmly and will have news of you soon I hope. Good health to you both.</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>Vincent’s reply to his <rs type="pers" key="524">mother</rs>’s letter is <ref target="let788.xml">letter 788</ref>. Although Vincent had been in Saint-Rémy since 8 May, Mrs van Gogh had addressed her letter ‘to the Hospital at Arles’, as she said in a letter she wrote to Theo and <rs type="pers" key="416">Jo</rs> on 29 April 1889: ‘I hope he received it and am greatly longing to hear something from him. I think of him a lot and hope so much that it may lead to his recovery’ (FR b2913). </ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>Around 20 August 1889, <rs type="pers" key="420">Cor van Gogh</rs> left for South Africa, where he went to work for Cornucopia Gold Company in Germiston near Johannesburg. See M.H. van Meurs, ‘Cor van Gogh en de boerenoorlog’, <hi rend="ital">Journal for Contemporary History. Joernaal vir Eietydse Geskiedenis</hi> 25-2 (December 2000), pp. 177-196.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>Theo had written this in <ref target="let762.xml">letter 762</ref>.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>Vincent had placed this order in <ref target="let779.xml">letter 779</ref>, ‘the order placed since’ is the one in <ref target="let783.xml">letter 783</ref>.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>Van Gogh had asked for <rs type="pers" key="1839">Dicks</rs>' edition of the <hi rend="ital">
+                            <rs type="lit" key="591">Complete works</rs>
+                        </hi> of Shakespeare in <ref target="let782.xml">letter 782</ref>.</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>
+                        <rs type="pers" key="735">Shakespeare</rs>’s <hi rend="ital">
+                            <rs type="lit" key="295">Richard <hi rend="sc">ii</hi>
+                            </rs>
+                        </hi> (1596-1597) demonstrates how an incompetent king can bring about his own downfall. Richard shows little willingness to sacrifice himself for his kingdom, and too easily becomes involved with flatterers who clearly mean mischief. He consequently loses his power and finally the throne.</ab>
+<ab rend="indent">
+      <rs type="lit" key="200">
+                            <hi rend="ital">Henry <hi rend="sc">iv</hi>
+                            </hi>
+                        </rs> (1598-1599) recounts the rebellion of Harry Percy, called Hotspur, against the cool and calculating King Henry. The descriptions of their negotiations and encounters underline the importance of bravery and perseverance. The play shows that injustice leads to ruin.</ab>
+<ab rend="indent">In <hi rend="ital">
+                            <rs type="lit" key="298">Henry <hi rend="sc">v</hi>
+                            </rs>
+                        </hi> (1599-1600) the righteous King Henry lays claim to the French throne, after being assured of his right to it. Insults and affronts from the French cause negotiations to break down. The subsequent struggle underlines the importance of uprightness and loyalty.</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>For <rs type="pers" key="1295">Rembrandt</rs>’s <hi rend="ital">
+                            <rs type="ill" key="1710">Pilgrims at Emmaus</rs>
+                        </hi>, <ref target="let034.xml#n-5">see letter 34, n. 5.</ref>
+                    </ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>For <rs type="pers" key="1295">Rembrandt</rs>’s <hi rend="ital">
+                            <rs type="ill" key="2119">Jewish bride</rs>
+                        </hi>, <ref target="let430.xml#n-10">see letter 430, n. 10.</ref>
+                    </ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>For <hi rend="ital">
+                            <rs type="otherart" key="850">The archangel Raphael</rs>
+                        </hi> (no longer attributed to <rs type="pers" key="1295">Rembrandt</rs>), <ref target="let781.xml#n-4">see letter 781, n. 4.</ref>
+                    </ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>For <rs type="pers" key="1295">Rembrandt</rs>’s <hi rend="ital">
+                            <rs type="ill" key="1737">Jan Six</rs>
+                        </hi>, <ref target="let047.xml#n-8">see letter 47, n. 8.</ref>
+                    </ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>For the portrait of <hi rend="ital">
+                            <rs type="ill" key="2159">Young man with a walking stick</rs>
+                        </hi>, which is no longer considered the work of <rs type="pers" key="1295">Rembrandt</rs>, <ref target="let536.xml#n-9">see letter 536, n. 9.</ref>
+                    </ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+<ab>Van Gogh knew the copy after <rs type="pers" key="1295">Rembrandt</rs>’s <hi rend="ital">
+                            <rs type="ill" key="1849"> Saskia van Uylenburgh</rs>
+                        </hi> from his time in Antwerp; <ref target="let547.xml#n-20">see letter 547, n. 20.</ref>
+                    </ab>
+                </note>
+<note n="13" xml:id="n-13" target="#note-t-13">
+<ab>The complete translation of <rs type="pers" key="735">Shakespeare</rs> by <rs type="pers" key="1829">François-Victor Hugo</rs>, the <hi rend="ital">
+                            <rs type="lit" key="438">Oeuvres complètes</rs>
+                        </hi>, appeared between 1859 and 1866 in 17 volumes published by Pagnerre in Paris; <rs type="pers" key="666">Victor Hugo</rs>, the translator’s father, wrote the foreword.</ab>
+                </note>
+<note n="14" xml:id="n-14" target="#note-t-14">
+<ab>
+                        <rs type="pers" key="1039">Gauguin</rs> and <rs type="pers" key="831">Bernard</rs> described their work as ‘primitive’.</ab>
+                </note>
+<note n="15" xml:id="n-15" target="#note-t-15">
+<ab>
+                        <rs type="pers" key="729">Ernest Renan</rs>’s play <hi rend="ital">
+                            <rs type="lit" key="437">L’abbesse de Jouarre</rs>
+                        </hi> (1886) is about the abbess Julie-Constance de Saint-Florent, who was sentenced to death after the French Revolution. Mindful of her vows, she never surrendered to her love for the marquis d’Arcy, who was confined in the same prison and whose execution was to take place on the same days as hers. They finally give themselves to one another the night before their execution. She is pardoned at the last minute, however, and must live on, her conscience burdened by her sin. Van Gogh probably compared this book to <rs type="pers" key="735">Shakespeare</rs> because of its detailed descriptions of the abbess’s inner struggle and Renan’s beautiful use of language (cf. <ref target="let782.xml">letter 782</ref>).</ab>
+                </note>
+<note n="16" xml:id="n-16" target="#note-t-16">
+<ab>These ‘ten or so drawings’ (in <ref target="let785.xml">letter 785</ref> Van Gogh says ‘a dozen’) were the following ten drawings made after paintings: <hi rend="ital">Trees with ivy in the garden of the asylum </hi>(<rs type="ill" key="2790">F 1522 / JH 1695</rs>) after <hi rend="ital">Trees with ivy in the garden of the asylum </hi>(<rs type="ill" key="2789">F 609 / JH 1693</rs>), <hi rend="ital">Wheatfield and cypresses </hi>(<rs type="ill" key="2817">F 1538 / JH 1757</rs>) after <hi rend="ital">Wheatfield and cypresses </hi>(<rs type="ill" key="2816">F 717 / JH 1756</rs>), <hi rend="ital">Wheatfield after a storm</hi> (<rs type="ill" key="2797">F 1547 / JH 1724</rs>) after <hi rend="ital">Wheatfield after a storm</hi> (<rs type="ill" key="2796">F 611 / JH 1723</rs>), <hi rend="ital">Starry night </hi>(<rs type="ill" key="2802">F 1540 / JH 1732</rs>) after <hi rend="ital">Starry night </hi>(<rs type="ill" key="2801">F 612 / JH 1731</rs>), <hi rend="ital">Cypresses </hi>(<rs type="ill" key="2810">F 1524 / JH 1749</rs>) after the first state of <hi rend="ital">Cypresses</hi> (<rs type="ill" key="2809">F 620 / JH 1748</rs>), <hi rend="ital">Olive trees with the Alpilles in the background </hi>(<rs type="ill" key="2804">F 1544 / JH 1741</rs>) after <hi rend="ital">Olive trees with the Alpilles in the background </hi>(<rs type="ill" key="2803">F 712 / JH 1740</rs>), <hi rend="ital">Cypresses </hi>(<rs type="ill" key="2808">F 1525 / JH 1747</rs>) after <hi rend="ital">Cypresses</hi> (<rs type="ill" key="2807">F 613 / JH 1746</rs>), <hi rend="ital">Wheatfield </hi>(<rs type="ill" key="2799">F 1548 / JH 1726</rs>) after <hi rend="ital">Wheatfield </hi>(<rs type="ill" key="2798">F 719 / JH 1725</rs>), <hi rend="ital">Reaper </hi>(<rs type="ill" key="2814">F 1546 / JH 1754</rs>) after <hi rend="ital">Reaper </hi>(<rs type="ill" key="2813">F 617 / JH 1753</rs>) and <hi rend="ital">Wild vegetation</hi> (<rs type="ill" key="2805">F 1542 / JH 1742</rs>) after the underlying composition of <hi rend="ital">Ravine </hi>(<rs type="ill" key="2853">F 662 / JH 1804</rs>). <hi rend="ital">Fields with poppies </hi>(<rs type="ill" key="2812">F 1494 / JH 1752</rs>) was probably part of the consignment, although this was not a drawing after the painting of the same name (<rs type="ill" key="2811">F 581 / JH 1751</rs>), but a preliminary study. See cat. Amsterdam 2007, pp. 231-244, and Chavannes and Van Tilborgh 2007.</ab>
+                </note>
+<note n="17" xml:id="n-17" target="#note-t-17">
+<ab>
+      <hi rend="ital">Reaper </hi>(<rs type="ill" key="2813">F 617 / JH 1753</rs>). The drawing made after it is <hi rend="ital">Reaper </hi>(<rs type="ill" key="2814">F 1546 / JH 1754</rs>).</ab>
+                </note>
+<note n="18" xml:id="n-18" target="#note-t-18">
+<ab>
+      <hi rend="ital">Wheatfield after a storm</hi> (<rs type="ill" key="2796">F 611 / JH 1723</rs>). The drawing made after it is <hi rend="ital">Wheatfield after a storm</hi> (<rs type="ill" key="2797">F 1547 / JH 1724</rs>).</ab>
+                </note>
+<note n="19" xml:id="n-19" target="#note-t-19">
+<ab>Van Gogh wrote in <ref target="let592.xml">letter 592</ref> that he had said this to <rs type="pers" key="623">Reid</rs>.</ab>
+                </note>
+<note n="20" xml:id="n-20" target="#note-t-20">
+<ab>This source has not been traced.</ab>
+                </note>
+<note n="21" xml:id="n-21" target="#note-t-21">
+<ab>
+      <hi rend="ital">Cypresses</hi> (<rs type="ill" key="2809">F 620 / JH 1748</rs>).</ab>
+                </note>
+<note n="22" xml:id="n-22" target="#note-t-22">
+<ab>
+      <hi rend="ital">Reaper </hi>(<rs type="ill" key="2813">F 617 / JH 1753</rs>).</ab>
+                </note>
+<note n="a" xml:id="n-a" target="#note-o-a">
+<ab>Read: ‘procédé’.</ab>
+                </note>
+<note n="23" xml:id="n-23" target="#note-t-23">
+<ab>Regarding the disagreement with Reid, which began in the spring of 1888, <ref target="let578.xml#n-7">see letter 578, n. 7.</ref>
+                    </ab>
+                </note>
+<note n="24" xml:id="n-24" target="#note-t-24">
+<ab>Shortly after this, Van Gogh collected six canvases from Arles and sent them to Theo: <hi rend="ital">Orchard in blossom with a view of Arles </hi>(<rs type="ill" key="2781">F 516 / JH 1685</rs>), <hi rend="ital">Avenue of chestnut trees in blossom </hi>(<rs type="ill" key="2785">F 517 / JH 1689</rs>), <hi rend="ital">La Crau with peach trees in blossom </hi>(<rs type="ill" key="2779">F 514 / JH 1681</rs>), <hi rend="ital">Field with flowers under a stormy sky</hi> (<rs type="ill" key="2606">F 575 / JH 1422</rs>), <hi rend="ital">Road with pollard willows </hi>(<rs type="ill" key="2786">F 520 / JH 1690</rs>) and <hi rend="ital">Orchard in blossom with a view of Arles </hi>(<rs type="ill" key="2780">F 515 / JH 1683</rs>). <ref target="let789.xml">See letter 789</ref>.</ab>
+                </note>
+<note n="25" xml:id="n-25" target="#note-t-25">
+<ab>
+      <hi rend="ital">Weeping tree on a lawn </hi>(<rs type="ill" key="2661">F 1468 / JH 1498</rs>).</ab>
+                </note>
+<note n="26" xml:id="n-26" target="#note-t-26">
+<ab>
+      <hi rend="ital">The courtyard of the hospital</hi> (<rs type="ill" key="2784">F 1467 / JH 1688</rs>).</ab>
+                </note>
+<note n="27" xml:id="n-27" target="#note-t-27">
+<ab>‘More coloured’ probably refers to the black-and-white gradations in the drawing. Recent findings do not indicate the presence of coloured ink. Regarding the smooth paper, see cat. Amsterdam 2007, p. 180.</ab>
+                </note>
+<note n="28" xml:id="n-28" target="#note-t-28">
+<ab>‘The Sower of the other year’ probably refers to the ambitious canvas <hi rend="ital">Sower with setting sun</hi> (<rs type="ill" key="2746">F 450 / JH 1627</rs>) which Van Gogh had painted in November 1888. In May 1889 he sent it to Theo, who thought it very beautiful (<ref target="let774.xml">see letter 774</ref>). Cf. also Dorn 1990, p. 367.</ab>
+                </note>
+<note n="29" xml:id="n-29" target="#note-t-29">
+<ab>For ‘learning to suffer without complaining’ (savoir<hi rend="ital"> </hi>souffrir sans se plaindre), <ref target="let211.xml#n-18">see letter 211, n. 18.</ref>
+                    </ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

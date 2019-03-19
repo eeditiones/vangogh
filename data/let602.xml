@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Arles, Tuesday, 1 May 1888.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let602"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">602</idno>
+<idno type="collectedletters">480</idno>
+<idno type="brieven1990">604</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Arles</vg:placeLet>
+                        <vg:dateLet>Tuesday, 1 May 1888</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:physDesc>
+                        <vg:decoration>
+                            <vg:decoList xml:id="sketches">
+                                <vg:decoItem n="A" xml:id="sketch-1">
+                                    <vg:decoDesc>
+<p>
+      <hi rend="ital">The Yellow House</hi> (<rs type="sketch" key="162">F - / JH 1413</rs>), letter sketch</p>
+                                    </vg:decoDesc>
+                                </vg:decoItem>
+                            </vg:decoList>
+                        </vg:decoration>
+                    </vg:physDesc>
+                    <vg:letContents>
+<p>To Theo van Gogh. Arles, Tuesday, 1 May 1888.</p>
+<note type="ongoingTopic" n="1">
+<p>The plan to exhibit work by modern artists in Marseille <ref target="let580.xml">(580)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="2">
+<p>The proposed exchange with Russell <ref target="let589.xml">(589)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="3">
+<p>The possibility that Theo might leave Boussod, Valadon &amp; Cie <ref target="let600.xml">(600)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="4">
+<p>Theo’s trip to Belgium and the Netherlands <ref target="let600.xml">(600)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="5">
+<p>Efforts to interest Tersteeg in modern art <ref target="let580.xml">(580)</ref> </p>
+                        </note>
+<note type="ongoingTopic" n="6">
+<p>Koning’s stay with Theo <ref target="let578.xml">(578)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. nos. b520 a-b V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Vincent reports that he has rented the Yellow House ‘today’ <ref target="#l-21">(l. 21)</ref>; we can assume that the tenancy started on the first day of the month. He wishes Theo a happy birthday, which was 1 May (<ref target="#l-167">ll. 167-168</ref> and <ref target="#l-231">231</ref>), and he thanks him for sending his allowance, so we have dated the letter Tuesday, 1 May 1888. </p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0520 a" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000695_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000695_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000695_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000695_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000695_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000695_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="VGM001000695_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000695_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000695_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0520 a" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000695_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000695_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000695_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000695_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000695_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000695_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000695_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000695_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000695_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0520 b" xml:id="surf-pb-2r">
+            <graphic mimeType="image/tiff" url="VGM001000699_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000699_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000699_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-2r-5">
+<graphic mimeType="image/tiff" url="VGM001000699_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000699_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000699_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-2r-8">
+<graphic mimeType="image/tiff" url="VGM001000699_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000699_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000699_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0520 b" xml:id="surf-pb-2v">
+            <graphic mimeType="image/tiff" url="VGM001000699_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000699_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000699_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-2v-6">
+<graphic mimeType="image/tiff" url="VGM001000699_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000699_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000699_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-2v-7">
+<graphic mimeType="image/tiff" url="VGM001000699_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000699_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000699_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Mon cher Theo</ab>
+                <lb n="1*" xml:id="l-1s"/>
+      <ab>merci beaucoup de ta lettre <lb n="2" xml:id="l-2"/>et du billet de 50 fr. qu’elle contenait. Ce <lb n="3" xml:id="l-3"/>n’est pas en noir que je vois l’avenir mais je <lb n="4" xml:id="l-4"/>le vois très hérissé de difficultés et par moments <lb n="5" xml:id="l-5"/>je me demande si ces dernieres ne seront pas <lb n="6" xml:id="l-6"/>plus fortes que moi<c type="kp">_</c> Cela c’est surtout dans <lb n="7" xml:id="l-7"/>les moments de faiblesse physique et la <lb n="8" xml:id="l-8"/>semaine dernière je souffrais d’un mal de dents <lb n="9" xml:id="l-9"/>assez cruel pour qu’il m’aie bien malgré moi <lb n="10" xml:id="l-10"/>fait perdre du temps<c type="kp">_</c> Pourtant je viens de <lb n="11" xml:id="l-11"/>t’envoyer un rouleau de petits dessins à la <lb n="12" xml:id="l-12"/>plume<c type="kk">/</c> une douzaine je crois<c type="kp">_</c>
+                    <anchor n="1" xml:id="note-o-1"/> Par où tu verras <lb n="13" xml:id="l-13"/>que si j’avais cessé de peindre j’ai pas cessé de <lb n="14" xml:id="l-14"/>travailler<c type="kp">_</c> Tu y trouveras un croquis <lb n="15" xml:id="l-15"/>hatif sur papier jaune<c type="kk">/</c> <lb n="16" xml:id="l-16"/>une pelouse dans le square <lb n="17" xml:id="l-17"/>qui se trouve à l’entrée <lb n="18" xml:id="l-18"/>de la ville.<anchor n="2" xml:id="note-o-2"/> et au fond <lb n="19" xml:id="l-19"/>une batisse à peu <lb n="20" xml:id="l-20"/>près comme ceci<c type="kp">_</c>–</ab>
+<vg:whiteline/> <figure facs="zone-sketch-1" n="A"/>
+<vg:whiteline/>
+                <lb n="21" xml:id="l-21"/>
+<ab>Eh bien – j’ai aujourd’hui <lb n="22" xml:id="l-22"/>loué l’aile droite <lb n="23" xml:id="l-23"/>de cette construction qui contient 4 pieces <lb n="24" xml:id="l-24"/>ou plutôt deux avec deux cabinets<c type="kp">_</c>
+                </ab>
+                <lb n="25" xml:id="l-25"/>
+<ab rend="indent">C’est peint en jaune dehors<c type="kk">/</c> blanchi à la <lb n="26" xml:id="l-26"/>chaux à l’interieur – en plein soleil<c type="kp">_</c> <lb n="27" xml:id="l-27"/>Je l’ai loué à raison de 15 francs par mois<c type="kp">_</c>
+                    <anchor n="3" xml:id="note-o-3"/> 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                    <lb n="28" xml:id="l-28"/>Maintenant mon désir serait de <lb n="29" xml:id="l-29"/>meubler une piece<c type="kk">/</c> celle du <lb n="30" xml:id="l-30"/>premier étage<c type="kk">/</c> pour pouvoir y coucher<c type="kp">_</c> <lb n="31" xml:id="l-31"/>Cela restera l’atelier<c type="kk">/</c> le magasin<c type="kk">/</c> <lb n="32" xml:id="l-32"/>pour tout le temps de la campagne ici <lb n="33" xml:id="l-33"/>dans le midi et alors j’ai mon indépendance <lb n="34" xml:id="l-34"/>des chicanes des hôtelleries qui sont ruineuses <lb n="35" xml:id="l-35"/>et m’attristent. Justement Bernard <lb n="36" xml:id="l-36"/>m’écrit qu’il a aussi <hi rend="ital">une maison entière</hi> <lb n="37" xml:id="l-37"/>mais lui l’a pour rien<c type="kp">_</c>
+                    <anchor n="4" xml:id="note-o-4"/> Quelle chance. <lb n="38" xml:id="l-38"/>Je t’en ferai surement un nouveau <lb n="39" xml:id="l-39"/>dessin<c type="kk">/</c> mieux que le premier croquis<c type="kp">_</c> <lb n="40" xml:id="l-40"/>Et dès maintenant j’ose t’en parler <lb n="41" xml:id="l-41"/>que j’ai l’intention d’inviter Bernard <lb n="42" xml:id="l-42"/>et d’autres à m’envoyer des toiles <lb n="43" xml:id="l-43"/>pour les montrer ici si l’occasion se <lb n="44" xml:id="l-44"/>présente et certes elle se présentera <lb n="45" xml:id="l-45"/>à Marseille. J’espère être bien tombé <lb n="46" xml:id="l-46"/>cette fois ci – tu comprends<c type="kk">/</c> jaune en <lb n="47" xml:id="l-47"/>dehors<c type="kk">/</c> blanc en dedans<c type="kk">/</c> en plein soleil<c type="kk">/</c> <lb n="48" xml:id="l-48"/>je verrai enfin mes toiles dans un interieur <lb n="49" xml:id="l-49"/>bien clair.– le parquet est en briques <lb n="50" xml:id="l-50"/>rouges. et dehors le jardin du square duquel tu <lb n="51" xml:id="l-51"/>trouveras encore deux dessins<c type="kp">_</c>
+                    <anchor n="5" xml:id="note-o-5"/>
+                </ab>
+                <lb n="52" xml:id="l-52"/>
+<ab rend="indent">Les dessins<c type="kk">/</c> j’ose te l’assurer<c type="kk">/</c> deviendront <lb n="53" xml:id="l-53"/>encore mieux.</ab>
+                <lb n="54" xml:id="l-54"/>
+<ab rend="indent">J’ai eu une lettre de Russell qui a acheté <lb n="55" xml:id="l-55"/>un <hi rend="ital">Guillaumin</hi> et 2 ou 3 <hi rend="ital">Bernard</hi>.<anchor n="6" xml:id="note-o-6"/> 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                    <lb n="56" xml:id="l-56"/>Cela me fait enormement plaisir<c type="kk">/</c> il <lb n="57" xml:id="l-57"/>m’écrit aussi qu’il me fera un échange <lb n="58" xml:id="l-58"/>d’études.<anchor n="7" xml:id="note-o-7"/> Je n’aurais peur de rien <lb n="59" xml:id="l-59"/>si n’était cette sacré santé. Et pourtant <lb n="60" xml:id="l-60"/>je vais mieux qu’à Paris et si mon estomac <lb n="61" xml:id="l-61"/>est devenu excessivement faible c’est un mal <lb n="62" xml:id="l-62"/>que j’ai attrappé là-bas probable en <lb n="63" xml:id="l-63"/>grande partie par le mauvais vin dont j’ai <lb n="64" xml:id="l-64"/>trop bu. Ici le vin est aussi mauvais seule<c type="shy">-</c>
+                    <lb n="65" xml:id="l-65"/>ment je n’en bois que fort peu. Et le cas <lb n="66" xml:id="l-66"/>est donc que ne mangeant guère et ne <lb n="67" xml:id="l-67"/>buvant guère je suis très faible mais <lb n="68" xml:id="l-68"/>le sang se refait au lieu de se gâter<c type="kp">_</c> <lb n="69" xml:id="l-69"/>Encore une fois donc c’est la patience <lb n="70" xml:id="l-70"/>qu’il me faut dans le cas et persévérance<c type="kp">_</c>
+                </ab>
+                <lb n="71" xml:id="l-71"/>
+<ab rend="indent">Ayant reçu la toile absorbante<c type="kk">/</c>
+                    <anchor n="8" xml:id="note-o-8"/> de ces jours <lb n="72" xml:id="l-72"/>ci je commence une nouvelle toile de <lb n="73" xml:id="l-73"/>30 qui j’espère sera mieux que les autres<c type="kp">_</c>–<anchor n="9" xml:id="note-o-9"/> <lb n="74" xml:id="l-74"/>Te rappelles tu dans la recherche du <lb n="75" xml:id="l-75"/>bonheur le bonhomme qui a acheté <lb n="76" xml:id="l-76"/>autant de terre qu’il peut <lb n="77" xml:id="l-77"/>en envelopper dans une course circulaire <lb n="78" xml:id="l-78"/>d’une journée<c type="kp">_</c>
+                    <anchor n="10" xml:id="note-o-10"/> Eh bien avec ma decoration <lb n="79" xml:id="l-79"/>des vergers j’ai plus ou moins été cet <lb n="80" xml:id="l-80"/>homme-là<c type="kk">/</c> une demi douzaine d’une <lb n="81" xml:id="l-81"/>douzaine je les ai pourtant<c type="kk">/</c> mais les 6 <lb n="82" xml:id="l-82"/>autres ne sont pas aussi bien <lb n="83" xml:id="l-83"/>et je regrette de ne pas plutot en avoir fait <lb n="84" xml:id="l-84"/>2 au lieu des 6 derniers<c type="kp">_</c> Enfin<c type="kk">/</c> je t’enverrai <lb n="85" xml:id="l-85"/>toujours une dizaine de ces jours ci<c type="kp">_</c>
+                    <anchor n="11" xml:id="note-o-11"/>
+                </ab>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                <lb n="86" xml:id="l-86"/>
+<ab rend="indent">J’ai acheté 2 paires de souliers qui me coutaient <lb n="87" xml:id="l-87"/>26 fr. et 3 chemises qui me coutaient 27 francs<c type="kk">/</c> <lb n="88" xml:id="l-88"/>cela faisait que malgré le billet de 100 je n’etais pas <lb n="89" xml:id="l-89"/>enormement riche<c type="kp">_</c>
+                    <anchor n="12" xml:id="note-o-12"/> Mais en vue de ce que je <lb n="90" xml:id="l-90"/>compte faire des affaires à Marseille<c type="kk">/</c> je veux <lb n="91" xml:id="l-91"/>absolument être bien mis et je me propose bien <lb n="92" xml:id="l-92"/>de n’acheter que du bon<c type="kp">_</c> Et de même pour <lb n="93" xml:id="l-93"/>le travail<c type="kk">/</c> il faudra plutot faire un tableau de <lb n="94" xml:id="l-94"/>moins que de le faire moins bien.</ab>
+                <lb n="95" xml:id="l-95"/>
+<ab rend="indent">S’il t’arrivait d’avoir à quitter ces messieurs <lb n="96" xml:id="l-96"/>ne crois pas que je doute de la possibilité de faire <lb n="97" xml:id="l-97"/>des affaires tout de même mais il ne faut pas être <lb n="98" xml:id="l-98"/>pris à l’improviste<c type="kk">/</c> voilà tout<c type="kk">/</c> et si cela traine <lb n="99" xml:id="l-99"/>encore un peu c’est même tant mieux<c type="kp">_</c>
+                </ab>
+                <lb n="100" xml:id="l-100"/>
+<ab rend="indent">Pour mon compte si d’ici quelque mois je <lb n="101" xml:id="l-101"/>suis prêt pour une expédition à Marseille, <lb n="102" xml:id="l-102"/>je pourrai agir avec plus d’aplomb qu’en y <lb n="103" xml:id="l-103"/>arrivant essoufflé. J’ai encore revu <lb n="104" xml:id="l-104"/>Mc Knight mais encore rien de son travail<c type="kp">_</c> <lb n="105" xml:id="l-105"/>J’ai encore des couleurs<c type="kk">/</c> j’ai des brosses<c type="kk">/</c> <lb n="106" xml:id="l-106"/>j’ai encore plusieurs choses en provision<c type="kp">_</c> <lb n="107" xml:id="l-107"/>Seulement il ne faut pas gaspiller la <lb n="108" xml:id="l-108"/>poudre<c type="kp">_</c>
+                </ab>
+                <lb n="109" xml:id="l-109"/>
+<ab rend="indent">Je crois qu’en cas où tu quitterais <lb n="110" xml:id="l-110"/>ces messieurs il faut que de mon côté <lb n="111" xml:id="l-111"/>j’arrive à pouvoir vivre sans dépenser <lb n="112" xml:id="l-112"/>plus que par exemple f<hi rend="ss">r </hi>150 par mois<c type="kp">_</c>– <lb n="113" xml:id="l-113"/>Maintenant je ne le pourrais mais <lb n="114" xml:id="l-114"/>tu verras que dans 2 mois je serai <lb n="115" xml:id="l-115"/>installé de cette façon-là. Si alors <lb n="116" xml:id="l-116"/>on gagne plus<c type="kk">/</c> tant mieux<c type="kk">/</c> mais je veux <lb n="117" xml:id="l-117"/>assurer cela.</ab>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+                <lb n="118" xml:id="l-118"/>
+<ab rend="indent">Ainsi si j’avais du bouillon tres fort <lb n="119" xml:id="l-119"/>cela m’avancerait immédiatement<c type="kk">/</c> <lb n="120" xml:id="l-120"/>c’est affreux<c type="kk">/</c> <hi rend="ital">jamais</hi> je n’ai pu me procurer <lb n="121" xml:id="l-121"/>ce que je demandais de chôses pourtant très <lb n="122" xml:id="l-122"/>simples chez ces gens-là<c type="kp">_</c>
+                    <anchor n="13" xml:id="note-o-13"/> Et c’est partout <lb n="123" xml:id="l-123"/>le même dans ces petits restaurants. <lb n="124" xml:id="l-124"/>C’est pourtant pas difficile de faire cuire <lb n="125" xml:id="l-125"/>des pommes de terre<c type="kp">_</c>– Impossible<c type="kp">_</c>
+                </ab>
+                <lb n="126" xml:id="l-126"/>
+<ab rend="indent">Du riz alors ou du macaroni pas davantage<c type="kk">/</c> <lb n="127" xml:id="l-127"/>ou bien c’est sali de graisses ou bien ils <lb n="128" xml:id="l-128"/>ne le font pas<c type="kk">/</c> s’excusant: ce sera pour demain<c type="kk">/</c> <lb n="129" xml:id="l-129"/>il n’y a pas de place sur le fourneau &amp;c.</ab>
+                <lb n="130" xml:id="l-130"/>
+<ab rend="indent">C’est bête mais c’est pourtant vrai que <lb n="131" xml:id="l-131"/>voilà pourquoi que la santé traine<c type="kp">_</c>
+                </ab>
+                <lb n="132" xml:id="l-132"/>
+<ab rend="indent">Pourtant cela m’a coûté une angoisse <lb n="133" xml:id="l-133"/>de me résoudre à prendre un parti <lb n="134" xml:id="l-134"/>puisque je me disais qu’à la Haye et <lb n="135" xml:id="l-135"/>à Nuenen j’avais essayé de prendre un <lb n="136" xml:id="l-136"/>atelier et je me disais que cela avait <lb n="137" xml:id="l-137"/>mal tourné. Mais bien des choses ont <lb n="138" xml:id="l-138"/>changées depuis et me sentant sur <lb n="139" xml:id="l-139"/>un terrain plus sûr – allons en <lb n="140" xml:id="l-140"/>avant. Seulement nous avons dépensé <lb n="141" xml:id="l-141"/>déjà tant d’argent dans cette sacrée <lb n="142" xml:id="l-142"/>peinture qu’il ne faut pas oublier <lb n="143" xml:id="l-143"/>que cela doit rentrer en tableaux<c type="kp">_</c> <lb n="144" xml:id="l-144"/>Si nous osons croire<c type="kk">/</c> et j’en reste <lb n="145" xml:id="l-145"/>persuadé<c type="kk">/</c> que les tableaux impressionistes <lb n="146" xml:id="l-146"/>monteront<c type="kk">/</c> il faut en faire beaucoup <lb n="147" xml:id="l-147"/>et les tenir à prix<c type="kp">_</c>
+                </ab>
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>
+                <lb n="148" xml:id="l-148"/>
+<ab rend="indent">Raisons de plus pourquoi qu’il faut <lb n="149" xml:id="l-149"/>tranquillement soigner la qualité <lb n="150" xml:id="l-150"/>de la chose et ne pas perdre le temps<c type="kp">_</c> <lb n="151" xml:id="l-151"/>Alors au bout de quelques annees j’entrevois <lb n="152" xml:id="l-152"/>la possibilité que le capital dépensé <lb n="153" xml:id="l-153"/>se retrouvera dans nos mains<c type="kk">/</c> sinon en argent<c type="kk">/</c> <lb n="154" xml:id="l-154"/>en valeurs.</ab>
+                <lb n="155" xml:id="l-155"/>
+<ab rend="indent">Maintenant si tu trouves bien je <lb n="156" xml:id="l-156"/>meublerai la chambre à coucher en <lb n="157" xml:id="l-157"/>louant ou en achetant. je vais voir <lb n="158" xml:id="l-158"/>aujourd’hui ou demain matin<c type="kp">_</c>
+                </ab>
+                <lb n="159" xml:id="l-159"/>
+<ab rend="indent">Je reste toujours convaincu que la nature <lb n="160" xml:id="l-160"/>d’ici est bien ce qu’il faut pour faire <lb n="161" xml:id="l-161"/>de la couleur. Et donc il est plus que <lb n="162" xml:id="l-162"/>probable que je ne bougerai guère d’ici<c type="kp">_</c>
+                </ab>
+                <lb n="163" xml:id="l-163"/>
+<ab rend="indent">Raffaelli a fait le portrait d’Edmond de <lb n="164" xml:id="l-164"/>Goncourt n’est ce pas<c type="kp">_</c>–<anchor n="14" xml:id="note-o-14"/> Cela doit être beau<c type="kp">_</c> <lb n="165" xml:id="l-165"/>ai vu Salon publié par l’illustration<c type="kp">_</c> Est ce <lb n="166" xml:id="l-166"/>que le Jules Breton est beau.<anchor n="15" xml:id="note-o-15"/>
+                </ab>
+                <lb n="167" xml:id="l-167"/>
+<ab rend="indent">Tu recevras bientot un tableau que <lb n="168" xml:id="l-168"/>j’ai fait pour toi à l’occasion du 1° mai<c type="kp">_</c>
+                    <anchor n="16" xml:id="note-o-16"/>
+                </ab>
+                <lb n="169" xml:id="l-169"/>
+<ab rend="indent">Je pourrai à la rigueur rester<anchor n="a" xml:id="note-o-a"/> <lb n="170" xml:id="l-170"/>à deux dans le nouvel atelier <lb n="171" xml:id="l-171"/>et je le voudrais bien. Peutêtre <lb n="172" xml:id="l-172"/>Gauguin viendra-t-il dans le midi<c type="kp">_</c>
+                    <anchor n="17" xml:id="note-o-17"/> <lb n="173" xml:id="l-173"/>Peutêtre je m’arrangerais avec M<hi rend="ss">c</hi> Knight<c type="kp">_</c> <lb n="174" xml:id="l-174"/>Alors on pourrait faire de la cuisine <lb n="175" xml:id="l-175"/>chez soi<c type="kp">_</c>
+                </ab>
+<pb f="2v" n="7" xml:id="pb-orig-2v-7" facs="#zone-pb-2v-7"/>
+                <lb n="176" xml:id="l-176"/>
+<ab rend="indent">En tout cas l’atelier est trop en vue <lb n="177" xml:id="l-177"/>pour que je puisse croire que cela puisse <lb n="178" xml:id="l-178"/>tenter aucune bonne femme et une <lb n="179" xml:id="l-179"/>crise juponniere<anchor n="18" xml:id="note-o-18"/> pourrait difficilement <lb n="180" xml:id="l-180"/>aboutir à un collage. Les moeurs d’ailleurs <lb n="181" xml:id="l-181"/>sont il me semble moins <lb n="182" xml:id="l-182"/>inhumaines et contre nature qu’à Paris<c type="kp">_</c> <lb n="183" xml:id="l-183"/>Mais avec mon temperament<c type="kk">/</c> faire la <lb n="184" xml:id="l-184"/>noce et travailler ne sont plus du tout <lb n="185" xml:id="l-185"/>compatibles et dans les circonstances <lb n="186" xml:id="l-186"/>données faudra se contenter de faire <lb n="187" xml:id="l-187"/>des tableaux. Ce qui n’est pas le bonheur <lb n="188" xml:id="l-188"/>et pas la vraie vie mais que veux tu<c type="kk">/</c> <lb n="189" xml:id="l-189"/>même cette vie artistique que nous <lb n="190" xml:id="l-190"/>savons ne pas être <hi rend="ital">la</hi> vraie me parait <lb n="191" xml:id="l-191"/>si vivante et ce serait ingrat que <lb n="192" xml:id="l-192"/>de ne pas s’en contenter.</ab>
+                <lb n="193" xml:id="l-193"/>
+<ab rend="indent">J’ai un grand souci de moins maintenant <lb n="194" xml:id="l-194"/>que j’ai trouvé le petit atelier blanc<c type="kp">_</c> <lb n="195" xml:id="l-195"/>C’est en vain que j’avais vu un tas d’apartements<c type="kp">_</c> <lb n="196" xml:id="l-196"/>Cela te paraitra drôle que le cabinet d’aisances<anchor n="b" xml:id="note-o-b"/> <lb n="197" xml:id="l-197"/>se trouve chez le voisin dans un assez grand <lb n="198" xml:id="l-198"/>hôtel qui appartient au même proprietaire<c type="kp">_</c>
+                    <anchor n="19" xml:id="note-o-19"/> <lb n="199" xml:id="l-199"/>Dans une ville du midi il me semble qu’on <lb n="200" xml:id="l-200"/>aurait tort de s’en plaindre<c type="kk">/</c> puisque ces <lb n="201" xml:id="l-201"/>administrations sont rares et sales et <lb n="202" xml:id="l-202"/>qu’involontairement on se les represente <lb n="203" xml:id="l-203"/>comme des nids de microbes.</ab>
+                <lb n="204" xml:id="l-204"/>
+<ab rend="indent">D’un autre côté j’y ai de l’eau.</ab>
+                <lb n="205" xml:id="l-205"/>
+<ab rend="indent">Je mettrai quelques japonaiseries sur <lb n="206" xml:id="l-206"/>le mur<c type="kp">_</c>
+                </ab>
+<pb f="2r" n="8" xml:id="pb-orig-2r-8" facs="#zone-pb-2r-8"/>
+                <lb n="207" xml:id="l-207"/>
+<ab rend="indent">Si dans ton appartement il y aurait des <lb n="208" xml:id="l-208"/>toiles qui gêneraient<c type="kk">/</c> ceci pourrait toujours <lb n="209" xml:id="l-209"/>servir de remise<c type="kk">/</c> cela pourrait devenir <lb n="210" xml:id="l-210"/>necessaire car chez toi tu ne dois pas avoir <lb n="211" xml:id="l-211"/>des choses mediocres.</ab>
+                <lb n="212" xml:id="l-212"/>
+<ab rend="indent">Bernard m’a ecrit et envoyé croquis<c type="kp">_</c>
+                    <anchor n="20" xml:id="note-o-20"/>
+                </ab>
+                <lb n="213" xml:id="l-213"/>
+<ab rend="indent">Cela me fait grand plaisir que tu <lb n="214" xml:id="l-214"/>aies trouvé notre mère &amp; notre soeur en <lb n="215" xml:id="l-215"/>bonne santé<c type="kp">_</c>
+                </ab>
+                <lb n="216" xml:id="l-216"/>
+<ab rend="indent">Est ce que Reid ira à Marseille – il y a au <lb n="217" xml:id="l-217"/>fond peut être qu’il aime cette femme laquelle <lb n="218" xml:id="l-218"/>se mefiait de nous<c type="kk">/</c> sentant que nous pourrions <lb n="219" xml:id="l-219"/>peutetre vouloir ne pas encourager le collage<c type="kp">_</c>–<anchor n="21" xml:id="note-o-21"/> <lb n="220" xml:id="l-220"/>Je suis porté à croire qu’elle est la raison <lb n="221" xml:id="l-221"/>psychologique de son retour.<anchor n="22" xml:id="note-o-22"/> Tu diras que dans <lb n="222" xml:id="l-222"/>ce cas il faut envisager tout ce qu’il fera <lb n="223" xml:id="l-223"/>dans l’avenir avec un grand phlegme pour le <lb n="224" xml:id="l-224"/>moment. Est ce que tu retourneras en <lb n="225" xml:id="l-225"/>Hollande pour les vaccances<c type="kp">_</c> Si tu pouvais <lb n="226" xml:id="l-226"/>faire les deux<c type="kk">/</c> aller voir Tersteeg et <lb n="227" xml:id="l-227"/>Marseille en tant qu’affaires qui regardent <lb n="228" xml:id="l-228"/>les impressionistes<c type="kk">/</c> et puis te reposer <lb n="229" xml:id="l-229"/>à Breda entre ces deux besognes.<anchor n="23" xml:id="note-o-23"/>
+                </ab>
+                <lb n="230" xml:id="l-230"/>
+<ab rend="indent">As tu revu Seurat?<anchor n="24" xml:id="note-o-24"/>
+                </ab>
+                <lb n="231" xml:id="l-231"/>
+<ab rend="indent">Je te serre bien la main<c type="kk">/</c> te souhaitant <lb n="232" xml:id="l-232"/>une année aussi ensoleillée que le <lb n="233" xml:id="l-233"/>temps qu’il fait aujourd’hui ici<c type="kp">_</c> <lb n="234" xml:id="l-234"/>Bien le bonjour à Koning.</ab>
+<vg:whiteline/>
+                <lb n="235" xml:id="l-235"/>
+<ab>t<c type="kp">_</c> à t<c type="kp">_</c>
+                </ab>
+                <lb n="236" xml:id="l-236"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+                <lb n="237" xml:id="l-237"/>
+<ab>Si tu pouvais m’envoyer <lb n="238" xml:id="l-238"/>100 fr. la prochaine fois<c type="kk">/</c> <lb n="239" xml:id="l-239"/>je pourrais deja cette <lb n="240" xml:id="l-240"/>semaine coucher à l’atelier<c type="kp">_</c> <lb n="241" xml:id="l-241"/>je t’ecrirai quel arrangement <lb n="242" xml:id="l-242"/>le marchand de meubles veut faire d’ailleurs<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-129" n="129">s’excusant: &lt; s’excusant</note>
+<note target="l-196" n="196">aisances &lt; aissances</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo,</ab>
+      <ab>Thank you very much for your letter and the 50-franc note it contained. It’s not in black that I see the future, but I see it bristling with many difficulties, and at times I wonder if these won’t be stronger than I am. This is especially so at times of physical weakness, and last week I suffered from a toothache that was so agonizing that it made me waste time quite in spite of myself. Nevertheless, I’ve just sent you a roll of small pen drawings, a dozen I think.<anchor n="1" xml:id="note-t-1"/> That way you’ll see that even though I’d stopped painting I haven’t stopped working. Among them you’ll find a hasty croquis on yellow paper, a lawn in the public garden at the entrance to the town.<anchor n="2" xml:id="note-t-2"/> And in the background a house more or less like this one.</ab>
+<vg:whiteline/>
+<ab>
+                    <figure facs="zone-sketch-1" n="A"/>
+                </ab>
+<vg:whiteline/>
+<ab>Ah, well — today I rented the right-hand wing of this building, which contains 4 rooms, or more precisely, two, with two little rooms.</ab>
+<ab rend="indent">It’s painted yellow outside, whitewashed inside — in the full sunshine. I’ve rented it for 15 francs a month.<anchor n="3" xml:id="note-t-3"/> 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> Now what I’d like to do would be to furnish a room, the one on the first floor, to be able to sleep there. The studio, the store, will remain here for the whole of the campaign here in the south, and that way I have my independence from petty squabbles over guest-houses, which are ruinous and depress me. In fact, <rs type="pers" key="831">Bernard</rs> writes me that he too has <hi rend="ital">a whole house</hi>,<hi rend="ital"> </hi>but he has it for nothing.<anchor n="4" xml:id="note-t-4"/> What luck. I’ll certainly make another drawing of it for you, better than the first croquis. And at this point I dare tell you that I intend to invite Bernard and some other people to send me canvases to show them here if the opportunity arises, and it will certainly arise in Marseille. I hope I’ve been lucky this time — you understand, yellow outside, white inside, right out in the sun, at last I’ll see my canvases in a really bright interior. The floor’s made of red bricks. And outside, the public garden, of which you’ll find two more drawings.<anchor n="5" xml:id="note-t-5"/>
+                </ab>
+<ab rend="indent">The drawings, I dare assure you, will become even better.</ab>
+<ab rend="indent">I’ve had a letter from <rs type="pers" key="1334">Russell</rs>, who has bought a <hi rend="ital">
+                        <rs type="pers" key="1065">Guillaumin</rs> </hi>and 2 or 3 <hi rend="ital">
+                        <rs type="pers" key="831">Bernard</rs>s</hi>.<anchor n="6" xml:id="note-t-6"/> 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> I’m extremely pleased about that, he also writes that he’ll exchange studies with me.<anchor n="7" xml:id="note-t-7"/> I wouldn’t be afraid of anything unless it was this bloody health. And yet I’m better than in Paris, and if my stomach has become terribly weak that’s a problem I picked up there, probably due mainly to the bad wine, of which I drank too much. Here the wine is just as bad, but I only drink very little of it. And so the fact is that as I hardly eat and hardly drink I’m very weak, but my blood is improving instead of being ruined. So once again, it’s patience I need in the circumstances, and perseverance.</ab>
+<ab rend="indent">Having received the absorbent canvas,<anchor n="8" xml:id="note-t-8"/> I’m starting these days a new no. 30 canvas that I hope will be better than the others.<anchor n="9" xml:id="note-t-9"/> Do you remember in La recherche du bonheur the chap who bought as much land as he could run round in a single day?<anchor n="10" xml:id="note-t-10"/> Well, with my orchard decoration I’ve been that man, more or less, half a dozen out of a dozen I have anyway, but the other 6 aren’t as good, and I’m sorry I didn’t rather do 2 of them instead of the last 6. Anyway, I’ll send you ten or so in the next few days anyway.<anchor n="11" xml:id="note-t-11"/> 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/>
+                </ab>
+<ab rend="indent">I bought 2 pairs of shoes, which cost me 26 francs, and 3 shirts that cost me 27 francs, which meant that despite the 100 note I wasn’t enormously rich.<anchor n="12" xml:id="note-t-12"/> But in view of the fact that I plan to do business in Marseille, I definitely want to be well turned out, and I don’t intend to buy anything but good quality. And the same for work, it will be better to do one painting fewer than to do it less well.</ab>
+<ab rend="indent">Should it come about that you had to leave those gentlemen, don’t think that I have doubts about the possibility of doing business all the same, but we mustn’t be caught unawares, that’s all, and if it drags on a bit longer that’s actually for the better.</ab>
+<ab rend="indent">As for me, if a few months from now I’m ready for an expedition to Marseille, I’ll be able to do things with more self-assurance than if I arrived there having run out of breath. I’ve seen <rs type="pers" key="1189">Macknight</rs> again, but still nothing of his work. I still have colours, I have brushes, I still have plenty of things in stock. But we mustn’t waste our powder.</ab>
+<ab rend="indent">I think if you were to leave those gentlemen, for my part I’d have to manage to live without spending more than, for example, 150 francs a month. I couldn’t do it now, but you’ll see that in 2 months I’ll be set up like that. If then we earn more, so much the better, but I want to ensure that. 
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/> </ab>
+<ab rend="indent">So, if I had some very strong broth, that would get me going right away, it’s dreadful, I’ve <hi rend="ital">never </hi>been able to get even any of the very simple things I’ve asked those people for.<anchor n="13" xml:id="note-t-13"/> And it’s the same everywhere in these little restaurants. Yet it’s not hard to boil potatoes. Impossible.</ab>
+<ab rend="indent">And no rice or macaroni either, or else it’s ruined with fat or they don’t do it, and make the excuse: it’s for tomorrow, there’s no room on the stove, &amp;c.</ab>
+<ab rend="indent">It’s silly but true all the same that that’s why my health is poor.</ab>
+<ab rend="indent">All the same, it cost me a lot of agonizing to bring myself to make a decision, because I said to myself that in The Hague and in Nuenen I’d tried to take a studio and I said to myself that it had turned out badly. But many things have changed since then, and as I feel I’m on firmer ground — let’s go ahead. Only we’ve already spent so much money on this bloody painting we mustn’t forget that it has to come back in paintings. If we dare believe, and I’m sure of it, that Impressionist paintings will go up in value, we’ve got to do lots of them and keep the prices up. 
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/>
+                </ab>
+<ab rend="indent">All the more reason why we should calmly take care of the quality of the thing and not waste time. And after a few years, I can see the possibility that the capital laid out will come back into our hands, if not in cash, then in value.</ab>
+<ab rend="indent">And now if you agree, I’ll rent or buy furniture for the bedroom. I’ll go and have a look today or tomorrow morning.</ab>
+<ab rend="indent">I’m still convinced that nature here is just what’s needed to do colour. And so it’s more than likely that I won’t move far from here.</ab>
+<ab rend="indent">
+                    <rs type="pers" key="1279">Raffaëlli</rs> has done a portrait of <rs type="pers" key="617">Edmond de Goncourt</rs>, hasn’t he?<anchor n="14" xml:id="note-t-14"/> That must be beautiful. I’ve seen Le Salon published by L’Illustration. Is the <rs type="pers" key="899">Jules Breton</rs> beautiful?<anchor n="15" xml:id="note-t-15"/>
+                </ab>
+<ab rend="indent">You’ll soon receive a painting I did for you for the first of May.<anchor n="16" xml:id="note-t-16"/>
+                </ab>
+<ab rend="indent">If necessary, I could live at the new studio with someone else, and I’d very much like to. Perhaps <rs type="pers" key="1039">Gauguin</rs> will come to the south.<anchor n="17" xml:id="note-t-17"/> Perhaps I’ll come to an arrangement with <rs type="pers" key="1189">Macknight</rs>. Then we could cook at home. 
+<pb f="2v" n="7" xml:id="pb-trans-2v-7" facs="#zone-pb-2v-7"/>
+                </ab>
+<ab rend="indent">In any case, the studio is too open to view for me to think it could tempt any woman, and it would be hard for a petticoat episode<anchor n="18" xml:id="note-t-18"/> to lead to a cohabitation. Anyway, moral standards seem to me less inhuman and contrary to nature than in Paris. But with my temperament, to lead a wild life and to work are no longer compatible at all, and in the given circumstances I’ll have to content myself with making paintings. That’s not happiness and not real life, but what can you say, even this artistic life, which we know isn’t <hi rend="ital">the </hi>real one, seems so alive to me, and it would be ungrateful not to be content with it.</ab>
+<ab rend="indent">I have one big worry fewer now that I’ve found the little white studio. I looked at a whole lot of apartments without success. It will seem funny to you that the water closet is at the neighbour’s, in quite a large house that belongs to the same owner.<anchor n="19" xml:id="note-t-19"/> In a southern town I think you’d be wrong to complain about it, because these facilities are few and far between, and dirty, and you can’t help thinking of them as nests of germs.</ab>
+<ab rend="indent">On the other hand, I have water here.</ab>
+<ab rend="indent">I’ll put some Japanese prints on the wall. 
+<pb f="2r" n="8" xml:id="pb-trans-2r-8" facs="#zone-pb-2r-8"/>
+                </ab>
+<ab rend="indent">If there happened to be some canvases in your apartment that were in the way, this could always be used as a storeroom, that might become necessary, because you ought not to have mediocre things at your place.</ab>
+<ab rend="indent">
+                    <rs type="pers" key="831">Bernard</rs> has written to me and sent croquis.<anchor n="20" xml:id="note-t-20"/>
+                </ab>
+<ab rend="indent">I’m very pleased that you found our <rs type="pers" key="524">mother</rs> and <rs type="pers" key="407">sister</rs> well.</ab>
+<ab rend="indent">Is <rs type="pers" key="623">Reid</rs> going to Marseille? At the bottom of it, perhaps, is that he loves this woman who didn’t trust us, feeling that we might perhaps not want to encourage the cohabitation.<anchor n="21" xml:id="note-t-21"/> I’m inclined to believe she’s the psychological reason for his coming back.<anchor n="22" xml:id="note-t-22"/> You’ll say that in that case we’ll have to consider everything he’s going to do in the future, and maintain great composure for the moment. Will you go back to Holland for the holidays? If you could do both, going to see <rs type="pers" key="787">Tersteeg</rs> and Marseille on business regarding the Impressionists, and resting at Breda between those two chores.<anchor n="23" xml:id="note-t-23"/>
+                </ab>
+<ab rend="indent">Have you seen <rs type="pers" key="1353">Seurat</rs> again?<anchor n="24" xml:id="note-t-24"/>
+                </ab>
+<ab rend="indent">I shake your hand firmly, wishing you a year as full of sunshine as the weather here today. Warm regards to Koning.</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<ab>If you could send me 100 francs next time, I could sleep at the studio as early as this week. I’ll also write you what arrangement the furniture dealer wants to make.</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>The wording ‘a dozen I think’ (une douzaine, je crois) means <hi rend="ital">roughly</hi> twelve drawings. By ‘small’ drawings Van Gogh must mean the ones measuring about 25 x 35 cm; in <ref target="let601.xml">letter 601</ref> he said he had finished four of them. Less than a week later Vincent sent Theo five more small drawings: <ref target="let605.xml#n-9">see letter 605, n. 9.</ref>
+                    </ab>
+<ab rend="indent">It is not possible to say for certain which drawings made up the respective consignments. The first batch must in any event have included <hi rend="ital">Public garden and pond in front of the Yellow House</hi> (<rs type="ill" key="2601">F 1513 / JH 1412</rs>) (<ref target="#n-2">see n. 2</ref> below), as well as two others of the park (<ref target="#n-5">see n. 5</ref> below).</ab>
+<ab rend="indent">Other candidates are <hi rend="ital">Landscape with a path and pollard willows</hi> (<rs type="ill" key="2574">F 1499 / JH 1372</rs>), which Van Gogh dated ‘Arles Mars 1888’ (Arles, March 1888), the four drawings that Van Gogh said he had finished in <ref target="let601.xml">letter 601</ref>, probably including <hi rend="ital">Field with farmhouses</hi> (<rs type="ill" key="2597">F 1474 / JH 1407</rs>) and <hi rend="ital">Farmhouse in a wheatfield</hi> (<rs type="ill" key="2598">F 1415 / JH 1408</rs>); and the drawings <hi rend="ital">The public garden</hi> (<rs type="otherart" key="689">F 1421 / JH 1414</rs>), <hi rend="ital">Field with a factory</hi> (<rs type="otherart" key="690">F 1500 / JH 1373</rs>) and <hi rend="ital">Landscape with trees, a ploughman and houses</hi> (<rs type="otherart" key="691">F 1517 / JH 1374</rs>), which are very similar to this first group in terms of composition and subject.</ab>
+<ab rend="indent">Going by the subject, the following two drawings are also dated early and assumed to have been in the first batch: <hi rend="ital">Men working in a field</hi> (<rs type="otherart" key="692">F 1090 / JH 1406</rs>), and <hi rend="ital">Tiled roof with chimneys and church tower</hi> (<rs type="otherart" key="693">F 1480a / JH 1403</rs>). It emerges from <ref target="let631.xml">letter 631</ref> that <hi rend="ital">Canal with bridge and washerwomen</hi> (<rs type="ill" key="2596">F 1473 / JH 1405</rs>) was also in one of the two consignments. In view of the subject, the stylistically similar drawing <hi rend="ital">The Rhône with boats and a bridge</hi> (<rs type="otherart" key="694">F 1472 / JH 1404</rs>) may have been made during the mistral Van Gogh mentioned (<ref target="let605.xml">letter 605</ref>) and would consequently have belonged to the first batch.</ab>
+<ab rend="indent">Altogether there are 18 known sketchbook pages of about 25 x 35 cm that date from the early months in Arles. As well as the 12 drawings mentioned above (F 1513 is not a sketchbook sheet) they are <hi rend="ital">Landscape with windmills at Fontvieille</hi> (<rs type="otherart" key="695">F 1496 / JH 1496</rs>), <hi rend="ital">Field with houses</hi> (<rs type="otherart" key="696">F 1506 / JH 1375</rs>), <hi rend="ital">Landscape with hut</hi> (<rs type="otherart" key="697">F 1498r / JH 1457</rs>) with on the verso <hi rend="ital">A lane in the public garden with benches</hi> (<rs type="otherart" key="698">F 1498v / JH 1614</rs>), <hi rend="ital">The road to Tarascon with a man walking</hi> (<rs type="ill" key="3114">F 1502 / JH 1492</rs>), <hi rend="ital">Road with trees</hi> (<rs type="otherart" key="699">F 1518a / JH 1495</rs>) and <hi rend="ital">Landscape with a tree in the foreground</hi> (<rs type="otherart" key="700">F 1509 / JH 1494</rs>). See cat. Amsterdam 2007, p. 5, nn. 26, 27. The larger drawing <hi rend="ital">The Langlois bridge</hi> (<rs type="ill" key="3058">F 1470 / JH 1377</rs>, 35 x 47 cm) is dated to mid-May 1888 so it did not go in either of the first two consignments. See also <ref target="let615.xml#n-9">letter 615, n. 9.</ref>
+                    </ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>
+      <hi rend="ital">Public garden and pond in front of the Yellow House</hi> (<rs type="ill" key="2601">F 1513 / JH 1412</rs>), which was indeed drawn on yellow paper; other drawings from this period (in the collection of the Van Gogh Museum) are on cream paper.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>Van Gogh rented the right-hand side of this house, shown in the small sketch and to become known as the Yellow House, from 1 May. It was at number 2 place Lamartine, on the northern edge of the city (lot 398). <rs type="ill" key="2180">Ill. 2180</rs>. He set up his studio in it, but did not start living there until September, once the house had been redecorated and furnished. He officially registered himself at this address on 16 October 1888 (FR b2949 and cf. <ref target="let677.xml">letter 677</ref>). There is a floor plan on blue paper, showing the layout in 1922, made by Léon Ramser (FR b3317). <rs type="ill" key="2181">Ill. 2181</rs>. See for old photographs of the Yellow House: Dorn<hi rend="ital"> </hi>1990, ills. 2-5.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>
+                        <rs type="pers" key="831">Bernard</rs> stayed in Saint-Briac in Brittany from 25 April until about 10 August. <ref target="let664.xml#n-2">See letter 664, n. 2.</ref> He lived in a small house attached to the inn run by Mrs Lemasson. He wrote to his <rs type="pers" key="15 16">parents</rs> on 26 April 1888: ‘I’ve got my old house, where I’ve settled in, I do as I please. The garden, the first and second floors and the attic are entirely at my disposal.’ (J’ai eu mon ancienne maison où je suis installé, je fais ce que je veux. Le jardin, tout le premier, le deuxième, le grenier sont à ma disposition.) See Harscoët-Maire 1997, pp. 163, 181 (n. 6). </ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>It is not possible to say for certain which two drawings these were. The most likely candidates are <hi rend="ital">Path in the public garden </hi>(<rs type="ill" key="2599">F 1476 / JH 1409</rs>) and <hi rend="ital">Public garden with benches</hi> (<rs type="ill" key="2600">F 1487 / JH 1410</rs>). See cat. Amsterdam 2007, p. 5, n. 26.</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>We do not know which paintings by <rs type="pers" key="1065">Guillaumin</rs> and <rs type="pers" key="831">Bernard</rs> were in <rs type="pers" key="1334">Russell</rs>’s possession.</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>Van Gogh suggested such an exchange to <rs type="pers" key="1334">Russell</rs> in <ref target="let598.xml">letter 598</ref>.</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>Van Gogh had asked for 3 metres of absorbent canvas in <ref target="let597.xml">letter 597</ref>. It emerges from <ref target="let610.xml">letter 610</ref> that it came from Tasset.</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>There is no known painting of these dimensions dating from early May 1888 nor one on a smaller, no. 25 canvas, which Van Gogh sometimes called a no. 30 (<ref target="let594.xml#n-2">see letter 594, n. 2</ref>). He most likely painted the smaller <hi rend="ital">Farmhouse in a wheatfield </hi>(<rs type="ill" key="2603">F 408 / JH 1417</rs>) on the new canvas. This is probably absorbent canvas, but finer in texture than F 555 (<ref target="let594.xml#n-2">see letter 594, n. 2</ref>). Van Gogh thought that the new absorbent canvas was not coarse enough (<ref target="let610.xml">see letter 610</ref>) so he may not have done any more work on it.</ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>The story ‘Le Moujik Pakhom. Faut-il beaucoup de terre pour un homme?’ from <rs type="pers" key="829">Tolstoy</rs>’s <hi rend="ital">
+                            <rs type="lit" key="457">A la recherche du bonheur</rs> </hi>is about a man who has the opportunity to buy, for a small sum, the amount of land he can walk round in one day. His greed is his undoing, because after running flat out all day to get as much land as possible, he drops dead. See Tolstoy 1886, pp. 189-228.</ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>In <ref target="let600.xml">letter 600</ref> Van Gogh mentioned ten orchards and a failed study of a cherry tree. By ‘douzaine’ he must therefore be referring to these eleven works. There is nothing to suggest that he painted yet another orchard after this, since the season was as good as over (<ref target="let600.xml">see letter 600</ref>). <hi rend="ital">Pink peach trees (‘Souvenir de Mauve’) </hi>(<rs type="ill" key="2577">F 394 / JH 1379</rs>) was meant for <rs type="pers" key="321">Jet Mauve</rs>, so he did not count it as part of the decoration.</ab>
+<ab rend="indent">The first six are the orchards Van Gogh painted first: <hi rend="ital">Pink peach trees</hi> (<rs type="ill" key="2588">F 404 / JH 1391</rs>), <hi rend="ital">The pink orchard</hi> (<rs type="ill" key="2578">F 555 / JH 1380</rs>), <hi rend="ital">The white orchard</hi> (<rs type="ill" key="2576">F 403 / JH 1378</rs>), <hi rend="ital">Small pear tree in blossom</hi> (<rs type="ill" key="2590">F 405 / JH 1394</rs>), <hi rend="ital">Orchard with apricot trees in blossom</hi> (<rs type="ill" key="2585">F 553 / JH 1387</rs>) and <hi rend="ital">Orchard with apricot trees in blossom</hi> (<rs type="ill" key="2581">F 556 / JH 1383</rs>).</ab>
+<ab rend="indent">Among the last six, which Van Gogh considered less successful, were <hi rend="ital">Orchard bordered by cypresses</hi> (<rs type="ill" key="2587">F 513 / JH 1389</rs>) and <hi rend="ital">Orchard with peach trees in blossom</hi> (<rs type="ill" key="2591">F 551 / JH 1396</rs>), which were still at an early stage when he wrote <ref target="let597.xml">letter 597</ref>, <hi rend="ital">Orchard</hi> (<rs type="ill" key="2579">F 552 / JH 1381</rs>), <hi rend="ital">Orchard with pear trees in blossom</hi> (<rs type="ill" key="2594">F 406 / JH 1399</rs>) and the large study of the cherry tree that he had spoiled. With the exception of the last of these, which is not known and which he must have destroyed (<ref target="let606.xml">see letter 606</ref>), these are the ten he wanted to send. He did not count the small studies <hi rend="ital">Orchard bordered by cypresses</hi> (<rs type="ill" key="2586">F 554 / JH 1388</rs>), <hi rend="ital">Peach tree in blossom</hi> (<rs type="ill" key="2592">F 557 / JH 1397</rs>) and <hi rend="ital">Peach tree in blossom</hi> (<rs type="ill" key="2593">F 399 / JH 1398</rs>) as part of the decoration; for that matter he did not include them in the summary in <ref target="let600.xml">letter 600</ref> either.</ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+<ab>Van Gogh thanked Theo for this 100 francs in <ref target="let600.xml">letter 600</ref>.</ab>
+                </note>
+<note n="13" xml:id="n-13" target="#note-t-13">
+<ab>Van Gogh meant the <rs type="pers" key="42 43">owners</rs> of Hotel-Restaurant Carrel, where he was staying and where he took his meals. <ref target="let577.xml#n-4">See letter 577, n. 4.</ref>
+                    </ab>
+                </note>
+<note n="14" xml:id="n-14" target="#note-t-14">
+<ab>
+                        <rs type="pers" key="1279">Jean-François Raffaëlli</rs>, <hi rend="ital">Edmond de Goncourt</hi>, 1888 (Nancy, Musée des Beaux-Arts). <rs type="ill" key="1232">Ill. 1232</rs>. The painting, which was exhibited at the 1888 Salon, is not reproduced in the issue of <hi rend="ital">Illustration</hi> Van Gogh refers to. There is a good chance that he is basing what he says here on the enthusiastic description of the portrait in <hi rend="ital">L’Intransigeant </hi>of 1 May 1888 (p. 2). </ab>
+                </note>
+<note n="15" xml:id="n-15" target="#note-t-15">
+<ab>
+                        <rs type="pers" key="899">Jules Breton</rs> was represented with <hi rend="ital">Young women going to a procession</hi> (Utica, New York, Munson-Williams-Proctor Institute) and <hi rend="ital">The evening star</hi> (Toledo, The Toledo Museum of Art). Gabriël Séailles discussed these works in his article ‘Salon de 1888’ in <hi rend="ital">L’Illustration</hi> 91 (28 April 1888): ‘I do not need to add to the praise that Mr Jules Breton has already received. In <hi rend="ital">Young women going to a procession</hi>, and in <hi rend="ital">The evening star</hi>, his admirers will rediscover the poetic charm which simply reflects the artist’s feelings about the countryside he knows and loves, and from which he just chooses the parts that inspire him.’ (L’éloge de M. Jules Breton n’est plus à faire. Dans les <hi rend="ital">Jeunes Filles se rendant à la Procession</hi>, dans l’<hi rend="ital">Etoile du Berger</hi>, ses admirateurs retrouveront le charme d’une poésie qui n’est que l’émotion de l’artiste devant une nature qu’il connaît, qu’il aime et dont seulement il choisit les aspects qui l’inspirent) (p. 298). This article was also published separately as an offprint. There was an engraving of <hi rend="ital">Young women going to a procession</hi> on p. 296. <rs type="ill" key="600">Ill. 600</rs>.</ab>
+                </note>
+<note n="16" xml:id="n-16" target="#note-t-16">
+<ab>Theo turned 31 on 1 May. The painting is <hi rend="ital">Orchard with pear trees in blossom </hi>(<rs type="ill" key="2594">F 406 / JH 1399</rs>): <ref target="let600.xml#n-11">see letter 600, n. 11.</ref>
+                    </ab>
+                </note>
+<note n="a" xml:id="n-a" target="#note-o-a">
+<ab>Read: ‘habiter’.</ab>
+                </note>
+<note n="17" xml:id="n-17" target="#note-t-17">
+<ab>This is the first time Vincent raises the possibility of sharing a studio with <rs type="pers" key="1039">Gauguin</rs>, who at this point was in Pont-Aven in Brittany. The idea, mentioned in passing, was to take more definite form in the coming months and became a recurrent theme in the letters. Eventually Gauguin stayed in the Yellow House from the end of October to the end of December.</ab>
+                </note>
+<note n="18" xml:id="n-18" target="#note-t-18">
+<ab>The ‘petticoat episode’ probably derives from the novel <hi rend="ital">
+                            <rs type="lit" key="451">En ménage</rs>
+                        </hi> by <rs type="pers" key="672">Joris-Karl Huysmans</rs>, which Van Gogh read at about this time: he quotes from it in June 1888 (<ref target="let628.xml#n-6">see letter 628, n. 6</ref>). Huysmans writes about the character named Cyprien: ‘Just as during the time of the petticoat episode when he sought relief from his worries in books, he found none, as literature up until then rarely dealt with those sad or happy feelings which are so often awakened in man in times of solitude, without any clearly defined cause.’ (De même que pendant la période de la crise juponnière où il demandait à des livres l’apaisement des ses ennuis, il n’en découvrit point, la littérature s’étant peu, jusqu’à ce jour, occupée de ces sensations tristes ou joyeuses qui s’éveillent chez l’homme, dans la solitude, sans cause bien définie, souvent) (Paris 1881, chapter 15, pp. 325-326).</ab>
+                </note>
+<note n="b" xml:id="n-b" target="#note-o-b">
+<ab>Van Gogh wrote ‘aissances’: possibly a pun on the word ‘essences’.</ab>
+                </note>
+<note n="19" xml:id="n-19" target="#note-t-19">
+<ab>The Service du cadastre (land register) in Arles lists one Aimé Verdier, ‘propriétaire à Milhaud (Gard)’ as the owner of lot numbers 398 and 399 from 1858 to 1910. The ‘Maison Verdier’ was all of 2, place Lamartine as well as the large building behind. When Van Gogh lived at 2 place Lamartine, it was no longer owned by Aimé Verdier, who had died in 1872. The house had passed on to his daughter, <rs type="pers" key="225">Marie Louise Verdier</rs>, and her husband, Raymond Triare-Brun. See Murphy 2016, p. 273 (n. 13).</ab>
+<ab rend="indent">The left-hand side of place Lamartine 2 was occupied by the grocer’s shop run by <rs type="pers" key="52">François Damase Crévoulin</rs> and his wife <rs type="pers" key="329">Marguerite Favier</rs>; the right-hand side was the accommodation rented by Van Gogh. The address books <hi rend="ital">L’indicateur marseillais</hi> of 1888 and 1889 mention an ‘E. Brunel, spirit merchant, avenue de Montmajour 72 (near place Lamartine)’. These premises may also have been part of lot number 398, owned by Verdier, and could have been the ‘quite large house’ Van Gogh mentions. Verdier owned no other buildings in Arles. A second possibility is that by the ‘assez grand hôtel’ Van Gogh meant <rs type="pers" key="755">Bernard Soulè</rs>’s house. Soulè was the managing agent for the Yellow House and owned the building diagonally opposite at 53 avenue de Montmajour, where he lived with his daughter and son-in-law. In <ref target="let745.xml">letter 745</ref>, however, Van Gogh refers to ‘the landlord’s agent’, which indicates that he knew Soulè was not the owner.</ab>
+<ab rend="indent">In the summons of February 1889, Soulè is described as ‘landlord, of 53 avenue Montmajour ... managing agent of the house occupied by Mr Vincent van Gogh’ (<ref target="documentation.xml#27February1889">see <hi rend="ital">Documentation</hi>, 27 February 1889</ref>).  The land register records only one building in his name: 53 avenue de Montmajour (lot number 373), diagonally opposite the Yellow House, in the block where the police station was also located. Soulè was therefore not the owner of the Yellow House but the agent who collected the rent on behalf of Mme Verdier – who did not live in Arles.</ab>
+                </note>
+<note n="20" xml:id="n-20" target="#note-t-20">
+<ab>In <ref target="let612.xml">letter 612</ref> Van Gogh thanks <rs type="pers" key="831">Bernard</rs> for this sketch, a portrait of a woman. It was probably the drawing <hi rend="ital">Girl in a Paris street</hi>, 1888<hi rend="ital"> </hi>(Amsterdam, Van Gogh Museum), which was part of the Van Gogh brothers’ collection. <rs type="ill" key="2182">Ill. 2182</rs>.</ab>
+                </note>
+<note n="21" xml:id="n-21" target="#note-t-21">
+<ab>This could be the American ‘art agent’ <rs type="pers" key="5">Mary Bacon Martin</rs>, with whom <rs type="pers" key="623">Reid</rs> had had an affair. See Fowle<hi rend="ital"> </hi>1993, pp. 4-5, 30. Nothing is known of any further contact; Mary married the American journalist Sheridan Ford some time around July 1888.</ab>
+                </note>
+<note n="22" xml:id="n-22" target="#note-t-22">
+<ab>Theo must have written that <rs type="pers" key="623">Reid</rs> was back in Paris. Soon after the end of March 1888 Reid went to Scotland with a painting by <rs type="pers" key="1286">Puvis de Chavannes</rs> that he had bought at <rs type="pers" key="359">Durand-Ruel</rs>’s in March. The work was exhibited at the Glasgow International Exhibition, which opened on 3 May 1888. See Fowle<hi rend="ital"> </hi>1993, p. 12.</ab>
+                </note>
+<note n="23" xml:id="n-23" target="#note-t-23">
+<ab>Their <rs type="pers" key="524">mother</rs> and their sister <rs type="pers" key="407">Willemien</rs> lived in Breda.</ab>
+                </note>
+<note n="24" xml:id="n-24" target="#note-t-24">
+<ab>Shortly before he left for Arles on 19 February 1888 Vincent went with Theo to see <rs type="pers" key="1353">Seurat</rs> in his studio. <ref target="let589.xml#n-19">See letter 589, n. 19.</ref> We do not know whether Theo met Seurat again.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

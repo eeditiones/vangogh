@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. The Hague, Monday, 14 August 1882.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let257"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">257</idno>
+<idno type="collectedletters">225</idno>
+<idno type="brieven1990">258</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>The Hague</vg:placeLet>
+                        <vg:dateLet>Monday, 14 August 1882</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:physDesc>
+                        <vg:decoration>
+                            <vg:decoList xml:id="sketches">
+                                <vg:decoItem n="A" xml:id="sketch-1">
+                                    <vg:decoDesc>
+<p>
+      <hi rend="ital">Sunset over a meadow</hi> (<rs type="sketch" key="59">F - / JH 177</rs>), letter sketch</p>
+                                    </vg:decoDesc>
+                                </vg:decoItem>
+                            </vg:decoList>
+                        </vg:decoration>
+                    </vg:physDesc>
+                    <vg:letContents>
+<p>To Theo van Gogh. The Hague, Monday, 14 August 1882.</p>
+<note type="ongoingTopic" n="1">
+<p>Theo’s visit early in August <ref target="let253.xml">(253)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="2">
+<p>Purchase of extra drawing and painting materials <ref target="let253.xml">(253)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b247 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>The letter was written on Monday, because Van Gogh speaks of ‘yesterday, Sunday’ <ref target="#l-116">(l. 116)</ref>. On the Saturday evening preceding the letter he painted the green meadows with the cinder road <ref target="#l-7">(l. 7)</ref>. It appears from <ref target="let256.xml">letter 256</ref>, in which the same painting is mentioned, that that Saturday was 12 August, so that the present letter dates from Monday, 14 August 1882. In <hi rend="ital">Brieven </hi>1914 Jo van Gogh-Bonger dated it ‘15 August ’82’ – perhaps basing this on the postmark.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0247" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000301_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000301_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000301_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000301_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000301_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000301_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="VGM001000301_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000301_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000301_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0247" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000301_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000301_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000301_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000301_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000301_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000301_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000301_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000301_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000301_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Waarde Theo,</ab>
+                <lb n="2" xml:id="l-2"/>
+<ab>Ge moet het mij niet kwalijk nemen dat ik U weer <lb n="3" xml:id="l-3"/>eens schrijf – het is om U te zeggen dat <lb n="4" xml:id="l-4"/>ik in het schilderen zoo bijzonder pleizier heb. <lb n="5" xml:id="l-5"/>Verl. Zaturdag avond heb ik een ding aangepakt <lb n="6" xml:id="l-6"/>waar ik al dikwijls van gedroomd had<c type="kp">_</c>–</ab>
+                <lb n="7" xml:id="l-7"/>
+<ab rend="indent">Het is een gezigt in de vlakke groene weilanden <lb n="8" xml:id="l-8"/>met hoopen hooi<c type="kp">_</c> Een kolenweg met een sloot <lb n="9" xml:id="l-9"/>er langs loopt dwars er door.</ab>
+                <lb n="10" xml:id="l-10"/>
+<ab rend="indent">En aan den horizon midden in ’t schilderij <lb n="11" xml:id="l-11"/>gaat den zon vuurrood onder.<anchor n="1" xml:id="note-o-1"/>
+                </ab>
+<vg:whiteline/>
+                <figure facs="zone-sketch-1" n="A"/>
+<vg:whiteline/>
+                <lb n="12" xml:id="l-12"/>
+<ab>Ik kan ’t effekt onmogelijk zoo in de haast <lb n="13" xml:id="l-13"/>teekenen doch ziehier de compositie<c type="kp">_</c>
+                </ab>
+                <lb n="14" xml:id="l-14"/>
+<ab rend="indent">Maar ’t was geheel een kwestie van kleur &amp; toon<c type="kk">/</c> <lb n="15" xml:id="l-15"/>de schakeering van de gamma kleuren van de lucht<c type="kk">/</c> <lb n="16" xml:id="l-16"/>eerst een lilas nevel – waarin de roode zon<c type="kk">/</c> half bedekt <lb n="17" xml:id="l-17"/>door een donkerpaarsche wolk met schitterend rood fijn randje; <lb n="18" xml:id="l-18"/>bij de zon reflecties van vermiljoen, maar daarboven <lb n="19" xml:id="l-19"/>een strook geel dat groen werd en hooger <lb n="20" xml:id="l-20"/>blaauwachtig<c type="kk">/</c> het zoogenaamde <hi rend="ital">Cerulean blue</hi>
+                    <c type="kk">/</c> en dan hier &amp; daar <lb n="21" xml:id="l-21"/>lilas &amp; graauwe wolken die reflecties pakken <lb n="22" xml:id="l-22"/>van de zon.</ab>
+                <lb n="23" xml:id="l-23"/>
+<ab rend="indent">De grond nu was een soort tapijtweefsel van <lb n="24" xml:id="l-24"/>groen – grijs – bruin<c type="kk">/</c> maar vol schakeering <lb n="25" xml:id="l-25"/>en wemeling – het water van ’t slootje schittert <lb n="26" xml:id="l-26"/>in dien toonigen grond.</ab>
+                <lb n="27" xml:id="l-27"/>
+<ab rend="indent">Het is iets wat Emile Breton b.v. zou schilderen<c type="kp">_</c>
+                </ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="28" xml:id="l-28"/>
+<ab rend="indent">Dan heb ik een groot brok duingrond <lb n="29" xml:id="l-29"/>nog geschilderd<anchor n="2" xml:id="note-o-2"/> – geëmpateerd – <lb n="30" xml:id="l-30"/>en vet geschilderd.</ab>
+                <lb n="31" xml:id="l-31"/>
+<ab rend="indent">Van deze twee – van de kleine marine<c type="kk">/</c>
+                    <anchor n="3" xml:id="note-o-3"/> <lb n="32" xml:id="l-32"/>van het aardappelveld<anchor n="4" xml:id="note-o-4"/> weet ik zeker dat <lb n="33" xml:id="l-33"/>men er niet aan zeggen zou dat het <lb n="34" xml:id="l-34"/>al mee<anchor n="a" xml:id="note-o-a"/> mijn eerste geschilderde studies <lb n="35" xml:id="l-35"/>zijn<c type="kp">_</c>–</ab>
+                <lb n="36" xml:id="l-36"/>
+<ab rend="indent">Om U de waarheid te zeggen verrast het mij <lb n="37" xml:id="l-37"/>een beetje – ik had gedacht dat de eerste <lb n="38" xml:id="l-38"/>dingen naar niets zouden lijken <lb n="38a" xml:id="l-38a"/>ofschoon dat later beter zou worden <lb n="38b" xml:id="l-38b"/>naar ik dacht <lb n="38"/>en <lb n="39" xml:id="l-39"/>ofschoon ik ’t zelf zeg<c type="kk">/</c> ze lijken wel degelijk <lb n="40" xml:id="l-40"/>naar iets en dat verwondert me een beetje.<lb n="41" xml:id="l-41"/> Ik geloof het daardoor komt dat ik vóór <lb n="42" xml:id="l-42"/>en alleer ik begon te schilderen zoolang heb <lb n="43" xml:id="l-43"/>geteekend &amp; de perspectief bestudeerd om <lb n="44" xml:id="l-44"/>een ding dat ik zag in elkaar te kunnen <lb n="45" xml:id="l-45"/>zetten.</ab>
+                <lb n="46" xml:id="l-46"/>
+<ab rend="indent">Nu<c type="kk">/</c> sedert ik mijn verf &amp; schildergerij <lb n="47" xml:id="l-47"/>gekocht heb<c type="kk">/</c> heb ik dan ook gesjouwd en <lb n="48" xml:id="l-48"/>gewerkt dat ik doodaf ben nu op ’t moment<c type="kk">/</c> <lb n="49" xml:id="l-49"/>van 7 geschilderde studies. Er is er ook nog een <lb n="50" xml:id="l-50"/>bij met een figuurtje – een moeder met <lb n="51" xml:id="l-51"/>een kindje in den schaduw van een grooten boom<c type="kk">/</c> <lb n="52" xml:id="l-52"/>in toon tegen een duingrond <lb n="53" xml:id="l-53"/>waar de zomerzon op schijnt.</ab>
+                <lb n="54" xml:id="l-54"/>
+<ab rend="indent">Haast een Italjaansch effekt<c type="kp">_</c>
+                    <anchor n="5" xml:id="note-o-5"/>
+                </ab>
+                <lb n="55" xml:id="l-55"/>
+<ab rend="indent">Ik heb letterlijk mij zelf niet kunnen <lb n="56" xml:id="l-56"/>houden – ik kon er niet van afblijven <lb n="57" xml:id="l-57"/>of er van uitrusten.</ab>
+                <lb n="58" xml:id="l-58"/>
+<ab rend="indent">Er is zooals ge mogelijk weet eene tentoonstelling <lb n="59" xml:id="l-59"/>van de teekenmaatschappij.<anchor n="6" xml:id="note-o-6"/> Er is een Mauve – <lb n="60" xml:id="l-60"/>een vrouwtje aan een soort weefgetouw, zeker uit <lb n="61" xml:id="l-61"/>Drenthe<c type="kk">/</c> dat ik superbe vind.<anchor n="7" xml:id="note-o-7"/>
+                </ab>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                <lb n="62" xml:id="l-62"/>
+<ab rend="indent">Gij hebt er waarschijnlijk bij Tersteeg wel van <lb n="63" xml:id="l-63"/>gezien<c type="kk">/</c> er zijn prachtige Israels – o.a<c type="kp">_</c> <lb n="64" xml:id="l-64"/>’t portret van Weissenbruch, met een pijp in den <lb n="65" xml:id="l-65"/>mond &amp; zijn palet in de hand.<anchor n="8" xml:id="note-o-8"/> Van Weiss. zelf <lb n="65a" xml:id="l-65a"/>mooie dingen<c type="kk">/</c> landschappen en een marine ook.<anchor n="9" xml:id="note-o-9"/>
+                </ab>
+                <lb n="66" xml:id="l-66"/>
+<ab rend="indent">Er is een zeer groote teekening van J. Maris<c type="kk">/</c> <lb n="67" xml:id="l-67"/>stadsgezigt<anchor n="10" xml:id="note-o-10"/> – verbazend. En mooie W<c type="kp">_</c> Maris<c type="kk">/</c> <lb n="68" xml:id="l-68"/>Zeug met biggen<anchor n="11" xml:id="note-o-11"/> o.a. en koeijen.<anchor n="12" xml:id="note-o-12"/>
+                </ab>
+                <lb n="69" xml:id="l-69"/>
+<ab rend="indent">Neuhuys<c type="kk">/</c>
+                    <anchor n="13" xml:id="note-o-13"/> Duchatel<c type="kk">/</c>
+                    <anchor n="14" xml:id="note-o-14"/> Mesdag<c type="kp">_</c>
+                </ab>
+                <lb n="70" xml:id="l-70"/>
+<ab rend="indent">Van den laatste behalve een mooie groote marine <lb n="71" xml:id="l-71"/>twee zwitschersche dingen die ik wel <lb n="72" xml:id="l-72"/>wat bête en zwaar op de hand vind.<anchor n="15" xml:id="note-o-15"/> Maar <lb n="73" xml:id="l-73"/>de groote marine is mooi.</ab>
+                <lb n="74" xml:id="l-74"/>
+<ab rend="indent">Israels heeft nog 4 groote teekeningen<c type="kk">/</c> <lb n="75" xml:id="l-75"/>een meisje bij ’t raam<anchor n="16" xml:id="note-o-16"/> – kinderen bij <lb n="76" xml:id="l-76"/>’t varkenshok<anchor n="17" xml:id="note-o-17"/> – de teekening van ’t kleine <lb n="77" xml:id="l-77"/>schilderij van den Salon – een oud vrouwtje <lb n="78" xml:id="l-78"/>dat ’t vuur opstookt in de schemering<c type="kk">/</c> in der <lb n="79" xml:id="l-79"/>tijd geëtst voor de Kunstkronijk.<anchor n="18" xml:id="note-o-18"/>
+                </ab>
+                <lb n="80" xml:id="l-80"/>
+<ab rend="indent">Het is wel animeerend om zoo eens <lb n="81" xml:id="l-81"/>iets te zien want dan zie ik wat <lb n="82" xml:id="l-82"/>ik nog veel moet bij leeren.</ab>
+                <lb n="83" xml:id="l-83"/>
+<ab rend="indent">Alleen dit wilde ik U zeggen – ik gevoel <lb n="84" xml:id="l-84"/>dat er dingen van kleur bij mij voor den <lb n="85" xml:id="l-85"/>dag komen bij ’t schilderen die ik vroeger <lb n="86" xml:id="l-86"/>niet had, dingen van breedheid en krachten<c type="kp">_</c> <lb n="87" xml:id="l-87"/>Nu zal ik U nog <hi rend="ital">niet direkt</hi> wat sturen – <lb n="88" xml:id="l-88"/>laat het eerst eens wat rijpen, maar weet <lb n="89" xml:id="l-89"/>ik vol ambitie er in ben en geloof dat <lb n="90" xml:id="l-90"/>het voorloopig vlot. <lb n="90a" xml:id="l-90a"/>(Voor er 3 maanden om zijn echter <lb n="90b" xml:id="l-90b"/>zal ik U iets sturen om U op de hoogte te <lb n="90c" xml:id="l-90c"/>houden en een idee te geven<c type="kp">_</c>)</ab>
+                <lb n="91" xml:id="l-91"/>
+<ab rend="indent">Maar dat is mij juist een reden om door <lb n="92" xml:id="l-92"/>te zetten – en nog datgene bij te leeren <lb n="93" xml:id="l-93"/>wat ik hebben moet.</ab>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                <lb n="94" xml:id="l-94"/>
+<ab rend="indent">Beschouw dus ’t geen ik van mijn eigen <lb n="95" xml:id="l-95"/>werk zeg niet als of ik er reeds over content <lb n="96" xml:id="l-96"/>was<c type="kk">/</c> het tegendeel is waar – doch dit <lb n="97" xml:id="l-97"/>geloof ik dat gewonnen is<c type="kk">/</c> dat ik voortaan <lb n="98" xml:id="l-98"/>als iets mij treft in de natuur meer middelen <lb n="99" xml:id="l-99"/>tot mijn dispositie heb dan vroeger om het <lb n="100" xml:id="l-100"/>met meer kracht uit te drukken.</ab>
+                <lb n="101" xml:id="l-101"/>
+<ab rend="indent">En ik vind het niet onaangenaam dat nu <lb n="102" xml:id="l-102"/>voortaan ’t geen ik maak er wat smakelijker <lb n="103" xml:id="l-103"/>zal uitzien.</ab>
+                <lb n="104" xml:id="l-104"/>
+<ab rend="indent">Ik geloof ook niet dat het me hinderen zou als mijn <lb n="105" xml:id="l-105"/>gezondheid bij tijden eens van streek was. Voor zoover <lb n="106" xml:id="l-106"/>ik kan nagaan zijn het de slechtste schilders niet <lb n="107" xml:id="l-107"/>die nu en dan een week of 14 dagen hebben dat <lb n="108" xml:id="l-108"/>ze niet werken kunnen. Dat heeft wel eens zijn <lb n="109" xml:id="l-109"/>oorzaak dat zij juist diegenen zijn “qui y mettent <lb n="110" xml:id="l-110"/>leur peau”<c type="kk">/</c> zoo als Millet zegt.<anchor n="19" xml:id="note-o-19"/> Dat hindert niet <lb n="111" xml:id="l-111"/>en men moet mijns inziens zich niet sparen als het <lb n="112" xml:id="l-112"/>er op aankomt, is het dat men een tijdje uitgeput is<c type="kk">/</c> <lb n="113" xml:id="l-113"/>dat komt weer teregt en men heeft gewonnen dat <lb n="114" xml:id="l-114"/>men zijn studies binnen heeft net als de boer zijn koren of hooi<c type="kp">_</c>
+                    <anchor n="20" xml:id="note-o-20"/> </ab>
+                <lb n="115" xml:id="l-115"/>
+<ab rend="indent">Nu denk ik voor mij voorloopig nog niet aan <lb n="116" xml:id="l-116"/>“rust houden”<c type="kp">_</c> Alleen ik heb gisteren, zondag<c type="kk">/</c> <lb n="117" xml:id="l-117"/>weinig gedaan – althans niet bepaald naar <lb n="118" xml:id="l-118"/>buiten geweest. Ik wil zorgen dat al <lb n="119" xml:id="l-119"/>kwaamt ge reeds dezen winter ge het <lb n="120" xml:id="l-120"/>atelier vol geschilderde studies vindt<c type="kp">_</c>
+                </ab>
+                <lb n="121" xml:id="l-121"/>
+<ab rend="indent">Van Rappard ontving ik gisteren een brief<anchor n="21" xml:id="note-o-21"/> – hij <lb n="122" xml:id="l-122"/>is naar Drenthe geweest en uit twee krabbeltjes <lb n="123" xml:id="l-123"/>te oordeelen die hij mij stuurde heeft hij niet <lb n="124" xml:id="l-124"/>stil gezeten. Hij schijnt zeer hard te werken <lb n="125" xml:id="l-125"/>en goed ook, zoowel aan figuren als aan <lb n="126" xml:id="l-126"/>landschap.</ab>
+                <lb n="127" xml:id="l-127"/>
+<ab rend="indent">Nu à dieu<c type="kk">/</c> ik moet er op uit, met een <lb n="128" xml:id="l-128"/>handdruk<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="128*" xml:id="l-128s"/>
+<ab>t. à t<c type="kp">_</c>
+                </ab>
+                <lb n="129" xml:id="l-129"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+                <lb n="130" xml:id="l-130"/>
+<ab>Het is nu net ongeveer <lb n="131" xml:id="l-131"/>
+                    <hi rend="ital">twee jaren</hi> geleden dat ik in de <lb n="132" xml:id="l-132"/>Borinage begon te teekenen<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-65" n="65">a landschappen &lt; landschapen</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo,</ab>
+<ab>You must excuse me for writing again — it’s to tell you that I take so much pleasure in painting. Last Saturday evening I tackled something I’ve already dreamed of often.</ab>
+<ab rend="indent">It’s a view in the flat green meadows with haystacks. A cinder road with a ditch runs straight through it.</ab>
+<ab rend="indent">And the sun goes down fiery red on the horizon in the middle of the painting.<anchor n="1" xml:id="note-t-1"/>
+                </ab>
+<vg:whiteline/>
+<ab>
+                    <figure facs="zone-sketch-1" n="A"/>
+                </ab>
+<vg:whiteline/>
+<ab>I can’t possibly draw the effect quickly here, but this shows the composition. </ab>
+<ab rend="indent">Yet it was all a question of colour and tone, the gradations of the range of colours in the sky, first a lilac haze — inside it the red sun, half covered by a dark purple cloud with a delicate edge of gleaming red; beside the sun vermilion reflections, but above a yellow band that turned green and higher up bluish, the so-called <hi rend="ital">Cerulean blue</hi>, and here and there lilac and greyish clouds catching reflections from the sun. </ab>
+<ab rend="indent">The ground was a sort of tapestry of green — grey — brown, but full of different shades and movement — the water of the ditch gleams in that tonal ground. </ab>
+<ab rend="indent">It’s the sort of thing Emile Breton, for instance, would paint. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> </ab>
+<ab rend="indent">I’ve also painted a big piece of dune ground<anchor n="2" xml:id="note-t-2"/> — impasted — and densely painted.</ab>
+<ab rend="indent">In the case of these two, and of the small seascape<anchor n="3" xml:id="note-t-3"/> and the potato field,<anchor n="4" xml:id="note-t-4"/> I know for certain that people wouldn’t say, all things considered, that these were my first painted studies.</ab>
+<ab rend="indent">To tell you the truth, it surprises me a little. I thought that the first things would look like nothing at all, although they would improve later, I thought, though I say so myself, that they do look like something, and that rather amazes me. I believe that this is because, before I began painting, I spent so long drawing and studying perspective so that I could put together a thing I saw. </ab>
+<ab rend="indent">Well, since I bought my paint and materials, I have toiled and laboured, so that at the moment I’m dead tired, having done 7 painted studies. There’s also one with a figure — a mother with a child in the shadow of a big tree, in tone against a dune on which the summer sun is shining.</ab>
+<ab rend="indent">An almost Italian effect.<anchor n="5" xml:id="note-t-5"/>
+                </ab>
+<ab rend="indent">I literally couldn’t hold myself back — I couldn’t leave it alone or take a break from it. </ab>
+<ab rend="indent">As you may know, there’s an exhibition by the Drawing Society.<anchor n="6" xml:id="note-t-6"/> There’s one <rs type="pers" key="323">Mauve</rs> — a woman at a sort of loom, no doubt from Drenthe — that I think is superb.<anchor n="7" xml:id="note-t-7"/> 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/>
+                </ab>
+<ab rend="indent">You’ve probably seen some of them at <rs type="pers" key="787">Tersteeg</rs>’s. There are wonderful works by Israëls — among them the portrait of <rs type="pers" key="1443">Weissenbruch</rs>, with a pipe in his mouth and his palette in his hand.<anchor n="8" xml:id="note-t-8"/> And some beautiful things by Weissenbruch himself, landscapes, and a seascape as well.<anchor n="9" xml:id="note-t-9"/>
+                </ab>
+<ab rend="indent">There’s a very large drawing by <rs type="pers" key="1203">J. Maris</rs>, townscape<anchor n="10" xml:id="note-t-10"/> — amazing. And a fine <rs type="pers" key="1201">W. Maris</rs>, Sow with piglets,<anchor n="11" xml:id="note-t-11"/> among others, and cows.<anchor n="12" xml:id="note-t-12"/> </ab>
+<ab rend="indent">
+                    <rs type="pers" key="154 1248">Neuhuys</rs>,<anchor n="13" xml:id="note-t-13"/> <rs type="pers" key="941">Du Chattel</rs>,<anchor n="14" xml:id="note-t-14"/> <rs type="pers" key="1218">Mesdag</rs>.</ab>
+<ab rend="indent">By the last, apart from a splendid large seascape, two Swiss things that I find rather inane and heavy-handed.<anchor n="15" xml:id="note-t-15"/> But the large seascape is splendid. </ab>
+<ab rend="indent">
+                    <rs type="pers" key="1107">Israëls</rs> has another 4 large drawings, a girl at the window<anchor n="16" xml:id="note-t-16"/> — children at the pig-sty<anchor n="17" xml:id="note-t-17"/> — the drawing of the small Salon painting — a little old woman stoking the fire in the twilight, which was etched for the Kunstkronijk at the time.<anchor n="18" xml:id="note-t-18"/>
+                </ab>
+<ab rend="indent">It’s stimulating to see something like this, because then I see how much I still have to learn. </ab>
+<ab rend="indent">I just wanted to tell you — I feel that things with colour are becoming apparent in my painting that I didn’t use to have, things to do with breadth and strengths. I shan’t send you anything <hi rend="ital">immediately</hi> — let it first ripen a little — but you should know that I’m full of enthusiasm, and believe that it’s going well at the moment.<anchor n="b" xml:id="note-t-b"/> (Before 3 months have passed, however, I’ll send you something to keep you informed and give you an idea.)</ab>
+<ab rend="indent">But for me that’s precisely a reason to push on — and to learn what I still need. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/>
+                </ab>
+<ab rend="indent">So don’t take what I say about my own work as meaning that I’m already content with it — the opposite is true, but I believe that this much has been gained, that if something in nature strikes me I now have more means at my disposal with which to express it more forcefully. </ab>
+<ab rend="indent">And I don’t find it disagreeable that from now on what I make will look more appealing. </ab>
+<ab rend="indent">I also don’t think that it would be a hindrance if my health let me down on occasion. As far as I can make out, it isn’t the worst painters who can’t work for a week or a fortnight now and then. Sometimes the reason for this is that they’re the very ones who ‘put their heart and soul into it’, as <rs type="pers" key="1226">Millet</rs> says.<anchor n="19" xml:id="note-t-19"/> That doesn’t matter, and in my view one shouldn’t spare oneself when it comes to the point. One may be exhausted for a while, but one recovers, and the advantage is that one has gathered in one’s studies, just like the farmer does his corn or hay.<anchor n="20" xml:id="note-t-20"/>
+                </ab>
+<ab rend="indent">Now for my part I’m not yet thinking about ‘having a rest’. But yesterday, Sunday, I didn’t do much, at least I didn’t go out of doors. I want to make sure that even if you come as early as this winter you’ll find the studio full of painted studies. </ab>
+<ab rend="indent">I received a letter from <rs type="pers" key="1306">Rappard</rs> yesterday.<anchor n="21" xml:id="note-t-21"/> He has been to Drenthe, and judging by two sketches he sent me he hasn’t been idle. He seems to be working very hard, and well too, both on figures and landscape. </ab>
+<ab rend="indent">Well, adieu, I must go out, with a handshake.</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<ab>It’s now almost exactly <hi rend="ital">two years</hi> ago that I began drawing in the Borinage.</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>This painting of a cinder road, which was also mentioned in <ref target="let256.xml">letter 256</ref>, is unknown.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>
+      <hi rend="ital">Dunes</hi> (<rs type="ill" key="2385">F 2a / JH 176</rs>).</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>
+      <hi rend="ital">Beach with fishing boats</hi> (<rs type="ill" key="2383">F 2 / JH 173</rs>).</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>This painting of a potato field is unknown; the sketch enclosed with <ref target="let255.xml">letter 255</ref> gives an impression of the work.</ab>
+                </note>
+<note n="a" xml:id="n-a" target="#note-o-a">
+<ab>Means: ‘Alles overziend’ (all things considered); cf. Van Gogh’s use of ‘Après tout’.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>This painting of a figure study is unknown (for the subject, cf. <hi rend="ital">Two women in a wood </hi>(<rs type="otherart" key="333">F 1665 / JH 181</rs>). Besides this work and the four mentioned earlier in the letter, the stated total of seven painted studies included a painting of a row of pollard willows in a meadow and a painting of a cinder road (<ref target="let255.xml">see letter 255</ref>).</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>For this <hi rend="ital">Zevende tentoonstelling</hi>, <ref target="let256.xml#n-8">see letter 256, n. 8.</ref>
+                    </ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>For <rs type="pers" key="323">Anton Mauve</rs>, <rs type="otherart" key="280">
+                            <hi rend="ital">Spinner</hi>
+                        </rs>, <ref target="let256.xml#n-9">see letter 256, n. 9.</ref>
+                    </ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>For <rs type="pers" key="1107">Jozef Israëls</rs>, <rs type="ill" key="202">
+                            <hi rend="ital">The painter J.H. Weissenbruch</hi>
+                        </rs>, <ref target="let256.xml#n-17">see letter 256, n. 17.</ref>
+                    </ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>For <rs type="pers" key="1443">J.H. Weissenbruch</rs>’s drawings, <ref target="let256.xml#n-16">see letter 256, n. 16.</ref>
+                    </ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>For this ‘city view’ by <rs type="pers" key="1203">Jacob Maris</rs>, <ref target="let256.xml#n-20">see letter 256, n. 20.</ref>
+                    </ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>For <rs type="pers" key="1201">Willem Maris</rs>, <rs type="otherart" key="295">
+                            <hi rend="ital">Sow with piglets</hi>
+                        </rs>, <ref target="let256.xml#n-19">see letter 256, n. 19.</ref>
+                    </ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+<ab>For the works of <rs type="pers" key="1201">Willem Maris</rs> in which cows may be seen, <ref target="let256.xml#n-12">see letter 256, n. 12.</ref>
+                    </ab>
+                </note>
+<note n="13" xml:id="n-13" target="#note-t-13">
+<ab>For <rs type="pers" key="154 1248">Neuhuys</rs>, <ref target="let256.xml#n-11">see letter 256, n. 11.</ref>
+                    </ab>
+                </note>
+<note n="14" xml:id="n-14" target="#note-t-14">
+<ab>For <rs type="pers" key="941">Van Rossum Du Chattel</rs>, <ref target="let025.xml#n-13">see letter 25, n. 13.</ref>
+                    </ab>
+                </note>
+<note n="15" xml:id="n-15" target="#note-t-15">
+<ab>For <rs type="pers" key="1218">Mesdag</rs>’s drawings, among them <rs type="ill" key="1939">
+                            <hi rend="ital">Waterfall at Trolhetta (Norway)</hi>
+                        </rs>, <ref target="let256.xml#n-18">see letter 256, n. 18.</ref>
+                    </ab>
+                </note>
+<note n="16" xml:id="n-16" target="#note-t-16">
+<ab>
+                        <rs type="pers" key="1107">Jozef Israëls</rs>, <rs type="otherart" key="334">
+                            <hi rend="ital">Denken en droomen</hi>
+                        </rs> (Thinking and dreaming), p. 10, cat. no. 47 (present whereabouts unknown).</ab>
+                </note>
+<note n="17" xml:id="n-17" target="#note-t-17">
+<ab>
+                        <rs type="pers" key="1107">Jozef Israëls</rs>, <rs type="otherart" key="484">
+                            <hi rend="ital">Kindervermaak</hi>
+                        </rs> (Children’s pleasures), p. 10, cat. no. 50 (present whereabouts unknown). There is also an etching of <hi rend="ital">Kinderen bij het varkenskot </hi>(Children at the pig-sty) (Amsterdam, Rijksprentenkabinet). <rs type="ill" key="195">Ill. 195</rs>.</ab>
+                </note>
+<note n="18" xml:id="n-18" target="#note-t-18">
+      <ab>
+                        <rs type="pers" key="1107">Jozef Israëls</rs>, <rs type="otherart" key="335">
+                            <hi rend="ital">Een middagmaal</hi>
+                        </rs> (A midday meal), p. 10, cat. no. 48. Israëls painted four watercolours after his popular <rs type="otherart" key="336">
+                            <hi rend="ital">The frugal meal</hi>
+                        </rs>, 1876 (Glasgow, Glasgow Museums and Art Galleries), which was shown at the Salon of 1876. In fact, at 88.9 x 138.7 cm it was not particularly small. Cf. <ref target="let211.xml#n-17">letter 211, n. 17.</ref> The print after it, <rs type="otherart" key="337">
+                            <hi rend="ital">Intérieur de village</hi>
+                        </rs> (Village interior), appeared in <hi rend="ital">L’Art. Revue Hebdomadaire Illustrée</hi> 3-3 (1876), and in 1882 <hi rend="ital">Eigen Haard</hi> also published an engraving of it (p. 71 and 76). Cf. Dekkers, 1993, pp. 76-78, cat. no. 2. For Israëls’s <rs type="ill" key="191">
+                            <hi rend="ital">Mother Jopje in her dwelling</hi>
+                        </rs> in <hi rend="ital">Kunstkronijk</hi>, <ref target="let256.xml#n-10">see letter 256, n. 10.</ref>
+                    </ab>
+                </note>
+                <note n="b" xml:id="n-b" target="#note-t-b">
+                    <ab>Van Gogh may mean: ‘and must believe that it’s going well at the moment’.</ab>
+                </note>
+<note n="19" xml:id="n-19" target="#note-t-19">
+      <ab>For this quotation from <rs type="pers" key="1226">Millet</rs> in Sensier, <hi rend="ital">
+                            <rs type="lit" key="238">La vie et l’oeuvre de J.F. Millet</rs>
+                        </hi>, <ref target="let210.xml#n-5">see letter 210, n. 5.</ref>
+                    </ab>
+                </note>
+<note n="20" xml:id="n-20" target="#note-t-20">
+<ab>Van Gogh added the comparison ‘just like the farmer does his corn or hay’ later.</ab>
+                </note>
+<note n="21" xml:id="n-21" target="#note-t-21">
+<ab>Van Gogh is evidently mistaken, because in <ref target="let256.xml">letter 256</ref> of Sunday, 13 August he said that he received <rs type="pers" key="1306">Van Rappard</rs>’s letter the evening before.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. The Hague, Sunday, 5 November 1882.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let280"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">280</idno>
+<idno type="collectedletters">241</idno>
+<idno type="brieven1990">281</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>The Hague</vg:placeLet>
+                        <vg:dateLet>Sunday, 5 November 1882</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. The Hague, Sunday, 5 November 1882.</p>
+<note type="ongoingTopic" n="1">
+<p>Van Rappard sends extracts from an article by Herkomer <ref target="let278.xml">(278)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. nos. b263 a-b V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>The letter goes into Theo’s reaction to the letter of 1 November about Herkomer’s article (<ref target="let278.xml">letter 278</ref>) and must have been written on a Sunday: Van Gogh had had Jozef Blok as a model ‘this morning’ (<ref target="#l-94">ll. 94-95a</ref>) and hopes that the same model ‘will come again some other Sunday morning’ <ref target="#l-105">(l. 105)</ref>. This, together with the wish that Theo should send money again by the tenth at the latest <ref target="#l-157">(l. 157)</ref>, means that the letter can be dated to Sunday, 5 November 1882.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0263 a" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000321_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000321_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000321_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000321_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000321_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000321_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="VGM001000321_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000321_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000321_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0263 a" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000321_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000321_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000321_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000321_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000321_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000321_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000321_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000321_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000321_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0263 b" xml:id="surf-pb-2r">
+            <graphic mimeType="image/tiff" url="VGM001000322_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-2r-5">
+<graphic mimeType="image/tiff" url="VGM001000322_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000322_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000322_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0263 b" xml:id="surf-pb-2v">
+            <graphic mimeType="image/tiff" url="VGM001000322_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-2v-6">
+<graphic mimeType="image/tiff" url="VGM001000322_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000322_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000322_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Waarde Theo,</ab>
+                <lb n="1*" xml:id="l-1s"/>
+<ab>Uw brief &amp; den inhoud er van waren me <lb n="2" xml:id="l-2"/>zeer welkom. Eene kwestie die misschien meer &amp; meer aan de orde van den <lb n="3" xml:id="l-3"/>dag zal zijn is die waarvan ge spreekt<c type="kp">_</c> Men zal wel genoodzaakt zijn te erkennen <lb n="4" xml:id="l-4"/>veel nieuws waarin men aanvankelijk een vooruitgang meende te zien<c type="kk">/</c> <lb n="5" xml:id="l-5"/>inderdaad minder degelijkheid heeft dan het oude &amp; gevolgelijk de <lb n="6" xml:id="l-6"/>behoefte zich openbaren zal aan sterke mannen om den boel weer te <lb n="7" xml:id="l-7"/>redresseeren.<anchor n="1" xml:id="note-o-1"/> Daar ik meen redeneeren hierover weinig aan de zaak zelf <lb n="8" xml:id="l-8"/>af of toe zal doen zoo acht ik het tamelijk overbodig meer er over te schrijven<c type="kp">_</c> <lb n="9" xml:id="l-9"/>Alleen ik voor mij kan moeielijk zeggen dat ik Uw gedachte deelen <lb n="10" xml:id="l-10"/>kan die ge aldus uitdrukt<c type="kk">/</c> “het ligt voor mij in den aard der <lb n="11" xml:id="l-11"/>zaak dat de gewenschte verandering komen zal”.– Denk eens <lb n="12" xml:id="l-12"/>na hoeveel groote mannen of gestorven zijn of... niet <lb n="13" xml:id="l-13"/>lang meer met ons zijn zullen – Millet<c type="kk">/</c> Brion<c type="kk">/</c> Troyon<c type="kk">/</c> <lb n="14" xml:id="l-14"/>Rousseau<c type="kk">/</c> Daubigny<c type="kk">/</c> Corot – zoo’n massa meer – zijn er niet meer<c type="kk">/</c> <lb n="15" xml:id="l-15"/>denk<c type="kk">/</c> zeg ik<c type="kk">/</c> nog meer achteruit<c type="kk">/</c> Leys<c type="kk">/</c> Gavarni<c type="kk">/</c> de Groux <lb n="16" xml:id="l-16"/>(ik noem er maar een paar)<c type="kk">/</c> nog verder<c type="kk">/</c> Ingres<c type="kk">/</c> Delacroix<c type="kk">/</c> Gericault<c type="kk">/</c> <lb n="17" xml:id="l-17"/>denk hoe <hi rend="ital">oud</hi> de <hi rend="ital">moderne</hi> kunst reeds is<c type="kp">_</c>
+                    <anchor n="2" xml:id="note-o-2"/> Voeg er nog bij velen <lb n="17a" xml:id="l-17a"/>die hoog bejaard zijn<c type="kp">_</c>
+                </ab>
+                <lb n="18" xml:id="l-18"/>
+<ab rend="indent">Tot <hi rend="ital">Millet</hi> &amp; <hi rend="ital">Jules Breton</hi> was er evenwel steeds <lb n="19" xml:id="l-19"/>vooruitgang mijns inziens doch deze twee mannen <lb n="20" xml:id="l-20"/>te overtreffen<c type="kk">/</c> praat me er niet van<c type="kp">_</c>–</ab>
+                <lb n="21" xml:id="l-21"/>
+<ab rend="indent">Hun genie moge in vroegere<c type="kk">/</c> tegenwoordige<c type="kk">/</c> <lb n="22" xml:id="l-22"/>of latere tijden worden geevenaard<c type="kk">/</c> overtreffen is niet <lb n="23" xml:id="l-23"/>mogelijk.<anchor n="3" xml:id="note-o-3"/> Men is als men in die hooge zone komt onder <lb n="24" xml:id="l-24"/>een gelijkheid van genieen maar hooger dan den <lb n="25" xml:id="l-25"/>top van den berg kan men niet klimmen. <hi rend="ital">Israels</hi> b.v. <lb n="26" xml:id="l-26"/>moge Millet evenaren<c type="kk">/</c> van overtreffen of minder <lb n="27" xml:id="l-27"/>zijn is bij ’t genie geen sprake.</ab>
+                <lb n="28" xml:id="l-28"/>
+<ab rend="indent">Nu echter is op ’t gebied van kunst den top bereikt<c type="kp">_</c>– Zeer zeker <lb n="29" xml:id="l-29"/>zullen we in de jaren die komen nog prachtige dingen zien; <lb n="30" xml:id="l-30"/>iets meer subliems dan we reeds gezien hebben – neen. <lb n="31" xml:id="l-31"/>En ik voor mij vrees dat misschien over een klein aantal jaren <lb n="32" xml:id="l-32"/>er een soort <hi rend="ital">paniek</hi> zal zijn in dezen vorm – <hi rend="ital">Sedert Millet</hi> zijn we <lb n="33" xml:id="l-33"/>enorm gezakt – ’t woord decadence<c type="kk">/</c> nu gefluisterd of <lb n="34" xml:id="l-34"/>geprononceerd in bedekte termen (zie Herkomer)<c type="kk">/</c>
+                    <anchor n="4" xml:id="note-o-4"/> zal dan klinken <lb n="35" xml:id="l-35"/>als een alarmklok. Menigeen<c type="kk">/</c> b.v. ik zelf<c type="kk">/</c> houd zich nu stil <lb n="36" xml:id="l-36"/>omdat men toch al den naam heeft van mauvais coucheur<anchor n="5" xml:id="note-o-5"/> <lb n="37" xml:id="l-37"/>en praten er over niets helpt<c type="kp">_</c>– Dat<c type="kk">/</c> nl. ’t praten – is niet wat <lb n="38" xml:id="l-38"/>men doen moet – men moet werken<c type="kk">/</c> zij het met rouw<anchor n="a" xml:id="note-o-a"/> in t’hart<c type="kk">/</c> <lb n="39" xml:id="l-39"/>die later ’t hardst schreeuwen zullen over decadence<c type="kk">/</c> zullen er zelf <lb n="40" xml:id="l-40"/>’t meest toe hooren. Ik herhaal het – hieraan zult ge ze <lb n="41" xml:id="l-41"/>kennen<c type="kk">/</c>
+                    <anchor n="6" xml:id="note-o-6"/> aan hun werk<c type="kk">/</c> en het zullen ook niet de <lb n="42" xml:id="l-42"/>meest welsprekenden zijn die de waarste dingen zullen zeggen<c type="kp">_</c> <lb n="43" xml:id="l-43"/>Zie Millet zelf<c type="kk">/</c> zie Herkomer<c type="kk">/</c> ze zijn werkelijk geen orateurs <lb n="44" xml:id="l-44"/>en spreken bijna à contre coeur.</ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="45" xml:id="l-45"/>
+<ab rend="indent">Genoeg hierover, ik vind in U iemand die veel van de groote <lb n="46" xml:id="l-46"/>mannen begrijpt en ik vind het heerlijk nu en dan eens te <lb n="47" xml:id="l-47"/>hooren over hen dingen die ik niet weet<c type="kk">/</c> zoo als b.v. wat ge <lb n="48" xml:id="l-48"/>me schrijft over Daumier. de serie portretten van députés &amp;c.<c type="kk">/</c> <lb n="49" xml:id="l-49"/>het Sch<hi rend="ss">ij</hi> Wagon 3<hi rend="ss">me</hi> classe – la <hi rend="ital">Révolution</hi>
+                    <c type="kk">/</c> ken ik geen <lb n="50" xml:id="l-50"/>van allen.<anchor n="7" xml:id="note-o-7"/> Nu heb ik wel ze door wat ge zegt niet zelf gezien <lb n="51" xml:id="l-51"/>maar evenwel wordt in mijn verbeelding de personaliteit van <lb n="52" xml:id="l-52"/>Daumier er importanter door. Ik hoor nog liever spreken <lb n="53" xml:id="l-53"/>over zulke mannen dan over b.v. den laatsten Salon<c type="kp">_</c>
+                </ab>
+                <lb n="54" xml:id="l-54"/>
+<ab rend="indent">Nu over ’t geen ge schrijft van Vie moderne<c type="kk">/</c> <lb n="55" xml:id="l-55"/>of liever over een soort papier dat Buot u beloofd <lb n="56" xml:id="l-56"/>had.<anchor n="8" xml:id="note-o-8"/> Dit is iets wat me zeer interesseert.</ab>
+                <lb n="57" xml:id="l-57"/>
+<ab rend="indent">Begrijp ik het wel dat dit papier zóó is dat <lb n="58" xml:id="l-58"/>wanneer men er eene teekening op vervaardigd <lb n="59" xml:id="l-59"/>(ik veronderstel met autographische inkt)<c type="kk">/</c> deze <lb n="60" xml:id="l-60"/>teekening <hi rend="ital">zoo als zij is</hi>
+                    <anchor n="9" xml:id="note-o-9"/> – zonder <lb n="61" xml:id="l-61"/>intermédiair van een tweeden teekenaar <lb n="62" xml:id="l-62"/>of graveur of lithograaf – kan worden getransporteerd <lb n="63" xml:id="l-63"/>op een steen of er een cliché van gemaakt kan <lb n="64" xml:id="l-64"/>worden<c type="kk">/</c> zoodat daarvan een onbepaald aantal <lb n="65" xml:id="l-65"/>afdrukken te verkrijgen zijn. Welke laatsten <lb n="66" xml:id="l-66"/>alsdan zijn facsimiles van de oorspronkelijke <lb n="67" xml:id="l-67"/>teekening. Als dit zoo is<c type="kk">/</c> wees dan zoo <lb n="68" xml:id="l-68"/>goed mij al die informatie te geven die ge te weten komen kunt omtrent de wijs <lb n="69" xml:id="l-69"/>waarop men op dit papier werken moet en zie me <lb n="70" xml:id="l-70"/>er iets van te bezorgen waarop ik eenige proeven <lb n="71" xml:id="l-71"/>kan nemen.</ab>
+                <lb n="72" xml:id="l-72"/>
+<ab rend="indent">Kon ik mijn proeven nemen vóór gij eens komt dan <lb n="73" xml:id="l-73"/>konden we bij die gelegenheid bespreken wat er mee te doen. <lb n="74" xml:id="l-74"/>Ik acht het mogelijk dat binnen betrekkelijk korten <lb n="75" xml:id="l-75"/>tijd er misschien vraag zal zijn naar employés voor <lb n="76" xml:id="l-76"/>illustratie<c type="kk">/</c> meer dan momenteel.</ab>
+                <lb n="77" xml:id="l-77"/>
+<ab rend="indent">Als ik voor mij mijn portefeuilles vul met studies <lb n="78" xml:id="l-78"/>naar die modellen die ik grijpen of vangen kan zoo <lb n="79" xml:id="l-79"/>zal ik wat in mijn marsje krijgen waardoor 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                    <lb n="80" xml:id="l-80"/>ik hoop ik in de termen kan vallen om emplooi <lb n="81" xml:id="l-81"/>te krijgen. Om het illustreeren <hi rend="ital">vol te houden</hi> <lb n="82" xml:id="l-82"/>zoo als b.v. Morin<c type="kk">/</c> Lançon<c type="kk">/</c> Renouard<c type="kk">/</c> Jules Ferat<c type="kk">/</c> Worms indertijd<c type="kk">/</c> <lb n="83" xml:id="l-83"/>moet men heel wat amunitie hebben in den vorm <lb n="84" xml:id="l-84"/>van diverse studies op allerlei gebied<c type="kp">_</c>
+                </ab>
+                <lb n="85" xml:id="l-85"/>
+<ab rend="indent">Die zoek ik bijeen te krijgen zooals ge weet &amp; <lb n="86" xml:id="l-86"/>bij gelegenheid zien zult.</ab>
+                <lb n="87" xml:id="l-87"/>
+<ab rend="indent">à propos. tot heden ontving ik nog <hi rend="ital">niet</hi> ’t pakket <lb n="88" xml:id="l-88"/>studies ’t welk gij mij schreeft door tusschenkomst van <lb n="89" xml:id="l-89"/>Rue Chaptal<anchor n="10" xml:id="note-o-10"/> geretourneerd te hebben. Zouden die <lb n="90" xml:id="l-90"/>reeds op de Plaats<anchor n="11" xml:id="note-o-11"/> gearriveerd zijn? Als ge meent van <lb n="91" xml:id="l-91"/>ja zou ik ze laten halen<c type="kk">/</c> daar in verband met <lb n="92" xml:id="l-92"/>dingen die ik in den laatsten tijd maak ze me <lb n="93" xml:id="l-93"/>nuttig zijn.</ab>
+                <lb n="94" xml:id="l-94"/>
+<ab rend="indent">Weet ge wie ik van morgen geteekend heb. Blok de <lb n="95" xml:id="l-95"/>boekenjood<c type="kk">/</c> niet David maar die kleine die op t’Binnenhof <lb n="95a" xml:id="l-95a"/>staat<c type="kp">_</c>
+                    <anchor n="12" xml:id="note-o-12"/> <lb n="96" xml:id="l-96"/>Ik wou ik er meer uit die familie had want ze zijn <lb n="97" xml:id="l-97"/>wel echt als type.</ab>
+                <lb n="98" xml:id="l-98"/>
+<ab rend="indent">’t Is fameus moeielijk die typen te krijgen die men <lb n="99" xml:id="l-99"/>’t liefst zou hebben – intusschen bevind ik me wel <lb n="100" xml:id="l-100"/>met <hi rend="ital">dat</hi> te maken <hi rend="ital">wat ik krijgen kan</hi>
+                    <c type="kk">/</c> zonder de <lb n="101" xml:id="l-101"/>anderen die ik maken zou als ik ze maar voor ’t kiezen <lb n="102" xml:id="l-102"/>had uit ’t oog te verliezen.</ab>
+                <lb n="103" xml:id="l-103"/>
+<ab rend="indent">Ik ben erg blij met Blok<c type="kk">/</c> hij brengt me dingen <lb n="104" xml:id="l-104"/>van veel jaren geleden in herinnering<c type="kk">/</c> ik hoop hij <lb n="105" xml:id="l-105"/>nog wel eens meer op een Zondagmorgen zal komen.</ab>
+                <lb n="106" xml:id="l-106"/>
+<ab rend="indent">Natuurlijkerwijs<c type="kk">/</c> bij het werken gevoelt men steeds en moet <lb n="107" xml:id="l-107"/>men gevoelen een soort ontevredenheid over zichzelf<c type="kk">/</c> een verlangen <lb n="108" xml:id="l-108"/>om het veel beter te kunnen doen maar toch<c type="kk">/</c> het is <lb n="109" xml:id="l-109"/>wel iets heerlijks en gezelligs langzamerhand allerlei <lb n="110" xml:id="l-110"/>figuren bijeen te krijgen – ofschoon hoe meer <lb n="111" xml:id="l-111"/>men er maakt hoe meer men er nog bij noodig <lb n="112" xml:id="l-112"/>merkt te hebben.</ab>
+                <lb n="113" xml:id="l-113"/>
+<ab rend="indent">Men kan niet alles te gelijk doen maar ’t zal <lb n="114" xml:id="l-114"/>absoluut noodig zijn ik eens een aantal <lb n="115" xml:id="l-115"/>paardenstudies maak<c type="kk">/</c> niet maar krabbels op straat maar <lb n="116" xml:id="l-116"/>er eens model voor nemen. Ik weet een <lb n="117" xml:id="l-117"/>oud wit paard<c type="kk">/</c> zoo’n echte knol als maar met <lb n="118" xml:id="l-118"/>mogelijkheid te bedenken is (aan ’t gasfabriek)<anchor n="13" xml:id="note-o-13"/> maar de man 
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                    <lb n="119" xml:id="l-119"/>die het arme beest alle mogelijke zware karweien laat doen <lb n="120" xml:id="l-120"/>en er van haalt wat er van te halen is<c type="kk">/</c> vroeg mij veel er voor<c type="kk">/</c> <lb n="121" xml:id="l-121"/>n.l. drie gulden om bij mij een morgen te komen<c type="kk">/</c> een daalder<anchor n="14" xml:id="note-o-14"/> <lb n="122" xml:id="l-122"/>op zijn minst – mits ik dan Zondags kome – bij hem.</ab>
+                <lb n="123" xml:id="l-123"/>
+<ab rend="indent">En als ge nagaat dat ik om dat wat ik noodig heb<c type="kk">/</c> n.l. <lb n="124" xml:id="l-124"/>een 30tal flinke studies b.v<c type="kp">_</c>
+                    <c type="kk">/</c> toch nog al eens menigen morgen <lb n="125" xml:id="l-125"/>zou moeten werken<c type="kk">/</c> komt het me te duur uit. Maar ik <lb n="125b" xml:id="l-125b"/>zal wel eens een betere gelegenheid vinden.</ab>
+                <lb n="126" xml:id="l-126"/>
+<ab rend="indent">Ik kan veel makkelijker hier &amp; daar eens voor <hi rend="ital">heel korten</hi> <lb n="127" xml:id="l-127"/>
+                    <hi rend="ital">tijd</hi> een paard krijgen<c type="kk">/</c> daar zijn de lui wel eens willig voor – maar in heel korten tijd <hi rend="ital">kan</hi> <lb n="128" xml:id="l-128"/>men dat niet doen wat eigentlijk gedaan moet worden dus <lb n="128a" xml:id="l-128a"/>dat helpt me weinig<c type="kp">_</c> <lb n="129" xml:id="l-129"/>Ik tracht snel te werken want anders komt men er niet <lb n="130" xml:id="l-130"/>maar een studie waar men wat aan heeft vordert alligt <lb n="131" xml:id="l-131"/>een half uur<c type="kk">/</c> om maar iets te noemen toch – dus <lb n="132" xml:id="l-132"/>men komt steeds op ’t eigentlijke poseeren terug. Op <lb n="133" xml:id="l-133"/>Schevening b.v. heb ik wel eens op ’t strand een jongen of een kerel <lb n="134" xml:id="l-134"/>
+                    <hi rend="ital">even laten stilstaan</hi> zooals men dat zegt<c type="kk">/</c> het resultaat <lb n="135" xml:id="l-135"/>was altijd een groot verlangen bij mij naar een langere <lb n="136" xml:id="l-136"/>pose en het even stilstaan is me niet genoeg<c type="kk">/</c> noch voor <lb n="137" xml:id="l-137"/>een mensch noch voor een paard.</ab>
+                <lb n="138" xml:id="l-138"/>
+<ab rend="indent">Als ik wel ingelicht ben konden de teekenaars voor de Graphic die <lb n="139" xml:id="l-139"/>aan de beurt waren steeds daar op een atelier aan ’t bureau zelf over <lb n="140" xml:id="l-140"/>model disponeeren.<anchor n="15" xml:id="note-o-15"/> Dickens zegt een paar aardige dingen over de <lb n="141" xml:id="l-141"/>schilders van <hi rend="ital">zijn</hi> tijd en hun verkeerde manier van werken<c type="kk">/</c> n.l. het <lb n="142" xml:id="l-142"/>slaafs en toch ten halve zich houden aan ’t model. Hij zegt: Kerels <lb n="143" xml:id="l-143"/>begrijp toch goed dat Uw model <hi rend="ital">niet</hi> is uw einddoel maar <hi rend="ital">het</hi> <lb n="144" xml:id="l-144"/>
+                    <hi rend="ital">middel om uw gedachte en inspiratie corps en kracht te</hi> <lb n="145" xml:id="l-145"/>
+                    <hi rend="ital">geven</hi>. Kijk naar de franschen (b.v. Ary Scheffer) en zie eens <lb n="146" xml:id="l-146"/>hoeveel beter zij het doen dan gij.–<anchor n="16" xml:id="note-o-16"/> ’t Is net of de Engelschen er <lb n="147" xml:id="l-147"/>naar geluisterd hebben – ze zijn <hi rend="ital">blijven</hi> werken met model <lb n="148" xml:id="l-148"/>maar het model hebben ze grooter<c type="kk">/</c> flinker leeren zien <lb n="149" xml:id="l-149"/>en beter partij er van leeren trekken voor gezonder en <lb n="150" xml:id="l-150"/>nobeler composities dan die van Dickens’ schilderende tijdgenooten.</ab>
+                <lb n="151" xml:id="l-151"/>
+<ab rend="indent">Twee dingen die eeuwig waar blijven en elkaar <lb n="152" xml:id="l-152"/>aanvullen zijn m.i. – doof uw inspiratie en verbeeldings<c type="shy">-</c>
+                    <lb n="153" xml:id="l-153"/>kracht niet uit<c type="kk">/</c> wordt geen slaaf van ’t model – en <lb n="154" xml:id="l-154"/>het andere<c type="kk">/</c> neem model en bestudeer het want anders krijgt <lb n="155" xml:id="l-155"/>Uw inspiratie geen plastisch corps.</ab>
+                <lb n="156" xml:id="l-156"/>
+<ab rend="indent">Toen Uw brief kwam had ik dadelijk dingen te betalen<c type="kk">/</c> ik <lb n="157" xml:id="l-157"/>hoop het U niet inconvenieert niet later dan 10 Nov. weer te zenden<c type="kp">_</c> <lb n="158" xml:id="l-158"/>Weet dat de kwestie van dat bewuste procedé waarover Buot U sprak <lb n="159" xml:id="l-159"/>mij nog al belangrijk toeschijnt<c type="kk">/</c> ik zou het erg aardig vinden als ik ’t leeren <lb n="160" xml:id="l-160"/>kon en wil graag er mijn best op doen. adieu<c type="kk">/</c> met een <lb n="161" xml:id="l-161"/>handdruk<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="162" xml:id="l-162"/>
+<ab>t. à t.</ab>
+                <lb n="162*" xml:id="l-162s"/>
+<ab>Vincent.</ab>
+<vg:whiteline/>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+                <lb n="163" xml:id="l-163"/>
+<ab>Weet ge welke effekten men s’morgens vroeg hier tegenwoordig <lb n="164" xml:id="l-164"/>ziet – het is prachtig – dat wat Brion op <lb n="165" xml:id="l-165"/>’t Sch<hi rend="ss">ij</hi> van de Luxembourg<c type="kk">/</c> <hi rend="ital">la fin du déluge</hi>
+                    <c type="kk">/</c> schilderde. <lb n="166" xml:id="l-166"/>n.l. die streep rood licht aan den horizon waarboven <lb n="167" xml:id="l-167"/>regenwolken.<anchor n="17" xml:id="note-o-17"/> Dit brengt me op de landschapschilders. <lb n="168" xml:id="l-168"/>Vergelijk die van den tijd van Brion bij nu<c type="kp">_</c>
+                </ab>
+                <lb n="169" xml:id="l-169"/>
+<ab rend="indent">Is ’t nu beter dan toen – ik betwijfel het. Gaarne <lb n="170" xml:id="l-170"/>wil ik erkennen men op dat gebied veel productiever is <lb n="171" xml:id="l-171"/>dan toen – maar ofschoon ik mij niet weerhouden kan <lb n="172" xml:id="l-172"/>te bewonderen wat men nu maakt<c type="kk">/</c> de oude landschappen <lb n="173" xml:id="l-173"/>op meer ouderwetsche manier doen me telkens <lb n="174" xml:id="l-174"/>pleizier als ik ze zie. Er zijn een paar jaren geweest <lb n="175" xml:id="l-175"/>dat ik b.v. een Schelfhout voorbij liep en zoo iets dacht van<c type="kk">/</c> <lb n="176" xml:id="l-176"/>dat’s niet de moeite waard<c type="kp">_</c>– Intusschen<c type="kk">/</c> het <lb n="177" xml:id="l-177"/>nieuwe<c type="kk">/</c> ofschoon het iemand inpakt<c type="kk">/</c> blijft niet altijd op <lb n="178" xml:id="l-178"/>den duur dien sterken<c type="kk">/</c> aangrijpenden indruk maken en <lb n="179" xml:id="l-179"/>een naif sch<hi rend="ss">ij</hi> zoo als een Schelfhout of een Ségé<c type="kk">/</c> <lb n="180" xml:id="l-180"/>een Jules Bakhuyzen<c type="kk">/</c> ziet men als men lang op nieuwere <lb n="181" xml:id="l-181"/>dingen gekeken heeft met levendig pleizier terug.</ab>
+                <lb n="182" xml:id="l-182"/>
+<ab rend="indent">Ik heb het waarachtig niet expres er op aangelegd <lb n="183" xml:id="l-183"/>om ietwat gedesenchanteerd te zijn omtrent den <lb n="184" xml:id="l-184"/>vooruitgang<c type="kk">/</c> het heeft zich integendeel zeer tegen <lb n="185" xml:id="l-185"/>mijn zin onwillekeurig in mijn gedachten <lb n="186" xml:id="l-186"/>beginnen te ontwikkelen doordat ik hoe langer hoe <lb n="187" xml:id="l-187"/>meer een soort leegte voelde <lb n="188" xml:id="l-188"/>die ik met de dingen van den dag niet opvullen kan<c type="kp">_</c>
+                    <anchor n="18" xml:id="note-o-18"/> <lb n="189" xml:id="l-189"/>Ik denk daar terwijl ik zoek naar een voorbeeld aan <lb n="190" xml:id="l-190"/>oude houtsneden van Jacque die ik zeker 10 jaar geleden bij C.M. <lb n="191" xml:id="l-191"/>zag<c type="kk">/</c> het was een serie <hi rend="ital">Les mois</hi>
+                    <c type="kp">_</c>
+                    <anchor n="19" xml:id="note-o-19"/> Ze waren gedaan op <lb n="192" xml:id="l-192"/>de oude manier van Jacque<c type="kk">/</c> op de manier van die etsen <lb n="193" xml:id="l-193"/>die in jaarlijksche serien verschenen of zelfs nog meer ouderwetsch<c type="kp">_</c> <lb n="194" xml:id="l-194"/>De <hi rend="ital">locale toon</hi> – is er minder in dan in zijn later <lb n="195" xml:id="l-195"/>werk – de teekening echter en iets kernachtigs herinneren <lb n="196" xml:id="l-196"/>aan Millet. Zie<c type="kk">/</c> bij de vele croquis in de tegenwoordige <lb n="197" xml:id="l-197"/>tijdschriften dunkt me dat een <hi rend="ital">niet</hi> geheel <lb n="198" xml:id="l-198"/>
+                    <hi rend="ital">on</hi>conventioneele elegance dat typige<c type="kk">/</c> echt rustique dreigt <lb n="199" xml:id="l-199"/>te vervangen waarvan de croquis van Jacque die ik bedoel <lb n="200" xml:id="l-200"/>een voorbeeld zijn.</ab>
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>
+                <lb n="201" xml:id="l-201"/>
+<ab rend="indent">Zou dit in het leven en de personen der artisten niet ook zijn <lb n="202" xml:id="l-202"/>oorzaak hebben. ’k Weet niet hoe Uw ervaring is maar vindt <lb n="203" xml:id="l-203"/>gij tegenwoordig b.v. veel lui die trek hebben om eens een <lb n="204" xml:id="l-204"/>verre wandeling in grijs weer te maken<c type="kp">_</c>– Gij zelf zoudt <lb n="205" xml:id="l-205"/>dat met pleizier doen en er van genieten zoo als ik ook <lb n="206" xml:id="l-206"/>maar voor velen is het een corvée. Zoo viel het mij <lb n="207" xml:id="l-207"/>op dat als men met schilders spreekt de conversatie in <lb n="208" xml:id="l-208"/>verreweg de meeste gevallen <hi rend="ital">niet</hi> interessant is<c type="kp">_</c>
+                </ab>
+                <lb n="209" xml:id="l-209"/>
+<ab rend="indent">Mauve heeft het sterk als hij wil dat hij in woorden iets zeggen <lb n="210" xml:id="l-210"/>kan zoo dat men het ziet<c type="kk">/</c> en zeer zeker hebben anderen hier het ook <lb n="211" xml:id="l-211"/>als zij willen. Toch<c type="kk">/</c> dat eigenaardige dat maakt <lb n="212" xml:id="l-212"/>dat als men met een schilder spreekt men dadelijk iets van buiten <lb n="213" xml:id="l-213"/>voelt<c type="kk">/</c> is ’t Uw impressie dat zoo sterk is als vroeger?</ab>
+                <lb n="214" xml:id="l-214"/>
+<ab rend="indent">Ik las nog deze week in Forster<c type="kk">/</c> Life of Ch<c type="kp">_</c> Dickens<c type="kk">/</c> allerlei <lb n="215" xml:id="l-215"/>bijzonderheden omtrent groote wandelingen op Hampstead <lb n="216" xml:id="l-216"/>Heath &amp;c<c type="kp">_</c> buiten Londen waarvan het einddoel was <lb n="217" xml:id="l-217"/>b.v. bacon &amp; eggs te gaan gebruiken in een oud <lb n="218" xml:id="l-218"/>herbergje ver weg<c type="kk">/</c> geheel buiten.<anchor n="20" xml:id="note-o-20"/> Die wandelingen waren <lb n="219" xml:id="l-219"/>zeer gezellig en vrolijk – dat nam niet weg ’t meestal <lb n="220" xml:id="l-220"/>aldus was dat serieuse plannen gemaakt werden voor <lb n="221" xml:id="l-221"/>boeken of besproken werd wat Dickens nog veranderen zou <lb n="222" xml:id="l-222"/>aan dit of dat figuur. Er is tegenwoordig iets gejaagds en <lb n="223" xml:id="l-223"/>gehaasts wat me niet bevalt en ’t is net als of de dood er <lb n="224" xml:id="l-224"/>overheen gegaan is. Ik wenschte wel dat Uw verwachting <lb n="225" xml:id="l-225"/>“dat de gewenschte verandering komen zal” bewaarheid werd <lb n="226" xml:id="l-226"/>doch voor mij ligt het niet “in den aard van de zaak”<c type="kp">_</c>
+                </ab>
+                <lb n="227" xml:id="l-227"/>
+<ab rend="indent">Wat hier ook van zijn zal<c type="kk">/</c> zich te opponeeren in woorden <lb n="228" xml:id="l-228"/>is een erge achteraf bijzaak dunkt me en wat ieder <lb n="229" xml:id="l-229"/>die belang in de zaak stelt in zijn kringetje doen moet <lb n="230" xml:id="l-230"/>is iets trachten te maken of te helpen maken<c type="kp">_</c>
+                </ab>
+                <lb n="231" xml:id="l-231"/>
+<ab rend="indent">Heb weer eens gewerkt aan mijnwerkersvrouwen die zakken <lb n="232" xml:id="l-232"/>kolen dragen in de sneeuw – aquarel.<anchor n="21" xml:id="note-o-21"/> Vooral <lb n="233" xml:id="l-233"/>echter heb ik er een stuk of 12 studies voor geteekend <lb n="234" xml:id="l-234"/>van figuren<anchor n="22" xml:id="note-o-22"/> en 3 koppen<anchor n="23" xml:id="note-o-23"/> en ik ben nog niet klaar<c type="kp">_</c> <lb n="235" xml:id="l-235"/>In de aquarel heb ik toch geloof ik wel het effekt <lb n="236" xml:id="l-236"/>maar het is mij nog niet groot genoeg van karakter.</ab>
+                <lb n="237" xml:id="l-237"/>
+<ab rend="indent">De Werkelijkheid is iets als les glaneuses van Millet<anchor n="24" xml:id="note-o-24"/> – streng – <lb n="238" xml:id="l-238"/>dus begrijpt ge dat men niet een effet de neige er van maken moet<c type="kk">/</c> <lb n="239" xml:id="l-239"/>’t welk maar een impressie zou zijn en slechts dan raison d’etre zou <lb n="240" xml:id="l-240"/>hebben als ’t om ’t landschap te doen ware. Ik denk dat ik – ofschoon <lb n="241" xml:id="l-241"/>de studies die ik voorloopig heb U welligt bevallen zullen – juist omdat <lb n="242" xml:id="l-242"/>ze me beter gelukt zijn dan veel anderen – weer van voren af aan beginnen <lb n="243" xml:id="l-243"/>zal. Het zou geloof ik bepaald geschikt zijn voor <lb n="244" xml:id="l-244"/>de Vie moderne. Als ik ’t papier krijg heb ik wel al dadelijk b.v. één van <lb n="245" xml:id="l-245"/>de figuren om eens een proef te nemen. Maar het moet een <lb n="246" xml:id="l-246"/>troepje vrouwen worden<c type="kk">/</c> <lb n="247" xml:id="l-247"/>een kleine karavaan.</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-11" n="11">zal”.– &lt; zal.–</note>
+<note target="l-29" n="29">zien; &lt; zien</note>
+<note target="l-36" n="36">omdat &lt; om dat</note>
+<note target="l-50" n="50">niet zelf &lt; niet ze zelf</note>
+<note target="l-85" n="85">bijeen &lt; bij een</note>
+<note target="l-110" n="110">bijeen &lt; bij een</note>
+<note target="l-185" n="185">zin &lt; zin zich</note>
+<note target="l-188" n="188">kan &lt; <hi rend="ital">It is possible that Van Gogh wrote</hi> ‘kon’.</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo,</ab>
+<ab>Your letter and its contents were very welcome. A point that will perhaps be raised more and more is the one you refer to. People will be forced to recognize that much of what’s new, in which people at first thought they saw progress, is indeed less sound than the old, and consequently the need will become apparent for strong men to redress the balance.<anchor n="1" xml:id="note-t-1"/> Since I believe arguing about this will make no difference to the matter itself, I think it quite unnecessary to write more about it. But for my part I can hardly say that I share your idea that you express as follows: ‘in my view it’s in the nature of things that the desired change will come’. Just think of how many great men have died or... won’t be with us much longer — <rs type="pers" key="1226">Millet</rs>, <rs type="pers" key="891">Brion</rs>, <rs type="pers" key="1389">Troyon</rs>, <rs type="pers" key="1332">Rousseau</rs>, <rs type="pers" key="976">Daubigny</rs>, <rs type="pers" key="971">Corot</rs> — and a host of others — are no more. Think further back, I say, <rs type="pers" key="1176">Leys</rs>, <rs type="pers" key="1043">Gavarni</rs>, <rs type="pers" key="1063">Degroux</rs> (to name just a few), or still further, <rs type="pers" key="1102">Ingres</rs>, <rs type="pers" key="982">Delacroix</rs>, <rs type="pers" key="606">Géricault</rs>, think how <hi rend="ital">old</hi> it already is, <hi rend="ital">modern</hi> art.<anchor n="2" xml:id="note-t-2"/> Add to them many who are aged. </ab>
+<ab rend="indent">Nonetheless, there was still progress up to <hi rend="ital">
+                        <rs type="pers" key="1226">Millet</rs>
+                    </hi> and <hi rend="ital">
+                        <rs type="pers" key="899">Jules Breton</rs>
+                    </hi> in my view, but as for surpassing these two men, don’t talk to me of that. </ab>
+<ab rend="indent">Their genius may be equalled in past, present or later ages, but to surpass them isn’t possible.<anchor n="3" xml:id="note-t-3"/> If one reaches that high zone, one is amid an equality of geniuses, but one can’t climb higher than the top of the mountain. <hi rend="ital">
+                        <rs type="pers" key="1107">Israëls</rs>
+                    </hi>, for example, may equal <rs type="pers" key="1226">Millet</rs>, but with genius there’s no question of surpassing or being inferior. </ab>
+<ab rend="indent">Now, though, the top has been reached in art. In the years to come we’ll most certainly see splendid things; something more sublime than what we’ve already seen — no. And for my part I fear that in a few years there may be a kind of <hi rend="ital">panic</hi>, in this form: <hi rend="ital">since <rs type="pers" key="1226">Millet</rs>
+                    </hi> we have sunk very low — the word decadence, now whispered or pronounced in veiled terms (see <rs type="pers" key="1080">Herkomer</rs>),<anchor n="4" xml:id="note-t-4"/> will then sound like an alarm bell. Many, like I myself, now keep quiet, because they already have the reputation of being awkward customers,<anchor n="5" xml:id="note-t-5"/> and talking about it doesn’t help. That — namely, talking — isn’t what one needs to do — one must work, though with sorrow in the heart. Those who later cry out the loudest about decadence will themselves belong to it the most. I repeat: by this shall ye know them,<anchor n="6" xml:id="note-t-6"/> by their work, and it won’t be the most eloquent who say the truest things. See Millet himself, see Herkomer, they’re certainly not orators, and speak almost reluctantly. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> </ab>
+<ab rend="indent">Enough of this, in you I find someone who understands much about the great men, and I find it delightful to hear things about them now and then that I don’t know, like, for example, what you write to me about <rs type="pers" key="977">Daumier</rs>. The series of portraits of politicians &amp;c., the painting of the 3rd-class carriage, the <hi rend="ital">Revolution</hi> — I don’t know any of them.<anchor n="7" xml:id="note-t-7"/> Now I haven’t seen them myself through what you say, but in my imagination Daumier’s personality has gained in importance as a result. I would rather hear talk about such men than about the latest Salon, for example. </ab>
+<ab rend="indent">Now as for what you write about Vie Moderne, or rather about a type of paper that <rs type="pers" key="910">Buhot</rs> promised you.<anchor n="8" xml:id="note-t-8"/> This is something that interests me very much. </ab>
+<ab rend="indent">Do I understand correctly that this paper is such that when one does a drawing on it (I assume in autographic ink), this drawing — without using a second draughtsman or engraver or lithographer as an intermediary — can be transferred <hi rend="ital">as it is</hi> onto a stone,<anchor n="9" xml:id="note-t-9"/> or that a print can be made of it, so that any number of impressions can be obtained, the latter then being facsimiles of the original drawing? If this is the case, be so good as to give me all the information you can find about how one should work on this paper, and do your best to send me some of it on which I can do some trials. </ab>
+<ab rend="indent">If I could do my trials before you come, then we could discuss what to do with them at that time. I think it possible that within a relatively short time there may be a demand for employees for illustration, more so than at present. </ab>
+<ab rend="indent">If for my part I fill my portfolios with studies from the models that I can grab or catch, I’ll get something to show so that 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> I’ll be eligible, I hope, to be given employment. To <hi rend="ital">keep on</hi> illustrating, like for example <rs type="pers" key="1236">Morin</rs>, <rs type="pers" key="1146">Lançon</rs>, <rs type="pers" key="1292">Renouard</rs>, <rs type="pers" key="1013">Jules Ferat</rs>, <rs type="pers" key="1453">Worms</rs> in their day, one must have plenty of ammunition in the form of various studies in different fields. </ab>
+<ab rend="indent">I’m trying to gather these together, as you know, and will see in due course. </ab>
+<ab rend="indent">By the way, so far I have <hi rend="ital">not</hi> yet received the packet of studies which you wrote that you had returned through rue Chaptal.<anchor n="10" xml:id="note-t-10"/> Could they already have arrived at the Plaats?<anchor n="11" xml:id="note-t-11"/> If you think they have, I’ll have them collected, because they’ll be useful to me in connection with things I’ve been doing recently. </ab>
+<ab rend="indent">Do you know who I drew this morning? <rs type="pers" key=" 293">Blok</rs> the Jewish bookseller, not <rs type="pers" key="294">David</rs> but the short one who’s on the Binnenhof.<anchor n="12" xml:id="note-t-12"/> I wish I had more from that family, for they are a true type. </ab>
+<ab rend="indent">It’s enormously difficult to get the types one would prefer to have — in the meantime I’m content to draw <hi rend="ital">what I can get</hi>, without losing sight of the others I would draw if I had the choice. </ab>
+<ab rend="indent">I’m very pleased with <rs type="pers" key="293">Blok</rs>. He reminds me of things from many years ago. I hope he’ll come again some other Sunday morning.</ab>
+<ab rend="indent">Naturally, while working one always feels and ought to feel a sort of dissatisfaction with oneself, a desire to be able to do it much better, but still it’s delightful and enjoyable to gradually assemble all kinds of figures — although the more one makes, the more one realizes one needs. </ab>
+<ab rend="indent">One can’t do everything at once, but it will be absolutely necessary for me to do a number of horse studies some day, not just scratches on the street but with a model for once. I know of an old white horse, a real nag if ever there was one (at the gasworks),<anchor n="13" xml:id="note-t-13"/> but the man, 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> who makes the poor animal do all manner of heavy jobs and just wants to get what he can out of it, asked a lot for it, namely three guilders to come to me for a morning, a <hi rend="ital">daalder</hi>
+                    <anchor n="14" xml:id="note-t-14"/> at the very least at his place, provided I came on Sunday. </ab>
+<ab rend="indent">And when you consider that for what I need, namely 30 strong studies, say, I would have to work quite a few mornings, it would cost me too much. But I’ll find a better opportunity sometime.</ab>
+<ab rend="indent">I can get a horse much more easily here and there for a <hi rend="ital">very short time</hi>, these people are sometimes willing to do that, but in a very short time one <hi rend="ital">cannot</hi> do what really needs to be done, so that’s little help. I try to work quickly, because otherwise it just doesn’t pan out, but a study that’s of some use requires at least half an hour, say, so one always comes back to actual posing. At Scheveningen, for instance, I’ve occasionally had a boy or a man <hi rend="ital">stand still for a moment</hi>, as they say, on the beach. The outcome was always a great desire on my part for a longer pose, and standing still for a moment isn’t enough for me, neither for a person nor for a horse. </ab>
+<ab rend="indent">If I’m correctly informed, the draughtsmen for The Graphic whose turn it was always had models at their disposal in a studio at the offices.<anchor n="15" xml:id="note-t-15"/> <rs type="pers" key="580">Dickens</rs> has some nice things to say about the painters of <hi rend="ital">his</hi> age and their wrong way of working, namely slavishly and yet only half sticking to the model. He says: Fellows, do understand that your model isn’t your ultimate goal but <hi rend="ital">a means for giving body and vigour to your ideas and inspiration</hi>. Look at the French (<rs type="pers" key="1339">Ary Scheffer</rs>, for example) and see how much better than you they do it.<anchor n="16" xml:id="note-t-16"/> It’s just as if the English listened to him — they <hi rend="ital">continued</hi> working with models, but they learnt to see the model in a grander and bolder way, and learnt to take better advantage of it for sounder and nobler compositions than those of Dickens’s painting contemporaries. </ab>
+<ab rend="indent">Two things that remain eternally true and complement each other, in my view are: don’t snuff out your inspiration and power of imagination, don’t become a slave to the model; and, the other, take a model and study it, for otherwise your inspiration won’t take on material form.</ab>
+<ab rend="indent">When your letter came there were things I had to pay immediately. I hope it won’t inconvenience you to send again no later than 10 Nov. Understand that the question of that process <rs type="pers" key="910">Buhot</rs> spoke to you about strikes me as being pretty important. I would be very pleased if I could learn it, and would like to do my best at it. Adieu, with a handshake.</ab>
+<vg:whiteline/>
+      <ab>Ever yours,</ab>
+                <ab> Vincent.</ab>
+<vg:whiteline/> 
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/>
+<ab>Do you know the effects one sees here early in the morning these days? It’s splendid — it’s what <rs type="pers" key="891">Brion</rs> painted in the painting in the Luxembourg, <hi rend="ital">The end of the flood</hi>, namely that band of red light on the horizon with rain-clouds above.<anchor n="17" xml:id="note-t-17"/> This brings me to the landscape painters. Compare those of Brion’s time with now.</ab>
+<ab rend="indent">Is it better now than then? I doubt it. I’ll gladly acknowledge that they’re much more productive in that field than in the past, but although I can’t help admiring what they make now, the old landscapes in a more old-fashioned manner always give me pleasure when I see them. There were a few years when I walked past a <rs type="pers" key="1338">Schelfhout</rs>, for example, and thought something like: that’s not worth the effort. Yet the new, although it takes someone in, doesn’t always continue to make the same strong, moving impression over time, and a naive painting like a Schelfhout or a <rs type="pers" key="1355">Ségé</rs>, a <rs type="pers" key="1342">Jules Bakhuyzen</rs>, is seen again with vivid pleasure after one has long been looking at newer things.</ab>
+<ab rend="indent">I really didn’t deliberately set out to be somewhat disenchanted as regards progress; on the contrary, it began to develop unwittingly in my thoughts very much against my will, because as time passed I felt more and more a kind of emptiness which I can’t<anchor n="18" xml:id="note-t-18"/> fill with the things being made today. While searching for an example, I think of old woodcuts by <rs type="pers" key="1117">Jacque</rs> that I saw at least 10 years ago at <rs type="pers" key="422">C.M.</rs>’s. It was a series, <hi rend="ital">The months</hi>.<anchor n="19" xml:id="note-t-19"/> They were done in Jacque’s old manner, in the manner of those etchings that appeared in annual series, or even more old-fashioned. The <hi rend="ital">local tone</hi> is less in them than in his later work, but the draughtsmanship and a certain terseness are reminiscent of <rs type="pers" key="1226">Millet</rs>. You see, with the many croquis in the present magazines it seems to me that a <hi rend="ital">not</hi> entirely <hi rend="ital">un</hi>conventional elegance threatens to replace that typical, truly rustic quality of which the croquis by Jacque that I mean are an example. 
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/>
+                </ab>
+<ab rend="indent">Might not the cause of this also lie in the lives and characters of the artists? I don’t know what your experience is, but do you find many people these days prepared to go for a long walk in grey weather, for example? You would do it gladly, and enjoy it too, as I would, but for many it would be a chore. Equally, I was struck by the fact that when one talks to painters, in most cases, by far, the conversation is <hi rend="ital">not</hi> interesting. </ab>
+<ab rend="indent">When he wants, <rs type="pers" key="323">Mauve</rs> has the power to say something in words so that one sees it, and most certainly others here have that too when they want. Yet, that curious fact that when one talks to a painter one immediately has a sense of the open air — is it your impression that that’s as strong as it used to be? </ab>
+<ab rend="indent">This week I read in <rs type="pers" key="608">Forster</rs>, Life of C. Dickens, all kinds of details about long walks on Hampstead Heath &amp;c. outside London, the final goal being, for example, to have bacon and eggs at an old inn way out in the country.<anchor n="20" xml:id="note-t-20"/> Those walks were very jolly and cheerful, but all the same it was usually the case that serious plans for books were made, or else the changes <rs type="pers" key="580">Dickens</rs> was to make to one character or another were discussed. The present has something hectic and harried about it for which I do not care, and it’s just as if death has touched everything. I’d like your expectation ‘that the desired change will come’ to prove true, but in my view it isn’t ‘in the nature of things’. </ab>
+<ab rend="indent">Be this as it may, opposing in words is a complete side issue, I believe, and what everyone who considers the matter important should do in his own circle is to try to make or help to make something. </ab>
+<ab rend="indent">Have been working again on women miners carrying sacks of coal in the snow — watercolour.<anchor n="21" xml:id="note-t-21"/> But above all I’ve drawn 12 or so studies of figures<anchor n="22" xml:id="note-t-22"/> for it, and 3 heads,<anchor n="23" xml:id="note-t-23"/> and I’m not yet finished. I’ve got the effect in the watercolour, I believe, but it isn’t yet strong enough in character for my taste. </ab>
+<ab rend="indent">The reality is like <rs type="pers" key="1226">Millet</rs>’s The gleaners<anchor n="24" xml:id="note-t-24"/> — austere — so you will understand that one shouldn’t turn it into a snow effect, which would only be an impression and have no <hi rend="ital">raison d’être</hi> unless the landscape is the whole point. I think that I’ll start all over again — although the studies I have for now may please you — precisely because I was more successful with them than with many others. It would be really suitable, I believe, for the Vie Moderne. If I get the paper, I already have one of the figures, for example, to do as a trial. But it must become a little troop of women, a small caravan. </ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>Theo must have responded to Vincent’s views regarding <rs type="pers" key="1080">Herkomer</rs>: <ref target="let278.xml">see letter 278</ref>.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>This admonition notwithstanding, Theo, who must have written about his expectations for modern art, had a better view in Paris of the latest state of affairs. Not only would he have known how much trade a dealer like <rs type="pers" key="359">Durand-Ruel</rs> was now doing in the Impressionists, but he would also have seen several exhibitions of modern art since arriving in Paris in November 1879. Since he had been in Paris there had been three Impressionist exhibitions (in 1880, 1881 and 1882) and in the offices of <hi rend="ital">La Vie Moderne</hi> work had been shown by among others Manet, Monet, Redon and Sisley. Cf. Monneret 1978-1981, vol. 4, pp. 319-322.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>Dorn links this view to <rs type="pers" key="666">Victor Hugo</rs>’s ideas about genius in <hi rend="ital">
+                            <rs type="lit" key="198">William Shakespeare</rs>
+                        </hi>. See Hugo 1864, pp. 233-234 and exhib. cat. Vienna 1996, pp. 33, 48 (n. 12). Cf. also <ref target="let450.xml">letter 450</ref>.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>For this reference to <rs type="pers" key="1080">Herkomer</rs>, <ref target="let278.xml#n-3">see letter 278, n. 3.</ref>
+                    </ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>For this expression, <ref target="let234.xml#n-4">see letter 234, n. 4.</ref>
+                    </ab>
+                </note>
+<note n="a" xml:id="n-a" target="#note-o-a">
+<ab>Probably should be read as ‘spijt’ or ‘droefheid’ (regret, or sorrow). Cf. <ref target="let211.xml">letter 211</ref> for almost the same phrase.</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Matt" chap="7" v="16">Matt. 7:16</bibleref>.</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>In 1832-1833 <rs type="pers" key="977">Honoré Daumier</rs> made various caricature portraits of politicians for <hi rend="ital">La caricature politique, morale et littéraire</hi>, and in 1833 more cartoons of representatives appeared in <hi rend="ital">Le Charivari</hi>, among them <hi rend="ital">Podenas</hi> (‘Pot-de-naz’). <rs type="ill" key="1996">Ill. 1996</rs>. Cf. in this connection the series of 36 satirical, polychromed busts done in unfired clay called <hi rend="ital">Les célébrités du Juste Milieu</hi>, also from the 1830s (Paris, Musée d’Orsay), of which lithographs exist. In 1848-1849 Daumier did designs for the series <hi rend="ital">Les représentants représentés</hi>. See Delteil 1906-1930, vol. 20, nos. 40-75, 147-178; vol. 25, nos. 1796-1903.</ab>
+<ab rend="indent">There are several versions of Daumier’s <hi rend="ital">The third-class carriage</hi>; see Maison 1968, vol. 1, pp. 141-143, cat. nos. I-165 and I-166. In 1888 and 1890 Theo was to sell two works with this subject (GRI, Goupil Ledgers). Theo had probably seen the version now in the National Gallery of Canada, Ottawa (<rs type="ill" key="58">Ill. 58</rs>), which was sold at auction in Paris on May 8, 1882 (no. 7). The version in the Metropolitan Museum was in a private collection by 1878 and is not known to have been seen publicly until purchased by Durand-Ruel in 1892. See cat. Daumier 1808–1879 (National Gallery of Canada, 1999), no. 270 and <ref target="http://www.metmuseum.org/Collections/search-the-collections/436095">http://www.metmuseum.org/Collections/search-the-collections/436095</ref>.</ab>
+<ab rend="indent">By <hi rend="ital">La Révolution</hi> Van Gogh probably means <hi rend="ital">Scène de la Révolution</hi> (Scene from the Revolution), 1848-1849 (now lost). <rs type="ill" key="1997">Ill. 1997</rs>. See Maison 1968, vol. 1, pp. 65-66, cat. no. I-26.</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>The passage in Theo’s letter to which Vincent is referring here will be quoted in <ref target="let289.xml">letter 289</ref>: ‘I’ve spoken to <rs type="pers" key="910">Buhot</rs>, who knows of a certain way of lithographing, of which more later, you ought to try something on paper that he’ll send you’. From this it is clear that it was at Theo’s instigation that Vincent began to make lithographs <hi rend="ital">himself</hi>. On Van Gogh’s graphic activities: Van Heugten and Pabst 1995.</ab>
+<ab rend="indent">Theo knew Félix Hilaire Buhot because he made engravings for <rs type="pers" key="797">Boussod, Valadon &amp; Cie</rs>. Buhot frequently experimented with paper and materials. See exhib. cat. Paris 1988, p. 353; and exhib. cat. Minneapolis 1983, pp. 40-52.</ab>
+<ab rend="indent"> Little is known about Buhot’s links to <hi rend="ital">La Vie Moderne</hi>, the illustrated Parisian weekly for literature and art that began publication in 1879. Van Gogh’s phrasing suggests that either through his own contributions or from others Buhot knew of a special type of paper on which the illustrations for the magazine were made. In <ref target="let290.xml">letter 290</ref> the arrival of a sample is mentioned. </ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>Van Gogh means: not reversed, as inevitably happened with the traditional lithographic technique. For the process in question, see Van Heugten and Pabst 1995, pp. 14-15.</ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>The headquarters of Goupil (later <rs type="pers" key="797">Boussod, Valadon &amp; Cie</rs>) was at 9 rue Chaptal in Paris.</ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+      <ab>The Dutch branch of Goupil (later <rs type="pers" key="797">Boussod, Valadon &amp; Cie</rs>), where <rs type="pers" key="787">H.G. Tersteeg</rs> was in charge, had moved in 1875 from Plaats 14 to Plaats 20 in The Hague.</ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+<ab>
+                        <rs type="pers" key="293">Jozef Blok</rs>; cf. <ref target="let199.xml#n-7">letter 199, n. 7.</ref> The drawing is <hi rend="ital">Jozef Blok, the bookseller</hi> (<rs type="ill" key="2407">F 993 / JH 254</rs>).</ab>
+                </note>
+<note n="13" xml:id="n-13" target="#note-t-13">
+<ab>The Municipal Gasworks in Loosduinseweg, which Van Gogh had drawn: <hi rend="ital">Gasworks </hi>(<rs type="ill" key="3019">F 924 / JH 118</rs>), <ref target="let210.xml#n-8">see letter 210, n. 8</ref>
+                    </ab>
+                </note>
+<note n="14" xml:id="n-14" target="#note-t-14">
+<ab>A daalder is 1.50 guilders.</ab>
+                </note>
+<note n="15" xml:id="n-15" target="#note-t-15">
+<ab>How Van Gogh came by this information is not known. In <ref target="let215.xml">letter 215</ref> he says the same.</ab>
+                </note>
+<note n="16" xml:id="n-16" target="#note-t-16">
+<ab>A paraphrase of a passage from <rs type="lit" key="273">
+                            <hi rend="ital">The life of Charles Dickens</hi>
+                        </rs> in which <rs type="pers" key="608">John Forster</rs> presents <rs type="pers" key="580">Dickens</rs>’s views on English and French painting. According to Dickens, the English artists lack ‘character, fire, purpose, and the power of using the vehicle and the model as mere means to an end.’ Dickens praises the French paintings for ‘the fearlessness of them; the bold drawing; the dashing conception; the passion and action in them!’, whereas in his view in English art ‘mere form and conventionalities’ take the place of ‘living force and truth’. In the immediate context of this passage, Forster also brings up <rs type="pers" key="1339">Ary Scheffer</rs> in connection with his portrait of Dickens. See Forster 1872-1874, vol. 3, pp. 123-127 (quotations on 123-124).</ab>
+                </note>
+<note n="17" xml:id="n-17" target="#note-t-17">
+<ab>For <rs type="pers" key="891">Gustave Brion</rs>, <rs type="ill" key="1747">
+                            <hi rend="ital">The end of the flood</hi>
+                        </rs>, <ref target="let055.xml#n-7">see letter 55, n. 7.</ref>
+                    </ab>
+                </note>
+<note n="18" xml:id="n-18" target="#note-t-18">
+<ab>It is possible that Van Gogh wrote ‘kon’ (could) instead of ‘kan’ (can).</ab>
+                </note>
+<note n="19" xml:id="n-19" target="#note-t-19">
+<ab>The series of woodcuts that Van Gogh saw at his <rs type="pers" key="422">Uncle Cor</rs>’s (‘C.M.’) was <hi rend="ital">
+                            <rs type="otherart" key="988">Les douze mois de l’année</rs>
+                        </hi> (The twelve months of the year) engraved by <rs type="pers" key="1155">Adrien Lavieille</rs> after <rs type="pers" key="1117">Charles Emile Jacque</rs>. It appeared each month in 1852 in <hi rend="ital">L’Illustration</hi> 19, pp. 5, 89, 149, 213, 281, 373; <hi rend="ital">L’Illustration</hi> 20, pp. 9, 89, 149, 213, 293, 357. <rs type="ill" key="995">Ill. 995</rs>, <rs type="ill" key="1998">1998</rs>, <rs type="ill" key="1999">Ill. 1999</rs>, <rs type="ill" key="2000">Ill. 2000</rs>, <rs type="ill" key="2001">Ill. 2001</rs>, <rs type="ill" key="2002">Ill. 2002</rs>, <rs type="ill" key="2003">Ill. 2003</rs>, <rs type="ill" key="2004">Ill. 2004</rs>, <rs type="ill" key="2005">Ill. 2005</rs>, <rs type="ill" key="2006">Ill. 2006</rs>, <rs type="ill" key="2007">Ill. 2007</rs> and <rs type="ill" key="2008">2008</rs>. The series was reissued in 1853 and in 1859 by A. Lévy fils under the title <hi rend="ital">Album de sujets rustiques</hi>. See Fanica<hi rend="ital"> </hi>1995, pp. 41-42.</ab>
+                </note>
+<note n="20" xml:id="n-20" target="#note-t-20">
+<ab>At that time Hampstead was still outside London (to the north-west) and was known for its rural setting. The Heath is 800 acres of open ground with a hill offering a fine view of the city; it was a favourite destination for day trips. <rs type="pers" key="608">Forster</rs> writes about <rs type="pers" key="580">Dickens</rs>’s enthusiasm for walking on Hampstead Heath and the tasty food at ‘Jack Straw’s’ pub; the specifying of bacon and eggs and of what was discussed are additions by Van Gogh. See Forster 1872-1874, vol. 1, pp. 112, 184 and vol. 2, pp. 77-78.</ab>
+                </note>
+<note n="21" xml:id="n-21" target="#note-t-21">
+<ab>
+      <hi rend="ital">Women miners</hi> (<rs type="ill" key="2406">F 994 / JH 253</rs>).</ab>
+                </note>
+<note n="22" xml:id="n-22" target="#note-t-22">
+<ab>These studies, which are also mentioned in <ref target="let276.xml">letter 276</ref>, are not known.</ab>
+                </note>
+<note n="23" xml:id="n-23" target="#note-t-23">
+<ab>These three studies of heads are not known. </ab>
+                </note>
+<note n="24" xml:id="n-24" target="#note-t-24">
+<ab>
+                        <rs type="pers" key="1226">Jean-François Millet</rs>’s <hi rend="ital">The gleaners</hi>, 1857 (Paris, Musée d'Orsay). <rs type="ill" key="1891">Ill. 1891</rs>. This was published as an engraving and photogravure in the Musée Goupil series: <hi rend="ital">Les glaneuses</hi> (NB 90.I.2.2275 and 95.I.2.611); an aquatint by <rs type="pers" key="1567">Alphonse Masson</rs>, titled <hi rend="ital">Gleaning in Belgium</hi>, appeared in <hi rend="ital">The Art Journal</hi> 14 (NS, 1875), facing p. 188. <rs type="pers" key="1226">Millet</rs> himself made an etching of the work. See exhib. cat. Boston 1984, pp. 102-103, cat. no. 68.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

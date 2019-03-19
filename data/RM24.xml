@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh and Jo van Gogh-Bonger. Auvers-sur-Oise, Monday, 7 July 1890.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/RM24"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">RM24</idno>
+<idno type="collectedletters">647</idno>
+<idno type="brieven1990">902</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh and Jo van Gogh-Bonger</vg:addressee>
+                        <vg:placeLet>Auvers-sur-Oise</vg:placeLet>
+                        <vg:dateLet>Monday, 7 July 1890</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh and Jo van Gogh-Bonger. Auvers-sur-Oise, Monday, 7 July 1890.</p>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b695 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Vincent visited Theo and Jo on Sunday, 6 July 1890 and probably wrote this short letter the day after. It was ripped up and never sent, the reason for which emerges at the beginning of <ref target="let898.xml">letter 898</ref>: after meanwhile being reassured by a letter from Jo (which is no longer known), it would have been pointless to send the present letter.</p>
+<p rend="indent">Some time later, namely on 24 August 1890, Theo wrote to his mother and Willemien: ‘In a letter from V which we found, written immediately upon returning to Auvers after visiting us recently, he says’ [the rest is lacking] (FR b936). This must refer to the present letter, which was presumably reassembled only later. See Hulsker 1998, p. 49. Like Hulsker, Pickvance also thought that the sheet had not been sent. He initially dated it to about Monday, 7 July, but later described it as ‘perhaps a draft of a lost letter, possibly of about 15 July 1890’. However, Van Gogh is unlikely to have reacted so emotionally after a week had elapsed, especially after receiving a reassuring letter from Jo (<ref target="let898.xml">see letter 898</ref>) and <ref target="let900.xml">letter 900</ref> of 14 July. Cf. exhib. cat. New York 1986, pp. 213, 292.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0695" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000944_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000944_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000944_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000944_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0695" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000944_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000944_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000944_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000944_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Cher frère &amp; soeur,</ab>
+                <lb n="2" xml:id="l-2"/>
+<ab>Mon impression est <lb n="3" xml:id="l-3"/>qu’étant un peu ahuris <lb n="4" xml:id="l-4"/>tous et d’ailleurs tous <lb n="5" xml:id="l-5"/>un peu en travail<c type="kk">/</c> <lb n="6" xml:id="l-6"/>il importe relativement <lb n="7" xml:id="l-7"/>peu d’insister pour avoir <lb n="8" xml:id="l-8"/>des définitions bien <lb n="9" xml:id="l-9"/>nettes de la position <lb n="10" xml:id="l-10"/>dans laquelle on se trouve.<anchor n="1" xml:id="note-o-1"/> <lb n="11" xml:id="l-11"/>Vous me surprenez un peu<c type="kk">/</c> <lb n="12" xml:id="l-12"/>semblant vouloir forcer <lb n="13" xml:id="l-13"/>la situation étant en <lb n="14" xml:id="l-14"/>desaccord.</ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="15" xml:id="l-15"/>
+<ab rend="indent">Y puis je quoi que ce <lb n="16" xml:id="l-16"/>soit – peutetre pas – <lb n="17" xml:id="l-17"/>mais ai je fait quelque <lb n="18" xml:id="l-18"/>chôse de travers ou enfin <lb n="19" xml:id="l-19"/>puis je faire chôse ou <lb n="20" xml:id="l-20"/>autre que vous désireriez<c type="kp">_</c>
+                </ab>
+                <lb n="21" xml:id="l-21"/>
+<ab rend="indent">Quoi qu’il en soit<c type="kk">/</c> <lb n="22" xml:id="l-22"/>en pensée encore <lb n="23" xml:id="l-23"/>une bonne poignée <lb n="24" xml:id="l-24"/>de main – et cela m’a <lb n="25" xml:id="l-25"/>quand même fait <lb n="26" xml:id="l-26"/>beaucoup de plaisir <lb n="27" xml:id="l-27"/>de vous revoir tous<c type="kp">_</c>
+                    <anchor n="2" xml:id="note-o-2"/> <lb n="28" xml:id="l-28"/>Soyez en bien assurés<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="29" xml:id="l-29"/>
+<ab>b<c type="kp">_</c> à v<c type="kp">_</c>
+                </ab>
+                <lb n="30" xml:id="l-30"/>
+<ab>V.</ab>
+<vg:whiteline/>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>Dear brother and <rs type="pers" key="416">sister</rs>,</ab>
+<ab>My impression is that as we’re all a little dazed, and moreover all working quite hard, it’s relatively unimportant to insist on having very clear-cut definitions of the position in which we find ourselves.<anchor n="1" xml:id="note-t-1"/> You surprise me a little, seeming to want to force the situation, being in disagreement. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">Can I do anything about it – perhaps not – but have I done something wrong, or anyway can I do something or other that you would like?</ab>
+<ab rend="indent">Whatever the case, again a good handshake in thought – and it nevertheless gave me a lot of pleasure to see you all again.<anchor n="2" xml:id="note-t-2"/> Be very much assured of that.</ab>
+<vg:whiteline/>
+<ab>Yours truly,</ab>
+<ab>V.</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>Vincent is referring to the fact that Theo was thinking of leaving the firm of <rs type="pers" key="797">Boussod, Valadon &amp; Cie</rs>.</ab>
+                </note>
+    <note n="2" xml:id="n-2" target="#note-t-2">
+<ab>Vincent had visited Theo and <rs type="pers" key="416">Jo</rs> in Paris on Sunday, 6 July. <ref target="let898.xml#n-3">See letter 898, n. 3.</ref>
+                    </ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

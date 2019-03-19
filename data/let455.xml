@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Nuenen, on or about Saturday, 23 August 1884.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let455"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">455</idno>
+<idno type="collectedletters">355b</idno>
+<idno type="brieven1990">486</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Nuenen</vg:placeLet>
+                        <vg:dateLet>on or about Saturday, 23 August 1884</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. Nuenen, on or about Saturday, 23 August 1884.</p>
+<note type="ongoingTopic" n="1">
+<p>Theo’s visit to Nuenen <ref target="let451.xml">(451)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b388 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>This letter was previously dated ‘early February 1885’, but it was probably written shortly after Theo left Nuenen in August 1884 (cf. <ref target="let453.xml">letter 453</ref>, <hi rend="ital">Date</hi>). Theo might, ‘arriving home, have found another note’ from Vincent <ref target="#l-2">(ll. 2-3)</ref>. This ‘note’, which must therefore have been written towards the end of Theo’s stay in Nuenen, is not known. The present letter was in any event written before September (<ref target="#n-2">see n. 2</ref>) and because it is probably the one Mr van Gogh warned Theo about on 22 August (in other words well after Theo had left): ‘You will probably also receive a letter from V. I pray you don’t attach too much to it’ (FR b2256), we have dated this letter on or about Saturday, 23 August 1884.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0388" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000507_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000507_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000507_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000507_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000507_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000507_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0388" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000507_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000507_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000507_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000507_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000507_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000507_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Waarde Theo,</ab>
+                <lb n="2" xml:id="l-2"/>
+<ab>t’huis komende kunt <lb n="3" xml:id="l-3"/>ge nog een briefje<anchor n="1" xml:id="note-o-1"/> van me gevonden <lb n="4" xml:id="l-4"/>hebben. Doch als ik daarin <hi rend="ital">toen</hi> U verzocht <lb n="5" xml:id="l-5"/>terug te nemen een &amp; ander wat ge <lb n="6" xml:id="l-6"/>zeidet<c type="kk">/</c>
+                    <anchor n="2" xml:id="note-o-2"/> zoo vraag ik U dat nu niet <lb n="7" xml:id="l-7"/>eens meer<c type="kp">_</c>–</ab>
+                <lb n="8" xml:id="l-8"/>
+<ab rend="indent">Want zelfs indien ge zeggen zoudt <lb n="9" xml:id="l-9"/>ge er anders over waart gaan denken<c type="kk">/</c> <lb n="10" xml:id="l-10"/>zou ik het toch niet gelooven kunnen<c type="kk">/</c> <lb n="11" xml:id="l-11"/>daar ik geloof ge nu eenmaal <lb n="12" xml:id="l-12"/>definitief zoo zijt – en <hi rend="ital">niet ligt</hi> <lb n="13" xml:id="l-13"/>daar vooreerst meer van afgaan kunt. <lb n="14" xml:id="l-14"/>Over <hi rend="ital">jaren</hi> praten we over zulke kwesties <lb n="15" xml:id="l-15"/>
+                    <hi rend="ital">misschien</hi> heel anders doch <hi rend="ital">waarschijnlijk</hi> ook <lb n="15a" xml:id="l-15a"/>dan niet eens<c type="kp">_</c>–</ab>
+                <lb n="16" xml:id="l-16"/>
+<ab rend="indent">Vooreerst hebben we m.i. er <hi rend="ital">zeker</hi> niet <lb n="17" xml:id="l-17"/>op terug te komen.</ab>
+                <lb n="18" xml:id="l-18"/>
+<ab rend="indent">Wat ge volgende maand <hi rend="ital">méér</hi> zoudt <lb n="19" xml:id="l-19"/>zenden dan frs 100 zoudt ge terugkrijgen<c type="kk">/</c> <lb n="20" xml:id="l-20"/>zend dus frs 100 (waarop in gevolge onzer afspraak ik voorloopig blijf rekenen) doch niet meer<c type="kp">_</c>
+                </ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="21" xml:id="l-21"/>
+<ab rend="indent">En ’t zal mijn streven zijn <lb n="22" xml:id="l-22"/>iets anders ook daarvoor in de <lb n="23" xml:id="l-23"/>plaats te vinden en op den duur zal mij <lb n="24" xml:id="l-24"/>dat wel lukken.</ab>
+                <lb n="25" xml:id="l-25"/>
+<ab rend="indent">Gegroet<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="26" xml:id="l-26"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+                <lb n="27" xml:id="l-27"/>
+<ab>Meen als je blieft niet ik niet zou <lb n="28" xml:id="l-28"/>
+                    <hi rend="ital">willen</hi> goede vrienden blijven – doch <lb n="29" xml:id="l-29"/>’t ligt hier in den aard der zaak dat het niet <hi rend="ital">kan</hi>
+                    <c type="kk">/</c> <lb n="30" xml:id="l-30"/>al zou men ’t probeeren ’t toch niet <lb n="31" xml:id="l-31"/>zou opgaan<c type="kp">_</c> enfin ’t is een geval <lb n="32" xml:id="l-32"/>waar geen mensch veel aan zou kunnen <lb n="33" xml:id="l-33"/>doen<c type="kp">_</c>– Uw karakter geloof ik nu dat in een <lb n="34" xml:id="l-34"/>vaste plooi zich heeft gezet – ’t mijne ook –<anchor n="3" xml:id="note-o-3"/> <lb n="35" xml:id="l-35"/>– en de rigtingen loopen <hi rend="ital">niet</hi> evenwijdig<c type="kp">_</c> <lb n="36" xml:id="l-36"/>’k neem U eigentlijk ook niets bepaald <lb n="37" xml:id="l-37"/>kwalijk – misschien gij mij ook niet – <lb n="38" xml:id="l-38"/>doch om door te gaan als waren we eensgezind <lb n="39" xml:id="l-39"/>zouden we lui als Monsieur Joseph Prudhomme <lb n="40" xml:id="l-40"/>van Monnier moeten wezen<c type="kk">/</c> en <hi rend="sc">ik</hi> <hi rend="ital">althans pas</hi> <lb n="41" xml:id="l-41"/>
+                    <hi rend="ital">daar voor</hi>.<anchor n="4" xml:id="note-o-4"/> en ik hoop voor U – gij ook – ik trek ’t me <lb n="42" xml:id="l-42"/>verder ook niet meer aan ook<c type="kp">_</c>–</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-20" n="20">rekenen) &lt; rekenen</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo,</ab>
+<ab>Arriving home, you may have found another note<anchor n="1" xml:id="note-t-1"/> from me. But while I asked you in it <hi rend="ital">then</hi> to take back one thing and another that you said,<anchor n="2" xml:id="note-t-2"/> I don’t ask it of you any more.</ab>
+<ab rend="indent">Because even if you were to say that you’d started to think differently about it, I still wouldn’t be able to believe it, since I believe that you’re just definitely like that — and <hi rend="ital">can’t easily</hi> retreat from it for the time being. We may <hi rend="ital">perhaps</hi> talk about such issues very differently<hi rend="ital"> years</hi> from now, but <hi rend="ital">probably</hi> not even then.</ab>
+<ab rend="indent">For the time being, in my view, we <hi rend="ital">certainly</hi> don’t have to revert to it.</ab>
+<ab rend="indent">You would get back anything <hi rend="ital">more</hi> than 100 francs that you might send next month, so send 100 francs (on which I’ll continue to rely for now, in accordance with our agreement), but no more.
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">And it will be my endeavour to find something to replace that, too, and eventually I’ll succeed.</ab>
+<ab rend="indent">Regards.</ab>
+<vg:whiteline/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<ab>Please don’t think that I don’t <hi rend="ital">want</hi> to remain good friends — but here it’s in the nature of the thing that it’s not <hi rend="ital">possible</hi>; even if one were to try it, it still wouldn’t work. Anyway, it’s a situation that no one could do much about. I believe that your character has now set in a permanent mould — mine too<anchor n="3" xml:id="note-t-3"/> — and the directions do <hi rend="ital">not</hi> run parallel. I actually don’t take anything particularly amiss of you — perhaps you don’t of me either — but to go on as if we were in accord we’d have to be people like <rs type="pers" key="712">Monnier</rs>’s Monsieur Joseph Prudhomme, and <hi rend="ital">I at least refuse to be that</hi>,<anchor n="4" xml:id="note-t-4"/> and I hope for your sake — you do too — and I’m not going to take it to heart any longer, either.</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>This letter is not known; it is clear from a later reference in <ref target="let473.xml">letter 473</ref> of about Saturday, 6 December 1884 that in it Vincent had criticized Theo’s attitude in trenchant and unequivocal terms.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>The brothers must have talked about Theo’s financial support during his visit. Vincent returns to this in the present letter and later talks about the allowance for ‘next month’, saying that it should not be for more than 100 francs. In fact Theo still sent 150 francs – not 100 – at the beginning of September (<ref target="let456.xml">see letter 456</ref>).</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>
+                        <rs type="pers" key="526">Mr van Gogh</rs> tried to reassure Theo somewhat, and wrote on 22 August: ‘You will probably also receive a letter from V. I pray you don’t attach too much to it. He is evidently not well and I should think feverish and consequently too easily excited. I would ask you to keep calm, in the face of what could disrupt calm! He is very touchy or overwrought. Just let some time pass and consider the possibility conceivable that it is not entirely his own fault. We have seen it more in him. He is overwrought, whether it is related to other things – I should almost think it is. Certainly he’s not well and the strain of going backwards and forwards to <rs type="pers" key="449">Mr Hermans</rs> in the heat and talking about that work may also be part of it. It will have to be overcome by time, and calm is necessary. So let us remain as kind as possible and may God give what we cannot give. It is sad and unhappy, so much for himself, for he has no peace. We hope for higher help ... We also think about you, that this suffering also afflicts you, who actually seeks your joy in relieving the cares of another. We know that you do this and are grateful for it’ (FR b2256).</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+    <ab>See for the character of the <hi rend="ital">petit bourgeois</hi> Joseph Prudhomme in <rs type="pers" key="712">Monnier</rs>’s <rs type="lit" key="209">
+                            <hi rend="ital">Mémoires de Monsieur Joseph Prudhomme</hi>
+                        </rs>: <ref target="let296.xml#n-3">letter 296, n. 3.</ref>
+                    </ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

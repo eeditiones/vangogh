@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Dordrecht, Sunday, 22 and Monday, 23 April 1877.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let112"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">112</idno>
+<idno type="collectedletters">93</idno>
+<idno type="brieven1990">112</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Dordrecht</vg:placeLet>
+                        <vg:dateLet>Sunday, 22 and Monday, 23 April 1877</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. Dordrecht, Sunday, 22 and Monday, 23 April 1877.</p>
+<note type="ongoingTopic" n="1">
+<p>Vincent’s plans to train to be a clergyman <ref target="let106.xml">(106)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b111 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Letter headed: ‘Dordrecht 23 April 1877’. Van Gogh’s remark to ‘have a nice Sunday today’ suggests that the letter was written as far as the signature on Sunday, 22 April. This is confirmed by the visit to the museum with acquaintances <ref target="#l-48">(l. 48)</ref>, which is unlikely to have taken place on Monday. The handwriting of the closing sentence of the postscript looks slightly different. It might have been added, along with the date, on Monday, 23 April.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0111" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000120_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000120_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000120_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000120_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000120_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000120_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="VGM001000120_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000120_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000120_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0111" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000120_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000120_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000120_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000120_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000120_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000120_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000120_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000120_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000120_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Dordrecht 23 April 1877</ab>
+<vg:whiteline/>
+                <lb n="2" xml:id="l-2"/>
+<ab>Waarde Theo,</ab>
+                <lb n="3" xml:id="l-3"/>
+<ab>Uw brief van 21 April ontving ik, dank voor Uw spoedig <lb n="4" xml:id="l-4"/>schrijven ─ en die brief heeft mij een gevoel van vreugde <lb n="5" xml:id="l-5"/>gegeven zooals de vrouw moet gehad hebben die haar <lb n="6" xml:id="l-6"/>penning terugvond<c type="kk">/</c>
+                    <anchor n="1" xml:id="note-o-1"/> n.l. Gij schrijft dat het lessenaartje <lb n="7" xml:id="l-7"/>van Tante Koos<anchor n="2" xml:id="note-o-2"/> met de brieven van Pa en Moe, bij gelegen<c type="shy">-</c>
+                    <lb n="8" xml:id="l-8"/>heid van het schoonmaken, bij Roos is gevonden.─<anchor n="3" xml:id="note-o-3"/>
+                </ab>
+                <lb n="9" xml:id="l-9"/>
+<ab rend="indent">Wat heb ik er met angst en zorg verl. jaar naar gezocht in de ver<c type="shy">-</c>
+                    <lb n="10" xml:id="l-10"/>beelding zijnde ik het mede had genomen naar Engeland <lb n="11" xml:id="l-11"/>en dat het was blijven staan in één van de huizen waar <lb n="12" xml:id="l-12"/>ik te Londen geweest ben.─ Het is heerlijk dat het is <lb n="13" xml:id="l-13"/>teregtgekomen, ik ben er zoo dankbaar voor, bewaar <lb n="14" xml:id="l-14"/>het voorloopig nog maar, te Amsterdam als ik “op weg”<anchor n="4" xml:id="note-o-4"/> ben <lb n="15" xml:id="l-15"/>zal ik het noodig hebben.─</ab>
+                <lb n="16" xml:id="l-16"/>
+<ab rend="indent">Nu herinner ik mij zeer goed het bij Roos te hebben <lb n="17" xml:id="l-17"/>achtergelaten bij mijn vertrek naar Engeland, omdat <lb n="18" xml:id="l-18"/>er niet veel ruimte in mijn koffer was en ook omdat ik <lb n="19" xml:id="l-19"/>meende het ginder veiliger zou zijn dan wanneer het mee <lb n="20" xml:id="l-20"/>ging trekken in den vreemde.─</ab>
+                <lb n="21" xml:id="l-21"/>
+<ab rend="indent">Het is mij als het ware een nieuw bewijs, en een wenk <lb n="22" xml:id="l-22"/>zooals ik er meer in den laatsten tijd meende op te 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                    <lb n="23" xml:id="l-23"/>merken<c type="kk">/</c> dat ik zal zegen hebben op mijne pogingen<c type="kk">/</c> dat <lb n="24" xml:id="l-24"/>het mij goed zal gaan en de zaak die ik zoo vurig begeer <lb n="25" xml:id="l-25"/>mij zal gegeven worden ─ er wordt iets van het oud ver<c type="shy">-</c>
+                    <lb n="26" xml:id="l-26"/>trouwen<anchor n="5" xml:id="note-o-5"/> in mij levendig dat mijne gedachten zullen <lb n="27" xml:id="l-27"/>bevestigd worden<anchor n="6" xml:id="note-o-6"/> en een vasten geest vernieuwd<anchor n="7" xml:id="note-o-7"/> en <lb n="28" xml:id="l-28"/>de ziel hersteld in het oud Geloof. Alleen ik doe eene keuze voor mijn leven<c type="kp">_</c> Zet ook Gij Uw hart <lb n="28a" xml:id="l-28a"/>en zin vast op iets goeds, op eene goede zaak, en begeer ze van den Heer.─<anchor n="8" xml:id="note-o-8"/>
+                </ab>
+                <lb n="29" xml:id="l-29"/>
+<ab rend="indent">Oom Jan is te Etten geweest en heeft gezegd dat mijn <lb n="30" xml:id="l-30"/>kamertje reeds gereed was<anchor n="9" xml:id="note-o-9"/> ─ de Heer Braat is met iemand <lb n="31" xml:id="l-31"/>in besprek dus in Mei zal ik waarschijnlijk de hand <lb n="32" xml:id="l-32"/>aan den ploeg slaan.─<anchor n="10" xml:id="note-o-10"/>
+                </ab>
+                <lb n="33" xml:id="l-33"/>
+<ab rend="indent">Op dat kamertje zullen de prenten die ik van U heb<c type="kk">/</c> <lb n="34" xml:id="l-34"/>hangen en zal ik daardoor dagelijks aan U herinnerd <lb n="35" xml:id="l-35"/>worden ─ onder dat naar Rosenthal<c type="kk">/</c> dien monnik<c type="kk">/</c>
+                    <anchor n="11" xml:id="note-o-11"/> heb ik geschreven <lb n="36" xml:id="l-36"/>“Neem mijn juk op u en leer van Mij dat ik zachtmoedig ben <lb n="37" xml:id="l-37"/>en nederig van hart en gij zult rust vinden voor Uwe <lb n="38" xml:id="l-38"/>ziele, want mijn juk is zacht en mijn last is ligt.<anchor n="12" xml:id="note-o-12"/> Zoo wie <lb n="39" xml:id="l-39"/>achter Mij wil komen die verloochene Zich zelven en neme <lb n="40" xml:id="l-40"/>zijn kruis op en volge Mij<anchor n="13" xml:id="note-o-13"/> ─ in het koninkrijk der Hemelen<anchor n="14" xml:id="note-o-14"/> <lb n="41" xml:id="l-41"/>trouwen zij niet en worden niet ten huwelijk gegeven”.─<anchor n="15" xml:id="note-o-15"/> <lb n="42" xml:id="l-42"/>Onder de pendant: l’imitation de Jesus Christ (naar Ruyperez)<anchor n="16" xml:id="note-o-16"/> <lb n="43" xml:id="l-43"/>schreef ik wat wij Pa hoorden zeggen: “Heer ik zou zoo graag <lb n="44" xml:id="l-44"/>ernstig zijn”.─<anchor n="17" xml:id="note-o-17"/>
+                </ab>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                <lb n="45" xml:id="l-45"/>
+<ab rend="indent">Dezen morgen hoorde ik eene zeer mooie preek van <lb n="46" xml:id="l-46"/>D<hi rend="ss">s</hi> Keller van Hoorn over “En dat gij van jongsaf de <lb n="47" xml:id="l-47"/>schriften geweten hebt”<c type="kk">/</c>
+                    <anchor n="18" xml:id="note-o-18"/> dezen middag waren Gorlitz<c type="kk">/</c> <lb n="48" xml:id="l-48"/>Mager<c type="kk">/</c> ten Broek<anchor n="19" xml:id="note-o-19"/> en ik op het museum om de Scheffers <lb n="49" xml:id="l-49"/>te zien ─ die zijn toch schoon. Schreef ik U reeds <lb n="50" xml:id="l-50"/>Gorlitz naar Etten is geweest om te solliciteeren naar <lb n="51" xml:id="l-51"/>de onderwijzersbetrekking die daar aan de Leur vacant is.─<anchor n="20" xml:id="note-o-20"/>
+                </ab>
+                <lb n="52" xml:id="l-52"/>
+<ab rend="indent">Hij kwam terug vervuld met alles wat hij daar had <lb n="53" xml:id="l-53"/>gezien<c type="kp">_</c> Pa had gepreekt over Jakob die in het veld sliep <lb n="54" xml:id="l-54"/>te Bethel,<anchor n="21" xml:id="note-o-21"/> en het had hem alles zoo getroffen<c type="kp">_</c>
+                </ab>
+                <lb n="55" xml:id="l-55"/>
+<ab rend="indent">Ik zou hem gunnen dat hij die plaats kreeg, dan <lb n="56" xml:id="l-56"/>zou hij denkelijk wel spoedig trouwen.─</ab>
+                <lb n="57" xml:id="l-57"/>
+<ab rend="indent">Verl. week had ik een brief van Harry Gladwell zelf.─ <lb n="58" xml:id="l-58"/>Hem is iets overkomen, ja wel eenigzins anders maar toch <lb n="59" xml:id="l-59"/>van den zelfden aard van wat U overkwam, en hij is <lb n="60" xml:id="l-60"/>daar in gevaarlijke omgeving ─ de vogelvangers<anchor n="22" xml:id="note-o-22"/> zijn er <lb n="61" xml:id="l-61"/>velen en slim.─ Hoop spoedig iets naders te vernemen en <lb n="62" xml:id="l-62"/>wij spreken er nog wel eens over.─</ab>
+                <lb n="63" xml:id="l-63"/>
+<ab rend="indent">Van Taines leven weet ik weinig<c type="kk">/</c> ik veronderstel hij <lb n="64" xml:id="l-64"/>veel heeft gereisd in Frankrijk<c type="kk">/</c> Italie<c type="kk">/</c> Engeland en <lb n="65" xml:id="l-65"/>Holland ook, dat zou men uit zijne schriften opmaken<c type="kp">_</c>
+                    <anchor n="23" xml:id="note-o-23"/> <lb n="66" xml:id="l-66"/>Hij is wel een artist.─ Het 1<hi rend="ss">o</hi> boek van Burger<c type="kk">/</c> Musées<c type="kk">/</c> <lb n="67" xml:id="l-67"/>heb ik zelf nog.─<anchor n="24" xml:id="note-o-24"/>
+                </ab>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                <lb n="68" xml:id="l-68"/>
+<ab rend="indent">Nu Theo, heb een goeden Zondag van daag. Als ik <lb n="69" xml:id="l-69"/>naar Amsterdam ga hoop ik U nog te zien<c type="kp">_</c>─</ab>
+                <lb n="70" xml:id="l-70"/>
+<ab rend="indent">Voor een “zaaijer des woords”<anchor n="25" xml:id="note-o-25"/> zoo als ik hoop te worden <lb n="71" xml:id="l-71"/>zal ook wel<c type="kk">/</c> even als voor den zaaijer van het koren <lb n="72" xml:id="l-72"/>op het veld<c type="kk">/</c> wel iederen dag genoeg blijven hebben aan <lb n="73" xml:id="l-73"/>zijn eigen kwaad<anchor n="26" xml:id="note-o-26"/> ─ en de aarde velerlei doornen <lb n="74" xml:id="l-74"/>en distelen voortbrengen<anchor n="27" xml:id="note-o-27"/> ─ laat ons elkander <lb n="75" xml:id="l-75"/>maar tot steun blijven en naar broederliefde <lb n="76" xml:id="l-76"/>zoeken.─</ab>
+                <lb n="77" xml:id="l-77"/>
+<ab rend="indent">à Dieu, groet uwe huisgenooten en ontvang een hand<c type="shy">-</c>
+                    <lb n="78" xml:id="l-78"/>druk in gedachten en geloof mij steeds </ab>
+<vg:whiteline/>
+                <lb n="79" xml:id="l-79"/>
+<ab>Uw liefh. broer</ab>
+                <lb n="80" xml:id="l-80"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+                <lb n="81" xml:id="l-81"/>
+<ab>Het regent hier vandaag en <lb n="82" xml:id="l-82"/>men zou zich kunnen verbeelden <lb n="83" xml:id="l-83"/>te Londen te zijn. Maar wat wordt <lb n="84" xml:id="l-84"/>het alles groen buiten<c type="kk">/</c> dezen morgen <lb n="85" xml:id="l-85"/>gingen Gorlitz, ten Broek en ik reeds <lb n="86" xml:id="l-86"/>vroeg wandelen. Is het in de Scheveningsche <lb n="87" xml:id="l-87"/>boschjes<anchor n="28" xml:id="note-o-28"/> ook niet mooi<c type="kp">_</c> Zouden wij daar <lb n="88" xml:id="l-88"/>nog eens zamen wandelen en aan het strand.─ <lb n="89" xml:id="l-89"/>ik hoop het!─ Als ik dezen op de post breng hoop ik dat paadje <lb n="90" xml:id="l-90"/>achter het station nog eens te gaan waar wij zamen wandelden.<anchor n="29" xml:id="note-o-29"/>
+                </ab>
+<vg:whiteline/>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>Dordrecht, 23 April 1877</ab>
+<vg:whiteline/>
+<ab>My dear Theo,</ab>
+<ab>I received your letter of 21 April, thanks for writing so quickly – and that letter gave me a feeling of joy such as the woman must have had who found the piece of silver she had lost,<anchor n="1" xml:id="note-t-1"/> namely, you wrote that <rs type="pers" key="37">Aunt Koos</rs>’s little reading-desk<anchor n="2" xml:id="note-t-2"/> containing <rs type="pers" key="524 526">Pa and Ma</rs>’s letters was found at <rs type="pers" key="642 643">the Rooses</rs>’ when the house was being cleaned.<anchor n="3" xml:id="note-t-3"/>
+                </ab>
+<ab rend="indent">What fear and worry I felt last year, looking for it and imagining that I’d taken it to England and that it got left behind at one of the houses I stayed at in London. It’s wonderful that it has turned up, I’m so grateful, keep it for the time being, I’ll be needing it in Amsterdam when I’m ‘on the way’.<anchor n="4" xml:id="note-t-4"/>
+                </ab>
+<ab rend="indent">I now remember very clearly having left it behind at <rs type="pers" key="642 643">the Rooses</rs>’ when I left for England, because there wasn’t much room in my trunk and also because I thought it would be safer there than travelling with me in foreign parts.</ab>
+<ab rend="indent">It seems to me to be new proof, as it were, and a sign like others that I think I’ve been noticing recently, 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> that my efforts will be blessed, that things will go well for me, and the thing I desire so fervently will be granted me – something of the faith of old<anchor n="5" xml:id="note-t-5"/> has come alive in me that my thoughts shall be established<anchor n="6" xml:id="note-t-6"/> and a right spirit renewed<anchor n="7" xml:id="note-t-7"/> and the soul restored to the old faith. I alone am making a choice for my life. Set your heart and mind, you too, on something good, on a good cause, and desire it of the Lord.<anchor n="8" xml:id="note-t-8"/>
+                </ab>
+<ab rend="indent">
+                    <rs type="pers" key="410">Uncle Jan</rs> was in Etten and said that my room was already ready.<anchor n="9" xml:id="note-t-9"/> <rs type="pers" key="306">Mr Braat</rs> is negotiating with someone, so in May I’ll probably put my hand to the plough.<anchor n="10" xml:id="note-t-10"/>
+                </ab>
+<ab rend="indent">Hanging in that little room will be the prints I got from you, and so I’ll be reminded of you daily – beneath that one after <rs type="pers" key="191">Rosenthal</rs>, that monk,<anchor n="11" xml:id="note-t-11"/> I have written ‘Take my yoke upon you, and learn of Me; for I am meek and lowly in heart: and ye shall find rest unto your souls. For my yoke is easy, and my burden is light.<anchor n="12" xml:id="note-t-12"/> Whosoever will come after Me, let him deny himself, and take up his cross, and follow Me<anchor n="13" xml:id="note-t-13"/> – in the kingdom of heaven<anchor n="14" xml:id="note-t-14"/> they do not marry, and are not given in marriage’.<anchor n="15" xml:id="note-t-15"/> Beneath its pendant, The imitation of Jesus Christ (after <rs type="pers" key="1335">Ruipérez</rs>),<anchor n="16" xml:id="note-t-16"/> I wrote what we used to hear <rs type="pers" key="526">Pa</rs> say: ‘Lord, I should so much like to be earnest’.<anchor n="17" xml:id="note-t-17"/>
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/>
+                </ab>
+<ab rend="indent">This morning I heard a very beautiful sermon by the <rs type="pers" key="474">Rev. Keller van Hoorn</rs> on ‘and that from a child thou hast known the scriptures’.<anchor n="18" xml:id="note-t-18"/> This afternoon <rs type="pers" key="397">Görlitz</rs>, <rs type="pers" key="507">Mager</rs>, <rs type="pers" key="316">Ten Broek</rs>
+                    <anchor n="19" xml:id="note-t-19"/> and I went to the museum to see the <rs type="pers" key="1339">Scheffer</rs>s – they’re really beautiful. Have I already told you that <rs type="pers" key="397">Görlitz</rs> went to Etten to apply for the teaching position that has fallen vacant in Leur?<anchor n="20" xml:id="note-t-20"/>
+                </ab>
+<ab rend="indent">He came back filled with everything he had seen there. <rs type="pers" key="526">Pa</rs> had given a sermon on Jacob who slept in the field at Bethel,<anchor n="21" xml:id="note-t-21"/> and he had found it all so moving.</ab>
+<ab rend="indent">I’d be happy for him if he got the position; then he would probably marry very soon.</ab>
+<ab rend="indent">Last week I got a letter from <rs type="pers" key="394">Harry Gladwell</rs> himself. Something has happened to him, a little different, admittedly, and yet essentially the same as what happened to you, and he is in dangerous surroundings there – the fowlers<anchor n="22" xml:id="note-t-22"/> are many and clever. I hope to hear more soon, and we’ll talk about it sometime.</ab>
+<ab rend="indent">I know little of <rs type="pers" key="833">Taine</rs>’s life, I assume that he travelled a lot in France, Italy, England and also Holland, one could deduce as much from his writings.<anchor n="23" xml:id="note-t-23"/> He is certainly an artist. I still have the first book by <rs type="pers" key="554">Bürger</rs>, Musées.<anchor n="24" xml:id="note-t-24"/> 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/>
+                </ab>
+<ab rend="indent">Now, Theo, have a nice Sunday today. I hope to see you if I go to Amsterdam.</ab>
+<ab rend="indent">For a ‘sower of the word’<anchor n="25" xml:id="note-t-25"/> as I hope to become, sufficient unto the day is the evil thereof, just like for a sower of corn in the field<anchor n="26" xml:id="note-t-26"/> – and the earth shall bring forth all manner of thorns and thistles<anchor n="27" xml:id="note-t-27"/> – do let’s continue to support each other and to seek brotherly love.</ab>
+<ab rend="indent">Adieu, give my regards to your housemates, and accept a handshake in thought, and believe me ever</ab>
+<vg:whiteline/>
+<ab>Your loving brother</ab>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<ab>It’s raining here today and one could imagine oneself in London. But how green everything outside is becoming. This morning <rs type="pers" key="397">Görlitz</rs>, <rs type="pers" key="316">Ten Broek</rs> and I went for a walk while it was still early. Isn’t it beautiful in the Scheveningen Bosjes as well?<anchor n="28" xml:id="note-t-28"/> Shall we walk there together again, and on the beach? I hope so! When I go to post this I hope to take that small path behind the station again where we walked together.<anchor n="29" xml:id="note-t-29"/>
+                </ab>
+            </div>
+  <div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>See <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Luke" chap="15" vr="8-9">Luke 15:8-9</bibleref>.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>‘Aunt Koos’ could refer to <rs type="pers" key="37">Jacoba Wilhelmina van der Burg</rs>. Regarding Van Gogh’s reading-desk in England, cf. <ref target="let102.xml#n-57">letter 102, n. 57.</ref>
+                    </ab>
+                </note>
+
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>Before leaving for England, Van Gogh boarded with the <rs type="pers" key="642 643">Roos family</rs> in The Hague; <ref target="let001.xml">see letter 1</ref>.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>‘On the way’ means ‘on my way to becoming a clergyman’.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Rhy. ps" chap="42" v="7">Rhy. ps. 42:7</bibleref>.</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Prov" chap="16" v="3">Prov. 16:3</bibleref>.</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Rhy. ps" chap="51" v="5">Rhy. ps. 51:5</bibleref>.</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Rhy. ps" chap="37" v="2">rhy. ps. 37:2</bibleref>.</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+  <ab>Van Gogh was planning to live in Amsterdam with his <rs type="pers" key="410">Uncle Jan</rs>, who lived at Grote Kattenburgerstraat 3 on the Marinewerf (naval dockyard) on the island of Kattenburg, not far from the centre. </ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>An expression based on <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Luke" chap="9" v="62">Luke 9:62</bibleref>. As also emerges from the family correspondence, Van Gogh’s employer did not want to let him go until he had found a replacement (FR b2520).</ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+
+<ab>This most likely refers to the print <hi rend="ital">Humility</hi>, which was published in <rs type="pers" key="679">Thomas a Kempis</rs>, <rs type="lit" key="35">
+                            <hi rend="ital">L’Imitation de Jésus-Christ</hi>
+                        </rs>. With reflections by F. de Lammennais at the end of every chapter. Inscribed below it, in addition to ‘Rosenthal pinxit’ and ‘Girardet &amp; Pelé sc.’, is ‘Furne, Pagnerre, Perrotin, Éditeurs’. See 12th edition. Paris 1844, between pp. 148-149. <rs type="ill" key="1802">Ill. 1802</rs>. Vincent had received the print from Theo, to whom he had recommended the book in November 1876 (<ref target="let197.xml">see letter 197</ref>). The engraving is part of a series, the others being by Auguste Blanchard (<hi rend="ital">père</hi>), Johannes de Mare and Tony Goutière. The painting was most probably made by <rs type="pers" key="191">Constantin David Rosenthal</rs>.</ab>
+                </note>
+
+<note n="12" xml:id="n-12" target="#note-t-12">
+
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Matt" chap="11" vr="29-30">Matt. 11:29-30</bibleref>.</ab>
+                </note>
+<note n="13" xml:id="n-13" target="#note-t-13">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Mark" chap="8" v="34">Mark 8:34</bibleref>; cf. also <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Matt" chap="16" v="24">Matt. 16:24</bibleref>.</ab>
+                </note>
+<note n="14" xml:id="n-14" target="#note-t-14">
+<ab>‘The kingdom of heaven’ is alluded to many times in the Gospel according to Matthew.</ab>
+                </note>
+<note n="15" xml:id="n-15" target="#note-t-15">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Mark" chap="12" v="25">Mark 12:25</bibleref>.</ab>
+                </note>
+<note n="16" xml:id="n-16" target="#note-t-16">
+<ab>For Ruipérez, <ref target="let040.xml#n-16">see letter 40, n. 16.</ref>
+                    </ab>
+                </note>
+<note n="17" xml:id="n-17" target="#note-t-17">
+<ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="hymn" chap="73" v="10">hymn 73:10</bibleref>, ‘Dus past de waakzaamheid den Christen, En daaglijks ernstig onderzoek’ (Thus watchfulness becomes the Christian, And serious probing every day).</ab>
+                </note>
+<note n="18" xml:id="n-18" target="#note-t-18">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="2 Tim" chap="3" v="15">2 Tim. 3:15</bibleref>.</ab>
+                </note>
+<note n="19" xml:id="n-19" target="#note-t-19">
+<ab>This perhaps refers to the clerk <rs type="pers" key="316">Christiaan van de(n) Broek</rs>, who lived at Groenmarkt A 209 and is recorded in the 1873 <hi rend="ital">Adresboek</hi>. The civil registration records of the municipality of Dordrecht for the years 1860-1890 contain no <hi rend="ital">Ten</hi> Broek.</ab>
+                </note>
+<note n="20" xml:id="n-20" target="#note-t-20">
+<ab>
+  <ref target="let111.xml">See letter 111</ref> concerning <rs type="pers" key="397">Görlitz</rs>’s application for this position.</ab>
+                </note>
+<note n="21" xml:id="n-21" target="#note-t-21">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Gen" chap="28" vr="10-22">Gen. 28:10-22</bibleref>.</ab>
+                </note>
+<note n="22" xml:id="n-22" target="#note-t-22">
+<ab>Used in the Bible as a name for the godless and for the evil threatening humankind; cf. such passages as <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Ps" chap="91" v="3">Ps. 91:3</bibleref> and <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Rhy. ps" chap="124" v="4">rhy. ps. 124:4</bibleref>.</ab>
+                </note>
+<note n="23" xml:id="n-23" target="#note-t-23">
+<ab>
+                        <rs type="pers" key="833">Hippolyte Adolphe Taine</rs> was probably mentioned by Theo in his letter of 21 April. From <ref target="let133.xml">letter 133</ref> of 30 October 1877, it emerges that Vincent had read Taine’s <rs type="lit" key="128">
+                            <hi rend="ital">Histoire de la littérature anglaise</hi>
+                        </rs>. He could have inferred that Taine had visited the countries mentioned from the list of Taine’s other publications appearing in the front of <hi rend="ital">Histoire de la littérature anglaise</hi> of 1874, a list which includes <hi rend="ital">Voyage aux Pyrénées</hi>, <hi rend="ital">Notes sur l’Angleterre</hi>, <hi rend="ital">Notes sur Paris</hi> and <hi rend="ital">Voyage en Italie</hi>. It is not known which of these works Van Gogh read, but he certainly knew <rs type="lit" key="129">
+                            <hi rend="ital">Voyage aux Pyrénées</hi>
+                        </rs>. See Pabst 1988, p. 27.</ab>
+                </note>
+  <note n="24" xml:id="n-24" target="#note-t-24">
+<ab>
+                        <rs type="pers" key="554">E.J.T. Thoré</rs> (writing under the pseudonym W. Bürger), <rs type="lit" key="13">
+                            <hi rend="ital">Musées de la Hollande, <hi rend="sc">i</hi>. Amsterdam et La Haye</hi>
+                        </rs>; Vincent had sent part 2 to Theo (cf. <ref target="let111.xml">letter 111</ref>).</ab>
+                </note>
+<note n="25" xml:id="n-25" target="#note-t-25">
+<ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Mark" chap="4" v="14">Mark 4:14</bibleref>.</ab>
+                </note>
+<note n="26" xml:id="n-26" target="#note-t-26">
+<ab>An allusion to the parable of the sower in the four Gospels, including <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Matt" chap="13" vr="3-8">Matt. 13:3-8</bibleref>. See for ‘sufficient ... thereof’: <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Matt" chap="6" v="34">Matt. 6:34</bibleref>.</ab>
+                </note>
+<note n="27" xml:id="n-27" target="#note-t-27">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Gen" chap="3" v="18">Gen. 3:18</bibleref>.</ab>
+                </note>
+<note n="28" xml:id="n-28" target="#note-t-28">
+<ab>
+  <ref target="let079.xml#n-5">See letter 79, n. 5.</ref>
+</ab>
+                </note>
+<note n="29" xml:id="n-29" target="#note-t-29">
+<ab>Regarding this walk, <ref target="let103.xml">see letter 103</ref>.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

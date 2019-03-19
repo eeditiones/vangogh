@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Hendrik Jan Furnée, crossed-out fragment of an order for paint. Hoogeveen, September 1883.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/RM13"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">RM13</idno>
+<idno type="collectedletters"/>
+<idno type="brieven1990">-</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Hendrik Jan Furnee</vg:addressee>
+                        <vg:placeLet>Hoogeveen</vg:placeLet>
+                        <vg:dateLet>September 1883</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+</vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b349 b V/1962</p>
+                    </note>
+<note type="additionalDetail" xml:id="additionalDetail">
+    <p>This deleted passage proves to have been the beginning of a letter; Van Gogh crossed it out, turned the sheet around, and used it for the second part of <ref target="let388.xml">letter 388</ref> to Theo. The <ref target="#l-351">lines 351-357</ref> (‘The sermon ... handshake’) are written between this crossed-out fragment.</p>
+   <p rend="indent">The order was probably intended for the Hague colourman Hendrik Jan Furnée (cf. <ref target="let369.xml">letters 369</ref> and <ref target="let391.xml">391</ref>). In <ref target="let392.xml">letter 392</ref> Van Gogh remarks: ‘For I’d had paint sent from Furnée’s’.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <surface n="b 0349 b" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000448r_01.TIF" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000448r_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<!--                <graphic mimeType="image/tiff" url="VGM001000448r_01_nL.tif" rend="norend"/>-->
+                <graphic mimeType="image/jpeg" url="VGM001000448r_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000448r_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+        </surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Mijnheer<c type="kk">/</c>
+                </ab>
+                <lb n="2" xml:id="l-2"/>
+<ab>Het zou mij aangenaam wezen als post<c type="shy">-</c>
+                    <lb n="3" xml:id="l-3"/>pakket van U te ontvangen </ab>
+    <ab rend="html" html="rm13_01_ol.html">6 tubes<anchor n="1" xml:id="note-o-1"/> laque de <lb n="4" xml:id="l-4"/>
+                    <hi rend="ital">garance</hi> (rose/3<c type="kk">/</c> brûlée/3)                          f<c type="kp">_</c> 1.95</ab>
+                <lb n="5" xml:id="l-5"/>
+    <ab rend="html" html="rm13_01_ol.html">En 6 tubes Outremer <hi rend="ital">gewoon</hi>                          -.60</ab>
+                <lb n="6" xml:id="l-6"/>
+    <ab rend="html" html="rm13_01_ol.html">     8     ,,    Indigo                                        1.80</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+</div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>Dear Sir,</ab>
+<ab>I should be obliged to receive from you in a parcel</ab>
+    <ab rend="html" html="rm13_01_tr.html">6 tubes<anchor n="1" xml:id="note-t-1"/> of <hi rend="ital">madder</hi> (3 rose, 3 burnt)     1.95 guilders</ab>
+    <ab rend="html" html="rm13_01_tr.html">And 6 tubes Ultramarine <hi rend="ital">ordinary</hi>     -.60</ab>
+    <ab rend="html" html="rm13_01_tr.html">8 ,, Indigo        1.80</ab>
+            </div>
+    <div type="notes">
+                <note n="1" xml:id="n-1" target="#note-t-1">
+                    <ab>It has not yet been determined whether the following list refers to watercolours or oil paints. Van Gogh used both types of paint in Drenthe; but judging by the number of tubes, this order was most likely for oil paints. It is interesting that the list includes indigo, since the presence of this colour in his palette had previously been established only from June 1884 onwards – about nine months later. See letter 450, and cf. Carlo Derkert, ‘Theory and practice in van Gogh’s Dutch painting’, <hi rend="ital"> Konsthistorisk Tidskrift</hi> 15 (1946) 3-4, p. 99.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

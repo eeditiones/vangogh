@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+    <title>Between 1874 and December 1876. Probably sent to Theo van Gogh. Copy of the poem ‘Soirée d’hiver’ by André Lemoyne.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/RM02"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">RM02</idno>
+<idno type="collectedletters"/>
+<idno type="brieven1990">-</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet/>
+                        <vg:dateLet>probably between 1874 and December 1876</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>Copy of the poem ‘Soirée d’hiver’ by André Lemoyne. Probably sent to Theo van Gogh between 1874 and December 1876.</p>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b1456 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>This sheet is difficult to place precisely, but in view of the even handwriting and the nature of Lemoyne’s poem, it probably dates from between 1874 and December 1876. Cf. Pabst 1988, p. 71.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 1456" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001001341_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001001341_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001341_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001341_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+        <surface n="b 1456 V/1962" xml:id="surf-extra-1v">
+            <graphic mimeType="image/tiff" url="VGM001001341_02.TIF" rend="norend"/>
+            <zone xml:id="zone-extra-1">
+<graphic mimeType="image/tiff" url="VGM001001341_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001341_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001341_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Soirée d’hiver</ab>
+<vg:whiteline/>
+                <lb n="2" xml:id="l-2"/>
+<ab>Au coucher du soleil toute la forêt semble</ab>
+                <lb n="3" xml:id="l-3"/>
+<ab>Dans le recueillement, touffes de chênes roux</ab>
+                <lb n="4" xml:id="l-4"/>
+<ab>Petits génévriers, maigres buissons de houx</ab>
+                <lb n="5" xml:id="l-5"/>
+<ab>N’ont pas dans la lumière une feuille qui tremble.–</ab>
+<vg:whiteline/>
+                <lb n="6" xml:id="l-6"/>
+<ab>On n’entend qu’un oiseau, travailleur attardé</ab>
+                <lb n="7" xml:id="l-7"/>
+<ab>Dans le canton lointain des chataigniers antiques</ab>
+                <lb n="8" xml:id="l-8"/>
+<ab>On écoute à travers les grands bois pacifiques</ab>
+                <lb n="9" xml:id="l-9"/>
+<ab>Le pivert dont le bec fait un bruit saccadé.–</ab>
+<vg:whiteline/>
+                <lb n="10" xml:id="l-10"/>
+<ab>Etrange oiseau connu de cet homme qui passe</ab>
+                <lb n="11" xml:id="l-11"/>
+<ab>Dans la lueur tranquille et pure du couchant</ab>
+                <lb n="12" xml:id="l-12"/>
+<ab>Ce n’est pas un vieillard qui se traîne en marchant</ab>
+                <lb n="13" xml:id="l-13"/>
+<ab>Dont l’échine se courbe et dont la jambe est lasse.–</ab>
+<vg:whiteline/>
+                <lb n="14" xml:id="l-14"/>
+<ab>C’est un rude piéton sortant de la forêt</ab>
+                <lb n="15" xml:id="l-15"/>
+<ab>Tout chargé de bois mort – Son pas ferme s’allonge</ab>
+                <lb n="16" xml:id="l-16"/>
+<ab>Il a vu le soleil comme une grosse orange</ab>
+                <lb n="17" xml:id="l-17"/>
+<ab>Qui là-bas, s’enfouit dans l’herbe et disparaît.–</ab>
+<vg:whiteline/>
+                <lb n="18" xml:id="l-18"/>
+<ab>Il marche allégrement, le fond du coeur rumine</ab>
+                <lb n="19" xml:id="l-19"/>
+<ab>Quelque chose d’heureux – dans le ciel clair et froid</ab>
+                <lb n="20" xml:id="l-20"/>
+<ab>Monte un fil de fumée, un long fil tout droit.–</ab>
+                <lb n="21" xml:id="l-21"/>
+<ab>Son vieux masque rugueux et tanné s’illumine.–</ab>
+<vg:whiteline/>
+                <lb n="22" xml:id="l-22"/>
+<ab>Dans ce pli du terrain où finit l’horizon</ab>
+                <lb n="23" xml:id="l-23"/>
+<ab>Il n’arrivera pas avant la nuit peutêtre</ab>
+                <lb n="24" xml:id="l-24"/>
+<ab>Mais il a sur l’épaule un riche feu de hêtre</ab>
+                <lb n="25" xml:id="l-25"/>
+<ab>Pour égayer les coins de toute la maison.–</ab>
+                <vg:whiteline/>
+                <lb n="26" xml:id="l-26"/>
+<ab>Là sous un toit moussu, fenêtre et porte close</ab>
+                <lb n="27" xml:id="l-27"/>
+<ab>A l’heure du berceau, les enfants réjouis</ab>
+                <lb n="28" xml:id="l-28"/>
+<ab>Ouvriront de grands yeux par la flamme éblouis</ab>
+                <lb n="29" xml:id="l-29"/>
+<ab>Quand il déchaussera leurs petits pieds roses.–</ab>
+<vg:whiteline/>
+                <lb n="30" xml:id="l-30"/>
+<ab>A. Lemoyne<anchor n="1" xml:id="note-o-1"/>
+                </ab>
+                <vg:whiteline/>
+<div type="textualNotes">
+<note target="l-8" n="8">pacifiques &lt; antiques  <hi rend="ital">Corresponding to the original text.</hi>
+                    </note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>A winter evening</ab>
+<vg:whiteline/>
+<ab>At sunset all the forest seems as though</ab>
+<ab>In contemplation; clumps of russet oaks,</ab>
+<ab>Small junipers, sparse holly bushes,</ab>
+                <ab> And not a leaf doth tremble in the light.</ab>
+<vg:whiteline/>
+<ab>The only sound, a bird, belated toiler</ab>
+<ab>In the distant stand of ancient chestnut trees;</ab>
+<ab>Across the mighty, peaceful woods we hear</ab>
+<ab>The yaffle, with his bill’s staccato hammering. </ab>
+<vg:whiteline/>
+<ab>Strange bird, familiar to this man who passes by</ab>
+<ab>In sunset’s pure, calm glimmering.</ab>
+<ab>’Tis not an old man, feet dragging as he goes,</ab>
+<ab>His back bent low, drawn on weary legs.</ab>
+<vg:whiteline/>
+<ab>’Tis is a rude fellow from the forest comes,</ab>
+<ab>Laden with dead wood. His stride is long and firm,</ab>
+<ab>He’s seen the sun, like a great orange in the sky,</ab>
+<ab>That yonder sinks into the grass and disappears. </ab>
+<vg:whiteline/>
+<ab>Cheerfully he goes; pondering in his inmost heart</ab>
+                <ab> Some source of happiness – into the clear, cold sky</ab>
+<ab>Rises a plume of smoke, a long, straight plume.</ab>
+                <ab> His old mask, rugged and weather-worn, lights up.</ab>
+<vg:whiteline/>
+<ab>Night may have fallen by the time he gains</ab>
+<ab>That fold of ground where the horizon ends,</ab>
+<ab>But on his back he has a goodly beech-wood fire,</ab>
+<ab>To brighten every corner of the house.</ab>
+<vg:whiteline/>
+<ab>There, beneath a mossy roof, door and window closed</ab>
+<ab>At bedtime, his children with delight</ab>
+<ab>Will open wide their eyes, dazzled by the flames,</ab>
+<ab>When off their small pink feet he takes the shoes.</ab>
+<vg:whiteline/>
+<ab>
+                    <rs type="pers" key="134">A. Lemoyne</rs>
+                    <anchor n="1" xml:id="note-t-1"/>
+                </ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+    <ab>‘<rs type="lit" key="541">Soirée d’hiver</rs>’, included in <rs type="pers" key="134">André Lemoyne</rs>, <hi rend="ital">Poésies 1855-1870</hi>. Paris 1873, pp. 89-90. There are a few slight differences between Van Gogh’s copy and the published poem.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

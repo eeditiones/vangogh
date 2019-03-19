@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Amsterdam, Monday, 28 May 1877.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let116"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">116</idno>
+<idno type="collectedletters">97</idno>
+<idno type="brieven1990">116</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Amsterdam</vg:placeLet>
+                        <vg:dateLet>Monday, 28 May 1877</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:physDesc>
+                        <vg:decoration>
+                            <vg:decoList xml:id="sketches">
+                                <vg:decoItem n="A" xml:id="sketch-1">
+                                    <vg:decoDesc>
+<p>
+      <hi rend="ital">The cave of Machpelah</hi> (<rs type="sketch" key="8">F Juv. XXX / JH -</rs>), enclosed drawing</p>
+                                    </vg:decoDesc>
+                                </vg:decoItem>
+                            </vg:decoList>
+                        </vg:decoration>
+                    </vg:physDesc>
+                    <vg:letContents>
+<p>To Theo van Gogh. Amsterdam, Monday, 28 May 1877.</p>
+<note type="ongoingTopic" n="1">
+<p>Mrs Tersteeg’s health after the delivery of her child <ref target="let114.xml">(114)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. nos. b115 V/1962 (sheet 1) and d300 V/1970 (sheet 2)</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Letter headed: ‘Amsterdam 28 Mei 1877’.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0115" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000124_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000124_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000124_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000124_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0115" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000124_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000124_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000124_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000124_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="d 0300" xml:id="surf-pb-2r">
+            <graphic mimeType="image/tiff" url="VGM001001664_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-2r-3">
+<graphic mimeType="image/tiff" url="VGM001001664_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001664_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001664_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+        <surface n="d 0300 V/1970" xml:id="surf-extra-2v">
+            <graphic mimeType="image/tiff" url="VGM001001664_02.TIF" rend="norend"/>
+            <zone xml:id="zone-extra-1">
+<graphic mimeType="image/tiff" url="VGM001001664_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001664_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001664_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Amsterdam 28 Mei 1877</ab>
+<vg:whiteline/>
+                <lb n="2" xml:id="l-2"/>
+<ab>Waarde Theo,</ab>
+                <lb n="3" xml:id="l-3"/>
+<ab>Heden vond Oom Jan nog eenige kleederen die van Hendrik<anchor n="1" xml:id="note-o-1"/> geweest zijn <lb n="4" xml:id="l-4"/>die er uitgegroeid is, en vroeg of ik ze kon gebruiken, zeide dat als ik <lb n="5" xml:id="l-5"/>ze met U deelen mogt ik ze heel graag aannam. Hierbij dus <lb n="6" xml:id="l-6"/>een duffelsche broek<anchor n="2" xml:id="note-o-2"/> die U in den herfst en winter nog wel te pas <lb n="7" xml:id="l-7"/>zal kunnen komen, tegen dien tijd zult gij al ligt er een <lb n="8" xml:id="l-8"/>noodig hebben, ik heb een zwarte.</ab>
+                <lb n="9" xml:id="l-9"/>
+<ab rend="indent">Vandaag was het een stormachtigen dag, vanmorgen naar de <lb n="10" xml:id="l-10"/>les gaande keek ik op de brug den kant van de Zuiderzee uit, <lb n="11" xml:id="l-11"/>daar was een witte streep aan den horizon waarboven donker grijze <lb n="12" xml:id="l-12"/>wolken waaruit in de verte den regen in schuine strepen neerkwam<c type="kk">/</c> <lb n="11a" xml:id="l-11a"/>daartegen teekende zich de lange rei huizen met de Oosterkerk<anchor n="3" xml:id="note-o-3"/> af<c type="kp">_</c>
+                </ab>
+                <lb n="13" xml:id="l-13"/>
+<ab rend="indent">Gisteren was Oom Jan naar Leiden en was ik dus alleen dien dag, <lb n="14" xml:id="l-14"/>ging des morgens naar de Oosterkerk en hoorde daar eene preek<anchor n="4" xml:id="note-o-4"/> <lb n="15" xml:id="l-15"/>over Jes. 55:8 &amp; 9 “Want Mijne gedachten zijn niet Uwe gedachten en <lb n="16" xml:id="l-16"/>uwe wegen zijn niet Mijne wegen<c type="kk">/</c> spreekt de Heer<c type="kp">_</c> Want gelijk de Hemelen <lb n="17" xml:id="l-17"/>hooger zijn dan de aarde, al zoo zijn Mijne wegen hooger dan Uwe <lb n="18" xml:id="l-18"/>wegen en Mijne gedachten hooger dan ulieder gedachten”.─</ab>
+                <lb n="19" xml:id="l-19"/>
+<ab rend="indent">Ben des middags naar den zeekant gewandeld en verder den geheelen <lb n="20" xml:id="l-20"/>dag geschreven. Het werk en schrijven gaat nog niet zoo vlug en <lb n="21" xml:id="l-21"/>gemakkelijk als ik zou willen, maar al doende hoop ik te leeren, <lb n="22" xml:id="l-22"/>maar jongen, als ik kon, ik zou wel eenige jaren willen overvliegen<c type="kk">/</c> <lb n="23" xml:id="l-23"/>maar het is mijn vertrouwen dat ik er komen zal en dat mijnen mond <lb n="24" xml:id="l-24"/>de volheid der prediking van het Evangelie zal uitspreken en mijne <lb n="25" xml:id="l-25"/>hand die zal schrijven, en dat dat mij gegeven worde dat bid ik <lb n="26" xml:id="l-26"/>maar men moet eerst eenige rust krijgen wanneer men reeds <lb n="27" xml:id="l-27"/>eenige jaren van werk achter zich heeft en voelt men op weg is <lb n="28" xml:id="l-28"/>en hetzelfde doet wat zij die men liefheeft doen.</ab>
+                <lb n="29" xml:id="l-29"/>
+<ab rend="indent">Dezen morgen was ik op Oom Strickers studeerkamer, die is mooi <lb n="30" xml:id="l-30"/>en er hangt een portret van Calvijn naar Ary Scheffer,<anchor n="5" xml:id="note-o-5"/> toch had <lb n="31" xml:id="l-31"/>ik er zoo graag wat meer prenten aan den muur gezien.</ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="32" xml:id="l-32"/>
+<ab rend="indent">Verl. week was ik gekomen tot aan Gen. XXIII<c type="kk">/</c> de begrafenis van Sara <lb n="33" xml:id="l-33"/>in den akker dien Abraham kocht om Haar daar te begraven in de <lb n="34" xml:id="l-34"/>spelonk van Machpela<c type="kk">/</c>
+                    <anchor n="6" xml:id="note-o-6"/> en zoo onwillekeurig maakte ik een teekeningetje <lb n="35" xml:id="l-35"/>hoe ik mij die plaats voorstelde, het is niet veel bijzonders maar <lb n="36" xml:id="l-36"/>ik sluit het toch hierin.<anchor n="7" xml:id="note-o-7"/>
+                </ab>
+                <lb n="37" xml:id="l-37"/>
+<ab rend="indent">Een goeden brief van huis gisteren, schreef heden terug en ook aan <lb n="38" xml:id="l-38"/>Anna, schrijft Gij ook weer eens spoedig een woordje want ik <lb n="39" xml:id="l-39"/>verlang er weer naar.</ab>
+                <lb n="40" xml:id="l-40"/>
+<ab rend="indent">Daar juist gaat al het volk van de werf naar huis, dat is iets aardigs<c type="kp">_</c> <lb n="41" xml:id="l-41"/>s’morgens vroeg hoort men ze reeds vroeg, ik geloof er ongeveer 3000 zijn<c type="kk">/</c>
+                    <anchor n="8" xml:id="note-o-8"/> <lb n="42" xml:id="l-42"/>het geluid van hunne voetstappen is iets als het geruisch van de zee. <lb n="43" xml:id="l-43"/>Kocht heden morgen van een jood “Tobias” naar Rembrandt, een <lb n="44" xml:id="l-44"/>klein gravuretje, voor zes cents.─<anchor n="9" xml:id="note-o-9"/>
+                </ab>
+                <lb n="45" xml:id="l-45"/>
+<ab rend="indent">Gij moet veel groeten hebben van Oom Jan, schrijf Hem een enkel <lb n="46" xml:id="l-46"/>woordje, of wel schrijf een zin in een brief aan mij die ik kan voorlezen <lb n="47" xml:id="l-47"/>om te bedanken voor het goed.─</ab>
+                <lb n="48" xml:id="l-48"/>
+<ab rend="indent">Hoe maakt Mevrouw Tersteeg het, ben ook verlangend om te <lb n="49" xml:id="l-49"/>hooren of Gij nog bij Mauve zijt geweest.</ab>
+                <lb n="50" xml:id="l-50"/>
+<ab rend="indent">Binnen kort gaat Tante Mina en het meisje van Paul<anchor n="10" xml:id="note-o-10"/> <lb n="51" xml:id="l-51"/>naar Etten, dat is prettig voor t’huis. Pa schreef de kerk <lb n="52" xml:id="l-52"/>was gewit en het orgel geverfd. Gisteren zijn er 3 kinderen gedoopt. <lb n="53" xml:id="l-53"/>Lips<anchor n="11" xml:id="note-o-11"/> wordt nog niet beter en de vrouw van Willem van Eekelen<anchor n="12" xml:id="note-o-12"/> <lb n="54" xml:id="l-54"/>is ook erg ziek. Hebt Gij gehoord Oom Vincent weer bronchite <lb n="55" xml:id="l-55"/>heeft, en het schijnt erg te zijn ook, gelukkig Oom weer in het <lb n="56" xml:id="l-56"/>land is, en in zijn eigen huis, en dat Pa en Moe hem dagelijks bijna <lb n="57" xml:id="l-57"/>eens komen bezoeken.─</ab>
+                <lb n="58" xml:id="l-58"/>
+<ab rend="indent">Nu jongen, heb het zoo goed mogelijk, groet Uwe huisgenooten<c type="kk">/</c> <lb n="59" xml:id="l-59"/>neem mij niet kwalijk ik het pakje niet frankeeren kan, kerel<c type="kk">/</c> <lb n="60" xml:id="l-60"/>schrijf maar eens spoedig en ontvang in gedachten een hartelijken <lb n="61" xml:id="l-61"/>handdruk en geloof mij </ab>
+<vg:whiteline/>
+                <lb n="62" xml:id="l-62"/>
+<ab>Uw zoo liefh. broeder</ab>
+                <lb n="63" xml:id="l-63"/>
+                <ab>Vincent</ab>
+<pb f="2r" n="3" xml:id="pb-orig-2r-3" facs="#zone-pb-2r-3"/> <figure facs="zone-sketch-1" n="A"/>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-11" n="11">a daartegen <supplied>
+                            <hi rend="ital">...</hi>
+                        </supplied> af &lt; <hi rend="ital">Written above l. 11, but inserted one line too high, after </hi>‘grijze’<hi rend="ital">, where it does not fit syntactically.</hi>
+                    </note>
+<note target="l-15" n="15">“Want &lt; Want</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>Amsterdam, 28 May 1877</ab>
+<vg:whiteline/>
+<ab>My dear Theo,</ab>
+<ab>Today <rs type="pers" key="410">Uncle Jan</rs> found some clothes that were <rs type="pers" key="404">Hendrik</rs>’s<anchor n="1" xml:id="note-t-1"/> which he’s grown out of, and asked if I could use them, and I said if I might share them with you I’d gladly take them. So herewith a pair of duffle trousers<anchor n="2" xml:id="note-t-2"/> which may well be of use to you in the autumn and winter, by which time you’ll likely be in need of them. I have a black pair.</ab>
+<ab rend="indent">Today was stormy, on my way to my lessons this morning I looked towards the Zuiderzee from the bridge. There was one white stripe on the horizon with dark grey clouds above it, the rain pouring down from them in slanting lines in the distance, standing out against this was the long row of houses with the Oosterkerk.<anchor n="3" xml:id="note-t-3"/>
+                </ab>
+<ab rend="indent">
+                    <rs type="pers" key="410">Uncle Jan</rs> went to Leiden yesterday, so I was alone that day. In the morning I went to the Oosterkerk and heard a sermon<anchor n="4" xml:id="note-t-4"/> on <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Isa" chap="55" v="8">Isaiah 55:8</bibleref> and <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Isa" chap="55" v="9">9</bibleref>, ‘For My thoughts are not your thoughts, neither are your ways My ways, saith the Lord. For as the Heavens are higher than the earth, so are My ways higher than your ways, and My thoughts higher than your thoughts’.</ab>
+<ab rend="indent">Walked to the seaside in the afternoon, and spent the rest of the day writing. The work and writing don’t yet go as fast and easily as I’d wish, but I hope to learn by practice, but, old boy, if I could I’d like to skip over a few years, though I trust that I shall succeed and that my lips shall speak the fullness of preaching the gospel and that my hand shall write it, and I pray that that be given me, but first one must get some rest when one already has several years of work behind one and feels one is on the way and is doing the same thing as those whom one loves.</ab>
+<ab rend="indent">This morning I was in <rs type="pers" key="318">Uncle Stricker</rs>’s study, it’s beautiful and he has a portrait of Calvin after <rs type="pers" key="1339">Ary Scheffer</rs>
+                    <anchor n="5" xml:id="note-t-5"/> hanging there, although I should have liked very much to see more prints on the wall. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">Last week I got as far as Gen. XXIII, the burial of Sarah in the field that Abraham bought to bury her there in the cave of Machpelah,<anchor n="6" xml:id="note-t-6"/> and I couldn’t help making a little drawing of how I imagined that place to be, it’s nothing very special but I’m enclosing it anyway.<anchor n="7" xml:id="note-t-7"/>
+                </ab>
+<ab rend="indent">A good letter from home yesterday, wrote back today, also to <rs type="pers" key="412">Anna</rs>. You must also write again soon, for I’m longing to hear from you.</ab>
+<ab rend="indent">Right now all the people are leaving the dockyard to go home, that’s nice to see. One hears them already early in the morning, I think there are around 3,000 of them,<anchor n="8" xml:id="note-t-8"/> the sound of their footsteps is something like the sound of the sea. This morning bought from a Jew ‘Tobias’ after <rs type="pers" key="1295">Rembrandt</rs>, a small engraving, for six cents.<anchor n="9" xml:id="note-t-9"/>
+                </ab>
+<ab rend="indent">
+                    <rs type="pers" key="410">Uncle Jan</rs> sends you many regards, write him a word or two, or else write a sentence in a letter to me that I can read to him to thank him for the clothes.</ab>
+<ab rend="indent">How is <rs type="pers" key="788">Mrs Tersteeg</rs> doing? I’m also eager to hear whether you’ve been to see <rs type="pers" key="323">Mauve</rs>.</ab>
+<ab rend="indent">
+                    <rs type="pers" key="317">Aunt Mina</rs> and <rs type="pers" key="516">Paul’s girl</rs>
+                    <anchor n="10" xml:id="note-t-10"/> will soon be going to Etten, that will be nice for them at home. <rs type="pers" key="526">Pa</rs> wrote that the church had been whitewashed and the organ painted. Yesterday 3 children were baptized. <rs type="pers" key="488">Lips</rs>
+                    <anchor n="11" xml:id="note-t-11"/> is still no better, and <rs type="pers" key="350">Willem van Eekelen’s wife</rs>
+                    <anchor n="12" xml:id="note-t-12"/> is also very ill. Did you hear that <rs type="pers" key="423">Uncle Vincent</rs> has bronchitis again, and it seems to be serious? It’s fortunate that Uncle is back in the country, and in his own house, and that <rs type="pers" key="524 526">Pa and Ma</rs> visit him almost every day.</ab>
+<ab rend="indent">Now, old boy, I wish you the very best, give my regards to your housemates, please forgive me for not being able to pay the postage on the parcel, old chap, do write soon and accept in thought a hearty handshake, and believe me</ab>
+<vg:whiteline/>
+<ab>Your most loving brother</ab>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<ab>
+<pb f="2r" n="3" xml:id="pb-trans-2r-3" facs="#zone-pb-2r-3"/>
+                </ab>
+<ab>
+                    <figure facs="zone-sketch-1" n="A"/>
+                </ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>
+                        <rs type="pers" key="404">Hendrik Jacob Eerligh van Gogh</rs>, Uncle Jan’s son.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>Trousers made of a coarse woollen material.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>The Oosterkerk is located at Wittenburggracht 25, near the Marinewerf (naval dockyard) where Van Gogh lived. He probably saw the panorama he describes from the Kattenburgerbrug. </ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>On Sunday, 27 May, the <rs type="pers" key="1681">Rev. Gerardus Johannes Vinke</rs> preached at 10 a.m. in the Oosterkerk.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>Numerous reproductions were made of the painting <hi rend="ital">Calvin</hi>, 1858 (Paris, Musée de la Vie Romantique) by <rs type="pers" key="1339">Ary Scheffer</rs>; the known ones include lithographs, wood engravings and an etching. The lithograph by <rs type="pers" key="1606">Frederik Hendrik Weissenbruch Dzn.</rs>, which was published in the <hi rend="ital">Scheffer-album</hi> (1859) to accompany the article ‘Calvijn’ by W.J. Hofdijk, was no doubt widely known. <rs type="ill" key="1825">Ill. 1825</rs>. See Ewals 1987, pp. 378-379, and exhib. cat. Dordrecht 1990, pp. 36-38, cat. no. 2</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Gen" chap="23" vr="17-20">Gen. 23:17-20</bibleref>.</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>The enclosed drawing is <hi rend="ital">The cave of Machpelah</hi> (<rs type="sketch" key="8">F Juv. XXX / JH -</rs>).Van Gogh wrote on the back of this drawing, between several Latin exercises: ‘Ask <rs type="pers" key="520">Mendes</rs> about exam, when it takes place. Would it be possible to attend it?’ The sheet used to be regarded as youthful work. Anita Vriend discovered that it belonged with this letter. See Vriend 1990, and cat. Amsterdam 1996, pp. 64-65, cat. no. 10.</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>At the beginning of 1885 the Rijkswerf was ‘a government enterprise with more than 2,000 employees’. See Ph. M. Bosscher, ‘Van ’s lands werf tot marine-etablissement. Amsterdam als marinebasis’, <hi rend="ital">Marineblad</hi> 4 (1965), p. 46.</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>
+                        <rs type="pers" key="1295">Rembrandt</rs> made two etchings of the blind Tobit (B42,1 and B153,1); several copies after the latter are known (Amsterdam, Rijksprentenkabinet). <rs type="ill" key="1826">Ill. 1826</rs> and <rs type="ill" key="1827">Ill. 1827</rs>. The small engraving Van Gogh bought could have been made after these prints (an impression after the first one is in the family estate) (Amsterdam, Van Gogh Museum, inv. no. p109) or after <hi rend="ital">The archangel Raphael leaving Tobias</hi>, of which Rembrandt had made an etching (B43; Amsterdam, Rijksprentenkabinet). <rs type="ill" key="1828">Ill. 1828</rs>.</ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>Aunt Mina is<rs type="pers" key="317"> W.C.G. Carbentus</rs>, the wife of J.P. Stricker; <rs type="pers" key="516">Margreet Meyboom</rs> was Paul Stricker’s girlfriend.</ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>The farmer <rs type="pers" key="488">Jacobus Lips</rs> was married to Maria Leentje Silvius. They had two sons and lived at Bremberg G 10 (<hi rend="ital">RAW</hi>).</ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+<ab>The farmer <rs type="pers" key="349">Willem van Eekelen</rs> was married to <rs type="pers" key="350">Maria van Eekelen</rs>. They had two daughters and one son. The family lived at Haansberg J 61 (<hi rend="ital">RAW</hi>).</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

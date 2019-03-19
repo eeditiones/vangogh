@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Auvers-sur-Oise, Saturday, 14 June 1890.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let887"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">887</idno>
+<idno type="collectedletters">641</idno>
+<idno type="brieven1990">891</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Auvers-sur-Oise</vg:placeLet>
+                        <vg:dateLet>Saturday, 14 June 1890</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. Auvers-sur-Oise, Saturday, 14 June 1890.</p>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Reproduction</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Unknown</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Vincent tells Theo about the letter he received from Marie Ginoux, dating from 10 June 1890, which announces that Vincent’s things will be sent on the coming Saturday (<ref target="let882.xml">letter 882</ref>). Since Van Gogh writes ‘Saturday, today in other words, they’d send it’ <ref target="#l-7">(ll. 7-8)</ref>, this must have been Saturday, 14 June. </p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <surface n="Sheet number 1 not found." xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="887_1rR.tif" rend="norend"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="887_1rR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="887_1rRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="887_1rRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Mon cher Theo,</ab>
+                <lb n="1*" xml:id="l-1s"/>
+<ab>Enfin j’ai reçu des nouvelles <lb n="2" xml:id="l-2"/>quant à mes meubles<c type="kk">/</c> l’homme où ils sont <lb n="3" xml:id="l-3"/>a été malade tout le temps<c type="kk">/</c> ayant reçu un <lb n="4" xml:id="l-4"/>coup de corne d’un taureau en aidant à les <lb n="5" xml:id="l-5"/>débarquer.<anchor n="a" xml:id="note-o-a"/> Donc sa femme m’écrit que <lb n="6" xml:id="l-6"/>c’était pour cela que du jour au lendemain <lb n="7" xml:id="l-7"/>ils l’avaient remis mais que samedi, donc <lb n="8" xml:id="l-8"/>aujourd’hui, on les enverrait; ils n’ont pas de <lb n="9" xml:id="l-9"/>chance<c type="kk">/</c> la femme ayant été malade aussi et <lb n="10" xml:id="l-10"/>n’étant pas encore complètement guérie<c type="kp">_</c>
+                    <anchor n="1" xml:id="note-o-1"/> <lb n="11" xml:id="l-11"/>il n’y avait d’ailleurs pas un mot de reproche dans <lb n="12" xml:id="l-12"/>la lettre mais que cela leur avait fait de la peine <lb n="13" xml:id="l-13"/>que je n’etais pas venu les voir avant de partir, <lb n="14" xml:id="l-14"/>cela m’a fait de la peine à moi aussi.</ab>
+                <lb n="15" xml:id="l-15"/>
+<ab rend="indent">Ci inclus je dois t’envoyer une commande <lb n="16" xml:id="l-16"/>de quelques couleurs.<anchor n="2" xml:id="note-o-2"/> J’ai encore une étude <lb n="17" xml:id="l-17"/>qui est dans le genre de la moisson qui <lb n="18" xml:id="l-18"/>se trouve chez toi dans la chambre où est le <lb n="19" xml:id="l-19"/>piano.<anchor n="3" xml:id="note-o-3"/> Des champs vu d’une hauteur avec <lb n="20" xml:id="l-20"/>une route sur laquelle une petite voiture<c type="kp">_</c>
+                    <anchor n="4" xml:id="note-o-4"/>
+                </ab>
+                <lb n="21" xml:id="l-21"/>
+<ab rend="indent">Actuellement je travaille à un champ de <lb n="22" xml:id="l-22"/>coquelicots dans de la luzerne.<anchor n="5" xml:id="note-o-5"/>
+                </ab>
+                <lb n="23" xml:id="l-23"/>
+<ab rend="indent">Et j’ai une etude de vigne<anchor n="6" xml:id="note-o-6"/> que M. Gachet aimait <lb n="24" xml:id="l-24"/>beaucoup la dernière fois qu’il est venu voir<c type="kp">_</c>
+                </ab>
+                <lb n="25" xml:id="l-25"/>
+<ab rend="indent">Pour le moment je n’ai rien d’autre à dire<c type="kk">/</c> <lb n="26" xml:id="l-26"/>il est venu une lettre de la mère qui avait été <lb n="27" xml:id="l-27"/>à Nunen et languit beaucoup de vous voir <lb n="28" xml:id="l-28"/>arriver et de revoir le petit. Je vous serre bien la <lb n="29" xml:id="l-29"/>main à tous deux.</ab>
+<vg:whiteline/>
+                <lb n="30" xml:id="l-30"/>
+<ab>t. à v.</ab>
+                <lb n="31" xml:id="l-31"/>
+<ab>Vincent.</ab>
+<vg:whiteline/>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo,</ab>
+<ab>At last I’ve received news about my furniture, the <rs type="pers" key="382">man</rs> who has it has been ill all the time, having been struck by the horn of one of the bulls while helping to unload them. So his <rs type="pers" key="383">wife</rs> writes to me that it was because of this that they’d put it off from one day to the next, but that on Saturday, today in other words, they’d send it; they have no luck, the wife having been ill too, and not yet being completely recovered.<anchor n="1" xml:id="note-t-1"/> By the way, there wasn’t one word of reproach in the letter, except that it had upset them that I hadn’t come to see them before leaving, that upset me too.</ab>
+<ab rend="indent">Enclosed I must send you an order for some colours.<anchor n="2" xml:id="note-t-2"/> I have another study that’s in the genre of the Harvest that’s at your place in the room where the piano is.<anchor n="3" xml:id="note-t-3"/> Fields viewed from a height with a road on which there’s a small carriage.<anchor n="4" xml:id="note-t-4"/>
+                </ab>
+<ab rend="indent">Currently I’m working on a field of poppies in some lucerne.<anchor n="5" xml:id="note-t-5"/>
+                </ab>
+<ab rend="indent">And I have a vineyard study,<anchor n="6" xml:id="note-t-6"/> which <rs type="pers" key="389">Mr Gachet</rs> liked very much the last time he came to see.</ab>
+<ab rend="indent">For the moment I have nothing else to say, a letter came from <rs type="pers" key="524">Mother</rs> who had been at Nuenen and was very much longing to see you come and to see the <rs type="pers" key="418">little one</rs> again. A firm handshake for both of you.</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent.</ab>
+            </div>
+<div type="notes">
+<note n="a" xml:id="n-a" target="#note-o-a">
+<ab>Read: ‘débarquer les taureaux’.</ab>
+                </note>
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>This letter from <rs type="pers" key="383">Marie Ginoux</rs> was <ref target="let882.xml">letter 882</ref>.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>This paint order has not been preserved.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>
+      <hi rend="ital">The harvest</hi> (<rs type="ill" key="2621">F 412 / JH 1440</rs>); cf. also <ref target="let771.xml">letter 771</ref>.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>
+      <hi rend="ital">Landscape with a carriage and train</hi> (<rs type="ill" key="2918">F 760 / JH 2019</rs>).</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>
+      <hi rend="ital">Field with poppies </hi>(<rs type="ill" key="2920">F 636 / JH 2027</rs>).</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>
+      <hi rend="ital">Vineyards with a view of Auvers</hi> (<rs type="ill" key="2919">F 762 / JH 2020</rs>).</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

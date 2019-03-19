@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Arles, Thursday, 9 August 1888.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let658"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">658</idno>
+<idno type="collectedletters">521</idno>
+<idno type="brieven1990">662</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Arles</vg:placeLet>
+                        <vg:dateLet>Thursday, 9 August 1888</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. Arles, Thursday, 9 August 1888.</p>
+<note type="ongoingTopic" n="1">
+<p>Gauguin coming to Arles <ref target="let602.xml">(602)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="2">
+  <p>Van Gogh is eating at the Restaurant Vénissac <ref target="let609.xml">(609)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="3">
+<p>Theo’s health problems <ref target="let611.xml">(611)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. nos. b562 a-b V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>
+  <ref target="let657.xml">Letter 657</ref> was sent on the same day Van Gogh also sent Theo some drawings. All this happened ‘yesterday’ <ref target="#l-32">(ll. 32-33)</ref>. Since we dated <ref target="let657.xml">letter 657</ref> 8 August, we have dated the present letter Thursday, 9 August 1888.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0562 a" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000756_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000756_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000756_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000756_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000756_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000756_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="VGM001000756_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000756_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000756_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0562 a" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000756_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000756_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000756_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000756_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000756_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000756_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000756_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000756_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000756_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0562 b" xml:id="surf-pb-2r">
+            <graphic mimeType="image/tiff" url="VGM001000757_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000757_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000757_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-2r-5">
+<graphic mimeType="image/tiff" url="VGM001000757_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000757_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000757_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0562 b" xml:id="surf-pb-2v">
+            <graphic mimeType="image/tiff" url="VGM001000757_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000757_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000757_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-2v-6">
+<graphic mimeType="image/tiff" url="VGM001000757_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000757_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000757_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-2v-7">
+<graphic mimeType="image/tiff" url="VGM001000757_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000757_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000757_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Mon cher Theo,</ab>
+                <lb n="1*" xml:id="l-1s"/>
+<ab>Je te remercie beaucoup <lb n="2" xml:id="l-2"/>d’avoir envoyé la toile et les couleurs qui <lb n="3" xml:id="l-3"/>viennent d’arriver.<anchor n="1" xml:id="note-o-1"/>
+                </ab>
+                <lb n="4" xml:id="l-4"/>
+<ab rend="indent">Il y avait cette fois ci f<hi rend="ss">r</hi> 9.80 de transport à payer<c type="kk">/</c> <lb n="5" xml:id="l-5"/>aussi n’irai je les prendre qu’après avoir reçu <lb n="6" xml:id="l-6"/>ta prochaine lettre<c type="kk">/</c> n’ayant pas l’argent dans ce <lb n="7" xml:id="l-7"/>moment.– Seulement il faut vérifier <lb n="8" xml:id="l-8"/>si Tasset qui la plupart des cas affranchit <lb n="9" xml:id="l-9"/>et certes alors marque l’affranchissement sur <lb n="10" xml:id="l-10"/>sa facture<c type="kk">/</c> s’en abstient dans le cas <lb n="11" xml:id="l-11"/>présent. Egalement j’ai payé pour <lb n="12" xml:id="l-12"/>
+                    <hi rend="ital">l’avant</hi> <hi rend="ital">dernier</hi> envoi <hi rend="ital">f</hi>
+                    <hi rend="ss">
+                        <hi rend="ital">r</hi>
+                    </hi>
+                    <hi rend="ital"> 5.60</hi> <lb n="13" xml:id="l-13"/>et si donc sur l’avant derniere facture il y <lb n="14" xml:id="l-14"/>aurait marquées des frais de transport ce serait de trop.<anchor n="2" xml:id="note-o-2"/> <lb n="15" xml:id="l-15"/>Maintenant s’il avait fait 2 <lb n="16" xml:id="l-16"/>envois separés (d’habitude le prix de transport <lb n="17" xml:id="l-17"/>est de 3 francs environ) de cet envoi-ci <lb n="18" xml:id="l-18"/>on n’aurait eu à payer que f<c type="kp">_</c> 5.60<c type="kp">_</c>
+                </ab>
+                <lb n="19" xml:id="l-19"/>
+<ab rend="indent">Pourvu que sur ces 10 mètres toile je ne peins <lb n="20" xml:id="l-20"/>que des chefs d’oeuvre d’un demi mètre de <lb n="21" xml:id="l-21"/>dimension lesquels je vendrai comptant et <lb n="22" xml:id="l-22"/>à un prix exorbitant à l’amateur distingué <lb n="23" xml:id="l-23"/>de la rue de la Paix –<anchor n="3" xml:id="note-o-3"/> rien ne doit être plus <lb n="24" xml:id="l-24"/>facile – que de gagner beaucoup d’argent avec <lb n="25" xml:id="l-25"/>cet envoi<c type="kp">_</c>
+                </ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="26" xml:id="l-26"/>
+<ab rend="indent">Je crois probable que nous allons avoir de <lb n="27" xml:id="l-27"/>grandes chaleurs maintenant<c type="kk">/</c> sans vent<c type="kk">/</c> <lb n="28" xml:id="l-28"/>le vent ayant soufflé pendant 6 semaines<c type="kp">_</c> <lb n="29" xml:id="l-29"/>Dans ce cas c’est excellent que j’aie des <lb n="30" xml:id="l-30"/>couleurs et des toiles en provision car je <lb n="31" xml:id="l-31"/>guette déjà une demi douzaine de motifs<c type="kk">/</c> <lb n="32" xml:id="l-32"/>surtout ce petit jardin de paysan dont je <lb n="33" xml:id="l-33"/>t’ai envoyé hier le dessin<c type="kp">_</c>
+                    <anchor n="4" xml:id="note-o-4"/>
+                </ab>
+                <lb n="34" xml:id="l-34"/>
+<ab rend="indent">Je pense beaucoup à Gauguin et je t’assure <lb n="35" xml:id="l-35"/>que d’une facon ou d’une autre<c type="kk">/</c> que ce <lb n="36" xml:id="l-36"/>soit lui qui vienne ici<c type="kk">/</c> que ce soit moi qui <lb n="37" xml:id="l-37"/>aille vers lui<c type="kk">/</c> nous aimerons lui et moi <lb n="38" xml:id="l-38"/>à peu près les mêmes motifs<c type="kp">_</c> Je ne <lb n="39" xml:id="l-39"/>doute aucunément de pouvoir travailler <lb n="40" xml:id="l-40"/>à Pont Aven et d’autre part suis convaincu <lb n="41" xml:id="l-41"/>qu’il aimera énormément cette nature d’ici<c type="kp">_</c> <lb n="42" xml:id="l-42"/>Eh bien au bout d’une année<c type="kk">/</c> lui tout <lb n="43" xml:id="l-43"/>en te donnant une toile par mois<c type="kk">/</c> ce <lb n="44" xml:id="l-44"/>qui en somme en fera une douzaine par <lb n="45" xml:id="l-45"/>an<c type="kk">/</c> y aura encore gagné n’ayant pas <lb n="46" xml:id="l-46"/>fait de dettes dans cette annee<c type="kk">/</c> et ayant <lb n="47" xml:id="l-47"/>produit sans interruption il n’y perdra rien<c type="kp">_</c>
+                    <anchor n="a" xml:id="note-o-a"/> <lb n="48" xml:id="l-48"/>Tandis que l’argent qu’il aura reçu de notre <lb n="49" xml:id="l-49"/>part se retrouvera en grande partie par les <lb n="50" xml:id="l-50"/>économies qui deviennent possible si nous <lb n="51" xml:id="l-51"/>vivons chez nous à l’atelier au lieu de vivre <lb n="52" xml:id="l-52"/>lui et moi dans les cafés<c type="kp">_</c>
+                </ab>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                <lb n="53" xml:id="l-53"/>
+<ab rend="indent">Reste encore que pourvu que nous vivions en bon <lb n="54" xml:id="l-54"/>accord et avec le parti pris de ne pas nous quereller <lb n="55" xml:id="l-55"/>on y gagnera une position plus ferme en <lb n="56" xml:id="l-56"/>tant que quant à la réputation<c type="kp">_</c>
+                </ab>
+                <lb n="57" xml:id="l-57"/>
+<ab rend="indent">Vivant seul de part et d’autre on vit comme des <lb n="58" xml:id="l-58"/>fous ou malfaiteurs<c type="kk">/</c> en apparence au moins et en réalité <lb n="59" xml:id="l-59"/>un peu également<c type="kp">_</c>
+                </ab>
+                <lb n="60" xml:id="l-60"/>
+<ab rend="indent">Je suis plus heureux de me sentir d’anciennes <lb n="61" xml:id="l-61"/>forces revenir que j’aurais pensé pouvoir l’être<c type="kp">_</c> <lb n="62" xml:id="l-62"/>Je dois cela en grande partie aux gens du restaurant <lb n="63" xml:id="l-63"/>où je mange actuellement qui sont extraordinaires. <lb n="64" xml:id="l-64"/>Certes je dois y payer mais c’est quelque chôse <lb n="65" xml:id="l-65"/>qui ne se trouve pas à Paris que pour votre argent <lb n="66" xml:id="l-66"/>on vous donne à manger effectivement.</ab>
+                <lb n="67" xml:id="l-67"/>
+<ab rend="indent">Et je voudrais bien y voir Gauguin aussi <lb n="68" xml:id="l-68"/>pendant assez longtemps.</ab>
+                <lb n="69" xml:id="l-69"/>
+<ab rend="indent">Ce que dit Gruby<c type="kk">/</c> se priver de femmes et bien <lb n="70" xml:id="l-70"/>se nourrir<c type="kk">/</c> c’est vrai cela fait du bien et <lb n="71" xml:id="l-71"/>si on dépense en travaillant de la tête <lb n="72" xml:id="l-72"/>tout de même sa cervelle et sa moelle<c type="kk">/</c> <lb n="73" xml:id="l-73"/>c’est très logique de ne pas se dépenser <lb n="74" xml:id="l-74"/>en faisant l’amour plus que nécessaire<c type="kp">_</c>
+                </ab>
+                <lb n="75" xml:id="l-75"/>
+<ab rend="indent">Mais cela peut mieux se pratiquer <lb n="76" xml:id="l-76"/>à la campagne qu’à Paris<c type="kp">_</c>
+                </ab>
+                <lb n="77" xml:id="l-77"/>
+<ab rend="indent">Le désir de femmes qu’on contracte à Paris<c type="kk">/</c> <lb n="78" xml:id="l-78"/>n’est ce pas un peu l’effet de la maladie <lb n="79" xml:id="l-79"/>d’énervement même<c type="kk">/</c> dont Gruby est l’ennemi <lb n="80" xml:id="l-80"/>juré<c type="kk">/</c> plutôt qu’un symptôme de vigueur. <lb n="81" xml:id="l-81"/>Aussi voit-on ce désir disparaitre <lb n="82" xml:id="l-82"/>justement au moment où l’on se refait<c type="kp">_</c> <lb n="83" xml:id="l-83"/>La racine du mal se trouvant dans <lb n="84" xml:id="l-84"/>la constitution même<c type="kk">/</c> dans l’affaiblissement <lb n="85" xml:id="l-85"/>fatal des familles de génération à génération<c type="kk">/</c> <lb n="86" xml:id="l-86"/>dans le mauvais métier d’ailleurs et la triste <lb n="87" xml:id="l-87"/>vie de Paris<c type="kk">/</c> la racine du mal certes reste là <lb n="88" xml:id="l-88"/>et on ne saurait en guérir<c type="kp">_</c>
+                </ab>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                <lb n="89" xml:id="l-89"/>
+<ab rend="indent">Je crois que le jour où tu n’aurais plus à faire l’inepte <lb n="90" xml:id="l-90"/>comptabilité et administration absurdement compliquée <lb n="91" xml:id="l-91"/>chez les Goupil<c type="kk">/</c> tu y gagnerais beaucoup pour <lb n="92" xml:id="l-92"/>ce qui est de la puissance avec les amateurs<c type="kk">/</c> <lb n="93" xml:id="l-93"/>c’est une chôse maudite mille fois ces administrations <lb n="94" xml:id="l-94"/>compliquées et il n’y existe pas je m’imagine aucune <lb n="95" xml:id="l-95"/>tete<c type="kk">/</c> aucun tempérament d’employé qui n’y perde <lb n="96" xml:id="l-96"/>50%. En cela notre oncle<anchor n="5" xml:id="note-o-5"/> avait bien raison en <lb n="97" xml:id="l-97"/>disant: beaucoup de besogne avec peu d’employés <lb n="98" xml:id="l-98"/>et non pas peu de besogne avec beaucoup<c type="kp">_</c>
+                </ab>
+                <lb n="99" xml:id="l-99"/>
+<ab rend="indent">Malheureusement pour lui il était lui-même pris dans <lb n="100" xml:id="l-100"/>l’engrenage. Travailler dans les gens pour vendre <lb n="101" xml:id="l-101"/>c’est un travail d’observation<c type="kk">/</c> de sang froid.</ab>
+                <lb n="102" xml:id="l-102"/>
+<ab rend="indent">Mais si l’on est forcé de donner trop d’attention <lb n="103" xml:id="l-103"/>aux livres on en perd de l’aplomb.</ab>
+                <lb n="104" xml:id="l-104"/>
+<ab rend="indent">C’est pourquoi que Tersteeg a eu de la chance d’avoir <lb n="105" xml:id="l-105"/>cette vache à convoitises Iterson à côté de <lb n="106" xml:id="l-106"/>lui<c type="kk">/</c> qui lui porte ce paquet embarrassant d’administration <lb n="107" xml:id="l-107"/>machinale. Je voudrais bien savoir au juste comment <lb n="108" xml:id="l-108"/>tu te portes<c type="kp">_</c> Enfin<c type="kk">/</c> pourvu que les impressionistes <lb n="109" xml:id="l-109"/>produisent de belles choses et trouvent des <lb n="110" xml:id="l-110"/>amis<c type="kk">/</c> il y a toujours une chance et possibilité <lb n="111" xml:id="l-111"/>d’une situation plus indépendente pour toi plus <lb n="112" xml:id="l-112"/>tard. Dommage que cela ne puisse exister dès <lb n="113" xml:id="l-113"/>maintenant.–</ab>
+                <lb n="114" xml:id="l-114"/>
+<ab rend="indent">N’est ce pas vrai que dans cette affaire avec <lb n="115" xml:id="l-115"/>Gauguin<c type="kk">/</c> lui depensant 2.75 par jour (je crois <lb n="116" xml:id="l-116"/>au moins me rappeler qu’il a nommé cette somme-<c type="shy">-</c>
+                    <lb n="117" xml:id="l-117"/>là<c type="kk">/</c> lui ou Bernard)<anchor n="6" xml:id="note-o-6"/> nous connaissons fixe et <lb n="118" xml:id="l-118"/>ferme le prix de la journée de là-bas à l’hôtel <lb n="119" xml:id="l-119"/>tandis qu’ici c’est encore à voir<c type="kp">_</c>
+                </ab>
+                <lb n="120" xml:id="l-120"/>
+<ab rend="indent">Au prix de là-bas nous sommes ainsi surs <lb n="121" xml:id="l-121"/>de pouvoir rester dans les limites proposées<c type="kp">_</c>
+                </ab>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+                <lb n="122" xml:id="l-122"/>
+<ab rend="indent">Or pour la santé<c type="kk">/</c> la mienne est bonne assez <lb n="123" xml:id="l-123"/>pour le nord même au fond maintenant<c type="kp">_</c> <lb n="124" xml:id="l-124"/>Supposition donc que lui ne trouve pas <lb n="125" xml:id="l-125"/>d’argent<c type="kk">/</c> n’hésitons pas.</ab>
+                <lb n="126" xml:id="l-126"/>
+<ab rend="indent">En somme nous ne nous emballons dans <lb n="127" xml:id="l-127"/>cette affaire que pour un an<c type="kk">/</c> mettons.</ab>
+                <lb n="128" xml:id="l-128"/>
+<ab rend="indent">Pas encore de lettre de Russell mais il <lb n="129" xml:id="l-129"/>est bien forcé de répondre ayant reçu les dessins<anchor n="7" xml:id="note-o-7"/> <lb n="130" xml:id="l-130"/>sans aucun doute.</ab>
+                <lb n="131" xml:id="l-131"/>
+<ab rend="indent">Ce restaurant où je suis est <lb n="132" xml:id="l-132"/>bien curieux<c type="kk">/</c> c’est entierement gris<c type="kk">/</c> le <lb n="133" xml:id="l-133"/>parquet est en bitume gris comme un trottoir<c type="kk">/</c> <lb n="134" xml:id="l-134"/>papier gris sur le mur<c type="kp">_</c> <lb n="135" xml:id="l-135"/>Stores vertes toujours fermees<c type="kp">_</c> Un grand <lb n="136" xml:id="l-136"/>rideau vert devant la porte toujours ouverte <lb n="137" xml:id="l-137"/>empeche la poussiere d’entrer.</ab>
+                <lb n="138" xml:id="l-138"/>
+<ab rend="indent">Cela c’est d’un gris Velasquez déjà – <lb n="139" xml:id="l-139"/>comme dans <hi rend="sc">les fileuses</hi>
+                    <c type="kp">_</c>
+                    <anchor n="8" xml:id="note-o-8"/>
+                </ab>
+                <lb n="140" xml:id="l-140"/>
+<ab rend="indent">le rayon de soleil très mince et très violent à travers <lb n="141" xml:id="l-141"/>un store comme celui qui traverse le tableau de V. n’y manque <lb n="142" xml:id="l-142"/>même pas. Naturellement les petites tables <lb n="143" xml:id="l-143"/>à nappes blanches. Maintenant derrière <lb n="144" xml:id="l-144"/>cet appartement gris Velasquez on aperçoit l’antique <lb n="145" xml:id="l-145"/>cuisine propre comme une cuisine hollandaise<c type="kk">/</c> <lb n="146" xml:id="l-146"/>parquet de briques très rouges<c type="kk">/</c> légumes vertes<c type="kk">/</c> <lb n="147" xml:id="l-147"/>armoire de chene<c type="kk">/</c> fourneaux de cuisine <lb n="148" xml:id="l-148"/>à cuivres luisants<c type="kk">/</c> à briques <lb n="149" xml:id="l-149"/>bleues et blanches <hi rend="ital">et le grand feu</hi> <lb n="150" xml:id="l-150"/>
+                    <hi rend="ital">orangé clair</hi>
+                    <c type="kp">_</c>
+                </ab>
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>
+                <lb n="151" xml:id="l-151"/>
+<ab rend="indent">Maintenant il y a deux femmes qui servent <lb n="152" xml:id="l-152"/>egalement en gris à peu près comme <lb n="153" xml:id="l-153"/>le tableau de <hi rend="ital">Prévost</hi> qui est chez toi<c type="kk">/</c>
+                    <anchor n="9" xml:id="note-o-9"/> <lb n="154" xml:id="l-154"/>bien comparable sur tous les points.</ab>
+                <lb n="155" xml:id="l-155"/>
+<ab rend="indent">Dans la cuisine une vieille femme et <lb n="156" xml:id="l-156"/>une grosse courte servante<c type="kk">/</c>
+                    <anchor n="10" xml:id="note-o-10"/> aussi en gris<c type="kk">/</c> noir<c type="kk">/</c> blanc. <lb n="157" xml:id="l-157"/>Je ne sais si je le décris assez clairement <lb n="158" xml:id="l-158"/>mais voila ce que j’ai vu de vrai Velasquez <lb n="159" xml:id="l-159"/>ici<c type="kp">_</c>
+                </ab>
+                <lb n="160" xml:id="l-160"/>
+<ab rend="indent">Devant le restaurant une cour couverte dallée de <lb n="161" xml:id="l-161"/>briques rouges et sur les murs des <lb n="162" xml:id="l-162"/>vignes folles<c type="kk">/</c> des convolvulus &amp; plantes grimpantes<c type="kp">_</c> <lb n="163" xml:id="l-163"/>Cela c’est encore du vrai vieux Provençal <lb n="164" xml:id="l-164"/>alors que les autres restaurants sont tellement <lb n="165" xml:id="l-165"/>à l’instar de Paris qu’<hi rend="ital">alors même qu’il n’y</hi> <lb n="166" xml:id="l-166"/>
+                    <hi rend="ital">a aucune espèce</hi> <hi rend="ital">de</hi> <hi rend="ital">concierge</hi> il y a tout de <lb n="167" xml:id="l-167"/>même sa loge et l’écriteau “parlez au concierge”.</ab>
+                <lb n="168" xml:id="l-168"/>
+<ab rend="indent">Tout n’est donc pas toujours éclatant<c type="kp">_</c> <lb n="169" xml:id="l-169"/>Ainsi j’ai vu une etable avec 4 vaches <lb n="170" xml:id="l-170"/>café au lait et un veau de même couleur<c type="kk">/</c> <lb n="171" xml:id="l-171"/>l’étable d’un blanc bleu tapissee de toiles <lb n="172" xml:id="l-172"/>d’araignées<c type="kk">/</c> les vaches fort propres et fort belles<c type="kk">/</c> <lb n="173" xml:id="l-173"/>un grand rideau vert contre la poussiere et <lb n="174" xml:id="l-174"/>les mouches dans la porte d’entrée<c type="kp">_</c>
+                </ab>
+                <lb n="175" xml:id="l-175"/>
+<ab rend="indent">Gris aussi<c type="kk">/</c> gris Velasquez.</ab>
+                <lb n="176" xml:id="l-176"/>
+<ab rend="indent">C’etait d’un calme – ce café au lait et havane <lb n="177" xml:id="l-177"/>des robes des vaches avec le doux blanc gris <lb n="178" xml:id="l-178"/>bleuatre des murs<c type="kk">/</c> la tenture verte et le vert <lb n="179" xml:id="l-179"/>jaune et scintillant du dehors ensoleillé faisant <lb n="180" xml:id="l-180"/>opposition éclatante<c type="kp">_</c>
+                </ab>
+<pb f="2v" n="7" xml:id="pb-orig-2v-7" facs="#zone-pb-2v-7"/>
+                <lb n="181" xml:id="l-181"/>
+<ab rend="indent">Tu vois comme il y a encore tout autre chôse <lb n="182" xml:id="l-182"/>à faire que ce que j’aie fait<c type="kp">_</c>
+                </ab>
+                <lb n="183" xml:id="l-183"/>
+<ab rend="indent">Je dois aller travailler. J’ai encore vu <lb n="184" xml:id="l-184"/>une chôse fort calme et bien belle l’autre jour<c type="kk">/</c> <lb n="185" xml:id="l-185"/>une jeune fille à teint café au lait – si je <lb n="186" xml:id="l-186"/>me souviens bien – cheveux cendrés<c type="kk">/</c> yeux gris<c type="kp">_</c> <lb n="187" xml:id="l-187"/>Corsage d’indienne rose pâle sous <lb n="188" xml:id="l-188"/>lequel on voyait les seins droits<c type="kk">/</c> durs et petits<c type="kp">_</c> <lb n="189" xml:id="l-189"/>Cela contre la verdure emeraude des <lb n="190" xml:id="l-190"/>figuiers<c type="kp">_</c> Une femme bien rustique<c type="kk">/</c> <lb n="191" xml:id="l-191"/>grande allure virginale<c type="kp">_</c>
+                    <anchor n="11" xml:id="note-o-11"/>
+                </ab>
+                <lb n="192" xml:id="l-192"/>
+<ab rend="indent">Pas completement impossible que je l’aie à <lb n="193" xml:id="l-193"/>poser en plein air ainsi que la mère – <lb n="194" xml:id="l-194"/>jardinière – couleur de terre qui était <lb n="195" xml:id="l-195"/>alors en jaune sale et bleu fané<c type="kp">_</c>
+                </ab>
+                <lb n="196" xml:id="l-196"/>
+<ab rend="indent">le teint café au lait de la jeune fille etait <lb n="197" xml:id="l-197"/>plus foncé que le rose du corsage.</ab>
+                <lb n="198" xml:id="l-198"/>
+<ab rend="indent">La mere était épatante<c type="kk">/</c> la figure <lb n="199" xml:id="l-199"/>jaune sale et bleu fané se detachait <lb n="200" xml:id="l-200"/>en plein soleil sur un carré de fleurs <lb n="201" xml:id="l-201"/>éclatant blanc de neige et citron<c type="kp">_</c>
+                </ab>
+                <lb n="202" xml:id="l-202"/>
+<ab rend="indent">Donc un vrai Van der Meer de Delft. <lb n="203" xml:id="l-203"/>C’est pas laid le midi.</ab>
+                <lb n="204" xml:id="l-204"/>
+<ab rend="indent">Poignée de main<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="205" xml:id="l-205"/>
+<ab>t<c type="kp">_</c> à t<c type="kp">_</c>
+                </ab>
+                <lb n="206" xml:id="l-206"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-21" n="21">comptant &lt; contant</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo,</ab>
+<ab>I thank you very much for sending the canvas and the colours, which have just arrived.<anchor n="1" xml:id="note-t-1"/>
+                </ab>
+<ab rend="indent">This time there was carriage of 9.80 francs to pay, so I won’t go to collect them until after I’ve received your next letter, as I don’t have the money at the moment. But we’ll have to check whether <rs type="pers" key="785">Tasset</rs>, who in most cases pays postage and certainly then shows postage on his invoice, hasn’t done so in this case. Also, I paid <hi rend="ital">5.60 francs </hi>for the last<hi rend="ital"> </hi>consignment <hi rend="ital">but one</hi>, and so if carriage charges are shown on the last invoice but one, it would be too much.<anchor n="2" xml:id="note-t-2"/> Now if he’d made 2 separate consignments (the cost of carriage is usually about 3 francs), there should only be 5.60 francs to pay for this consignment.</ab>
+<ab rend="indent">Provided I don’t paint anything on these 10 metres of canvas but masterpieces measuring half a metre, which I’ll sell for cash and at an exorbitant price to the distinguished art lover of rue de la Paix<anchor n="3" xml:id="note-t-3"/> — nothing should be easier — than to earn a lot of money with this consignment. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">I think it’s likely that we’re going to have great heat now, with no wind, the wind having blown for 6 weeks. In that case, it’s excellent that I have colours and canvases in stock, because I can already spot half a dozen subjects, especially this little farmhouse garden of which I sent you the drawing yesterday.<anchor n="4" xml:id="note-t-4"/>
+                </ab>
+<ab rend="indent">I think about <rs type="pers" key="1039">Gauguin</rs> a lot, and I assure you that one way or another, whether it’s he who comes here, or I who go to him, he and I will both like more or less the same subjects. I’ve no doubts about being able to work at Pont-Aven, and on the other hand, am convinced that he’ll like this scenery here enormously. Ah well, at the end of a year, even giving you one canvas a month, which will make a dozen a year in all, he’ll still have made money, not having run up debts during this year, and having produced without interruption he’ll lose nothing. While the money that he’ll have received from us will be to a large extent recovered through the savings that become possible if we live at home at the studio, he and I, instead of living in cafés. 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/>
+                </ab>
+<ab rend="indent">The fact remains that provided we lived in harmony and with an understanding not to quarrel, we’d gain a firmer position as far as reputation goes. </ab>
+<ab rend="indent">Each of us living alone, we live like madmen or criminals, in appearance at least, and to some extent in reality, too.</ab>
+<ab rend="indent">I’m happier to feel my old strength coming back than I would have thought I could be. I owe that largely to the people at the restaurant where I eat these days, who are extraordinary. I have to pay there, of course, but it’s something you don’t find in Paris, that they actually give you something to eat for your money.</ab>
+<ab rend="indent">And I’d very much like to see <rs type="pers" key="1039">Gauguin</rs> there too, for a fair length of time.</ab>
+<ab rend="indent">What <rs type="pers" key="446">Gruby</rs> says — do without women and eat well — it’s true that does you good, and if you spend your brains and your marrow working with your mind, it’s very logical not to spend yourself making love any more than necessary.</ab>
+<ab rend="indent">But that’s easier to do in the country than in Paris.</ab>
+<ab rend="indent">Is the desire for women that one picks up in Paris not in part the effect of the malady of nervous exhaustion itself, of which <rs type="pers" key="446">Gruby</rs> is the sworn enemy, rather than a sign of vigour? So one sees this desire disappear at the very moment when one is recovering. The root of the problem being found in our very constitution, in the inevitable weakening of families from generation to generation, in our lousy profession as well, and the sad Paris life; the root of the problem indeed lies there, and we seem unable to cure ourselves of it. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/>
+                </ab>
+<ab rend="indent">I believe that the day when you’d no longer have to do idiotic accounting and ridiculously complicated administration at the Goupils, you’ll gain a great deal in terms of power with art lovers; it’s a thing cursed a thousand times, these complicated administrative tasks, and there isn’t, I imagine, a single brain, a single clerk’s temperament that doesn’t lose 50% in them. In that, our <rs type="pers" key="423">uncle</rs>
+                    <anchor n="5" xml:id="note-t-5"/> was quite right when he said: much work with few staff, and not little work with many.</ab>
+<ab rend="indent">Unfortunately for him, he got caught up in the gear-wheels himself. Working among people, in order to sell, it’s a job that requires observation, a cool head. </ab>
+<ab rend="indent">But if one is forced to give too much attention to the books, one loses self-confidence.</ab>
+<ab rend="indent">That’s why <rs type="pers" key="787">Tersteeg</rs> was fortunate to have that greedy swine Iterson at his side, who carries this troublesome load of mechanical administration for him. I would really like to know just how you are. Anyway, as long as the Impressionists produce fine things, and find friends, there’s always a chance and possibility of a more independent position for you later on. A pity that it can’t exist right now.</ab>
+<ab rend="indent">Isn’t it true that in this business with <rs type="pers" key="1039">Gauguin</rs>, with him spending 2.75 a day (at least, I think I recall that he mentioned that amount, he or <rs type="pers" key="831">Bernard</rs>),<anchor n="6" xml:id="note-t-6"/> we know for a firm fact the price of a day at the hotel there, while here it still remains to be seen.</ab>
+<ab rend="indent">So at the price there we’re sure of being able to stay within the limits proposed. 
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/>
+                </ab>
+<ab rend="indent">About health, now; mine is basically even good enough for the north, these days. Assumption, therefore, that he can’t find the money; let’s not hesitate.</ab>
+<ab rend="indent">In fact, we’re only tying ourselves up in this business for a year, let’s say.</ab>
+<ab rend="indent">Still no letter from <rs type="pers" key="1334">Russell</rs>, but he’s bound to reply, having doubtless received the drawings.<anchor n="7" xml:id="note-t-7"/>
+                </ab>
+<ab rend="indent">This restaurant where I am is very odd, it’s grey all over, the floor is of grey bitumen, like a pavement, grey paper on the wall. Green blinds, always closed. A big green curtain in front of the ever-open door stops the dust coming in. </ab>
+<ab rend="indent">It’s altogether a Velázquez grey, as in <hi rend="sc">women spinning</hi>.<anchor n="8" xml:id="note-t-8"/> </ab>
+<ab rend="indent">Not even the very narrow and very violent shaft of sunlight through a blind, like the one that falls across V’s painting, is missing. Of course, small tables with white cloths. Now behind this Velázquez-grey room you can see the old kitchen, clean as a Dutch kitchen; very red brick floor, green vegetables, oak cupboard, cooking- stoves with gleaming copperware, with blue and white tiles <hi rend="ital">and the big, bright orange fire.</hi> 
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/>
+                </ab>
+<ab rend="indent">Now there are two women who serve, also in grey, more or less like the painting by <hi rend="ital">
+                        <rs type="pers" key="1275">Prévost</rs> </hi>that you have at home,<anchor n="9" xml:id="note-t-9"/> really comparable in every respect. </ab>
+<ab rend="indent">In the kitchen, an old woman and a short, fat, serving-woman,<anchor n="10" xml:id="note-t-10"/> also in grey, black, white. I don’t know if I’m describing it clearly enough, but that’s what I’ve seen here of real <rs type="pers" key="1402">Velázquez</rs>.</ab>
+  <ab rend="indent">In front of the restaurant, a covered courtyard, paved with red bricks, and on the walls, vines growing wild, convolvulus and climbing plants. It’s still the real old Provence style, while the other restaurants are so much on Paris lines that <hi rend="ital">even though there’s no concierge of any sort</hi> there’s still her lodge, and the notice, ‘speak to the concierge’.</ab>
+<ab rend="indent">So not everything is brilliantly coloured all the time. For example, I saw a cowshed with 4 cows the colour of café au lait, and a calf the same colour, the cowshed a blue white, covered in cobwebs, the cows very clean and very beautiful, a big green curtain, against dust and flies, in the outside door.</ab>
+<ab rend="indent">Grey too, Velázquez grey. </ab>
+<ab rend="indent">There was a tranquillity about it — this café au lait and tobacco brown of the cows’ hides, with the soft white bluish grey of the walls, the green curtain and the yellow and sparkling green of the sunny exterior making a brilliant contrast.</ab>
+<pb f="2v" n="7" xml:id="pb-trans-2v-7" facs="#zone-pb-2v-7"/>
+<ab rend="indent">You see how there are other things still to do, quite different from what I’ve done. </ab>
+<ab rend="indent">I have to go to work. I saw another very tranquil and quite beautiful thing the other day, a young girl with a café au lait complexion — if I remember rightly — ash-blonde hair, grey eyes. Bodice of pale printed calico, under which you could see her high, firm little breasts. This against the emerald foliage of the fig trees. A real countrywoman, a great virginal look.<anchor n="11" xml:id="note-t-11"/>
+                </ab>
+<ab rend="indent">Not completely impossible that I might have her pose in the open air, and her mother as well — a gardener — colour of earth, who was thus dirty yellow and faded blue.</ab>
+<ab rend="indent">The young girl’s café au lait complexion was darker than the pink of her bodice.</ab>
+<ab rend="indent">The mother was marvellous, her dirty yellow and faded blue figure stood out in the full sun against a brilliant square of snow-white and lemon-yellow flowers.</ab>
+<ab rend="indent">A real <rs type="pers" key="1421">Vermeer of Delft</rs>, then. It’s not ugly, the south.</ab>
+<ab rend="indent">Handshake.</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>
+  <ref target="let644.xml#n-3">See letter 644, n. 3,</ref> for this order from <rs type="pers" key="785">Tasset</rs>.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>This last consignment but one from <rs type="pers" key="785">Tasset</rs> was probably the consignment at the end of June mentioned in <ref target="let635.xml">letter 635</ref>. Van Gogh had received the bill for this along with the order.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>
+  <ref target="let620.xml#n-10">See letter 620, n. 10,</ref> for rue de la Paix.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>This drawing is <hi rend="ital">Garden with flowers </hi>(<rs type="ill" key="2685">F 1456 / JH 1537</rs>); <ref target="let657.xml">see letter 657</ref>.</ab>
+                </note>
+<note n="a" xml:id="n-a" target="#note-o-a">
+<ab>The sentence construction is ambiguous – this clause may belong with ‘gagné’ (in which case there should be a comma after ‘annee’) or with ‘il n’y perdra rien’ (subordinate).</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>Most probably <rs type="pers" key="423">Uncle Vincent</rs>, who had died shortly before; <ref target="let652.xml">see letter 652</ref>.</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>In 1888 the average prices for rent and food in Pont-Aven were 20 and 62.50 francs respectively, so the average of 2.75 francs a day is correct. See also Dorn 1990, p. 222 (n. 73).</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>
+  <ref target="let654.xml#n-1">See letter 654, n. 1,</ref> for the 12 drawings for <rs type="pers" key="1334">Russell</rs>. </ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>
+                        <rs type="pers" key="1402">Diego Rodríguez de Silva y Velázquez</rs>, <hi rend="ital">The fable of Arachne</hi>, c. 1657 (Madrid, Museo Nacional del Prado). <rs type="ill" key="440">Ill. 440</rs>. Van Gogh probably knew this work from a reproduction. There are also etchings known by the title <hi rend="ital">Women spinning</hi> by Charles Giroux and by Arthur Mayeur. See <hi rend="ital">Chalcographie</hi> 1954, p. 158, no. 6483 and p. 165, no. 6635. There was a print by Milius in <hi rend="ital">L’Art</hi> 4 (1878).</ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>
+                        <rs type="pers" key="1275">Charles Eugène Prévost</rs>, <hi rend="ital">Lady with a dog</hi> (Amsterdam, Van Gogh Museum). <rs type="ill" key="2216">Ill. 2216</rs>.</ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>The old woman in the kitchen was probably the owner of the restaurant, the widow <rs type="pers" key="799">Vénissac-Canin</rs>. She was 70 in 1888. We do not know who the serving-women were; no live-in staff were registered at her address in 1886, but her 27-year-old daughter Louise was still living at home (<hi rend="ital">ACA</hi>). </ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>Dorn associates this passage with the painting <hi rend="ital">Portrait of a woman with carnations </hi>(<rs type="otherart" key="759">F 381 / JH 1355</rs>), which he believes Van Gogh painted in Arles with the girl whom he describes here as the model. R. Dorn <hi rend="ital">et al.</hi>, <hi rend="ital">Van Gogh face to face: the portraits</hi>. Exhib. cat. Detroit (Detroit Institute of Arts) 2000,<hi rend="ital"> </hi>pp. 152, 253 (n. 35). However, it is more likely that the painting is from the Paris period, in which it has traditionally been placed.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

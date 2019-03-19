@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. The Hague, Monday, 30 April 1883.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let338"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">338</idno>
+<idno type="collectedletters">281</idno>
+<idno type="brieven1990">340</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>The Hague</vg:placeLet>
+                        <vg:dateLet>Monday, 30 April 1883</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. The Hague, Monday, 30 April 1883.</p>
+<note type="ongoingTopic" n="1">
+<p>Theo’s love for the ailing Marie <ref target="let300.xml">(300)</ref>
+                            </p>
+                        </note>
+<note type="ongoingTopic" n="2">
+<p>Theo’s visit early in August 1882 <ref target="let253.xml">(253)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b304 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>The letter was written during Marie’s recovery <ref target="#l-5">(ll. 5-7)</ref> and shortly before Theo’s birthday. Vincent assumed that Theo would receive it on 1 May, his birthday; hence ‘around your birthday’ <ref target="#l-2">(l. 2)</ref> and ‘the year you are beginning’ <ref target="#l-145">(ll. 145-146)</ref>. We therefore date the letter to Monday, 30 April 1883. </p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0304" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000381_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000381_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000381_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000381_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000381_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000381_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="VGM001000381_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000381_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000381_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0304" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000381_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000381_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000381_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000381_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000381_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000381_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic mimeType="image/tiff" url="VGM001000381_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000381_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000381_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Waarde Theo,</ab>
+                <lb n="2" xml:id="l-2"/>
+<ab>Tegen Uw verjaardag wil ik zorgen ge van mij ook een woordje <lb n="3" xml:id="l-3"/>ontvangt.<anchor n="1" xml:id="note-o-1"/> Moge het een goed jaar voor U zijn dat ge begint <lb n="4" xml:id="l-4"/>en het U voorspoedig gaan met het werk – en ik hoop <lb n="5" xml:id="l-5"/>vooral ook dat ge in dit jaar wat voldoening hebben zult <lb n="6" xml:id="l-6"/>van wat ge voor Uw patient deedt &amp; zij herstelle en <lb n="7" xml:id="l-7"/>nieuw leven vinde.</ab>
+                <lb n="8" xml:id="l-8"/>
+<ab rend="indent">Weet ge wel ’t al haast een jaar geleden is ge hier <lb n="9" xml:id="l-9"/>waart. ja – ik verlang zeer naar Uw komst. <lb n="10" xml:id="l-10"/>Het is werk over dat heele jaar dat ik U moet laten <lb n="11" xml:id="l-11"/>zien – waar we over moeten spreken in verband <lb n="12" xml:id="l-12"/>tot de toekomst.</ab>
+                <lb n="13" xml:id="l-13"/>
+<ab rend="indent">Zoudt ge denken ’t omstreeks denzelfden tijd <lb n="14" xml:id="l-14"/>als verl. jaar zijn zal ge komen zult – of <lb n="15" xml:id="l-15"/>zou welligt door dat ge misschien het minder <lb n="16" xml:id="l-16"/>wenschelijk acht uw patient alleen te laten <lb n="17" xml:id="l-17"/>’t nog uitgesteld worden. Enfin als ge iets <lb n="18" xml:id="l-18"/>zeggen kunt omtrent uw komst<c type="kk">/</c> schrijf het <lb n="19" xml:id="l-19"/>dan eens.</ab>
+                <lb n="20" xml:id="l-20"/>
+<ab rend="indent">In der tijd hebt ge me veel verteld van die <lb n="21" xml:id="l-21"/>Zweedsche schilders – Heyerdahl – Edelfelt.<anchor n="2" xml:id="note-o-2"/> <lb n="22" xml:id="l-22"/>Van Edelfelt heb ik deze week gevonden <lb n="23" xml:id="l-23"/>de reproductie van een sch<hi rend="ss">ij</hi>
+                    <c type="kk">/</c> eene godsdienstoefening <lb n="24" xml:id="l-24"/>op het zeestrand.<anchor n="3" xml:id="note-o-3"/> Er is iets in van de <lb n="25" xml:id="l-25"/>gedichten van <hi rend="ital">Longfellow</hi>. Het is erg mooi<c type="kp">_</c> <lb n="26" xml:id="l-26"/>Dat is eene rigting waar ik erg veel van houd en <lb n="27" xml:id="l-27"/>die geloof ik meer goed doet in de wereld <lb n="28" xml:id="l-28"/>dan de italjanen en spanjaarden met hun “marchands <lb n="29" xml:id="l-29"/>d’armes au Caïre”<anchor n="4" xml:id="note-o-4"/> enz<c type="kp">_</c>
+                    <c type="kk">/</c> die ik toch zoo vervelend <lb n="30" xml:id="l-30"/>vind op den langen duur.</ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="31" xml:id="l-31"/>
+<ab rend="indent">Deze week had ik een figuurtje van eene vrouw op <lb n="32" xml:id="l-32"/>de hei die turf opraapt onder handen.<anchor n="5" xml:id="note-o-5"/>
+                </ab>
+                <lb n="33" xml:id="l-33"/>
+<ab rend="indent">En een geknield mannenfiguur<c type="kp">_</c>–<anchor n="6" xml:id="note-o-6"/>
+                </ab>
+                <lb n="34" xml:id="l-34"/>
+<ab rend="indent">Men moet zoo de structuur der figuren kennen <lb n="35" xml:id="l-35"/>om expressie te krijgen – althans ik kan ’t niet <lb n="36" xml:id="l-36"/>anders inzien<c type="kp">_</c>–</ab>
+                <lb n="37" xml:id="l-37"/>
+<ab rend="indent">Edelfelt is wel mooi in zijn expressies – <lb n="38" xml:id="l-38"/>doch ook hij zoekt het niet alleen in <lb n="39" xml:id="l-39"/>de uitdrukking der gezigten maar in de geheele <lb n="40" xml:id="l-40"/>houding der figuren.</ab>
+                <lb n="41" xml:id="l-41"/>
+<ab rend="indent">Weet ge wie misschien de knapste van al die Zweden is?– <lb n="42" xml:id="l-42"/>Het is misschien een zekere Wilhelm Leibl<c type="kk">/</c> een man <lb n="43" xml:id="l-43"/>die geheel zich zelf gevormd heeft.<anchor n="7" xml:id="note-o-7"/>
+                </ab>
+                <lb n="44" xml:id="l-44"/>
+<ab rend="indent">Ik heb van hem de reproductie van een schij waar <lb n="45" xml:id="l-45"/>hij plotseling mee voor den dag kwam<c type="kk">/</c> ik meen <lb n="46" xml:id="l-46"/>op de Expositie te Weenen van 82. ’t Stelt voor <lb n="47" xml:id="l-47"/>3 vrouwen in eene kerkbank<c type="kk">/</c> één zittend figuur van <lb n="48" xml:id="l-48"/>eene jonge vrouw in geruit costuum (Tyrol)<c type="kp">_</c>
+                </ab>
+                <lb n="49" xml:id="l-49"/>
+<ab>Twee geknielde oude vrouwen in ’t zwart met <lb n="50" xml:id="l-50"/>doeken om ’t hoofd.<anchor n="8" xml:id="note-o-8"/>
+                </ab>
+                <lb n="51" xml:id="l-51"/>
+<ab rend="indent">Prachtig van sentiment en geteekend als Memlink <lb n="52" xml:id="l-52"/>of Quintijn Matsijs<c type="kp">_</c>–</ab>
+                <lb n="53" xml:id="l-53"/>
+<ab rend="indent">Dat schij maakte toen schijnt het veel beweging <lb n="54" xml:id="l-54"/>onder de artisten – sedert weet ik niet hoe ’t met <lb n="55" xml:id="l-55"/>dien man gegaan is. Ik vond dat het veel van <lb n="56" xml:id="l-56"/>Thijs Maris had. In Engeland is er ook een duitscher <lb n="57" xml:id="l-57"/>van die soort maar minder knap<c type="kk">/</c> Paul de Gassow<c type="kk">/</c>
+                    <anchor n="9" xml:id="note-o-9"/> <lb n="58" xml:id="l-58"/>die iets heeft van Oberländer wiens koppen ge U <lb n="59" xml:id="l-59"/>zeker herinnert. Enfin er zitten goede lui <lb n="60" xml:id="l-60"/>in dat Zweden nog<c type="kk">/</c> schijnt het.</ab>
+                <lb n="61" xml:id="l-61"/>
+<ab rend="indent">Ik ben weer verlangend naar Uw brief.</ab>
+                <lb n="62" xml:id="l-62"/>
+<ab rend="indent">Wat ik U met een woord schreef over relaties <lb n="63" xml:id="l-63"/>van vrouwen met hare moeders – <lb n="64" xml:id="l-64"/>mij aangaande<c type="kk">/</c> ik kan U verzekeren 9/10 van de <lb n="65" xml:id="l-65"/>moeielijkheden die ik met de vrouw had daarin <lb n="66" xml:id="l-66"/>hun oorsprong hadden<c type="kk">/</c> direkt of indirekt.<anchor n="10" xml:id="note-o-10"/>
+                </ab>
+                <lb n="67" xml:id="l-67"/>
+<ab rend="indent">En toch<c type="kk">/</c> die moeders<c type="kk">/</c> al doen ze onuitsprekelijk 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                    <lb n="68" xml:id="l-68"/>verkeerd<c type="kk">/</c> ze zijn niet precies slecht<c type="kp">_</c>– Maar <lb n="69" xml:id="l-69"/>ze weten niet wat ze doen<anchor n="11" xml:id="note-o-11"/> – vrouwen van een <lb n="70" xml:id="l-70"/>jaar of 50 hebben dikwijls iets wantrouwends en <lb n="71" xml:id="l-71"/>juist hun eigen slimheid en argwaan verstrikt hen<c type="kp">_</c> <lb n="72" xml:id="l-72"/>Ik zal als ge wilt U sommige bijzonderheden <lb n="73" xml:id="l-73"/>wel eens vertellen. Ik weet niet of alle <lb n="74" xml:id="l-74"/>vrouwen serieuser worden met het klimmen van <lb n="75" xml:id="l-75"/>hun jaren – en dan willen ze hun dochters besturen <lb n="76" xml:id="l-76"/>en teregtwijzen en doen het glad verkeerd.</ab>
+                <lb n="77" xml:id="l-77"/>
+<ab rend="indent">Toch<c type="kk">/</c> in sommige gevallen kan hun systeem <lb n="78" xml:id="l-78"/>eenig raison d’etre hebben maar ze moesten niet <lb n="79" xml:id="l-79"/>zich tot principe stellen en a priori aan nemen dat de mannen bedriegers <lb n="80" xml:id="l-80"/>en gekken zijn en daaruit volgt de vrouwen hen bedriegen <lb n="81" xml:id="l-81"/>moeten en de wijsheid in pacht hebben. Wordt het systeem der moeders <lb n="82" xml:id="l-82"/>toegepast ongelukkigerwijs op een man die eerlijk <lb n="83" xml:id="l-83"/>en te goeder trouw is zoo is hij er ongelukkig aan toe<c type="kp">_</c> <lb n="84" xml:id="l-84"/>Het is een van de dingen die in dezen tijd zóó algemeen <lb n="85" xml:id="l-85"/>zijn dat ieder er zich wel uit eigen ervaring genoeg <lb n="86" xml:id="l-86"/>van voor den geest kan halen &amp; moeten we niet <lb n="87" xml:id="l-87"/>meenen ons iets ongewoons overkomt.</ab>
+                <lb n="88" xml:id="l-88"/>
+<ab rend="indent">Enfin we zijn nog niet in den tijd dat de <hi rend="sc">rede</hi> <lb n="88a" xml:id="l-88a"/>(niet alleen in den zin van raison doch tevens van <lb n="88b" xml:id="l-88b"/>la conscience) <lb n="89" xml:id="l-89"/>door iedereen geeerbiedigd wordt<c type="kk">/</c> er aan te werken die <lb n="90" xml:id="l-90"/>tijd kome is pligt<c type="kk">/</c> en bij het beoordeelen der <lb n="91" xml:id="l-91"/>karakters de omstandigheden van de tegenwoordige <lb n="92" xml:id="l-92"/>maatschappij in aanmerking te nemen is een van <lb n="93" xml:id="l-93"/>de eerste dingen die de <lb n="94" xml:id="l-94"/>menschlievendheid gebiedt<c type="kp">_</c>
+                </ab>
+                <lb n="95" xml:id="l-95"/>
+<ab rend="indent">Wat is Zola toch mooi – ’t is vooral l’assommoir <lb n="96" xml:id="l-96"/>waar ik dikwijls aan denk.<anchor n="12" xml:id="note-o-12"/> Zeg eens – hoe <lb n="97" xml:id="l-97"/>staat gij met het lezen van Balzac.<anchor n="13" xml:id="note-o-13"/>
+                </ab>
+                <lb n="100" xml:id="l-100"/>
+<ab rend="indent">Ik heb les miserables geheel uit<anchor n="14" xml:id="note-o-14"/> – ik weet wel <lb n="101" xml:id="l-101"/>dat Victor Hugo op een andere wijs analyseert <lb n="102" xml:id="l-102"/>als Balzac &amp; Zola maar hij doorgrond de <lb n="103" xml:id="l-103"/>dingen ook.</ab>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                <lb n="104" xml:id="l-104"/>
+<ab rend="indent">Weet gij wat ik voor mij zou prefereeren boven de <lb n="105" xml:id="l-105"/>relaties van de vrouw met haar moeder – in mijn geval waar <lb n="106" xml:id="l-106"/>’t bepaald verkeerde gevolgen heeft – dat <lb n="107" xml:id="l-107"/>de moeder maar geheel en al bij mij in ware gekomen<c type="kp">_</c> <lb n="108" xml:id="l-108"/>Ik heb haar dat dezen winter toen de moeder erg in <lb n="109" xml:id="l-109"/>’t naauw zat eens voorgesteld en gezegd<c type="kk">/</c> als ge zoo <lb n="110" xml:id="l-110"/>aan elkaar gehecht zijt<c type="kk">/</c> kom dan bij elkaar wonen<c type="kp">_</c> <lb n="111" xml:id="l-111"/>Maar ’t is juist dat zij geloof ik het eenvoudige<c type="kk">/</c> dat <lb n="112" xml:id="l-112"/>ik <hi rend="ital">en</hi> uit principe wil <hi rend="ital">en</hi> ook door de omstandigheden <lb n="113" xml:id="l-113"/>noodzakelijk wordt<c type="kk">/</c> niet goed genoeg vinden<c type="kk">/</c> zelfs dan niet als ze zelf er niet komen kunnen. <lb n="114" xml:id="l-114"/>Veel menschen zijn meer op het <lb n="115" xml:id="l-115"/>uiterlijke dan op het innerlijke van een huisgezin <lb n="116" xml:id="l-116"/>oplettend<c type="kk">/</c> en dat denkende ze goed doen daarmee<c type="kp">_</c> <lb n="117" xml:id="l-117"/>Daar is de maatschappij vol van<c type="kk">/</c> paraître in <lb n="118" xml:id="l-118"/>plaats van être<c type="kp">_</c>– Nog eens<c type="kk">/</c> die menschen zijn <hi rend="ital">daarom</hi> <lb n="119" xml:id="l-119"/>niet slecht doch ze zijn dwaas.</ab>
+                <lb n="120" xml:id="l-120"/>
+<ab rend="indent">Hoe groot nu ’t onderscheid zij tusschen de personen <lb n="121" xml:id="l-121"/>in kwestie<c type="kk">/</c> houd het oog op de relaties tusschen uw patient <lb n="122" xml:id="l-122"/>en haar moeder. meen vooral niet ik de <lb n="123" xml:id="l-123"/>moeder van iets bepaalds slechts verdenk – neen<c type="kk">/</c> <lb n="124" xml:id="l-124"/>maar ’t zou me verwonderen ze de algemeene <lb n="125" xml:id="l-125"/>dwaasheid niet deelde. En uw patient de algemeene <lb n="126" xml:id="l-126"/>vrouwelijke aanleg om zich te vergissen in ’t kiezen <lb n="127" xml:id="l-127"/>van ’t geen waardoor zij zich laten besturen.</ab>
+                <lb n="128" xml:id="l-128"/>
+<ab rend="indent">De moeder eener vrouw is in sommige gevallen de <lb n="129" xml:id="l-129"/>representant eener bemoeizieke en kwaadsprekende en <lb n="130" xml:id="l-130"/>onuitstaanbare familie – in die kwaliteit gedecideerd <lb n="131" xml:id="l-131"/>schadelijk en vijandig<c type="kk">/</c> ook al is ze op zich zelf zoo slecht niet. <lb n="132" xml:id="l-132"/>In mijn geval zoude zij veel beter zijn indien zij in mijn <lb n="133" xml:id="l-133"/>huis was dan in de huizen van de andere familieleden – <lb n="134" xml:id="l-134"/>waar zij eigentlijk soms op brutale wijs de dupe van is en <lb n="135" xml:id="l-135"/>opgestookt wordt om te intrigueeren.</ab>
+                <lb n="136" xml:id="l-136"/>
+<ab rend="indent">Hebt ge ooit aan de moeder van uw patient gedacht <lb n="137" xml:id="l-137"/>in die kwaliteit die zij welligt eenigermate krijgen kan. <lb n="138" xml:id="l-138"/>Daarom<c type="kk">/</c> wees op Uw qui vive. En betreffende de Soeks<anchor n="15" xml:id="note-o-15"/> <lb n="139" xml:id="l-139"/>is het misschien dat gij ook zelf voorziet het niet zeker is zij <lb n="140" xml:id="l-140"/>dezelfde begrippen van discretie zullen hebben die gij <lb n="141" xml:id="l-141"/>en uw patient zelf hebben en wenschelijk zijn. Tegenover Uw <lb n="142" xml:id="l-142"/>patient zijt gij absoluut eerlijk en te goeder trouw geweest – <lb n="143" xml:id="l-143"/>zie<c type="kk">/</c> dat is iets wat het voornaamste is en de toekomst<c type="kk">/</c> wat die ook zij<c type="kk">/</c> <lb n="144" xml:id="l-144"/>helder houdt<c type="kk">/</c> doch al heeft men regt gehandeld zoo kan men <lb n="145" xml:id="l-145"/>toch evenwel soms onaangenaamheden krijgen. Enfin in <lb n="146" xml:id="l-146"/>dit jaar dat ge heden begint wensch ik U zoo weinig mogelijk daarvan <lb n="147" xml:id="l-147"/>toe – en integendeel nogmaals alles goeds. Nu<c type="kk">/</c> schrijf <lb n="148" xml:id="l-148"/>spoedig – als ge nog niet geschreven hebt reeds – wat ik hoop ’t geval zij<c type="kp">_</c>
+                </ab>
+                <lb n="149" xml:id="l-149"/>
+<ab rend="indent">adieu kerel<c type="kk">/</c> met een hartelijken handdruk<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="149*" xml:id="l-149s"/>
+<ab>t. à t.</ab>
+                <lb n="150" xml:id="l-150"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-29" n="29">Caïre” &lt; Caïre</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo,</ab>
+<ab>I wanted to let you hear a word from me around your birthday.<anchor n="1" xml:id="note-t-1"/> May the year you are beginning be a good one for you, and may you have good fortune at work — and I hope above all that in this year you’ll find some satisfaction in what you’ve done for your <rs type="pers" key="508">patient</rs>, and that she may recover and find new life.</ab>
+<ab rend="indent">Do you realize it’s almost a year since you were here? I long so much for you to come. It’s work from that whole year that I must show you — that we must discuss in connection with the future. </ab>
+<ab rend="indent">Do you think it will be about the same time as last year that you come — or will it be postponed because you think it undesirable, perhaps, to leave your <rs type="pers" key="508">patient</rs> alone? Anyway, if you can say anything about your arrival, write to me. </ab>
+<ab rend="indent">In the past you told me a great deal about the Swedish painters — <rs type="pers" key="1084">Heyerdahl</rs> — <rs type="pers" key="1009">Edelfelt</rs>.<anchor n="2" xml:id="note-t-2"/> This week I found a reproduction of a painting by Edelfelt, a divine service on the beach.<anchor n="3" xml:id="note-t-3"/> There’s a touch of <hi rend="ital">
+                        <rs type="pers" key="696">Longfellow</rs>’s</hi> poetry about it. The work is very fine. That’s a movement I’m very fond of and which does more good in the world, I believe, than the Italians and Spaniards with their ‘Cairene armourers’<anchor n="4" xml:id="note-t-4"/> and so on, which I find so tedious in the long run.
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">This week I worked on a figure of a woman gathering peat on the heath.<anchor n="5" xml:id="note-t-5"/>
+                </ab>
+<ab rend="indent">And a kneeling figure of a man.<anchor n="6" xml:id="note-t-6"/>
+                </ab>
+<ab rend="indent">One must know the structure of figures so well to get expression — at any rate that’s how I see it.</ab>
+<ab rend="indent">
+                    <rs type="pers" key="1009">Edelfelt</rs> is quite beautiful in his expressions — but he too is concerned not only with the facial expressions but with the whole posture of the figures.</ab>
+<ab rend="indent">Do you know who is perhaps the cleverest of all those Swedes? It may be a certain <rs type="pers" key="1168">Wilhelm Leibl</rs>, a man who is entirely self-taught.<anchor n="7" xml:id="note-t-7"/>
+                </ab>
+<ab rend="indent">I have the reproduction of a painting by him which he suddenly produced, I believe, at the Exhibition in Vienna in ’82. It shows 3 women in a pew: one seated figure of a young woman in a check dress (Tyrol), two kneeling old women in black with headscarves.<anchor n="8" xml:id="note-t-8"/> </ab>
+<ab rend="indent">Splendid in sentiment and drawn like <rs type="pers" key="1213">Memling</rs> or <rs type="pers" key="1195">Quinten Massys</rs>. </ab>
+    <ab rend="indent">Apparently, that painting caused a great stir among artists at the time — I don’t know what’s happened to the man since. I thought it was a lot like <rs type="pers" key="1202">Thijs Maris</rs>. In England there’s a German of that type but not as clever, <rs type="pers" key="1723">Paul de Gassow</rs>,<anchor n="9" xml:id="note-t-9"/> who’s a little like <rs type="pers" key="1263">Oberländer</rs>, whose heads you no doubt remember. Anyway, there are still good people in that Sweden, it seems.</ab>
+<ab rend="indent">I’m again longing for your letter.</ab>
+<ab rend="indent">What I wrote to you in short about women’s relationships with their mothers — in my case I can assure you that 9/10 of the difficulties I had with the <rs type="pers" key="463">woman</rs> had their origin there, directly or indirectly.<anchor n="10" xml:id="note-t-10"/>
+                </ab>
+<ab rend="indent">And yet, although their actions are inexpressibly 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> wrong, those mothers aren’t exactly bad. But they know not what they do<anchor n="11" xml:id="note-t-11"/> — women around the age of 50 are often somewhat distrusting, and it’s precisely their own craftiness and suspicion that entraps them. If you like, I can give you more particulars sometime. I don’t know whether all women become more serious as the years pass — and then they want to control and correct their daughters, and go about it completely the wrong way.</ab>
+<ab rend="indent">Yet in some cases their system may have some <hi rend="ital">raison d’être</hi>, but they shouldn’t make it their principle and assume <hi rend="ital">a priori</hi> that men are deceivers and fools, and that from that it follows that women must deceive them and have a monopoly of wisdom. If the mothers’ system is unfortunately applied to a man who’s honest and in good faith, he’s in an unhappy position. It’s one of the things that are so common these days that everyone can call to mind enough of them from his own experience, and we shouldn’t imagine something unusual is happening to us. </ab>
+<ab rend="indent">Still, we’re not yet in the age when <hi rend="sc">reason</hi> (in the sense not only of reason but also of conscience) will be respected by everyone. It’s our duty to work to bring that age about, and one of the first things required by the love of humanity is to take into account the circumstances of present-day society when judging characters. </ab>
+<ab rend="indent">How beautiful <rs type="pers" key="836">Zola</rs> is — it’s L’assommoir above all that I often think of.<anchor n="12" xml:id="note-t-12"/> Tell me — how are you getting on with reading <rs type="pers" key="519">Balzac</rs>?<anchor n="13" xml:id="note-t-13"/> </ab>
+<ab rend="indent">I’ve finished Les misérables.<anchor n="14" xml:id="note-t-14"/> I know that <rs type="pers" key="666">Victor Hugo</rs> analyzes in a different way from <rs type="pers" key="519">Balzac</rs> and <rs type="pers" key="836">Zola</rs>, but he sees through things too. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/>
+                </ab>
+<ab rend="indent">Do you know what I’d prefer to the woman’s relations with her mother? — in my case, where they have decidedly unfortunate consequences — that the mother should move in with me completely. I suggested that once this winter when the <rs type="pers" key="464">mother</rs> was very hard pressed, and I said if you’re so attached to each other, come and live together. But it’s just that they, I believe, do not find good enough the simplicity which I want on principle and which is also necessitated by the circumstances, even when they themselves can’t get by on it. Many people pay more attention to the outward appearance of a family than to its inner life, and imagine they do good in that way. Society is full of that, seeming instead of being. Again, these people are not bad <hi rend="ital">because</hi> of this, but they are foolish. </ab>
+<ab rend="indent">However great the difference between the people in question, keep an eye on the relations between your <rs type="pers" key="508">patient</rs> and her mother. Don’t think for a moment that I suspect the mother of anything particularly bad — no, but it would surprise me if she doesn’t share in the general foolishness. And your patient the general female tendency to make a mistake when deciding what they’ll be guided by. </ab>
+<ab rend="indent">In some cases the mother of a woman is the representative of a meddlesome and malicious and insufferable family — and as such definitely harmful and hostile, even if she isn’t that bad in herself. In my case she’d be much better if <rs type="pers" key="463">she</rs> was in my house rather than in the houses of the other members of the family — where she’s sometimes brazenly duped by them and incited to intrigue. </ab>
+<ab rend="indent">Have you ever thought of your patient’s mother in this role, which she may well take on to some degree? So be on the alert. And as for the Soeks,<anchor n="15" xml:id="note-t-15"/> you yourself perhaps foresee that it isn’t certain that they’ll have the same notions of discretion that you and your <rs type="pers" key="508">patient</rs> have and that are desirable. In relation to your patient you’ve been absolutely honest and in good faith — that’s the most important thing, you see, and that keeps the future bright, whatever it may be. Yet even when one has acted rightly, one can sometimes face unpleasantness all the same. Anyway, I wish you as little as possible of that in this year that you are beginning today — and, on the contrary, every good wish again. Now, write soon — if you haven’t already done so — which I hope is the case.</ab>
+<ab rend="indent">Adieu, old chap, with a hearty handshake.</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>Theo was 26 on 1 May 1883. His <rs type="pers" key="526">father</rs> also wished him many happy returns, ‘You have been a spring flower for us, dear Theo! And long may you be so!’, and he wondered, ‘How is Vincent getting on? Oh, I think so often of him, but fortunately his work keeps him occupied. And you are such a help to him, may you see the fruits! How will you spend your birthday? People won’t forget you’ (FR 2243, 29 April 1883).</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>Theo sold work by these painters.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>
+                        <rs type="pers" key="1512">Charles Baude</rs> made the engraving <hi rend="ital">Service divin au bord de la mer (Finlande) </hi>(Religious service on the beach (Finland)), published in <hi rend="ital">Le Monde Illustré</hi> 26 (15 July 1882), pp. 40-41 (<rs type="ill" key="91">Ill. 91</rs>), after <rs type="pers" key="1009">Albert Gustaf Aristides Edelfelt</rs>’s painting <hi rend="ital">Service religieux dans l’archipel de Nyland </hi>(Religious service in the Nyland archipelago), 1882 (Lille, Palais des Beaux-Arts). Van Gogh is mistaken about Edelfelt’s nationality: he was Finnish.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>Here Van Gogh is criticizing the fashionable works of the so-called Orientalists. Perhaps he was thinking of <hi rend="ital">
+                            <rs type="otherart" key="503">Un marchand d’armes au Caire</rs> </hi>(A Cairene armourer) (private collection) by <rs type="pers" key="1044">Jean Léon Gérôme</rs>, which was also available in reproductions at the times. See Ackerman 1986, p. 226, cat. no. 194, and <hi rend="ital">Cat. Goupil</hi> 1877, p. 52, cat. no. 897.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>This drawing of a woman gathering peat is not known. </ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>Probably the drawing <hi rend="ital">Old man, kneeling in prayer</hi> (<rs type="ill" key="2436">F 1027 / JH 354</rs>).</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>Van Gogh is wrong about the nationality of <rs type="pers" key="1168">Wilhelm Maria Hubertus Leibl</rs>, who was born in Cologne in Germany. He borrowed the details that follow – namely the fact that Leibl was self-taught and that his painting caused a great stir, even in Paris – from what K. Raupp wrote in the <hi rend="ital">Illustrirte Zeitung</hi> 79 (1 July 1882), pp. 9, 12 (cf. <ref target="#n-8">n. 8</ref> below).</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>A print after <rs type="pers" key="1168">Wilhelm Leibl</rs>’s <hi rend="ital">Die drei Frauen in der Kirche </hi>(The three women in the church), 1882 (Hamburg, Kunsthalle). In the estate there is the engraving by <rs type="pers" key="1504">Hugo Kaeseberg</rs> &amp; <rs type="pers" key="1503">Kaspar Erhardt Oertel</rs> from the <hi rend="ital">Illustrirte Zeitung</hi> 79 (1 July 1882), p. 14. The caption reads: ‘Aus der Internationalen Kunstausstellung in Wien: in der Kirche. Gemälde von Wilhelm Leibl’. <rs type="ill" key="1043">Ill. 1043</rs> (t*777). Cf. <hi rend="ital">Illustrierter Katalog der ersten Internationalen Kunst-Ausstellung im Künstlerhause</hi>. 2nd ed. Vienna 1882, p. 232, no. 97. The women, painted in a church at Dachau, are wearing traditional Bavarian costume. </ab>
+                </note>
+<note n="9" xml:id="n-9" target="#note-t-9">
+<ab>Van Gogh most probably means <rs type="pers" key="1723">Karl (Charles) Gussow</rs>, who studied and worked in Germany (no painter called Paul de Gassow is known). Karl Gussow was represented at the International Exhibition in London in 1874 by the realistic <hi rend="ital">‘The spectators’</hi>, as is evident from <hi rend="ital">The Graphic</hi> 10 (24 October 1874), p. 394; the wood engraving after this work by <rs type="pers" key="1537">Eugène Froment</rs> is in the estate. <rs type="ill" key="2094">Ill. 2094</rs>. (t*435). Both below the print and in the commentary Gussow’s name is misspelt as ‘Gassow’, which may explain Van Gogh’s mistake. Cf. also <ref target="let311.xml#n-6">letter 311, n. 6.</ref>
+                    </ab>
+                </note>
+<note n="10" xml:id="n-10" target="#note-t-10">
+<ab>Van Gogh had written about this in <ref target="let337.xml">letter 337</ref>. These letters (see also later in the present letter) contain the first signs of conflicts with <rs type="pers" key="463">Sien</rs>’s family, which become exacerbated in the coming months and contribute to the final break between them. </ab>
+                </note>
+<note n="11" xml:id="n-11" target="#note-t-11">
+<ab>Cf. <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Luke" chap="23" v="34">Luke 23:34</bibleref>.</ab>
+                </note>
+<note n="12" xml:id="n-12" target="#note-t-12">
+<ab>It is clear from this that Van Gogh had read <rs type="pers" key="836">Zola</rs>’s novel <hi rend="ital">
+                            <rs type="lit" key="255">L’assommoir</rs>
+                        </hi> (1877), although <ref target="let260.xml">letter 260</ref> of 3 September 1882 had already suggested that. The novel is set among the poor of Paris, and Zola portrays their cheerless and hard life. The main character is the humble washerwoman Gervaise Macquart, who is abandoned with two children by her lover Auguste Lantier. She marries a labourer, but he has an accident and is unable to work, which drives him to drink. Lantier, now a drunk too, comes back to her but drinks himself to death. By then the naturally cheerful, hard-working and good-natured Gervaise is inwardly broken and she also resorts to alcohol, ending up as a streetwalker. </ab>
+                </note>
+<note n="13" xml:id="n-13" target="#note-t-13">
+<ab>After this Van Gogh crossed out: ‘That is all in the same spirit and is to <rs type="pers" key="836">Zola</rs> as, say, <rs type="pers" key="891">Brion</rs> is to <rs type="pers" key="1084">Heyerdahl</rs> and <rs type="pers" key="1009">Edelfelt</rs>’.</ab>
+                </note>
+<note n="14" xml:id="n-14" target="#note-t-14">
+<ab>For <rs type="pers" key="666">Victor Hugo</rs>’s novel <hi rend="ital">
+                            <rs type="lit" key="310">Les misérables</rs>
+                        </hi>, <ref target="let333.xml#n-12">see letter 333, n. 12.</ref>
+                    </ab>
+                </note>
+<note n="15" xml:id="n-15" target="#note-t-15">
+<ab>The widow Soek and her mother; cf. <ref target="let336.xml#n-15">letter 336, n. 15.</ref>
+                    </ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

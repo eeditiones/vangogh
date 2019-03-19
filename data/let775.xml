@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>Joseph Roulin to Vincent van Gogh. Marseille, Wednesday, 22 May 1889.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let775"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">775</idno>
+<idno type="collectedletters">-</idno>
+<idno type="brieven1990">779</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Joseph Roulin</author>
+                        <vg:addressee>Vincent van Gogh</vg:addressee>
+                        <vg:placeLet>Marseille</vg:placeLet>
+                        <vg:dateLet>Wednesday, 22 May 1889</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>Joseph Roulin to Vincent van Gogh. Marseille, Wednesday, 22 May 1889.</p>
+<note type="ongoingTopic" n="1">
+<p>Roulin’s departure for Marseille <ref target="let736.xml">(736)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b1071 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Letter headed: ‘Marseille le 22 mai 1889’.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 1071" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001001244_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001001244_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001244_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001244_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 1071" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001001244_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001001244_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001244_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001244_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Marseille le 22 mai 1889</ab>
+<vg:whiteline/>
+                <lb n="2" xml:id="l-2"/>
+<ab>Mon cher M<hi rend="ss">r</hi> Vincent</ab>
+                <lb n="3" xml:id="l-3"/>
+<ab>J’arrive de Lambesc voir la famille<c type="kp">_</c>
+                    <anchor n="1" xml:id="note-o-1"/> <lb n="4" xml:id="l-4"/>je me hate de vous dire que je les ai trouvé <lb n="5" xml:id="l-5"/>tous en bonne santé<c type="kp">_</c> mon épouse va très bien, <lb n="6" xml:id="l-6"/>Armand<c type="kk">/</c> notre forgerrons<c type="kk">/</c>
+                    <anchor n="a" xml:id="note-o-a"/> je me suis rendu compte <lb n="7" xml:id="l-7"/>par moi-même qu’il tapait dur sur le fer<c type="kk">/</c> ses <lb n="8" xml:id="l-8"/>patrons sont très contents de lui<c type="kp">_</c> Camille a fait <lb n="9" xml:id="l-9"/>sa première communion Dimanche dernier <lb n="10" xml:id="l-10"/>et je leur ai fait la surprise agréable d’arriver <lb n="11" xml:id="l-11"/>lundi soir à 6 heures<c type="kp">_</c> la belle Marcelle est toujour <lb n="12" xml:id="l-12"/>bien portante<c type="kk">/</c> elle a deux dents<c type="kk">/</c> c’est une petite extraor<c type="shy">-</c>
+                    <lb n="13" xml:id="l-13"/>dinaire<c type="kk">/</c> bien sage<c type="kk">/</c> elle a tout pour elle<c type="kk">/</c> seulement <lb n="14" xml:id="l-14"/>à mon arrivée elle n’a pas voulu me voir<c type="kp">_</c> il n’y <lb n="15" xml:id="l-15"/>a eu qu’à mon départ qu’elle m’a bien regarder et <lb n="16" xml:id="l-16"/>m’a un peu tiré la barbe<c type="kp">_</c> je suis très satisfait <lb n="17" xml:id="l-17"/>de mon voyage<c type="kk">/</c> il faut expéré qu’à la S<hi rend="ss">t</hi> Michel<anchor n="2" xml:id="note-o-2"/> <lb n="18" xml:id="l-18"/>nous serons tous réunis à Marseille car j’ai <lb n="19" xml:id="l-19"/>loué des appartements pour cette époque<c type="kp">_</c> je suis <lb n="20" xml:id="l-20"/>arrivé mardi soir à minuit à Marseille<c type="kp">_</c> <lb n="21" xml:id="l-21"/>ce matin mercredi à mon lever<anchor n="b" xml:id="note-o-b"/> ma propriétaire<anchor n="3" xml:id="note-o-3"/> <lb n="22" xml:id="l-22"/>m’a remis votre lettre<c type="kk">/</c> qu’elle m’a satisfaits <lb n="23" xml:id="l-23"/>d’apprendre que de votre propre volonté vous aviez 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                    <lb n="24" xml:id="l-24"/>quitté Arles pour aller à S<hi rend="ss">t</hi> Rémy<c type="kp">_</c> continuez <lb n="25" xml:id="l-25"/>vos tableaux<c type="kk">/</c> vous êtes dans un beau pays<c type="kk">/</c> la <lb n="26" xml:id="l-26"/>campagne est très belles<c type="kk">/</c> le sol est très bien travailler<c type="kk">/</c>
+                    <anchor n="c" xml:id="note-o-c"/> <lb n="27" xml:id="l-27"/>vous trouverrez un grand changement dans la culture <lb n="28" xml:id="l-28"/>là-bas<c type="kk">/</c> vous ne trouverrez pas des jardins qui ressemble <lb n="29" xml:id="l-29"/>à un cimétières comme à Arles<c type="kp">_</c> continuez à vous bien <lb n="30" xml:id="l-30"/>soigner<c type="kk">/</c> suivez bien les bon conseils que vous donneras <lb n="31" xml:id="l-31"/>le bon Docteur qui est attaché à l’établissement<c type="kp">_</c> j’ai <lb n="32" xml:id="l-32"/>une grande confiance pour le rétablissement complè <lb n="33" xml:id="l-33"/>de votre santé<c type="kk">/</c> avec la bonne volonté que vous <lb n="34" xml:id="l-34"/>avez vous réussirrez à faire de très beau tableaux<c type="kk">/</c> <lb n="35" xml:id="l-35"/>vous habitez le jardin des B. du Rhône<c type="kk">/</c> les modèles <lb n="36" xml:id="l-36"/>que la nature a fait ne vous manquerrons<anchor n="d" xml:id="note-o-d"/> pas<c type="kk">/</c> <lb n="37" xml:id="l-37"/>continuez et bon courage.</ab>
+                <lb n="38" xml:id="l-38"/>
+<ab rend="indent">Nous avons parler longuement de vous avec mon épouse <lb n="39" xml:id="l-39"/>au sujet de mon dernier voyage à Arles<c type="kp">_</c>
+                    <anchor n="4" xml:id="note-o-4"/> quand je lui <lb n="40" xml:id="l-40"/>écrirrais que j’ai reçu une de vos lettre ça lui feras <lb n="41" xml:id="l-41"/>un grand plaisir<c type="kp">_</c> aujourd’hui même je m’en vais la lui <lb n="42" xml:id="l-42"/>communiquer<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="43" xml:id="l-43"/>
+<ab>Veuillez<c type="kk">/</c> M<hi rend="ss">r</hi> Vincent<c type="kk">/</c> reçevoir mes salutations <lb n="44" xml:id="l-44"/>ainssi que de celles de ma famille<c type="kk">/</c> ainssi qu’une <lb n="45" xml:id="l-45"/>caresse de Marcelle qui grâce à vous peut faire <lb n="46" xml:id="l-46"/>un bonjour à mon Portrais<anchor n="e"/> soir et matin car il sont <lb n="47" xml:id="l-47"/>suspendu dans l’alcôve où il<anchor n="f"/> couche<c type="kk">/</c> il repose en paix <lb n="48" xml:id="l-48"/>sous le regard bienveillant de l’épouse et du Père<c type="kp">_</c>
+                    <anchor n="5" xml:id="note-o-5"/>
+                </ab>
+                <lb n="49" xml:id="l-49"/>
+<ab rend="indent">Je vous serre affectueusement les deux main<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="50" xml:id="l-50"/>
+<ab>votre tous dévoué</ab>
+                <lb n="51" xml:id="l-51"/>
+<ab>Roulin.</ab>
+<vg:whiteline/>
+                <lb n="52" xml:id="l-52"/>
+<ab>Courriers Convoyeur</ab>
+                <lb n="53" xml:id="l-53"/>
+<ab>Rue Breteuil N<hi rend="ss">o</hi> 57</ab>
+                <lb n="54" xml:id="l-54"/>
+<ab>Marseille</ab>
+<vg:whiteline/>
+                <lb n="55" xml:id="l-55"/>
+<ab>Le bonjour à M<hi rend="ss">r</hi> votre frère en lui écrivant.</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-7" n="7">qu’il tapait &lt; qui tappé</note>
+<note target="l-8" n="8">sont &lt; son</note>
+<note target="l-8" n="8">contents &lt; comptent</note>
+<note target="l-10" n="10">ai &lt; et</note>
+<note target="l-13" n="13">tout &lt; tous</note>
+<note target="l-14" n="14">arrivée &lt; arrivais</note>
+<note target="l-15" n="15">eu &lt; hu</note>
+<note target="l-16" n="16">tiré &lt; tirais</note>
+<note target="l-18" n="18">serons &lt; serrons</note>
+<note target="l-20" n="20">arrivé &lt; arrivais</note>
+<note target="l-21" n="21">mercredi &lt; mécredi</note>
+<note target="l-24" n="24">continuez &lt; continuer</note>
+<note target="l-26" n="26">est &lt; et</note>
+<note target="l-29" n="29">continuez &lt; continuer</note>
+<note target="l-31" n="31">qui &lt; qu’il</note>
+<note target="l-32" n="32">rétablissement &lt; rétablissent</note>
+<note target="l-35" n="35">B. du Rhône<c type="kk">/</c> &lt; (B. du Rhône)</note>
+<note target="l-37" n="37">continuez &lt; continuer</note>
+<note target="l-40" n="40">ça &lt; sa</note>
+<note target="l-45" n="45">qui grâce à vous &lt; que grasse a vous il</note>
+<note target="l-47" n="47">suppendu &lt; suspendu</note>
+<note target="l-47" n="47">l’alcôve &lt; l’acove</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>Marseille, 22 May 1889</ab>
+<vg:whiteline/>
+<ab>My dear Mr Vincent,</ab>
+<ab>I have just returned from Lambesc to see the family.<anchor n="1" xml:id="note-t-1"/> I hasten to tell you that I found them all in good health. My <rs type="pers" key="648">wife</rs> is very well, <rs type="pers" key="649">Armand</rs>, our blacksmith, I have realized by myself that he has been striking the iron hard, his bosses are very pleased with him. <rs type="pers" key="650">Camille</rs> had his first communion last Sunday, and I gave them the pleasant surprise of arriving on Monday evening at 6 o’clock. Beautiful <rs type="pers" key="651">Marcelle</rs> is still doing well, she has two teeth, she is an extraordinary little one, very well-behaved, she has everything in her favour, only when I arrived she didn’t want to see me. It was only when I left that she really looked at me and pulled my beard a little. I am very satisfied with my journey, one must hope that we shall all be reunited in Marseille at Michaelmas,<anchor n="2" xml:id="note-t-2"/> for I have rented an apartment for that period. I arrived Tuesday evening at midnight in Marseille. When I got up this morning, Wednesday, my <rs type="pers" key="345">landlady</rs>
+                    <anchor n="3" xml:id="note-t-3"/> handed me your letter, which satisfied me to learn that you had left Arles 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> to go to St-Rémy of your own accord. Continue your paintings, you are in a beautiful part of the world, the countryside is very beautiful, the soil is very well worked, you will find a great change in the farming down there, you will not find gardens that look like cemeteries, as in Arles. Continue to take good care of yourself, follow properly the good advice which will be given to you by the good Doctor who is attached to the establishment. I have great confidence that your health will be completely restored, with the good will that you have you will succeed in doing very fine paintings, you live in the garden of the Bouches du Rhône, you will not lack for models made by nature, continue and be of good heart.</ab>
+<ab rend="indent">We talked at length about you with my <rs type="pers" key="648">wife</rs> on the subject of my last journey to Arles.<anchor n="4" xml:id="note-t-4"/> When I write to her that I have received one of your letters that will give her great pleasure. This very day I am going to tell her about it.</ab>
+                <vg:whiteline/>
+<ab>Please, Mr Vincent, accept my regards as well as those of my family, and a caress from <rs type="pers" key="651">Marcelle</rs> who, thanks to you, can say hello to my Portrait evening and morning, for they are hanging in the alcove where she sleeps, she rests in peace under the benevolent gaze of both the wife and the Father.<anchor n="5" xml:id="note-t-5"/>
+                </ab>
+<ab rend="indent">I shake both your hands affectionately.</ab>
+<vg:whiteline/>
+<ab>Your entirely devoted</ab>
+<ab>
+                    <rs type="pers" key="647">Roulin</rs>.</ab>
+<vg:whiteline/>
+<ab>Railway postman</ab>
+<ab>rue Breteuil No. 57</ab>
+<ab>Marseille</ab>
+<vg:whiteline/>
+<ab>My regards to your esteemed brother when you write to him.</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>
+                        <rs type="pers" key="648">Madame Roulin</rs> and the <rs type="pers" key="649 650 651">children</rs> were staying with her <rs type="pers" key="160">mother</rs> (<ref target="let748.xml">see letter 748</ref>).</ab>
+                </note>
+<note n="a" xml:id="n-a" target="#note-o-a">
+<ab>Read: ‘forgeron’.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>For Michaelmas (the feast of Saint Michael, 29 September), <ref target="let654.xml#n-2">see letter 654, n. 2.</ref>
+                    </ab>
+                </note>
+<note n="b" xml:id="n-b" target="#note-o-b">
+<ab>Read: ‘levée’.</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>
+                        <rs type="pers" key="345">Julienne Delpal-Bloyet</rs>. <ref target="let773.xml#n-6">See letter 773, n. 6.</ref>
+                    </ab>
+                </note>
+<note n="c" xml:id="n-c" target="#note-o-c">
+<ab>Read: ‘travaillé’.</ab>
+                </note>
+<note n="d" xml:id="n-d" target="#note-o-d">
+<ab>Read: ‘manqueront’.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>
+                        <rs type="pers" key="647">Roulin</rs> had visited Van Gogh around Thursday, 4 April; <ref target="let754.xml">see letter 754</ref>.</ab>
+                </note>
+<note n="e" xml:id="n-e" target="#note-o-e">
+<ab>Read: ‘portrait’.</ab>
+                </note>
+<note n="f" xml:id="n-f" target="#note-o-f">
+<ab>Read ‘elle’.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>
+                        <rs type="pers" key="647 648">The Roulins</rs> owned <hi rend="ital">Augustine Roulin (‘La berceuse’) </hi>(<rs type="ill" key="2773">F 505 / JH 1669</rs>). It cannot be ascertained which portrait or portraits of Joseph Roulin were in their possession; <ref target="let774.xml#n-3">see letter 774, n. 3.</ref>
+                    </ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

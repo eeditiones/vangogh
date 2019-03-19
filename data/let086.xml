@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Isleworth, Saturday, 8 July 1876.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let086"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">086</idno>
+<idno type="collectedletters">71</idno>
+<idno type="brieven1990">084</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Isleworth</vg:placeLet>
+                        <vg:dateLet>Saturday, 8 July 1876</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. Isleworth, Saturday, 8 July 1876.</p>
+<note type="ongoingTopic" n="1">
+<p>Sending the engravings <hi rend="ital">Christus Consolator</hi> and <hi rend="ital">Christus Remunerator</hi> <ref target="let085.xml">(85)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b84 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Letter headed: ‘<hi rend="ital">Isleworth</hi>. 8 Julij 1876’.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0084" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000087_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000087_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000087_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000087_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0084" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000087_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000087_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000087_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000087_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>
+                    <hi rend="ital">Isleworth</hi>. 8 Julij 1876</ab>
+                <lb n="2" xml:id="l-2"/>
+<ab>c.o<c type="kp">_</c> – Jones Esq<hi rend="ss">re</hi>
+                </ab>
+                <lb n="3" xml:id="l-3"/>
+<ab>Holme Court<anchor n="1" xml:id="note-o-1"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="4" xml:id="l-4"/>
+<ab>Waarde Theo</ab>
+                <lb n="5" xml:id="l-5"/>
+<ab>Uw brief en de prenten kwamen mij heerlijk <lb n="6" xml:id="l-6"/>verrassen toen ik dezen morgen bezig was om de <lb n="7" xml:id="l-7"/>aardappels te wieden in den tuin. Dank er voor<c type="kk">/</c> <lb n="8" xml:id="l-8"/>de beide gravures Christus consolator en remunerator <lb n="9" xml:id="l-9"/>hangen reeds boven mijn lessenaar op mijn <lb n="10" xml:id="l-10"/>kamertje.─ God is recht dus zal Hij door over<c type="shy">-</c>
+                    <lb n="11" xml:id="l-11"/>tuiging hen die dwalen brengen op het regte spoor,<anchor n="2" xml:id="note-o-2"/> <lb n="12" xml:id="l-12"/>daaraan dacht gij toen Gij schreeft, moge dat <lb n="13" xml:id="l-13"/>gebeuren; ik ben aan het dwalen in menigen <lb n="14" xml:id="l-14"/>zin, maar hoop is er nog. Maak U niet ongerust <lb n="15" xml:id="l-15"/>over Uw weelderig leven zooals Gij het noemt, <lb n="16" xml:id="l-16"/>ga maar stillekens Uw gang; Gij zijt eenvoudiger <lb n="17" xml:id="l-17"/>dan ik en zult er waarschijnlijk eerder en <lb n="18" xml:id="l-18"/>beter komen.─</ab>
+                <lb n="19" xml:id="l-19"/>
+<ab rend="indent">Maak U geen te groote illusies van de vrijheid die <lb n="20" xml:id="l-20"/>ik heb; ik heb mijn banden van allerlei aard, verne<c type="shy">-</c>
+                    <lb n="21" xml:id="l-21"/>derende banden ook en dat zal nog wel meer <lb n="22" xml:id="l-22"/>zoo worden met der tijd; maar het woord dat <lb n="23" xml:id="l-23"/>boven Christus consolator staat “Hij is gekomen om <lb n="24" xml:id="l-24"/>
+                    <hi rend="ital">gevangenen</hi> te prediken loslating”<anchor n="3" xml:id="note-o-3"/> is ook heden nog <lb n="25" xml:id="l-25"/>waar.─</ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="26" xml:id="l-26"/>
+<ab rend="indent">Nu heb ik een verzoek aan U. In der tijd ging <lb n="27" xml:id="l-27"/>ik te s’Hage bij een cathechiseermeester Hille <lb n="28" xml:id="l-28"/>die toen in de Bagijnestraat woonde.<anchor n="4" xml:id="note-o-4"/> Deze <lb n="29" xml:id="l-29"/>heeft zich veel moeite voor mij gegeven en hoewel <lb n="30" xml:id="l-30"/>ik het hem niet toonde heeft wat hij zeide <lb n="31" xml:id="l-31"/>indruk op mij gemaakt en is het in mijn hart <lb n="32" xml:id="l-32"/>hem nog eens een enkel woordje te zeggen, en <lb n="33" xml:id="l-33"/>hem zoo mogelijk pleizier te doen.</ab>
+                <lb n="34" xml:id="l-34"/>
+<ab rend="indent">Ga Gij hem eens opzoeken als Gij een oogenblikje <lb n="35" xml:id="l-35"/>hebt en zijn adres kunt uitvinden en vertel hem <lb n="36" xml:id="l-36"/>dat ik schoolmeester ben geworden en wie weet later <lb n="37" xml:id="l-37"/>in een of andere betrekking in verband met de kerk <lb n="38" xml:id="l-38"/>kom. Hij is een zeer eenvoudig man en die geloof <lb n="39" xml:id="l-39"/>ik veel strijd heeft gehad; onwillekeurig heb ik wel <lb n="40" xml:id="l-40"/>eens gedacht als ik bij hem kwam <lb n="41" xml:id="l-41"/>en hem aanzag: in het einde van dien man <lb n="42" xml:id="l-42"/>zal vrede zijn.─<anchor n="5" xml:id="note-o-5"/>
+                </ab>
+                <lb n="43" xml:id="l-43"/>
+<ab rend="indent">En geef hem bijgaand teekeningetje<anchor n="6" xml:id="note-o-6"/> voor mij.</ab>
+                <lb n="44" xml:id="l-44"/>
+<ab rend="indent">Wat zou ik graag eens een kijkje nemen bij Mauve, <lb n="45" xml:id="l-45"/>wat gij beschrijft, wat gij zaagt dien avond dat Gij <lb n="46" xml:id="l-46"/>daar waart zie ik als het ware duidelijk voor mij.─ <lb n="47" xml:id="l-47"/>Schrijf maar weer spoedig eens en heb het goed <lb n="48" xml:id="l-48"/>en geloof mij</ab>
+<vg:whiteline/>
+                <lb n="49" xml:id="l-49"/>
+<ab>Uw zoo liefh. broeder</ab>
+                <lb n="50" xml:id="l-50"/>
+<ab>Vincent.</ab>
+<vg:whiteline/>
+                <lb n="51" xml:id="l-51"/>
+  <ab>Groet s.v.p. de Hr. Tersteeg en zijne vrouw en Betsy voor mij <lb n="52" xml:id="l-52"/>en allen bij Roos en als gij anderen zien mogt. Maar <lb n="53" xml:id="l-53"/>spreek maar niet over mij.─ Zeg ook Jan en Piet<anchor n="7" xml:id="note-o-7"/> goedendag. <lb n="54" xml:id="l-54"/>Zooals gij ziet ben ik after all toch in die andere school<anchor n="8" xml:id="note-o-8"/> terecht <lb n="55" xml:id="l-55"/>gekomen, hierbij 2 prospectussen. Kunt gij de school recommandeeren <lb n="56" xml:id="l-56"/>aan den een of ander die zijn jongen hier naar Engeland wil <lb n="57" xml:id="l-57"/>zenden<c type="kk">/</c> doe het dan.─</ab>
+<vg:whiteline/>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+  <ab>
+                    <hi rend="ital">Isleworth, 8 July 1876</hi>
+                </ab>
+<ab>c.o. – Jones Esq<hi rend="ss">re</hi>
+                </ab>
+<ab>Holme Court<anchor n="1" xml:id="note-t-1"/>
+                </ab>
+<vg:whiteline/>
+<ab>My dear Theo,</ab>
+<ab>Your letter and the prints came as a wonderful surprise this morning while I was weeding the potatoes in the garden. I thank you; the two engravings, Christus Consolator and Remunerator, are already hanging above my reading-desk in my room. God is just, so He will use persuasion to bring those who stray back to the straight path,<anchor n="2" xml:id="note-t-2"/> that’s what you were thinking of when you wrote, may it come to pass. I’m straying in many ways, but there’s still hope. Don’t worry about your wanton life, as you call it, just go quietly on your way. You’re purer than I, and will probably get there sooner and better. </ab>
+<ab rend="indent">Don’t have too great illusions about the freedom I have; I have my bonds of various kinds, humiliating bonds some of them, and this will only get worse with time; but the words inscribed above Christus Consolator, ‘He is come to preach deliverance to the <hi rend="ital">captives</hi>’,<anchor n="3" xml:id="note-t-3"/> are still true today. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">Now I have a request to make of you. Back then in The Hague I went to a catechist, <rs type="pers" key="447">Hillen</rs>, who was living in Bagijnestraat at the time.<anchor n="4" xml:id="note-t-4"/> He took great pains over me and, although I didn’t show it, what he said made an impression on me, and I have a mind to write a word or two to him, perhaps it would give him pleasure.</ab>
+<ab rend="indent">Go and find him if you have the time and can discover his address, and tell him that I’ve become a schoolmaster and, who knows, may later find some kind of situation connected with the church. He’s a very modest man, one who has struggled a lot, I believe; sometimes when I went to see him and took a look at him I couldn’t help thinking that the end of that man will be peace.<anchor n="5" xml:id="note-t-5"/>
+                </ab>
+<ab rend="indent">And give him the enclosed drawing<anchor n="6" xml:id="note-t-6"/> for me.</ab>
+<ab rend="indent">How much I’d like to look in on <rs type="pers" key="323">Mauve</rs> sometime, what you describe, what you saw the evening you were there, I can picture clearly, as it were. Do write again soon, I wish you well, and believe me</ab>
+<vg:whiteline/>
+<ab>Your most loving brother</ab>
+<ab>Vincent.</ab>
+<vg:whiteline/>
+<ab>Please give my regards to <rs type="pers" key="787 788">Mr Tersteeg and his wife</rs> and <rs type="pers" key="789">Betsy</rs>, and to everyone at <rs type="pers" key="642 643">the Rooses</rs>’, and anyone else you might see. Don’t tell them about me, though. Tell <rs type="pers" key="116">Jan</rs> and <rs type="pers" key="85">Piet</rs>
+                    <anchor n="7" xml:id="note-t-7"/> I bid them good-day as well. As you see, I’ve ended up at the other school<anchor n="8" xml:id="note-t-8"/> after all, herewith two prospectuses. If you can recommend the school to anyone wishing to send their boys to England, then do so.</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>Van Gogh had moved and had entered the employ of <rs type="pers" key="682">Thomas Slade-Jones</rs>, whose school ‘Holme Court’ (now ‘Garvin House’) was at 158 Twickenham Road; <rs type="pers" key="764">William Port Stokes</rs>’s school (‘Linkfield House’) was in the same street, at no. 183. See exhib. cat. London<hi rend="ital"> </hi>1992, pp. 12-13 (with ill.).</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+  <ab>For the engravings <hi rend="ital">
+                            <rs type="ill" key="1773">Christus Consolator</rs>
+                        </hi> and <hi rend="ital">
+                            <rs type="ill" key="1774">Christus Remunerator</rs>
+                        </hi>, <ref target="let85.xml#n-7">see letter 85, n. 7</ref>.
+    <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Rhy. ps" chap="25" v="4">Rhy. ps. 25:4</bibleref>, with the variant ‘overtuiging’ (persuasion) instead of ‘onderwijzing’ (teaching).</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Luke" chap="4" vr="18-19">Luke 4:18-19</bibleref> (in <hi rend="ital">KJ</hi> <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Luke" chap="4" v="18">Luke 4:18</bibleref>); regarding the print, <ref target="let085.xml#n-7">see letter 85, n. 7.</ref>
+                    </ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>The Dutch Reformed (‘Nederlands-Hervormde’) catechist <rs type="pers" key="447">Johannes Hillen</rs> lived at Bagijnestraat 31 – in any case until some time in 1870 (<hi rend="ital">GAH, Adresboeken 1870-1871</hi>); he later moved to Juffrouw Idastraat 20. ‘In der tijd’ (back then) refers to Van Gogh’s years in The Hague, from July 1869 until May 1873.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Ps" chap="37" v="37">Ps. 37:37</bibleref>.</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>This drawing is no longer known.</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>Co-workers at Goupil’s; <ref target="let019.xml#n-11">see letter 19, n. 11.</ref>
+                    </ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>For a short time there was talk of Van Gogh’s teaching at the schools of both <rs type="pers" key="447">Stokes</rs> and <rs type="pers" key="682">Slade-Jones</rs>; on 6 July 1876, <rs type="pers" key="526">Mr van Gogh</rs> wrote to Theo: ‘Yesterday evening we received another letter from Vincent. Thank God! Better news. He made the acquaintance of another gentleman, a schoolmaster at a somewhat more distinguished school, who did appear to want him and would ask <rs type="pers" key="547">Mr Obach</rs> for a reference. Vincent meanwhile told this to <rs type="pers" key="764">Mr Stokes</rs>, who is now offering him 25 shillings a month, and paid him 1 month in advance. It’s not a lot of money, but encouraging nonetheless, and now, if Stokes gives him the time, Vincent can give 2 lessons a week at that other school as well – it’s a start. May God bless him! He was completely disheartened. He sent back the 25 guilders I sent him, and asked me to save it for travelling expenses at Christmas. I hasten to tell you this now, because I’m so very grateful for this, even though it’s only a modest start. I found it so terribly discouraging for him, earning nothing and not knowing if anyone took an interest in him – feeling that is something I always find so extremely difficult’ (FR b2757).</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

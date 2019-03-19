@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Saint-Rémy-de-Provence, Sunday, 14 or Monday, 15 July 1889.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let790"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">790</idno>
+<idno type="collectedletters">603</idno>
+<idno type="brieven1990">791</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Saint-Rémy-de-Provence</vg:placeLet>
+                        <vg:dateLet>Sunday, 14 or Monday, 15 July 1889</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:physDesc>
+                        <vg:decoration>
+                            <vg:decoList xml:id="sketches">
+                                <vg:decoItem n="A" xml:id="sketch-1">
+                                    <vg:decoDesc>
+<p>
+      <hi rend="ital">Three cicadas</hi> (<rs type="sketch" key="211">F 1445 / JH 1765</rs>), enclosed sketch</p>
+                                    </vg:decoDesc>
+                                </vg:decoItem>
+                            </vg:decoList>
+                        </vg:decoration>
+                    </vg:physDesc>
+                    <vg:letContents>
+<p>To Theo van Gogh. Saint-Rémy-de-Provence, Sunday, 14 or Monday, 15 July 1889.</p>
+<note type="ongoingTopic" n="1">
+<p>Jo’s pregnancy <ref target="let786.xml">(786)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b651 V/1962 (sheet 1) and inv. no. d145 V/1971 (sheet 2)</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>As regards our reasons for dating the letter to Sunday, 14 or Monday, 15 July 1889, <ref target="let789.xml">see letter 789</ref>, <hi rend="ital">Date</hi>. Cf. also the <hi rend="ital">Additional details</hi> below.</p>
+                    </note>
+<note type="additionalDetail" xml:id="additionalDetail">
+<p>The present letter, which was enclosed with <ref target="let789.xml">letter 789</ref>, was prompted by Vincent’s decision to write a letter to Gauguin which he wanted Theo to forward (meaning that three letters were sent together). The letter to Gauguin has not survived; see also <ref target="#n-1">n. 1.</ref>
+                        </p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0651" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000888_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000888_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000888_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000888_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0651" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000888_02.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000888_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000888_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000888_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="d 0145" xml:id="surf-pb-2r">
+            <graphic mimeType="image/tiff" url="VGM001001656_01.TIF" rend="norend"/>
+            <zone xml:id="zone-pb-2r-3">
+<graphic mimeType="image/tiff" url="VGM001001656_01_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001656_01_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001656_01_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+        <surface n="d 0145 V/1971" xml:id="surf-extra-2v">
+            <graphic mimeType="image/tiff" url="VGM001001656_02.TIF" rend="norend"/>
+            <zone xml:id="zone-extra-1">
+<graphic mimeType="image/tiff" url="VGM001001656_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001001656_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001001656_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Mon cher Theo,</ab>
+                <lb n="1*" xml:id="l-1s"/>
+<ab>si je t’écris encore une fois aujourd’hui c’est que ci inclus <lb n="2" xml:id="l-2"/>j’ai écrit quelques mots à l’ami Gauguin<c type="kk">/</c>
+                    <anchor n="1" xml:id="note-o-1"/> me sentant le calme revenir <lb n="3" xml:id="l-3"/>de ces derniers jours<c type="kk">/</c> il m’a semblé<c type="kk">/</c> suffisamment pour que ma lettre ne soit pas <lb n="4" xml:id="l-4"/>absolument absurde. d’ailleurs en subtilisant ses scrupules de respect <lb n="5" xml:id="l-5"/>ou de sentiment il n’est pas prouvé qu’on y gagne de la respectuosité <lb n="6" xml:id="l-6"/>ou du bon sens<c type="kp">_</c> Cela étant cela fait du bien de recauser avec <lb n="7" xml:id="l-7"/>les copains<c type="kk">/</c> soit ce à distance<c type="kp">_</c> Et toi – mon brave – comment <lb n="8" xml:id="l-8"/>ça va et écris moi donc quelques mots de ces jours ci – car je <lb n="9" xml:id="l-9"/>m’imagine que les émotions qui doivent remuer le prochain père <lb n="10" xml:id="l-10"/>de famille<c type="kk">/</c> émotions dont notre bon père aimait tant à parler<c type="kk">/</c> <lb n="11" xml:id="l-11"/>doivent chez toi comme chez lui être grandes et de bon aloi <lb n="12" xml:id="l-12"/>mais momentanément te sont peu exprimables dans le <lb n="13" xml:id="l-13"/>mélange un peu incohérent des petites misères parisiennes<c type="kp">_</c> <lb n="14" xml:id="l-14"/>Les réalités de cette sorte ça doit être comme enfin un <lb n="15" xml:id="l-15"/>bon coup de mistral<c type="kk">/</c> peu flatteur mais assainissant<c type="kp">_</c> <lb n="16" xml:id="l-16"/>Moi cela me fait un plaisir bien grand je te l’assure <lb n="17" xml:id="l-17"/>et contribuera beaucoup à me faire sortir de ma fatigue <lb n="18" xml:id="l-18"/>morale et peutetre de ma nonchalance.</ab>
+                <lb n="19" xml:id="l-19"/>
+<ab rend="indent">Enfin il y a de quoi reprendre un peu de gout à la vie quand <lb n="20" xml:id="l-20"/>j’y songe que moi je vais passer à l’état d’oncle de <lb n="21" xml:id="l-21"/>ce garçon projeté par ta femme<c type="kp">_</c> Je trouve cela assez drôle <lb n="22" xml:id="l-22"/>qu’elle se fait si forte que ce soit un garçon mais enfin<c type="kk">/</c> cela se verra.<anchor n="a" xml:id="note-o-a"/>
+                </ab>
+                <lb n="23" xml:id="l-23"/>
+<ab rend="indent">Enfin en attendant je ne peux faire que tripoter un peu <lb n="24" xml:id="l-24"/>dans mes tableaux<c type="kp">_</c> J’en ai un en train d’un lever de lune <lb n="25" xml:id="l-25"/>sur le même champ du croquis dans la lettre de Gauguin <lb n="26" xml:id="l-26"/>mais où des meules remplacent le blé. C’est jaune d’ocre sourd <lb n="27" xml:id="l-27"/>et violet<c type="kp">_</c>
+                    <anchor n="2" xml:id="note-o-2"/> Enfin tu verras dans quelque temps d’ici<c type="kp">_</c>
+                </ab>
+                <lb n="28" xml:id="l-28"/>
+<ab rend="indent">J’en ai aussi un nouveau en train avec du lierre.<anchor n="3" xml:id="note-o-3"/> Surtout <lb n="29" xml:id="l-29"/>mon brave je t’en prie<c type="kk">/</c> ne te fais pas de mauvais sang<c type="kk">/</c> inquiétude <lb n="30" xml:id="l-30"/>ou mélancolie pour moi<c type="kk">/</c> l’idée que tu t’en ferais certes <lb n="31" xml:id="l-31"/>dans cette quarantaine nécessaire et <lb n="32" xml:id="l-32"/>salutaire serait peu motivée alors qu’il nous faut un <lb n="33" xml:id="l-33"/>redressement lent et patient. Cela si nous arrivons à le <lb n="34" xml:id="l-34"/>saisir<c type="kk">/</c> nous epargnons nos forces pour cet hiver. Ici je me figure <lb n="35" xml:id="l-35"/>que l’hiver doit être assez maussade<c type="kk">/</c> enfin faudra chercher à s’occuper <lb n="36" xml:id="l-36"/>pourtant. Je me figure souvent que je pourrais retoucher <lb n="37" xml:id="l-37"/>beaucoup d’études de l’année passée d’Arles cet hiver.</ab>
+                <lb n="38" xml:id="l-38"/>
+<ab rend="indent">Ainsi de ces jours ci ayant encore retenu une grande étude <lb n="39" xml:id="l-39"/>de verger qui avait été fort difficile (c’est le même verger <lb n="40" xml:id="l-40"/>dont tu trouveras une variation<c type="kk">/</c> mais bien vague<c type="kk">/</c> dans l’envoi) <lb n="41" xml:id="l-41"/>je me suis mis à la retravailler de tête et je m’y suis <lb n="42" xml:id="l-42"/>retrouvé pour exprimer mieux l’harmonie des tons<c type="kp">_</c>
+                    <anchor n="4" xml:id="note-o-4"/>
+                </ab>
+                <lb n="43" xml:id="l-43"/>
+<ab rend="indent">Dis moi<c type="kk">/</c> as tu recu des dessins de moi<c type="kp">_</c> Une fois je t’en ai envoyé<c type="kk">/</c> <lb n="44" xml:id="l-44"/>collis postal<c type="kk">/</c> une demi douzaine et puis plus tard une dizaine<c type="kp">_</c>
+                    <anchor n="5" xml:id="note-o-5"/> Si tu <lb n="45" xml:id="l-45"/>ne les as pas reçu par hasard<c type="kk">/</c> cela doit se trouver à la gare depuis des <lb n="46" xml:id="l-46"/>jours et des semaines.</ab>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                <lb n="47" xml:id="l-47"/>
+<ab rend="indent">Le medecin me disait de Monticelli qu’il l’avait toujours <lb n="48" xml:id="l-48"/>consideré comme excentrique mais que pour <hi rend="ital">fou</hi>
+                    <c type="kk">/</c> il l’avait <lb n="49" xml:id="l-49"/>été un peu vers la fin seulement.<anchor n="6" xml:id="note-o-6"/> Considérant toutes les <lb n="50" xml:id="l-50"/>misères des dernières années de M.<c type="kk">/</c> y a-t-il de quoi s’en étonner <lb n="51" xml:id="l-51"/>qu’il ait fléchi sous un poids trop lourd et a-t-on raison lorsque <lb n="52" xml:id="l-52"/>de là on voudrait déduire qu’artistiquement parlant il aie manqué <lb n="53" xml:id="l-53"/>son oeuvre. J’ose croire que non. il y avait du calcul bien <lb n="54" xml:id="l-54"/>logique chez lui et une originalité de peintre qu’il demeure <lb n="55" xml:id="l-55"/>regrettable qu’on n’aie pas pu soutenir de façon à en rendre <lb n="56" xml:id="l-56"/>l’éclosion plus complète.</ab>
+                <lb n="57" xml:id="l-57"/>
+<ab rend="indent">Je t’envoie ci inclus un croquis de cigales d’ici<c type="kp">_</c>
+                    <anchor n="7" xml:id="note-o-7"/>
+                </ab>
+                <lb n="58" xml:id="l-58"/>
+<ab rend="indent">Leur chant dans les grandes chaleurs a pour moi le même <lb n="59" xml:id="l-59"/>charme que le grillon dans le foyer du paysan chez <lb n="60" xml:id="l-60"/>nous. Mon brave – n’oublions pas que les petites émotions sont les <lb n="61" xml:id="l-61"/>grands capitaines de nos vies et qu’à celles là nous y obéissons sans le <lb n="62" xml:id="l-62"/>savoir<c type="kp">_</c> Si reprendre courage sur des fautes commises et à commettre<c type="kk">/</c> <lb n="63" xml:id="l-63"/>ce qui est ma guérison<c type="kk">/</c> m’est encore dur<c type="kk">/</c> n’oublions pas dès lors que soit nos spleens et <lb n="64" xml:id="l-64"/>mélancolies soit nos sentiments de bonhomie et de bon sens ne <lb n="65" xml:id="l-65"/>sont pas nos guides uniques et surtout pas nos gardes définitifs  <lb n="66" xml:id="l-66"/>et que si tu te trouves toi aussi devant de dures responsabilités à risquer sinon <lb n="67" xml:id="l-67"/>à prendre<c type="kk">/</c> ma foi ne nous occupons pas <hi rend="ital">trop</hi> l’un de l’autre alors <lb n="68" xml:id="l-68"/>que fortuitement les circonstances de vivre dans des états de chôses <lb n="69" xml:id="l-69"/>si éloignés de nos conceptions de jeunesse de la vie d’artiste nous <lb n="70" xml:id="l-70"/>rendraient frères quand même comme étant à maint égard compagnons <lb n="71" xml:id="l-71"/>de sort. Les choses se tiennent tellement qu’ici on trouve des cafards <lb n="72" xml:id="l-72"/>dans le manger parfois comme si on était vraiment à Paris<c type="kk">/</c> <lb n="73" xml:id="l-73"/>par contre il se pourrait qu’à Paris tu aies parfois une vraie pensée <lb n="74" xml:id="l-74"/>des champs<c type="kp">_</c> C’est certes pas grand chôse mais enfin c’est rassurant. <lb n="75" xml:id="l-75"/>Prends donc ta paternité comme la prendrait un bonhomme <lb n="76" xml:id="l-76"/>de nos vieilles bruyères<c type="kk">/</c> lesquelles à travers tout bruit<c type="kk">/</c> tumulte<c type="kk">/</c> <lb n="77" xml:id="l-77"/>brouillard<c type="kk">/</c> angoisse des villes<c type="kk">/</c> nous demeurent<c type="kk">/</c> quelque timide <lb n="78" xml:id="l-78"/>que soit notre tendresse<c type="kk">/</c> ineffablement chères. C’est à dire <lb n="79" xml:id="l-79"/>prends la ta paternité dans ta qualité d’exilé et d’étranger <lb n="80" xml:id="l-80"/>et de pauvre<c type="kk">/</c> désormais se <lb n="81" xml:id="l-81"/>basant avec l’instinct du pauvre sur la probabilité d’existence <lb n="82" xml:id="l-82"/>vraie de patrie<c type="kk">/</c> d’existence vraie au moins du souvenir<c type="kk">/</c> alors même <lb n="83" xml:id="l-83"/>que tous les jours nous oubliions<c type="kp">_</c> Tel tôt ou tard nous trouvons notre <lb n="84" xml:id="l-84"/>sort<c type="kp">_</c> Mais certes pour toi comme pour moi il serait un peu <lb n="85" xml:id="l-85"/>hypocrite d’oublier notre bonne humeur<c type="kk">/</c> notre laisser aller confiant <lb n="86" xml:id="l-86"/>de pauvres diables tels que nous allions dans ce Paris, si étrange <lb n="87" xml:id="l-87"/>à présent, tout à fait – et de trop appesantir sur nos soucis.</ab>
+                <lb n="88" xml:id="l-88"/>
+<ab rend="indent">Vrai j’en suis si content de ce que si ici parfois il y a des cafards <lb n="89" xml:id="l-89"/>dans le manger<c type="kk">/</c> chez toi il y a femme et enfant.</ab>
+                <lb n="90" xml:id="l-90"/>
+<ab rend="indent">D’ailleurs c’est rassurant que par exemple Voltaire nous aie laissé <lb n="91" xml:id="l-91"/>libres de croire pas<anchor n="b" xml:id="note-o-b"/> absolument tout de ce que nous nous imaginons. <lb n="92" xml:id="l-92"/>Ainsi tout en partageant les soucis de ta femme sur ta santé je ne vais pas <lb n="93" xml:id="l-93"/>jusqu’à croire ce que momentanément je m’imaginais que des inquiétudes <lb n="94" xml:id="l-94"/>pour moi étaient cause de ton silence à mon égard relativement assez long<c type="kk">/</c>
+                    <anchor n="8" xml:id="note-o-8"/> <lb n="95" xml:id="l-95"/>quoique cela s’explique si bien lorsqu’on y songe combien une grossesse doit nécessairement <lb n="96" xml:id="l-96"/>préoccuper. Mais c’est très bien et c’est le chemin où tout le monde marche <lb n="97" xml:id="l-97"/>dans l’existence. à bientôt et bonne poignée de main à toi et à Jo.</ab>
+<vg:whiteline/>
+                <lb n="98" xml:id="l-98"/>
+<ab>t. à t.</ab>
+                <lb n="99" xml:id="l-99"/>
+<ab>Vincent.</ab>
+<vg:whiteline/>
+                <lb n="100" xml:id="l-100"/>
+      <ab>en hâte mais voulais ne pas tarder à envoyer la lettre pour <lb n="101" xml:id="l-101"/>l’ami Gauguin<c type="kk">/</c> tu dois avoir l’adresse. </ab>
+                <vg:whiteline/>
+<pb f="2r" n="3" xml:id="pb-orig-2r-3" facs="#zone-pb-2r-3"/> <figure facs="zone-sketch-1" n="A"/>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo,</ab>
+<ab>If I’m writing to you again today it’s because I’m enclosing a few words that I’ve written to our friend <rs type="pers" key="1039">Gauguin</rs>,<anchor n="1" xml:id="note-t-1"/> feeling sufficient calm return to me these last few days for my letter not to be absolutely absurd, it seemed to me. Besides, there’s no proof that by over-refining one’s scruples of respect or feeling one thereby gains respectfulness or good sense. That being so, it does me good to talk with the pals again, even if at a distance. And you – my dear fellow – how are things, and so write me a few words one of these days – for I can imagine that the emotions which must move the forthcoming father of a family, emotions of which our good father so loved to speak, must be great and of sterling worth in you, as in him, but for the moment are almost impossible for you to express in the rather incoherent mixture of the petty vexations of Paris. Realities of this sort must anyway be like a good gust of the mistral, not very soothing, but health-giving. As for me, it gives me very great pleasure I can assure you, and will contribute greatly to bringing me out of my moral fatigue and perhaps from my listlessness. </ab>
+<ab rend="indent">Anyway, there’s enough to bring back the taste for life a little when I think that I myself am going to be promoted uncle of this boy planned by your <rs type="pers" key="416">wife</rs>. I find it quite funny that she’s so convinced that it’s a boy, but anyway, we’ll see.</ab>
+<ab rend="indent">Anyway, in the meantime I can do nothing but fiddle with my paintings a little. I have one on the go of a moonrise over the same field as the croquis in the <rs type="pers" key="1039">Gauguin</rs> letter, but in which stacks replace the wheat. It’s dull ochre-yellow and violet.<anchor n="2" xml:id="note-t-2"/> Anyway, you’ll see in a while from now.</ab>
+<ab rend="indent">I also have a new one with ivy on the go.<anchor n="3" xml:id="note-t-3"/> Above all, dear fellow, I beg of you, don’t fret or worry or be melancholy on my account, the idea that you would do so, certainly in this necessary and salutary quarantine, would have little justification when we need a slow and patient recovery. If we manage to grasp that, we spare our forces for this winter. I imagine that winter must be quite dismal here, anyway will however have to try and occupy myself. I often imagine that I could retouch a lot of last year’s studies from Arles this winter.</ab>
+<ab rend="indent">Thus, having kept back these past few days a large study of an orchard which was very difficult (it’s the same orchard of which you’ll find a variation in the consignment, but quite a vague one), I’ve set to reworking it from memory, and have found a way better to express the harmony of the tones.<anchor n="4" xml:id="note-t-4"/> </ab>
+<ab rend="indent">Tell me, have you received any drawings from me? I sent you some once, by parcel post, half a dozen, and then later ten or so.<anchor n="5" xml:id="note-t-5"/> If by chance you haven’t received them, they must have been at the railway station for days and weeks.
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                </ab>
+<ab rend="indent">The <rs type="pers" key="568">doctor</rs> was telling me about <rs type="pers" key="1240">Monticelli</rs>, that he had always considered him eccentric, but as for <hi rend="ital">mad</hi>, he had only been a little that way towards the end.<anchor n="6" xml:id="note-t-6"/> Considering all the miseries of M’s last years, is it any surprise that he bowed beneath a weight that was too heavy, and is one right in trying to deduce from that that he failed in his work, artistically speaking? I dare to believe not. There was some very logical calculation about him, and an originality as a painter, so it remains regrettable that one wasn’t able to sustain it so as to make its blossoming more complete.</ab>
+<ab rend="indent">I enclose a croquis of the cicadas from here.<anchor n="7" xml:id="note-t-7"/>
+                </ab>
+<ab rend="indent">Their song in times of great heat holds the same charm for me as the cricket in the peasant’s hearth at home. My dear fellow – let’s not forget that small emotions are the great captains of our lives, and that these we obey without knowing it. If it’s still hard for me to regain courage over faults committed and to be committed, which would be my recovery, let’s not forget from that moment on that neither our spleens and melancholies nor our feelings of good nature and good sense are our sole guides, and above all not our final custodians, and that if you yourself also find yourself facing hard responsibilities to venture, if not to take, my word let’s not be <hi rend="ital">too</hi> concerned with each other, while it so happens that life’s circumstances in situations so far removed from our youthful conceptions of the life of the artist would render us brothers after all, as being companions in fate in many respects. Things are so closely connected that here one sometimes finds cockroaches in the food as if one were really in Paris, on the other hand it can happen in Paris that you sometimes have a real thought of the fields. It’s certainly not much, but it’s reassuring anyway. So take your fatherhood as a good fellow from our old heaths would take it, those heaths that remain ineffably dear to us through all the noise, tumult, fog, anguish of the towns, however timid our tenderness may be. That’s to say, take your fatherhood there, from your nature as an exile and a foreigner and a poor man, henceforth basing himself with the poor man’s instinct on the probability of the real existence of a native country, of a real existence at least of the memory, even while we’ve forgotten every day. Thus sooner or later we find our fate. But certainly for you, as well as for me, it would be a little hypocritical to forget completely our good humour, the confident sloppiness we had as the poor devils we were as we came and went in that Paris, so strange now – and to place too much weight upon our cares.</ab>
+<ab rend="indent">Truly, I’m so pleased with the fact that if sometimes there are cockroaches in the food here, in your home there is wife and child.</ab>
+<ab rend="indent">Besides, it’s reassuring that <rs type="pers" key="844">Voltaire</rs>, for example, left us free to believe not absolutely all of what we imagine. Thus while sharing your <rs type="pers" key="416">wife</rs>’s concerns about your health I’m not going so far as to believe what momentarily I was imagining, that worries about me were the cause of your relatively rather long silence in respect of me,<anchor n="8" xml:id="note-t-8"/> although this is so well explained when one thinks of how preoccupying a pregnancy must necessarily be. But it’s very good and it’s the path where everyone walks in life. More soon, and good handshake to you and to Jo.</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent.</ab>
+<vg:whiteline/>
+<ab>In haste, but didn’t want to delay sending the letter for our friend <rs type="pers" key="1039">Gauguin</rs>, you must have the address.</ab>
+<vg:whiteline/>
+<ab>
+<pb f="2r" n="3" xml:id="pb-trans-2r-3" facs="#zone-pb-2r-3"/>
+                </ab>
+<ab>
+                    <figure facs="zone-sketch-1" n="A"/>
+                </ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>This letter (with letter sketch) to <rs type="pers" key="1039">Gauguin</rs> is not known. Gauguin thanked Theo around mid-August 1889 for sending it: ‘I am very happy with your kind letter, and your brother’s. He is better, but it’s very relative, because having the strength to fight against his illness he is able to withstand it for a long time and yet to have relapses, like the intermittent fevers that are the hardest to cure. I shall write him a reply to his letter’ (Je suis très heureux de votre bonne lettre et celle de votre frère. Il va mieux mais c’est très relatif car ayant la force de lutter contre sa maladie il peut résister longtemps et avoir pourtant des reprises, comme les fièvres intermittentes les plus dures à guérir. Je vais lui écrire en réponse à sa lettre). See <hi rend="ital">Gauguin lettres</hi> 1983, p. 109. In August 1889, Gauguin wrote to <rs type="pers" key="831">Bernard</rs> about the present letter: ‘Vincent has written to me, and sends you his regards. He’s assessing his state of illness, and I’m very much afraid it will last a long time. He’s still in the hospital’ (Vincent m’a écrit et vous dit bien des choses. Il raisonne son état maladif et j’ai bien peur que cela dure longtemps. Il est toujours à l’hôpital). See <hi rend="ital">Gauguin lettres</hi> 1946, p. 163.</ab>
+                </note>
+<note n="a" xml:id="n-a" target="#note-o-a">
+<ab>Read: ‘on verra’.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>
+      <hi rend="ital">Wheatfield with sheaves and rising moon </hi>(<rs type="ill" key="2820">F 735 / JH 1761</rs>). The sketch in the letter to <rs type="pers" key="1039">Gauguin</rs> was made after the painting <hi rend="ital">Reaper </hi>(<rs type="ill" key="2813">F 617 / JH 1753</rs>).</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>
+      <hi rend="ital">Trees with ivy in the garden of the asylum </hi>(<rs type="ill" key="2821">F 746 / JH 1762</rs>).</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>This ‘large study of an orchard’ which Van Gogh says he kept back (i.e. withheld from the consignment of paintings, <ref target="let789.xml">see letter 789</ref>), was probably <hi rend="ital">Orchard </hi>(<rs type="ill" key="2584">F 511 / JH 1386</rs>). This canvas measures 72.5 x 92 cm. The canvas in the consignment, <hi rend="ital">Orchard in blossom with a view of Arles </hi>(<rs type="ill" key="2780">F 515 / JH 1683</rs>), depicts the same orchard. He calls it a ‘variation ... but quite a vague one’, because it is not a derivative but a free variation on the motif.</ab>
+<ab rend="indent">Pickvance also identified this ‘large study of an orchard’ as F 511, but said that this passage suggests that Van Gogh made a second version of it, F 512. This work, however, is not considered authentic and was not included in the catalogues raisonnés. Moreover, by ‘reworking’ Van Gogh must have meant ‘resume working on’ (namely the same work) and not ‘re-doing’ it in the sense of painting a second version. Cf. exhib. cat. New York 1986, p. 37; incidentally, on p. 296 Pickvance says, incorrectly, that F 511 is the enclosed ‘variation’. Dorn 1990, p. 467, adopts Pickvance’s identification.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>Vincent had sent six drawings around 18 June (<ref target="let782.xml">see letter 782</ref>), and on 2 July another eleven (<ref target="let784.xml">see letter 784</ref>).</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>Before his appointment as medical director of the asylum at Saint-Rémy, <rs type="pers" key="568">Dr Peyron</rs> had worked as an eye doctor in Marseille; he might have known <rs type="pers" key="1240">Monticelli</rs> personally, since the artist lived there. For Monticelli’s last years, <ref target="let603.xml#n-3">see letter 603, n. 3.</ref>
+                    </ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>
+    <hi rend="ital">Three cicadas </hi>(<rs type="sketch" key="211">F 1445 / JH 1765</rs>). Cf. <ref target="let638.xml#n-4">letter 638, n. 4</ref>.</ab>
+                </note>
+<note n="b" xml:id="n-b" target="#note-o-b">
+<ab>Read: ‘ne pas croire’.</ab>
+                </note>
+<note n="8" xml:id="n-8" target="#note-t-8">
+<ab>Theo’s last letter dated from 16 June (<ref target="let781.xml">letter 781</ref>).</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

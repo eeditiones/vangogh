@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Octave Maus. Saint-Rémy-de-Provence, Wednesday, 20 November 1889.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let821"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">821</idno>
+<idno type="collectedletters">614b</idno>
+<idno type="brieven1990">823</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Octave Maus</vg:addressee>
+                        <vg:placeLet>Saint-Rémy-de-Provence</vg:placeLet>
+                        <vg:dateLet>Wednesday, 20 November 1889</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Octave Maus. Saint-Rémy-de-Provence, Wednesday, 20 November 1889.</p>
+<note type="ongoingTopic" n="1">
+<p>Entry for the Les Vingt exhibition in Brussels <ref target="let792.xml">(792)</ref>
+                            </p>
+                        </note>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Brussels, Koninklijk Museum voor Schone Kunsten. Fonds van der Linden. Octave Maus archieven. Inv. no. 5308.</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Letter headed: ‘le 20 Nov. 89 / St Remy en Provence’.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+      <facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <surface n="Sheet number 1 not found." xml:id="surf-pb-1r">
+                  <graphic mimeType="image/tiff" url="821_1r.tif" rend="norend"/>
+                  <graphic mimeType="image/jpeg" url="821_1rt.jpg" height="50px" rend="thumbnail"/>
+                  <zone xml:id="zone-pb-1r-1">
+                        <graphic mimeType="image/tiff" url="821_1rR.tif" rend="norend"/>
+                        <graphic mimeType="image/jpeg" url="821_1rRt.jpg" height="50px" rend="thumbnail"/>
+                        <graphic mimeType="image/png" url="821_1rRf.png" width="380px" rend="facstab"/>
+                  </zone>
+            </surface>
+      </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>le 20 Nov. 89</ab>
+                <lb n="2" xml:id="l-2"/>
+<ab>S<hi rend="ss">t</hi> Remy en Provence</ab>
+<vg:whiteline/>
+                <lb n="3" xml:id="l-3"/>
+<ab>Monsieur,</ab>
+                <lb n="4" xml:id="l-4"/>
+<ab>Avec plaisir j’accepte <lb n="5" xml:id="l-5"/>votre invitation d’exposer avec <lb n="6" xml:id="l-6"/>les Vingtistes<c type="kp">_</c>–<anchor n="1" xml:id="note-o-1"/> Voici la liste <lb n="7" xml:id="l-7"/>des toiles que je vous destine</ab>
+<vg:whiteline/>
+                <lb n="8" xml:id="l-8"/>
+    <ab rend="html" html="821_01_ol.html">N° 1 Tournesols<anchor n="2" xml:id="note-o-2"/>
+                </ab>
+                <lb n="9" xml:id="l-9"/>
+<ab rend="html" html="821_01_ol.html">     2 Tournesols.<anchor n="3" xml:id="note-o-3"/>
+                </ab>
+                <lb n="10" xml:id="l-10"/>
+<ab rend="html" html="821_01_ol.html">     3 Le lierre<anchor n="4" xml:id="note-o-4"/>
+                </ab>
+                <lb n="11" xml:id="l-11"/>
+<ab rend="html" html="821_01_ol.html">     4 Verger en fleur (Arles)<anchor n="5" xml:id="note-o-5"/>
+                </ab>
+                <lb n="12" xml:id="l-12"/>
+<ab rend="html" html="821_01_ol.html">     5 Champ de blé<c type="kp">_</c> Soleil levant (S<hi rend="ss">t</hi> Remy)<anchor n="6" xml:id="note-o-6"/>
+                </ab>
+                <lb n="13" xml:id="l-13"/>
+<ab rend="html" html="821_01_ol.html">     6 La vigne rouge (Mont-Major)<anchor n="7" xml:id="note-o-7"/>
+                </ab>
+                <lb n="14" xml:id="l-14"/>
+<ab>(Toutes ces toiles sont des toiles de 30<c type="kp">_</c>)</ab>
+<vg:whiteline/>
+                <lb n="15" xml:id="l-15"/>
+<ab>Je dépasse peutêtre les 4 mètres de place <lb n="16" xml:id="l-16"/>mais croyant que les 6 ensemble feront <lb n="17" xml:id="l-17"/>ainsi choisi un effet de couleur un peu <lb n="18" xml:id="l-18"/>varié<c type="kk">/</c> peutêtre trouverez vous moyen <lb n="19" xml:id="l-19"/>de les placer.</ab>
+                <lb n="20" xml:id="l-20"/>
+<ab rend="indent">Recevez<c type="kk">/</c> Monsieur<c type="kk">/</c> l’assurance de <lb n="21" xml:id="l-21"/>toute ma sympathie pour les Vingtistes<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="22" xml:id="l-22"/>
+<ab>Vincent van Gogh</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+</div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>20 November 1889</ab>
+<ab>St-Rémy in Provence </ab>
+<vg:whiteline/>
+<ab>
+                    <rs type="pers" key="505">Sir</rs>,</ab>
+<ab>I accept with pleasure your invitation to exhibit with the Vingtistes.<anchor n="1" xml:id="note-t-1"/> Here is the list of canvases I intend for you</ab>
+<vg:whiteline/>
+<ab rend="html" html="821_01_tr.html">No 1 Sunflowers<anchor n="2" xml:id="note-t-2"/>
+                </ab>
+<ab rend="html" html="821_01_tr.html">2 Sunflowers<anchor n="3" xml:id="note-t-3"/>
+                </ab>
+<ab rend="html" html="821_01_tr.html">3 The ivy<anchor n="4" xml:id="note-t-4"/>
+                </ab>
+<ab rend="html" html="821_01_tr.html">4 Orchard in blossom (Arles)<anchor n="5" xml:id="note-t-5"/>
+                </ab>
+<ab rend="html" html="821_01_tr.html">5 Wheatfield. Rising sun (St-Rémy)<anchor n="6" xml:id="note-t-6"/>
+                </ab>
+<ab rend="html" html="821_01_tr.html">6 The red vineyard (Montmajour)<anchor n="7" xml:id="note-t-7"/>
+                </ab>
+<ab> (All these canvases are no. 30 canvases.)</ab>
+<vg:whiteline/>
+<ab>I am perhaps exceeding the 4 metres of room but as I believe that the 6 together, thus chosen, will make a rather varied colour effect, perhaps you will find a way of placing them.</ab>
+<ab rend="indent">Please accept the expression of my entire fellow-feeling for the Vingtistes.</ab>
+<vg:whiteline/>
+<ab>Vincent van Gogh</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>This invitation is <ref target="let818.xml">letter 818</ref>.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>
+      <hi rend="ital">Sunflowers in a vase</hi> (<rs type="ill" key="2704">F 454 / JH 1562</rs>).</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>
+      <hi rend="ital">Sunflowers in a vase</hi> (<rs type="ill" key="2703">F 456 / JH 1561</rs>).</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>
+      <hi rend="ital">Trees with ivy in the garden of the asylum</hi> (<rs type="ill" key="2789">F 609 / JH 1693</rs>).</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>
+      <hi rend="ital">Orchard in blossom with a view of Arles</hi> (<rs type="ill" key="2781">F 516 / JH 1685</rs>).</ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>
+      <hi rend="ital">Wheatfield at sunrise</hi> (<rs type="ill" key="2874">F 737 / JH 1862</rs>).</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>
+      <hi rend="ital">The red vineyard</hi> (<rs type="ill" key="2745">F 495 / JH 1626</rs>).</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

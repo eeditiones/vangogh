@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Willemien van Gogh. Saint-Rémy-de-Provence, Sunday, 16 June 1889.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let780"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">780</idno>
+<idno type="collectedletters">W12</idno>
+<idno type="brieven1990">782</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Willemien van Gogh</vg:addressee>
+                        <vg:placeLet>Saint-Rémy-de-Provence</vg:placeLet>
+                        <vg:dateLet>Sunday, 16 June 1889</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Willemien van Gogh. Saint-Rémy-de-Provence, Sunday, 16 June 1889.</p>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b712 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Van Gogh wrote this letter on a Sunday morning (<ref target="#l-1*">ll. 1*-2</ref>). He says that he received the paint and canvas ‘last week’ <ref target="#l-90">(l. 90)</ref> for which he thanked Theo in <ref target="let779.xml">letter 779</ref> of Sunday 9 June. That it cannot be the same Sunday is evident from the descriptions of the works in the two letters: in the letter to Theo, Vincent does not say anything about the painting of the olive grove that he mentions in the present letter (<ref target="#l-18">l. 18</ref> ff.). We have therefore dated the letter to Sunday, 16 June 1889.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0712" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000967_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000967_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000967_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000967_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000967_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000967_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic mimeType="image/tiff" url="VGM001000967_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000967_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000967_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0712" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000967_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000967_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000967_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+      <graphic mimeType="image/tiff" url="VGM001000967_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000967_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000967_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+            <zone xml:id="zone-pb-1v-3">
+            <graphic mimeType="image/tiff" url="VGM001000967_02_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000967_02_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000967_02_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Ma chère soeur,</ab>
+                <lb n="1*" xml:id="l-1s"/>
+<ab>Si je ne t’ecrivais pas vite ce matin <lb n="2" xml:id="l-2"/>de dimanche pendant que des toiles commencées <lb n="3" xml:id="l-3"/>sèchent un peu au soleil<c type="kk">/</c> j’attendrais encore plus <lb n="4" xml:id="l-4"/>longtemps pour répondre à ta bonne lettre.</ab>
+                <lb n="5" xml:id="l-5"/>
+<ab rend="indent">J’espère que tu vas bien et la mère aussi<c type="kk">/</c> bien souvent <lb n="6" xml:id="l-6"/>je pense à vous deux, j’ai peu pu prevoir<c type="kk">/</c> alors que <lb n="7" xml:id="l-7"/>de Nunen je suis allé à Anvers<c type="kk">/</c> que le courant des <lb n="8" xml:id="l-8"/>choses m’eloignerait pour si longtemps et si loin<c type="kp">_</c> <lb n="9" xml:id="l-9"/>C’est peutêtre pourquoi mes pensées vont involontairement <lb n="10" xml:id="l-10"/>souvent encore de ce côté-là et me semble t il <lb n="11" xml:id="l-11"/>continuer alors le même travail laissé inachevé là-bas <lb n="12" xml:id="l-12"/>quand tant de chôses dans la nature demeurent <lb n="13" xml:id="l-13"/>paralèles. Quoique je sens avec une ingratitude <lb n="14" xml:id="l-14"/>obstinée revenir peu à peu la santé<c type="kk">/</c> le fait est <lb n="15" xml:id="l-15"/>que je me porte bien; mais ainsi que je te le dis<c type="kk">/</c> <lb n="16" xml:id="l-16"/>l’envie de recommencer<c type="kk">/</c> la joie de vivre n’est guère <lb n="17" xml:id="l-17"/>grande.</ab>
+                <lb n="18" xml:id="l-18"/>
+<ab rend="indent">Je viens de terminer un paysage qui représente <lb n="19" xml:id="l-19"/>un verger d’oliviers à la verdure grise comme <lb n="20" xml:id="l-20"/>à peu près celles des saules<c type="kk">/</c> leur ombres portées <lb n="21" xml:id="l-21"/>violettes sur le sable ensoleillé<c type="kp">_</c>
+                    <anchor n="1" xml:id="note-o-1"/> Puis encore <lb n="22" xml:id="l-22"/>un autre qui représente un champ de <lb n="23" xml:id="l-23"/>blé jaunissant encaissé dans des ronces <lb n="24" xml:id="l-24"/>et des buissons verts<c type="kp">_</c> Au bout du champ une <lb n="25" xml:id="l-25"/>maisonette rose avec un haut et sombre cyprès <lb n="26" xml:id="l-26"/>qui se détache sur les lointaines collines violacées <lb n="27" xml:id="l-27"/>et bleuies, et sur un ciel bleu myosotys strié <lb n="28" xml:id="l-28"/>de rose 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                    <lb n="29" xml:id="l-29"/>dont les tons purs contrastent avec les épis <lb n="30" xml:id="l-30"/>hâlés déjà lourds aux tons chauds comme <lb n="31" xml:id="l-31"/>une crôute de pain.<anchor n="2" xml:id="note-o-2"/>
+                </ab>
+                <lb n="32" xml:id="l-32"/>
+<ab rend="indent">J’en ai encore un autre où un champ de <lb n="33" xml:id="l-33"/>blé sur le versant de collines est tout ravagé et flanqué par terre par <lb n="34" xml:id="l-34"/>une ondée et ruisselle de l’averse.<anchor n="3" xml:id="note-o-3"/>
+                </ab>
+                <lb n="35" xml:id="l-35"/>
+<ab rend="indent">Il me semble que les gens d’ici travaillent bien moins <lb n="36" xml:id="l-36"/>que les paysans chez nous<c type="kk">/</c> du bétail on n’en voit <lb n="37" xml:id="l-37"/>guère et presque toujours la campagne a l’air <lb n="38" xml:id="l-38"/>déserte davantage que chez nous<c type="kp">_</c> Cela me parait <lb n="39" xml:id="l-39"/>fort déplorable<c type="kk">/</c> à plus forte raison puisque la <lb n="40" xml:id="l-40"/>nature n’est pas ingrate et l’air si pur et si sain<c type="kp">_</c> <lb n="41" xml:id="l-41"/>On voudrait donc voir ici une race de gens <lb n="42" xml:id="l-42"/>plus énergique. Les cas ne sont peutêtre pas rares ici <lb n="43" xml:id="l-43"/>où ne rien faire devient mal faire. N’y a-t-il pas <lb n="44" xml:id="l-44"/>dans le nord des tas de braves ouvriers sans pain suffisant <lb n="45" xml:id="l-45"/>parceque là on travaille tant que le travail n’est plus estimé<c type="kp">_</c> <lb n="46" xml:id="l-46"/>Je ne dis pas que cela soit toujours le cas mais enfin il y a <lb n="47" xml:id="l-47"/>pourtant quelque chôse de ce genre. Eh bien ici les fermes <lb n="48" xml:id="l-48"/>pourraient rendre le triple qu’ils ne font si c’était bien <lb n="49" xml:id="l-49"/>tenu et les terrains si on y mettait de l’engrais. En rendant <lb n="50" xml:id="l-50"/>le triple le pays d’ici pourrait donc nourrir bien <lb n="51" xml:id="l-51"/>davantage de gens.</ab>
+                <lb n="52" xml:id="l-52"/>
+<ab rend="indent">Maintenant je crois que tu m’as demandé <lb n="53" xml:id="l-53"/>si, supposition toutefois que l’amour soit un baccille<c type="kk">/</c>
+                    <anchor n="4" xml:id="note-o-4"/> ce <lb n="54" xml:id="l-54"/>que moi suis pas à même d’affirmer ou de prouver<c type="kk">/</c> veuillez <lb n="55" xml:id="l-55"/>ne pas perdre cela de vue, je crois que tu m’as demandé 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+                    <lb n="56" xml:id="l-56"/>s’il existait des personnes qui auraient ledit <lb n="57" xml:id="l-57"/>baccille et d’autres qui ne l’auraient pas <lb n="58" xml:id="l-58"/>ou bien si au contraire c’etait un mal fatal et <lb n="59" xml:id="l-59"/>universel. Là encore je suis passablement <lb n="60" xml:id="l-60"/>incompétent de me faire une opinion <lb n="61" xml:id="l-61"/>arrêtée nettement. Mais j’estime probable <lb n="62" xml:id="l-62"/>que si une personne, mettons toi-même<c type="kk">/</c> <lb n="63" xml:id="l-63"/>était dans la conviction de ne pas l’avoir<c type="kk">/</c> <lb n="64" xml:id="l-64"/>il serait peutêtre sage pour telle personne <lb n="65" xml:id="l-65"/>de s’innoculer ledit baccille selon la <lb n="66" xml:id="l-66"/>méthode Pasteur<anchor n="5" xml:id="note-o-5"/> ou autre. Sans blague <lb n="67" xml:id="l-67"/>je crois qu’il <hi rend="ital">faut</hi> être amoureux ou amoureuse <lb n="68" xml:id="l-68"/>de quelque chôse fatalement et que la <lb n="69" xml:id="l-69"/>seule précaution qu’on puisse prendre <lb n="70" xml:id="l-70"/>serait de le devenir de tel caractere et non <lb n="71" xml:id="l-71"/>pas de tel autre<c type="kk">/</c> selon son idée.</ab>
+                <lb n="72" xml:id="l-72"/>
+<ab rend="indent">Et savoir ce qu’on veut là-dedans – hélas nous <lb n="73" xml:id="l-73"/>nous connaissons si peu nous-mêmes.–</ab>
+                <lb n="74" xml:id="l-74"/>
+<ab rend="indent">D’ailleurs je croirais presque que les femmes dans <lb n="75" xml:id="l-75"/>ces chôses-là prennent l’offensive; que les sages <lb n="76" xml:id="l-76"/>entre elles ou plutôt celles qui aient l’instinct <lb n="77" xml:id="l-77"/>le plus juste et sûr n’attendent pas qu’elles soient aimées <lb n="78" xml:id="l-78"/>pour aimer elles mêmes – ce qui – et je suis porté <lb n="79" xml:id="l-79"/>à croire, pour de bonnes raisons – leur paraitrait <lb n="80" xml:id="l-80"/>la chôse essentielle.</ab>
+                <lb n="81" xml:id="l-81"/>
+<ab rend="indent">Enfin il se pourrait fort bien qu’en s’innoculant le <lb n="82" xml:id="l-82"/>baccille atténué, du virus bien choisi à dose juste<c type="kk">/</c> <lb n="83" xml:id="l-83"/>on serait davantage à l’abri de la contagion<c type="kp">_</c> <lb n="84" xml:id="l-84"/>Si on n’a pas encore le mal on n’empêche pas <lb n="85" xml:id="l-85"/>qu’on puisse le prendre tandis que lorsque l’on l’a <lb n="86" xml:id="l-86"/>on ne peut plus l’attraper.</ab>
+                <lb n="87" xml:id="l-87"/>
+<ab rend="indent">Je suis assez curieux d’avoir quelques nouvelles <lb n="88" xml:id="l-88"/>de Theo qui parait passablement absorbé dans <lb n="89" xml:id="l-89"/>sa lune de miel ce qui est fort bien<c type="kp">_</c> il m’a <lb n="90" xml:id="l-90"/>envoyé des couleurs et de la toile la semaine <lb n="91" xml:id="l-91"/>dernière mais depuis bientôt un mois je suis <lb n="92" xml:id="l-92"/>sans ses nouvelles par lettre.<anchor n="6" xml:id="note-o-6"/>
+                </ab>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+                <lb n="93" xml:id="l-93"/>
+<ab rend="indent">C’est pour moi une grande consolation de <lb n="94" xml:id="l-94"/>savoir qu’il ne vit plus seul. Sa femme <lb n="95" xml:id="l-95"/>m’a écrit il y a quelque temps une lettre très bien <lb n="96" xml:id="l-96"/>qui me prouvait qu’elle est bien serieuse.<anchor n="7" xml:id="note-o-7"/> Elle aura <lb n="97" xml:id="l-97"/>encore bien et longtemps besoin de cela car la vie <lb n="98" xml:id="l-98"/>de Theo est assez compliquée à cause de son devoir <lb n="99" xml:id="l-99"/>avec les Boussod &amp; C°<c type="kp">_</c> Et pour elle elle apprendra <lb n="100" xml:id="l-100"/>davantage à vivre avec lui que sans lui<c type="kk">/</c> sans être <lb n="101" xml:id="l-101"/>obligée de trop changer et d’oublier ce qu’elle sait déjà des <lb n="102" xml:id="l-102"/>chôses hollandaises.</ab>
+                <lb n="103" xml:id="l-103"/>
+<ab rend="indent">Je m’en vais encore un peu travailler donc je te <lb n="104" xml:id="l-104"/>souhaite en terminant toute prosperité et santé <lb n="105" xml:id="l-105"/>à toi comme à la mère. Je t’enbrasse bien en <lb n="106" xml:id="l-106"/>pensée<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="107" xml:id="l-107"/>
+<ab>t.à.t.</ab>
+                <lb n="108" xml:id="l-108"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-84" n="84">on n’empêche &lt; n’empêche</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear <rs type="pers" key="407">sister</rs>,</ab>
+<ab>If I didn’t write to you quickly this Sunday morning while the canvases I’ve begun are drying a little in the sun, I would wait even longer to answer your kind letter.</ab>
+<ab rend="indent">I hope that you’re well, and <rs type="pers" key="524">Mother</rs> too, I think of you two very often, I was scarcely able to foresee, when I went from Nuenen to Antwerp, that the course of events would keep me away for so long and at such a distance. That’s perhaps why my thoughts often still stray involuntarily to those parts, and it seems to me then that I’m continuing the same work left unfinished there, when so many things in nature remain parallel. Although I feel with an obstinate ingratitude that my health is returning little by little, the fact is that I am well; but as I tell you, the desire to begin again, the joy of living, is hardly great.</ab>
+<ab rend="indent">I’ve just finished a landscape of an olive grove with grey foliage more or less like that of the willows, their cast shadows violet on the sun-drenched sand.<anchor n="1" xml:id="note-t-1"/> Then yet another that depicts a field of yellowing wheat surrounded by brambles and green bushes. At the end of the field a little pink house with a tall and dark cypress tree that stands out against the distant purplish and bluish hills, and against a forget-me-not blue sky streaked with pink 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> whose pure tones contrast with the already heavy, scorched ears, whose tones are as warm as the crust of a loaf of bread.<anchor n="2" xml:id="note-t-2"/>
+                </ab>
+<ab rend="indent">I have yet another in which a field of wheat on the slope of the hills is completely ravaged and knocked to the ground by a downpour, and which is drenched by the torrential shower.<anchor n="3" xml:id="note-t-3"/>
+                </ab>
+<ab rend="indent">It seems to me that the people here work a lot less than the peasants in our country, one scarcely sees any cattle, and the countryside almost always has more of a deserted look than it does at home. This seems most deplorable to me, all the more so since nature isn’t ungenerous and the air is so pure and so healthy. So one would wish to see a more energetic race of people here. The cases aren’t perhaps rare here where doing nothing becomes doing bad. In the north, aren’t there heaps of honest workmen without enough bread because there one works so much that work is no longer valued? I don’t say that this is always the case, but anyway there’s something of that kind however. Ah well, the farms here could produce three times what they do if they were well-kept, and the whole land if it was manured. By producing three times as much, the land here could thus feed a lot more people.</ab>
+<ab rend="indent">Now I think you asked me if, still supposing that love is a bacillus<anchor n="4" xml:id="note-t-4"/> (which I myself am not in a position to state or prove, please don’t lose sight of that), I think that you asked me 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> if there are people who would have the said bacillus and others who wouldn’t have it, or if on the contrary it was a fatal and universal illness. On that point, too, I’m rather unqualified to form a clearly well-founded opinion. But I consider it probable that if a person, yourself say, is convinced she didn’t have it, it would perhaps be wise for such a person to have herself inoculated with the said bacillus according to the <rs type="pers" key="564">Pasteur</rs>
+                    <anchor n="5" xml:id="note-t-5"/> or some other method. Joking apart, I believe that a man or woman inevitably <hi rend="ital">has to be</hi> in love with something, and that the only precaution one can take would be to fall in love in such and such a way and not in another one, according to one’s ideas.</ab>
+<ab rend="indent">And to know what one wants in such matters – alas we know ourselves so little.</ab>
+<ab rend="indent">Besides, I’d almost think that women take the offensive in these matters; that the wise ones among them, or rather those who have the most correct and sure instinct, don’t wait to be loved in order to love themselves – which – and I’m inclined to believe for good reasons – would appear to be the essential thing to them.</ab>
+<ab rend="indent">Anyway, it could very well be that by being inoculated with the attenuated bacillus, of the well-chosen virus and in the correct dose, one would be better protected from contagion. If one doesn’t yet have the illness one doesn’t prevent oneself perhaps getting it, while when one has it one can no longer catch it.</ab>
+<ab rend="indent">I’m quite curious to have some news of Theo, who appears pretty absorbed in his honeymoon, which is very good. He sent me some colours and canvas last week, but it will soon be a month since I had news of him by letter.<anchor n="6" xml:id="note-t-6"/>
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/>
+                </ab>
+<ab rend="indent">It’s a great consolation for me to know that he no longer lives alone. His <rs type="pers" key="416">wife</rs> wrote me a very nice letter a while ago, which proved to me that she’s really serious.<anchor n="7" xml:id="note-t-7"/> She’ll certainly still need this, and for a long time to come, for Theo’s life is quite complicated because of his duty towards <rs type="pers" key="797">Boussod &amp; Co</rs>. And as for her, she’ll learn more to live with him than without him, without being obliged to change too much and forget what she already knows of Dutch things.</ab>
+<ab rend="indent">I’m going off to work a little more, so as I finish I wish you and <rs type="pers" key="524">Mother</rs> all good fortune and health. I kiss you affectionately in thought.</ab>
+<vg:whiteline/>
+<ab>Ever yours,</ab>
+<ab>Vincent</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+      <ab>This was probably <hi rend="ital">Olive grove </hi>(<rs type="ill" key="3067">F 714 / JH 1858</rs>). <hi rend="ital">Olive trees with the Alpilles in the background </hi>(<rs type="ill" key="2803">F 712 / JH 1740</rs>) is also a possibility, but in that case it is likely that Van Gogh would have included the cloud and the hills in his description, as he later did in <ref target="let805.xml">letter 805</ref>. The canvas described here was probably the <hi rend="ital">Olive grove</hi> which Van Gogh sent to Theo a month later, which was smaller than a no. 30 canvas (<ref target="let789.xml">see letter 789</ref>). This rules out <hi rend="ital">Olive grove</hi> (<rs type="ill" key="2819">F 715 / JH 1759</rs>). </ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>
+      <hi rend="ital">Wheatfield </hi>(<rs type="ill" key="2798">F 719 / JH 1725</rs>).</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>
+      <hi rend="ital">Wheatfield after a storm </hi>(<rs type="ill" key="2796">F 611/ JH 1723</rs>).</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>In <ref target="let764.xml">letter 764</ref> to <rs type="pers" key="407">Willemien</rs>, Vincent had compared love to a microbe.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>The French chemist and bacteriologist <rs type="pers" key="564">Louis Pasteur</rs> demonstrated that some infectious diseases are caused by bacteria. Cf. also <ref target="let638.xml#n-10">letter 638, n. 10.</ref>
+                    </ab>
+                </note>
+<note n="6" xml:id="n-6" target="#note-t-6">
+<ab>Theo had last written on 21 May; <ref target="let774.xml">see letter 774</ref>. His recent marriage, as well as his weak health, no doubt prevented him from writing. On 7 June 1889, <rs type="pers" key="416">Jo van Gogh-Bonger</rs> had written to <rs type="pers" key="524">Mrs van Gogh</rs>: ‘Theo has gone, because I <hi rend="ital">so desired</hi> it, to see <rs type="pers" key="640">Dr Rivet</rs>, because he did not look good’ (FR b943).</ab>
+                </note>
+<note n="7" xml:id="n-7" target="#note-t-7">
+<ab>This was <ref target="let771.xml">letter 771</ref>.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

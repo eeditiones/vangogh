@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Arles, Tuesday, 21 February 1888.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let577"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">577</idno>
+<idno type="collectedletters">463</idno>
+<idno type="brieven1990">579</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Arles</vg:placeLet>
+                        <vg:dateLet>Tuesday, 21 February 1888</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. Arles, Tuesday, 21 February 1888.</p>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b503 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Van Gogh arrived in Arles on Monday, 20 February (<ref target="#n-1">see n. 1</ref>). From <ref target="#l-40">ll. 40-45</ref> we can deduce that that the letter was written the next day. We have therefore dated the letter Tuesday, 21 February 1888. Jo van Gogh-Bonger also gave this date in <hi rend="ital">Brieven </hi>1914 – she may have had a postmark to go on.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0503" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000679_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000679_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000679_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000679_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000679_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000679_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+<surface n="b 0503" xml:id="surf-pb-1v">
+            <graphic mimeType="image/tiff" url="VGM001000679_02.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000679_02_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000679_02_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1v-2">
+<graphic mimeType="image/tiff" url="VGM001000679_02_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000679_02_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000679_02_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>Mon cher Theo, </ab>
+                <lb n="2" xml:id="l-2"/>
+                <ab>Durant le voyage j’ai <lb n="3" xml:id="l-3"/>pour le moins autant pensé à toi qu’au <lb n="4" xml:id="l-4"/>nouveau pays que je voyais.<anchor n="1" xml:id="note-o-1"/> </ab>
+                <lb n="5" xml:id="l-5"/>
+<ab rend="indent">Seulement je me dis que plus tard <lb n="6" xml:id="l-6"/>tu viendras peutêtre toi-meme <lb n="7" xml:id="l-7"/>souvent ici. Il me semble presque <lb n="8" xml:id="l-8"/>impossible de pouvoir travailler à Paris <lb n="9" xml:id="l-9"/>à moins que l’on n’aie une retraite pour <lb n="10" xml:id="l-10"/>se refaire et pour reprendre son calme <lb n="11" xml:id="l-11"/>et son aplomb. Sans cela on <lb n="12" xml:id="l-12"/>serait fatalement abruti<c type="kp">_</c>
+                </ab>
+                <lb n="13" xml:id="l-13"/>
+<ab rend="indent">Maintenant je te dirai que pour <lb n="14" xml:id="l-14"/>commencer il y a partout au moins 60 <lb n="15" xml:id="l-15"/>centimetres de neige de tombée et il en <lb n="16" xml:id="l-16"/>tombe toujours<c type="kp">_</c>
+                </ab>
+                <lb n="17" xml:id="l-17"/>
+<ab rend="indent">Arles ne me semble pas plus grand que <lb n="18" xml:id="l-18"/>Breda ou Mons<c type="kp">_</c>
+                    <anchor n="2" xml:id="note-o-2"/>
+                </ab>
+                <lb n="19" xml:id="l-19"/>
+<ab rend="indent">Avant d’arriver à Tarascon<anchor n="3" xml:id="note-o-3"/> j’ai remarqué <lb n="20" xml:id="l-20"/>un magnifique paysage – d’immenses <lb n="21" xml:id="l-21"/>rochers jaunes étrangement enchevêtrées<c type="kk">/</c> <lb n="22" xml:id="l-22"/>des formes les plus imposantes<c type="kp">_</c>
+                </ab>
+                <lb n="23" xml:id="l-23"/>
+<ab rend="indent">Dans les petits vallons de ces rochers étaient 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+                    <lb n="24" xml:id="l-24"/>allignés de petits arbres ronds au feuillage <lb n="25" xml:id="l-25"/>d’un vert olive ou vert gris qui pourraient <lb n="26" xml:id="l-26"/>bien être des citronniers<c type="kp">_</c>
+                </ab>
+                <lb n="27" xml:id="l-27"/>
+<ab rend="indent">Mais ici à Arles le pays parait plat<c type="kp">_</c>
+                </ab>
+                <lb n="28" xml:id="l-28"/>
+<ab rend="indent">J’ai aperçu de magnifiques terrains <lb n="29" xml:id="l-29"/>rouges plantés de vignes avec des <lb n="30" xml:id="l-30"/>fonds de montagnes du plus fin lilas<c type="kp">_</c> <lb n="31" xml:id="l-31"/>Et les paysages sous la neige avec <lb n="32" xml:id="l-32"/>les cimes blanches contre un ciel aussi <lb n="33" xml:id="l-33"/>lumineux que la neige étaient bien <lb n="34" xml:id="l-34"/>comme les paysages d’hiver qu’ont <lb n="35" xml:id="l-35"/>fait les japonnais<c type="kp">_</c>
+                </ab>
+                <lb n="36" xml:id="l-36"/>
+<ab rend="indent">Voici mon adresse</ab>
+<vg:whiteline/>
+                <lb n="37" xml:id="l-37"/>
+<ab>Restaurant Carrel</ab>
+                <lb n="38" xml:id="l-38"/>
+<ab>30 Rue Cavalerie</ab>
+                <lb n="39" xml:id="l-39"/>
+<ab>Arles<anchor n="4" xml:id="note-o-4"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="40" xml:id="l-40"/>
+<ab>Je n’ai encore fait qu’un petit <lb n="41" xml:id="l-41"/>tour dans la ville etant plus ou <lb n="42" xml:id="l-42"/>moins esquinté hier soir<c type="kp">_</c>
+                </ab>
+                <lb n="43" xml:id="l-43"/>
+<ab rend="indent">t’écrirai bientôt – un antiquaire <lb n="44" xml:id="l-44"/>où j’entrais hier dans la meme rue ici <lb n="45" xml:id="l-45"/>me disait connaitre un Monticelli<c type="kp">_</c>
+                    <anchor n="5" xml:id="note-o-5"/>
+                </ab>
+                <lb n="46" xml:id="l-46"/>
+<ab rend="indent">Avec une bonne poignée à toi et <lb n="47" xml:id="l-47"/>aux copains<c type="kp">_</c>
+                </ab>
+<vg:whiteline/>
+                <lb n="48" xml:id="l-48"/>
+<ab>b<c type="kp">_</c> à t<c type="kp">_</c>
+                </ab>
+                <lb n="49" xml:id="l-49"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>My dear Theo,</ab>
+<ab>During the journey I thought at least as much about you as about the new country I was seeing.<anchor n="1" xml:id="note-t-1"/>
+                </ab>
+<ab rend="indent">But I tell myself that you’ll perhaps come here often yourself later on. It seems to me almost impossible to be able to work in Paris, unless you have a refuge in which to recover and regain your peace of mind and self-composure. Without that, you’d be bound to get utterly numbed.</ab>
+<ab rend="indent">Now I’ll tell you that for a start, there’s been a snowfall of at least 60 centimetres all over, and it’s still snowing.</ab>
+<ab rend="indent">Arles doesn’t seem any bigger than Breda or Mons to me.<anchor n="2" xml:id="note-t-2"/> </ab>
+<ab rend="indent">Before reaching Tarascon<anchor n="3" xml:id="note-t-3"/> I noticed some magnificent scenery — huge yellow rocks, oddly jumbled together, with the most imposing shapes.</ab>
+<ab rend="indent">In the small valleys between these rocks there were 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> rows of little round trees with olive-green or grey-green foliage, which could well be lemon trees.</ab>
+<ab rend="indent">But here in Arles the land seems flat.</ab>
+                <ab rend="indent"> I noticed some magnificent plots of red earth planted with vines, with mountains in the background of the most delicate lilac. And the landscape under the snow with the white peaks against a sky as bright as the snow was just like the winter landscapes the Japanese did.</ab>
+<ab rend="indent">Here’s my address</ab>
+<vg:whiteline/>
+<ab>Restaurant Carrel</ab>
+<ab>30 rue Cavalerie</ab>
+<ab>Arles<anchor n="4" xml:id="note-t-4"/>
+                </ab>
+<vg:whiteline/>
+<ab>So far I’ve taken no more than a little walk round the town, as I was more or less completely done in last night.</ab>
+<ab rend="indent">I’ll write to you soon — an antique dealer whose shop I went into yesterday in this very street was telling me he knew of a <rs type="pers" key="1240">Monticelli</rs>.<anchor n="5" xml:id="note-t-5"/>
+                </ab>
+<ab rend="indent">With a good handshake to you and the pals.</ab>
+<vg:whiteline/>
+<ab>Yours truly,</ab>
+<ab>Vincent</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>In a letter written to his sister <rs type="pers" key="407">Willemien</rs> on 24 and 26 February 1888, Theo reported that Vincent left for Arles in the south of France ‘last Sunday’; this was therefore Sunday, 19 February. Since Theo also wrote that the journey would take a ‘day and night’, Vincent must have reached Arles on Monday, 20 February (FR b914). In his letter Theo explained Vincent’s motives for going to Arles: he was looking for lighter colours than he could find in the north, and he wanted to recover his physical strength. The stay in Arles was originally intended to be temporary, and Van Gogh was planning to go on to Marseille later. (<ref target="documentation.xml#2426February1888">See <hi rend="ital">Documentation</hi>, 24 and 26 February 1888</ref>). </ab>
+                </note>
+    <note n="2" xml:id="n-2" target="#note-t-2">
+        <ab>The provincial town of Breda in Brabant had around 22,000 inhabitants at that time; the mining town of Mons in the Borinage had some 25,500. The commune of Arles, including the surrounding villages, had 23,500 inhabitants in 1888 (<hi rend="ital">ACA</hi>). The town itself had a population of about 13,300 in 1888. See Murphy 2016, pp. 38, 265 (n. 10).</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>Van Gogh took the express train from Paris to Marseille (the ‘Paris-Lyon-Méditerranée’) that left at 9.40 p.m. on Sunday 19 February and arrived in Arles at 4.49 p.m. the following day. The train passed through Tarascon, a small town about 20 km to the north of Arles. See Murphy 2016, pp. 25, 36, 263 (n. 33), 264 (n. 3).</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>Between the end of February and early May Van Gogh rented a room from <rs type="pers" key="42">Albert Carrel</rs> and <rs type="pers" key="43">Cathérine Carrel-Garcin</rs>. Hotel-Restaurant Carrel was at 30 rue Amédée-Pichot, in the northern part of the town.  This section of the street was known as rue de la Cavalerie until 1887; Van Gogh was therefore using the old address. The hotel was a ‘two-storey house, small terrace on top and balcony on the first floor’ (maison à deux étages, petite terrasse au-dessus et balcon au premier). See Coquiot 1923, p. 161. In the official deeds the name is spelled ‘Carel’ (<hi rend="ital">ACA </hi>and <hi rend="ital">L’indicateur marseillais </hi>1888<hi rend="ital">)</hi>.</ab>
+                </note>
+<note n="5" xml:id="n-5" target="#note-t-5">
+<ab>Van Gogh wrote that the antique dealer had his premises ‘in this very street’; however the address books do not record any in rue Amédée-Pichot or rue de la Cavalerie. The closest antique dealer was Berthet, 5 rue de la Sous-Préfecture, just off rue Amédée-Pichot. </ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

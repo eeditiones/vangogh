@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last Changed Date: 2018-07-18 12:32:41 +0200 (Wed, 18 Jul 2018) | SVN Revision: 2206 --><!--Licensed under Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)--><?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+<teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+<titleStmt>
+<title>To Theo van Gogh. Paris, on or about Monday, 24 January 1876.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor>
+            </titleStmt>
+<publicationStmt>
+<publisher>
+                    <name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name>
+                    <email>info@huygens.knaw.nl</email>
+                </publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p>
+                    </licence>
+                </availability>
+<ptr target="http://vangoghletters.org/orig/let067"/>
+            </publicationStmt>
+            <sourceDesc>
+                <vg:letDesc>
+                    <vg:letIdentifier>
+<idno type="jlb">067</idno>
+<idno type="collectedletters">52</idno>
+<idno type="brieven1990">066</idno>
+                    </vg:letIdentifier>
+                    <vg:letHeading>
+                        <author>Vincent van Gogh</author>
+                        <vg:addressee>Theo van Gogh</vg:addressee>
+                        <vg:placeLet>Paris</vg:placeLet>
+                        <vg:dateLet>on or about Monday, 24 January 1876</vg:dateLet>
+                    </vg:letHeading>
+                    <vg:letContents>
+<p>To Theo van Gogh. Paris, on or about Monday, 24 January 1876.</p>
+                    </vg:letContents>
+<note type="sourceStatus" xml:id="sourceStatus">
+<p>Original manuscript</p>
+                    </note>
+<note type="location" xml:id="location">
+<p>Amsterdam, Van Gogh Museum, inv. no. b65 V/1962</p>
+                    </note>
+<note type="date" xml:id="date">
+<p>Van Gogh’s statement that Gladwell’s move will probably take place ‘soon now, probably at the end of this month’ <ref target="#l-38">(l. 38)</ref> means that this letter must have been written shortly before the end of January 1876. Regarding our dating of this letter, see also <ref target="let066.xml">letter 66</ref>, <hi rend="ital">Date</hi>.</p>
+                    </note>
+                </vg:letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<surface n="b 0065" xml:id="surf-pb-1r">
+            <graphic mimeType="image/tiff" url="VGM001000068_01.TIF" rend="norend"/>
+            <graphic mimeType="image/tiff" url="VGM001000068_01_n.tif" rend="norend"/>
+            <graphic mimeType="image/jpeg" url="VGM001000068_01_nt.jpg" height="50px" rend="thumbnail"/>
+            <zone xml:id="zone-pb-1r-1">
+<graphic mimeType="image/tiff" url="VGM001000068_01_nL.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000068_01_nLt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000068_01_nLf.png" width="380px" rend="facstab"/>
+            </zone>
+<zone xml:id="zone-pb-1r-2">
+<graphic mimeType="image/tiff" url="VGM001000068_01_nR.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000068_01_nRt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000068_01_nRf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+        <surface n="b 0065 V/1962" xml:id="surf-extra-1v">
+            <graphic mimeType="image/tiff" url="VGM001000068_02.TIF" rend="norend"/>
+            <zone xml:id="zone-extra-1">
+<graphic mimeType="image/tiff" url="VGM001000068_02_n.tif" rend="norend"/>
+                <graphic mimeType="image/jpeg" url="VGM001000068_02_nt.jpg" height="50px" rend="thumbnail"/>
+                <graphic mimeType="image/png" url="VGM001000068_02_nf.png" width="380px" rend="facstab"/>
+            </zone>
+</surface>
+    </facsimile>
+    <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <body>
+<div type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+                <lb n="1" xml:id="l-1"/>
+<ab>
+                    <vg:suppliedMilestone type="open"/>Goupil &amp; C<hi rend="ss">ie</hi>
+                </ab>
+                <lb n="2" xml:id="l-2"/>
+<ab>Editeurs Imprimeurs</ab>
+                <lb n="3" xml:id="l-3"/>
+<ab>Estampes Françaises &amp; étrangères</ab>
+                <lb n="4" xml:id="l-4"/>
+<ab>Tableaux Modernes</ab>
+                <lb n="5" xml:id="l-5"/>
+<ab>Rue Chaptal, 9, PARIS.</ab>
+                <lb n="6" xml:id="l-6"/>
+<ab>Succursales à la Haye, Londres, Berlin, New-York.</ab>
+<vg:whiteline/>
+                <lb n="7" xml:id="l-7"/>
+<ab>Paris, le ... 187.<vg:suppliedMilestone type="close"/>
+                </ab>
+<vg:whiteline/>
+                <lb n="8" xml:id="l-8"/>
+<ab>Waarde Theo,</ab>
+                <lb n="9" xml:id="l-9"/>
+<ab>Dank voor Uw brief, schrijf mij maar eens dikwijls <lb n="10" xml:id="l-10"/>want daar verlang ik naar in deze dagen.<anchor n="1" xml:id="note-o-1"/> Schrijf maar <lb n="11" xml:id="l-11"/>wat uitvoerig ook, en over dagelijksche dingen; gij ziet <lb n="12" xml:id="l-12"/>ik dat laatste ook wat meer ga doen. Wat gij mij van <lb n="13" xml:id="l-13"/>Boks hebt verteld, hoe die zijn atelier heeft ingericht <lb n="14" xml:id="l-14"/>en hoe gij daar nog al eens komt<c type="kk">/</c> interresseerde <lb n="15" xml:id="l-15"/>mij,<anchor n="2" xml:id="note-o-2"/> houd mij maar goed op de hoogte.─</ab>
+                <lb n="16" xml:id="l-16"/>
+<ab rend="indent">Wij voelen ons zoo wel eens nog al eenig<anchor n="a" xml:id="note-o-a"/> en <lb n="17" xml:id="l-17"/>verlangen naar vrienden en meenen wij <lb n="18" xml:id="l-18"/>heel anders en gelukkiger zouden zijn als wij <lb n="19" xml:id="l-19"/>“datte” vonden, een vriend van wien wij zouden <lb n="20" xml:id="l-20"/>zeggen “dat is het”.─<anchor n="3" xml:id="note-o-3"/> Maar gij zult het ook reeds <lb n="21" xml:id="l-21"/>beginnen te merken dat daar veel zelfbedrog <lb n="22" xml:id="l-22"/>achtersteekt en dat verlangen<c type="kk">/</c> als wij er al te veel 
+<pb f="1r" n="2" xml:id="pb-orig-1r-2" facs="#zone-pb-1r-2"/>
+                    <lb n="28" xml:id="l-28"/>aan toegaven<c type="kk">/</c> ons van den weg zou afhelpen. <lb n="29" xml:id="l-29"/>Er is een woord dat mij dezer dagen vervolgt, ’t is <lb n="30" xml:id="l-30"/>de dagtekst van heden: “Zijne kinderen zullen <lb n="31" xml:id="l-31"/>zoeken den armen te behagen”.<anchor n="4" xml:id="note-o-4"/>
+                </ab>
+                <lb n="32" xml:id="l-32"/>
+<ab rend="indent">En nu nog wat nieuws, n.l. dat mijn vriend <lb n="33" xml:id="l-33"/>Gladwell gaat verhuizen; een van de employés in de <lb n="34" xml:id="l-34"/>drukkerij heeft hem bepraat om bij hem te komen <lb n="35" xml:id="l-35"/>inwonen; reeds vroeger deed hij daar moeite voor.─ <lb n="36" xml:id="l-36"/>Gladwell heeft geloof ik het gedaan zonder na te <lb n="37" xml:id="l-37"/>denken, ik heb geducht spijt hij heengaat, ’t zal <lb n="38" xml:id="l-38"/>reeds spoedig zijn, aan ’t eind van deze maand <lb n="39" xml:id="l-39"/>waarschijnlijk.</ab>
+                <lb n="40" xml:id="l-40"/>
+<ab rend="indent">Wij hebben deze laatste dagen eene muis in onze <lb n="41" xml:id="l-41"/>“cabin”, gij weet dat den naam van onze kamer is. <lb n="42" xml:id="l-42"/>Iederen avond leggen wij brood klaar en zij <lb n="43" xml:id="l-43"/>weet dat reeds goed te vinden.</ab>
+                <lb n="44" xml:id="l-44"/>
+<ab rend="indent">Ik lees de advertenties in de Engelsche couranten <lb n="45" xml:id="l-45"/>en schreef reeds op een paar, wij willen op <lb n="46" xml:id="l-46"/>zegen hopen. En nu<c type="kk">/</c> groeten bij Roos en als anderen <lb n="47" xml:id="l-47"/>naar mij mochten vragen, en schrijf maar weer <lb n="48" xml:id="l-48"/>eens spoedig. à Dieu. Steeds</ab>
+<vg:whiteline/>
+                <lb n="49" xml:id="l-49"/>
+<ab>Uw liefh. broeder</ab>
+                <lb n="50" xml:id="l-50"/>
+<ab>Vincent</ab>
+<vg:whiteline/>
+                <lb n="23" xml:id="l-23"/>
+<ab>Mocht de Hr. Tersteeg soms <lb n="24" xml:id="l-24"/>met U over mij spreken, <lb n="25" xml:id="l-25"/>schrijf mij dat dan. <lb n="26" xml:id="l-26"/>Groet ZEd. maar telkens <lb n="27" xml:id="l-27"/>voor mij als ik U schrijf.</ab>
+<vg:whiteline/>
+<div type="textualNotes">
+<note target="l-1" targetEnd="l-7" n="1-7">
+                        <hi rend="ital">Printed letterhead.</hi>
+                    </note>
+<note target="l-27" n="27">als &lt; al</note>
+                </div>
+            </div>
+<div type="translation">
+<pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<ab>[Letterhead: Goupil Paris]</ab>
+<vg:whiteline/>
+<ab>My dear Theo,</ab>
+<ab>Thanks for your letter, write to me often, as I long for it these days.<anchor n="1" xml:id="note-t-1"/> Write in more detail, too, and about everyday things; you see that I, too, am doing that more and more. I was interested to hear what you said about <rs type="pers" key="875">Boks</rs>, how he has arranged his studio and that you go there quite a lot.<anchor n="2" xml:id="note-t-2"/> Do keep me well informed.</ab>
+<ab rend="indent">We sometimes feel rather lonely and long for friends, and think we’d be quite different and happier if only we found ‘it’, a friend of whom we would say, ‘this is it’.<anchor n="3" xml:id="note-t-3"/> But you, too, will already have started to notice that there’s a lot of self-deception behind this, and that this longing, if we were to surrender to it too much, 
+<pb f="1r" n="2" xml:id="pb-trans-1r-2" facs="#zone-pb-1r-2"/> would cause us to stray from the path. There are words that keep haunting me these days, they are the text for today: ‘His children shall seek to please the poor.’<anchor n="4" xml:id="note-t-4"/>
+                </ab>
+<ab rend="indent">And now for some news, namely that my friend <rs type="pers" key="394">Gladwell</rs> is going to move. One of the employees at the printer’s has persuaded him to come and live with him; he had already tried to do this before. Gladwell has done it, I believe, without thinking. I’m awfully sorry he’s going. It will be soon now, probably at the end of this month.</ab>
+<ab rend="indent">For a few days now we’ve had a mouse in our ‘cabin’; that’s what we call our room, you know. Every evening we put some bread out, and it already knows how to find it.</ab>
+<ab rend="indent">I read the advertisements in the English newspapers and have already written to a couple, we’re hoping for a godsend. And now, regards to everyone at <rs type="pers" key="642 643">the Rooses</rs>’ and to any others who might ask after me, and do write again soon. Adieu. Ever,</ab>
+<vg:whiteline/>
+<ab>Your loving brother</ab>
+<ab>Vincent</ab>
+<vg:whiteline/>
+<ab>If <rs type="pers" key="787">Mr Tersteeg</rs> should speak to you about me, write and tell me. Give my regards to His Hon. every time I write to you.</ab>
+            </div>
+<div type="notes">
+<note n="1" xml:id="n-1" target="#note-t-1">
+<ab>Van Gogh had been given notification of his dismissal as of 1 April.</ab>
+                </note>
+<note n="2" xml:id="n-2" target="#note-t-2">
+<ab>In 1876 the studio of <rs type="pers" key="875">Mari(n)us or Martinus Boks</rs> was possibly still in the Hospice Wallon on Zuid-Oost-Buitensingel (Oranjebuitensingel), then called Uilebomen. Boks was staying in this orphanage. Although the orphans were supposed to leave the orphanage when they turned 21, he was permitted ‘to keep a small studio there after his departure’. See H. Hardenberg, ‘Het Hospice Wallon’, <hi rend="ital">Vereniging ‘die Haghe’. Jaarboek 1964</hi>. Ed. H.M. Mensonides. The Hague 1964, pp. 1-20, esp. 16.</ab>
+                </note>
+<note n="a" xml:id="n-a" target="#note-o-a">
+<ab>Meaning: ‘eenzaam, alleen’ (lonely, alone).</ab>
+                </note>
+<note n="3" xml:id="n-3" target="#note-t-3">
+<ab>A saying of <rs type="pers" key="323">Anton Mauve</rs>; <ref target="let017.xml">see letter 17</ref>.</ab>
+                </note>
+<note n="4" xml:id="n-4" target="#note-t-4">
+<ab>
+  <bibleref xmlns="http://www.vangoghletters.org/ns/" book="Job" chap="20" v="10">Job 20:10</bibleref>. A ‘lesson for the day’ (cf. <hi rend="ital">OED</hi>, under ‘pericope’) is an edifying text printed on calenders and in booklets for the pious to reflect upon.</ab>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>
