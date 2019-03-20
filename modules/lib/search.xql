@@ -72,7 +72,11 @@ function search:query($node as node()*, $model as map(*), $query as xs:string?, 
             let $hits := if ($hitCount > 1000) then subsequence($hits, 1, 1000) else $hits
             let $facets :=
                 if ($hitCount > 0) then
-                    ft:facets($hits[1], "to", 20)
+                    map {
+                        "to": ft:facets($hits[1], "to", 20),
+                        "from": ft:facets($hits[1], "from", 20),
+                        "where": ft:facets($hits[1], "where", 20)
+                    }
                 else
                     ()
             (:Store the result in the session.:)
