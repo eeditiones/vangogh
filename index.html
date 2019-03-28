@@ -44,6 +44,10 @@
                     }
                 }
 
+                .logo img {
+                    width: auto;
+                }
+
                 .tp-title {
                     font-family: "Oswald",Verdana,"Helvetica",sans-serif;
                     font-size: 36px;
@@ -100,7 +104,7 @@
                     flex-direction: column;
                 }
 
-                aside .odds, aside .upload {
+                aside .odds, aside .upload, aside .facets {
                     --paper-card-header: {
                         background-color: #607D8B;
                     };
@@ -111,6 +115,11 @@
                         font-weight: 400;
                         color: white;
                     };
+                }
+
+                aside .upload {
+                    margin-top: 20px;
+                    width: 100%;
                 }
 
                 .documents ul {
@@ -153,6 +162,17 @@
                     font-size: 16px;
                     margin: 0;
                 }
+
+                #facets table {
+                    font-size: 85%;
+                }
+
+                #facets table td:nth-child(2) {
+                    color: #808080;
+                    text-align: right;
+                    padding-left: 1em;
+                    vertical-align: middle;
+                }
             </style>
         </custom-style>
     </head>
@@ -175,10 +195,10 @@
                     </div>
                 </app-drawer>
                 <app-header-layout>
-                    <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall" data-template="browse:fix-links">
+                    <app-header slot="header" data-template="browse:fix-links">
                         <app-toolbar class="menubar">
                             <a href="$app/index.html" class="logo">
-                                <img src="resources/images/tei-publisher-logo-contrast-color.svg"/>
+                                <img src="resources/images/vincent.png"/>
                             </a>
                             <pb-media-query query="min-width: 1024px">
                                 <a href="$app/index.html">Start</a>
@@ -232,13 +252,18 @@
                         <section class="panels">
                             <paper-card class="documents" heading="i18n(documents)">
                                 <div class="card-content">
-                                    <pb-browse-docs id="document-loader" url="templates/documents.html" sort-label="i18n(sort-by)" sort-options="[{&#34;label&#34;: &#34;Title&#34;, &#34;value&#34;: &#34;title&#34;},{&#34;label&#34;: &#34;Author&#34;, &#34;value&#34;: &#34;author&#34;},{&#34;label&#34;: &#34;Modification Date&#34;, &#34;value&#34;: &#34;default&#34;}]" sort-by="title" filter-options="[{&#34;label&#34;: &#34;Title&#34;, &#34;value&#34;: &#34;title&#34;},{&#34;label&#34;: &#34;Author&#34;, &#34;value&#34;: &#34;author&#34;},{&#34;label&#34;: &#34;File name&#34;, &#34;value&#34;: &#34;file&#34;}]" filter-by="title" container="#document-list" auto="auto" history="history" login="login">
-                                        <pb-paginate slot="toolbar" id="paginate" per-page="10" range="5" found-label="i18n(browsing)"/>
+                                    <pb-browse-docs id="document-list" url="templates/documents.html" sort-label="i18n(sort-by)" sort-options="[{&#34;label&#34;: &#34;Title&#34;, &#34;value&#34;: &#34;title&#34;},{&#34;label&#34;: &#34;Author&#34;, &#34;value&#34;: &#34;author&#34;},{&#34;label&#34;: &#34;Modification Date&#34;, &#34;value&#34;: &#34;default&#34;}]" sort-by="title" filter-options="[{&#34;label&#34;: &#34;Title&#34;, &#34;value&#34;: &#34;title&#34;},{&#34;label&#34;: &#34;Author&#34;, &#34;value&#34;: &#34;author&#34;},{&#34;label&#34;: &#34;File name&#34;, &#34;value&#34;: &#34;file&#34;}]" filter-by="title" auto="auto" history="history" login="login"
+                                    emit="docs" subscribe="docs">
+                                        <pb-paginate slot="toolbar" id="paginate" per-page="10" range="5" found-label="i18n(browsing)" subscribe="docs" emit="docs"/>
                                     </pb-browse-docs>
-                                    <div id="document-list"/>
                                 </div>
                             </paper-card>
                             <aside>
+                                <paper-card class="facets" heading="Facets">
+                                    <div class="card-content">
+                                        <pb-facets id="facets" url="modules/facets.xql" event="pb-results-received" subscribe="docs" emit="docs"/>
+                                    </div>
+                                </paper-card>
                                 <paper-card class="upload" heading="i18n(upload)">
                                     <div class="card-content">
                                         <pb-upload id="upload"/>

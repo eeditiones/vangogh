@@ -63,30 +63,20 @@ function search:query($node as node()*, $model as map(*), $query as xs:string?, 
             (:Otherwise, perform the query.:)
             (: Here the actual query commences. This is split into two parts, the first for a Lucene query and the second for an ngram query. :)
             (:The query passed to a Luecene query in ft:query is an XML element <query> containing one or two <bool>. The <bool> contain the original query and the transliterated query, as indicated by the user in $query-scripts.:)
-            let $hits :=
+            let $hitsAll :=
                     (:If the $query-scope is narrow, query the elements immediately below the lowest div in tei:text and the four major element below tei:teiHeader.:)
                     for $hit in query:query-default($field, $query, $doc)
                     order by ft:score($hit) descending
                     return $hit
-            let $hitCount := count($hits)
-            let $hits := if ($hitCount > 1000) then subsequence($hits, 1, 1000) else $hits
-            let $facets :=
-                if ($hitCount > 0) then
-                    map {
-                        "to": ft:facets($hits[1], "to", 20),
-                        "from": ft:facets($hits[1], "from", 20),
-                        "where": ft:facets($hits[1], "where", 20)
-                    }
-                else
-                    ()
+            let $hitCount := count($hitsAll)
+            let $hits := if ($hitCount > 1000) then subsequence($hitsAll, 1, 1000) else $hitsAll
             (:Store the result in the session.:)
             let $store := (
-                session:set-attribute("apps.simple", $hits),
+                session:set-attribute("apps.simple", $hitsAll),
                 session:set-attribute("apps.simple.hitCount", $hitCount),
                 session:set-attribute("apps.simple.query", $query),
                 session:set-attribute("apps.simple.field", $field),
-                session:set-attribute("apps.simple.docs", $doc),
-                session:set-attribute("apps.simple.facets", $facets)
+                session:set-attribute("apps.simple.docs", $doc)
             )
             return
                 (: The hits are not returned directly, but processed by the nested templates :)

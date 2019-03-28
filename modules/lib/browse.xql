@@ -97,8 +97,10 @@ function app:list-works($node as node(), $model as map(*), $filter as xs:string?
             $cached
         else
             $config:data-root ! collection(. || "/" || $root)/*
+    let $filtered := $filtered[ft:query(.//tei:body, (), app:options())]
     let $sorted := app:sort($filtered, $sort)
     return (
+        session:set-attribute('apps.simple', $filtered),
         session:set-attribute("teipublisher.works", $sorted),
         session:set-attribute("teipublisher.browse", $browse),
         session:set-attribute("teipublisher.filter", $filter),
@@ -108,6 +110,20 @@ function app:list-works($node as node(), $model as map(*), $filter as xs:string?
             "mode": "browse"
         }
     )
+};
+
+declare function app:options() {
+    map {
+        "facets":
+            map:merge((
+                for $param in request:get-parameter-names()[starts-with(., 'facet-')]
+                let $dimension := substring-after($param, 'facet-')
+                return
+                    map {
+                        $dimension: request:get-parameter($param, ())
+                    }
+            ))
+    }
 };
 
 declare

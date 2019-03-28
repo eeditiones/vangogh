@@ -108,6 +108,13 @@
                 .hi {
                     display: block;
                 }
+
+                #facets table td:nth-child(2) {
+                    color: #808080;
+                    text-align: right;
+                    padding-left: 1em;
+                    vertical-align: middle;
+                }
             </style>
         </custom-style>
     </head>
@@ -157,27 +164,28 @@
                         </pb-login>
                     </app-toolbar>
                     <app-toolbar>
-                        <pb-paginate per-page="10" range="5" found-label="i18n(found)"/>
-                        <pb-progress indeterminate="indeterminate" bottom-item="bottom-item"/>
+                        <pb-paginate per-page="10" range="5" found-label="i18n(found)" subscribe="results"/>
+                        <pb-progress indeterminate="indeterminate" bottom-item="bottom-item" subscribe="results"/>
                     </app-toolbar>
                 </app-header>
 
                 <main>
-                    <pb-load url="templates/search-results.html" container="#results"/>
+                    <pb-load url="templates/search-results.html" container="#results" emit="results"/>
                     <div id="results"/>
                     <div class="search-panel">
                         <paper-card>
                             <div class="card-content">
-                                <pb-search id="search-form" place-holder="i18n(search-query-attr)" data-template="pages:parse-params" value="${query}" submit-on-load="submit-on-load">
+                                <pb-search id="search-form" place-holder="i18n(search-query-attr)" data-template="pages:parse-params" value="${query}" submit-on-load="submit-on-load"
+                                    subscribe="search">
                                     <div class="targets">
                                         <paper-checkbox name="tei-target" value="tei-text">Search sections</paper-checkbox>
                                         <paper-checkbox name="tei-target" value="tei-head">Search headings</paper-checkbox>
                                     </div>
+                                    <pb-facets id="facets" url="modules/facets.xql" subscribe="results" event="pb-results-received"
+                                        emit="search"/>
                                 </pb-search>
                             </div>
                         </paper-card>
-                        <pb-load url="modules/facets.xql" container="#facets"/>
-                        <div id="facets"></div>
                     </div>
                 </main>
             </app-header-layout>

@@ -7,6 +7,7 @@
                 <facet dimension="from" expression="ancestor::tei:TEI//tei:sourceDesc/vg:letDesc/vg:letHeading/tei:author"/>
                 <facet dimension="to" expression="ancestor::tei:TEI//tei:sourceDesc/vg:letDesc/vg:letHeading/vg:addressee"/>
                 <facet dimension="where" expression="ancestor::tei:TEI//tei:sourceDesc/vg:letDesc/vg:letHeading/vg:placeLet"/>
+                <facet dimension="mentions" expression=".//tei:rs[@type='pers']/@key"/>
                 <ignore qname="tei:body"/>
             </text>
             <text qname="tei:head"/>

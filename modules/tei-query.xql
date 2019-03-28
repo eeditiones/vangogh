@@ -24,11 +24,10 @@ declare namespace tei="http://www.tei-c.org/ns/1.0";
 import module namespace config="http://www.tei-c.org/tei-simple/config" at "config.xqm";
 import module namespace nav="http://www.tei-c.org/tei-simple/navigation/tei" at "navigation-tei.xql";
 
-declare variable $teis:QUERY_OPTIONS :=
-    <options>
-        <leading-wildcard>yes</leading-wildcard>
-        <filter-rewrite>yes</filter-rewrite>
-    </options>;
+declare variable $teis:QUERY_OPTIONS := map {
+    "leading-wildcard": "yes",
+    "filter-rewrite": "yes"
+};
 
 declare function teis:query-default($fields as xs:string+, $query as xs:string, $target-texts as xs:string*) {
     if(string($query)) then
@@ -39,20 +38,38 @@ declare function teis:query-default($fields as xs:string+, $query as xs:string, 
                     if ($target-texts) then
                         for $text in $target-texts
                         return
-                            $config:data-root ! doc(. || "/" || $text)//tei:head[ft:query(., $query, $teis:QUERY_OPTIONS)]
+                            $config:data-root ! doc(. || "/" || $text)//tei:head[ft:query(., $query, teis:options())]
                     else
-                        collection($config:data-root)//tei:head[ft:query(., $query, $teis:QUERY_OPTIONS)]
+                        collection($config:data-root)//tei:head[ft:query(., $query, teis:options())]
                 default return
                     if ($target-texts) then
                         for $text in $target-texts
                         return
-                            $config:data-root ! doc(. || "/" || $text)//tei:div[ft:query(., $query, $teis:QUERY_OPTIONS)] |
-                            $config:data-root ! doc(. || "/" || $text)//tei:body[ft:query(., $query, $teis:QUERY_OPTIONS)]
+                            $config:data-root ! doc(. || "/" || $text)//tei:div[ft:query(., $query, teis:options())] |
+                            $config:data-root ! doc(. || "/" || $text)//tei:body[ft:query(., $query, teis:options())]
                     else
-                        collection($config:data-root)//tei:div[ft:query(., $query, $teis:QUERY_OPTIONS)] |
-                        collection($config:data-root)//tei:body[ft:query(., $query, $teis:QUERY_OPTIONS)]
+                        collection($config:data-root)//tei:div[ft:query(., $query, teis:options())] |
+                        collection($config:data-root)//tei:body[ft:query(., $query, teis:options())]
     else ()
 };
+
+declare function teis:options() {
+    map:merge((
+        $teis:QUERY_OPTIONS,
+        map {
+            "facets":
+                map:merge((
+                    for $param in request:get-parameter-names()[starts-with(., 'facet-')]
+                    let $dimension := substring-after($param, 'facet-')
+                    return
+                        map {
+                            $dimension: request:get-parameter($param, ())
+                        }
+                ))
+        }
+    ))
+};
+
 
 declare function teis:query-metadata($field as xs:string, $query as xs:string) {
     for $rootCol in $config:data-root
@@ -114,7 +131,7 @@ declare function teis:get-parent-section($node as node()) {
 
 declare function teis:get-breadcrumbs($config as map(*), $hit as element(), $parent-id as xs:string) {
     let $work := root($hit)/*
-    let $work-title := nav:get-document-title($config, $work)
+    let $work-title := nav:get-document-title($config, $work)/string()
     return
         <div class="breadcrumbs">
             <a class="breadcrumb" href="{$parent-id}">{$work-title}</a>
