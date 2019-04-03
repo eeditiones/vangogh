@@ -2,7 +2,7 @@
     <index xmlns:vg="http://www.vangoghletters.org/ns/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
         <fulltext default="none" attributes="false"/>
         <lucene>
-            <module uri="http://www.tei-c.org/tei-simple/navigation" prefix="nav" at="modules/navigation.xql"/>
+            <module uri="http://www.existsolutions.com/vangogh/index" prefix="nav" at="index.xql"/>
             <text qname="tei:body">
                 <facet dimension="from" expression="nav:get-metadata(ancestor::tei:TEI, 'from')"/>
                 <facet dimension="to" expression="nav:get-metadata(ancestor::tei:TEI, 'to')"/>
@@ -17,8 +17,6 @@
             <text qname="tei:head"/>
             <text match="//tei:sourceDesc/tei:biblFull/tei:titleStmt/tei:title"/>
             <text match="//tei:fileDesc/tei:titleStmt/tei:title"/>
-            <text qname="dbk:section"/>
-            <text qname="dbk:title"/>
         </lucene>
     </index>
 </collection>
