@@ -1,13 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <collection xmlns="http://exist-db.org/collection-config/1.0">
     <index xmlns:vg="http://www.vangoghletters.org/ns/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
         <fulltext default="none" attributes="false"/>
         <lucene>
+            <module uri="http://www.tei-c.org/tei-simple/navigation" prefix="nav" at="modules/navigation.xql"/>
             <text qname="tei:body">
-                <facet dimension="from" expression="ancestor::tei:TEI//tei:sourceDesc/vg:letDesc/vg:letHeading/tei:author"/>
-                <facet dimension="to" expression="ancestor::tei:TEI//tei:sourceDesc/vg:letDesc/vg:letHeading/vg:addressee"/>
-                <facet dimension="where" expression="ancestor::tei:TEI//tei:sourceDesc/vg:letDesc/vg:letHeading/vg:placeLet"/>
+                <facet dimension="from" expression="nav:get-metadata(ancestor::tei:TEI, 'from')"/>
+                <facet dimension="to" expression="nav:get-metadata(ancestor::tei:TEI, 'to')"/>
+                <facet dimension="place" expression="nav:get-metadata(ancestor::tei:TEI, 'place')"/>
                 <facet dimension="mentions" expression=".//tei:rs[@type='pers']/@key"/>
+                <field name="title" expression="nav:get-metadata(ancestor::tei:TEI, 'title')"/>
+                <field name="from" expression="nav:get-metadata(ancestor::tei:TEI, 'from')"/>
+                <field name="to" expression="nav:get-metadata(ancestor::tei:TEI, 'to')"/>
+                <field name="place" expression="nav:get-metadata(ancestor::tei:TEI, 'place')"/>
                 <ignore qname="tei:body"/>
             </text>
             <text qname="tei:head"/>

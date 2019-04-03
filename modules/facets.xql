@@ -4,13 +4,27 @@ declare namespace tei="http://www.tei-c.org/ns/1.0";
 
 import module namespace config="http://www.tei-c.org/tei-simple/config" at "config.xqm";
 
-declare function local:print-table($dimension as xs:string, $facets as map(*)?) {
-    if (exists($facets)) then
-        <table>
-        {
-            let $params := request:get-parameter("facet-" || $dimension, ())
+declare function local:sort($facets as map(*)?) {
+    array {
+        if (exists($facets)) then
+            for $key in map:keys($facets)
+            let $value := map:get($facets, $key)
+            order by $value descending
             return
-                map:for-each($facets, function($label, $count) {
+                map { $key: $value }
+        else
+            ()
+    }
+};
+
+
+declare function local:print-table($dimension as xs:string, $facets as array(*)) {
+    <table>
+    {
+        let $params := request:get-parameter("facet-" || $dimension, ())
+        return
+            array:for-each($facets, function($entry) {
+                map:for-each($entry, function($label, $count) {
                     <tr>
                         <td>
                             <paper-checkbox class="facet" name="facet-{$dimension}" value="{$label}">
@@ -27,34 +41,43 @@ declare function local:print-table($dimension as xs:string, $facets as map(*)?) 
                         <td>{$count}</td>
                     </tr>
                 })
-        }
-        </table>
-    else
-        ()
+            })
+    }
+    </table>
 };
+
+declare function local:display($title as xs:string, $node as element(), $dimension as xs:string, $all as xs:string?) {
+    let $facets :=
+        if ($all) then
+            ft:facets($node, $dimension)
+        else
+            ft:facets($node, $dimension, 10)
+    return
+        <div>
+            <h3>{$title}
+                <paper-checkbox class="facet" name="all-{$dimension}">
+                    { if ($all) then attribute checked { "checked" } else () }
+                    Show all
+                </paper-checkbox>
+            </h3>
+            {local:print-table($dimension, local:sort($facets))}
+        </div>
+};
+
 
 <div>
 {
+    let $placeShowAll := request:get-parameter("all-place", ())
+    let $fromShowAll := request:get-parameter("all-from", ())
+    let $toShowAll := request:get-parameter("all-to", ())
+    let $mentionsShowAll := request:get-parameter("all-mentions", ())
     let $hits := session:get-attribute("apps.simple")
     where count($hits) > 0
     return (
-        <div>
-            <h3>Where</h3>
-            { local:print-table("where", ft:facets($hits[1], "where", 20)) }
-        </div>,
-        <div>
-            <h3>From</h3>
-            { local:print-table("from", ft:facets($hits[1], "from", 20)) }
-        </div>,
-        <div>
-            <h3>To</h3>
-            { local:print-table("to", ft:facets($hits[1], "to", 20)) }
-        </div>,
-        <div>
-            <h3>Mentioned</h3>
-            { local:print-table("mentions", ft:facets($hits[1], "mentions", 20)) }
-        </div>
-
+        local:display("Place", $hits[1], "place", $placeShowAll),
+        local:display("From", $hits[1], "from", $fromShowAll),
+        local:display("To", $hits[1], "to", $toShowAll),
+        local:display("Mentions", $hits[1], "mentions", $mentionsShowAll)
     )
 }
 </div>

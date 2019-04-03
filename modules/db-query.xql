@@ -100,11 +100,10 @@ declare function dbs:autocomplete($doc as xs:string?, $fields as xs:string+, $q 
                     }, -1, "lucene-index")
 };
 
-declare function dbs:query-metadata($field as xs:string, $query as xs:string) {
-    for $rootCol in $config:data-root
-    for $doc in ft:search($rootCol, $field || ":" || $query, ())/search
+declare function dbs:query-metadata($field as xs:string, $query as xs:string, $sort as xs:string) {
+    for $doc in collection($config:data-root)//db:section[ft:query(., $field || ":" || $query, map { "fields": $sort })]
     return
-        doc($doc/@uri)/db:*
+        root($doc)/*
 };
 
 declare function dbs:get-parent-section($node as node()) {

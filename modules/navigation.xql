@@ -54,6 +54,10 @@ declare function nav:get-section($config as map(*), $doc as node()) {
     nav:dispatch($config, "get-section", [$config, $doc])
 };
 
+declare function nav:get-metadata($root as element(), $field as xs:string) {
+    nav:get-metadata(map { "type": nav:document-type($root) }, $root, $field)
+};
+
 declare function nav:get-metadata($config as map(*), $root as element(), $field as xs:string) {
     nav:dispatch($config, "get-metadata", [$config, $root, $field])
 };

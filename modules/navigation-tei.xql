@@ -20,6 +20,7 @@ xquery version "3.1";
 module namespace nav="http://www.tei-c.org/tei-simple/navigation/tei";
 
 declare namespace tei="http://www.tei-c.org/ns/1.0";
+declare namespace vg="http://www.vangoghletters.org/ns/";
 
 import module namespace config="http://www.tei-c.org/tei-simple/config" at "config.xqm";
 
@@ -62,10 +63,12 @@ declare function nav:get-metadata($config as map(*), $root as element(), $field 
                 $header//tei:msDesc/tei:head, $header//tei:titleStmt/tei:title[@type = 'main'],
                 $header//tei:titleStmt/tei:title
             )[1]
-        case "author" return (
-            $root/tei:teiHeader//tei:titleStmt/tei:author,
-            $root/tei:teiHeader//tei:correspDesc/tei:correspAction/tei:persName
-        )
+        case "from" return
+            $root//tei:sourceDesc/vg:letDesc/vg:letHeading/tei:author
+        case "to" return
+            $root//tei:sourceDesc/vg:letDesc/vg:letHeading/vg:addressee
+        case "place" return
+            $root//tei:sourceDesc/vg:letDesc/vg:letHeading/vg:placeLet
         case "language" return
             ($root/@xml:lang/string(), $root/tei:teiHeader/@xml:lang/string(), "en")[1]
         case "date" return (

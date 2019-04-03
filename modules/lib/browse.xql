@@ -62,7 +62,7 @@ function app:sort($items as element()*, $sortBy as xs:string?) {
     return
         if ($sortBy) then
             for $item in $items
-            let $field := ft:get-field(document-uri(root($item)), $sortBy)
+            let $field := ft:field($item, $sortBy)
             let $content :=
                 if (exists($field)) then
                     $field
@@ -92,12 +92,12 @@ function app:list-works($node as node(), $model as map(*), $filter as xs:string?
     let $cached := session:get-attribute("teipublisher.works")
     let $filtered :=
         if (exists($filter)) then
-            query:query-metadata($browse, $filter)
+            query:query-metadata($browse, $filter, $sort)
         else if (exists($cached) and $filter = session:get-attribute("teipublisher.filter")) then
             $cached
         else
             $config:data-root ! collection(. || "/" || $root)/*
-    let $filtered := $filtered[ft:query(.//tei:body, (), app:options())]
+    let $filtered := $filtered[ft:query(.//tei:body, (), app:options($sort))]
     let $sorted := app:sort($filtered, $sort)
     return (
         session:set-attribute('apps.simple', $filtered),
@@ -112,7 +112,7 @@ function app:list-works($node as node(), $model as map(*), $filter as xs:string?
     )
 };
 
-declare function app:options() {
+declare function app:options($sortBy as xs:string) {
     map {
         "facets":
             map:merge((
@@ -122,7 +122,8 @@ declare function app:options() {
                     map {
                         $dimension: request:get-parameter($param, ())
                     }
-            ))
+            )),
+        "fields": $sortBy
     }
 };
 
