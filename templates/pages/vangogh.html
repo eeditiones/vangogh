@@ -55,6 +55,30 @@
                 .menubar {
                     background-color: #EECC66;
                     background-image: url('resources/images/background.jpg');
+                    
+                    --pb-download: {
+                        color: black;
+                    };
+                }
+                
+                app-toolbar pb-search {
+                    --pb-search-label: white;
+                }
+                
+                .menubar a, .menubar paper-menu-button {
+                    color: black;
+                    font-weight: 400;
+                }
+                
+                .menubar pb-login {
+                    --pb-login-theme: {
+                        color: black;
+                        font-weight: 400;
+                    }
+                }
+
+                .menubar pb-lang {
+                    --pb-lang-item-color: black;
                 }
                 
                 .logo img {
@@ -130,7 +154,7 @@
                         </pb-grid-action>
                     </section>
                     <main class="content-body">
-                        <pb-grid id="grid" panels="[0]" subscribe="transcription" emit="transcription">
+                        <pb-grid id="grid" panels="[0, 2]" subscribe="transcription" emit="transcription">
                             <template>
                                 <!-- template used for adding a new column: user can choose between translation, facsimile and notes -->
                                 <pb-panel emit="transcription">

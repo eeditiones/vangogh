@@ -37,6 +37,30 @@
                 .menubar {
                     background-color: #EECC66;
                     background-image: url('resources/images/background.jpg');
+                    
+                    --pb-download: {
+                        color: black;
+                    };
+                }
+                
+                app-toolbar pb-search {
+                    --pb-search-label: white;
+                }
+                
+                .menubar a, .menubar paper-menu-button {
+                    color: black;
+                    font-weight: 400;
+                }
+                
+                .menubar pb-login {
+                    --pb-login-theme: {
+                        color: black;
+                        font-weight: 400;
+                    }
+                }
+
+                .menubar pb-lang {
+                    --pb-lang-item-color: black;
                 }
                 
                 main {

@@ -47,6 +47,30 @@
                 .menubar {
                     background-color: #EECC66;
                     background-image: url('resources/images/background.jpg');
+                    
+                    --pb-download: {
+                        color: black;
+                    };
+                }
+                
+                app-toolbar pb-search {
+                    --pb-search-label: white;
+                }
+                
+                .menubar a, .menubar paper-menu-button {
+                    color: black;
+                    font-weight: 400;
+                }
+                
+                .menubar pb-login {
+                    --pb-login-theme: {
+                        color: black;
+                        font-weight: 400;
+                    }
+                }
+
+                .menubar pb-lang {
+                    --pb-lang-item-color: black;
                 }
                 
                 .logo img {
@@ -90,7 +114,7 @@
 
                 .panels .documents {
                     --paper-card-header: {
-                        background-color: #d1dae0;
+                        background-color: #7db9bd;
                     };
 
                     --paper-card-header-text: {
@@ -111,14 +135,14 @@
 
                 aside .odds, aside .upload, aside .facets {
                     --paper-card-header: {
-                        background-color: #607D8B;
+                        background-color: #d4e1d2;
                     };
 
                     --paper-card-header-text: {
                         font-family: "Oswald",Verdana,"Helvetica",sans-serif;
                         font-size: 16px;
                         font-weight: 400;
-                        color: white;
+                        color: black;
                     };
                 }
 
