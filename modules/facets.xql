@@ -9,7 +9,7 @@ declare function local:sort($facets as map(*)?) {
         if (exists($facets)) then
             for $key in map:keys($facets)
             let $value := map:get($facets, $key)
-            order by $value descending
+            order by $key ascending
             return
                 map { $key: $value }
         else
