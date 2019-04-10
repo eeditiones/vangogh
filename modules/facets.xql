@@ -77,6 +77,7 @@ declare function local:display($title as xs:string, $node as element(), $dimensi
         local:display("Place", $hits[1], "place", $placeShowAll),
         local:display("From", $hits[1], "from", $fromShowAll),
         local:display("To", $hits[1], "to", $toShowAll),
+        local:display("Date", $hits[1], "date", ()),
         local:display("Mentions", $hits[1], "mentions", $mentionsShowAll)
     )
 }

@@ -62,7 +62,11 @@ function app:sort($items as element()*, $sortBy as xs:string?) {
     return
         if ($sortBy) then
             for $item in $items
-            let $field := ft:field($item, $sortBy)
+            let $field :=
+                if ($sortBy = "date") then
+                    ft:field($item, "date", "xs:date")
+                else
+                    ft:field($item, $sortBy)
             let $content :=
                 if (exists($field)) then
                     $field
@@ -96,8 +100,7 @@ function app:list-works($node as node(), $model as map(*), $filter as xs:string?
         else if (exists($cached) and $filter = session:get-attribute("teipublisher.filter")) then
             $cached
         else
-            $config:data-root ! collection(. || "/" || $root)/*
-    let $filtered := $filtered[ft:query(.//tei:body, (), app:options($sort))]
+            $config:data-root ! collection(. || "/" || $root)//tei:body[ft:query(., (), app:options($sort))]/ancestor::tei:TEI
     let $sorted := app:sort($filtered, $sort)
     return (
         session:set-attribute('apps.simple', $filtered),
