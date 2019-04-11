@@ -39,39 +39,54 @@
                     background-image: url('resources/images/background.jpg');
                     
                     --pb-download: {
-                        color: black;
+                        color: white;
                     };
                 }
                 
+                app-header{
+                    background:white;
+                }
                 app-toolbar pb-search {
                     --pb-search-label: white;
                 }
                 
                 .menubar a, .menubar paper-menu-button {
-                    color: black;
+                    color: white;
                     font-weight: 400;
                 }
                 
                 .menubar pb-login {
                     --pb-login-theme: {
-                        color: black;
+                        color: white;
                         font-weight: 400;
                     }
                 }
 
                 .menubar pb-lang {
-                    --pb-lang-item-color: black;
+                    --pb-lang-item-color: white;
+                    --pb-lang-label-color:white;
+                }
+
+                .cropper{
+                    width:49px;
+                    height:49px;
+                    overflow:hidden;
+                    border-radius:50%;
+                    margin-right:10px;
                 }
                 
                 main {
                     display: flex;
                     flex-direction: row;
-                    margin-top: 10px;
+                    background:#e5efed;
+                    padding:50px;
                 }
 
                 .search-panel {
                     flex: 1;
                     margin: 0 20px;
+                    max-width:340px;
+                    background:#e5efed;
                 }
 
                 .search-panel paper-card {
@@ -92,15 +107,28 @@
 
                 #results {
                     flex: 2;
-                    overflow: scroll;
+                    // overflow: scroll;
                     margin: 0 20px;
-                    height: calc(100vh - 140px);
+                    height: 100%;
                 }
 
                 #results paper-card {
-                    width: 100%;
+                    width: 98%;
                     margin-bottom: 15px;
                     padding: 8px;
+                }
+
+                #results paper-card header{
+                    border-bottom: thin solid var(--paper-grey-300);
+                    padding-bottom:6px;
+                }
+
+                #results paper-card .breadcrumbs{
+                    margin-top:10px 0 0 0;
+                }
+                paper-card .breadcrumb{
+                    font-weight:400;
+                    color:var(--paper-grey-700);
                 }
 
                 #results header {
@@ -109,7 +137,14 @@
                 }
                 #results .count {
                     margin-right: 20px;
-                    font-weight: bold;
+                    width:26px;
+                    height:26px;
+                    border-radius:50%;
+                    text-align:center;
+                    background:#efe9d1;
+                    padding:3px;
+                    margin-top:8px;
+                    margin-left:24px;
                 }
                 .breadcrumb:link, .breadcrumb:visited {
                     text-decoration: none;
@@ -159,6 +194,12 @@
                     padding-left: 1em;
                     vertical-align: middle;
                 }
+
+                .document-nav{
+                    background:#56aebc;
+                    color:white;
+                    z-index:-1;
+                }
             </style>
         </custom-style>
     </head>
@@ -168,9 +209,11 @@
             <app-header-layout>
                 <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall" data-template="browse:fix-links">
                     <app-toolbar class="menubar">
+                        <div class="cropper">
                         <a href="$app/index.html" class="logo">
                             <img src="resources/images/vincent.jpg"/>
                         </a>
+                        </div>
                         <a href="$app/index.html">Start</a>
 
                         <!-- Search input -->
@@ -189,7 +232,7 @@
                             <iron-icon slot="icon" icon="account-circle"/>
                         </pb-login>
                     </app-toolbar>
-                    <app-toolbar>
+                    <app-toolbar class="document-nav">
                         <pb-paginate per-page="10" range="5" found-label="i18n(found)" subscribe="results"/>
                         <pb-progress indeterminate="indeterminate" bottom-item="bottom-item" subscribe="results"/>
                     </app-toolbar>

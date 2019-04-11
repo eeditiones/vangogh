@@ -18,12 +18,79 @@
             [unresolved]{
                 display:none;
             }
+            .toolbar{
+                background:green;
+            }
+            paper-input{
+                font-weight:700;
+            }
         </style>
 
         <custom-style>
             <style include="pb-common-styles">
+                body{
+                    color:white;
+                    background:#75a4aa;
+
+                    --pb-search-input: red;
+                    --pb-search-label:white;
+
+                }
+                @font-face {
+                    font-family: 'vincent';
+                    src: url('resources/fonts/P22_Vincent_Regular.ttf');
+                }
+                pb-page{
+                    background-image: url('resources/images/Vincent_van_Gogh_-_Almond_blossom_-_Google_Art_Project.jpg');
+                    height:180vh;
+                }
+                app-header{
+                    position:fixed;
+                    top:0;
+                    left:0;
+                    width:100%;
+                    height:340px;
+
+                     --app-header-background-front-layer: {
+                       background:transparent;
+
+                     };
+
+                  --app-header-background-rear-layer: {
+                      background:#5f8eaa;
+                  };
+
+                }
+
+                app-toolbar{
+                    height:64px;
+                    background:transparent;
+                }
+
+                .cropper{
+                    overflow:hidden;
+                    border-radius:50%;
+                    width:160px;
+                    height:160px;
+                    margin:0 auto;
+                    box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14),
+                          0 3px 14px 2px rgba(0, 0, 0, 0.12),
+                          0 5px 5px -3px rgba(0, 0, 0, 0.4);
+                }
+
+                .portrait{
+                    width:160px;
+                }
+
+                // [main-title]{
+                //     font-size:64px;
+                //     color:white;
+                //     margin-top:0;
+                //     display:block
+                //     position:absolute;
+                // }
                 main {
-                    margin: 0 20px 0 20px;
+                    margin: 0 50px 0 100px;
                 }
 
                 @media (max-width: 768px) {
@@ -45,8 +112,10 @@
                 }
 
                 .menubar {
-                    background-color: #EECC66;
-                    background-image: url('resources/images/background.jpg');
+                    background-color: transparent;
+                    // opacity:1;
+                    // background-image: url('resources/images/background.jpg');
+
                     
                     --pb-download: {
                         color: black;
@@ -54,7 +123,11 @@
                 }
                 
                 app-toolbar pb-search {
-                    --pb-search-label: white;
+                    --pb-search-label:var(--paper-grey-200);
+
+                    width:200px;
+                    display:block;
+                    margin:0 auto;
                 }
                 
                 .menubar a, .menubar paper-menu-button {
@@ -62,15 +135,16 @@
                     font-weight: 400;
                 }
                 
-                .menubar pb-login {
+                pb-login {
                     --pb-login-theme: {
                         color: black;
                         font-weight: 400;
                     }
                 }
 
-                .menubar pb-lang {
+                pb-lang {
                     --pb-lang-item-color: black;
+                    --pb-lang-label-color:var(--paper-grey-200);
                 }
                 
                 .logo img {
@@ -78,9 +152,23 @@
                 }
 
                 .tp-title {
-                    font-family: "Oswald",Verdana,"Helvetica",sans-serif;
-                    font-size: 36px;
+                    /*font-family: "Oswald",Verdana,"Helvetica",sans-serif;*/
+                    font-size: 64px;
                     font-weight: 400;
+                    color:white;
+                    font-family:"vincent";
+                    margin-top:4px;
+                    text-align:center;
+                    width:100%;
+                    margin-bottom:10px;
+                }
+
+                #paginate{
+                    display:block;
+                    color:white;
+                    font-weight:500;
+                    padding:20px 0;
+                    text-align:center;
 
                 }
 
@@ -104,7 +192,7 @@
 
                     .panels .documents {
                         flex: 2 auto;
-                        margin-right: 20px;
+                        // margin-right: 20px;
                     }
                 }
 
@@ -128,6 +216,26 @@
                     };
                 }
 
+                .panels pb-browse-docs{
+                    margin-right:20px;
+                    flex:3;
+                }
+
+                .documents{
+                    padding:0;
+                    margin-top:0;
+                }
+                .document{
+                    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14),
+                      0 1px 10px 0 rgba(0, 0, 0, 0.12),
+                      0 2px 4px -1px rgba(0, 0, 0, 0.4);
+
+                    padding:20px;
+                    width:100%:
+                    background:white;
+                    opacity:0.9;
+                }
+
                 .panels aside {
                     flex: 1;
                 }
@@ -135,9 +243,13 @@
                 aside {
                     display: flex;
                     flex-direction: column;
+                    max-width:500px;
                 }
 
                 aside .odds, aside .upload, aside .facets {
+                    background:white;
+                    opacity:0.9;
+
                     --paper-card-header: {
                         background-color: #d4e1d2;
                     };
@@ -179,21 +291,28 @@
                     display: flex;
                     flex-direction: row;
                     margin-bottom: 10px;
+                    background:white;
+                    opacity:0.9;
+                    margin-bottom:20px;
                 }
 
                 .documents .document-select {
                     flex: 0 0;
-                    margin-right: 20px;
+                    // margin-right: 20px;
                 }
                 h1, h2, h3, h4, h5, h6 {
                     font-family: "Oswald",Verdana,"Helvetica",sans-serif;
                     font-weight: 400 !important;
                     line-height: 1.2;
                 }
+                .facets h3{
+                    color:#315b71;
+                }
 
                 h5 {
-                    font-size: 16px;
+                    font-size: 22px;
                     margin: 0;
+                    color:#315b71;
                 }
 
                 #facets h3 {
@@ -209,6 +328,10 @@
                 
                 #facets table {
                     font-size: 85%;
+                    width:100%;
+                }
+                #facets table td{
+                    padding:4px 0;
                 }
 
                 #facets table td:nth-child(2) {
@@ -217,15 +340,52 @@
                     padding-left: 1em;
                     vertical-align: middle;
                 }
+                .facets .header{
+                    display:none;
+                }
+                [condensed-title]{
+                    margin:0;
+                    overflow: hidden;
+                    font-family:"vincent";
+                    font-size:32px !important;
+                    font-weight:700;
+                    color:#c7cb77;
+                    text-shadow:2px 2px #315b71;
+                }
+                // app-toolbar.tall{
+                //     height:600px;
+                // }
+                // app-toolbar.condensed{
+                //     background:white;
+                //     opacity:0.7;
+                //     text-align:left;
+                //     position:absolute;
+                //     display:block;
+                //     width:100%;
+                // }
+                pb-search{
+                    margin:0;
+                    display:inline-block;
+                }
+                .condensed paper-icon-button{
+                    color:black;
+                }
+
+                pb-browse-docs{
+                    --justify-toolbar-content:flex-start;
+                    --display-toolbar:none;
+                }
+                pb-login{
+                    width:100%;
+                }
             </style>
         </custom-style>
     </head>
-    <body data-template="i18n:translate" data-catalogues="resources/i18n">
+    <body data-template="i18n:translate" data-catalogues="resources/i18n" class="fullbleed">
         <pb-page data-template="pages:pb-page">
             <app-drawer-layout force-narrow="force-narrow">
                 <app-drawer slot="drawer" align="right">
                     <div class="drawer-content">
-                        <pb-media-query query="max-width: 1023px">
                             <!-- language selector -->
                             <pb-lang name="lang" label="Language" data-template="pages:current-language">
                                 <paper-item>en</paper-item>
@@ -235,68 +395,43 @@
                                 <paper-item>it</paper-item>
                                 <paper-item>pl</paper-item>
                             </pb-lang>
-                        </pb-media-query>
-                    </div>
-                </app-drawer>
-                <app-header-layout>
-                    <app-header slot="header" data-template="browse:fix-links">
-                        <app-toolbar class="menubar">
-                            <a href="$app/index.html" class="logo">
-                                <img src="resources/images/vincent.jpg"/>
-                            </a>
-                            <pb-media-query query="min-width: 1024px">
-                                <a href="$app/index.html">Start</a>
-                                <!-- Search input -->
-                                <pb-search action="${app}/search.html" data-template="pages:parse-params" value="${query}" place-holder="i18n(search-query-attr)" redirect="redirect"/>
-                            </pb-media-query>
 
-                            <pb-media-query query="min-width: 1024px">
-                                <!-- language selector -->
-                                <pb-lang name="lang" label="Language" data-template="pages:current-language">
-                                    <paper-item>en</paper-item>
-                                    <paper-item>de</paper-item>
-                                    <paper-item>fr</paper-item>
-                                    <paper-item>gr</paper-item>
-                                    <paper-item>it</paper-item>
-                                    <paper-item>pl</paper-item>
-                                </pb-lang>
-                            </pb-media-query>
                             <pb-login id="login" login-label="i18n(login)" logout-label="i18n(logout)" group="tei">
                                 <iron-icon slot="icon" icon="account-circle"/>
                             </pb-login>
-                            <pb-progress indeterminate="indeterminate" bottom-item="bottom-item"/>
-                        </app-toolbar>
-                        <pb-media-query query="max-width: 1023px">
-                            <app-toolbar class="toolbar" sticky="sticky">
-                                <!-- Search input -->
+
+                    </div>
+                </app-drawer>
+                <app-header-layout>
+                    <app-header slot="header" data-template="browse:fix-links" condenses="condenses" fixed="fixed" effects="parallax-background blend-background resize-title">
+
+                        <app-toolbar style="height:64px;">
+                            <div condensed-title="condensed-title" data-template="config:app-title"/>
                                 <pb-search action="${app}/search.html" data-template="pages:parse-params" value="${query}" place-holder="i18n(search-query-attr)" redirect="redirect"/>
                                 <paper-icon-button icon="icons:menu" drawer-toggle="drawer-toggle"/>
+                            <pb-progress indeterminate="indeterminate" bottom-item="bottom-item"/>
                             </app-toolbar>
-                        </pb-media-query>
+
+                        <div class="cropper">
+                            <img class="portrait" src="resources/images/SelbstPortrait_VG2.jpg"/>
+                        </div>
+                        <h1 class="tp-title" main-title="main-title" data-template="config:app-title"/>
+                        <pb-progress indeterminate="indeterminate" bottom-item="bottom-item"/>
                     </app-header>
 
                     <main>
-                        <section>
-                            <h1 class="tp-title" data-template="config:app-title"/>
-                        </section>
+                            <pb-paginate id="paginate" per-page="10" range="5" found-label="i18n(browsing)" subscribe="docs" emit="docs"/>
                         <section class="panels">
-                            <paper-card class="documents" heading="i18n(documents)">
-                                <div class="card-content">
-                                    <pb-browse-docs id="document-list" url="templates/documents.html" sort-label="i18n(sort-by)" sort-options="[{&#34;label&#34;: &#34;Title&#34;, &#34;value&#34;: &#34;title&#34;},{&#34;label&#34;: &#34;From&#34;, &#34;value&#34;: &#34;from&#34;},{&#34;label&#34;: &#34;To&#34;, &#34;value&#34;: &#34;to&#34;}]" sort-by="title" filter-options="[{&#34;label&#34;: &#34;Title&#34;, &#34;value&#34;: &#34;title&#34;},{&#34;label&#34;: &#34;From&#34;, &#34;value&#34;: &#34;from&#34;},{&#34;label&#34;: &#34;To&#34;, &#34;value&#34;: &#34;to&#34;}]" filter-by="title" auto="auto" history="history" login="login"
-                                    emit="docs" subscribe="docs">
+
+                                    <pb-browse-docs id="document-list" url="templates/documents.html" sort-label="i18n(sort-by)" sort-options="[{&#34;label&#34;: &#34;Title&#34;, &#34;value&#34;: &#34;title&#34;},{&#34;label&#34;: &#34;From&#34;, &#34;value&#34;: &#34;from&#34;},{&#34;label&#34;: &#34;To&#34;, &#34;value&#34;: &#34;to&#34;}]" sort-by="title" filter-options="[{&#34;label&#34;: &#34;Title&#34;, &#34;value&#34;: &#34;title&#34;},{&#34;label&#34;: &#34;From&#34;, &#34;value&#34;: &#34;from&#34;},{&#34;label&#34;: &#34;To&#34;, &#34;value&#34;: &#34;to&#34;}]" filter-by="title" auto="auto" history="history" login="login" emit="docs" subscribe="docs">
+                                    <!--
                                         <pb-paginate slot="toolbar" id="paginate" per-page="10" range="5" found-label="i18n(browsing)" subscribe="docs" emit="docs"/>
+                                        -->
                                     </pb-browse-docs>
-                                </div>
-                            </paper-card>
                             <aside>
-                                <paper-card class="facets" heading="Facets">
+                                <paper-card class="facets">
                                     <div class="card-content">
                                         <pb-facets id="facets" url="modules/facets.xql" event="pb-results-received" subscribe="docs" emit="docs"/>
-                                    </div>
-                                </paper-card>
-                                <paper-card class="upload" heading="i18n(upload)">
-                                    <div class="card-content">
-                                        <pb-upload id="upload"/>
                                     </div>
                                 </paper-card>
                             </aside>
