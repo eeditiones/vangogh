@@ -66,7 +66,7 @@
                     --pb-lang-item-color: white;
                     --pb-lang-label-color:white;
                 }
-
+                
                 .cropper{
                     width:49px;
                     height:49px;
@@ -74,12 +74,13 @@
                     border-radius:50%;
                     margin-right:10px;
                 }
-                
+
                 main {
                     display: flex;
                     flex-direction: row;
                     background:#e5efed;
                     padding:50px;
+                    margin-top:64px;
                 }
 
                 .search-panel {
@@ -117,12 +118,12 @@
                     margin-bottom: 15px;
                     padding: 8px;
                 }
-
+                
                 #results paper-card header{
                     border-bottom: thin solid var(--paper-grey-300);
                     padding-bottom:6px;
                 }
-
+                
                 #results paper-card .breadcrumbs{
                     margin-top:10px 0 0 0;
                 }
@@ -194,11 +195,13 @@
                     padding-left: 1em;
                     vertical-align: middle;
                 }
-
+                
                 .document-nav{
                     background:#56aebc;
                     color:white;
                     z-index:-1;
+                    position:absolute;
+                    width:100%;
                 }
             </style>
         </custom-style>
@@ -210,9 +213,9 @@
                 <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall" data-template="browse:fix-links">
                     <app-toolbar class="menubar">
                         <div class="cropper">
-                        <a href="$app/index.html" class="logo">
-                            <img src="resources/images/vincent.jpg"/>
-                        </a>
+                            <a href="$app/index.html" class="logo">
+                                <img src="resources/images/vincent.jpg"/>
+                            </a>
                         </div>
                         <a href="$app/index.html">Start</a>
 
@@ -243,14 +246,12 @@
                     <div class="search-panel">
                         <paper-card>
                             <div class="card-content">
-                                <pb-search id="search-form" place-holder="i18n(search-query-attr)" data-template="pages:parse-params" value="${query}" submit-on-load="submit-on-load"
-                                    subscribe="search">
+                                <pb-search id="search-form" place-holder="i18n(search-query-attr)" data-template="pages:parse-params" value="${query}" submit-on-load="submit-on-load" subscribe="search">
                                     <div class="targets">
                                         <paper-checkbox name="tei-target" value="tei-text">Search sections</paper-checkbox>
                                         <paper-checkbox name="tei-target" value="tei-head">Search headings</paper-checkbox>
                                     </div>
-                                    <pb-facets id="facets" url="modules/facets.xql" subscribe="results" event="pb-results-received"
-                                        emit="search"/>
+                                    <pb-facets id="facets" url="modules/facets.xql" subscribe="results" event="pb-results-received" emit="search"/>
                                 </pb-search>
                             </div>
                         </paper-card>
