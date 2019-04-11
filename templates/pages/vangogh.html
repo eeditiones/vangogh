@@ -61,24 +61,33 @@
                     };
                 }
                 
+                .cropper{
+                    width:49px;
+                    height:49px;
+                    overflow:hidden;
+                    border-radius:50%;
+                    margin-right:10px;
+                }
+
                 app-toolbar pb-search {
                     --pb-search-label: white;
                 }
                 
                 .menubar a, .menubar paper-menu-button {
-                    color: black;
+                    color: white;
                     font-weight: 400;
                 }
                 
                 .menubar pb-login {
                     --pb-login-theme: {
-                        color: black;
+                        color: white;
                         font-weight: 400;
                     }
                 }
 
                 .menubar pb-lang {
-                    --pb-lang-item-color: black;
+                    --pb-lang-label-color:white;
+                    --pb-lang-item-color: white;
                 }
                 
                 .logo img {
@@ -112,6 +121,8 @@
                     display: flex;
                     justify-content: center;
                     padding: 0 20px;
+                    background:#e5efed;
+                    height:100%;
                 }
 
                 .content-body pb-view {
@@ -126,6 +137,26 @@
                     display: flex;
                     justify-content: space-between;
                     align-self: center;
+                    background:#efe9d1;
+                    padding:10px 0 0 20px;
+                    margin:0;
+                }
+                .breadcrumbs pb-view{
+                    padding:4px;
+                    letter-spacing:1.5px;
+                }
+                pb-progress{
+                    --pb-progress-color:#2b7d8d;
+                }
+                .toolbar{
+                    background:#56aebc !important;
+                    color:white;
+                }
+                .menubar{
+                    color:white;
+                }
+                pb-grid-action{
+                    margin-top:-6px;
                 }
             </style>
         </custom-style>

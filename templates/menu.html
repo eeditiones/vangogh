@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <app-toolbar xmlns:i18n="http://exist-db.org/xquery/i18n" class="menubar">
+    <div class="cropper">
     <a href="$app/index.html" class="logo">
         <img src="resources/images/vincent.jpg"/>
     </a>
+    </div>
     <pb-media-query query="min-width: 1024px">
         <a href="$app/index.html">Start</a>
         <paper-menu-button>
@@ -67,7 +69,6 @@
     <!-- Search input -->
     <pb-search action="${app}/search.html" data-template="pages:parse-params" value="${query}" place-holder="i18n(search-query-attr)" redirect="redirect"/>
     <pb-media-query query="min-width: 1024px">
-       <!-- language selector -->
        <pb-lang name="lang" label="Language" data-template="pages:current-language">
            <paper-item>en</paper-item>
            <paper-item>de</paper-item>
