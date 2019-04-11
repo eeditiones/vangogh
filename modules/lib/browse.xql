@@ -26,6 +26,7 @@ import module namespace tpu="http://www.tei-c.org/tei-publisher/util" at "lib/ut
 import module namespace pm-config="http://www.tei-c.org/tei-simple/pm-config" at "../pm-config.xql";
 import module namespace nav="http://www.tei-c.org/tei-simple/navigation" at "../navigation.xql";
 import module namespace query="http://www.tei-c.org/tei-simple/query" at "../query.xql";
+import module namespace console="http://exist-db.org/xquery/console" at "java:org.exist.console.xquery.ConsoleModule";
 
 declare namespace expath="http://expath.org/ns/pkg";
 declare namespace tei="http://www.tei-c.org/ns/1.0";
@@ -100,7 +101,9 @@ function app:list-works($node as node(), $model as map(*), $filter as xs:string?
         else if (exists($cached) and $filter = session:get-attribute("teipublisher.filter")) then
             $cached
         else
-            $config:data-root ! collection(. || "/" || $root)//tei:body[ft:query(., (), app:options($sort))]/ancestor::tei:TEI
+            let $options := app:options($sort)
+            return
+                $config:data-root ! collection(. || "/" || $root)//tei:body[ft:query(., (), $options)]/ancestor::tei:TEI
     let $sorted := app:sort($filtered, $sort)
     return (
         session:set-attribute('apps.simple', $filtered),
@@ -116,6 +119,7 @@ function app:list-works($node as node(), $model as map(*), $filter as xs:string?
 };
 
 declare function app:options($sortBy as xs:string) {
+    console:log("Facets: " || string-join(request:get-parameter("facet-date", ()), ' ')),
     map {
         "facets":
             map:merge((

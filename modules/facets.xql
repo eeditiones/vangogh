@@ -18,17 +18,23 @@ declare function local:sort($facets as map(*)?) {
 };
 
 
-declare function local:print-table($dimension as xs:string, $facets as array(*)) {
+declare function local:print-table($node as element(), $dimension as xs:string, $values as xs:string*, $params as xs:string*,
+    $all as xs:string?) {
     <table>
     {
-        let $params := request:get-parameter("facet-" || $dimension, ())
+        let $count := if ($all) then () else 10
+        let $facets :=
+            if (exists($values)) then
+                ft:facets($node, $dimension, $count, $values)
+            else
+                ft:facets($node, $dimension, $count)
         return
-            array:for-each($facets, function($entry) {
+            array:for-each(local:sort($facets), function($entry) {
                 map:for-each($entry, function($label, $count) {
                     <tr>
                         <td>
                             <paper-checkbox class="facet" name="facet-{$dimension}" value="{$label}">
-                                { if ($label = $params) then attribute checked { "checked" } else () }
+                                { if ($label = $params[1]) then attribute checked { "checked" } else () }
                                 {
                                     switch ($dimension)
                                         case "mentions" return
@@ -41,27 +47,33 @@ declare function local:print-table($dimension as xs:string, $facets as array(*))
                         <td>{$count}</td>
                     </tr>
                 })
-            })
+            }),
+        if (empty($params)) then
+            ()
+        else
+            <tr>
+                <td colspan="2">
+                {local:print-table($node, $dimension, ($values, head($params)), tail($params), $all)}
+                </td>
+            </tr>
     }
     </table>
 };
 
 declare function local:display($title as xs:string, $node as element(), $dimension as xs:string, $all as xs:string?) {
-    let $facets :=
-        if ($all) then
-            ft:facets($node, $dimension)
-        else
-            ft:facets($node, $dimension, 10)
-    return
-        <div>
-            <h3>{$title}
-                <paper-checkbox class="facet" name="all-{$dimension}">
-                    { if ($all) then attribute checked { "checked" } else () }
-                    Show all
-                </paper-checkbox>
-            </h3>
-            {local:print-table($dimension, local:sort($facets))}
-        </div>
+    <div>
+        <h3>{$title}
+            <paper-checkbox class="facet" name="all-{$dimension}">
+                { if ($all) then attribute checked { "checked" } else () }
+                Show all
+            </paper-checkbox>
+        </h3>
+        {
+            let $params := request:get-parameter("facet-" || $dimension, ())
+            return
+                local:print-table($node, $dimension, (), $params, $all)
+        }
+    </div>
 };
 
 
