@@ -72,8 +72,9 @@ declare function teis:options() {
 
 
 declare function teis:query-metadata($field as xs:string, $query as xs:string, $sort as xs:string) {
+    let $options := map:merge((teis:options(), map { "fields": $sort }))
     for $rootCol in $config:data-root
-    for $doc in collection($rootCol)//tei:body[ft:query(., $field || ":" || $query, map { "fields": $sort })]
+    for $doc in collection($rootCol)//tei:body[ft:query(., $field || ":" || $query, $options)]
     return
         $doc/ancestor::tei:TEI
 };
@@ -83,17 +84,17 @@ declare function teis:autocomplete($doc as xs:string?, $fields as xs:string+, $q
     return
         switch ($field)
             case "from" return
-                collection($config:data-root)/ft:index-keys-for-field("from", $q, 
+                collection($config:data-root)/ft:index-keys-for-field("from", $q,
                     function($key, $count) {
                         $key
                     }, 30)
             case "to" return
-                collection($config:data-root)/ft:index-keys-for-field("to", $q, 
+                collection($config:data-root)/ft:index-keys-for-field("to", $q,
                     function($key, $count) {
                         $key
                     }, 30)
             default return
-                collection($config:data-root)/ft:index-keys-for-field("title", $q, 
+                collection($config:data-root)/ft:index-keys-for-field("title", $q,
                     function($key, $count) {
                         $key
                     }, 30)

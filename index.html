@@ -42,7 +42,8 @@
                 }
                 pb-page{
                     background-image: url('resources/images/vvg-almond-blossom-lr.jpg');
-                    height:2000px;
+                    background-repeat: repeat-y;
+                    // height:2000px;
                 }
                 app-header{
                     position:fixed;
@@ -57,7 +58,7 @@
                      };
 
                   --app-header-background-rear-layer: {
-                      background:#5f8eaa;
+                      background: #6d9ca2;
                   };
 
                 }
@@ -120,14 +121,6 @@
                     --pb-download: {
                         color: black;
                     };
-                }
-
-                app-toolbar pb-search {
-                    --pb-search-label:var(--paper-grey-200);
-
-                    width:200px;
-                    display:block;
-                    margin:0 auto;
                 }
 
                 .menubar a, .menubar paper-menu-button {
@@ -219,6 +212,8 @@
                 .panels pb-browse-docs{
                     margin-right:20px;
                     flex:3;
+                    --pb-search-label: #ffffff;
+                    --pb-search-input: #ffffff;
                 }
 
                 .documents{
@@ -368,20 +363,28 @@
                 //     display:block;
                 //     width:100%;
                 // }
-                pb-search{
-                    margin:0;
-                    display:inline-block;
+                pb-search {
+                    --pb-search-label: #ffffff;
+                    --pb-search-input: #ffffff;
+                    width:200px;
+                    display:block;
                 }
                 .condensed paper-icon-button{
                     color:black;
                 }
 
                 pb-browse-docs{
-                    --justify-toolbar-content:flex-start;
-                    --display-toolbar:none;
+                    --justify-toolbar-content: space-between;
                 }
                 pb-login{
                     width:100%;
+                }
+                footer {
+                    background: #afad87 !important;
+                    padding: 10px 20px;
+                }
+                footer a, a:link {
+                    color: white;
                 }
             </style>
         </custom-style>
@@ -412,7 +415,6 @@
 
                         <app-toolbar style="height:64px;">
                             <div condensed-title="condensed-title" data-template="config:app-title"/>
-                                <pb-search action="${app}/search.html" data-template="pages:parse-params" value="${query}" place-holder="i18n(search-query-attr)" redirect="redirect"/>
                                 <paper-icon-button icon="icons:menu" drawer-toggle="drawer-toggle"/>
                             <pb-progress indeterminate="indeterminate" bottom-item="bottom-item"/>
                             </app-toolbar>
@@ -428,13 +430,14 @@
                             <pb-paginate id="paginate" per-page="10" range="5" found-label="i18n(browsing)" subscribe="docs" emit="docs"/>
                         <section class="panels">
 
-                            <pb-browse-docs id="document-list" url="templates/documents.html" sort-label="i18n(sort-by)" sort-options="[{&#34;label&#34;: &#34;Date&#34;, &#34;value&#34;: &#34;date&#34;},{&#34;label&#34;: &#34;Title&#34;, &#34;value&#34;: &#34;title&#34;},{&#34;label&#34;: &#34;From&#34;, &#34;value&#34;: &#34;from&#34;},{&#34;label&#34;: &#34;To&#34;, &#34;value&#34;: &#34;to&#34;}]" sort-by="title" filter-options="[{&#34;label&#34;: &#34;Title&#34;, &#34;value&#34;: &#34;title&#34;},{&#34;label&#34;: &#34;From&#34;, &#34;value&#34;: &#34;from&#34;},{&#34;label&#34;: &#34;To&#34;, &#34;value&#34;: &#34;to&#34;}]" filter-by="title" auto="auto" history="history" login="login"
+                            <pb-browse-docs id="document-list" url="templates/documents.html" sort-label="i18n(sort-by)" sort-options="[{&#34;label&#34;: &#34;Date&#34;, &#34;value&#34;: &#34;date&#34;},{&#34;label&#34;: &#34;Title&#34;, &#34;value&#34;: &#34;title&#34;},{&#34;label&#34;: &#34;From&#34;, &#34;value&#34;: &#34;from&#34;},{&#34;label&#34;: &#34;To&#34;, &#34;value&#34;: &#34;to&#34;}]" sort-by="date" filter-options="[{&#34;label&#34;: &#34;Title&#34;, &#34;value&#34;: &#34;title&#34;},{&#34;label&#34;: &#34;From&#34;, &#34;value&#34;: &#34;from&#34;},{&#34;label&#34;: &#34;To&#34;, &#34;value&#34;: &#34;to&#34;}]" filter-by="title" auto="auto" history="history" login="login"
                             emit="docs" subscribe="docs">
                                     <!--
                                         <pb-paginate slot="toolbar" id="paginate" per-page="10" range="5" found-label="i18n(browsing)" subscribe="docs" emit="docs"/>
                                         -->
                                     </pb-browse-docs>
                             <aside>
+                                <pb-search action="${app}/search.html" data-template="pages:parse-params" value="${query}" place-holder="i18n(search-query-attr)" redirect="redirect"/>
                                 <paper-card class="facets">
                                     <div class="card-content">
                                         <pb-facets id="facets" url="modules/facets.xql" event="pb-results-received" subscribe="docs" emit="docs"/>
@@ -443,7 +446,14 @@
                             </aside>
                         </section>
                     </main>
-
+                    <footer>
+                        <p>This is a demo for <a href="https://teipublisher.com">TEI Publisher</a> and <a href="https://exist-db.org">eXist 5.0</a> based on
+                        data provided under a CC BY-NC-SA 4.0 license. For the canonical version see
+                        Leo Jansen, Hans Luijten, Nienke Bakker (eds.) (2009),
+                        <a href="http://vangoghletters.org">Vincent van Gogh - The Letters</a>.
+                        Version: December 2010. Amsterdam &amp; The Hague: Van Gogh Museum &amp; Huygens ING. Facsimile images
+                        are hosted by Van Gogh Museum &amp; Huygens ING.</p>
+                    </footer>
                 </app-header-layout>
             </app-drawer-layout>
             <paper-dialog id="downloadDialog">
