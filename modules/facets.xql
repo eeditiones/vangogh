@@ -49,14 +49,13 @@ $all as xs:string?, $hierarchical as xs:boolean?) {
                         </tr>
                     })
                 }),
-                (: 1882 :)
                 if (empty($params)) then
                     ()
                 else
                     let $nested := local:print-table($node, $dimension, ($values, head($params)), tail($params), $all, $hierarchical)
                     return
                         if ($nested) then
-                            <tr>
+                            <tr class="nested">
                                 <td colspan="2">
                                 {$nested}
                                 </td>
