@@ -33,28 +33,28 @@
                 .logo img {
                     width: auto;
                 }
-                
+
                 .menubar {
                     background-color: #EECC66;
                     background-image: url('resources/images/background.jpg');
-                    
+
                     --pb-download: {
                         color: white;
                     };
                 }
-                
+
                 app-header{
                     background:white;
                 }
                 app-toolbar pb-search {
                     --pb-search-label: white;
                 }
-                
+
                 .menubar a, .menubar paper-menu-button {
                     color: white;
                     font-weight: 400;
                 }
-                
+
                 .menubar pb-login {
                     --pb-login-theme: {
                         color: white;
@@ -66,7 +66,7 @@
                     --pb-lang-item-color: white;
                     --pb-lang-label-color:white;
                 }
-                
+
                 .cropper{
                     width:49px;
                     height:49px;
@@ -118,12 +118,12 @@
                     margin-bottom: 15px;
                     padding: 8px;
                 }
-                
+
                 #results paper-card header{
                     border-bottom: thin solid var(--paper-grey-300);
                     padding-bottom:6px;
                 }
-                
+
                 #results paper-card .breadcrumbs{
                     margin-top:10px 0 0 0;
                 }
@@ -184,18 +184,18 @@
                     align-self: center;
                     justify-content: space-between;
                 }
-                
+
                 #facets h3 paper-checkbox {
                     font-size: 85%;
                 }
-                
+
                 #facets table td:nth-child(2) {
                     color: #808080;
                     text-align: right;
                     padding-left: 1em;
                     vertical-align: middle;
                 }
-                
+
                 .document-nav{
                     background:#56aebc;
                     color:white;
@@ -258,6 +258,27 @@
                     </div>
                 </main>
             </app-header-layout>
+            <script>
+                const facets = document.getElementById('facets');
+                console.log(facets);
+                facets.addEventListener('pb-facets-loaded', function(ev) {
+                    const elems = ev.detail.querySelectorAll('.facet');
+                    console.log(elems.length);
+                    elems.forEach(facet => {
+                        facet.addEventListener('change', () => {
+                            const table = facet.closest('table');
+                            if (table) {
+                                const nested = table.querySelectorAll('.nested .facet').forEach(nested => {
+                                    if (nested != facet) {
+                                        nested.checked = false;
+                                    }
+                                });
+                            }
+                            facets._submit();
+                        });
+                    });
+                });
+            </script>
             <paper-dialog id="errorDialog">
                 <h2>Error</h2>
                 <paper-dialog-scrollable/>

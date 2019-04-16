@@ -453,6 +453,26 @@
                     </footer>
                 </app-header-layout>
             </app-drawer-layout>
+            <script>
+                const facets = document.getElementById('facets');
+                facets.addEventListener('pb-facets-loaded', function(ev) {
+                    const elems = ev.detail.querySelectorAll('.facet');
+                    console.log('facets: %d', elems.length);
+                    elems.forEach(facet => {
+                        facet.addEventListener('change', () => {
+                            const table = facet.closest('table');
+                            if (table) {
+                                const nested = table.querySelectorAll('.nested .facet').forEach(nested => {
+                                    if (nested != facet) {
+                                        nested.checked = false;
+                                    }
+                                });
+                            }
+                            facets.submit();
+                        });
+                    });
+                });
+            </script>
             <paper-dialog id="downloadDialog">
                 <h2>
                     <i18n:text key="generating-file">Generating File...</i18n:text>
@@ -485,22 +505,5 @@
                 </div>
             </paper-dialog>
         </pb-page>
-        <script>
-            window.addEventListener('load', function() {
-                const facets = document.getElementById('facets');
-                facets.addEventListener('pb-facets-loaded', function(ev) {
-                    document.querySelectorAll('.facet').forEach(facet => {
-                        facet.addEventListener('change', () => {
-                            const nested = facet.closest('table').querySelectorAll('.nested .facet').forEach(nested => {
-                                if (nested != facet) {
-                                    nested.checked = false;
-                                }
-                            });
-                            facets._submit();
-                        });
-                    });
-                });
-            });
-        </script>
     </body>
 </html>
