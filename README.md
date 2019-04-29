@@ -6,3 +6,7 @@ For the canonical version see Leo Jansen, Hans Luijten, Nienke Bakker (eds.) (20
 Version: December 2010. Amsterdam & The Hague: Van Gogh Museum & Huygens ING. 
 
 Facsimile images are hosted by Van Gogh Museum & Huygens ING.
+
+## Demo
+
+[teipublisher.com/vangogh](https://teipublisher.com/exist/apps/vangogh/index.html)
