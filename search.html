@@ -261,7 +261,7 @@
             <script>
                 const facets = document.getElementById('facets');
                 console.log(facets);
-                facets.addEventListener('pb-facets-loaded', function(ev) {
+                facets.addEventListener('pb-custom-form-loaded', function(ev) {
                     const elems = ev.detail.querySelectorAll('.facet');
                     console.log(elems.length);
                     elems.forEach(facet => {
