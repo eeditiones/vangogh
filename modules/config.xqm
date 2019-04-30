@@ -65,6 +65,39 @@ declare variable $config:pagination-depth := 10;
  :)
 declare variable $config:pagination-fill := 5;
 
+declare variable $config:facets := [
+    map {
+        "dimension": "from",
+        "heading": "From",
+        "max": 5,
+        "hierarchical": false()
+    },
+    map {
+        "dimension": "to",
+        "heading": "To",
+        "max": 5,
+        "hierarchical": false()
+    },
+    map {
+        "dimension": "date",
+        "heading": "Date",
+        "max": 5,
+        "hierarchical": true()
+    },
+    map {
+        "dimension": "place",
+        "heading": "Place",
+        "max": 5,
+        "hierarchical": false()
+    },
+    map {
+        "dimension": "mentions",
+        "heading": "Mentions",
+        "max": 5,
+        "hierarchical": false()
+    }
+];
+
 (:
  : The function to be called to determine the next content chunk to display.
  : It takes two parameters:
