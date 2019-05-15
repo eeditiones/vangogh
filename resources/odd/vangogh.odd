@@ -145,6 +145,8 @@ text-indent: 20px;
                     <model behaviour="inline"/>
                 </elementSpec>
                 <elementSpec ident="c" mode="change">
+                <model predicate="@type='shy' and $parameters?view='normalized'" behaviour="omit"/>
+                <model predicate="@type='shy'" behaviour="inline"/>
                     <model predicate="@type='kk'" behaviour="inline">
             <param name="content" value="','"/>
         </model>
