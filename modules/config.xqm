@@ -187,6 +187,13 @@ declare variable $config:tex-command := function($file) {
     ( "/usr/local/bin/pdflatex", "-interaction=nonstopmode", $file )
 };
 
+(:
+ : Temporary directory to write .tex output to. The LaTeX process will receive this
+ : as working director.
+ :)
+declare variable $config:tex-temp-dir :=
+    util:system-property("java.io.tmpdir");
+
 (:~
  : Configuration for epub files.
  :)
@@ -239,7 +246,15 @@ declare variable $config:app-root :=
 
 declare variable $config:data-root :=$config:app-root || "/data";
 
-declare variable $config:data-exclude := ();
+(:~
+ : The root of the collection hierarchy whose files should be displayed
+ : on the entry page. Can be different from $config:data-root.
+ :)
+declare variable $config:data-default := $config:data-root;
+
+declare variable $config:data-exclude :=
+    doc($config:data-root || "/taxonomy.xml")/tei:TEI
+;
 
 declare variable $config:default-odd :="vangogh.odd";
 
@@ -256,6 +271,8 @@ declare variable $config:module-config := doc($config:odd-root || "/configuratio
 declare variable $config:repo-descriptor := doc(concat($config:app-root, "/repo.xml"))/repo:meta;
 
 declare variable $config:expath-descriptor := doc(concat($config:app-root, "/expath-pkg.xml"))/expath:package;
+
+declare variable $config:session-prefix := $config:expath-descriptor/@abbrev/string();
 
 (:~
  : Return an ID which may be used to look up a document. Change this if the xml:id

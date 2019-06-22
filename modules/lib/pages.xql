@@ -258,7 +258,7 @@ declare
 function pages:view($node as node(), $model as map(*), $action as xs:string) {
     let $view := pages:determine-view($model?config?view, $model?data)
     let $data :=
-        if ($action = "search" and exists(session:get-attribute("apps.simple.query"))) then
+        if ($action = "search" and exists(session:get-attribute($config:session-prefix || ".query"))) then
             query:expand($model?config, $model?data)
         else
             $model?data
@@ -408,32 +408,6 @@ declare function pages:get-content($config as map(*), $div as element()) {
     nav:get-content($config, $div)
 };
 
-declare function pages:breadcrumbs($node as node(), $model as map(*)) {
-    let $parent := ($model?data/self::tei:body, $model?data/ancestor-or-self::tei:div[1])[1]
-    let $parent-id := config:get-identifier($parent)
-
-    let $current-view:=
-        if($model?config?view != $config:default-view) then "&amp;view=" || $model?config?view else ()
-
-    let $current-odd:=
-        if($model?config?odd != $config:odd) then "&amp;odd=" || $model?config?odd else ()
-
-    return
-        <ol class="headings breadcrumb">
-            <li><a href="{$parent-id}">{nav:get-document-title($model?config, $model('data')/ancestor-or-self::tei:TEI)}</a></li>
-                {
-                    for $parentDiv in       $model?data/ancestor-or-self::tei:div[tei:head]
-                        let $id := util:node-id(
-                            if ($model?config?view = "page") then $parentDiv/preceding::tei:pb[1] else $parentDiv
-                        )
-                        return
-                            <li>
-                                <a href="{$parent-id}?root={$id}{$current-view}{$current-odd}">{$parentDiv/tei:head/string()}</a>
-                            </li>
-                }
-        </ol>
-};
-
 declare
     %templates:wrap
 function pages:navigation-title($node as node(), $model as map(*)) {
@@ -554,7 +528,7 @@ declare function pages:parse-params($node as node(), $model as map(*)) {
                                     let $found := [
                                         request:get-parameter($paramName, $default),
                                         $model($paramName),
-                                        session:get-attribute("apps.simple." || $paramName)
+                                        session:get-attribute($config:session-prefix || "." || $paramName)
                                     ]
                                     return
                                         array:fold-right($found, (), function($in, $value) {

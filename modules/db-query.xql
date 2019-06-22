@@ -24,11 +24,10 @@ declare namespace db="http://docbook.org/ns/docbook";
 import module namespace config="http://www.tei-c.org/tei-simple/config" at "config.xqm";
 import module namespace nav="http://www.tei-c.org/tei-simple/navigation/docbook" at "navigation-dbk.xql";
 
-declare variable $dbs:QUERY_OPTIONS :=
-    <options>
-        <leading-wildcard>yes</leading-wildcard>
-        <filter-rewrite>yes</filter-rewrite>
-    </options>;
+declare variable $dbs:QUERY_OPTIONS := map {
+    "leading-wildcard": "yes",
+    "filter-rewrite": "yes"
+};
 
 declare function dbs:query-default($fields as xs:string+, $query as xs:string, $target-texts as xs:string*) {
     if(string($query)) then
@@ -39,19 +38,36 @@ declare function dbs:query-default($fields as xs:string+, $query as xs:string, $
                     if ($target-texts) then
                         for $text in $target-texts
                         return
-                            $config:data-root ! doc(. || "/" || $text)//db:title[ft:query(., $query, $dbs:QUERY_OPTIONS)]
+                            $config:data-root ! doc(. || "/" || $text)//db:title[ft:query(., $query, dbs:options())]
                     else
                         collection($config:data-root)//db:title[ft:query(., $query, $dbs:QUERY_OPTIONS)]
                 default return
                     if ($target-texts) then
                         for $text in $target-texts
                         return
-                            $config:data-root ! doc(. || "/" || $text)//db:section[ft:query(., $query, $dbs:QUERY_OPTIONS)] |
-                            $config:data-root ! doc(. || "/" || $text)//db:article[ft:query(., $query, $dbs:QUERY_OPTIONS)]
+                            $config:data-root ! doc(. || "/" || $text)//db:section[ft:query(., $query, dbs:options())] |
+                            $config:data-root ! doc(. || "/" || $text)//db:article[ft:query(., $query, dbs:options())]
                     else
-                        collection($config:data-root)//db:section[ft:query(., $query, $dbs:QUERY_OPTIONS)] |
-                        collection($config:data-root)//db:article[ft:query(., $query, $dbs:QUERY_OPTIONS)]
+                        collection($config:data-root)//db:section[ft:query(., $query, dbs:options())] |
+                        collection($config:data-root)//db:article[ft:query(., $query, dbs:options())]
     else ()
+};
+
+declare function dbs:options() {
+    map:merge((
+        $dbs:QUERY_OPTIONS,
+        map {
+            "facets":
+                map:merge((
+                    for $param in request:get-parameter-names()[starts-with(., 'facet-')]
+                    let $dimension := substring-after($param, 'facet-')
+                    return
+                        map {
+                            $dimension: request:get-parameter($param, ())
+                        }
+                ))
+        }
+    ))
 };
 
 declare function dbs:autocomplete($doc as xs:string?, $fields as xs:string+, $q as xs:string) {
@@ -59,9 +75,15 @@ declare function dbs:autocomplete($doc as xs:string?, $fields as xs:string+, $q 
     return
         switch ($field)
             case "author" return
-                distinct-values(ft:search($config:data-root, "author:" || $q || "*", "author")//field)
+                collection($config:data-root)/ft:index-keys-for-field("author", $q,
+                    function($key, $count) {
+                        $key
+                    }, 30)
             case "file" return
-                distinct-values(ft:search($config:data-root, "file:" || $q || "*", "file")//field)
+                collection($config:data-root)/ft:index-keys-for-field("file", $q,
+                    function($key, $count) {
+                        $key
+                    }, 30)
             case "text" return
                 if ($doc) then (
                     doc($config:data-root || "/" || $doc)/util:index-keys-by-qname(xs:QName("db:section"), $q,
@@ -94,15 +116,15 @@ declare function dbs:autocomplete($doc as xs:string?, $fields as xs:string+, $q 
                             $key
                         }, 30, "lucene-index")
             default return
-                collection($config:data-root)/util:index-keys-by-qname(xs:QName("db:title"), $q,
+                collection($config:data-root)/ft:index-keys-for-field("title", $q,
                     function($key, $count) {
                         $key
-                    }, -1, "lucene-index")
+                    }, 30)
 };
 
 declare function dbs:query-metadata($field as xs:string, $query as xs:string, $sort as xs:string) {
-    for $doc in collection($config:data-root)//db:section[ft:query(., $field || ":" || $query, map { "fields": $sort })]
-    return
+    for $doc in collection($config:data-root)//db:section[ft:query(., $field || ":" || $query, map { "fields": $sort
+})]     return
         root($doc)/*
 };
 
@@ -132,8 +154,8 @@ declare function dbs:get-breadcrumbs($config as map(*), $hit as element(), $pare
  : on it.
  :)
 declare function dbs:expand($data as element()) {
-    let $query := session:get-attribute("apps.simple.query")
-    let $field := session:get-attribute("apps.simple.field")
+    let $query := session:get-attribute($config:session-prefix || ".query")
+    let $field := session:get-attribute($config:session-prefix || ".field")
     let $div := $data
     let $expanded :=
         util:expand(dbs:query-default-view($div, $query, $field), "add-exist-id=all")

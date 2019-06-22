@@ -42,6 +42,10 @@ declare %private function nav:dispatch($config as map(*), $function as xs:string
             ()
 };
 
+declare function nav:get-root($root as xs:string?, $options as map(*)?) {
+    tei-nav:get-root($root, $options)
+};
+
 declare function nav:get-header($config as map(*), $node as element()) {
     nav:dispatch($config, "get-header", [$config, $node])
 };
@@ -76,6 +80,13 @@ declare function nav:get-section-heading($config as map(*), $section as node()) 
 
 declare function nav:get-first-page-start($config as map(*), $data as node()) {
     nav:dispatch($config, "get-first-page-start", [$config, $data])
+};
+
+declare function nav:sort($sortBy as xs:string, $items as element()*) {
+    if (empty($items)) then
+        ()
+    else
+        nav:dispatch(map { "type": nav:document-type(head($items)) }, "sort", [$sortBy, $items])
 };
 
 declare function nav:get-content($config as map(*), $div as element()) {

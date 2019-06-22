@@ -15,7 +15,7 @@
  :  You should have received a copy of the GNU General Public License
  :  along with this program.  If not, see <http://www.gnu.org/licenses/>.
  :)
-xquery version "3.0";
+xquery version "3.1";
 
 module namespace app="http://www.tei-c.org/tei-simple/templates";
 
@@ -55,28 +55,13 @@ declare
     %templates:wrap
 function app:sort($items as element()*, $sortBy as xs:string?) {
     let $items :=
-        if (count($config:data-exclude) = 1) then
-            $items[not(matches(util:collection-name(.), $config:data-exclude))]
+        if (exists($config:data-exclude)) then
+            $items except $config:data-exclude
         else
             $items
     return
         if ($sortBy) then
-            for $item in $items
-            let $field :=
-                if ($sortBy = "date") then
-                    ft:field($item, "date", "xs:date")
-                else
-                    ft:field($item, $sortBy)
-            let $content :=
-                if (exists($field)) then
-                    $field
-                else
-                    let $data := nav:get-metadata(map { "type": nav:document-type($item) }, $item, $sortBy)
-                    return
-                        replace(string-join($data, " "), "^\s*(.*)$", "$1", "m")
-            order by $content
-            return
-                $item
+            nav:sort($sortBy, $items)
         else
             $items
 };
@@ -90,32 +75,52 @@ declare
     %templates:default("sort", "title")
 function app:list-works($node as node(), $model as map(*), $filter as xs:string?, $root as xs:string,
     $browse as xs:string?, $odd as xs:string?, $sort as xs:string) {
-    let $odd := ($odd, session:get-attribute("teipublisher.odd"))[1]
+    let $params := app:params2map()
+    let $odd := ($odd, session:get-attribute($config:session-prefix || ".odd"))[1]
     let $oddAvailable := $odd and doc-available($config:odd-root || "/" || $odd)
     let $odd := if ($oddAvailable) then $odd else $config:default-odd
-    let $cached := session:get-attribute("teipublisher.works")
+    let $cached := session:get-attribute($config:session-prefix || ".works")
     let $filtered :=
-        if (exists($filter)) then
-            query:query-metadata($browse, $filter, $sort)
-        else if (exists($cached) and $filter = session:get-attribute("teipublisher.filter")) then
+        if (app:use-cache($params, $cached)) then
             $cached
+        else if (exists($filter)) then
+            query:query-metadata($browse, $filter, $sort)
         else
             let $options := app:options($sort)
             return
-                $config:data-root ! collection(. || "/" || $root)//tei:body[ft:query(., (), $options)]/ancestor::tei:TEI
+                nav:get-root($root, $options)
     let $sorted := app:sort($filtered, $sort)
     return (
-        session:set-attribute('apps.simple', $filtered),
-        session:set-attribute("teipublisher.works", $sorted),
-        session:set-attribute("teipublisher.browse", $browse),
-        session:set-attribute("teipublisher.filter", $filter),
-        session:set-attribute("teipublisher.odd", $odd),
+        session:set-attribute($config:session-prefix || ".timestamp", current-dateTime()),
+        session:set-attribute($config:session-prefix || '.hits', $filtered),
+        session:set-attribute($config:session-prefix || '.params', $params),
+        session:set-attribute($config:session-prefix || ".works", $sorted),
+        session:set-attribute($config:session-prefix || ".odd", $odd),
         map {
             "all" : $sorted,
             "mode": "browse"
         }
     )
 };
+
+declare %private function app:params2map() {
+    map:merge(
+        for $param in request:get-parameter-names()[not(. = ("start", "per-page"))]
+        return
+            map:entry($param, request:get-parameter($param, ()))
+    )
+};
+
+declare function app:use-cache($params as map(*), $cached) {
+    let $cachedParams := session:get-attribute($config:session-prefix || ".params")
+    let $timestamp := session:get-attribute($config:session-prefix || ".timestamp")
+    return
+        if (exists($cached) and exists($cachedParams) and deep-equal($params, $cachedParams) and exists($timestamp)) then
+            empty(xmldb:find-last-modified-since(collection($config:data-root), $timestamp))
+        else
+            false()
+};
+
 
 declare function app:options($sortBy as xs:string) {
     map {
@@ -128,7 +133,9 @@ declare function app:options($sortBy as xs:string) {
                         $dimension: request:get-parameter($param, ())
                     }
             )),
-        "fields": $sortBy
+        "fields": $sortBy,
+        "leading-wildcard": "yes",
+        "filter-rewrite": "yes"
     }
 };
 

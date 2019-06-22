@@ -17,20 +17,20 @@ declare function local:sort($facets as map(*)?) {
     }
 };
 
-declare function local:print-table($config as map(*), $node as element(), $values as xs:string*, $params as xs:string*) {
+declare function local:print-table($config as map(*), $nodes as element()+, $values as xs:string*, $params as xs:string*) {
     let $all := exists($config?max) and request:get-parameter("all-" || $config?dimension, ())
-    let $count := if ($all) then () else $config?max
+    let $count := if ($all) then 50 else $config?max
     let $facets :=
         if (exists($values)) then
-            ft:facets($node, $config?dimension, $count, $values)
+            ft:facets($nodes, $config?dimension, $count, $values)
         else
-            ft:facets($node, $config?dimension, $count)
+            ft:facets($nodes, $config?dimension, $count)
     return
         if (map:size($facets) > 0) then
             <table>
             {
                 array:for-each(local:sort($facets), function($entry) {
-                    map:for-each($entry, function($label, $count) {
+                    map:for-each($entry, function($label, $freq) {
                         <tr>
                             <td>
                                 <paper-checkbox class="facet" name="facet-{$config?dimension}" value="{$label}">
@@ -44,14 +44,14 @@ declare function local:print-table($config as map(*), $node as element(), $value
                                     }
                                 </paper-checkbox>
                             </td>
-                            <td>{$count}</td>
+                            <td>{$freq}</td>
                         </tr>
                     })
                 }),
                 if (empty($params)) then
                     ()
                 else
-                    let $nested := local:print-table($config, $node, ($values, head($params)), tail($params))
+                    let $nested := local:print-table($config, $nodes, ($values, head($params)), tail($params))
                     return
                         if ($nested) then
                             <tr class="nested">
@@ -67,34 +67,38 @@ declare function local:print-table($config as map(*), $node as element(), $value
             ()
 };
 
-declare function local:display($config as map(*), $node as element()) {
-    <div>
-        <h3>{$config?heading}
-        {
-            if (exists($config?max)) then
-                <paper-checkbox class="facet" name="all-{$config?dimension}">
-                    { if (request:get-parameter("all-" || $config?dimension, ())) then attribute checked { "checked" } else () }
-                    Show all
-                </paper-checkbox>
-            else
-                ()
-        }
-        </h3>
-        {
-            let $params := request:get-parameter("facet-" || $config?dimension, ())
-            return
-                local:print-table($config, $node, (), $params)
-        }
-    </div>
+declare function local:display($config as map(*), $nodes as element()+) {
+    let $params := request:get-parameter("facet-" || $config?dimension, ())
+    let $table := local:print-table($config, $nodes, (), $params)
+    where $table
+    return
+        <div>
+            <h3>{$config?heading}
+            {
+                if (exists($config?max)) then
+                    <paper-checkbox class="facet" name="all-{$config?dimension}">
+                        { if (request:get-parameter("all-" || $config?dimension, ())) then attribute checked { "checked" } else () }
+                        Show top
+50                     </paper-checkbox>
+                else
+                
+   ()     
+       } 
+        
+  </h3>             {   
+            
+$table   
+         }
+        </div>
 };
 
-let $hits := session:get-attribute("apps.simple")
+let $hits := session:get-attribute($config:session-prefix || ".hits")
 where count($hits) > 0
 return
     <div>
     {
         for $config in $config:facets?*
         return
-            local:display($config, $hits[1])
+            local:display($config, $hits)
     }
     </div>
