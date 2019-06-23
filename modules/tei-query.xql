@@ -45,10 +45,8 @@ declare function teis:query-default($fields as xs:string+, $query as xs:string, 
                     if ($target-texts) then
                         for $text in $target-texts
                         return
-                            $config:data-root ! doc(. || "/" || $text)//tei:div[ft:query(., $query, teis:options())] |
                             $config:data-root ! doc(. || "/" || $text)//tei:body[ft:query(., $query, teis:options())]
                     else
-                        collection($config:data-root)//tei:div[ft:query(., $query, teis:options())] |
                         collection($config:data-root)//tei:body[ft:query(., $query, teis:options())]
     else ()
 };
@@ -93,11 +91,16 @@ declare function teis:autocomplete($doc as xs:string?, $fields as xs:string+, $q
                     function($key, $count) {
                         $key
                     }, 30)
-            default return
+            case "title" return
                 collection($config:data-root)/ft:index-keys-for-field("title", $q,
                     function($key, $count) {
                         $key
                     }, 30)
+            default return
+                collection($config:data-root)/util:index-keys-by-qname(xs:QName("tei:body"), $q,
+                    function($key, $count) {
+                        $key
+                    }, 30, "lucene-index")
 };
 
 
