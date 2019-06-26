@@ -185,7 +185,6 @@
 
                     .panels .documents {
                         flex: 2 auto;
-                        // margin-right: 20px;
                     }
                 }
 
@@ -293,7 +292,6 @@
 
                 .documents .document-select {
                     flex: 0 0;
-                    // margin-right: 20px;
                 }
                 h1, h2, h3, h4, h5, h6 {
                     font-family: "Oswald",Verdana,"Helvetica",sans-serif;
@@ -352,17 +350,6 @@
                     color:#c7cb77;
                     text-shadow:2px 2px #315b71;
                 }
-                // app-toolbar.tall{
-                //     height:600px;
-                // }
-                // app-toolbar.condensed{
-                //     background:white;
-                //     opacity:0.7;
-                //     text-align:left;
-                //     position:absolute;
-                //     display:block;
-                //     width:100%;
-                // }
                 pb-search {
                     --pb-search-label: #ffffff;
                     --pb-search-input: #ffffff;
@@ -386,6 +373,21 @@
                 footer a, a:link {
                     color: white;
                 }
+
+                app-drawer pb-login {
+                    margin: 20px 0 0 0;
+                }
+                .gitlab {
+                    display: flex;
+                    align-items: center;
+                    color: black;
+                    margin-right: 16px;
+                }
+
+                .gitlab img {
+                    background-size: 100% 100%;
+                    height: 40px;
+                }
             </style>
         </custom-style>
     </head>
@@ -403,7 +405,9 @@
                                 <paper-item>it</paper-item>
                                 <paper-item>pl</paper-item>
                             </pb-lang>
-
+                            <a href="http://gitlab.existsolutions.com/tei-publisher/vangogh" title="View code on Gitlab" class="gitlab" target="_blank">
+                                 Source code <img src="resources/images/wm_no_bg.svg"/>
+                            </a>
                             <pb-login id="login" login-label="i18n(login)" logout-label="i18n(logout)" group="tei">
                                 <iron-icon slot="icon" icon="account-circle"/>
                             </pb-login>
@@ -427,7 +431,7 @@
                     </app-header>
 
                     <main>
-                            <pb-paginate id="paginate" per-page="10" range="5" found-label="i18n(browsing)" subscribe="docs" emit="docs"/>
+                        <pb-paginate id="paginate" per-page="10" range="5" found-label="i18n(browsing)" subscribe="docs" emit="docs"/>
                         <section class="panels">
 
                             <pb-browse-docs id="document-list" url="templates/documents.html" sort-label="i18n(sort-by)" sort-options="[{&#34;label&#34;: &#34;Date&#34;, &#34;value&#34;: &#34;date&#34;},{&#34;label&#34;: &#34;Title&#34;, &#34;value&#34;: &#34;title&#34;},{&#34;label&#34;: &#34;From&#34;, &#34;value&#34;: &#34;from&#34;},{&#34;label&#34;: &#34;To&#34;, &#34;value&#34;: &#34;to&#34;}]" sort-by="date" filter-options="[{&#34;label&#34;: &#34;Title&#34;, &#34;value&#34;: &#34;title&#34;},{&#34;label&#34;: &#34;From&#34;, &#34;value&#34;: &#34;from&#34;},{&#34;label&#34;: &#34;To&#34;, &#34;value&#34;: &#34;to&#34;}]" filter-by="title" auto="auto" history="history" login="login"
