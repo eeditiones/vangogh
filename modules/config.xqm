@@ -291,7 +291,8 @@ declare variable $config:dts-collections := map {
                     map:entry("title", nav:get-metadata($properties, $doc/*, "title")/string()),
                     map {
                         "dts:dublincore": map {
-                            "dc:creator": string-join(nav:get-metadata($properties, $doc/*, "from"), "; ")
+                            "dc:creator": string-join(nav:get-metadata($properties, $doc/*, "from"), "; "),
+                            "dc:license": nav:get-metadata($properties, $doc/*, "license")
                         }
                     }
                 ))
