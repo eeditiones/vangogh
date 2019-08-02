@@ -290,29 +290,47 @@ declare variable $config:expath-descriptor := doc(concat($config:app-root, "/exp
 declare variable $config:session-prefix := $config:expath-descriptor/@abbrev/string();
 
 declare variable $config:dts-collections := map {
-    "default": map {
-        "title": "Van Gogh Letters",
-        "path": $config:data-default,
-        "members": function() {
-            nav:get-root((), map {
-                "leading-wildcard": "yes",
-                "filter-rewrite": "yes"
-            })
-        },
-        "metadata": function($doc as document-node()) {
-            let $properties := tpu:parse-pi($doc, ())
-            return
-                map:merge((
-                    map:entry("title", nav:get-metadata($properties, $doc/*, "title")/string()),
-                    map {
-                        "dts:dublincore": map {
-                            "dc:creator": string-join(nav:get-metadata($properties, $doc/*, "from"), "; "),
-                            "dc:license": nav:get-metadata($properties, $doc/*, "license")
+    "id": "default",
+    "title": "Van Gogh Letters",
+    "memberCollections": (
+        map {
+            "id": "documents",
+            "title": "Letter Collection",
+            "path": $config:data-default,
+            "members": function() {
+                nav:get-root((), map {
+                    "leading-wildcard": "yes",
+                    "filter-rewrite": "yes"
+                })
+            },
+            "metadata": function($doc as document-node()) {
+                let $properties := tpu:parse-pi($doc, ())
+                return
+                    map:merge((
+                        map:entry("title", nav:get-metadata($properties, $doc/*, "title")/string()),
+                        map {
+                            "dts:dublincore": map {
+                                "dc:creator": string-join(nav:get-metadata($properties, $doc/*, "author"), "; "),
+                                "dc:license": nav:get-metadata($properties, $doc/*, "license")
+                            }
                         }
-                    }
-                ))
+                    ))
+            }
+        },
+        map {
+            "id": "odd",
+            "title": "ODD Collection",
+            "path": $config:odd-root,
+            "members": function() {
+                collection($config:odd-root)/tei:TEI
+            },
+            "metadata": function($doc as document-node()) {
+                map {
+                    "title": string-join($doc//tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[not(@type)], "; ")
+                }
+            }
         }
-    }
+    )
 };
 
 declare variable $config:dts-page-size := 10;
