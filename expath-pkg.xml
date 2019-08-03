@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package xmlns="http://expath.org/ns/pkg" spec="1.0" version="1.0.1" name="http://exist-db.org/apps/vangogh" abbrev="vangogh">
+<package xmlns="http://expath.org/ns/pkg" spec="1.0" version="1.0.2" name="http://exist-db.org/apps/vangogh" abbrev="vangogh">
     <title>Van Gogh Letters</title>
-    <dependency processor="http://exist-db.org" semver-min="5.0.0-RC1"/>
+    <dependency processor="http://exist-db.org" semver-min="5.0.0-RC8"/>
     <dependency package="http://exist-db.org/apps/shared"/>
-    <dependency package="http://existsolutions.com/apps/tei-publisher"/>
+    <dependency package="http://existsolutions.com/apps/tei-publisher" semver-min="5.0.0"/>
 </package>
