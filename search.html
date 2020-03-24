@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<html xmlns:i18n="http://exist-db.org/xquery/i18n">
+<html>
     <head>
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"/>
@@ -10,14 +10,13 @@
         <link rel="shortcut icon" type="image/png" href="resources/images/favicon-64.png" sizes="64x64"/>
 
         <title data-template="config:app-title"/>
+        <link rel="stylesheet" href="resources/css/theme.css"/>
         <link rel="stylesheet" type="text/css" href="resources/fonts/font.css"/>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald"/>
-        <script src="../tei-publisher/components/bower_components/webcomponentsjs/webcomponents-loader.js"/>
-        <script src="../tei-publisher/components/bower_components/js-cookie/src/js.cookie.js"/>
-        <link rel="import" href="../tei-publisher/components/dependencies-dev.html"/>
+        <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"></script>
 
         <custom-style>
-            <style include="pb-common-styles">
+            <style>
                 body {
                     --pb-content-theme: {
                         margin-right: 32px;
@@ -203,12 +202,16 @@
                     position:absolute;
                     width:100%;
                 }
+
+                .splash {
+                    background-image: url(resources/images/SelbstPortrait_VG2.jpg);
+                }
             </style>
         </custom-style>
     </head>
 
-    <body unresolved="unresolved" data-template="i18n:translate" data-catalogues="resources/i18n">
-        <pb-page data-template="pages:pb-page">
+    <body>
+        <pb-page unresolved="unresolved" data-template="pages:pb-page">
             <app-header-layout>
                 <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall" data-template="browse:fix-links">
                     <app-toolbar class="menubar">
@@ -220,23 +223,17 @@
                         <a href="$app/index.html">Start</a>
 
                         <!-- Search input -->
-                        <pb-search action="${app}/search.html" data-template="pages:parse-params" value="${query}" place-holder="i18n(search-query-attr)" redirect="redirect"/>
+                        <pb-search action="${app}/search.html" data-template="pages:parse-params" value="${query}" redirect="redirect"/>
 
                         <!-- language selector -->
-                        <pb-lang name="lang" label="Language" data-template="pages:current-language">
-                            <paper-item>en</paper-item>
-                            <paper-item>de</paper-item>
-                            <paper-item>fr</paper-item>
-                            <paper-item>gr</paper-item>
-                            <paper-item>it</paper-item>
-                            <paper-item>pl</paper-item>
+                        <pb-lang name="lang" label="Language" data-template="pages:languages">
                         </pb-lang>
-                        <pb-login login-label="i18n(login)" logout-label="i18n(logout)" group="tei">
+                        <pb-login group="tei">
                             <iron-icon slot="icon" icon="account-circle"/>
                         </pb-login>
                     </app-toolbar>
                     <app-toolbar class="document-nav">
-                        <pb-paginate per-page="10" range="5" found-label="i18n(found)" subscribe="results"/>
+                        <pb-paginate per-page="10" range="5" subscribe="results"/>
                         <pb-progress indeterminate="indeterminate" bottom-item="bottom-item" subscribe="results"/>
                     </app-toolbar>
                 </app-header>
@@ -246,7 +243,7 @@
                     <div class="search-panel">
                         <paper-card>
                             <div class="card-content">
-                                <pb-search id="search-form" place-holder="i18n(search-query-attr)" data-template="pages:parse-params" value="${query}" submit-on-load="submit-on-load" subscribe="search">
+                                <pb-search id="search-form" data-template="pages:parse-params" value="${query}" submit-on-load="submit-on-load" subscribe="search">
                                     <pb-custom-form id="facets" url="modules/facets.xql" subscribe="results" event="pb-results-received" emit="search"/>
                                 </pb-search>
                             </div>
@@ -275,15 +272,7 @@
                     });
                 });
             </script>
-            <paper-dialog id="errorDialog">
-                <h2>Error</h2>
-                <paper-dialog-scrollable/>
-                <div class="buttons">
-                    <paper-button dialog-confirm="dialog-confirm" autofocus="autofocus">
-                        <i18n:text key="close">Close</i18n:text>
-                    </paper-button>
-                </div>
-            </paper-dialog>
         </pb-page>
+        <div class="splash"></div>
     </body>
 </html>
