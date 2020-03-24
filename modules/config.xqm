@@ -17,6 +17,26 @@ declare namespace expath="http://expath.org/ns/pkg";
 declare namespace jmx="http://exist-db.org/jmx";
 declare namespace tei="http://www.tei-c.org/ns/1.0";
 
+(:~~
+ : A list of regular expressions to check which external hosts are
+ : allowed to access this TEI Publisher instance. The check is done
+ : against the Origin header sent by the browser.
+ :)
+declare variable $config:origin-whitelist := (
+    "(?:https?://localhost:.*|https?://127.0.0.1:.*)"
+);
+
+(:~~
+ : The version of the pb-components webcomponents library to be used by this app.
+ : Should either point to a version published on npm,
+ : or be set to 'local'. In the latter case, webcomponents
+ : are assumed to be self-hosted in the app (which means you
+ : have to npm install it yourself using the existing package.json).
+ : If a version is given, the components will be loaded from a public CDN.
+ : This is recommended unless you develop your own components.
+ :)
+declare variable $config:webcomponents := "latest";
+
 (:~
  : Should documents be located by xml:id or filename?
  :)

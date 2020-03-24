@@ -32,7 +32,6 @@ import module namespace templates="http://exist-db.org/xquery/templates";
 import module namespace config="http://www.tei-c.org/tei-simple/config" at "../config.xqm";
 import module namespace pm-config="http://www.tei-c.org/tei-simple/pm-config" at "../pm-config.xql";
 import module namespace tpu="http://www.tei-c.org/tei-publisher/util" at "lib/util.xql";
-import module namespace search="http://www.tei-c.org/tei-simple/search" at "search.xql";
 
 declare variable $pages:app-root := request:get-context-path() || substring-after($config:app-root, "/db");
 
@@ -87,15 +86,24 @@ declare function pages:pb-view($node as node(), $model as map(*), $root as xs:st
     }
 };
 
+(:~~
+ : Generate the actual script tag to import pb-components.
+ :)
+declare function pages:load-components($node as node(), $model as map(*)) {
+    switch ($config:webcomponents)
+        case "local" return
+            <script type="module" src="resources/scripts/{$node/@src}"></script>
+        default return
+            <script type="module" 
+                src="https://unpkg.com/@teipublisher/pb-components@{$config:webcomponents}/dist/{$node/@src}"></script>
+};
 
 declare function pages:current-language($node as node(), $model as map(*), $lang as xs:string?) {
-    let $selected := count($node/*[. = $lang]/preceding-sibling::*)
-    return
-        element { node-name($node) } {
-            $node/@*,
-            attribute selected { $selected },
-            $node/*
-        }
+    element { node-name($node) } {
+        $node/@*,
+        attribute selected { $lang },
+        $node/*
+    }
 };
 
 declare
@@ -523,8 +531,8 @@ declare function pages:parse-params($node as node(), $model as map(*)) {
                             typeswitch($token)
                                 case element(fn:non-match) return $token/string()
                                 case element(fn:match) return
-                                    let $paramName := $token/fn:group[1]
-                                    let $default := $token/fn:group[2]
+                                    let $paramName := $token/fn:group[1]/string()
+                                    let $default := $token/fn:group[2]/string()
                                     let $found := [
                                         request:get-parameter($paramName, $default),
                                         $model($paramName),
@@ -541,4 +549,14 @@ declare function pages:parse-params($node as node(), $model as map(*)) {
                 $attr,
         templates:process($node/node(), $model)
     }
+};
+
+declare 
+    %templates:wrap
+function pages:languages($node as node(), $model as map(*)) {
+    let $json := json-doc($config:app-root || "/resources/i18n/languages.json")
+    return
+        map:for-each($json, function($key, $value) {
+            <paper-item value="{$key}">{$value}</paper-item>
+        })
 };

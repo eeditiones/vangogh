@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<html xmlns:i18n="http://exist-db.org/xquery/i18n">
+<html>
     <head>
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"/>
@@ -9,30 +9,24 @@
         <link rel="shortcut icon" type="image/png" href="resources/images/favicon-32.png" sizes="32x32"/>
         <link rel="shortcut icon" type="image/png" href="resources/images/favicon-64.png" sizes="64x64"/>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald"/>
+        <link rel="stylesheet" href="resources/css/theme.css"/>
 
         <title data-template="config:app-title"/>
-        <script src="components/bower_components/webcomponentsjs/webcomponents-loader.js"/>
-        <script src="components/bower_components/js-cookie/src/js.cookie.js"/>
-        <link rel="import" href="components/dependencies-dev.html"/>
-        <style>
-            [unresolved]{
-                display:none;
-            }
-            paper-input{
-                font-weight:700;
-            }
-        </style>
-
+        <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"></script>
         <custom-style>
-            <style include="pb-common-styles">
+            <style is="custom-style">
                 body{
                     color:white;
                     background:#75a4aa;
 
-                    --pb-search-input: red;
-                    --pb-search-label:white;
-
+                    --suggestions-item: {
+                        color: var(--pb-search-suggestions-color, black);
+                    };
+                    --suggestions-wrapper: {
+                        background: var(--pb-search-suggestions-background, white);
+                    }
                 }
+
                 @font-face {
                     font-family: 'vincent';
                     src: url('resources/fonts/P22_Vincent_Regular.ttf');
@@ -40,7 +34,6 @@
                 pb-page{
                     background-image: url('resources/images/vvg-almond-blossom-lr.jpg');
                     background-repeat: repeat-y;
-                    // height:2000px;
                 }
                 app-header{
                     position:fixed;
@@ -48,16 +41,13 @@
                     left:0;
                     width:100%;
                     height:340px;
+                    --app-header-background-front-layer: {
+                        background: transparent;
+                    };
 
-                     --app-header-background-front-layer: {
-                       background:transparent;
-
-                     };
-
-                  --app-header-background-rear-layer: {
-                      background: #6d9ca2;
-                  };
-
+                    --app-header-background-rear-layer: {
+                        background: #6d9ca2;
+                    };
                 }
 
                 app-toolbar{
@@ -80,13 +70,6 @@
                     width:160px;
                 }
 
-                // [main-title]{
-                //     font-size:64px;
-                //     color:white;
-                //     margin-top:0;
-                //     display:block
-                //     position:absolute;
-                // }
                 main {
                     margin: 0 50px 0 100px;
                 }
@@ -111,9 +94,6 @@
 
                 .menubar {
                     background-color: transparent;
-                    // opacity:1;
-                    // background-image: url('resources/images/background.jpg');
-
 
                     --pb-download: {
                         color: black;
@@ -338,8 +318,8 @@
                 .facets .header{
                     display:none;
                 }
-                [condensed-title]{
-                    margin:0;
+                [condensed-title] {
+                    margin: 0;
                     overflow: hidden;
                     font-family:"vincent";
                     font-size:32px !important;
@@ -348,8 +328,9 @@
                     text-shadow:2px 2px #315b71;
                 }
                 pb-search {
-                    --pb-search-label: #ffffff;
-                    --pb-search-input: #ffffff;
+                    --pb-search-label-color: #e0e0e0;
+                    --pb-search-input-color: #f5f5f5;
+                    --pb-search-focus-color: var(--paper-orange-500);
                     width:200px;
                     display:block;
                 }
@@ -359,6 +340,9 @@
 
                 pb-browse-docs{
                     --justify-toolbar-content: space-between;
+                    --paper-input-container-color: #e0e0e0;
+                    --paper-input-container-input-color: #f5f5f5;
+                    --paper-input-container-focus-color: var(--paper-orange-500);
                 }
                 pb-login{
                     width:100%;
@@ -385,40 +369,36 @@
                     background-size: 100% 100%;
                     height: 40px;
                 }
+
+                .splash {
+                    background-image: url(resources/images/SelbstPortrait_VG2.jpg);
+                }
             </style>
         </custom-style>
     </head>
-    <body data-template="i18n:translate" data-catalogues="resources/i18n" class="fullbleed">
-        <pb-page data-template="pages:pb-page">
+    <body class="fullbleed">
+        <pb-page data-template="pages:pb-page" unresolved="unresolved">
             <app-drawer-layout force-narrow="force-narrow">
                 <app-drawer slot="drawer" align="right">
                     <div class="drawer-content">
-                            <!-- language selector -->
-                            <pb-lang name="lang" label="Language" data-template="pages:current-language">
-                                <paper-item>en</paper-item>
-                                <paper-item>de</paper-item>
-                                <paper-item>fr</paper-item>
-                                <paper-item>gr</paper-item>
-                                <paper-item>it</paper-item>
-                                <paper-item>pl</paper-item>
-                            </pb-lang>
+                            <pb-lang name="lang" label="language" data-template="pages:languages">
+</pb-lang>
                             <a href="http://gitlab.existsolutions.com/tei-publisher/vangogh" title="View code on Gitlab" class="gitlab" target="_blank">
                                  Source code <img src="resources/images/wm_no_bg.svg"/>
                             </a>
-                            <pb-login id="login" login-label="i18n(login)" logout-label="i18n(logout)" group="tei">
+                            <pb-login id="login" group="tei">
                                 <iron-icon slot="icon" icon="account-circle"/>
                             </pb-login>
-
                     </div>
                 </app-drawer>
                 <app-header-layout>
-                    <app-header slot="header" data-template="browse:fix-links" condenses="condenses" fixed="fixed" effects="parallax-background blend-background resize-title">
+                    <app-header slot="header" condenses="condenses" fixed="fixed" effects="parallax-background blend-background resize-title">
 
                         <app-toolbar style="height:64px;">
                             <div condensed-title="condensed-title" data-template="config:app-title"/>
-                                <paper-icon-button icon="icons:menu" drawer-toggle="drawer-toggle"/>
+                            <paper-icon-button icon="icons:menu" drawer-toggle="drawer-toggle"/>
                             <pb-progress indeterminate="indeterminate" bottom-item="bottom-item"/>
-                            </app-toolbar>
+                        </app-toolbar>
 
                         <div class="cropper">
                             <img class="portrait" src="resources/images/SelbstPortrait_VG2.jpg"/>
@@ -428,14 +408,14 @@
                     </app-header>
 
                     <main>
-                        <pb-paginate id="paginate" per-page="10" range="5" found-label="i18n(browsing)" subscribe="docs" emit="docs"/>
+                        <pb-paginate id="paginate" per-page="10" range="5" subscribe="docs" emit="docs"/>
                         <section class="panels">
 
-                            <pb-browse-docs id="document-list" url="templates/documents.html" sort-label="i18n(sort-by)" sort-options="[{&#34;label&#34;: &#34;Date&#34;, &#34;value&#34;: &#34;date&#34;},{&#34;label&#34;: &#34;Title&#34;, &#34;value&#34;: &#34;title&#34;},{&#34;label&#34;: &#34;From&#34;, &#34;value&#34;: &#34;from&#34;},{&#34;label&#34;: &#34;To&#34;, &#34;value&#34;: &#34;to&#34;}]" sort-by="date" filter-options="[{&#34;label&#34;: &#34;Title&#34;, &#34;value&#34;: &#34;title&#34;},{&#34;label&#34;: &#34;From&#34;, &#34;value&#34;: &#34;from&#34;},{&#34;label&#34;: &#34;To&#34;, &#34;value&#34;: &#34;to&#34;}]" filter-by="title" auto="auto" history="history" login="login"
+                            <pb-browse-docs id="document-list" url="templates/documents.html" sort-options="[{&#34;label&#34;: &#34;Date&#34;, &#34;value&#34;: &#34;date&#34;},{&#34;label&#34;: &#34;Title&#34;, &#34;value&#34;: &#34;title&#34;},{&#34;label&#34;: &#34;From&#34;, &#34;value&#34;: &#34;from&#34;},{&#34;label&#34;: &#34;To&#34;, &#34;value&#34;: &#34;to&#34;}]" sort-by="date" filter-options="[{&#34;label&#34;: &#34;Title&#34;, &#34;value&#34;: &#34;title&#34;},{&#34;label&#34;: &#34;From&#34;, &#34;value&#34;: &#34;from&#34;},{&#34;label&#34;: &#34;To&#34;, &#34;value&#34;: &#34;to&#34;}]" filter-by="title" auto="auto" history="history" login="login"
                             emit="docs" subscribe="docs">
                             </pb-browse-docs>
                             <aside>
-                                <pb-search action="${app}/search.html" data-template="pages:parse-params" value="${query}" place-holder="i18n(search-query-attr)" redirect="redirect"/>
+                                <pb-search action="${app}/search.html" data-template="pages:parse-params" value="${query}" redirect="redirect"/>
                                 <paper-card class="facets">
                                     <div class="card-content">
                                         <pb-custom-form id="facets" url="modules/facets.xql" event="pb-results-received" subscribe="docs" emit="docs"/>
@@ -475,35 +455,27 @@
             </script>
             <paper-dialog id="downloadDialog">
                 <h2>
-                    <i18n:text key="generating-file">Generating File...</i18n:text>
+                    <pb-i18n key="dialogs.generatingFile">Generating File...</pb-i18n>
                 </h2>
                 <paper-dialog-scrollable>
-                    <i18n:text key="download-message"/>
+                    <pb-i18n key="dialogs.downloadMessage"></pb-i18n>
                 </paper-dialog-scrollable>
                 <div class="buttons">
                     <paper-button dialog-confirm="dialog-confirm" autofocus="autofocus">
-                        <i18n:text key="close">Close</i18n:text>
-                    </paper-button>
-                </div>
-            </paper-dialog>
-            <paper-dialog id="messageDialog" modal="modal">
-                <h2>Action</h2>
-                <paper-dialog-scrollable/>
-                <div class="buttons">
-                    <paper-button dialog-confirm="dialog-confirm" autofocus="autofocus">
-                        <i18n:text key="close">Close</i18n:text>
+                        <pb-i18n key="dialogs.close">Close</pb-i18n>
                     </paper-button>
                 </div>
             </paper-dialog>
             <paper-dialog id="errorDialog">
-                <h2>Error</h2>
-                <paper-dialog-scrollable/>
+                <h2><pb-i18n key="dialogs.error">Error</pb-i18n></h2>
+                <paper-dialog-scrollable></paper-dialog-scrollable>
                 <div class="buttons">
                     <paper-button dialog-confirm="dialog-confirm" autofocus="autofocus">
-                        <i18n:text key="close">Close</i18n:text>
+                        <pb-i18n key="dialogs.close">Close</pb-i18n>
                     </paper-button>
                 </div>
             </paper-dialog>
         </pb-page>
+        <div class="splash"></div>
     </body>
 </html>

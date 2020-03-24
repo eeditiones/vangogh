@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<html xmlns:i18n="http://exist-db.org/xquery/i18n">
+<html>
     <head>
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"/>
@@ -13,16 +13,11 @@
         <meta name="description" content="Van Gogh Letter"/>
         <meta name="pb-template" content="vangogh.html"/>
 
+        <link rel="stylesheet" href="resources/css/theme.css"/>
         <link rel="stylesheet" type="text/css" href="resources/fonts/font.css"/>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald"/>
-        <script src="components/bower_components/webcomponentsjs/webcomponents-loader.js"/>
-        <link rel="import" href="components/dependencies-dev.html"/>
+        <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"></script>
 
-        <style>
-            [unresolved] {
-                display:none;
-            }
-        </style>
         <custom-style>
             <style include="pb-common-styles">
                 body {
@@ -54,11 +49,21 @@
 
                 .menubar {
                     background-color: #EECC66;
-                    background-image: url('resources/images/background.jpg');
+                    background-image: url('resources/images/background.jpg');                    
 
                     --pb-download: {
                         color: black;
                     };
+                }
+
+                .menubar pb-lang {
+                    --pb-lang-label-color: var(--pb-color-inverse) !important;
+                }
+
+                app-toolbar pb-search {
+                    --pb-search-label-color: var(--pb-color-inverse);
+                    --pb-search-input-color: var(--pb-color-primary);
+                    --pb-search-focus-color: var(--paper-orange-500);
                 }
 
                 .cropper{
@@ -67,10 +72,6 @@
                     overflow:hidden;
                     border-radius:50%;
                     margin-right:10px;
-                }
-
-                app-toolbar pb-search {
-                    --pb-search-label: white;
                 }
 
                 .menubar .git {
@@ -177,17 +178,21 @@
                 footer a, a:link {
                     color: white;
                 }
+
+                .splash {
+                    background-image: url(resources/images/SelbstPortrait_VG2.jpg);
+                }
             </style>
         </custom-style>
     </head>
 
-    <body unresolved="unresolved" data-template="i18n:translate" data-catalogues="resources/i18n">
-        <pb-page data-template="pages:pb-page">
+    <body>
+        <pb-page data-template="pages:pb-page" unresolved="unresolved">
             <pb-document id="document1" data-template="pages:pb-document"/>
             <app-drawer-layout force-narrow="force-narrow">
                 <app-drawer data-template="templates:include" data-template-path="templates/drawer.html"/>
                 <app-header-layout>
-                    <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall" data-template="browse:fix-links">
+                    <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
                         <app-toolbar data-template="templates:include" data-template-path="templates/menu.html"/>
                         <app-toolbar data-template="templates:include" data-template-path="templates/toolbar.html"/>
                     </app-header>
@@ -256,5 +261,6 @@
                 </app-header-layout>
             </app-drawer-layout>
         </pb-page>
+        <div class="splash"></div>
     </body>
 </html>

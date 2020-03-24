@@ -66,6 +66,21 @@ function app:sort($items as element()*, $sortBy as xs:string?) {
             $items
 };
 
+declare function app:is-writeable($node as node(), $model as map(*), $root as xs:string) {
+    let $path := $config:data-root || "/" || $root
+    let $writable := sm:has-access(xs:anyURI($path), "rw-")
+    return
+        element { node-name($node) } {
+            $node/@* except $node/@class,
+            attribute class {
+                string-join(($node/@class, if ($writable) then "writable" else ()), " ")
+            },
+            attribute data-root {
+                $root
+            },
+            templates:process($node/node(), $model)
+        }
+};
 
 (:~
  : List documents in data collection
@@ -81,12 +96,14 @@ function app:list-works($node as node(), $model as map(*), $filter as xs:string?
     let $odd := if ($oddAvailable) then $odd else $config:default-odd
     let $cached := session:get-attribute($config:session-prefix || ".works")
     let $filtered :=
-        if (app:use-cache($params, $cached)) then
+        if (app:use-cache($params, $cached)) then (
+            util:log('INFO', 'Using cache ...'),
             $cached
-        else if (exists($filter)) then
+        ) else if (exists($filter)) then
             query:query-metadata($browse, $filter, $sort)
         else
-            let $options := app:options($sort)
+            let $options := query:options($sort)
+            let $log := util:log("INFO", $options)
             return
                 nav:get-root($root, $options)
     let $sorted := app:sort($filtered, $sort)
@@ -111,6 +128,13 @@ declare %private function app:params2map() {
     )
 };
 
+declare 
+    %templates:wrap
+function app:clear-facets($node as node(), $model as map(*)) {
+    session:set-attribute($config:session-prefix || ".hits", ()),
+    map {}
+};
+
 declare function app:use-cache($params as map(*), $cached) {
     let $cachedParams := session:get-attribute($config:session-prefix || ".params")
     let $timestamp := session:get-attribute($config:session-prefix || ".timestamp")
@@ -121,22 +145,17 @@ declare function app:use-cache($params as map(*), $cached) {
             false()
 };
 
-
-declare function app:options($sortBy as xs:string) {
-    map {
-        "facets":
-            map:merge((
-                for $param in request:get-parameter-names()[starts-with(., 'facet-')]
-                let $dimension := substring-after($param, 'facet-')
-                return
-                    map {
-                        $dimension: request:get-parameter($param, ())
-                    }
-            )),
-        "fields": $sortBy,
-        "leading-wildcard": "yes",
-        "filter-rewrite": "yes"
-    }
+declare function app:parent-collection($node as node(), $model as map(*), $root as xs:string) {
+    if (not($root) or $root = "") then
+        ()
+    else
+        let $parts := tokenize($root, "/")
+        return
+            element { node-name($node) } {
+                $node/@*,
+                attribute data-collection { string-join(subsequence($parts, 1, count($parts) - 1)) },
+                templates:process($node/node(), $model)
+            }
 };
 
 declare
@@ -400,18 +419,22 @@ declare function app:dispatch-action($node as node(), $model as map(*), $action 
     switch ($action)
         case "delete" return
             let $docs := request:get-parameter("docs[]", ())
+            let $result :=
+                for $path in $docs
+                let $doc := pages:get-document(xmldb:decode($path))
+                return
+                    if ($doc) then
+                        try {
+                            xmldb:remove(util:collection-name($doc), util:document-name($doc))
+                        } catch * {
+                            <p class="error">Failed to remove document {$path} (insufficient permissions?)</p>
+                        }
+                    else
+                        <p>Document not found: {$path}</p>
             return
                 <div id="action-alert" class="alert alert-success">
-                    <p>Removed {count($docs)} documents.</p>
-                    {
-                        for $path in $docs
-                        let $doc := pages:get-document(xmldb:decode($path))
-                        return
-                            if ($doc) then
-                                xmldb:remove(util:collection-name($doc), util:document-name($doc))
-                            else
-                                <p>Failed to remove document {$path}</p>
-                    }
+                    <p>Removed {count($docs) - count($result)} documents.</p>
+                    { $result }
                 </div>
         case "delete-odd" return
             let $docs := request:get-parameter("docs[]", ())

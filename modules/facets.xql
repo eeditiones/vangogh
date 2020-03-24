@@ -1,3 +1,20 @@
+(:
+ :
+ :  Copyright (C) 2019 Wolfgang Meier
+ :
+ :  This program is free software: you can redistribute it and/or modify
+ :  it under the terms of the GNU General Public License as published by
+ :  the Free Software Foundation, either version 3 of the License, or
+ :  (at your option) any later version.
+ :
+ :  This program is distributed in the hope that it will be useful,
+ :  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ :  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ :  GNU General Public License for more details.
+ :
+ :  You should have received a copy of the GNU General Public License
+ :  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ :)
 xquery version "3.1";
 
 declare namespace tei="http://www.tei-c.org/ns/1.0";
@@ -36,11 +53,10 @@ declare function local:print-table($config as map(*), $nodes as element()+, $val
                                 <paper-checkbox class="facet" name="facet-{$config?dimension}" value="{$label}">
                                     { if ($label = $params[1]) then attribute checked { "checked" } else () }
                                     {
-                                        switch ($config?dimension)
-                                            case "mentions" return
-                                                id("P" || $label, doc($config:data-root || "/people.xml"))/tei:persName
-                                            default return
-                                                $label
+                                        if (exists($config?output)) then
+                                            $config?output($label)
+                                        else
+                                            $label
                                     }
                                 </paper-checkbox>
                             </td>
@@ -73,22 +89,20 @@ declare function local:display($config as map(*), $nodes as element()+) {
     where $table
     return
         <div>
-            <h3>{$config?heading}
+            <h3><pb-i18n key="{$config?heading}">{$config?heading}</pb-i18n>
             {
                 if (exists($config?max)) then
                     <paper-checkbox class="facet" name="all-{$config?dimension}">
                         { if (request:get-parameter("all-" || $config?dimension, ())) then attribute checked { "checked" } else () }
-                        Show top
-50                     </paper-checkbox>
+                        <pb-i18n key="facets.show">Show top 50</pb-i18n>
+                    </paper-checkbox>
                 else
-                
-   ()     
-       } 
-        
-  </h3>             {   
-            
-$table   
-         }
+                    ()
+            }
+            </h3>
+            {
+                $table
+            }
         </div>
 };
 
