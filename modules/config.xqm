@@ -23,14 +23,15 @@ declare namespace tei="http://www.tei-c.org/ns/1.0";
  : against the Origin header sent by the browser.
  :)
 declare variable $config:origin-whitelist := (
-    "(?:https?://localhost:.*|https?://127.0.0.1:.*)"
+    "(?:https?://localhost:.*|https?://127.0.0.1:.*)",
+    "https?://cdpn.io"
 );
 
 (:~~
  : The version of the pb-components webcomponents library to be used by this app.
  : Should either point to a version published on npm,
  : or be set to 'local'. In the latter case, webcomponents
- : are assumed to be self-hosted in the app (which means you
+ : are assumed to be self-hoste in the app (which means you
  : have to npm install it yourself using the existing package.json).
  : If a version is given, the components will be loaded from a public CDN.
  : This is recommended unless you develop your own components.
@@ -219,7 +220,7 @@ declare variable $config:fop-config :=
  : arguments.
  :)
 declare variable $config:tex-command := function($file) {
-    ( "/usr/local/bin/pdflatex", "-interaction=nonstopmode", $file )
+    ( "/usr/bin/pdflatex", "-interaction=nonstopmode", $file )
 };
 
 (:
