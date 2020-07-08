@@ -348,26 +348,27 @@
                     width:100%;
                 }
                 footer {
+                    display: flex;
                     background: #afad87 !important;
                     padding: 10px 20px;
                 }
                 footer a, a:link {
                     color: white;
                 }
-
+                footer .gitlab {
+                    display: block;
+                }
                 app-drawer pb-login {
                     margin: 20px 0 0 0;
                 }
                 .gitlab {
-                    display: flex;
-                    align-items: center;
                     color: black;
                     margin-right: 16px;
                 }
-
                 .gitlab img {
-                    background-size: 100% 100%;
-                    height: 40px;
+                    display: block;
+                    margin: 16px auto;
+                    height: 32px;
                 }
 
                 .splash {
@@ -383,8 +384,8 @@
                     <div class="drawer-content">
                             <pb-lang name="lang" label="language" data-template="pages:languages">
 </pb-lang>
-                            <a href="http://gitlab.existsolutions.com/tei-publisher/vangogh" title="View code on Gitlab" class="gitlab" target="_blank">
-                                 Source code <img src="resources/images/wm_no_bg.svg"/>
+                            <a href="https://github.com/eeditiones/vangogh" title="View code on GitHub" class="gitlab" target="_blank">
+                                 <img src="resources/images/github.svg"/>
                             </a>
                             <pb-login id="login" group="tei">
                                 <iron-icon slot="icon" icon="account-circle"/>
@@ -431,6 +432,9 @@
                         <a href="http://vangoghletters.org">Vincent van Gogh - The Letters</a>.
                         Version: July 2018. Amsterdam: Van Gogh Museum &amp; Huygens ING. Facsimile images
                         are hosted by Van Gogh Museum &amp; Huygens ING.</p>
+                        <a href="https://github.com/eeditiones/vangogh" title="View code on GitHub" class="gitlab" target="_blank">
+                            <img src="resources/images/github.svg"/>
+                        </a>
                     </footer>
                 </app-header-layout>
             </app-drawer-layout>

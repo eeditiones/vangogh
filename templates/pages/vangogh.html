@@ -176,11 +176,24 @@
                     margin-top:-6px;
                 }
                 footer {
+                    display: flex;
                     background: #afad87 !important;
                     padding: 10px 20px;
                 }
                 footer a, a:link {
                     color: white;
+                }
+                footer .gitlab {
+                    display: block;
+                }
+                .gitlab {
+                    color: black;
+                    margin-right: 16px;
+                }
+                .gitlab img {
+                    display: block;
+                    margin: 16px auto;
+                    height: 32px;
                 }
 
                 .splash {
@@ -261,6 +274,9 @@
                       <a href="http://vangoghletters.org">Vincent van Gogh - The Letters</a>.
                       Version: July 2018. Amsterdam: Van Gogh Museum &amp; Huygens ING. Facsimile images
                       are hosted by Van Gogh Museum &amp; Huygens ING.</p>
+                      <a href="https://github.com/eeditiones/vangogh" title="View code on GitHub" class="gitlab" target="_blank">
+                        <img src="resources/images/github.svg"/>
+                      </a>
                     </footer>
                 </app-header-layout>
             </app-drawer-layout>
