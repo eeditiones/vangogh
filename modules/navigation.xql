@@ -1,6 +1,6 @@
 (:
  :
- :  Copyright (C) 2017 Wolfgang Meier
+ :  Copyright (C) 2017 TEI Publisher Project
  :
  :  This program is free software: you can redistribute it and/or modify
  :  it under the terms of the GNU General Public License as published by
@@ -19,19 +19,10 @@ xquery version "3.1";
 
 module namespace nav="http://www.tei-c.org/tei-simple/navigation";
 
+import module namespace config="http://www.tei-c.org/tei-simple/config" at "config.xqm";
 import module namespace tei-nav="http://www.tei-c.org/tei-simple/navigation/tei" at "navigation-tei.xql";
 import module namespace jats-nav="http://www.tei-c.org/tei-simple/navigation/jats" at "navigation-jats.xql";
 import module namespace docbook-nav="http://www.tei-c.org/tei-simple/navigation/docbook" at "navigation-dbk.xql";
-
-declare function nav:document-type($div as element()) {
-    switch (namespace-uri($div))
-        case "http://www.tei-c.org/ns/1.0" return
-            "tei"
-        case "http://docbook.org/ns/docbook" return
-            "docbook"
-        default return
-            "jats"
-};
 
 declare %private function nav:dispatch($config as map(*), $function as xs:string, $args as array(*)) {
     let $fn := function-lookup(xs:QName($config?type || "-nav:" || $function), array:size($args))
@@ -43,7 +34,8 @@ declare %private function nav:dispatch($config as map(*), $function as xs:string
 };
 
 declare function nav:get-root($root as xs:string?, $options as map(*)?) {
-    tei-nav:get-root($root, $options)
+    tei-nav:get-root($root, $options),
+    docbook-nav:get-root($root, $options)
 };
 
 declare function nav:get-header($config as map(*), $node as element()) {
@@ -59,7 +51,7 @@ declare function nav:get-section($config as map(*), $doc as node()) {
 };
 
 declare function nav:get-metadata($root as element(), $field as xs:string) {
-    nav:get-metadata(map { "type": nav:document-type($root) }, $root, $field)
+    nav:get-metadata(map { "type": config:document-type($root) }, $root, $field)
 };
 
 declare function nav:get-metadata($config as map(*), $root as element(), $field as xs:string) {
@@ -86,7 +78,7 @@ declare function nav:sort($sortBy as xs:string, $items as element()*) {
     if (empty($items)) then
         ()
     else
-        nav:dispatch(map { "type": nav:document-type(head($items)) }, "sort", [$sortBy, $items])
+        nav:dispatch(map { "type": config:document-type(head($items)) }, "sort", [$sortBy, $items])
 };
 
 declare function nav:get-content($config as map(*), $div as element()) {
@@ -101,8 +93,12 @@ declare function nav:get-previous($config as map(*), $div as element(), $view as
     nav:dispatch($config, "get-previous", [$config, $div, $view])
 };
 
-declare function nav:get-previous-div($config as map(*), $div as element()) {
-    nav:dispatch($config, "get-previous-div", [$config, $div])
+declare function nav:filler($config as map(*), $div as element()?) {
+    nav:dispatch($config, "filler", [$config, $div])
+};
+
+declare function nav:is-filler($config as map(*), $div) {
+    nav:dispatch($config, "is-filler", [$config, $div])
 };
 
 declare function nav:output-footnotes($footnotes as element()*) {
@@ -116,8 +112,4 @@ declare function nav:output-footnotes($footnotes as element()*) {
         $footnotes[not(self::pb-popover)]
     }
     </div>
-};
-
-declare function nav:index($config as map(*), $root) {
-    nav:dispatch($config, "index", [$config, $root])
 };

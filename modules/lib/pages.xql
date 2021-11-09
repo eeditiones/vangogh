@@ -27,13 +27,11 @@ declare namespace tei="http://www.tei-c.org/ns/1.0";
 declare namespace expath="http://expath.org/ns/pkg";
 
 import module namespace nav="http://www.tei-c.org/tei-simple/navigation" at "../navigation.xql";
-import module namespace query="http://www.tei-c.org/tei-simple/query" at "../query.xql";
-import module namespace templates="http://exist-db.org/xquery/templates";
+import module namespace templates="http://exist-db.org/xquery/html-templating";
 import module namespace config="http://www.tei-c.org/tei-simple/config" at "../config.xqm";
 import module namespace pm-config="http://www.tei-c.org/tei-simple/pm-config" at "../pm-config.xql";
 import module namespace tpu="http://www.tei-c.org/tei-publisher/util" at "lib/util.xql";
-
-declare variable $pages:app-root := request:get-context-path() || substring-after($config:app-root, "/db");
+import module namespace lib="http://exist-db.org/xquery/html-templating/lib" at "templates-lib.xqm";
 
 declare variable $pages:EXIDE :=
     let $pkg := collection(repo:get-root())//expath:package[@name = "http://exist-db.org/apps/eXide"]
@@ -46,119 +44,51 @@ declare variable $pages:EXIDE :=
     return
         replace($path, "/+", "/");
 
-declare variable $pages:EDIT_ODD_LINK :=
-    let $pkg := collection(repo:get-root())//expath:package[@name = "http://existsolutions.com/apps/tei-publisher"]
-    let $appLink :=
-        if ($pkg) then
-            substring-after(util:collection-name($pkg), repo:get-root())
-        else
-            ()
-    let $path := string-join((request:get-context-path(), request:get-attribute("$exist:prefix"), $appLink, "odd-editor.html"), "/")
-    return
-        replace($path, "/+", "/");
+(:~
+ : Needed for backwards compatibility with TEI Publisher 7.0
+ :)
+declare function pages:parse-params($node as node(), $model as map(*)) {
+    lib:parse-params($node, $model, "\$\{", "\}")
+};
 
-declare function pages:pb-document($node as node(), $model as map(*), $doc as xs:string, $root as xs:string?,
-    $id as xs:string?, $view as xs:string?) {
-    let $odd := ($node/@odd, request:get-parameter("odd", ())) [1]
-    let $data := pages:get-document($doc)
-    let $config := tpu:parse-pi(root($data), $view, $odd)
+declare function pages:pb-document($node as node(), $model as map(*), $odd as xs:string?) {
+    let $oddParam := ($node/@odd, $model?odd, $odd)[1]
+    let $data := config:get-document($model?doc)
+    let $config := tpu:parse-pi(root($data), $model?view, $oddParam)
     return
-        <pb-document path="{$doc}" root-path="{$config:data-root}" view="{$config?view}" odd="{replace($config?odd, '^(.*)\.odd', '$1')}"
+        <pb-document path="{$model?doc}" root-path="{$config:data-root}" view="{$config?view}" odd="{replace($config?odd, '^(.*)\.odd', '$1')}"
             source-view="{$pages:EXIDE}">
             { $node/@id }
         </pb-document>
 };
 
-declare function pages:pb-view($node as node(), $model as map(*), $root as xs:string?, $id as xs:string?,
-    $action as xs:string?) {
-    element { node-name($node) } {
-        attribute node-id { $root },
-        if ($id) then
-            attribute xml-id { '["' || $id || '"]'}
-        else
-            (),
-        if ($action = "search") then
-            attribute highlight { "highlight" }
-        else
-            (),
-        $node/@*,
-        $node/*
-    }
-};
-
-(:~~
+(:~
  : Generate the actual script tag to import pb-components.
  :)
 declare function pages:load-components($node as node(), $model as map(*)) {
+    if (not($node/preceding::script[@data-template="pages:load-components"])) then (
+        <script defer="defer" src="https://unpkg.com/@webcomponents/webcomponentsjs@2.4.3/webcomponents-loader.js"></script>,
+        <script defer="defer" src="https://unpkg.com/web-animations-js@2.3.2/web-animations-next-lite.min.js"></script>
+    ) else
+        (),
     switch ($config:webcomponents)
         case "local" return
             <script type="module" src="resources/scripts/{$node/@src}"></script>
-        default return
+        case "dev" return
             <script type="module" 
-                src="https://unpkg.com/@teipublisher/pb-components@{$config:webcomponents}/dist/{$node/@src}"></script>
-};
-
-declare function pages:current-language($node as node(), $model as map(*), $lang as xs:string?) {
-    element { node-name($node) } {
-        $node/@*,
-        attribute selected { $lang },
-        $node/*
-    }
-};
-
-declare
-    %templates:wrap
-function pages:load($node as node(), $model as map(*), $doc as xs:string, $root as xs:string?,
-    $id as xs:string?, $view as xs:string?) {
-    let $doc := xmldb:decode($doc)
-    let $data :=
-        if ($id) then
-            let $node := doc($config:data-root || "/" || $doc)/id($id)
-            let $config := tpu:parse-pi(root($node), $view)
-            let $div := nav:get-section-for-node($config, $node)
-            return
-                map {
-                    "config": $config,
-                    "data":
-                        if (empty($div)) then
-                            $node/following-sibling::tei:div[1]
-                        else
-                            $div
-                }
-        else
-            pages:load-xml($view, $root, $doc)
-    let $node :=
-        if ($data?data) then
-            $data?data
-        else
-            <TEI xmlns="http://www.tei-c.org/ns/1.0">
-                <teiHeader>
-                    <fileDesc>
-                        <titleStmt>
-                            <title>Not found</title>
-                        </titleStmt>
-                    </fileDesc>
-                </teiHeader>
-                <text>
-                    <body>
-                        <div>
-                            <head>Failed to load!</head>
-                            <p>Could not load document {$doc}. Maybe it is not valid TEI or not in the TEI namespace?</p>
-                        </div>
-                    </body>
-                </text>
-            </TEI>//tei:div
-    return
-        map {
-            "config": $data?config,
-            "data": $node
-        }
+                src="{$config:webcomponents-cdn}/src/{$node/@src}"></script>
+        default return
+            <script type="module"
+                src="{$config:webcomponents-cdn}@{$config:webcomponents}/dist/{$node/@src}"></script>
 };
 
 declare function pages:load-xml($view as xs:string?, $root as xs:string?, $doc as xs:string) {
-    for $data in pages:get-document($doc)
+    for $data in config:get-document($doc)
     return
-        pages:load-xml($data, $view, $root, $doc)
+        if (exists($data)) then
+            pages:load-xml($data, $view, $root, $doc)
+        else
+            ()
 };
 
 declare function pages:load-xml($data as node()*, $view as xs:string?, $root as xs:string?, $doc as xs:string) {
@@ -195,88 +125,25 @@ declare function pages:load-xml($data as node()*, $view as xs:string?, $root as 
         }
 };
 
-declare function pages:get-document($idOrName as xs:string) {
-    if ($config:address-by-id) then
-        root(collection($config:data-root)/id($idOrName))
-    else if (starts-with($idOrName, '/')) then
-        doc(xmldb:encode-uri($idOrName))
-    else
-        doc(xmldb:encode-uri($config:data-root || "/" || $idOrName))
-};
-
-declare function pages:back-link($node as node(), $model as map(*)) {
-    element { node-name($node) } {
-        attribute href {
-            $pages:app-root || "/"
-        },
-        $node/@*,
-        $node/node()
-    }
-};
-
-declare function pages:single-page-link($node as node(), $model as map(*), $doc as xs:string) {
-    element { node-name($node) } {
-        $node/@* except $node/@href,
-        attribute href { "?view=plain&amp;odd=" || $config:odd },
-        $node/node()
-    }
-};
-
 declare function pages:edit-odd-link($node as node(), $model as map(*)) {
-    <pb-download url="{$pages:EDIT_ODD_LINK}" source="source"
+    <pb-download url="{$model?app}/odd-editor.html" source="source"
         params="root={$config:odd-root}&amp;output-root={$config:output-root}&amp;output={$config:output}">
         {$node/@*, $node/node()}
     </pb-download>
 };
 
-
-declare function pages:xml-link($node as node(), $model as map(*), $source as xs:string?) {
-    let $doc-path :=
-        if ($source = "odd") then
-            $config:odd-root || "/" || $config:odd
-        else if ($source) then
-            $config:app-root || "/" || $source
-        else if ($model?work) then
-            document-uri(root($model?work))
-        else if ($model?data) then
-            document-uri(root($model?data))
-        else
-            ()
-    let $eXide-link := $pages:EXIDE || "?open=" || $doc-path
-    let $rest-link := '/exist/rest' || $doc-path
+(:~
+ : Only used for generated app: output edit link for every registered ODD
+ :)
+declare function pages:edit-odd-list($node as node(), $model as map(*)) {
+    for $odd in ($config:odd-available, $config:odd-internal)
     return
-        element { node-name($node) } {
-            $node/@* except ($node/@href, $node/@class),
-            if ($pages:EXIDE)
-            then (
-                attribute href { $eXide-link },
-                attribute data-exide-open { $doc-path },
-                attribute class { "eXide-open " || $node/@class },
-                attribute target { "eXide" }
-            ) else (
-                attribute href { $rest-link },
-                attribute target { "_blank" }
-            ),
-            $node/node()
-        }
-};
-
-declare
-    %templates:default("action", "browse")
-function pages:view($node as node(), $model as map(*), $action as xs:string) {
-    let $view := pages:determine-view($model?config?view, $model?data)
-    let $data :=
-        if ($action = "search" and exists(session:get-attribute($config:session-prefix || ".query"))) then
-            query:expand($model?config, $model?data)
-        else
-            $model?data
-    let $xml :=
-        if ($view = ("div", "page", "body")) then
-            pages:get-content($model?config, $data[1])
-        else
-            $model?data//*:body/*
-    return
-        pages:process-content($xml, $model?data, $model?config)
+        <paper-item>
+            <a href="{$model?app}/odd-editor.html?root={$config:odd-root}&amp;output-root={$config:output-root}&amp;output={$config:output}&amp;odd={$odd}"
+                target="_blank">
+                <pb-i18n key="menu.admin.edit-odd">Edit ODD</pb-i18n>: {$odd}
+            </a>
+        </paper-item>
 };
 
 declare function pages:process-content($xml as node()*, $root as node()*, $config as map(*)) {
@@ -293,12 +160,19 @@ declare function pages:process-content($xml as node()*, $root as node()*, $confi
 	let $html := $pm-config:web-transform($xml, $params, $config?odd)
     let $class := if ($html//*[@class = ('margin-note')]) then "margin-right" else ()
     let $body := pages:clean-footnotes($html)
+    let $footnotes := 
+        for $fn in $html//*[@class = "footnote"]
+        return
+            element { node-name($fn) } {
+                $fn/@*,
+                pages:clean-footnotes($fn/node())
+            }
     return
         <div class="{$config:css-content-class} {$class}">
         {
             $body,
-            if ($html//*[@class="footnote"]) then
-                nav:output-footnotes($html//*[@class = "footnote"])
+            if ($footnotes) then
+                nav:output-footnotes($footnotes)
             else
                 ()
             ,
@@ -312,7 +186,7 @@ declare function pages:clean-footnotes($nodes as node()*) {
     return
         typeswitch($node)
             case element(paper-tooltip) return
-		()
+		        ()
             case element() return
                 if ($node/@class = "footnote") then
                     ()
@@ -325,29 +199,18 @@ declare function pages:clean-footnotes($nodes as node()*) {
                 $node
 };
 
-declare
-    %templates:wrap
-function pages:table-of-contents($node as node(), $model as map(*), $target as xs:string*) {
-    let $current :=
-        if ($model?config?view = "page") then
-            ($model?data/ancestor-or-self::tei:div[1], $model?data/following::tei:div[1])[1]
-        else
-            $model?data
-    return
-        pages:toc-div(root($model?data), $model, $current, $target)
-};
-
-declare %private function pages:toc-div($node, $model as map(*), $current as element(), $target as xs:string?) {
+declare function pages:toc-div($node, $model as map(*), $target as xs:string?,
+    $icons as xs:boolean?) {
     let $view := $model?config?view
     let $divs := nav:get-subsections($model?config, $node)
     return
         <ul>
         {
             for $div in $divs
-            let $headings := nav:get-section-heading($model?config, $div)
+            let $headings := nav:get-section-heading($model?config, $div)/node()
             let $html :=
                 if ($headings/*) then
-                    $pm-config:web-transform($headings, map { "header": "short", "root": $div }, $model?config?odd)
+                    $pm-config:web-transform($headings, map { "mode": "toc", "root": $div }, $model?config?odd)
                 else
                     $headings/string()
             let $root := (
@@ -357,111 +220,69 @@ declare %private function pages:toc-div($node, $model as map(*), $current as ele
                     (),
                 $div
             )[1]
-            let $id := "T" ||util:uuid()
+            let $parent := if ($view = 'page') then () else nav:is-filler($model?config, $div)
             let $hasDivs := exists(nav:get-subsections($model?config, $div))
-            let $isIn := if ($div/descendant::*[. is $current]) then "in" else ()
-            let $isCurrent := if ($div is $current) then "active" else ()
-            let $icon := if ($isIn) then "expand_less" else "expand_more"
+            let $nodeId :=  if ($parent) then util:node-id($parent) else util:node-id($root)
+            let $xmlId := if ($parent) then $parent/@xml:id else $root/@xml:id
+            let $subsect := if ($parent) then attribute hash { util:node-id($root) } else ()
             return
-                <li>
-                {
-                    if ($hasDivs) then
-                        <pb-collapse>
-                            <span slot="collapse-trigger">
-                                <pb-link node-id="{util:node-id($root)}" emit="{$target}">{$html}</pb-link>
-                            </span>
-                            <span slot="collapse-content">
-                            { pages:toc-div($div, $model, $current, $target) }
-                            </span>
-                        </pb-collapse>
-                    else
-                        <pb-link node-id="{util:node-id($root)}" emit="{$target}">{$html}</pb-link>
-                }
-                </li>
+                    <li>
+                    {
+                        if ($hasDivs) then
+                            <pb-collapse>
+                                {
+                                    if (not($icons)) then
+                                        attribute no-icons { "no-icons" }
+                                    else
+                                        ()
+                                }
+                                <span slot="collapse-trigger">
+                                {
+                                    if ($xmlId) then
+                                        <pb-link xml-id="{$xmlId}" node-id="{$nodeId}" emit="{$target}" subscribe="{$target}">{$subsect, $html}</pb-link>
+                                    else
+                                        <pb-link node-id="{$nodeId}" emit="{$target}" subscribe="{$target}">{$subsect, $html}</pb-link>
+                                }
+                                </span>
+                                <span slot="collapse-content">
+                                { pages:toc-div($div, $model, $target, $icons) }
+                                </span>
+                            </pb-collapse>
+                        else if ($xmlId) then
+                            <pb-link xml-id="{$xmlId}" node-id="{$nodeId}" emit="{$target}" subscribe="{$target}">{$subsect, $html}</pb-link>
+                        else
+                            <pb-link node-id="{$nodeId}" emit="{$target}" subscribe="{$target}">{$subsect, $html}</pb-link>
+                    }
+                    </li>
         }
         </ul>
-};
-
-declare
-    %templates:wrap
-function pages:styles($node as node(), $model as map(*)) {
-    attribute href {
-        let $name := replace($config:odd, "^([^/\.]+).*$", "$1")
-        return
-            $pages:app-root || "/" || $config:output || "/" || $name || ".css"
-    }
-};
-
-declare
-    %templates:wrap
-function pages:navigation($node as node(), $model as map(*), $view as xs:string?) {
-    let $view := pages:determine-view($view, $model?data)
-    let $div := $model?data
-    let $work := root($div)/*
-    let $map := map {
-        "div" : $div,
-        "work" : $work
-    }
-    return
-        if ($view = "single") then
-            $map
-        else
-            map:merge(($map, map {
-                "previous": $config:previous-page($model?config, $div, $view),
-                "next": $config:next-page($model?config, $div, $view)
-            }))
 };
 
 declare function pages:get-content($config as map(*), $div as element()) {
     nav:get-content($config, $div)
 };
 
-declare
-    %templates:wrap
-function pages:navigation-title($node as node(), $model as map(*)) {
-    nav:get-document-title($model?config, root($model('data'))/*)
-};
-
-declare function pages:navigation-link($node as node(), $model as map(*), $direction as xs:string) {
-        if ($model?config?view = "single") then
-            ()
-        else if ($model($direction)) then
-            let $doc :=
-                config:get-identifier($model($direction))
-            return
-                <a data-doc="{$doc}"
-                    data-root="{util:node-id($model($direction))}"
-                    data-current="{util:node-id($model('div'))}"
-                    data-odd="{$config:odd}">
-                {
-                    $node/@* except $node/@href,
-                    let $id := $doc || "?root=" || util:node-id($model($direction))
-                        || "&amp;odd=" || $config:odd || "&amp;view=" || $model?config?view
-                    return
-                        attribute href { $id },
-                    $node/node()
-                }
-                </a>
+declare function pages:pb-page($node as node(), $model as map(*)) {
+    let $docPath := 
+        if (matches($model?doc, "^.*/[^/]*$")) then
+            replace($model?doc, "^(.*)/[^/]*$", "$1")
         else
-            let $doc :=
-                config:get-identifier($model?data)
-            return
-                <a href="#" style="visibility: hidden;"
-                    data-doc="{$doc}">{$node/@class, $node/node()}</a>
-};
-
-declare function pages:pb-page($node as node(), $model as map(*), $template as xs:string?) {
+            ""
     let $model := map:merge(
         (
             $model,
-            map { "app": request:get-context-path() || substring-after($config:app-root, "/db") }
+            map { 
+                "app": $config:context-path,
+                "collection": $docPath
+            }
         )
     )
     return
         element { node-name($node) } {
             $node/@*,
-            attribute app-root { request:get-context-path() || substring-after($config:app-root, "/db") },
-            attribute template { $template },
+            attribute app-root { $config:context-path },
+            attribute template { $model?template },
+            attribute endpoint { $config:context-path },
             templates:process($node/*, $model)
         }
 };
@@ -518,39 +339,6 @@ declare function pages:switch-view-id($data as element()+, $view as xs:string) {
         $root
 };
 
-declare function pages:parse-params($node as node(), $model as map(*)) {
-    element { node-name($node) } {
-        for $attr in $node/@*
-        return
-            if (matches($attr, "\$\{[^\}]+\}")) then
-                attribute { node-name($attr) } {
-                    string-join(
-                        let $parsed := analyze-string($attr, "\$\{([^\}]+?)(?::([^\}]+))?\}")
-                        for $token in $parsed/node()
-                        return
-                            typeswitch($token)
-                                case element(fn:non-match) return $token/string()
-                                case element(fn:match) return
-                                    let $paramName := $token/fn:group[1]/string()
-                                    let $default := $token/fn:group[2]/string()
-                                    let $found := [
-                                        request:get-parameter($paramName, $default),
-                                        $model($paramName),
-                                        session:get-attribute($config:session-prefix || "." || $paramName)
-                                    ]
-                                    return
-                                        array:fold-right($found, (), function($in, $value) {
-                                            if (exists($in)) then $in else $value
-                                        })
-                                default return $token
-                    )
-                }
-            else
-                $attr,
-        templates:process($node/node(), $model)
-    }
-};
-
 declare 
     %templates:wrap
 function pages:languages($node as node(), $model as map(*)) {
@@ -559,4 +347,35 @@ function pages:languages($node as node(), $model as map(*)) {
         map:for-each($json, function($key, $value) {
             <paper-item value="{$key}">{$value}</paper-item>
         })
+};
+
+declare 
+    %templates:wrap
+function pages:version($node as node(), $model as map(*)) {
+    $config:expath-descriptor/@version/string()
+};
+
+declare 
+    %templates:wrap
+function pages:api-version($node as node(), $model as map(*)) {
+    let $json := json-doc($config:app-root || "/modules/lib/api.json")
+    return
+        $json?info?version
+};
+
+declare
+    %templates:default("odd", "teipublisher.odd")
+function pages:odd-editor($node as node(), $model as map(*), $odd as xs:string, $root as xs:string?, $output-root as xs:string?,
+$output-prefix as xs:string?) {
+    let $root := ($root, $config:odd-root)[1]
+    return
+        <pb-odd-editor output-root="{($output-root, $config:app-root || "/transform")[1]}"
+            root-path="{$root}"
+            output-prefix="{($output-prefix, "transform")[1]}"
+            odd="{$odd}">
+        {
+            $node/@*,
+            templates:process($node/node(), $model)
+        }
+        </pb-odd-editor>
 };

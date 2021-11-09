@@ -1,6 +1,30 @@
+/* Due to a safari issue, relative paths to background images won't work as variables, so we list them here */
+
+.logo {
+    background-image: url("../images/tei-publisher-logo-contrast-color.svg");
+}
+
+.splash {
+    background-image: url("../images/tei-publisher-logo-color.svg");
+}
+
+.menubar {
+    background-image: none;
+}
+
+.toolbar {
+    background-image: none;
+}
+
+app-header {
+    background-image: none;
+}
+
 body {
-    --pb-splash-background-image: url(../images/tei-publisher-logo-color.svg);
-    --pb-splash-background-size: 360px auto;
+    --pb-splash-image-size: 360px auto;
+    --pb-splash-background-color: var(--pb-color-inverse);
+    --pb-logo-image-width: 140px;
+    --pb-logo-image-height: 60px;
     --pb-base-font-family: 'Roboto', 'Noto', sans-serif;
     --pb-base-font-size: 16px;
     --pb-base-line-height: 1.42857143;
@@ -17,13 +41,10 @@ body {
     --pb-color-inverse: #F0F0F0;
     --pb-color-lighter: #35424b;
     --pb-color-focus: #f6a623;
-    --pb-header-background-image: none;
     --pb-drawer-background-color: var(--pb-color-inverse);
     --pb-menubar-background-color: #35424b;
-    --pb-menubar-background-image: none;
     --pb-menubar-color: var(--pb-color-inverse);
     --pb-toolbar-background-color: #d1dae0;
-    --pb-toolbar-background-image: none;
     --pb-toolbar-color: var(--pb-color-primary);
     --paper-tooltip-delay-in: 200;
     --pb-footnote-font-size: 13px;
@@ -31,10 +52,12 @@ body {
     --pb-footnote-font-weight: var(--pb-content-font-weight);
     --pb-footnote-color: #303030;
     --pb-footnote-padding: 0 0 0 .25em;
-    --pb-popover-theme: "material";
+    --pb-popover-theme: "light-border";
     --pb-popover-max-width: 480px;
     --pb-popover-font-size: 16px;
     --pb-popover-line-height: 1.2;
+    --pb-popover-placement: "bottom";
+    --pb-popover-fallback-placement: "top right left";
     --pb-lang-input-color: var(--pb-color-inverse);
     --pb-lang-label-color: var(--pb-color-inverse);
     --pb-link-color: black;

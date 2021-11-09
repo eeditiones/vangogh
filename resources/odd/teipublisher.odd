@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml-model href="teipublisher_odds.xsd"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:pb="http://teipublisher.com/1.0" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -21,7 +21,7 @@
                     <p>This program is distributed in the hope that it will be useful,
                         but WITHOUT ANY WARRANTY; without even the implied warranty of
                         MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-                        GNU General Public License for more details.</p>                    
+                        GNU General Public License for more details.</p>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -30,6 +30,9 @@
                 <p>born digital</p>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <tagsDecl/>
+        </encodingDesc>
         <revisionDesc>
             <change when="2017-09-08">adjust metadata in teiHeader</change>
         </revisionDesc>
@@ -49,22 +52,22 @@
             <param name="content" value="replace(string-join(.//text()[not(parent::ref)]), '^(.*?)[^\w]*$', '$1')"/>
         </model>
                     <model predicate="parent::figure" behaviour="block">
-            <outputRendition>
+            <outputRendition xml:space="preserve">
             font-style: italic;
             </outputRendition>
         </model>
                     <model predicate="parent::table" behaviour="block">
-            <outputRendition>
+            <outputRendition xml:space="preserve">
             font-style: italic;
             </outputRendition>
         </model>
                     <model predicate="parent::lg" behaviour="block">
-            <outputRendition>
+            <outputRendition xml:space="preserve">
             font-style: italic;
             </outputRendition>
         </model>
                     <model predicate="parent::list" behaviour="block">
-            <outputRendition>
+            <outputRendition xml:space="preserve">
             font-weight: bold;
             </outputRendition>
         </model>
@@ -107,7 +110,7 @@
                     <modelSequence output="web" predicate="$parameters?header='short'">
             <model behaviour="link">
                 <param name="content" value="title[1]"/>
-                <param name="link" value="$parameters?doc"/>
+                <param name="uri" value="$parameters?doc"/>
             </model>
             <model behaviour="block">
                 <param name="content" value="subsequence(title, 2)"/>
@@ -127,7 +130,7 @@
                 <elementSpec ident="licence" mode="add">
                     <model output="web" predicate="@target" behaviour="link" cssClass="licence">
             <param name="content" value="'Licence'"/>
-            <param name="link" value="@target"/>
+            <param name="uri" value="@target"/>
         </model>
                     <model behaviour="omit"/>
                 </elementSpec>
@@ -144,7 +147,7 @@
                     <model predicate="not(@level) and parent::bibl" behaviour="inline"/>
                     <modelSequence predicate="@level='m' or not(@level)">
             <model behaviour="inline">
-                <outputRendition>
+                <outputRendition xml:space="preserve">
                 font-style: italic;
                 </outputRendition>
             </model>
@@ -154,7 +157,7 @@
         </modelSequence>
                     <modelSequence predicate="@level='s' or @level='j'">
             <model behaviour="inline">
-                <outputRendition>
+                <outputRendition xml:space="preserve">
                 font-style: italic;
                 </outputRendition>
             </model>
@@ -164,7 +167,7 @@
         </modelSequence>
                     <modelSequence predicate="@level='u' or @level='a'">
             <model behaviour="inline">
-                <outputRendition>
+                <outputRendition xml:space="preserve">
                 font-style: italic;
                 </outputRendition>
             </model>
@@ -173,14 +176,14 @@
             </model>
         </modelSequence>
                     <model behaviour="inline">
-            <outputRendition>
+            <outputRendition xml:space="preserve">
             font-style: italic;
             </outputRendition>
         </model>
                 </elementSpec>
                 <elementSpec ident="author" mode="change">
                     <model predicate="ancestor::teiHeader" behaviour="block">
-            <outputRendition scope="before">
+            <outputRendition xml:space="preserve" scope="before">
             content: 'By ';
             </outputRendition>
         </model>
@@ -188,9 +191,57 @@
                 </elementSpec>
                 <elementSpec ident="edition" mode="change">
                     <model predicate="ancestor::teiHeader" behaviour="block">
-            <outputRendition scope="before">
+            <outputRendition xml:space="preserve" scope="before">
             content: 'Edition: ';
             </outputRendition>
+        </model>
+                </elementSpec>
+            <elementSpec ident="ref" mode="change">
+                    <model predicate="not(@target)" behaviour="inline"/>
+                    <model predicate="not(node())" behaviour="link">
+            <param name="content" value="@target"/>
+            <param name="uri" value="@target"/>
+        </model>
+                    <model behaviour="link">
+            <param name="uri" value="@target"/>
+        </model>
+                </elementSpec>
+            <elementSpec ident="note" mode="change">
+                    <model behaviour="note">
+            <param name="place" value="@place"/>
+            <param name="label" value="@n"/>
+        </model>
+                </elementSpec>
+            <elementSpec ident="notatedMusic" mode="add">
+                    <model behaviour="figure">
+            <param name="title" value="label"/>
+            <param name="content" value="ptr"/>
+        </model>
+                </elementSpec>
+                <elementSpec ident="ptr" mode="add">
+                    <model predicate="parent::notatedMusic" behaviour="pass-through">
+            <param name="url" value="@target"/>
+            <pb:template xmlns="" xml:space="preserve"><pb-mei url="[[url]]" player="player">
+  <pb-option name="appXPath" on="./rdg[contains(@label, 'original')]" off="">Original Clefs</pb-option>
+</pb-mei></pb:template>
+        </model>
+                </elementSpec>
+            <elementSpec ident="formula" mode="change">
+                    <model predicate="@rendition='simple:display'" behaviour="block"/>
+                    <model output="latex" predicate="@rend=&#34;display&#34;" behaviour="inline">
+            <param name="content" value="string()"/>
+            <pb:template xmlns="" xml:space="preserve">\begin{equation}[[content]]\end{equation}</pb:template>
+        </model>
+                    <model output="latex" behaviour="inline">
+            <param name="content" value="string()"/>
+            <pb:template xmlns="" xml:space="preserve">\begin{math}[[content]]\end{math}</pb:template>
+        </model>
+                    <model predicate="@rend='display'" behaviour="webcomponent">
+            <param name="name" value="'pb-formula'"/>
+            <param name="display" value="true()"/>
+        </model>
+                    <model behaviour="webcomponent">
+            <param name="name" value="'pb-formula'"/>
         </model>
                 </elementSpec>
             </schemaSpec>

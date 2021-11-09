@@ -1,11 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <app-toolbar class="menubar">
-    <div class="cropper">
-    <a href="$app/index.html" class="logo">
-        <img src="resources/images/vincent.jpg"/>
-    </a>
-    </div>
+    <a href="${app}/index.html" class="logo" data-template="lib:parse-params"/>
     <pb-media-query query="min-width: 1024px">
-        <a href="${app}/index.html" data-template="pages:parse-params">Start</a>
+        <a href="${app}/index.html" data-template="lib:parse-params">Start</a>
         <paper-menu-button>
             <a href="#" slot="dropdown-trigger" data-i18n="[title]menu.download.title" title="i18n(download)">
                 <pb-i18n key="menu.download.title">Download</pb-i18n>
@@ -18,17 +15,17 @@
                 </paper-item>
                 <paper-item>
                     <pb-download type="tex" src="document1" dialog="downloadDialog" data-i18n="[title]menu.download.pdf-latex" title="i18n(pdf-latex)" source="source">
-                        <pb-i18n key="menu.download.latex-source"></pb-i18n>
+                        <pb-i18n key="menu.download.latex-source"/>
                     </pb-download>
                 </paper-item>
                 <paper-item>
                     <pb-download type="pdf" src="document1" dialog="downloadDialog" data-i18n="[title]menu.download.pdf-fo" title="i18n(pdf-fo)">
-                        <pb-i18n key="menu.download.pdf-fo"></pb-i18n>
+                        <pb-i18n key="menu.download.pdf-fo"/>
                     </pb-download>
                 </paper-item>
                 <paper-item>
                     <pb-download type="pdf" src="document1" dialog="downloadDialog" data-i18n="[title]menu.download.fo-source" title="pdf-fo" source="source">
-                        <pb-i18n key="menu.download.fo-source"></pb-i18n>
+                        <pb-i18n key="menu.download.fo-source"/>
                     </pb-download>
                 </paper-item>
                 <paper-item>
@@ -47,15 +44,14 @@
             <paper-menu-button>
                 <a href="#" slot="dropdown-trigger"><pb-i18n key="menu.admin.title">Admin</pb-i18n></a>
                 <paper-listbox slot="dropdown-content">
+                    <paper-item data-template="pages:edit-odd-list"/>
                     <paper-item>
-                        <pb-download data-template="pages:edit-odd-link" src="document1">
-                            <pb-i18n key="menu.admin.edit-odd">Edit ODD</pb-i18n>
+                        <pb-download url="api/apps/download">
+                            <pb-i18n key="appgen.xar-download">Download App as .xar</pb-i18n>
                         </pb-download>
                     </paper-item>
                     <paper-item>
-                        <pb-download url="modules/lib/app-download.xql">
-                            <pb-i18n key="appgen.xar-download">Download App as .xar</pb-i18n>
-                        </pb-download>
+                        <a href="${app}/api.html" data-template="lib:parse-params" target="_blank">API Documentation</a>
                     </paper-item>
                 </paper-listbox>
             </paper-menu-button>
@@ -63,8 +59,7 @@
     </pb-media-query>
 
     <!-- Search input -->
-    <pb-search action="${app}/search.html" data-template="pages:parse-params" value="${query}"
-       redirect="redirect"></pb-search>
+    <pb-search action="${app}/search.html" data-template="lib:parse-params" value="${query}" redirect="redirect"/>
     <pb-media-query query="min-width: 1024px">
        <!-- language selector -->
        <pb-lang name="lang" data-template="pages:languages"/>
@@ -76,7 +71,7 @@
             <pb-i18n key="dialogs.generatingFile">Generating file ...</pb-i18n>
         </h2>
         <paper-dialog-scrollable>
-            <pb-i18n key="dialogs.downloadMessage"></pb-i18n>
+            <pb-i18n key="dialogs.downloadMessage"/>
         </paper-dialog-scrollable>
         <div class="buttons">
             <paper-button dialog-confirm="dialog-confirm" autofocus="autofocus">

@@ -17,11 +17,13 @@
  :)
 xquery version "3.1";
 
-declare namespace tei="http://www.tei-c.org/ns/1.0";
+module namespace facets="http://teipublisher.com/facets";
 
 import module namespace config="http://www.tei-c.org/tei-simple/config" at "config.xqm";
 
-declare function local:sort($facets as map(*)?) {
+declare namespace tei="http://www.tei-c.org/ns/1.0";
+
+declare function facets:sort($facets as map(*)?) {
     array {
         if (exists($facets)) then
             for $key in map:keys($facets)
@@ -34,7 +36,7 @@ declare function local:sort($facets as map(*)?) {
     }
 };
 
-declare function local:print-table($config as map(*), $nodes as element()+, $values as xs:string*, $params as xs:string*) {
+declare function facets:print-table($config as map(*), $nodes as element()+, $values as xs:string*, $params as xs:string*) {
     let $all := exists($config?max) and request:get-parameter("all-" || $config?dimension, ())
     let $count := if ($all) then 50 else $config?max
     let $facets :=
@@ -46,12 +48,12 @@ declare function local:print-table($config as map(*), $nodes as element()+, $val
         if (map:size($facets) > 0) then
             <table>
             {
-                array:for-each(local:sort($facets), function($entry) {
+                array:for-each(facets:sort($facets), function($entry) {
                     map:for-each($entry, function($label, $freq) {
                         <tr>
                             <td>
                                 <paper-checkbox class="facet" name="facet-{$config?dimension}" value="{$label}">
-                                    { if ($label = $params[1]) then attribute checked { "checked" } else () }
+                                    { if ($label = $params) then attribute checked { "checked" } else () }
                                     {
                                         if (exists($config?output)) then
                                             $config?output($label)
@@ -67,7 +69,7 @@ declare function local:print-table($config as map(*), $nodes as element()+, $val
                 if (empty($params)) then
                     ()
                 else
-                    let $nested := local:print-table($config, $nodes, ($values, head($params)), tail($params))
+                    let $nested := facets:print-table($config, $nodes, ($values, head($params)), tail($params))
                     return
                         if ($nested) then
                             <tr class="nested">
@@ -83,9 +85,9 @@ declare function local:print-table($config as map(*), $nodes as element()+, $val
             ()
 };
 
-declare function local:display($config as map(*), $nodes as element()+) {
+declare function facets:display($config as map(*), $nodes as element()+) {
     let $params := request:get-parameter("facet-" || $config?dimension, ())
-    let $table := local:print-table($config, $nodes, (), $params)
+    let $table := facets:print-table($config, $nodes, (), $params)
     where $table
     return
         <div>
@@ -106,6 +108,7 @@ declare function local:display($config as map(*), $nodes as element()+) {
         </div>
 };
 
+(:
 let $hits := session:get-attribute($config:session-prefix || ".hits")
 where count($hits) > 0
 return
@@ -116,3 +119,4 @@ return
             local:display($config, $hits)
     }
     </div>
+:)
