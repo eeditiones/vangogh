@@ -12,9 +12,8 @@
         <link rel="stylesheet" href="resources/css/theme.css"/>
 
         <title data-template="config:app-title"/>
-        <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"></script>
-        <custom-style>
-            <style is="custom-style">
+        <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
+            <style>
                 body{
                     color:white;
                     background:#75a4aa;
@@ -375,7 +374,6 @@
                     background-image: url(resources/images/SelbstPortrait_VG2.jpg);
                 }
             </style>
-        </custom-style>
     </head>
     <body class="fullbleed">
         <pb-page data-template="pages:pb-page" unresolved="unresolved">
@@ -412,8 +410,7 @@
                         <pb-paginate id="paginate" per-page="10" range="5" subscribe="docs" emit="docs"/>
                         <section class="panels">
 
-                            <pb-browse-docs id="document-list" url="templates/documents.html" sort-options="[{&#34;label&#34;: &#34;Date&#34;, &#34;value&#34;: &#34;date&#34;},{&#34;label&#34;: &#34;Title&#34;, &#34;value&#34;: &#34;title&#34;},{&#34;label&#34;: &#34;From&#34;, &#34;value&#34;: &#34;from&#34;},{&#34;label&#34;: &#34;To&#34;, &#34;value&#34;: &#34;to&#34;}]" sort-by="date" filter-options="[{&#34;label&#34;: &#34;Title&#34;, &#34;value&#34;: &#34;title&#34;},{&#34;label&#34;: &#34;From&#34;, &#34;value&#34;: &#34;from&#34;},{&#34;label&#34;: &#34;To&#34;, &#34;value&#34;: &#34;to&#34;}]" filter-by="title" auto="auto" history="history" login="login"
-                            emit="docs" subscribe="docs">
+                            <pb-browse-docs id="document-list" url="templates/documents.html" sort-options="[{&#34;label&#34;: &#34;Date&#34;, &#34;value&#34;: &#34;date&#34;},{&#34;label&#34;: &#34;Title&#34;, &#34;value&#34;: &#34;title&#34;},{&#34;label&#34;: &#34;From&#34;, &#34;value&#34;: &#34;from&#34;},{&#34;label&#34;: &#34;To&#34;, &#34;value&#34;: &#34;to&#34;}]" sort-by="date" filter-options="[{&#34;label&#34;: &#34;Title&#34;, &#34;value&#34;: &#34;title&#34;},{&#34;label&#34;: &#34;From&#34;, &#34;value&#34;: &#34;from&#34;},{&#34;label&#34;: &#34;To&#34;, &#34;value&#34;: &#34;to&#34;}]" filter-by="title" auto="auto" history="history" login="login" emit="docs" subscribe="docs">
                             </pb-browse-docs>
                             <aside>
                                 <pb-search action="${app}/search.html" data-template="pages:parse-params" value="${query}" redirect="redirect"/>
@@ -442,11 +439,11 @@
                 const facets = document.getElementById('facets');
                 facets.addEventListener('pb-custom-form-loaded', function(ev) {
                     const elems = ev.detail.querySelectorAll('.facet');
-                    elems.forEach(facet => {
-                        facet.addEventListener('change', () => {
+                    elems.forEach(facet =&gt; {
+                        facet.addEventListener('change', () =&gt; {
                             const table = facet.closest('table');
                             if (table) {
-                                const nested = table.querySelectorAll('.nested .facet').forEach(nested => {
+                                const nested = table.querySelectorAll('.nested .facet').forEach(nested =&gt; {
                                     if (nested != facet) {
                                         nested.checked = false;
                                     }
@@ -462,7 +459,7 @@
                     <pb-i18n key="dialogs.generatingFile">Generating File...</pb-i18n>
                 </h2>
                 <paper-dialog-scrollable>
-                    <pb-i18n key="dialogs.downloadMessage"></pb-i18n>
+                    <pb-i18n key="dialogs.downloadMessage"/>
                 </paper-dialog-scrollable>
                 <div class="buttons">
                     <paper-button dialog-confirm="dialog-confirm" autofocus="autofocus">
@@ -471,8 +468,10 @@
                 </div>
             </paper-dialog>
             <paper-dialog id="errorDialog">
-                <h2><pb-i18n key="dialogs.error">Error</pb-i18n></h2>
-                <paper-dialog-scrollable></paper-dialog-scrollable>
+                <h2>
+                    <pb-i18n key="dialogs.error">Error</pb-i18n>
+                </h2>
+                <paper-dialog-scrollable/>
                 <div class="buttons">
                     <paper-button dialog-confirm="dialog-confirm" autofocus="autofocus">
                         <pb-i18n key="dialogs.close">Close</pb-i18n>
@@ -480,6 +479,6 @@
                 </div>
             </paper-dialog>
         </pb-page>
-        <div class="splash"></div>
+        <div class="splash"/>
     </body>
 </html>

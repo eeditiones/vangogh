@@ -109,7 +109,9 @@
                                 </div>
                             </pb-collapse>
                             <pb-collapse>
-                                <h3 slot="collapse-trigger"><pb-i18n key="menu.download.title">Download</pb-i18n></h3>
+                                <h3 slot="collapse-trigger">
+                                    <pb-i18n key="menu.download.title">Download</pb-i18n>
+                                </h3>
                                 <paper-listbox slot="collapse-content">
                                     <paper-item>
                                         <pb-download type="tex" src="document1" dialog="downloadDialog" data-i18n="[title]menu.download.pdf-latex" title="i18n(pdf-latex)">
@@ -145,7 +147,9 @@
                             </pb-collapse>
                             <pb-restricted login="login">
                                 <pb-collapse>
-                                    <h3 slot="collapse-trigger"><pb-i18n key="menu.admin.title">Admin</pb-i18n></h3>
+                                    <h3 slot="collapse-trigger">
+                                        <pb-i18n key="menu.admin.title">Admin</pb-i18n>
+                                    </h3>
                                     <paper-listbox slot="collapse-content">
                                         <paper-item>
                                             <pb-download data-template="pages:edit-odd-link" src="document1">

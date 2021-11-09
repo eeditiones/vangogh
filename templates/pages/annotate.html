@@ -55,7 +55,9 @@
                                         <paper-input id="form-ref" name="ref" data-i18n="[label]annotations.reference" label="Reference">
                                             <paper-icon-button slot="prefix" icon="search" data-i18n="[label]annotations.lookup"/>
                                         </paper-input>
-                                        <div id="authority-info"><pb-i18n key="dialogs.loading">Loading ...</pb-i18n></div>
+                                        <div id="authority-info">
+                                            <pb-i18n key="dialogs.loading">Loading ...</pb-i18n>
+                                        </div>
                                     </div>
                                     <div class="annotation-form date">
                                         <paper-input name="when" label="when" type="date"/>
@@ -79,14 +81,20 @@
                                     <paper-input class="annotation-form abbreviation" name="expan" data-i18n="[label]annotations.expansion" label="Expansion"/>
                                     <paper-input class="annotation-form reg" name="reg" data-i18n="[label]annotations.reg" label="Regularization"/>
                                     <div class="annotation-form edit">
-                                        <p><pb-i18n key="annotations.modify-info"/></p>
+                                        <p>
+                                            <pb-i18n key="annotations.modify-info"/>
+                                        </p>
                                         <paper-input name="content" data-i18n="[label]annotations.correction" label="Correction"/>
                                     </div>
                                     <paper-icon-button id="form-save" icon="icons:save" data-i18n="[label]annotations.apply"/>
                                 </form>
                             </iron-form>
                             <div id="occurrences">
-                                <h4><div><pb-i18n key="annotations.occurrences">Occurrences in text</pb-i18n></div> <paper-icon-button id="mark-all" icon="icons:done-all" data-i18n="[label]annotations.apply-all" data-shortcut="⌘+option+a,ctrl+alt+a"/></h4>
+                                <h4>
+                                    <div>
+                                        <pb-i18n key="annotations.occurrences">Occurrences in text</pb-i18n>
+                                    </div> <paper-icon-button id="mark-all" icon="icons:done-all" data-i18n="[label]annotations.apply-all" data-shortcut="⌘+option+a,ctrl+alt+a"/>
+                                </h4>
                                 <ul/>
                             </div>
                         </aside>
@@ -118,7 +126,9 @@
                                 <paper-tab slot="tab">HTML</paper-tab>
                                 <paper-tab slot="tab">TEI</paper-tab>
                                 <paper-tab slot="tab">JSON</paper-tab>
-                                <paper-tab slot="tab"><pb-i18n key="annotations.changes">Changes</pb-i18n></paper-tab>
+                                <paper-tab slot="tab">
+                                    <pb-i18n key="annotations.changes">Changes</pb-i18n>
+                                </paper-tab>
                                 <iframe slot="page" id="html" src="about:blank"/>
                                 <pb-code-highlight slot="page" id="output" language="xml" theme="default"/>
                                 <pre slot="page" id="json"/>

@@ -9,6 +9,6 @@
     <prepare>pre-install.xql</prepare>
     <finish>post-install.xql</finish>
     <target>vangogh</target>
-    <permissions user="vg" group="tei" password="vangogh" mode="rw-rw-r--"/>
-<deployed>2021-11-09T09:40:33.932+01:00</deployed>
+    <permissions xmlns:repo="http://exist-db.org/xquery/repo" password="vangogh" user="vg" group="tei" mode="rw-rw-r--"/>
+
 </meta>

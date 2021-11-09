@@ -8,7 +8,9 @@
     <div id="toolbar-start" style="display: none"/>
     <pb-restricted login="login">
         <pb-ajax subscribe="transcription" emit="transcription" url="api/odd" method="post" data-template="lib:parse-params" event="pb-refresh" title="Recompile ODD" data-i18n="[title]menu.admin.recompile">
-            <h3 slot="title"><pb-i18n key="menu.admin.recompile"/></h3>
+            <h3 slot="title">
+                <pb-i18n key="menu.admin.recompile"/>
+            </h3>
             <paper-icon-button icon="icons:refresh"/>
         </pb-ajax>
     </pb-restricted>

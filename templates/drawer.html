@@ -5,7 +5,9 @@
             <!-- language selector -->
             <pb-lang name="lang" data-template="pages:languages"/>
             <pb-collapse>
-                <h3 slot="collapse-trigger"><pb-i18n key="menu.documentation">Documentation</pb-i18n></h3>
+                <h3 slot="collapse-trigger">
+                    <pb-i18n key="menu.documentation">Documentation</pb-i18n>
+                </h3>
                 <paper-listbox slot="collapse-content">
                     <paper-item>
                         <a href="${app}/doc/documentation.xml?odd=docbook.odd" data-template="lib:parse-params">
@@ -16,7 +18,9 @@
                         <a href="https://faq.teipublisher.com/">FAQ</a>
                     </paper-item>
                     <paper-item>
-                        <a href="${app}/doc/blog/" data-template="lib:parse-params"><pb-i18n key="menu.news">News</pb-i18n></a>
+                        <a href="${app}/doc/blog/" data-template="lib:parse-params">
+                            <pb-i18n key="menu.news">News</pb-i18n>
+                        </a>
                     </paper-item>
                     <paper-item>
                         <a href="https://unpkg.com/@teipublisher/pb-components@latest/dist/api.html" target="_blank">Webcomponents API</a>
@@ -24,7 +28,9 @@
                 </paper-listbox>
             </pb-collapse>
             <pb-collapse>
-                <h3 slot="collapse-trigger"><pb-i18n key="menu.download.title">Download</pb-i18n></h3>
+                <h3 slot="collapse-trigger">
+                    <pb-i18n key="menu.download.title">Download</pb-i18n>
+                </h3>
                 <paper-listbox slot="collapse-content">
                     <paper-item>
                         <pb-download type="tex" src="document1" dialog="downloadDialog" data-i18n="[title]menu.download.pdf-latex" title="i18n(pdf-latex)">
@@ -60,7 +66,9 @@
             </pb-collapse>
             <pb-restricted login="login">
                 <pb-collapse>
-                    <h3 slot="collapse-trigger"><pb-i18n key="menu.admin.title">Admin</pb-i18n></h3>
+                    <h3 slot="collapse-trigger">
+                        <pb-i18n key="menu.admin.title">Admin</pb-i18n>
+                    </h3>
                     <paper-listbox slot="collapse-content">
                         <paper-item>
                             <pb-download data-template="pages:edit-odd-link" src="document1">
@@ -78,9 +86,13 @@
         </pb-media-query>
         <div class="settings">
             <h3>Settings</h3>
-            <pb-toggle-feature emit="transcription" subscribe="transcription" name="view" on="page" off="div" init-from-view="init-from-view"><pb-i18n key="document.view-type">Page View</pb-i18n></pb-toggle-feature>
+            <pb-toggle-feature emit="transcription" subscribe="transcription" name="view" on="page" off="div" init-from-view="init-from-view">
+                <pb-i18n key="document.view-type">Page View</pb-i18n>
+            </pb-toggle-feature>
             <pb-edit-xml src="document1">
-                <paper-button alt="Edit source"><iron-icon icon="icons:code"/> <pb-i18n key="menu.download.view-tei"/></paper-button>
+                <paper-button alt="Edit source">
+                    <iron-icon icon="icons:code"/> <pb-i18n key="menu.download.view-tei"/>
+                </paper-button>
             </pb-edit-xml>
         </div>
     </div>
