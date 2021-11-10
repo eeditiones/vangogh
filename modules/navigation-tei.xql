@@ -25,7 +25,7 @@ import module namespace config="http://www.tei-c.org/tei-simple/config" at "conf
 
 declare function nav:get-root($root as xs:string?, $options as map(*)?) {
     $config:data-default ! (
-        for $doc in collection(. || "/" || $root)//tei:text[ft:query(., "file:*", $options)]
+        for $doc in collection(. || "/" || $root)//tei:body[ft:query(., "file:*", $options)]
         return
             $doc/ancestor::tei:TEI
     )

@@ -43,16 +43,16 @@ declare function teis:query-default($fields as xs:string+, $query as xs:string, 
                         for $text in $target-texts
                         return
                             $config:data-root ! doc(. || "/" || $text)//tei:div[ft:query(., $query, query:options($sortBy))] |
-                            $config:data-root ! doc(. || "/" || $text)//tei:text[ft:query(., $query, query:options($sortBy))]
+                            $config:data-root ! doc(. || "/" || $text)//tei:body[ft:query(., $query, query:options($sortBy))]
                     else
                         collection($config:data-root)//tei:div[ft:query(., $query, query:options($sortBy))] |
-                        collection($config:data-root)//tei:text[ft:query(., $query, query:options($sortBy))]
+                        collection($config:data-root)//tei:body[ft:query(., $query, query:options($sortBy))]
     else ()
 };
 
 declare function teis:query-metadata($field as xs:string, $query as xs:string, $sort as xs:string) {
     for $rootCol in $config:data-root
-    for $doc in collection($rootCol)//tei:text[ft:query(., $field || ":(" || $query || ")", query:options($sort))]
+    for $doc in collection($rootCol)//tei:body[ft:query(., $field || ":(" || $query || ")", query:options($sort))]
     return
         $doc/ancestor::tei:TEI
 };

@@ -4,7 +4,7 @@
         <fulltext default="none" attributes="false"/>
         <lucene>
             <module uri="http://www.existsolutions.com/vangogh/index" prefix="nav" at="index.xql"/>
-            <text match="/tei:TEI/tei:text">
+            <text qname="tei:body">
                 <facet dimension="from" expression="nav:get-metadata(ancestor::tei:TEI, 'from')"/>
                 <facet dimension="to" expression="nav:get-metadata(ancestor::tei:TEI, 'to')"/>
                 <facet dimension="place" expression="nav:get-metadata(ancestor::tei:TEI, 'place')"/>
