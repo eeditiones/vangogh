@@ -40,7 +40,8 @@
     <target name="xar-local" depends="npm.install,prepare,xar"/>
     <target name="xar">
         <mkdir dir="${build.dir}"/>
-        <zip basedir="." destfile="${build.dir}/${project.app}-${project.version}.xar" excludes="${build.dir}/* node_modules/**"/>
+        <zip basedir="." destfile="${build.dir}/${project.app}-${project.version}.xar"
+             excludes="${build.dir}/* node_modules/**"/>
     </target>
     <target name="xar-complete" depends="clean,npm.install,xar"/>
     <target name="npm.install">

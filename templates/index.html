@@ -66,12 +66,20 @@
                           0 5px 5px -3px rgba(0, 0, 0, 0.4);
                 }
 
+                header div{
+                    color:black;
+                    padding-top:0.1rem;
+                }
+
                 .portrait{
                     width:160px;
                 }
 
                 main {
                     margin: 0 50px 0 100px;
+                    background:rgba(0,0,0,0.5);
+                    border-radius: 1rem;
+                    padding:0.5rem;
                 }
 
                 @media (max-width: 768px) {
@@ -247,6 +255,8 @@
                     font-size: 14px;
                     margin-top: 10px;
                     padding-left: 0;
+                    background:#6d9ca2;
+                    width:fit-content;
                 }
 
                 .documents div {
@@ -269,6 +279,9 @@
 
                 .documents .document-select {
                     flex: 0 0;
+                }
+                .documents .document-info app-toolbar{
+                    display:none;
                 }
                 h1, h2, h3, h4, h5, h6 {
                     font-family: "Oswald",Verdana,"Helvetica",sans-serif;
@@ -350,9 +363,6 @@
                 footer {
                     background: #afad87 !important;
                     padding: 10px 20px;
-                }
-                footer a, a:link {
-                    color: white;
                 }
 
                 app-drawer pb-login {

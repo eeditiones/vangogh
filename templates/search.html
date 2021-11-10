@@ -14,12 +14,16 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald&amp;display=swap"/>
         <link rel="stylesheet" href="resources/css/theme.css"/>
         <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
+        <link rel="stylesheet" href="resources/css/vangogh.css"/>
+
 
         <style>
             main {
                 display: flex;
                 flex-direction: row;
-                margin-top: 10px;
+                background: #e5efed;
+                padding: 50px;
+                margin-top: 64px;
             }
 
             .search-panel {
@@ -53,8 +57,17 @@
                 justify-content: flex-start;
             }
             #results .count {
-                margin-right: 20px;
-                font-weight: bold;
+                display:flex;
+                border-radius:50%;
+                width:26px;
+                height:26px;
+                justify-content:center;
+                align-items:center;
+                color:#56aebc;
+                border:thin solid #56aebc;
+            }
+            #results .breadcrumbs{
+                margin:0;
             }
             .breadcrumb:link, .breadcrumb:visited {
                 text-decoration: none;
@@ -69,17 +82,25 @@
                 content: '';
             }
             .matches {
-                display: table;
+                display: block;
                 margin-left: 20px;
                 margin-top: 10px;
                 font: var(--pb-results-body-font);
             }
             .matches p {
-                display: table-row;
+                display: grid;
+                grid-template-columns:45% auto 45%;
+                grid-gap:0.5rem;
+                color:black;
             }
-            .matches p * {
-                display: table-cell;
-                padding: 4px 8px;
+            .matches .previous{
+                justify-self:end;
+            }
+            .matches a{
+                justify-self:center;
+            }
+            .matches .following{
+                justify-self:start;
             }
 
             .hi {
@@ -103,10 +124,25 @@
                 padding-left: 1em;
                 vertical-align: middle;
             }
+            .menubar{
+                background-color: #EECC66;
+                background-image: url(resources/images/background.jpg);
+                --pb-download_-_color: white;
+            }
+            app-toolbar:nth-child(2){
+                background: #56aebc;
+                color: white;
+                z-index: -1;
+                position: absolute;
+                width: 100%;
+            }
+            [unresolved]{
+                display:none;
+            }
         </style>
     </head>
 
-    <body>
+    <body unresolved="unresolved">
         <pb-page data-template="pages:pb-page" unresolved="unresolved">
             <app-header-layout>
                 <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">

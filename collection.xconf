@@ -17,7 +17,7 @@
                 <field name="place" expression="nav:get-metadata(ancestor::tei:TEI, 'place')"/>
                 <field name="date" expression="nav:get-metadata(ancestor::tei:TEI, 'date')" type="xs:date"/>
                 <field name="file" expression="util:document-name(.)"/>
-                <ignore qname="tei:body"/>
+                <!-- <ignore qname="tei:body"/>  -->
             </text>
             <text qname="tei:head"/>
             <text match="//tei:sourceDesc/tei:biblFull/tei:titleStmt/tei:title"/>

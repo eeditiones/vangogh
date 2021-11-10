@@ -215,10 +215,7 @@ margin: 0 .25em;
                     <model behaviour="link" cssClass="vg-link">
                       <param name="link" value="'http://vangoghletters.org/vg/letters/let' || $parameters?root//idno[@type='jlb']/string() || '/letter.html'"/>
                       <param name="target" value="'_blank'"/>
-                      <pb:template>
-                                <span class="vg-link"> see original <iron-icon icon="launch"/>
-                                </span>
-                            </pb:template>
+                      <pb:template><span class="vg-link"> see original <iron-icon icon="launch"/></span></pb:template>
                     </model>
 
         </modelSequence>
