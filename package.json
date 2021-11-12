@@ -7,16 +7,17 @@
     "watch": "rollup -c rollup.config.js --watch"
   },
   "dependencies": {
-    "@teipublisher/pb-components" : "1.25.0"
+    "@teipublisher/pb-components": "1.25.0",
+    "typed.js": "^2.0.12"
   },
   "name": "vangogh",
   "version": "1.0.0",
   "description": "Van Gogh Edition",
   "devDependencies": {
-    "rimraf": "latest",
-    "rollup-plugin-terser": "latest",
     "@rollup/plugin-node-resolve": "latest",
+    "rimraf": "latest",
     "rollup": "latest",
-    "rollup-plugin-copy": "latest"
+    "rollup-plugin-copy": "latest",
+    "rollup-plugin-terser": "latest"
   }
 }
