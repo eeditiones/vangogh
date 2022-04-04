@@ -25,16 +25,25 @@ body{
 
 .date{
     font-size:1.2rem;
-    margin-top:-1.5rem;
+    margin-top:-1.2rem;
     font-style:italic;
+    font-weight:300;
+}
+.demo{
+    color:#5e5c5c;
+}
+.demo-wrap{
+    background:rgba(255,255,255,0.9);
+    width:fit-content;
+    padding:1rem;
+    margin:1rem 0;
+    border-radius:1rem;
+}
+.demo-wrap h3{
+    margin:0 0 0.5rem 0;
 }
 h1{
     font-size:4rem;
-    /*
-    animation:slideUp 0.6s forwards;
-    animation-delay:0.6s;
-    opacity:0;
-    */
 }
 h2{
     font-size:2rem;
@@ -44,9 +53,19 @@ header{
     background:transparent;
     font-size:1.2rem;
     animation:slideDown 1s forwards;
-    transition-timing-function: cubic-bezier(0.640, 0.085, 0.000, 0.995); /* custom */
+    transition-timing-function: cubic-bezier(0.640, 0.085, 0.000, 0.995);
     opacity:0;
-
+}
+header img{
+    width:35%;
+    border-radius:1rem;
+    margin:0 auto;
+    display:block;
+    box-shadow:  0px 3px 0px -4px #dce0c2, 0px 1px 15px 10px rgb(255 255 255 / 25%);
+    margin-top:2rem;
+}
+.heart{
+    width:24px;
 }
 .hint{
     background:rgba(255,255,255,0.2);
@@ -56,11 +75,10 @@ header{
     width:fit-content;
     font-size:1.2rem;
     /*
-        animation:slideUp 1s forwards;
-        animation-delay:1s;
+        animation:slideDown 1s forwards;
+        animation-delay:2s;
         opacity:0;
         transition-timing-function: cubic-bezier(0.950, 0.050, 0.795, 0.035); /* easeInExpo */
-    */
 }
 .letters{
     grid-area:letters;
@@ -103,7 +121,7 @@ header{
 }
 
 .origin::before{
-    content:'kindly provided by';
+    content:'data kindly provided by';
     display:block;
     font-size:1.4rem;
 
@@ -112,8 +130,8 @@ header{
     grid-area:persons;
     background: rgba(0,0,240,0.4);
     color: white;
-    animation:slideUp 1s forwards;
-    animation-delay:0.8s;
+    animation:slideUp 0.6s forwards;
+    animation-delay:1s;
     opacity:0;
 
     transition-timing-function: cubic-bezier(0.950, 0.050, 0.795, 0.035); /* easeInExpo */
@@ -136,11 +154,10 @@ header{
 
 }
 .publisher-logo{
-    width:200px;
     vertical-align:top;
-    margin:0 1rem;
     display:block;
-    padding:1rem 0;
+    width:200px;
+    margin:0 auto;
 }
 
 
@@ -169,11 +186,52 @@ section.letters, section.persons{
     font-weight:500;
     letter-spacing:0.9;
 
-    /*
-    animation:slideUp 0.6s forwards;
-    animation-delay:0.8s;
+}
+.tp-demo{
+    position:fixed;
+    top:0;
+    left:50%;
+    background:rgba(255,255,255,0.6);
+    transform:translateX(-50%);
+    padding:0 1rem;
+    display:flex;
+    align-items:center;
+    z-index:3;
+    font-size:0.8rem;
+    border-bottom-left-radius:1rem;
+    border-bottom-right-radius:1rem;
+    animation:fadein 1s forwards;
+    animation-delay:2.5s;
     opacity:0;
-*/
+    transition-timing-function: cubic-bezier(0.950, 0.050, 0.795, 0.035);
+    text-align:right;
+
+}
+.tp-link{
+    position: fixed;
+    z-index: 10;
+    background: rgba(255,255,255,0.65);
+    top: 35px;
+    right: -70px;
+    padding: 0 4rem;
+    border-top-left-radius: 5px;
+    transform: rotate(45deg);
+    /*
+    animation:fadein 2s forwards;
+    animation-delay:3s;
+    opacity:0;
+    transition-timing-function: cubic-bezier(0.600, -0.280, 0.735, 0.045); /* easeInBack */
+    */
+}
+/*
+.tp-link::before{
+    content:"Demo brought to you by";
+    white-space:nowrap;
+    position:absolute;
+    z-index:11;
+    font-size:0.8rem;
+}*/
+.tp-link img{
 }
 
 .wrapper{
@@ -191,14 +249,20 @@ section.letters, section.persons{
     h1{
         font-size:2.5rem;
     }
-    h2{
-        font-size:1.5;
+    header h2{
+        font-size:1.5rem;
     }
-    .publisher-logo{
-        width:100px;
+    header{
+        padding:0.2rem;
+    }
+    .demo{
+        font-size:0.8rem;
     }
     .hint{
         /* display:none; */
+    }
+    .publisher-logo{
+        width:100px;
     }
     section p{
         display:none;
@@ -209,8 +273,16 @@ section.letters, section.persons{
     .hint{
         display:none;
     }
+    .heart{
+        width:20px;
+    }
+    .main-grid > * {
+        padding:0.2rem;
+    }
 }
 
+@media (min-width:768px){
+}
 
 @keyframes fadein {
     0% {
@@ -241,6 +313,28 @@ section.letters, section.persons{
     }
     100% {
         opacity:1;
+    }
+}
+@keyframes fadeinOut {
+    0% {
+        opacity:0;
+    }
+    50%{
+        opacity:0.8;
+    }
+    100% {
+        opacity:0.7;
+    }
+}
+@keyframes fadeDemo {
+    0% {
+        opacity:0;
+    }
+    75%{
+        opacity:1.0;
+    }
+    100% {
+        opacity:0.9;
     }
 }
 @keyframes slideUp {
@@ -283,8 +377,8 @@ section.letters, section.persons{
 }
 @keyframes slideDown {
     0% {
-        opacity:0.3;
-        transform:translateY(-300px);
+        opacity:0;
+        transform:translateY(-500px);
     }
     50% {
         opacity:0.3
