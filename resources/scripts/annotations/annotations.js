@@ -85,13 +85,9 @@ window.addEventListener("WebComponentsReady", () => {
 	const occurDiv = document.getElementById("occurrences");
 	const occurrences = occurDiv.querySelector("ul");
 	const saveBtn = document.getElementById("form-save");
-	const gitpushBtn = document.getElementById("document-gitpush");
-	const refInput = document.getElementById("form-ref");
-	const authorityInfo = document.getElementById("authority-info");
+	const refInput = document.querySelectorAll(".form-ref");
 	const authorityDialog = document.getElementById("authority-dialog");
-	const gitDialog = document.getElementById("git-dialog");
-	const gitSubmit = document.getElementById("gitsubmit-Btn");
-	const gitClose =  document.getElementById("gitsubmit-cancel");
+	const nerDialog = document.getElementById("ner-dialog");
 	let autoSave = false;
 	let type = "";
 	let text = "";
@@ -145,7 +141,7 @@ window.addEventListener("WebComponentsReady", () => {
 	 */
 	function authoritySelected(data) {
 		authorityDialog.close();
-		refInput.value = data.properties.ref;
+		refInput.forEach((input) => { input.value = data.properties.ref });
 		if (autoSave) {
 			save();
 		}
@@ -195,6 +191,7 @@ window.addEventListener("WebComponentsReady", () => {
 			strings = [text];
 		}
 		try {
+			const key = view.getKey(type);
 			const occur = view.search(type, strings);
 			occurrences.innerHTML = "";
 			occur.forEach((o) => {
@@ -202,7 +199,7 @@ window.addEventListener("WebComponentsReady", () => {
 				const cb = document.createElement("paper-checkbox");
 				cb._options = o;
 				cb._info = info;
-				if (o.annotated && o[view.key] === info.id) {
+				if (o.annotated && o[key] === info.id) {
 					cb.setAttribute("checked", "checked");
 				}
 				cb.addEventListener("click", () => {
@@ -214,7 +211,7 @@ window.addEventListener("WebComponentsReady", () => {
 
 				li.appendChild(cb);
 				const span = document.createElement("span");
-				if (info.id && o[view.key] && o[view.key] !== info.id) {
+				if (info.id && o[key] && o[key] !== info.id) {
 					span.className = "id-warning";
 				}
 				span.innerHTML = o.kwic;
@@ -261,41 +258,6 @@ window.addEventListener("WebComponentsReady", () => {
 		}
 	}
 
-
-	function gitpush() {
-		console.log('gitpush')
-		const endpoint = document.querySelector("pb-page").getEndpoint();
-		const doc = document.getElementById("document1");
-        const comment = document.querySelector("#git-dialog textarea");
-        if (!comment.value) return;
-        
-
-		return new Promise((resolve, reject) => {
-			fetch(`${endpoint}/api/annotations/gitpush/${doc.path}?commitMsg=${comment.value}`, {
-				method: "POST",
-				mode: "cors",
-				credentials: "same-origin",
-				headers: {
-					"Content-Type": "application/json",
-				}
-			})
-			.then((response) => {
-				if (response.ok) {
-				    gitDialog.close();
-					return response.json();
-				}
-				if (response.status === 401 || response.status === 403) {
-				    gitDialog.close();
-					document.getElementById('permission-denied-dialog').show();
-					throw new Error(response.statusText);
-				}
-				document.getElementById('error-dialog').show();
-				throw new Error(response.statusText);
-			})
-			
-		}); 
-	}
-
 	/**
 	 * Preview the current document with annotations merged in.
 	 *
@@ -319,7 +281,7 @@ window.addEventListener("WebComponentsReady", () => {
 				if (response.ok) {
 					return response.json();
 				}
-				if (response.status === 401 || response.status === 403) {
+				if (response.status === 401) {
 					document.getElementById('permission-denied-dialog').show();
 					throw new Error(response.statusText);
 				}
@@ -430,22 +392,86 @@ window.addEventListener("WebComponentsReady", () => {
 		window.pbEvents.emit("pb-end-update", "transcription", {});
 	}
 
+	function checkNERAvailable() {
+		const endpoint = document.querySelector("pb-page").getEndpoint();
+		fetch(`${endpoint}/api/nlp/status`, {
+			method: "GET",
+			mode: "cors",
+			credentials: "same-origin"
+		})
+		.then((response) => {
+			if (response.ok) {
+				document.getElementById('ner-action').style.display = 'block';
+				response.json().then(json => console.log(`NER: found spaCy version ${json.spacy_version}.`));
+			} else {
+				console.error("NER endpoint not available");
+			}
+		}).catch(() => console.error("NER endpoint not available"));
+	}
+
+	function ner() {
+		const endpoint = document.querySelector("pb-page").getEndpoint();
+		fetch(`${endpoint}/api/nlp/status/models`, {
+			method: "GET",
+			mode: "cors",
+			credentials: "same-origin"
+		})
+		.then((response) => {
+			if (response.ok) {
+				return response.json();
+			}
+		})
+		.then((json) => {
+			const list = [];
+			json.forEach((item) => {
+				list.push(`<paper-item>${item}</paper-item>`);
+			});
+			nerDialog.querySelector('paper-listbox').innerHTML = list.join('\n');
+			nerDialog.open();
+		});
+	}
+
+	function runNER() {
+		const endpoint = document.querySelector("pb-page").getEndpoint();
+		const cb = nerDialog.querySelector('paper-checkbox');
+		let url;
+		if (cb && cb.checked) {
+			const lang = nerDialog.querySelector('paper-input').value;
+			url = `${endpoint}/api/nlp/patterns/${doc.path}?lang=${lang}`;
+		} else {
+			const model = nerDialog.querySelector('paper-dropdown-menu').selectedItemLabel;
+			console.log('Using model %s', model)
+			url = `${endpoint}/api/nlp/entities/${doc.path}?model=${model}`;
+		}
+		window.pbEvents.emit("pb-start-update", "transcription", {});
+		fetch(url, {
+			method: "GET",
+			mode: "cors",
+			credentials: "same-origin"
+		})
+		.then((response) => {
+			if (response.ok) {
+				return response.json();
+			}
+		}).then((json) => {
+			view.annotations = json;
+			window.pbEvents.emit("pb-end-update", "transcription", {});
+			preview(view.annotations);
+		});
+	}
+
 	hideForm();
 
 	// apply annotation action
 	saveBtn.addEventListener("click", () => save());
-
-	// github action
-	gitpushBtn.addEventListener("click", () => {
-	    gitDialog.open(); 
-	    gitDialog.querySelector("textarea").value = "";
+	document.getElementById('ner-action').addEventListener('click', () => {
+		if (view.annotations.length > 0) {
+			document.getElementById('ner-denied-dialog').show();
+		} else {
+			ner();
+		}
 	});
-	gitSubmit.addEventListener("click", () => gitpush());
-    gitClose.addEventListener("click", () => { 
-        gitDialog.close();
-    });
-        
-
+	document.getElementById('ner-run').addEventListener('click', () => runNER());
 	// reload source TEI, discarding current annotations
 	document.getElementById('reload-all').addEventListener('click', () => {
 		function reload() {
@@ -513,14 +539,17 @@ window.addEventListener("WebComponentsReady", () => {
 			const title = elem.getAttribute('title') || '';
 			elem.title = `${title} [${output.replaceAll('+', ' ')}]`;
 		});
+		checkNERAvailable();
 	});
 
-	document.querySelector('#form-ref [slot="prefix"]').addEventListener("click", () => {
+	document.querySelectorAll('.form-ref [slot="prefix"]').forEach(elem => {
+		elem.addEventListener("click", () => {
 		window.pbEvents.emit("pb-authority-lookup", "transcription", {
 			type,
 			query: text,
 		});
 		authorityDialog.open();
+	});
 	});
 
 	// check if annotations were saved to local storage
@@ -549,13 +578,15 @@ window.addEventListener("WebComponentsReady", () => {
 	/**
 	 * Reference changed: update authority information and search for other occurrences
 	 */
-	refInput.addEventListener("value-changed", () => {
-		const ref = refInput.value;
+	refInput.forEach(input => {
+		input.addEventListener("value-changed", () => {
+			const ref = input.value;
+			const authorityInfo = input.parentElement.querySelector('.authority-info');
 		if (ref && ref.length > 0) {
 			authorityInfo.innerHTML = `Loading ${ref}...`;
 			document
 				.querySelector("pb-authority-lookup")
-				.lookup(type, refInput.value, authorityInfo)
+					.lookup(type, input.value, authorityInfo)
 				.then(findOther)
 				.catch((msg) => {
 					authorityInfo.innerHTML = `Failed to load ${ref}: ${msg}`;
@@ -564,6 +595,8 @@ window.addEventListener("WebComponentsReady", () => {
 			authorityInfo.innerHTML = "";
 		}
 	});
+	});
+
 	/**
 	 * Handle click on one of the toolbar buttons for adding a new annotation.
 	 */
@@ -652,6 +685,27 @@ window.addEventListener("WebComponentsReady", () => {
 					});
 				break;
 		}
+	});
+
+	window.pbEvents.subscribe("pb-annotation-colors", "transcription", (ev) => {
+		const colors = ev.detail.colors;
+		const styles = [];
+		colors.forEach((color, type) => {
+			styles.push(`
+				.annotation-action[data-type=${type}] {
+					color: ${color.color};
+					border-bottom: 2px solid ${color.color};
+				}
+			`);
+		});
+
+		let css = document.head.querySelector('#annotation_colors');
+		if (!css) {
+			css = document.createElement('style');
+			css.id = 'annotation_colors';
+			document.head.appendChild(css);
+		}
+		css.innerHTML = styles.join('\n');
 	});
 
 	// wire the ODD selector for the preview

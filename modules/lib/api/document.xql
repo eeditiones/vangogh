@@ -23,6 +23,23 @@ declare variable $dapi:CACHE := true();
 
 declare variable $dapi:CACHE_COLLECTION := $config:app-root || "/cache";
 
+declare function dapi:metadata($request as map(*)) {
+    let $doc := xmldb:decode($request?parameters?id)
+    let $xml := config:get-document($doc)
+    return
+        if (exists($xml)) then
+            let $config := tpu:parse-pi(root($xml), ())
+            return map {
+                "title": nav:get-document-title($config, root($xml)/*) => normalize-space(),
+                "view": $config?view,
+                "odd": $config?odd,
+                "template": $config?template,
+                "collection": substring-after(util:collection-name($xml), $config:data-root || "/")
+            }
+        else
+            error($errors:NOT_FOUND, "Document " || $doc || " not found")
+};
+
 declare function dapi:delete($request as map(*)) {
     let $id := xmldb:decode($request?parameters?id)
     let $doc := config:get-document($id)
@@ -57,7 +74,7 @@ declare function dapi:html($request as map(*)) {
     let $doc := xmldb:decode($request?parameters?id)
     return
         if ($doc) then
-            let $xml := config:get-document($doc)/*
+            let $xml := config:get-document($doc)
             return
                 if (exists($xml)) then
                     let $config := tpu:parse-pi(root($xml), ())
@@ -326,7 +343,7 @@ declare function dapi:get-fragment($request as map(*)) {
     let $xml :=
         if ($request?parameters?xpath) then
             for $document in config:get-document($doc)
-            let $namespace := namespace-uri-from-QName(node-name($document/*))
+            let $namespace := namespace-uri-from-QName(node-name(root($document)/*))
             let $xquery := "declare default element namespace '" || $namespace || "'; $document" || $request?parameters?xpath
             let $data := util:eval($xquery)
             return
@@ -337,7 +354,7 @@ declare function dapi:get-fragment($request as map(*)) {
 
         else if (exists($request?parameters?id)) then (
             for $document in config:get-document($doc)
-            let $config := tpu:parse-pi($document, $view)
+            let $config := tpu:parse-pi(root($document), $view)
             let $data :=
                 if (count($request?parameters?id) = 1) then
                     nav:get-section-for-node($config, $document/id($request?parameters?id))
@@ -405,6 +422,8 @@ declare function dapi:get-fragment($request as map(*)) {
                                 "view": $view,
                                 "doc": $doc,
                                 "root": $request?parameters?root,
+                                "rootNode": util:node-id($xml?data[1]),
+                                "id": $content/@xml:id/string(),
                                 "odd": $xml?config?odd,
                                 "next":
                                     if ($next) then

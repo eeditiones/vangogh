@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="vangogh" default="xar">
-    <xmlproperty file="expath-pkg.xml"/><!-- Adjust path below to match location of your npm binary -->
-    <property name="npm" value="/usr/local/bin/npm"/>
+<project default="all" name="TEI-Publisher">
+    <xmlproperty file="expath-pkg.xml" />
+    <property file="local.build.properties" />
+    <property file="build.properties" />
     <property name="project.version" value="${package(version)}"/>
     <property name="project.app" value="${package(abbrev)}"/>
-    <property name="build.dir" value="build"/>
+    <property name="server.url" value="http://demo.exist-db.org/exist/apps/public-repo/public/" />
+    <property name="build" value="build" />
     <property name="scripts.dir" value="node_modules/@teipublisher/pb-components/dist"/>
+
+    <condition property="git.commit" value="${git.commit}" else="">
+        <isset property="git.commit" />
+    </condition>
+
+    <target name="all" depends="xar" />
+
+    <target name="rebuild" depends="clean,all" />
+
     <target name="clean">
         <delete dir="${build}"/>
         <delete dir="resources/scripts" includes="*.js *.map"/>
@@ -34,20 +45,53 @@
             <fileset dir="node_modules/prismjs/themes"/>
         </copy>
         <copy todir="resources/i18n/common">
-            <fileset dir="node_modules/@teipublisher/pb-components/i18n/common"/>
+            <fileset dir="${scripts.dir}/../i18n/common" />
         </copy>
     </target>
-    <target name="xar-local" depends="npm.install,prepare,xar"/>
+
+    <target name="xar-local" depends="clean,npm.install,prepare,xar" />
+
     <target name="xar">
-        <mkdir dir="${build.dir}"/>
-        <zip basedir="." destfile="${build.dir}/${project.app}-${project.version}.xar"
-             excludes="${build.dir}/* node_modules/**"/>
+        <mkdir dir="${build}" />
+        <zip destfile="${build}/${project.app}-${project.version}${git.commit}.xar">
+            <fileset dir=".">
+                <exclude name="${build}/*" />
+                <exclude name=".git*" />
+                <exclude name="*.tmpl" />
+                <exclude name="*.properties" />
+                <exclude name="webtest/**" />
+                <exclude name="cache/**" />
+                <exclude name=".idea/" />
+                <exclude name=".vscode/**" />
+                <exclude name="package*.json" />
+                <exclude name="rollup.config.js" />
+                <exclude name=".existdb.json" />
+                <exclude name=".editorconfig" />
+                <exclude name=".devcontainer"/>
+                <exclude name="node_modules/**" />
+                <exclude name="Dockerfile*"/>
+                <exclude name=".github/**"/>
+                <exclude name=".babelrc"/>
+                <exclude name=".travis.yml"/>
+            </fileset>
+        </zip>
     </target>
-    <target name="xar-complete" depends="clean,npm.install,xar"/>
+
     <target name="npm.install">
         <exec executable="${npm}" outputproperty="npm.output">
             <arg line="install"/>
         </exec>
         <echo message="${npm.output}"/>
     </target>
+
+    <target name="upload">
+        <input message="Enter password:" addproperty="server.pass" defaultvalue="">
+            <handler type="secure" />
+        </input>
+        <property name="xar" value="${project.app}-${project.version}${git.commit}.xar" />
+        <exec executable="curl">
+            <arg line="-T ${build}/${xar} -u admin:${server.pass} ${server.url}/${xar}" />
+        </exec>
+    </target>
+
 </project>

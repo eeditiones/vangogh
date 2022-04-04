@@ -3,18 +3,20 @@
         "localhost": {
             "server": "http://localhost:8080/exist",
             "user": "admin",
-            "password": ""
+            "password": "",
+            "root": "/db/apps/tei-publisher"
         }
     },
     "sync": {
         "server": "localhost",
-        "root": "/db/apps/vangogh",
-        "active": true,
         "ignore": [
             ".existdb.json",
             ".git/**",
+            "components/**",
             "node_modules/**",
-            "bower_components/**"
+            "bower_components/**",
+            "build/**",
+            "webtest/**"
         ]
     }
 }

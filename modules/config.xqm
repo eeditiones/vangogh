@@ -34,7 +34,7 @@ declare namespace tei="http://www.tei-c.org/ns/1.0";
  : In this case, change $config:webcomponents-cdn to point to http://localhost:port
  : (default: 8000, but check where your server is running).
  :)
-declare variable $config:webcomponents :="1.25.0";
+declare variable $config:webcomponents :="1.36.2";
 
 (:~
  : CDN URL to use for loading webcomponents. Could be changed if you created your
