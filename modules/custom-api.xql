@@ -27,6 +27,10 @@ declare function api:lookup($name as xs:string, $arity as xs:integer) {
     }
 };
 
+declare function api:timeline($request as map(*)) {
+    ()
+};
+
 declare function api:people($request as map(*)) {
     let $search := normalize-space($request?parameters?search)
     let $letterParam := $request?parameters?category
