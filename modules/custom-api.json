@@ -25,6 +25,127 @@
         }
     },
     "paths": {
+		"/people/": {
+            "get": {
+				"summary": "Landing page for people",
+				"description": "Retrieve an HTML page expanded through eXist templating. This is used to load the top-level HTML pages, e.g. `index.html`.",
+				"tags": ["view"],
+				"operationId": "vapi:html",
+				"x-error-handler": "vapi:handle-error",
+				"parameters": [
+					{
+						"name": "file",
+						"in": "query",
+						"schema": {
+							"type": "string",
+                            "default": "peoples"
+						}
+					},
+					{
+						"name": "uri",
+						"in": "query",
+						"schema": {
+							"type": "string",
+							"default": "/people/"
+						}
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "HTML of the page",
+						"content": {
+							"text/html": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					},
+					"404": {
+						"description": "The document was not found",
+						"content": {
+							"text/html": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					},
+					"500": {
+						"description": "An error occurred",
+						"content": {
+							"text/html": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					}
+				}
+			}
+        },        
+        "/people/{name}": {
+            "get": {
+				"summary": "Retrieve the HTML template used for displaying people metadata",
+				"description": "Get the HTML template associated with the given document. This is called whenever the users tries to view a document. The actual content of the document will then be loaded by the template.",
+				"tags": ["view"],
+				"operationId": "vapi:html",	
+				"parameters": [
+					{
+						"name": "name",
+						"in": "path",
+						"description": "Name of the person",
+						"required": true,
+						"schema": {
+							"type": "string",
+							"example": ""
+						},
+						"allowReserved": true
+					},
+					{ 
+						"name":"file",
+						"in":"query",
+						"schema":{
+							"type": "string",
+							"default":"pages/people"
+						}
+					}
+
+				],
+				"responses": {
+					"200": {
+						"description": "HTML view for the document",
+						"content": {
+							"text/html": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					},
+					"404": {
+						"description": "The document was not found",
+						"content": {
+							"text/html": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					},
+					"500": {
+						"description": "An error occurred",
+						"content": {
+							"text/html": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					}
+				}
+			}
+        },           
         "/api/people": {
             "get": {
                 "summary": "List register entries",
@@ -91,24 +212,6 @@
                     }
                 }
             }
-        },
-        "/api/timeline": {
-			"get": {
-				"summary": "Retrieve timeline data",
-				"operationId": "custom:timeline",
-				"responses": {
-					"200": {
-						"description": "Timeline data",
-						"content": {
-							"application/json": {
-								"schema": {
-									"type": "object"
-								}
-							}
-						}
-					}
-				}
-			}
         }
     },
     "security": [

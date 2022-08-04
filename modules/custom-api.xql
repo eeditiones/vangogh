@@ -27,10 +27,6 @@ declare function api:lookup($name as xs:string, $arity as xs:integer) {
     }
 };
 
-declare function api:timeline($request as map(*)) {
-    ()
-};
-
 declare function api:people($request as map(*)) {
     let $search := normalize-space($request?parameters?search)
     let $letterParam := $request?parameters?category
@@ -43,7 +39,7 @@ declare function api:people($request as map(*)) {
         let $name := $person/tei:persName
         let $label :=
             if ($name/tei:surname) then
-                string-join(($name/tei:surname, $name/tei:forename), ", ")
+                string-join(($name/tei:surname, $name/text()[1]), ", ")
             else
                 $name/text()
         let $sortKey :=
@@ -103,7 +99,7 @@ declare function api:output-person($list, $letter as xs:string, $view as xs:stri
         let $params := "category=" || $letterParam || "&amp;view=" || $view || "&amp;search=" || $search
         return
             <span>
-                <a href="#">{$person?2}</a>
+                <a href="{$person?2}?key={$person?3/@xml:id}">{$person?2}</a>
                 { if ($notes) then <span class="notes"> {$notes}</span> else () }
             </span>
     }
