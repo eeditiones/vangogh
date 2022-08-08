@@ -40,8 +40,7 @@ declare %templates:wrap
         %templates:default("type", "place") 
 function app:person-mentions($node as node(), $model as map(*), $type as xs:string) {
     let $key := $model?key
-    let $log := util:log("info", "app:mentions: $key: " || $key )
-    let $person := doc($config:data-root || "/person/person.xml")//tei:person[@xml:id = $key]
+    let $log := util:log("info", "app:mentions: $key: " || $key )    
     let $keyvalue := substring-after($key, "P")
     let $matches := collection($config:data-root)//tei:TEI[(.//tei:rs[@type='pers']/@key) = $keyvalue]
     let $log := util:log("info", "app:mentions $matches: " || count($matches))
@@ -71,3 +70,13 @@ function app:person-mentions($node as node(), $model as map(*), $type as xs:stri
             }</div>
         </div>
 };
+
+declare %templates:wrap 
+function app:count-letters($node as node(), $model as map(*)) {
+    count(collection($config:data-root)//tei:TEI[exists(.//tei:publisher)])
+};
+declare %templates:wrap 
+function app:count-people($node as node(), $model as map(*)) {
+    count(doc($config:data-root || "/people.xml")//tei:person[exists(.//tei:surname)])
+};
+
