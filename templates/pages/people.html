@@ -91,36 +91,12 @@
                 justify-content: center;
             }
 
-            pb-split-list{
-                transform:height 0.4s;
-            }
-            pb-split-list > span {
+            .people a{
+                color:white;
+                font-size:1.2rem;
+                margin-top: 0.5em;                
                 display:block;
             }
-
-
-            pb-split-list::part("category"){
-                color:white;
-            }
-
-            pb-split-list::part(active-item) {
-                color: white !important;
-            }
-
-            pb-split-list::part(items) {
-                margin-top: 1em;
-            }
-
-            pb-split-list a, pb-split-list a:link{
-                color:white;
-                font-size:1.4rem;
-
-            }
-
-            pb-split-list header a{
-                color:white;
-            }
-
             .notes{
                 display:block;
             }
@@ -459,9 +435,10 @@
                 <pb-progress indeterminate="indeterminate" bottom-item="bottom-item"/>
             </app-header>
 
-            <main>
-                <h2 data-template="pages:parse-params">${title}</h2>                
-                <h3 data-template="pages:parse-params">${note}</h3>                
+            <main class="people" data-template="pages:parse-params">
+                <h2>${title}</h2>                
+                <h3>${note}</h3>                
+                <div><a target="_blank" href="https://en.wikipedia.org/wiki/${title}">@Wikipedia</a></div>
                 <div data-template="app:person-mentions" />
             </main>
             <footer data-template="templates:include" data-template-path="templates/footer.html"/>
