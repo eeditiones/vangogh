@@ -134,12 +134,6 @@ declare variable $config:facets := [
         "hierarchical": false()
     },
     map {
-        "dimension": "date",
-        "heading": "Date",
-        "max": 5,
-        "hierarchical": true()
-    },
-    map {
         "dimension": "place",
         "heading": "Place",
         "max": 5,
@@ -325,7 +319,9 @@ declare variable $config:data-default := $config:data-root;
  : documents displayed in the browsing view.
  :)
 declare variable $config:data-exclude :=
-    doc($config:data-root || "/taxonomy.xml")/tei:TEI
+    doc($config:data-root || "/taxonomy.xml")/tei:TEI,
+    doc($config:data-root || "/people.xml")/tei:TEI
+
 ;
 
 (:~

@@ -27,6 +27,31 @@ declare function api:lookup($name as xs:string, $arity as xs:integer) {
     }
 };
 
+declare function api:timeline($request as map(*)) {
+    let $entries := session:get-attribute($config:session-prefix || '.hits')
+    let $datedEntries := filter($entries, function($entry) {
+        let $date := ft:field($entry, "date", "xs:date")
+        return
+            exists($date) and year-from-date($date) != 1000
+    })
+    let $undatedEntries := $entries except $datedEntries
+    return
+        map:merge((
+            for $entry in $datedEntries
+            group by $date := ft:field($entry, "date", "xs:date")
+            return
+                map:entry(format-date($date, "[Y0001]-[M01]-[D01]"), map {
+                    "count": count($entry)
+                })
+            (: if ($undatedEntries) then
+                map:entry("?", map {
+                    "count": count($undatedEntries)
+                })
+            else
+                () :)
+        ))
+};
+
 declare function api:people($request as map(*)) {
     let $search := normalize-space($request?parameters?search)
     let $letterParam := $request?parameters?category

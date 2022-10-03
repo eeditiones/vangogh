@@ -12,6 +12,7 @@
 
     <title data-template="config:app-title"/>
     <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
+    <script src="resources/scripts/index.js"/>
     <custom-style>
         <style is="custom-style">
             body{
@@ -359,6 +360,11 @@
             .facets .header{
                 display:none;
             }
+
+            pb-timeline {
+                --pb-timeline-padding: 0 20px 10px 20px;
+            }
+
             [condensed-title] {
                 margin: 0;
                 overflow: hidden;
@@ -505,7 +511,7 @@
     </custom-style>
 </head>
 <body class="fullbleed">
-<pb-page data-template="pages:pb-page" unresolved="unresolved">
+<pb-page data-template="pages:pb-page" unresolved="unresolved" locales="resources/i18n/{{ns}}/{{lng}}.json">
     <app-drawer-layout force-narrow="force-narrow">
         <app-drawer slot="drawer" align="right">
             <div class="drawer-content">
@@ -540,7 +546,10 @@
 
             <main>                
                 <section class="panels">
-                    <pb-browse-docs id="document-list" url="api/collection/" sort-options="[{&#34;label&#34;: &#34;Date&#34;, &#34;value&#34;: &#34;date&#34;},{&#34;label&#34;: &#34;Title&#34;, &#34;value&#34;: &#34;title&#34;},{&#34;label&#34;: &#34;From&#34;, &#34;value&#34;: &#34;from&#34;},{&#34;label&#34;: &#34;To&#34;, &#34;value&#34;: &#34;to&#34;}]" sort-by="date" filter-by="title" auto="auto" history="history" login="login" emit="docs" subscribe="docs">
+                    <pb-browse-docs id="document-list" url="api/collection/" 
+                    sort-options="[{&#34;label&#34;: &#34;Date&#34;, &#34;value&#34;: &#34;date&#34;},{&#34;label&#34;: &#34;Title&#34;, &#34;value&#34;: &#34;title&#34;},{&#34;label&#34;: &#34;From&#34;, &#34;value&#34;: &#34;from&#34;},{&#34;label&#34;: &#34;To&#34;, &#34;value&#34;: &#34;to&#34;}]" 
+                    sort-by="date" filter-by="title" auto="auto" history="history" login="login" subforms="#options"
+                    emit="docs" subscribe="docs">
                         <pb-paginate slot="toolbar" id="paginate" per-page="10" range="5" emit="docs" subscribe="docs"/>
                         <pb-restricted login="login" slot="toolbar">
                             <pb-ajax emit="docs" url="api/odd" method="post" data-template="lib:parse-params" event="pb-search-resubmit" title="Recompile ODD" data-i18n="[title]odd.manage.regenerate-all">
@@ -550,10 +559,17 @@
                                 <paper-icon-button icon="icons:update"/>
                             </pb-ajax>
                         </pb-restricted>
+                        <div slot="header" class="timeline">
+                            <pb-timeline url="api/timeline" scopes='["D", "M", "Y", "5Y", "10Y"]'
+                                resettable=""
+                                subscribe="docs" emit="timeline">
+                                <span slot="label"><pb-i18n key="app.time-range"></pb-i18n>: </span>
+                            </pb-timeline>
+                        </div>
                     </pb-browse-docs>
-
-                    <!--                            <pb-browse-docs id="document-list" url="templates/documents.html" sort-options="[{&#34;label&#34;: &#34;Date&#34;, &#34;value&#34;: &#34;date&#34;},{&#34;label&#34;: &#34;Title&#34;, &#34;value&#34;: &#34;title&#34;},{&#34;label&#34;: &#34;From&#34;, &#34;value&#34;: &#34;from&#34;},{&#34;label&#34;: &#34;To&#34;, &#34;value&#34;: &#34;to&#34;}]" sort-by="date" filter-options="[{&#34;label&#34;: &#34;Title&#34;, &#34;value&#34;: &#34;title&#34;},{&#34;label&#34;: &#34;From&#34;, &#34;value&#34;: &#34;from&#34;},{&#34;label&#34;: &#34;To&#34;, &#34;value&#34;: &#34;to&#34;}]" filter-by="title" auto="auto" history="history" login="login" emit="docs" subscribe="docs">
-                                                </pb-browse-docs> -->
+                    <pb-custom-form id="options" style="display: none">
+                        <input slot="searchButtonBottom" type="hidden" name="dates" value="" data-template="templates:form-control"/>
+                    </pb-custom-form>
                     <aside>
                         <pb-search action="${app}/search.html" data-template="pages:parse-params" value="${query}" redirect="redirect"/>
                         <paper-card class="facets">
@@ -567,25 +583,6 @@
             <footer data-template="templates:include" data-template-path="templates/footer.html"/>
         </app-header-layout>
     </app-drawer-layout>
-    <script>
-        const facets = document.getElementById('facets');
-        facets.addEventListener('pb-custom-form-loaded', function(ev) {
-            const elems = ev.detail.querySelectorAll('.facet');
-            elems.forEach(facet =&gt; {
-                facet.addEventListener('change', () =&gt; {
-                    const table = facet.closest('table');
-                    if (table) {
-                        const nested = table.querySelectorAll('.nested .facet').forEach(nested =&gt; {
-                            if (nested != facet) {
-                            nested.checked = false;
-                        }
-                    });
-                    }
-                    facets.submit();
-                });
-        });
-        });
-    </script>
     <paper-dialog id="downloadDialog">
         <h2>
             <pb-i18n key="dialogs.generatingFile">Generating File...</pb-i18n>
