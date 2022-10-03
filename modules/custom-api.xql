@@ -33,7 +33,11 @@ declare function api:people($request as map(*)) {
     let $view := $request?parameters?view
     let $sortDir := $request?parameters?dir
     let $limit := $request?parameters?limit
-    let $people := doc($config:data-root || "/people.xml")//tei:listPerson/tei:person[exists(.//tei:surname)]
+    let $people := 
+        if ($search and $search != '') then
+            doc($config:data-root || "/people.xml")//tei:listPerson/tei:person[ft:query(., 'pname:(' || $search || '*)')]
+        else
+            doc($config:data-root || "/people.xml")//tei:listPerson/tei:person[exists(.//tei:surname)]
 
     let $byKey := for-each($people, function($person as element()) {
         let $name := $person/tei:persName

@@ -461,7 +461,12 @@
 
             <main>
                 <h2>Persons in letters</h2>
-                <pb-split-list url="api/people" selected="A" emit="transcription" subscribe="transcription"/>
+                <pb-custom-form id="options" auto-submit="paper-input,paper-icon-button" emit="transcription">
+                    <paper-input name="search" label="Search" data-template="templates:form-control">
+                        <paper-icon-button icon="search" slot="suffix"></paper-icon-button>
+                    </paper-input>
+                </pb-custom-form>
+                <pb-split-list url="api/people" subforms="#options" selected="A" emit="transcription" subscribe="transcription"/>
             </main>
             <footer data-template="templates:include" data-template-path="templates/footer.html"/>
         </app-header-layout>
