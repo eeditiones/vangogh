@@ -199,6 +199,9 @@
                 .splash {
                     background-image: url(resources/images/SelbstPortrait_VG2.jpg);
                 }
+                .pb-facsimile {
+                    width:400px;
+                }
             </style>
         </custom-style>
     </head>
@@ -238,7 +241,8 @@
                                         <pb-view src="document1" map="vg-translation" xpath="//div[@type='original']" subscribe="transcription"/>
                                     </template>
                                     <template title="Facsimile">
-                                        <pb-facsimile subscribe="transcription" type="image">
+                                        <pb-facsimile subscribe="transcription" type="image" class="pb-facsimile" style="height:400px;" 
+                                            default-zoom-level="0" show-navigator="" reference-strip="" show-navigation-control="" show-home-control="" show-rotation-control="">
                                         </pb-facsimile>
                                         <div class="facscaption">Images hosted by <a href="http://vangoghletters.org">Van Gogh Museum, Amsterdam, Huygens ING, The Hague</a>
                                         </div>
