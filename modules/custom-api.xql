@@ -13,7 +13,8 @@ import module namespace config="http://www.tei-c.org/tei-simple/config" at "conf
 declare namespace tei="http://www.tei-c.org/ns/1.0";
 
 (: Add your own module imports here :)
-import module namespace rutil="http://exist-db.org/xquery/router/util";
+import module namespace errors = "http://e-editiones.org/roaster/errors";
+import module namespace rutil="http://e-editiones.org/roaster/util";
 import module namespace app="teipublisher.com/app" at "app.xql";
 
 (:~
