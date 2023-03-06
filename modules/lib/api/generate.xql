@@ -24,15 +24,15 @@ declare namespace repo="http://exist-db.org/xquery/repo";
 declare namespace tei="http://www.tei-c.org/ns/1.0";
 
 import module namespace config="http://www.tei-c.org/tei-simple/config" at "../../config.xqm";
-import module namespace errors = "http://exist-db.org/xquery/router/errors";
+import module namespace errors = "http://e-editiones.org/roaster/errors";
 
 declare variable $deploy:EXPATH_DESCRIPTOR :=
     <package xmlns="http://expath.org/ns/pkg"
         version="0.1" spec="1.0">
-        <dependency processor="http://exist-db.org" semver-min="5.2.0"/>
+        <dependency processor="http://exist-db.org" semver-min="5.3.0"/>
         <dependency package="http://exist-db.org/html-templating"/>
-        <dependency package="http://existsolutions.com/apps/tei-publisher-lib" semver-min="2.10.0"/>
-        <dependency package="http://exist-db.org/open-api/router" semver-min="0.5.1"/>
+        <dependency package="http://existsolutions.com/apps/tei-publisher-lib" semver="3"/>
+        <dependency package="http://e-editiones.org/roaster" semver-min="1.7.3"/>
     </package>
 ;
 
@@ -68,7 +68,7 @@ declare variable $deploy:ANT_FILE :=
         <property name="scripts.dir" value="node_modules/@teipublisher/pb-components/dist"/>
 
         <target name="clean">
-            <delete dir="${{build}}" />
+            <delete dir="${build}" />
             <delete dir="resources/scripts" includes="*.js *.map" />
             <delete dir="resources/images/leaflet" />
             <delete dir="resources/images/openseadragon" />
@@ -79,24 +79,26 @@ declare variable $deploy:ANT_FILE :=
 
         <target name="prepare">
             <copy todir="resources/scripts">
-                <fileset dir="${{scripts.dir}}">
+                <fileset dir="${scripts.dir}">
                     <include name="*.js" />
                     <include name="*.map" />
                 </fileset>
             </copy>
-            <copy file="node_modules/leaflet/dist/leaflet.css" todir="resources/css/leaflet" />
-            <copy todir="resources/images/leaflet">
-                <fileset dir="node_modules/leaflet/dist/images" />
+            <copy todir="resources/images">
+                <fileset dir="node_modules/@teipublisher/pb-components/images">
+                    <include name="leaflet/*"/>
+                    <include name="openseadragon/*"/>
+                </fileset>
             </copy>
-            <copy todir="resources/images/openseadragon">
-                <fileset dir="node_modules/openseadragon/build/openseadragon/images" />
+            <copy todir="resources/css">
+                <fileset dir="node_modules/@teipublisher/pb-components/css"/>
             </copy>
-            <copy file="node_modules/openseadragon/build/openseadragon/openseadragon.min.js" todir="resources/lib" />
-            <copy todir="resources/css/prismjs">
-                <fileset dir="node_modules/prismjs/themes" />
+            <copy todir="resources/lib">
+                <fileset dir="node_modules/@teipublisher/pb-components/lib"/>
             </copy>
+            
             <copy todir="resources/i18n/common">
-                <fileset dir="node_modules/@teipublisher/pb-components/i18n/common" />
+                <fileset dir="${scripts.dir}/../i18n/common" />
             </copy>
         </target>
 
@@ -277,6 +279,9 @@ declare function deploy:store-xconf($collection as xs:string?, $json as map(*)) 
                     <text match="//tei:titleStmt/tei:title"/>
                     <text match="//tei:msDesc/tei:head"/>
                     <text match="//tei:listPlace/tei:place/tei:placeName"/>
+                    <text match="//tei:listPerson/tei:person/tei:persName"/>
+                    <text match="//tei:listOrg/tei:org/tei:orgName"/>
+                    <text match="//tei:taxonomy/tei:category/tei:catDesc"/>
                     <text qname="dbk:article">
                         <ignore qname="dbk:section"/>
                         <field name="title" expression="nav:get-metadata(., 'title')"/>
@@ -341,7 +346,7 @@ declare function deploy:expand($collection as xs:string, $resource as xs:string,
 
 declare function deploy:store-libs($target as xs:string, $userData as xs:string+, $permissions as xs:string) {
     let $path := $config:app-root || "/modules"
-    for $lib in ("map.xql", "facets.xql", "annotation-config.xqm", xmldb:get-child-resources($path)[starts-with(., "navigation")],
+    for $lib in ("map.xql", "facets.xql", "annotation-config.xqm", "nlp-config.xqm", xmldb:get-child-resources($path)[starts-with(., "navigation")],
         xmldb:get-child-resources($path)[starts-with(., "query")])
     return (
         xmldb:copy-resource($path, $lib, $target || "/modules", $lib)
