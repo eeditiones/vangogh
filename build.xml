@@ -17,31 +17,33 @@
         </delete>
     </target>
 
-    <target name="prepare">
-        <mkdir dir="${app.build.dir}"/>
-        <copy todir="${app.build.dir}">
-            <fileset dir="${basedir}"
-                excludes="${build.dir}/**,build.xml,README.md,.*,repo.xml.tmpl,node_modules/**,package*.json,local.node-exist.json,gulpfile.js,.devcontainer,.idea/**"/>
+    <target name="filter">
+      <mkdir dir="${app.build.dir}"/>
+      <copy todir="${app.build.dir}">
+          <fileset dir="${basedir}"
+              excludes="${build.dir}/**,build.xml,README.md,.*,repo.xml.tmpl,node_modules/**,package*.json,local.node-exist.json,gulpfile.js,.devcontainer,.idea/**"/>
+      </copy>
+      <copy todir="${app.build.dir}" overwrite="true" verbose="true">
+          <fileset file="*.xml.tmpl"/>
+          <filterchain>
+            <replacetokens>
+              <token key="name" value="${app.name}"/>
+              <token key="version" value="${app.version}"/>
+              <token key="url" value="${app.url}"/>
+              <token key="title" value="${app.title}"/>
+              <token key="commit-id" value="${git.revision}"/>
+              <token key="commit-time" value="${git.time}"/>
+            </replacetokens>
+            <tokenfilter>
+              <!-- until we move template processing to XSLT, take care with special characters -->
+              <replacestring from="&amp;" to="&amp;amp;"/>
+            </tokenfilter>
+          </filterchain>
+          <globmapper from="*.tmpl" to="*"/>
         </copy>
-        <copy todir="${app.build.dir}" overwrite="true" verbose="true">
-            <fileset file="*.xml.tmpl"/>
-            <filterchain>
-              <replacetokens>
-                <token key="name" value="${app.name}"/>
-                <token key="version" value="${app.version}"/>
-                <token key="url" value="${app.url}"/>
-                <token key="title" value="${app.title}"/>
-                <token key="commit-id" value="${git.revision}"/>
-                <token key="commit-time" value="${git.time}"/>
-              </replacetokens>
-              <tokenfilter>
-                <!-- until we move template processing to XSLT, take care with special characters -->
-                <replacestring from="&amp;" to="&amp;amp;"/>
-              </tokenfilter>
-            </filterchain>
-            <globmapper from="*.tmpl" to="*"/>
-          </copy>
+    </target>
 
+    <target name="prepare">
         <copy todir="${app.build.dir}/resources/scripts">
             <fileset dir="${scripts.dir}">
                 <include name="*.js"/>
@@ -73,8 +75,11 @@
         </copy>
     </target>
 
+    <target name="xar" depends="clean,filter">
+        <zip basedir="${app.build.dir}" destfile="${build.dir}/${project.app}-${project.version}.xar" excludes="${build.dir}/* node_modules/**"/>
+    </target>
 
-    <target name="xar" depends="clean,npm.install,git.revision,prepare">
+    <target name="xar-local" depends="clean,npm.install,git.revision,filter,prepare">
         <zip basedir="${app.build.dir}" destfile="${build.dir}/${project.app}-${project.version}.xar" excludes="${build.dir}/* node_modules/**"/>
     </target>
 
