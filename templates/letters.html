@@ -546,37 +546,38 @@
 
             <main>                
                 <section class="panels">
-                    <paper-card class="doclist" data-i18n="[heading]browse.documents" heading="documents">
+                    <pb-browse-docs id="document-list" url="api/collection/" 
+                    sort-options="[{&#34;label&#34;: &#34;Date&#34;, &#34;value&#34;: &#34;date&#34;},{&#34;label&#34;: &#34;Title&#34;, &#34;value&#34;: &#34;title&#34;},{&#34;label&#34;: &#34;From&#34;, &#34;value&#34;: &#34;from&#34;},{&#34;label&#34;: &#34;To&#34;, &#34;value&#34;: &#34;to&#34;}]" 
+                    sort-by="date" filter-by="title" auto="auto" history="history" login="login" subforms="#options"
+                    emit="docs" subscribe="docs">
+                        <pb-paginate slot="toolbar" id="paginate" per-page="10" range="5" emit="docs" subscribe="docs"/>
+                        <pb-restricted login="login" slot="toolbar">
+                            <pb-ajax emit="docs" url="api/odd" method="post" data-template="lib:parse-params" event="pb-search-resubmit" title="Recompile ODD" data-i18n="[title]odd.manage.regenerate-all">
+                                <h3 slot="title">
+                                    <pb-i18n key="odd.manage.regenerate-all"/>
+                                </h3>
+                                <paper-icon-button icon="icons:update"/>
+                            </pb-ajax>
+                        </pb-restricted>
+                        <div slot="header" class="timeline">
+                            <pb-timeline url="api/timeline" scopes='["D", "M", "Y", "5Y", "10Y"]'
+                                resettable=""
+                                subscribe="docs" emit="timeline">
+                                <span slot="label"><pb-i18n key="app.time-range"></pb-i18n>: </span>
+                            </pb-timeline>
+                        </div>
+                    </pb-browse-docs>
+                    <pb-custom-form id="options" style="display: none">
+                        <input slot="searchButtonBottom" type="hidden" name="dates" value="" data-template="templates:form-control"/>
+                    </pb-custom-form>
+                    <aside>
+                        <pb-search action="${app}/search.html" data-template="pages:parse-params" value="${query}" redirect="redirect"/>
+                        <paper-card class="facets">
                             <div class="card-content">
-
-                                    <div class="browse" slot="page">
-                                        <aside data-template="browse:form">
-                                            <!--pb-custom-form class="options" auto-submit="[name=sort]" emit="search"-->
-                                            <pb-custom-form class="options">
-                                                <input type="hidden" name="collection" value="${collection}" data-template="pages:parse-params"/>
-                                                <pb-select label="browse.sort" name="sort" value="${sort}" data-template="pages:parse-params">
-                                                    <paper-item value="title"><pb-i18n key="browse.title"></pb-i18n></paper-item>
-                                                    <paper-item value="author"><pb-i18n key="browse.author"></pb-i18n></paper-item>
-                                                </pb-select>
-                                                <pb-select label="search.scope" name="field" value="${field}" data-template="pages:parse-params">
-                                                    <paper-item value="text"><pb-i18n key="search.content"></pb-i18n></paper-item>
-                                                    <paper-item value="title"><pb-i18n key="search.title"></pb-i18n></paper-item>
-                                                </pb-select>
-                                            </pb-custom-form>
-                                            <pb-search id="search-form" subscribe="search" data-template="pages:parse-params" value="${query}"
-                                                subforms=".facets,.options" submit-on-load="submit-on-load">
-                                                <paper-button slot="searchButton"><pb-i18n key="search.search">Search</pb-i18n></paper-button>
-                                            </pb-search>                                            
-                                            <pb-custom-form class="facets" url="api/search/facets" event="pb-results-received" subscribe="search" emit="search"></pb-custom-form>
-                                        </aside>
-                                        <div id="document-list">
-                                            <pb-paginate id="paginate" per-page="10" range="5" subscribe="search" emit="search"></pb-paginate>
-                                            <pb-load url="api/collection" expand="" emit="search"></pb-load>
-                                            <!--pb-browse url="api/collection" emit="search"></pb-browse-->
-                                        </div>
-                                    </div>
+                                <pb-custom-form id="facets" url="api/search/facets" event="pb-results-received" subscribe="docs" emit="docs"/>
                             </div>
                         </paper-card>
+                    </aside>
                 </section>
             </main>
             <footer data-template="templates:include" data-template-path="templates/footer.html"/>

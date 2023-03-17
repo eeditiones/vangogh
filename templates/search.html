@@ -1,23 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <html>
-    <head>
-        <meta charset="utf-8"/>
-        <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"/>
-        <link rel="shortcut icon" type="image/x-icon" href="resources/images/favicon.ico"/>
-        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-16.png" sizes="16x16"/>
-        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-24.png" sizes="24x24"/>
-        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-32.png" sizes="32x32"/>
-        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-64.png" sizes="64x64"/>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"/>
+    <link rel="shortcut icon" type="image/x-icon" href="resources/images/favicon.ico"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-16.png" sizes="16x16"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-24.png" sizes="24x24"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-32.png" sizes="32x32"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-64.png" sizes="64x64"/>
 
-        <title data-template="config:app-title"></title>
-        <link rel="stylesheet" href="resources/css/theme.css"/>
-        <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"></script>
+    <title data-template="config:app-title"/>
+    <link rel="stylesheet" type="text/css" href="resources/fonts/font.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald&amp;display=swap"/>
+    <link rel="stylesheet" href="resources/css/theme.css"/>
+    <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
+    <link rel="stylesheet" href="resources/css/vangogh.css"/>
 
-        <style>
+
+    <style>
             main {
                 display: flex;
                 flex-direction: row;
-                margin-top: 10px;
+                background: #e5efed;
+                padding: 50px;
+                margin-top: 64px;
             }
 
             .search-panel {
@@ -51,15 +57,24 @@
                 justify-content: flex-start;
             }
             #results .count {
-                margin-right: 20px;
-                font-weight: bold;
+                display:flex;
+                border-radius:50%;
+                width:26px;
+                height:26px;
+                justify-content:center;
+                align-items:center;
+                color:#56aebc;
+                border:thin solid #56aebc;
+            }
+            #results .breadcrumbs{
+                margin:0;
             }
             .breadcrumb:link, .breadcrumb:visited {
                 text-decoration: none;
                 color: var(--paper-grey-600);
             }
             .breadcrumb:before {
-                content: '>';
+                content: '&gt;';
                 padding: 0 8px;
                 font-weight: bold;
             }
@@ -67,17 +82,25 @@
                 content: '';
             }
             .matches {
-                display: table;
+                display: block;
                 margin-left: 20px;
                 margin-top: 10px;
                 font: var(--pb-results-body-font);
             }
             .matches p {
-                display: table-row;
+                display: grid;
+                grid-template-columns:45% auto 45%;
+                grid-gap:0.5rem;
+                color:black;
             }
-            .matches p * {
-                display: table-cell;
-                padding: 4px 8px;
+            .matches .previous{
+                justify-self:end;
+            }
+            .matches a{
+                justify-self:center;
+            }
+            .matches .following{
+                justify-self:start;
             }
 
             .hi {
@@ -101,48 +124,73 @@
                 padding-left: 1em;
                 vertical-align: middle;
             }
+            .menubar{
+                background-color: #EECC66;
+                background-image: url(resources/images/background.jpg);
+                --pb-download_-_color: white;
+            }
+            app-toolbar:nth-child(2){
+                background: #56aebc;
+                color: white;
+                z-index: -1;
+                position: absolute;
+                width: 100%;
+            }
+            [unresolved]{
+                display:none;
+            }
         </style>
-    </head>
+</head>
 
-    <body>
-        <pb-page data-template="pages:pb-page" api-version="1.0" unresolved="unresolved" theme="resources/css/components.css">
-            <app-drawer-layout force-narrow="force-narrow">
-                <app-drawer slot="drawer" align="right">
-                    <div class="drawer-content">
-                        <pb-media-query query="(max-width: 1023px)">
-                            <div data-template="lib:include" data-template-path="templates/menu-drawer.html"/>
-                        </pb-media-query>
+<body unresolved="unresolved">
+<pb-page data-template="pages:pb-page" unresolved="unresolved">
+    <app-header-layout>
+        <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
+            <app-toolbar data-template="lib:include" data-template-path="templates/menu.html"/>
+            <app-toolbar>
+                <pb-paginate per-page="10" range="5" subscribe="results"/>
+                <pb-progress indeterminate="indeterminate" bottom-item="bottom-item"/>
+            </app-toolbar>
+        </app-header>
+
+        <main>
+            <pb-load id="results" url="api/search" emit="results"/>
+            <div class="search-panel">
+                <paper-card>
+                    <div class="card-content">
+                        <pb-search id="search-form" subscribe="search" data-template="pages:parse-params" value="${query}" submit-on-load="submit-on-load">
+                            <div class="targets">
+                                <paper-checkbox name="field" value="text">Search sections</paper-checkbox>
+                                <paper-checkbox name="field" value="head">Search headings</paper-checkbox>
+                            </div>
+                            <pb-custom-form id="facets" url="api/search/facets" subscribe="results" event="pb-results-received" emit="search"/>
+                        </pb-search>
                     </div>
-                </app-drawer>
-                <app-header-layout>
-                    <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
-                        <app-toolbar data-template="lib:include" data-template-path="templates/menu.html"/>
-                        <app-toolbar>
-                            <pb-paginate per-page="10" range="5" subscribe="results"></pb-paginate>
-                            <pb-progress indeterminate="indeterminate" bottom-item="bottom-item"/>
-                        </app-toolbar>
-                    </app-header>
-                    <main>
-                        <pb-load id="results" url="api/search" emit="results"></pb-load>
-                        <div class="search-panel">
-                            <paper-card>
-                                <div class="card-content">
-                                    <pb-search id="search-form" subscribe="search"
-                                        data-template="pages:parse-params" value="${query}" submit-on-load="submit-on-load">
-                                        <div class="targets">
-                                            <paper-checkbox name="field" value="text">Search sections</paper-checkbox>
-                                            <paper-checkbox name="field" value="head">Search headings</paper-checkbox>
-                                        </div>
-                                        <pb-custom-form id="facets" url="api/search/facets" subscribe="results" event="pb-results-received" emit="search"/>
-                                    </pb-search>
-                                </div>
-                            </paper-card>
-                        </div>
-                    </main>
-                </app-header-layout>
-            </app-drawer-layout>
-        </pb-page>
-        <div class="splash"></div>
-        <script src="resources/scripts/browse.js"></script>
-    </body>
+                </paper-card>
+            </div>
+        </main>
+    </app-header-layout>
+</pb-page>
+<script>
+            const facets = document.getElementById('facets');
+            if (facets) {
+                facets.addEventListener('pb-custom-form-loaded', function(ev) {
+                    const elems = ev.detail.querySelectorAll('.facet');
+                    elems.forEach(facet =&gt; {
+                        facet.addEventListener('change', () =&gt; {
+                            const table = facet.closest('table');
+                            if (table) {
+                                const nested = table.querySelectorAll('.nested .facet').forEach(nested =&gt; {
+                                    if (nested != facet) {
+                                        nested.checked = false;
+                                    }
+                                });
+                            }
+                            facets._submit();
+                        });
+                    });
+                });
+            }
+        </script>
+</body>
 </html>

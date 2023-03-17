@@ -15,7 +15,7 @@ import module namespace custom="http://teipublisher.com/api/custom" at "../../cu
 import module namespace query="http://www.tei-c.org/tei-simple/query" at "../query.xql";
 import module namespace nav="http://www.tei-c.org/tei-simple/navigation" at "../navigation.xql";
 
-declare function capi:list($request as map(*)) {
+declare function capi:list($request as map(*)) {    
     let $path := if ($request?parameters?path) then xmldb:decode($request?parameters?path) else ()
     let $params := capi:params2map($path)
     let $cached := session:get-attribute($config:session-prefix || ".works")

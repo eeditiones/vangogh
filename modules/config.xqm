@@ -24,8 +24,10 @@ declare namespace tei = "http://www.tei-c.org/ns/1.0";
  :)
 declare variable $config:origin-whitelist := (
     "(?:https?://localhost:.*|https?://127.0.0.1:.*)",
+    "https?://jsdelivr.net",
     "https?://unpkg.com",
     "https?://cdpn.io",
+    "https://cdn.tei-publisher.com",
     "https?://teipublisher.onrender.com"
 );
 
@@ -66,6 +68,7 @@ declare variable $config:webcomponents := "2.1.0";
  :)
 (: declare variable $config:webcomponents-cdn := "https://unpkg.com/@teipublisher/pb-components"; :)
 declare variable $config:webcomponents-cdn := "https://cdn.jsdelivr.net/npm/@teipublisher/pb-components";
+(: declare variable $config:webcomponents-cdn := "https://cdn.tei-publisher.com/"; :)
 (: declare variable $config:webcomponents-cdn := "http://localhost:8000"; :)
 
 (:~
@@ -95,7 +98,7 @@ declare variable $config:default-template :="vangogh.html";
 (:
  : The element to search by default, either 'tei:div' or 'tei:body'.
  :)
-declare variable $config:search-default :="tei:body";
+declare variable $config:search-default := "tei:text";
 
 (:
  : Defines which nested divs will be displayed as single units on one
@@ -161,6 +164,7 @@ declare variable $config:facets := [
         "hierarchical": false()
     }
 ];
+
 
 (:
  : The function to be called to determine the next content chunk to display.
@@ -340,14 +344,19 @@ declare variable $config:data-root := $config:app-root || "/data";
  :)
 declare variable $config:data-default := $config:data-root;
 
+
+(:~
+ : Location of the taxonomies.
+ :)
+declare variable $config:taxonomy := $config:data-root || "/taxonomy.xml";
+
 (:~
  : A sequence of root elements which should be excluded from the list of
  : documents displayed in the browsing view.
  :)
-declare variable $config:data-exclude :=
-    doc($config:data-root || "/taxonomy.xml")/tei:TEI,
-    doc($config:data-root || "/people.xml")/tei:TEI
-
+declare variable $config:data-exclude := 
+    doc($config:data-root || "/taxonomy.xml")//tei:text,
+    doc($config:data-root || "/people.xml")//tei:text
 ;
 
 declare variable $config:default-odd :="vangogh.odd";
