@@ -48,8 +48,10 @@ declare function dapi:delete($request as map(*)) {
     return
         if ($doc) then
             let $del := xmldb:remove(util:collection-name($doc), util:document-name($doc))
-            return
-                router:response(410, '')
+            return (
+                session:set-attribute($config:session-prefix || ".works", ()),
+                router:response(204, 'Document deleted')
+            )
         else
             error($errors:NOT_FOUND, "Document " || $id || " not found")
 };
@@ -200,7 +202,7 @@ declare %private function dapi:webcomponents($components as xs:string?) {
             font-size: var(--pb-footnote-font-size, var(--pb-content-font-size, 75%));
         }}
         </style>,
-        <script defer="defer" src="https://unpkg.com/@webcomponents/webcomponentsjs@2.4.3/webcomponents-loader.js"></script>,
+        <script defer="defer" src="https://cdn.jsdelivr.net/npm/web-components-loader/lib/index.min.js"></script>,
         switch ($config:webcomponents)
             case "dev" return
                 <script type="module" src="{$config:webcomponents-cdn}/src/pb-components-bundle.js"></script>
@@ -354,13 +356,13 @@ declare function dapi:epub($request as map(*)) {
         if (exists($work)) then
             let $entries := dapi:work2epub($request, $id, $work, $request?parameters?lang)
             return
-                (
+                ( 
                     if ($request?parameters?token) then
                         response:set-cookie("simple.token", $request?parameters?token)
                     else
                         (),
                     response:set-header("Content-Disposition", concat("attachment; filename=", concat($id, '.epub'))),
-                    response:stream-binary(
+                    response:stream-binary( 
                         compression:zip( $entries, true() ),
                         'application/epub+zip',
                         concat($id, '.epub')
@@ -371,7 +373,13 @@ declare function dapi:epub($request as map(*)) {
 };
 
 declare %private function dapi:work2epub($request as map(*), $id as xs:string, $work as document-node(), $lang as xs:string?) {
-    let $config := $config:epub-config($work, $lang)
+    let $imagesCollection := $request?parameters?images-collection
+    let $coverImage := $request?parameters?cover-image
+    let $config := map:merge(($config:epub-config($work, $lang), map {
+        'imagesCollection': $imagesCollection,
+        'skipTitle': $request?parameters?skip-title,
+        'coverImage': $coverImage
+    }))
     let $odd := head(($request?parameters?odd, $config:default-odd))
     let $oddName := replace($odd, "^([^/\.]+).*$", "$1")
     let $cssDefault := util:binary-to-string(util:binary-doc($config:output-root || "/" || $oddName || ".css"))
