@@ -544,12 +544,12 @@ window.addEventListener("WebComponentsReady", () => {
 
 	document.querySelectorAll('.form-ref [slot="prefix"]').forEach(elem => {
 		elem.addEventListener("click", () => {
-		window.pbEvents.emit("pb-authority-lookup", "transcription", {
-			type,
-			query: text,
+			window.pbEvents.emit("pb-authority-lookup", "transcription", {
+				type,
+				query: text,
+			});
+			authorityDialog.open();
 		});
-		authorityDialog.open();
-	});
 	});
 
 	// check if annotations were saved to local storage
@@ -582,19 +582,19 @@ window.addEventListener("WebComponentsReady", () => {
 		input.addEventListener("value-changed", () => {
 			const ref = input.value;
 			const authorityInfo = input.parentElement.querySelector('.authority-info');
-		if (ref && ref.length > 0) {
-			authorityInfo.innerHTML = `Loading ${ref}...`;
-			document
-				.querySelector("pb-authority-lookup")
+			if (ref && ref.length > 0) {
+				authorityInfo.innerHTML = `Loading ${ref}...`;
+				document
+					.querySelector("pb-authority-lookup")
 					.lookup(type, input.value, authorityInfo)
-				.then(findOther)
-				.catch((msg) => {
-					authorityInfo.innerHTML = `Failed to load ${ref}: ${msg}`;
-				});
-		} else {
-			authorityInfo.innerHTML = "";
-		}
-	});
+					.then(findOther)
+					.catch((msg) => {
+						authorityInfo.innerHTML = `Failed to load ${ref}: ${msg}`;
+					});
+			} else {
+				authorityInfo.innerHTML = "";
+			}
+		});
 	});
 
 	/**
