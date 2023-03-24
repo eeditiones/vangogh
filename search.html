@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="resources/css/theme.css"/>
         <link rel="stylesheet" type="text/css" href="resources/fonts/font.css"/>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald"/>
-        <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"></script>
+        <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
 
         <custom-style>
             <style>
@@ -257,11 +257,11 @@
                 facets.addEventListener('pb-custom-form-loaded', function(ev) {
                     const elems = ev.detail.querySelectorAll('.facet');
                     console.log(elems.length);
-                    elems.forEach(facet => {
-                        facet.addEventListener('change', () => {
+                    elems.forEach(facet =&gt; {
+                        facet.addEventListener('change', () =&gt; {
                             const table = facet.closest('table');
                             if (table) {
-                                const nested = table.querySelectorAll('.nested .facet').forEach(nested => {
+                                const nested = table.querySelectorAll('.nested .facet').forEach(nested =&gt; {
                                     if (nested != facet) {
                                         nested.checked = false;
                                     }
@@ -273,6 +273,6 @@
                 });
             </script>
         </pb-page>
-        <div class="splash"></div>
+        <div class="splash"/>
     </body>
 </html>

@@ -1,0 +1,21 @@
+body{
+    color:white;
+    background:#75a4aa;
+
+    --suggestions-item: {
+        color: var(--pb-search-suggestions-color, black);
+    };
+    --suggestions-wrapper: {
+        background: var(--pb-search-suggestions-background, white);
+    }
+}
+
+@font-face {
+    font-family: 'vincent';
+    src: url('resources/fonts/P22_Vincent_Regular.ttf');
+}
+pb-page{
+    background-image: url('resources/images/vvg-almond-blossom-lr.jpg');
+    background-repeat: repeat-y;
+}
+

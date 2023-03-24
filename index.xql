@@ -29,7 +29,7 @@ declare function idx:parse-date($date as xs:string) {
     else if (matches($date, "\d{4}")) then
         replace($date, "^.*(\d{4}).*$", "$1") || "-01-01"
     else
-        xs:date("1970-01-01")
+        xs:date("1000-01-01")
 };
 
 declare function idx:extract-date($date as xs:string?) {
@@ -41,7 +41,7 @@ declare function idx:extract-date($date as xs:string?) {
         else
             idx:parse-date($date)
     else
-        xs:date("1970-01-01")
+        xs:date("1000-01-01")
 };
 
 

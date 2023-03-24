@@ -1,0 +1,505 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"/>
+    <link rel="shortcut icon" type="image/x-icon" href="resources/images/favicon.ico"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-16.png" sizes="16x16"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-24.png" sizes="24x24"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-32.png" sizes="32x32"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-64.png" sizes="64x64"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald&amp;display=swap"/>
+    <link rel="stylesheet" href="resources/css/theme.css"/>
+
+    <title data-template="config:app-title"/>
+    <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
+    <custom-style>
+        <style is="custom-style">
+            body{
+                color:white;
+                background:#75a4aa;
+
+                --suggestions-item: {
+                    color: var(--pb-search-suggestions-color, black);
+                };
+                --suggestions-wrapper: {
+                    background: var(--pb-search-suggestions-background, white);
+                }
+                --pb-link-color:white;
+            }
+
+            @font-face {
+                font-family: 'vincent';
+                src: url('resources/fonts/P22_Vincent_Regular.ttf');
+            }
+            pb-page{
+                background-image: url('resources/images/vvg-almond-blossom-lr.jpg');
+                background-repeat: repeat-y;
+            }
+            app-header{
+                position:fixed;
+                top:0;
+                left:0;
+                width:100%;
+                height:340px;
+                --app-header-background-front-layer: {
+                    background: transparent;
+                };
+
+                --app-header-background-rear-layer: {
+                    background: #6d9ca2;
+                };
+            }
+
+            app-toolbar{
+                height:64px;
+                background:transparent;
+            }
+
+            .cropper{
+                overflow:hidden;
+                border-radius:50%;
+                width:160px;
+                height:160px;
+                margin:0 auto;
+                box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14),
+                0 3px 14px 2px rgba(0, 0, 0, 0.12),
+                0 5px 5px -3px rgba(0, 0, 0, 0.4);
+            }
+
+            header div{
+                color:black;
+                padding-top:0.1rem;
+            }
+
+            .portrait{
+                width:160px;
+            }
+
+            main {
+                margin: 0 auto;
+                max-width: 800px;
+                background: rgba(0,0,0,0.5);
+                padding: 0.5rem;
+                animation: fadein 0.6s;
+                padding-bottom: 10rem;
+                margin-bottom: 1rem;
+                color:white;
+            }
+
+            .content-body.single-col {
+                grid-template-columns: minmax(auto, 64rem);
+                justify-content: center;
+            }
+
+            pb-split-list{
+                transform:height 0.4s;
+            }
+            pb-split-list > span {
+                display:block;
+            }
+
+
+            pb-split-list::part("category"){
+                color:white;
+            }
+
+            pb-split-list::part(active-item) {
+                color: white !important;
+            }
+
+            pb-split-list::part(items) {
+                margin-top: 1em;
+            }
+
+            pb-split-list a, pb-split-list a:link{
+                color:white;
+                font-size:1.4rem;
+
+            }
+
+            pb-split-list header a{
+                color:white;
+            }
+
+            .notes{
+                display:block;
+            }
+
+            #paginate{
+                width:100%;
+            }
+            #paginate[start!="41"]{
+                animation:fadein 1s;
+            }
+
+            @media (max-width: 768px) {
+                main {
+                    margin: 0 8px 0 8px;
+                }
+
+                .documents {
+                    padding-left: 10px;
+                }
+
+                .documents .label {
+                    display: none;
+                }
+
+                .toolbar pb-search {
+                    padding-left: 0;
+                }
+            }
+            .menu{
+                text-align: center;
+                margin:-1.2rem auto 0;
+                color:white;
+                position:absolute;
+                left:50%;
+                transform:translateX(-50%);
+            }
+            .menu a, .menu a:link{
+                color:white;
+                font-size:1.2rem;
+                font-weight:500;
+            }
+
+            .menubar {
+                background-color: transparent;
+
+                --pb-download: {
+                    color: black;
+                };
+            }
+
+            .menubar a, .menubar paper-menu-button {
+                color: black;
+                font-weight: 400;
+            }
+
+            pb-login {
+                --pb-login-theme: {
+                    color: black;
+                    font-weight: 400;
+                }
+            }
+
+            pb-lang {
+                --pb-lang-item-color: black;
+                --pb-lang-label-color:var(--paper-grey-200);
+            }
+
+            .logo img {
+                width: auto;
+            }
+
+            .tp-title {
+                /*font-family: "Oswald",Verdana,"Helvetica",sans-serif;*/
+                font-size: 64px;
+                font-weight: 400;
+                color:white;
+                font-family:"vincent";
+                margin-top:4px;
+                text-align:center;
+                width:100%;
+                margin-bottom:10px;
+            }
+
+            .tp-title span {
+                color: #9e9e9e;
+                font-size: 26px;
+                margin-top: 12px;
+            }
+
+            pb-results {
+                overflow: scroll;
+                margin: 0 20px;
+                height: calc(100vh - 128px);
+            }
+
+            @media (min-width: 1024px) {
+                .panels {
+                    display: flex;
+                    flex-direction: row;
+                }
+
+                .panels .documents {
+                    flex: 2 auto;
+                }
+            }
+
+            .panels {
+                margin-bottom: 40px;
+            }
+
+            .panels .documents {
+                flex: 2;
+                display: block;
+                margin-bottom: 22px;
+
+                --paper-card-header: {
+                    background-color: #7db9bd;
+                };
+
+                --paper-card-header-text: {
+                    font-family: "Oswald",Verdana,"Helvetica",sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                };
+            }
+
+            .panels pb-browse-docs {
+                margin-right:20px;
+                flex:3;
+                --pb-search-label: #ffffff;
+                --pb-search-input: #ffffff;
+                animation: slideUp 0.6s ease;
+
+            }
+
+            .tei-publicationStmt1 a{
+                display:none;
+            }
+
+            .documents li {
+                display: flex;
+                flex-direction: row;
+                margin-bottom: 10px;
+                background:white;
+                opacity:0.9;
+                margin-bottom:20px;
+            }
+
+            .documents .document-select {
+                flex: 0 0;
+            }
+            .documents .document-info app-toolbar{
+                display:none;
+            }
+            h1, h2, h3, h4, h5, h6 {
+                font-family: "Oswald",Verdana,"Helvetica",sans-serif;
+                font-weight: 400 !important;
+                line-height: 1.2;
+            }
+            h5 {
+                font-size: 22px;
+                margin: 0;
+                color:#315b71;
+            }
+
+            [condensed-title] {
+                margin: 0;
+                overflow: hidden;
+                font-family:"vincent";
+                font-size:32px !important;
+                font-weight:700;
+                color:#c7cb77;
+                text-shadow:2px 2px #315b71;
+            }
+            pb-search {
+                --pb-search-label-color: #e0e0e0;
+                --pb-search-input-color: #f5f5f5;
+                --pb-search-focus-color: var(--paper-orange-500);
+                width:200px;
+                display:block;
+            }
+            .condensed paper-icon-button{
+                color:black;
+            }
+
+            pb-login{
+                width:100%;
+            }
+            footer {
+                background: #afad87 !important;
+                padding: 10px 20px;
+            // position:fixed;
+                bottom:0;
+            }
+
+            app-drawer pb-login {
+                margin: 20px 0 0 0;
+            }
+            .gitlab {
+                display: flex;
+                align-items: center;
+                color: black;
+                margin-right: 16px;
+            }
+
+            .gitlab img {
+                background-size: 100% 100%;
+                height: 40px;
+            }
+
+            .splash {
+                background-image: url(resources/images/SelbstPortrait_VG2.jpg);
+            }
+
+            .wrapper{
+                height:100vh;
+            }
+            @keyframes fadein {
+                0% {
+                    opacity:0;
+                }
+                30%{
+                    opacity:0.7;
+                }
+                100% {
+                    opacity:1;
+                }
+            }
+            @keyframes grow {
+                0% {
+                    opacity:0;
+                    transform:scale(0);
+                }
+                100% {
+                    transform:scale(1);
+                    opacity:1;
+                }
+            }
+            @keyframes slideLeft {
+                0% {
+                    opacity:0;
+                    transform:translateX(100px);
+                }
+                100% {
+                    transform:translateX(0px);
+                    opacity:1;
+                }
+            }
+            @keyframes slideRight {
+                0% {
+                    opacity:0.3;
+                    transform:translateX(-100px);
+                }
+                50% {
+                    opacity:0.3
+                }
+                75% {
+                    opacity:0.5;
+                }
+                90% {
+                    opacity:0.9;
+                }
+                100% {
+                    transform:translateX(0px);
+                    opacity:1;
+                }
+            }
+
+            @keyframes slideDown {
+                0% {
+                    opacity:0.3;
+                    transform:translateY(-300px);
+                }
+                50% {
+                    opacity:0.3
+                }
+                75% {
+                    opacity:0.5;
+                }
+                90% {
+                    opacity:0.9;
+                }
+                100% {
+                    transform:translateY(0px);
+                    opacity:1;
+                }
+            }
+            @keyframes slideUp {
+                0% {
+                    opacity:0.3;
+                    transform:translateY(100px);
+                }
+                50% {
+                    opacity:0.7
+                }
+                100% {
+                    transform:translateY(0px);
+                    opacity:1;
+                }
+            }
+
+        </style>
+    </custom-style>
+</head>
+<body class="fullbleed">
+<pb-page data-template="pages:pb-page" unresolved="unresolved" subscribe="transcription">
+    <app-drawer-layout force-narrow="force-narrow">
+        <app-drawer slot="drawer" align="right">
+            <div class="drawer-content">
+                <pb-lang name="lang" label="language" data-template="pages:languages">
+                </pb-lang>
+                <a href="http://gitlab.existsolutions.com/tei-publisher/vangogh" title="View code on Gitlab" class="gitlab" target="_blank">
+                    Source code <img src="resources/images/wm_no_bg.svg"/>
+                </a>
+                <pb-login id="login" group="tei">
+                    <iron-icon slot="icon" icon="account-circle"/>
+                </pb-login>
+            </div>
+        </app-drawer>
+        <app-header-layout>
+            <app-header slot="header" condenses="condenses" fixed="fixed" effects="parallax-background blend-background resize-title">
+
+                <app-toolbar style="height:64px;">
+                    <div condensed-title="condensed-title" data-template="config:app-title"/>
+                    <paper-icon-button icon="icons:menu" drawer-toggle="drawer-toggle"/>
+                    <pb-progress indeterminate="indeterminate" bottom-item="bottom-item"/>
+                </app-toolbar>
+
+                <div class="cropper">
+                    <img class="portrait" src="resources/images/SelbstPortrait_VG2.jpg"/>
+                </div>
+                <h1 class="tp-title" main-title="main-title" data-template="config:app-title"/>
+                <div class="menu">
+                    <a href="../index.html">Home</a> | <a href="../letters.html">Letters</a>
+                </div>
+                <pb-progress indeterminate="indeterminate" bottom-item="bottom-item"/>
+            </app-header>
+
+            <main>
+                <h2>Persons in letters</h2>
+                <pb-custom-form id="options" auto-submit="paper-input,paper-icon-button" emit="transcription">
+                    <paper-input name="search" label="Search" data-template="templates:form-control">
+                        <paper-icon-button icon="search" slot="suffix"></paper-icon-button>
+                    </paper-input>
+                </pb-custom-form>
+                <pb-split-list url="api/people" subforms="#options" selected="A" emit="transcription" subscribe="transcription"/>
+            </main>
+            <footer data-template="templates:include" data-template-path="templates/footer.html"/>
+        </app-header-layout>
+    </app-drawer-layout>
+    <paper-dialog id="downloadDialog">
+        <h2>
+            <pb-i18n key="dialogs.generatingFile">Generating File...</pb-i18n>
+        </h2>
+        <paper-dialog-scrollable>
+            <pb-i18n key="dialogs.downloadMessage"/>
+        </paper-dialog-scrollable>
+        <div class="buttons">
+            <paper-button dialog-confirm="dialog-confirm" autofocus="autofocus">
+                <pb-i18n key="dialogs.close">Close</pb-i18n>
+            </paper-button>
+        </div>
+    </paper-dialog>
+    <paper-dialog id="errorDialog">
+        <h2>
+            <pb-i18n key="dialogs.error">Error</pb-i18n>
+        </h2>
+        <paper-dialog-scrollable/>
+        <div class="buttons">
+            <paper-button dialog-confirm="dialog-confirm" autofocus="autofocus">
+                <pb-i18n key="dialogs.close">Close</pb-i18n>
+            </paper-button>
+        </div>
+    </paper-dialog>
+</pb-page>
+<div class="splash">
+    <div class="cropper">
+        <img class="portrait" src="resources/images/SelbstPortrait_VG2.jpg"/>
+    </div>
+</div>
+</body>
+</html>
