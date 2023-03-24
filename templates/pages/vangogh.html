@@ -49,6 +49,8 @@
                     --pb-facsimile-height: calc(var(--pb-view-height) - 89px);
 
                     /* --pb-panel-max-height: var(--pb-view-height); */
+
+                    background:#e5efed;
                 }
 
                 .menubar {
@@ -138,8 +140,7 @@
                     display: flex;
                     justify-content: center;
                     padding: 0 20px;
-                    background:#e5efed;
-                    min-height: calc(100vh - 275px);
+                    margin-bottom: 200px;
                 }
 
                 .content-body pb-view {
@@ -151,17 +152,15 @@
                 }
 
                 .breadcrumbs {
-                    display: flex;
-                    justify-content: space-between;
-                    align-self: center;
                     background:#efe9d1;
-                    padding:10px 0 0 20px;
-                    margin:0;
+                    margin: 0;
+                    justify-content: space-between;
                 }
                 .breadcrumbs pb-view{
                     padding:4px;
                     letter-spacing:1.5px;
                 }
+
                 pb-progress{
                     --pb-progress-color:#2b7d8d;
                 }
@@ -172,10 +171,12 @@
                 .menubar{
                     color:white;
                 }
-                pb-grid-action{
-                    margin-top:-6px;
-                }
+
                 footer {
+                    position: fixed;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
                     display: flex;
                     background: #afad87 !important;
                     padding: 10px 20px;
@@ -215,19 +216,17 @@
                     <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
                         <app-toolbar data-template="templates:include" data-template-path="templates/menu.html"/>
                         <app-toolbar data-template="templates:include" data-template-path="templates/toolbar.html"/>
-                    </app-header>
-
-                    <section class="breadcrumbs">
-                        <div>
+                        <app-toolbar class="breadcrumbs">
                             <pb-view id="title-view1" src="document1" xpath="//teiHeader" view="single">
                                 <pb-param name="header" value="letter"/>
                             </pb-view>
-                        </div>
-                        <pb-grid-action action="add" class="grid-add" grid="#grid">
-                            <paper-button>
-                                <iron-icon icon="icons:view-carousel"/> Add</paper-button>
-                        </pb-grid-action>
-                    </section>
+                            <pb-grid-action action="add" class="grid-add" grid="#grid">
+                                <paper-button>
+                                    <iron-icon icon="icons:view-carousel"/> Add</paper-button>
+                            </pb-grid-action>
+                        </app-toolbar>
+                    </app-header>
+
                     <main class="content-body">
                         <pb-grid id="grid" panels="[0, 2]" subscribe="transcription" emit="transcription">
                             <template>
