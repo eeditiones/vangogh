@@ -44,26 +44,27 @@
     </target>
 
     <target name="prepare">
-      <copy todir="resources/scripts">
-        <fileset dir="${scripts.dir}">
-            <include name="*.js" />
-            <include name="*.map" />
+      <copy todir="${app.build.dir}/resources/images">
+        <fileset dir="${basedir}/node_modules/@teipublisher/pb-components/images">
+            <include name="leaflet/*" />
+            <include name="openseadragon/*" />
         </fileset>
       </copy>
-      <copy todir="resources/images">
-          <fileset dir="node_modules/@teipublisher/pb-components/images">
-              <include name="leaflet/*"/>
-              <include name="openseadragon/*"/>
+      <copy todir="${app.build.dir}/resources/scripts">
+          <fileset dir="${scripts.dir}">
+              <include name="*.js" />
+              <include name="*.map" />
           </fileset>
       </copy>
-      <copy todir="resources/css">
-          <fileset dir="node_modules/@teipublisher/pb-components/css"/>
+      <copy todir="${app.build.dir}/resources/css">
+          <fileset dir="${basedir}/node_modules/@teipublisher/pb-components/css" />
       </copy>
-      <copy todir="resources/lib">
-          <fileset dir="node_modules/@teipublisher/pb-components/lib"/>
+
+      <copy todir="${app.build.dir}/resources/lib">
+          <fileset dir="${basedir}/node_modules/@teipublisher/pb-components/lib">
+          </fileset>
       </copy>
-      
-      <copy todir="resources/i18n/common">
+      <copy todir="${app.build.dir}/resources/i18n/common">
           <fileset dir="${scripts.dir}/../i18n/common" />
       </copy>
     </target>
