@@ -44,35 +44,28 @@
     </target>
 
     <target name="prepare">
-        <copy todir="${app.build.dir}/resources/scripts">
-            <fileset dir="${scripts.dir}">
-                <include name="*.js"/>
-                <include name="*.map"/>
-            </fileset>
-        </copy>
-        <copy todir="${app.build.dir}/resources/css">
-            <fileset dir="node_modules/@teipublisher/pb-components/css">
-            </fileset>
-        </copy>
-        <copy todir="${app.build.dir}/resources/lib">
-            <fileset dir="node_modules/@teipublisher/pb-components/lib">
-            </fileset>
-        </copy>
-        <copy todir="${app.build.dir}/resources/images">
-            <fileset dir="node_modules/@teipublisher/pb-components/images">
-                <include name="*/*.png"/>
-            </fileset>
-        </copy>
-        <copy todir="${app.build.dir}/resources/i18n">
-            <fileset dir="node_modules/@teipublisher/pb-components/i18n" />
-        </copy>
-        <copy todir="${app.build.dir}/resources/images/openseadragon">
-            <fileset dir="node_modules/openseadragon/build/openseadragon/images"/>
-        </copy>
-        <copy file="node_modules/openseadragon/build/openseadragon/openseadragon.min.js" todir="${app.build.dir}/resources/lib"/>
-        <copy todir="${app.build.dir}/resources/css/prismjs">
-            <fileset dir="node_modules/prismjs/themes"/>
-        </copy>
+      <copy todir="resources/scripts">
+        <fileset dir="${scripts.dir}">
+            <include name="*.js" />
+            <include name="*.map" />
+        </fileset>
+      </copy>
+      <copy todir="resources/images">
+          <fileset dir="node_modules/@teipublisher/pb-components/images">
+              <include name="leaflet/*"/>
+              <include name="openseadragon/*"/>
+          </fileset>
+      </copy>
+      <copy todir="resources/css">
+          <fileset dir="node_modules/@teipublisher/pb-components/css"/>
+      </copy>
+      <copy todir="resources/lib">
+          <fileset dir="node_modules/@teipublisher/pb-components/lib"/>
+      </copy>
+      
+      <copy todir="resources/i18n/common">
+          <fileset dir="${scripts.dir}/../i18n/common" />
+      </copy>
     </target>
 
     <target name="xar" depends="clean,filter">

@@ -1,23 +1,8 @@
 {
-  "scripts": {
-    "start": "npm install && npm run build:production",
-    "build:production": "rollup -c rollup.config.js --environment BUILD:production",
-    "clean": "rimraf node_modules/@teipublisher/pb-components && npm install",
-    "build": "rollup -c rollup.config.js",
-    "watch": "rollup -c rollup.config.js --watch"
-  },
   "dependencies": {
-    "@teipublisher/pb-components": "1.36.2",
-    "typed.js": "^2.0.12"
+    "@teipublisher/pb-components": "2.4.1"
   },
   "name": "vangogh",
-  "version": "1.0.0",
-  "description": "Van Gogh Edition",
-  "devDependencies": {
-    "@rollup/plugin-node-resolve": "latest",
-    "rimraf": "latest",
-    "rollup": "latest",
-    "rollup-plugin-copy": "latest",
-    "rollup-plugin-terser": "latest"
-  }
+  "version": "2.0.0",
+  "description": "Van Gogh Edition"
 }
