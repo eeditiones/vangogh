@@ -60,7 +60,7 @@ declare variable $config:enable-proxy-caching :=
  : In this case, change $config:webcomponents-cdn to point to http://localhost:port
  : (default: 8000, but check where your server is running).
  :)
-declare variable $config:webcomponents := "2.4.1";
+declare variable $config:webcomponents := "2.4.4";
 
 (:~
  : CDN URL to use for loading webcomponents. Could be changed if you created your
@@ -324,13 +324,15 @@ return
 declare variable $config:context-path :=
     let $prop := util:system-property("teipublisher.context-path")
     return
-        if (not(empty($prop)) and $prop != "auto")
-            then ($prop)
-        else if(not(empty(request:get-header("X-Forwarded-Host"))))
-            then ("")
-        else (
+        if (exists($prop)) then
+            if ($prop = "auto") then
+                request:get-context-path() || substring-after($config:app-root, "/db") 
+            else
+                $prop
+        else if (exists(request:get-header("X-Forwarded-Host")))
+            then ""
+        else
             request:get-context-path() || substring-after($config:app-root, "/db")
-        )
 ;
 
 (:~
